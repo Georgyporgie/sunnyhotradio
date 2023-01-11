@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<title> Sunny Hotradio</title>
+ <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<!-- Load FontAwesome icons -->
+  <link rel="stylesheet"
+        href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+ 
+  <!-- Load the custom CSS style file -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style type="text/css">
+    
+ 
+
+
+
+
+
+
+
+
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.header {
+  padding: 10px 16px; 
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;z-index: 1;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+</style>
+
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav" id="myHeader" >
+  <h1 class="header"> <a href="#home" class="active"> <img id= "logo"><img id= "mid"></h1> 
+ 
+<!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+
+<a href="Index.html">Home</a>
+    <a href="contact.html">Contact </a>
+    <a href="about us.html">About us</a>
+    <a href="sign up.html">Sign up</a>
+
+
+</div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction1()">
+    <img class= "ham"  src="images/menu-icon.png">
+  </a>
+</div>
+
+
+
+</head>
+
+<body>
+
+
+
+
+
+
+ <div>
+<br>
+<br>
+<br>
+<br>
+
+<h2>WELCOME TO SUNNY HOTRADIO 24/7
+<br>pick your favorite station below</h2>
+</div>
+
+
+
+<div>
+<h5 class="balk"></h5>
+</div>
+<br>
+<br>
+<br>
+
+
+
+
+<div>
+<h5 class="two">1.</h5>
+<br>
+<a href= "https://sunnyhotradio.netlify.app/med02.html"><img id= "dance"  src=""></a>
+</div>
+<br>
+<br>
+<div>
+<h5 class="balk"></h5>
+</div>
+<br>
+<br>
+<div>
+<h5 class="three">2.</h5>
+<a href= "https://sunnyrockradio.netlify.app"><img id= "rock"></a>
+</div>
+<br>
+<br>
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<div>
+<h5 class="balk"></h5>
+</div>
+<br>
+<div>
+
+
+<h5 class="one">3.</h5>
+<a href= "https://sunnyjazzradio.netlify.app"><img id= "classic"></a>
+</div>
+<br>
+<br>
+<br>
+</div>
+<div>
+<p class="balk"></p>
+</div>
+
+
+
+<br>
+
+
+<audio  id="pub"  autoplay loop>
+ <source src="" type="audio/mpeg" />
+   <source src="" type="audio/wav" />
+</audio>
+<div>
+<h5 id="marquee"> <span><img id="ship">The <em>Sunny Ship</em> Studios</span></h5>
+<br>
+<br>
+<img id= "studio">
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<h6>Sunny Hotradio <em><u>Sponsors</em></u></h6>
+
+<div class="grid-container">
+<div class="item footer">
+
+
+
+<br>
+<a href= "mijn werk.html">
+<img id="bull">
+Portfolio<br>
+Bullseye Productions <br>
+Clientservice: 0640983959<br>
+The Netherlands<br>
+No Rights Reserved
+© 2022
+</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<a href= "https://www.luisterrijk.nl/">
+<img id="luister">
+</a>
+<br>
+<br>
+
+
+<a href= "https://kvms.be/">
+<img id= "kvms">
+</a>
+
+
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<a href= "https://getmimo.com/">
+<img id= "mimo">
+</a>
+
+</div>
+
+<script src= "main.js"> </script>
+
+<script>
+document.getElementById("pub").setAttribute('src', 'muziek/pirate background/Sunny radio jingles.mp3');
+</script>
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("dance");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Dance radio.png';
+</script>
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("classic");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/classic jazz.png';
+</script>
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("rock");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Rock2.png';
+</script>
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("ship");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny Ship.png';
+</script>
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("studio");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny Hotradio studios.png';
+</script>
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("luister");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/luisterrijk.png';
+</script>
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("kvms");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/kvms.png';
+</script>
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("mimo");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/mimo.png';
+</script>
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("bull");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/bullseye-59-376797.png';
+</script>
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("logo");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny hotradio.png';
+</script>
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("mid");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/red star3.png';
+</script>
+
+
+
+
+
+
+
+  
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>

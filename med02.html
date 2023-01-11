@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Sunny Danceradio</title>
+   <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Load FontAwesome icons -->
+  <link rel="stylesheet"
+        href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+ 
+  <!-- Load the custom CSS style file -->
+  <link rel="stylesheet" type="text/css" href="style3.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style type="text/css">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.header {
+  padding: 10px 16px;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0; z-index: 1;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+</style>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav" id = "myHeader">
+   <h1 class="header"> <a href="#home" class="active"><img id= "logo"><img id= "mid">
+
+</a> </h1>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    
+  <a href="Index.html">Home<img id= "dwarf"></a>
+  
+<a href="https://sunnyjazzradio.netlify.app/index.html">Sunny Jazzradio<img id= "lin"></a>
+    <a href="https://sunnyrockradio.netlify.app/index.html">Sunny Rockradio<img id= "ling"></a>
+  
+
+
+
+</div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction1()">
+     <img class= "ham"  src="images/menu icon2.png">
+  </a>
+</div>
+
+
+
+
+</head>
+
+
+
+<body>
+
+<div class = "arrow">
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div id="now"></div>
+
+
+<div class="player">
+ 
+    <!-- Define the section for displaying details -->
+    <div class="details">
+      <div class="now-playing">PLAYING x OF y</div>
+      <div class="track-art"></div>
+      <div class="track-name">Track Name</div>
+      <div class="track-artist">Track Artist</div>
+    </div>
+ 
+    <!-- Define the section for displaying track buttons -->
+    <div class="buttons">
+    
+      <div class="playpause-track" onclick="playpauseTrack()">
+     
+<img id= "media">
+    
+</div>
+     
+    </div>
+
+    <!-- Define the section for displaying the seek slider-->
+    <div class="slider_container">
+      <div class="current-time">00:00</div>
+      <input type="range" min="1" max="100"
+        value="0" class="seek_slider" >
+      <div class="total-duration">00:00</div>
+    </div>
+ 
+    <!-- Define the section for displaying the volume slider-->
+    <div class="slider_container">
+      <i class="fa fa-volume-down"></i>
+      <input type="range" min="1" max="100"
+        value="99" class="volume_slider" onchange="setVolume()">
+      <i class="fa fa-volume-up"></i>
+
+
+
+</div>
+  <br>
+
+<br>
+<div>
+<img id= "astro">
+</div>
+ </div>
+<div id= "marquee"> </div>
+<img id= "myImage">
+
+</div>
+<br>
+<br>
+<br>
+
+
+<button id= "Victor" onclick="document.getElementById('myImage').src='images/North Sea live.gif'"> watch live </button>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div>
+<p id="events">
+
+</p>
+
+<img id= "miss"> 
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div>
+<h5 class="inch"><em> Todays Playlist</em></h5>
+
+
+<ul id="list">
+
+<ol>
+
+<li id="snoop"> </li>
+<li id= "rose"> </li>
+<li id= "herb"> </li>
+<li id="contrast"></li>
+<li id="chinese"> </li>
+<li id="nv">    </li>
+<li id="it">  </li>
+<li id="booker">  </li>
+<li id="gun">   </li>
+<li id="yello">  </li>
+
+<details class="voer">
+<summary class="sum">more</summary>
+<br>
+<br>
+<li id="troye">    </li>
+<li id="shake">  </li>
+<li id="energy" >  </li>
+<li  id="salt"></li>
+<li id="hazel">   </li>
+<li id="toni">     </li>
+<li id="brax">    </li>
+<li id="bert"> </li>
+<li id="round">   </li>
+<li id="smooth">  </li>
+</ol>
+
+</ul>
+</div>
+
+
+ 
+
+
+
+
+<br>
+<br>
+<IFRAME id="weather" SRC="shiphorn2.html" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0  WIDTH=356 HEIGHT=250></IFRAME>
+</div>
+<br>
+<br>
+
+
+<br>
+
+
+<div>
+<br><img id="sunnyr">
+<h5 id="time"> </h5>
+
+
+<br>
+
+<img id= "hero-image">
+   <h3 id="message"></h3>
+
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<div>
+
+
+
+<h5 class= "inch"> <em>Amsterdam Nightlife</em></h5>
+<br>
+
+
+<iframe class= "frame" src="https://www.uitzinnig.nl/8/249/amsterdam.aspx" title="Iframe Example"></iframe>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<div>
+
+<h5 id="twin"><em>Sunny <span id="dark">Hot</span> Stars</em></h5>
+ <br>
+<br>
+<img id= "play">
+
+
+<br>
+<br>
+<br>
+<br>
+<img id= "travolta">
+<h3 id="bebe"></h3>
+<br>
+<br>
+<br>
+<br>
+<img id= "max">
+<h3 id="ava"></h3>
+
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<audio  id="public"  autoplay loop>
+ <source src="" type="audio/mpeg" />
+   <source src="" type="audio/wav" />
+</audio>
+
+<div>
+<h5 class="inch"><em>Weather <span id="dark">Forecast</span></em></h5>
+<br>
+
+<IFRAME class="weather" SRC="https://gadgets.buienradar.nl/gadget/radarfivedays" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=256 HEIGHT=406></IFRAME>
+</div>
+ <div>
+<h5 class="inch"><em>Countdown Timer</em></h5>
+
+
+
+<IFRAME class="weather" SRC="countdown.html" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=345 HEIGHT=506></IFRAME>
+</div>
+
+
+<div>
+<h5 class="inch"><em><span id="dark">Play Find The Treasure</span></em></h5>
+<IFRAME id="cata" SRC="cata.html" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=1 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=340 HEIGHT=706></IFRAME>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div>
+<h2 id= "lib"></h2>
+<br>
+
+<IFRAME id="weather" SRC="soundfx2.html" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0  WIDTH=356 HEIGHT=25></IFRAME>
+<br>
+<IFRAME id="weather" SRC="soundfx.html" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0  WIDTH=356 HEIGHT=25></IFRAME>
+<br>
+
+<IFRAME id="weather" SRC="soundfx3.html" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0  WIDTH=356 HEIGHT=25></IFRAME>
+<br>
+<br>
+<br>
+<br>
+
+</div>
+<div>
+<p id="online"></p>
+  <div class="container">
+   <div class="item"><img id= "users">Peter van Diepen<br><br>NL</div>
+   <div class="item"><img id= "us">Josh Cohen<br><br>USA</div>
+ <div class="item"><img id= "nat">Natascha Kinsky<br><br>UK</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+ </div>
+
+ <br>
+
+
+
+ 
+
+
+
+
+
+
+
+
+<script src="main2.js"></script>
+
+
+
+
+
+
+<script>
+function startTime() {
+  const today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  let s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById("time").innerHTML = "Sunny Time:" + " "  + h + ":" + m + ":" + s;
+ { document.getElementById("time").innerHTML =    + hour + ":0" + minute;
+}window.setInterval(function()  {
+startTime();
+}, 1000);
+}
+
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+<script> 
+document.getElementById("marquee").innerHTML="<span><em>North Sea live footage</em></span>";
+</script>
+
+
+
+
+
+
+
+<script> 
+document.getElementById("events").innerHTML="<em><bold><u>Upcoming Events</em></bold></u><br><br>Today:  <br><br>20.00 - 22.00: <br><em>Dance Express</em> <br><br>22.00 - 00.00: <br><em>Dance Till You Die</em>"; 
+</script>
+
+
+
+
+<script>
+document.getElementById("public").setAttribute('src', 'muziek/pirate background/Sunny mainpirate.mp3');
+</script>
+
+
+
+<script> 
+document.getElementById("lib").innerHTML="<strong> Sound FX library</strong>"; 
+</script>
+
+<script> 
+document.getElementById("online").innerHTML="<strong> 3 users online</strong>"; 
+</script>
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("myImage");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/transparent.png';
+</script>
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("media");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/play7.png';
+</script>
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("mid");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/red star3.png';
+</script>
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("astro");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/red star2.png';
+</script>
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("miss");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny DanceRadio111.png';
+</script>
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("logo");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny dance radio.png';
+</script>
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("sunnyr");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny4.png';
+</script>
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("dwarf");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/red star3.png';
+</script>
+
+
+ <script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("lin");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny6.png';
+</script>
+
+ <script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("ling");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny5.png';
+</script>
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("users");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Peter biker.png';
+</script>
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("us");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/joshcohen.png';
+</script>
+
+
+ <script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("nat");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Natascha Kinsky1.png';
+</script>
+
+
+
+
+
+<script> 
+
+
+
+
+document.getElementById("now").innerHTML="<em><bold>current track</em></bold>"; 
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("hero-image");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Dua Lipa.png';
+</script>
+
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("max");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Ava Max.png';
+</script>
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("travolta");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/The weeknd.png';
+</script>
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("play");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/sunny stars.png';
+</script>
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("play");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/sunny stars.png';
+</script>
+
+
+
+
+
+
+
+
+
+<script> 
+document.getElementById("snoop").innerHTML="Calvin Harris - Stay With Me"; 
+document.getElementById("rose").innerHTML="Jessie Ware - Free Yourself <em>(new)</em>"; 
+document.getElementById("herb").innerHTML="Acraze - Believe"; 
+document.getElementById("contrast").innerHTML="Dua Lipa - Be The One"; 
+document.getElementById("chinese").innerHTML= "Rose Gray - Promise Me"; 
+document.getElementById("nv").innerHTML="Full Flava - Music Is My Way Of Life"; 
+document.getElementById("it").innerHTML="The Weeknd - Take My Breath"; 
+document.getElementById("booker").innerHTML="Con Funk Shun - Ffun"; 
+document.getElementById("gun").innerHTML="Jesse Glyne - Right Here";  
+document.getElementById("yello").innerHTML=" Sunny Ship - The Love Boat Theme "; 
+
+
+
+
+document.getElementById("troye").innerHTML=" The Weeknd - Moth To A Flame"; 
+document.getElementById("shake").innerHTML="MLA - Ship Wrek"; 
+document.getElementById("energy").innerHTML="Iggy Azalea - Switch "; 
+document.getElementById("salt").innerHTML="Alesso & Sentinel - Only You"; 
+document.getElementById("hazel").innerHTML="Camila Cabello - Psychofreak "; 
+document.getElementById("toni").innerHTML="Beverlei Brown - Love You Yes"; 
+document.getElementById("brax").innerHTML="Full Flava - Too Much Too Late"; 
+document.getElementById("bert").innerHTML="Kenny Burke - Risin To The Top"; 
+document.getElementById("round").innerHTML="Belters Only - Make Me Feel Good"; 
+document.getElementById("smooth").innerHTML="Rene & Angela - I'll Be Good"; 
+
+
+
+</script>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

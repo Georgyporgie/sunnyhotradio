@@ -1,0 +1,707 @@
+body {
+  background:linear-gradient(45deg,lightgreen,#66FFCC,#99FFCC); 
+ 
+  /* Smoothly transition the background color */
+  transition: background-color .5s;
+}
+ 
+/* Using flex with the column direction to
+   align items in a vertical direction */
+.player {
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center; margin-top: -90px;
+ }
+.details {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 25px;
+}
+ 
+.track-art {
+  margin: 25px;
+  height: 250px;
+  width: 250px;
+  background-image: URL(
+     "https://source.unsplash.com/Qrspubmx6kE/640x360");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15%; filter: brightness(110%) saturation(115%) contrast(110%) opacity(75%); transform: rotate(0deg);
+border: solid #663300 3px; z-index: 0; display: none;
+}
+ 
+/* Changing the font sizes to suitable ones */
+.now-playing {
+  font-size: 1rem; 
+}
+ 
+.track-name {
+  font-size: 1.4rem; z-index: 0; padding: 6px 9px 6px 9px ; 
+margin-bottom: 9px;background:linear-gradient(90deg,#CC3333,#FF6666,#CC3333); color: white; filter: brightness(110%) saturation(115%) contrast(110%) opacity(75%); transform: rotate(0deg);
+ border-radius: 5px;
+
+
+}
+ 
+.track-artist {
+  font-size: 1.4rem; z-index: 0; padding: 6px 9px 6px 9px ; background:linear-gradient(90deg,#CC3333,#FF6666,#CC3333);  margin-top: -11px; color: white; filter: brightness(110%) saturation(115%) contrast(110%) opacity(75%); transform: rotate(0deg);
+ border-radius: 5px;
+
+}
+
+
+
+/* Using flex with the row direction to
+   align items in a horizontal direction */
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+ 
+.playpause-track,
+.prev-track,
+.next-track {
+  padding: 25px;
+  opacity:0.8 ;
+ 
+  /* Smoothly transition the opacity */
+  transition: opacity .2s;
+
+
+}
+ 
+/* Change the opacity when mouse is hovered */
+.playpause-track:hover,
+.prev-track:hover,
+.next-track:hover {
+  opacity:1.0 ;
+}
+ 
+/* Define the slider width so that it scales properly */
+.slider_container {
+  width: 75%;
+  max-width: 400px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+ 
+/* Modify the appearance of the slider */
+.seek_slider, .volume_slider {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 5px;
+  background: black;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+ 
+/* Modify the appearance of the slider thumb */
+.seek_slider::-webkit-slider-thumb,
+.volume_slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #FF6600;
+  cursor: pointer;
+  border-radius: 50%;
+}
+ 
+/* Change the opacity when mouse is hovered */
+.seek_slider:hover,
+.volume_slider:hover {
+  opacity: 1.0;
+}
+ 
+.seek_slider {
+  width: 60%;
+}
+ 
+.volume_slider {
+  width: 30%;
+}
+ 
+.current-time,
+.total-duration { color: #FF0000;
+  padding: 10px;
+}
+ 
+i.fa-volume-down,
+i.fa-volume-up {
+  padding: 10px;
+}
+ 
+/* Change the mouse cursor to a pointer
+   when hovered over */
+i.fa-play-circle,
+i.fa-pause-circle,
+i.fa-step-forward,
+i.fa-step-backward {
+  cursor: pointer;
+}
+
+.header {
+background-color: black; 
+ 
+color:Silver;     margin: -19px -19px -19px -19px;  font-family: Arial ,Helvetica,sans-serif; z-index: -200; padding-bottom: 15px;
+}
+
+
+.gloeilamp { 
+display: block;
+margin: auto auto auto auto;
+ filter: brightness(110%)saturation(100%) contrast(100%) opacity(75%); z-index: -100;
+}
+
+
+.Deel 
+{
+padding :5px 5px 5px 5px Gold;  height: 25px; width: 6%; background-color:Black; 
+color: gold;  font-style :  italic;  font-size: 10px;
+  border-radius: 10px;    font-family: Arial ,Helvetica,sans-serif;
+text-align: center; height: 35px; width: 80px; 
+display: block; z-index: 0;
+margin: auto auto auto auto;
+}
+
+
+
+.sunny  {    width: 90px;  height: 90px;filter: brightness(110%) saturate(110%) contrast(110%) opacity(75%); transform: rotate(5deg); z-index: -200; display: block; margin: auto auto auto auto;
+}
+
+
+.red   {  color: #FF0000; z-index: 50;
+}
+
+
+
+.yellow  {
+
+color: yellow; z-index: 100;
+}
+
+
+.silver  {
+
+color: gray;
+}
+
+
+
+
+
+
+
+.dance  {
+
+width: 350px;  height: 280px; display: block; margin: auto auto auto auto; border-radius: 40px; 
+filter: brightness(110%) saturate(110%) contrast(110%) opacity(75%); transform: rotate(0deg);z-index: -200; border: solid #FF99FF; 1px;
+
+}
+
+
+.Login {
+padding: 6px 6px 6px 6px;
+height: 40px; width :70px; background: linear-gradient(45deg,#FF00FF,#FF66FF,#FF99FF); color : #00FFFF; 
+border-radius: 30px 30px 30px 30px;  font-size: 15px; border: solid black 1px;
+font-weight: italic; display: block; margin: auto auto auto auto;
+}
+
+
+#media  {    width: 150px;  height:150px;filter: brightness(110%) saturate(115%) contrast(110%) opacity(80%); transform: rotate(0deg); z-index: 100; display: block; margin: auto auto auto auto; transform: rotate(0deg); 
+animation: blinker 1.0s step-start infinite;
+
+}
+
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+#play  {    width: 150px;  height: 150px;filter: brightness(110%) saturate(105%) contrast(110%) opacity(75%);  z-index: 200; display: block; margin: auto auto auto auto;transform: rotate(4deg);
+animation: blinker 4s step-start infinite;
+
+}
+
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+#med  {    width: 150px;  height:150px;filter: brightness(110%) saturate(115%) contrast(110%) opacity(80%); transform: rotate(0deg); z-index: 100; display: block; margin: auto auto auto auto; transform: rotate(0deg); border: solid 1px white;
+}
+
+
+
+
+.grid-container  {
+display: grid;
+gap: 2px;
+}
+
+.footer  {
+display: flex;  z-index:100;
+grid-column: span 2;
+}
+
+
+
+.luister {   width:100px; height: 30px; border-radius: 5px;
+   z-index: -300; float: right; margin-left: 30px; transform:rotate(1deg);
+ filter:brightness(102%) saturation(105%) contrast(120%) opacity(75%); 
+}
+
+
+.bull { 
+height: 40px; width: 50px;
+filter:brightness(110%)contrast(115%)saturate(110%) opacity(75%);
+border-radius: 5px;
+z-index: -100;
+}
+
+.inch  {
+color: #FF0000; z-index: -200; text-align: center; font-family: Arial ,Helvetica,sans-serif; background-color: bisque;padding: 15px 15px 15px 15px;font-size: 25px; font-weight: bold; border: solid 1px #FF0000;
+}
+
+
+
+
+.now-playing   {
+display: none;
+}
+
+
+
+.show {
+
+display: block;
+
+
+}
+
+
+.menu  {  width: 50px; height: 50px; 
+}
+
+
+.mimo {   width:100px; height: 40px; border-radius: 5px; transform:rotate(-1deg);
+   z-index: -300; float: right; margin-top: 50px; 
+ filter:brightness(102%) saturation(105%) contrast(120%) opacity(75%); margin-left: -80px;
+}
+
+
+
+
+
+
+.topnav {
+  overflow:  hidden;
+ background-color: #333;
+  position: relative;  margin: -9px -9px 0px -9px; border: solid 1px #FF0000;
+}
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: #FF0000;
+  padding: 25px 14px 15px   10px;
+  text-decoration: none; 
+  font-size: 17px;
+  display: block; z-index: 200;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0; 
+  top: 0;
+}
+
+
+/* Style the active link (or home/logo) */
+.active {
+ background: linear-gradient(45deg,#333333,#000000);
+  color: white; margin-bottom: -10px;
+}
+
+
+.kvms {   width:140px; height: 25px; border-radius: 5px; transform:rotate(4deg);
+   z-index: -300; float: right; margin-top: 100px; 
+ filter:brightness(102%) saturation(105%) contrast(120%) opacity(75%); margin-left: -250px;
+}
+
+
+
+.blue {   color: #FF0000; z-index: 200; text-decoration: underline;
+}
+
+
+.dark {  color: #3366FF;
+}
+
+
+.air  {    width: 90px;  height: 30px;filter: brightness(110%) saturate(105%) contrast(110%) opacity(60%); transform: rotate(0deg); z-index: -300; float: right; 
+
+margin-top: -70px; margin-right: 7px; 
+
+
+}
+
+#travolta{
+  background-image: url("Miles-Davis.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+/* You must set a specified height */
+ 
+
+
+background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+filter:opacity(20%); display: block; margin: auto auto auto auto; z-index: -200;
+width: 355px; height: 370px;
+}
+
+
+#max{
+  background-image: url("Miles-Davis.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+/* You must set a specified height */
+ 
+
+
+background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+filter:opacity(20%); display: block; margin: auto auto auto auto; z-index: -200;
+width: 355px; height: 370px;
+}
+
+
+
+
+
+#list {  font-size: 17px; color: #FF0000; font-family: Arial ,Helvetica,sans-serif;
+z-index: 200;  margin-left: 5px; background-color: #F3F3F3;  border-radius: 20px;  border: solid 1px #FF0000; padding: 40px 10px 0px 25px;
+}
+
+
+li:hover {
+  color:bisque;
+
+}
+
+
+.ham  {    width: 40px;  height: 40px; filter: brightness(110%) saturate(110%) contrast(110%) opacity(70%); transform: rotate(0deg); z-index: 1; margin-bottom: -9px; margin-right: 6px;margin-top: -4px; color: white;
+}
+
+#logo  {    width: 120px;  height: 90px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(70%); transform: rotate(0deg); z-index: 1; margin-top: -16px;margin-bottom: -12px;margin-left: 8px;  border-radius: 5px;
+}
+
+.voer  {
+font-size: 17px; border-radius: 20px; padding-bottom: 30px;padding-top:35px; padding-right: 35px;
+ 
+}
+.sum {
+font-size: 15px; border-radius: 20px;
+ padding-top:35px;padding-bottom: 30px;padding-top:35px; padding-right: 35px;
+}
+
+
+
+#hero-image {
+  background-image: url("Miles-Davis.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+/* You must set a specified height */
+ 
+
+
+background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+filter:opacity(20%); display: block; margin: auto auto auto auto; z-index: -200;
+width: 355px; height: 370px;
+}
+
+.star  {    width: 55px;  height: 45px;filter: brightness(115%) saturate(115%) contrast(115%) opacity(70%); transform: rotate(0deg); z-index: -200; float: right;
+margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
+
+
+}
+
+.moon  {    width: 75px;  height: 75px;filter: brightness(110%) saturate(110%) contrast(110%) opacity(40%); transform: rotate(-15deg); z-index: -200; display: block; margin-top: 50px;
+}
+
+.frame  {  
+height: 200px; width: 300px; display: block; margin: auto auto auto auto; z-index: -200; border: solid #663300 3px; filter: brightness(115%) saturate(115%) contrast(115%) opacity(85%);
+}
+
+
+
+.new {  color: #009999; font-size: 15px; font-family: Arial ,Helvetica,sans-serif; font-style: italic;
+}
+
+
+#calvin  {  text-decoration: overline  underline ; color: #990066;
+}
+
+.ster {  filter: brightness(110%) saturate(105%) contrast(115%) opacity(50%); width: 25px; height: 26px; transform: rotate(40deg); z-index: -200; 
+}
+
+
+#para {
+}
+
+#mid  {    width: 25px;  height: 25px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(60%); transform: rotate(14deg); z-index: 100; margin: -35px auto 10px  auto; display: block; border-radius: 5px;
+animation: blinker 1s step-start infinite;
+
+}
+
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.arrow {  background-color: bisque;  z-index: -300; margin-left: -10px; margin-right: -10px; border: solid 1px #FF0000;
+
+}
+
+
+#astro {  filter: brightness(120%) saturate(110%) contrast(115%) opacity(60%); width: 32px; height: 30px; transform: rotate(-90deg); z-index: -334; 
+}
+
+.weather {  display: block; margin: auto auto auto auto;
+}
+
+#lin {    width: 30px;  height: 30px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(65%); transform: rotate(5deg); z-index: -200;  border-radius: 5px; float: left; margin-left: 0px;
+}
+
+
+#ling {    width: 30px;  height: 30px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(65%); transform: rotate(5deg); z-index: -200;  border-radius: 5px; float: left; margin-left: 0px;
+}
+
+
+
+
+#dwarf {    width: 30px;  height: 30px;filter: brightness(115%) saturate(115%) contrast(115%) opacity(60%); transform: rotate(deg); z-index: -200;  border-radius: 5px; float: left; margin-left: 0px;
+}
+
+#myImage  {    filter:brightness(110%) saturation(105%) contrast(115%) opacity(75%);width: 255px; height: 135px; margin-right: -5px; display: block; margin: auto auto auto auto ; border: solid #FF0000 1px; z-index: 250;
+}
+
+#marquee {
+  background-color: bisque;
+  width: 250px;
+  margin: 0 auto;
+  overflow: hidden;
+  white-space: nowrap;
+}
+#marquee span {
+  display: inline-block; font-style: italic;
+  font-size: 15px;font-family: Arial ,Helvetica,sans-serif;
+  position: relative; color: black;
+  left: 100%;
+  animation: marquee 8s linear infinite;
+
+}
+
+
+
+#marquee:hover span {
+  animation-play-state: paused;
+}
+
+#marquee span:nth-child(1) {
+  animation-delay: 0s;
+}
+#marquee span:nth-child(2) {
+  animation-delay: 0.8s;
+}
+#marquee span:nth-child(3) {
+  animation-delay: 1.6s;
+}
+#marquee span:nth-child(4) {
+  animation-delay: 2.4s;
+}
+#marquee span:nth-child(5) {
+  animation-delay: 3.2s;
+}
+
+@keyframes marquee {
+  0%   { left: 100%; }
+  100% { left: -100%; }
+}
+
+
+
+
+#events {
+color: #FF0000; z-index: 200; text-align: center; font-family: Arial ,Helvetica,sans-serif; background-color:bisque;padding: 25px 15px 25px 15px;font-size: 23px;  border: solid 1px #FF0000;
+}
+
+#twin  {
+color: #FF0000; z-index: -200; text-align: center; font-family: Arial ,Helvetica,sans-serif; background-color: bisque;padding: 15px 15px 15px 15px;font-size: 25px; font-weight: bold; border: solid 1px #FF0000;
+}
+
+#now  {
+color: #FF0000; z-index: 0; text-align: center; font-family: Arial ,Helvetica,sans-serif; background-color:bisque ; padding: 10px 15px 10px 15px;font-size: 15px;
+ }
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+
+#miss {  filter: brightness(115%) saturate(110%) contrast(115%) opacity(65%); width: 120px; height: 70px; transform: rotate(0deg); z-index: -200; display: block; margin: auto auto auto auto; border-radius: 50px; 
+}
+
+
+
+
+
+
+
+.container {
+ height: 200px;
+ background-color: whitesmoke;
+display: flex; flex-direction: row;
+align-items: flex-start;
+}
+
+.item {
+ margin: 5px; z-index: 200;
+ padding: 5px;
+}
+
+#users{
+  width: 60px;
+  height: 60px;
+  border-radius: 60%;
+  border: 3px solid greenyellow;filter: brightness(110%) saturate(115%) contrast(115%) opacity(75%);
+}
+
+
+#us{
+  width: 60px;
+  height: 60px;
+  border-radius: 60%;
+  border: 3px solid greenyellow;filter: brightness(110%) saturate(115%) contrast(115%) opacity(75%);
+}
+
+
+
+#nat{
+  width: 60px;
+  height: 60px;
+  border-radius: 60%; 
+  border: 3px solid greenyellow;filter: brightness(110%) saturate(115%) contrast(115%) opacity(75%);
+}
+
+
+
+h2  {   
+font-family: 'Segoe UI', sans-serif; font-size: 15px; z-index: -200;
+color: #FF0000;
+}
+
+
+
+}
+
+
+#bert  {
+
+animation: blinker 0.5s step-start infinite;
+
+}
+
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+
+#chinese  {
+
+animation: blinker 0.5s step-start infinite;
+
+}
+
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+
+
+#time  {
+color: #FF6600; z-index: 200; text-align: center; font-family: Arial ,Helvetica,sans-serif; background-color: bisque;padding: 15px 15px 15px 15px;font-size: 25px; font-weight: bold; border: solid 1px #FF0000; font-style: italic;
+}
+
+
+#Victor
+{
+font-style :  italic;font-family: Arial ,Helvetica,sans-serif; background:linear-gradient(45deg,#dcdcdc,#F5F5F5,white);  color:#FF0000;  padding-top: 5px; padding-bottom: 5px;
+border-radius: 10px; display: block; margin: auto auto auto auto; font-size: 15px; height: 50px;width: 25%;  font-weight: 700;
+z-index 0;
+
+
+
+
+}
+
+
+#sunnyr  { position: absolute; filter: brightness(110%) saturate(105%) contrast(105%) opacity(60%);  z-index: 0;
+
+
+
+margin-top: 50px; margin-left: 10px;height: 50px; width: 48px;
+
+}
+
+
+#lib {  margin-left: 10px;  font-family: sans-serif; text-decoration: underline;
+
+font-size: 15px;color: black;
+}
+
+
+
+
+
+#dark {  color: #3366FF;
+}
+
+
+#online {   
+font-family: 'Segoe UI', sans-serif; font-size: 15px; z-index: -200;animation: blinker 0.5s step-start infinite;
+color: #FF0000; 
+}

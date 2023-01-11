@@ -1,0 +1,57 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> Sound Effects Library</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style11.css">
+</head>
+<body>
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+<audio id="horn">
+  <source src="" type="audio/ogg">
+  <source src="" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<div>
+<button onclick="playAudio()" type="button">HORN</button>
+</div>
+<script>
+var x = document.getElementById("horn"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+
+
+
+
+
+
+
+</script>
+
+<script>
+document.getElementById("horn").setAttribute('src', 'muziek/effects/ship horn.mp3');
+</script>
+
+
+</body>
+
+</html>

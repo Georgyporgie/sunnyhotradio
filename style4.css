@@ -1,0 +1,21 @@
+.grid-container {
+ display: grid;
+ grid-template: 1fr / 100%;
+}
+
+.grid-item {
+ padding-left: 20px;
+ border-bottom: 1px solid lightgrey;
+}
+
+body {
+ margin: 0;
+ padding: 0;
+}
+
+h1 {
+ background-color: #6D3ACF;
+ padding: 20px;
+ color: #FFFFFF;
+ margin: 0px;
+}

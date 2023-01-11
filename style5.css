@@ -1,0 +1,44 @@
+#joris  { width: 130px;
+height: 120px;filter: brightness(115%) saturate(120%) contrast(110%) opacity(100%); transform: rotate(0deg);
+
+}
+
+
+button {
+background-color: black;
+height: 50px;
+width: 50px;
+border-radius: 50px;
+color: white;
+margin-right: 20px;margin-left: 2px;
+}
+
+
+h2 { font-family: Arial ,Helvetica,sans-serif; margin-left: 20px; 
+
+}
+
+p { font-family: Arial ,Helvetica,sans-serif; margin-left: 20px;color: black;
+
+}
+
+
+
+
+
+
+#Home {
+background-color:black;
+  border: none;
+  color: white;
+  padding: 3px 10px ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  height: 25px;
+  cursor: pointer;
+ float: left;
+  width: 20%;
+z-index: -200;
+}

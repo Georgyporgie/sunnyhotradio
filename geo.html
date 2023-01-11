@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> Geolocation</title>
+<link rel="stylesheet" type="text/css" href="style5.css">
+<head>
+
+
+
+
+<body>
+
+<h2>Check Your Geolocation</h2>
+<p>Click the button to get your coordinates.</p>
+<br>
+
+
+
+<button onclick="getLocation()">Try It</button>
+
+<p id="demo"></p>
+
+<script>
+const x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+
+<br>
+<br>
+<br>
+<br>
+
+<button id="Home" onclick="window.location.href= 'geo.html';">reset</button></div> 
+</body>
+</html>

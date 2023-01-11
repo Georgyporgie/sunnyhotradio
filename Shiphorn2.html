@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 200px;
+}
+
+.container img {
+  width: 100%; margin-left: 10px; 
+  height: auto; 
+
+}
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background: linear-gradient(45deg,#00CCFF,#0099FF,#0066FF);
+  color : #CCFFFF; 
+  font-size: 14px;
+  padding: 8px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px 30px 30px 30px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+</style>
+</head>
+<body>
+<br>
+<br>
+
+
+
+<div class="container">
+  <img src="images\Sunny Ship2.png" alt="Snow" style="width:100%">
+  <button class="btn" onclick="playAudio()" type="button">HORN</button>
+</div>
+
+
+
+<audio id="horn">
+  <source src="" type="audio/ogg">
+  <source src="" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<script>
+var x = document.getElementById("horn"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+
+
+
+
+
+
+
+</script>
+
+<script>
+document.getElementById("horn").setAttribute('src', 'muziek/effects/ship horn.mp3');
+</script>
+
+</body>
+</html>
