@@ -43,9 +43,9 @@ border: solid #663300 3px; z-index: 0; display: none;
   font-size: 1.4rem; z-index: 0; padding: 6px 9px 6px 9px ; 
 margin-bottom: 9px;background:linear-gradient(90deg,#CC3333,#FF6666,#CC3333); color: white; filter: brightness(110%) saturation(115%) contrast(110%) opacity(75%); transform: rotate(0deg);
  border-radius: 5px;
-
-
 }
+
+
  
 .track-artist {
   font-size: 1.4rem; z-index: 0; padding: 6px 9px 6px 9px ; background:linear-gradient(90deg,#CC3333,#FF6666,#CC3333);  margin-top: -11px; color: white; filter: brightness(110%) saturation(115%) contrast(110%) opacity(75%); transform: rotate(0deg);
@@ -204,7 +204,7 @@ color: gray;
 .dance  {
 
 width: 350px;  height: 280px; display: block; margin: auto auto auto auto; border-radius: 40px; 
-filter: brightness(110%) saturate(110%) contrast(110%) opacity(75%); transform: rotate(0deg);z-index: -200; border: solid #FF99FF; 1px;
+filter: brightness(110%) saturate(110%) contrast(110%) opacity(75%); transform: rotate(0deg);z-index: -200; border: solid #FF99FF 1px;
 
 }
 
@@ -217,7 +217,7 @@ font-weight: italic; display: block; margin: auto auto auto auto;
 }
 
 
-#media  {    width: 150px;  height:150px;filter: brightness(110%) saturate(115%) contrast(110%) opacity(80%); transform: rotate(0deg); z-index: 100; display: block; margin: auto auto auto auto; transform: rotate(0deg); 
+#media  {    width: 150px;  height:150px;filter: brightness(110%) saturate(115%) contrast(110%) opacity(100%); transform: rotate(0deg); z-index: 100; display: block; margin: auto auto auto auto; transform: rotate(0deg); 
 animation: blinker 1.0s step-start infinite;
 
 }
@@ -242,7 +242,7 @@ animation: blinker 4s step-start infinite;
   }
 }
 
-#med  {    width: 150px;  height:150px;filter: brightness(110%) saturate(115%) contrast(110%) opacity(80%); transform: rotate(0deg); z-index: 100; display: block; margin: auto auto auto auto; transform: rotate(0deg); border: solid 1px white;
+#med  {    width: 150px;  height:150px;filter: brightness(110%) saturate(115%) contrast(110%) opacity(100%); transform: rotate(0deg); z-index: 100; display: block; margin: auto auto auto auto; transform: rotate(0deg); border: solid 1px white;
 }
 
 
@@ -399,8 +399,8 @@ width: 355px; height: 370px;
 
 
 
-#list {  font-size: 17px; color: #FF0000; font-family: Arial ,Helvetica,sans-serif;
-z-index: 200;  margin-left: 5px; background-color: #F3F3F3;  border-radius: 20px;  border: solid 1px #FF0000; padding: 40px 10px 0px 25px;
+#list {  font-size: 15px; color: #FF0000; font-family: Arial ,Helvetica,sans-serif;
+z-index: 200;  margin-left: 5px; background:linear-gradient(45deg,#F3F3F3,#F4F4F4,#F5F5F5);  border-radius: 20px;  border: solid 1px #FF0000; padding: 25px 0px 0px 0px;
 }
 
 
@@ -410,18 +410,18 @@ li:hover {
 }
 
 
-.ham  {    width: 40px;  height: 40px; filter: brightness(110%) saturate(110%) contrast(110%) opacity(70%); transform: rotate(0deg); z-index: 1; margin-bottom: -9px; margin-right: 6px;margin-top: -4px; color: white;
+.ham  {    width: 40px;  height: 40px; filter: brightness(110%) saturate(110%) contrast(110%) opacity(70%); transform: rotate(0deg); z-index: -200; margin-bottom: -9px; margin-right: 6px;margin-top: -4px; color: white;
 }
 
-#logo  {    width: 120px;  height: 90px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(70%); transform: rotate(0deg); z-index: 1; margin-top: -16px;margin-bottom: -12px;margin-left: 8px;  border-radius: 5px;
+#logo  {    width: 120px;  height: 90px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(70%); transform: rotate(0deg); z-index: -200; margin-top: -16px;margin-bottom: -12px;margin-left: 8px;  border-radius: 5px;
 }
 
 .voer  {
-font-size: 17px; border-radius: 20px; padding-bottom: 30px;padding-top:35px; padding-right: 35px;
+font-size: 15px; border-radius: 20px; padding-bottom: 30px;padding-top:35px; padding-right: 35px;
  
 }
 .sum {
-font-size: 15px; border-radius: 20px;
+font-size: 14px; border-radius: 20px;
  padding-top:35px;padding-bottom: 30px;padding-top:35px; padding-right: 35px;
 }
 
@@ -467,10 +467,9 @@ height: 200px; width: 300px; display: block; margin: auto auto auto auto; z-inde
 }
 
 
-#para {
-}
 
-#mid  {    width: 25px;  height: 25px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(60%); transform: rotate(14deg); z-index: 100; margin: -35px auto 10px  auto; display: block; border-radius: 5px;
+
+#mid  {    width: 25px;  height: 25px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(60%); transform: rotate(14deg); z-index: -200; margin: -35px auto 10px  auto; display: block; border-radius: 5px;
 animation: blinker 1s step-start infinite;
 
 }
@@ -482,7 +481,7 @@ animation: blinker 1s step-start infinite;
   }
 }
 
-.arrow {  background-color: bisque;  z-index: -300; margin-left: -10px; margin-right: -10px; border: solid 1px #FF0000;
+.arrow {  background:linear-gradient(90deg,#FFD8AB,bisque,#FFDFC4,bisque);  z-index: -300; margin-left: -10px; margin-right: -10px; border: solid 1px #FF0000;
 
 }
 
@@ -510,7 +509,7 @@ animation: blinker 1s step-start infinite;
 }
 
 #marquee {
-  background-color: bisque;
+  background-color: transparent;
   width: 250px;
   margin: 0 auto;
   overflow: hidden;
@@ -556,7 +555,7 @@ animation: blinker 1s step-start infinite;
 
 
 #events {
-color: #FF0000; z-index: 200; text-align: center; font-family: Arial ,Helvetica,sans-serif; background-color:bisque;padding: 25px 15px 25px 15px;font-size: 23px;  border: solid 1px #FF0000;
+color: #FF0000; z-index: 200; text-align: center; font-family: Arial ,Helvetica,sans-serif; background:linear-gradient(90deg,#FFD8AB,bisque,#FFDFC4,bisque);padding: 25px 15px 25px 15px;font-size: 23px;  border: solid 1px #FF0000;
 }
 
 #twin  {
@@ -564,13 +563,9 @@ color: #FF0000; z-index: -200; text-align: center; font-family: Arial ,Helvetica
 }
 
 #now  {
-color: #FF0000; z-index: 0; text-align: center; font-family: Arial ,Helvetica,sans-serif; background-color:bisque ; padding: 10px 15px 10px 15px;font-size: 15px;
+color: #FF0000; z-index: 0; text-align: center; font-family: Arial ,Helvetica,sans-serif; background-color:transparent ; padding: 10px 15px 10px 15px;font-size: 15px;
  }
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
-}
+
 
 
 
@@ -628,7 +623,7 @@ color: #FF0000;
 
 
 
-}
+
 
 
 #bert  {
@@ -663,15 +658,15 @@ animation: blinker 0.5s step-start infinite;
 
 
 #time  {
-color: #FF6600; z-index: 200; text-align: center; font-family: Arial ,Helvetica,sans-serif; background-color: bisque;padding: 15px 15px 15px 15px;font-size: 25px; font-weight: bold; border: solid 1px #FF0000; font-style: italic;
+color: #FF6600; z-index: 200; text-align: center; font-family: serif; background-color: bisque;padding: 15px 15px 15px 15px;font-size: 25px;  border: solid 1px #FF0000; 
 }
 
 
 #Victor
 {
-font-style :  italic;font-family: Arial ,Helvetica,sans-serif; background:linear-gradient(45deg,#dcdcdc,#F5F5F5,white);  color:#FF0000;  padding-top: 5px; padding-bottom: 5px;
+font-family: Arial ,Helvetica,sans-serif; background:linear-gradient(45deg,#dcdcdc,#F5F5F5,white);  color:#FF0000;  padding-top: 5px; padding-bottom: 5px;
 border-radius: 10px; display: block; margin: auto auto auto auto; font-size: 15px; height: 50px;width: 25%;  font-weight: 700;
-z-index 0;
+z-index: 0;
 
 
 
@@ -679,7 +674,7 @@ z-index 0;
 }
 
 
-#sunnyr  { position: absolute; filter: brightness(110%) saturate(105%) contrast(105%) opacity(60%);  z-index: 0;
+#sunnyr  { position: absolute; filter: brightness(110%) saturate(105%) contrast(105%) opacity(65%);  z-index: 0;
 
 
 
@@ -705,3 +700,9 @@ font-size: 15px;color: black;
 font-family: 'Segoe UI', sans-serif; font-size: 15px; z-index: -200;animation: blinker 0.5s step-start infinite;
 color: #FF0000; 
 }
+
+
+
+
+
+

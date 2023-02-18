@@ -120,7 +120,7 @@ h2  {  font-size: 25px; color: white; font-family: Arial ,Helvetica,sans-serif; 
 
 }
 
-p  {  font-size: 25px; color: white; font-family: Arial ,Helvetica,sans-serif; text-align: center; z-index: -200; 
+p  {  font-size: 20px; color: white; font-family: Arial ,Helvetica,sans-serif; text-align: center; z-index: -200; 
 
 }
 
@@ -212,10 +212,10 @@ li:hover {
 }
 
 
-.ham  {    width: 40px;  height: 40px; filter: brightness(110%) saturate(110%) contrast(110%) opacity(70%); transform: rotate(0deg); z-index: 1; margin-bottom: -22px; margin-right: 8px;margin-top: -11px; color: white;
+.ham  {    width: 40px;  height: 40px; filter: brightness(110%) saturate(110%) contrast(110%) opacity(70%); transform: rotate(0deg); z-index: -200; margin-bottom: -22px; margin-right: 8px;margin-top: -11px; color: white;
 }
 
-#logo  {    width: 120px;  height: 90px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(70%); transform: rotate(0deg); z-index: 1; margin-top: -16px;margin-bottom: -38px;margin-left: 8px;  border-radius: 5px;
+#logo  {    width: 120px;  height: 90px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(70%); transform: rotate(0deg); z-index: -200; margin-top: -16px;margin-bottom: -38px;margin-left: 8px;  border-radius: 5px;
 }
 .star  {    width: 55px;  height: 45px;filter: brightness(115%) saturate(115%) contrast(115%) opacity(70%); transform: rotate(0deg); z-index: -200; float: right;
 margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
@@ -223,12 +223,12 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
 
 }
 
-#classic  {    width: 130px;  height: 130px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(65%); transform: rotate(-1deg); z-index: -200; margin-top: -24px;margin-bottom: -36px;margin-left: 22px; z-index: 200; border-radius: 5px;
+#classic  {    width: 130px;  height: 130px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(65%); transform: rotate(-1deg); z-index: -200; margin-top: -24px;margin-bottom: -36px;margin-left: 22px;  border-radius: 5px;
 
 
 }
 
-#dance  {    width: 255px;  height: 150px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(65%); transform: rotate(1deg); z-index: 200; margin: auto auto auto auto; display: block; z-index: 200; border-radius: 5px; border: solid 1px #FF0000;
+#dance  {    width: 255px;  height: 150px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(65%); transform: rotate(1deg);  margin: auto auto auto auto; display: block; z-index: 200; border-radius: 5px; border: solid 1px #FF0000;
 animation: blinker 1s step-start infinite;
 
 }
@@ -240,7 +240,7 @@ animation: blinker 1s step-start infinite;
   }
 }
 
-#rock   {    width: 145px;  height: 145px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(65%); transform: rotate(-1deg); z-index: -200; float : right; z-index: 200; border-radius: 5px; margin-right: 20px;
+#rock   {    width: 145px;  height: 145px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(65%); transform: rotate(-1deg); z-index: -200; float : right;  border-radius: 5px; margin-right: 20px;
 }
  .licht  {    width: 25px;  height: 25px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(60%); transform: rotate(40deg); z-index: -200; margin: -38px auto 10px  auto; display: block; border-radius: 5px;
 }
@@ -251,8 +251,7 @@ animation: blinker 1s step-start infinite;
 
 }
 
-#myHeader  {
-}
+
 
 .one {  
 float: left; margin-left: 20px; z-index: -210; font-size: 20px;
@@ -266,21 +265,27 @@ display: block; margin: auto auto auto auto; z-index: -210;font-size: 20px;
 float: right; margin-right: 20px;z-index: -210;font-size: 20px;
 }
 
-#studio  {  display: block; margin: auto auto auto auto; filter:brightness(120%) saturation(105%) contrast(115%) opacity(75%);width: 355px; height: 235px; margin-left: -5px;border: solid 1px #FF0000;
+#studio  {  display: block; margin: auto auto auto auto; filter:brightness(120%) saturation(105%) contrast(115%) opacity(75%);width: 355px; height: 235px; margin-left: -5px;border: solid 1px #FF0000;z-index:-200;
 }
 
 .balk  {  border: solid 2px #FFCC99; background-color: chocolate; z-index: -400; border-radius: 50px;
 }
 
 
-#mid  {    width: 25px;  height: 25px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(60%); transform: rotate(14deg); z-index: -200; margin: -35px auto 10px  auto; display: block; border-radius: 5px;
+#streep  {  border: solid 1px #FF0000;  z-index: -400; border-radius: 50px;
 }
 
-h6  {  font-size: 20px; color: white; font-family: Arial ,Helvetica,sans-serif; text-align: center; z-index: -200; 
+
+
+
+#mid  {    width: 25px;  height: 25px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(60%); transform: rotate(14deg); z-index: -100; margin: -35px auto 10px  auto; display: block; border-radius: 5px;
+}
+
+h6  {  font-size: 20px; color: white; font-family: Arial ,Helvetica,sans-serif; text-align: center; z-index: -200; margin-bottom: 9px;
 
 }
 
-#ship  {    width: 80px;  height: 60px; filter: brightness(110%) saturate(110%) contrast(110%) opacity(70%); transform: rotate(0deg); z-index: 1; margin-bottom: -22px; margin-right: 8px;margin-top: -11px; color: white;
+#ship  {    width: 80px;  height: 60px; filter: brightness(110%) saturate(110%) contrast(110%) opacity(70%); transform: rotate(0deg); margin-bottom: -22px; margin-right: 8px;margin-top: -11px; color: white;z-index:-100;
 }
 
 
@@ -298,7 +303,7 @@ height: 40px;
 }
 #marquee span {
   display: inline-block; font-style: italic;
-  font-size: 25px;
+  font-size: 20px;
   position: relative;
   left: 100%;
   animation: marquee 8s linear infinite;
@@ -343,6 +348,10 @@ color: white;
 
 
 
-#horn  {  
 
+
+
+#sun {
+
+height: 80px; width: 85px; filter: brightness(100%) saturate(110%) contrast(110%) opacity(70%); z-index: -200;
 }
