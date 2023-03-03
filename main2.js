@@ -323,6 +323,13 @@ let track_list = [
 
 
 
+{
+    name: "  React ",
+    artist: "Switch Disco   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek05/Switch Disco - React.mp3",
+  },
+
 
 
 
@@ -378,10 +385,10 @@ let track_list = [
 
 
 {
-    name: "  Ghetto Feeling ",
-    artist: "Man Go Funk  ",
+    name: "   Diferente  ",
+    artist: "Steve Aoki ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek05/Man Go Funk - Ghetto Feeling.mp3",
+    path: "muziek/muziek05/Steve Aoki - Diferente.mp3",
   },
 
 {
@@ -1294,14 +1301,12 @@ let track_list = [
 
 
 
-
 {
-    name: "  Ghetto Feeling ",
-    artist: "Man Go Funk  ",
+    name: "   Diferente  ",
+    artist: "Steve Aoki ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek05/Man Go Funk - Ghetto Feeling.mp3",
+    path: "muziek/muziek05/Steve Aoki - Diferente.mp3",
   },
-
 
 
 
@@ -1619,12 +1624,11 @@ let track_list = [
 
 
 
-
 {
-    name: "  Ghetto Feeling ",
-    artist: "Man Go Funk  ",
+    name: "   Diferente  ",
+    artist: "Steve Aoki ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek05/Man Go Funk - Ghetto Feeling.mp3",
+    path: "muziek/muziek05/Steve Aoki - Diferente.mp3",
   },
 
 
@@ -2457,12 +2461,11 @@ let track_list = [
 
 
 
-
 {
-    name: "  Ghetto Feeling ",
-    artist: "Man Go Funk  ",
+    name: "   Diferente  ",
+    artist: "Steve Aoki ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek05/Man Go Funk - Ghetto Feeling.mp3",
+    path: "muziek/muziek05/Steve Aoki - Diferente.mp3",
   },
 
 
@@ -3280,10 +3283,10 @@ let track_list = [
 
 
 {
-    name: "  Ghetto Feeling ",
-    artist: "Man Go Funk  ",
+    name: "   Diferente  ",
+    artist: "Steve Aoki ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek05/Man Go Funk - Ghetto Feeling.mp3",
+    path: "muziek/muziek05/Steve Aoki - Diferente.mp3",
   },
 
 {
@@ -3946,12 +3949,11 @@ let track_list = [
 
 
 
-
 {
-    name: "  Ghetto Feeling ",
-    artist: "Man Go Funk  ",
+    name: "   Diferente  ",
+    artist: "Steve Aoki ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek05/Man Go Funk - Ghetto Feeling.mp3",
+    path: "muziek/muziek05/Steve Aoki - Diferente.mp3",
   },
 
 
@@ -4472,12 +4474,11 @@ let track_list = [
 
 
 
-
 {
-    name: "  Ghetto Feeling ",
-    artist: "Man Go Funk  ",
+    name: "   Diferente  ",
+    artist: "Steve Aoki ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek05/Man Go Funk - Ghetto Feeling.mp3",
+    path: "muziek/muziek05/Steve Aoki - Diferente.mp3",
   },
 
 
@@ -5194,12 +5195,11 @@ let track_list = [
 
 
 
-
 {
-    name: "  Ghetto Feeling ",
-    artist: "Man Go Funk  ",
+    name: "   Diferente  ",
+    artist: "Steve Aoki ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek05/Man Go Funk - Ghetto Feeling.mp3",
+    path: "muziek/muziek05/Steve Aoki - Diferente.mp3",
   },
 
 
@@ -6984,12 +6984,11 @@ let track_list = [
 
 
 
-
 {
-    name: "  Ghetto Feeling ",
-    artist: "Man Go Funk  ",
+    name: "   Diferente  ",
+    artist: "Steve Aoki ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek05/Man Go Funk - Ghetto Feeling.mp3",
+    path: "muziek/muziek05/Steve Aoki - Diferente.mp3",
   },
 
 
@@ -7105,12 +7104,11 @@ let track_list = [
 
 
 
-
 {
-    name: "  Ghetto Feeling ",
-    artist: "Man Go Funk  ",
+    name: "   Diferente  ",
+    artist: "Steve Aoki ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek05/Man Go Funk - Ghetto Feeling.mp3",
+    path: "muziek/muziek05/Steve Aoki - Diferente.mp3",
   },
 
 
@@ -7564,21 +7562,6 @@ let track_list = [
 
 
 
-
-
-{
-    name: " You Are The Universe",
-    artist: "Full Flava",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies02/Full Flava - You are the universe.mp3",
-  
-
-
-},
-
-
-
-
 {
     name: " Bottoms Up 2.0",
     artist: "Keke Palmer",
@@ -7605,6 +7588,10 @@ let track_list = [
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/muziek02/Nightclub - Show it to me.mp3",
   },
+
+
+
+
 
 
 
@@ -8858,11 +8845,12 @@ let track_list = [
   },
 
 
+
 {
-    name: "  Ghetto Feeling ",
-    artist: "Man Go Funk  ",
+    name: "   Diferente  ",
+    artist: "Steve Aoki ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek05/Man Go Funk - Ghetto Feeling.mp3",
+    path: "muziek/muziek05/Steve Aoki - Diferente.mp3",
   },
 
 
@@ -9209,11 +9197,159 @@ let track_list = [
 
 
 
+{
+     name: "New Track",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/New track.mp3",
+  },
+
+
+
+
+{
+    name: "   The One ",
+    artist: "Inji   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek05/Inji - The One.mp3",
+  },
 
 
 
 
 
+
+{
+    name: " You Are The Universe",
+    artist: "Full Flava",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies02/Full Flava - You are the universe.mp3",
+  
+
+
+},
+
+
+
+
+
+
+{
+    name: "   Ease On Me",
+    artist: "Adele & Beyonce   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek05/Adele & Beyonce -  Ease On Me.mp3",
+  },
+
+{
+    name: " Lose Yourself To Dance",
+    artist: "Daft Punk    ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies04/Daft Punk - Lose Yourself To Dance.mp3",
+  },
+
+{
+     name: "New Track",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/New track.mp3",
+  },
+
+
+
+
+{
+    name: "  Work With You Love ",
+    artist: "Alok    ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek05/Alok - Work With You Love.mp3",
+  },
+
+
+{
+    name: "   6 AM  ",
+    artist: "Channel Tres    ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek05/Channel Tres - 6 AM.mp3",
+  },
+
+{
+     name: "New Track",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/New track.mp3",
+  },
+
+
+
+
+{
+    name: " Caution To The Wind",
+    artist: "Everything But The Girl    ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek05/Everything But The Girl - Caution To The Wind.mp3",
+  },
+
+
+{
+    name: " Back To You ",
+    artist: "Lost Frequencies    ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek05/Lost Frequencies - Back To You.mp3",
+  },
+
+
+{
+     name: "New Track",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/New track.mp3",
+  },
+
+
+
+
+{
+    name: "Flowers ",
+    artist: "Miley Cyrus    ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek05/Miley Cyrus - Flowers.mp3",
+  },
+
+
+{
+     name: "New Track",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/New track.mp3",
+  },
+
+
+
+
+{
+    name: " Time After Time  ",
+    artist: "Pacal Letoublon ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek05/Pacal Letoublon - Time After Time.mp3",
+  },
+
+
+{
+     name: "Alarmschijf",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Alarm schijf.mp3",
+  },
+
+
+
+{
+    name: "   Diferente  ",
+    artist: "Steve Aoki ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek05/Steve Aoki - Diferente.mp3",
+  },
 
 
 ];
