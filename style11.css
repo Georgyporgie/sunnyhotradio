@@ -1,6 +1,6 @@
 button {
 padding: 6px 6px 6px 6px;
-height: 40px; width :70px; background: linear-gradient(45deg,crimson,#ed365b,#FF0000); color : #CCCCCC; 
-border-radius: 30px 30px 30px 30px;  font-size: 15px; 
-font-weight: italic; display: block; margin: auto auto auto auto;
+ background: linear-gradient(45deg,crimson,#ed365b,#FF0000); color : #CCCCCC; 
+  font-size: 15px; display:block;
+font-weight: italic; 
 }
