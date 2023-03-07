@@ -4,3 +4,15 @@ padding: 6px 6px 6px 6px;
   font-size: 15px; display:block;
 font-weight: italic; 
 }
+
+
+#cont {
+
+height: 70px; width: 75px; filter: brightness(100%) saturate(110%) contrast(110%) opacity(70%); z-index: -200; transform:rotate(-30deg);
+}
+
+
+#disq  {
+
+margin-left:30px; margin-bottom:10px;
+}
