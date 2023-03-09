@@ -1,3 +1,10 @@
+
+body  {  
+background-color:#FFCCCC;
+}
+
+
+
 button {
 padding: 6px 6px 6px 6px;
  background: linear-gradient(45deg,crimson,#ed365b,#FF0000); color : #CCCCCC; 
@@ -8,7 +15,7 @@ font-weight: italic;
 
 #cont {
 
-height: 70px; width: 75px; filter: brightness(100%) saturate(110%) contrast(110%) opacity(70%); z-index: -200; transform:rotate(-30deg);
+height: 70px; width: 75px; filter: brightness(100%) saturate(110%) contrast(110%) opacity(75%); z-index: -200; transform:rotate(40deg); float:right;
 }
 
 
