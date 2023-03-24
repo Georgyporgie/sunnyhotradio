@@ -281,6 +281,15 @@ let track_list = [
     path: "muziek/jingles/Let op.mp3",
   },
 
+{
+    name: " Can You Handle It",
+    artist: "Sharon Redd ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/time classic.mp3",
+  
+
+
+},
 
 
 
@@ -443,12 +452,7 @@ let track_list = [
 
 
 
-{
-    name: "Classic Songs 60's",
-    artist: "Best motown classic",
-     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies01/Best motown classic songs 60's 70's 8.mp3",
-  },
+
 
 
 
@@ -524,6 +528,17 @@ let track_list = [
 
 
  {
+    name: " Can You Handle It",
+    artist: "Sharon Redd ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/time classic.mp3",
+  
+
+
+},
+
+
+{
     name: " Hit 'N Run Lover(12inch)",
     artist: "Carol Jiani",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -550,7 +565,7 @@ let track_list = [
     name: "Classic",
     artist: "Time",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/time classic.mp3",
+    path: "muziek/jingles/return classics.mp3",
   },
 
 
@@ -831,7 +846,12 @@ let track_list = [
 },
 
 
-
+{
+    name: "Classic",
+    artist: "Time",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/time classic.mp3",
+  },
 
 
 
@@ -991,6 +1011,14 @@ let track_list = [
     artist: "Jamiroquai  ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies02/Jamiroquai - You give me something.mp3",
+  },
+
+
+{
+    name: "Classic",
+    artist: "Time",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/time classic.mp3",
   },
 
 
@@ -1168,6 +1196,18 @@ let track_list = [
 
 
 },
+
+
+{
+    name: "Classic",
+    artist: "Time",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/time classic.mp3",
+  },
+
+
+
+
 
 {
     name: "A Walk In The Park ",
@@ -1390,6 +1430,12 @@ let track_list = [
   },
 
 
+{
+    name: "Classic",
+    artist: "Time",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/time classic.mp3",
+  },
 
 
 
