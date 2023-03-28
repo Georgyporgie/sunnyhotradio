@@ -61,7 +61,12 @@ let track_list = [
 
 
 
-
+{
+    name: " Flawless",
+    artist: "The Ones ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek05/The Ones - Flawless.mp3",
+  },
 
 
 
@@ -212,21 +217,6 @@ let track_list = [
 },
 
 
-{
-    name: "Classic",
-    artist: "Time",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/time classic.mp3",
-  },
-
-
-
-{
-    name: "Moments In Love (12inch)",
-    artist: "Art Of Noise  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies02/Art of Noise - Moments in Love.mp3",
-  },
 
 {
     name: "Just For You",
@@ -5734,6 +5724,21 @@ let track_list = [
 
 
 
+{
+    name: "Classic",
+    artist: "Time",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/time classic.mp3",
+  },
+
+
+
+{
+    name: "Moments In Love (12inch)",
+    artist: "Art Of Noise  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies02/Art of Noise - Moments in Love.mp3",
+  },
 
 
 
