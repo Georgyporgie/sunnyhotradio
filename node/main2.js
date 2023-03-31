@@ -52,12 +52,17 @@ let track_list = [
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle4.mp3",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
   },
 
 
 
-
+{
+    name: "  Sexy (12inch)",
+    artist: "MFSB    ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies04/MFSB - Sexy (12inch).mp3",
+  },
 
 
 
