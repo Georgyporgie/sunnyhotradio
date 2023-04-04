@@ -70,7 +70,7 @@ let track_list = [
     name: " You Know How To Love Me (12inch)",
     artist: "Phyllis Hyman  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies04/Phyllis Hyman - You Know How To Love Me (12inch).mp3",
+    path: "muziek/oldies05/Phyllis Hyman - You Know How To Love Me (12inch).mp3",
   },
 
 
