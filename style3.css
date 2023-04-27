@@ -674,7 +674,7 @@ z-index: 0;
 }
 
 
-#sunnyr  { position: absolute; filter: brightness(110%) saturate(105%) contrast(105%) opacity(65%);  z-index: 0;
+#sunnyr  { position: absolute; filter: brightness(110%) saturate(105%) contrast(105%) opacity(70%);  z-index: 0;
 
 
 
@@ -698,7 +698,7 @@ font-size: 15px;color: black;
 
 #online {   
 font-family: 'Segoe UI', sans-serif; font-size: 15px; z-index: -200;animation: blinker 0.5s step-start infinite;
-color: #FF0000; 
+color: #FF0000;
 }
 
 
