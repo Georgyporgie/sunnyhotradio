@@ -1,0 +1,22 @@
+.grid-container {
+ display: grid;
+ grid-template-rows: repeat(2, 1fr) 150px 1fr 80px;
+}
+
+.grid-item {
+ padding: 10px 30px;
+}
+
+body {
+ background-color: #F4F8FE;
+ margin: 0 auto;
+}
+
+#our-story,
+#our-values {
+ background-color: #FFFFFF; 
+}
+
+#footer {
+ border-top: 1px solid #D3D3D3;
+}
