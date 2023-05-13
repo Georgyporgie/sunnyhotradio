@@ -265,7 +265,7 @@ display: block; margin: auto auto auto auto; z-index: -210;font-size: 20px;
 float: right; margin-right: 20px;z-index: -210;font-size: 20px;
 }
 
-#studio  {  display: block; margin: auto auto auto auto; filter:brightness(120%) saturation(105%) contrast(115%) opacity(75%);width: 355px; height: 235px; margin-left: -5px;border: solid 1px #FF0000;z-index:-200;
+#studio  {  display: block; margin: auto auto auto auto; filter:brightness(120%) saturation(105%) contrast(115%) opacity(75%);width: 355px; height: 235px; margin-left: -5px;border: solid 1px #FF0000;z-index:-200; border-radius:5px;
 }
 
 .balk  {  border: solid 2px #FFCC99; background-color: chocolate; z-index: -400; border-radius: 50px;
@@ -294,7 +294,7 @@ h6  {  font-size: 20px; color: white; font-family: Arial ,Helvetica,sans-serif; 
 
 #marquee {
    background:linear-gradient(280deg,#C29C6D,#C8AD7F);
-  width: 250px;
+  width: 250px;border-radius: 5px;
   margin: 0 auto;
   overflow: hidden;
   white-space: nowrap;
@@ -353,5 +353,5 @@ color: white;
 
 #sun {
 
-height: 80px; width: 85px; filter: brightness(100%) saturate(110%) contrast(110%) opacity(70%); z-index: -200;
+height: 80px; width: 85px; filter: brightness(100%) saturate(110%) contrast(110%) opacity(70%); z-index: -200; transform:rotate(0deg);
 }

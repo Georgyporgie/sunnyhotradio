@@ -510,7 +510,7 @@ animation: blinker 1s step-start infinite;
 
 #marquee {
   background-color: transparent;
-  width: 250px;
+  width: 250px; 
   margin: 0 auto;
   overflow: hidden;
   white-space: nowrap;
