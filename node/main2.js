@@ -65,13 +65,9 @@ let track_list = [
 
 
 
-{
-    name: "Don't Stop Till You Get Enough (Disco Purrfection)",
-    artist: "Michael Jackson",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies02/Michael Jackson - Don't stop till you get enough (Disco Purrfection).mp3",
-  },
 
+    
+   
 {
      name: "Alarmschijf",
     artist: "Listen Live Sunny Danceradio",
