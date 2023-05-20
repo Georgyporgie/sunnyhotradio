@@ -253,7 +253,7 @@ let track_list = [
 
 
 {
-    name: "let's go back",
+    name: "Let's Go Back",
     artist: "Nos Journaal",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/let's go back.mp3",
@@ -341,7 +341,7 @@ let track_list = [
 
 
 {
-    name: " Love holds No limit",
+    name: " Love Holds No Limit",
     artist: "Full Flava  ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/muziek03/Full Flava - Love holds no limit.mp3",
