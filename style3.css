@@ -40,7 +40,7 @@ border: solid #663300 3px; z-index: 0; display: none;
 }
  
 .track-name {
-  font-size: 1.4rem; z-index: 0; padding: 6px 9px 6px 9px ; 
+  font-size: 1.4rem; z-index: 0; padding: 12px 15px 12px 15px ; 
 margin-bottom: 9px;background:linear-gradient(90deg,#CC3333,#FF6666,#CC3333); color: white; filter: brightness(110%) saturation(115%) contrast(110%) opacity(75%); transform: rotate(0deg);
  border-radius: 5px; border: solid 1px;
 }
@@ -48,7 +48,7 @@ margin-bottom: 9px;background:linear-gradient(90deg,#CC3333,#FF6666,#CC3333); co
 
  
 .track-artist {
-  font-size: 1.4rem; z-index: 0; padding: 6px 9px 6px 9px ; background:linear-gradient(90deg,#CC3333,#FF6666,#CC3333);  margin-top: -11px; color: white; filter: brightness(110%) saturation(115%) contrast(110%) opacity(75%); transform: rotate(0deg);
+  font-size: 1.4rem; z-index: 0; padding: 12px 15px 12px 15px ; background:linear-gradient(90deg,#CC3333,#FF6666,#CC3333);  margin-top: -11px; color: white; filter: brightness(110%) saturation(115%) contrast(110%) opacity(75%); transform: rotate(0deg);
  border-radius: 5px;border: solid 1px;
 
 }
