@@ -291,11 +291,9 @@ let track_list = [
 
    
      
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
- },  
+
+    
+   
 
  
  {
