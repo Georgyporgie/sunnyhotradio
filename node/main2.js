@@ -273,10 +273,9 @@ let track_list = [
 
 
 
-
 {
     name: "  All Nighter",
-    artist: "Tiesto  ",
+    artist: "Tiesto",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/muziek06/Tiesto - All Nighter.mp3",
   },
