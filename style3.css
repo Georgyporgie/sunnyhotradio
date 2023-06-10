@@ -564,7 +564,7 @@ color: #FF0000; z-index: -200; text-align: center; font-family: Arial ,Helvetica
 }
 
 #now  {
-color: #FF0000; z-index: 0; text-align: center; font-family: Arial ,Helvetica,sans-serif; background-color:transparent ; padding: 10px 15px 10px 15px;font-size: 15px;font-weight: bold; 
+color: white; z-index: 0; text-align: center; font-family: Arial ,Helvetica,sans-serif; background-color:transparent ; padding: 10px 15px 10px 15px;font-size: 15px;font-weight: bold; 
  }
 
 
@@ -735,5 +735,13 @@ margin-top: 50px; margin-left: 10px;height: 50px; width: 65px;
 
 
 margin-top: -112px;   margin-right:7px; height: 50px; width: 65px; float:right;
+
+}
+
+#alex  { position: absolute; filter: brightness(110%) saturate(120%) contrast(110%) opacity(70%);  z-index: 0; border-radius: 50px;
+border: solid 2px greenyellow;
+
+
+margin-top: 45px; margin-left: 10px;height: 50px; width: 65px;
 
 }
