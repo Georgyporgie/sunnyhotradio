@@ -480,10 +480,10 @@ let track_list = [
 
 
 {
-    name: "   Woman Of The Ghetto ",
-    artist: "Marlena Shaw ",
+    name: "  Nights Over Egypt ",
+    artist: "Jones Girls ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies05/Marlena Shaw - Woman Of The Ghetto.mp3",
+    path: "muziek/oldies05/Jones Girls - Nights Over Egypt.mp3",
   },
 
 
@@ -9105,7 +9105,12 @@ let track_list = [
   },
 
 
-
+{
+    name: "   Woman Of The Ghetto ",
+    artist: "Marlena Shaw ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies05/Marlena Shaw - Woman Of The Ghetto.mp3",
+  },
 
 
 
