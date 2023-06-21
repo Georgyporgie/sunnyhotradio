@@ -721,7 +721,7 @@ margin: auto auto auto auto;
 }
 
 
-#record  { position: absolute; filter: brightness(110%) saturate(120%) contrast(110%) opacity(70%);  z-index: 0;
+#record  { position: absolute; filter: brightness(110%) saturate(120%) contrast(110%) opacity(65%);  z-index: 0;
 
 
 
@@ -730,7 +730,7 @@ margin-top: 50px; margin-left: 10px;height: 50px; width: 65px;
 }
 
 
-#rec  {  filter: brightness(110%) saturate(120%) contrast(110%) opacity(70%);  z-index: 0;
+#rec  {  filter: brightness(110%) saturate(120%) contrast(110%) opacity(65%);  z-index: 0;
 
 
 
