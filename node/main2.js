@@ -248,6 +248,15 @@ let track_list = [
 
 
 {
+    name: " Dance The Night",
+    artist: "Dua Lipa ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek06/Dua Lipa - Dance The Night.mp3",
+  },
+ 
+ 
+ 
+ {
     name: "    Starboy ",
     artist: "The Weeknd ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -399,15 +408,11 @@ let track_list = [
 
 
 
-{
-    name: " Dance The Night",
-    artist: "Dua Lipa ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Dua Lipa - Dance The Night.mp3",
-  },
 
 
 
+
+ 
 
 
 
