@@ -87,7 +87,7 @@ grid-column: span 2;
 
 .item  {  
 font-size: 10px;
-background-color: #D3BC8D; padding: 20px;
+ padding: 20px;
 margin: -10px -10px -10px -10px;
 text-align: center;
 }
@@ -354,4 +354,11 @@ color: white;
 #sun {
 
 height: 80px; width: 85px; filter: brightness(100%) saturate(110%) contrast(110%) opacity(70%); z-index: -200; transform:rotate(0deg);
+}
+
+
+
+.black {  
+margin-left: -7px;
+margin-top: 90px;
 }
