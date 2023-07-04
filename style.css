@@ -86,7 +86,7 @@ grid-column: span 2;
 }
 
 .item  {  
-font-size: 10px;
+font-size: 10px; background-color: black;
  padding: 20px;
 margin: -10px -10px -10px -10px;
 text-align: center;
