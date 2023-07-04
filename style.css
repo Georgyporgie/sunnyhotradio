@@ -76,7 +76,7 @@ font-weight: italic; display: block; margin: auto auto auto auto;
 
 
 .grid-container  {
-display: grid; color: black;
+display: grid; 
 gap: 2px;
 }
 
