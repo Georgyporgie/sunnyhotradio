@@ -82,7 +82,7 @@ gap: 2px;
 
 .footer  {
 display: flex;  z-index:100;
-grid-column: span 2;
+grid-column: span 2; color: black;
 }
 
 .item  {  
