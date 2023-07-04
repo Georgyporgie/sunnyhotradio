@@ -76,20 +76,20 @@ font-weight: italic; display: block; margin: auto auto auto auto;
 
 
 .grid-container  {
-display: grid; 
+display: grid;
 gap: 2px;
 }
 
 .footer  {
 display: flex;  z-index:100;
-grid-column: span 2; 
+grid-column: span 2;
 }
 
 .item  {  
-font-size: 10px; 
+font-size: 10px;
  padding: 20px;
 margin: -10px -10px -10px -10px;
-text-align: center; background-color: transparent;
+text-align: center;
 }
 
 
@@ -359,5 +359,5 @@ height: 80px; width: 85px; filter: brightness(100%) saturate(110%) contrast(110%
 
 
 .black {  
-display: block; margin: auto auto auto auto; z-index: -400;
+display: block; margin: auto -5px -5px -5px; z-index: -400;
 }
