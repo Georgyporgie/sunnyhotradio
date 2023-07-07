@@ -272,7 +272,7 @@ float: right; margin-right: 20px;z-index: -210;font-size: 20px;
 }
 
 
-#streep  {  border: solid 1px #FF0000;  z-index: -400; border-radius: 50px;
+.streep  {  border: solid 1px #FF0000;  z-index: -100; border-radius: 50px;
 }
 
 
