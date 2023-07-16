@@ -189,7 +189,24 @@ let track_list = [
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle.mp3",
+    path: "muziek/jingles/Sunny dance jingle.mp3",
+  },
+
+
+{
+     name: "Alarmschijf",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Alarm schijf.mp3",
+  },
+
+
+
+{
+    name: "   Welcome To The Opera",
+    artist: "Anyma & Grimes ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek06/Anyma & Grimes - Welcome To The Opera.mp3",
   },
 
 {
@@ -237,9 +254,40 @@ let track_list = [
 
 },
 
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet3.mp3",
+  },
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/return classics.mp3",
+  },
+
+{
+    name: " Can't Wait Another Minute ",
+    artist: "Five Star ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies05/Five Star - Can't Wait Another Minute.mp3",
+  
 
 
+},
 
+
+{
+    name: " Free ",
+    artist: "Ultra Naté ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies05/Ultra Naté - Free.mp3",
+  
+
+
+},
 
 
 
@@ -337,12 +385,7 @@ let track_list = [
 
 
 
-{
-     name: "Alarmschijf",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Alarm schijf.mp3",
-  },
+
 
 {
     name: " Stars",
@@ -383,7 +426,7 @@ let track_list = [
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle3.mp3",
+    path: "muziek/jingles/Sunny radio jingle4.mp3",
   },
  
 
@@ -410,23 +453,7 @@ let track_list = [
 
 
 
-{
-    name: " New Track",
-    artist: "Sunny hotradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/New track.mp3",
-  
 
-
-},
-
-
-{
-     name: "That Feels Good",
-    artist: "Jesse Ware",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Jesse Ware - That Feels Good.mp3",
-  },
 
 
 
@@ -466,6 +493,16 @@ let track_list = [
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/start the party.mp3",
     },
+
+
+{
+     name: "That Feels Good",
+    artist: "Jesse Ware",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek06/Jesse Ware - That Feels Good.mp3",
+  },
+
+
 
 
 {
@@ -627,12 +664,7 @@ let track_list = [
 
 
 
-{
-    name: "I Wish",
-    artist: "Joel Corry",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek02/Joel Corry - I wish.mp3",
-  },
+
 
 
 
@@ -662,6 +694,10 @@ let track_list = [
   },
 
 
+
+
+
+
 {
     name: " Back To You ",
     artist: "Lost Frequencies    ",
@@ -669,6 +705,14 @@ let track_list = [
     path: "muziek/muziek05/Lost Frequencies - Back To You.mp3",
   },
  
+
+
+{
+    name: "I Wish",
+    artist: "Joel Corry",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek02/Joel Corry - I wish.mp3",
+  },
 
 
 {
@@ -760,12 +804,7 @@ let track_list = [
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle.mp3",
   },
-{
-     name: " Infatuation",
-    artist: "SG Lewis ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek04/SG Lewis - Infatuation.mp3",
-  },
+
 
 {
      name: " Don't Forget My Love",
@@ -773,6 +812,16 @@ let track_list = [
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/muziek04/Diplo & Miguel - Don't forget my love.mp3",
   },
+
+
+{
+     name: " Infatuation",
+    artist: "SG Lewis ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek04/SG Lewis - Infatuation.mp3",
+  },
+
+
 
 
 
@@ -788,6 +837,21 @@ let track_list = [
 
 
 
+{
+     name: "Alarmschijf",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Alarm schijf.mp3",
+  },
+
+
+
+{
+    name: "   Welcome To The Opera",
+    artist: "Anyma & Grimes ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek06/Anyma & Grimes - Welcome To The Opera.mp3",
+  },
 
 
 
@@ -995,10 +1059,10 @@ let track_list = [
 
 
 {
-    name: " Stars",
-    artist: "Pnau & Bebe Rexha ",
+    name: "   Welcome To The Opera",
+    artist: "Anyma & Grimes ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Pnau & Bebe Rexha - Stars.mp3",
+    path: "muziek/muziek06/Anyma & Grimes - Welcome To The Opera.mp3",
   },
 
 
@@ -1855,10 +1919,10 @@ let track_list = [
 
 
 {
-    name: " Stars",
-    artist: "Pnau & Bebe Rexha ",
+    name: "   Welcome To The Opera",
+    artist: "Anyma & Grimes ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Pnau & Bebe Rexha - Stars.mp3",
+    path: "muziek/muziek06/Anyma & Grimes - Welcome To The Opera.mp3",
   },
 
 {
@@ -2321,11 +2385,12 @@ let track_list = [
 
 
 
+
 {
-    name: " Stars",
-    artist: "Pnau & Bebe Rexha ",
+    name: "   Welcome To The Opera",
+    artist: "Anyma & Grimes ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Pnau & Bebe Rexha - Stars.mp3",
+    path: "muziek/muziek06/Anyma & Grimes - Welcome To The Opera.mp3",
   },
 
 
@@ -2833,11 +2898,12 @@ let track_list = [
 
 
 
+
 {
-    name: " Stars",
-    artist: "Pnau & Bebe Rexha ",
+    name: "   Welcome To The Opera",
+    artist: "Anyma & Grimes ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Pnau & Bebe Rexha - Stars.mp3",
+    path: "muziek/muziek06/Anyma & Grimes - Welcome To The Opera.mp3",
   },
 
 
@@ -4983,11 +5049,12 @@ let track_list = [
 
 
 
+
 {
-    name: " Stars",
-    artist: "Pnau & Bebe Rexha ",
+    name: "   Welcome To The Opera",
+    artist: "Anyma & Grimes ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Pnau & Bebe Rexha - Stars.mp3",
+    path: "muziek/muziek06/Anyma & Grimes - Welcome To The Opera.mp3",
   },
 
 
@@ -5623,13 +5690,13 @@ let track_list = [
   },
 
 
-{
-    name: " Stars",
-    artist: "Pnau & Bebe Rexha ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Pnau & Bebe Rexha - Stars.mp3",
-  },
 
+{
+    name: "   Welcome To The Opera",
+    artist: "Anyma & Grimes ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek06/Anyma & Grimes - Welcome To The Opera.mp3",
+  },
 
 
 
@@ -6863,11 +6930,12 @@ let track_list = [
 
 
 
+
 {
-    name: " Stars",
-    artist: "Pnau & Bebe Rexha ",
+    name: "   Welcome To The Opera",
+    artist: "Anyma & Grimes ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Pnau & Bebe Rexha - Stars.mp3",
+    path: "muziek/muziek06/Anyma & Grimes - Welcome To The Opera.mp3",
   },
 
 
@@ -8856,11 +8924,12 @@ let track_list = [
 
 
 
+
 {
-    name: " Stars",
-    artist: "Pnau & Bebe Rexha ",
+    name: "   Welcome To The Opera",
+    artist: "Anyma & Grimes ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Pnau & Bebe Rexha - Stars.mp3",
+    path: "muziek/muziek06/Anyma & Grimes - Welcome To The Opera.mp3",
   },
 
 
