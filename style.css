@@ -1,5 +1,5 @@
 body {
- background:linear-gradient(280deg,#C29C6D,#C8AD7F,#c6c5c8);
+background:linear-gradient(280deg,#C29C6D,#C8AD7F,#c6c5c8);
   
 }
  
@@ -37,9 +37,6 @@ margin: auto auto auto auto;
 .red   {  color: #FF0000; z-index: 50;
 }
 
-.public  {  
-display: none;
-}
 
 .yellow  {
 
@@ -226,12 +223,21 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
 
 }
 
-#classic  {    width: 130px;  height: 130px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(65%); transform: rotate(-1deg); z-index: 200; margin-top: -24px;margin-bottom: -36px;margin-left: 22px;  border-radius: 5px;
+#classic  {    width: 130px;  height: 130px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(65%); transform: rotate(-1deg); z-index: -200; margin-top: -24px;margin-bottom: -36px;margin-left: 22px;  border-radius: 5px;
 
 
 }
 
-#dance  {    width: 255px;  height: 150px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(65%); transform: rotate(1deg); z-index: -200; margin: auto auto auto auto; display: block;  border-radius: 5px; border: solid 1px #FF0000;
+#dance  {    width: 255px;  height: 150px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(65%); transform: rotate(1deg);  margin: auto auto auto auto; display: block; z-index: 200; border-radius: 5px; border: solid 1px #FF0000;
+animation: blinker 1s step-start infinite;
+
+}
+
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
 
 #rock   {    width: 145px;  height: 145px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(65%); transform: rotate(-1deg); z-index: -200; float : right;  border-radius: 5px; margin-right: 20px;
@@ -259,43 +265,27 @@ display: block; margin: auto auto auto auto; z-index: -210;font-size: 20px;
 float: right; margin-right: 20px;z-index: -210;font-size: 20px;
 }
 
-#studio  {  display: block; margin: auto auto auto auto; filter:brightness(110%) saturation(105%) contrast(110%) opacity(75%);width: 355px; height: 235px; margin-left: -5px; border: solid 1px #FF0000; z-index: -200; border-radius:5px;
+#studio  {  display: block; margin: auto auto auto auto; filter:brightness(120%) saturation(105%) contrast(115%) opacity(75%);width: 355px; height: 235px; margin-left: -5px;border: solid 1px #FF0000;z-index:-200; border-radius:5px;
 }
-
 
 .balk  {  border: solid 2px #FFCC99; background-color: chocolate; z-index: -400; border-radius: 50px;
 }
 
 
-.biels  {  border: solid 2px #FF0000;  z-index: -100; border-radius: 50px;
+.streep  {  border: solid 2px #FF0000;  z-index: -100; border-radius: 50px;
 }
 
 
 
 
-#mid  {    width: 25px;  height: 25px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(60%); transform: rotate(14deg); z-index: -200; margin: -35px auto 10px  auto; display: block; border-radius: 5px;
+#mid  {    width: 25px;  height: 25px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(60%); transform: rotate(14deg); z-index: -100; margin: -35px auto 10px  auto; display: block; border-radius: 5px;
 }
 
 h6  {  font-size: 20px; color: white; font-family: Arial ,Helvetica,sans-serif; text-align: center; z-index: -200; margin-bottom: 9px;
 
 }
 
-
-h3  {  font-size: 25px; color: white; font-family: Arial ,Helvetica,sans-serif; text-align: center; z-index: -200; 
-
-animation: blinker 1s step-start infinite;
-
-}
-
-
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
-}
-
-
-#ship  {    width: 80px;  height: 60px; filter: brightness(110%) saturate(110%) contrast(110%) opacity(70%); transform: rotate(0deg); z-index: 1; margin-bottom: -22px; margin-right: 8px;margin-top: -11px; color: white; z-index:-100;
+#ship  {    width: 80px;  height: 60px; filter: brightness(110%) saturate(110%) contrast(110%) opacity(70%); transform: rotate(0deg); margin-bottom: -22px; margin-right: 8px;margin-top: -11px; color: white;z-index:-100;
 }
 
 
@@ -348,17 +338,29 @@ height: 40px;
 }
 
 
-#sol {
 
-height: 80px; width: 85px; filter: brightness(100%) saturate(110%) contrast(110%) opacity(70%); z-index:-200;
+
+
+
+h1 { font-family: Arial ,Helvetica,sans-serif; margin-left: 20px; font-style: italic;
+color: white;
 }
+
+
+
+
+
+
+#sun {
+
+height: 80px; width: 85px; filter: brightness(100%) saturate(110%) contrast(110%) opacity(70%); z-index: -200; transform:rotate(0deg);
+}
+
 
 
 .black {  
-display: block; margin: 20px auto auto auto; z-index: -400;
+display: block; margin: 20px auto -5px -5px; z-index: -400;  
 }
 
-
-a {  
-color: black;
+a { color: black;
 }
