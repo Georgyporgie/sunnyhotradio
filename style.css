@@ -249,12 +249,12 @@ animation: blinker 1s step-start infinite;
    z-index: -300; float: right; margin-top: 100px; 
  filter:brightness(110%) saturation(105%) contrast(120%) opacity(55%); margin-left: -250px;
 
-}
+}color
 
 
 
 .one {  
-float: left; margin-left: 20px; z-index: -210; font-size: 20px;
+float: left; margin-left: 20px; z-index: -210; font-size: 20px; color: white;
 }
 
 .two  {  
@@ -262,7 +262,7 @@ display: block; margin: auto auto auto auto; z-index: -210;font-size: 20px; colo
 }
 
 .three {  
-float: right; margin-right: 20px;z-index: -210;font-size: 20px;
+float: right; margin-right: 20px;z-index: -210;font-size: 20px; color:white;
 }
 
 #studio  {  display: block; margin: auto auto auto auto; filter:brightness(120%) saturation(105%) contrast(115%) opacity(75%);width: 355px; height: 235px; margin-left: -5px;border: solid 1px #FF0000;z-index:-200; border-radius:5px;
