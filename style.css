@@ -249,7 +249,7 @@ animation: blinker 1s step-start infinite;
    z-index: -300; float: right; margin-top: 100px; 
  filter:brightness(110%) saturation(105%) contrast(120%) opacity(55%); margin-left: -250px;
 
-}color
+}
 
 
 
