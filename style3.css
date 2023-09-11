@@ -274,7 +274,7 @@ z-index: -100;
 }
 
 .inch  {
-color: #FF0000; z-index: -200; text-align: center; font-family: Arial ,Helvetica,sans-serif; background-color: bisque;padding: 15px 15px 15px 15px;font-size: 25px; font-weight: bold; border: solid 1px #FF0000; border-radius: 5px;
+color: #FF0000; z-index: -200; text-align: center; font-family: Arial ,Helvetica,sans-serif; background:linear-gradient(180deg,#FFD8AB,bisque,#FFDFC4,bisque); padding: 15px 15px 15px 15px;font-size: 25px; font-weight: bold; border: solid 1px #FF0000; border-radius: 5px;
 }
 
 
@@ -481,7 +481,7 @@ animation: blinker 1s step-start infinite;
   }
 }
 
-.arrow {  background:linear-gradient(90deg,#FFD8AB,bisque,#FFDFC4,bisque);  z-index: -300; margin-left: -10px; margin-right: -10px; border: solid 1px #FF0000;
+.arrow {  background:linear-gradient(180deg,#FFD8AB,bisque,#FFDFC4,bisque);  z-index: -300; margin-left: -10px; margin-right: -10px; border: solid 1px #FF0000;
 
 }
 
@@ -659,7 +659,7 @@ animation: blinker 0.5s step-start infinite;
 
 
 #time  {
-color: #FF0000; z-index: 200; text-align: center; font-family: Arial ,Helvetica,sans-serif; background-color: bisque;padding: 15px 15px 15px 15px;font-size: 25px;  border: solid 1px #FF0000; font-style:italic; border-radius: 5px; font-weight: bold;
+color: #FF0000; z-index: 200; text-align: center; font-family:  Arial ,Helvetica,sans-serif; background:linear-gradient(180deg,#FFD8AB,bisque,#FFDFC4,bisque); padding: 15px 15px 15px 15px;font-size: 25px;  border: solid 1px #FF0000; font-style:italic; border-radius: 5px;
 }
 
 
