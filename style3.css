@@ -400,7 +400,7 @@ width: 355px; height: 370px;
 
 
 #list {  font-size: 15px; color: #FF0000; font-family: Arial ,Helvetica,sans-serif;
-z-index: 200;  margin-left: 5px; background:linear-gradient(45deg,#F3F3F3,#F4F4F4,#F5F5F5);  border-radius: 20px;  border: solid 2px #FF0000; padding: 25px 0px 0px 0px;
+z-index: 200;  margin-left: 5px; background:linear-gradient(45deg,#F3F3F3,#F4F4F4,#F5F5F5);  border-radius: 20px;  border: solid 3px #FF0000; padding: 25px 0px 0px 0px;
 }
 
 
