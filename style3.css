@@ -217,7 +217,7 @@ font-weight: italic; display: block; margin: auto auto auto auto;
 }
 
 
-#media  {    width: 150px;  height:150px;filter: brightness(110%) saturate(115%) contrast(110%) opacity(100%); transform: rotate(0deg); z-index: 100; display: block; margin: auto auto auto auto; transform: rotate(0deg); 
+#media  {    width: 150px;  height:150px;filter: brightness(110%) saturate(115%) contrast(110%) opacity(100%); transform: rotate(0deg); z-index: 200; display: block; margin: auto auto auto auto; transform: rotate(0deg); 
 animation: blinker 1.0s step-start infinite;
 
 }
