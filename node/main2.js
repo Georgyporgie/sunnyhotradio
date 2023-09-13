@@ -153,6 +153,245 @@ let track_list = [
   },
 
 
+
+{
+    name: "Bang Bang",
+    artist: "The Knocks ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek02/The Knocks - Bang Bang.mp3",
+  },
+
+{
+     name: " Infatuation",
+    artist: "SG Lewis ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek04/SG Lewis - Infatuation.mp3",
+  },
+
+
+
+{
+    name: "  Cherie",
+    artist: "Darius   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek05/Darius - Cherie.mp3",
+  },
+
+
+
+ 
+{
+     name: "  Don't Think Twice ",
+    artist: "Rita Ora  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek06/Rita Ora - Don't Think Twice.mp3",
+  },
+
+
+
+
+{
+    name: "  Contact  ",
+    artist: "Kelela  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek05/Kelela - Contact.mp3",
+  },
+
+
+
+
+
+{
+    name: " Come Into My Life",
+    artist: "Joyce Sims ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies05/Joyce Sims - Come Into My Life.mp3",
+  },
+
+
+
+
+
+
+{
+    name: " About them time",
+    artist: "Lizzo ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek01/Lizzo - About them time.mp3",
+  },
+
+
+
+{
+    name: "Gonna Get Over You",
+    artist: "Beverlei Brown ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek04/Gonna get over you - Beverlei Brown.mp3",
+  },
+
+
+
+
+
+
+
+{
+    name: "   Lifetime ",
+    artist: "SG Lewis",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek06/SG Lewis - Lifetime.mp3",
+  },
+
+
+
+
+
+
+{
+    name: "  Crucify",
+    artist: "Emma Hewitt ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek05/Emma Hewitt - Crucify (Richi Remix).mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Life For The Weekend",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Life for the weekend- Jingle.mp3",
+  },
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Let op.mp3",
+  },
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/40 in jingle11.mp3",
+  },
+
+
+
+
+
+
+
+
+
+{
+     name: "  Love On You",
+    artist: "Jason Warrior  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek04/Jason Warrior - Love On You.mp3",
+  },
+
+
+
+
+
+
+
+{
+    name: "  Loveher",
+    artist: "Romy",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek06/Romy - Loveher.mp3",
+  
+
+
+},
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+  },
+
+
+{
+    name: " New Track",
+    artist: "Sunny hotradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/New trac.mp3",
+  
+
+
+},
+
+
+
+
+{
+    name: "   Drifting",
+    artist: "Tiesto",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek06/Tiesto - Drifting.mp3",
+  
+
+
+},
+
+
+
+
+
+
+
+{
+    name: "Doing It",
+    artist: "Rita Ora",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek02/Rita Ora - Doing It.mp3",
+  
+
+
+},
+
+
+
+
+{
+    name: " Miracles (12inch)",
+    artist: "Change ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies04/Change - Miracles.mp3",
+  },
+
+
+
+
+
+
 {
     name: "Ship Wrek",
     artist: "MLA",
@@ -5902,34 +6141,6 @@ let track_list = [
 
 
 
-{
-    name: "  Cherie",
-    artist: "Darius   ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek05/Darius - Cherie.mp3",
-  },
-
-
-
- 
-{
-     name: "  Don't Think Twice ",
-    artist: "Rita Ora  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Rita Ora - Don't Think Twice.mp3",
-  },
-
-
-
-
-{
-    name: "  Contact  ",
-    artist: "Kelela  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek05/Kelela - Contact.mp3",
-  },
-
-
 
 
 
@@ -6346,15 +6557,6 @@ let track_list = [
 
 
 
-{
-    name: " Come Into My Life",
-    artist: "Joyce Sims ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies05/Joyce Sims - Come Into My Life.mp3",
-  },
-
-
-
 
 
 
@@ -6663,27 +6865,6 @@ let track_list = [
 
 
 
-
-
-
-
-
-
-
-
-
-
-{
-    name: "Gonna Get Over You",
-    artist: "Beverlei Brown ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek04/Gonna get over you - Beverlei Brown.mp3",
-  },
-
-
-
-
-
 {
     name: "Just For You",
     artist: "Sunny Ship",
@@ -6759,18 +6940,6 @@ let track_list = [
     path: "muziek/jingles/Let op.mp3",
   },
 
-
-
-
-
-
-
-{
-    name: "   Lifetime ",
-    artist: "SG Lewis",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/SG Lewis - Lifetime.mp3",
-  },
 
 
 
@@ -6893,15 +7062,6 @@ let track_list = [
 
 
 
-
-{
-    name: "  Crucify",
-    artist: "Emma Hewitt ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek05/Emma Hewitt - Crucify (Richi Remix).mp3",
-  },
-
-
 {
     name: " You See The Trouble With Me ",
     artist: "Black Legend ",
@@ -7019,12 +7179,6 @@ let track_list = [
   },
 
 
-{
-    name: "To Be Loved",
-    artist: "Lizzo",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek03/Lizzo - To be loved.mp3",
-  },
 
 
 
@@ -7037,16 +7191,6 @@ let track_list = [
 
 
 
-
-
-
-
-{
-    name: "Just For You ",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/New track.mp3",
-  },
 
 
 
@@ -7102,20 +7246,6 @@ let track_list = [
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle1.mp3",
   },
-
-
-
-
-
-{
-    name: "Life For The Weekend",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Life for the weekend- Jingle.mp3",
-  },
-
-
-
 
 
 
@@ -7422,45 +7552,6 @@ let track_list = [
 
 
 
-{
-     name: "    Silence ",
-    artist: "Sarah McLachlan ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Sarah McLachlan - Silence.mp3",
-  },
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-  },
-
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/40 in jingle11.mp3",
-  },
-
-
-
-
-
-
-
-
-
-{
-     name: "  Love On You",
-    artist: "Jason Warrior  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek04/Jason Warrior - Love On You.mp3",
-  },
-
 
 {
     name: "Just For You",
@@ -7725,54 +7816,13 @@ let track_list = [
 
 
 
-
-
-
-
-
-
 {
-    name: "  Loveher",
-    artist: "Romy",
+     name: "    Silence ",
+    artist: "Sarah McLachlan ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Romy - Loveher.mp3",
-  
-
-
-},
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle3.mp3",
+    path: "muziek/muziek06/Sarah McLachlan - Silence.mp3",
   },
 
-
-{
-    name: " New Track",
-    artist: "Sunny hotradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/New trac.mp3",
-  
-
-
-},
-
-
-
-
-{
-    name: "   Drifting",
-    artist: "Tiesto",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Tiesto - Drifting.mp3",
-  
-
-
-},
 
 
 {
@@ -8019,94 +8069,6 @@ let track_list = [
     path: "muziek/muziek04/Diplo & Miguel - Don't forget my love.mp3",
   },
 
-
-{
-     name: " Infatuation",
-    artist: "SG Lewis ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek04/SG Lewis - Infatuation.mp3",
-  },
-
-
-
-
-
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle3.mp3",
-  },
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/New track.mp3",
-  },
-
-
-
-
-
-
-
-{
-    name: "Kiss Me More",
-    artist: "Doja Cat  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek01/Doja Cat - Kiss me more.mp3",
-  },
-
-
-
-{
-    name: "  After Midnight ",
-    artist: "Lucas & Steve  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek05/Lucas & Steve - After Midnight.mp3",
-  },
-
-
-
-
-{
-    name: "Get Together",
-    artist: "Bebe Rexha ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek02/Bebe Rexha - Get together.mp3",
-  },
-
-
- 
-
-
-
-
-
- 
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/40 in jingle.mp3",
-  },
-
-
-
-
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/sunny ship/radio dj - just for you222.mp3",
-  },
 
 
 
@@ -8865,12 +8827,88 @@ let track_list = [
 
 
 
+
+
+
+
+
 {
-    name: "Bang Bang",
-    artist: "The Knocks ",
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek02/The Knocks - Bang Bang.mp3",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
   },
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/New track.mp3",
+  },
+
+
+
+
+
+
+
+{
+    name: "Kiss Me More",
+    artist: "Doja Cat  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek01/Doja Cat - Kiss me more.mp3",
+  },
+
+
+
+{
+    name: "  After Midnight ",
+    artist: "Lucas & Steve  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek05/Lucas & Steve - After Midnight.mp3",
+  },
+
+
+
+
+{
+    name: "Get Together",
+    artist: "Bebe Rexha ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek02/Bebe Rexha - Get together.mp3",
+  },
+
+
+ 
+
+
+
+
+
+ 
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/40 in jingle.mp3",
+  },
+
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you222.mp3",
+  },
+
+
+
+
+
+
 
 {
      name: "Welcome!",
@@ -9307,7 +9345,12 @@ let track_list = [
 
 
 
-
+{
+    name: "To Be Loved",
+    artist: "Lizzo",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek03/Lizzo - To be loved.mp3",
+  },
 
 
 
@@ -9647,29 +9690,6 @@ let track_list = [
 
 
 
-
-{
-    name: " Back To You ",
-    artist: "Lost Frequencies    ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek05/Lost Frequencies - Back To You.mp3",
-  },
-
-
-
-
-
-
-
-{
-    name: "Doing It",
-    artist: "Rita Ora",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek02/Rita Ora - Doing It.mp3",
-  
-
-
-},
 
 
 
@@ -11032,12 +11052,14 @@ let track_list = [
     path: "muziek/oldies04/Gwen McCrae - Keep the fire Burning.mp3",
   },
 
- {
-    name: " Miracles (12inch)",
-    artist: "Change ",
+ 
+{
+    name: " Back To You ",
+    artist: "Lost Frequencies    ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies04/Change - Miracles.mp3",
+    path: "muziek/muziek05/Lost Frequencies - Back To You.mp3",
   },
+
 
 
 
