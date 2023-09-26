@@ -177,7 +177,15 @@ let track_list = [
 },
 
 
+{
+    name: "  Drinkin'",
+    artist: "JoelCorry & Rita Ora ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek06/JoelCorry & Rita Ora - Drinkin'.mp3",
+  
 
+
+},
 
 
 
@@ -243,15 +251,7 @@ let track_list = [
 
 
 
-{
-    name: "  Drinkin'",
-    artist: "JoelCorry & Rita Ora ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek02/JoelCorry & Rita Ora - Drinkin'.mp3",
-  
 
-
-},
 
 
 
