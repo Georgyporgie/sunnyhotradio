@@ -410,7 +410,7 @@ li:hover {
 }
 
 
-.ham  {    width: 40px;  height: 40px; filter: brightness(105%) saturate(105%) contrast(105%) opacity(65%); transform: rotate(0deg); z-index: -200; margin-bottom: -9px; margin-right: 6px;margin-top: -4px; color: white;
+.ham  {    width: 40px;  height: 40px; filter: brightness(110%) saturate(110%) contrast(110%) opacity(70%); transform: rotate(0deg); z-index: -200; margin-bottom: -9px; margin-right: 6px;margin-top: -4px; color: white;
 }
 
 #logo  {    width: 120px;  height: 90px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(70%); transform: rotate(0deg); z-index: -200; margin-top: -16px;margin-bottom: -12px;margin-left: 8px;  border-radius: 5px;
@@ -629,7 +629,7 @@ color: #FF0000;
 
 #bert  {
 
-animation: blinker 0.5s step-start infinite;
+animation: blinker 2.0s step-start infinite;
 
 }
 
@@ -642,9 +642,9 @@ animation: blinker 0.5s step-start infinite;
 
 
 
-#chinese  {
+#herb  {
 
-animation: blinker 0.5s step-start infinite;
+animation: blinker 2.5s step-start infinite;
 
 }
 
