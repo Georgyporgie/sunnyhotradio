@@ -212,7 +212,7 @@ li:hover {
 }
 
 
-.ham  {    width: 40px;  height: 40px; filter: brightness(105%) saturate(105%) contrast(105%) opacity(65%); transform: rotate(0deg); z-index: -200; margin-bottom: -22px; margin-right: 8px;margin-top: -11px; color: white;
+.ham  {    width: 40px;  height: 40px; filter: brightness(110%) saturate(110%) contrast(110%) opacity(70%); transform: rotate(0deg); z-index: -200; margin-bottom: -22px; margin-right: 8px;margin-top: -11px; color: white;
 }
 
 #logo  {    width: 120px;  height: 90px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(70%); transform: rotate(0deg); z-index: -200; margin-top: -16px;margin-bottom: -38px;margin-left: 8px;  border-radius: 5px;
@@ -254,18 +254,18 @@ animation: blinker 1s step-start infinite;
 
 
 .one {  
-float: left; margin-left: 20px; z-index: -210; font-size: 20px; color: white;
+float: left; margin-left: 20px; z-index: -210; font-size: 20px; color:white;
 }
 
 .two  {  
-display: block; margin: auto auto auto auto; z-index: -210;font-size: 20px; color: #FF0000;
+display: block; margin: auto auto auto auto; z-index: -210;font-size: 20px;color:#FF0000;
 }
 
 .three {  
-float: right; margin-right: 20px;z-index: -210;font-size: 20px; color:white;
+float: right; margin-right: 20px;z-index: -210;font-size: 20px; color: white;
 }
 
-#studio  {  display: block; margin: auto auto auto auto; filter:brightness(120%) saturation(105%) contrast(115%) opacity(75%);width: 355px; height: 235px; margin-left: -5px;border: solid 1px #FF0000;z-index:-200; border-radius:5px;
+#studio  {  display: block; margin: auto auto auto auto; filter:brightness(120%) saturation(105%) contrast(115%) opacity(75%);width: 355px; height: 235px; margin-left: -8px;border: solid 3px black;z-index:-200; border-radius:5px;
 }
 
 .balk  {  border: solid 2px #FFCC99; background-color: chocolate; z-index: -400; border-radius: 50px;
@@ -294,7 +294,7 @@ h6  {  font-size: 20px; color: white; font-family: Arial ,Helvetica,sans-serif; 
 
 #marquee {
    background:linear-gradient(280deg,#C29C6D,#C8AD7F);
-  width: 250px;border-radius: 5px; z-index :-200;
+  width: 250px;border-radius: 5px;
   margin: 0 auto;
   overflow: hidden;
   white-space: nowrap;
@@ -305,7 +305,7 @@ height: 40px;
   display: inline-block; font-style: italic;
   font-size: 20px;
   position: relative;
-  left: 100%; 
+  left: 100%;
   animation: marquee 8s linear infinite;
 
 }
