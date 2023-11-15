@@ -94,6 +94,78 @@ let track_list = [
   },
 
 
+{
+    name: "More More More",
+    artist: "Andrea True Connection ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies05/Andrea True Connection - More More More.mp3",
+  },
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle4.mp3",
+  },
+{
+    name: " Fly Robin Fly ",
+    artist: "Silver Convention",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies05/Silver Convention - Fly Robin Fly.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+  },
+
+{
+    name: " Yes Sir  I Can Boogie ",
+    artist: "Baccara",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies05/Baccara - Yes Sir  I Can Boogie.mp3",
+  },
+
+
+
+
+{
+    name: "   Control ",
+    artist: "Janet Jackson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies05/Janet Jackson - Control.mp3",
+  },
+
+
+{
+    name: "   On My Love",
+    artist: "Zara Larsson ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek06/Zara Larsson - On My Love.mp3",
+  },
+
+
+
+{
+    name: "  We Got A Love Thang",
+    artist: "CC Peniston ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies05/CC Peniston - We Got A Love Thang.mp3",
+  },
+
 
 
 
