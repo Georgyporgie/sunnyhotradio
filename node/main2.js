@@ -98,17 +98,6 @@ let track_list = [
     path: "muziek/jingles/sunny dance jingle.mp3",
   },
 
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-  },
-
-
 {
     name: "Show It To Me",
     artist: "Nightclub ",
@@ -1835,6 +1824,17 @@ let track_list = [
 
 
 
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Let op.mp3",
+  },
 
 
 
