@@ -341,7 +341,7 @@ let track_list = [
     name: "   Meet Her At The Love Parade  ",
     artist: "Da Hool ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies05/Da Hool - Meet Her At The Love Parade.mp3",
+    path: "muziek/oldies06/Da Hool - Meet Her At The Love Parade.mp3",
   },
 
 
