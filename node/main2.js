@@ -117,6 +117,20 @@ let track_list = [
 
 
 {
+     name: "Alarmschijf",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Alarm schijf.mp3",
+  },
+
+
+
+
+
+
+
+
+{
      name: "  Houdini",
     artist: "Dua Lipa  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -374,11 +388,12 @@ let track_list = [
 
 
 {
-     name: " Paranoia",
-    artist: "Steve Aoki ",
+     name: "  Houdini",
+    artist: "Dua Lipa  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Steve Aoki - Paranoia.mp3",
+    path: "muziek/muziek07/Dua Lipa - Houdini.mp3",
   },
+
 
 
 {
@@ -1198,11 +1213,12 @@ let track_list = [
 
 
 
+
 {
-     name: " Paranoia",
-    artist: "Steve Aoki ",
+     name: "  Houdini",
+    artist: "Dua Lipa  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Steve Aoki - Paranoia.mp3",
+    path: "muziek/muziek07/Dua Lipa - Houdini.mp3",
   },
 
 
@@ -2696,12 +2712,14 @@ let track_list = [
 
 
 
+
 {
-     name: " Paranoia",
-    artist: "Steve Aoki ",
+     name: "  Houdini",
+    artist: "Dua Lipa  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Steve Aoki - Paranoia.mp3",
+    path: "muziek/muziek07/Dua Lipa - Houdini.mp3",
   },
+
 
 
 {
@@ -3795,11 +3813,12 @@ let track_list = [
 
 
 
+
 {
-     name: " Paranoia",
-    artist: "Steve Aoki ",
+     name: "  Houdini",
+    artist: "Dua Lipa  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Steve Aoki - Paranoia.mp3",
+    path: "muziek/muziek07/Dua Lipa - Houdini.mp3",
   },
 
 
@@ -4573,12 +4592,14 @@ let track_list = [
 
 
 
+
 {
-     name: " Paranoia",
-    artist: "Steve Aoki ",
+     name: "  Houdini",
+    artist: "Dua Lipa  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Steve Aoki - Paranoia.mp3",
+    path: "muziek/muziek07/Dua Lipa - Houdini.mp3",
   },
+
 
 
 {
@@ -6955,11 +6976,12 @@ let track_list = [
 
 
 {
-     name: " Paranoia",
-    artist: "Steve Aoki ",
+     name: "  Houdini",
+    artist: "Dua Lipa  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Steve Aoki - Paranoia.mp3",
+    path: "muziek/muziek07/Dua Lipa - Houdini.mp3",
   },
+
 
 
 {
@@ -9074,11 +9096,12 @@ let track_list = [
 
 
 {
-     name: " Paranoia",
-    artist: "Steve Aoki ",
+     name: "  Houdini",
+    artist: "Dua Lipa  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Steve Aoki - Paranoia.mp3",
+    path: "muziek/muziek07/Dua Lipa - Houdini.mp3",
   },
+
 
 
 
@@ -10064,12 +10087,14 @@ let track_list = [
 
 
 
+
 {
-     name: " Paranoia",
-    artist: "Steve Aoki ",
+     name: "  Houdini",
+    artist: "Dua Lipa  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Steve Aoki - Paranoia.mp3",
+    path: "muziek/muziek07/Dua Lipa - Houdini.mp3",
   },
+
 
 {
      name: "Welcome!",
