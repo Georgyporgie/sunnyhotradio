@@ -164,12 +164,7 @@ let track_list = [
     path: "muziek/jingles/Sunny radio jingle3.mp3",
   },
  
-{
-    name: "  Ti Sento (maxi single) ",
-    artist: "Matia Bazar ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies06/Matia Bazar - Ti Sento (maxi single).mp3",
-  },
+
 
 
 
@@ -9820,7 +9815,12 @@ let track_list = [
 
 
 
-
+{
+    name: "  Ti Sento (maxi single) ",
+    artist: "Matia Bazar ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies06/Matia Bazar - Ti Sento (maxi single).mp3",
+  },
 
 
 
