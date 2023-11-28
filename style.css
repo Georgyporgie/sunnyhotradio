@@ -223,7 +223,7 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
 
 }
 
-#classic  {    width: 130px;  height: 130px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(65%); transform: rotate(-1deg); z-index: -200; margin-top: -24px;margin-bottom: -36px;margin-left: 22px;  border-radius: 5px; background-color: black;
+#classic  {    width: 130px;  height: 130px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(65%); transform: rotate(3deg); z-index: -200; margin-top: -24px;margin-bottom: -36px;margin-left: 22px;  border-radius: 5px; background-color: black;
 
 
 }
