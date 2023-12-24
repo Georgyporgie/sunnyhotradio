@@ -481,7 +481,7 @@ animation: blinker 1s step-start infinite;
   }
 }
 
-.arrow {  background:linear-gradient(180deg,#FFD8AB,bisque,#FFDFC4,bisque);  z-index: -300; margin-left: -10px; margin-right: -10px; border: solid 1px #FF0000;
+#arrow {  background-color: transparent; z-index: -300; margin-left: -10px; margin-right: -10px; border: solid 2px black;
 
 }
 
@@ -556,7 +556,7 @@ animation: blinker 1s step-start infinite;
 
 
 #events {
-color: #000080; z-index: 200; text-align: center; font-family: Arial ,Helvetica,sans-serif; padding: 25px 15px 25px 15px;font-size: 23px;  border: solid 3px #000080; border-radius: 5px;
+color: #000080; z-index: 300; text-align: center; font-family: Arial ,Helvetica,sans-serif; padding: 25px 15px 25px 15px;font-size: 23px;  border: solid 3px #000080; border-radius: 5px;
 }
 
 #twin  {
