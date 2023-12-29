@@ -223,7 +223,7 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
 
 }
 
-#classic  {    width: 130px;  height: 130px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(65%); transform: rotate(3deg); z-index: -200; margin-top: -24px;margin-bottom: -36px;margin-left: 22px;  border-radius: 5px; background-color: black;border: solid 1px #FF0000;
+#classic  {    width: 130px;  height: 130px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(65%); transform: rotate(3deg); z-index: -200; margin-top: -24px;margin-bottom: -36px;margin-left: 22px;  border-radius: 5px; background-color: black;border: solid 1px #00CC00;
 
 
 }
@@ -240,7 +240,7 @@ animation: blinker 1s step-start infinite;
   }
 }
 
-#rock   {    width: 145px;  height: 145px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(65%); transform: rotate(-1deg); z-index: -200; float : right;  border-radius: 5px; margin-right: 20px; background-color: black;border: solid 1px #FF0000;
+#rock   {    width: 145px;  height: 145px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(65%); transform: rotate(-1deg); z-index: -200; float : right;  border-radius: 5px; margin-right: 20px; background-color: black;border: solid 1px #0099FF;
 }
  .licht  {    width: 25px;  height: 25px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(60%); transform: rotate(40deg); z-index: -200; margin: -38px auto 10px  auto; display: block; border-radius: 5px;
 }
