@@ -116,9 +116,10 @@ h5  {  font-size: 25px; color: white; font-family: Arial ,Helvetica,sans-serif; 
 }
 
 
-h2  {  font-size: 25px; color: white; font-family: Arial ,Helvetica,sans-serif; text-align: center; z-index: 200; 
+h2  {  font-size: 25px; color: #FF0000; font-family: Arial ,Helvetica,sans-serif; text-align: center; z-index: 200; background: linear-gradient(45deg,#FFE5EC,#FFC2D1);border-radius:20px; margin:5px; padding:15px; border:solid 1px #FF0000;
 
 }
+
 
 p  {  font-size: 20px; color: white; font-family: Arial ,Helvetica,sans-serif; text-align: center; z-index: -200; 
 
@@ -342,9 +343,6 @@ height: 40px;
 
 
 
-h1 { font-family: Arial ,Helvetica,sans-serif; margin-left: 20px; font-style: italic;
-color: white;
-}
 
 
 
@@ -357,9 +355,8 @@ height: 80px; width: 85px; filter: brightness(100%) saturate(110%) contrast(110%
 }
 
 
-
-.black {  
-display: block; margin: 20px auto -5px -5px; z-index: -400;  
+#black {  
+display: block; margin: 20px auto -5px -5px; z-index: 200;  
 }
 
 a { color: black;
