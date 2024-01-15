@@ -140,10 +140,10 @@ let track_list = [
 
 
 {
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+     name: "Twilight Zone (1979)",
+    artist: "Manhattan Transfer ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/sunny dance jingle.mp3",
+    path: "muziek/oldies07/Manhattan Transfer - Twilight Zone (1979).mp3",
   },
 
 
