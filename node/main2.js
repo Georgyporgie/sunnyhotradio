@@ -135,7 +135,12 @@ let track_list = [
   },
 
 
-
+{
+    name: "Chillhouse Del Mar",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek01/chillhouse del mar02.mp3",
+  },
 
 
 {
@@ -146,12 +151,7 @@ let track_list = [
   },
 
 
-{
-    name: "Chillhouse Del Mar",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek01/chillhouse del mar02.mp3",
-  },
+
 
 
 {
