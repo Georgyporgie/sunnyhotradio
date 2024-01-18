@@ -361,3 +361,15 @@ display: block; margin: 20px auto -5px -5px; z-index: -300;  border-radius: 5px;
 
 a { color: black;
 }
+
+#first { width: 17px; height: 25px;filter: brightness(110%) saturate(110%) contrast(110%) opacity(80%); z-index: -200; transform:rotate(0deg);
+}
+
+
+
+#pick { width: 20px; height:25px;filter: brightness(110%) saturate(110%) contrast(110%) opacity(80%); z-index: -200; transform:rotate(0deg);
+}
+
+
+#third { width: 20px; height: 25px;filter: brightness(110%) saturate(110%) contrast(110%) opacity(80%); z-index: -200; transform:rotate(0deg);
+}
