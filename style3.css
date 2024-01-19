@@ -745,3 +745,7 @@ border: solid 2px greenyellow;
 margin-top: 45px; margin-left: 10px;height: 50px; width: 65px;
 
 }
+
+#message {  font-weight:bold;  font-size: 25px;
+
+}
