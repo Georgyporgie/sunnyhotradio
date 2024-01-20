@@ -129,6 +129,18 @@ let track_list = [
     path: "muziek/jingles/time classic.mp3",
   },
 
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/New track.mp3",
+  },
+{
+    name: "I Feel Love (revisit mix)",
+    artist: "Donna Summer ",
+     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek07/Donna Summer - I Feel Love (revisit mix).mp3",
+  },
 
 
 {
@@ -150,28 +162,16 @@ let track_list = [
 
 
 
+
+
 {
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    name: "     Groovejet ",
+    artist: "Spiller ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/New track.mp3",
-  },
-{
-    name: "I Feel Love (revisit mix)",
-    artist: "Donna Summer ",
-     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek07/Donna Summer - I Feel Love (revisit mix).mp3",
+    path: "muziek/oldies07/Spiller - Groovejet.mp3",
   },
 
 
-
-
-{
-    name: "     Human League  ",
-    artist: "Human",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies05/Human - Human League.mp3",
-  },
 
 
 
@@ -188,12 +188,6 @@ let track_list = [
   },
 
 
-{
-    name: "     Groovejet ",
-    artist: "Spiller ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Spiller - Groovejet.mp3",
-  },
 
 
 
@@ -214,27 +208,6 @@ let track_list = [
     path: "muziek/muziek07/A Van Buuren & Goodboys - Forever.mp3",
   },
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
-  },
-
-{
-    name: "     Young Hearts Run Free  ",
-    artist: "Candi Station ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies05/Candi Station - Young Hearts Run Free.mp3",
-  },
-
-
-{
-    name: "   Jenny",
-    artist: "Bandit & Belfort   ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek07/Bandit & Belfort - Jenny.mp3",
-  },
 
 
 {
@@ -264,12 +237,7 @@ let track_list = [
 
 
 
-{
-    name: "Just Get Ready (12inch) ",
-    artist: "Sos Band",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek02/Sos Band - Just get ready (Ben lIebrand remix).mp3",
-  },
+
 
 
 {
@@ -413,6 +381,22 @@ let track_list = [
 
 
 
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet5.mp3",
+  },
+
+
+
+
+{
+    name: "   Jenny",
+    artist: "Bandit & Belfort   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek07/Bandit & Belfort - Jenny.mp3",
+  },
 
 
 
@@ -10741,7 +10725,12 @@ let track_list = [
 
 
 
-
+{
+    name: "Just Get Ready (12inch) ",
+    artist: "Sos Band",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek02/Sos Band - Just get ready (Ben lIebrand remix).mp3",
+  },
 
 
 
@@ -11509,7 +11498,12 @@ let track_list = [
 
 
 
-
+{
+    name: "     Young Hearts Run Free  ",
+    artist: "Candi Station ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies05/Candi Station - Young Hearts Run Free.mp3",
+  },
 
 
 {
@@ -12341,7 +12335,12 @@ let track_list = [
 
 
 
-
+{
+    name: "     Human League  ",
+    artist: "Human",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies05/Human - Human League.mp3",
+  },
 
 
 
