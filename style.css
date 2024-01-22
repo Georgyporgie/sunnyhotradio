@@ -362,7 +362,7 @@ display: block; margin: 20px auto -5px -5px; z-index: -300;  border-radius: 5px;
 a { color: black;
 }
 
-#first { width: 17px; height: 25px;filter: brightness(105%) saturate(105%) contrast(110%) opacity(75%); z-index: -200; transform:rotate(0deg);
+#first { width: 20px; height: 25px;filter: brightness(105%) saturate(105%) contrast(110%) opacity(75%); z-index: -200; transform:rotate(0deg);
 }
 
 
