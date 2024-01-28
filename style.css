@@ -30,7 +30,7 @@ margin: auto auto auto auto;
 
 
 
-.sunny  {    width: 90px;  height: 90px;filter: brightness(110%) saturate(110%) contrast(110%) opacity(75%); transform: rotate(5deg); z-index: -200; display: block; margin: auto auto auto auto;
+.sunny  {    width: 90px;  height: 90px;filter: brightness(105%) saturate(105%) contrast(105%) opacity(70%); transform: rotate(5deg); z-index: -200; display: block; margin: auto auto auto auto;
 }
 
 
