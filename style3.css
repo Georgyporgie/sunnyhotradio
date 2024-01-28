@@ -469,7 +469,7 @@ height: 200px; width: 300px; display: block; margin: auto auto auto auto; z-inde
 
 
 
-#rad  {    width: 120px;  height: 80px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(75%); transform: rotate(0deg); z-index: -200;  margin: -65px auto -10px  auto; display: block; border-radius: 5px;
+#rad  {    width: 120px;  height: 80px;filter: brightness(110%) saturate(105%) contrast(110%) opacity(75%); transform: rotate(0deg); z-index: -200;  margin: -65px auto -10px  auto; display: block; border-radius: 5px;
 animation: blinker 9.0s step-start infinite;
 
 }
