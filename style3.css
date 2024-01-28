@@ -469,8 +469,8 @@ height: 200px; width: 300px; display: block; margin: auto auto auto auto; z-inde
 
 
 
-#mid  {    width: 25px;  height: 25px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(75%); transform: rotate(14deg); z-index: -200; margin: -35px auto 10px  auto; display: block; border-radius: 5px;
-animation: blinker 1s step-start infinite;
+#rad  {    width: 120px;  height: 80px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(75%); transform: rotate(0deg); z-index: -200;  margin: -65px auto -10px  auto; display: block; border-radius: 5px;
+animation: blinker 3.9s step-start infinite;
 
 }
 
@@ -746,6 +746,3 @@ margin-top: 45px; margin-left: 10px;height: 50px; width: 65px;
 
 }
 
-#message {  font-weight:bold;  font-size: 25px;
-
-}
