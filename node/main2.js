@@ -182,7 +182,12 @@ let track_list = [
     path: "muziek/muziek03/Nicki Minaj - Good Form.mp3",
   },
 
-
+{
+    name: "Nothing more to say",
+    artist: "Calvin Harris  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek01/Calvin Harris - Nothing more to say.mp3",
+  },
 
 {
     name: "Make It Right",
@@ -345,12 +350,7 @@ let track_list = [
   },
 
 
-{
-    name: "Nothing more to say",
-    artist: "Calvin Harris  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek01/Calvin Harris - Nothing more to say.mp3",
-  },
+
 
 
 {
@@ -13828,7 +13828,7 @@ document.getElementById("travolta")
 
 function displayName() {
  document.getElementById("bebe")
-  .innerHTML = "Hi We're The Weeknd and Bebe Rexha, we're happy to be here on Sunny";
+  .innerHTML = "Hi We're The Weeknd and Bebe Rexha, we're happy to be here on Sunny!";
 }
 
 
