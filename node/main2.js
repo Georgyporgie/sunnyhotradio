@@ -94,12 +94,14 @@ let track_list = [
     path: "muziek/jingles/New track.mp3",
   },
 
+
 {
-     name: "   Deep In Your Love ",
-    artist: "Bebe Rexha & Alok  ",
+     name: " Endless Summer ",
+    artist: "Sam Feldt   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek07/Bebe Rexha & Alok - Deep In Your Love.mp3",
+    path: "muziek/muziek07/Sam Feldt - Endless Summer.mp3",
   },
+
 
 {
      name: "Welcome!",
@@ -111,11 +113,12 @@ let track_list = [
 
 
 {
-     name: " Endless Summer ",
-    artist: "Sam Feldt   ",
+     name: "   Deep In Your Love ",
+    artist: "Bebe Rexha & Alok  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek07/Sam Feldt - Endless Summer.mp3",
+    path: "muziek/muziek07/Bebe Rexha & Alok - Deep In Your Love.mp3",
   },
+
 
 {
     name: "Just For You ",
