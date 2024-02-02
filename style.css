@@ -294,7 +294,8 @@ h6  {  font-size: 20px; color: white; font-family: Arial ,Helvetica,sans-serif; 
 
 
 #marquee {
-   background:linear-gradient(280deg,#C29C6D,#C8AD7F);
+  display:block; 
+background:linear-gradient(280deg,#C29C6D,#C8AD7F);
   width: 250px;border-radius: 5px;
   margin: 0 auto;
   overflow: hidden;
