@@ -378,3 +378,30 @@ a { color: black;
 
 #freq  {    width: 120px;  height: 80px;filter: brightness(105%) saturate(110%) contrast(105%) opacity(55%) grayscale(60%); transform: rotate(0deg); z-index: -800;  margin: -65px auto -10px  auto; display: block; border-radius: 5px;
 }
+
+
+
+ .btn {
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        height: 45px;
+        width: 45px;
+        text-align: center;
+        background: black;
+        border-radius: 3px;
+        cursor: pointer;
+filter:opacity(75%);
+    z-index: 0;
+    }
+
+    .btn span {
+        color: white;
+        font-size: 28px;
+        line-height: 45px;
+    }
+
+    .btn.click span:before {
+        content: '\f00d';
+        /* cross icon */
+    }
