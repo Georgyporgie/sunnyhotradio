@@ -274,7 +274,7 @@ z-index: -100;
 }
 
 .inch  {
-color: #FF0000; z-index: 0; text-align: center; font-family: Arial ,Helvetica,sans-serif; background:linear-gradient(180deg,#FFD8AB,bisque,#FFDFC4,bisque); padding: 15px 15px 15px 15px;font-size: 25px; font-weight: bold; border: solid 1px #FF0000; border-radius: 5px;
+color: #FF0000; z-index: 0; text-align: center; font-family: Arial ,Helvetica,sans-serif; background:linear-gradient(45deg,#0033FF,#006666,#003399); padding: 15px 15px 15px 15px;font-size: 25px; font-weight: bold; border: solid 1px #FF0000; border-radius: 5px;
 }
 
 
@@ -400,7 +400,7 @@ width: 355px; height: 370px;
 
 
 #list {  font-size: 15px; color: #FF0000; font-family: Arial ,Helvetica,sans-serif;
-z-index: 200;  margin-left: 5px; background:linear-gradient(45deg,#F3F3F3,#F4F4F4,#F5F5F5);  border-radius: 20px;  border: solid 3px #FF0000; padding: 25px 0px 0px 0px;
+z-index: 200;  margin-left: 5px;  background:linear-gradient(45deg,#0033FF,#006666,#003399);  border-radius: 20px;  border: solid 3px #FF0000; padding: 25px 0px 0px 0px;font-weight:800;
 }
 
 
@@ -659,7 +659,7 @@ animation: blinker 1.0s step-start infinite;
 
 
 #time  {
-color: black; z-index: 0; text-align: center;  background:linear-gradient(180deg,#FFD8AB,bisque,#FFDFC4,bisque); padding: 15px 15px 15px 15px;font-size: 25px;  border: solid 1px #FF0000; font-style:italic; border-radius: 5px;
+color: #FF0000; z-index: 0; text-align: center;   background:linear-gradient(45deg,#0033FF,#006666,#003399); padding: 15px 15px 15px 15px;font-size: 25px;  border: solid 1px #FF0000; font-style:italic; border-radius: 5px;
 }
 
 
