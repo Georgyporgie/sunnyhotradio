@@ -209,8 +209,8 @@ font-weight: italic; display: block; margin: auto auto auto auto;
 }
 
 
-#media  {    width: 150px;  height:150px;filter: brightness(110%) saturate(115%) contrast(110%) opacity(100%); transform: rotate(0deg); z-index: 200; display: block; margin: auto auto auto auto; transform: rotate(0deg); 
-animation: blinker 1.0s step-start infinite;
+#media  {    width: 150px;  height:150px;filter: brightness(110%) saturate(115%) contrast(110%) opacity(100%); transform: rotate(0deg); z-index: 200; display: block; margin: auto auto auto auto; 
+animation: blinker 1.0s step-start infinite; background-color:transparent;
 
 }
 
@@ -234,7 +234,7 @@ animation: blinker 4s step-start infinite;
   }
 }
 
-#med  {    width: 150px;  height:150px;filter: brightness(110%) saturate(115%) contrast(110%) opacity(100%); transform: rotate(0deg); z-index: 0; display: block; margin: auto auto auto auto; transform: rotate(0deg); border: solid 1px white;
+#med  {    width: 150px;  height:150px;filter: brightness(110%) saturate(115%) contrast(110%) opacity(100%); transform: rotate(0deg); z-index: 0; display: block; margin: auto auto auto auto;  border: solid 1px white; background-color:transparent;
 }
 
 
@@ -359,8 +359,8 @@ margin-top: -70px; margin-right: 7px;
 }
 
 #travolta{
-  background-image: url("Miles-Davis.png"); /* The image used */
-  background-color: #cccccc; /* Used if the image is unavailable */
+  
+  /* Used if the image is unavailable */
 /* You must set a specified height */
  
 
@@ -374,8 +374,8 @@ width: 355px; height: 370px;
 
 
 #max{
-  background-image: url("Miles-Davis.png"); /* The image used */
-  background-color: #cccccc; /* Used if the image is unavailable */
+  /* The image used */
+  /* Used if the image is unavailable */
 /* You must set a specified height */
  
 
@@ -420,8 +420,8 @@ font-size: 14px; border-radius: 20px;
 
 
 #hero-image {
-  background-image: url("Miles-Davis.png"); /* The image used */
-  background-color: #cccccc; /* Used if the image is unavailable */
+  /* The image used */
+ /* Used if the image is unavailable */
 /* You must set a specified height */
  
 
