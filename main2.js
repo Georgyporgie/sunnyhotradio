@@ -97,6 +97,29 @@ let track_list = [
     path: "muziek/discjockeys/starten met Sunny.mp3",
   },
 
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/return classics.mp3",
+  },
+
+
+{
+    name: "Dancin' (single)",
+    artist: "Crown Heights Affair ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Crown Heights Affair - Dancin' (single).mp3",
+  
+
+
+},
+
+
+
+
+
+
 
 {
     name: "Boogie2nite",
@@ -257,6 +280,15 @@ let track_list = [
     path: "muziek/jingles/Sunny radio jingle.mp3",
   },
  
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/return classics.mp3",
+  },
+
+
+
 {
      name: "Sweet Lucy",
     artist: "Raoul De Souza ",
@@ -495,15 +527,7 @@ let track_list = [
 
 
 
-{
-    name: "The Way You Make Me Feel (12inch)",
-    artist: "Michael Jackson",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies01/Michael Jackson - The way you make me feel.mp3",
-  
 
-
-},
 
 
 {
@@ -513,12 +537,6 @@ let track_list = [
     path: "muziek/muziek06/Janelle Monae - Water Slide.mp3",
   },
 
-{
-    name: " DD ",
-    artist: "DD House  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies06/DD House - DD.mp3",
-  },
 
 
 
@@ -10795,6 +10813,12 @@ let track_list = [
   },
 
 
+{
+    name: " DD ",
+    artist: "DD House  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies06/DD House - DD.mp3",
+  },
 
 {
     name: "  Diamonds (12inch)",
