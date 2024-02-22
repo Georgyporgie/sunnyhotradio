@@ -273,7 +273,7 @@ float: right; margin-right: 20px;z-index: -210;font-size: 20px; color: white;
 }
 
 
-.streep  {  border: solid 10px crimson;  z-index: -500; border-radius: 50px;
+.streep  {  border: solid 10px crimson;  z-index: -100; border-radius: 50px;
 }
 
 
@@ -286,7 +286,7 @@ h6  {  font-size: 20px; color: white; font-family: Arial ,Helvetica,sans-serif; 
 
 }
 
-#ship  {    width: 80px;  height: 60px; filter: brightness(110%) saturate(110%) contrast(110%) opacity(75%); transform: rotate(0deg); margin-bottom: -22px; margin-right: 8px;margin-top: -11px; color: white;z-index:-100; 
+#ship  {    width: 80px;  height: 60px; filter: brightness(105%) saturate(105%) contrast(105%) opacity(55%); transform: rotate(0deg); margin-bottom: -22px; margin-right: 8px;margin-top: -11px; color: white;z-index:-600; 
 }
 
 
