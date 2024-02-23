@@ -363,20 +363,20 @@ display: block; margin: 20px auto -5px -5px; z-index: -300;  border-radius: 5px;
 a { color: black;
 }
 
-#first { width: 20px; height: 25px;filter: brightness(105%) saturate(105%) contrast(100%) opacity(75%); z-index: -200; transform:rotate(0deg);
+#first { width: 20px; height: 25px;filter: brightness(105%) saturate(105%) contrast(100%) opacity(60%); z-index: -200; transform:rotate(0deg);
 }
 
 
 
-#pick { width: 20px; height:25px;filter: brightness(105%) saturate(105%) contrast(100%) opacity(75%); z-index: -200; transform:rotate(0deg);
+#pick { width: 20px; height:25px;filter: brightness(105%) saturate(105%) contrast(100%) opacity(60%); z-index: -200; transform:rotate(0deg);
 }
 
 
-#third { width: 20px; height: 25px;filter: brightness(105%) saturate(105%) contrast(100%) opacity(75%); z-index: -200; transform:rotate(0deg);
+#third { width: 20px; height: 25px;filter: brightness(105%) saturate(105%) contrast(100%) opacity(65%); z-index: -200; transform:rotate(0deg);
 }
 
 
-#freq  {    width: 120px;  height: 80px;filter: brightness(105%) saturate(110%) contrast(105%) opacity(55%) grayscale(60%); transform: rotate(0deg); z-index: -800;  margin: -65px auto -10px  auto; display: block; border-radius: 5px;
+#freq  {    width: 120px;  height: 80px;filter: brightness(105%) saturate(110%) contrast(105%) opacity(60%) grayscale(60%); transform: rotate(0deg); z-index: -800;  margin: -65px auto -10px  auto; display: block; border-radius: 5px;
 }
 
 
