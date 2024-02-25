@@ -106,15 +106,6 @@ let track_list = [
   },
 
 
-{
-    name: "10 35",
-    artist: "  Tate McRae  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/half/Half Tate McRae - Uh Oh.mp3",
-  
-
-
-},
 
 
 
@@ -322,6 +313,7 @@ let track_list = [
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies05/Baccara - Yes Sir  I Can Boogie.mp3",
   },
+
 {
     name: " Fly Robin Fly ",
     artist: "Silver Convention",
