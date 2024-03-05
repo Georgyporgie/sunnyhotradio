@@ -89,163 +89,16 @@ let track_list = [
 
 
 
-
-
-
-
-
-
 {
-    name: "Taste Of You",
-    artist: "Rezz",
-     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek01/Rezz - Taste of you.mp3",
-  },
-
-
-
-
-
-{
-     name: " Gone",
-    artist: "Noa Kirel  ",
+     name: " Free Yourself",
+    artist: "Jessie Ware  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek05/Noa Korel - Gone.mp3",
+    path: "muziek/muziek04/Jessie Ware - Free Yourself.mp3",
   },
 
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle3.mp3",
-  },
-
-
-
-
-{
-    name: "Welcome!",
-    artist: "Purple Disco Machine",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/start the party.mp3",
-  
-
-
-}, 
-
-{
-    name: " Stars",
-    artist: "Pnau & Bebe Rexha ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Pnau & Bebe Rexha - Stars.mp3",
-  },
-
-
-
-{
-    name: "   Fool  ",
-    artist: "Mr Belt ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek05/Mr Belt - Fool.mp3",
-  },
-
-{
-    name: " Fade To Grey",
-    artist: "Visage ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek02/Visage - Fade to Grey.mp3",
-  },
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle.mp3",
-  },
-
-{
-    name: "Life For The Weekend",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Life for the weekend- Jingle.mp3",
-  },
-
-{
-    name: "Machine Gun (12inch)",
-    artist: "Commodores",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies03/Commodores - Machine gun.mp3",
-  
-
-
-},
-
-{
-    name: "Hypnotize",
-    artist: "The Notorious B.I.G  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies03/Hypnotize--The Notorious B.I.G..mp3",
-  },
-
-{
-    name: "  Stone",
-    artist: "Time ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies03/Time - Stone.mp3",
-  },
-
-{
-    name: "Classic",
-    artist: "The Knocks",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies02/The Knocks - Classic.mp3",
-  },
-
-
-{
-    name: " DD ",
-    artist: "DD House  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies06/DD House - DD.mp3",
-  },
-
-{
-    name: "  Diamonds (12inch)",
-    artist: "Herb  Alpert  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies02/Herb  Alpert - Diamonds.mp3",
-  },
-
-
-
-{
-    name: "Stories",
-    artist: "Carleen Anderson",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies01/Carleen Anderson - Stories.mp3",
-  },
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle4.mp3",
-  },
- 
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/sunny ship/radio dj - just for you.mp3",
-  },
 
 
 {
@@ -9635,14 +9488,161 @@ let track_list = [
 
 
 
+
+
+
+
 {
-     name: " Free Yourself",
-    artist: "Jessie Ware  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek04/Jessie Ware - Free Yourself.mp3",
+    name: "Taste Of You",
+    artist: "Rezz",
+     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek01/Rezz - Taste of you.mp3",
   },
 
 
+
+
+
+{
+     name: " Gone",
+    artist: "Noa Kirel  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek05/Noa Korel - Gone.mp3",
+  },
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+  },
+
+
+
+
+{
+    name: "Welcome!",
+    artist: "Purple Disco Machine",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/start the party.mp3",
+  
+
+
+}, 
+
+{
+    name: " Stars",
+    artist: "Pnau & Bebe Rexha ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek06/Pnau & Bebe Rexha - Stars.mp3",
+  },
+
+
+
+{
+    name: "   Fool  ",
+    artist: "Mr Belt ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek05/Mr Belt - Fool.mp3",
+  },
+
+{
+    name: " Fade To Grey",
+    artist: "Visage ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek02/Visage - Fade to Grey.mp3",
+  },
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+  },
+
+{
+    name: "Life For The Weekend",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Life for the weekend- Jingle.mp3",
+  },
+
+{
+    name: "Machine Gun (12inch)",
+    artist: "Commodores",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies03/Commodores - Machine gun.mp3",
+  
+
+
+},
+
+{
+    name: "Hypnotize",
+    artist: "The Notorious B.I.G  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies03/Hypnotize--The Notorious B.I.G..mp3",
+  },
+
+{
+    name: "  Stone",
+    artist: "Time ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies03/Time - Stone.mp3",
+  },
+
+{
+    name: "Classic",
+    artist: "The Knocks",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies02/The Knocks - Classic.mp3",
+  },
+
+
+{
+    name: " DD ",
+    artist: "DD House  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies06/DD House - DD.mp3",
+  },
+
+{
+    name: "  Diamonds (12inch)",
+    artist: "Herb  Alpert  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies02/Herb  Alpert - Diamonds.mp3",
+  },
+
+
+
+{
+    name: "Stories",
+    artist: "Carleen Anderson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies01/Carleen Anderson - Stories.mp3",
+  },
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle4.mp3",
+  },
+ 
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you.mp3",
+  },
 
 
 
