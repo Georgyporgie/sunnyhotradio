@@ -49,15 +49,7 @@ let track_list = [
   },
 
 
- {
-    name: "Radiation Level (12inch)",
-    artist: "The Sun ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies02/The Sun - Radiation Level.mp3",
-  
 
-
-},
 
 
 
@@ -8435,7 +8427,15 @@ let track_list = [
 
 
 
+ {
+    name: "Radiation Level (12inch)",
+    artist: "The Sun ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies02/The Sun - Radiation Level.mp3",
+  
 
+
+},
  
 
 
