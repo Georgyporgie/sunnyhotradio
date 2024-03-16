@@ -56,14 +56,44 @@ let track_list = [
 
 
 {
-    name: " Crazy In Love (2003)",
-    artist: "Beyonce",
+    name: "  Welcome!",
+    artist: "Listen Live Sunny Danceradio  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Beyonce - Crazy In Love.mp3",
-  
+    path: "muziek/jingles/New track.mp3",
+  },
+
+{
+    name: "  Welcome!",
+    artist: "Listen Live Sunny Danceradio  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/New trac.mp3",
+  },
 
 
-},
+{
+    name: "    Sunglasses At Night ",
+    artist: "Heidi Klum ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek07/Heidi Klum - Sunglasses At Night.mp3",
+  },
+
+
+{
+    name: "  Welcome!",
+    artist: "Listen Live Sunny Danceradio  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/New trac.mp3",
+  },
+
+
+{
+    name: "  All Night Long",
+    artist: "Izzy Bizu ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek07/Izzy Bizu - All Night Long.mp3",
+  },
+
+
 
 
 
@@ -83,11 +113,13 @@ let track_list = [
     path: "muziek/jingles/return classics.mp3",
   },
 
+
+
 {
-    name: "   Funky Sensation",
-    artist: "Gwen McCrae ",
+    name: "   Ugly Ego",
+    artist: "Cameo  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies05/Gwen McCrae - Funky Sensation.mp3",
+    path: "muziek/oldies07/Cameo - Ugly Ego.mp3",
   },
 
 
@@ -145,19 +177,20 @@ let track_list = [
 
 },
 
-
-
-
-
 {
-    name: "Break The Rules",
-    artist: "Charli XCX",
+    name: " Crazy In Love (2003)",
+    artist: "Beyonce",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek04/Charli XCX - Break the Rules.mp3",
+    path: "muziek/oldies07/Beyonce - Crazy In Love.mp3",
   
 
 
 },
+
+
+
+
+
 
 
 
@@ -318,13 +351,6 @@ let track_list = [
 
 
 
-{
-     name: "    Silence ",
-    artist: "Sarah McLachlan ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Sarah McLachlan - Silence.mp3",
-  },
-
 
 
 {
@@ -430,6 +456,13 @@ let track_list = [
   },
 
 
+
+{
+     name: "    Silence ",
+    artist: "Sarah McLachlan ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek06/Sarah McLachlan - Silence.mp3",
+  },
 {
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio",
@@ -672,15 +705,6 @@ let track_list = [
 },
 
 
-{
-    name: "I Wanna Be Your Lover (12inch)",
-    artist: "Prince",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies01/Prince - I wanna be your lover.mp3",
-  
-
-
-},
 
 
 
@@ -730,6 +754,15 @@ let track_list = [
   },
 
 
+{
+    name: "I Wanna Be Your Lover (12inch)",
+    artist: "Prince",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies01/Prince - I wanna be your lover.mp3",
+  
+
+
+},
 
  
 
@@ -9594,7 +9627,15 @@ let track_list = [
 
 
 },
+{
+    name: "Break The Rules",
+    artist: "Charli XCX",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek04/Charli XCX - Break the Rules.mp3",
+  
 
+
+},
 
 {
     name: "Just For You",
