@@ -82,7 +82,7 @@ gap: 2px;
 
 .footer  {
 display: flex;  z-index:100;
-grid-column: span 2;
+grid-column: span 2;  
 }
 
 .item  {  
@@ -111,7 +111,7 @@ color: crimson; z-index: 200;
 }
 
 
-h5  {  font-size: 25px; color: white; font-family: Arial ,Helvetica,sans-serif; text-align: center; z-index: -200; 
+h5  {  font-size: 20px; color: white; font-family: Arial ,Helvetica,sans-serif; text-align: center; z-index: -200; 
 
 }
 
@@ -122,8 +122,7 @@ h2  {  font-size: 25px; color: #FF0000; font-family: Arial ,Helvetica,sans-serif
 }
 
 
-p  {  font-size: 20px; color: white; font-family: Arial ,Helvetica,sans-serif; text-align: center; z-index: -200; 
-
+p {  font-size: 19px; color: black;  text-align: center; z-index: -200; font-style:italic;  
 }
 
 
@@ -406,3 +405,23 @@ filter:opacity(75%);
         content: '\f00d';
         /* cross icon */
     }
+
+
+
+#foot  { color: black;
+}
+
+
+
+
+
+.info {
+ font-family: Candara;background : linear-gradient(90deg,#00CCFF,#66CCFF); color: white; 
+border-radius: 5px; z-index: -200; width: 51px; height: 34px; font-size: 17px; display:block; margin: auto auto auto auto; z-index:-300;
+
+
+
+
+
+
+}
