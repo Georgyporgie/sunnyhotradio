@@ -11,6 +11,22 @@ color:Silver;     margin: -19px -19px -20px -19px;  font-family: Arial ,Helvetic
 }
 
 
+@font-face{ 
+font-family: myFont;
+src:url(musicc.ttf);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .gloeilamp { 
 display: block;
 margin: auto auto auto auto;
@@ -122,7 +138,8 @@ h2  {  font-size: 25px; color: #FF0000; font-family: Arial ,Helvetica,sans-serif
 }
 
 
-p {  font-size: 19px; color: black;  text-align: center; z-index: -200; font-style:italic;  
+p {  
+font-family: myFont; font-size: 30px; font-weight:600; z-index: 200;
 }
 
 
