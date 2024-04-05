@@ -27,6 +27,10 @@ body {
 font-family: myMuss;
 src:url(musicc.ttf);
 }
+@font-face{ 
+font-family: myEvent;
+src:url(BROADW.ttf);
+}
 
 
 
@@ -557,7 +561,7 @@ animation: blinker 9.0s step-start infinite;
 
 
 #events {
-color: #000080; z-index: 200; text-align: center; font-family: Arial ,Helvetica,sans-serif; padding: 25px 15px 25px 15px;font-size: 25px;  border: solid 3px #FF0000; border-radius: 5px; background-color: transparent; font-weight:900;
+color: #000080; z-index: 200; text-align: center; font-family: myEvent; padding: 25px 15px 25px 15px;font-size: 25px;  border: solid 3px #FF0000; border-radius: 5px; background-color: transparent; 
 }
 
 #twin  {
@@ -565,7 +569,7 @@ color: #FF0000; z-index: -200; text-align: center; font-family: Arial ,Helvetica
 }
 
 #now  {
-color: white; z-index: 0; text-align: center; font-family: Arial ,Helvetica,sans-serif; background-color:transparent ; padding: 10px 15px 10px 15px;font-size: 15px;font-weight: bold; 
+color: black; z-index: 0; text-align: center; font-family: myMuss; background-color:transparent ; padding: 10px 15px 10px 15px;font-size: 20px;font-weight: bold; 
  }
 
 
