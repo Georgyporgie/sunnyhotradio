@@ -561,7 +561,7 @@ animation: blinker 9.0s step-start infinite;
 
 
 #events {
-color: #000080; z-index: 200; text-align: center; font-family: myEvent; padding: 25px 15px 25px 15px;font-size: 25px;  border: solid 3px #FF0000; border-radius: 5px; background-color: transparent; 
+color: #000080; z-index: 200; text-align: center; font-family: myEvent; padding: 25px 15px 25px 15px;font-size: 25px;  border: solid 3px #FF0000; border-radius: 5px; 
 }
 
 #twin  {
