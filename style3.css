@@ -32,7 +32,10 @@ font-family: myEvent;
 src:url(BROADW.ttf);
 }
 
-
+@font-face{ 
+font-family: myLed;
+src:url(28SegmentLedDisplayregular-qyMV.ttf);
+}
 
 .track-art {
  display: none;
@@ -102,7 +105,7 @@ margin-bottom: 9px;background:linear-gradient(90deg,#CC3333,#FF6666,#CC3333); fo
   -moz-appearance: none;
   appearance: none;
   height: 5px;
-  background: black;
+  background: #0a0a0a;
   opacity: 0.7;
   -webkit-transition: .2s;
   transition: opacity .2s;
@@ -136,7 +139,9 @@ margin-bottom: 9px;background:linear-gradient(90deg,#CC3333,#FF6666,#CC3333); fo
 }
  
 .current-time,
-.total-duration { color: #FF0000;
+.total-duration { color: #FF0000;  font-family: myLed; z-index:100;
+
+
   padding: 10px;
 }
  
