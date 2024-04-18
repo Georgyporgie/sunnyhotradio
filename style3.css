@@ -488,7 +488,7 @@ animation: blinker 9.0s step-start infinite;
   }
 }
 
-#arrow {  background-color: transparent; z-index: -300; margin-left: -10px; margin-right: -10px; border: solid 2px black;
+#arrow {   z-index: -300; margin-left: -10px; margin-right: -10px; border: solid 2px black;
 
 }
 
