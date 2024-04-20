@@ -1,6 +1,6 @@
 #loa {
 padding: 6px 6px 6px 6px;
- background: linear-gradient(45deg,crimson,#ed365b,#FF0000); color : #CCCCCC; 
+ background: linear-gradient(45deg,#000099,#009900,#006600); color : #CCCCCC; 
   font-size: 15px; display:block;   border-radius: 5px;
 font-weight: italic; 
 }
