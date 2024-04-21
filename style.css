@@ -369,7 +369,7 @@ height: 40px;
 
 #sun {
 
-height: 80px; width: 85px; filter: brightness(100%) saturate(110%) contrast(110%) opacity(75%); z-index: -200; transform:rotate(0deg);
+height: 80px; width: 85px; filter: brightness(100%) saturate(110%) contrast(110%) opacity(75%); z-index: 200; transform:rotate(0deg);
 }
 
 
@@ -434,7 +434,7 @@ filter:opacity(75%);
 
 .info {
  font-family: Candara;background : linear-gradient(90deg,#00CCFF,#66CCFF); color: white; 
-border-radius: 5px; z-index: -200; width: 51px; height: 34px; font-size: 17px; display:block; margin: auto auto auto auto; z-index:-300;
+border-radius: 5px; z-index: -400; width: 51px; height: 34px; font-size: 17px; display:block; margin: auto auto auto auto; z-index:-300;
 
 
 }
