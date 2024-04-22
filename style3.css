@@ -483,7 +483,7 @@ height: 200px; width: 300px; display: block; margin: auto auto auto auto; z-inde
 
 
 
-#rad  {    width: 120px;  height: 80px;filter: brightness(110%) saturate(105%) contrast(110%) opacity(75%); transform: rotate(5deg); z-index: -800;  margin: -65px auto -10px  auto; display: block; border-radius: 5px;
+#rad  {    width: 120px;  height: 80px;filter: brightness(105%) saturate(105%) contrast(105%) opacity(95%); transform: rotate(5deg); z-index: -200;  margin: -65px auto -10px  auto; display: block; border-radius: 5px;
 animation: blinker 9.0s step-start infinite;
 
 }
