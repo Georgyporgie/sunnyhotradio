@@ -59,246 +59,6 @@ let track_list = [
 
 
 
-
-
-
-
-
-{
-    name: "  Im Nin' Alu ",
-    artist: "Ofra Haza ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Ofra Haza - Im Nin' Alu.mp3",
-  },
-
-
-
-{
-     name: " Lady",
-    artist: "Modjo ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Modjo - Lady.mp3",
-  },
-
-
-
-{
-    name: "Today",
-    artist: "Time Classic",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet.mp3",
-  },
-
-
-{
-    name: " Best Friend ",
-    artist: "Saweetie ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek03/Saweetie - Best Friend.mp3",
-  },
-
-
-
-
-
-{
-     name: "   Me & You",
-    artist: "Tems",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Tems - Me & You.mp3",
-  },
-
-{
-    name: "Can't Get Over You ",
-    artist: "Yuna ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek04/Yuna - Can't get over you.mp3",
-  },
-
-
-
-{
-    name: "Life For The Weekend",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Life for the weekend- Jingle.mp3",
-  },
-
-
-
-
-{
-    name: "A Walk In The Park ",
-    artist: "Nick Straker Band",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies03/Nick Straker Band - A walk in the park 7inch.mp3",
-  },
-
-
-
-{
-    name: "Rasputin",
-    artist: "Majestic  & Boney M ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek04/majestic  & Boney M - Rasputin.mp3",
-  },
-
-
-
-
-
-  {
-    name: "Right On",
-    artist: "The Pasadenas  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies04/The pasadenas - Right on.mp3",
-  },
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle.mp3",
-  },
- 
-
-
-
-
-{
-    name: " About them time",
-    artist: "Lizzo ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek01/Lizzo - About them time.mp3",
-  },
-
-
-
-{
-    name: "Gonna Get Over You",
-    artist: "Beverlei Brown ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek04/Gonna get over you - Beverlei Brown.mp3",
-  },
-
-
-
-{
-    name: "  Satellite",
-    artist: " Khalid  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek01/Khalid - Satellite.mp3",
-  },
-
-
-
-{
-    name: "   Lifetime ",
-    artist: "SG Lewis",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/SG Lewis - Lifetime.mp3",
-  },
-
-
-
-{
-    name: " Ghetto Feeling  ",
-    artist: "Man Go Funk ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek05/Man Go Funk - Ghetto Feeling.mp3",
-  },
- 
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet.mp3",
-  },
-
-
-
-
-{
-    name: "  Nights Over Egypt ",
-    artist: "Jones Girls ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies05/Jones Girls - Nights Over Egypt.mp3",
-  },
-
-
-
-
-{
-    name: "Just For You ",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/sunny ship/radio dj - just for you22.mp3",
-  },
-
-
-
-
-
-
-
-
-{
-    name: "Try",
-    artist: "Dua Lipa ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek04/Dua Lipa - Try.mp3",
-  },
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle1.mp3",
-  },
- 
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle.mp3",
-  },
- 
-
-
-
-
-{
-    
-    name: "Chillhouse Del Mar",
-    artist: "Chillhouse",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies03/chillhouse del mar07.mp3",
-  },
-
-
-{
-    name: " Live To Tell (1986) ",
-    artist: "Madonna  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies06/Madonna - Live To Tell (1986).mp3",
-  },
-
-
-{
-    name: "Better Than Ever",
-    artist: "Nona",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek01/Nona - Beter than ever.mp3",
-  },
-
-
-
-
 {
     name: " Vogue (12 inch) ",
     artist: "Madonna  ",
@@ -2205,6 +1965,246 @@ let track_list = [
 
 
 
+
+
+
+
+
+
+
+
+
+{
+    name: "  Im Nin' Alu ",
+    artist: "Ofra Haza ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Ofra Haza - Im Nin' Alu.mp3",
+  },
+
+
+
+{
+     name: " Lady",
+    artist: "Modjo ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Modjo - Lady.mp3",
+  },
+
+
+
+{
+    name: "Today",
+    artist: "Time Classic",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet.mp3",
+  },
+
+
+{
+    name: " Best Friend ",
+    artist: "Saweetie ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek03/Saweetie - Best Friend.mp3",
+  },
+
+
+
+
+
+{
+     name: "   Me & You",
+    artist: "Tems",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek06/Tems - Me & You.mp3",
+  },
+
+{
+    name: "Can't Get Over You ",
+    artist: "Yuna ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek04/Yuna - Can't get over you.mp3",
+  },
+
+
+
+{
+    name: "Life For The Weekend",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Life for the weekend- Jingle.mp3",
+  },
+
+
+
+
+{
+    name: "A Walk In The Park ",
+    artist: "Nick Straker Band",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies03/Nick Straker Band - A walk in the park 7inch.mp3",
+  },
+
+
+
+{
+    name: "Rasputin",
+    artist: "Majestic  & Boney M ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek04/majestic  & Boney M - Rasputin.mp3",
+  },
+
+
+
+
+
+  {
+    name: "Right On",
+    artist: "The Pasadenas  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies04/The pasadenas - Right on.mp3",
+  },
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+  },
+ 
+
+
+
+
+{
+    name: " About them time",
+    artist: "Lizzo ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek01/Lizzo - About them time.mp3",
+  },
+
+
+
+{
+    name: "Gonna Get Over You",
+    artist: "Beverlei Brown ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek04/Gonna get over you - Beverlei Brown.mp3",
+  },
+
+
+
+{
+    name: "  Satellite",
+    artist: " Khalid  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek01/Khalid - Satellite.mp3",
+  },
+
+
+
+{
+    name: "   Lifetime ",
+    artist: "SG Lewis",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek06/SG Lewis - Lifetime.mp3",
+  },
+
+
+
+{
+    name: " Ghetto Feeling  ",
+    artist: "Man Go Funk ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek05/Man Go Funk - Ghetto Feeling.mp3",
+  },
+ 
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet.mp3",
+  },
+
+
+
+
+{
+    name: "  Nights Over Egypt ",
+    artist: "Jones Girls ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies05/Jones Girls - Nights Over Egypt.mp3",
+  },
+
+
+
+
+{
+    name: "Just For You ",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you22.mp3",
+  },
+
+
+
+
+
+
+
+
+{
+    name: "Try",
+    artist: "Dua Lipa ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek04/Dua Lipa - Try.mp3",
+  },
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle1.mp3",
+  },
+ 
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+  },
+ 
+
+
+
+
+{
+    
+    name: "Chillhouse Del Mar",
+    artist: "Chillhouse",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies03/chillhouse del mar07.mp3",
+  },
+
+
+{
+    name: " Live To Tell (1986) ",
+    artist: "Madonna  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies06/Madonna - Live To Tell (1986).mp3",
+  },
+
+
+{
+    name: "Better Than Ever",
+    artist: "Nona",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek01/Nona - Beter than ever.mp3",
+  },
 
 
 
