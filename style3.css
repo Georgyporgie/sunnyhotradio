@@ -108,11 +108,12 @@ margin-bottom: 9px;background:linear-gradient(90deg,#CC3333,#FF6666,#CC3333); fo
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  height: 5px;
+  height: 10px;
   background: #0a0a0a;
   opacity: 0.7;
   -webkit-transition: .2s;
   transition: opacity .2s;
+  border-radius: 5px;
 }
  
 /* Modify the appearance of the slider thumb */
@@ -121,8 +122,8 @@ margin-bottom: 9px;background:linear-gradient(90deg,#CC3333,#FF6666,#CC3333); fo
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
   background: #FF6600;
   cursor: pointer;
   border-radius: 50%;
