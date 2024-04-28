@@ -312,7 +312,7 @@ h6  {  font-size: 20px; color: white; font-family: Arial ,Helvetica,sans-serif; 
 
 #marquee {
   display:block; 
-background:linear-gradient(180deg,#C29C6D,#C8A67C,#D4BA99);
+ background-color: transparent;
   width: 250px;border-radius: 5px;
   margin: 0 auto;
   overflow: hidden;

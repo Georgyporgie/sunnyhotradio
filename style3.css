@@ -152,6 +152,7 @@ margin-bottom: 9px;background:linear-gradient(90deg,#CC3333,#FF6666,#CC3333); fo
  
 i.fa-volume-down,
 i.fa-volume-up {
+filter: brightness(110%)saturation(105%) contrast(105%); 
   padding: 10px;
 }
  
