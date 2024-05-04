@@ -45,12 +45,35 @@ let track_list = [
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle3.mp3",
+    path: "muziek/jingles/Sunny dance jingle.mp3",
   },
 
 {
     
-    name: " San Salvador",
+    name: "  - All Night Long ",
+    artist: "Izzy Bizu",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek07/Izzy Bizu - All Night Long.mp3",
+  },
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/time classic.mp3",
+  },
+
+
+
+
+
+
+
+
+{
+    
+    name: " San Salvador (1979)",
     artist: "Azoto ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Azoto - San Salvador.mp3",
@@ -164,6 +187,17 @@ let track_list = [
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/back in time jingle.mp3",
   },
+
+{
+     name: "  Say I'm Your Number One ",
+    artist: "Princess  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Princess - Say I'm Your Number One.mp3",
+  },
+
+
+
+
 
 
 {
@@ -12809,12 +12843,7 @@ let track_list = [
 
 
 
-{
-     name: "  Say I'm Your Number One ",
-    artist: "Princess  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Princess - Say I'm Your Number One.mp3",
-  },
+
 
 
 
