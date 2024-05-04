@@ -50,7 +50,7 @@ let track_list = [
 
 {
     
-    name: "  - All Night Long ",
+    name: "  All Night Long ",
     artist: "Izzy Bizu",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/muziek07/Izzy Bizu - All Night Long.mp3",
@@ -66,7 +66,13 @@ let track_list = [
 
 
 
-
+{
+    
+    name: "   Always There (1991)",
+    artist: "Incognito",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Incognito - Always There.mp3",
+  },
 
 
 
