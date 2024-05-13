@@ -151,7 +151,7 @@ color: black;
 }
  
 .current-time,
-.total-duration { color: #FF0000;  font-family: myLed; z-index:100;
+.total-duration { color: #FF0000;  font-family: myLed; z-index:100; background-color: transparent;
 
 
   padding: 10px;
