@@ -139,7 +139,7 @@ h2  {  font-size: 25px; color: #FF0000; font-family: Arial ,Helvetica,sans-serif
 
 
 p {  
-font-family: myFont; font-size: 20px; font-weight:600; z-index: 200;
+font-family: myFont; font-size: 20px; font-weight:600; z-index: 200; background-color: transparent;text-align: center;
 }
 
 
