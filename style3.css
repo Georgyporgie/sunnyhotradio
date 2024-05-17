@@ -131,7 +131,7 @@ color: black;
   appearance: none;
   width: 20px;
   height: 20px;
-  background: #FF6600;
+  background: #FFFF00;
   cursor: pointer;
   border-radius: 50%;
 }
@@ -265,7 +265,7 @@ animation: blinker 4s step-start infinite;
   }
 }
 
-#med  {    width: 150px;  height:150px;filter: brightness(110%) saturate(115%) contrast(110%) opacity(100%); transform: rotate(0deg); z-index: 0; display: block; margin: auto auto auto auto;  border: solid 1px white; background-color:transparent;
+#med  {    width: 150px;  height:150px;filter: brightness(110%) saturate(115%) contrast(110%) opacity(100%); transform: rotate(0deg); z-index: 0; display: block; margin: auto auto auto auto;  border: solid 1px black; background-color:transparent;
 }
 
 
