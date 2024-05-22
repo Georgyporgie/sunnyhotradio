@@ -116,7 +116,8 @@ color: black;
   -moz-appearance: none;
   appearance: none;
   height: 10px;
-  background: #0a0a0a;
+ background:linear-gradient(45deg,#0a0a0a,black,#020202);
+
   opacity: 0.7;
   -webkit-transition: .2s;
   transition: opacity .2s;
@@ -131,7 +132,7 @@ color: black;
   appearance: none;
   width: 20px;
   height: 20px;
-  background: #FFFF00;
+ background:linear-gradient(45deg,#FFFF00,#FFFF33,#FFFF99);
   cursor: pointer;
   border-radius: 50%;
 }
