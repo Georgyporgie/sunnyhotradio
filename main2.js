@@ -274,6 +274,16 @@ let track_list = [
     path: "muziek/jingles/return classics.mp3",
   },
 
+
+{
+    name: " Sexy Thing",
+    artist: "Hot Chocolate ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Hot Chocolate - Sexy Thing.mp3",
+  },
+
+
+
 {
     name: "Return Of The Mack (12inch) ",
     artist: "Mark Morrison",
