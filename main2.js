@@ -279,7 +279,7 @@ let track_list = [
     name: " Sexy Thing",
     artist: "Hot Chocolate ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Hot Chocolate - Sexy 
+    path: "muziek/oldies07/Hot Chocolate - Sexy.mp3",
 },
 
 
