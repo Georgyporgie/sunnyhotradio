@@ -293,7 +293,15 @@ let track_list = [
     path: "muziek/oldies07/Janet Jackson - Megamix2 (Luke).mp3",
   },
 
+{
+    name: " Sunglasses At Night",
+    artist: "Heidi Klum ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek07/Heidi Klum - Sunglasses At Night.mp3",
+  
 
+
+},
 
 
 
@@ -308,7 +316,15 @@ let track_list = [
 },
 
 
+{
+    name: "   Still Believe In Love",
+    artist: "Mary J. Blige ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek07/Mary J. Blige - Still Believe In Love.mp3",
+  
 
+
+},
 
 
 
@@ -323,15 +339,6 @@ let track_list = [
 
 
 
-{
-    name: "  Loveher",
-    artist: "Romy",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Romy - Loveher.mp3",
-  
-
-
-},
 
 
 
@@ -358,82 +365,7 @@ let track_list = [
 
 
 
-{
-    name: "  Try It Out",
-    artist: "Gino Soccio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Gino Soccio - Try It Out.mp3",
-  },
 
-
-
-
-{
-    name: "  Take Me To The Top",
-    artist: "Advance ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Advance - Take me to the top.mp3",
-  },
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle4.mp3",
-  },
-
-
-
-
-
-
-
-
-{
-    name: "  Love Is Back",
-    artist: "Celeste ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Celeste - Love Is Back.mp3",
-  },
-
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-  },
-
- 
-
-
-
-
-{
-    name: " Into My Body",
-    artist: "Upsahl  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek01/Upsahl - Into my body.mp3",
-  },
-
-
-
-
-
-
-{
-     name: "(Don't) Give Hate A Chance ",
-    artist: "Jamiroquai ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek04/Jamiroquai - (Don't) give hate a chance.mp3",
-  },
 
 
 {
@@ -724,12 +656,7 @@ let track_list = [
 
 
 
-{
-    name: "  Number One ",
-    artist: "Patrice Rushen ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies05/Patrice Rushen - Number one.mp3",
-  },
+
 
 
 
@@ -11161,7 +11088,82 @@ let track_list = [
 
 
 
+{
+    name: "  Try It Out",
+    artist: "Gino Soccio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Gino Soccio - Try It Out.mp3",
+  },
 
+
+
+
+{
+    name: "  Take Me To The Top",
+    artist: "Advance ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Advance - Take me to the top.mp3",
+  },
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle4.mp3",
+  },
+
+
+
+
+
+
+
+
+{
+    name: "  Love Is Back",
+    artist: "Celeste ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek06/Celeste - Love Is Back.mp3",
+  },
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Let op.mp3",
+  },
+
+ 
+
+
+
+
+{
+    name: " Into My Body",
+    artist: "Upsahl  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek01/Upsahl - Into my body.mp3",
+  },
+
+
+
+
+
+
+{
+     name: "(Don't) Give Hate A Chance ",
+    artist: "Jamiroquai ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek04/Jamiroquai - (Don't) give hate a chance.mp3",
+  },
 
 
 
