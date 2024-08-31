@@ -132,7 +132,8 @@ color: black;
   appearance: none;
   width: 20px;
   height: 20px;
- background:linear-gradient(45deg,#FFFF00,#FFFF33,#FFFF99);
+ background-color:#FCE570;
+
   cursor: pointer;
   border-radius: 50%;
 }
@@ -536,7 +537,7 @@ animation: blinker 9.0s step-start infinite;
 #marquee {
   background-color: transparent;
   width: 250px; 
-  margin: 0 auto;
+  margin: 0 auto ;
   overflow: hidden;
   white-space: nowrap;
 }
