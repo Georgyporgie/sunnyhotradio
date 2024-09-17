@@ -130,8 +130,8 @@ color: black;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  width: 15px;
-  height: 15px;
+  width: 16px;
+  height: 16px;
  background-color:#FCE570;
 
   cursor: pointer;
@@ -153,10 +153,7 @@ color: black;
 }
  
 .current-time,
-.total-duration { color: #FF0000;  font-family: myLed; z-index:0; border: solid 1px black; border-radius: 50px;background-color: #999999;
-
-
-
+.total-duration { color: black;  font-family: myLed; z-index:0; border: solid 3px black; border-radius: 50px;background-color: #CCCCCC; font-style:bold;
   padding: 10px;
 }
  
@@ -507,7 +504,7 @@ animation: blinker 5.0s step-start infinite;
   }
 }
 
-#arrow {   z-index: -300; margin-left: -10px; margin-right: -10px; border: solid 2px black;
+#arrow {   z-index: -800; margin-left: -10px; margin-right: -10px; border: solid 2px black;
 
 }
 
