@@ -504,7 +504,7 @@ animation: blinker 5.0s step-start infinite;
   }
 }
 
-#arrow {   z-index: -800; margin-left: -10px; margin-right: -10px; border: solid 2px black;
+#arrow {   z-index: -400; margin-left: -10px; margin-right: -10px; border: solid 2px black;
 
 }
 
