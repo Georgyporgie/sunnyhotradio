@@ -323,14 +323,14 @@ h6  {  font-size: 20px; color: white; font-family: Arial ,Helvetica,sans-serif; 
   margin: 0 auto -17px;
   overflow: hidden;
   white-space: nowrap;
-height: 40px;
+height: 40px; 
 
 }
 #marquee span {
-  display: inline-block; font-style: italic;
+  display: inline-block; 
   font-size: 20px;
   position: relative;
-  left: 100%;
+  left: 100%;z-index: -200;
   animation: marquee 8s linear infinite;
 
 }
