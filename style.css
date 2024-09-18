@@ -278,8 +278,12 @@ animation: blinker 1s step-start infinite;
 
 
 .one {  
-float: left; margin-left: 20px; z-index: -210; font-size: 20px; color:#FF0000; background-color: black;
+float: left; margin-left: 20px; z-index: 200; font-size: 20px; color:#FF0000; background-color: black;
+padding: 5px 5px 0px 5px;
+
 }
+
+
 
 .two  {  
 display: block; margin: auto auto auto auto; z-index: -210;font-size: 20px;color:#FF0000;
