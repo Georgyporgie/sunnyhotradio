@@ -289,7 +289,7 @@ display: block; margin: auto auto auto auto; z-index: -210;font-size: 20px;color
 float: right; margin-right: 20px;z-index: -210;font-size: 20px;  color:#FF0000;
 }
 
-#studio  {  display: block; margin: auto auto auto auto; filter:brightness(120%) saturation(105%) contrast(115%) opacity(75%);width: 340px; height: 235px;border: solid 3px black;z-index:-200; border-radius:5px; background-color: black;
+#studio  {  display: block; margin: auto auto auto auto; filter:brightness(120%) saturation(105%) contrast(115%) opacity(75%);width: 340px; height: 235px;border: solid 3px black;z-index:-200; border-radius:5px; 
 }
 
 .balk  {  border: solid 4px #FFCC99; background-color: chocolate; z-index: -400; border-radius: 50px;
