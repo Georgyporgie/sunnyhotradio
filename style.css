@@ -252,7 +252,7 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
 
 }
 
-#dance  {    width: 255px;  height: 150px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(80%); transform: rotate(1deg);  margin: auto auto auto auto; display: block; z-index: 200; border-radius: 5px; border: solid 1px #FF0000; background-color: black;
+#dance  {    width: 255px;  height: 150px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(80%); transform: rotate(1deg);  margin: auto auto auto auto; display: block; z-index: 200; border-radius: 5px; border: solid 1px #FF0000; 
 animation: blinker 1s step-start infinite;
 
 }
