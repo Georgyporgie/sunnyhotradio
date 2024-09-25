@@ -291,8 +291,12 @@ display: block; margin: auto auto auto auto; z-index: -210;font-size: 20px;color
 float: right; margin-right: 20px;z-index: -210;font-size: 20px;  color:#FF0000;
 }
 
-#studio  {  display: block; margin: auto auto auto auto; filter:brightness(120%) saturation(105%) contrast(115%) opacity(75%);width: 340px; height: 235px;border: solid 3px black;z-index:-200; border-radius:5px; 
+#studio  {  display: block; margin: auto auto auto auto;     filter:brightness(100%) saturation(100%) contrast(100%) opacity(75%);width: 265px; height: 145px; margin-right: -5px; display: block; margin: auto auto auto auto ; border: solid #FF0000 1px; z-index: 200; border-radius: 5px;  
 }
+
+
+
+
 
 .balk  {  border: solid 4px #FFCC99; background-color: chocolate; z-index: -400; border-radius: 50px;
 }
@@ -330,7 +334,7 @@ height: 40px;
 }
 #marquee span {
   display: inline-block; 
-  font-size: 18px;
+  font-size: 16px;
   position: relative;
   left: 100%;z-index: -200;
   animation: marquee 8s linear infinite;
