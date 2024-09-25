@@ -280,18 +280,18 @@ animation: blinker 1s step-start infinite;
 
 
 .one {  
-float: left; margin-left: 20px; z-index: 200; font-size: 20px; color:#FF0000; background-color: black; border-radius: 3px; padding: 5px 5px 0px 5px; border: solid 1px #00CC00;
+float: left; margin-left: 20px; z-index: 200; font-size: 20px; color:crimson; background-color: black; border-radius: 3px; padding: 5px 5px 0px 5px; border: solid 1px #00CC00;
 }
 
 .two  {  
-display: block; margin: auto auto auto auto; z-index: -210;font-size: 20px;color:#FF0000;
+display: block; margin: auto auto auto auto; z-index: -210;font-size: 20px;color:crimson;
 }
 
 .three {  
-float: right; margin-right: 20px;z-index: -210;font-size: 20px;  color:#FF0000;
+float: right; margin-right: 20px;z-index: -210;font-size: 20px;  color:crimson;
 }
 
-#studio  {  display: block; margin: auto auto auto auto;     filter:brightness(100%) saturation(100%) contrast(100%) opacity(75%);width: 265px; height: 145px; margin-right: -5px; display: block; margin: auto auto auto auto ; border: solid #FF0000 1px; z-index: 200; border-radius: 5px;  
+#studio  {  display: block; margin: auto auto auto auto;     filter:brightness(100%) saturation(100%) contrast(100%) opacity(75%);width: 265px; height: 145px; margin-right: -5px;  border: solid #FF0000 1px; z-index: 200; border-radius: 5px;  display: block; margin: auto auto auto auto;  
 }
 
 
