@@ -682,7 +682,7 @@ animation: blinker 1.0s step-start infinite;
 
 
 #time  {
-color: #FF0000; z-index: 0; text-align: center;   background:linear-gradient(45deg,#0033FF,#006666,#003399); padding: 15px 15px 15px 15px;font-size: 25px;  border: solid 1px #FF0000; font-style:italic; border-radius: 5px;
+color: #FF0000; z-index: 0; text-align: center;   background:linear-gradient(45deg,#0033FF,#006666,#003399); padding: 15px 15px 15px 15px;font-size: 25px;  border: solid 1px #FF0000;  border-radius: 5px;
 }
 
 
