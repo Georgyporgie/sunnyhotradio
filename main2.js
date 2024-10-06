@@ -24,232 +24,13 @@ let track_list = [
   },
 
 
-{
-    name: " Blue",
-    artist: "Miley Cyrus & Bebe Rexha  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek02/Miley Cyrus & Bebe Rexha- Blue.mp3",
-  },
-
-
-
-
-
-
-
-
-
 
 {
-    name: "How We Do It",
-    artist: "Sean Paul & Pia Mia",
+    name: "  Back In Time",
+    artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek03/Sean Paul & Pia Mia - How do we do it.mp3",
-  
-
-
-}, 
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet.mp3",
+    path: "muziek/jingles/back in time jingle.mp3",
   },
-
-
-
-
-
-
-
-
-{
-    name: "   Control ",
-    artist: "Janet Jackson",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies05/Janet Jackson - Control.mp3",
-  },
-
-
-
-
-
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/return classics.mp3",
-  },
-
-
-
-
-
-{
-    name: "Round Round (2002)",
-    artist: "Sugababes",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies03/Sugababes - Round Round.mp3",
-  },
-
- 
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/40 in jingle22.mp3",
-  },
-
-
-
-
-{
-    name: "Discoteka",
-    artist: "Minelli x Inna ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek02/Minelli x Inna - Discoteka.mp3",
-  },
-
-
-{
-    name: " Music Is My Way Of Life",
-    artist: "Full Flava ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek02/Music is my way of life - Full flava.mp3",
-  },
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle3.mp3",
-  },
-
-
-
-
-{
-    name: " Vogue (12 inch) ",
-    artist: "Madonna  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies06/Madonna - Vogue (12 inch).mp3",
-  },
-
-
-
-
-
-
-
-
-
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/40 in jingle.mp3",
-  },
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle.mp3",
-  },
-
-
-{
-    name: "Groove Is In The Heart",
-    artist: "Deee-Lite   ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies04/Deee-Lite - Groove Is In The Heart.mp3",
-  },
-
-
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/40 in jingle.mp3",
-  },
-
-
-
-{
-    name: " Juicy Fruit",
-    artist: "Mtume ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies03/Mtume - Juicy Fruit.mp3",
-  
-
-
-},
-
-
-
-
-
-
-
-
-{
-    name: "   Fake Love",
-    artist: "Tink ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek05/Tink - Fake Love.mp3",
-  },
-
-
-
-
-
-{
-    name: "  Come and Get It",
-    artist: "Ceranda ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek04/Ceranda - Come and Get It.mp3",
-  },
-
 
 
 
@@ -10724,7 +10505,231 @@ let track_list = [
   },
 
 
+{
+    name: " Blue",
+    artist: "Miley Cyrus & Bebe Rexha  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek02/Miley Cyrus & Bebe Rexha- Blue.mp3",
+  },
 
+
+
+
+
+
+
+
+
+
+{
+    name: "How We Do It",
+    artist: "Sean Paul & Pia Mia",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek03/Sean Paul & Pia Mia - How do we do it.mp3",
+  
+
+
+}, 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet.mp3",
+  },
+
+
+
+
+
+
+
+
+{
+    name: "   Control ",
+    artist: "Janet Jackson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies05/Janet Jackson - Control.mp3",
+  },
+
+
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/return classics.mp3",
+  },
+
+
+
+
+
+{
+    name: "Round Round (2002)",
+    artist: "Sugababes",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies03/Sugababes - Round Round.mp3",
+  },
+
+ 
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/40 in jingle22.mp3",
+  },
+
+
+
+
+{
+    name: "Discoteka",
+    artist: "Minelli x Inna ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek02/Minelli x Inna - Discoteka.mp3",
+  },
+
+
+{
+    name: " Music Is My Way Of Life",
+    artist: "Full Flava ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek02/Music is my way of life - Full flava.mp3",
+  },
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+  },
+
+
+
+
+{
+    name: " Vogue (12 inch) ",
+    artist: "Madonna  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies06/Madonna - Vogue (12 inch).mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/40 in jingle.mp3",
+  },
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+  },
+
+
+{
+    name: "Groove Is In The Heart",
+    artist: "Deee-Lite   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies04/Deee-Lite - Groove Is In The Heart.mp3",
+  },
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/40 in jingle.mp3",
+  },
+
+
+
+{
+    name: " Juicy Fruit",
+    artist: "Mtume ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies03/Mtume - Juicy Fruit.mp3",
+  
+
+
+},
+
+
+
+
+
+
+
+
+{
+    name: "   Fake Love",
+    artist: "Tink ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek05/Tink - Fake Love.mp3",
+  },
+
+
+
+
+
+{
+    name: "  Come and Get It",
+    artist: "Ceranda ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek04/Ceranda - Come and Get It.mp3",
+  },
 
 
 
