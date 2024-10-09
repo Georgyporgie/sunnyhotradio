@@ -15403,7 +15403,7 @@ function displayMessage() {
 }
 
 
-document.getElementById("travolta")
+document.getElementById("max")
  .addEventListener("touchstart",
   displayName);
 
