@@ -171,6 +171,16 @@ let track_list = [
     path: "muziek/jingles/Sunny radio snippet5.mp3",
   },
 
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj3.mp3",
+  },
+
+
 {
     name: "Dr Beat (12inch)",
     artist: "Miami Sound Machine",
