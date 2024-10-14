@@ -168,7 +168,7 @@ let track_list = [
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
+    path: "muziek/jingles/Sunny radio snippet3.mp3",
   },
 
 
@@ -182,7 +182,7 @@ let track_list = [
     name: "Welcome!",
     artist: "Listen Live Sunny Danceradio ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj4.mp3",
+    path: "muziek/discjockeys/DJ S.mp3",
   },
 
 
@@ -305,6 +305,16 @@ let track_list = [
   },
 
 
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/DJ S.mp3",
+  },
+
+
+
+
 
 {
     name: "Passion (1992)",
@@ -359,7 +369,12 @@ let track_list = [
     path: "muziek/jingles/Life for the weekend- Jingle.mp3",
   },
 
-
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/DJ S.mp3",
+  },
 
 {
   
@@ -403,7 +418,12 @@ let track_list = [
 
 }, 
 
-
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/DJ S.mp3",
+  },
 
 {
     name: "  Illusion",
@@ -1129,12 +1149,6 @@ let track_list = [
 
 
 
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj4.mp3",
-  },
 
 {
      name: "Welcome!",
@@ -1586,12 +1600,7 @@ let track_list = [
     path: "muziek/muziek07/Romy - She 's On My Mind.mp3",
   },
 
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj3.mp3",
-  },
+
 
 
 {
@@ -3478,6 +3487,12 @@ let track_list = [
 },
 
  
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj6.mp3",
+  },
 
 {
     name: "Drop It Like It's Hot",
@@ -6816,6 +6831,12 @@ let track_list = [
 
 
 
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj4.mp3",
+  },
 
 
 
@@ -7929,6 +7950,12 @@ let track_list = [
 
 
 
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj5.mp3",
+  },
 
 
 
@@ -9345,6 +9372,12 @@ let track_list = [
   },
 
 
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj5.mp3",
+  },
 
 {
     name: "  Back In Time",
