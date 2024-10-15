@@ -182,16 +182,26 @@ let track_list = [
 
 
 
+{
+    name: "  Give It To Me Baby ",
+    artist: "Rick James ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/micofoon Rick James.mp3",
+  },
 
 
 
 
 {
-    name: "  Back In Time",
-    artist: "Sunny",
+    name: "  Give It To Me Baby",
+    artist: "Rick James ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/back in time jingle.mp3",
+    path: "muziek/oldies02/Rick James - Give it to me baby.mp3",
   },
+
+
+
+
 
 
 
