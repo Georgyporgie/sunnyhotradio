@@ -182,12 +182,6 @@ let track_list = [
 
 
 {
-    name: "  Lifetimes ",
-    artist: "Katy Perry  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek07/Katy Perry - Lifetimes.mp3",
-  },
-{
     name: "  Work It Out ",
     artist: "Miley Cyrus  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
