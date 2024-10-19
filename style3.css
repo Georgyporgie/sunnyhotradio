@@ -400,7 +400,7 @@ background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 filter:opacity(20%); display: block; margin: auto auto auto auto; z-index: -200; border-radius:10px;
-width: 455px; height: 320px;
+width: 355px; height: 370px;
 }
 
 
