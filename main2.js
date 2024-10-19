@@ -15364,12 +15364,12 @@ function displayMessage() {
 }
 
 
-document.getElementById("max")
+document.getElementById("travolta")
  .addEventListener("touchstart",
   displayName);
 
 function displayName() {
- document.getElementById("bebe")
+ document.getElementById("ava")
   .innerHTML = "Hi We're SG Lewis and Janelle Monae, we're happy to be here on Sunny!";
 }
 
