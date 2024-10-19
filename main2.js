@@ -15370,7 +15370,7 @@ document.getElementById("max")
 
 function displayName() {
  document.getElementById("ava")
-  .innerHTML = "Hi We're The Weeknd and Ava Max, we're happy to be here on Sunny!";
+  .innerHTML = "Hi We're SG Lewis and Janelle Monae, we're happy to be here on Sunny!";
 }
 
 
