@@ -15369,7 +15369,7 @@ document.getElementById("max")
   displayName);
 
 function displayName() {
- document.getElementById("travolta")
+ document.getElementById("ava")
   .innerHTML = "Hi We're SG Lewis and Janelle Monae, we're happy to be here on Sunny!";
 }
 
