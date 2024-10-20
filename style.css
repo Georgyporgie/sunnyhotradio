@@ -300,7 +300,7 @@ display: block; margin: auto auto auto auto; z-index: -210;font-size: 20px;color
 float: right; margin-right: 20px;z-index: -210;font-size: 20px;  color:crimson;
 }
 
-#studio  {  display: block; margin: auto auto auto auto;     filter:brightness(100%) saturation(100%) contrast(100%) opacity(75%);width: 265px; height: 145px; margin-right: -5px;  border: solid #FF0000 1px; z-index: 200; border-radius: 5px;  display: block; margin: auto auto auto auto;  
+#studio  {  display: block; margin: auto auto auto auto;     filter:brightness(100%) saturation(100%) contrast(100%) opacity(75%);width: 265px; height: 175px; margin-right: -5px;  border: solid #FF0000 1px; z-index: 200; border-radius: 5px;  display: block; margin: auto auto auto auto;  
 }
 
 
