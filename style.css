@@ -293,7 +293,8 @@ float: left; margin-left: 20px; z-index: 200; font-size: 20px; color:crimson; ba
 }
 
 .two  {  
-display: block; margin: auto auto auto auto; z-index: -210;font-size: 20px;color:crimson;
+display: block; margin: auto auto auto auto; z-index: -210;font-size: 28px;color:black;
+
 }
 
 .three {  
