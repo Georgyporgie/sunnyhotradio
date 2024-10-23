@@ -297,7 +297,7 @@ display: block; margin: auto auto auto auto; z-index: -210;font-size: 20px;color
 }
 
 .three {  
-float: right; margin-right: 20px;z-index: -210;font-size: 20px;  color:crimson;
+float: right; margin-right: 20px;z-index: -210;font-size: 20px;color:crimson;border:solid 1px #ADD8E6;border-radius: 3px;background-color: black;padding: 5px 5px 0px 5px;
 }
 
 #studio  {  display: block; margin: auto auto auto auto;     filter:brightness(100%) saturation(100%) contrast(100%) opacity(75%);width: 265px; height: 175px; margin-right: -5px;  border: solid #FF0000 1px; z-index: 200; border-radius: 5px;  display: block; margin: auto auto auto auto;  
@@ -401,8 +401,11 @@ display: block; margin: 20px auto -5px -5px; z-index: -300;  border-radius: 5px;
 a { color: black;
 }
 
-#first { width: 20px; height: 25px;filter: brightness(105%) saturate(105%) contrast(100%) opacity(60%); z-index: -200; transform:rotate(0deg);
+#first { width: 27px; height: 40px;filter: brightness(105%) saturate(105%) contrast(100%) opacity(78%); z-index: 200; transform:rotate(0deg);
 }
+
+
+
 
 
 
