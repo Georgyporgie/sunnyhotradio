@@ -146,12 +146,14 @@ h2  {  font-size: 25px; color: #FF0000; font-family: Arial ,Helvetica,sans-serif
 
 p {  
 font-family: myFont; font-size: 30px; font-weight:600; z-index: 200; background-color: #FFCC99;text-align: center; border-radius:20px;
+
+
 }
 
 
 
 .inhoud meer {  
-font-family: myFont; font-size: 30px; font-weight:600; z-index: 200; background-color: #FFCC99;text-align: center; border-radius:20px; padding: 25px;
+font-family: myFont; font-size: 30px; font-weight:600; z-index: 200; background-color: #FFCC99;text-align: center; border-radius:20px; padding: 25px;padding: 5px 0 5px 0;
 }
 
 
@@ -410,11 +412,11 @@ a { color: black;
 
 
 
-#pick { width: 20px; height:25px;filter: brightness(105%) saturate(105%) contrast(100%) opacity(60%); z-index: -200; transform:rotate(0deg);
+#pick { width: 20px; height:25px;filter: brightness(105%) saturate(105%) contrast(100%) opacity(78%); z-index: -200; transform:rotate(0deg);
 }
 
 
-#third { width: 20px; height: 25px;filter: brightness(105%) saturate(105%) contrast(100%) opacity(65%); z-index: -200; transform:rotate(0deg);
+#third { width: 20px; height: 25px;filter: brightness(105%) saturate(105%) contrast(100%) opacity(78%); z-index: -200; transform:rotate(0deg);
 }
 
 
