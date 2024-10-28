@@ -512,7 +512,7 @@ animation: blinker 5.0s step-start infinite;
 #astro {  filter: brightness(120%) saturate(110%) contrast(115%) opacity(60%); width: 32px; height: 30px; transform: rotate(-90deg); z-index: -334; 
 }
 
-.weather {  display: block; margin: auto auto auto auto; border-radius: 5px;
+.weather {  display: block; margin: auto auto auto auto; border-radius: 5px; z-index:-400;
 }
 
 #lin {    width: 30px;  height: 30px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(65%); transform: rotate(5deg); z-index: -200;  border-radius: 5px; float: left; margin-left: 0px;
@@ -522,7 +522,7 @@ animation: blinker 5.0s step-start infinite;
 #ling {    width: 30px;  height: 30px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(65%); transform: rotate(5deg); z-index: -200;  border-radius: 5px; float: left; margin-left: 0px;
 }
 
-#cata {  display: block; margin: auto auto auto auto; border-radius: 10px;
+#cata {  display: block; margin: auto auto auto auto; border-radius: 10px; z-index:-400;
 }
 
 
