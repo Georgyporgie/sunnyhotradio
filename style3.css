@@ -253,7 +253,7 @@ animation: blinker 1.0s step-start infinite; background-color:transparent;
 }
 
 
-#play  {    width: 150px;  height: 150px;filter: brightness(110%) saturate(105%) contrast(110%) opacity(75%);  z-index: 200; display: block; margin: auto auto auto auto;transform: rotate(4deg);
+#play  {    width: 150px;  height: 150px;filter: brightness(110%) saturate(105%) contrast(110%) opacity(75%);  z-index: -400; display: block; margin: auto auto auto auto;transform: rotate(4deg);
 animation: blinker 4s step-start infinite;
 
 }
