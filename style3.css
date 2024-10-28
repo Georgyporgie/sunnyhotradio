@@ -722,7 +722,7 @@ font-size: 15px;color: black;
 
 #online {   
 font-family: 'Segoe UI', sans-serif; font-size: 15px; z-index: -400;animation: blinker 1.1s step-start infinite;
-color: #FF0000;margin-left: 10px;
+color: black;margin-left: 10px;
 }
 
 
