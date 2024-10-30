@@ -174,7 +174,7 @@ let track_list = [
      name: "Sexy ",
     artist: "MFSB ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies04/MFSB - Sexy.mp3",
+    path: "muziek/oldies07/MFSB - Sexy.mp3",
   },
 
 
