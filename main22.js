@@ -448,6 +448,43 @@ let track_list = [
 
 
 
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/return classics.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: " Don't Look Any Further ",
+    artist: "Dennis Edwards  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Dennis Edwards - Don't Look Any Further.mp3",
+  },
+
+{
+    name: "  Swim ",
+    artist: "Becky Hill ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek07/Becky Hill - Swim.mp3",
+  },
+
+
+
 {
     name: "  Welcome!",
     artist: "Listen Live Sunny Danceradio  ",
@@ -475,48 +512,6 @@ let track_list = [
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/muziek07/Katy Perry - Daisies.mp3",
   },
-
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/return classics.mp3",
-  },
-
-
-
-
-
-
-
-{
-     name: " Still",
-    artist: "Dr Dre feat. Snoop Dogg  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Dr Dre feat. Snoop Dogg - Still.mp3",
-  },
-
-
-
-
-{
-     name: " Don't Look Any Further ",
-    artist: "Dennis Edwards  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Dennis Edwards - Don't Look Any Further.mp3",
-  },
-
-{
-    name: "  Swim ",
-    artist: "Becky Hill ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek07/Becky Hill - Swim.mp3",
-  },
-
-
-
-
 
 
 
@@ -1042,7 +1037,12 @@ let track_list = [
     path: "muziek/oldies07/Break Machine - Street Dance.mp3",
   },
 
-
+{
+     name: " Still",
+    artist: "Dr Dre feat. Snoop Dogg  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Dr Dre feat. Snoop Dogg - Still.mp3",
+  },
 
 
  
