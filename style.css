@@ -145,7 +145,7 @@ h2  {  font-size: 25px; color: #FF0000; font-family: Arial ,Helvetica,sans-serif
 
 
 p {  
-font-family: myFont; font-size: 30px; font-weight:600; z-index: 200; background-color: #FFCC99;text-align: center; border-radius:20px;
+font-family: myFont; font-size: 30px; font-weight:600; z-index: 200; background-color: #C29C6D;text-align: center; border-radius:20px;
 
 
 }
@@ -310,7 +310,7 @@ float: right; margin-right: 20px;z-index: -210;font-size: 20px;color:crimson; bo
 
 
 
-.balk  {  border: solid 4px #FFCC99; background-color: chocolate; z-index: -400; border-radius: 50px;
+.balk  {  border: solid 4px #FFCC99;  z-index: -400; border-radius: 50px;
 }
 
 
