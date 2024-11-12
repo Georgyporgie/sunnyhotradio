@@ -417,6 +417,19 @@ let track_list = [
     path: "muziek/jingles/Sunny radio snippet5.mp3",
   },
 
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/40 in jingle22.mp3",
+  },
+
+
+
+
+
 {
   
     name: "Don't Be Shy",
@@ -454,7 +467,12 @@ let track_list = [
     path: "muziek/jingles/Sunny radio jingle3.mp3",
   },
 
-
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/40 in jingle11.mp3",
+  },
 
 
 {
@@ -480,6 +498,12 @@ let track_list = [
   },
 
 
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/40 in jingle.mp3",
+  },
 
 
 
@@ -527,7 +551,12 @@ let track_list = [
 
 
 
-
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/40 in jingle11.mp3",
+  },
 
 
 
@@ -557,6 +586,14 @@ let track_list = [
     path: "muziek/jingles/Sunny radio snippet4.mp3",
   },
 
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/40 in jingle.mp3",
+  },
 
 {
     name: " Dance The Night",
@@ -686,6 +723,14 @@ let track_list = [
 
 
 
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/40 in jingle22.mp3",
+  },
 
 
 
