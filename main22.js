@@ -435,12 +435,6 @@ let track_list = [
 
 
 
-
-
-
-
-
-
 {
     name: "  Welcome!",
     artist: "Listen Live Sunny Danceradio  ",
@@ -452,6 +446,68 @@ let track_list = [
 
 
 
+
+{
+    name: "  Whatever",
+    artist: "Kygo & Ava Max ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek07/Kygo & Ava Max - Whatever.mp3",
+  },
+
+
+{
+    name: " Megamix 2023",
+    artist:  "Purple Disco Machine  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/Purple Disco Machine - Megamix 2023/Purple Disco Machine - Megamix 2023_01.mp3",
+  },
+
+
+{
+    name: " Megamix 2023",
+    artist:  "Purple Disco Machine  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/Purple Disco Machine - Megamix 2023/Purple Disco Machine - Megamix 2023_03.mp3",
+  },
+
+
+
+{
+    name: " Megamix 2023",
+    artist:  "Purple Disco Machine  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/Purple Disco Machine - Megamix 2023/Purple Disco Machine - Megamix 2023_04.mp3",
+  },
+
+
+
+
+
+{
+    name: " Cry Baby",
+    artist: "Clean Bandit  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek07/Clean Bandit - Cry Baby.mp3",
+  },
+
+
+
+
+
+{
+    name: " Megamix 2023",
+    artist:  "Purple Disco Machine  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/Purple Disco Machine - Megamix 2023/Purple Disco Machine - Megamix 2023_05.mp3",
+  },
+
+
+{
+    name: " Megamix 2023",
+    artist:  "Purple Disco Machine  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/Purple Disco Machine - Megamix 2023/Purple Disco Machine - Megamix 2023_06.mp3",
+  },
 
 
 
@@ -1366,6 +1422,23 @@ let track_list = [
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you22.mp3",
   },
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+  },
+ 
 
 
 
