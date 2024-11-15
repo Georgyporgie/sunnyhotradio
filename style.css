@@ -314,9 +314,11 @@ float: right; margin-right: 20px;z-index: -210;font-size: 20px;color:crimson; bo
 }
 
 
-.streep  {  border: solid 10px #00CCFF;  z-index: -500; 
+.streep  {  border: solid 9px #00CCFF;  z-index: -500; 
 }
 
+#strip  {  border: solid 10px #00CCFF;  z-index: -500; 
+}
 
 
 
