@@ -42,7 +42,7 @@ let track_list = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio",
+    artist: "Listen Live Sunny Dance ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
   },
@@ -300,7 +300,7 @@ let track_list = [
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Dance",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj2.mp3",
   },
