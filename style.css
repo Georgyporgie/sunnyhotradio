@@ -422,7 +422,7 @@ a { color: black5
 }
 
 
-#freq  {    width: 120px;  height: 80px;filter: brightness(105%) saturate(110%) contrast(105%) opacity(60%) grayscale(60%); transform: rotate(0deg); z-index: -800;  margin: -65px auto -10px  auto; display: block; border-radius: 5px;
+#freq  {    width: 25px;  height: 25px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(60%); transform: rotate(14deg); z-index: -200; margin: -35px auto 10px  auto; display: block; border-radius: 5px;
 }
 
 
@@ -477,6 +477,3 @@ border-radius: 5px; z-index: -500; width: 51px; height: 34px; font-size: 17px; d
 
 
 
-#black  {   z-index: -50000; 
-
-}
