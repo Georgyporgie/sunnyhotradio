@@ -321,6 +321,19 @@ let track_list = [
   },
 
 
+
+
+{
+    name: "  La Raza ",
+    artist: "Kid Frost",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Kid Frost - La Raza 1.mp3",
+  },
+
+
+
+
+
 {
     name: "  Work With You Love ",
     artist: "Alok    ",
