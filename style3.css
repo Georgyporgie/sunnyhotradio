@@ -50,14 +50,14 @@ src:url(arialbi.ttf);
  
 .track-name {
   font-size: 1.4rem; z-index: 0; padding: 12px 15px 12px 15px; 
-margin-bottom: 9px;background:linear-gradient(90deg,#CC3333,#CC3333,#FF6666,#FF6666,#FF6666,#FF6666,#CC3333); font-family: myMuss;border: solid 1px; black; border-radius:5px;font-size:30px; color: black;
+margin-bottom: 9px;background:linear-gradient(90deg,#CC3333,#FF6666,#FF6666,#FF6666,#FF6666,#CC3333); font-family: myMuss;border: solid 1px; black; border-radius:5px;font-size:30px; color: black;
 
 
  
  }
  
 .track-artist {
-  font-size: 1.4rem; z-index: 0; padding: 12px 15px 12px 15px ; background:linear-gradient(90deg,#CC3333,#CC3333,#FF6666,#FF6666,#FF6666,#FF6666,#CC3333);border: solid 1px black;  margin-top: -11px;  font-family: myMuss; border-radius:5px; font-size:30px;
+  font-size: 1.4rem; z-index: 0; padding: 12px 15px 12px 15px ; background:linear-gradient(90deg,#CC3333,#FF6666,#FF6666,#FF6666,#FF6666,#CC3333);border: solid 1px black;  margin-top: -11px;  font-family: myMuss; border-radius:5px; font-size:30px;
 
 color: black;
 
