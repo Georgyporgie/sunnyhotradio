@@ -310,6 +310,57 @@ let track_list = [
   },
 
 
+
+{
+     name: "   The House Of God ",
+    artist: "DHS",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies06/DHS - The House Of God.mp3",
+  },
+
+
+
+{
+     name: "  Rubb It In ",
+    artist: "Fierce Ruling Diva ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies06/Fierce Ruling Diva - Rubb It In.mp3",
+  },
+
+
+
+
+
+
+
+{
+     name: "   Papua New Guinea",
+    artist: "FS Of London ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies06/FS Of London - Papua New Guinea.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+{
+     name: "   Searchin' (1990)",
+    artist: "33 Queen ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies06/33 Queen - Searchin' (1990).mp3",
+  },
+
+
+
+
+
+
 {
     name: "  Magic's Wand (1982) ",
     artist: "Whodini  ",
