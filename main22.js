@@ -312,6 +312,20 @@ let track_list = [
 
 
 {
+     name: "  Windows ",
+    artist: "SIL ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies06/SIL - Windows.mp3",
+  },
+
+
+
+
+
+
+
+
+{
      name: "   The House Of God ",
     artist: "DHS",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
