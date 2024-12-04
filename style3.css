@@ -50,7 +50,7 @@ src:url(arialbi.ttf);
  
 .track-name {
   z-index: 0; padding: 12px 15px 12px 15px; 
-margin-bottom: 9px;background:linear-gradient(90deg,#CC3333,#FF6666,#FF6666,#FF6666,#FF6666,#CC3333); font-family: myMuss;border: solid 1px; black; border-radius:5px;font-size:30px; color: black;
+margin-bottom: 9px;background:linear-gradient(90deg,#CCCCCC,#d6d6d6,#e0e0e0); font-family: myMuss;border: solid 1px black; border-radius:5px;font-size:30px; color: #FF0000;
 
 font-weight:300;
 
@@ -58,9 +58,10 @@ font-weight:300;
  }
  
 .track-artist {
-  z-index: 0; padding: 12px 15px 12px 15px ; background:linear-gradient(90deg,#CC3333,#FF6666,#FF6666,#FF6666,#FF6666,#CC3333);border: solid 1px black;  margin-top: -11px;  font-family: myMuss; border-radius:5px; font-size:30px;font-weight:300;
+  z-index: 0; padding: 12px 15px 12px 15px ; background:linear-gradient(90deg,#CCCCCC,#d6d6d6,#e0e0e0);border: solid 1px black;  margin-top: -11px;  font-family: myMuss; border-radius:5px; font-size:30px;font-weight:300;
 
-color: black;
+color: #FF0000;
+
 
 
 }
@@ -144,15 +145,15 @@ color: black;
 }
  
 .seek_slider {
-  width: 60%; color: #060000;
+  width: 60%; color: #060000;z-index:-300;
 }
  
 .volume_slider {
-  width: 30%;color: #060000;
+  width: 30%;color: #060000;z-index:-300;
 }
  
 .current-time,
-.total-duration { color: black;  font-family: myMuss; z-index:0; border: solid 1px black; border-radius: 5px;background-color: #CCCCCC; 
+.total-duration { color: black;  font-family: myMuss; z-index:-200; border: solid 1px black; border-radius: 5px;background-color: #CCCCCC; 
   padding: 5px;
 }
  
@@ -239,7 +240,7 @@ font-weight: italic; display: block; margin: auto auto auto auto;
 }
 
 
-#media  {    width: 120px;  height:120px;filter: brightness(100%) saturate(105%) contrast(100%) opacity(100%); transform: rotate(0deg); z-index: 0; display: block; margin: auto auto auto auto; 
+#media  {    width: 120px;  height:120px;filter: brightness(100%) saturate(105%) contrast(100%) opacity(100%); transform: rotate(0deg); z-index: -100; display: block; margin: auto auto auto auto; 
 animation: blinker 1.0s step-start infinite; 
 
 }
@@ -264,7 +265,7 @@ animation: blinker 4s step-start infinite;
   }
 }
 
-#med  {    width: 120px;  height:120px;filter: brightness(100%) saturate(105%) contrast(100%) opacity(100%); transform: rotate(0deg); z-index: -600; display: block; margin: auto auto auto auto;  border: solid 1px white; 
+#med  {    width: 120px;  height:120px;filter: brightness(100%) saturate(105%) contrast(100%) opacity(100%); transform: rotate(0deg); z-index: -100; display: block; margin: auto auto auto auto;  border: solid 1px white; 
 }
 
 
@@ -586,7 +587,7 @@ color: #FF0000; z-index: -200; text-align: center; font-family: Arial ,Helvetica
 }
 
 #now  {
-color: black; z-index: 0; text-align: center; font-family: myMuss;  font-size: 15px; font-weight:300;
+color: black; z-index: -150; text-align: center; font-family: myMuss;  font-size: 15px; font-weight:300;
  }
 
 
