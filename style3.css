@@ -145,11 +145,12 @@ color: #FF0000;
 }
  
 .seek_slider {
-  width: 60%; color: #060000;z-index:0;
+  width: 60%; color: #060000;z-index:-300;border-radius: 5px;
+
 }
  
 .volume_slider {
-  width: 30%;color: #060000;z-index:0;
+  width: 30%;color: #060000;z-index:0;border-radius: 5px;
 }
  
 .current-time,
