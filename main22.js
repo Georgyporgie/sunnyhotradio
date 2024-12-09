@@ -79,6 +79,18 @@ let track_list = [
   },
 
 
+
+   {
+     name: "   I Like (12inch)",
+    artist: "Young & Company  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies08/Young & Company - I Like (12i nch).mp3",
+  },
+
+
+
+
+
 {
      name: " I'm Ready",
     artist: "Kano ",
@@ -87,29 +99,12 @@ let track_list = [
   },
 
 
-{
-     name: "   Tonight I Am Allright",
-    artist: "Narada Michael Walden  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies08/Narada Michael Walden - Tonight I Am Allright.mp3",
-  },
-
-
-{
-     name: "   Papua New Guinea",
-    artist: "FS Of London ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies08/FS Of London - Papua New Guinea.mp3",
-  },
 
 
 
-   {
-     name: "   I Like (12inch)",
-    artist: "Young & Company  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies06/Young & Company - I Like (12i nch).mp3",
-  },
+
+
+
 
 
 
@@ -152,7 +147,12 @@ let track_list = [
 
 
 
-
+{
+     name: "   Tonight I Am Allright",
+    artist: "Narada Michael Walden  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies08/Narada Michael Walden - Tonight I Am Allright.mp3",
+  },
 
 
 {
