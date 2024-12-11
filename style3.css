@@ -802,3 +802,6 @@ filter:opacity(75%);
 
 
 
+#virtua  {    width: 210px;  height: 115px;filter: brightness(110%) saturate(110%) contrast(100%) opacity(100%);  z-index: -200; display: block; margin: auto auto auto auto; 
+}
+
