@@ -87,10 +87,15 @@ let track_list = [
     path: "muziek/jingles/time classic.mp3",
   },
 
-
+{
+     name: "   Fresh",
+    artist: " Kool & The Gang",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies08/Kool & The Gang -  Fresh.mp3",
+  },
 
 {
-     name: "Slf Naafish",
+     name: "Alf Naafish",
     artist: " Hashim",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies08/Slf Naafish Hashim.mp3",
@@ -214,13 +219,6 @@ let track_list = [
 
 
 
-{
-     name: "    Street Dance ",
-    artist: "Break Machine",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Break Machine - Street Dance.mp3",
-  },
-
 
 
 
@@ -322,42 +320,6 @@ let track_list = [
 
 
 
-
-
-
-
-
-
-{
-     name: " Die Another Day",
-    artist: "Madonna ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek04/Madonna - Die Another Day.mp3",
-  },
-
-
-
-
-{
-    name: "Welcome!",
-    artist: "Purple Disco Machine",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/start the party.mp3",
-  
-
-
-},
-
-
-
-
-
-{
-     name: "That Feels Good",
-    artist: "Jesse Ware",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek06/Jesse Ware - That Feels Good.mp3",
-  },
 
 
 
