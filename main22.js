@@ -46,11 +46,24 @@ let track_list = [
 
 
 {
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj2.mp3",
+  },
+
+
+
+
+
+
+{
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnyrockradio.netlify.app/muziek/muziek02/Fleetwood Mac - Everywhere.mp3",
+    path: "https://sunnydancemuziek01.netlify.app/Acraze - Do it to it.mp3",
   },
+
 
 
 
