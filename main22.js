@@ -420,7 +420,7 @@ let track_list = [
     name: "Baby",
     artist: "Charli XCX",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek04/Charli XCX - Baby.mp3",
+    path: "https://sunnydancemusic04.netlify.app/Charli XCX - Baby.mp3",
   
 
 
@@ -557,7 +557,7 @@ let track_list = [
      name: "Coastin' ",
     artist: "Victoria Monet ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek04/Victoria Monet - Coastin'.mp3",
+    path: "https://sunnydancemusic04.netlify.app/Victoria Monet - Coastin'.mp3",
   },
 
 
@@ -568,7 +568,7 @@ let track_list = [
     name: "Seven Nation Army",
     artist: "Gaulin & Julian Perreta",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek04/Gaulin & Julian Perreta - Seven nation army.mp3",
+    path: "https://sunnydancemusic04.netlify.app/Gaulin & Julian Perreta - Seven nation army.mp3",
   },
 
 {
@@ -779,7 +779,7 @@ let track_list = [
     name: "Love You Yes",
     artist: "Beverlei Brown",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek04/Love you yes- Beverlei Brown.mp3",
+    path: "https://sunnydancemusic04.netlify.app/Love you yes- Beverlei Brown.mp3",
   
 
 
