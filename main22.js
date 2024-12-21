@@ -534,7 +534,7 @@ let track_list = [
     name: "   Woman Of The Ghetto (1969) ",
     artist: "Marlena Shaw ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies05/Marlena Shaw - Woman Of The Ghetto.mp3",
+    path: "https://sunnydanceoldies05.netlify.app/Marlena Shaw - Woman Of The Ghetto.mp3",
   },
 
 
@@ -633,7 +633,7 @@ let track_list = [
     name: "     Human League  ",
     artist: "Human",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies05/Human - Human League.mp3",
+    path: "https://sunnydanceoldies05.netlify.app/Human - Human League.mp3",
   },
 
 
@@ -881,7 +881,7 @@ let track_list = [
     name: " Good Life (12inch)",
     artist: "Inner City  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies05/Inner City - Good Life.mp3",
+    path: "https://sunnydanceoldies05.netlify.app/Inner City - Good Life.mp3",
   },
 
 
@@ -1274,7 +1274,7 @@ let track_list = [
     name: "   Control ",
     artist: "Janet Jackson",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies05/Janet Jackson - Control.mp3",
+    path: "https://sunnydanceoldies05.netlify.app/Janet Jackson - Control.mp3",
   },
 
 
