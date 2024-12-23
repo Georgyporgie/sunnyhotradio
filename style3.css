@@ -154,7 +154,7 @@ color: #FF0000;
  
 .current-time,
 .total-duration {   font-family: myMuss; z-index:0; border: solid 1px black; border-radius: 5px;background:linear-gradient(180deg,#CCCCCC,#d6d6d6,#e0e0e0);
-  padding: 5px;  font-weight:200;
+  padding: 5px 10px 5px 10px;  font-weight:200;
 }
  
 i.fa-volume-down,
