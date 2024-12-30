@@ -813,3 +813,42 @@ filter:opacity(75%);
 #bird  {   border-radius:5px; display:block;  margin:auto auto auto auto;
 
 }
+
+
+#stop { font-style: italic; 
+
+}
+
+
+
+
+#stopw { position: absolute; filter: brightness(110%) saturate(120%) contrast(110%) opacity(100%);  z-index: 0; 
+
+
+
+margin-top: 50px; margin-left: 10px;height: 45px; width: 50px;
+
+
+}
+
+
+
+#stopwa  {  filter: brightness(110%) saturate(120%) contrast(110%) opacity(100%);  z-index: 0;
+
+
+
+margin-top: -112px;   margin-right:7px; height: 45px; width: 50px;
+ float:right;
+
+}
+
+
+
+#sunnyrr {  filter: brightness(110%) saturate(120%) contrast(110%) opacity(65%);  z-index: 0;
+
+transform: rotate(-10deg);
+
+margin-top: -112px;   margin-right:7px; height: 45px; width: 50px;
+ float:right;
+
+}

@@ -250,7 +250,28 @@
 <br>
 <br>
 <br>
- <div>
+ 
+<br>
+<br>
+<br>
+<br>
+<div>
+<br><img id="stopw">
+
+<h5 id="stop" class="inch">00:00   
+ </h5><br><img id="stopwa">
+
+
+</div
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div>
 <h5 class="inch"><em>Leave   <span id="dark">A Message!</em></span></h5>
 <br>
 <br>
@@ -290,7 +311,8 @@
 
 <div>
 <br><img id="sunnyr">
-<h5 id="time"> </h5>
+<h5 id="time"> </h5><br><img id="sunnyrr">
+
 
 
 <br>
@@ -453,7 +475,20 @@
 
 
 
-
+<script>
+window.addEventListener("load", function() {
+  const clock = document.getElementById("stop");
+  let time = -1, intervalId;
+  function incrementTime() {
+    time++;
+    clock.textContent =
+      ("0" + Math.trunc(time / 60)).slice(-2) +
+      ":" + ("0" + (time % 60)).slice(-2);
+  }
+  incrementTime();
+  intervalId = setInterval(incrementTime, 1000);
+});
+</script>
 
 
 
@@ -587,6 +622,38 @@ var img = document.getElementById("sunnyr");
 //Set the src property of our element to the new image URL
 img.src = 'images/Sunny4.png';
 </script>
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("sunnyrr");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny4.png';
+</script>
+ 
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("stopw");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/stopwatch.png';
+</script>
+
+
+ <script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("stopwa");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/stopwatch.png';
+</script>
+
+
+
 
 
 
