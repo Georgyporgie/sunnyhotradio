@@ -587,7 +587,8 @@ color: #FF0000; z-index: -200; text-align: center; font-family: Arial ,Helvetica
 }
 
 #now  {
-color: black; z-index: -150; text-align: center; font-family: myMuss;  font-size: 15px; font-weight:300;
+color: #FF0000; z-index: -150; text-align: center; font-family: myMuss;  font-size: 15px; font-weight:300;background:linear-gradient(90deg,#CCCCCC,#d6d6d6,#e0e0e0);padding: 5px 5px 5px 5px;
+
  }
 
 
@@ -863,7 +864,8 @@ margin-top: -112px;   margin-right:7px; height: 45px; width: 50px;
 
 
 
-
+#bericht {  display: block; margin: auto auto auto auto; border-radius: 5px; z-index:-400;border: solid 1px #292924;
+}
 
 
 
