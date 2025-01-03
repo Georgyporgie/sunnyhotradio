@@ -815,7 +815,7 @@ filter:opacity(75%);
 }
 
 
-#stop {  font-family: myMuss;  z-index: 0; text-align: center;  padding: 15px 15px 15px 15px;font-size: 45px;  border: solid 1px #FF0000; border-radius: 5px;
+#stop {  font-family: myMuss;  z-index: 0; text-align: center;  padding: 15px 15px 15px 15px;font-size: 40px;  border: solid 1px #FF0000; border-radius: 5px;
 
 
 
@@ -828,7 +828,8 @@ filter:opacity(75%);
 
 
 
-margin-top: 87px; margin-left: 10px;height: 75px; width: 80px;
+margin-top: 87px; margin-left: 10px;height: 50px; width: 55px;
+
 
 
 }
@@ -839,7 +840,7 @@ margin-top: 87px; margin-left: 10px;height: 75px; width: 80px;
 
 
 
-margin-top: -178px;   margin-right:7px; height: 75px; width: 80px;
+margin-top: -160px;   margin-right:7px; height: 50px; width: 55px;
  float:right;
 
 }
