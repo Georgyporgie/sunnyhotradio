@@ -492,16 +492,7 @@ height: 200px; width: 300px; display: block; margin: auto auto auto auto; z-inde
 
 
 
-#rad  {      width: 25px;  height: 25px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(60%); transform: rotate(14deg); z-index: -200; margin: -35px auto 10px  auto; display: block; border-radius: 5px;
-
-animation: blinker 1.0s step-start infinite;
-}
-
-
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
+#rad  {     width: 35px;  height: 30px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(75%); transform: rotate(-5deg); z-index: -200; margin: -35px auto 10px  auto; display: block; 
 }
 
 #arrow {   z-index: -800; margin-left: -10px; margin-right: -10px; border: solid 2px black;
