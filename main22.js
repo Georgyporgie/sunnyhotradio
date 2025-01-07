@@ -320,67 +320,6 @@ let track_list = [
 
 
 
-{
-     name: " I'm Ready",
-    artist: "Kano ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Kano - I'm Ready.mp3",
-  },
-
-
-{
-     name: "   Tonight I Am Allright",
-    artist: "Narada Michael Walden  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Narada Michael Walden - Tonight I Am Allright.mp3",
-  },
-
-
-
-
-
-
-   {
-     name: "   I Like (12inch)",
-    artist: "Young & Company  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Young & Company - I Like (12i nch).mp3",
-  },
-
-
-
-{
-     name: "  Windows ",
-    artist: "SIL ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies06/SIL - Windows.mp3",
-  },
-
-{
-     name: "   The House Of God ",
-    artist: "DHS",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies06/DHS - The House Of God.mp3",
-  },
-
-
-
-
-
-{
-     name: "  Rubb It In ",
-    artist: "Fierce Ruling Diva ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies06/Fierce Ruling Diva - Rubb It In.mp3",
-  },
-
-
-{
-     name: "   Searchin' (1990)",
-    artist: "33 Queen ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies06/33 Queen - Searchin' (1990).mp3",
-  },
 
 
 
