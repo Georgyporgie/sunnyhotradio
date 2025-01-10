@@ -405,7 +405,7 @@ let track_list = [
     name: "  Keep The Fire Burnin'",
     artist: "Freemasons ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Freemasons - Keep the fire burnin'.mp3",
+    path: "https://sunnydanceoldies04.netlify.app/Freemasons - Keep the fire burnin'.mp3",
   },
 
 
@@ -413,7 +413,7 @@ let track_list = [
     name: "Just The Way You Like It (12inch)",
     artist: "Sos Band  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Sos Band Just the way youn like it.mp3",
+    path: "https://sunnydanceoldies04.netlify.app/Sos Band Just the way youn like it.mp3",
   },
 
 
@@ -424,7 +424,7 @@ let track_list = [
     name: "   Keep On Movin'",
     artist: "Soul II Soul ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Soul II Soul - Keep on movin'.mp3",
+    path: "https://sunnydanceoldies04.netlify.app/Soul II Soul - Keep on movin'.mp3",
   },
 
 
@@ -434,7 +434,7 @@ let track_list = [
     name: "  Sing It Back ",
     artist: "Moloko ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Moloko - Sing It Back.mp3",
+    path: "https://sunnydanceoldies04.netlify.app/Moloko - Sing It Back.mp3",
   },
 
 
@@ -443,7 +443,7 @@ let track_list = [
     name: " It's All The Way Live",
     artist: "Lakeside ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Lakeside - It's All The Way Live.mp3",
+    path: "https://sunnydanceoldies04.netlify.app/Lakeside - It's All The Way Live.mp3",
   },
 
 
@@ -452,7 +452,7 @@ let track_list = [
     name: "  Sexy (12inch)",
     artist: "MFSB    ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/MFSB - Sexy (12inch).mp3",
+    path: "https://sunnydanceoldies04.netlify.app/MFSB - Sexy (12inch).mp3",
   },
 
 
@@ -462,7 +462,7 @@ let track_list = [
     name: "  Sandstorm",
     artist: "Darude",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Darude - Sandstorm.mp3",
+    path: "https://sunnydanceoldies04.netlify.app/Darude - Sandstorm.mp3",
   },
 
 
@@ -470,7 +470,7 @@ let track_list = [
     name: "Groovin' You",
     artist: "Harvey Mason",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Harvey Mason - Groovin' You.mp3",
+    path: "https://sunnydanceoldies04.netlify.app/Harvey Mason - Groovin' You.mp3",
   
 
 
@@ -484,7 +484,7 @@ let track_list = [
     name: "Get Lucky (12inch)",
     artist: "Daft Punk ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Daft Punk - Get Lucky.mp3",
+    path: "https://sunnydanceoldies04.netlify.app/Daft Punk - Get Lucky.mp3",
   },
 
 
@@ -494,7 +494,7 @@ let track_list = [
     name: "Groove Is In The Heart",
     artist: "Deee-Lite   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Deee-Lite - Groove Is In The Heart.mp3",
+    path: "https://sunnydanceoldies04.netlify.app/Deee-Lite - Groove Is In The Heart.mp3",
   },
 
 
@@ -506,7 +506,7 @@ let track_list = [
     name: " Oh Sheila",
     artist: "Ready For The World ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Ready For The World - Oh Sheila.mp3",
+    path: "https://sunnydanceoldies04.netlify.app/Ready For The World - Oh Sheila.mp3",
   
 
 
@@ -519,7 +519,7 @@ let track_list = [
     name: " Hit 'N Run Lover(12inch)",
     artist: "Carol Jiani",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Carol Jiani - Hit 'n run lover.mp3",
+    path: "https://sunnydanceoldies04.netlify.app/Carol Jiani - Hit 'n run lover.mp3",
   },
 
 
