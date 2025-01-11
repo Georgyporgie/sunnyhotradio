@@ -87,7 +87,8 @@ color: #FF0000;
 .next-track {
   padding: 25px;
   opacity:0.8 ;
- 
+ cursor: pointer;
+
   /* Smoothly transition the opacity */
   transition: opacity .2s;
 
