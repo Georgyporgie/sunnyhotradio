@@ -491,7 +491,7 @@
 <div>
 
 
-<IFRAME  SRC="https://hourlyalarm.netlify.app/" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=345 HEIGHT=800></IFRAME>
+<IFRAME  id="none" SRC="https://hourlyalarm.netlify.app/" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=345 HEIGHT=800></IFRAME>
 
 </div>
 
@@ -552,6 +552,44 @@ function checkTime(i) {
 
 
 
+
+
+
+<audio id="hourlySound" src="muziek/effects/hour sound.mp3"></audio>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    function playSound() {
+        var audio = document.getElementById("hourlySound");
+        audio.play();
+    }
+
+    function scheduleHourlySound() {
+        var now = new Date();
+        var delay = (60 - now.getMinutes()) * 60 * 1000 - now.getSeconds() * 1000;
+        setTimeout(function() {
+            playSound();
+            setInterval(playSound, 3600000); // Play sound every hour
+        }, delay);
+    }
+
+    window.onload = scheduleHourlySound;
+</script>
 
 
 
