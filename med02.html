@@ -553,7 +553,7 @@ function checkTime(i) {
 
 <script>
     function playSound() {
-        var audio = document.getElementById("hourlySound");
+        var audio = document.getElementById("hourlySoun");
         audio.play();
     }
 
@@ -573,7 +573,20 @@ function checkTime(i) {
 
 
 
-<audio id="hourlySound" src="muziek/effects/hourlysoundsaffire.mp3"></audio>
+<audio id="hourlySoun" src=""></audio>
+
+
+<script>
+document.getElementById("hourlySoun").setAttribute('src', 'muziek/effects/hourlysoundsaffire.mp3');
+</script>
+
+
+
+
+
+
+
+
 
 
 
