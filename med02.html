@@ -895,17 +895,17 @@ function myFunction() {
 
 
 
-    <audio id="hourlySound" src=""></audio>
-    <audio id="quarterHourSound" src=""></audio>
-    <audio id="fortyFiveMinuteSound" src=""></audio>
+    <audio id="hourlySou" src=""></audio>
+    <audio id="quarterHourSou" src=""></audio>
+    <audio id="fortyFiveMinuteSou" src=""></audio>
 
     
 
 
 <script>
-document.getElementById("hourlySound").setAttribute('src', 'muziek/effects/hourlysoundsaffire.mp3');
-document.getElementById("quarterHourSound").setAttribute('src', 'muziek/effects/radiosonic.mp3');
-document.getElementById("fortyFiveMinuteSound").setAttribute('src', 'muziek/effects/rotating sound.mp3');
+document.getElementById("hourlySou").setAttribute('src', 'muziek/effects/hourlysoundsaffire.mp3');
+document.getElementById("quarterHourSou").setAttribute('src', 'muziek/effects/radiosonic.mp3');
+document.getElementById("fortyFiveMinuteSou").setAttribute('src', 'muziek/effects/rotating sound.mp3');
 </script>
 
 
@@ -938,27 +938,27 @@ document.getElementById("fortyFiveMinuteSound").setAttribute('src', 'muziek/effe
             // Calculate delay for hourly sound
             var hourlyDelay = (60 - now.getMinutes()) * 60 * 1000 - now.getSeconds() * 1000;
             setTimeout(function() {
-                playSound(["hourlySound"]);
+                playSound(["hourlySou"]);
                 setInterval(function() {
-                    playSound(["hourlySound"]);
+                    playSound(["hourlySou"]);
                 }, 3600000); // Every hour (3600000 milliseconds)
             }, hourlyDelay);
 
             // Calculate delay for quarter-hour sound
             var quarterHourDelay = (15 - (now.getMinutes() % 15)) * 60 * 1000 - now.getSeconds() * 1000;
             setTimeout(function() {
-                playSound(["quarterHourSound"]);
+                playSound(["quarterHourSou"]);
                 setInterval(function() {
-                    playSound(["quarterHourSound"]);
+                    playSound(["quarterHourSou"]);
                 }, 900000); // Every 15 minutes (900000 milliseconds)
             }, quarterHourDelay);
 
             // Calculate delay for forty-five-minute sound
             var fortyFiveMinuteDelay = (45 - (now.getMinutes() % 45)) * 60 * 1000 - now.getSeconds() * 1000;
             setTimeout(function() {
-                playSound(["fortyFiveMinuteSound"]);
+                playSound(["fortyFiveMinuteSou"]);
                 setInterval(function() {
-                    playSound(["fortyFiveMinuteSound"]);
+                    playSound(["fortyFiveMinuteSou"]);
                 }, 2700000); // Every 45 minutes (2700000 milliseconds)
             }, fortyFiveMinuteDelay);
         }
