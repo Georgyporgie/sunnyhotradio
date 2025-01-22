@@ -239,6 +239,16 @@ let track_list = [
 
 
 
+{
+    name: "   One More Time",
+    artist: "Daft Punk  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://Sunnydanceoldies04.netlify.app/Daft Punk - One More Time.mp3",
+  },
+
+
+
+
 
 {
     name: "  Watchin'",
@@ -257,16 +267,6 @@ let track_list = [
 
 
 
-{
-    name: "   One More Time",
-    artist: "Daft Punk  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Daft Punk - One More Time.mp3",
-  },
-
-
-
-
 
 
 
@@ -279,7 +279,7 @@ let track_list = [
     name: " Nature Boy",
     artist: "Hazel Fernandes  ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Hazel Fernandes - Nature Boy.mp3",
+    path: "https://Sunnydanceoldies04.netlify.app/Hazel Fernandes - Nature Boy.mp3",
   },
 
 
@@ -287,7 +287,7 @@ let track_list = [
     name: "The Weekend",
     artist: "Michael Gray  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Michael Gray - The weekend.mp3",
+    path: "https://Sunnydanceoldies04.netlify.app/Michael Gray - The weekend.mp3",
   },
 
 
@@ -302,7 +302,7 @@ let track_list = [
     name: "  Paul Van Dyk",
     artist: "For An Angel ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/For an Ange l- Paul van Dyk.mp3",
+    path: "https://Sunnydanceoldies04.netlify.app/For an Ange l- Paul van Dyk.mp3",
   },
 
 
@@ -312,7 +312,7 @@ let track_list = [
     name: " Too Funky (12inch)",
     artist: "George Michael  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/George Michael - Too Funky.mp3",
+    path: "https://Sunnydanceoldies04.netlify.app/George Michael - Too Funky.mp3",
   },
 
 
@@ -321,7 +321,7 @@ let track_list = [
     name: "  Rain Down Love",
     artist: "Siedah Garret ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Siedah Garret - Rain down Love.mp3",
+    path: "https://Sunnydanceoldies04.netlify.app/Siedah Garret - Rain down Love.mp3",
   },
 
 
@@ -331,18 +331,12 @@ let track_list = [
     name: "What You Waiting For",
     artist: "Gwen Stefani ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Gwen Stefani - What you waiting for.mp3",
+    path: "https://Sunnydanceoldies04.netlify.app/Gwen Stefani - What you waiting for.mp3",
   },
 
 
 
 
-{
-    name: " People Are People",
-    artist: "Depeche Mode ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Depeche mode- People are people.mp3",
-  },
 
 
 
@@ -350,7 +344,7 @@ let track_list = [
     name: "Mesmerized (12inch)",
     artist: "Freemasons",
      image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Freemasons  - Mesmerized.mp3",
+    path: "https://Sunnydanceoldies04.netlify.app/Freemasons  - Mesmerized.mp3",
   },
 
 
@@ -358,7 +352,7 @@ let track_list = [
     name: "Best Of My Love",
     artist: "T-Connection",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/T-Connection - Best of my Love.mp3",
+    path: "https://Sunnydanceoldies04.netlify.app/T-Connection - Best of my Love.mp3",
   },
 
 
@@ -368,7 +362,7 @@ let track_list = [
     name: "Best Things In Life Are Free ",
     artist: "Luther Vandross & Janet Jackson  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Luther Vandross & Janet Jackson - Best things in life are free.mp3",
+    path: "https://Sunnydanceoldies04.netlify.app/Luther Vandross & Janet Jackson - Best things in life are free.mp3",
   },
 
 
@@ -381,7 +375,7 @@ let track_list = [
   name: "Saltwater (12inch)",
     artist: "Chicane  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Chicane - Saltwater.mp3"
+    path: "https://Sunnydanceoldies04.netlify.app/Chicane - Saltwater.mp3"
   },
 
 
@@ -390,7 +384,7 @@ let track_list = [
     name: " Miracles (12inch)",
     artist: "Change ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Change - Miracles.mp3",
+    path: "https://Sunnydanceoldies04.netlify.app/Change - Miracles.mp3",
   },
 
 
@@ -399,14 +393,14 @@ let track_list = [
     name: " You Cant Hide",
     artist: "David Joseph  ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/David Joseph - You Cant Hide (Your Love From Me).mp3",
+    path: "https://Sunnydanceoldies04.netlify.app/David Joseph - You Cant Hide (Your Love From Me).mp3",
   },
 
 {
     name: "  Believer",
     artist: "Freemasons  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Freemasons - Believer.mp3",
+    path: "https://Sunnydanceoldies04.netlify.app/Freemasons - Believer.mp3",
   },
 
 
@@ -414,7 +408,7 @@ let track_list = [
     name: "  Around The World ",
     artist: "Daft Punk ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Daft Punk - Around The World.mp3",
+    path: "https://Sunnydanceoldies04.netlify.app/Daft Punk - Around The World.mp3",
   },
 
 
@@ -422,7 +416,7 @@ let track_list = [
     name: "Paradise (12inch)",
     artist: "Sueno Latino",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Sueno Latino - Paradise Mix.mp3",
+    path: "https://Sunnydanceoldies04.netlify.app/Sueno Latino - Paradise Mix.mp3",
   
 
 
