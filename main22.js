@@ -248,13 +248,6 @@ let track_list = [
 
 
 
-{
-    name: "The Moon Shines Up",
-    artist: "Calvin Harris",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Calvin Harris - The moon shines up.mp3",
-  },
-
 
 {
     name: "The Amsterdam IT",
