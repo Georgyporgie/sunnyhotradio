@@ -185,7 +185,7 @@ let track_list = [
     name: "Welcome!",
     artist: "Listen Live Sunny Dance Radio ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female DJ6best.mp3",
+    path: "muziek/discjockeys/Female DJ6.mp3",
   },
 
 
