@@ -9,7 +9,13 @@ let track_list = [
 
 
 
-
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle1.mp3",
+  },
+ 
 
 
 
@@ -19,148 +25,103 @@ let track_list = [
     name: "Welcome!",
     artist: "Listen Live Sunny Dance Radio ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female DJ1best.mp3",
+    path: "muziek/discjockeys/Female DJ6best.mp3",
+  },
+
+
+{
+    name: "  Welcome!",
+    artist: "Listen Live Sunny Danceradio  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/New track.mp3",
   },
 
 
 
 
 {
-     name: "Welcome!",
+     name: "Told You So",
+    artist: "Martin Garrix & Jex ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Martin Garrix & Jex - Told You So.mp3",
+  },
+
+
+
+
+{
+    name: "  Welcome!",
+    artist: "Listen Live Sunny Danceradio  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/New track.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "  Gorgeous",
+    artist: "Snoop Dogg, Dr Dre   ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Snoop Dogg, Dr Dre - Gorgeous.mp3",
+  },
+
+{
+    name: "   I Like It",
+    artist: "Alesso, Nate Smith ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek07/Alesso, Nate Smith - I Like It.mp3",
+  },
+
+
+
+
+
+{
+     name: "Alarmschijf",
     artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle1.mp3",
+    path: "muziek/jingles/Alarm schijf.mp3",
   },
- 
+
+
+
+
+
 {
-    name: "The Amsterdam IT",
-    artist: "90 s House",
+    name: " I Am The Drama  ",
+    artist: "Bebe Rexha  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/House01.mp3",
+    path: "muziek/muziek07/Bebe Rexha - I Am The Drama.mp3",
   },
 
- 
+
+
+
 {
-    name: "The Amsterdam IT",
-    artist: "90 s House",
+    name: "  Welcome!",
+    artist: "Listen Live Sunny Danceradio  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/House02.mp3",
+    path: "muziek/jingles/New track.mp3",
   },
 
 
 
 
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj5.mp3",
-  },
-
 
 {
-    name: "The Amsterdam IT",
-    artist: "90 s House",
+    name: "  Spot A Fake    ",
+    artist: "AvA Max",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/House03.mp3",
+    path: "muziek/muziek07/AvA Max - Spot A Fake.mp3",
   },
-
-{
-    name: "The Amsterdam IT",
-    artist: "90 s House",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/House04.mp3",
-  },
-
-
-
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj3.mp3",
-  },
-
-
-
-
-{
-    name: "The Moon Shines Up",
-    artist: "Calvin Harris",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Calvin Harris - The moon shines up.mp3",
-  },
-
-
-{
-    name: "The Amsterdam IT",
-    artist: "90 s House",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/House05.mp3",
-  },
-
-
-
-{
-    name: "The Amsterdam IT",
-    artist: "90 s House",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/House06.mp3",
-  },
-
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj6.mp3",
-  },
-
-{
-    name: "Glow Of Love",
-    artist: "Change ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Change - Glow Of Love.mp3",
-  },
-
-
-{
-    name: "The Amsterdam IT",
-    artist: "90 s House",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/House07.mp3",
-  },
-
-
-{
-    name: "The Amsterdam IT",
-    artist: "90 s House",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/House08.mp3",
-  },
-
-
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj2.mp3",
-  },
-
-{
-    name: " Turn On Tune In Cop Out ",
-    artist: "Freak Power ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Freak Power - Turn On Tune In Cop Out.mp3",
-  },
-
-
-{
-    name: "Just For You ",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/sunny ship/radio dj - just for you.mp3",
-  },
-
 
 
 {
@@ -371,11 +332,12 @@ let track_list = [
 
 
 
+
 {
-    name: "  Love Me  ",
-    artist: "Inna ",
+    name: " I Am The Drama  ",
+    artist: "Bebe Rexha  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek07/Inna - Love Me.mp3",
+    path: "muziek/muziek07/Bebe Rexha - I Am The Drama.mp3",
   },
 
 
@@ -592,12 +554,11 @@ let track_list = [
 
 
 
-
 {
-    name: "  Love Me  ",
-    artist: "Inna ",
+    name: " I Am The Drama  ",
+    artist: "Bebe Rexha  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek07/Inna - Love Me.mp3",
+    path: "muziek/muziek07/Bebe Rexha - I Am The Drama.mp3",
   },
 
 
@@ -3010,8 +2971,20 @@ let track_list = [
 
 
 
+{
+     name: "   My House Is Your House",
+    artist: "The Break Boys",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/The Break Boys - My House Is Your House.mp3",
+  },
 
 
+{
+     name: "  Android",
+    artist: "The Prodigy ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/The Prodigy - Android.mp3",
+  },
 
 
 {
@@ -3024,6 +2997,12 @@ let track_list = [
 
 
 
+{
+     name: " The Art Of Stalking",
+    artist: "The Suburban Knight  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/The Suburban Knight - The Art Of Stalking.mp3",
+  },
 
 
 
@@ -4136,13 +4115,6 @@ let track_list = [
 
 
 
-{
-    name: "  Gorgeous",
-    artist: "Snoop Dogg, Dr Dre   ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic07.netlify.app/Snoop Dogg, Dr Dre - Gorgeous.mp3",
-  },
-
 
 
 
@@ -4400,10 +4372,10 @@ let track_list = [
 
 
 {
-    name: "  Love Me  ",
-    artist: "Inna ",
+    name: " I Am The Drama  ",
+    artist: "Bebe Rexha  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek07/Inna - Love Me.mp3",
+    path: "muziek/muziek07/Bebe Rexha - I Am The Drama.mp3",
   },
 
 
@@ -5041,11 +5013,12 @@ let track_list = [
 
 
 
+
 {
-    name: "  Love Me  ",
-    artist: "Inna ",
+    name: " I Am The Drama  ",
+    artist: "Bebe Rexha  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek07/Inna - Love Me.mp3",
+    path: "muziek/muziek07/Bebe Rexha - I Am The Drama.mp3",
   },
 
 
@@ -5877,6 +5850,13 @@ let track_list = [
 
 
 
+{
+    name: " What Have You Done",
+    artist: "One Tribe feat. Gem  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/One Tribe feat. Gem - What Have You Done.mp3",
+  },
+
 
 
 
@@ -6546,6 +6526,13 @@ let track_list = [
 
 
 
+{
+    name: "Body Motion",
+    artist: "Sadomasy  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Sadomasy - Body Motion.mp3",
+  },
+
 
 
 
@@ -6840,9 +6827,19 @@ let track_list = [
     path: "https://danceoldies06.netlify.app/DHS - The House Of God.mp3",
   },
 
+{
+     name: "    I Want You ",
+    artist: "DJ Carl Cox",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/DJ Carl Cox - I Want You.mp3",
+  },
 
-
-
+{
+     name: "   Compnded ",
+    artist: "DJ Edge ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/DJ Edge - Compnded.mp3",
+  },
 
 {
      name: "  Rubb It In ",
@@ -6859,7 +6856,12 @@ let track_list = [
     path: "https://danceoldies06.netlify.app/33 Queen - Searchin' (1990).mp3",
   },
 
-
+{
+     name: "  Time Problem",
+    artist: "Alice D In Wonderland ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Alice D In Wonderland - Time Problem.mp3",
+  },
 
 
 
@@ -6882,6 +6884,22 @@ let track_list = [
 
 
 
+{
+     name: "  Raise Me",
+    artist: "Bizarre Inc  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Bizarre Inc - Raise Me.mp3",
+  },
+
+
+
+
+{
+     name: "  X Static",
+    artist: "Bizarre Inc  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Bizarre Inc - X Static.mp3",
+  },
 
 
 
@@ -6889,10 +6907,13 @@ let track_list = [
 
 
 
+ {
+     name: " Papua New Guinea ",
+    artist: "FS Of London  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/FS Of London - Papua New Guinea.mp3",
+  },
 
-
-
- 
 
 
 
@@ -9653,81 +9674,6 @@ let track_list = [
     path: "muziek/jingles/New track.mp3",
   },
 
-{
-     name: "Told You So",
-    artist: "Martin Garrix & Jex ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic07.netlify.app/Martin Garrix & Jex - Told You So.mp3",
-  },
-
-
-
-
-{
-    name: "  Welcome!",
-    artist: "Listen Live Sunny Danceradio  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/New track.mp3",
-  },
-
-
-
-
-
-
-
-
-
-
-{
-    name: "   I Like It",
-    artist: "Alesso, Nate Smith ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek07/Alesso, Nate Smith - I Like It.mp3",
-  },
-
-
-
-
-
-{
-     name: "Alarmschijf",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Alarm schijf.mp3",
-  },
-
-
-
-
-
-{
-    name: " I Am The Drama  ",
-    artist: "Bebe Rexha  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek07/Bebe Rexha - I Am The Drama.mp3",
-  },
-
-
-
-
-{
-    name: "  Welcome!",
-    artist: "Listen Live Sunny Danceradio  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/New track.mp3",
-  },
-
-
-
-
-
-{
-    name: "  Spot A Fake    ",
-    artist: "AvA Max",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek07/AvA Max - Spot A Fake.mp3",
-  },
 
 
 
@@ -11244,15 +11190,14 @@ let track_list = [
 
 
 
+
+
 {
-    name: "  Loveher",
-    artist: "Romy",
+    name: " I Am The Drama  ",
+    artist: "Bebe Rexha  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/Romy - Loveher.mp3",
-  
-
-
-},
+    path: "muziek/muziek07/Bebe Rexha - I Am The Drama.mp3",
+  },
 
 
 {
@@ -12591,6 +12536,150 @@ let track_list = [
     artist: "Clean Bandit  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/muziek07/Clean Bandit - Cry Baby.mp3",
+  },
+
+
+{
+    name: "The Amsterdam IT",
+    artist: "90 s House",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/House01.mp3",
+  },
+
+ 
+{
+    name: "The Amsterdam IT",
+    artist: "90 s House",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/House02.mp3",
+  },
+
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj5.mp3",
+  },
+
+
+{
+    name: "The Amsterdam IT",
+    artist: "90 s House",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/House03.mp3",
+  },
+
+{
+    name: "The Amsterdam IT",
+    artist: "90 s House",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/House04.mp3",
+  },
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj3.mp3",
+  },
+
+
+
+
+
+
+
+{
+    name: "The Amsterdam IT",
+    artist: "90 s House",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/House05.mp3",
+  },
+
+
+
+{
+    name: "The Amsterdam IT",
+    artist: "90 s House",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/House06.mp3",
+  },
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj6.mp3",
+  },
+
+
+
+
+{
+    name: "The Amsterdam IT",
+    artist: "90 s House",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/House07.mp3",
+  },
+
+
+{
+    name: "The Amsterdam IT",
+    artist: "90 s House",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/House08.mp3",
+  },
+
+
+
+
+{
+    name: " Why Can't We Start Again",
+    artist: "How & Little ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/How & Little - Why Can't We Start Again.mp3",
+  },
+
+
+
+
+
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj2.mp3",
+  },
+
+{
+    name: " Turn On Tune In Cop Out ",
+    artist: "Freak Power ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Freak Power - Turn On Tune In Cop Out.mp3",
+  },
+
+
+{
+    name: "Just For You ",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you.mp3",
+  },
+
+
+{
+    name: "Glow Of Love",
+    artist: "Change ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Change - Glow Of Love.mp3",
   },
 
 
@@ -14471,6 +14560,15 @@ let track_list = [
 },
 
 
+{
+    name: " Technarchy",
+    artist: "Cybersonic ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Cybersonic - Technarchy.mp3",
+  
+
+
+},
 
 
 
@@ -15379,10 +15477,10 @@ let track_list = [
 
 
 {
-    name: "  Love Me  ",
-    artist: "Inna ",
+    name: " I Am The Drama  ",
+    artist: "Bebe Rexha  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek07/Inna - Love Me.mp3",
+    path: "muziek/muziek07/Bebe Rexha - I Am The Drama.mp3",
   },
 
 
@@ -16870,7 +16968,12 @@ let track_list = [
     path: "https://danceoldies06.netlify.app/SL2 - On A Ragga Tip.mp3",
   },
 
-
+{
+    name: "  Atomic Playboy",
+    artist: "Space Trax ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Space Trax - Atomic Playboy.mp3",
+  },
 
 
 
