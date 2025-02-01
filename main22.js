@@ -237,121 +237,38 @@ let track_list = [
 
 
 {
-    name: "   Are You With Me  ",
-    artist: "Lost Frequencies ",
+    name: "Welcome!",
+    artist: "Listen Live Sunny Dance Radio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female DJ6best.mp3",
+  },
+
+
+{
+    name: "  Welcome!",
+    artist: "Listen Live Sunny Danceradio  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Lost Frequencies - Are You With Me.mp3",
+    path: "muziek/jingles/New track.mp3",
   },
 
 
 
 
-
-
-
-
 {
-     name: " Endless Summer ",
-    artist: "Sam Feldt   ",
+     name: "Told You So",
+    artist: "Martin Garrix & Jex ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek07/Sam Feldt - Endless Summer.mp3",
-  },
-
-
-
-{
-     name: "  Houdini (maxi)",
-    artist: "Dua Lipa  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek07/Dua Lipa - Houdin1 (maxi).mp3",
+    path: "https://sunnydancemusic07.netlify.app/Martin Garrix & Jex - Told You So.mp3",
   },
 
 
 
 
-
 {
-    name: "Just For You",
-    artist: "Sunny Ship",
+    name: "  Welcome!",
+    artist: "Listen Live Sunny Danceradio  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet3.mp3",
-  },
-
-
-
-
-
-
-
-
-
-{
-    name: "   Paradise",
-    artist: "Sophie And The Giants   ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek07/Sophie And The Giants - Paradise.mp3",
-  },
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet.mp3",
-  },
- 
-{
-    name: "   Lose Myself ",
-    artist: "Post Malone & The Weeknd ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek07/Post Malone & The Weeknd - Lose Myself.mp3",
-  },
-
-
-{
-     name: "Cold Heart",
-    artist: "Elton John & Dua Lipa",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Microfoon Elton & Dua.mp3",
-  },
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: " Cold Heart",
-    artist: "Elton John & Dua Lipa",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Elton & Dua - Cold Heart.mp3",
-  },
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-{
-    name: "Blinding Lights",
-    artist: "The Weeknd  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/The weeknd - Blinding Lights.mp3", 
+    path: "muziek/jingles/New track.mp3",
   },
 
 
@@ -364,106 +281,329 @@ let track_list = [
 
 
 
-
-
-
-
 {
-    name: "How Do I Make You Love Me (12inch)",
-    artist: "The Weeknd",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/The Weeknd - How Do I make You love me (12inch).mp3",
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-     name: "   Desire ",
-    artist: "Sam Smith ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/Sam Smith - Desire.mp3",
-  },
-
-
-
-
-
-
-
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/sunny ship/radio dj - just for you333.mp3",
-  },
-
-
-
-
-
-
-{
-    name: " Saturday Night (12inch)",
-    artist: "T-Connection ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/T-Connection - Saturday Night.mp3",
-  },
-
-
-
-
-
-
-
-{
-    name: " Let Me Show You (Ruud Remix)",
-    artist: "Jacksons",
+    name: "  Gorgeous",
+    artist: "Snoop Dogg, Dr Dre   ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Jacksons - Let me show you (Ruud Remix).mp3",
+    path: "https://sunnydancemusic07.netlify.app/Snoop Dogg, Dr Dre - Gorgeous.mp3",
+  },
+
+{
+    name: "   I Like It",
+    artist: "Alesso, Nate Smith ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek07/Alesso, Nate Smith - I Like It.mp3",
+  },
+
+
+
+
+
+{
+     name: "Alarmschijf",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Alarm schijf.mp3",
+  },
+
+
+
+
+
+{
+    name: " I Am The Drama  ",
+    artist: "Bebe Rexha  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek07/Bebe Rexha - I Am The Drama.mp3",
+  },
+
+
+
+
+{
+    name: "  Welcome!",
+    artist: "Listen Live Sunny Danceradio  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/New track.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Let op.mp3",
+  },
+
+
+
+
+{
+    name: "  Watchin'(2011)",
+    artist: "Freemasons  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Freemasons - Watchin'.mp3",
+  },
+
+
+
+
+
+
+
+
+
+{
+    name: "   One More Time (2001)",
+    artist: "Daft Punk  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Daft Punk - One More Time.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "The Weekend (2004)",
+    artist: "Michael Gray  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Michael Gray - The weekend.mp3",
+  },
+
+
+
+
+
+
+
+
+
+{
+    name: "  Paul Van Dyk",
+    artist: "For An Angel ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/For an Ange l- Paul van Dyk.mp3",
+  },
+
+
+
+
+{
+    name: " Too Funky (12inch)",
+    artist: "George Michael  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/George Michael - Too Funky.mp3",
+  },
+
+
+
+{
+    name: "  Rain Down Love",
+    artist: "Siedah Garret ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Siedah Garret - Rain down Love.mp3",
+  },
+
+
+
+
+{
+    name: "What You Waiting For",
+    artist: "Gwen Stefani ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Gwen Stefani - What you waiting for.mp3",
+  },
+
+
+
+
+{
+    name: " People Are People",
+    artist: "Depeche Mode ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Depeche mode- People are people.mp3",
+  },
+
+
+
+{
+    name: "Mesmerized (12inch)",
+    artist: "Freemasons",
+     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Freemasons  - Mesmerized.mp3",
   },
 
 
 {
-    name: "Spacer",
-    artist: "Sheila B Devotion",
+    name: "Best Of My Love",
+    artist: "T-Connection",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Sheila B Devotion - Spacer.mp3",
+    path: "https://sunnydanceoldies04.netlify.app/T-Connection - Best of my Love.mp3",
+  },
+
+
+
+
+{
+  
+    name: "Don't Be Shy",
+    artist: "Dj Tiesto 7 Karol G",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Dj Tiesto 7 Karol G - Don't be shy.mp3",
+  },
+
+
+
+
+{
+    name: "Todays News",
+    artist: "Nos Journaal",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/nos journaal 11.mp3",
+  
+
+
+},
+
+
+{
+     name: "   Freak Me Now ",
+    artist: "Jessie Ware ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Jessie Ware - Freak Me Now.mp3",
+  },
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance Radio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+  },
+
+
+
+
+{
+    name: "A Walk In The Park ",
+    artist: "Nick Straker Band",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Nick Straker Band - A walk in the park 7inch.mp3",
+  },
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Dance Radio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj5.mp3",
+  },
+
+
+{
+    name: "Rasputin",
+    artist: "Majestic  & Boney M ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/majestic  & Boney M - Rasputin.mp3",
+  },
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance Radio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
   },
  
 
 
 
+
+
+
+ {
+    name: " Quadrophonia (original)",
+    artist: "Quadrophonia",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Quadrophonia - Quadrophonia (original).mp3",
+  
+
+
+},
+
+
 {
-    name: " Win Or Lose",
-    artist: "E W F ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/E W F - Win or lose.mp3",
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance Radio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+  },
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance Radio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/sunny dance jingle.mp3",
+  },
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you.mp3",
+  },
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance Radio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet4.mp3",
+  },
+
+
+{
+    name: " Dance The Night",
+    artist: "Dua Lipa ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Dua Lipa - Dance The Night.mp3",
   },
 
 
@@ -472,6 +612,174 @@ let track_list = [
 
 
 
+
+
+
+{
+    name: " Don't Stop The Music (1980)",
+    artist: "Yarbrough & Peoples  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Yarbrough & Peoples - Don't Stop The Music.mp3",
+  },
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Right On",
+    artist: "The Pasadenas  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/The pasadenas - Right on.mp3",
+  },
+
+
+
+{
+    name: " Corner Of The Earth",
+    artist: "Jamiroquai ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Jamiroquai - Corner of the Earth.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/40 in jingle.mp3",
+  },
+
+
+
+{
+    name: "Break My Heart",
+    artist: "Dua Lipa ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/Dua Lipa - Break My Heart.mp3",
+  },
+
+
+{
+    name: "Life For The Weekend",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Life for the weekend- Jingle.mp3",
+  },
+
+
+
+
+
+{
+    name: "Try",
+    artist: "Dua Lipa ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Dua Lipa - Try.mp3",
+  },
+
+
+{
+    
+    name: " I Wanna Give You Devotion",
+    artist: "Nomad ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Nomad - I Wanna Give You Devotion.mp3",
+  },
+
+
+
+{
+    name: "  Flashdance",
+    artist: "Irene Cara   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Irene Cara - Flashdance.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+{
+    name: " Betcha Would'nt Hurt Me",
+    artist: "Donna Gardier  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Donna Gardier - Betcha would 'nt hurt me.mp3",
+  },
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "    Motive ",
+    artist: "Armin Van Buuren ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Armin Van Buuren - Motive.mp3",
+  },
+
+
+
+
+{
+    name: "How Long",
+    artist: "Tove Lo",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Tove Lo - How Long.mp3",
+  },
 
 {
     name: "Just For You",
@@ -485,47 +793,23 @@ let track_list = [
 
 
 
-
 {
     name: "Just For You",
     artist: "Sunny Ship",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet.mp3",
-  },
-
-
-{
-    name: "In The Mix",
-    artist: "Mix Masters Feat. Mc Action",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies01.netlify.app/Mix masters feat. Mc Action - In the mix.mp3",
+    path: "muziek/sunny ship/radio dj - just for you.mp3",
   },
 
 
 
 
-
- 
-
-
-
 {
-    name: " Another",
-    artist: "Muni Long",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Muni Long - Another.mp3",
   
-
-
-},
-
-
-
-
-
-
-
-
+    name: "1999",
+    artist: "Troye Sivan ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Troye Sivan - 1999.mp3",
+  },
 
 
 
@@ -533,25 +817,11 @@ let track_list = [
 
 
 {
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio",
+    name: "Never Can Say Goodbye (12inch)",
+    artist: "Communards",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle1.mp3",
+    path: "https://sunnydanceoldies02.netlify.app/Communards - Never can say goodbye 12inch.mp3",
   },
- 
-
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-  },
-
 
 
 {
@@ -559,52 +829,14 @@ let track_list = [
     artist: "Purple Disco Machine",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/start the party.mp3",
-  
-
-
-}, 
-
-
+    },
 
 
 {
-    name: " Hip Hop Lollipop",
-    artist: "Bootsy Collins",
+     name: "  Love On You",
+    artist: "Jason Warrior  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Bootsy Collins, Fantaazma - Hip Hop Lollipop.mp3",
-  },
-
-
-{
-    name: "Hollywood",
-    artist: "Madonna ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Madonna - Hollywood.mp3",
-  },
-
-
-
-{
-    name: "To Be Loved",
-    artist: "Lizzo",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Lizzo - To be loved.mp3",
-  },
-
-
-{
-    name: "Chillhouse Del Mar",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/chillhouse del mar02.mp3",
-  },
-
-
-{
-    name: "Chillhouse Del Mar",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/chillhouse del mar03.mp3",
+    path: "https://sunnydancemusic04.netlify.app/Jason Warrior - Love On You.mp3",
   },
 
 
@@ -612,30 +844,29 @@ let track_list = [
 
 
 
+{
+    name: "    End Of An Era  ",
+    artist: "Dua Lipa",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/muziek07/Dua Lipa - End Of An Era.mp3",
+  },
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj5.mp3",
+  },
 
 
 
 
 {
-    name: " Good Luck",
-    artist: "Mabel, Jack Jones , Galantis",
+    name: "Unfinished Sympathy (1991)",
+    artist: "Massive Attack",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Mabel, Jack Jones , Galantis - Good Luck.mp3",
+    path: "https://sunnydanceoldies03.netlify.app/Massive Attack - Unfinished Sympathy.mp3",
   },
 
 
@@ -643,11 +874,12 @@ let track_list = [
 
 
 
-
-
-
-
-
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+  },
 
 
 
@@ -655,14 +887,13 @@ let track_list = [
 
 
 {
-    name: "Todays News",
-    artist: "Nos Journaal",
+    name: "  Love Is Back",
+    artist: "Celeste ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/nos journaal 11.mp3",
-  
+    path: "https://dancemusic06.netlify.app/Celeste - Love Is Back.mp3",
+  },
 
 
-}, 
 
 
 
@@ -673,123 +904,65 @@ let track_list = [
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
   },
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle.mp3",
-  },
+
  
+
+
+
+
 {
-    name: "Todays News",
-    artist: "Nos Journaal",
+    name: " Into My Body",
+    artist: "Upsahl  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/let's go back.mp3",
+    path: "https://sunnydancemuziek01.netlify.app/Upsahl - Into my body.mp3",
   },
 
 
 
 
 
+
 {
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+     name: "(Don't) Give Hate A Chance ",
+    artist: "Jamiroquai ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle.mp3",
+    path: "https://sunnydancemusic04.netlify.app/Jamiroquai - (Don't) give hate a chance.mp3",
   },
 
 
- {
+
+
+
+
+
+
+{
     name: "Just For You",
     artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/sunny ship/radio dj - just for you33.mp3",
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: "Seven Days In Sunny June",
-    artist: "Jamiroquaii",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/Jamiroquaii - Seven Days in sunny  Junet.mp3",
-  
-
-
-},
-
-
-
-
-
-
-
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/return classics.mp3",
   },
 
 
-{
-    name: " Can't Wait Another Minute ",
-    artist: "Five Star ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Five Star - Can't Wait Another Minute.mp3",
-  
-
-
-},
-
-
-
-
-
-
-
-
-
-
-
-
 
 {
-    name: "Bad Company",
-    artist: "Purple Disco Machine ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/Purple Disco Machine - Bad Company.mp3",
+    name: "Love On My Mind (2005) ",
+    artist: "Freemasons",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Freemasons - Love on my mind.mp3",
   },
 
 
 
-{
-     name: " Don't Forget My Love",
-    artist: "Diplo & Miguel ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Diplo & Miguel - Don't forget my love.mp3",
-  },
+
+
 
 
 {
-    name: "Running Up That Hill (12inch)",
-    artist: "Kate Bush ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Kate Bush - Running up that hill (12inch).mp3",
+    name: " Sexy Thing",
+    artist: "Hot Chocolate ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Hot Chocolate - Sexy Thing.mp3",
   },
 
 
@@ -801,6 +974,27 @@ let track_list = [
 
 
 
+
+
+
+
+
+
+
+{
+    name: " I Feel It Comin' ",
+    artist: "The Weeknd ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/The Weeknd - I Feel It Comin'.mp3",
+  },
+
+
+{
+    name: "   To Blind To See It",
+    artist: "Kym Sims",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Kym Sims - To Blind To See It.mp3",
+  },
 
 
 
@@ -808,85 +1002,34 @@ let track_list = [
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
+    path: "muziek/jingles/sunny dance jingle.mp3",
   },
 
 
 
-
-
-
 {
-    name: "Just For You ",
-    artist: "Sunny Ship",
+    name: "  Sunny Danceradio",
+    artist: "return classics",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/40 in jingle22.mp3",
-  },
-
-
-
-
-{
-     name:  "Fever ",
-    artist: "Charlotte Day Wilson ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Charlotte Day Wilson - Fever.mp3",
+    path: "muziek/jingles/back in time jingle.mp3",
   },
 
 {
-    name: "    Nothing Left To Loose ",
-    artist: "Everything But The Girl  ",
+    name: " Dancer (1979) ",
+    artist: "Gino Soccio ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Everything But The Girl - Caution To The Wind.mp3",
-  },
- 
-{
-    name: "   Love Is My Drug ",
-    artist: "Post Malone   ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Post Malone - Love Is My Drug.mp3",
-  },
-
-
-{
-    name: "  Hangin' On A String   ",
-    artist: "Loose Ends  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Loose Ends - Hangin' On A String (12inch).mp3",
+    path: "https://danceoldies06.netlify.app/Gino Soccio - Dancer (1979).mp3",
   },
 
 
 
 
 {
-     name: "Freak Of Nature",
-    artist: "Amir",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Amir - Freak of Nature.mp3",
+    name: "Personal Jesus ",
+    artist: "Depeche Mode",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Depeche Mode - Personal Jesus.mp3",
   },
-
-
-
-
-{
-    name: "   Ugly Ego",
-    artist: "Cameo  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Cameo - Ugly Ego.mp3",
-  },
-
-
-
-
-{
-    name: "Fall",
-    artist: "Full Flava",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Full Flava - Fall.mp3",
-  
-
-
-},
 
 
 
@@ -895,53 +1038,10 @@ let track_list = [
 
 
 {
-    name: "   Murder On The Dancefloor  ",
-    artist: "Sophie Ellis-Bextor ",
+     name: "Sacrifice",
+    artist: "The Weeknd ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Sophie Ellis-Bextor - Murder On The Dancefloor.mp3",
-  },
-
-
-
-
-{
-     name: " Still",
-    artist: "Dr Dre feat. Snoop Dogg  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Dr Dre feat. Snoop Dogg - Still.mp3",
-  },
-
-
-{
-     name: "Experience",
-    artist: "Victoria Monet ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Victoria Monet - Experience.mp3",
-  },
-
-
-
-
-
-
-
- {
-     name: "  Promise Me",
-    artist: "Rose Gray  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Rose Gray - Promise Me.mp3",
-  },
-
-
-
-
-
-
-{
-    name: "It's Allright (12inch)",
-    artist: "NV",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies01.netlify.app/NV- it's allright.mp3",
+    path: "https://sunny-dancemusic02.netlify.app/The weeknd - Sacrifice.mp3",
   },
 
 
@@ -952,30 +1052,6 @@ let track_list = [
 
 
 
-
-{
-    name: "Life For The Weekend",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Life for the weekend- Jingle.mp3",
-  },
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle.mp3",
-  },
-
-{
-    name: " You See The Trouble With Me ",
-    artist: "Black Legend ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/You see the trouble with me - Black Legend.mp3",
-  },
 
 
 
@@ -998,7 +1074,7 @@ let track_list = [
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
   },
 
 
@@ -1010,11 +1086,97 @@ let track_list = [
 
 
 {
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    
+    name: "Chillhouse Del Mar",
+    artist: "Chillhouse",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
+    path: "https://sunnydanceoldies03.netlify.app/chillhouse del mar05.mp3",
   },
+
+
+ 
+{
+    
+    name: "Chillhouse Del Mar",
+    artist: "Chillhouse",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/chillhouse del mar06.mp3",
+  },
+
+
+{
+    
+    name: "   Always There (1991)",
+    artist: "Incognito",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Incognito - Always There.mp3",
+  },
+
+
+
+{
+    
+    name: " San Salvador (1979)",
+    artist: "Azoto ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Azoto - San Salvador.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Dance Radio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj3.mp3",
+  },
+
+
+
+
 
 
 {
@@ -1024,112 +1186,124 @@ let track_list = [
     path: "muziek/sunny ship/radio dj - just for you.mp3",
   },
 
+ 
+
+
+
 
 {
-    name: "Todays News",
-    artist: "Nos Journaal",
+    name: "  Open Sesame",
+    artist: "Leila K ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/nos journaal 11.mp3",
+    path: "https://danceoldies06.netlify.app/Leila K - Open Sesame.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Sacrifice",
+    artist: "Bebe Rexha",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Bebe Rexha - Sacrifice.mp3",
+  },
+
+
+
+{
+    name: "  Playgirl (1979)  ",
+    artist: "La Velle ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/La Velle - Playgirl.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Better Days",
+    artist: "Craig David  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Craig David2 - Better Days.mp3",
+  },
+
+
+
+
+
+
+{
+    name: "The Message",
+    artist: "Grandmaster Flash & The Furious Five",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Grandmaster Flash & The Furious Five - The Message.mp3",
+  },
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/40 in jingle22.mp3",
+  },
+
+
+
+
+{
+     name: "Coastin' ",
+    artist: "Victoria Monet ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Victoria Monet - Coastin'.mp3",
+  },
+
+
+
+
+
+{
+    name: "Seven Nation Army",
+    artist: "Gaulin & Julian Perreta",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Gaulin & Julian Perreta - Seven nation army.mp3",
+  },
+
+{
+    name: " Classic",
+    artist: "Sunny hotradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/back in time jingle.mp3",
   
 
 
-}, 
-
-
-
-
+},
 
 {
-    name: "Run",
-    artist: "Becky Hill",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Becky Hill - Run.mp3",
-  },
-
-
-
-
-
-{
-    name: "  Right My Wrongs",
-    artist: "Jastin Martin ",
+    name: " Dance 1978",
+    artist: "Sylvester",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Jastin Martin - Right My Wrongs.mp3",
-  },
-
-
-
-
-
- 
-{
-    name: "Just For You ",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/40 in jingle.mp3",
-  },
-
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/do not turnoff receiver.mp3",
-  },
-
-
-
-
-
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/sunny ship/radio dj - just for you.mp3",
-  },
-
-
-
-
-{
-    name: "  Stakker Humanoid (1988) ",
-    artist: "Humanoid",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Humanoid - Stakker Humanoid.mp3",
-  },
-
-
-
-
-
- 
-
-{
-    name: "  Contact  ",
-    artist: "Kelela  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Kelela - Contact.mp3",
-  },
-
-
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle1.mp3",
-  },
-
-
-{
-    name: "Welcome!",
-    artist: "Purple Disco Machine",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/start the party.mp3",
+    path: "https://sunnydanceoldies03.netlify.app/Sylvester- Dance 1978.mp3",
   
 
 
@@ -1137,12 +1311,136 @@ let track_list = [
 
 
 
+
+
 {
-    name: " Megamix 2023",
-    artist:  "Purple Disco Machine  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_01.mp3",
+    name: " On How Life Is",
+    artist: "Macy Gray  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Macy Gray - On how life is.mp3",
   },
+
+
+
+{
+    name: "  Satellite",
+    artist: " Khalid  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Khalid - Satellite.mp3",
+  },
+
+
+
+{
+    name: "   Lifetime ",
+    artist: "SG Lewis",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/SG Lewis - Lifetime.mp3",
+  },
+
+
+
+
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet3.mp3",
+  },
+
+
+
+
+{
+    name: "I Wanna Feel",
+    artist: "Second City ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Second City - I wanna feel.mp3",
+  },
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj2.mp3",
+  },
+
+{
+    name: "Best Things In Life Are Free ",
+    artist: "Luther Vandross & Janet Jackson  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Luther Vandross & Janet Jackson - Best things in life are free.mp3",
+  },
+
+
+
+
+{
+  
+
+
+  name: "Saltwater (12inch)",
+    artist: "Chicane  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Chicane - Saltwater.mp3"
+  },
+
+
+
+{
+    name: " Miracles (12inch)",
+    artist: "Change ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Change - Miracles.mp3",
+  },
+
+
+
+{
+    name: " You Cant Hide",
+    artist: "David Joseph  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/David Joseph - You Cant Hide (Your Love From Me).mp3",
+  },
+
+{
+    name: "  Believer",
+    artist: "Freemasons  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Freemasons - Believer.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+  },
+ 
+
 
 {
      name: "Welcome!",
@@ -1150,54 +1448,261 @@ let track_list = [
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle1.mp3",
   },
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 {
-    name: " Megamix 2023",
-    artist:  "Purple Disco Machine  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_03.mp3",
+    name: "Taste Of You",
+    artist: "Rezz",
+     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Rezz - Taste of you.mp3",
   },
 
 
 
+
+
 {
-    name: " Megamix 2023",
-    artist:  "Purple Disco Machine  ",
+     name: " Gone",
+    artist: "Noa Kirel  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_04.mp3",
+    path: "https://sunnydancemusic05.netlify.app/Noa Korel - Gone.mp3",
   },
+
+
+
+
 
 
 {
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle1.mp3",
+    path: "muziek/jingles/Let op.mp3",
+  },
+
+
+
+
+{
+    name: "Believe",
+    artist: "Cher",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Cher - Believe.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Stomp!(Album Version) ",
+    artist: "The Brothers Johnson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/THE BROTHERS JOHNSON - Stomp! (Album Version) HQ.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you.mp3",
   },
 
 
 {
-    name: " Cry Baby",
-    artist: "Clean Bandit  ",
+    name: "  Confused ",
+    artist: "Minelli ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/muziek07/Clean Bandit - Cry Baby.mp3",
+    path: "https://sunnydancemusic05.netlify.app/Minelli - Confused.mp3",
   },
+
+
 
 
 {
-    name: "The Amsterdam IT",
-    artist: "90 s House",
+    name: "Just For You",
+    artist: "Sunny Ship",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/House01.mp3",
+    path: "muziek/sunny ship/radio dj - just for you222.mp3",
   },
+
 
  
+
+
+
+
+
+
 {
-    name: "The Amsterdam IT",
-    artist: "90 s House",
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/House02.mp3",
+    path: "muziek/jingles/Sunny dance jingle.mp3",
   },
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Let op.mp3",
+  },
+
+
+{
+    name: "Masquerade",
+    artist: "Bananarama ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Bananarama - Masquerade.mp3",
+  },
+
+
+
+{
+    name: "I Wish",
+    artist: "Joel Corry",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Joel Corry - I wish.mp3",
+  },
+
+
+
+
+{
+    name: "You Are Not Alone",
+    artist: "Michael Jackson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Michael Jackson- You are not alone.mp3",
+  },
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you22.mp3",
+  },
+
+
+
+
+
+
+{
+    name: "Money's Too Tight (to mention)(12inch)",
+    artist: "Simply Red",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Simply Red - Money's too tight (to mention).mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle4.mp3",
+  },
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Let op.mp3",
+  },
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+  },
+
+
+
+
+
+
+
 
 
 
@@ -1210,18 +1715,212 @@ let track_list = [
   },
 
 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
 {
-    name: "The Amsterdam IT",
-    artist: "90 s House",
+    name: "Welcome!",
+    artist: "Listen Live Sunny Dance Radio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj3.mp3",
+  },
+
+
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/House03.mp3",
+    path: "muziek/sunny ship/radio dj - just for you.mp3",
+  },
+
+ 
+
+
+
+
+{
+    name: "  Open Sesame",
+    artist: "Leila K ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Leila K - Open Sesame.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Sacrifice",
+    artist: "Bebe Rexha",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Bebe Rexha - Sacrifice.mp3",
+  },
+
+
+
+{
+    name: "  Playgirl (1979)  ",
+    artist: "La Velle ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/La Velle - Playgirl.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Better Days",
+    artist: "Craig David  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Craig David2 - Better Days.mp3",
+  },
+
+
+
+
+
+
+{
+    name: "The Message",
+    artist: "Grandmaster Flash & The Furious Five",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Grandmaster Flash & The Furious Five - The Message.mp3",
+  },
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/40 in jingle22.mp3",
+  },
+
+
+
+
+{
+     name: "Coastin' ",
+    artist: "Victoria Monet ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Victoria Monet - Coastin'.mp3",
+  },
+
+
+
+
+
+{
+    name: "Seven Nation Army",
+    artist: "Gaulin & Julian Perreta",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Gaulin & Julian Perreta - Seven nation army.mp3",
   },
 
 {
-    name: "The Amsterdam IT",
-    artist: "90 s House",
+    name: " Classic",
+    artist: "Sunny hotradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/House04.mp3",
+    path: "muziek/jingles/back in time jingle.mp3",
+  
+
+
+},
+
+{
+    name: " Dance 1978",
+    artist: "Sylvester",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Sylvester- Dance 1978.mp3",
+  
+
+
+},
+
+
+
+
+
+{
+    name: " On How Life Is",
+    artist: "Macy Gray  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Macy Gray - On how life is.mp3",
+  },
+
+
+
+{
+    name: "  Satellite",
+    artist: " Khalid  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Khalid - Satellite.mp3",
+  },
+
+
+
+{
+    name: "   Lifetime ",
+    artist: "SG Lewis",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/SG Lewis - Lifetime.mp3",
+  },
+
+
+
+
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet3.mp3",
+  },
+
+
+
+
+{
+    name: "I Wanna Feel",
+    artist: "Second City ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Second City - I wanna feel.mp3",
   },
 
 
@@ -1230,8 +1929,357 @@ let track_list = [
     name: "Welcome!",
     artist: "Listen Live Sunny Danceradio ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj3.mp3",
+    path: "muziek/discjockeys/Female dj2.mp3",
   },
+
+{
+    name: "Best Things In Life Are Free ",
+    artist: "Luther Vandross & Janet Jackson  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Luther Vandross & Janet Jackson - Best things in life are free.mp3",
+  },
+
+
+
+
+{
+  
+
+
+  name: "Saltwater (12inch)",
+    artist: "Chicane  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Chicane - Saltwater.mp3"
+  },
+
+
+
+{
+    name: " Miracles (12inch)",
+    artist: "Change ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Change - Miracles.mp3",
+  },
+
+
+
+{
+    name: " You Cant Hide",
+    artist: "David Joseph  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/David Joseph - You Cant Hide (Your Love From Me).mp3",
+  },
+
+{
+    name: "  Believer",
+    artist: "Freemasons  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Freemasons - Believer.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+  },
+ 
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle1.mp3",
+  },
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Taste Of You",
+    artist: "Rezz",
+     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Rezz - Taste of you.mp3",
+  },
+
+
+
+
+
+{
+     name: " Gone",
+    artist: "Noa Kirel  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/Noa Korel - Gone.mp3",
+  },
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Let op.mp3",
+  },
+
+
+
+
+{
+    name: "Believe",
+    artist: "Cher",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Cher - Believe.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Stomp!(Album Version) ",
+    artist: "The Brothers Johnson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/THE BROTHERS JOHNSON - Stomp! (Album Version) HQ.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you.mp3",
+  },
+
+
+{
+    name: "  Confused ",
+    artist: "Minelli ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/Minelli - Confused.mp3",
+  },
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you222.mp3",
+  },
+
+
+ 
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny dance jingle.mp3",
+  },
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Let op.mp3",
+  },
+
+
+{
+    name: "Masquerade",
+    artist: "Bananarama ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Bananarama - Masquerade.mp3",
+  },
+
+
+
+{
+    name: "I Wish",
+    artist: "Joel Corry",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Joel Corry - I wish.mp3",
+  },
+
+
+
+
+{
+    name: "You Are Not Alone",
+    artist: "Michael Jackson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Michael Jackson- You are not alone.mp3",
+  },
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you22.mp3",
+  },
+
+
+
+
+
+
+{
+    name: "Money's Too Tight (to mention)(12inch)",
+    artist: "Simply Red",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Simply Red - Money's too tight (to mention).mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle4.mp3",
+  },
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Let op.mp3",
+  },
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj5.mp3",
+  },
+
+
+ 
+
+
+
 
 
 
