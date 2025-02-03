@@ -174,7 +174,7 @@ let track_list = [
      name: "Welcome!",
     artist: "Listen Live Sunny Dance radio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle13.mp3",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
   },
 
 
