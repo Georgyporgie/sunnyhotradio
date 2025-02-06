@@ -213,19 +213,16 @@ let track_list = [
 
 
 
+
+
+
+
 {
-    name: " Can't Wait Another Minute ",
-    artist: "Five Star ",
+     name: " Don't Forget My Love",
+    artist: "Diplo & Miguel ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Five Star - Can't Wait Another Minute.mp3",
-  
-
-
-},
-
-
-
-
+    path: "https://sunnydancemusic04.netlify.app/Diplo & Miguel - Don't forget my love.mp3",
+  },
 
 
 
@@ -243,13 +240,6 @@ let track_list = [
   },
 
 
-
-{
-     name: " Don't Forget My Love",
-    artist: "Diplo & Miguel ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Diplo & Miguel - Don't forget my love.mp3",
-  },
 
 
 {
@@ -292,6 +282,13 @@ let track_list = [
 
 
 
+{
+    name: "    Nothing Left To Loose ",
+    artist: "Everything But The Girl  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/Everything But The Girl - Caution To The Wind.mp3",
+  },
+ 
 
 {
      name:  "Fever ",
@@ -301,13 +298,6 @@ let track_list = [
   },
 
 {
-    name: "    Nothing Left To Loose ",
-    artist: "Everything But The Girl  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Everything But The Girl - Caution To The Wind.mp3",
-  },
- 
-{
     name: "   Love Is My Drug ",
     artist: "Post Malone   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -315,12 +305,7 @@ let track_list = [
   },
 
 
-{
-    name: "  Hangin' On A String   ",
-    artist: "Loose Ends  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Loose Ends - Hangin' On A String (12inch).mp3",
-  },
+
 
 
 
