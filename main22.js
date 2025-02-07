@@ -376,21 +376,12 @@ let track_list = [
 
 
 
-{
-    name: " Corner Of The Earth",
-    artist: "Jamiroquai ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies04.netlify.app/Jamiroquai - Corner of the Earth.mp3",
-  },
-
-
-
 
 {
     name: "Touch Me (12inch)",
     artist: "Rui Da Silva",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Rui da Silva - Touch Me.mp3",
+    path: "https://sunnydanceoldies04.netlify.app/Rui da Silva - Touch Me.mp3",
   
 
 
