@@ -423,7 +423,7 @@ width: 325px; height: 370px;
 
 
 
-#list {  font-size: 15px; color: #FF0000; font-family: Arial ,Helvetica,sans-serif;
+#track-list-container {  font-size: 15px; color: #FF0000; font-family: Arial ,Helvetica,sans-serif;
 z-index: 200;  margin-left: 5px;  background:linear-gradient(45deg,#0033FF,#006666,#003399);  border-radius: 20px;  border: solid 3px #FF0000; padding: 25px 0px 0px 0px;font-weight:800;font-optical-sizing: auto;
 }
 

@@ -341,6 +341,761 @@ let track_list = [
 
 
 {
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+  },
+
+
+
+
+{
+    name: "Love On My Mind (2005) ",
+    artist: "Freemasons",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Freemasons - Love on my mind.mp3",
+  },
+
+
+
+
+
+
+
+{
+    name: " Sexy Thing",
+    artist: "Hot Chocolate ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Hot Chocolate - Sexy Thing.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: " I Feel It Comin' ",
+    artist: "The Weeknd ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/The Weeknd - I Feel It Comin'.mp3",
+  },
+
+
+{
+    name: "   To Blind To See It",
+    artist: "Kym Sims",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Kym Sims - To Blind To See It.mp3",
+  },
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/sunny dance jingle.mp3",
+  },
+
+
+
+{
+    name: "  Sunny Danceradio",
+    artist: "return classics",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/back in time jingle.mp3",
+  },
+
+{
+    name: " Dancer (1979) ",
+    artist: "Gino Soccio ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Gino Soccio - Dancer (1979).mp3",
+  },
+
+
+
+
+{
+    name: "Personal Jesus ",
+    artist: "Depeche Mode",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Depeche Mode - Personal Jesus.mp3",
+  },
+
+
+
+
+
+
+
+{
+     name: "Sacrifice",
+    artist: "The Weeknd ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/The weeknd - Sacrifice.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet3.mp3",
+  },
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+  },
+
+
+
+
+
+
+
+
+
+{
+    
+    name: "Chillhouse Del Mar",
+    artist: "Chillhouse",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/chillhouse del mar05.mp3",
+  },
+
+
+ 
+{
+    
+    name: "Chillhouse Del Mar",
+    artist: "Chillhouse",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/chillhouse del mar06.mp3",
+  },
+
+
+{
+    
+    name: "   Always There (1991)",
+    artist: "Incognito",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Incognito - Always There.mp3",
+  },
+
+
+
+{
+    
+    name: " San Salvador (1979)",
+    artist: "Azoto ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Azoto - San Salvador.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Dance Radio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj3.mp3",
+  },
+
+
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you.mp3",
+  },
+
+ 
+
+
+
+
+{
+    name: "  Open Sesame",
+    artist: "Leila K ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Leila K - Open Sesame.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Sacrifice",
+    artist: "Bebe Rexha",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Bebe Rexha - Sacrifice.mp3",
+  },
+
+
+
+{
+    name: "  Playgirl (1979)  ",
+    artist: "La Velle ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/La Velle - Playgirl.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Better Days",
+    artist: "Craig David  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Craig David2 - Better Days.mp3",
+  },
+
+
+
+
+
+
+{
+    name: "The Message",
+    artist: "Grandmaster Flash & The Furious Five",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Grandmaster Flash & The Furious Five - The Message.mp3",
+  },
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/40 in jingle22.mp3",
+  },
+
+
+
+
+{
+     name: "Coastin' ",
+    artist: "Victoria Monet ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Victoria Monet - Coastin'.mp3",
+  },
+
+
+
+
+
+{
+    name: "Seven Nation Army",
+    artist: "Gaulin & Julian Perreta",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Gaulin & Julian Perreta - Seven nation army.mp3",
+  },
+
+{
+    name: " Classic",
+    artist: "Sunny hotradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/back in time jingle.mp3",
+  
+
+
+},
+
+{
+    name: " Dance 1978",
+    artist: "Sylvester",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Sylvester- Dance 1978.mp3",
+  
+
+
+},
+
+
+
+
+
+{
+    name: " On How Life Is",
+    artist: "Macy Gray  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Macy Gray - On how life is.mp3",
+  },
+
+
+
+{
+    name: "  Satellite",
+    artist: " Khalid  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Khalid - Satellite.mp3",
+  },
+
+
+
+{
+    name: "   Lifetime ",
+    artist: "SG Lewis",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/SG Lewis - Lifetime.mp3",
+  },
+
+
+
+
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet3.mp3",
+  },
+
+
+
+
+{
+    name: "I Wanna Feel",
+    artist: "Second City ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Second City - I wanna feel.mp3",
+  },
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj2.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+{
+    name: " Megamix 2023",
+    artist:  "Purple Disco Machine  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_05.mp3",
+  },
+
+
+{
+    name: " Megamix 2023",
+    artist:  "Purple Disco Machine  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_06.mp3",
+  },
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny dance jingle.mp3",
+  },
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle4.mp3",
+  },
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Let op.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet3.mp3",
+  },
+
+
+
+
+
+
+{
+    name: "Just For You ",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet.mp3",
+  },
+
+
+
+
+
+
+
+{
+    name: "Goosebumps",
+    artist: "MO",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/MO - Goosebumps.mp3",
+  },
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle4.mp3",
+  },
+ 
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Just For You ",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet.mp3",
+  },
+
+
+
+{
+    name: "Just For You ",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you333.mp3",
+  },
+
+
+
+
+
+{
+    name: " Pipeline (1977)",
+    artist: "Bruce Johnston  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Bruce Johnston- Pipeline.mp3",
+  },
+
+
+
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you.mp3",
+  },
+
+
+{
+    name: "If You Don't Wanna Leave Me",
+    artist: "Dua Lipa",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Dua Lipa - If you don't wanna leave me.mp3",
+  
+
+
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "  DNA (feat. MEARSY) ",
+    artist: "Sophie And The Giants ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic07.netlify.app/Sophie AndThe Giants - DNA (feat. MEARSY).mp3",
+  },
+
+
+
+
+
+{
+    name: " No Bad Vibes",
+    artist: "Jazzy feat. Kilimanjaro  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic07.netlify.app/Jazzy feat. Kilimanjaro - No Bad Vibes.mp3",
+  },
+
+
+
+
+
+
+
+{
+    name: "Welcome!",
+    artist: "Purple Disco Machine",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/start the party.mp3",
+  
+
+
+},
+
+
+
+{
+    name: " Megamix 2023",
+    artist:  "Purple Disco Machine  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_01.mp3",
+  },
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle1.mp3",
+  },
+
+{
+    name: " Megamix 2023",
+    artist:  "Purple Disco Machine  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_03.mp3",
+  },
+
+
+
+{
+    name: " Megamix 2023",
+    artist:  "Purple Disco Machine  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_04.mp3",
+  },
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle1.mp3",
+  },
+
+
+{
     name: " Cry Baby",
     artist: "Clean Bandit  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
