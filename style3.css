@@ -882,5 +882,5 @@ display: none;
   }
 
 #much {  font-size: 14px; color: #FF0000; font-family: Arial ,Helvetica,sans-serif;
-z-index: 200; margin :-35px auto auto 35px;  background-color: transparent;  border-radius: 5px;   font-weight:700; text-decoration: underline;animation: blinker 1.0s step-start infinite; 
+z-index: 200; margin :-55px auto auto 850px;  background-color: transparent;  border-radius: 5px;   font-weight:700; text-decoration: underline;animation: blinker 1.0s step-start infinite; 
 }
