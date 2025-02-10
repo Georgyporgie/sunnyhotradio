@@ -350,284 +350,6 @@ let track_list = [
 
 
 
-{
-    name: "Love On My Mind (2005) ",
-    artist: "Freemasons",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Freemasons - Love on my mind.mp3",
-  },
-
-
-
-
-
-
-
-{
-    name: " Sexy Thing",
-    artist: "Hot Chocolate ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Hot Chocolate - Sexy Thing.mp3",
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: " I Feel It Comin' ",
-    artist: "The Weeknd ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/The Weeknd - I Feel It Comin'.mp3",
-  },
-
-
-{
-    name: "   To Blind To See It",
-    artist: "Kym Sims",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Kym Sims - To Blind To See It.mp3",
-  },
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/sunny dance jingle.mp3",
-  },
-
-
-
-{
-    name: "  Sunny Danceradio",
-    artist: "return classics",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/back in time jingle.mp3",
-  },
-
-{
-    name: " Dancer (1979) ",
-    artist: "Gino Soccio ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Gino Soccio - Dancer (1979).mp3",
-  },
-
-
-
-
-{
-    name: "Personal Jesus ",
-    artist: "Depeche Mode",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/Depeche Mode - Personal Jesus.mp3",
-  },
-
-
-
-
-
-
-
-{
-     name: "Sacrifice",
-    artist: "The Weeknd ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/The weeknd - Sacrifice.mp3",
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet3.mp3",
-  },
-
-
-
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle.mp3",
-  },
-
-
-
-
-
-
-
-
-
-{
-    
-    name: "Chillhouse Del Mar",
-    artist: "Chillhouse",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/chillhouse del mar05.mp3",
-  },
-
-
- 
-{
-    
-    name: "Chillhouse Del Mar",
-    artist: "Chillhouse",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/chillhouse del mar06.mp3",
-  },
-
-
-{
-    
-    name: "   Always There (1991)",
-    artist: "Incognito",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Incognito - Always There.mp3",
-  },
-
-
-
-{
-    
-    name: " San Salvador (1979)",
-    artist: "Azoto ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Azoto - San Salvador.mp3",
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj3.mp3",
-  },
-
-
-
-
-
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/sunny ship/radio dj - just for you.mp3",
-  },
-
- 
-
-
-
-
-{
-    name: "  Open Sesame",
-    artist: "Leila K ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Leila K - Open Sesame.mp3",
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: "Sacrifice",
-    artist: "Bebe Rexha",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Bebe Rexha - Sacrifice.mp3",
-  },
-
-
 
 {
     name: "  Playgirl (1979)  ",
@@ -1046,7 +768,7 @@ let track_list = [
 
 {
     name: "Welcome!",
-    artist: "Purple Disco Machine",
+    artist: "Sunny Disco Machine",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/start the party.mp3",
   
@@ -2465,13 +2187,9 @@ startTime();
 
 
 
-
 // Create the ordered list and append it to the body
 let ol = document.createElement('ol');
 document.body.appendChild(ol);
-
-
-
 
 // Function to create a list item for each track
 function createListItem(track) {
@@ -2480,8 +2198,6 @@ function createListItem(track) {
   let trackInfo = document.createElement('div');
   trackInfo.innerHTML = `<strong>${track.name}</strong> by ${track.artist}`;
   li.appendChild(trackInfo);
-
-
 
   let audio = document.createElement('audio');
   audio.controls = false;
@@ -2494,23 +2210,22 @@ function createListItem(track) {
   return li;
 }
 
-// Add each track to the ordered list, but limit to 10 tracks
-track_list.slice(0, 20).forEach(track => {
+// Filter the track list to exclude tracks with 'Sunny' in the artist's name
+let filteredTrackList = track_list.filter(track => !track.artist.toLowerCase().includes('sunny'));
+
+// Limit the filtered track list to 20 tracks
+let limitedTrackList = filteredTrackList.slice(0, 20);
+
+// Log the limited track list to the console
+console.log("Limited track list:", limitedTrackList);
+
+// Add each track to the ordered list
+limitedTrackList.forEach(track => {
   ol.appendChild(createListItem(track));
 });
 
 // Append the ordered list to the placeholder div
 document.getElementById('track-list-container').appendChild(ol);
 
-
-
-
-
-
-
-
-
-
-
-
-
+// Log a message indicating the script has finished running
+console.log("Script has finished running.");
