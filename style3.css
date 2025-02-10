@@ -873,3 +873,14 @@ display: none;
 
 
 
+  @keyframes blink {
+    50% { background-color: yellow; }
+  }
+  
+  .blinking {
+    animation: blink 1s infinite;
+  }
+
+#much {  font-size: 14px; color: #FF0000; font-family: Arial ,Helvetica,sans-serif;
+z-index: 200; margin :-35px auto auto 35px;  background-color: transparent;  border-radius: 5px;   padding: 35px 5px 25px 0px;font-weight:700; text-decoration: underline;
+}
