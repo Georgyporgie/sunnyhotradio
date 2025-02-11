@@ -348,7 +348,7 @@ let track_list = [
 
 
 {
-    name: "Just Get Ready (12inch) ",
+    name: "Just Get Ready (new) ",
     artist: "Sos Band",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Sos Band - Just get ready (Ben lIebrand remix).mp3",
@@ -2947,18 +2947,23 @@ document.body.appendChild(ol);
 function createListItem(track) {
   let li = document.createElement('li');
 
-  // Function to emphasize the words "classic", "maxi", and "12inch" in a given text
+  // Function to emphasize the words "classic", "maxi", "12inch", and "new" in a given text
   function emphasizeKeywords(text) {
-    return text.replace(/(classic|maxi|12inch|new)/gi, '<em>$1</em>');
+    return text.replace(/(classic|maxi|12inch|new)/gi, function(match) {
+      if (match.toLowerCase() === 'new') {
+        return '<em class="blinking-new">' + match + '</em>';
+      }
+      return '<em>' + match + '</em>';
+    });
   }
 
   let trackInfo = document.createElement('div');
   let emphasizedTrackName = emphasizeKeywords(track.name);
   let emphasizedArtist = emphasizeKeywords(track.artist);
-  
+
   // Style the word "by" with light blue color
   let coloredBy = ' <span style="color: lightblue;">by</span> ';
-  
+
   trackInfo.innerHTML = `<strong>${emphasizedTrackName}</strong>${coloredBy}${emphasizedArtist}`;
   li.appendChild(trackInfo);
 
@@ -2982,6 +2987,7 @@ function createListItem(track) {
 
   return li;
 }
+
 
 // Filter the track list to exclude tracks with 'Sunny' in the artist's name
 let filteredTrackList = track_list.filter(track => !track.artist.toLowerCase().includes('sunny'));
