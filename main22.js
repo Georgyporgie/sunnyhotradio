@@ -2715,7 +2715,8 @@ function createListItem(track) {
   let li = document.createElement('li');
 
   let trackInfo = document.createElement('div');
-  trackInfo.innerHTML = `${track.name} by ${track.artist}`;
+  trackInfo.innerHTML = `<strong>${track.name}</strong> by ${track.artist}`;
+
   li.appendChild(trackInfo);
 
   let audio = document.createElement('audio');
