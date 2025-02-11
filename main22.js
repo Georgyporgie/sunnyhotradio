@@ -506,7 +506,7 @@ let track_list = [
 
 
 {
-    name: "The Amsterdam IT",
+    name: "The Amsterdam IT (classic)",
     artist: "90 s House",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/House07.mp3",
@@ -514,7 +514,7 @@ let track_list = [
 
 
 {
-    name: "The Amsterdam IT",
+    name: "The Amsterdam IT (classic)",
     artist: "90 s House",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/House08.mp3",
