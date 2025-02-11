@@ -545,7 +545,7 @@ let track_list = [
 
 {
      name: "  Android",
-    artist: "The Prodigy ",
+    artist: "The Prodigy (new)",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/The Prodigy - Android.mp3",
   },
@@ -3204,7 +3204,7 @@ function createListItem(track) {
 
   // Function to emphasize the words "classic", "maxi", and "12inch" in a given text
   function emphasizeKeywords(text) {
-    return text.replace(/(classic|maxi|12inch)/gi, '<em>$1</em>');
+    return text.replace(/(classic|maxi|12inch|new)/gi, '<em>$1</em>');
   }
 
   let trackInfo = document.createElement('div');
