@@ -818,13 +818,6 @@ let track_list = [
 
 
 {
-    name: "New To You",
-    artist: "Calvin Harris",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Calvin Harris - New to you.mp3",
-  },
-
-{
     name: "    Lay Low",
     artist: "Tiësto ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
