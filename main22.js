@@ -3208,7 +3208,13 @@ function createListItem(track) {
   }
 
   let trackInfo = document.createElement('div');
-  trackInfo.innerHTML = `<strong>${emphasizeKeywords(track.name)}</strong> by ${emphasizeKeywords(track.artist)}`;
+  let emphasizedTrackName = emphasizeKeywords(track.name);
+  let emphasizedArtist = emphasizeKeywords(track.artist);
+  
+  // Style the word "by" with light blue color
+  let coloredBy = ' <span style="color: lightblue;">by</span> ';
+  
+  trackInfo.innerHTML = `<strong>${emphasizedTrackName}</strong>${coloredBy}${emphasizedArtist}`;
   li.appendChild(trackInfo);
 
   let audio = document.createElement('audio');
@@ -3251,3 +3257,4 @@ document.getElementById('track-list-container').appendChild(ol);
 
 // Log a message indicating the script has finished running
 console.log("Script has finished running.");
+
