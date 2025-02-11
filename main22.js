@@ -536,7 +536,7 @@ let track_list = [
 
 
 {
-     name: "   My House Is Your House",
+     name: "   My House ",
     artist: "The Break Boys",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/The Break Boys - My House Is Your House.mp3",
@@ -562,8 +562,8 @@ let track_list = [
 
 
 {
-     name: " The Art Of Stalking",
-    artist: "The Suburban Knight  ",
+     name: "  Stalking",
+    artist: "Suburban Knight  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/The Suburban Knight - The Art Of Stalking.mp3",
   },
