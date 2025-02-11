@@ -874,7 +874,7 @@ let track_list = [
 
 {
     name: " Razzmatazz",
-    artist: "Quincy Jones& Patti Austin  ",
+    artist: "Quincy Jones",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Quincy Jones& Patti Austin -  Razzmatazz.mp3",
   },
