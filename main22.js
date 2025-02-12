@@ -385,8 +385,8 @@ let track_list = [
 
 
 {
-    name: "Best Things In Life Are Free (classic) ",
-    artist: "Luther Vandross & Janet Jackson  ",
+    name: "Best Things (classic) ",
+    artist: " Janet Jackson  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Luther Vandross & Janet Jackson - Best things in life are free.mp3",
   },
@@ -396,7 +396,7 @@ let track_list = [
 
 {
     name: " No Bad Vibes (new) ",
-    artist: "Jazzy feat. Kilimanjaro  ",
+    artist: "Jazzy   ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic07.netlify.app/Jazzy feat. Kilimanjaro - No Bad Vibes.mp3",
   },
@@ -412,7 +412,7 @@ let track_list = [
 
 
 {
-    name: "  DNA (feat. Mearsy)(new)",
+    name: "  DNA (new)",
     artist: "Sophie And The Giants ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic07.netlify.app/Sophie AndThe Giants - DNA (feat. MEARSY).mp3",
@@ -423,7 +423,7 @@ let track_list = [
 
 
 {
-    name: "Ain't Nothing Goin' On But The Rent (1986)",
+    name: "Ain't Nothing Goin' (1986)",
     artist: "Gwen Guthrie  ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Gwen Guthrie- Ain't Nothing Goin' On But The Rent.mp3",
@@ -527,7 +527,7 @@ let track_list = [
 
 
 {
-     name: " Don't Forget My Love",
+     name: " Don't Forget ",
     artist: "Diplo & Miguel ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Diplo & Miguel - Don't forget my love.mp3",
@@ -535,7 +535,7 @@ let track_list = [
 
 
 {
-    name: "Running Up That Hill (12inch)",
+    name: "Running Up (12inch)",
     artist: "Kate Bush ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Kate Bush - Running up that hill (12inch).mp3",
@@ -577,13 +577,13 @@ let track_list = [
 
 {
      name:  "Fever ",
-    artist: "Charlotte Day Wilson ",
+    artist: "Charlotte Wilson ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Charlotte Day Wilson - Fever.mp3",
   },
 
 {
-    name: "    Nothing Left To Loose ",
+    name: "    Nothing  ",
     artist: "Everything But The Girl  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Everything But The Girl - Caution To The Wind.mp3",
@@ -598,7 +598,7 @@ let track_list = [
 
 
 {
-    name: "  Hangin' On A String (classic)  ",
+    name: "  Hangin' On (classic)  ",
     artist: "Loose Ends  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Loose Ends - Hangin' On A String (12inch).mp3",
