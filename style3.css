@@ -242,16 +242,38 @@ font-weight: italic; display: block; margin: auto auto auto auto;
 
 
 #media  {    width: 120px;  height:120px;filter: brightness(100%) saturate(100%) contrast(100%) opacity(100%); transform: rotate(0deg); z-index: -100; display: block; margin: auto auto auto auto; 
-animation: blinker 1.0s step-start infinite; 
 
+
+
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #play  {    width: 130px;  height: 130px;filter: brightness(110%) saturate(105%) contrast(110%) opacity(75%);  z-index: -400; display: block; margin: auto auto auto auto;transform: rotate(4deg);

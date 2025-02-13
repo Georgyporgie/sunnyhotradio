@@ -1,0 +1,21 @@
+{
+  "2025-02-13": [
+    {"time": "12.00 - 18.00", "event": "Morning Dance"},
+    {"time": "18.00 - 00.00", "event": "Joris Discoshow"}
+  ],
+  "2025-02-14": [
+    {"time": "00.00 - 14.00", "event": "Soulful With Monique"},
+    {"time": "14.00 - 18.00", "event": "Afternoon Dancin'"}
+  
+]
+"2025-02-15": [
+    {"time": "12.00 - 18.00", "event": "Morning Dance"},
+    {"time": "18.00 - 00.00", "event": "Joris Discoshow"}
+  ]
+  "2025-02-16": [
+    {"time": "00.00 - 14.00", "event": "Soulful With Monique"},
+    {"time": "14.00 - 18.00", "event": "Afternoon Dancin'"}
+
+]
+
+}
