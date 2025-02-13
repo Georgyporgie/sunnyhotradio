@@ -1,9 +1,8 @@
-json
 {
-  "current_event": {
-    "time": "now",
-    "event": "Soulful With Monique"
-  },
+   "2025-02-13": [
+    {"time": "12.00 - 18.00", "event": "Dancin'!"},
+    {"time": "18.00 - 00.00", "event": "Joris Danceshow"}
+  ],
     "2025-02-14": [
     {"time": "00.00 - 14.00", "event": "Soulful With Monique"},
     {"time": "14.00 - 18.00", "event": "Friday Danceparty"}
