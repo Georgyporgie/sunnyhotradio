@@ -510,7 +510,6 @@ let track_list = [
   },
 
 
-{
    
 {
      name: "Welcome!",
