@@ -511,8 +511,10 @@ let track_list = [
 
 
 {
-    name: "Welcome!",
-    artist: "Purple Disco Machine",
+   
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/start the party.mp3",
     },
