@@ -290,32 +290,6 @@ let track_list = [
 
 
 
-
-
-{
-    name: " Dance The Night",
-    artist: "Dua Lipa ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/Dua Lipa - Dance The Night.mp3",
-  },
-
-
-
-
-
-
-
-
-
-
-{
-    name: " Don't Stop (1980)",
-    artist: "Yarbrough & Peoples  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Yarbrough & Peoples - Don't Stop The Music.mp3",
-  },
-
-
  
 
 
@@ -336,7 +310,7 @@ let track_list = [
     name: " Corner Of The Earth",
     artist: "Jamiroquai ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Jamiroquai - Corner of the Earth.mp3",
+    path: "sunnydanceoldies04.netlify.app/Jamiroquai - Corner of the Earth.mp3",
   },
 
 
