@@ -310,7 +310,7 @@ let track_list = [
     name: " Corner Of The Earth",
     artist: "Jamiroquai ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "sunnydanceoldies04.netlify.app/Jamiroquai - Corner of the Earth.mp3",
+    path: "https://sunnydanceoldies04.netlify.app/Jamiroquai - Corner of the Earth.mp3",
   },
 
 
