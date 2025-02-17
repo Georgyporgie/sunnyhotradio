@@ -463,14 +463,14 @@ li:hover {
 }
 
 .voer  {
-font-size: 15px; border-radius: 20px; padding-bottom: 30px;padding-top:35px; padding-right: 35px;
+font-size: 15px; border-radius: 20px;  padding:35px 35px 30px 35px ;
+
  
 }
 .sum {
 font-size: 14px; border-radius: 20px;
- padding-top:35px;padding-bottom: 30px;padding-top:35px; padding-right: 35px;
+ padding:35px 35px 30px 35px ;text-decoration: underline; font-style:bold;
 }
-
 
 
 #hero-image {
