@@ -313,7 +313,7 @@ let track_list = [
 
 
 {
-     name: "(Don't) Give Hate A Chance ",
+     name: "(Don't) Give Hate ",
     artist: "Jamiroquai ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Jamiroquai - (Don't) give hate a chance.mp3",
@@ -673,7 +673,7 @@ let track_list = [
 
 
 {
-    name: "Was That All That Was",
+    name: " All That Was",
     artist: "Carleen Anderson",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Carleen Anderson - Was that all that was.mp3",
@@ -1404,7 +1404,7 @@ let track_list = [
 
 
 {
-     name: " Don't Look Any Further ",
+     name: " Don't Look Any  ",
     artist: "Dennis Edwards  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Dennis Edwards - Don't Look Any Further.mp3",
