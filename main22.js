@@ -1507,8 +1507,8 @@ let track_list = [
 
 
 {
-    name: "  Sunny Danceradio",
-    artist: "return classics",
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/back in time jingle.mp3",
   },
