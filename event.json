@@ -34,4 +34,32 @@
     {"time": "00.00 - 14.00", "event": "Soulful With Monique"},
     {"time": "14.00 - 18.00", "event": "Love this Dance Party "}
   ]
+
+
+  "2025-02-21": [
+     {"time": "12.00 - 18.00", "event": "George's Dancin'!"},
+    {"time": "18.00 - 00.00", "event": "Joris For President"}
+  ],
+
+
+
+  "2025-02-22": [
+     {"time": "12.00 - 18.00", "event": "George's Dancin'!"},
+    {"time": "18.00 - 00.00", "event": "Joris For President"}
+  ],
+
+  "2025-02-23": [
+     {"time": "12.00 - 18.00", "event": "George's Dancin'!"},
+    {"time": "18.00 - 00.00", "event": "Joris For President"}
+  ],
+
+  "2025-02-26": [
+    {"time": "00.00 - 14.00", "event": "Soulful With Monique"},
+    {"time": "14.00 - 18.00", "event": "Love this Dance Party "}
+  ]
+
+
+
+
+
 }
