@@ -409,9 +409,10 @@ let track_list = [
 
 
 
+
 {
-    name: "Welcome!",
-    artist: "Purple Disco Machine",
+    name: "Just For You ",
+    artist: "Sunny Ship",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/start the party.mp3",
   
@@ -890,9 +891,10 @@ let track_list = [
     path: "https://sunnydancemuziek01.netlify.app/Kelela - Happy Ending.mp3",
   },
 
+
 {
-    name: "Welcome!",
-    artist: "Purple Disco Machine",
+    name: "Just For You ",
+    artist: "Sunny Ship",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/start the party.mp3",
   
@@ -1190,8 +1192,8 @@ let track_list = [
 
 
 {
-    name: "Classic",
-    artist: "Time",
+    name: "Just For You ",
+    artist: "Sunny Ship",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/time classic.mp3",
   },
