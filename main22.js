@@ -127,6 +127,12 @@ let track_list = [
 
 
 
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Dance radio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj2.mp3",
+  },
 
 
 
@@ -170,6 +176,12 @@ let track_list = [
     path: "muziek/jingles/Sunny radio jingle3.mp3",
   },
 
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Dance radio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj3.mp3",
+  },
 
 
 {
@@ -247,6 +259,12 @@ let track_list = [
   },
 
 
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Dance radio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj4.mp3",
+  },
 
 {
     name: " Daisies ",
@@ -285,6 +303,12 @@ let track_list = [
     path: "https://sunnydancemusic07.netlify.app/Romy - She 's On My Mind.mp3",
   },
 
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Dance radio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj5.mp3",
+  },
 
 {
      name: "Welcome!",
@@ -353,6 +377,12 @@ let track_list = [
 
 
 
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Dance radio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj6.mp3",
+  },
 
 
 
@@ -419,7 +449,12 @@ let track_list = [
 
 
 
-
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Dance radio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female DJ1.mp3",
+  },
 
 
 
@@ -562,6 +597,12 @@ let track_list = [
 
 
 
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Dance radio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj2.mp3",
+  },
 
 
 
@@ -707,6 +748,12 @@ let track_list = [
     path: "muziek/jingles/Sunny radio jingle4.mp3",
   },
  
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Dance radio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj6.mp3",
+  },
 
 
 {
