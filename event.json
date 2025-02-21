@@ -31,33 +31,30 @@
     {"time": "18.00 - 00.00", "event": "Joris For President"}
   ],
   "2025-02-20": [
-    {"time": "00.00 - 14.00", "event": "Soulful With Sapphire"},
-    {"time": "14.00 - 00.00", "event": "New Donald Fagen Nightfly!"}
+    {"time": "00.00 - 14.00", "event": "Soulful With Monique"},
+    {"time": "14.00 - 18.00", "event": "Love this Dance Party "}
   ],
+
 
   "2025-02-21": [
-    {"time": "05.00 - 12.00", "event": "Soulful With Sapphire"},
-    {"time": "12.00 - 17.00", "event": "Joris Discoworld"},
-{"time": "17.00 - 05.00", "event": "George's Dancin'"}
-
+     {"time": "12.00 - 18.00", "event": "George's Dancin'!"},
+    {"time": "18.00 - 00.00", "event": "Joris For President"}
   ],
+
 
 
   "2025-02-22": [
-    {"time": "05.00 - 12.00", "event": "Soulful With Sapphire"},
-    {"time": "12.00 - 17.00", "event": "Joris For President"},
-{"time": "17.00 - 05.00", "event": "George's Funk'"}
-
+     {"time": "12.00 - 18.00", "event": "Saturday Live Dancin'!"},
+    {"time": "18.00 - 05.00", "event": "Georgies Dance Event"}
   ],
-
-
 
   "2025-02-23": [
-    {"time": "05.00 - 12.00", "event": "Soulful With Sapphire"},
-    {"time": "12.00 - 17.00", "event": "Joris Discoworld"},
-{"time": "17.00 - 05.00", "event": "George's Dancin'"}
-
+     {"time": "12.00 - 18.00", "event": "George's Dancin'!"},
+    {"time": "18.00 - 00.00", "event": "Joris For President"}
   ],
+
+
+
 
 
 
