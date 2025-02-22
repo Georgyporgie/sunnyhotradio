@@ -44,14 +44,6 @@ function displayMessage() {
 }
 
 
-document.getElementById("max")
- .addEventListener("touchstart",
-  displayName);
-
-function displayName() {
- document.getElementById("bebe")
-  .innerHTML = "Hi We're SG Lewis and Janelle Monae, we're happy to be here on Sunny!";
-}
 
 
 
@@ -3762,6 +3754,14 @@ let track_list = [
 
 
 
+document.getElementById("max")
+ .addEventListener("touchstart",
+  displayName);
+
+function displayName() {
+ document.getElementById("bebe")
+  .innerHTML = "Hi We're SG Lewis and Janelle Monae, we're happy to be here on Sunny!";
+}
 
 
 
