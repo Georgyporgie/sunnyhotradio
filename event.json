@@ -31,8 +31,8 @@
     {"time": "05:00 - 12:00", "event": "Morning Dance"},
     {"time": "12:00 - 18:00", "event": "Georgies Dance Event"},
     {"time": "18:00 - 05:00", "event": "Georgies Dance Event"}
-],
-"2025-02-23": [
+  ],
+  "2025-02-23": [
     {"time": "05:00 - 12:00", "event": "Sunday Dancin'!"},
     {"time": "12:00 - 18:00", "event": "Georgies Dance Event"},
     {"time": "18:00 - 05:00", "event": "Joris For President"}
