@@ -14,7 +14,6 @@ let track_artist = document.querySelector(".track-artist");
  
 let playpause_btn = document.querySelector(".playpause-track");
 let next_btn = document.querySelector(".next-track");
-let prev_btn = document.querySelector(".prev-track");
  
 let seek_slider = document.querySelector(".seek_slider");
 let volume_slider = document.querySelector(".volume_slider");
@@ -2889,17 +2888,7 @@ function nextTrack() {
 
 
  
-function prevTrack() {
-  // Go back to the last track if the
-  // current one is the first in the track list
-  if (track_index > 0)
-    track_index -= 1;
-  else track_index = track_list.length;
-   
-  // Load and play the new track
-  loadTrack(track_index);
-  playTrack();
-}
+
 
 
 
