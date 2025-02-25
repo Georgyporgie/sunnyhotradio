@@ -99,10 +99,10 @@ let track_list = [
 
 
 {
-     name: " Take Me To The Top",
-    artist: "Advance ",
+     name: " Ain't We Funkin' Now",
+    artist: "Brothers Johnson ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Advance - Take me to the top.mp3",
+    path: "https://sunnydanceoldies08.netlify.app/Brothers Johnson - Ain't We Funkin' Now!!.mp3",
   },
 
 {
