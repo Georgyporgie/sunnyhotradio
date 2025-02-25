@@ -96,196 +96,34 @@ let track_list = [
   },
 
 
-{
-    name: "  Theme From S Express",
-    artist: "S Express ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/S Express - Theme From S Express.mp3",
-  },
-
-
 
 
 {
-    name: "Body Motion",
-    artist: "Sadomasy  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Sadomasy - Body Motion.mp3",
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+     name: " Take Me To The Top",
+    artist: "Advance ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/sunny dance jingle.mp3",
+    path: "https://sunnydanceoldies08.netlify.app/Advance - Take me to the top.mp3",
   },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
-  
-    name: "Good Form",
-    artist: "Nicki Minaj ",
+     name: " Walking On Sunshine ",
+    artist: "Rockers Revenge ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Nicki Minaj - Good Form.mp3",
-  },
-
-
-
-
-
-
+    path: "https://sunnydanceoldies08.netlify.app/Rockers Revenge - Walking On Sunshine (12inch).mp3",
+  }, 
 
 
 
 {
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+     name: " I Can't Wait",
+    artist: "Solardo ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
+    path: "https://sunnydanceoldies08.netlify.app/Solardo - I Can't Wait.mp3",
   },
 
 
 
 
-
-
-
-
-
-
-{
-    name: " Poker Face",
-    artist: "Lady Gaga  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Lady Gaga - Poker face.mp3",
-  },
-
-
- 
-{
-    name: "Just For You ",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/sunny ship/radio dj - just for you.mp3",
-  },
-
-
-
-
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet4.mp3",
-  },
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle1.mp3",
-  },
- 
-
-
-
-
-
-
-
-{
-    name: " Waterfall (1994)",
-    artist: "Atlantic Ocean  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Atlantic Ocean - Waterfall.mp3",
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: "Beautiful",
-    artist: "Snoop Dogg",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Snoop Dogg - Beautiful (Official Music Video) ft. Pharrell Williams.mp3",
-  },
-
-
-
-
-
-{
-    name: "Fire For You",
-    artist: "Cannons  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Cannons - Fire for You.mp3",
-  },
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle.mp3",
-  },
- 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle3.mp3",
-  },
- 
 
 
 {
@@ -294,26 +132,46 @@ let track_list = [
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
   },
- 
 
 
 
-{
-    name: "Classic",
-    artist: "Sunny",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/time classic.mp3",
-  },
+
 
 
 
 {
-    name: "Get Ready (classic) ",
-    artist: "Rufus & Chaka Kahn  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/Rufus & Chaka Kakhn - Get Ready.mp3",
+     name: "Oh My",
+    artist: "Moby ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Moby - Oh my.mp3",
   },
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Solardo - I Can't Wait.mp3",
+  },
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Rockers Revenge - Walking On Sunshine (12inch).mp3",
+  }, 
 
 
 
@@ -3238,16 +3096,64 @@ document.querySelector('li').classList.add('blinking-new');
 
 
 
+function createListItem(track) {
+  let li = document.createElement('li');
 
+  function emphasizeKeywords(text) {
+    return text.replace(/(classic|maxi|12inch|new|\b\d{4}\b)/gi, function(match) {
+      if (match.toLowerCase() === 'new') {
+        return '<em class="blinking-new">' + match + '</em>';
+      }
+      return '<em>' + match + '</em>';
+    });
+  }
 
+  let trackInfo = document.createElement('div');
+  let emphasizedTrackName = emphasizeKeywords(track.name);
+  let emphasizedArtist = emphasizeKeywords(track.artist);
+  let coloredBy = ' <span style="color: lightblue;">by</span> ';
+  trackInfo.innerHTML = `<strong>${emphasizedTrackName}</strong>${coloredBy}${emphasizedArtist}`;
+  li.appendChild(trackInfo);
 
+  let audio = document.createElement('audio');
+  let source = document.createElement('source');
+  source.src = track.path;
+  source.type = "audio/mpeg";
+  audio.appendChild(source);
+  li.appendChild(audio);
 
+  // Add event listeners
+  audio.addEventListener('play', function() {
+    li.classList.add('blinking');
+  });
+  audio.addEventListener('pause', function() {
+    li.classList.remove('blinking');
+  });
+  audio.addEventListener('ended', function() {
+    li.classList.remove('blinking');
+  });
 
+  return li;
+}
 
+// Function to display the track list
+function displayTrackList() {
+  const trackListElement = document.getElementById('track-list');
+  trackListElement.innerHTML = '';
 
+  // Limit the number of tracks to 20
+  const limitedTracks = scheduledMp3Files.slice(0, 20);
 
+  limitedTracks.forEach((track, index) => {
+    const lowerCaseName = track.name.toLowerCase();
+    const lowerCaseArtist = track.artist.toLowerCase();
+    
+    if (!lowerCaseName.includes('sunny') && !lowerCaseArtist.includes('sunny')) {
+      const li = createListItem(track);  // Call createListItem to create list items
+      trackListElement.appendChild(li);
+    }
+  });
+}
 
-
-
-
-
+// Call the displayTrackList function to populate the <ul> with the filtered track details
+displayTrackList();
