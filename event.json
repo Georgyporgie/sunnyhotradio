@@ -32,24 +32,27 @@
     {"time": "12:00 - 00:00", "event": "Georgies Disco Event"},
     {"time": "00:00 - 05:00", "event": "Georgies Dance Party"}
   ],
-  "2025-02-27": [
-    {"time": "12:00 - 18:00", "event": "George's Dancin'!"},
-    {"time": "18:00 - 00:00", "event": "Joris For President"}
+   "2025-26-02": [
+    {"time": "05:00 - 12:00", "event": "Morning Jazz"},
+    {"time": "12:00 - 00:00", "event": "Georgies Disco Event"},
+    {"time": "00:00 - 05:00", "event": "Georgies Jazz Party"}
   ],
-  "2025-02-28": [
-    {"time": "00:00 - 14:00", "event": "Soulful With Monique"},
-    {"time": "14:00 - 18:00", "event": "Love this Dance Party"}
+  "2025-27-02": [
+    {"time": "05:00 - 12:00", "event": "Morning Jazz"},
+    {"time": "12:00 - 00:00", "event": "Georgies Disco Event"},
+    {"time": "00:00 - 05:00", "event": "Georgies Jazz Party"}
+  ],
+  "2025-28-02": [
+    {"time": "05:00 - 12:00", "event": "Morning Jazz"},
+    {"time": "12:00 - 00:00", "event": "Georgies Disco Event"},
+    {"time": "00:00 - 05:00", "event": "Georgies Jazz Party"}
   ],
   "2025-03-01": [
-    {"time": "12:00 - 18:00", "event": "George's Dancin'!"},
-    {"time": "18:00 - 00:00", "event": "Joris For President"}
+    {"time": "05:00 - 12:00", "event": "Morning Jazz"},
+    {"time": "12:00 - 00:00", "event": "Georgies Disco Event"},
+    {"time": "00:00 - 05:00", "event": "Georgies Jazz Party"}
   ],
   "2025-03-02": [
-    {"time": "05:00 - 12:00", "event": "Morning Dance"},
-    {"time": "12:00 - 00:00", "event": "Georgies Disco Event"},
-    {"time": "00:00 - 05:00", "event": "Georgies Dance Party"}
-  ],
-  "2025-03-03": [
     {"time": "05:00 - 12:00", "event": "Sunday Dancin'!"},
     {"time": "12:00 - 05:00", "event": "Georgies Dance Event"},
     {"time": "00:00 - 05:00", "event": "Georgies Dance Party"}
