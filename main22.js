@@ -2692,25 +2692,25 @@ displayTrackList();
 
 
 
+// Function to analyze and normalize volume werkt misschien!!!!!
 
-
-
-
-
-// Web Audio API setup for volume normalization
 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+const track = audioContext.createMediaElementSource(audioElement);
+
+// Create an analyser node
 const analyser = audioContext.createAnalyser();
+track.connect(analyser);
+analyser.connect(audioContext.destination);
+
+// Create a gain node to normalize volume
+const gainNode = audioContext.createGain();
+track.connect(gainNode);
+gainNode.connect(audioContext.destination);
+
+// Set up the analyser
 analyser.fftSize = 256;
 const bufferLength = analyser.frequencyBinCount;
 const dataArray = new Uint8Array(bufferLength);
-const gainNode = audioContext.createGain();
-gainNode.connect(audioContext.destination);
-
-function connectTrackToAudioContext(track) {
-  const trackSource = audioContext.createMediaElementSource(track);
-  trackSource.connect(analyser);
-  trackSource.connect(gainNode);
-}
 
 // Function to get the average volume
 function getAverageVolume(array) {
@@ -2725,5 +2725,10 @@ function getAverageVolume(array) {
 function normalizeVolume() {
   analyser.getByteFrequencyData(dataArray);
   const volume = getAverageVolume(dataArray);
-  gainNode.gain.value = 1 / (volume || 1); // Avoid division by zero
 
+  // Adjust the gain to normalize volume
+  gainNode.gain.value = 1 / (volume || 1); // Avoid division by zero
+}
+
+// Call the normalizeVolume function periodically
+setInterval(normalizeVolume, 1000);
