@@ -98,176 +98,6 @@ let track_list = [
 
 
 
-{
-     name: " Ain't We Funkin' Now",
-    artist: "Brothers Johnson ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Brothers Johnson - Ain't We Funkin' Now!!.mp3",
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/return classics.mp3",
-  },
-
-
-
-
-
-
-{
-    name: "   Just A Touch (1979) ",
-    artist: "Slave ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Slave - Just A Touch (1979).mp3",
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle.mp3",
-  },
-
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-  },
-
-
-{
-    name: " All Fall Down",
-    artist: "Five Star ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Five Star - All Fall Down.mp3",
-  
-
-
-},
-
-{
-    name: "Kings & Queens",
-    artist: "Ava Max  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Ava Max - Kings & Queens.mp3",
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/sunny ship/radio dj - just for you.mp3",
-  },
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -381,20 +211,6 @@ let track_list = [
 
 
 
-
-
-
-
-
-
-
-
-{
-    name: "Life For The Weekend",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Life for the weekend- Jingle.mp3",
-  },
 
 
 {
@@ -670,10 +486,9 @@ let track_list = [
 
 
 
-
 {
     name: "Welcome!",
-    artist: "Purple Disco Machine",
+    artist: "Sunny Disco",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/start the party.mp3",
   
@@ -1319,6 +1134,176 @@ let track_list = [
 
 
 
+
+
+
+
+
+
+
+
+
+
+{
+     name: " Ain't We Funkin' Now",
+    artist: "Brothers Johnson ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Brothers Johnson - Ain't We Funkin' Now!!.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance radio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/return classics.mp3",
+  },
+
+
+
+
+
+
+{
+    name: "   Just A Touch (1979) ",
+    artist: "Slave ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Slave - Just A Touch (1979).mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+  },
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Let op.mp3",
+  },
+
+
+{
+    name: " All Fall Down",
+    artist: "Five Star ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Five Star - All Fall Down.mp3",
+  
+
+
+},
+
+{
+    name: "Kings & Queens",
+    artist: "Ava Max  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Ava Max - Kings & Queens.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you.mp3",
+  },
 
 
 
@@ -2621,71 +2606,6 @@ console.log("Summaries for tracks 21 to 40 and 41 to 60 have been added.");
 
 
 document.querySelector('li').classList.add('blinking-new');
-
-
-
-
-function createListItem(track) {
-  let li = document.createElement('li');
-
-  function emphasizeKeywords(text) {
-    return text.replace(/(classic|maxi|12inch|new|\b\d{4}\b)/gi, function(match) {
-      if (match.toLowerCase() === 'new') {
-        return '<em class="blinking-new">' + match + '</em>';
-      }
-      return '<em>' + match + '</em>';
-    });
-  }
-
-  let trackInfo = document.createElement('div');
-  let emphasizedTrackName = emphasizeKeywords(track.name);
-  let emphasizedArtist = emphasizeKeywords(track.artist);
-  let coloredBy = ' <span style="color: lightblue;">by</span> ';
-  trackInfo.innerHTML = `<strong>${emphasizedTrackName}</strong>${coloredBy}${emphasizedArtist}`;
-  li.appendChild(trackInfo);
-
-  let audio = document.createElement('audio');
-  let source = document.createElement('source');
-  source.src = track.path;
-  source.type = "audio/mpeg";
-  audio.appendChild(source);
-  li.appendChild(audio);
-
-  // Add event listeners
-  audio.addEventListener('play', function() {
-    li.classList.add('blinking');
-  });
-  audio.addEventListener('pause', function() {
-    li.classList.remove('blinking');
-  });
-  audio.addEventListener('ended', function() {
-    li.classList.remove('blinking');
-  });
-
-  return li;
-}
-
-// Function to display the track list
-function displayTrackList() {
-  const trackListElement = document.getElementById('track-list');
-  trackListElement.innerHTML = '';
-
-  // Limit the number of tracks to 20
-  const limitedTracks = scheduledMp3Files.slice(0, 20);
-
-  limitedTracks.forEach((track, index) => {
-    const lowerCaseName = track.name.toLowerCase();
-    const lowerCaseArtist = track.artist.toLowerCase();
-    
-    if (!lowerCaseName.includes('sunny') && !lowerCaseArtist.includes('sunny')) {
-      const li = createListItem(track);  // Call createListItem to create list items
-      trackListElement.appendChild(li);
-    }
-  });
-}
-
-// Call the displayTrackList function to populate the <ul> with the filtered track details
-displayTrackList();
 
 
 
