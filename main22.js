@@ -3732,18 +3732,20 @@ document.querySelector('li').classList.add('blinking-new');
 
 // Function to analyze and normalize volume werkt misschien!!!!!
 
+
 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 const track = audioContext.createMediaElementSource(audioElement);
 
 // Create an analyser node
 const analyser = audioContext.createAnalyser();
-track.connect(analyser);
-analyser.connect(audioContext.destination);
 
 // Create a gain node to normalize volume
 const gainNode = audioContext.createGain();
+
+// Connect the nodes in the correct order
 track.connect(gainNode);
-gainNode.connect(audioContext.destination);
+gainNode.connect(analyser);
+analyser.connect(audioContext.destination);
 
 // Set up the analyser
 analyser.fftSize = 256;
@@ -3770,3 +3772,4 @@ function normalizeVolume() {
 
 // Call the normalizeVolume function periodically
 setInterval(normalizeVolume, 1000);
+
