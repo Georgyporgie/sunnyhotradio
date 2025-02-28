@@ -99,7 +99,7 @@ let track_list = [
 
 {
     name: "Chillhouse Del Mar",
-    artist: "Sunny Ship",
+    artist: "Chill Ship",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/chillhouse del mar02.mp3",
   },
@@ -107,7 +107,7 @@ let track_list = [
 
 {
     name: "Chillhouse Del Mar",
-    artist: "Sunny Ship",
+    artist: "Chill Ship",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/chillhouse del mar03.mp3",
   },
