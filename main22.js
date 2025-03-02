@@ -95,6 +95,24 @@ let track_list = [
     path: "muziek/jingles/Sunny radio jingle.mp3",
   },
 
+
+{
+    name: "    Seven Stars",
+    artist: "Quazar ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Quazar - Seven Stars.mp3",
+  
+
+
+},
+
+
+
+
+
+
+
+
 {
     name: "The Weekend",
     artist: "Michael Gray  ",
@@ -123,17 +141,6 @@ let track_list = [
 
 
 
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/sunny radio jingle3.mp3",
-  },
 
 {
     name: "  Danger ",
@@ -1637,6 +1644,161 @@ let track_list = [
   },
 
 
+{
+    name: "Mesmerized (12inch)",
+    artist: "Freemasons",
+     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://Sunnydanceoldies04.netlify.app/Freemasons  - Mesmerized.mp3",
+  },
+
+
+
+
+
+
+{
+    name: "Best Things  ",
+    artist: "Luther Vandross ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://Sunnydanceoldies04.netlify.app/Luther Vandross & Janet Jackson - Best things in life are free.mp3",
+  },
+
+{
+    name: "  Megamix",
+    artist: "Janet Jackson   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Janet Jackson - Megamix (Luke).mp3",
+  },
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle1.mp3",
+  },
+
+
+{
+    name: "  Megamix",
+    artist: "Janet Jackson   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Janet Jackson - Megamix2 (Luke).mp3",
+  },
+
+{
+    name: " Sunglasses",
+    artist: "Heidi Klum ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Heidi Klum - Sunglasses At Night.mp3",
+  
+
+
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: " Pearls",
+    artist: "Jesse Ware ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Jesse Ware - Pearls.mp3",
+  },
+
+
+
+{
+  
+    name: "Slide Away",
+    artist: "Miley Cyrus",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Miley Cyrus - Slide Away.mp3",
+  },
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Let op.mp3",
+  },
+
+
+
+
+
+
+
+{
+    name: "Just For You ",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you333.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Mesmerized (12inch)",
+    artist: "Freemasons",
+     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/more music at the weekend.mp3",
+  },
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/sunny radio jingle3.mp3",
+  },
 
 
 
@@ -2778,6 +2940,54 @@ document.getElementById('track-list-container').appendChild(detailsElement2);
 
 
 
+// Create the summary element for tracks 61 to 80
+let summaryElement3 = document.createElement('summary');
+summaryElement3.textContent = 'tracks 61 to 80';
+
+// Create a details element and append the summary to it
+let detailsElement3 = document.createElement('details');
+detailsElement3.appendChild(summaryElement3);
+
+// Create the ordered list, set start attribute to 41, and add tracks 41 to 60
+let additionalTrackList3 = filteredTrackList.slice(60, 80);
+let additionalOl3 = document.createElement('ol');
+additionalOl3.setAttribute('start', 61);
+
+additionalTrackList3.forEach(track => {
+  additionalOl3.appendChild(createListItem(track));
+});
+
+// Append the ordered list to the details element
+detailsElement3.appendChild(additionalOl3);
+
+// Append the details element to the placeholder div
+document.getElementById('track-list-container').appendChild(detailsElement3);
+
+
+
+
+// Create the summary element for tracks 81 to 100
+let summaryElement4 = document.createElement('summary');
+summaryElement4.textContent = 'tracks 81 to 100';
+
+// Create a details element and append the summary to it
+let detailsElement4 = document.createElement('details');
+detailsElement4.appendChild(summaryElement4);
+
+// Create the ordered list, set start attribute to 41, and add tracks 41 to 60
+let additionalTrackList4 = filteredTrackList.slice(81, 101);
+let additionalOl4 = document.createElement('ol');
+additionalOl4.setAttribute('start', 81);
+
+additionalTrackList4.forEach(track => {
+  additionalOl4.appendChild(createListItem(track));
+});
+
+// Append the ordered list to the details element
+detailsElement4.appendChild(additionalOl4);
+
+// Append the details element to the placeholder div
+document.getElementById('track-list-container').appendChild(detailsElement4);
 
 
 
