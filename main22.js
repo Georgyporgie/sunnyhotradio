@@ -140,7 +140,7 @@ let track_list = [
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Elton & Dua - 
 
-
+ };
 
 
 
