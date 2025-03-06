@@ -141,7 +141,7 @@ let track_list = [
     path: "https://sunnydancemuziek01.netlify.app/Elton & Dua.mp3",
      
 
- };
+ },
 
 
 
