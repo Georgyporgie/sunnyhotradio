@@ -105,66 +105,6 @@ let track_list = [
 
 
 
-{
-     name: " Take Me To The Top",
-    artist: "Advance ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Advance - Take me to the top.mp3",
-  },
-
-{
-     name: "Oh My",
-    artist: "Moby ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Moby - Oh my.mp3",
-  },
-
-
-
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle3.mp3",
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-     name: " I Can't Wait",
-    artist: "Solardo ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Solardo - I Can't Wait.mp3",
-  },
-
-{
-     name: " Walking On Sunshine ",
-    artist: "Rockers Revenge ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Rockers Revenge - Walking On Sunshine (12inch).mp3",
-  }, 
-
-
-
 
 {
      name: "Welcome!",
@@ -198,12 +138,7 @@ let track_list = [
     name: " Cold Heart",
     artist: "Elton John & Dua Lipa",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Elton & Dua - Cold Heart.mp3",
-  },
-
-
-
-
+    path: "https://sunnydancemuziek01.netlify.app/Elton & Dua - 
 
 
 
