@@ -35,25 +35,25 @@
   "2025-02-26": [
     {"time": "05:00 - 12:00", "event": "Morning Jazz"},
     {"time": "12:00 - 00:00", "event": "Georgies Disco Event"},
-    {"time": "00:00 - 05:00", "event": "Georgies Jazz Party"}
+    {"time": "00:00 - 05:00", "event": "Georgies Dance Party"}
   ],
-  "2025-02-27": [
+  "2025-03-06": [
     {"time": "05:00 - 12:00", "event": "Morning Disco"},
     {"time": "12:00 - 00:00", "event": "Georgies Disco Event"},
     {"time": "00:00 - 05:00", "event": "Georgies Disco Party"}
   ],
-  "2025-02-28": [
+  "2025-03-07": [
+    {"time": "05:00 - 12:00", "event": "Morning Disco"},
+    {"time": "12:00 - 00:00", "event": "Georgies Disco Event"},
+    {"time": "00:00 - 05:00", "event": "Georgies Party Disco"}
+  ],
+  "2025-03-08": [
     {"time": "05:00 - 12:00", "event": "Morning Disco"},
     {"time": "12:00 - 00:00", "event": "Georgies Disco Event"},
     {"time": "00:00 - 05:00", "event": "Georgies Dance Party"}
   ],
-  "2025-03-01": [
-    {"time": "05:00 - 12:00", "event": "Morning Disco"},
-    {"time": "12:00 - 00:00", "event": "Georgies Disco Event"},
-    {"time": "00:00 - 05:00", "event": "Georgies Dance Party"}
-  ],
-  "2025-03-02": [
-    {"time": "05:00 - 12:00", "event": "Sunday Dancin'!"},
+  "2025-03-09": [
+    {"time": "05:00 - 12:00", "event": "Sunday Dancin'!"}09
     {"time": "12:00 - 05:00", "event": "Georgies Dance Event"},
     {"time": "00:00 - 05:00", "event": "Georgies Dance Party"}
   ]
