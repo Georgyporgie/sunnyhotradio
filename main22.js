@@ -138,7 +138,8 @@ let track_list = [
     name: " Cold Heart",
     artist: "Elton John & Dua Lipa",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Elton & Dua - 
+    path: "https://sunnydancemuziek01.netlify.app/Elton & Dua.mp3",
+     
 
  };
 
