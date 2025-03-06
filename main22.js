@@ -2157,7 +2157,7 @@ let track_list = [
 
 {
     name: "  Give It To Me Baby ",
-    artist: "Rick James ",
+    artist: "Sunny James ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/micofoon Rick James.mp3",
   },
@@ -4423,7 +4423,7 @@ let audio = document.createElement('audio');
 
 
 // Filter the track list to exclude tracks with 'Sunny' in the artist's name
-let filteredTrackList = track_list.filter(track => !track.artist.toLowerCase().includes('sunny'));
+let filteredTrackList = track_list.filter(track => !track.artist.toLowerCase().includes('sunny','purple'));
 
 // Limit the filtered track list to 20 tracks
 let limitedTrackList = filteredTrackList.slice(0, 20);
