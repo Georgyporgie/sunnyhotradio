@@ -95,6 +95,26 @@ let track_list = [
     path: "muziek/jingles/Sunny radio jingle4.mp3",
   },
 
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/return classics.mp3",
+  },
+
+{
+  
+    name: "The Chime ",
+    artist: "Orbital",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Orbital- The Chime.mp3",
+  },
+
+
+
+
+
 {
     name: "  DNA (new)",
     artist: "Sophie And The Giants ",
