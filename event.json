@@ -44,17 +44,17 @@
   ],
   "2025-03-07": [
     {"time": "05:00 - 12:00", "event": "Morning Disco"},
-    {"time": "12:00 - 00:00", "event": "Georgies Disco Event"},
-    {"time": "00:00 - 05:00", "event": "Georgies Party Disco"}
+    {"time": "12:00 - 17:00", "event": "Georgies Disco Event"},
+    {"time": "17:00 - 05:00", "event": "Georgies Party Disco"}
   ],
   "2025-03-08": [
     {"time": "05:00 - 12:00", "event": "Morning Disco"},
-    {"time": "12:00 - 00:00", "event": "Georgies Disco Event"},
-    {"time": "00:00 - 05:00", "event": "Georgies Dance Party"}
+    {"time": "12:00 - 17:00", "event": "Georgies Disco Event"},
+    {"time": "17:00 - 05:00", "event": "Georgies Dance Party"}
   ],
   "2025-03-09": [
     {"time": "05:00 - 12:00", "event": "Sunday Dancin'!"},
-    {"time": "12:00 - 05:00", "event": "Georgies Dance Event"},
-    {"time": "00:00 - 05:00", "event": "Georgies Dance Party"}
+    {"time": "12:00 - 17:00", "event": "Georgies Dance Event"},
+    {"time": "17:00 - 05:00", "event": "Georgies Dance Party"}
   ]
 }
