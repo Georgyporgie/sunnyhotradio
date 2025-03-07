@@ -355,6 +355,21 @@ let track_list = [
 
 
 
+{
+    name: "  Sunny Danceradio",
+    artist: "return sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/back in time jingle.mp3",
+  },
+
+
+{
+  
+    name: "The Chime (1989) ",
+    artist: "Orbital",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Orbital- The Chime2.mp3",
+  },
 
 
 {
@@ -1068,7 +1083,7 @@ let track_list = [
 
 {
     name: "  Sunny Danceradio",
-    artist: "return classics",
+    artist: "sunny classics",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/back in time jingle.mp3",
   },
