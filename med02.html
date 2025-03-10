@@ -111,21 +111,26 @@
 
 <body>
 
-<div id = "arrow">
+
 
 <br>
 <br>
 <br>
 <br>
 <br>
-<br>
+
+
 
 
 <div id="now"></div>
 
+
 <br>
 <br>
 <br>
+<br>
+
+
 
 
 
@@ -149,7 +154,7 @@
 </div>
      
     </div>
-<br>
+
 
 
 
@@ -171,17 +176,33 @@
 
 
 
-
 </div>
-  <br>
-
 <br>
- <br>
-
 <br>
+<br>
+<br>
+
 <div>
+
+
 <img id= "astro">
 </div>
+
+
+</div>
+
+
+
+
+
+<div 
+<ul id="track-list-container"></ul>
+
+
+</div>
+<br>
+</div>
+
 
 </div>
 
@@ -190,35 +211,12 @@
 <IFRAME id="frame" SRC="https://shiphorn.netlify.app/live" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=345 HEIGHT=352></IFRAME>
 
 </div>
-
-
 <br>
 <br>
 
-<br>
-<br>
-<br>
-<br>
 <br>
 <br>
 <img id= "virtua">
-<br>
-
-
-
-<div>
-<br><img id="record">
-<h5 class="inch"><em> Todays Hotlist</em></h5><br><img id="rec">
-
-</div>
-
-
-
-<div <ul id="track-list-container"></ul>
-</div>
-<br>
-</div>
-
 <br>
 <br>
 <h5 id="events">
@@ -486,54 +484,6 @@
 
 
 
-//werkt nog niet!!
-<script>
-let currentAudio = null;
-
-function createAudioElement(track, li) {
-  const audio = document.createElement('audio');
-  const source = document.createElement('source');
-
-  source.src = track.path;
-  source.type = 'audio/mpeg';
-  audio.appendChild(source);
-
-  li.textContent = track.name; // Add track name to the list item
-  li.appendChild(audio);
-
-  audio.addEventListener('play', () => {
-    if (currentAudio && currentAudio !== audio) {
-      currentAudio.pause();
-      currentAudio.currentTime = 0;
-      currentAudio.parentElement.classList.remove('blinking');
-    }
-    currentAudio = audio;
-    li.classList.add('blinking');
-  });
-
-  audio.addEventListener('pause', () => {
-    li.classList.remove('blinking');
-  });
-
-  audio.addEventListener('ended', () => {
-    li.classList.remove('blinking');
-  });
-
-  return audio;
-}
-
-const ul = document.getElementById('track-list');
-
-track_list.forEach((track) => {
-  const li = document.createElement('li');
-  createAudioElement(track, li);
-  ul.appendChild(li);
-});
-
-
-
-
-</script>
 
 
 
@@ -631,48 +581,7 @@ function checkTime(i) {
 
 
 
- <script>
 
-
-    let currentAudio = null;
-
-    function createAudioElement(track, li) {
-      let curr_track = document.createElement('audio');
-      const source = document.createElement('source');
-
-      source.src = track.path;
-      source.type = 'audio/mpeg';
-      audio.appendChild(source);
-      li.appendChild(audio);
-
-      audio.addEventListener('playTrack', () => {
-        if (currentAudio && currentAudio !== audio) {
-          currentAudio.pause();
-          currentAudio.currentTime = 0;
-          currentAudio.parentElement.classList.remove('blinking-new');
-        }
-        currentAudio = audio;
-        li.classList.add('blinking-new');
-      });
-
-      audio.addEventListener('pause', () => {
-        li.classList.remove('blinking-new');
-      });
-
-      audio.addEventListener('ended', () => {
-        li.classList.remove('blinking-new');
-      });
-
-      return audio;
-    }
-
-    const ul = document.getElementById('track-list');
-    tracks.forEach((track) => {
-      const li = document.createElement('li');
-      createAudioElement(track, li);
-      ul.appendChild(li);
-    });
-</script>
 
 
 
@@ -1014,8 +923,6 @@ document.getElementById("fortyFiveMinuteSou").setAttribute('src', 'muziek/effect
 
 
 
-
-
 <script>
         function playSound(audioIds) {
             audioIds.forEach(function(id) {
@@ -1032,6 +939,9 @@ document.getElementById("fortyFiveMinuteSou").setAttribute('src', 'muziek/effect
             });
         }
     </script>
+
+
+
 
     <script>
         function scheduleSounds() {
