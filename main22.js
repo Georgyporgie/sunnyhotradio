@@ -96,144 +96,6 @@ let track_list = [
   },
 
 
-
-
-{
-  
-    name: "  Thinkin' About Your Love ",
-    artist: "Skipworth & Turner ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/Skipworth & Turner - Thinkin' about your love.mp3",
-  },
-
-
-
-{
-    name: "  Open Sesame",
-    artist: "Leila K ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Leila K - Open Sesame.mp3",
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: "Sacrifice",
-    artist: "Bebe Rexha",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Bebe Rexha - Sacrifice.mp3",
-  },
-
-
-
-
-
-
-
-
-
-
-{
-    name: "The Power",
-    artist: "Snap ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Snap - The Power.mp3",
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: " It's Like That (1997)",
-    artist: "RUN DMC ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/RUN DMC - It's Like That.mp3",
-  },
-
-
-
-
-
-
-
-
-
-
-{
-    name: " Crazy In Love (2003)",
-    artist: "Beyonce",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Beyonce - Crazy In Love.mp3",
-  
-
-
-},
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/time classic.mp3",
-  },
-
-
-
-
-
-
-{
-    name: "Return Of The Mack (12inch) ",
-    artist: "Mark Morrison",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/Mark Morrison - Return of the mack.mp3",
-  },
-
-
-
-
-
-
-
-
-
-
-{
-    name: " Freaky Deaky",
-    artist: "Tyga & Doja Cat ",
-     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Tyga & Doja Cat - Freaky Deaky.mp3",
-  },
-
-
 {
     name: " Sex Lies",
     artist: "Latto ",
@@ -944,6 +806,144 @@ let track_list = [
     artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle4.mp3",
+  },
+
+
+
+
+{
+  
+    name: "  Thinkin' About Your Love ",
+    artist: "Skipworth & Turner ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Skipworth & Turner - Thinkin' about your love.mp3",
+  },
+
+
+
+{
+    name: "  Open Sesame",
+    artist: "Leila K ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Leila K - Open Sesame.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Sacrifice",
+    artist: "Bebe Rexha",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Bebe Rexha - Sacrifice.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+{
+    name: "The Power",
+    artist: "Snap ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Snap - The Power.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: " It's Like That (1997)",
+    artist: "RUN DMC ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/RUN DMC - It's Like That.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+{
+    name: " Crazy In Love (2003)",
+    artist: "Beyonce",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Beyonce - Crazy In Love.mp3",
+  
+
+
+},
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance radio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/time classic.mp3",
+  },
+
+
+
+
+
+
+{
+    name: "Return Of The Mack (12inch) ",
+    artist: "Mark Morrison",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Mark Morrison - Return of the mack.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+{
+    name: " Freaky Deaky",
+    artist: "Tyga & Doja Cat ",
+     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Tyga & Doja Cat - Freaky Deaky.mp3",
   },
 
 
