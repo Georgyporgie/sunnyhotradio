@@ -98,6 +98,13 @@ let track_list = [
 
 
 
+{
+  
+    name: "  Thinkin' About Your Love ",
+    artist: "Skipworth & Turner ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Skipworth & Turner - Thinkin' about your love.mp3",
+  },
 
 
 
