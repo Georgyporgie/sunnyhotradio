@@ -521,7 +521,7 @@ height: 200px; width: 300px; display: block; margin: auto auto auto auto; z-inde
 
 
 
-#rad  {     width: 35px;  height: 30px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(75%); transform: rotate(-5deg); z-index: -200; margin: -35px auto 10px  auto; display: block; 
+#rad  {     width: 35px;  height: 30px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(70%); transform: rotate(-5deg); z-index: -200; margin: -35px auto 10px  auto; display: block; 
 }
 
 #arrow {   z-index: -800; margin-left: -10px; margin-right: -10px; border: solid 2px black;
@@ -900,13 +900,6 @@ display: none;
 
 
 
-  @keyframes blink {
-    50% { background-color: yellow; }
-  }
-  
-  .blinking {
-    animation: blink 1s infinite;
-  }
 
 
 
@@ -938,7 +931,7 @@ color: lightblue;
 
 
 
-.blinking {
+//.blinkin {
   animation: blink 1s infinite;
 }
 
@@ -951,10 +944,40 @@ color: lightblue;
 
 
 
+//.blinki {
+  animation: blink 2s infinite ease-in-out, pulse 1.5s infinite ease-in-out;
+  background: linear-gradient(45deg, yellow, #006666, #003399);
+  background-size: 200% 200%;
+}
 
 
 
 
+  
+  
+
+.blinking {
+  animation: blink 2s infinite ease-in-out, pulse 1.5s infinite ease-in-out;
+  background: linear-gradient(90deg, #ff9a9e, #fad0c4, #fbc2eb, #a18cd1);
+  background-size: 300% 300%;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: 0 0 5px #fff, 0 0 10px #ff9a9e;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 10px 5px #ff9a9e; }
+  50% { box-shadow: 0 0 20px 10px #fad0c4; }
+}
 
 
 
