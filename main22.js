@@ -456,52 +456,14 @@ let track_list = [
 
 
 
-{
-    name: "  Around The World ",
-    artist: "Daft Punk ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies04.netlify.app/Daft Punk - Around The World.mp3",
-  },
 
 
 {
-    name: "Paradise (12inch)",
-    artist: "Sueno Latino",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies04.netlify.app/Sueno Latino - Paradise Mix.mp3",
   
-
-
-},
-
-
-
-
-{
-    name: "Right On",
-    artist: "The Pasadenas  ",
+    name: " Nouveau Disco 01 ",
+    artist: "Mix Central  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies04.netlify.app/The pasadenas - Right on.mp3",
-  },
-
-
-
-
-
-
-{
-    name: "  Keep The Fire Burnin'",
-    artist: "Freemasons ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies04.netlify.app/Freemasons - Keep the fire burnin'.mp3",
-  },
-
-
-{
-    name: "Just The Way You (12inch)",
-    artist: "Sos Band  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies04.netlify.app/Sos Band Just the way youn like it.mp3",
+    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 01.mp3",
   },
 
 
@@ -509,89 +471,87 @@ let track_list = [
 
 
 {
-    name: "   Keep On Movin'",
-    artist: "Soul II Soul ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies04.netlify.app/Soul II Soul - Keep on movin'.mp3",
-  },
-
-
-
-
-{
-    name: "  Sing It Back ",
-    artist: "Moloko ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies04.netlify.app/Moloko - Sing It Back.mp3",
-  },
-
-
-
-{
-    name: " It's All The Way Live",
-    artist: "Lakeside ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies04.netlify.app/Lakeside - It's All The Way Live.mp3",
-  },
-
-
-
-{
-    name: "  Sexy (12inch)",
-    artist: "MFSB    ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies04.netlify.app/MFSB - Sexy (12inch).mp3",
-  },
-
-
-
-
-{
-    name: "  Sandstorm",
-    artist: "Darude",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies04.netlify.app/Darude - Sandstorm.mp3",
-  },
-
-
-{
-    name: "Groovin' You",
-    artist: "Harvey Mason",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies04.netlify.app/Harvey Mason - Groovin' You.mp3",
   
-
-
-},
-
+    name: " Nouveau Disco 02 ",
+    artist: "Mix Central  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 02.mp3",
+  },
 
 
 
 
 {
-    name: "Get Lucky (12inch)",
-    artist: "Daft Punk ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies04.netlify.app/Daft Punk - Get Lucky.mp3",
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj5.mp3",
   },
 
 
 
 
 
+{
+  
+    name: " Nouveau Disco 03 ",
+    artist: "Mix Central  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 03.mp3",
+  },
+
+
+
+{
+  
+    name: " Nouveau Disco 04 ",
+    artist: "Mix Central  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 04.mp3",
+  },
 
 
 
 
 {
-    name: " Oh Sheila",
-    artist: "Ready For The World ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies04.netlify.app/Ready For The World - Oh Sheila.mp3",
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj3.mp3",
+  },
+
+{
   
+    name: " Nouveau Disco 05 ",
+    artist: "Mix Central  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 05.mp3",
+  },
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj2.mp3",
+  },
+
+{
+  
+    name: "  Thinkin' About Your Love ",
+    artist: "Skipworth & Turner ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Skipworth & Turner - Thinkin' about your love.mp3",
+  },
 
 
-},
+
+{
+  
+    name: "  Horny ",
+    artist: "Mouse T",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mouse T - Horny.mp3",
+  },
 
 
 
