@@ -20,6 +20,10 @@ src:url(musicc.ttf);
 
 
 
+@font-face{ 
+font-family: myMuss;
+src:url(fonts/DISKOTEQUE.ttf);
+}
 
 
 
@@ -462,10 +466,8 @@ filter:opacity(75%);
 
 
 .info {
- @font-face{ 
-font-family: myMuss;
-src:url(fonts/DISKOTEQUE.ttf)
-}background : linear-gradient(90deg,#00CCFF,#66CCFF); color: white; 
+ 
+background : linear-gradient(90deg,#00CCFF,#66CCFF); color: white; 
 border-radius: 5px; z-index: -500; width: 51px; height: 34px; font-size: 17px; display:block; margin: auto auto auto auto; z-index:-300;
 
 
