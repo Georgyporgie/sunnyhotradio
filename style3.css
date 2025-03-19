@@ -984,13 +984,14 @@ color: lightblue;
   animation: blink 2s infinite ease-in-out, pulse 1.5s infinite ease-in-out;
   background: linear-gradient(90deg, #ff9a9e, #fad0c4, #fbc2eb, #a18cd1);
   background-size: 300% 300%;
-  color: white;
-  padding: 5px;
+  color: #FF0000;
+  padding: 10px;
   border-radius: 5px;
   text-align: center;
   font-size: 18px;
   font-weight: bold;
   text-shadow: 0 0 5px #fff, 0 0 10px #ff9a9e;
+z-index:0;
 }
 
 @keyframes blink {
