@@ -294,82 +294,18 @@ let track_list = [
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
-    name: "  Don't Call  Me Baby",
-    artist: "Madison Avenue  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Madison Avenue - Don't Call  Me Baby.mp3",
-  },
-
-
-
-
-{
-    name: "  Rockit  ",
-    artist: "Herbie Hancock ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Herbie Hancock - Rockit.mp3",
-  },
-
-
-
-
-
-
-{
-    name: "  My Forbidden Lover ",
-    artist: "Tapps ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Tapps - My Forbidden Lover.mp3",
-  },
-
-
-
-
-
-
-
-
-{
-  
-    name: " Like I like It (1985)",
-    artist: "Aurra ",
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/Aurra - Like I like It.mp3",
+    path: "muziek/jingles/return classics.mp3",
   },
 
 
-{
-  
-    name: " You Are My Melody (1984)",
-    artist: "Change ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/Change - You Are My Melody.mp3",
-  },
+
+
+
+
 
 
 
@@ -560,6 +496,70 @@ let track_list = [
 
  
 
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "  Don't Call  Me Baby",
+    artist: "Madison Avenue  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Madison Avenue - Don't Call  Me Baby.mp3",
+  },
+
+
+
+
+{
+    name: "  Rockit  ",
+    artist: "Herbie Hancock ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Herbie Hancock - Rockit.mp3",
+  },
+
+
+
+
+
+
+{
+    name: "  My Forbidden Lover ",
+    artist: "Tapps ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Tapps - My Forbidden Lover.mp3",
+  },
+
+
+
+
+
+
+
+
+{
+  
+    name: " Like I like It (1985)",
+    artist: "Aurra ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Aurra - Like I like It.mp3",
+  },
+
+
+{
+  
+    name: " You Are My Melody (1984)",
+    artist: "Change ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Change - You Are My Melody.mp3",
+  },
 
 
 
