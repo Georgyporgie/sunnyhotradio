@@ -318,6 +318,34 @@ let track_list = [
 
 
 
+{
+    name: "  Don't Call  Me Baby",
+    artist: "Madison Avenue  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Madison Avenue - Don't Call  Me Baby.mp3",
+  },
+
+
+
+
+{
+    name: "  Rockit  ",
+    artist: "Herbie Hancock ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Herbie Hancock - Rockit.mp3",
+  },
+
+
+
+
+
+
+{
+    name: "  My Forbidden Lover ",
+    artist: "Tapps ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Tapps - My Forbidden Lover.mp3",
+  },
 
 
 
