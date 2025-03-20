@@ -440,13 +440,6 @@ let track_list = [
 
 
 
-{
-    name: "Never Too Much",
-    artist: "Luther Vandross ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Luther Vandross - Never Too Much.mp3",
-  },
-
  
 
  
