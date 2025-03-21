@@ -119,6 +119,16 @@ text-align: center;
 }
 
 
+#geeks {   width:100px; height: 90px; 
+   z-index: -300;  margin-left: -30px; transform:rotate(-10deg);
+ filter:brightness(105%) saturation(105%) contrast(110%) opacity(75%); 
+float:left;
+}
+
+
+
+
+
 #bull { 
 height: 30px; width: 40px;
 filter:brightness(110%)contrast(115%)saturate(110%) opacity(70%);
