@@ -119,10 +119,9 @@ text-align: center;
 }
 
 
-#geeks {   width:100px; height: 90px; 
-   z-index: -300;  margin-left: -30px; transform:rotate(-10deg);
+#geeks {   width:90px; height: 90px; 
+   z-index: -300;  margin-left: 40px; transform:rotate(-10deg);
  filter:brightness(105%) saturation(105%) contrast(110%) opacity(75%); 
-float:left;
 }
 
 
