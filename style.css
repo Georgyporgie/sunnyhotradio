@@ -416,7 +416,7 @@ height: 80px; width: 85px; filter: brightness(100%) saturate(110%) contrast(110%
 display: block; margin: -20px auto -5px -5px; z-index: -300;  border-radius: 5px;
 }
 
-a { color: black
+a { color: black;
 }
 
 #first { width: 37px; height: 39px;filter: brightness(90%) saturate(110%) contrast(100%) opacity(78%); z-index: -200; transform:rotate(0deg); border-radius:3px;
