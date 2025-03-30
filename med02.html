@@ -103,7 +103,21 @@
   </a>
 </div>
 
+<style>
+    /* Smooth fade-in effect for the "blinking" class */
+    .blinking {
+      animation: fadeInBlink 1s ease-in-out;
+    }
 
+    @keyframes fadeInBlink {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
 
 </head>
 
@@ -196,7 +210,7 @@
 
 
 <div 
-<ul id="track-list-container"></ul>
+<ul aria-live="polite" id="track-list-container"></ul>
 
 
 </div>
