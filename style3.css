@@ -955,25 +955,6 @@ color: lightblue;
 
 
 
-//.blinkin {
-  animation: blink 1s infinite;
-}
-
-@keyframes blink {
-  0% { opacity: 1; }
-  50% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-
-
-
-//.blinki {
-  animation: blink 2s infinite ease-in-out, pulse 1.5s infinite ease-in-out;
-  background: linear-gradient(45deg, yellow, #006666, #003399);
-  background-size: 200% 200%;
-}
-
 
 
 
@@ -982,7 +963,7 @@ color: lightblue;
 
 .blinking {
   animation: blink 2s infinite ease-in-out, pulse 1.5s infinite ease-in-out;
-  background: linear-gradient(90deg, #0033FF, #006666, #003399, #006666, #0033FF);
+  background: linear-gradient(45deg, #0033FF, #006666, #003399);
   background-size: 500% 500%;
   color: #FF0000;
   text-align: center;
