@@ -331,115 +331,11 @@ let track_list = [
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-     name: "  Sunny Dance",
-    artist: "80's Mix  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/80 mix 01.mp3",
-  },
-
-{
-     name: "  Sunny Dance",
-    artist: "80's Mix  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/80 mix 02.mp3",
-  },
-
-
-{
-     name: "  Sunny Dance",
-    artist: "80's Mix  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/80 mix 03.mp3",
-  },
-
-
-
-{
-     name: "  Sunny Dance",
-    artist: "80's Mix  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/80 mix 04.mp3",
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: " Rockit",
-    artist: "Herbie Hancock  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/Herbie Hancock - Rockit.mp3",
-  },
-
-
-
-{
-    name: " Don't Call  Me Baby ",
-    artist: "Madison Avenue  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/Madison Avenue - Don't Call  Me Baby.mp3",
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
      name: "  The Chime",
     artist: "Orbital ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Orbital- The Chime.mp3",
+    path: "https://sunnylounge01.netlify.app/Orbital- The Chime.mp3",
   },
 
 
