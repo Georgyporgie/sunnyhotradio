@@ -347,13 +347,6 @@ let track_list = [
 
 
 
-{
-    name: "Polynomial C",
-    artist: "Aphex Twin ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/Aphex Twin - Polynomial C.mp3",
-  },
-
 
 
 
