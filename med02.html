@@ -584,10 +584,9 @@ function checkTime(i) {
 
 
 
-
-<audio  id="public"  autoplay loop>
- <source src="" type="audio/mpeg" />
-   <source src="" type="audio/wav" />
+<audio id="public" autoplay loop>
+  <source src="https://sunnydanceoldies08.netlify.app/Sunny weekdaysfinalenopublic.mp3" type="audio/mpeg" />
+  <source src="https://sunnydanceoldies08.netlify.app/Sunny weekdaysfinalepublic.mp3" type="audio/wav" />
 </audio>
 
 
@@ -597,31 +596,52 @@ function checkTime(i) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <script>
-document.getElementById("public").setAttribute('src', 'https://sunnydanceoldies08.netlify.app/Sunny weekdaysfinalenopublic.mp3');
+  function updateAudio() {
+    const audio = document.getElementById("myAudio");
+    const now = new Date();
+    const hour = now.getHours(); // Get the current hour (0-23)
+    if (hour >= 6 && hour < 12) {
+      audio.src = 'https://sunnydanceoldies08.netlify.app/Sunny weekdaysfinalenopublic.mp3'; // Morning MP3
+    } else if (hour >= 12 && hour < 18) {
+      audio.src = 'https://sunnydanceoldies08.netlify.app/Sunny weekdaysfinalenopublic.mp3'; // Afternoon MP3
+    } else if (hour >= 18 && hour < 21) {
+      audio.src = 'https://sunnydanceoldies08.netlify.app/Sunny weekdaysfinalepublic.mp3'; // Evening MP3
+    } else {
+      audio.src = 'https://sunnydanceoldies08.netlify.app/Sunny weekdaysfinalepublic.mp3'; // Night MP3
+    }
+    audio.load(); // Ensures the audio element refreshes with the new source
+  }
+
+  // Call the function to initialize the audio based on the current time
+  updateAudio();
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1030,8 +1050,6 @@ document.getElementById("fortyFiveMinuteSou").setAttribute('src', 'muziek/effect
 
         playHourlyAnnouncement();
     </script>
-
-
 
 
 
