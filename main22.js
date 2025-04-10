@@ -1223,28 +1223,7 @@ let track_list = [
 
 
 
-{
-     name: "   My Forbidden Lover",
-    artist: " Tapps ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Madison Avenue - Don't Call  Me Baby.mp3",
-  },
 
-{
-     name: " Don't Call  Me Baby",
-    artist: " Madison Avenue ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Madison Avenue - Don't Call  Me Baby.mp3",
-},
-
-
-
-{
-     name: " Don't Call  Me Baby",
-    artist: " Madison Avenue ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Madison Avenue - Don't Call  Me Baby.mp3",
-},
 
 
 
