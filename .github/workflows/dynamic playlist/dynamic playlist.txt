@@ -1,0 +1,145 @@
+// Define your track list with time categories
+let trackList = [
+  {
+    name: "Megamix 2023",
+    artist: "Purple Disco Machine",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_01.mp3",
+    timeCategory: "morning"
+  },
+  {
+    name: "Megamix 2023",
+    artist: "Purple Disco Machine",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_03.mp3",
+    timeCategory: "afternoon"
+  },
+  {
+    name: "Megamix 2023",
+    artist: "Purple Disco Machine",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_04.mp3",
+    timeCategory: "evening"
+  },
+  // Add more tracks as needed
+];
+
+// Function to get the current time category
+function getCurrentTimeCategory() {
+  const currentHour = new Date().getHours();
+  if (currentHour >= 5 && currentHour < 12) {
+    return "morning";
+  } else if (currentHour >= 12 && currentHour < 17) {
+    return "afternoon";
+  } else {
+    return "evening";
+  }
+}
+
+// Function to filter MP3 files by time category
+function filterMp3ByTimeCategory(mp3Files, timeCategory) {
+  return mp3Files.filter(mp3 => mp3.timeCategory === timeCategory);
+}
+
+// Get the current time category
+const currentTimeCategory = getCurrentTimeCategory();
+
+// Get MP3 files for the current time category
+const scheduledMp3Files = filterMp3ByTimeCategory(trackList, currentTimeCategory);
+
+// You can now use the `scheduledMp3Files` array as needed in your existing display logic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//en voor meerdere dagen:
+
+
+
+
+// Define your track list with time categories and days
+let trackList = [
+  {
+    name: "Megamix 2023",
+    artist: "Purple Disco Machine",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_01.mp3",
+    timeCategory: "morning",
+    day: "Monday"
+  },
+  {
+    name: "Megamix 2023",
+    artist: "Purple Disco Machine",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_03.mp3",
+    timeCategory: "afternoon",
+    day: "Monday"
+  },
+  {
+    name: "Megamix 2023",
+    artist: "Purple Disco Machine",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_04.mp3",
+    timeCategory: "evening",
+    day: "Tuesday"
+  },
+  // Add more tracks as needed
+];
+
+// Function to get the current time category
+function getCurrentTimeCategory() {
+  const currentHour = new Date().getHours();
+  if (currentHour >= 5 && currentHour < 12) {
+    return "morning";
+  } else if (currentHour >= 12 && currentHour < 17) {
+    return "afternoon";
+  } else {
+    return "evening";
+  }
+}
+
+// Function to get the current day
+function getCurrentDay() {
+  const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  return days[new Date().getDay()];
+}
+
+// Function to filter MP3 files by time category and day
+function filterMp3ByTimeAndDay(mp3Files, timeCategory, day) {
+  return mp3Files.filter(mp3 => mp3.timeCategory === timeCategory && mp3.day === day);
+}
+
+// Get the current time category and day
+const currentTimeCategory = getCurrentTimeCategory();
+const currentDay = getCurrentDay();
+
+// Get MP3 files for the current time category and day
+const scheduledMp3Files = filterMp3ByTimeAndDay(trackList, currentTimeCategory, currentDay);
+
+// Use the `scheduledMp3Files` array as needed in your existing display logic
+

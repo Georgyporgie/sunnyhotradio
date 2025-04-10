@@ -1,0 +1,121 @@
+const morningPlaylist = [
+    "https://dancemusic06.netlify.app/Miami%20Funk%20Machine%20-%20Hollywood.mp3",
+    "https://morningplatform.netlify.app/Another%20Morning%20Song.mp3"
+];
+
+export default morningPlaylist;
+
+
+
+//in a differnet file!
+
+
+
+
+
+const afternoonPlaylist = [
+    "https://afternoonplatform.netlify.app/Miami%20Funk%20Machine%20-%20Afternoon%20Delight.mp3",
+    "https://anothermusicplatform.netlify.app/Another%20Afternoon%20Song.mp3"
+];
+
+export default afternoonPlaylist;
+
+
+
+
+
+
+
+
+
+
+
+
+const eveningPlaylist = [
+    "https://eveningplatform.netlify.app/Miami%20Funk%20Machine%20-%20Evening%20Groove.mp3",
+    "https://yetanothermusicplatform.netlify.app/Another%20Evening%20Song.mp3"
+];
+
+export default eveningPlaylist;
+
+
+
+
+
+//in your main.js file
+const currentHour = new Date().getHours();
+
+let playlistModule;
+
+if (currentHour >= 6 && currentHour < 12) {
+    playlistModule = import('./morningPlaylist.js');
+} else if (currentHour >= 12 && currentHour < 18) {
+    playlistModule = import('./afternoonPlaylist.js');
+} else {
+    playlistModule = import('./eveningPlaylist.js');
+}
+
+playlistModule.then(module => {
+    const playlist = module.default;
+    console.log(playlist);
+
+    // Example: Integrate playlist with your custom player
+    // Assuming your custom player has a method `loadPlaylist` to load tracks
+    const customPlayer = /* Your custom player initialization */;
+    customPlayer.loadPlaylist(playlist);
+
+    // Start playing the first track
+    customPlayer.play();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//html
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Playlist</title>
+</head>
+<body>
+    <div id="audio-player"></div>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
