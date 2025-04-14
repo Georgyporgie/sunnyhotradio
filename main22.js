@@ -41,7 +41,7 @@ function displayMessage() {
  document.getElementById("message")
   .innerHTML = "";
 
-
+}
 
 
 
