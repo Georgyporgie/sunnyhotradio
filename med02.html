@@ -243,34 +243,24 @@
 </div>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+
+
+
 <img id= "virtua">
 <br>
 <br>
 
 
 
-<script>
-
-function updateImage() {
-  const img = document.getElementById("virtua");
-  const now = new Date();
-  const hour = now.getHours(); // Get the current hour (0-23)
-
-  // Default image
-  let imageSource = 'images/Sunny DanceRadio111.png';
-
-  // Additional logic for specific time ranges (if needed in the future)
-  if (hour >= 1 && hour < 3) {
-    imageSource = 'images/Sunny DanceRadio111.png'; // Example additional logic
-  }
-  
-  img.src = imageSource;
-}
-
-window.onload = updateImage;
 
 
-</script>
+
+
+
 
 
 
@@ -983,6 +973,13 @@ img.src = 'images/alexander.png';
  
 
 
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("virtua");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/audiovisualizer.png';
+</script>
 
 
 
