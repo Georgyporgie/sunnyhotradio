@@ -249,45 +249,28 @@
 
 
 
-
-
 <script>
 
-// Function to update the image source based on the time
-  function updateImage() {
-    const img = document.getElementById("virtua");
-    const now = new Date();
-    const hour = now.getHours(); // Get the current hour (0-23)
+function updateImage() {
+  const img = document.getElementById("virtua");
+  const now = new Date();
+  const hour = now.getHours(); // Get the current hour (0-23)
 
-    if (hour >= 6 && hour < 18) {
-      img.src = 'images/AudioVisualizer.png'; // Morning GIF
-    } else if (hour >= 18 && hour < 19) {
-      img.src = 'images/AudioVisualizer.png'; // Afternoon GIF
-    } else if (hour >= 19 && hour < 1) {
-      img.src = 'images/AudioVisualizer.png'; // Evening GIF
-    
-    } else if (hour >= 1 && hour < 3) {
-      img.src = 'images/AudioVisualizer.png'; // Evening GIF
-    
-    
-    
-    
-    
-    
-    } else {
-      img.src = 'images/AudioVisualizer.png'; // Night GIF
-    }
+  // Default image
+  let imageSource = 'images/AudioVisualizer.png';
+
+  // Additional logic for specific time ranges (if needed in the future)
+  if (hour >= 1 && hour < 3) {
+    imageSource = 'images/EveningVisualizer.png'; // Example additional logic
   }
+  
+  img.src = imageSource;
+}
 
-window.onload = function() {
+window.onload = updateImage;
 
-    updateImage();
-
-  };
 
 </script>
-
-
 
 
 
