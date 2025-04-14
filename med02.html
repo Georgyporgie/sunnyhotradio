@@ -246,6 +246,64 @@
 <img id= "virtua">
 <br>
 <br>
+
+
+
+
+
+<script>
+
+// Function to update the image source based on the time
+  function updateImage() {
+    const img = document.getElementById("virtua");
+    const now = new Date();
+    const hour = now.getHours(); // Get the current hour (0-23)
+
+    if (hour >= 6 && hour < 18) {
+      img.src = 'images/AudioVisualizer.png'; // Morning GIF
+    } else if (hour >= 18 && hour < 19) {
+      img.src = 'images/AudioVisualizer.png'; // Afternoon GIF
+    } else if (hour >= 19 && hour < 1) {
+      img.src = 'images/AudioVisualizer.png'; // Evening GIF
+    
+    } else if (hour >= 1 && hour < 3) {
+      img.src = 'images/AudioVisualizer.png'; // Evening GIF
+    
+    
+    
+    
+    
+    
+    } else {
+      img.src = 'images/AudioVisualizer.png'; // Night GIF
+    }
+  }
+
+window.onload = function() {
+
+    updateImage();
+
+  };
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <h5 id="events">
 <script>
         fetch('event.json')
@@ -835,13 +893,7 @@ var img = document.getElementById("rad");
 img.src = 'images/connection.gif';
 </script>
 
-<script>
-//Get our img element by using document.getElementById
-var img = document.getElementById("virtua");
 
-//Set the src property of our element to the new image URL
-img.src = 'images/AudioVisualizer.gif';
-</script>
 
 
 
@@ -992,7 +1044,7 @@ function myFunction() {
 
 
 <script>
-document.getElementById("hourlySou").setAttribute('src', 'muziek/effects/hourlysoundsaffire.mp3');
+document.getElementById("hourlySou").setAttribute('src', 'muziek/effects/hour sound.mp3');
 document.getElementById("quarterHourSou").setAttribute('src', 'muziek/effects/blast.mp3');
 document.getElementById("fortyFiveMinuteSou").setAttribute('src', 'muziek/effects/rotating sound.mp3');
 </script>
