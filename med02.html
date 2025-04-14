@@ -597,9 +597,9 @@ function checkTime(i) {
 
 
 <audio id="myAudio" autoplay loop>
-  <source src="https://sunnydanceoldies08.netlify.app/Sunny weekdaysfinalenopublic.mp3" type="audio/mpeg" />
-  <source src="https://sunnydanceoldies08.netlify.app/Sunny weekdaysfinalepublic.mp3" type="audio/wav" />
-</audio>
+  <source src="muziek/pirate background/Sunny weekend piratejinglepublic.mp3" type="audio/mpeg" />
+  <source src="muziek/pirate background/Sunny weekdaysfinalepublic.mp3" type="audio/wav" />
+
 
 
 
@@ -617,32 +617,31 @@ function checkTime(i) {
     const now = new Date();
     const hour = now.getHours(); // Get the current hour (0-23)
     
-if (hour >= 4 && hour < 12) {
-      audio.src = 'https://sunnydanceoldies08.netlify.app/Sunny weekdaysfinalenopublic.mp3'; // Morning MP3
+if (hour >= 4 && hour < 13) {
+      audio.src = 'muziek/pirate background/Sunny weekdaysfinalenopublic.mp3'; // Morning MP3
     
-} else if (hour >= 12 && hour < 13) {
-      audio.src = 'https://sunnydanceoldies08.netlify.app/Sunny weekdaysfinalenopublic.mp3'; // Afternoon MP3
+
     
 } else if (hour >= 13 && hour < 16) {
-      audio.src = 'https://sunnydanceoldies08.netlify.app/Sunny weekdaysfinalepublic.mp3'; // Evening MP3
+      audio.src = 'muziek/pirate background/Sunny weekdaysfinalenopublic.mp3'; // Evening MP3
     } 
 
 
 } else if (hour >= 16 && hour < 21) {
-      audio.src = 'https://sunnydanceoldies08.netlify.app/Sunny weekdaysfinalepublic.mp3'; // Evening MP3
+      audio.src = 'muziek/pirate background/Sunny weekend piratejinglepublic'; // Evening MP3
     } 
 
 } else if (hour >= 21 && hour < 22) {
-      audio.src = 'https://sunnydanceoldies08.netlify.app/Sunny weekdaysfinalenopublic.mp3'; // Evening MP3
+      audio.src = 'muziek/pirate background/Sunny weekdaysfinalenopublic.mp3'; // Evening MP3
     } 
 
 } else if (hour >= 22 && hour < 24) {
-      audio.src = 'https://sunnydanceoldies08.netlify.app/Sunny weekdaysfinalepublic.mp3'; // Evening MP3
+      audio.src = 'muziek/pirate background/Sunny weekdaysfinalepublic.mp3'; // Evening MP3
     } 
 
 
 else {
-      audio.src = 'https://sunnydanceoldies08.netlify.app/Sunny weekdaysfinalepublic.mp3'; // Night MP3
+      audio.src = 'muziek/pirate background/Sunny weekdaysfinalepublic.mp3'; // Night MP3
     
 }
     audio.load(); // Ensures the audio element refreshes with the new source
