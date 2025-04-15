@@ -626,11 +626,9 @@ function checkTime(i) {
 
 
 
-
-<audio id="myAudio" autoplay>
-  <source src="muziek/pirate background/Sunny weekend piratejinglepublic.mp3" type="audio/mpeg" />
-  <source src="muziek/pirate background/Sunny weekdaysfinalepublic.mp3" type="audio/wav" />
- <source src="muziek/pirate background/Sunny weekdaysfinalenopublic.mp3" type="audio/wav" />
+<audio  id="public"  autoplay loop>
+ <source src="" type="audio/mpeg" />
+   <source src="" type="audio/wav" />
 </audio>
 
 
@@ -643,60 +641,17 @@ function checkTime(i) {
 
 
 <script>
-  function updateAudio() {
-    const audio = document.getElementById("myAudio");
-    const now = new Date();
-    const hour = now.getHours(); // Get the current hour (0-23)
-    
-if (hour >= 4 && hour < 13) {
-      audio.src = 'muziek/pirate background/Sunny weekdaysfinalenopublic.mp3'; // Morning MP3
-    
-
-    
-} else if (hour >= 13 && hour < 16) {
-      audio.src = 'muziek/pirate background/Sunny weekdaysfinalepublic.mp3'; // Evening MP3
-    } 
-
-
-} else if (hour >= 16 && hour < 21) {
-      audio.src = 'muziek/pirate background/Sunny weekend piratejinglepublic.mp3'; // Evening MP3
-    } 
-
-} else if (hour >= 21 && hour < 22) {
-      audio.src = 'muziek/pirate background/Sunny weekdaysfinalenopublic.mp3'; // Evening MP3
-    } 
-
-} else if (hour >= 22 && hour < 24) {
-      audio.src = 'muziek/pirate background/Sunny weekend piratejinglepublic.mp3'; // Evening MP3
-    } 
-
-
-else {
-      audio.src = 'muziek/pirate background/Sunny weekdaysfinalenopublic.mp3'; // Night MP3
-    
-}
-    audio.load(); // Ensures the audio element refreshes with the new source
-  }
-
-  
-
-
-
-// Call the function to initialize the audio based on the current time
-  updateAudio();
+document.getElementById("public").setAttribute('src', 'muziek/pirate background/Sunny weekdaysfinalepublic.mp3');
 </script>
 
 
 
 
 
-
-
-
-
-
-
-
+<script>
+Sunny weekdaysfinalenopublic.mp3
+Sunny weekend piratejinglepublic.mp3
+</script>
 
 
 
