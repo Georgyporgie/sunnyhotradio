@@ -103,7 +103,25 @@
   </a>
 </div>
 
+<style>
+    /* Smooth fade-in effect for the "blinking" class */
+    .blinking {
+      animation: fadeInBlink 1s ease-in-out;
+    }
 
+    @keyframes fadeInBlink {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  
+
+
+
+</style>
 
 </head>
 
@@ -239,7 +257,30 @@
 
 
 
+<script>
+  // Function to update the image source based on the time
+  function updateVisua() {
+    const img = document.getElementById("virtua");
+    const now = new Date();
+    const hour = now.getHours(); // Get the current hour (0-23)
 
+    if (hour >= 6 && hour < 12) {
+      img.src = 'images/AudioVisualizer.png'; // Morning GIF
+    } else if (hour >= 12 && hour < 18) {
+      img.src = 'images/AudioVisualizer.gif'; // Afternoon GIF
+    } else if (hour >= 18 && hour < 22) {
+      img.src = 'images/AudioVisualizer.png'; // Evening GIF
+    } else {
+      img.src = 'images/AudioVisualizer.gif'; // Night GIF
+    }
+  }
+
+  // Call the updateImage function when the page loads
+  window.onload = updateVisua;
+
+  // Optionally, update the image every hour (or as desired)
+  setInterval(updateImage, 3600000); // 3600000 ms = 1 hour
+</script>
 
 
 
@@ -623,17 +664,14 @@ function checkTime(i) {
 
 
 <script>
-document.getElementById("public").setAttribute('src', 'muziek/pirate background/Sunny weekend piratejinglepublic.mp3');
+document.getElementById("public").setAttribute('src', 'muziek/pirate background/Sunny weekdaysfinalenopublic.mp3');
 </script>
 
 
 
 
 
-<script>
-Sunny weekdaysfinalenopublic.mp3
-Sunny weekend piratejinglepublic.mp3
-</script>
+
 
 
 
@@ -961,7 +999,7 @@ function myFunction() {
 
 
 <script>
-document.getElementById("hourlySou").setAttribute('src', 'muziek/effects/hour sound.mp3');
+document.getElementById("hourlySou").setAttribute('src', 'muziek/effects/Female DJ1best.mp3');
 document.getElementById("quarterHourSou").setAttribute('src', 'muziek/effects/blast.mp3');
 document.getElementById("fortyFiveMinuteSou").setAttribute('src', 'muziek/effects/rotating sound.mp3');
 </script>
