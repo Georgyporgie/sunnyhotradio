@@ -253,6 +253,12 @@ let track_list = [
 
 
 
+{
+    name: "Juice",
+    artist: "Lizzo ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Lizzo2 - Juice.mp3",
+  },
 
 
 
