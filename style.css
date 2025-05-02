@@ -435,7 +435,7 @@ a { color: black;
 }
 
 
-#freq  {     width: 35px;  height: 30px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(70%); transform: rotate(-5deg); z-index: -200; margin: -35px auto 10px  auto; display: block; 
+#freq  {     width: 35px;  height: 30px;filter: brightness(110%) saturate(110%) contrast(110%) opacity(70%); transform: rotate(-5deg); z-index: -200; margin: -35px auto 10px  auto; display: block; 
 }
 
 
