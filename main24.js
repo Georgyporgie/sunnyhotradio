@@ -34,7 +34,7 @@ function getCurrentTimeCategory() {
   if (currentHour >= 7 && currentHour < 12) {
     return "afternoon"; // Corrected order
   } else if (currentHour >= 12 && currentHour < 18) {
-    return "morning";
+    return "evening-late";
   } else if (currentHour >= 18 && currentHour < 22) {
     return "afternoon";
 
