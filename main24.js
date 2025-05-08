@@ -34,19 +34,19 @@ function getCurrentTimeCategory() {
   if (currentHour >= 7 && currentHour < 12) {
     return "afternoon"; // Corrected order
   } else if (currentHour >= 12 && currentHour < 18) {
-    return "morning";
+    return "evening";
   } else if (currentHour >= 18 && currentHour < 22) {
-    return "afternoon";
+    return "evrning-late";
 
 
 
 
 } else if ((currentHour >= 22 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-    return "evening"; // Fix for wrapping around midnight
+    return "morning"; // Fix for wrapping around midnight
   } else if (currentHour >= 3 && currentHour < 7) {
     return "jingle-time";
   } else {
-    return "morning"; // Any remaining hours fit here
+    return "afternoon"; // Any remaining hours fit here
   }
 }
 
