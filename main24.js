@@ -36,7 +36,7 @@ function getCurrentTimeCategory() {
   } else if (currentHour >= 12 && currentHour < 18) {
     return "morning";
   } else if (currentHour >= 18 && currentHour < 22) {
-    return "evening";
+    return "afternoon";
 
 
 
@@ -1095,286 +1095,6 @@ let trackList = [
       timeCategory: "afternoon"
 },
 
-
-
-
-{
-    name: "  Another Man (1984)",
-    artist: "Barbara Mason",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnyhotradio.com/muziek/oldies07/Barbara Mason - Another Man.mp3",
-    timeCategory: "afternoon"
-},
-
-
-{
-    name: " Shy Guy (1995)",
-    artist: "Diana King  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/Diana King - Shy guy.mp3",
-    timeCategory: "afternoon"
-},
-
-{
-    name: " Persuasive",
-    artist: "Doechii",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Doechii - Persuasive.mp3",
-    timeCategory: "afternoon"
-},
-
-
-
-
-
-{
-    name: " Gimme That Funk (1978)",
-    artist: "Dennis Coffey  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnyhotradio.com/muziek/oldies07/Dennis Coffey - Gimme That Funk (1978).mp3",
-    timeCategory: "afternoon"
-
-
-},
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: "  Love Me  ",
-    artist: "Inna ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic07.netlify.app/Inna - Love Me.mp3",
-    timeCategory: "afternoon"
-},
-
-
-
-
-
-{
-    name: "Just For You ",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/sunny ship/radio dj - just for you.mp3",
-   timeCategory: "afternoon"
- },
-
-
-
-
-
-
-
-
-{
-    name: " Fade To Grey",
-    artist: "Visage ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Visage - Fade to Grey.mp3",
-    timeCategory: "afternoon"
-},
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle.mp3",
-    timeCategory: "afternoon"
-},
-
-
-
-
-
-
-
-{
-   name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/sunny ship/radio dj - just for you22.mp3",
-    timeCategory: "afternoon"
-},
-
-
-
-
-
-
-
-{
-    name: "Welcome!",
-    artist: "Sunny Disco Machine",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/start the party.mp3",
-    timeCategory: "afternoon"
-
-
-},
-
-
-
-
-
-
-{
-    name: "  On A Ragga Tip",
-    artist: "SL2",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/SL2 - On A Ragga Tip.mp3",
-   timeCategory: "afternoon"
- },
-
-
-
-
-
-
-{
-    name: "   Still Believe",
-    artist: "Mary J. Blige ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic07.netlify.app/Mary J. Blige - Still Believe In Love.mp3",
-  
-
-
-  timeCategory: "afternoon"
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: " Closer",
-    artist: "Saweetie ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Saweetie - Closer.mp3",
-  timeCategory: "afternoon"
-},
-
-
-
-
-
-
-{
-     name: " Pearls ",
-    artist: "Jesse Ware ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/Jesse Ware - Pearls.mp3",
-   timeCategory: "afternoon"
-},
-
-
-
-
-{
-     name: "   Giving Me  ",
-    artist: "Jazzy  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/Jazzy  - Giving Me.mp3",
-  timeCategory: "afternoon"
-},
-
-
-
-
-{
-    name: " I Can't Wait",
-    artist: "NU Shooz ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/NU Shooz - I Can't Wait.mp3",
-    timeCategory: "afternoon"
-},
-
-
-
-
-{
-    name: "  Drinkin'",
-    artist: "JoelCorry & Rita Ora ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/JoelCorry & Rita Ora - Drinkin'.mp3",
-  
-
-
-     timeCategory: "afternoon"
-},
-
-{
-    name: "  Past Life ",
-    artist: "Jonas Blue ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/Jonas Blue - Past Life.mp3",
-  
-
-
-     timeCategory: "afternoon"
-},
-
-
-
-{
-    name: "Hollywood  ",
-    artist: "Miami Funk Machine ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/Miami Funk Machine - Hollywood.mp3",
-     timeCategory: "afternoon"
-
-
-},
-
-
-
-
-
-{
-    name: "    Starboy ",
-    artist: "The Weeknd ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/The Weeknd - Starboy.mp3",
-     timeCategory: "afternoon"
-},
-
-
-
-
-
-{
-    name: "Welcome!",
-    artist: "Sunny Disco Machine",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/start the party.mp3",
-  
-
-
-     timeCategory: "afternoon"
-
-
-},
-
-
 {
     name: "Round Round (2002)",
     artist: "Sugababes",
@@ -1384,9 +1104,34 @@ let trackList = [
 },
 
 
+{
+    name: " Vertigo",
+    artist: "Sophie Ellis Bextor ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Sophie Ellis Bextor - Vertigo.mp3",
+    timeCategory: "afternoon"
+},
+
+{
+    name: " Everything She Wants",
+    artist: "Wham  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Wham - Everything She Wants.mp3",
+    timeCategory: "afternoon"
+},
 
 
 
+
+
+
+{
+    name: " Do What You Wanna Do ",
+    artist: "T - Connection ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/T - Connection - Do What You Wanna Do.mp3",
+    timeCategory: "afternoon"
+},
 
 
 
@@ -2024,6 +1769,286 @@ let trackList = [
 
 
 
+
+
+
+
+
+{
+    name: "  Another Man (1984)",
+    artist: "Barbara Mason",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnyhotradio.com/muziek/oldies07/Barbara Mason - Another Man.mp3",
+    timeCategory: "afternoon"
+},
+
+
+{
+    name: " Shy Guy (1995)",
+    artist: "Diana King  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Diana King - Shy guy.mp3",
+    timeCategory: "afternoon"
+},
+
+{
+    name: " Persuasive",
+    artist: "Doechii",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Doechii - Persuasive.mp3",
+    timeCategory: "afternoon"
+},
+
+
+
+
+
+{
+    name: " Gimme That Funk (1978)",
+    artist: "Dennis Coffey  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnyhotradio.com/muziek/oldies07/Dennis Coffey - Gimme That Funk (1978).mp3",
+    timeCategory: "afternoon"
+
+
+},
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "  Love Me  ",
+    artist: "Inna ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Inna - Love Me.mp3",
+    timeCategory: "afternoon"
+},
+
+
+
+
+
+{
+    name: "Just For You ",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you.mp3",
+   timeCategory: "afternoon"
+ },
+
+
+
+
+
+
+
+
+{
+    name: " Fade To Grey",
+    artist: "Visage ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Visage - Fade to Grey.mp3",
+    timeCategory: "afternoon"
+},
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+    timeCategory: "afternoon"
+},
+
+
+
+
+
+
+
+{
+   name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you22.mp3",
+    timeCategory: "afternoon"
+},
+
+
+
+
+
+
+
+{
+    name: "Welcome!",
+    artist: "Sunny Disco Machine",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/start the party.mp3",
+    timeCategory: "afternoon"
+
+
+},
+
+
+
+
+
+
+{
+    name: "  On A Ragga Tip",
+    artist: "SL2",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/SL2 - On A Ragga Tip.mp3",
+   timeCategory: "afternoon"
+ },
+
+
+
+
+
+
+{
+    name: "   Still Believe",
+    artist: "Mary J. Blige ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Mary J. Blige - Still Believe In Love.mp3",
+  
+
+
+  timeCategory: "afternoon"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: " Closer",
+    artist: "Saweetie ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Saweetie - Closer.mp3",
+  timeCategory: "afternoon"
+},
+
+
+
+
+
+
+{
+     name: " Pearls ",
+    artist: "Jesse Ware ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Jesse Ware - Pearls.mp3",
+   timeCategory: "afternoon"
+},
+
+
+
+
+{
+     name: "   Giving Me  ",
+    artist: "Jazzy  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Jazzy  - Giving Me.mp3",
+  timeCategory: "afternoon"
+},
+
+
+
+
+{
+    name: " I Can't Wait",
+    artist: "NU Shooz ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/NU Shooz - I Can't Wait.mp3",
+    timeCategory: "afternoon"
+},
+
+
+
+
+{
+    name: "  Drinkin'",
+    artist: "JoelCorry & Rita Ora ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/JoelCorry & Rita Ora - Drinkin'.mp3",
+  
+
+
+     timeCategory: "afternoon"
+},
+
+{
+    name: "  Past Life ",
+    artist: "Jonas Blue ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Jonas Blue - Past Life.mp3",
+  
+
+
+     timeCategory: "afternoon"
+},
+
+
+
+{
+    name: "Hollywood  ",
+    artist: "Miami Funk Machine ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Miami Funk Machine - Hollywood.mp3",
+     timeCategory: "afternoon"
+
+
+},
+
+
+
+
+
+{
+    name: "    Starboy ",
+    artist: "The Weeknd ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/The Weeknd - Starboy.mp3",
+     timeCategory: "afternoon"
+},
+
+
+
+
+
+{
+    name: "Welcome!",
+    artist: "Sunny Disco Machine",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/start the party.mp3",
+  
+
+
+     timeCategory: "afternoon"
+
+
+},
 
 
 
