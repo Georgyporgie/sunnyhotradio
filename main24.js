@@ -34,7 +34,7 @@ function getCurrentTimeCategory() {
   if (currentHour >= 7 && currentHour < 12) {
     return "evening-late"; // Corrected order
   } else if (currentHour >= 12 && currentHour < 18) {
-    return "evening";
+    return "morning";
   } else if (currentHour >= 18 && currentHour < 22) {
     return "afternoon";
 
@@ -42,7 +42,7 @@ function getCurrentTimeCategory() {
 
 
 } else if ((currentHour >= 22 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-    return "afternoon"; // Fix for wrapping around midnight
+    return "evening"; // Fix for wrapping around midnight
   } else if (currentHour >= 3 && currentHour < 7) {
     return "jingle-time";
   } else {
@@ -2118,7 +2118,13 @@ let trackList = [
         timeCategory: "evening"
 },
 
-
+{
+    name: "Let The Music Play ",
+    artist: "Shannon  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Shannon - Let The Music Play.mp3",
+        timeCategory: "evening"
+},
 
 
 
