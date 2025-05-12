@@ -448,10 +448,26 @@ body {
 
 
 </div>
-<audio  id="public"  autoplay loop>
- <source src="" type="audio/mpeg" />
-   <source src="" type="audio/wav" />
+<audio id="musicPlayer" autoplay loop>
+    <source id="musicSource" src="" type="audio/mpeg">
 </audio>
+
+<script>
+    const tracks = {
+        0: "muziek/sunday.mp3",
+        1: "sunnyhotradio/muziek/pirate background/Sunny weekdaysfinalepublic.mp3",
+        2: "sunnyhotradio/muziek/pirate background/Sunny weekdaysfinalenopublic.mp3",
+
+        3: "muziek/wednesday.mp3",
+        4: "muziek/thursday.mp3",
+        5: "muziek/friday.mp3",
+        6: "muziek/saturday.mp3"
+    };
+
+    const today = new Date().getDay();
+    document.getElementById("musicSource").setAttribute('src', tracks[today]);
+    document.getElementById("musicPlayer").load(); // Reload to apply new src
+</script>
 
 
 
@@ -719,9 +735,7 @@ document.getElementById("online").innerHTML=" 3 ";
 
 
 
-<script>
-document.getElementById("public").setAttribute('src', 'muziek/pirate background/Sunny weekend piratejinglepublic.mp3');
-</script>
+
 
 
 <script>
