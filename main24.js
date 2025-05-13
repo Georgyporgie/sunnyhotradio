@@ -42,11 +42,11 @@ function getCurrentTimeCategory() {
 
 
 } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-    return "evening"; // Fix for wrapping around midnight
+    return "morning"; // Fix for wrapping around midnight
   } else if (currentHour >= 3 && currentHour < 7) {
     return "jingle-time";
   } else {
-    return "morning"; // Any remaining hours fit here
+    return "evening-late"; // Any remaining hours fit here
   }
 }
 
@@ -258,6 +258,1439 @@ let trackList = [
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: " Sunrise (12inch)",
+    artist: "Simply Red   ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Simply Red - Sunrise (Extended).mp3",
+    timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Sacrifice",
+    artist: "Bebe Rexha",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Bebe Rexha - Sacrifice.mp3",
+      timeCategory: "morning"
+
+
+},
+
+
+{
+    name: "  Back In Time",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/back in time jingle.mp3",
+     timeCategory: "morning"
+
+
+},
+
+{
+    name: "  Playgirl (1979)  ",
+    artist: "La Velle ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/La Velle - Playgirl.mp3",
+    timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: " It's Like That (1997)",
+    artist: "RUN DMC ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/RUN DMC - It's Like That.mp3",
+     timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+
+
+
+
+{
+    name: " Crazy In Love (2003)",
+    artist: "Beyonce",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Beyonce - Crazy In Love.mp3",
+  
+
+
+     timeCategory: "morning"
+
+
+},
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance radio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/time classic.mp3",
+     timeCategory: "morning"
+
+
+},
+
+
+{
+    name: "  Your Love",
+    artist: "Lime ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Lime - Your Love.mp3",
+       timeCategory: "morning"
+
+
+},
+
+
+
+
+{
+    name: "Return Of The Mack (12inch) ",
+    artist: "Mark Morrison",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Mark Morrison - Return of the mack.mp3",
+       timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: " Sex Lies",
+    artist: "Latto ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Latto - Sex Lies.mp3",
+       timeCategory: "morning"
+
+
+},
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/DJ S.mp3",
+      timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle1.mp3",
+      timeCategory: "morning"
+
+
+},
+
+
+{
+    name: "  Beat Dis (1987) ",
+    artist: "Bomb The Base  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Bomb The Base - Beat Dis.mp3",
+     timeCategory: "morning"
+
+
+},
+
+
+
+{
+    name: "  We Got A Love Thang",
+    artist: "CC Peniston ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/CC Peniston - We Got A Love Thang.mp3",
+      timeCategory: "morning"
+
+
+},
+
+
+
+
+
+{
+    name: "Autonomy",
+    artist: "Bob Harsher ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Bob Harsher - Autonomy.mp3",
+       timeCategory: "morning"
+
+
+},
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj5.mp3",
+       timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+
+
+ 
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/return classics.mp3",
+       timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+{
+    name: "Doing It",
+    artist: "Rita Ora",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Rita Ora - Doing It.mp3",
+  
+
+
+     timeCategory: "morning"
+
+
+},
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/40 in jingle11.mp3",
+     timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+
+
+
+
+ 
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/40 in jingle22.mp3",
+       timeCategory: "morning"
+
+
+},
+
+
+
+ {
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle4.mp3",
+       timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance radio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle1.mp3",
+      timeCategory: "morning"
+
+
+},
+
+
+
+
+
+{
+    name: "Pump Up The Jam",
+    artist: "Technotronic ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Technotronic - Pump Up The Jam.mp3",
+      timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj4.mp3",
+       timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+{
+    name: "In The Dark",
+    artist: "Purple Disco Machine ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Purple disco machine - in the Dark.mp3",
+       timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/sunny dance jingle.mp3",
+     timeCategory: "morning"
+
+
+},
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj6.mp3",
+     timeCategory: "morning"
+
+
+},
+
+{
+    name: "Drop It Like It's Hot",
+    artist: "Snoop Dogg ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Snoop Dogg - Drop It Like It's Hot (Feat. Pharrell).mp3",
+     timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+ 
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet5.mp3",
+      timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+ 
+ 
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you222.mp3",
+       timeCategory: "morning"
+
+
+},
+
+
+
+{
+     name: "Tell Me What We're Gonna Do",
+    artist: "Joss Stone",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Tell Me What We're Gonna Do Now.mp3",
+       timeCategory: "morning"
+
+
+},
+
+
+
+{
+    name: "Welcome!",
+    artist: "Sunny Disco Machine",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/start the party.mp3",
+        timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+
+
+
+{
+    name: "  Whatever",
+    artist: "Kygo & Ava Max ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Kygo & Ava Max - Whatever.mp3",
+       timeCategory: "morning"
+
+
+},
+
+{
+    name: " You Ain't The Only One",
+    artist: "Mary J. Blige  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Mary J. Blige - You Ain't The Only One.mp3",
+      timeCategory: "morning"
+
+
+},
+
+{
+     name: "   Natural Thing  ",
+    artist: "Innocence ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Innocence - Natural Thing.mp3",
+      timeCategory: "morning"
+
+
+},
+
+
+{
+    name: "Life For The Weekend",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Life for the weekend- Jingle.mp3",
+      timeCategory: "morning"
+
+
+},
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle1.mp3",
+     timeCategory: "morning"
+
+
+},
+
+
+{
+    name: "Promised Land (12inch)",
+    artist: "Joe Smooth",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Joe Smooth - Promised Land.mp3",
+       timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+
+{
+    name: "Summer Madness (12inch)",
+    artist: "Kool And The Gang",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Kool and the gang - Summer Madness.mp3",
+      timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+{
+    name: " Just An Illusion (12inch)",
+    artist: "Imagination ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Imagination - Just an Illusion 1982.mp3",
+  
+
+
+},
+
+{
+    name: "Baby",
+    artist: "Charli XCX",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Charli XCX - Baby.mp3",
+  
+
+
+},
+
+{
+    name: " Moth To A Flame",
+    artist: "The Weeknd",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/The weeknd - Moth to a flame2.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/sunny dance jingle.mp3",
+  },
+
+
+
+
+
+
+
+{
+    name: "  All Nighter",
+    artist: "Tiesto  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Tiesto - All Nighter.mp3",
+  },
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+  },
+
+
+
+
+
+{
+    name: "   Disconnect",
+    artist: "Becky Hill ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Becky Hill - Disconnect.mp3",
+  },
+
+
+
+ 
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Machine Gun (1974)",
+    artist: "Commodores",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Commodores - Machine gun.mp3",
+  
+
+
+    timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you222.mp3",
+    timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Let op.mp3",
+     timeCategory: "morning"
+
+
+},
+
+
+{
+    name:  "Good Morning",
+    artist: "Neil Rodgers  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Neil Rodgers - Good Morning.mp3",
+      timeCategory: "morning"
+
+
+},
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj5.mp3",
+    timeCategory: "morning"
+
+
+},
+
+
+
+
+{
+    name: "  Back In Time",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/back in time jingle.mp3",
+     timeCategory: "morning"
+
+
+},
+
+
+
+
+{
+    name: " Big Fun",
+    artist: "Inner City  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Inner City - Big Fun.mp3",
+    timeCategory: "morning"
+
+
+},
+
+
+
+
+{
+    name: "  Thinkin' about your love",
+    artist: "Skipworth & Turner ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Skipworth & Turner - Thinkin' about your love.mp3",
+  
+
+
+    timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+
+
+
+
+{
+    name: " Like I like It ",
+    artist: " Aurra ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Aurra - Like I like It.mp3",
+  
+
+
+    timeCategory: "morning"
+
+
+},
+
+
+
+{
+    name: " All Night Long ",
+    artist: "Mary Jane Girls ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mary Jane Girls - All Night Long.mp3",
+  
+
+
+    timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Enjoy The Silence",
+    artist: "Depeche Mode ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Depeche Mode - Enjoy The Silence.mp3",
+    timeCategory: "morning"
+
+
+},
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/nos journaal 11.mp3",
+    timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+
+{
+  
+    name: "Apologize",
+    artist: "Timbaland",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Timbaland - Apologize.mp3",
+    timeCategory: "morning"
+
+
+},
+
+{
+    name: "Love Foolosophy",
+    artist: "Jamiroquaii",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Jamiroquaii - Love Foolosophy.mp3",
+  
+
+
+    timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you222.mp3",
+      timeCategory: "morning"
+
+
+},
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet3.mp3",
+    timeCategory: "morning"
+
+
+},
+
+
+
+
+{
+    name: "Bang Bang",
+    artist: "The Knocks ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/The Knocks - Bang Bang.mp3",
+     timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+
+
+{
+    name: "Chillhouse Del Mar",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/chillhouse del mar01.mp3",
+      timeCategory: "morning"
+
+
+},
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+    timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Let op.mp3",
+    timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+
+
+
+ 
+
+
+{
+    name: "Life For The Weekend",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Life for the weekend- Jingle.mp3",
+    timeCategory: "morning"
+
+
+},
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+      timeCategory: "morning"
+
+
+},
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/do not turnoff receiver.mp3",
+    timeCategory: "morning"
+
+
+},
+
+
+
+
+
+
+
+ 
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle1.mp3",
+    timeCategory: "morning"
+
+
+},
+
+
+
+
+
+{
+     name: " Believ ",
+    artist: "Acraze ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Acraze - Believe.mp3",
+     timeCategory: "morning"
+
+
+},
 
 
 
@@ -2117,494 +3550,6 @@ let trackList = [
         timeCategory: "evening"
 },
 
-{
-    name: "Let The Music Play ",
-    artist: "Shannon  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Shannon - Let The Music Play.mp3",
-        timeCategory: "evening"
-},
-
-
-
-{
-    name: " Summer",
-    artist: "Calvin Harris  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/Calvin Harris - Summer.mp3",
-        timeCategory: "evening"
-},
-
-
-
-{
-    name: " Sunglasses",
-    artist: "Heidi Klum ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle.mp3",
-        timeCategory: "evening"
-},
-
-
-
-
-
-
-{
-    name: "Mesmerized (12inch)",
-    artist: "Freemasons",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj5.mp3",
-         timeCategory: "evening"
-},
-
-
-
-
-
-
-
-
-
-{
-    name: "   I'm Gonna Get You",
-    artist: "Bizarre Inc. ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Bizarre Inc. - I'm Gonna Get You.mp3",
-         timeCategory: "evening"
-},
-
-
-
-
-
-
-
-{
-    name: "  Give It To Me Baby ",
-    artist: "Sunny James ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/micofoon Rick James.mp3",
-
-
-         timeCategory: "evening"
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: "  Give It To Me Baby",
-    artist: "Rick James ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Rick James - Give it to me baby.mp3",
-
-
-         timeCategory: "evening"
-},
-
-
-{
-    name: "The Power",
-    artist: "Snap ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Snap - The Power.mp3",
-      timeCategory: "evening"
-}, 
-
-
-
-
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
-     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/nos journaal 11.mp3",
-  
-
-
-    timeCategory: "evening"
-}, 
-
-
-
-
-
-
-{
-    name: "  Open Sesame",
-    artist: "Leila K ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Leila K - Open Sesame.mp3",
-    timeCategory: "evening"
-}, 
-
-
-
-
-{
-    name: " Freaky Deaky",
-    artist: "Tyga & Doja Cat ",
-     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Tyga & Doja Cat - Freaky Deaky.mp3",
-     timeCategory: "evening"
-}, 
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: "   Could Be Something",
-    artist: "Minelli  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Minelli - Could be Something.mp3",
-   timeCategory: "evening"
-},
-
-{
-    name: "When I'm Gone",
-    artist: "Alesso & Kathy Perry",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Alesso & Kathy Perry - When I'm gone.mp3",
-  timeCategory: "evening"
-
- },
-
-{
-     name: " Used To Know Me",
-    artist: "Charli XCX ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Charli XCX - Used to know me.mp3",
-   timeCategory: "evening"
-},
-
-
-
-
-
-
-{
-    name: "Too Much Too Late",
-    artist: "Full Flava ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies01.netlify.app/Full Flava - Too much too late.mp3",
-   timeCategory: "evening"
-},
-
-
-
-
-
-
-
-
-
-
-{
-    name: " My Head My Heart",
-    artist: "Ava Max ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Ava Max - My head my heart.mp3",
-    timeCategory: "evening"
-
-
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-     name: " Untz Untz",
-    artist: "Inji ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://thechime.netlify.app/Half Inji - Untz Untz.mp3",
-     timeCategory: "evening"
-},
-
-
-
-
-
-
-{
-     name: " She Can't Love You",
-    artist: "Chemise ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Chemise - She Can't Love You.mp3",
-     timeCategory: "evening"
-},
-
-
-
-
-
-
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/sunny dance jingle.mp3",
-     timeCategory: "evening"
-
-
-},
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj4.mp3",
-      timeCategory: "evening"
-},
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: "    She 's On My Mind",
-    artist: "Romy  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic07.netlify.app/Romy - She 's On My Mind.mp3",
-      timeCategory: "evening"
-},
-
-
-
-
-{
-    name: "Keep On Moving",
-    artist: "Kastuvas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/kastuvas - Keep on moving.mp3",
-       timeCategory: "evening"
-},
-
-
-
-
-
-
-{
-    name: " Feed Them",
-    artist: "Kelis",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Kelis - Feed Them.mp3",
-        timeCategory: "evening"
-},
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj6.mp3",
-      timeCategory: "evening"
-},
-
-{
-    name: " Just An Illusion (12inch)",
-    artist: "Imagination ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies01.netlify.app/Imagination - Just an Illusion 1982.mp3",
-  
-
-
-        timeCategory: "evening"
-},
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle1.mp3",
-          timeCategory: "evening"
-},
-
-
-
-{
-    name: "What You Waiting For",
-    artist: "Gwen Stefani ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://Sunnydanceoldies04.netlify.app/Gwen Stefani - What you waiting for.mp3",
-           timeCategory: "evening"
-},
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/sunny dance jingle.mp3",
-   timeCategory: "evening"
-
-
-},
-
-
-
 
 
 
@@ -3329,6 +4274,494 @@ let trackList = [
  },
 
 
+
+
+
+{
+    name: "Let The Music Play ",
+    artist: "Shannon  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Shannon - Let The Music Play.mp3",
+        timeCategory: "evening"
+},
+
+
+
+{
+    name: " Summer",
+    artist: "Calvin Harris  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Calvin Harris - Summer.mp3",
+        timeCategory: "evening"
+},
+
+
+
+{
+    name: " Sunglasses",
+    artist: "Heidi Klum ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+        timeCategory: "evening"
+},
+
+
+
+
+
+
+{
+    name: "Mesmerized (12inch)",
+    artist: "Freemasons",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj5.mp3",
+         timeCategory: "evening"
+},
+
+
+
+
+
+
+
+
+
+{
+    name: "   I'm Gonna Get You",
+    artist: "Bizarre Inc. ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Bizarre Inc. - I'm Gonna Get You.mp3",
+         timeCategory: "evening"
+},
+
+
+
+
+
+
+
+{
+    name: "  Give It To Me Baby ",
+    artist: "Sunny James ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/micofoon Rick James.mp3",
+
+
+         timeCategory: "evening"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "  Give It To Me Baby",
+    artist: "Rick James ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Rick James - Give it to me baby.mp3",
+
+
+         timeCategory: "evening"
+},
+
+
+{
+    name: "The Power",
+    artist: "Snap ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Snap - The Power.mp3",
+      timeCategory: "evening"
+}, 
+
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/nos journaal 11.mp3",
+  
+
+
+    timeCategory: "evening"
+}, 
+
+
+
+
+
+
+{
+    name: "  Open Sesame",
+    artist: "Leila K ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Leila K - Open Sesame.mp3",
+    timeCategory: "evening"
+}, 
+
+
+
+
+{
+    name: " Freaky Deaky",
+    artist: "Tyga & Doja Cat ",
+     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Tyga & Doja Cat - Freaky Deaky.mp3",
+     timeCategory: "evening"
+}, 
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "   Could Be Something",
+    artist: "Minelli  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/Minelli - Could be Something.mp3",
+   timeCategory: "evening"
+},
+
+{
+    name: "When I'm Gone",
+    artist: "Alesso & Kathy Perry",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Alesso & Kathy Perry - When I'm gone.mp3",
+  timeCategory: "evening"
+
+ },
+
+{
+     name: " Used To Know Me",
+    artist: "Charli XCX ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Charli XCX - Used to know me.mp3",
+   timeCategory: "evening"
+},
+
+
+
+
+
+
+{
+    name: "Too Much Too Late",
+    artist: "Full Flava ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Full Flava - Too much too late.mp3",
+   timeCategory: "evening"
+},
+
+
+
+
+
+
+
+
+
+
+{
+    name: " My Head My Heart",
+    artist: "Ava Max ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Ava Max - My head my heart.mp3",
+    timeCategory: "evening"
+
+
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: " Untz Untz",
+    artist: "Inji ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://thechime.netlify.app/Half Inji - Untz Untz.mp3",
+     timeCategory: "evening"
+},
+
+
+
+
+
+
+{
+     name: " She Can't Love You",
+    artist: "Chemise ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Chemise - She Can't Love You.mp3",
+     timeCategory: "evening"
+},
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/sunny dance jingle.mp3",
+     timeCategory: "evening"
+
+
+},
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/Female Dj4.mp3",
+      timeCategory: "evening"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "    She 's On My Mind",
+    artist: "Romy  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Romy - She 's On My Mind.mp3",
+      timeCategory: "evening"
+},
+
+
+
+
+{
+    name: "Keep On Moving",
+    artist: "Kastuvas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/kastuvas - Keep on moving.mp3",
+       timeCategory: "evening"
+},
+
+
+
+
+
+
+{
+    name: " Feed Them",
+    artist: "Kelis",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Kelis - Feed Them.mp3",
+        timeCategory: "evening"
+},
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/Female Dj6.mp3",
+      timeCategory: "evening"
+},
+
+{
+    name: " Just An Illusion (12inch)",
+    artist: "Imagination ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Imagination - Just an Illusion 1982.mp3",
+  
+
+
+        timeCategory: "evening"
+},
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance radio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle1.mp3",
+          timeCategory: "evening"
+},
+
+
+
+{
+    name: "What You Waiting For",
+    artist: "Gwen Stefani ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://Sunnydanceoldies04.netlify.app/Gwen Stefani - What you waiting for.mp3",
+           timeCategory: "evening"
+},
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/sunny dance jingle.mp3",
+   timeCategory: "evening"
+
+
+},
 
 
 
