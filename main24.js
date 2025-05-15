@@ -33,9 +33,9 @@ function getCurrentTimeCategory() {
   const currentHour = new Date().getHours();
   if (currentHour >= 7 && currentHour < 12) {
     return "evening-late"; // Corrected order
-  } else if (currentHour >= 12 && currentHour < 18) {
+  } else if (currentHour >= 12 && currentHour < 17) {
     return "morning";
-  } else if (currentHour >= 18 && currentHour < 21) {
+  } else if (currentHour >= 17 && currentHour < 21) {
     return "afternoon";
 
 
