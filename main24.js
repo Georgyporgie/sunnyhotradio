@@ -7685,326 +7685,6 @@ let trackList = [
 
 
 
-{
-    name: "Real Groove",
-    artist: "Kylie Minogue",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Kylie Minogue -Real Groove.mp3",
-  
-
-
-    timeCategory: "evening-late"
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet3.mp3",
-     timeCategory: "evening-late"
-},
-
-
-
-
-
-
-
-{
-    name: "Life For The Weekend",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Life for the weekend- Jingle.mp3",
-     timeCategory: "evening-late"
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle3.mp3",
-    timeCategory: "evening-late"
-},
-
-
-
-
-
-
-{
-    name: "Chillhouse Del Mar",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/chillhouse del mar04.mp3",
-    timeCategory: "evening-late"
-},
-
-
-
-
-
-
-
-
-
-{
-     name: "  Gangsta's Paradise",
-    artist: "Tink  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Tink - Gangsta's Paradise.mp3",
-      timeCategory: "evening-late"
-},
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle4.mp3",
-      timeCategory: "evening-late"
-},
-
-
-
-
-
-{
-    name: "Just For You ",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/sunny ship/radio dj - just for you.mp3",
-  },
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny dance jingle.mp3",
-    timeCategory: "evening-late"
-},
-
-
-
-{
-    name: "  Work With You Love ",
-    artist: "Alok    ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Alok - Work With You Love.mp3",
-    timeCategory: "evening-late"
-},
-
-
-
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/sunny ship/radio dj - just for you.mp3",
-     timeCategory: "evening-late"
-},
-
-
-
-
-
-
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle4.mp3",
-  },
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: "Just For You ",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/40 in jingle.mp3",
-        timeCategory: "evening-late"
-},
-
-
-{
-    name: "Suburbia",
-    artist: "Tove Lo ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Tove Lo - Suburbia.mp3",
-       timeCategory: "evening-late"
-},
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/nos journaal 11.mp3",
-  
-
-
-      timeCategory: "evening-late"
-},
-
-{
-    name: "Grandmaster Flash ",
-    artist: "White  Lines ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies01.netlify.app/White  Lines - Grandmaster Flash & the furious five.mp3",
-      timeCategory: "evening-late"
-},
-
-{
-    name: "Just For You ",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/reklame/reklame1.mp3",
-      timeCategory: "evening-late"
-},
-
-
-{
-    name: "Just For You ",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet4.mp3",
-        timeCategory: "evening-late"
-},
-
-
-
-{
-    name: "Sunday Night",
-    artist: "Holy Molly x Lizot ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Holy Molly x Lizot - Sunday Night.mp3",
-       timeCategory: "evening-late"
-},
-
-
-
-
-
-
 
 
 
@@ -8014,63 +7694,6 @@ let trackList = [
     artist: "Listen Live Sunny Danceradio ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj2.mp3",
-       timeCategory: "evening-late"
-},
-
-{
-     name: " Free Yourself",
-    artist: "Jessie Ware  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Jessie Ware - Free Yourself.mp3",
-        timeCategory: "evening-late"
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: " I Am The Drama  ",
-    artist: "Bebe Rexha  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic07.netlify.app/Bebe Rexha - I Am The Drama.mp3",
-  
-      timeCategory: "evening-late"
-},
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle.mp3",
-      timeCategory: "evening-late"
-},
-
-
-
-
-
-
-
-
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj5.mp3",
       timeCategory: "evening-late"
 },
 
@@ -8093,6 +7716,46 @@ let trackList = [
 
 
 
+
+{
+    name: " SevenStars (Dragonfighters)",
+    artist: "Quazar  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Quazar - SevenStars (Dragonfighters).mp3",
+    timeCategory: "evening-late"
+},
+
+
+
+
+{
+    name: " Girls On My Mind (1985) ",
+    artist: "Fatback ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Fatback - Girls On My Mind.mp3",
+  timeCategory: "evening-late"
+},
+
+
+
+
+
+{
+    name: " Backstrokin'(1980) ",
+    artist: "Fatback ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Fatback - Backstrokin'.mp3",
+  timeCategory: "evening-late"
+},
+
+
+{
+    name: "Ain't Nothing Goin'  (1986)",
+    artist: "Gwen Guthrie  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Gwen Guthrie- Ain't Nothing Goin' On But The Rent.mp3",
+  timeCategory: "evening-late"
+},
 
 
 
@@ -10356,46 +10019,6 @@ timeCategory: "evening-late"
 
 
 
-{
-    name: " SevenStars (Dragonfighters)",
-    artist: "Quazar  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Quazar - SevenStars (Dragonfighters).mp3",
-    timeCategory: "evening-late"
-},
-
-
-
-
-{
-    name: " Girls On My Mind (1985) ",
-    artist: "Fatback ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Fatback - Girls On My Mind.mp3",
-  timeCategory: "evening-late"
-},
-
-
-
-
-
-{
-    name: " Backstrokin'(1980) ",
-    artist: "Fatback ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Fatback - Backstrokin'.mp3",
-  timeCategory: "evening-late"
-},
-
-
-{
-    name: "Ain't Nothing Goin'  (1986)",
-    artist: "Gwen Guthrie  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Gwen Guthrie- Ain't Nothing Goin' On But The Rent.mp3",
-  timeCategory: "evening-late"
-},
-
 
 
 
@@ -10520,6 +10143,384 @@ timeCategory: "evening-late"
 
 
 
+
+
+
+
+{
+    name: "Real Groove",
+    artist: "Kylie Minogue",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Kylie Minogue -Real Groove.mp3",
+  
+
+
+    timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet3.mp3",
+     timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+{
+    name: "Life For The Weekend",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Life for the weekend- Jingle.mp3",
+     timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+    timeCategory: "evening-late"
+},
+
+
+
+
+
+
+{
+    name: "Chillhouse Del Mar",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/chillhouse del mar04.mp3",
+    timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+{
+     name: "  Gangsta's Paradise",
+    artist: "Tink  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/Tink - Gangsta's Paradise.mp3",
+      timeCategory: "evening-late"
+},
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle4.mp3",
+      timeCategory: "evening-late"
+},
+
+
+
+
+
+{
+    name: "Just For You ",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you.mp3",
+  },
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny dance jingle.mp3",
+    timeCategory: "evening-late"
+},
+
+
+
+{
+    name: "  Work With You Love ",
+    artist: "Alok    ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/Alok - Work With You Love.mp3",
+    timeCategory: "evening-late"
+},
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you.mp3",
+     timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance Radio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle4.mp3",
+     timeCategory: "evening-late"
+},
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Just For You ",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/40 in jingle.mp3",
+        timeCategory: "evening-late"
+},
+
+
+{
+    name: "Suburbia",
+    artist: "Tove Lo ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/Tove Lo - Suburbia.mp3",
+       timeCategory: "evening-late"
+},
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/nos journaal 11.mp3",
+  
+
+
+      timeCategory: "evening-late"
+},
+
+{
+    name: "Grandmaster Flash ",
+    artist: "White  Lines ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/White  Lines - Grandmaster Flash & the furious five.mp3",
+      timeCategory: "evening-late"
+},
+
+{
+    name: "Just For You ",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/reklame/reklame1.mp3",
+      timeCategory: "evening-late"
+},
+
+
+{
+    name: "Just For You ",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet4.mp3",
+        timeCategory: "evening-late"
+},
+
+
+
+{
+    name: "Sunday Night",
+    artist: "Holy Molly x Lizot ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Holy Molly x Lizot - Sunday Night.mp3",
+       timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj2.mp3",
+       timeCategory: "evening-late"
+},
+
+{
+     name: " Free Yourself",
+    artist: "Jessie Ware  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Jessie Ware - Free Yourself.mp3",
+        timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: " I Am The Drama  ",
+    artist: "Bebe Rexha  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Bebe Rexha - I Am The Drama.mp3",
+  
+      timeCategory: "evening-late"
+},
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance radio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+      timeCategory: "evening-late"
+},
 
 
 
