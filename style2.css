@@ -582,7 +582,7 @@ animation: blinker 1s step-start infinite;
   }
 }
 
-#astro {  filter: brightness(120%) saturate(110%) contrast(115%) opacity(60%); width: 32px; height: 30px; transform: rotate(-90deg); z-index: -334; display: block; margin: auto auto auto auto;
+#astro {  filter: brightness(120%) saturate(110%) contrast(115%) opacity(60%); width: 32px; height: 30px; transform: rotate(-90deg); z-index: 100; display: block; margin: auto auto auto auto;
 }
 
 
