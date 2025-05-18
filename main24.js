@@ -42,7 +42,7 @@ function getCurrentTimeCategory() {
 
 
 } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-    return "afternoon"; // Fix for wrapping around midnight
+    return "evening-late"; // Fix for wrapping around midnight
   } else if (currentHour >= 3 && currentHour < 7) {
     return "jingle-time";
   } else {
