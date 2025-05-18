@@ -34,7 +34,7 @@ function getCurrentTimeCategory() {
   if (currentHour >= 7 && currentHour < 12) {
     return "evening-late"; // Corrected order
   } else if (currentHour >= 12 && currentHour < 17) {
-    return "afternoon";
+    return "morning";
   } else if (currentHour >= 17 && currentHour < 21) {
     return "evening";
 
@@ -6316,6 +6316,14 @@ let trackList = [
 
 
 
+{
+     name: "Jazz Carnaval",
+    artist: "Azymuth",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://sunnydanceoldies08.netlify.app/Azymuth - Jazz carnaval.mp3",
+ timeCategory: "evening"
+
+},
 
 
 
@@ -7179,6 +7187,7 @@ let trackList = [
     path: "https://sunnydancemusic04.netlify.app/MO - Goosebumps.mp3",
        timeCategory: "evening"
 },
+
 
 
 
