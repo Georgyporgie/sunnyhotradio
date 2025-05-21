@@ -351,7 +351,7 @@ h6  {  font-size: 20px; color: white; font-family: Arial ,Helvetica,sans-serif; 
 
 #marquee {
   display:block; 
- 
+ z-index: -300;
   width: 250px;border-radius: 5px;
   margin: 0 auto -17px;
   overflow: hidden;font-size:15px;
