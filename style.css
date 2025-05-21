@@ -451,7 +451,7 @@ a { color: black;
         border-radius: 3px;
         cursor: pointer;
 filter:opacity(75%);
-   z-index: -200;
+   z-index: -600;
     }
 
     .btn span {
