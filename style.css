@@ -114,13 +114,13 @@ text-align: center;
 
 
 #luister {   width:100px; height: 30px; border-radius: 5px;
-   z-index: -100; float: right; margin-left: 30px; transform:rotate(1deg);
+   z-index: -200; float: right; margin-left: 30px; transform:rotate(1deg);
  filter:brightness(100%)saturation(100%) contrast(100%) opacity(45%); 
 }
 
 
 #geeks {   width:90px; height: 90px; 
-   z-index: -300;  margin-left: 40px; transform:rotate(-10deg);
+   z-index: -400;  margin-left: 40px; transform:rotate(-10deg);
  filter:brightness(100%) saturation(100%) contrast(100%) opacity(45%); 
 }
 
@@ -194,7 +194,7 @@ display: none;
 
 #mimo {   width:100px; height: 40px; border-radius: 5px; transform:rotate(-1deg);
    z-index: -500; float: right; margin-top: 50px; 
- filter:brightness(102%) saturation(105%) contrast(120%) opacity(55%); margin-left: -80px;
+ filter:brightness(100%) saturation(100%) contrast(100%) opacity(45%); margin-left: -80px;
 }
 
 
