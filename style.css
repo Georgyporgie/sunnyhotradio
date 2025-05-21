@@ -365,7 +365,7 @@ height: 40px;
 #marquee span {
   display: inline-block; 
   font-size: 15px;font-family: Arial ,Helvetica,sans-serif;
-  position: relative; color: black;
+  position: relative; color: #FF0000;
   left: 100%;
   animation: marquee 8s linear infinite;
 
