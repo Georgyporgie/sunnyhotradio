@@ -270,8 +270,10 @@ box-shadow: 0 0 15px rgba(255, 0, 0, 0.5) ; border-radius: 3px;
 }
 
 
-#med  {    width: 120px;  height:120px;filter: brightness(100%) saturate(100%) contrast(100%) opacity(100%); transform: rotate(0deg); z-index: -100; display: block; margin: auto auto auto auto;  border: solid 1px white; box-shadow: 0 0 15px rgba(255, 0, 0, 0.5)
-}
+#med  {    width: 120px;  height:120px;filter: brightness(100%) saturate(100%) contrast(100%) opacity(100%); transform: rotate(0deg); z-index: -100; display: block; margin: auto auto auto auto;  border: solid 1px white; box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+border-radius: 3px;
+      }
+
 
 
 #ion  {     width: 125px;  height:125px;filter: brightness(110%) saturate(115%) contrast(110%) opacity(75%); transform: rotate(0deg); z-index: 0; display: block; margin: auto auto auto auto; transform: rotate(0deg); 
