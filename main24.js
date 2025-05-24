@@ -35,13 +35,13 @@ function getCurrentTimeCategory() {
     return "afternoon"; // Corrected order
   } else if (currentHour >= 12 && currentHour < 17) {
     return "morning";
-  } else if (currentHour >= 17 && currentHour < 21) {
+  } else if (currentHour >= 17 && currentHour < 22) {
     return "evening";
 
 
 
 
-} else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
+} else if ((currentHour >= 22 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
     return "evening-late"; // Fix for wrapping around midnight
   } else if (currentHour >= 3 && currentHour < 7) {
     return "jingle-time";
