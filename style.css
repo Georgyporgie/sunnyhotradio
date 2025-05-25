@@ -316,7 +316,7 @@ display: block; margin: auto auto auto auto; z-index: -210;font-size: 28px;color
 float: right; margin-right: 20px;z-index: -210;font-size: 20px;color:crimson; border-radius: 3px;background-color: black;padding: 5px 5px 0px 5px;
 }
 
-#studio  {  display: block; margin: auto auto auto auto;     filter:brightness(110%) saturation(110%) contrast(110%) opacity(75%);width: 275px; height: 185px; margin-right: -5px;  border: solid #FF0000 1px; z-index: 200; border-radius: 5px;  display: block;  
+#studio  {  display: block; margin: auto auto auto auto;     filter:brightness(110%) saturation(110%) contrast(110%) opacity(75%);width: 285px; height: 185px; margin-right: -5px;  border: solid #FF0000 1px; z-index: 200; border-radius: 5px;  display: block;  
 }
 
 
