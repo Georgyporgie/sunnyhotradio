@@ -1,0 +1,75 @@
+@keyframes gradientShift {
+    0% { background: linear-gradient(to right, #1e3c72, #2a5298); }
+    50% { background: linear-gradient(to right, #2a5298, #1e3c72); }
+    100% { background: linear-gradient(to right, #1e3c72, #2a5298); }
+}
+
+body {
+    animation: gradientShift 10s infinite alternate;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes gradientCycle {
+    0% { background: linear-gradient(to right, #1e3c72, #2a5298, #ff6b6b, #f4a261); }
+    25% { background: linear-gradient(to right, #2a5298, #ff6b6b, #f4a261, #1e3c72); }
+    50% { background: linear-gradient(to right, #ff6b6b, #f4a261, #1e3c72, #2a5298); }
+    75% { background: linear-gradient(to right, #f4a261, #1e3c72, #2a5298, #ff6b6b); }
+    100% { background: linear-gradient(to right, #1e3c72, #2a5298, #ff6b6b, #f4a261); }
+}
+
+
+
+
+body {
+    animation: gradientCycle 12s infinite alternate;
+    background-size: 400% 400%; /* Smooth transitions */
+    transition: background 1s ease-in-out;
+}
+
+
+
+
+
+
+@keyframes pastelFlow {
+    0% { background: linear-gradient(to right, #f9e5e5, #ffdab9, #b4d7ff, #d4f1c5); }
+    50% { background: linear-gradient(to right, #ffd3b6, #b5e2f2, #c4f5c2, #e0c3fc); }
+    100% { background: linear-gradient(to right, #f9e5e5, #ffdab9, #b4d7ff, #d4f1c5); }
+}
+
+body {
+    animation: pastelFlow 14s infinite alternate;
+    background-size: 400% 400%;
+    transition: background 1s ease-in-out;
+}
+
+
+
+
+@keyframes softWaterFlow {
+    0% { background: linear-gradient(to right, #f5f7fa, #dbeafe, #cce8ff, #e3f4ff); }
+    50% { background: linear-gradient(to right, #edf6fd, #daeaf6, #c3e2f8, #dff4ff); }
+    100% { background: linear-gradient(to right, #f5f7fa, #dbeafe, #cce8ff, #e3f4ff); }
+}
+
+body {
+    animation: softWaterFlow 16s infinite alternate;
+    background-size: 400% 400%;
+    transition: background 1s ease-in-out;
+}
+
+
+

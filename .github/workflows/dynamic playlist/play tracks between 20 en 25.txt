@@ -1,0 +1,47 @@
+// Sample tracklist with year labels
+let tracklist = [
+  {
+    title: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/starten_met_Sunny.mp3",
+    year: 2025,
+    timeCategory: "morning"
+  },
+  {
+    title: "Retro Groove",
+    artist: "Classic Beats",
+    image: "https://i.ibb.co/sJ5r0mF/retro.png",
+    path: "muziek/classics/retro_groove.mp3",
+    year: 2010,
+    timeCategory: "evening"
+  },
+  {
+    title: "Future Vibes",
+    artist: "Next Gen Sound",
+    image: "https://i.ibb.co/tM1L7qQ/future.png",
+    path: "muziek/fresh/future_vibes.mp3",
+    year: 2005,
+    timeCategory: "afternoon"
+  },
+  {
+    title: "Throwback Beats",
+    artist: "Old School Legends",
+    image: "https://i.ibb.co/XYZ123/throwback.png",
+    path: "muziek/throwbacks/classic_jams.mp3",
+    year: 1999, // Should be excluded
+    timeCategory: "night"
+  }
+];
+
+// Function to filter tracks between 2000 and 2025
+function getFilteredPlaylist(tracks) {
+  return tracks.filter(track => {
+    const year = parseInt(track.year);
+    return year >= 2000 && year <= 2025; // Only allow tracks within this range
+  });
+}
+
+// Get the final filtered playlist
+const filteredPlaylist = getFilteredPlaylist(tracklist);
+console.log(filteredPlaylist); // Displays only valid tracks for playback
