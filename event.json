@@ -6,21 +6,21 @@
     {"time": "21:00 - 03:00", "event": "Georgies Disco Party"}
   ],
   
-  "2025-05-23": [
+  "2025-05-30": [
     {"time": "03:00 - 12:00", "event": "Morning Disco"},
     {"time": "12:00 - 17:00", "event": "DJ'S Disco Event"},
-    {"time": "17:00 - 21:00", "event": "DJ'S Disco Party"},
+    {"time": "17:00 - 21:00", "event": "Miss Monique"},
     {"time": "21:00 - 03:00", "event": "Miss Monique Live!"}
   ],
 
-  "2025-05-24": [
+  "2025-05-31": [
     {"time": "03:00 - 12:00", "event": "Morning Disco"},
     {"time": "12:00 - 17:00", "event": "DJ'S Disco Event"},
-    {"time": "17:00 - 21:00", "event": "DJ'S Disco Party"},
+    {"time": "17:00 - 21:00", "event": "Miss Monique Disco Party"},
     {"time": "21:00 - 03:00", "event": "Miss Monique Live!"}
   ],
  
-  "2025-05-25": [
+  "2025-06-01": [
     {"time": "03:00 - 12:00", "event": "Sunday Dancin'!"},
     {"time": "12:00 - 17:00", "event": "Miss Monique Live!"},
     {"time": "17:00 - 21:00", "event": "Miss Monique Dance Party"},
