@@ -32,7 +32,7 @@ function displayMessage() {
 function getCurrentTimeCategory() {
   const currentHour = new Date().getHours();
   if (currentHour >= 8 && currentHour < 12) {
-    return "afternoon"; // Corrected order
+    return "morning"; // Corrected order
   } else if (currentHour >= 12 && currentHour < 17) {
     return "afternoon";
   } else if (currentHour >= 17 && currentHour < 21) {
@@ -42,7 +42,7 @@ function getCurrentTimeCategory() {
 
 
 } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-    return "afternoon"; // Fix for wrapping around midnight
+    return "evening"; // Fix for wrapping around midnight
   } else if (currentHour >= 3 && currentHour < 7) {
     return "jingle-time";
   } else {
