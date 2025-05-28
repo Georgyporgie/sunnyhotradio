@@ -1119,9 +1119,50 @@ function myFunction() {
 }
 </script>
 
+<script>
+function generateSchedule() {
+    const today = new Date();
+    const schedule = {};
+    const weekendDays = [5, 6, 0]; // Friday (5), Saturday (6), Sunday (0)
+    
+    const events = {
+        5: [ // Friday
+            { time: "03:00 - 12:00", event: "Morning Disco" },
+            { time: "12:00 - 17:00", event: "DJ'S Disco Event" },
+            { time: "17:00 - 21:00", event: "DJ'S Disco Party" },
+            { time: "21:00 - 03:00", event: "Miss Monique Live!" }
+        ],
+        6: [ // Saturday
+            { time: "03:00 - 12:00", event: "Morning Disco" },
+            { time: "12:00 - 17:00", event: "DJ'S Disco Event" },
+            { time: "17:00 - 21:00", event: "DJ'S Disco Party" },
+            { time: "21:00 - 03:00", event: "Miss Monique Live!" }
+        ],
+        0: [ // Sunday
+            { time: "03:00 - 12:00", event: "Sunday Dancin'!" },
+            { time: "12:00 - 17:00", event: "Miss Monique Live!" },
+            { time: "17:00 - 21:00", event: "Miss Monique Dance Party" },
+            { time: "21:00 - 03:00", event: "DJ'S Disco Party" }
+        ]
+    };
 
+    for (let i = 1; i <= 7; i++) {
+        let date = new Date();
+        date.setDate(today.getDate() + i);
+        let dayOfWeek = date.getDay();
 
+        if (weekendDays.includes(dayOfWeek)) {
+            schedule[date.toISOString().split("T")[0]] = events[dayOfWeek];
+        }
+    }
 
+    return schedule;
+}
+
+// Example execution
+console.log(JSON.stringify(generateSchedule(), null, 2));
+
+</script>
 
 
 
