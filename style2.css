@@ -613,7 +613,7 @@ color: #000080; z-index: 200; text-align: center; font-family: myEvent; padding:
 #now  {
 color: #414a4c;
 
-  ; z-index: -250; text-align: center; font-family: myMuss;  font-size: 15px; font-weight:300;background:linear-gradient(90deg,#414a4c,#d6d6d6,#e0e0e0);padding: 5px 5px 5px 5px;
+  ; z-index: -250; text-align: center; font-family: myMuss;  font-size: 15px; font-weight:300;background:linear-gradient(90deg,#CCCCCC,#d6d6d6,#e0e0e0);padding: 5px 5px 5px 5px;
 transition: all 0.3s ease-in-out; border-radius:5px;
 
 
