@@ -32,9 +32,9 @@ function displayMessage() {
 function getCurrentTimeCategory() {
   const currentHour = new Date().getHours();
   if (currentHour >= 8 && currentHour < 12) {
-    return "morning"; // Corrected order
+    return "evening"; // Corrected order
   } else if (currentHour >= 12 && currentHour < 17) {
-    return "evening";
+    return "morning";
   } else if (currentHour >= 17 && currentHour < 21) {
     return "evening-late";
 
