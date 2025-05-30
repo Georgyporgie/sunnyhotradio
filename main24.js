@@ -16536,13 +16536,7 @@ timeCategory: "f evening"
 
 
 
-{
-    name: " Megamix 2023",
-    artist:  "Purple Disco Machine  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_05.mp3",
-   timeCategory: "f evening-late"
-},
+
 
 
 {
