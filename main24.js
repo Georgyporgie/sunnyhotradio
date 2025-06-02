@@ -24,12 +24,12 @@ function displayMessage() {
 
 
 
-
-
 function getCurrentTimeCategory() {
   const currentHour = new Date().getHours();
   const currentDay = new Date().getDay();
-  const isWeekend = currentDay === 0 || currentDay === 5 || currentDay === 6; // Saturday or Sunday and Friday
+
+  // Weekend starts at Friday 18:00
+  const isWeekend = (currentDay === 5 && currentHour >= 18) || currentDay === 6 || currentDay === 0;
 
   let category;
 
@@ -53,9 +53,9 @@ function getCurrentTimeCategory() {
     if (currentHour >= 8 && currentHour < 12) {
       category = "morning";
     } else if (currentHour >= 12 && currentHour < 17) {
-      category = "afternoon";
-    } else if (currentHour >= 17 && currentHour < 21) {
       category = "evening";
+    } else if (currentHour >= 17 && currentHour < 21) {
+      category = "afternoon";
     } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
       category = "evening-late";
     } else if (currentHour >= 3 && currentHour < 7) {
@@ -67,6 +67,7 @@ function getCurrentTimeCategory() {
 
   return category;
 }
+
 
 
 
