@@ -51,9 +51,9 @@ function getCurrentTimeCategory() {
   } else {
     // Weekday-specific dayparts
     if (currentHour >= 8 && currentHour < 12) {
-      category = "afternoon";
-    } else if (currentHour >= 12 && currentHour < 17) {
       category = "morning";
+    } else if (currentHour >= 12 && currentHour < 17) {
+      category = "afternoon";
     } else if (currentHour >= 17 && currentHour < 21) {
       category = "evening";
     } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
