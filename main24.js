@@ -22,50 +22,158 @@ function displayMessage() {
 
 
 
-
-
 function getCurrentTimeCategory() {
-  const currentHour = new Date().getHours();
-  const currentDay = new Date().getDay();
-
-  // Weekend starts at Friday 18:00
-  const isWeekend = (currentDay === 5 && currentHour >= 18) || currentDay === 6 || currentDay === 0;
+  const now = new Date();
+  const currentHour = now.getHours();
+  const currentDay = now.getDay();
 
   let category;
 
-  if (isWeekend) {
-    // Weekend-specific dayparts
-    if (currentHour >= 8 && currentHour < 12) {
-      category = "f morning";
-    } else if (currentHour >= 12 && currentHour < 17) {
-      category = "f afternoon";
-    } else if (currentHour >= 17 && currentHour < 21) {
-      category = "f evening-late";
-    } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-      category = "f evening";
-    } else if (currentHour >= 3 && currentHour < 7) {
-      category = "f morning";
-    } else {
-      category = "afternoon"; 
-    }
-  } else {
-    // Weekday-specific dayparts
-    if (currentHour >= 8 && currentHour < 12) {
-      category = "morning";
-    } else if (currentHour >= 12 && currentHour < 17) {
-      category = "afternoon";
-    } else if (currentHour >= 17 && currentHour < 21) {
-      category = "evening";
-    } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-      category = "evening-late";
-    } else if (currentHour >= 3 && currentHour < 7) {
-      category = "jingle-time";
-    } else {
-      category = "morning"; 
-    }
+  switch (currentDay) {
+    case 0: // Sunday
+      if (currentHour >= 8 && currentHour < 12) {
+        category = "f morning";
+      } else if (currentHour >= 12 && currentHour < 17) {
+        category = "f afternoon";
+      } else if (currentHour >= 17 && currentHour < 21) {
+        category = "f evening-late";
+      } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
+        category = "f evening";
+      } else {
+        category = "f morning";
+      }
+      break;
+      
+    case 1: // Monday
+      if (currentHour >= 8 && currentHour < 12) {
+        category = "morning";
+      } else if (currentHour >= 12 && currentHour < 17) {
+        category = "evening";
+      } else if (currentHour >= 17 && currentHour < 21) {
+        category = "afternoon";
+      } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
+        category = "evening-late";
+      } else {
+        category = "jingle-time";
+      }
+      break;
+
+    case 2: // Tuesday
+      if (currentHour >= 8 && currentHour < 12) {
+        category = "morning";
+      } else if (currentHour >= 12 && currentHour < 17) {
+        category = "evening";
+      } else if (currentHour >= 17 && currentHour < 21) {
+        category = "afternoon";
+      } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
+        category = "evening-late";
+      } else {
+        category = "jingle-time";
+      }
+      break;
+
+    case 3: // Wednesday
+      if (currentHour >= 8 && currentHour < 12) {
+        category = "morning";
+      } else if (currentHour >= 12 && currentHour < 17) {
+        category = "afternoon";
+      } else if (currentHour >= 17 && currentHour < 21) {
+        category = "evening-late";
+      } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
+        category = "evening";
+      } else {
+        category = "jingle-time";
+      }
+      break;
+
+    case 4: // Thursday
+      if (currentHour >= 8 && currentHour < 12) {
+        category = "morning";
+      } else if (currentHour >= 12 && currentHour < 17) {
+        category = "evening";
+      } else if (currentHour >= 17 && currentHour < 21) {
+        category = "evening-late";
+      } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
+        category = "afternoon";
+      } else {
+        category = "jingle-time";
+      }
+      break;
+
+    case 5: // Friday
+      if (currentHour >= 8 && currentHour < 12) {
+        category = "evening";
+      } else if (currentHour >= 12 && currentHour < 17) {
+        category = "morning";
+      } else if (currentHour >= 17 && currentHour < 21) {
+        category = "afternoon";
+      } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
+        category = "evening-late";
+      } else {
+        category = "jingle-time";
+      }
+      break;
+
+    case 6: // Saturday
+      if (currentHour >= 8 && currentHour < 12) {
+        category = "f morning";
+      } else if (currentHour >= 12 && currentHour < 17) {
+        category = "f afternoon";
+      } else if (currentHour >= 17 && currentHour < 21) {
+        category = "f evening-late";
+      } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
+        category = "f evening";
+      } else {
+        category = "f morning";
+      }
+      break;
+
+    default:
+      category = "unknown"; // Fallback case
   }
 
   return category;
+
+
+ // Function to shuffle array uniquely for each day
+  function shuffle(array, seed) {
+    let shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = (seed + i * 17) % shuffled.length;
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  }
+
+  // Define categories for each day and shuffle them
+  const categoriesPerDay = {
+    0: shuffle(["f morning", "f afternoon", "f evening-late", "f evening"], 0), // Sunday
+    1: shuffle(["morning", "afternoon", "evening", "evening-late"], 1), // Monday
+    2: shuffle(["morning", "afternoon", "evening", "evening-late"], 2), // Tuesday
+    3: shuffle(["morning", "afternoon", "evening-late", "evening"], 3), // Wednesday
+    4: shuffle(["morning", "evening", "evening-late", "afternoon"], 4), // Thursday
+    5: shuffle(["f evening", "f morning", "f afternoon", "f evening-late"], 5), // Friday
+    6: shuffle(["f morning", "f afternoon", "f evening-late", "f evening"], 6)  // Saturday
+  };
+
+  const shuffledCategories = categoriesPerDay[currentDay];
+
+  // Assign shuffled categories based on time slots
+  if (currentHour >= 8 && currentHour < 12) {
+    category = shuffledCategories[0];
+  } else if (currentHour >= 12 && currentHour < 17) {
+    category = shuffledCategories[1];
+  } else if (currentHour >= 17 && currentHour < 21) {
+    category = shuffledCategories[2];
+  } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
+    category = shuffledCategories[3];
+  } else {
+    category = shuffledCategories[4]; // Early morning
+  }
+
+
+
+
 }
 
 
@@ -11707,6 +11815,197 @@ timeCategory: "morning"
 
 
 
+{
+    name: "   The Love Parade  ",
+    artist: "Da Hool ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Da Hool - Meet Her At The Love Parade.mp3",
+    timeCategory: "evening-late"
+},
+
+
+ 
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you333.mp3",
+    timeCategory: "evening-late"
+},
+
+
+
+
+
+
+{
+    name: "   Break My Soul  ",
+    artist: "Beyonce ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/Beyoncé - Break My Soul.mp3",
+     timeCategory: "evening-late"
+},
+
+
+
+
+
+ {
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you.mp3",
+      timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "What Is Love",
+    artist: "Deeelite ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Deeelite - What Is Love.mp3",
+     timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+{
+    name: "  Back In Time",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/back in time jingle.mp3",
+      timeCategory: "evening-late"
+},
+
+
+
+
+
+{
+    name: "  Theme From S Express",
+    artist: "S Express ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/S Express - Theme From S Express.mp3",
+     timeCategory: "evening-late"
+},
+
+
+
+
+{
+    name: "Body Motion",
+    artist: "Sadomasy  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Sadomasy - Body Motion.mp3",
+     timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/sunny dance jingle.mp3",
+     timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  
+    name: "Good Form",
+    artist: "Nicki Minaj ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Nicki Minaj - Good Form.mp3",
+     timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet5.mp3",
+     timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+{
+    name: " Poker Face",
+    artist: "Lady Gaga  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Lady Gaga - Poker face.mp3",
+     timeCategory: "evening-late"
+},
+
+
+ 
+{
+    name: "Just For You ",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you.mp3",
+      timeCategory: "evening-late"
+},
+
+
+
 
 
 
@@ -11741,6 +12040,129 @@ timeCategory: "morning"
 
 
   
+{
+    name: "     Young Hearts  (classic)  ",
+    artist: "Candi Station ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Candi Station - Young Hearts Run Free.mp3",
+      timeCategory: "evening-late"
+},
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet3.mp3",
+       timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+      timeCategory: "evening-late"
+},
+
+{
+    name:  "Vibe Like This",
+    artist: "SG Lewis ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/SG Lewis - Vibe Like This.mp3",
+  
+
+
+      timeCategory: "evening-late"
+},
+
+
+{
+    name: "Just For You ",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you.mp3",
+      timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/40 in jingle22.mp3",
+      timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/sunny dance jingle.mp3",
+      timeCategory: "evening-late"
+},
+
+
+
+
 
 
 
@@ -11765,8 +12187,8 @@ timeCategory: "morning"
     artist: "Daft Punk  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://Sunnydanceoldies04.netlify.app/Daft Punk - One More Time.mp3",
-  },
-
+      timeCategory: "evening-late"
+},
 
 
 
@@ -11778,7 +12200,8 @@ timeCategory: "morning"
     artist: "Luther Vandross ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://Sunnydanceoldies04.netlify.app/Luther Vandross & Janet Jackson - Best things in life are free.mp3",
-  },
+      timeCategory: "evening-late"
+},
 
 
 
@@ -11791,7 +12214,8 @@ timeCategory: "morning"
     artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny radio jingle3.mp3",
-  },
+      timeCategory: "evening-late"
+},
 
 
 
