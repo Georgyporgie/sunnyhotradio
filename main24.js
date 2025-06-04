@@ -11814,258 +11814,6 @@ timeCategory: "morning"
 
 
 
-{
-    name: "   The Love Parade  ",
-    artist: "Da Hool ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Da Hool - Meet Her At The Love Parade.mp3",
-    timeCategory: "evening-late"
-},
-
-
- 
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/sunny ship/radio dj - just for you333.mp3",
-    timeCategory: "evening-late"
-},
-
-
-
-
-
-
-{
-    name: "   Break My Soul  ",
-    artist: "Beyonce ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Beyoncé - Break My Soul.mp3",
-     timeCategory: "evening-late"
-},
-
-
-
-
-
- {
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/sunny ship/radio dj - just for you.mp3",
-      timeCategory: "evening-late"
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: "What Is Love",
-    artist: "Deeelite ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Deeelite - What Is Love.mp3",
-     timeCategory: "evening-late"
-},
-
-
-
-
-
-
-
-
-
-
-{
-    name: "  Back In Time",
-    artist: "Sunny",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/back in time jingle.mp3",
-      timeCategory: "evening-late"
-},
-
-
-
-
-
-{
-    name: "  Theme From S Express",
-    artist: "S Express ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/S Express - Theme From S Express.mp3",
-     timeCategory: "evening-late"
-},
-
-
-
-
-{
-    name: "Body Motion",
-    artist: "Sadomasy  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Sadomasy - Body Motion.mp3",
-     timeCategory: "evening-late"
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/sunny dance jingle.mp3",
-     timeCategory: "evening-late"
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-  
-    name: "Good Form",
-    artist: "Nicki Minaj ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Nicki Minaj - Good Form.mp3",
-     timeCategory: "evening-late"
-},
-
-
-
-
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
-     timeCategory: "evening-late"
-},
-
-
-
-
-
-
-
-
-
-
-{
-    name: " Poker Face",
-    artist: "Lady Gaga  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Lady Gaga - Poker face.mp3",
-     timeCategory: "evening-late"
-},
-
-
- 
-{
-    name: "Just For You ",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/sunny ship/radio dj - just for you.mp3",
-      timeCategory: "evening-late"
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj5.mp3",
-      timeCategory: "evening-late"
-},
-
-
-  
-{
-    name: "     Young Hearts  (classic)  ",
-    artist: "Candi Station ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Candi Station - Young Hearts Run Free.mp3",
-      timeCategory: "evening-late"
-},
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet3.mp3",
-       timeCategory: "evening-late"
-},
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -13513,6 +13261,258 @@ timeCategory: "evening-late"
     path: "https://sunnydanceoldies04.netlify.app/Michael Gray - The weekend.mp3",
      timeCategory: "evening-late"
 },
+
+
+
+
+{
+    name: "   The Love Parade  ",
+    artist: "Da Hool ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Da Hool - Meet Her At The Love Parade.mp3",
+    timeCategory: "evening-late"
+},
+
+
+ 
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you333.mp3",
+    timeCategory: "evening-late"
+},
+
+
+
+
+
+
+{
+    name: "   Break My Soul  ",
+    artist: "Beyonce ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/Beyoncé - Break My Soul.mp3",
+     timeCategory: "evening-late"
+},
+
+
+
+
+
+ {
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you.mp3",
+      timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "What Is Love",
+    artist: "Deeelite ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Deeelite - What Is Love.mp3",
+     timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+{
+    name: "  Back In Time",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/back in time jingle.mp3",
+      timeCategory: "evening-late"
+},
+
+
+
+
+
+{
+    name: "  Theme From S Express",
+    artist: "S Express ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/S Express - Theme From S Express.mp3",
+     timeCategory: "evening-late"
+},
+
+
+
+
+{
+    name: "Body Motion",
+    artist: "Sadomasy  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Sadomasy - Body Motion.mp3",
+     timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/sunny dance jingle.mp3",
+     timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  
+    name: "Good Form",
+    artist: "Nicki Minaj ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Nicki Minaj - Good Form.mp3",
+     timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet5.mp3",
+     timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+{
+    name: " Poker Face",
+    artist: "Lady Gaga  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Lady Gaga - Poker face.mp3",
+     timeCategory: "evening-late"
+},
+
+
+ 
+{
+    name: "Just For You ",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you.mp3",
+      timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/Female Dj5.mp3",
+      timeCategory: "evening-late"
+},
+
+
+  
+{
+    name: "     Young Hearts  (classic)  ",
+    artist: "Candi Station ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Candi Station - Young Hearts Run Free.mp3",
+      timeCategory: "evening-late"
+},
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet3.mp3",
+       timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
 
 
 
