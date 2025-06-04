@@ -44,7 +44,7 @@ function getCurrentTimeCategory() {
     2: ["morning", "afternoon", "evening", "evening-late"], // Tuesday
     3: ["morning", "afternoon", "evening-late", "evening"], // Wednesday
     4: ["morning", "evening", "evening-late", "afternoon"], // Thursday
-    5: ["f evening", "f morning", "f afternoon", "f evening-late"], // Friday
+    5: ["f evening", "morning", "f afternoon", "f evening-late"], // Friday
     6: ["f morning", "f afternoon", "f evening-late", "f evening"] // Saturday
   };
 
@@ -17865,6 +17865,156 @@ timeCategory: "evening-late"
 
 
 
+
+{
+    name: " 10 35",
+    artist: "Tate McRae ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/Tate McRae - 10 35.mp3",
+      timeCategory: "f afternoon"
+},
+
+
+{
+    name: "Rise",
+    artist: "Purple disco machine ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Purple disco machine - Rise.mp3",
+     timeCategory: "f afternoon"
+},
+
+
+{
+     name: "  All By Myself",
+    artist: "Ellie Goulding  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Ellie Goulding - All By Myself.mp3",
+    timeCategory: "f afternoon"
+},
+
+
+
+
+
+
+
+
+{
+    name: "   Fake Love",
+    artist: "Tink ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/Tink - Fake Love.mp3",
+    timeCategory: "f afternoon"
+},
+
+
+
+
+
+{
+    name: "  Come and Get It",
+    artist: "Ceranda ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Ceranda - Come and Get It.mp3",
+    timeCategory: "f afternoon"
+},
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Devils Gun (12inch)",
+    artist: "CJ & Co  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/CJ & Co - Devils Gun.mp3",
+     timeCategory: "f afternoon"
+},
+  
+ 
+{
+    name: "Gimme Gimme Gimme",
+    artist: "Bebe Rexha",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Bebe Rexha - Gimme gimme gimme.mp3",
+    timeCategory: "f afternoon"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "  Illusion",
+    artist: "Dua Lipa ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Dua Lipa - Illusion.mp3",
+     timeCategory: "f afternoon"
+},
+
+
+{
+    name: "Just For You ",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/40 in jingle.mp3",
+      timeCategory: "f afternoon"
+},
+{
+    name: "Life For The Weekend",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Life for the weekend- Jingle.mp3",
+    timeCategory: "f afternoon"
+},
+
+
+
+ 
+
+
+
+{
+    name: " Happy Ending",
+    artist: "Kelela ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Kelela - Happy Ending.mp3",
+    timeCategory: "f afternoon"
+},
+
+{
+    name: "Welcome!",
+    artist: "Sunny Disco Machine",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/start the party.mp3",
+  
+
+
+    timeCategory: "f afternoon"
+},
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/sunny dance jingle.mp3",
+      timeCategory: "f afternoon"
+},
+
+
 {
     name: "Gonna Get Over You",
     artist: "Beverlei Brown ",
@@ -18160,156 +18310,6 @@ timeCategory: "evening-late"
 },
 
 
-{
-    name: " 10 35",
-    artist: "Tate McRae ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Tate McRae - 10 35.mp3",
-      timeCategory: "f afternoon"
-},
-
-
-{
-    name: "Rise",
-    artist: "Purple disco machine ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Purple disco machine - Rise.mp3",
-     timeCategory: "f afternoon"
-},
-
-
-{
-     name: "  All By Myself",
-    artist: "Ellie Goulding  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Ellie Goulding - All By Myself.mp3",
-    timeCategory: "f afternoon"
-},
-
-
-
-
-
-
-
-
-{
-    name: "   Fake Love",
-    artist: "Tink ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Tink - Fake Love.mp3",
-    timeCategory: "f afternoon"
-},
-
-
-
-
-
-{
-    name: "  Come and Get It",
-    artist: "Ceranda ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Ceranda - Come and Get It.mp3",
-    timeCategory: "f afternoon"
-},
-
-
-
-
-
-
-
-
-
-
-{
-    name: "Devils Gun (12inch)",
-    artist: "CJ & Co  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies01.netlify.app/CJ & Co - Devils Gun.mp3",
-     timeCategory: "f afternoon"
-},
-  
- 
-{
-    name: "Gimme Gimme Gimme",
-    artist: "Bebe Rexha",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Bebe Rexha - Gimme gimme gimme.mp3",
-    timeCategory: "f afternoon"
-},
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: "  Illusion",
-    artist: "Dua Lipa ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic07.netlify.app/Dua Lipa - Illusion.mp3",
-     timeCategory: "f afternoon"
-},
-
-
-{
-    name: "Just For You ",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/40 in jingle.mp3",
-      timeCategory: "f afternoon"
-},
-{
-    name: "Life For The Weekend",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Life for the weekend- Jingle.mp3",
-    timeCategory: "f afternoon"
-},
-
-
-
- 
-
-
-
-{
-    name: " Happy Ending",
-    artist: "Kelela ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Kelela - Happy Ending.mp3",
-    timeCategory: "f afternoon"
-},
-
-{
-    name: "Welcome!",
-    artist: "Sunny Disco Machine",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/start the party.mp3",
-  
-
-
-    timeCategory: "f afternoon"
-},
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/sunny dance jingle.mp3",
-      timeCategory: "f afternoon"
-},
-
-
-
 
 
 
@@ -18363,7 +18363,7 @@ timeCategory: "evening-late"
      name: "Welcome!",
     artist: "Listen Live Sunny Dance radio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle3.mp3",
+    path: "muziek/jingles/Sunny radio jingle1.mp3",
 timeCategory: "f evening"
 },
 
@@ -18393,7 +18393,7 @@ timeCategory: "f evening"
     name: "Welcome!",
     artist: "Listen Live Sunny Danceradio ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj5.mp3",
+    path: "muziek/discjockeys/Female dj6.mp3",
 timeCategory: "f evening"
 },
 
@@ -18402,7 +18402,7 @@ timeCategory: "f evening"
     name: "Welcome!",
     artist: "Listen Live Sunny Danceradio ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj4.mp3",
+    path: "muziek/discjockeys/Female dj5.mp3",
  timeCategory: "f evening"
 },
 
@@ -18411,9 +18411,34 @@ timeCategory: "f evening"
     name: "Welcome!",
     artist: "Listen Live Sunny Danceradio ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj3.mp3",
+    path: "muziek/discjockeys/Female dj2.mp3",
   timeCategory: "f evening"
 },
+
+
+
+{
+    name: "Goosebumps",
+    artist: "MO",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/MO - Goosebumps.mp3",
+timeCategory: "f evening"
+},
+
+
+
+
+
+
+
+{
+    name: "Blinding Lights",
+    artist: "The Weeknd  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/The weeknd - Blinding Lights.mp3", 
+  timeCategory: "f evening"
+},
+
 
 
 {
@@ -18588,12 +18613,24 @@ timeCategory: "f evening"
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 {
-    name: "Goosebumps",
-    artist: "MO",
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/MO - Goosebumps.mp3",
-timeCategory: "f evening"
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+ timeCategory: "f evening-late"
 },
 
 
@@ -18603,11 +18640,27 @@ timeCategory: "f evening"
 
 
 {
-    name: "Blinding Lights",
-    artist: "The Weeknd  ",
+     name: " Rush",
+    artist: "Troye Sivan  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/The weeknd - Blinding Lights.mp3", 
-  timeCategory: "f evening"
+    path: "https://dancemusic06.netlify.app/Troye Sivan - Rush.mp3",
+  timeCategory: "f evening-late"
+},
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/time classic.mp3",
+  timeCategory: "f evening-late"
+},
+
+{
+     name: " Horny",
+    artist: "Mouse T ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mouse T - Horny.mp3",
+ timeCategory: "f evening-late"
 },
 
 
@@ -18622,6 +18675,44 @@ timeCategory: "f evening"
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "     Me So Horny (1989)",
+    artist: "2 Live Crew  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/2 Live Crew - Me So H.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+{
+    name: "   Ship wrek ",
+    artist: "MLA ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/MLA - Ship wrek.mp3",
+   timeCategory: "f evening-late"
+},
 
 {
     name: " Saturday Night (12inch)",
@@ -19085,97 +19176,6 @@ timeCategory: "f evening"
     artist: "Yello ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Yello - Oh Yeah.mp3",
-   timeCategory: "f evening-late"
-},
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle3.mp3",
- timeCategory: "f evening-late"
-},
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/time classic.mp3",
-  timeCategory: "f evening-late"
-},
-
-
-{
-     name: " Rush",
-    artist: "Troye Sivan  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/Troye Sivan - Rush.mp3",
-  timeCategory: "f evening-late"
-},
-
-
-
-{
-     name: " Horny",
-    artist: "Mouse T ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/Mouse T - Horny.mp3",
- timeCategory: "f evening-late"
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-     name: "     Me So Horny (1989)",
-    artist: "2 Live Crew  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/2 Live Crew - Me So H.mp3",
- timeCategory: "f evening-late"
-},
-
-
-
-{
-    name: "   Ship wrek ",
-    artist: "MLA ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/MLA - Ship wrek.mp3",
    timeCategory: "f evening-late"
 },
 
