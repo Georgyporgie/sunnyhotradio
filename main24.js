@@ -74,12 +74,42 @@ console.log(getCurrentTimeCategory());
 
 
 
+// Function to rotate tracks within each time category
+function rotateTracks(playlist) {
+  if (playlist.length > 1) {
+    playlist.push(playlist.shift()); // Moves the first track to the end
+  }
+  return playlist;
+}
 
+// Function to group tracks by time category
+function groupTracksByCategory(trackList) {
+  return trackList.reduce((acc, track) => {
+    acc[track.timeCategory] = acc[track.timeCategory] || [];
+    acc[track.timeCategory].push(track);
+    return acc;
+  }, {});
+}
 
+// Function to rotate playlists only if 2 hours have passed
+function rotateIfNeeded(trackList) {
+  const lastRotationTime = localStorage.getItem("lastRotationTime");
+  const currentTime = Date.now();
+  
+  if (!lastRotationTime || currentTime - lastRotationTime >= 2 * 60 * 60 * 1000) {
+    // More than 2 hours since last rotation, so we rotate
+    let groupedTracks = groupTracksByCategory(trackList);
+    for (let category in groupedTracks) {
+      groupedTracks[category] = rotateTracks(groupedTracks[category]);
+    }
+    trackList = Object.values(groupedTracks).flat();
 
+    // Store new rotation timestamp
+    localStorage.setItem("lastRotationTime", currentTime);
+  }
 
-
-
+  return trackList;
+}
 
 
 
@@ -19696,9 +19726,10 @@ function myFunction1() {
 
 
 
+// Apply time-based rotation
+trackList = rotateIfNeeded(trackList);
 
-
-
+console.log(trackList); // See the updated playlist order
 
 
 
