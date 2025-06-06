@@ -44,7 +44,7 @@ function getCurrentTimeCategory() {
     2: ["morning", "afternoon", "evening", "evening-late"], // Tuesday
     3: ["morning", "afternoon", "evening-late", "evening"], // Wednesday
     4: ["morning", "evening", "evening-late", "afternoon"], // Thursday
-    5: ["f evening", "morning", "f afternoon", "f evening-late"], // Friday
+    5: ["evening", "morning", "afternoon", " evening-late"], // Friday
     6: ["f morning", "f afternoon", "f evening-late", "f evening"] // Saturday
   };
 
