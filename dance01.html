@@ -753,7 +753,6 @@ document.getElementById("online").innerHTML=" 3 ";
 
 
 
-
 <audio id="musicPlayer" autoplay loop>
     <source id="musicSource" src="" type="audio/mpeg">
 </audio>
@@ -761,27 +760,33 @@ document.getElementById("online").innerHTML=" 3 ";
 <script>
     const tracks = {
         0: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekend%20piratejinglepublic.mp3",
-        
         1: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalepublic.mp3",
-
         2: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
-
-
         3: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
-
         4: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
-
-        5: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalepublic.mp3",
-
+        5: { 
+            early: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3", 
+            after17: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalepublic.mp3" 
+        },
         6: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekend%20piratejinglepublic.mp3"
-
-
     };
 
     const today = new Date().getDay();
-    document.getElementById("musicSource").setAttribute('src', tracks[today]);
+    const currentHour = new Date().getHours();
+
+    let selectedTrack;
+
+    // Special condition for Friday (5) to switch track after 17:00
+    if (today === 5) {
+        selectedTrack = currentHour >= 17 ? tracks[5].after17 : tracks[5].early;
+    } else {
+        selectedTrack = tracks[today];
+    }
+
+    document.getElementById("musicSource").setAttribute('src', selectedTrack);
     document.getElementById("musicPlayer").load(); // Reload to apply new src
 </script>
+
 
 
 
