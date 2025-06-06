@@ -1,23 +1,21 @@
 {
-  
-  "2025-05-30": [
-    {"time": "03:00 - 12:00", "event": "Morning Disco"},
-    {"time": "12:00 - 17:00", "event": "DJ'S Disco Event"},
-    {"time": "17:00 - 21:00", "event": "DJ'S Disco Party"},
-    {"time": "21:00 - 03:00", "event": "Miss Monique Live!"}
+  "Friday": [
+    { "time": "03:00 - 12:00", "event": "Morning Disco" },
+    { "time": "12:00 - 17:00", "event": "DJ'S Disco Event" },
+    { "time": "17:00 - 21:00", "event": "DJ'S Disco Party" },
+    { "time": "21:00 - 03:00", "event": "Miss Monique Live!" }
   ],
-
-  "2025-05-31": [
-    {"time": "03:00 - 12:00", "event": "Morning Disco"},
-    {"time": "12:00 - 17:00", "event": "DJ'S Disco Event"},
-    {"time": "17:00 - 21:00", "event": "DJ'S Disco Party"},
-    {"time": "21:00 - 03:00", "event": "Miss Monique Live!"}
+  "Saturday": [
+    { "time": "03:00 - 12:00", "event": "Morning Disco" },
+    { "time": "12:00 - 17:00", "event": "DJ'S Disco Event" },
+    { "time": "17:00 - 21:00", "event": "DJ'S Disco Party" },
+    { "time": "21:00 - 03:00", "event": "Miss Monique Live!" }
   ],
- 
-  "2025-06-01": [
-    {"time": "03:00 - 12:00", "event": "Sunday Dancin'!"},
-    {"time": "12:00 - 17:00", "event": "Miss Monique Live!"},
-    {"time": "17:00 - 21:00", "event": "Miss Monique Dance Party"},
-    {"time": "21:00 - 03:00", "event": "Till Next Week!!"}
+  "Sunday": [
+    { "time": "03:00 - 12:00", "event": "Sunday Dancin'!" },
+    { "time": "12:00 - 17:00", "event": "Miss Monique Live!" },
+    { "time": "17:00 - 21:00", "event": "Miss Monique Dance Party" },
+    { "time": "21:00 - 03:00", "event": "DJ'S Disco Party" }
   ]
 }
+
