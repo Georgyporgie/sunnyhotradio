@@ -96,20 +96,29 @@ function rotateIfNeeded(trackList) {
   const lastRotationTime = localStorage.getItem("lastRotationTime");
   const currentTime = Date.now();
   
+  console.log("Last Rotation Time:", lastRotationTime);
+  console.log("Current Time:", currentTime);
+  
   if (!lastRotationTime || currentTime - lastRotationTime >= 2 * 60 * 60 * 1000) {
-    // More than 2 hours since last rotation, so we rotate
+    console.log("Rotation triggered! Updating playlist...");
+    
     let groupedTracks = groupTracksByCategory(trackList);
     for (let category in groupedTracks) {
       groupedTracks[category] = rotateTracks(groupedTracks[category]);
     }
     trackList = Object.values(groupedTracks).flat();
 
+    console.log("Updated Track List:", trackList);
+
     // Store new rotation timestamp
     localStorage.setItem("lastRotationTime", currentTime);
+  } else {
+    console.log("Rotation NOT triggered—less than 2 hours have passed.");
   }
 
   return trackList;
 }
+
 
 
 
