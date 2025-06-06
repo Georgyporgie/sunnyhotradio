@@ -44,7 +44,7 @@ function getCurrentTimeCategory() {
     2: ["morning", "afternoon", "evening", "evening-late"], // Tuesday
     3: ["morning", "afternoon", "evening-late", "evening"], // Wednesday
     4: ["morning", "evening", "evening-late", "afternoon"], // Thursday
-    5: ["evening", "morning", "afternoon", " evening-late"], // Friday
+    5: ["f evening", "morning", "f afternoon", "f evening-late"], // Friday
     6: ["f morning", "f afternoon", "f evening-late", "f evening"] // Saturday
   };
 
@@ -19557,22 +19557,8 @@ function applyBlinkingEffect() {
   }
 }
 
-// Event listener for "Show More" button
-document.getElementById('show-more-button').addEventListener('click', () => {
-  currentDisplayLimit += additionalTracksPerClick; // Increase the limit
-  displayTrackList(); // Refresh the track list
 
 
-
-
-
-
-
-
-
-
-
-});
 
 // Initial display
 displayTrackList(); // Show initial tracks on page load
