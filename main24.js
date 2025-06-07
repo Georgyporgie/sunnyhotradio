@@ -45,7 +45,7 @@ function getCurrentTimeCategory() {
     3: ["morning", "afternoon", "evening-late", "evening"], // Wednesday
     4: ["morning", "evening", "evening-late", "afternoon"], // Thursday
     5: ["f evening", "morning", "f afternoon", "f evening-late"], // Friday
-    6: ["f morning", "f afternoon", "f evening-late", "f evening"] // Saturday
+    6: ["morning", "f afternoon", "f evening-late", "f evening"] // Saturday
   };
 
   // Shuffle categories for the current day
@@ -19500,6 +19500,11 @@ function playTrack() {
 
 
 
+// Apply time-based rotation
+trackList = rotateIfNeeded(trackList);
+
+console.log(trackList); // See the updated playlist order
+
 
 
 
@@ -19729,11 +19734,6 @@ function myFunction1() {
 
 
 
-
-// Apply time-based rotation
-trackList = rotateIfNeeded(trackList);
-
-console.log(trackList); // See the updated playlist order
 
 
 
