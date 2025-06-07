@@ -979,22 +979,28 @@ document.getElementById("fortyFiveMinuteSou").setAttribute('src', 'muziek/effect
 
 
 
-<script>
-        function playSound(audioIds) {
-            audioIds.forEach(function(id) {
-                var audio = document.getElementById(id);
-                if (audio) {
-                    audio.play().then(() => {
-                        console.log(`Playing ${id}`);
-                    }).catch(error => {
-                        console.error(`Error playing ${id}:`, error);
-                    });
-                } else {
-                    console.error(`Audio element with ID ${id} not found.`);
-                }
+const soundVolumes = {
+    "hourlySou":  0.7,  
+    "quarterHourSou": 0.7,  
+    "fortyFiveMinuteSou": 1.0  
+};
+
+function playSound(audioIds) {
+    audioIds.forEach(function(id) {
+        var audio = document.getElementById(id);
+        if (audio) {
+            audio.volume = soundVolumes[id] || 0.5; // Apply volume control
+            audio.play().then(() => {
+                console.log(`Playing ${id} at volume ${audio.volume}`);
+            }).catch(error => {
+                console.error(`Error playing ${id}:`, error);
             });
+        } else {
+            console.error(`Audio element with ID ${id} not found.`);
         }
-    </script>
+    });
+}
+
 
     <script>
         
@@ -1035,19 +1041,6 @@ function scheduleSounds() {
 
 
 
-const soundVolumes = {
-    "hourlySou":  0.7,  // Lower volume
-    "quarterHourSou": 0.7,  // Medium volume
-    "fortyFiveMinuteSou": 1.0  // Slightly lower volume
-};
-
-function playSound(soundFiles) {
-    soundFiles.forEach((sound) => {
-        const audio = new Audio(sound);
-        audio.volume = soundVolumes[sound] || 0.5; // Default to 0.5 if not specified
-        audio.play();
-    });
-}
 
 
 
