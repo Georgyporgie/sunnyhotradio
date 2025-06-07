@@ -1031,6 +1031,36 @@ function scheduleSounds() {
     }, fortyFiveMinuteDelay);
 }
 
+
+
+
+
+const soundVolumes = {
+    "hourlySou":  0.7,  // Lower volume
+    "quarterHourSou": 0.7,  // Medium volume
+    "fortyFiveMinuteSou": 1.0  // Slightly lower volume
+};
+
+function playSound(soundFiles) {
+    soundFiles.forEach((sound) => {
+        const audio = new Audio(sound);
+        audio.volume = soundVolumes[sound] || 0.5; // Default to 0.5 if not specified
+        audio.play();
+    });
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 window.onload = scheduleSounds;
 
    </script>
