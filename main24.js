@@ -19678,9 +19678,7 @@ $(document).ready(function(){
   });
 });
 
-window.setInterval(function() {
-  startTime();
-}, 1);
+
 
 $('.btn').click(function () {
   $(this).toggleClass("click");
