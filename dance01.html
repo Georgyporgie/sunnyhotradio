@@ -287,8 +287,10 @@ body {
   <button id="show-more-button">show more</button>
 <br>
 <br>
-
-
+<br>
+<br>
+<br>
+<br>
 <div>
 <IFRAME id="frame" SRC="https://shiphorn.netlify.app/live" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=345 HEIGHT=382></IFRAME>
 <br>
@@ -993,10 +995,22 @@ document.getElementById("fortyFiveMinuteSou").setAttribute('src', 'muziek/effect
             });
         }
     </script>
+<script>
+const soundVolumes = {
+    "hourlySou":  0.7,  // Lower volume
+    "quarterHourSou": 0.7,  // Medium volume
+    "fortyFiveMinuteSou": 1.0  // Slightly lower volume
+};
 
+function playSound(soundFiles) {
+    soundFiles.forEach((sound) => {
+        const audio = new Audio(sound);
+        audio.volume = soundVolumes[sound] || 0.5; // Default to 0.5 if not specified
+        audio.play();
+    });
+}
 
-
-
+</script>
     <script>
         
         
