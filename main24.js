@@ -27,32 +27,137 @@ function getCurrentTimeCategory() {
   const currentHour = now.getHours();
   const currentDay = now.getDay();
 
-  // Function to shuffle an array using Fisher-Yates algorithm
-  function shuffle(array) {
+  let category;
+
+  switch (currentDay) {
+    case 0: // Sunday
+      if (currentHour >= 8 && currentHour < 12) {
+        category = "f morning";
+      } else if (currentHour >= 12 && currentHour < 17) {
+        category = "f evening  ";
+      } else if (currentHour >= 17 && currentHour < 21) {
+        category = "f evening-late";
+      } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
+        category = "f afternoon";    } else {
+        category = "f morning";
+      }
+      break;
+      
+    case 1: // Monday
+      if (currentHour >= 8 && currentHour < 12) {
+        category = "morning";
+      } else if (currentHour >= 12 && currentHour < 17) {
+        category = "evening";
+      } else if (currentHour >= 17 && currentHour < 21) {
+        category = "afternoon";
+      } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
+        category = "evening-late";
+      } else {
+        category = "jingle-time";
+      }
+      break;
+
+    case 2: // Tuesday
+      if (currentHour >= 8 && currentHour < 12) {
+        category = "morning";
+      } else if (currentHour >= 12 && currentHour < 17) {
+        category = "evening";
+      } else if (currentHour >= 17 && currentHour < 21) {
+        category = "afternoon";
+      } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
+        category = "evening-late";
+      } else {
+        category = "jingle-time";
+      }
+      break;
+
+    case 3: // Wednesday
+      if (currentHour >= 8 && currentHour < 12) {
+        category = "morning";
+      } else if (currentHour >= 12 && currentHour < 17) {
+        category = "afternoon";
+      } else if (currentHour >= 17 && currentHour < 21) {
+        category = "evening-late";
+      } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
+        category = "evening";
+      } else {
+        category = "jingle-time";
+      }
+      break;
+
+    case 4: // Thursday
+      if (currentHour >= 8 && currentHour < 12) {
+        category = "morning";
+      } else if (currentHour >= 12 && currentHour < 17) {
+        category = "evening";
+      } else if (currentHour >= 17 && currentHour < 21) {
+        category = "evening-late";
+      } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
+        category = "afternoon";
+      } else {
+        category = "jingle-time";
+      }
+      break;
+
+    case 5: // Friday
+      if (currentHour >= 8 && currentHour < 12) {
+        category = "evening";
+      } else if (currentHour >= 12 && currentHour < 17) {
+        category = "morning";
+      } else if (currentHour >= 17 && currentHour < 21) {
+        category = "afternoon";
+      } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
+        category = "evening-late";
+      } else {
+        category = "jingle-time";
+      }
+      break;
+
+    case 6: // Saturday
+      if (currentHour >= 8 && currentHour < 12) {
+        category = "f morning";
+      } else if (currentHour >= 12 && currentHour < 17) {
+        category = "f afternoon";
+      } else if (currentHour >= 17 && currentHour < 21) {
+        category = "f evening-late";
+      } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
+        category = "f evening";
+      } else {
+        category = "f morning";
+      }
+      break;
+
+    default:
+      category = "unknown"; // Fallback case
+  }
+
+  return category;
+
+
+ // Function to shuffle array uniquely for each day
+  function shuffle(array, seed) {
     let shuffled = [...array];
     for (let i = shuffled.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
+      const j = (seed + i * 17) % shuffled.length;
       [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
     }
     return shuffled;
   }
 
-  // Define categories for each day
+  // Define categories for each day and shuffle them
   const categoriesPerDay = {
-    0: ["f morning", "f afternoon", "f evening-late", "f evening"], // Sunday
-    1: ["morning", "afternoon", "evening", "evening-late"], // Monday
-    2: ["morning", "afternoon", "evening", "evening-late"], // Tuesday
-    3: ["morning", "afternoon", "evening-late", "evening"], // Wednesday
-    4: ["morning", "evening", "evening-late", "afternoon"], // Thursday
-    5: ["f evening", "morning", "f afternoon", "f evening-late"], // Friday
-    6: ["morning", "f afternoon", "f evening-late", "f evening"] // Saturday
+    0: shuffle(["f morning", "f afternoon", "f evening-late", "f evening"], 0), // Sunday
+    1: shuffle(["morning", "afternoon", "evening", "evening-late"], 1), // Monday
+    2: shuffle(["morning", "afternoon", "evening", "evening-late"], 2), // Tuesday
+    3: shuffle(["morning", "afternoon", "evening-late", "evening"], 3), // Wednesday
+    4: shuffle(["morning", "evening", "evening-late", "afternoon"], 4), // Thursday
+    5: shuffle(["f evening", "f morning", "f afternoon", "f evening-late"], 5), // Friday
+    6: shuffle(["f morning", "f afternoon", "f evening-late", "f evening"], 6)  // Saturday
   };
 
-  // Shuffle categories for the current day
-  const shuffledCategories = shuffle(categoriesPerDay[currentDay]);
+  const shuffledCategories = categoriesPerDay[currentDay];
 
   // Assign shuffled categories based on time slots
-  let category;
   if (currentHour >= 8 && currentHour < 12) {
     category = shuffledCategories[0];
   } else if (currentHour >= 12 && currentHour < 17) {
@@ -62,61 +167,12 @@ function getCurrentTimeCategory() {
   } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
     category = shuffledCategories[3];
   } else {
-    category = shuffledCategories.length > 4 ? shuffledCategories[4] : shuffledCategories[0]; // Prevent index error
+    category = shuffledCategories[4]; // Early morning
   }
 
-  return category;
-}
-
-console.log(getCurrentTimeCategory());
 
 
 
-
-
-// Function to rotate tracks within each time category
-function rotateTracks(playlist) {
-  if (playlist.length > 1) {
-    playlist.push(playlist.shift()); // Moves the first track to the end
-  }
-  return playlist;
-}
-
-// Function to group tracks by time category
-function groupTracksByCategory(trackList) {
-  return trackList.reduce((acc, track) => {
-    acc[track.timeCategory] = acc[track.timeCategory] || [];
-    acc[track.timeCategory].push(track);
-    return acc;
-  }, {});
-}
-
-// Function to rotate playlists only if 2 hours have passed
-function rotateIfNeeded(trackList) {
-  const lastRotationTime = localStorage.getItem("lastRotationTime");
-  const currentTime = Date.now();
-  
-  console.log("Last Rotation Time:", lastRotationTime);
-  console.log("Current Time:", currentTime);
-  
-  if (!lastRotationTime || currentTime - lastRotationTime >= 2 * 60 * 60 * 1000) {
-    console.log("Rotation triggered! Updating playlist...");
-    
-    let groupedTracks = groupTracksByCategory(trackList);
-    for (let category in groupedTracks) {
-      groupedTracks[category] = rotateTracks(groupedTracks[category]);
-    }
-    trackList = Object.values(groupedTracks).flat();
-
-    console.log("Updated Track List:", trackList);
-
-    // Store new rotation timestamp
-    localStorage.setItem("lastRotationTime", currentTime);
-  } else {
-    console.log("Rotation NOT triggered—less than 2 hours have passed.");
-  }
-
-  return trackList;
 }
 
 
@@ -19580,8 +19636,22 @@ function applyBlinkingEffect() {
   }
 }
 
+// Event listener for "Show More" button
+document.getElementById('show-more-button').addEventListener('click', () => {
+  currentDisplayLimit += additionalTracksPerClick; // Increase the limit
+  displayTrackList(); // Refresh the track list
 
 
+
+
+
+
+
+
+
+
+
+});
 
 // Initial display
 displayTrackList(); // Show initial tracks on page load
