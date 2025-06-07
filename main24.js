@@ -19536,7 +19536,7 @@ console.log(trackList); // See the updated playlist order
 
 
 
-    const tracksToDisplayInitially = 15; // Number of tracks initially visible
+    const tracksToDisplayInitially = 20; // Number of tracks initially visible
     const additionalTracksPerClick = 10; // Number of tracks to load per click
     let currentDisplayLimit = tracksToDisplayInitially;
 
@@ -19564,7 +19564,7 @@ console.log(trackList); // See the updated playlist order
   // Hide the "Show More" button if all tracks are displayed
   const showMoreButton = document.getElementById('show-more-button');
   if (limit >= scheduledMp3Files.length) {
-    showMoreButton.style.display = 'none';
+    showMoreButton.style.display = 'none'; console.log('Button clicked!');
   }
 }
 
@@ -19615,11 +19615,6 @@ displayTrackList(); // Show initial tracks on page load
 
 
 
-
-
-let trackInfo = document.createElement('div');
-  let emphasizedTrackName = emphasizeKeywords(track.name);
-  let emphasizedArtist = emphasizeKeywords(track.artist);
 
 
 
