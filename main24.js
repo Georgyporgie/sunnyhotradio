@@ -187,6 +187,11 @@ function getCurrentTimeCategory() {
 
 
 
+
+
+
+
+
 // Shuffle function using Fisher-Yates algorithm
 function shuffle(array) {
     let shuffled = [...array];
@@ -19619,10 +19624,6 @@ function playTrack() {
 
 
 
-// Apply time-based rotation
-trackList = rotateIfNeeded(trackList);
-
-console.log(trackList); // See the updated playlist order
 
 
 
@@ -19637,6 +19638,21 @@ console.log(trackList); // See the updated playlist order
 
 
 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
  // Highlight the current track in the playlist
   let allTracks = document.querySelectorAll('ul li'); // Get all <li> elements
   allTracks.forEach(track => track.classList.remove('blinking')); // Remove "blinking" from all
@@ -19718,25 +19734,6 @@ document.getElementById('show-more-button').addEventListener('click', () => {
 
 // Initial display
 displayTrackList(); // Show initial tracks on page load
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
- 
-
 
  
 
