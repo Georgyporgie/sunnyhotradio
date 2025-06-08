@@ -10760,7 +10760,7 @@ timeCategory: "morning"
     artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/let's go back.mp3",
-        timeCategory: "evening"
+        timeCategory: "evening-late"
 },
 
 
@@ -10781,7 +10781,7 @@ timeCategory: "morning"
     artist: "KID  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/KID - Don't Stop.mp3",
-   timeCategory: "evening"
+   timeCategory: "evening-late"
 },
 
 
@@ -10792,7 +10792,7 @@ timeCategory: "morning"
     artist: "Snoop Dogg, Dr Dre   ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Snoop Dogg, Dr Dre - Gorgeous.mp3",
-    timeCategory: "evening"
+    timeCategory: "evening-late"
 },
 
 {
@@ -10800,7 +10800,7 @@ timeCategory: "morning"
     artist: "Alesso, Nate Smith ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Alesso, Nate Smith - I Like It.mp3",
-    timeCategory: "evening"
+    timeCategory: "evening-late"
 },
 
 
