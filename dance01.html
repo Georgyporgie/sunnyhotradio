@@ -340,7 +340,7 @@ fetch('./event.json')
             }
         } else {
             // Hide events on weekdays
-            document.getElementById('events').innerHTML = '<em>Weekend events only! Come back Friday.</em>';
+            document.getElementById('events').innerHTML = '<em>No Events Today.</em>';
         }
     })
     .catch(error => console.error('Error fetching weekend events:', error));
