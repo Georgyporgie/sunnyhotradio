@@ -38,8 +38,8 @@ function getCurrentTimeCategory() {
       } else if (currentHour >= 17 && currentHour < 21) {
         category = "f evening-late";
       } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-        category = "f evening";    } else {
-        category = "jingle-time";
+        category = "f afternoon";    } else {
+        category = "f morning";
       }
       break;
       
@@ -10760,7 +10760,7 @@ timeCategory: "morning"
     artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/let's go back.mp3",
-        timeCategory: "evening-late"
+        timeCategory: "evening"
 },
 
 
@@ -10781,7 +10781,7 @@ timeCategory: "morning"
     artist: "KID  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/KID - Don't Stop.mp3",
-   timeCategory: "evening-late"
+   timeCategory: "evening"
 },
 
 
@@ -10792,7 +10792,7 @@ timeCategory: "morning"
     artist: "Snoop Dogg, Dr Dre   ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Snoop Dogg, Dr Dre - Gorgeous.mp3",
-    timeCategory: "evening-late"
+    timeCategory: "evening"
 },
 
 {
@@ -10800,7 +10800,7 @@ timeCategory: "morning"
     artist: "Alesso, Nate Smith ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Alesso, Nate Smith - I Like It.mp3",
-    timeCategory: "evening-late"
+    timeCategory: "evening"
 },
 
 
@@ -18752,14 +18752,421 @@ timeCategory: "f evening"
 timeCategory: "f evening"
 },
 
-
-
-
-
-
-
+{
   
+    name: " Nouveau Disco 05 ",
+    artist: "Mix Central  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 05.mp3",
+timeCategory: "f evening"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+
+{
+     name: " Rush",
+    artist: "Troye Sivan  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Troye Sivan - Rush.mp3",
+  timeCategory: "f evening-late"
+},
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/time classic.mp3",
+  timeCategory: "f evening-late"
+},
+
+{
+     name: " Horny",
+    artist: "Mouse T ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mouse T - Horny.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "     Me So Horny (1989)",
+    artist: "2 Live Crew  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/2 Live Crew - Me So H.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+{
+    name: "   Ship wrek ",
+    artist: "MLA ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/MLA - Ship wrek.mp3",
+   timeCategory: "f evening-late"
+},
+
+{
+    name: " Saturday Night (12inch)",
+    artist: "T-Connection ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/T-Connection - Saturday Night.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+
+
+{
+    name: " Megamix 2023",
+    artist:  "Purple Disco Machine  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_05.mp3",
+   timeCategory: "f evening-late"
+},
+
+
+{
+    name: " Megamix 2023",
+    artist:  "Purple Disco Machine  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_06.mp3",
+ timeCategory: "f evening-late"
+},
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+{
+    name: "If You Don't Wanna Leave Me",
+    artist: "Dua Lipa",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Dua Lipa - If you don't wanna leave me.mp3",
   
+
+
+ timeCategory: "f evening-late"
+},
+
+
+
+{
+    name: " Lighter ",
+    artist: "Paris Hilton   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Paris Hilton - Lighter.mp3",
+
+ timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/do not turnoff receiver.mp3",
+  timeCategory: "f evening-late"
+},
+
+
+
+ 
+
+
+{
+  
+    name: "Drive",
+    artist: "Clean Bandit",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Clean Bandit - Drive.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+
+{
+    name: "The Weekend",
+    artist: "Michael Gray  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://Sunnydanceoldies04.netlify.app/Michael Gray - The weekend.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+
+{
+    name: "  Paul Van Dyk",
+    artist: "For An Angel ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://Sunnydanceoldies04.netlify.app/For an Ange l- Paul van Dyk.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+
+{
+    name: "  Rain Down Love",
+    artist: "Siedah Garret ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://Sunnydanceoldies04.netlify.app/Siedah Garret - Rain down Love.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Mesmerized (12inch)",
+    artist: "Freemasons",
+     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://Sunnydanceoldies04.netlify.app/Freemasons  - Mesmerized.mp3",
+   timeCategory: "f evening-late"
+},
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle1.mp3",
+ timeCategory: "f evening-late"
+},
+
+{
+    name: "  Megamix",
+    artist: "Janet Jackson   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Janet Jackson - Megamix2 (Luke).mp3",
+ timeCategory: "f evening-late"
+},
+
+{
+    name: " Sunglasses",
+    artist: "Heidi Klum ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Heidi Klum - Sunglasses At Night.mp3",
+  
+
+
+ timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+
+{
+
+
+     name: " Pearls",
+    artist: "Jesse Ware ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Jesse Ware - Pearls.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+
+
+
+ {
+
+    name: "  Danger ",
+    artist: "Olivia Dean ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Olivia Dean - Danger.mp3",
+  timeCategory: "f evening-late"
+},
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Let op.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/nos journaal 11.mp3",
+  
+
+
+ timeCategory: "f evening-late"
+},
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/sunny dance jingle.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+{
+    name: " The Motto",
+    artist: "Tiesto & Ava Max",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Tiesto & Ava Max - the Motto.mp3",
+  timeCategory: "f evening-late"
+},
+
+
+
+{
+    name: " Save Your Tears ",
+    artist: "Ariane Grande ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Ariane Grande - Save your Tears.mp3",
+  timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+{
+     name: "Be The One ",
+    artist: "Dua Lipa ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Dua Lipa - Be the One.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+{
+    name: "Vibe",
+    artist: "J Brown",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/J Brown - Vibe.mp3",
+   timeCategory: "f evening-late"
+},
 
 
 
@@ -19164,6 +19571,26 @@ function loadTrack(track_index) {
 
 
 
+function shuffle(array) {
+    return array.sort(() => Math.random() - 0.5);
+}
+
+// Shuffle track list **on page load**
+trackList = shuffle(trackList);
+console.log("Shuffled Track List:", trackList.map(track => track.name)); // Debugging
+
+
+
+
+
+
+
+
+
+
+
+
+
 function random_bg_color() {
   // Get a random number between 64 to 256
   // (for getting lighter colors)
@@ -19211,6 +19638,12 @@ function playTrack() {
   playpause_btn.innerHTML = '<img id="media" src="images/pause66.gif">';
 
  
+document.addEventListener("click", () => {
+    if (!isPlaying) {
+        playTrack();
+        console.log("User interacted—playback should start!");
+    }
+});
 
 
 
