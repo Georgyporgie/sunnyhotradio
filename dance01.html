@@ -390,6 +390,16 @@ fetch('./event.json')
 <br>
 <br>
 
+<div>
+<br><img id="sunnyr">
+<h5 id="time"> </h5><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
@@ -558,11 +568,32 @@ window.addEventListener("load", function () {
 
 
 
+<script>
 
 
+function startTime() {
+    const today = new Date();
+    let h = today.getHours();
+    let m = today.getMinutes();
+    let s = today.getSeconds();
+  
+    m = checkTime(m);
+    s = checkTime(s);
+
+    // Update time display
+    document.getElementById("time").innerHTML = "Sunny Time: " + h + ":" + m + ":" + s;
+}
+
+// Function to format numbers below 10
+function checkTime(i) {
+    return i < 10 ? "0" + i : i;
+}
+
+// Start the clock and update every second
+window.setInterval(startTime, 1000);
 
 
-
+</script>
 
 
 
@@ -703,7 +734,13 @@ img.src = 'images/Sunny playlist.png';
 
 
 
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("sunnyr");
 
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny4.png';
+</script>
 
 
 

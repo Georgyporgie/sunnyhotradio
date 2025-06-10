@@ -20002,12 +20002,7 @@ function playTrack() {
   playpause_btn.innerHTML = '<img id="media" src="images/pause66.gif">';
 
  
-document.addEventListener("click", () => {
-    if (!isPlaying) {
-        playTrack();
-        console.log("User interacted—playback should start!");
-    }
-});
+
 
 
 
