@@ -4873,13 +4873,6 @@ timeCategory: "morning"
 
 
 
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/micofoon Rick James.mp3",
-          timeCategory: "afternoon"
-},
 
 
 
