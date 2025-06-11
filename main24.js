@@ -696,13 +696,6 @@ let trackList = [
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/return classics.mp3",
-       timeCategory: "morning"
- },
 
 
 
@@ -781,14 +774,6 @@ let trackList = [
 
 
 
-
-{
-    name: "  Back In Time",
-    artist: "Sunny",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/back in time jingle.mp3",
-      timeCategory: "morning"
- },
 
 {
      name: "   Number One ",
@@ -1365,13 +1350,7 @@ let trackList = [
 },
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/time classic.mp3",
-        timeCategory: "morning"
-},
+
 
 
 
@@ -1557,15 +1536,7 @@ let trackList = [
 },
 
 
-{
-    name: "  Back In Time",
-    artist: "Sunny",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/back in time jingle.mp3",
-     timeCategory: "morning"
 
-
-},
 
 {
     name: "  Playgirl (1979)  ",
@@ -1741,15 +1712,7 @@ let trackList = [
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/time classic.mp3",
-     timeCategory: "morning"
 
-
-},
 
 
 {
@@ -1887,15 +1850,7 @@ let trackList = [
  
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/return classics.mp3",
-       timeCategory: "morning"
 
-
-},
 
 
 
@@ -2479,15 +2434,7 @@ let trackList = [
 
 
 
-{
-    name: "  Back In Time",
-    artist: "Sunny",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/back in time jingle.mp3",
-     timeCategory: "morning"
 
-
-},
 
 
 
@@ -3439,13 +3386,7 @@ let trackList = [
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/time classic.mp3",
-  timeCategory: "morning"
-},
+
 
 
 {
@@ -3994,14 +3935,6 @@ timeCategory: "morning"
 
 
 {
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/return classics.mp3",
-timeCategory: "morning"
-},
-
-{
     name: " All Around The World",
     artist: "Lisa Stansfield  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -4325,15 +4258,6 @@ timeCategory: "morning"
 
 
 
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/return classics.mp3",
-      timeCategory: "morning"
-},
 
 
 {
@@ -5276,13 +5200,6 @@ timeCategory: "morning"
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/time classic.mp3",
-    timeCategory: "afternoon"
-},
 
 {
     name: "  Born Slippy ",
@@ -6464,14 +6381,6 @@ timeCategory: "morning"
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/time classic.mp3",
-   timeCategory: "afternoon"
- },
-
 
 
 
@@ -6640,13 +6549,6 @@ timeCategory: "morning"
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/time classic.mp3",
-   timeCategory: "afternoon"
- },
 
 
 
@@ -6776,13 +6678,6 @@ timeCategory: "morning"
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/return classics.mp3",
-   timeCategory: "afternoon"
- },
 
 
 
@@ -6845,13 +6740,7 @@ timeCategory: "morning"
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/return classics.mp3",
-     timeCategory: "afternoon"
- },
+
 
 
 
@@ -7089,13 +6978,7 @@ timeCategory: "morning"
 
 
 
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/return classics.mp3",
-  timeCategory: "afternoon"
-},
+
 
 
 {
@@ -7181,13 +7064,6 @@ timeCategory: "morning"
 },
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Microfoon Elton & Dua.mp3",
-   timeCategory: "afternoon"
-},
 
  
 
@@ -7711,13 +7587,6 @@ timeCategory: "morning"
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/return classics.mp3",
-      timeCategory: "afternoon"
-},
 
 
 
@@ -7884,13 +7753,7 @@ timeCategory: "morning"
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/time classic.mp3",
-     timeCategory: "afternoon"
-},
+
 
 
 
@@ -8454,13 +8317,7 @@ timeCategory: "morning"
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/return classics.mp3",
-      timeCategory: "evening"
-},
+
 
 
 
@@ -9562,13 +9419,6 @@ timeCategory: "morning"
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/return classics.mp3",
-      timeCategory: "evening"
-},
 
 
 
@@ -9859,16 +9709,7 @@ timeCategory: "morning"
 },
 
 
-{
-    name: " Classic",
-    artist: "Sunny hotradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/back in time jingle.mp3",
-  
 
-
-     timeCategory: "evening"
-},
 
 
 
@@ -9992,13 +9833,7 @@ timeCategory: "morning"
 
 
 
-{
-    name: "  Back In Time",
-    artist: "Sunny",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/back in time jingle.mp3",
-   timeCategory: "evening"
-},
+
 
 
 
@@ -10701,13 +10536,7 @@ timeCategory: "morning"
 },
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/return classics.mp3",
-    timeCategory: "evening"
-},
+
 
 
 
@@ -11388,30 +11217,6 @@ timeCategory: "morning"
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/return classics.mp3",
-  timeCategory: "evening-late"
-},
-
-
-
-
-{
-    name:  "Do You wanna Funk",
-    artist: "Sylvester",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Sylvester- Do You wanna Funk.mp3",
-  
-
-
- timeCategory: "evening-late"
-},
-
-
-
 
 
 
@@ -11854,13 +11659,7 @@ timeCategory: "morning"
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/return classics.mp3",
-    timeCategory: "evening-late"
-},
+
 
 
 
@@ -12144,22 +11943,10 @@ timeCategory: "morning"
     path: "muziek/jingles/Life for the weekend- Jingle.mp3",
     timeCategory: "evening"
 },
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/time classic.mp3",
-     timeCategory: "evening"
-},
 
 
-{
-    name: " Just Be Good To Me",
-    artist: "S.O.S. Band   ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies01.netlify.app/S.O.S. Band - Just Be Good To Me.mp3",
-     timeCategory: "evening"
-},
+
+
 
 
 
@@ -12492,14 +12279,6 @@ timeCategory: "morning"
 
 
 
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/time classic.mp3",
-     timeCategory: "evening"
-},
 
 
 
@@ -13165,14 +12944,6 @@ timeCategory: "morning"
 
 
 
-
-{
-    name: "  Back In Time",
-    artist: "Sunny",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/back in time jingle.mp3",
-      timeCategory: "evening-late"
-},
 
 
 
@@ -14853,13 +14624,6 @@ timeCategory: "morning"
 
 
 {
-    name: "  Back In Time",
-    artist: "Sunny",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/back in time jingle.mp3",
-  },
-
-{
     name: "Use Me  (12inch)",
     artist: "Paul Simpson Connection",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -15845,13 +15609,6 @@ timeCategory: "evening-late"
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/microfoon Human - Human League.mp3",
-   timeCategory: "evening-late"
-},
 
 
 
@@ -15934,13 +15691,6 @@ timeCategory: "evening-late"
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/time classic.mp3",
-      timeCategory: "evening-late"
-},
 
 
 
@@ -16105,16 +15855,6 @@ timeCategory: "evening-late"
 
 
 
-
- {
-    name: " Can You Handle It",
-    artist: "Sunny ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/time classic.mp3",
-     timeCategory: "evening-late"
-
-
-},
 
 
 
@@ -17589,17 +17329,6 @@ timeCategory: "evening-late"
 
 
 
-
-
-
-
-{
-    name: "  Back In Time",
-    artist: "Sunny",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/back in time jingle.mp3",
-      timeCategory: "evening-late"
- },
 
 
 
@@ -19161,13 +18890,7 @@ timeCategory: "f evening"
   timeCategory: "f evening-late"
 },
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/time classic.mp3",
-  timeCategory: "f evening-late"
-},
+
 
 {
      name: " Horny",
