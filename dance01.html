@@ -1163,20 +1163,22 @@ function generateSchedule() {
         5: [ // Friday
             { time: "03:00 - 12:00", event: "Morning Disco" },
             { time: "12:00 - 17:00", event: "DJ'S Disco Event" },
-            { time: "17:00 - 21:00", event: "DJ'S Disco Party" },
-            { time: "21:00 - 03:00", event: "Miss Monique Live!" }
+            { time: "17:00 - 21:00", event: "Lovely Miss Monique!" },
+            { time: "21:00 - 23:00", event: "Miss Monique Live!" }
         ],
         6: [ // Saturday
             { time: "03:00 - 12:00", event: "Morning Disco" },
             { time: "12:00 - 17:00", event: "DJ'S Disco Event" },
-            { time: "17:00 - 21:00", event: "DJ'S Disco Party" },
-            { time: "21:00 - 03:00", event: "Miss Monique Live!" }
+            { time: "17:00 - 21:00", event: "Lovely Miss Monique!" },
+            { time: "21:00 - 23:00", event: "Miss Monique Live!" }
+
         ],
         0: [ // Sunday
-            { time: "03:00 - 12:00", event: "Sunday Dancin'!" },
-            { time: "12:00 - 17:00", event: "Miss Monique Live!" },
-            { time: "17:00 - 21:00", event: "Miss Monique Dance Party" },
-            { time: "21:00 - 03:00", event: "DJ'S Disco Party" }
+            { time: "03:00 - 12:00", event: "Morning Disco" },
+            { time: "12:00 - 17:00", event: "DJ'S Disco Event" },
+            { time: "17:00 - 21:00", event: "Lovely Miss Monique!" },
+            { time: "21:00 - 23:00", event: "Miss Monique Live!" }
+
         ]
     };
 
@@ -1195,6 +1197,7 @@ function generateSchedule() {
 
 // Example execution to generate upcoming events
 console.log("Generated Schedule:", JSON.stringify(generateSchedule(), null, 2));
+console.log("Loading track:", scheduledMp3Files[track_index].name, "-", scheduledMp3Files[track_index].artist);
 
 </script>
 
