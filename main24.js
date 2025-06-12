@@ -19702,7 +19702,7 @@ function resetValues() {
 function playpauseTrack() {
   if (!isPlaying) playTrack();
   else pauseTrack();
-playpause_btn.innerHTML = '<img id= "med"  src="images/pause.png">';
+playpause_btn.innerHTML = '<img id= "med"  src="images/pause1.gif">';
 
 }
 
@@ -19801,8 +19801,7 @@ function playTrack() {
 }
   });
 
-  // Highlight the current track in the playlist
-  applyBlinkingEffect(); // Ensure blinking effect is reapplied after updating the list
+ 
 
   // Hide the "Show More" button if all tracks are displayed
   const showMoreButton = document.getElementById('show-more-button');
@@ -19822,6 +19821,12 @@ function applyBlinkingEffect() {
     console.error("Filtered track not found in the DOM!");
   }
 }
+
+ // Highlight the current track in the playlist
+  applyBlinkingEffect(); // Ensure blinking effect is reapplied after updating the list
+
+
+
 
 // Event listener for "Show More" button
 document.getElementById('show-more-button').addEventListener('click', () => {
