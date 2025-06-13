@@ -19783,48 +19783,44 @@ function playTrack() {
     const additionalTracksPerClick = 5; // Number of tracks to load per click
     let currentDisplayLimit = tracksToDisplayInitially;
 
-function displayTrackList(limit = currentDisplayLimit) {
-    const trackListElement = document.getElementById('track-list-container');
-    trackListElement.innerHTML = ''; // Clear the list before repopulating
+   function displayTrackList(limit = currentDisplayLimit) {
+  const trackListElement = document.getElementById('track-list-container');
+  trackListElement.innerHTML = ''; // Clear the list before repopulating
 
-    // Filter tracks to exclude jingles before displaying
-    const filteredTracks = scheduledMp3Files.filter(track => track.name && track.artist);
+  const limitedTracks = scheduledMp3Files.slice(0, limit); // Get limited number of tracks
 
-    // Create an ordered list (`<ol>`)
-    const ol = document.createElement('ol');
+  limitedTracks.forEach((track) => {
+    const lowerCaseName = track.name.toLowerCase();
+    const lowerCaseArtist = track.artist.toLowerCase();
 
-    filteredTracks.slice(0, limit).forEach((track) => {
-        const li = document.createElement('li');
-        li.textContent = `${track.name} - ${track.artist}`;
-        ol.appendChild(li);
-    });
-
-    trackListElement.appendChild(ol);
-
-    // Hide the "Show More" button if all valid tracks are displayed
-    const showMoreButton = document.getElementById('show-more-button');
-    if (limit >= filteredTracks.length) {
-        showMoreButton.style.display = 'none'; 
-        console.log('Button clicked!');
-    }
+    if (!lowerCaseName.includes('yyy') && !lowerCaseArtist.includes('zzzz')) {
+      const li = document.createElement('li');
+      li.textContent = `${track.name} - ${track.artist}`;
+      trackListElement.appendChild(li);
+    
 }
+  });
 
+ 
+
+  // Hide the "Show More" button if all tracks are displayed
+  const showMoreButton = document.getElementById('show-more-button');
+  if (limit >= scheduledMp3Files.length) {
+    showMoreButton.style.display = 'none'; console.log('Button clicked!');
+  }
+}
 
 function applyBlinkingEffect() {
-    let allTracks = document.querySelectorAll("ul li"); 
-    allTracks.forEach(track => track.classList.remove("blinking")); 
+  let allTracks = document.querySelectorAll('ul li'); // Get all <li> elements
+  allTracks.forEach(track => track.classList.remove('blinking')); // Remove "blinking" from all
 
-    let visibleTracks = scheduledMp3Files.slice(0, currentDisplayLimit);
-    let actualIndex = visibleTracks.findIndex(track => track.path === scheduledMp3Files[track_index]?.path);
-
-    if (actualIndex !== -1 && allTracks[actualIndex]) {
-        allTracks[actualIndex].classList.add("blinking");
-        console.log("Blinking applied to:", visibleTracks[actualIndex].name);
-    } else {
-        console.error("⚠ Error: Current track is **not visible**—skipping blinking effect.");
-    }
+  // Add "blinking" class to the current track
+  if (allTracks[track_index]) { // Ensure the current track exists in the filtered list
+    allTracks[track_index].classList.add('blinking');
+  } else {
+    console.error("Filtered track not found in the DOM!");
+  }
 }
-
 
  // Highlight the current track in the playlist
   applyBlinkingEffect(); // Ensure blinking effect is reapplied after updating the list
