@@ -19820,10 +19820,10 @@ function applyBlinkingEffect() {
   } else {
     console.error("Filtered track not found in the DOM!");
   }
+ 
 }
 
- // Highlight the current track in the playlist
-  applyBlinkingEffect(); // Ensure blinking effect is reapplied after updating the list
+
 
 
 
@@ -19833,7 +19833,8 @@ document.getElementById('show-more-button').addEventListener('click', () => {
   currentDisplayLimit += additionalTracksPerClick; // Increase the limit
   displayTrackList(); // Refresh the track list
 
-
+// Highlight the current track in the playlist
+  applyBlinkingEffect(); // Ensure blinking effect is reapplied after updating the list
 
 
 
