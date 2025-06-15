@@ -19668,10 +19668,16 @@ console.log("Shuffled Track List:", trackList.map(track => track.name)); // Debu
 
 
 
+function normalizeVolume(targetVolume = 0.8) {
+    if (curr_track) {
+        curr_track.volume = Math.min(1, Math.max(0, targetVolume));
+    }
+}
 
 
 
 
+curr_track.addEventListener("play", () => normalizeVolume());
 
 
 
@@ -19725,6 +19731,7 @@ function playTrack() {
   playpause_btn.innerHTML = '<img id="media" src="images/pause66.gif">';
 
  
+adjustVolumeDynamically(); 
 
 
 
@@ -19776,6 +19783,34 @@ function playTrack() {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function adjustVolumeDynamically() {
+    let targetVolume = 0.8;  // Default volume level
+    let maxThreshold = 1; // Prevent distortion
+
+    curr_track.addEventListener("timeupdate", () => {
+        if (curr_track.volume < targetVolume) {
+            curr_track.volume = Math.min(maxThreshold, curr_track.volume + 0.01);  // Smooth increase
+        } else if (curr_track.volume > targetVolume) {
+            curr_track.volume = Math.max(0, curr_track.volume - 0.01);  // Smooth decrease
+        }
+    });
+}
 
 
 
