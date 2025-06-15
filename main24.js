@@ -32,14 +32,14 @@ function getCurrentTimeCategory() {
   switch (currentDay) {
     case 0: // Sunday
       if (currentHour >= 8 && currentHour < 12) {
-        category = "f morning";
+        category = "morning";
       } else if (currentHour >= 12 && currentHour < 17) {
         category = "f evening";
       } else if (currentHour >= 17 && currentHour < 21) {
         category = "f evening-late";
       } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
         category = "f afternoon";    } else {
-        category = "f morning";
+        category = " jingle-time";
       }
       break;
       
@@ -123,7 +123,7 @@ function getCurrentTimeCategory() {
       } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
         category = "f evening";
       } else {
-        category = "f morning";
+        category = "jingle-time";
       }
       break;
 
@@ -146,13 +146,13 @@ function getCurrentTimeCategory() {
 
   // Define categories for each day and shuffle them
   const categoriesPerDay = {
-    0: shuffle(["f morning", "f afternoon", "f evening-late", "f evening"], 0), // Sunday
+    0: shuffle(["morning", "f afternoon", "f evening-late", "f evening"], 0), // Sunday
     1: shuffle(["morning", "afternoon", "evening", "evening-late"], 1), // Monday
     2: shuffle(["morning", "afternoon", "evening", "evening-late"], 2), // Tuesday
     3: shuffle(["morning", "afternoon", "evening-late", "evening"], 3), // Wednesday
     4: shuffle(["morning", "evening", "evening-late", "afternoon"], 4), // Thursday
-    5: shuffle(["f evening", "f morning", "f afternoon", "f evening-late"], 5), // Friday
-    6: shuffle(["f morning", "f afternoon", "f evening-late", "f evening"], 6)  // Saturday
+    5: shuffle(["f evening", " morning", "f afternoon", "f evening-late"], 5), // Friday
+    6: shuffle([" morning", "f afternoon", "f evening-late", "f evening"], 6)  // Saturday
   };
 
   const shuffledCategories = categoriesPerDay[currentDay];
