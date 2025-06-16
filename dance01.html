@@ -848,7 +848,57 @@ document.getElementById("online").innerHTML=" 3 ";
 
 
 
+    <script>
+        // 🌟 Ensure DOM is ready before executing script
+        document.addEventListener("DOMContentLoaded", () => {
+            console.log("DOM loaded—setting up audio sources.");
 
+            // 🎵 Assign sources to scheduled sounds
+            const audioFiles = {
+                hourlySou: "audio/its now.mp3",
+                quarterHourSou: "muziek/effects/blast.mp3",
+                fortyFiveMinuteSou: "muziek/effects/DJ Saphire finale.mp3"
+            };
+
+            Object.entries(audioFiles).forEach(([id, src]) => {
+                const audioElement = document.getElementById(id);
+                if (audioElement) {
+                    audioElement.setAttribute("src", src);
+                    console.log(`✅ Source set for ${id}: ${src}`);
+                } else {
+                    console.error(`❌ Error: Element '${id}' not found!`);
+                }
+            });
+
+            // 🎛 Apply volume normalization when a track is ready to play
+            document.querySelectorAll("audio").forEach(audio => {
+                audio.addEventListener("canplay", () => adjustVolumeDynamically(audio));
+            });
+        });
+
+        // 🎚️ Volume Balancer Function
+        function adjustVolumeDynamically(audioElement) {
+            if (!audioElement) {
+                console.error("Error: `audioElement` is undefined!");
+                return;
+            }
+
+            let targetVolume = 0.8;  // Default volume level
+            let maxThreshold = 1; // Prevent distortion
+
+            console.log(`🎛 Volume adjustment enabled for: ${audioElement.id}`);
+
+            audioElement.addEventListener("timeupdate", () => {
+                let currentVolume = audioElement.volume;
+
+                if (currentVolume < targetVolume) {
+                    audioElement.volume = Math.min(maxThreshold, currentVolume + 0.01);  // Smooth increase
+                } else if (currentVolume > targetVolume) {
+                    audioElement.volume = Math.max(0, currentVolume - 0.01);  // Smooth decrease
+                }
+            });
+        }
+    </script>
 
 
 

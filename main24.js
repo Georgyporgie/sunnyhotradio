@@ -19819,8 +19819,7 @@ function playTrack() {
 console.log("Calling adjustVolumeDynamically:", curr_track);
 
 
-
-adjustVolumeDynamically(); 
+adjustVolumeDynamically(curr_track); 
 
 }
 
