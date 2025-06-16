@@ -19646,11 +19646,11 @@ function loadTrack(track_index) {
 
   // Set an interval of 1000 milliseconds for updating the seek slider
   updateTimer = setInterval(seekUpdate, 1000);
-
+curr_track.addEventListener("canplay", () => normalizeVolume());
   // Move to the next track if the current finishes playing using the 'ended' event
   curr_track.addEventListener("ended", nextTrack);
 
-  // Apply a random background color
+  // Apply a random background colorcurr_track.addEventListener("canplay", () => normalizeVolume());
   random_bg_color();
 }
 
@@ -19668,16 +19668,7 @@ console.log("Shuffled Track List:", trackList.map(track => track.name)); // Debu
 
 
 
-function normalizeVolume(targetVolume = 0.8) {
-    if (curr_track) {
-        curr_track.volume = Math.min(1, Math.max(0, targetVolume));
-    }
-}
 
-
-
-
-curr_track.addEventListener("play", () => normalizeVolume());
 
 
 
@@ -19716,6 +19707,42 @@ playpause_btn.innerHTML = '<img id= "med"  src="images/pause1.gif">';
 
 
 
+function normalizeVolume(targetVolume = 0.8) {
+    if (curr_track) {
+        curr_track.volume = Math.min(1, Math.max(0, targetVolume));
+    }
+}
+
+
+
+
+curr_track.addEventListener("play", () => normalizeVolume());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function adjustVolumeDynamically() {
+    let targetVolume = 0.8;  // Default volume level
+    let maxThreshold = 1; // Prevent distortion
+
+    curr_track.addEventListener("timeupdate", () => {
+        if (curr_track.volume < targetVolume) {
+            curr_track.volume = Math.min(maxThreshold, curr_track.volume + 0.01);  // Smooth increase
+        } else if (curr_track.volume > targetVolume) {
+            curr_track.volume = Math.max(0, curr_track.volume - 0.01);  // Smooth decrease
+        }
+    });
+}
 
 
 
@@ -19803,18 +19830,7 @@ adjustVolumeDynamically();
 
 
 
-function adjustVolumeDynamically() {
-    let targetVolume = 0.8;  // Default volume level
-    let maxThreshold = 1; // Prevent distortion
 
-    curr_track.addEventListener("timeupdate", () => {
-        if (curr_track.volume < targetVolume) {
-            curr_track.volume = Math.min(maxThreshold, curr_track.volume + 0.01);  // Smooth increase
-        } else if (curr_track.volume > targetVolume) {
-            curr_track.volume = Math.max(0, curr_track.volume - 0.01);  // Smooth decrease
-        }
-    });
-}
 
 
 
