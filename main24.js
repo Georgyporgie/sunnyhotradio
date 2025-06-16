@@ -19731,7 +19731,7 @@ function playTrack() {
   playpause_btn.innerHTML = '<img id="media" src="images/pause66.gif">';
 
  
-adjustVolumeDynamically(); 
+
 
 
 
@@ -19778,6 +19778,10 @@ adjustVolumeDynamically();
   } else {
     console.error("Filtered track not found in the DOM!");
   }
+
+
+adjustVolumeDynamically(); 
+
 }
 
 
