@@ -785,9 +785,10 @@ document.getElementById("online").innerHTML=" 3 ";
 
 
 
-<audio id="musicPlayer" controls>
-    <source id="musicSource" src="" type="audio/mp3">
-    Your browser does not support the audio element.
+
+
+<audio id="musicPlayer" autoplay loop>
+    <source id="musicSource" src="" type="audio/mpeg">
 </audio>
 
 <script>
@@ -1128,42 +1129,37 @@ document.getElementById("now").innerHTML="<em>current track</em>";
 
     var currentIndex = new Date().getHours(); // Set index based on the current hour
 
-    function playHourlyAnnouncement() {
-        var audioElement = document.getElementById('hourlyAnnouncement');
-        var currentTime = new Date();
-        var minutes = currentTime.getMinutes();
-        var seconds = currentTime.getSeconds();
-        var millisecondsToNextHour = ((59 - minutes) * 60 + (60 - seconds)) * 1000;
+ function playHourlyAnnouncement() {
+    var audioElement = document.getElementById('hourlyAnnouncement');
+    
+    if (!audioElement) {
+        console.error("Audio element not found!");
+        return;
+    }
 
-        setTimeout(function() {
+    var currentTime = new Date();
+    var minutes = currentTime.getMinutes();
+    var seconds = currentTime.getSeconds();
+    var millisecondsToNextHour = ((59 - minutes) * 60 + (60 - seconds)) * 1000;
+
+    setTimeout(function() {
+        audioElement.src = sources[currentIndex];
+        audioElement.load(); // ✅ Ensure the audio element is ready
+        audioElement.play();
+        adjustVolumeDynamically(audioElement); // ✅ Apply volume normalization
+
+        currentIndex = (currentIndex + 1) % sources.length;
+
+        setInterval(function() {
             audioElement.src = sources[currentIndex];
+            audioElement.load();
             audioElement.play();
-            adjustVolumeDynamically(audioElement); // ✅ Apply volume normalization
-
+            adjustVolumeDynamically(audioElement); // ✅ Apply volume normalization for each track
             currentIndex = (currentIndex + 1) % sources.length;
+        }, 3600000); // Play every hour
+    }, millisecondsToNextHour);
+}
 
-            setInterval(function() {
-                audioElement.src = sources[currentIndex];
-                audioElement.play();
-                adjustVolumeDynamically(audioElement); // ✅ Apply volume normalization on each new track
-                currentIndex = (currentIndex + 1) % sources.length;
-            }, 3600000); // Play every hour
-        }, millisecondsToNextHour);
-    }
-
-    // 🎛 Volume Balancer Function
-    function adjustVolumeDynamically(audioElement) {
-        let targetVolume = 0.8;  // Default volume level
-        let maxThreshold = 1; // Prevent distortion
-
-        audioElement.addEventListener("timeupdate", () => {
-            if (audioElement.volume < targetVolume) {
-                audioElement.volume = Math.min(maxThreshold, audioElement.volume + 0.01);  // Smooth increase
-            } else if (audioElement.volume > targetVolume) {
-                audioElement.volume = Math.max(0, audioElement.volume - 0.01);  // Smooth decrease
-            }
-        });
-    }
 
     // 🕒 Activate hourly announcements
     playHourlyAnnouncement();
