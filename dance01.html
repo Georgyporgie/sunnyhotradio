@@ -1005,10 +1005,45 @@ document.getElementById("now").innerHTML="<em>current track</em>";
 
 
 
+<script>
 
+document.addEventListener("DOMContentLoaded", () => {
+    const player = document.getElementById("musicPlayer");
 
+    if (!player) {
+        console.error("Error: `musicPlayer` not found!");
+        return;
+    }
 
+    console.log("Audio element found—loading track...");
+    player.load();
 
+    player.addEventListener("canplaythrough", () => {
+        console.log("Track is fully loaded—applying volume adjustment.");
+        adjustVolumeDynamically(player);
+    });
+});
+
+// 🎛 Volume Balancer Function
+function adjustVolumeDynamically(audioElement) {
+    if (!audioElement) {
+        console.error("Error: `audioElement` is undefined!");
+        return;
+    }
+
+    let targetVolume = 0.8;
+    let maxThreshold = 1;
+
+    audioElement.addEventListener("timeupdate", () => {
+        if (audioElement.volume < targetVolume) {
+            audioElement.volume = Math.min(maxThreshold, audioElement.volume + 0.01);
+        } else if (audioElement.volume > targetVolume) {
+            audioElement.volume = Math.max(0, audioElement.volume - 0.01);
+        }
+    });
+}
+
+</script>
 
 
     

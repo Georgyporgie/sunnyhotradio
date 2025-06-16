@@ -19624,35 +19624,40 @@ console.log("Shuffled Track Order:", shuffledTracks.map(track => track.name));
 
 
 
-
-
-
-
-// Function to load a track
 function loadTrack(track_index) {
-  // Clear the previous seek timer
-  clearInterval(updateTimer);
-  resetValues();
+    // ✅ Ensure the track index is valid before proceeding
+    if (!scheduledMp3Files || !scheduledMp3Files[track_index]) {
+        console.error("Error: No track found at index", track_index);
+        return;
+    }
 
-  // Load a new track
-  curr_track.src = scheduledMp3Files[track_index].path;
-  curr_track.load();
+    // ✅ Assign new track
+    curr_track = new Audio(scheduledMp3Files[track_index].path);
+    curr_track.load();
 
-  // Update details of the track
-  track_art.style.backgroundImage = "url(" + scheduledMp3Files[track_index].image + ")";
-  track_name.textContent = scheduledMp3Files[track_index].name;
-  track_artist.textContent = scheduledMp3Files[track_index].artist;
-  now_playing.textContent = "PLAYING " + (track_index + 1) + " OF " + scheduledMp3Files.length;
+    // ✅ Update track details
+    track_art.style.backgroundImage = "url(" + scheduledMp3Files[track_index].image + ")";
+    track_name.textContent = scheduledMp3Files[track_index].name;
+    track_artist.textContent = scheduledMp3Files[track_index].artist;
+    now_playing.textContent = "PLAYING " + (track_index + 1) + " OF " + scheduledMp3Files.length;
 
-  // Set an interval of 1000 milliseconds for updating the seek slider
-  updateTimer = setInterval(seekUpdate, 1000);
-curr_track.addEventListener("canplay", () => normalizeVolume());
-  // Move to the next track if the current finishes playing using the 'ended' event
-  curr_track.addEventListener("ended", nextTrack);
+    // ✅ Ensure seek timer is reset
+    clearInterval(updateTimer);
+    updateTimer = setInterval(seekUpdate, 1000);
 
-  // Apply a random background colorcurr_track.addEventListener("canplay", () => normalizeVolume());
-  random_bg_color();
+    // ✅ Move to next track when current finishes playing
+    curr_track.addEventListener("ended", nextTrack);
+
+    // ✅ Apply random background color
+    random_bg_color();
+
+    // ✅ Apply volume normalization when track is ready
+    curr_track.addEventListener("canplay", () => normalizeVolume());
+    
+    // ✅ Ensure dynamic volume balancing applies after full load
+    curr_track.addEventListener("canplaythrough", () => adjustVolumeDynamically());
 }
+
 
 
 
@@ -19728,31 +19733,37 @@ curr_track.addEventListener("play", () => normalizeVolume());
 
 
 
-
-
-
 function adjustVolumeDynamically() {
-    let targetVolume = 0.8;  // Default volume level
-    let maxThreshold = 1; // Prevent distortion
+    if (!curr_track) {
+        console.error("Error: `curr_track` is undefined!");
+        return; // Prevent function from running further
+    }
+
+    let targetVolume = 0.8;
+    let maxThreshold = 1;
 
     curr_track.addEventListener("timeupdate", () => {
         if (curr_track.volume < targetVolume) {
-            curr_track.volume = Math.min(maxThreshold, curr_track.volume + 0.01);  // Smooth increase
+            curr_track.volume = Math.min(maxThreshold, curr_track.volume + 0.01);
         } else if (curr_track.volume > targetVolume) {
-            curr_track.volume = Math.max(0, curr_track.volume - 0.01);  // Smooth decrease
+            curr_track.volume = Math.max(0, curr_track.volume - 0.01);
         }
     });
 }
 
 
 
+
+
+
 function playTrack() {
+    if (!curr_track) {
+        console.error("Error: `curr_track` is undefined!");
+        return;
+    }
 
-
-  // Play the loaded track
-  
-  curr_track.play();
-  isPlaying = true;
+    curr_track.play();
+    isPlaying = true;
 
   // Replace the play icon with the pause icon
   playpause_btn.innerHTML = '<img id="media" src="images/pause66.gif">';
@@ -19805,6 +19816,8 @@ function playTrack() {
   } else {
     console.error("Filtered track not found in the DOM!");
   }
+console.log("Calling adjustVolumeDynamically:", curr_track);
+
 
 
 adjustVolumeDynamically(); 
