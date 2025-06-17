@@ -19607,23 +19607,6 @@ console.log("Shuffled Track Order:", shuffledTracks.map(track => track.name));
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function loadTrack(track_index) {
     // ✅ Ensure the track index is valid before proceeding
     if (!scheduledMp3Files || !scheduledMp3Files[track_index]) {
@@ -19633,7 +19616,14 @@ function loadTrack(track_index) {
 
     // ✅ Assign new track
     curr_track = new Audio(scheduledMp3Files[track_index].path);
-    curr_track.load();
+
+    // ✅ Ensure `curr_track` exists before proceeding
+    if (!curr_track) {
+        console.error("Error: `curr_track` is undefined!");
+        return;
+    }
+
+    console.log("Loading track:", scheduledMp3Files[track_index].path);
 
     // ✅ Update track details
     track_art.style.backgroundImage = "url(" + scheduledMp3Files[track_index].image + ")";
@@ -19651,12 +19641,23 @@ function loadTrack(track_index) {
     // ✅ Apply random background color
     random_bg_color();
 
+    // ✅ Load track before applying event listeners
+    curr_track.load();
+
     // ✅ Apply volume normalization when track is ready
-    curr_track.addEventListener("canplay", () => normalizeVolume());
-    
+    curr_track.addEventListener("canplay", () => {
+        console.log("✅ canplay event fired—normalizing volume...");
+        normalizeVolume();
+        curr_track.play().catch(err => console.warn("Autoplay prevented:", err));
+    });
+
     // ✅ Ensure dynamic volume balancing applies after full load
-    curr_track.addEventListener("canplaythrough", () => adjustVolumeDynamically());
+    curr_track.addEventListener("canplaythrough", () => {
+        console.log("✅ canplaythrough event fired—applying volume adjustment...");
+        adjustVolumeDynamically(curr_track);
+    });
 }
+
 
 
 
