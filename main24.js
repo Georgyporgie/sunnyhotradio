@@ -19644,12 +19644,22 @@ function loadTrack(track_index) {
     // ✅ Load track before applying event listeners
     curr_track.load();
 
-    // ✅ Apply volume normalization when track is ready
-    curr_track.addEventListener("canplay", () => {
-        console.log("✅ canplay event fired—normalizing volume...");
-        normalizeVolume();
-        curr_track.play().catch(err => console.warn("Autoplay prevented:", err));
-    });
+curr_track.addEventListener("canplay", () => {
+    normalizeVolume();
+    curr_track.play(); // Autoplay will work here
+
+    // ✅ Highlight the current track when it becomes playable
+    let allTracks = document.querySelectorAll('ul li');
+    allTracks.forEach(track => track.classList.remove('blinking')); // Remove from all
+
+    if (allTracks[track_index]) {
+        console.log("Applying 'blinking' class due to autoplay:", allTracks[track_index]);
+        allTracks[track_index].classList.add('blinking'); // Add blinking effect
+    } else {
+        console.error("❌ Error: Track index does not match any DOM element!");
+    }
+});
+
 
     // ✅ Ensure dynamic volume balancing applies after full load
     curr_track.addEventListener("canplaythrough", () => {
