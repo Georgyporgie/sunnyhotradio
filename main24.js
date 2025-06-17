@@ -19795,6 +19795,31 @@ function playTrack() {
 
 
 
+function fadeOutTrack(audioElement, duration = 2000) {
+    if (!audioElement) {
+        console.error("Error: `audioElement` is undefined!");
+        return;
+    }
+
+    let fadeInterval = 50; // Adjust the speed of fade steps
+    let fadeStep = audioElement.volume / (duration / fadeInterval); // Volume decrement per step
+
+    let fadeEffect = setInterval(() => {
+        if (audioElement.volume > 0) {
+            audioElement.volume = Math.max(0, audioElement.volume - fadeStep);
+        } else {
+            clearInterval(fadeEffect);
+            audioElement.pause(); // Stop playback after fade-out completes
+        }
+    }, fadeInterval);
+}
+
+// ✅ Apply fade-out when the track is about to end (e.g., last 5 seconds)
+curr_track.addEventListener("timeupdate", () => {
+    if (curr_track.duration - curr_track.currentTime <= 1) {
+        fadeOutTrack(curr_track);
+    }
+});
 
 
 
