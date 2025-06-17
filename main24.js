@@ -19816,7 +19816,7 @@ function fadeOutTrack(audioElement, duration = 2000) {
 
 // ✅ Apply fade-out when the track is about to end (e.g., last 5 seconds)
 curr_track.addEventListener("timeupdate", () => {
-    if (curr_track.duration - curr_track.currentTime <= 1) {
+    if (curr_track.duration - curr_track.currentTime <= 2) {
         fadeOutTrack(curr_track);
     }
 });
@@ -19858,6 +19858,7 @@ console.log("Calling adjustVolumeDynamically:", curr_track);
 adjustVolumeDynamically(curr_track); 
 applyBlinkingEffect();
 }
+
 
 
 
