@@ -19821,7 +19821,7 @@ console.log("Calling adjustVolumeDynamically:", curr_track);
 
 
 adjustVolumeDynamically(curr_track); 
-
+applyBlinkingEffect();
 }
 
 
