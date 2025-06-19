@@ -912,20 +912,18 @@ width: 325px; height: 370px;
 
 
 
-
 .blinking {
-  animation: blink 2s infinite ease-in-out, pulse 1.5s infinite ease-in-out;
-  background: linear-gradient(45deg, #0033FF, #FFC300, #003399);
+  animation: blink 2s infinite ease-in-out, pulse 1.5s infinite ease-in-out, gradient-blink 4s infinite alternate ease-in-out;
+  background: linear-gradient(45deg, #3a0ca3, #00c2cb, #1f3c88); /* ← or your updated one */
   background-size: 500% 500%;
   color: #FF0000;
   text-align: center;
   font-size: 25px;
   font-weight: bold;
-  text-shadow: 0 0 5px #FFFFFF, 0 0 10px #006666;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #00c2cb;
   padding: 15px 25px;
   border-radius: 10px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-  animation: gradient-blink 4s infinite alternate ease-in-out;
 }
 
 @keyframes blink {
@@ -942,6 +940,7 @@ width: 325px; height: 370px;
   0% { background-position: 0% 50%; }
   100% { background-position: 100% 50%; }
 }
+
 
 
 
