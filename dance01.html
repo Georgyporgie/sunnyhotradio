@@ -547,6 +547,7 @@ fetch('event.json')
 
 
 <script>
+
 window.addEventListener("load", function () {
   const clock = document.getElementById("stop");
   let time = -1; // Initialize time
@@ -1268,7 +1269,83 @@ function generateSchedule() {
 console.log("Generated Schedule:", JSON.stringify(generateSchedule(), null, 2));
 console.log("Loading track:", scheduledMp3Files[track_index].name, "-", scheduledMp3Files[track_index].artist);
 
+
+
+
+
+
+function initializePlayCounts(tracks) {
+  tracks.forEach(track => {
+    if (typeof track.playCount !== "number") {
+      track.playCount = 0;
+    }
+  });
+}
+
+
+
+
+
+initializePlayCounts(track_list);
+
+
+
+
+
+
+
+
+
+function sortTracksByPlayCount() {
+  track_list.sort((a, b) => b.playCount - a.playCount);
+}
+
+
+
+
+function getRarelyPlayedTracks(maxPlays = 3) {
+  return track_list.filter(track => track.playCount <= maxPlays);
+}
+
+
+
+
+let safePool = getRarelyPlayedTracks();
+let choice = safePool[Math.floor(Math.random() * safePool.length)];
+loadTrack(track_list.indexOf(choice));
+
+
+
+
+
+
+
+
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
