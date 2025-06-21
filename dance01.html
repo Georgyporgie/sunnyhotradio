@@ -831,7 +831,7 @@ document.getElementById("online").innerHTML=" 3 ";
 
     // 🎛 Volume Balancer Function
     function adjustVolumeDynamically(audioElement) {
-        let targetVolume = 0.6;  // Default volume level
+        let targetVolume = 0.8;  // Default volume level
         let maxThreshold = 1; // Prevent distortion
 
         audioElement.addEventListener("timeupdate", () => {
@@ -876,28 +876,7 @@ document.getElementById("online").innerHTML=" 3 ";
             });
         });
 
-        // 🎚️ Volume Balancer Function
-        function adjustVolumeDynamically(audioElement) {
-            if (!audioElement) {
-                console.error("Error: `audioElement` is undefined!");
-                return;
-            }
-
-            let targetVolume = 0.8;  // Default volume level
-            let maxThreshold = 1; // Prevent distortion
-
-            console.log(`🎛 Volume adjustment enabled for: ${audioElement.id}`);
-
-            audioElement.addEventListener("timeupdate", () => {
-                let currentVolume = audioElement.volume;
-
-                if (currentVolume < targetVolume) {
-                    audioElement.volume = Math.min(maxThreshold, currentVolume + 0.01);  // Smooth increase
-                } else if (currentVolume > targetVolume) {
-                    audioElement.volume = Math.max(0, currentVolume - 0.01);  // Smooth decrease
-                }
-            });
-        }
+        
     </script>
 
 
@@ -1074,24 +1053,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-// 🎛 Volume Balancer Function
-function adjustVolumeDynamically(audioElement) {
-    if (!audioElement) {
-        console.error("Error: `audioElement` is undefined!");
-        return;
-    }
 
-    let targetVolume = 0.8;
-    let maxThreshold = 1;
-
-    audioElement.addEventListener("timeupdate", () => {
-        if (audioElement.volume < targetVolume) {
-            audioElement.volume = Math.min(maxThreshold, audioElement.volume + 0.01);
-        } else if (audioElement.volume > targetVolume) {
-            audioElement.volume = Math.max(0, audioElement.volume - 0.01);
-        }
-    });
-}
 
 </script>
 
@@ -1127,19 +1089,7 @@ function adjustVolumeDynamically(audioElement) {
         audio.addEventListener("canplay", () => adjustVolumeDynamically(audio));
     });
 
-    // 🎛 Volume Balancer Function
-    function adjustVolumeDynamically(audioElement) {
-        let targetVolume = 0.8;  // Default volume level
-        let maxThreshold = 1; // Prevent distortion
 
-        audioElement.addEventListener("timeupdate", () => {
-            if (audioElement.volume < targetVolume) {
-                audioElement.volume = Math.min(maxThreshold, audioElement.volume + 0.01);  // Smooth increase
-            } else if (audioElement.volume > targetVolume) {
-                audioElement.volume = Math.max(0, audioElement.volume - 0.01);  // Smooth decrease
-            }
-        });
-    }
 
     // 📢 Sound Scheduling Function
     function scheduleSounds() {
