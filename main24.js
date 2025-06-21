@@ -19814,7 +19814,7 @@ function fadeOutTrack(audioElement, duration = 2000) {
     }, fadeInterval);
 }
 
-// ✅ Apply fade-out when the track is about to end (e.g., last 5 seconds)
+// ✅ Apply fade-out when the track is about to end (e.g., last 1 second)
 curr_track.addEventListener("timeupdate", () => {
     if (curr_track.duration - curr_track.currentTime <= 1) {
         fadeOutTrack(curr_track);
@@ -20040,6 +20040,45 @@ $('.btn').click(function () {
 
 
 
+function initializePlayCounts(tracks) {
+  tracks.forEach(track => {
+    if (typeof track.playCount !== "number") {
+      track.playCount = 0;
+    }
+  });
+}
+
+
+
+
+
+initializePlayCounts(trackList);
+
+
+
+
+
+
+
+
+
+function sortTracksByPlayCount() {
+  trackList.sort((a, b) => b.playCount - a.playCount);
+}
+
+
+
+
+function getRarelyPlayedTracks(maxPlays = 3) {
+  return trackList.filter(track => track.playCount <= maxPlays);
+}
+
+
+
+
+let safePool = getRarelyPlayedTracks();
+let choice = safePool[Math.floor(Math.random() * safePool.length)];
+loadTrack(trackList.indexOf(choice));
 
 
 
