@@ -1,0 +1,1403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HGPPL3SXDS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HGPPL3SXDS');
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title> Sunny Danceradio</title>
+   <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+ <meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Load FontAwesome icons -->
+  <link rel="stylesheet"
+        href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+ 
+  <!-- Load the custom CSS style file -->
+  <link rel="stylesheet" type="text/css" href="style2.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style type="text/css">
+  
+ 
+
+
+
+
+
+
+
+
+
+
+ <style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.header {
+  padding: 10px 16px;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0; z-index: 1;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav" id="myHeader" >
+  <h1 class="header" > <a href="#home" class="active"><img id= "logo"><img id= "dion">
+
+</a> </h1>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    
+  <a href="https://sunnyhotradio.netlify.app/Index.html">HOME<img id= "dwarf"></a>
+
+    <a href="https://sunnyrockradio.com/Index.html">SUNNY <em>ROCK</em> RADIO<img id= "lin"></a>
+  <a href="https://sunnyjazzradio.com/Index.html">SUNNY <em>JAZZ</em> RADIO<img id= "linger"></a>
+
+
+
+</div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction1()">
+    <div class="btn">
+        <span class="fas fa-bars"></span>
+    </div>
+ 
+ </a>
+</div>
+
+</head>
+
+
+<body>
+<div class = "arrow">
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<div id="now"></div>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+<div class="player">
+ 
+    <!-- Define the section for displaying details -->
+    <div class="details">
+      <div class="now-playing">PLAYING x OF y</div>
+      <div class="track-art"></div>
+      <div class="track-name">Track Name</div>
+      <div class="track-artist">Track Artist</div>
+    </div>
+
+ 
+
+ <!-- Define the section for displaying track buttons -->
+    <div class="buttons">
+    
+      <div class="playpause-track" onclick="playpauseTrack()">
+        <br>
+<img id= "media">
+      </div>
+     
+    </div>
+<br>
+
+ <!-- Define the section for displaying the seek slider-->
+    <div class="slider_container">
+      <div class="current-time"><strong>00:00</strong></div>
+      <input type="range" min="1" max="100"
+        value="0" class="seek_slider" >
+      <div class="total-duration"><strong>00:00</strong></div>
+    </div>
+ 
+    <!-- Define the section for displaying the volume slider-->
+    <div class="slider_container">
+      <i class="fa fa-volume-down"></i>
+      <input type="range" min="1" max="100"
+        value="99" class="volume_slider" onchange="setVolume()">
+ 
+     <img id= "medio">
+</div>
+  
+<br>
+<br>
+
+
+
+
+<img id= "astro">
+
+</div>
+
+
+
+<div>
+ 
+
+  
+
+
+ <img id="myImage" src="images/jazzradio1.png" alt="Dance Radio">
+
+    
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<p id="message"></p>
+</div>
+
+
+
+
+
+
+<br>
+<br>
+<br>
+
+
+
+<br>
+<br>
+
+<div>
+
+<br><img id="record">
+<h5 class= "inch"><em> Todays Hotlist</em></h5><br><img id="rec">
+<br>
+<br>
+<img id= "playlist">
+
+<ul id="track-list-container"></ul>
+
+
+
+  <button id="show-more-button">show more</button>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div>
+<IFRAME id="frame" SRC="https://shiphorn.netlify.app/live" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=345 HEIGHT=382></IFRAME>
+<br>
+</div>
+
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h5 id="events">
+<script>
+fetch('event.json')
+
+    .then(response => {
+        if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+        return response.json();
+    })
+    .then(data => {
+        const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        const todayIndex = new Date().getDay(); // Get today's numeric index (0 = Sunday, 6 = Saturday)
+        const today = daysOfWeek[todayIndex]; // Convert to day name
+
+        // Only show events if today is Friday (5), Saturday (6), or Sunday (0)
+        if ([5, 6, 0].includes(todayIndex)) {
+            const events = data[today]; // Retrieve weekend events
+
+            console.log("Weekend Event Data:", events); // Debugging log
+
+            if (events) {
+                let eventsHTML = `<em><br><u>Upcoming Weekend Events</u></em><br><br>Today (${today}):<br><br>`;
+                events.forEach(event => {
+                    eventsHTML += `${event.time}: <br><em>${event.event}</em><br><br>`;
+                });
+                document.getElementById('events').innerHTML = eventsHTML;
+            } else {
+                document.getElementById('events').innerHTML = '<em>No events scheduled for today.</em>';
+            }
+        } else {
+            // Hide events on weekdays
+            document.getElementById('events').innerHTML = '<em>No Events Today.</em>';
+        }
+    })
+    .catch(error => console.error('Error fetching weekend events:', error));
+
+    </script>
+
+</h5>
+
+<img id= "miss"> 
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<br>
+<div>
+<br><img id="stopw">
+
+<h5 id="stop" class="inch">00:00   
+ </h5><br><img id="stopwa">
+</div>
+<br>
+<br>
+
+<br>
+<img id= "hero-image">
+<IFRAME  class= "ship" SRC="https://shiphorn.netlify.app/treasuree" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0  WIDTH=356 HEIGHT=250></IFRAME>
+<br>
+<br>
+<br>
+<br>
+
+ <div>
+<h5 class="inch"><em>Leave A Message!</em></h5>
+<br>
+<IFRAME class="weather" SRC="subm.html" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=300 HEIGHT=556></IFRAME>
+
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div>
+<br><img id="sunnyr">
+<h5 id="time"> </h5><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<div>
+<h5 class="inch"><em>Weather Forecast</em></h5>
+<br>
+
+<IFRAME class="weather" SRC="buien.html" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=256 HEIGHT=506></IFRAME>
+</div>
+<br>
+ <br>
+<br>
+<br>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div>
+<br>
+<img id="alex"><h5 class="inch"><em>Users  Online</em></h5>
+<p id="annie"><p id="online"></p>
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<IFRAME id="chat" SRC="https://shiphorn.netlify.app/chat" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=350 HEIGHT=326></IFRAME>
+
+<br>
+
+
+
+
+
+
+ </div>
+
+
+<div>
+<h5 class="inch"><em>Sunny Dance<span class="dark"> Radio</span> Stars</em></h5>
+ <br>
+<br>
+<img id="ion">
+
+<br>
+<br>
+<br>
+<br>
+
+
+<img  id= "travolta"> 
+
+<br>
+<br>
+<br>
+<br>
+
+
+<img id= "max">
+
+
+
+</div>
+
+
+
+
+
+<br>
+<br>
+<br>
+
+<br>
+
+
+
+
+ <div>
+<h5 class="inch"><em>Amsterdam Nightlife</em></h5>
+<iframe class= "frame" src="https://www.uitzinnig.nl/8/249/amsterdam.aspx"></iframe>
+</div>
+ <br>
+<br>
+<br>
+<br>
+ <br> 
+
+
+<div>
+<h5 class="inch"><em><span id= "play">play </span> Find The Treasure</em></h5>
+<IFRAME id="cata" SRC="https://shiphorn.netlify.app/" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=340 HEIGHT=706></IFRAME>
+</div>
+ <br>
+<br>
+<br>
+<br>
+ <br> 
+
+
+
+
+
+<div>
+<h5 class="inch"><em>Countdown Timer</em></h5>
+
+
+
+<IFRAME class="weather" SRC="https://shiphorn.netlify.app/countdown" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=345 HEIGHT=506></IFRAME>
+</div>
+
+<br>
+<br>
+<br>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+window.addEventListener("load", function () {
+  const clock = document.getElementById("stop");
+  let time = -1; // Initialize time
+  function incrementTime() {
+    time++;
+    clock.textContent =
+      ("0" + Math.trunc(time / 60)).slice(-2) + ":" + ("0" + (time % 60)).slice(-2);
+  }
+  incrementTime(); // Initialize display
+  setInterval(incrementTime, 1000); // Update every second
+});
+
+</script>
+
+
+
+
+
+
+
+<script>
+
+
+function startTime() {
+    const today = new Date();
+    let h = today.getHours();
+    let m = today.getMinutes();
+    let s = today.getSeconds();
+  
+    m = checkTime(m);
+    s = checkTime(s);
+
+    // Update time display
+    document.getElementById("time").innerHTML = "Sunny Time: " + h + ":" + m + ":" + s;
+}
+
+// Function to format numbers below 10
+function checkTime(i) {
+    return i < 10 ? "0" + i : i;
+}
+
+// Start the clock and update every second
+window.setInterval(startTime, 1000);
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src= "main24.js"> </script>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("stopw");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/stopwatch.png';
+</script>
+
+
+ <script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("stopwa");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/stopwatch.png';
+</script>
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("medio");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/giphy (2).gif';
+</script>
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("alex");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/alexander.png';
+</script>
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("max");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/janelle monae.jpg';
+</script>
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("miss");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny DanceRadio444.png';
+</script>
+
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("playlist");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny playlist.png';
+</script>
+
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("sunnyr");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny4.png';
+</script>
+
+
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("logo");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Dance radio5.png';
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script> 
+document.getElementById("online").innerHTML=" 3 "; 
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<audio id="musicPlayer" autoplay loop>
+    <source id="musicSource" src="" type="audio/mpeg">
+</audio>
+
+<script>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         // 🌟 Ensure DOM is ready before executing script
+        document.addEventListener("DOMContentLoaded", () => {
+            console.log("DOM loaded—setting up audio sources.");
+
+            // 🎵 Assign sources to scheduled sounds
+            const audioFiles = {
+                hourlySou: "audio/its now.mp3",
+                quarterHourSou: "muziek/effects/blast.mp3",
+                fortyFiveMinuteSou: "muziek/effects/DJ Saphire finale.mp3"
+            };
+
+            Object.entries(audioFiles).forEach(([id, src]) => {
+                const audioElement = document.getElementById(id);
+                if (audioElement) {
+                    audioElement.setAttribute("src", src);
+                    console.log(`✅ Source set for ${id}: ${src}`);
+                } else {
+                    console.error(`❌ Error: Element '${id}' not found!`);
+                }
+            });
+
+            // 🎛 Apply volume normalization when a track is ready to play
+            document.querySelectorAll("audio").forEach(audio => {
+                audio.addEventListener("canplay", () => adjustVolumeDynamically(audio));
+            });
+        });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ // 🎶 Define the tracks for each day
+    const tracks = {
+        0: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekend%20piratejinglepublic.mp3",
+        1: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
+        2: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
+        3: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
+        4: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
+        5: { 
+            early: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3", 
+            after17: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalepublic.mp3" 
+        },
+        6: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekend%20piratejinglepublic.mp3"
+    };
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 🕰 Get the current day and hour
+    const today = new Date().getDay();
+    const currentHour = new Date().getHours();
+
+    let selectedTrack;
+
+    // Special condition for Friday (5) to switch track after 17:00
+    if (today === 5) {
+        selectedTrack = currentHour >= 17 ? tracks[5].after17 : tracks[5].early;
+    } else {
+        selectedTrack = tracks[today];
+    }
+
+    // 🎧 Set the source and load the track
+    document.getElementById("musicSource").setAttribute('src', selectedTrack);
+    const player = document.getElementById("musicPlayer");
+    player.load(); 
+
+    // ✅ Apply volume normalization when the track is ready to play
+    player.addEventListener("canplay", () => {
+        adjustVolumeDynamically(player);
+    });
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+ // 🎛 Volume Balancer Function
+    function adjustVolumeDynamically(audioElement) {
+        let targetVolume = 0.8;  // Default volume level
+        let maxThreshold = 1; // Prevent distortion
+
+        audioElement.addEventListener("timeupdate", () => {
+            if (audioElement.volume < targetVolume) {
+                audioElement.volume = Math.min(maxThreshold, audioElement.volume + 0.01);  // Smooth increase
+            } else if (audioElement.volume > targetVolume) {
+                audioElement.volume = Math.max(0, audioElement.volume - 0.01);  // Smooth decrease
+            }
+        });
+    }
+
+
+
+window.addEventListener("load", () => {
+  loadTrack(0);        // Load your first track
+  playTrack();         // Start playing it
+  audio.muted = false; // Unmute right after (sometimes needs a short delay)
+});
+
+
+
+
+        
+    </script>
+
+
+
+
+
+
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("hero-image");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Jazzdivas.png';
+</script>
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("ion");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/sunny stars.png';
+</script>
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("travolta");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/SG Lewis.jpg';
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("dwarf");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/red star3.png';
+</script>
+  
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("lin");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny5.png';
+</script>
+ 
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("linger");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny7.png';
+</script>
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("hero-image");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Dua Lipa.png';
+</script>
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("astro");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/red star2.png';
+</script>
+
+
+
+
+  <script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("myImage");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Miss Chang.png';
+</script>
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("record");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/record2.png';
+</script>
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("rec");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/record2.png';
+</script>
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("dion");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/connection.gif';
+</script>
+
+
+
+
+
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("media");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/pause.gif';
+</script>
+
+
+
+<script> 
+document.getElementById("now").innerHTML="<em>current track</em>"; 
+</script>
+
+
+
+
+
+
+
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", () => {
+    const player = document.getElementById("musicPlayer");
+
+    if (!player) {
+        console.error("Error: `musicPlayer` not found!");
+        return;
+    }
+
+    console.log("Audio element found—loading track...");
+    player.load();
+
+    player.addEventListener("canplaythrough", () => {
+        console.log("Track is fully loaded—applying volume adjustment.");
+        adjustVolumeDynamically(player);
+    });
+});
+
+
+
+</script>
+
+
+    
+
+
+ 
+
+
+
+
+
+
+ <audio id="hourlySou">
+    <source src="" type="audio/mp3">
+</audio>
+<audio id="quarterHourSou">
+    <source src="" type="audio/mp3">
+</audio>
+<audio id="fortyFiveMinuteSou">
+    <source src="" type="audio/mp3">
+</audio>
+
+<script>
+    // 🎧 Set the source for scheduled sounds
+    document.getElementById("hourlySou").setAttribute('src', 'audio/its now.mp3');
+    document.getElementById("quarterHourSou").setAttribute('src', 'muziek/effects/blast.mp3');
+    document.getElementById("fortyFiveMinuteSou").setAttribute('src', 'muziek/effects/DJ Saphire finale.mp3');
+
+    // ✅ Apply volume normalization when a track is ready to play
+    document.querySelectorAll("audio").forEach(audio => {
+        audio.addEventListener("canplay", () => adjustVolumeDynamically(audio));
+    });
+
+
+
+    // 📢 Sound Scheduling Function
+    function scheduleSounds() {
+        console.log("Scheduling sounds...");
+        var now = new Date();
+
+        // 🎵 Hourly sound
+        var hourlyDelay = (60 - now.getMinutes()) * 60 * 1000 - now.getSeconds() * 1000;
+        setTimeout(function() {
+            playSound(["hourlySou"]);
+            setInterval(function() {
+                playSound(["hourlySou"]);
+            }, 3600000); // Every hour
+        }, hourlyDelay);
+
+        // 🎵 Quarter-hour sound
+        var quarterHourDelay = (15 - (now.getMinutes() % 15)) * 60 * 1000 - now.getSeconds() * 1000;
+        setTimeout(function() {
+            playSound(["quarterHourSou"]);
+            setInterval(function() {
+                playSound(["quarterHourSou"]);
+            }, 900000); // Every 15 minutes
+        }, quarterHourDelay);
+
+        // 🎵 Forty-five-minute sound
+        var fortyFiveMinuteDelay = (45 - (now.getMinutes() % 45)) * 60 * 1000 - now.getSeconds() * 1000;
+        setTimeout(function() {
+            playSound(["fortyFiveMinuteSou"]);
+            setInterval(function() {
+                playSound(["fortyFiveMinuteSou"]);
+            }, 2700000); // Every 45 minutes
+        }, fortyFiveMinuteDelay);
+    }
+
+    // 🔊 Play Sound Function
+    function playSound(soundIds) {
+        soundIds.forEach(id => {
+            let soundElement = document.getElementById(id);
+            if (soundElement) {
+                soundElement.volume = 0.8; // Set base volume
+                adjustVolumeDynamically(soundElement); // Apply smooth volume transitions
+                soundElement.play();
+            } else {
+                console.error("Sound element not found:", id);
+            }
+        });
+    }
+
+    // 🕒 Activate scheduling on page load
+    window.onload = scheduleSounds;
+</script>
+
+
+
+
+
+
+
+
+<audio id="hourlyAnnouncement"></audio>
+
+<script>
+    // 🎧 Define the sources for hourly announcements
+    var sources = [
+        "audio/0.mp3", "audio/1.mp3", "audio/2.mp3", "audio/3.mp3",
+        "audio/4.mp3", "audio/5.mp3", "audio/6.mp3", "audio/7.mp3",
+        "audio/8.mp3", "audio/9.mp3", "audio/10.mp3", "audio/11.mp3",
+        "audio/12.mp3", "audio/13.mp3", "audio/14.mp3", "audio/15.mp3",
+        "audio/16.mp3", "audio/17.mp3", "audio/18.mp3", "audio/19.mp3",
+        "audio/20.mp3", "audio/21.mp3", "audio/22.mp3", "audio/23.mp3"
+    ]; // Array of audio sources
+
+    var currentIndex = new Date().getHours(); // Set index based on the current hour
+
+ function playHourlyAnnouncement() {
+    var audioElement = document.getElementById('hourlyAnnouncement');
+    
+    if (!audioElement) {
+        console.error("Audio element not found!");
+        return;
+    }
+
+    var currentTime = new Date();
+    var minutes = currentTime.getMinutes();
+    var seconds = currentTime.getSeconds();
+    var millisecondsToNextHour = ((59 - minutes) * 60 + (60 - seconds)) * 1000;
+
+    setTimeout(function() {
+        audioElement.src = sources[currentIndex];
+        audioElement.load(); // ✅ Ensure the audio element is ready
+        audioElement.play();
+        adjustVolumeDynamically(audioElement); // ✅ Apply volume normalization
+
+        currentIndex = (currentIndex + 1) % sources.length;
+
+        setInterval(function() {
+            audioElement.src = sources[currentIndex];
+            audioElement.load();
+            audioElement.play();
+            adjustVolumeDynamically(audioElement); // ✅ Apply volume normalization for each track
+            currentIndex = (currentIndex + 1) % sources.length;
+        }, 3600000); // Play every hour
+    }, millisecondsToNextHour);
+}
+
+
+    // 🕒 Activate hourly announcements
+    playHourlyAnnouncement();
+</script>
+
+
+
+
+
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+
+
+function generateSchedule() {
+    const today = new Date();
+    const schedule = {};
+    const weekendDays = [5, 6, 0]; // Friday (5), Saturday (6), Sunday (0)
+    
+    const events = {
+        5: [ // Friday
+            { time: "03:00 - 12:00", event: "Morning Disco" },
+            { time: "12:00 - 17:00", event: "DJ'S Disco Event" },
+            { time: "17:00 - 21:00", event: "Lovely Miss Monique!" },
+            { time: "21:00 - 23:00", event: "Miss Monique Live!" }
+        ],
+        6: [ // Saturday
+            { time: "03:00 - 12:00", event: "Morning Disco" },
+            { time: "12:00 - 17:00", event: "DJ'S Disco Event" },
+            { time: "17:00 - 21:00", event: "Lovely Miss Monique!" },
+            { time: "21:00 - 23:00", event: "Miss Monique Live!" }
+
+        ],
+        0: [ // Sunday
+            { time: "03:00 - 12:00", event: "Morning Disco" },
+            { time: "12:00 - 17:00", event: "DJ'S Disco Event" },
+            { time: "17:00 - 21:00", event: "Lovely Miss Monique!" },
+            { time: "21:00 - 23:00", event: "Miss Monique Live!" }
+
+        ]
+    };
+
+    for (let i = 1; i <= 7; i++) {
+        let date = new Date();
+        date.setDate(today.getDate() + i);
+        let dayOfWeek = date.getDay();
+
+        if (weekendDays.includes(dayOfWeek)) {
+            schedule[date.toISOString().split("T")[0]] = events[dayOfWeek];
+        }
+    }
+
+    return schedule;
+}
+
+// Example execution to generate upcoming events
+console.log("Generated Schedule:", JSON.stringify(generateSchedule(), null, 2));
+console.log("Loading track:", scheduledMp3Files[track_index].name, "-", scheduledMp3Files[track_index].artist);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
