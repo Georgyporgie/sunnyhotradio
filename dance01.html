@@ -843,14 +843,19 @@ document.getElementById("online").innerHTML=" 3 ";
             }
         });
     }
-</script>
+
+
+
+window.addEventListener("load", () => {
+  loadTrack(0);        // Load your first track
+  playTrack();         // Start playing it
+  audio.muted = false; // Unmute right after (sometimes needs a short delay)
+});
 
 
 
 
-
-    <script>
-        // 🌟 Ensure DOM is ready before executing script
+         // 🌟 Ensure DOM is ready before executing script
         document.addEventListener("DOMContentLoaded", () => {
             console.log("DOM loaded—setting up audio sources.");
 
