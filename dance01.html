@@ -793,64 +793,27 @@ document.getElementById("online").innerHTML=" 3 ";
 </audio>
 
 <script>
-    // 🎶 Define the tracks for each day
-    const tracks = {
-        0: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekend%20piratejinglepublic.mp3",
-        1: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
-        2: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
-        3: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
-        4: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
-        5: { 
-            early: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3", 
-            after17: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalepublic.mp3" 
-        },
-        6: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekend%20piratejinglepublic.mp3"
-    };
-
-    // 🕰 Get the current day and hour
-    const today = new Date().getDay();
-    const currentHour = new Date().getHours();
-
-    let selectedTrack;
-
-    // Special condition for Friday (5) to switch track after 17:00
-    if (today === 5) {
-        selectedTrack = currentHour >= 17 ? tracks[5].after17 : tracks[5].early;
-    } else {
-        selectedTrack = tracks[today];
-    }
-
-    // 🎧 Set the source and load the track
-    document.getElementById("musicSource").setAttribute('src', selectedTrack);
-    const player = document.getElementById("musicPlayer");
-    player.load(); 
-
-    // ✅ Apply volume normalization when the track is ready to play
-    player.addEventListener("canplay", () => {
-        adjustVolumeDynamically(player);
-    });
-
-    // 🎛 Volume Balancer Function
-    function adjustVolumeDynamically(audioElement) {
-        let targetVolume = 0.8;  // Default volume level
-        let maxThreshold = 1; // Prevent distortion
-
-        audioElement.addEventListener("timeupdate", () => {
-            if (audioElement.volume < targetVolume) {
-                audioElement.volume = Math.min(maxThreshold, audioElement.volume + 0.01);  // Smooth increase
-            } else if (audioElement.volume > targetVolume) {
-                audioElement.volume = Math.max(0, audioElement.volume - 0.01);  // Smooth decrease
-            }
-        });
-    }
+   
 
 
 
-window.addEventListener("load", () => {
-  loadTrack(0);        // Load your first track
-  playTrack();         // Start playing it
-  audio.muted = false; // Unmute right after (sometimes needs a short delay)
-});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -881,6 +844,126 @@ window.addEventListener("load", () => {
                 audio.addEventListener("canplay", () => adjustVolumeDynamically(audio));
             });
         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ // 🎶 Define the tracks for each day
+    const tracks = {
+        0: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekend%20piratejinglepublic.mp3",
+        1: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
+        2: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
+        3: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
+        4: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
+        5: { 
+            early: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3", 
+            after17: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalepublic.mp3" 
+        },
+        6: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekend%20piratejinglepublic.mp3"
+    };
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 🕰 Get the current day and hour
+    const today = new Date().getDay();
+    const currentHour = new Date().getHours();
+
+    let selectedTrack;
+
+    // Special condition for Friday (5) to switch track after 17:00
+    if (today === 5) {
+        selectedTrack = currentHour >= 17 ? tracks[5].after17 : tracks[5].early;
+    } else {
+        selectedTrack = tracks[today];
+    }
+
+    // 🎧 Set the source and load the track
+    document.getElementById("musicSource").setAttribute('src', selectedTrack);
+    const player = document.getElementById("musicPlayer");
+    player.load(); 
+
+    // ✅ Apply volume normalization when the track is ready to play
+    player.addEventListener("canplay", () => {
+        adjustVolumeDynamically(player);
+    });
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+ // 🎛 Volume Balancer Function
+    function adjustVolumeDynamically(audioElement) {
+        let targetVolume = 0.8;  // Default volume level
+        let maxThreshold = 1; // Prevent distortion
+
+        audioElement.addEventListener("timeupdate", () => {
+            if (audioElement.volume < targetVolume) {
+                audioElement.volume = Math.min(maxThreshold, audioElement.volume + 0.01);  // Smooth increase
+            } else if (audioElement.volume > targetVolume) {
+                audioElement.volume = Math.max(0, audioElement.volume - 0.01);  // Smooth decrease
+            }
+        });
+    }
+
+
+
+window.addEventListener("load", () => {
+  loadTrack(0);        // Load your first track
+  playTrack();         // Start playing it
+  audio.muted = false; // Unmute right after (sometimes needs a short delay)
+});
+
+
+
 
         
     </script>
