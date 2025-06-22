@@ -34,9 +34,9 @@ function getCurrentTimeCategory() {
       if (currentHour >= 8 && currentHour < 12) {
         category = "morning";
       } else if (currentHour >= 12 && currentHour < 17) {
-        category = "evening";
+        category = "f evening";
       } else if (currentHour >= 17 && currentHour < 21) {
-        category = "evening-late";
+        category = "f evening-late";
       } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
         category = "f afternoon";    } else {
         category = " jingle-time";
@@ -121,7 +121,7 @@ function getCurrentTimeCategory() {
       } else if (currentHour >= 17 && currentHour < 21) {
         category = "f evening-late";
       } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-        category = "f afternoon";
+        category = "f evening";
       } else {
         category = "jingle-time";
       }
@@ -20080,44 +20080,6 @@ playpause_btn.innerHTML = '<img id= "med"  src="images/pause1.gif">';
 
 
 
-function normalizeVolume(targetVolume = 0.8) {
-    if (curr_track) {
-        curr_track.volume = Math.min(1, Math.max(0, targetVolume));
-    }
-}
-
-
-
-
-curr_track.addEventListener("play", () => normalizeVolume());
-
-
-
-
-
-
-
-
-
-
-
-function adjustVolumeDynamically() {
-    if (!curr_track) {
-        console.error("Error: `curr_track` is undefined!");
-        return; // Prevent function from running further
-    }
-
-    let targetVolume = 0.8;
-    let maxThreshold = 1;
-
-    curr_track.addEventListener("timeupdate", () => {
-        if (curr_track.volume < targetVolume) {
-            curr_track.volume = Math.min(maxThreshold, curr_track.volume + 0.01);
-        } else if (curr_track.volume > targetVolume) {
-            curr_track.volume = Math.max(0, curr_track.volume - 0.01);
-        }
-    });
-}
 
 
 
