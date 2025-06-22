@@ -18868,363 +18868,6 @@ timeCategory: "f evening"
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/let's go back.mp3",
-        timeCategory: "f evening"
-},
-
-
-{
-     name: "Told You So (new)",
-    artist: "Martin Garrix & Jex ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic07.netlify.app/Martin Garrix & Jex - Told You So.mp3",
-    timeCategory: "f evening"
-},
-
-
-
-
-  
-{
-    name: " Don't Stop ",
-    artist: "KID  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnyhotradio.com/muziek/oldies07/KID - Don't Stop.mp3",
-   timeCategory: "f evening"
-},
-
-
-
-
-{
-    name: "  Gorgeous (new)",
-    artist: "Snoop Dogg, Dr Dre   ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic07.netlify.app/Snoop Dogg, Dr Dre - Gorgeous.mp3",
-    timeCategory: "f evening"
-},
-
-{
-    name: "   I Like It",
-    artist: "Alesso, Nate Smith ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic07.netlify.app/Alesso, Nate Smith - I Like It.mp3",
-    timeCategory: "f evening"
-},
-
-
-{
-    name: "I Feel Love (revisit mix)",
-    artist: "Donna Summer ",
-     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic07.netlify.app/Donna Summer - I Feel Love (revisit mix).mp3",
-    timeCategory: "f evening"
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: " Better",
-    artist: "MK, Burns  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/MK, Burns - Better.mp3",
-    timeCategory: "f evening"
-},
-
-
-{
-    name: "Un Momento",
-    artist: "Inna  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Inna - Un Momento.mp3",
-    timeCategory: "f evening"
-},
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj3.mp3",
-    timeCategory: "f evening"
-},
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj2.mp3",
-      timeCategory: "f evening"
-},
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj4.mp3",
-      timeCategory: "f evening"
-},
-
-
-
-
-
-
-{
-    name: "Boogie2nite",
-    artist: "Booty Luv",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/Booty luv - Boogie2nite.mp3",
-  
-
-
-    timeCategory: "f evening"
-},
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-      timeCategory: "f evening"
-},
-
-
-
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/DJ S.mp3",
-     timeCategory: "f evening"
-
-},
-
-
-
-
-
-
-
-
-{
-    name: "    Mellow Mellow Right On  ",
-    artist: "Lowrell ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Lowrell - Mellow Mellow Right On.mp3",
-   timeCategory: "f evening"
-
-},
-
-
-
-
-
-
-
-
-{
-    name: " Rockit",
-    artist: "Herbie Hancock  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/Herbie Hancock - Rockit.mp3",
-    timeCategory: "f evening"
-
-},
-
-
-
-
-
-
-
-
-
-{
-    name: "  Give It To Me Baby",
-    artist: "Rick James ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Rick James - Give it to me baby.mp3",
-           timeCategory: "f evening"
-
-},
-
-
-{
-    name: " All Fall Down",
-    artist: "Five Star ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Five Star - All Fall Down.mp3",
-          timeCategory: "f evening"
-
-},
-
-
-{
-    name: "Kings & Queens",
-    artist: "Ava Max  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Ava Max - Kings & Queens.mp3",
-           timeCategory: "f evening"
-
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/sunny ship/radio dj - just for you.mp3",
-            timeCategory: "f evening"
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-     name: "   Just Be ",
-    artist: "Tiesto ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/Tiesto - Just Be.mp3",
-           timeCategory: "f evening"
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle3.mp3",
-    timeCategory: "f evening-late"
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio",
@@ -19964,68 +19607,52 @@ console.log("Shuffled Track Order:", shuffledTracks.map(track => track.name));
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Function to load a track
 function loadTrack(track_index) {
-    // ✅ Ensure the track index is valid before proceeding
-    if (!scheduledMp3Files || !scheduledMp3Files[track_index]) {
-        console.error("Error: No track found at index", track_index);
-        return;
-    }
+  // Clear the previous seek timer
+  clearInterval(updateTimer);
+  resetValues();
 
-    // ✅ Assign new track
-    curr_track = new Audio(scheduledMp3Files[track_index].path);
+  // Load a new track
+  curr_track.src = scheduledMp3Files[track_index].path;
+  curr_track.load();
 
-    // ✅ Ensure `curr_track` exists before proceeding
-    if (!curr_track) {
-        console.error("Error: `curr_track` is undefined!");
-        return;
-    }
+  // Update details of the track
+  track_art.style.backgroundImage = "url(" + scheduledMp3Files[track_index].image + ")";
+  track_name.textContent = scheduledMp3Files[track_index].name;
+  track_artist.textContent = scheduledMp3Files[track_index].artist;
+  now_playing.textContent = "PLAYING " + (track_index + 1) + " OF " + scheduledMp3Files.length;
 
-    console.log("Loading track:", scheduledMp3Files[track_index].path);
+  // Set an interval of 1000 milliseconds for updating the seek slider
+  updateTimer = setInterval(seekUpdate, 1000);
 
-    // ✅ Update track details
-    track_art.style.backgroundImage = "url(" + scheduledMp3Files[track_index].image + ")";
-    track_name.textContent = scheduledMp3Files[track_index].name;
-    track_artist.textContent = scheduledMp3Files[track_index].artist;
-    now_playing.textContent = "PLAYING " + (track_index + 1) + " OF " + scheduledMp3Files.length;
+  // Move to the next track if the current finishes playing using the 'ended' event
+  curr_track.addEventListener("ended", nextTrack);
 
-    // ✅ Ensure seek timer is reset
-    clearInterval(updateTimer);
-    updateTimer = setInterval(seekUpdate, 1000);
-
-    // ✅ Move to next track when current finishes playing
-    curr_track.addEventListener("ended", nextTrack);
-
-    // ✅ Apply random background color
-    random_bg_color();
-
-    // ✅ Load track before applying event listeners
-    curr_track.load();
-
-curr_track.addEventListener("canplay", () => {
-    normalizeVolume();
-    curr_track.play(); // Autoplay will work here
-
-    // ✅ Highlight the current track when it becomes playable
-    let allTracks = document.querySelectorAll('ul li');
-    allTracks.forEach(track => track.classList.remove('blinking')); // Remove from all
-
-    if (allTracks[track_index]) {
-        console.log("Applying 'blinking' class due to autoplay:", allTracks[track_index]);
-        allTracks[track_index].classList.add('blinking'); // Add blinking effect
-    } else {
-        console.error("❌ Error: Track index does not match any DOM element!");
-    }
-});
-
-
-    // ✅ Ensure dynamic volume balancing applies after full load
-    curr_track.addEventListener("canplaythrough", () => {
-        console.log("✅ canplaythrough event fired—applying volume adjustment...");
-        adjustVolumeDynamically(curr_track);
-    });
+  // Apply a random background color
+  random_bg_color();
 }
-
-
 
 
 
@@ -20041,7 +19668,16 @@ console.log("Shuffled Track List:", trackList.map(track => track.name)); // Debu
 
 
 
+function normalizeVolume(targetVolume = 0.8) {
+    if (curr_track) {
+        curr_track.volume = Math.min(1, Math.max(0, targetVolume));
+    }
+}
 
+
+
+
+curr_track.addEventListener("play", () => normalizeVolume());
 
 
 
@@ -20083,22 +19719,19 @@ playpause_btn.innerHTML = '<img id= "med"  src="images/pause1.gif">';
 
 
 
-
-
-
 function playTrack() {
-    if (!curr_track) {
-        console.error("Error: `curr_track` is undefined!");
-        return;
-    }
 
-    curr_track.play();
-    isPlaying = true;
+
+  // Play the loaded track
+  
+  curr_track.play();
+  isPlaying = true;
 
   // Replace the play icon with the pause icon
   playpause_btn.innerHTML = '<img id="media" src="images/pause66.gif">';
 
  
+adjustVolumeDynamically(); 
 
 
 
@@ -20113,32 +19746,6 @@ function playTrack() {
 
 
 
-
-function fadeOutTrack(audioElement, duration = 2000) {
-    if (!audioElement) {
-        console.error("Error: `audioElement` is undefined!");
-        return;
-    }
-
-    let fadeInterval = 50; // Adjust the speed of fade steps
-    let fadeStep = audioElement.volume / (duration / fadeInterval); // Volume decrement per step
-
-    let fadeEffect = setInterval(() => {
-        if (audioElement.volume > 0) {
-            audioElement.volume = Math.max(0, audioElement.volume - fadeStep);
-        } else {
-            clearInterval(fadeEffect);
-            audioElement.pause(); // Stop playback after fade-out completes
-        }
-    }, fadeInterval);
-}
-
-// ✅ Apply fade-out when the track is about to end (e.g., last 1 second)
-curr_track.addEventListener("timeupdate", () => {
-    if (curr_track.duration - curr_track.currentTime <= 1) {
-        fadeOutTrack(curr_track);
-    }
-});
 
 
 
@@ -20171,11 +19778,6 @@ curr_track.addEventListener("timeupdate", () => {
   } else {
     console.error("Filtered track not found in the DOM!");
   }
-console.log("Calling adjustVolumeDynamically:", curr_track);
-
-
-adjustVolumeDynamically(curr_track); 
-applyBlinkingEffect();
 }
 
 
@@ -20197,8 +19799,18 @@ applyBlinkingEffect();
 
 
 
+function adjustVolumeDynamically() {
+    let targetVolume = 0.8;  // Default volume level
+    let maxThreshold = 1; // Prevent distortion
 
-
+    curr_track.addEventListener("timeupdate", () => {
+        if (curr_track.volume < targetVolume) {
+            curr_track.volume = Math.min(maxThreshold, curr_track.volume + 0.01);  // Smooth increase
+        } else if (curr_track.volume > targetVolume) {
+            curr_track.volume = Math.max(0, curr_track.volume - 0.01);  // Smooth decrease
+        }
+    });
+}
 
 
 
@@ -20359,45 +19971,6 @@ $('.btn').click(function () {
 
 
 
-function initializePlayCounts(tracks) {
-  tracks.forEach(track => {
-    if (typeof track.playCount !== "number") {
-      track.playCount = 0;
-    }
-  });
-}
-
-
-
-
-
-initializePlayCounts(trackList);
-
-
-
-
-
-
-
-
-
-function sortTracksByPlayCount() {
-  trackList.sort((a, b) => b.playCount - a.playCount);
-}
-
-
-
-
-function getRarelyPlayedTracks(maxPlays = 3) {
-  return trackList.filter(track => track.playCount <= maxPlays);
-}
-
-
-
-
-let safePool = getRarelyPlayedTracks();
-let choice = safePool[Math.floor(Math.random() * safePool.length)];
-loadTrack(trackList.indexOf(choice));
 
 
 
