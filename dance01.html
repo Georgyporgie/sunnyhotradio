@@ -274,7 +274,7 @@ body {
 <div>
 
 <br><img id="record">
-<h5 class= "inch"><em> Todays Hotlist</em></h5><br>
+<h5 class= "inch"><em> Todays Hotlist</em></h5><br><img id="rec">
 <br>
 <br>
 <img id= "playlist">
@@ -788,7 +788,7 @@ document.getElementById("online").innerHTML=" 3 ";
 
 
 
-<audio id="musicPlayer" autoplay loop>
+<audio id="musicPlayer" autoplay loop >
     <source id="musicSource" src="" type="audio/mpeg">
 </audio>
 
@@ -1077,9 +1077,13 @@ var img = document.getElementById("record");
 //Set the src property of our element to the new image URL
 img.src = 'images/record2.png';
 </script>
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("rec");
 
-//Get our img element by using document.getEl
-//Set the src property of our element to the 
+//Set the src property of our element to the new image URL
+img.src = 'images/record2.png';
+</script>
 
 <script>
 //Get our img element by using document.getElementById
