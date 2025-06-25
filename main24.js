@@ -20002,7 +20002,7 @@ function loadTrack(track_index) {
     curr_track.load();
 
 curr_track.addEventListener("canplay", () => {
-    normalizeVolume();
+    
     curr_track.play(); // Autoplay will work here
 
     // ✅ Highlight the current track when it becomes playable

@@ -1229,6 +1229,40 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // 🕒 Activate scheduling on page load
     window.onload = scheduleSounds;
+
+
+
+
+
+
+
+function fadeInTrack() {
+  let fadeIn = setInterval(() => {
+    if (curr_track.volume < 0.8) {
+      curr_track.volume = Math.min(0.8, curr_track.volume + 0.05);
+    } else {
+      clearInterval(fadeIn);
+    }
+  }, 100);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </script>
 
 
