@@ -19964,70 +19964,64 @@ console.log("Shuffled Track Order:", shuffledTracks.map(track => track.name));
 
 
 
+let isShuffle = false;
+let isLoop = false;
+
 function loadTrack(track_index) {
-    // ✅ Ensure the track index is valid before proceeding
     if (!scheduledMp3Files || !scheduledMp3Files[track_index]) {
-        console.error("Error: No track found at index", track_index);
+        console.error("No track found at index", track_index);
         return;
     }
 
-    // ✅ Assign new track
+    if (curr_track) {
+        curr_track.pause();
+        curr_track.src = "";
+        curr_track.load();
+    }
+
     curr_track = new Audio(scheduledMp3Files[track_index].path);
 
-    // ✅ Ensure `curr_track` exists before proceeding
-    if (!curr_track) {
-        console.error("Error: `curr_track` is undefined!");
-        return;
-    }
-
-    console.log("Loading track:", scheduledMp3Files[track_index].path);
-
-    // ✅ Update track details
-    track_art.style.backgroundImage = "url(" + scheduledMp3Files[track_index].image + ")";
+    track_art.style.backgroundImage = `url(${scheduledMp3Files[track_index].image})`;
     track_name.textContent = scheduledMp3Files[track_index].name;
     track_artist.textContent = scheduledMp3Files[track_index].artist;
-    now_playing.textContent = "PLAYING " + (track_index + 1) + " OF " + scheduledMp3Files.length;
+    now_playing.textContent = `PLAYING ${track_index + 1} OF ${scheduledMp3Files.length}`;
 
-    // ✅ Ensure seek timer is reset
     clearInterval(updateTimer);
     updateTimer = setInterval(seekUpdate, 1000);
 
-    // ✅ Move to next track when current finishes playing
-    curr_track.addEventListener("ended", nextTrack);
+    curr_track.addEventListener("ended", () => {
+        if (isLoop) {
+            loadTrack(track_index);
+        } else if (isShuffle) {
+            const nextIndex = Math.floor(Math.random() * scheduledMp3Files.length);
+            loadTrack(nextIndex);
+        } else {
+            nextTrack();
+        }
+    });
 
-    // ✅ Apply random background color
-    random_bg_color();
+    curr_track.addEventListener("canplay", () => {
+        curr_track.play();
+        highlightCurrentTrack(track_index);
+    });
 
-    // ✅ Load track before applying event listeners
-    curr_track.load();
-
-curr_track.addEventListener("canplay", () => {
-    
-    curr_track.play(); // Autoplay will work here
-
-    // ✅ Highlight the current track when it becomes playable
-    let allTracks = document.querySelectorAll('ul li');
-    allTracks.forEach(track => track.classList.remove('blinking')); // Remove from all
-
-    if (allTracks[track_index]) {
-        console.log("Applying 'blinking' class due to autoplay:", allTracks[track_index]);
-        allTracks[track_index].classList.add('blinking'); // Add blinking effect
-    } else {
-        console.error("❌ Error: Track index does not match any DOM element!");
-    }
-});
-
-
-    // ✅ Ensure dynamic volume balancing applies after full load
     curr_track.addEventListener("canplaythrough", () => {
-        console.log("✅ canplaythrough event fired—applying volume adjustment...");
         adjustVolumeDynamically(curr_track);
     });
+
+    random_bg_color();
+    curr_track.load();
 }
 
-
-
-
+function highlightCurrentTrack(index) {
+    let allTracks = document.querySelectorAll('ul li');
+    allTracks.forEach(track => track.classList.remove('blinking'));
+    if (allTracks[index]) {
+        allTracks[index].classList.add('blinking');
+    } else {
+        console.warn("Track index does not match any DOM element!");
+    }
+}
 
 
 
