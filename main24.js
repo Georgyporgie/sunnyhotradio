@@ -20411,6 +20411,95 @@ console.log("Checking Track List:", trackList);
 
 
 
+function crossfadeToNextTrack() {
+  let next_index = (track_index + 1) % track_list.length;
+  let next_track = new Audio(track_list[next_index].path);
+  next_track.volume = 0;
+  next_track.load();
+
+  next_track.addEventListener("canplay", () => {
+    next_track.play();
+
+    let fadeInterval = setInterval(() => {
+      if (curr_track.volume > 0.05) {
+        curr_track.volume = Math.max(0, curr_track.volume - 0.05);
+        next_track.volume = Math.min(0.8, next_track.volume + 0.05);
+      } else {
+        clearInterval(fadeInterval);
+        curr_track.pause();
+        curr_track = next_track;
+        track_index = next_index;
+
+        // 🔁 Reassign events and UI
+        setupTrackUI(track_index);
+        bindEndEvent(); // handle when this new track ends
+      }
+    }, 200); // adjust to taste for a slower fade
+  });
+}
+
+
+
+
+
+
+
+
+function setupTrackUI(index) {
+  track_art.style.backgroundImage = "url(" + track_list[index].image + ")";
+  track_name.textContent = track_list[index].name;
+  track_artist.textContent = track_list[index].artist;
+  now_playing.textContent = "PLAYING " + (index + 1) + " OF " + track_list.length;
+
+  // Optional blinking update
+  let allTracks = document.querySelectorAll("ul li");
+  allTracks.forEach(el => el.classList.remove("blinking"));
+  if (allTracks[index]) allTracks[index].classList.add("blinking");
+
+  // 🎚️ Smooth level setting
+  adjustVolumeDynamically(curr_track);
+
+  // UI flourish
+  random_bg_color();
+}
+
+
+
+
+
+
+
+function bindEndEvent() {
+  curr_track.addEventListener("ended", () => {
+    crossfadeToNextTrack();
+  });
+}
+
+
+
+
+
+
+
+window.addEventListener("load", () => {
+  track_index = 0;
+  curr_track = new Audio(track_list[track_index].path);
+  curr_track.volume = 0.8;
+  curr_track.load();
+
+  curr_track.addEventListener("canplay", () => {
+    curr_track.play();
+    setupTrackUI(track_index);
+    bindEndEvent();
+  });
+});
+
+
+
+
+
+
+
 
 
 
