@@ -20002,10 +20002,21 @@ function loadTrack(track_index) {
     curr_track.load();
 
 curr_track.addEventListener("canplay", () => {
-    normalizeVolume();
-    curr_track.play(); // Autoplay will work here
 
-    // ✅ Highlight the current track when it becomes playable
+  highlightCurrentTrack(track_index);
+  curr_track.play(); // Autoplay will work here
+
+    
+
+
+
+
+
+
+
+
+
+// ✅ Highlight the current track when it becomes playable
     let allTracks = document.querySelectorAll('ul li');
     allTracks.forEach(track => track.classList.remove('blinking')); // Remove from all
 
@@ -20024,6 +20035,34 @@ curr_track.addEventListener("canplay", () => {
         adjustVolumeDynamically(curr_track);
     });
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
