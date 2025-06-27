@@ -7922,6 +7922,35 @@ timeCategory: "morning"
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
      name: "   Padam Padam ",
     artist: "Kylie Minogue ",
@@ -11124,6 +11153,181 @@ timeCategory: "morning"
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "   Let It All Blow",
+    artist: "Dazz Band ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies.netlify.app/Dazz Band Let It All Blow.mp3",
+    timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "  I Want Her",
+    artist: "Keith Sweat  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies.netlify.app/Keith Sweat - I Want Her.mp3",
+    timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "   Still Bad",
+    artist: "Lizzo   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies.netlify.app/Lizzo - Still Bad.mp3",
+    timeCategory: "evening-late"
+},
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle4.mp3",
+  timeCategory: "evening-late"
+},
+ 
+
+
+
+
+
+{
+    name: "  Automatic",
+    artist: "Pointer Sisters   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies.netlify.app/Pointer Sisters - Automatic.mp3",
+    timeCategory: "evening-late"
+},
+
+
+
+
+
+{
+    name: " Jump (for my love)",
+    artist: "Pointer Sisters   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies.netlify.app/Pointer Sisters - Jump (for my love).mp3",
+    timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you22.mp3",
+    timeCategory: "evening-late"
+},
+
+
+
+
+
+
 {
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio",
@@ -11131,6 +11335,16 @@ timeCategory: "morning"
     path: "muziek/jingles/Sunny radio jingle.mp3",
       timeCategory: "evening-late"
 },
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -17342,14 +17556,6 @@ timeCategory: "evening-late"
     path: "https://danceoldies06.netlify.app/S Express - Theme From S Express.mp3",
       timeCategory: "evening-late"
  },
-
-
-
-
-
-
-
-
 
 
 
