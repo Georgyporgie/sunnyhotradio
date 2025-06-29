@@ -38,8 +38,8 @@ function getCurrentTimeCategory() {
       } else if (currentHour >= 17 && currentHour < 21) {
         category = "f evening-late";
       } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-        category = " evening-late";    } else {
-        category = " jingle-time";
+        category = "evening-late";    } else {
+        category = "jingle-time";
       }
       break;
       
