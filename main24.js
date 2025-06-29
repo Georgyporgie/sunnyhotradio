@@ -36,9 +36,9 @@ function getCurrentTimeCategory() {
       } else if (currentHour >= 12 && currentHour < 17) {
         category = "f evening";
       } else if (currentHour >= 17 && currentHour < 21) {
-        category = "evening";
+        category = "f evening-late";
       } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-        category = "afternoon";    } else {
+        category = "f afternoon";    } else {
         category = " jingle-time";
       }
       break;
@@ -105,9 +105,9 @@ function getCurrentTimeCategory() {
       } else if (currentHour >= 12 && currentHour < 17) {
         category = "morning";
       } else if (currentHour >= 17 && currentHour < 21) {
-        category = "afternoon";
+        category = "f afternoon";
       } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-        category = "evening-late";
+        category = "f evening-late";
       } else {
         category = "jingle-time";
       }
