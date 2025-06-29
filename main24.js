@@ -151,8 +151,8 @@ function getCurrentTimeCategory() {
     2: shuffle(["morning", "afternoon", "evening", "evening-late"], 2), // Tuesday
     3: shuffle(["morning", "afternoon", "evening-late", "evening"], 3), // Wednesday
     4: shuffle(["morning", "evening", "evening-late", "afternoon"], 4), // Thursday
-    5: shuffle(["f evening", " morning", "f afternoon", "f evening-late"], 5), // Friday
-    6: shuffle([" morning", "f afternoon", "f evening-late", "f evening"], 6)  // Saturday
+    5: shuffle(["f evening", "morning", "f afternoon", "f evening-late"], 5), // Friday
+    6: shuffle(["morning", "f afternoon", "f evening-late", "f evening"], 6)  // Saturday
   };
 
   const shuffledCategories = categoriesPerDay[currentDay];
