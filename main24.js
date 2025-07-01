@@ -36,10 +36,10 @@ function getCurrentTimeCategory() {
       } else if (currentHour >= 12 && currentHour < 17) {
         category = "f evening";
       } else if (currentHour >= 17 && currentHour < 21) {
-        category = "f evening-late";
+        category = "evening";
       } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-        category = "f afternoon";    } else {
-        category = "jingle-time";
+        category = "afternoon";    } else {
+        category = " jingle-time";
       }
       break;
       
@@ -105,9 +105,9 @@ function getCurrentTimeCategory() {
       } else if (currentHour >= 12 && currentHour < 17) {
         category = "morning";
       } else if (currentHour >= 17 && currentHour < 21) {
-        category = "f afternoon";
+        category = "afternoon";
       } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-        category = "f evening-late";
+        category = "evening-late";
       } else {
         category = "jingle-time";
       }
@@ -4801,6 +4801,13 @@ timeCategory: "morning"
 
 
 
+{
+    name: "  Give It To Me Baby",
+    artist: "Rick James ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Rick James - Give it to me baby.mp3",
+          timeCategory: "afternoon"
+},
 
 
 {
@@ -7915,35 +7922,6 @@ timeCategory: "morning"
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
      name: "   Padam Padam ",
     artist: "Kylie Minogue ",
@@ -9999,6 +9977,17 @@ timeCategory: "morning"
 
 
 
+{
+    name: "  Give It To Me Baby ",
+    artist: "Sunny James ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/micofoon Rick James.mp3",
+
+
+         timeCategory: "evening"
+},
+
+
 
 
 
@@ -11135,181 +11124,6 @@ timeCategory: "morning"
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: "   Let It All Blow",
-    artist: "Dazz Band ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies.netlify.app/Dazz Band Let It All Blow.mp3",
-    timeCategory: "evening-late"
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: "  I Want Her",
-    artist: "Keith Sweat  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies.netlify.app/Keith Sweat - I Want Her.mp3",
-    timeCategory: "evening-late"
-},
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: "   Still Bad",
-    artist: "Lizzo   ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies.netlify.app/Lizzo - Still Bad.mp3",
-    timeCategory: "evening-late"
-},
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle4.mp3",
-  timeCategory: "evening-late"
-},
- 
-
-
-
-
-
-{
-    name: "  Automatic",
-    artist: "Pointer Sisters   ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies.netlify.app/Pointer Sisters - Automatic.mp3",
-    timeCategory: "evening-late"
-},
-
-
-
-
-
-{
-    name: " Jump (for my love)",
-    artist: "Pointer Sisters   ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies.netlify.app/Pointer Sisters - Jump (for my love).mp3",
-    timeCategory: "evening-late"
-},
-
-
-
-
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/sunny ship/radio dj - just for you22.mp3",
-    timeCategory: "evening-late"
-},
-
-
-
-
-
-
 {
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio",
@@ -11317,16 +11131,6 @@ timeCategory: "morning"
     path: "muziek/jingles/Sunny radio jingle.mp3",
       timeCategory: "evening-late"
 },
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -17609,6 +17413,14 @@ timeCategory: "evening-late"
 
 
 
+
+
+
+
+
+
+
+
 {
     name: "    Seven Stars",
     artist: "Quazar ",
@@ -19311,13 +19123,6 @@ timeCategory: "f evening"
 
 
 
-{
-    name: " Daisies ",
-    artist: "Katy Perry  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic07.netlify.app/Katy Perry - Daisies.mp3",
-    timeCategory: "f evening"
-},
 
 
 
@@ -20198,7 +20003,7 @@ function loadTrack(track_index) {
 
 curr_track.addEventListener("canplay", () => {
 
-
+  highlightCurrentTrack(track_index);
   curr_track.play(); // Autoplay will work here
 
     
