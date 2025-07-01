@@ -38,7 +38,7 @@ function getCurrentTimeCategory() {
       } else if (currentHour >= 17 && currentHour < 21) {
         category = "f evening-late";
       } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-        category = "evening-late";    } else {
+        category = "f afternoon";    } else {
         category = "jingle-time";
       }
       break;
@@ -151,8 +151,8 @@ function getCurrentTimeCategory() {
     2: shuffle(["morning", "afternoon", "evening", "evening-late"], 2), // Tuesday
     3: shuffle(["morning", "afternoon", "evening-late", "evening"], 3), // Wednesday
     4: shuffle(["morning", "evening", "evening-late", "afternoon"], 4), // Thursday
-    5: shuffle(["f evening", "morning", "f afternoon", "f evening-late"], 5), // Friday
-    6: shuffle(["morning", "f afternoon", "f evening-late", "f evening"], 6)  // Saturday
+    5: shuffle(["f evening", " morning", "f afternoon", "f evening-late"], 5), // Friday
+    6: shuffle([" morning", "f afternoon", "f evening-late", "f evening"], 6)  // Saturday
   };
 
   const shuffledCategories = categoriesPerDay[currentDay];
@@ -4801,13 +4801,6 @@ timeCategory: "morning"
 
 
 
-{
-    name: "  Give It To Me Baby",
-    artist: "Rick James ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Rick James - Give it to me baby.mp3",
-          timeCategory: "afternoon"
-},
 
 
 {
@@ -10004,17 +9997,6 @@ timeCategory: "morning"
 
 
 
-
-
-{
-    name: "  Give It To Me Baby ",
-    artist: "Sunny James ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/micofoon Rick James.mp3",
-
-
-         timeCategory: "evening"
-},
 
 
 
@@ -19329,6 +19311,13 @@ timeCategory: "f evening"
 
 
 
+{
+    name: " Daisies ",
+    artist: "Katy Perry  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Katy Perry - Daisies.mp3",
+    timeCategory: "f evening"
+},
 
 
 
@@ -20209,7 +20198,7 @@ function loadTrack(track_index) {
 
 curr_track.addEventListener("canplay", () => {
 
-  highlightCurrentTrack(track_index);
+
   curr_track.play(); // Autoplay will work here
 
     
