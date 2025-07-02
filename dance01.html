@@ -957,7 +957,10 @@ document.getElementById("online").innerHTML=" 3 ";
 window.addEventListener("load", () => {
   loadTrack(0);        // Load your first track
   playTrack();         // Start playing it
-  audio.muted = false; // Unmute right after (sometimes needs a short delay)
+if (curr_track) {
+  curr_track.muted = false;
+}
+
 });
 
 
