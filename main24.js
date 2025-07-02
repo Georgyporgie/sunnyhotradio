@@ -20094,26 +20094,38 @@ function loadTrack(track_index) {
 
 
 curr_track.addEventListener("canplay", () => {
+    // ✅ Attempt to highlight current track visually
+    const allTracks = document.querySelectorAll('ul li');
 
- 
+    // Check if DOM elements exist
+    if (!allTracks || allTracks.length === 0) {
+        console.warn("No track items found in DOM—did you forget to render them?");
+        return;
+    }
 
-    
+    // Clear all blinking states
+    allTracks.forEach(track => track.classList.remove('blinking'));
 
-
-// ✅ Highlight the current track when it becomes playable
-    let allTracks = document.querySelectorAll('ul li');
-    allTracks.forEach(track => track.classList.remove('blinking')); // Remove from all
-
-    if (allTracks[track_index]) {
-        console.log("Applying 'blinking' class due to autoplay:", allTracks[track_index]);
-        allTracks[track_index].classList.add('blinking'); // Add blinking effect
+    // Safely apply blinking effect to current track
+    if (track_index >= 0 && track_index < allTracks.length) {
+        console.log("Highlighting track via autoplay:", allTracks[track_index]);
+        allTracks[track_index].classList.add('blinking');
     } else {
-        console.error("❌ Error: Track index does not match any DOM element!");
+        console.warn(`Track index ${track_index} is out of bounds for DOM tracks (${allTracks.length} items found).`);
     }
 });
 
 
-    // ✅ Ensure dynamic volume balancing applies after full load
+
+    
+
+
+
+
+
+
+
+// ✅ Ensure dynamic volume balancing applies after full load
     curr_track.addEventListener("canplaythrough", () => {
         console.log("✅ canplaythrough event fired—applying volume adjustment...");
         adjustVolumeDynamically(curr_track);
