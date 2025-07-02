@@ -11134,6 +11134,51 @@ timeCategory: "morning"
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "You & Me",
+    artist: "Disclosure ",
+     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Disclosure - You & Me.mp3",
+    timeCategory: "evening-late"
+},
+
+
+
+
+
+{
+    name: "Closer To The Floor",
+    artist: "Jazzy & Ankhoï",
+     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Jazzy & Ankhoï - Closer To The Floor.mp3",
+    timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+
 {
      name: " Lady",
     artist: "Modjo ",
@@ -11231,6 +11276,14 @@ timeCategory: "morning"
 
 
 
+
+{
+    name: "Closer To The Floor",
+    artist: "Jazzy & Ankhoï",
+     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Jazzy & Ankhoï - Closer To The Floor.mp3",
+    timeCategory: "evening-late"
+},
 
 
 
@@ -13693,6 +13746,38 @@ timeCategory: "morning"
     path: "muziek/jingles/sunny dance jingle.mp3",
     timeCategory: "evening-late"
 },
+
+
+
+
+
+
+
+{
+    name: "Pretty Girls",
+    artist: "Will Smith",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Will Smith - Pretty Girls.mp3",
+     timeCategory: "evening-late"
+},
+
+
+
+
+
+{
+    name: "Rumours",
+    artist: "Lizzo",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Lizzo - Rumours.mp3",
+     timeCategory: "evening-late"
+},
+
+
+
+
+
+
 
 
 
