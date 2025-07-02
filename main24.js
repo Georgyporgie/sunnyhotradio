@@ -6061,7 +6061,7 @@ timeCategory: "morning"
 
 
 {
-    name: " Gimme That Funk (1978)",
+    name: "Gimme That Funk (1978)",
     artist: "Dennis Coffey  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/Dennis Coffey - Gimme That Funk (1978).mp3",
@@ -15595,7 +15595,7 @@ timeCategory: "evening-late"
 
 {
     name: "    Lay Low",
-    artist: "Tiësto ",
+    artist: "Tiesto ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Tiësto - Lay Low.mp3",
        timeCategory: "evening-late"
