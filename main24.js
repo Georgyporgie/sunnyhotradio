@@ -4752,7 +4752,24 @@ timeCategory: "morning"
 
 
 
+{
+    name: "    Let It All Blow  ",
+    artist: "Dazz Band",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Dazz Band Let It All Blow.mp3",
+   timeCategory: "afternoon"
+},
 
+
+
+
+{
+    name: "   Automatic",
+    artist: "Pointer Sisters ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Pointer Sisters - Automatic.mp3",
+   timeCategory: "afternoon"
+},
 
 
 
@@ -4815,6 +4832,23 @@ timeCategory: "morning"
     path: "https://sunnydanceoldies05.netlify.app/Five Star - All Fall Down.mp3",
           timeCategory: "afternoon"
 },
+
+
+
+
+
+{
+    name: "  I Want Her",
+    artist: "Keith Sweat ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Keith Sweat - I Want Her.mp3",
+   timeCategory: "afternoon"
+},
+
+
+
+
+
 
 
 {
@@ -4884,6 +4918,13 @@ timeCategory: "morning"
 
 
 
+{
+    name: "  Jump (for my love)",
+    artist: "Pointer Sisters  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Pointer Sisters - Jump (for my love).mp3",
+   timeCategory: "afternoon"
+},
 
 
 
@@ -13777,6 +13818,15 @@ timeCategory: "morning"
 
 
 
+{
+    name: " Still Bad",
+    artist: "Lizzo",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Lizzo - Still Bad.mp3",
+     timeCategory: "evening-late"
+},
+
+
 
 
 
@@ -19900,7 +19950,50 @@ timeCategory: "f evening"
 
 
 
+{
+    name: "You & Me",
+    artist: "Disclosure ",
+     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Disclosure - You & Me.mp3",
+    timeCategory: "f evening-late"
+},
 
+
+
+
+
+
+{
+    name: "Closer To The Floor",
+    artist: "Jazzy & Ankhoï",
+     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Jazzy & Ankhoï - Closer To The Floor.mp3",
+    timeCategory: "f evening-late"
+},
+
+
+
+
+
+{
+    name: "Rumours",
+    artist: "Lizzo",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Lizzo - Rumours.mp3",
+     timeCategory: "f evening-late"
+},
+
+
+
+
+
+{
+    name: "Pretty Girls",
+    artist: "Will Smith",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Will Smith - Pretty Girls.mp3",
+     timeCategory: "f evening-late"
+}
 
 
 
