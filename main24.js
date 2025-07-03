@@ -20182,16 +20182,15 @@ function loadTrack(track_index) {
 
     // 🧮 Playcount tracker
 curr_track.addEventListener("play", () => {
-    let track = scheduledMp3Files[track_index];
-    
-    // Automatically add playcount if missing
-    if (!track.playcount) {
-        track.playcount = 0;
+    if (scheduledMp3Files[track_index]) {
+        scheduledMp3Files[track_index].playcount += 1;
+        console.log("🎧 Playcount updated for:", scheduledMp3Files[track_index].name, 
+                    "| Total plays:", scheduledMp3Files[track_index].playcount);
+    } else {
+        console.warn("⚠️ Unable to update playcount—track not found.");
     }
-
-    track.playcount += 1;
-    console.log("🎧 Playcount:", track.name, "| Total plays:", track.playcount);
 });
+
 
 
 
