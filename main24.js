@@ -4756,7 +4756,7 @@ timeCategory: "morning"
     name: "    Let It All Blow  ",
     artist: "Dazz Band",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Dazz Band Let It All Blow.mp3",
+    path: "https://danceoldies08.netlify.app/Dazz Band Let It All Blow.mp3",
    timeCategory: "afternoon"
 },
 
@@ -4767,7 +4767,7 @@ timeCategory: "morning"
     name: "   Automatic",
     artist: "Pointer Sisters ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Pointer Sisters - Automatic.mp3",
+    path: "https://danceoldies08.netlify.app/Pointer Sisters - Automatic.mp3",
    timeCategory: "afternoon"
 },
 
@@ -4841,7 +4841,7 @@ timeCategory: "morning"
     name: "  I Want Her",
     artist: "Keith Sweat ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Keith Sweat - I Want Her.mp3",
+    path: "https://danceoldies08.netlify.app/Keith Sweat - I Want Her.mp3",
    timeCategory: "afternoon"
 },
 
@@ -4922,7 +4922,7 @@ timeCategory: "morning"
     name: "  Jump (for my love)",
     artist: "Pointer Sisters  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Pointer Sisters - Jump (for my love).mp3",
+    path: "https://danceoldies08.netlify.app/Pointer Sisters - Jump (for my love).mp3",
    timeCategory: "afternoon"
 },
 
@@ -5481,7 +5481,7 @@ timeCategory: "morning"
 
 
 {
-    name: " Don't Call  Me Baby ",
+    name: " Don't Call  Me Baby",
     artist: "Madison Avenue  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Madison Avenue - Don't Call  Me Baby.mp3",
@@ -5491,7 +5491,7 @@ timeCategory: "morning"
 
 
 {
-    name: " She's Gone Dance On (new)  ",
+    name: " She's Gone Dance On",
     artist: "Disclosure  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Disclosure - She's Gone Dance On.mp3",
@@ -8834,7 +8834,7 @@ timeCategory: "morning"
 
 
 {
-    name: " No Bad Vibes (new) ",
+    name: "No Bad Vibes",
     artist: "Jazzy   ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic07.netlify.app/Jazzy feat. Kilimanjaro - No Bad Vibes.mp3",
@@ -8847,7 +8847,7 @@ timeCategory: "morning"
 
 
 {
-    name: "  DNA (new)",
+    name: "DNA",
     artist: "Sophie And The Giants ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic07.netlify.app/Sophie AndThe Giants - DNA (feat. MEARSY).mp3",
@@ -10785,7 +10785,7 @@ timeCategory: "morning"
 
 
 {
-     name: "Told You So (new)",
+     name: "Told You So",
     artist: "Martin Garrix & Jex ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Martin Garrix & Jex - Told You So.mp3",
@@ -10808,7 +10808,7 @@ timeCategory: "morning"
 
 
 {
-    name: "  Gorgeous (new)",
+    name: "Gorgeous",
     artist: "Snoop Dogg, Dr Dre   ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Snoop Dogg, Dr Dre - Gorgeous.mp3",
@@ -19059,8 +19059,8 @@ timeCategory: "f evening"
 
 
 {
-     name: "Told You So (new)",
-    artist: "Martin Garrix & Jex ",
+     name: "Told You So",
+    artist: "Martin Garrix & Jex",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Martin Garrix & Jex - Told You So.mp3",
     timeCategory: "f evening"
@@ -19082,8 +19082,8 @@ timeCategory: "f evening"
 
 
 {
-    name: "  Gorgeous (new)",
-    artist: "Snoop Dogg, Dr Dre   ",
+    name: "Gorgeous",
+    artist: "Snoop Dogg, Dr Dre",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Snoop Dogg, Dr Dre - Gorgeous.mp3",
     timeCategory: "f evening"
