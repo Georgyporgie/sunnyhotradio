@@ -224,8 +224,6 @@ function shuffle(array) {
 
 
 
-
-
 // Specify globally used values
 let track_index = 0;
 let isPlaying = false;
@@ -20050,14 +20048,30 @@ console.log("Shuffled Track Order:", shuffledTracks.map(track => track.name));
 
 
 function loadTrack(track_index) {
-    // ✅ Ensure the track index is valid before proceeding
     if (!scheduledMp3Files || !scheduledMp3Files[track_index]) {
         console.error("Error: No track found at index", track_index);
         return;
     }
 
-    // ✅ Assign new track
     curr_track = new Audio(scheduledMp3Files[track_index].path);
+
+    // 🧮 Playcount tracker
+    curr_track.addEventListener("play", () => {
+        const track = scheduledMp3Files[track_index];
+        if (track) {
+            track.playcount = (track.playcount || 0) + 1;
+            console.log("🎧 Playcount updated:", track.name, "| Total plays:", track.playcount);
+        } else {
+            console.warn("⚠️ No track found to update playcount.");
+        }
+    });
+
+
+
+
+
+
+
 
     // ✅ Ensure `curr_track` exists before proceeding
     if (!curr_track) {
@@ -20312,7 +20326,6 @@ console.log("Calling adjustVolumeDynamically:", curr_track);
 adjustVolumeDynamically(curr_track); 
 applyBlinkingEffect();
 }
-
 
 
 
