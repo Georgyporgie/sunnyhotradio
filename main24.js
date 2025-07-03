@@ -17261,6 +17261,14 @@ timeCategory: "evening-late"
 
 
 
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you33.mp3",
+   timeCategory: "evening-late"
+},
+
 
 
 
@@ -17342,6 +17350,30 @@ timeCategory: "evening-late"
     path: "https://sunnydancemusic05.netlify.app/Lost Frequencies - Back To You.mp3",
     timeCategory: "evening-late"
 },
+
+
+
+
+{
+    name: "Midnight Sun",
+    artist: "Zara Larsson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Zara Larsson - Midnight Sun.mp3",
+    timeCategory: "evening-late"
+},
+
+
+{
+    name: "I fell In Love",
+    artist: "Alok & Kylie Minogue",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Alok & Kylie Minogue- I fell In Love.mp3",
+    timeCategory: "evening-late"
+},
+
+
+
+
 
 
 
@@ -20056,16 +20088,17 @@ function loadTrack(track_index) {
     curr_track = new Audio(scheduledMp3Files[track_index].path);
 
     // 🧮 Playcount tracker
-    curr_track.addEventListener("play", () => {
-        const track = scheduledMp3Files[track_index];
-        if (track) {
-            track.playcount = (track.playcount || 0) + 1;
-            console.log("🎧 Playcount updated:", track.name, "| Total plays:", track.playcount);
-        } else {
-            console.warn("⚠️ No track found to update playcount.");
-        }
-    });
+curr_track.addEventListener("play", () => {
+    let track = scheduledMp3Files[track_index];
+    
+    // Automatically add playcount if missing
+    if (!track.playcount) {
+        track.playcount = 0;
+    }
 
+    track.playcount += 1;
+    console.log("🎧 Playcount:", track.name, "| Total plays:", track.playcount);
+});
 
 
 
