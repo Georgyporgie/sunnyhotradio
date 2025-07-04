@@ -20568,12 +20568,19 @@ displaytrackList(); // Show initial tracks on page load
 
 
 
-
 function nextTrack() {
-  if (track_index < scheduledMp3Files.length - 1) track_index += 1;
-  else track_index = 0;
+  // Go back to the first track if the current one is the last in the track list
+  if (track_index < trackList.length - 1)
+    track_index += 1;
+  else
+    track_index = 0; 
+
+  // Sort the track list by play count
+  sortTracksByPlayCount();
+
+  // Load and play the new track
   loadTrack(track_index);
-    playTrack();
+  playTrack();
 }
 
 
