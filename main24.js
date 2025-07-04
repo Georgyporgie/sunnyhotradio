@@ -20479,7 +20479,7 @@ applyBlinkingEffect();
     const additionalTracksPerClick = 5; // Number of tracks to load per click
     let currentDisplayLimit = tracksToDisplayInitially;
 
-   function displayTrackList(limit = currentDisplayLimit) {
+   function displaytrackList(limit = currentDisplayLimit) {
   const trackListElement = document.getElementById('track-list-container');
   trackListElement.innerHTML = ''; // Clear the list before repopulating
 
@@ -20527,7 +20527,7 @@ function applyBlinkingEffect() {
 // Event listener for "Show More" button
 document.getElementById('show-more-button').addEventListener('click', () => {
   currentDisplayLimit += additionalTracksPerClick; // Increase the limit
-  displayTrackList(); // Refresh the track list
+  displaytrackList(); // Refresh the track list
 
 // Highlight the current track in the playlist
   applyBlinkingEffect(); // Ensure blinking effect is reapplied after updating the list
@@ -20543,7 +20543,7 @@ document.getElementById('show-more-button').addEventListener('click', () => {
 });
 
 // Initial display
-displayTrackList(); // Show initial tracks on page load
+displaytrackList(); // Show initial tracks on page load
 
  
 
