@@ -32,13 +32,13 @@ function getCurrentTimeCategory() {
   switch (currentDay) {
     case 0: // Sunday
       if (currentHour >= 8 && currentHour < 12) {
-        category = "morning";
+        category = "f afternoon";
       } else if (currentHour >= 12 && currentHour < 17) {
         category = "f evening";
       } else if (currentHour >= 17 && currentHour < 21) {
-        category = "evening";
+        category = "f evening-late";
       } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-        category = "afternoon";    } else {
+        category = "f afternoon";    } else {
         category = " jingle-time";
       }
       break;
@@ -151,7 +151,7 @@ function getCurrentTimeCategory() {
     2: shuffle(["morning","afternoon","evening","evening-late"], 2), // Tuesday
     3: shuffle(["morning","afternoon","evening-late","evening"], 3), // Wednesday
     4: shuffle(["morning","evening","evening-late","afternoon"], 4), // Thursday
-    5: shuffle(["f evening","f afternoon","f afternoon","f evening-late"], 5), // Friday
+    5: shuffle([" evening","afternoon","afternoon","evening-late"], 5), // Friday
     6: shuffle(["f evening","f afternoon","f evening-late","f evening"], 6)  // Saturday
   };
 
@@ -20564,12 +20564,19 @@ displaytrackList(); // Show initial tracks on page load
 
 
   
+let fadeInitiated = false;
 
-
-
-
-
-
+curr_track.addEventListener("timeupdate", () => {
+    // Only fade tracks longer than 10s, and when near their end
+    if (
+        !fadeInitiated &&
+        curr_track.duration > 10 &&
+        curr_track.duration - curr_track.currentTime <= 2
+    ) {
+        fadeInitiated = true;
+        fadeOutTrack(curr_track);
+    }
+});
 
 
 
@@ -20581,19 +20588,21 @@ displaytrackList(); // Show initial tracks on page load
 
 
 function nextTrack() {
-  // Go back to the first track if the current one is the last in the track list
-  if (track_index < trackList.length - 1)
-    track_index += 1;
-  else
-    track_index = 0; 
+    let nextIndex = track_index + 1;
 
-  // Sort the track list by play count
-  sortTracksByPlayCount();
-
-  // Load and play the new track
-  loadTrack(track_index);
-  playTrack();
+    if (typeof nextIndex === "number" && nextIndex >= 0 && nextIndex < scheduledMp3Files.length) {
+        track_index = nextIndex;
+        loadTrack(track_index);
+        playTrack();
+    } else {
+        console.warn("🚧 No next track available—playlist end reached.");
+        // Optionally loop back to first track or stay put:
+        // track_index = 0;
+        // loadTrack(track_index);
+        // playTrack();
+    }
 }
+
 
 
 
