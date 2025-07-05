@@ -20173,23 +20173,29 @@ console.log("Shuffled Track Order:", shuffledTracks.map(track => track.name));
 
 
 function loadTrack(track_index) {
-    if (!scheduledMp3Files || !scheduledMp3Files[track_index]) {
+    const track = scheduledMp3Files[track_index];
+
+    if (!scheduledMp3Files || !track) {
         console.error("Error: No track found at index", track_index);
         return;
     }
 
-    curr_track = new Audio(scheduledMp3Files[track_index].path);
+    curr_track = new Audio(track.path);
 
-    // 🧮 Playcount tracker
     curr_track.addEventListener("play", () => {
-        const track = scheduledMp3Files[track_index];
-        if (track) {
-            track.playcount = (track.playcount || 0) + 1;
-            console.log("🎧 Playcount updated:", track.name, "| Total plays:", track.playcount);
-        } else {
-            console.warn("⚠️ No track found to update playcount.");
+        // 🧮 Ensure playcount is numeric before incrementing
+        track.playcount = typeof track.playcount === "number" ? track.playcount + 1 : 1;
+        console.log("🎧 Playcount updated:", track.name, "| Total plays:", track.playcount);
+
+        // ✅ If using another array for sorting (optional)
+        if (typeof trackList !== "undefined" && trackList[track_index]) {
+            trackList[track_index].playCount = (trackList[track_index].playCount || 0) + 1;
+            sortTracksByPlayCount(); // Assuming this is a helper you’ve written
         }
     });
+
+
+
 
 
 
