@@ -20766,6 +20766,7 @@ curr_track.addEventListener("timeupdate", () => {
 
 
 
+let next_track = null;
 
 
 
