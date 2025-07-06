@@ -19453,8 +19453,8 @@ timeCategory: "f evening"
 
 
 {
-     name: "Beautiful People",
-    artist: "David Guetta Ft. Sia & Rihanna ",
+     name: "Beautiful People ",
+    artist: "David Guetta Ft. Sia & Rihanna (new)",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/David Guetta Ft. Sia & Rihanna - Beautiful People.mp3",
     timeCategory: "f evening-late"
@@ -19463,8 +19463,8 @@ timeCategory: "f evening"
 
 
 {
-     name: " Anxiety",
-    artist: "Doechii ",
+     name: " Anxiety ",
+    artist: "Doechii (new)",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Doechii - Anxiety.mp3",
     timeCategory: "f evening-late"
@@ -19479,7 +19479,7 @@ timeCategory: "f evening"
 
 {
      name: " Handlebars",
-    artist: "Jennie & Dua Lipa ",
+    artist: "Jennie & Dua Lipa (new)",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Jennie & Dua Lipa - Handlebars.mp3",
     timeCategory: "f evening-late"
@@ -19503,7 +19503,7 @@ timeCategory: "f evening"
 
 {
      name: "Favourite Type",
-    artist: "Roxen ",
+    artist: "Roxen (new)",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Roxen - Favourite Type.mp3",
  timeCategory: "f evening-late"
@@ -19514,7 +19514,7 @@ timeCategory: "f evening"
 
 {
      name: " Beautiful People ",
-    artist: "Sia David Guetta ",
+    artist: "Sia David Guetta (new)",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Sia David Guetta - Beautiful People.mp3",
  timeCategory: "f evening-late"
@@ -20161,7 +20161,7 @@ timeCategory: "f evening"
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Will Smith - Pretty Girls.mp3",
      timeCategory: "f evening-late"
-}
+},
 
 
 
@@ -20171,7 +20171,22 @@ timeCategory: "f evening"
 
 
 
+{
+    name: "Midnight Sun",
+    artist: "Zara Larsson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Zara Larsson - Midnight Sun.mp3",
+    timeCategory: "f evening-late"
+},
 
+
+{
+    name: "I fell In Love",
+    artist: "Alok & Kylie Minogue",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Alok & Kylie Minogue- I fell In Love.mp3",
+    timeCategory: "f evening-late"
+},
 
 
 
