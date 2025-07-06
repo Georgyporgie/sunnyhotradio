@@ -34,11 +34,11 @@ function getCurrentTimeCategory() {
       if (currentHour >= 8 && currentHour < 12) {
         category = "f afternoon";
       } else if (currentHour >= 12 && currentHour < 17) {
-        category = "evening";
+        category = "f evening";
       } else if (currentHour >= 17 && currentHour < 21) {
         category = "f evening-late";
       } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-        category = "afternoon";    } else {
+        category = "f evening-late";    } else {
         category = " jingle-time";
       }
       break;
@@ -121,7 +121,7 @@ function getCurrentTimeCategory() {
       } else if (currentHour >= 17 && currentHour < 21) {
         category = "f evening-late";
       } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-        category = "afternoon";
+        category = "f evening";
       } else {
         category = "jingle-time";
       }
@@ -19353,6 +19353,84 @@ timeCategory: "f evening"
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio",
@@ -19361,6 +19439,96 @@ timeCategory: "f evening"
     timeCategory: "f evening-late"
 },
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Beautiful People",
+    artist: "David Guetta Ft. Sia & Rihanna ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/David Guetta Ft. Sia & Rihanna - Beautiful People.mp3",
+    timeCategory: "f evening-late"
+},
+
+
+
+{
+     name: " Anxiety",
+    artist: "Doechii ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Doechii - Anxiety.mp3",
+    timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+
+
+{
+     name: " Handlebars",
+    artist: "Jennie & Dua Lipa ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Jennie & Dua Lipa - Handlebars.mp3",
+    timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Lola Young - One Thing.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+
+{
+     name: "Favourite Type",
+    artist: "Roxen ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Roxen - Favourite Type.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+
+{
+     name: " Beautiful People ",
+    artist: "Sia David Guetta ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Sia David Guetta - Beautiful People.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+ timeCategory: "f evening-late"
+},
 
 
 
