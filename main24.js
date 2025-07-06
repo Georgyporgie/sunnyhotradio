@@ -18271,6 +18271,99 @@ timeCategory: "evening-late"
 
 
 
+{
+    name: "Pacific State",
+    artist: "808 State  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/808 state - Pacific State.mp3",
+      timeCategory: "f afternoon"
+ },
+
+
+
+
+
+
+
+
+{
+    name: "Taste Of You",
+    artist: "Rezz",
+     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Rezz - Taste of you.mp3",
+       timeCategory: "f afternoon"
+
+},
+
+
+
+
+
+
+
+
+
+
+{
+    name: "West End Girls ",
+    artist: "Pet Shop Boys ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Pet Shop Boys - West End Girls (10'' Mix).mp3",
+      timeCategory: "f afternoon"
+
+ },
+
+
+
+
+
+{
+    name: "  Flashdance",
+    artist: "Irene Cara   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Irene Cara - Flashdance.mp3",
+     timeCategory: "f afternoon"
+
+},
+
+
+
+
+{
+    name: " Bounce Skate Roll (12inch) ",
+    artist: "Vaughan  Mason & Crew",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Vaughan  Mason & Crew - Bounce skate roll.mp3",
+       timeCategory: "f afternoon"
+
+},
+
+
+
+
+
+{
+    name: "Sacrifice",
+    artist: "Bebe Rexha",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Bebe Rexha - Sacrifice.mp3",
+         timeCategory: "f afternoon"
+
+
+},
+
+
+{
+    name: "  Playgirl (1979)  ",
+    artist: "La Velle ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/La Velle - Playgirl.mp3",
+      timeCategory: "f afternoon"
+
+
+},
+
+
 
 
 
@@ -18494,13 +18587,7 @@ timeCategory: "evening-late"
 
 
 
-{
-     name: "Sexy ",
-    artist: "MFSB ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/MFSB - Sexy.mp3",
-    timeCategory: "f afternoon"
-},
+
 
 
 
@@ -18548,14 +18635,6 @@ timeCategory: "evening-late"
 
 
 
-
-{
-    name: "Strawberry Letter 23",
-    artist: "Brothers Johnson",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Strawberry Letter 23.mp3",
-    timeCategory: "f afternoon"
-},
 
 
 
