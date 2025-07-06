@@ -20790,7 +20790,7 @@ function nextTrack() {
         }
 
         curr_track = next_track; // Promote next to current
-
+crossfadeTracks()
         loadTrack(track_index);  // Update metadata/UI
         playTrack();             // Kick off play logic
         sortTracksByPlayCount(); // Optional: sort by playcount
