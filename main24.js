@@ -20766,9 +20766,6 @@ curr_track.addEventListener("timeupdate", () => {
 
 
 
-let next_track = null;
-
-
 
 
 
@@ -20776,55 +20773,19 @@ let next_track = null;
 function nextTrack() {
     let nextIndex = track_index + 1;
 
-    if (typeof nextIndex === "number" && nextIndex < scheduledMp3Files.length) {
+    if (typeof nextIndex === "number" && nextIndex >= 0 && nextIndex < scheduledMp3Files.length) {
         track_index = nextIndex;
-
-        // Load new track as Audio object
-        next_track = new Audio(scheduledMp3Files[nextIndex].path);
-        next_track.volume = 0;
-        next_track.play();
-
-        // Perform crossfade from curr_track to next_track
-        if (curr_track) {
-            crossfadeTracks(curr_track, next_track, 3000);
-        }
-
-        curr_track = next_track; // Promote next to current
-crossfadeTracks()
-        loadTrack(track_index);  // Update metadata/UI
-        playTrack();             // Kick off play logic
-        sortTracksByPlayCount(); // Optional: sort by playcount
-
-    } else {
+        loadTrack(track_index);
+        playTrack();
+      sortTracksByPlayCount();
+} else {
         console.warn("🚧 No next track available—playlist end reached.");
+        // Optionally loop back to first track or stay put:
+        // track_index = 0;
+        // loadTrack(track_index);
+        // playTrack();
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
