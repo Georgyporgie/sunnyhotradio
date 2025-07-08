@@ -21644,28 +21644,6 @@ console.log("Checking Track List:", trackList);
 
 
 
-function initAutoplay() {
-  if (scheduledMp3Files.length > 0) {
-    loadTrack(0);
-    playTrack();
-  } else {
-    console.warn("⚠️ No tracks available in the current schedule.");
-    // Optional: display fallback UI or message
-  }
-}
-
-
-
-
-
-
-window.addEventListener("load", () => {
-  initAutoplay(); // Begin automatic playback
-});
-
-
-
-
 
 
 
