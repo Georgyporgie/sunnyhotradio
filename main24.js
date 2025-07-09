@@ -21116,7 +21116,7 @@ function loadTrack(track_index) {
         // ✅ If using another array for sorting (optional)
         if (typeof trackList !== "undefined" && trackList[track_index]) {
             trackList[track_index].playCount = (trackList[track_index].playCount || 0) + 1;
-            sortTracksByPlayCount(); // Assuming this is a helper you’ve written
+          // Assuming this is a helper you’ve written
         }
     });
 
@@ -21513,7 +21513,7 @@ function nextTrack() {
         track_index = nextIndex;
         loadTrack(track_index);
         playTrack();
-      sortTracksByPlayCount();
+     
 } else {
         console.warn("🚧 No next track available—playlist end reached.");
         // Optionally loop back to first track or stay put:
@@ -21579,7 +21579,7 @@ $('.btn').click(function () {
 
 
 
-
+/* TODO: … */
 function initializePlayCounts(tracks) {
   tracks.forEach(track => {
     if (typeof track.playCount !== "number") {
@@ -21591,7 +21591,7 @@ function initializePlayCounts(tracks) {
 
 
 
-
+/* TODO: … */
 initializePlayCounts(trackList);
 
 
@@ -21600,22 +21600,21 @@ initializePlayCounts(trackList);
 
 
 
-
-
+/* TODO: … */
 function sortTracksByPlayCount() {
   trackList.sort((a, b) => b.playCount - a.playCount);
 }
 
 
 
-
+/* TODO: … */
 function getRarelyPlayedTracks(maxPlays = 3) {
   return trackList.filter(track => track.playCount <= maxPlays);
 }
 
 
 
-
+/* TODO: … */
 let safePool = getRarelyPlayedTracks();
 let choice = safePool[Math.floor(Math.random() * safePool.length)];
 loadTrack(trackList.indexOf(choice));
