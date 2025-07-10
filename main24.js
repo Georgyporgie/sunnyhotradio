@@ -4816,13 +4816,6 @@ timeCategory: "morning"
 
 
 
-{
-    name: "  Give It To Me Baby",
-    artist: "Rick James ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Rick James - Give it to me baby.mp3",
-          timeCategory: "afternoon"
-},
 
 
 {
@@ -19519,16 +19512,6 @@ timeCategory: "f evening"
 
 
 {
-    name: "  Give It To Me Baby",
-    artist: "Rick James ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Rick James - Give it to me baby.mp3",
-           timeCategory: "f evening"
-
-},
-
-
-{
     name: " All Fall Down",
     artist: "Five Star ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -21578,9 +21561,10 @@ $('.btn').click(function () {
 
 function initializePlayCounts(tracks) {
   tracks.forEach(track => {
-    if (typeof track.playCount !== "number") {
-      track.playCount = 0;
-    }
+if (typeof track.playcount !== "number") {
+  track.playcount = 0;
+}
+
   });
 }
 
@@ -21598,20 +21582,21 @@ initializePlayCounts(trackList);
 
 
 function sortTracksByPlayCount() {
-  trackList.sort((a, b) => b.playCount - a.playCount);
+ scheduledMp3Files.sort((a, b) => b.playcount - a.playcount);
+
 }
-
-
 
 
 function getRarelyPlayedTracks(maxPlays = 3) {
-  return trackList.filter(track => track.playCount <= maxPlays);
+  return scheduledMp3Files.filter(track => track.playcount <= maxPlays);
 }
+
 
 
 let safePool = getRarelyPlayedTracks();
 let choice = safePool[Math.floor(Math.random() * safePool.length)];
-loadTrack(trackList.indexOf(choice));
+loadTrack(scheduledMp3Files.indexOf(choice));
+
 
 
 
