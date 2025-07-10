@@ -930,7 +930,17 @@ document.getElementById("online").innerHTML=" 3 ";
 
 
 
-
+    // ── Render the shuffled list in the DOM ──
+    function renderTrackList() {
+      const ul = document.getElementById("track-list");
+      ul.innerHTML = "";
+      scheduledMp3Files.forEach((t, idx) => {
+        const li = document.createElement("li");
+        li.textContent = t.name;
+        li.addEventListener("click", () => loadTrack(idx));
+        ul.appendChild(li);
+      });
+    }
 
 
 
