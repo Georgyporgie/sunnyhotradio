@@ -21107,18 +21107,18 @@ function loadTrack(track_index) {
     }
 
     curr_track = new Audio(track.path);
+      curr_track.addEventListener("play", () => {
+        track.playcount = Number(track.playcount) || 0;
+        track.playcount++;
+        console.log(
+          "🎧 Playcount updated:", track.name,
+          "| Total plays:", computeTotalPlays()
+       
 
-    curr_track.addEventListener("play", () => {
-        // 🧮 Ensure playcount is numeric before incrementing
-        track.playcount = typeof track.playcount === "number" ? track.playcount + 1 : 1;
-        console.log("🎧 Playcount updated:", track.name, "| Total plays:", track.playcount);
+ );
+ 
 
-        // ✅ If using another array for sorting (optional)
-        if (typeof trackList !== "undefined" && trackList[track_index]) {
-            trackList[track_index].playCount = (trackList[track_index].playCount || 0) + 1;
-          // Assuming this is a helper you’ve written
-        }
-    });
+});
 
 
 
@@ -21211,16 +21211,12 @@ curr_track.addEventListener("canplay", () => {
 
 
 
+   // ── Sum all playcounts ──
+    function computeTotalPlays() {
+      return scheduledMp3Files.reduce((sum, t) => sum + (typeof t.playcount === "number" ? t.playcount : 0), 0);
+    }
 
 
-
-
-
-let totalPlays = scheduledMp3Files.reduce((sum, track) => {
-    return sum + (typeof track.playcount === "number" ? track.playcount : 0);
-}, 0);
-
-console.log("🎯 Global Playcount:", totalPlays);
 
 
 
@@ -21579,7 +21575,7 @@ $('.btn').click(function () {
 
 
 
-/* TODO: … */
+
 function initializePlayCounts(tracks) {
   tracks.forEach(track => {
     if (typeof track.playCount !== "number") {
@@ -21591,7 +21587,7 @@ function initializePlayCounts(tracks) {
 
 
 
-/* TODO: … */
+
 initializePlayCounts(trackList);
 
 
@@ -21600,21 +21596,19 @@ initializePlayCounts(trackList);
 
 
 
-/* TODO: … */
+
 function sortTracksByPlayCount() {
   trackList.sort((a, b) => b.playCount - a.playCount);
 }
 
 
 
-/* TODO: … */
+
 function getRarelyPlayedTracks(maxPlays = 3) {
   return trackList.filter(track => track.playCount <= maxPlays);
 }
 
 
-
-/* TODO: … */
 let safePool = getRarelyPlayedTracks();
 let choice = safePool[Math.floor(Math.random() * safePool.length)];
 loadTrack(trackList.indexOf(choice));
