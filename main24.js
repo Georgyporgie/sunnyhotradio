@@ -4769,6 +4769,13 @@ timeCategory: "morning"
 
 
 
+{
+    name: "Ain't Nothing Goin'  (1986)",
+    artist: "Gwen Guthrie  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Gwen Guthrie- Ain't Nothing Goin' On But The Rent.mp3",
+  timeCategory: "afternoon"
+},
 
 
 
@@ -11138,6 +11145,7 @@ timeCategory: "morning"
 
 
 
+
 {
     name: "You & Me",
     artist: "Disclosure ",
@@ -16304,6 +16312,29 @@ timeCategory: "evening-late"
 
 
 
+{
+    name: " French Kiss (1989)",
+    artist: "Lil Louis   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Lil Louis - French Kiss.mp3",
+    timeCategory: "evening-late"
+
+
+},
+
+
+{
+    name: " Go (1991)",
+    artist: "Moby",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Moby - Go 1991.mp3",
+    timeCategory: "evening-late"
+
+
+},
+
+
+
 
 {
     name: " Murphys Law",
@@ -16413,11 +16444,6 @@ timeCategory: "evening-late"
 
 
 
-
-
-
-
-
 {
     name: "    Seven Stars",
     artist: "Quazar ",
@@ -16427,6 +16453,44 @@ timeCategory: "evening-late"
 
   timeCategory: "evening-late"
 },
+
+
+
+
+{
+    name: "  Lfo",
+    artist: "Lfo ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Lfo - Lfo.mp3",
+  
+
+  timeCategory: "evening-late"
+},
+
+
+
+
+
+
+{
+    name: " Right Here",
+    artist: "Jesse Glyne ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Jesse Glyne - right here.mp3",
+  
+
+  timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -18874,10 +18938,25 @@ timeCategory: "evening-late"
 
 
 
+{
+    name: "Looking Now",
+    artist: "Bebe Rexha   ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Bebe Rexha - Looking now.mp3",
+   timeCategory: "f afternoon"
+
+},
 
 
 
+{
+    name: " The Chime",
+    artist: "Orbital ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Orbital- The Chime.mp3",
+   timeCategory: "f afternoon"
 
+},
 
 
 
@@ -18938,6 +19017,14 @@ timeCategory: "evening-late"
 
 
 
+
+{
+    name: "Ain't Nothing Goin'  (1986)",
+    artist: "Gwen Guthrie  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Gwen Guthrie- Ain't Nothing Goin' On But The Rent.mp3",
+  timeCategory: "f afternoon"
+},
 
 
 
