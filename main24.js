@@ -5351,16 +5351,6 @@ timeCategory: "morning"
 
 
 
-{
-    name: " Can You Handle It",
-    artist: "Sharon Redd ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Sharon Redd Can you handle it.mp3",
-  
-
-
-    timeCategory: "afternoon"
-},
 
 
 
