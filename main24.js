@@ -21156,8 +21156,15 @@ const scheduledMp3Files = filterMp3ByTimeCategory(trackList, currentTimeCategory
 const shuffledTracks = shuffle(scheduledMp3Files);
 
 // Load and play the first track from the shuffled list
+
+// Sort by playcount: least-played first
+scheduledMp3Files.sort((a, b) => a.playcount - b.playcount);
+
 if (shuffledTracks.length > 0) {
-    loadTrack(0);  // Load the first track in random order
+   
+
+
+ loadTrack(0);  // Load the first track in random order
 
 console.log("Shuffled Track Order:", shuffledTracks.map(track => track.name));
 
@@ -21276,6 +21283,9 @@ curr_track.addEventListener("canplay", () => {
 
 
 
+const sortedByPlaycount = [...scheduledMp3Files].sort((a, b) => b.playcount - a.playcount);
+console.log("Sorted by playcount:", sortedByPlaycount.map(t => `${t.name}: ${t.playcount}`));
+
 
 
 
@@ -21288,7 +21298,7 @@ curr_track.addEventListener("canplay", () => {
 
 
 
-
+console.log("Playcount Order:", scheduledMp3Files.map(t => `${t.name}: ${t.playcount}`));
 
 
 
@@ -21683,6 +21693,7 @@ function getRarelyPlayedTracks(maxPlays = 3) {
 let safePool = getRarelyPlayedTracks();
 let choice = safePool[Math.floor(Math.random() * safePool.length)];
 loadTrack(scheduledMp3Files.indexOf(choice));
+
 
 
 
