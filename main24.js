@@ -585,13 +585,7 @@ let trackList = [
 
 
 
-{
-    name: "More More  (classic)",
-    artist: "Andrea True Connection ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Andrea True Connection - More More More.mp3",
-  timeCategory: "morning"
-},
+
 
 
 
@@ -6999,6 +6993,16 @@ timeCategory: "morning"
 
 
 
+
+
+
+{
+    name: " Closer To The Floor (new)",
+    artist: "Jazzy & Ankhoï ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Jazzy & Ankhoï - Closer To The Floor.mp3",
+  timeCategory: "afternoon"
+},
 
 
 
@@ -18254,7 +18258,13 @@ timeCategory: "evening-late"
 
 
 
-
+{
+    name: " Closer To The Floor (new)",
+    artist: "Jazzy & Ankhoï ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Jazzy & Ankhoï - Closer To The Floor.mp3",
+  timeCategory: "f afternoon"
+},
 
 
 
