@@ -21303,6 +21303,10 @@ console.log("Playcount Order:", scheduledMp3Files.map(t => `${t.name}: ${t.playc
 
 
 
+console.log("Playcounts:", scheduledMp3Files.map(t =>
+  `${t.name}: ${typeof t.playcount === "number" ? t.playcount : 0}`
+));
+
 
 
 
