@@ -20944,14 +20944,6 @@ timeCategory: "f evening"
 
 
 
-{
-    name: "Closer To The Floor",
-    artist: "Jazzy & Ankhoï",
-     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic07.netlify.app/Jazzy & Ankhoï - Closer To The Floor.mp3",
-    timeCategory: "f evening-late"
-},
-
 
 
 
