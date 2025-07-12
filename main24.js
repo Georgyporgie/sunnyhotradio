@@ -20248,8 +20248,8 @@ timeCategory: "f evening"
 
 
 {
-       name: "-------------------------",
-    artist: "",
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
     timeCategory: "f evening-late"
@@ -20307,8 +20307,8 @@ timeCategory: "f evening"
 
 
 {
-     name: "One Thing",
-    artist: "Lola Young",
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Lola Young - One Thing.mp3",
  timeCategory: "f evening-late"
@@ -20339,8 +20339,8 @@ timeCategory: "f evening"
 
 
 {
-       name: "-------------------------",
-    artist: "",
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
  timeCategory: "f evening-late"
@@ -20375,8 +20375,8 @@ timeCategory: "f evening"
 
 
 {
-         name: "-------------------------",
-    artist: "",
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
  timeCategory: "f evening-late"
@@ -20474,8 +20474,8 @@ timeCategory: "f evening"
 
 
 {
-             name: "-------------------------",
-    artist: "",
+    name: "Just For You",
+    artist: "Sunny Ship",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet.mp3",
  timeCategory: "f evening-late"
@@ -20502,8 +20502,8 @@ timeCategory: "f evening"
  timeCategory: "f evening-late"
 },
 {
-             name: "-------------------------",
-    artist: "",
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
  timeCategory: "f evening-late"
@@ -20547,8 +20547,8 @@ timeCategory: "f evening"
 
 
 {
-             name: "-------------------------",
-    artist: "",
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/do not turnoff receiver.mp3",
   timeCategory: "f evening-late"
@@ -20623,8 +20623,8 @@ timeCategory: "f evening"
 },
 
 {
-               name: "-------------------------",
-    artist: "",
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle1.mp3",
  timeCategory: "f evening-late"
@@ -20688,8 +20688,8 @@ timeCategory: "f evening"
 
 
 {
-           name: "-------------------------",
-    artist: "",
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
  timeCategory: "f evening-late"
@@ -20702,16 +20702,16 @@ timeCategory: "f evening"
 
 
 {
-             name: "-------------------------",
-    artist: "",
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/nos journaal 11.mp3",
    timeCategory: "f evening-late"
 },
 
 {
-             name: "-------------------------",
-    artist: "",
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
  timeCategory: "f evening-late"
@@ -20777,8 +20777,8 @@ timeCategory: "f evening"
 
 
 {
-              name: "-------------------------",
-    artist: "",
+    name: "Just For You",
+    artist: "Sunny Ship",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle22.mp3",
   timeCategory: "f evening-late"
@@ -20807,8 +20807,8 @@ timeCategory: "f evening"
 
 
 {
-              name: "-------------------------",
-    artist: "",
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
    timeCategory: "f evening-late"
@@ -20870,8 +20870,8 @@ timeCategory: "f evening"
 
  
 {
-              name: "-------------------------",
-    artist: "",
+    name: "Just For You",
+    artist: "Sunny Ship",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle11.mp3",
  timeCategory: "f evening-late"
@@ -20885,8 +20885,8 @@ timeCategory: "f evening"
 
 
 {
-              name: "-------------------------",
-    artist: "",
+    name: "Just For You",
+    artist: "Sunny Ship",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle22.mp3",
  timeCategory: "f evening-late"
@@ -20938,7 +20938,6 @@ timeCategory: "f evening"
     path: "https://sunnydancemusic07.netlify.app/Disclosure - You & Me.mp3",
     timeCategory: "f evening-late"
 },
-
 
 
 
