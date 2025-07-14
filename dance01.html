@@ -279,7 +279,12 @@ body {
 <br>
 <img id= "playlist">
 
-<ul id="track-list-container"></ul>
+<ul id="track-list-container">
+
+
+
+
+</ul>
 
 
 
@@ -1191,7 +1196,30 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-    // 📢 Sound Scheduling Function
+   
+    // 1. Define playSound
+    function playSound(soundIds) {
+      soundIds.forEach(id => {
+        const soundEl = document.getElementById(id);
+        if (soundEl) {
+          soundEl.volume = 0.8;
+          // optional: adjustVolumeDynamically(soundEl);
+          soundEl.play().catch(err => {
+            console.error("Playback failed:", err);
+          });
+        } else {
+          console.error("Sound element not found:", id);
+        }
+      });
+    }
+
+
+
+
+
+
+
+ // 📢 Sound Scheduling Function
     function scheduleSounds() {
         console.log("Scheduling sounds...");
         var now = new Date();
@@ -1224,34 +1252,12 @@ document.addEventListener("DOMContentLoaded", () => {
         }, fortyFiveMinuteDelay);
     }
 
-    // 🔊 Play Sound Function
-    function playSound(soundIds) {
-        soundIds.forEach(id => {
-            let soundElement = document.getElementById(id);
-            if (soundElement) {
-                soundElement.volume = 0.8; // Set base volume
-                adjustVolumeDynamically(soundElement); // Apply smooth volume transitions
-                soundElement.play();
-            } else {
-                console.error("Sound element not found:", id);
-            }
-        });
-    }
+
+
+
 
     // 🕒 Activate scheduling on page load
     window.onload = scheduleSounds;
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

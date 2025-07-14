@@ -134,15 +134,7 @@ function getCurrentTimeCategory() {
   return category;
 
 
- // Function to shuffle array uniquely for each day
-  function shuffle(array, seed) {
-    let shuffled = [...array];
-    for (let i = shuffled.length - 1; i > 0; i--) {
-      const j = (seed + i * 17) % shuffled.length;
-      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-    }
-    return shuffled;
-  }
+
 
   // Define categories for each day and shuffle them
   const categoriesPerDay = {
@@ -21886,7 +21878,7 @@ curr_track.addEventListener("timeupdate", () => {
     if (
         !fadeInitiated &&
         curr_track.duration > 10 &&
-        curr_track.duration - curr_track.currentTime <= 2
+        curr_track.duration - curr_track.currentTime <= 4
     ) {
         fadeInitiated = true;
         fadeOutTrack(curr_track);
@@ -21976,70 +21968,50 @@ $('.btn').click(function () {
 
 
 
+// --- 1) Helpers ---
 function initializePlayCounts(tracks) {
-  tracks.forEach(track => {
-if (typeof track.playcount !== "number") {
-  track.playcount = 0;
-}
-
+  tracks.forEach(t => {
+    if (typeof t.playcount !== "number") t.playcount = 0;
   });
 }
 
+function sortTracksByPlayCount(tracks) {
+  return [...tracks].sort((a, b) => b.playcount - a.playcount);
+}
 
+function getRarelyPlayedTracks(tracks, maxPlays = 3) {
+  return tracks.filter(t => t.playcount <= maxPlays);
+}
 
+function incrementPlayCount(track) {
+  track.playcount = (track.playcount || 0) + 1;
+}
 
-
+// --- 2) Startup ---
 initializePlayCounts(trackList);
 
+// --- 3) Selection & Playback ---
+function playRareTrack() {
+  let pool = getRarelyPlayedTracks(trackList, 3);
 
+  if (!pool.length) {
+    console.warn("Resetting all play counts.");
+    initializePlayCounts(trackList);
+    pool = [...trackList];
+  }
 
+  const choice = pool[Math.floor(Math.random() * pool.length)];
+  const idx    = trackList.indexOf(choice);
 
+  // loadTrack should handle audio.src, play, etc.
+  loadTrack(idx);
+  incrementPlayCount(choice);
 
-
-
-
-function sortTracksByPlayCount() {
- scheduledMp3Files.sort((a, b) => b.playcount - a.playcount);
-
+  console.log("Played:", choice.name, "(", choice.playcount, "plays )");
 }
 
-
-function getRarelyPlayedTracks(maxPlays = 3) {
-  return scheduledMp3Files.filter(track => track.playcount <= maxPlays);
-}
-
-
-
-let safePool = getRarelyPlayedTracks();
-let choice = safePool[Math.floor(Math.random() * safePool.length)];
-loadTrack(scheduledMp3Files.indexOf(choice));
-
-
-
-
-
-
-
-
-
-
-
-
-console.log("Checking Track List:", trackList);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Call it whenever you need a new “rare” track
+playRareTrack();
 
 
 
