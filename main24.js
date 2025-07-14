@@ -21544,7 +21544,9 @@ function loadTrack(track_index) {
     curr_track.load();
 
 
-
+function incrementPlayCount(track) {
+  track.playcount = (track.playcount || 0) + 1;
+}
 
 
 
@@ -21983,9 +21985,7 @@ function getRarelyPlayedTracks(tracks, maxPlays = 3) {
   return tracks.filter(t => t.playcount <= maxPlays);
 }
 
-function incrementPlayCount(track) {
-  track.playcount = (track.playcount || 0) + 1;
-}
+
 
 // --- 2) Startup ---
 initializePlayCounts(trackList);
@@ -22004,10 +22004,7 @@ function playRareTrack() {
   const idx    = trackList.indexOf(choice);
 
   // loadTrack should handle audio.src, play, etc.
-  loadTrack(idx);
-  incrementPlayCount(choice);
-
-  console.log("Played:", choice.name, "(", choice.playcount, "plays )");
+ 
 }
 
 // Call it whenever you need a new “rare” track
@@ -22016,6 +22013,11 @@ playRareTrack();
 
 
 
+trackList.forEach((track, i) => {
+  if (!track.name) {
+    console.warn("Missing name at index", i, track);
+  }
+});
 
 
 
