@@ -813,49 +813,118 @@ document.getElementById("online").innerHTML=" 3 ";
 
 
 
+// Wait for the DOM to be ready
+document.addEventListener("DOMContentLoaded", () => {
+  const now   = new Date();
+  const day   = now.getDay();    // 0 = Sunday, 6 = Saturday
+  const hour  = now.getHours();  // 0–23
 
+  // Weekday and Saturday as before
+  const weekdayAudioFiles = {
+    hourlySou:        "audio/its now.mp3",
+    quarterHourSou:   "muziek/effects/blast.mp3",
+    fortyFiveMinuteSou: "muziek/jingles/Sunny los.mp3"
+  };
 
+  const saturdayAudioFiles = {
+    hourlySou:        "audio/its now.mp3",
+    quarterHourSou:   "muziek/effects/blast.mp3",
+    fortyFiveMinuteSou: "muziek/effects/DJ Saphire finale.mp3"
+  };
 
+  // Sunday splits
+  const sundayMorningAudioFiles = {
+    hourlySou:        "audio/its now.mp3",
+    quarterHourSou:   "muziek/effects/blast.mp3",
+    fortyFiveMinuteSou: "muziek/jingles/Sunny los.mp3"
+  };
 
+  const sundayAfternoonAudioFiles = {
+    hourlySou:        "audio/its now.mp3",
+    quarterHourSou:   "muziek/effects/blast.mp3",
+    fortyFiveMinuteSou: "muziek/discjockeys/DJ S.mp3"
 
+  };
 
+  const sundayEveningAudioFiles = {
+    hourlySou:        "audio/its now.mp3",
+    quarterHourSou:   "muziek/effects/blast.mp3",
+    fortyFiveMinuteSou: "muziek/discjockeys/DJ S.mp3"
 
+  };
 
-         // 🌟 Ensure DOM is ready before executing script
-        document.addEventListener("DOMContentLoaded", () => {
-            console.log("DOM loaded—setting up audio sources.");
+  // Select the right map
+  let audioFiles;
+  if (day === 6) {
+    audioFiles = saturdayAudioFiles;
+    console.log("Using Saturday sounds.");
+  }
+  else if (day === 0) {
+    if (hour < 12) {
+      audioFiles = sundayMorningAudioFiles;
+      console.log("Using Sunday morning sounds.");
+    }
+    else if (hour < 17) {
+      audioFiles = sundayAfternoonAudioFiles;
+      console.log("Using Sunday afternoon sounds.");
+    }
+    else {
+      audioFiles = sundayEveningAudioFiles;
+      console.log("Using Sunday evening sounds.");
+    }
+  }
+  else {
+    audioFiles = weekdayAudioFiles;
+    console.log("Using weekday sounds.");
+  }
 
-            // 🎵 Assign sources to scheduled sounds
-            const audioFiles = {
-                hourlySou: "audio/its now.mp3",
-                quarterHourSou: "muziek/effects/blast.mp3",
-                fortyFiveMinuteSou: "muziek/jingles/Sunny los.mp3"
-            };
+  // Assign the chosen sources
+  Object.entries(audioFiles).forEach(([id, src]) => {
+    const audioEl = document.getElementById(id);
+    if (audioEl) {
+      audioEl.src = src;
+      console.log(`✅ Set ${id} → ${src}`);
+    } else {
+      console.error(`❌ No element with id="${id}" found.`);
+    }
+  });
 
-            Object.entries(audioFiles).forEach(([id, src]) => {
-                const audioElement = document.getElementById(id);
-                if (audioElement) {
-                    audioElement.setAttribute("src", src);
-                    console.log(`✅ Source set for ${id}: ${src}`);
-                } else {
-                    console.error(`❌ Error: Element '${id}' not found!`);
-                }
-            });
+  // Attach your normalization logic
+  document.querySelectorAll("audio").forEach(audio => {
+    audio.addEventListener("canplay", () => adjustVolumeDynamically(audio));
+  });
 
-            // 🎛 Apply volume normalization when a track is ready to play
-            document.querySelectorAll("audio").forEach(audio => {
-                audio.addEventListener("canplay", () => adjustVolumeDynamically(audio));
-            });
-        });
+  // Optional: re-evaluate mappings at midnight (and at noon & 6pm for Sunday)
+  scheduleRangeSwap();
+});
 
+// Your existing volume‐normalization function
+function adjustVolumeDynamically(audio) {
+  // … your code here …
+}
 
+// Schedule reloads for midnight, noon and 6pm
+function scheduleRangeSwap() {
+  const now = new Date();
+  const checkpoints = [];
 
+  // Midnight
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 1));
+  // Noon
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 0, 1));
+  // 6pm
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 18, 0, 1));
 
-
-
-
-
-
+  checkpoints.forEach(time => {
+    const ms = time - now;
+    if (ms > 0) {
+      setTimeout(() => {
+        console.log(`Time checkpoint reached (${time.toLocaleTimeString()})—reloading audio sources.`);
+        location.reload();
+      }, ms);
+    }
+  });
+}
 
 
 
@@ -1362,22 +1431,22 @@ function generateSchedule() {
     const events = {
         5: [ // Friday
             { time: "03:00 - 12:00", event: "Morning Disco" },
-            { time: "12:00 - 17:00", event: "DJ'S Disco Event" },
-            { time: "17:00 - 21:00", event: "Lovely Miss Monique!" },
-            { time: "21:00 - 23:00", event: "Miss Monique Live!" }
+            { time: "12:00 - 17:00", event: "Afternoon Vibes" },
+            { time: "17:00 - 21:00", event: "Let It Happen!" },
+            { time: "21:00 - 23:00", event: "Sunny's Happening" }
         ],
         6: [ // Saturday
             { time: "03:00 - 12:00", event: "Morning Disco" },
-            { time: "12:00 - 17:00", event: "DJ'S Disco Event" },
-            { time: "17:00 - 21:00", event: "Lovely Miss Monique!" },
-            { time: "21:00 - 23:00", event: "Miss Monique Live!" }
+            { time: "12:00 - 17:00", event: "DJ Sapphire Live Set" },
+            { time: "17:00 - 21:00", event: "Love Sapphire!" },
+            { time: "21:00 - 23:00", event: "Sapphire's Shot" }
 
         ],
         0: [ // Sunday
             { time: "03:00 - 12:00", event: "Morning Disco" },
             { time: "12:00 - 17:00", event: "DJ'S Disco Event" },
-            { time: "17:00 - 21:00", event: "Lovely Miss Monique!" },
-            { time: "21:00 - 23:00", event: "Miss Monique Live!" }
+            { time: "17:00 - 21:00", event: "It's 'S" },
+            { time: "21:00 - 23:00", event: "Let's Say 'S!" }
 
         ]
     };
