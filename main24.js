@@ -8904,16 +8904,6 @@ timeCategory: "morning"
 
 
 
-{
-    name: "  Atomic Playboy",
-    artist: "Space Trax ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Space Trax - Atomic Playboy.mp3",
-  
-    timeCategory: "evening"
-},
-
-
 
 
 
