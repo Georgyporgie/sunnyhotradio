@@ -21485,9 +21485,6 @@ console.log("Shuffled Track Order:", shuffledTracks.map(track => track.name));
 
 
 
-scheduledMp3Files.forEach(t => {
-  if (typeof t.playcount !== 'number') t.playcount = 0;
-});
 
 
 
@@ -21496,20 +21493,6 @@ scheduledMp3Files.forEach(t => {
 
 
 
-function shuffle(array) {
-    return array.sort(() => Math.random() - 0.5);
-}
-
-// Shuffle track list **on page load**
-trackList = shuffle(trackList);
-console.log("Shuffled Track List:", trackList.map(track => track.name)); // Debugging
-
-
-
-   // ── Sum all playcounts ──
-    function computeTotalPlays() {
-      return scheduledMp3Files.reduce((sum, t) => sum + (typeof t.playcount === "number" ? t.playcount : 0), 0);
-    }
 
 
 
@@ -21574,6 +21557,8 @@ function loadTrack(track_index) {
 
     // ✅ Load track before applying event listeners
     curr_track.load();
+
+
 
 
 function incrementPlayCount(track) {
@@ -21668,10 +21653,26 @@ console.table(scheduledMp3Files);
 
 
 
+scheduledMp3Files.forEach(t => {
+  if (typeof t.playcount !== 'number') t.playcount = 0;
+});
 
 
 
+function shuffle(array) {
+    return array.sort(() => Math.random() - 0.5);
+}
 
+// Shuffle track list **on page load**
+trackList = shuffle(trackList);
+console.log("Shuffled Track List:", trackList.map(track => track.name)); // Debugging
+
+
+
+   // ── Sum all playcounts ──
+    function computeTotalPlays() {
+      return scheduledMp3Files.reduce((sum, t) => sum + (typeof t.playcount === "number" ? t.playcount : 0), 0);
+    }
 
 
 
