@@ -21483,6 +21483,38 @@ console.log("Shuffled Track Order:", shuffledTracks.map(track => track.name));
 
 
 
+
+
+scheduledMp3Files.forEach(t => {
+  if (typeof t.playcount !== 'number') t.playcount = 0;
+});
+
+
+
+
+
+
+
+
+function shuffle(array) {
+    return array.sort(() => Math.random() - 0.5);
+}
+
+// Shuffle track list **on page load**
+trackList = shuffle(trackList);
+console.log("Shuffled Track List:", trackList.map(track => track.name)); // Debugging
+
+
+
+   // ── Sum all playcounts ──
+    function computeTotalPlays() {
+      return scheduledMp3Files.reduce((sum, t) => sum + (typeof t.playcount === "number" ? t.playcount : 0), 0);
+    }
+
+
+
+
+
 function loadTrack(track_index) {
     const track = scheduledMp3Files[track_index];
 
@@ -21601,11 +21633,6 @@ console.log("Sorted by playcount:", sortedByPlaycount.map(t => `${t.name}: ${t.p
 
 
 
-   // ── Sum all playcounts ──
-    function computeTotalPlays() {
-      return scheduledMp3Files.reduce((sum, t) => sum + (typeof t.playcount === "number" ? t.playcount : 0), 0);
-    }
-
 
 
 console.log("Playcount Order:", scheduledMp3Files.map(t => `${t.name}: ${t.playcount}`));
@@ -21624,15 +21651,24 @@ console.log("Playcounts:", scheduledMp3Files.map(t =>
 
 
 
+ scheduledMp3Files.forEach(track => {
+      if (typeof track.playcount !== "number") {
+        track.playcount = 0;
+      }
+    });
 
 
-function shuffle(array) {
-    return array.sort(() => Math.random() - 0.5);
-}
 
-// Shuffle track list **on page load**
-trackList = shuffle(trackList);
-console.log("Shuffled Track List:", trackList.map(track => track.name)); // Debugging
+
+
+
+
+console.table(scheduledMp3Files);
+// Check that every row shows a numeric playcount column.
+
+
+
+
 
 
 
@@ -21664,12 +21700,7 @@ function resetValues() {
   seek_slider.value = 0;
 }
 
-function playpauseTrack() {
-  if (!isPlaying) playTrack();
-  else pauseTrack();
-playpause_btn.innerHTML = '<img id= "med"  src="images/pause1.gif">';
 
-}
 
 
 
