@@ -534,7 +534,7 @@ let trackList = [
 
 
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio",
+    artist: "Listen Live Sunny Dance Radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet.mp3",
   timeCategory: "morning"
@@ -706,7 +706,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
        timeCategory: "morning"
@@ -733,7 +733,7 @@ let trackList = [
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle.mp3",
        timeCategory: "morning"
@@ -825,7 +825,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
         timeCategory: "morning"
@@ -837,7 +837,7 @@ let trackList = [
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj2.mp3",
        timeCategory: "morning"
@@ -879,7 +879,7 @@ let trackList = [
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet5.mp3",
        timeCategory: "morning"
@@ -916,7 +916,7 @@ let trackList = [
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle.mp3",
        timeCategory: "morning"
@@ -928,7 +928,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
       timeCategory: "morning"
@@ -975,7 +975,7 @@ let trackList = [
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/let's go back.mp3",
         timeCategory: "morning"
@@ -985,7 +985,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
        timeCategory: "morning"
@@ -996,7 +996,7 @@ let trackList = [
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
       timeCategory: "morning"
@@ -1016,7 +1016,7 @@ let trackList = [
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet3.mp3",
       timeCategory: "morning"
@@ -1032,7 +1032,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
+    artist: "Listen Live Sunny Dance radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle4.mp3",
       timeCategory: "morning"
@@ -1095,7 +1095,7 @@ let trackList = [
 
  {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
       timeCategory: "morning"
@@ -1111,7 +1111,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny dance jingle.mp3",
       timeCategory: "morning"
@@ -1122,7 +1122,7 @@ let trackList = [
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
         timeCategory: "morning"
@@ -1228,7 +1228,7 @@ let trackList = [
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle.mp3",
       timeCategory: "morning"
@@ -1247,7 +1247,7 @@ let trackList = [
 
 {
     name: "Life For The Weekend",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Life for the weekend- Jingle.mp3",
        timeCategory: "morning"
@@ -1290,7 +1290,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio",
+    artist: "Listen Live Sunny Dance Radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
       timeCategory: "morning"
@@ -1314,7 +1314,7 @@ let trackList = [
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
       timeCategory: "morning"
@@ -1384,7 +1384,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
+    artist: "Listen Live Sunny Dance radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
           timeCategory: "morning"
@@ -1425,7 +1425,7 @@ let trackList = [
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet.mp3",
         timeCategory: "morning"
@@ -1434,7 +1434,7 @@ let trackList = [
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj3.mp3",
          timeCategory: "morning"
@@ -1544,7 +1544,7 @@ let trackList = [
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet.mp3",
       timeCategory: "morning"
@@ -1557,7 +1557,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
        timeCategory: "morning"
@@ -1572,7 +1572,7 @@ let trackList = [
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
       timeCategory: "morning"
@@ -1585,7 +1585,7 @@ let trackList = [
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet3.mp3",
        timeCategory: "morning"
@@ -1595,7 +1595,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle4.mp3",
       timeCategory: "morning"
@@ -1624,7 +1624,7 @@ let trackList = [
 
 {
     name: "Life For The Weekend",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Life for the weekend- Jingle.mp3",
       timeCategory: "morning"
@@ -1665,7 +1665,7 @@ let trackList = [
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet4.mp3",
       timeCategory: "morning"
@@ -1747,7 +1747,7 @@ let trackList = [
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/DJ S.mp3",
       timeCategory: "morning"
@@ -1767,7 +1767,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle1.mp3",
       timeCategory: "morning"
@@ -1816,7 +1816,7 @@ let trackList = [
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj5.mp3",
        timeCategory: "morning"
@@ -1857,7 +1857,7 @@ let trackList = [
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle11.mp3",
      timeCategory: "morning"
@@ -1877,7 +1877,7 @@ let trackList = [
  
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle22.mp3",
        timeCategory: "morning"
@@ -1889,7 +1889,7 @@ let trackList = [
 
  {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle4.mp3",
        timeCategory: "morning"
@@ -1924,7 +1924,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
+    artist: "Listen Live Sunny Dance radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle1.mp3",
       timeCategory: "morning"
@@ -1969,7 +1969,7 @@ let trackList = [
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj4.mp3",
        timeCategory: "morning"
@@ -2007,7 +2007,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
      timeCategory: "morning"
@@ -2018,7 +2018,7 @@ let trackList = [
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj6.mp3",
      timeCategory: "morning"
@@ -2047,7 +2047,7 @@ let trackList = [
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet5.mp3",
       timeCategory: "morning"
@@ -2065,7 +2065,7 @@ let trackList = [
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you222.mp3",
        timeCategory: "morning"
@@ -2089,7 +2089,7 @@ let trackList = [
 
 {
     name: "Welcome!",
-    artist: "Sunny Disco Machine",
+    artist: "Sunny Disco Machine☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/start the party.mp3",
         timeCategory: "morning"
@@ -2138,7 +2138,7 @@ let trackList = [
 
 {
     name: "Life For The Weekend",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Life for the weekend- Jingle.mp3",
       timeCategory: "morning"
@@ -2150,7 +2150,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle1.mp3",
      timeCategory: "morning"
@@ -2241,7 +2241,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
     timeCategory: "morning"
@@ -2269,7 +2269,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
     timeCategory: "morning"
@@ -2300,7 +2300,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
   },
@@ -2382,7 +2382,7 @@ let trackList = [
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you222.mp3",
     timeCategory: "morning"
@@ -2399,7 +2399,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
      timeCategory: "morning"
@@ -2421,7 +2421,7 @@ let trackList = [
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj5.mp3",
     timeCategory: "morning"
@@ -2558,7 +2558,7 @@ let trackList = [
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/nos journaal 11.mp3",
     timeCategory: "morning"
@@ -2607,7 +2607,7 @@ let trackList = [
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you222.mp3",
       timeCategory: "morning"
@@ -2618,7 +2618,7 @@ let trackList = [
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet3.mp3",
     timeCategory: "morning"
@@ -2658,7 +2658,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
     timeCategory: "morning"
@@ -2674,7 +2674,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
     timeCategory: "morning"
@@ -2695,7 +2695,7 @@ let trackList = [
 
 {
     name: "Life For The Weekend",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Life for the weekend- Jingle.mp3",
     timeCategory: "morning"
@@ -2706,7 +2706,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
       timeCategory: "morning"
@@ -2717,7 +2717,7 @@ let trackList = [
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/do not turnoff receiver.mp3",
     timeCategory: "morning"
@@ -2734,7 +2734,7 @@ let trackList = [
  
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle1.mp3",
     timeCategory: "morning"
@@ -2781,7 +2781,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj4.mp3",
       timeCategory: "morning"
@@ -2812,7 +2812,7 @@ let trackList = [
 
 {
     name: "Life For The Weekend",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Life for the weekend- Jingle.mp3",
      timeCategory: "morning"
@@ -2823,7 +2823,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
      timeCategory: "morning"
@@ -2990,7 +2990,7 @@ let trackList = [
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet3.mp3",
           timeCategory: "morning"
@@ -3031,7 +3031,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj6.mp3",
       timeCategory: "morning"
@@ -3074,7 +3074,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female DJ1best.mp3",
       timeCategory: "morning"
@@ -3130,7 +3130,7 @@ let trackList = [
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio☀️ ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/nos journaal 11.mp3",
    timeCategory: "morning"
@@ -3192,7 +3192,7 @@ let trackList = [
 
 {
     name: "Life For The Weekend",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Life for the weekend- Jingle.mp3",
         timeCategory: "morning"
@@ -3351,7 +3351,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj2.mp3",
       timeCategory: "morning"
@@ -3409,7 +3409,7 @@ let trackList = [
 },
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj2.mp3",
       timeCategory: "morning"
@@ -3417,7 +3417,7 @@ let trackList = [
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you333.mp3",
     timeCategory: "morning"
@@ -3430,7 +3430,7 @@ let trackList = [
 
 {
     name: "Just For You ",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet5.mp3",
     timeCategory: "morning"
@@ -3502,7 +3502,7 @@ timeCategory: "morning"
 
 {
     name: "  Welcome!",
-    artist: "Listen Live Sunny Danceradio  ",
+    artist: "Listen Live Sunny Danceradio ☀️ ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/New track.mp3",
   timeCategory: "morning"
@@ -3519,7 +3519,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj3.mp3",
   timeCategory: "morning"
@@ -3581,7 +3581,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio",
+    artist: "Listen Live Sunny Dance Radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
  timeCategory: "morning"
@@ -3598,7 +3598,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
  timeCategory: "morning"
@@ -3625,7 +3625,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
 timeCategory: "morning"
@@ -3660,7 +3660,7 @@ timeCategory: "morning"
 
 {
     name: "Just for You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you222.mp3",
 timeCategory: "morning"
@@ -3697,7 +3697,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny radio jingle3.mp3",
  timeCategory: "morning"
@@ -3760,7 +3760,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet4.mp3",
  timeCategory: "morning"
@@ -3774,7 +3774,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet.mp3",
  timeCategory: "morning"
@@ -3810,7 +3810,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle4.mp3",
   timeCategory: "morning"
@@ -3822,7 +3822,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet4.mp3",
  timeCategory: "morning"
@@ -3847,7 +3847,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
 timeCategory: "morning"
@@ -3868,7 +3868,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
   timeCategory: "morning"
@@ -3886,7 +3886,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You ",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
  timeCategory: "morning"
@@ -3948,7 +3948,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/starten met Sunny.mp3",
    category: "monday-chill",   
@@ -3966,7 +3966,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
        timeCategory: "morning"
@@ -4005,7 +4005,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet5.mp3",
       timeCategory: "morning"
@@ -4034,7 +4034,7 @@ timeCategory: "morning"
  
 {
     name: "Just For You ",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
        timeCategory: "morning"
@@ -4047,7 +4047,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet4.mp3",
         timeCategory: "morning"
@@ -4057,7 +4057,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle1.mp3",
       timeCategory: "morning"
@@ -4161,7 +4161,7 @@ timeCategory: "morning"
 
 {
     name: "Life For The Weekend",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Life for the weekend- Jingle.mp3",
           timeCategory: "morning"
@@ -4180,7 +4180,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
             timeCategory: "morning"
@@ -4192,7 +4192,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle.mp3",
            timeCategory: "morning"
@@ -4276,7 +4276,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
          timeCategory: "morning"
@@ -4305,7 +4305,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle.mp3",
          timeCategory: "morning"
@@ -4323,7 +4323,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet3.mp3",
            timeCategory: "morning"
@@ -4369,7 +4369,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Sunny Disco Machine",
+    artist: "Sunny Disco Machin☀️e",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/start the party.mp3",
   
@@ -4381,7 +4381,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
       timeCategory: "morning"
@@ -4392,7 +4392,7 @@ timeCategory: "morning"
  
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you333.mp3",
         timeCategory: "morning"
@@ -4417,7 +4417,7 @@ timeCategory: "morning"
 
  {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
       timeCategory: "morning"
@@ -4461,7 +4461,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
        timeCategory: "morning"
@@ -4535,7 +4535,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio",
+    artist: "Listen Live Sunny Dance Radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
      timeCategory: "afternoon"
@@ -4674,7 +4674,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female DJ1 dance.mp3",
       timeCategory: "afternoon"
@@ -4880,7 +4880,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
             timeCategory: "afternoon"
@@ -4946,7 +4946,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
           timeCategory: "afternoon"
@@ -4980,7 +4980,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
           timeCategory: "afternoon"
@@ -5004,7 +5004,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you22.mp3",
           timeCategory: "afternoon"
@@ -5035,7 +5035,7 @@ timeCategory: "morning"
 
 {
     name: "Life For The Weekend",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Life for the weekend- Jingle.mp3",
            timeCategory: "afternoon"
@@ -5044,7 +5044,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/reklame/reklame1.mp3",
           timeCategory: "afternoon"
@@ -5053,7 +5053,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle11.mp3",
           timeCategory: "afternoon"
@@ -5079,7 +5079,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
           timeCategory: "afternoon"
@@ -5088,7 +5088,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle11.mp3",
           timeCategory: "afternoon"
@@ -5102,7 +5102,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Sunny Disco Machine",
+    artist: "Sunny Disco Machine☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/start the party.mp3",
           timeCategory: "afternoon"
@@ -5125,7 +5125,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj5.mp3",
           timeCategory: "afternoon"
@@ -5157,7 +5157,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
           timeCategory: "afternoon"
@@ -5166,7 +5166,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
             timeCategory: "afternoon"
@@ -5187,7 +5187,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet5.mp3",
           timeCategory: "afternoon"
@@ -5231,7 +5231,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj5.mp3",
     timeCategory: "afternoon"
@@ -5378,7 +5378,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet.mp3",
     timeCategory: "afternoon"
@@ -5387,7 +5387,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj3.mp3",
     timeCategory: "afternoon"
@@ -5556,7 +5556,7 @@ timeCategory: "morning"
 
 {
     name: "let's go back",
-    artist: "Nos Journaal",
+    artist: "Nos Journaal☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/let's go back.mp3",
    timeCategory: "afternoon"
@@ -5601,7 +5601,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/nos journaal 11.mp3",
     timeCategory: "afternoon"
@@ -5674,7 +5674,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj5.mp3",
        timeCategory: "afternoon"
@@ -5683,7 +5683,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
   timeCategory: "afternoon"
@@ -5728,7 +5728,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet5.mp3",
   timeCategory: "afternoon"
@@ -5820,7 +5820,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj6.mp3",
       timeCategory: "afternoon"
@@ -5899,7 +5899,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet3.mp3",
   timeCategory: "afternoon"
@@ -5910,7 +5910,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio",
+    artist: "Listen Live Sunny Dance Radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
      timeCategory: "afternoon"
@@ -6123,7 +6123,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You ",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
    timeCategory: "afternoon"
@@ -6150,7 +6150,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
     timeCategory: "afternoon"
@@ -6164,7 +6164,7 @@ timeCategory: "morning"
 
 {
    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you22.mp3",
     timeCategory: "afternoon"
@@ -6178,7 +6178,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Sunny Disco Machine",
+    artist: "Sunny Disco Machine☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/start the party.mp3",
     timeCategory: "afternoon"
@@ -6325,7 +6325,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Sunny Disco Machine",
+    artist: "Sunny Disco Machine☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/start the party.mp3",
   
@@ -6372,7 +6372,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
     timeCategory: "afternoon"
@@ -6383,7 +6383,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle22.mp3",
    timeCategory: "afternoon"
@@ -6394,7 +6394,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle1.mp3",
    timeCategory: "afternoon"
@@ -6439,7 +6439,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet4.mp3",
     timeCategory: "afternoon"
@@ -6454,7 +6454,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet.mp3",
      timeCategory: "afternoon"
@@ -6506,7 +6506,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle1.mp3",
    timeCategory: "afternoon"
@@ -6521,7 +6521,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
    timeCategory: "afternoon"
@@ -6538,7 +6538,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/nos journaal 11.mp3",
     timeCategory: "afternoon"
@@ -6584,7 +6584,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet3.mp3",
    timeCategory: "afternoon"
@@ -6602,7 +6602,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
      timeCategory: "afternoon"
@@ -6613,7 +6613,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle1.mp3",
     timeCategory: "afternoon"
@@ -6690,7 +6690,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio",
+    artist: "Listen Live Sunny Dance Radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
    timeCategory: "afternoon"
@@ -6738,7 +6738,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle22.mp3",
     timeCategory: "afternoon"
@@ -6803,7 +6803,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj5.mp3",
      timeCategory: "afternoon"
@@ -6851,7 +6851,7 @@ timeCategory: "morning"
 
 {
     name: "Life For The Weekend",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Life for the weekend- Jingle.mp3",
    timeCategory: "afternoon"
@@ -6882,7 +6882,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle4.mp3",
     timeCategory: "afternoon"
@@ -6921,7 +6921,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
      timeCategory: "afternoon"
@@ -6968,7 +6968,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet5.mp3",
       timeCategory: "afternoon"
@@ -7044,7 +7044,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
    timeCategory: "afternoon"
@@ -7089,7 +7089,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle4.mp3",
     timeCategory: "afternoon"
@@ -7130,7 +7130,7 @@ timeCategory: "morning"
  
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle22.mp3",
    timeCategory: "afternoon"
@@ -7139,7 +7139,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio☀️ ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/nos journaal 11.mp3",
   
@@ -7167,7 +7167,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You ",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle.mp3",
      timeCategory: "afternoon"
@@ -7188,7 +7188,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
      timeCategory: "afternoon"
@@ -7199,7 +7199,7 @@ timeCategory: "morning"
  
 {
     name: "Just For You ",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet5.mp3",
    timeCategory: "afternoon"
@@ -7212,7 +7212,7 @@ timeCategory: "morning"
  
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
    timeCategory: "afternoon"
@@ -7231,7 +7231,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
     timeCategory: "afternoon"
@@ -7256,7 +7256,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet3.mp3",
    timeCategory: "afternoon"
@@ -7282,7 +7282,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You ",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet3.mp3",
    timeCategory: "afternoon"
@@ -7325,7 +7325,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/nos journaal 11.mp3",
    timeCategory: "afternoon"
@@ -7350,7 +7350,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio",
+    artist: "Listen Live Sunny Dance Radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
     timeCategory: "afternoon"
@@ -7386,7 +7386,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle.mp3",
    timeCategory: "afternoon"
@@ -7398,7 +7398,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio",
+    artist: "Listen Live Sunny Dance Radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
    timeCategory: "afternoon"
@@ -7410,7 +7410,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle.mp3",
    timeCategory: "afternoon"
@@ -7430,7 +7430,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio",
+    artist: "Listen Live Sunny Dance Radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle4.mp3",
     timeCategory: "afternoon"
@@ -7568,7 +7568,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/nos journaal 11.mp3",
   
@@ -7581,7 +7581,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
       timeCategory: "afternoon"
@@ -7635,7 +7635,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You ",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
         timeCategory: "afternoon"
@@ -7655,7 +7655,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio",
+    artist: "Listen Live Sunny Dance Radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
        timeCategory: "afternoon"
@@ -7667,7 +7667,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet4.mp3",
       timeCategory: "afternoon"
@@ -7676,7 +7676,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/nos journaal 11.mp3",
        timeCategory: "afternoon"
@@ -7714,7 +7714,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
    timeCategory: "afternoon"
@@ -7809,7 +7809,7 @@ timeCategory: "morning"
 
 {
     name: "Life For The Weekend",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Life for the weekend- Jingle.mp3",
     timeCategory: "afternoon"
@@ -7939,7 +7939,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj5.mp3",
     timeCategory: "evening"
@@ -8090,7 +8090,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you333.mp3",
      timeCategory: "evening"
@@ -8127,7 +8127,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/start the party.mp3",
   
@@ -8153,7 +8153,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
       timeCategory: "evening"
@@ -8161,7 +8161,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Sunny Disco Machine",
+    artist: "Sunny Disco Machine☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/start the party.mp3",
   
@@ -8223,7 +8223,7 @@ timeCategory: "morning"
 
 {
     name: "  Welcome!",
-    artist: "Listen Live Sunny Danceradio  ",
+    artist: "Listen Live Sunny Danceradio ☀️ ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/New track.mp3",
      timeCategory: "evening"
@@ -8284,7 +8284,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You ",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/do not turnoff receiver.mp3",
       timeCategory: "evening"
@@ -8304,7 +8304,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
      timeCategory: "evening"
@@ -8468,7 +8468,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj2.mp3",
       timeCategory: "evening"
@@ -8526,7 +8526,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
       timeCategory: "evening"
@@ -8549,7 +8549,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny dance jingle.mp3",
       timeCategory: "evening"
@@ -8559,7 +8559,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle4.mp3",
        timeCategory: "evening"
@@ -8567,7 +8567,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
        timeCategory: "evening"
@@ -8584,7 +8584,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet3.mp3",
        timeCategory: "evening"
@@ -8597,7 +8597,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You ",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet.mp3",
         timeCategory: "evening"
@@ -8635,7 +8635,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You ",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
        timeCategory: "evening"
@@ -8669,7 +8669,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
       timeCategory: "evening"
@@ -8723,7 +8723,7 @@ timeCategory: "morning"
  
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle11.mp3",
       timeCategory: "evening"
@@ -8739,7 +8739,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle22.mp3",
       timeCategory: "evening"
@@ -8763,7 +8763,7 @@ timeCategory: "morning"
  
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle.mp3",
        timeCategory: "evening"
@@ -8775,7 +8775,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you22.mp3",
         timeCategory: "evening"
@@ -8786,7 +8786,7 @@ timeCategory: "morning"
 
    {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio",
+    artist: "Listen Live Sunny Dance Radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle1.mp3",
       timeCategory: "evening"
@@ -8848,7 +8848,7 @@ timeCategory: "morning"
 },
 {
     name: "  Welcome!",
-    artist: "Listen Live Sunny Danceradio  ",
+    artist: "Listen Live Sunny Danceradio ☀️ ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/New track.mp3",
       timeCategory: "evening"
@@ -8909,7 +8909,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet3.mp3",
     timeCategory: "evening"
@@ -8941,7 +8941,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
    timeCategory: "evening"
@@ -8960,7 +8960,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj2.mp3",
       timeCategory: "evening"
@@ -8970,7 +8970,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj4.mp3",
       timeCategory: "evening"
@@ -9024,7 +9024,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj4.mp3",
         timeCategory: "evening"
@@ -9067,7 +9067,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
           timeCategory: "evening"
@@ -9077,7 +9077,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj6.mp3",
         timeCategory: "evening"
@@ -9148,7 +9148,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj3.mp3",
       timeCategory: "evening"
@@ -9346,7 +9346,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet5.mp3",
           timeCategory: "evening"
@@ -9363,7 +9363,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you222.mp3",
         timeCategory: "evening"
@@ -9432,7 +9432,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
      timeCategory: "evening"
@@ -9493,7 +9493,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet3.mp3",
       timeCategory: "evening"
@@ -9509,7 +9509,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
      timeCategory: "evening"
@@ -9614,7 +9614,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio ",
+    artist: "Listen Live Sunny Dance Radio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj3.mp3",
        timeCategory: "evening"
@@ -9628,7 +9628,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
      timeCategory: "evening"
@@ -9700,7 +9700,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle22.mp3",
      timeCategory: "evening"
@@ -9771,7 +9771,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
+    artist: "Listen Live Sunny Dance radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
         timeCategory: "evening"
@@ -9801,7 +9801,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet3.mp3",
   timeCategory: "evening"
@@ -9816,7 +9816,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
+    artist: "Listen Live Sunny Dance radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle4.mp3",
   timeCategory: "evening"
@@ -10023,7 +10023,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio☀️ ",
      image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/nos journaal 11.mp3",
   
@@ -10272,7 +10272,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
      timeCategory: "evening"
@@ -10284,7 +10284,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj4.mp3",
       timeCategory: "evening"
@@ -10334,7 +10334,7 @@ timeCategory: "morning"
 },
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj6.mp3",
       timeCategory: "evening"
@@ -10356,7 +10356,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
+    artist: "Listen Live Sunny Dance radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle1.mp3",
           timeCategory: "evening"
@@ -10377,7 +10377,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
    timeCategory: "evening"
@@ -10438,7 +10438,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You ",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet4.mp3",
     timeCategory: "evening"
@@ -10462,7 +10462,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet5.mp3",
     timeCategory: "evening"
@@ -10473,7 +10473,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle1.mp3",
     timeCategory: "evening"
@@ -10493,7 +10493,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle1.mp3",
      timeCategory: "evening"
@@ -10503,7 +10503,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio",
+    artist: "Listen Live Sunny Dance Radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
      timeCategory: "evening"
@@ -10648,7 +10648,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
      timeCategory: "evening"
@@ -10667,7 +10667,7 @@ timeCategory: "morning"
 },
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
      timeCategory: "evening"
@@ -10682,7 +10682,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
       timeCategory: "evening"
@@ -10723,7 +10723,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/let's go back.mp3",
         timeCategory: "evening"
@@ -10775,7 +10775,7 @@ timeCategory: "morning"
 
 {
      name: "Alarmschijf",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Alarm schijf.mp3",
      timeCategory: "evening"
@@ -10842,7 +10842,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
       timeCategory: "evening"
@@ -10851,7 +10851,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle1.mp3",
        timeCategory: "evening"
@@ -11019,7 +11019,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you22.mp3",
     timeCategory: "evening-late"
@@ -11111,7 +11111,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
       timeCategory: "evening-late"
@@ -11177,7 +11177,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio ",
+    artist: "Listen Live Sunny Dance radio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj2.mp3",
   timeCategory: "evening-late"
@@ -11233,7 +11233,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/do not turnoff receiver.mp3",
   timeCategory: "evening-late"
@@ -11309,7 +11309,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj3.mp3",
     timeCategory: "evening-late"
@@ -11319,7 +11319,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj2.mp3",
       timeCategory: "evening-late"
@@ -11330,7 +11330,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj4.mp3",
       timeCategory: "evening-late"
@@ -11356,7 +11356,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
       timeCategory: "evening-late"
@@ -11366,7 +11366,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/DJ S.mp3",
      timeCategory: "evening-late"
@@ -11396,7 +11396,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
     timeCategory: "evening-late"
@@ -11427,7 +11427,7 @@ timeCategory: "morning"
  
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj2.mp3",
       timeCategory: "evening-late"
@@ -11512,7 +11512,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you333.mp3",
      timeCategory: "evening-late"
@@ -11522,7 +11522,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj3.mp3",
       timeCategory: "evening-late"
@@ -11585,7 +11585,7 @@ timeCategory: "morning"
  
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
     timeCategory: "evening-late"
@@ -11595,7 +11595,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj2.mp3",
       timeCategory: "evening"
@@ -11603,7 +11603,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj6.mp3",
       timeCategory: "evening"
@@ -11614,7 +11614,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/reklame/reklame.mp3",
     timeCategory: "evening-late"
@@ -11631,7 +11631,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
     timeCategory: "evening-late"
@@ -11661,7 +11661,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
+    artist: "Listen Live Sunny Dance radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet.mp3",
     timeCategory: "evening-late"
@@ -11690,7 +11690,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio",
+    artist: "Listen Live Sunny Dance Radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
     timeCategory: "evening-late"
@@ -11755,7 +11755,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj2.mp3",
       timeCategory: "evening"
@@ -11810,7 +11810,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/nos journaal 11.mp3",
   
@@ -11831,7 +11831,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio",
+    artist: "Listen Live Sunny Dance Radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
     timeCategory: "evening-late"
@@ -11839,7 +11839,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj3.mp3",
       timeCategory: "evening"
@@ -11850,7 +11850,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio ",
+    artist: "Listen Live Sunny Dance Radio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj5.mp3",
     timeCategory: "evening-late"
@@ -11922,7 +11922,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj5.mp3",
       timeCategory: "evening-late"
@@ -11951,7 +11951,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj5.mp3",
       timeCategory: "evening"
@@ -11977,7 +11977,7 @@ timeCategory: "morning"
 
 {
     name: "Life For The Weekend",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Life for the weekend- Jingle.mp3",
     timeCategory: "evening"
@@ -12032,7 +12032,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle11.mp3",
       timeCategory: "evening"
@@ -12044,7 +12044,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle22.mp3",
     timeCategory: "evening"
@@ -12055,7 +12055,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
+    artist: "Listen Live Sunny Dance radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
      timeCategory: "evening"
@@ -12088,7 +12088,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
      timeCategory: "evening"
@@ -12098,7 +12098,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Sunny Disco Machine",
+    artist: "Sunny Disco Machine☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/start the party.mp3",
   
@@ -12130,7 +12130,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
+    artist: "Listen Live Sunny Dance radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
     timeCategory: "evening"
@@ -12168,7 +12168,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle22.mp3",
     timeCategory: "evening"
@@ -12207,7 +12207,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet3.mp3",
      timeCategory: "evening"
@@ -12218,7 +12218,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
      timeCategory: "evening"
@@ -12248,7 +12248,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio ",
+    artist: "Listen Live Sunny Dance radio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj2.mp3",
     timeCategory: "evening"
@@ -12302,7 +12302,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
      timeCategory: "evening"
@@ -12504,7 +12504,7 @@ timeCategory: "morning"
  
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle.mp3",
              timeCategory: "evening"
@@ -12514,7 +12514,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle4.mp3",
              timeCategory: "evening"
@@ -12534,7 +12534,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you222.mp3",
             timeCategory: "evening"
@@ -12550,7 +12550,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet.mp3",
             timeCategory: "evening"
@@ -12646,14 +12646,14 @@ timeCategory: "morning"
 
 {
     name: "Just For You ",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle.mp3",
       timeCategory: "evening"
 },
 {
     name: "Life For The Weekend",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Life for the weekend- Jingle.mp3",
         timeCategory: "evening"
@@ -12924,7 +12924,7 @@ timeCategory: "morning"
  
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you333.mp3",
     timeCategory: "evening-late"
@@ -12949,7 +12949,7 @@ timeCategory: "morning"
 
  {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
       timeCategory: "evening-late"
@@ -13022,7 +13022,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
      timeCategory: "evening-late"
@@ -13060,7 +13060,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet5.mp3",
      timeCategory: "evening-late"
@@ -13087,7 +13087,7 @@ timeCategory: "morning"
  
 {
     name: "Just For You ",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
       timeCategory: "evening-late"
@@ -13121,7 +13121,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj5.mp3",
       timeCategory: "evening-late"
@@ -13139,7 +13139,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet3.mp3",
        timeCategory: "evening-late"
@@ -13202,7 +13202,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
     timeCategory: "evening-late"
@@ -13780,7 +13780,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
+    artist: "Listen Live Sunny Dance radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
      timeCategory: "evening-late"
@@ -13793,7 +13793,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle.mp3",
      timeCategory: "evening-late"
@@ -13855,7 +13855,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio",
+    artist: "Listen Live Sunny Dance Radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
     timeCategory: "evening-late"
@@ -13881,7 +13881,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You ",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you22.mp3",
     timeCategory: "evening-late"
@@ -13921,7 +13921,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
+    artist: "Listen Live Sunny Dance radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
     timeCategory: "evening-late"
@@ -13940,7 +13940,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet5.mp3",
      timeCategory: "evening-late"
@@ -13950,7 +13950,7 @@ timeCategory: "morning"
 
 {
     name: "Just for You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
      timeCategory: "evening-late"
@@ -13986,7 +13986,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Sunny Disco Machine",
+    artist: "Sunny Disco Machine☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/start the party.mp3",
   
@@ -14029,7 +14029,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj2.mp3",
       timeCategory: "evening-late"
@@ -14070,7 +14070,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
        timeCategory: "evening-late"
@@ -14094,7 +14094,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
       timeCategory: "evening-late"
@@ -14109,7 +14109,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
       timeCategory: "evening-late"
@@ -14161,7 +14161,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet.mp3",
        timeCategory: "evening-late"
@@ -14172,7 +14172,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
         timeCategory: "evening-late"
@@ -14197,7 +14197,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle4.mp3",
     timeCategory: "evening-late"
@@ -14233,7 +14233,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj3.mp3",
     timeCategory: "evening-late"
@@ -14261,7 +14261,7 @@ timeCategory: "morning"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj4.mp3",
     timeCategory: "evening-late"
@@ -14308,7 +14308,7 @@ timeCategory: "morning"
  
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle22.mp3",
       timeCategory: "evening-late"
@@ -14319,7 +14319,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
     timeCategory: "evening-late"
@@ -14332,7 +14332,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
     timeCategory: "evening-late"
@@ -14340,7 +14340,7 @@ timeCategory: "morning"
 
  {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj4.mp3",
     timeCategory: "evening-late"
@@ -14352,7 +14352,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
     timeCategory: "evening-late"
@@ -14418,7 +14418,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
    timeCategory: "evening-late"
@@ -14432,7 +14432,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio",
+    artist: "Listen Live Sunny Dance Radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
    timeCategory: "evening-late"
@@ -14493,7 +14493,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
+    artist: "Listen Live Sunny Dance radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
     timeCategory: "evening-late"
@@ -14568,7 +14568,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You ",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
       timeCategory: "evening-late"
@@ -14605,7 +14605,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle22.mp3",
       timeCategory: "evening-late"
@@ -14629,7 +14629,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
       timeCategory: "evening-late"
@@ -14647,7 +14647,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj5.mp3",
       timeCategory: "evening-late"
@@ -14686,7 +14686,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny radio jingle3.mp3",
       timeCategory: "evening-late"
@@ -14758,7 +14758,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
+    artist: "Listen Live Sunny Dance radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
  timeCategory: "evening-late"
@@ -14804,7 +14804,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle4.mp3",
  timeCategory: "evening-late"
@@ -14813,7 +14813,7 @@ timeCategory: "evening-late"
 
 {
     name: "Just For You ",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
   timeCategory: "evening-late"
@@ -14822,7 +14822,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny dance jingle.mp3",
   timeCategory: "evening-late"
@@ -14887,7 +14887,7 @@ timeCategory: "evening-late"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj5.mp3",
   timeCategory: "evening-late"
@@ -14944,7 +14944,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny radio jingle4.mp3",
  timeCategory: "evening-late"
@@ -15005,7 +15005,7 @@ timeCategory: "evening-late"
 
 {
     name: "Welcome!",
-    artist: "Sunny Disco Machine",
+    artist: "Sunny Disco Machine☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/start the party.mp3",
   
@@ -15040,7 +15040,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
+    artist: "Listen Live Sunny Dance radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
    timeCategory: "evening-late"
@@ -15081,7 +15081,7 @@ timeCategory: "evening-late"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle22.mp3",
    timeCategory: "evening-late"
@@ -15121,7 +15121,7 @@ timeCategory: "evening-late"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet3.mp3",
  timeCategory: "evening-late"
@@ -15133,7 +15133,7 @@ timeCategory: "evening-late"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
  timeCategory: "evening-late"
@@ -15177,7 +15177,7 @@ timeCategory: "evening-late"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj2.mp3",
       timeCategory: "evening-late"
@@ -15271,7 +15271,7 @@ timeCategory: "evening-late"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet4.mp3",
       timeCategory: "evening-late"
@@ -15292,7 +15292,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
       timeCategory: "evening-late"
@@ -15326,7 +15326,7 @@ timeCategory: "evening-late"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle.mp3",
       timeCategory: "evening-late"
@@ -15426,7 +15426,7 @@ timeCategory: "evening-late"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
       timeCategory: "evening-late"
@@ -15443,7 +15443,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
       timeCategory: "evening-late"
@@ -15496,7 +15496,7 @@ timeCategory: "evening-late"
 
 {
     name: "Life For The Weekend",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Life for the weekend- Jingle.mp3",
        timeCategory: "evening-late"
@@ -15504,7 +15504,7 @@ timeCategory: "evening-late"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/DJ S.mp3",
       timeCategory: "evening-late"
@@ -15527,7 +15527,7 @@ timeCategory: "evening-late"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/reklame/reklame1.mp3",
        timeCategory: "evening-late"
@@ -15553,7 +15553,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
        timeCategory: "evening-late"
@@ -15564,7 +15564,7 @@ timeCategory: "evening-late"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj2.mp3",
        timeCategory: "evening-late"
@@ -15607,14 +15607,14 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
       timeCategory: "evening-late"
 },
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
       timeCategory: "evening-late"
@@ -15622,7 +15622,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
       timeCategory: "evening-late"
@@ -15647,7 +15647,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj2.mp3",
       timeCategory: "evening-late"
@@ -15665,7 +15665,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
   timeCategory: "evening-late"
@@ -15678,7 +15678,7 @@ timeCategory: "evening-late"
 
 {
     name: "Just For You ",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle22.mp3",
    timeCategory: "evening-late"
@@ -15722,7 +15722,7 @@ timeCategory: "evening-late"
  
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
+    artist: "Listen Live Sunny Dance radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny dance jingle.mp3",
      timeCategory: "evening-late"
@@ -15744,7 +15744,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
+    artist: "Listen Live Sunny Dance radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
      timeCategory: "evening-late"
@@ -16025,7 +16025,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle1.mp3",
   timeCategory: "evening-late"
@@ -16158,7 +16158,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj5.mp3",
       timeCategory: "evening-late"
@@ -16178,7 +16178,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj5.mp3",
       timeCategory: "evening-late"
@@ -16240,7 +16240,7 @@ timeCategory: "evening-late"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/nos journaal 11.mp3",
     timeCategory: "evening-late"
@@ -16301,15 +16301,7 @@ timeCategory: "evening-late"
 
 
 
-{
-    name: " French Kiss (1989)",
-    artist: "Lil Louis   ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/Lil Louis - French Kiss.mp3",
-    timeCategory: "evening-late"
 
-
-},
 
 
 {
@@ -16424,7 +16416,7 @@ timeCategory: "evening-late"
 
 {
     name: "Just For You ",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you33.mp3",
     timeCategory: "evening-late"
@@ -16535,7 +16527,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
     timeCategory: "evening-late"
@@ -16547,7 +16539,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female DJ1 dance.mp3",
       timeCategory: "evening-late"
@@ -16705,7 +16697,7 @@ timeCategory: "evening-late"
 
 {
     name: "Life For The Weekend",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Life for the weekend- Jingle.mp3",
     timeCategory: "evening-late"
@@ -16716,7 +16708,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
   timeCategory: "evening-late"
@@ -16735,7 +16727,7 @@ timeCategory: "evening-late"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet3.mp3",
   timeCategory: "evening-late"
@@ -16750,7 +16742,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
    timeCategory: "evening-late"
@@ -16766,7 +16758,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
   timeCategory: "evening-late"
@@ -16774,7 +16766,7 @@ timeCategory: "evening-late"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
    timeCategory: "evening-late"
@@ -16782,7 +16774,7 @@ timeCategory: "evening-late"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/nos journaal 11.mp3",
   timeCategory: "evening-late"
@@ -16819,7 +16811,7 @@ timeCategory: "evening-late"
  
 {
     name: "Just For You ",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle.mp3",
    timeCategory: "evening-late"
@@ -16827,7 +16819,7 @@ timeCategory: "evening-late"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/do not turnoff receiver.mp3",
    timeCategory: "evening-late"
@@ -16839,7 +16831,7 @@ timeCategory: "evening-late"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
    timeCategory: "evening-late"
@@ -16878,14 +16870,14 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle1.mp3",
     timeCategory: "evening-late"
 },
 {
     name: "Welcome!",
-    artist: "Sunny Disco Machine",
+    artist: "Sunny Disco Machine☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/start the party.mp3",
   
@@ -16906,7 +16898,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle1.mp3",
    timeCategory: "evening-late"
@@ -16933,7 +16925,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle1.mp3",
    timeCategory: "evening-late"
@@ -16970,7 +16962,7 @@ timeCategory: "evening-late"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj5.mp3",
   timeCategory: "evening-late"
@@ -16997,7 +16989,7 @@ timeCategory: "evening-late"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj3.mp3",
   timeCategory: "evening-late"
@@ -17051,7 +17043,7 @@ timeCategory: "evening-late"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj6.mp3",
   timeCategory: "evening-late"
@@ -17098,7 +17090,7 @@ timeCategory: "evening-late"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj2.mp3",
     timeCategory: "evening-late"
@@ -17130,7 +17122,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
   timeCategory: "evening-late"
@@ -17160,7 +17152,7 @@ timeCategory: "evening-late"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
    timeCategory: "evening-late"
@@ -17190,7 +17182,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle1.mp3",
    timeCategory: "evening-late"
@@ -17213,7 +17205,7 @@ timeCategory: "evening-late"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/reklame/reklame1.mp3",
    timeCategory: "evening-late"
@@ -17262,7 +17254,7 @@ timeCategory: "evening-late"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you33.mp3",
    timeCategory: "evening-late"
@@ -17276,7 +17268,7 @@ timeCategory: "evening-late"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you33.mp3",
    timeCategory: "evening-late"
@@ -17298,7 +17290,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
     timeCategory: "evening-late"
@@ -17311,7 +17303,7 @@ timeCategory: "evening-late"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/reklame/reklame.mp3",
    timeCategory: "evening-late"
@@ -17322,7 +17314,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
     timeCategory: "evening-late"
@@ -17422,7 +17414,7 @@ timeCategory: "evening-late"
 
 {
     name: "Just For You ",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/do not turnoff receiver.mp3",
    timeCategory: "evening-late"
@@ -17448,7 +17440,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
       timeCategory: "evening-late"
@@ -17603,7 +17595,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle4.mp3",
   timeCategory: "evening-late"
@@ -17614,7 +17606,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
   timeCategory: "evening-late"
@@ -17717,7 +17709,7 @@ timeCategory: "evening-late"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet3.mp3",
      timeCategory: "evening-late"
@@ -17731,7 +17723,7 @@ timeCategory: "evening-late"
 
 {
     name: "Life For The Weekend",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Life for the weekend- Jingle.mp3",
      timeCategory: "evening-late"
@@ -17803,7 +17795,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
     timeCategory: "evening-late"
@@ -17844,7 +17836,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle4.mp3",
       timeCategory: "evening-late"
@@ -17856,7 +17848,7 @@ timeCategory: "evening-late"
 
 {
     name: "Just For You ",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
   },
@@ -17864,7 +17856,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny dance jingle.mp3",
     timeCategory: "evening-late"
@@ -17885,7 +17877,7 @@ timeCategory: "evening-late"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
      timeCategory: "evening-late"
@@ -17903,7 +17895,7 @@ timeCategory: "evening-late"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio",
+    artist: "Listen Live Sunny Dance Radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle4.mp3",
      timeCategory: "evening-late"
@@ -17948,7 +17940,7 @@ timeCategory: "evening-late"
 
 {
     name: "Just For You ",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle.mp3",
         timeCategory: "evening-late"
@@ -17964,7 +17956,7 @@ timeCategory: "evening-late"
 },
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio ☀️",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/nos journaal 11.mp3",
   
@@ -17983,7 +17975,7 @@ timeCategory: "evening-late"
 
 {
     name: "Just For You ",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/reklame/reklame1.mp3",
       timeCategory: "evening-late"
@@ -17992,7 +17984,7 @@ timeCategory: "evening-late"
 
 {
     name: "Just For You ",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet4.mp3",
         timeCategory: "evening-late"
@@ -18019,7 +18011,7 @@ timeCategory: "evening-late"
 
 {
     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ",
+    artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj2.mp3",
        timeCategory: "evening-late"
@@ -18061,7 +18053,7 @@ timeCategory: "evening-late"
 },
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
+    artist: "Listen Live Sunny Dance radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
       timeCategory: "evening-late"
