@@ -562,7 +562,7 @@ let trackList = [
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
   timeCategory: "morning"
@@ -13485,7 +13485,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle11.mp3",
      timeCategory: "evening-late"
@@ -13493,7 +13493,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You ",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/do not turnoff receiver.mp3",
     timeCategory: "evening-late"
@@ -13521,7 +13521,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
     timeCategory: "evening-late"
@@ -13546,7 +13546,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle4.mp3",
      timeCategory: "evening-late"
@@ -13589,7 +13589,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle4.mp3",
     timeCategory: "evening-late"
@@ -13619,7 +13619,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/nos journaal 11.mp3",
      timeCategory: "evening-late"
@@ -13648,7 +13648,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
      timeCategory: "evening-late"
@@ -13672,7 +13672,7 @@ timeCategory: "morning"
 
 {
     name: "Just For You",
-    artist: "Sunny Ship",
+    artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/sunny ship/radio dj - just for you.mp3",
     timeCategory: "evening-late"
@@ -13727,7 +13727,7 @@ timeCategory: "morning"
 
 {
      name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
     timeCategory: "evening-late"
@@ -21429,12 +21429,6 @@ timeCategory: "f evening"
 
 
 
-
-
-
-
-
-
 // Get the current time category
 const currentTimeCategory = getCurrentTimeCategory();
 
@@ -21473,8 +21467,94 @@ console.log("Shuffled Track Order:", shuffledTracks.map(track => track.name));
 
 
 
+trackList.forEach((track, i) => {
+  if (!track.name) {
+    console.warn("Missing name at index", i, track);
+  }
+});
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+console.table(scheduledMp3Files);
+// Check that every row shows a numeric playcount column.
+
+
+
+
+
+
+
+function shuffle(array) {
+    return array.sort(() => Math.random() - 0.5);
+}
+
+// Shuffle track list **on page load**
+trackList = shuffle(trackList);
+console.log("Shuffled Track List:", trackList.map(track => track.name)); // Debugging
+
+
+
+   // ── Sum all playcounts ──
+    function computeTotalPlays() {
+      return scheduledMp3Files.reduce((sum, t) => sum + (typeof t.playcount === "number" ? t.playcount : 0), 0);
+    }
+
+
+
+
+
+// --- 1) Helpers ---
+function initializePlayCounts(tracks) {
+  tracks.forEach(t => {
+    if (typeof t.playcount !== "number") t.playcount = 0;
+  });
+}
+
+function sortTracksByPlayCount(tracks) {
+  return [...tracks].sort((a, b) => b.playcount - a.playcount);
+}
+
+function getRarelyPlayedTracks(tracks, maxPlays = 3) {
+  return tracks.filter(t => t.playcount <= maxPlays);
+}
+
+
+
+// --- 2) Startup ---
+initializePlayCounts(trackList);
+
+// --- 3) Selection & Playback ---
+function playRareTrack() {
+  let pool = getRarelyPlayedTracks(trackList, 3);
+
+  if (!pool.length) {
+    console.warn("Resetting all play counts.");
+    initializePlayCounts(trackList);
+    pool = [...trackList];
+  }
+
+  const choice = pool[Math.floor(Math.random() * pool.length)];
+  const idx    = trackList.indexOf(choice);
+
+  // loadTrack should handle audio.src, play, etc.
+ 
+}
+
+// Call it whenever you need a new “rare” track
+playRareTrack();
 
 
 
@@ -21622,47 +21702,6 @@ console.log("Playcounts:", scheduledMp3Files.map(t =>
 
 
 
-
-
-
-
- scheduledMp3Files.forEach(track => {
-      if (typeof track.playcount !== "number") {
-        track.playcount = 0;
-      }
-    });
-
-
-
-
-
-
-
-console.table(scheduledMp3Files);
-// Check that every row shows a numeric playcount column.
-
-
-
-scheduledMp3Files.forEach(t => {
-  if (typeof t.playcount !== 'number') t.playcount = 0;
-});
-
-
-
-function shuffle(array) {
-    return array.sort(() => Math.random() - 0.5);
-}
-
-// Shuffle track list **on page load**
-trackList = shuffle(trackList);
-console.log("Shuffled Track List:", trackList.map(track => track.name)); // Debugging
-
-
-
-   // ── Sum all playcounts ──
-    function computeTotalPlays() {
-      return scheduledMp3Files.reduce((sum, t) => sum + (typeof t.playcount === "number" ? t.playcount : 0), 0);
-    }
 
 
 
@@ -21992,54 +22031,18 @@ $('.btn').click(function () {
 
 
 
-// --- 1) Helpers ---
-function initializePlayCounts(tracks) {
-  tracks.forEach(t => {
-    if (typeof t.playcount !== "number") t.playcount = 0;
-  });
-}
-
-function sortTracksByPlayCount(tracks) {
-  return [...tracks].sort((a, b) => b.playcount - a.playcount);
-}
-
-function getRarelyPlayedTracks(tracks, maxPlays = 3) {
-  return tracks.filter(t => t.playcount <= maxPlays);
-}
-
-
-
-// --- 2) Startup ---
-initializePlayCounts(trackList);
-
-// --- 3) Selection & Playback ---
-function playRareTrack() {
-  let pool = getRarelyPlayedTracks(trackList, 3);
-
-  if (!pool.length) {
-    console.warn("Resetting all play counts.");
-    initializePlayCounts(trackList);
-    pool = [...trackList];
-  }
-
-  const choice = pool[Math.floor(Math.random() * pool.length)];
-  const idx    = trackList.indexOf(choice);
-
-  // loadTrack should handle audio.src, play, etc.
- 
-}
-
-// Call it whenever you need a new “rare” track
-playRareTrack();
 
 
 
 
-trackList.forEach((track, i) => {
-  if (!track.name) {
-    console.warn("Missing name at index", i, track);
-  }
-});
+
+
+
+
+
+
+
+
 
 
 
@@ -22059,6 +22062,7 @@ function myFunction1() {
     x.style.display = "block";
   }
 }
+
 
 
 
