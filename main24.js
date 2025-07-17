@@ -21428,6 +21428,9 @@ function filterMp3ByTimeCategory(mp3Files, timeCategory) {
 // Filter tracks based on the current category
 const scheduledMp3Files = filterMp3ByTimeCategory(trackList, currentTimeCategory);
 
+initializePlayCounts(scheduledMp3Files);
+
+
 // Shuffle the selected tracks
 const shuffledTracks = shuffle(scheduledMp3Files);
 
@@ -21440,7 +21443,10 @@ if (shuffledTracks.length > 0) {
    
 
 
- loadTrack(0);  // Load the first track in random order
+const chosen = shuffledTracks[0];
+const idx = scheduledMp3Files.indexOf(chosen);
+loadTrack(idx);
+ // Load the first track in random order
 
 console.log("Shuffled Track Order:", shuffledTracks.map(track => track.name));
 
@@ -21486,7 +21492,7 @@ function shuffle(array) {
 }
 
 // Shuffle track list **on page load**
-trackList = shuffle(trackList);
+
 console.log("Shuffled Track List:", trackList.map(track => track.name)); // Debugging
 
 
@@ -21507,8 +21513,8 @@ function initializePlayCounts(tracks) {
   });
 }
 
-function sortTracksByPlayCount(tracks) {
-  return [...tracks].sort((a, b) => b.playcount - a.playcount);
+function sortTracksByPlayCount(scheduledMp3Files) {
+  return [...scheduledMp3Files].sort((a, b) => b.playcount - a.playcount);
 }
 
 function getRarelyPlayedTracks(tracks, maxPlays = 3) {
@@ -21518,27 +21524,27 @@ function getRarelyPlayedTracks(tracks, maxPlays = 3) {
 
 
 // --- 2) Startup ---
-initializePlayCounts(trackList);
 
-// --- 3) Selection & Playback ---
+
 function playRareTrack() {
-  let pool = getRarelyPlayedTracks(trackList, 3);
+  let pool = getRarelyPlayedTracks(scheduledMp3Files, 3);
 
   if (!pool.length) {
     console.warn("Resetting all play counts.");
-    initializePlayCounts(trackList);
-    pool = [...trackList];
+    initializePlayCounts(scheduledMp3Files);
+    pool = [...scheduledMp3Files];
   }
 
   const choice = pool[Math.floor(Math.random() * pool.length)];
-  const idx    = trackList.indexOf(choice);
+  const idx    = scheduledMp3Files.indexOf(choice);
 
-  // loadTrack should handle audio.src, play, etc.
- 
+  if (idx !== -1) {
+    loadTrack(idx);
+  } else {
+    console.error("Track not found in scheduled list:", choice);
+  }
 }
 
-// Call it whenever you need a new “rare” track
-playRareTrack();
 
 
 
@@ -21552,11 +21558,18 @@ playRareTrack();
 
 
 
-function loadTrack(track_index) {
-    const track = scheduledMp3Files[track_index];
+
+
+
+let currentTrackIndex = null;
+
+function loadTrack(index) {
+ 
+
+    const track = scheduledMp3Files[index];
 
     if (!scheduledMp3Files || !track) {
-        console.error("Error: No track found at index", track_index);
+        console.error("Error: No track found at index", index);
         return;
     }
 
@@ -21570,7 +21583,8 @@ function loadTrack(track_index) {
        
 
  );
- 
+
+
 
 });
 
@@ -21620,6 +21634,7 @@ function incrementPlayCount(track) {
 }
 
 
+incrementPlayCount(track);
 
 
 
