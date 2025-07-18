@@ -218,7 +218,7 @@ function shuffle(array) {
 
 // Specify globally used values
 let track_index = 0;
-let isPlaying = false;
+let currTrack = null;
 let updateTimer;
 
 // Create the audio element for the player
@@ -5434,7 +5434,7 @@ timeCategory: "morning"
     artist: "T-Connection ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/T-Connection - Saturday Night.mp3",
-     timeCategory: "afternoon"
+     timeCategory: "morning"
 },
 
 
@@ -21697,6 +21697,30 @@ console.log("Playcount Order:", scheduledMp3Files.map(t => `${t.name}: ${t.playc
 console.log("Playcounts:", scheduledMp3Files.map(t =>
   `${t.name}: ${typeof t.playcount === "number" ? t.playcount : 0}`
 ));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
