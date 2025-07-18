@@ -29,7 +29,8 @@
   <link rel="stylesheet"
         href=
 "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
- 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
   <!-- Load the custom CSS style file -->
   <link rel="stylesheet" type="text/css" href="style2.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -283,6 +284,9 @@ body {
 
 
 
+
+
+
 </ul>
 
 
@@ -291,6 +295,8 @@ body {
 <br>
 <br>
 <br>
+
+
 <br>
 <br>
 <br>
@@ -301,6 +307,12 @@ body {
 
 <br>
 <br>
+
+
+
+
+
+
 
 <br>
 <br>
@@ -1005,7 +1017,7 @@ function scheduleRangeSwap() {
 
     // ── Render the shuffled list in the DOM ──
     function renderTrackList() {
-      const ul = document.getElementById("track-list");
+      const ul = document.getElementById("track-list-container");
       ul.innerHTML = "";
       scheduledMp3Files.forEach((t, idx) => {
         const li = document.createElement("li");
