@@ -1,3 +1,22 @@
+
+// Put this at the top of main24.js
+async function generateScript(track, timeCategory) {
+  const intros = {
+    Morning: [ `Start your day with "${track}".`, `"${track}" is your morning mood booster."` ],
+    Afternoon: [ `Here's "${track}" to keep your afternoon flowing."` ],
+    Evening: [ `Unwind with "${track}".` ],
+    Night: [ `"${track}" — perfect for your late night groove."` ]
+  };
+
+  const fallback = `Now playing: "${track}", perfect for your ${timeCategory} vibes.`;
+  const options = intros[timeCategory] || [fallback];
+  return options[Math.floor(Math.random() * options.length)];
+}
+
+
+
+
+
 // Select all the elements in the HTML page and assign them to a variable
 let now_playing = document.querySelector(".now-playing");
 let track_art = document.querySelector(".track-art");
@@ -21684,8 +21703,19 @@ console.log("Sorted by playcount:", sortedByPlaycount.map(t => `${t.name}: ${t.p
 
 
 
+function renderSortedPlaycounts() {
+  const container = document.getElementById("track-list-container");
+  container.innerHTML = "";
+
+  sortedByPlaycount.forEach(track => {
+    const li = document.createElement("li");
+    li.textContent = `${track.name}: ${track.playcount || 0}`;
+    container.appendChild(li);
+  });
+}
 
 
+renderSortedPlaycounts();
 
 
 
