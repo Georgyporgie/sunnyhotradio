@@ -1,17 +1,4 @@
 
-// Put this at the top of main24.js
-async function generateScript(track, timeCategory) {
-  const intros = {
-    Morning: [ `Start your day with "${track}".`, `"${track}" is your morning mood booster."` ],
-    Afternoon: [ `Here's "${track}" to keep your afternoon flowing."` ],
-    Evening: [ `Unwind with "${track}".` ],
-    Night: [ `"${track}" — perfect for your late night groove."` ]
-  };
-
-  const fallback = `Now playing: "${track}", perfect for your ${timeCategory} vibes.`;
-  const options = intros[timeCategory] || [fallback];
-  return options[Math.floor(Math.random() * options.length)];
-}
 
 
 
@@ -237,11 +224,12 @@ function shuffle(array) {
 
 // Specify globally used values
 let track_index = 0;
-let currTrack = null;
+let currentTrack = null;  
 let updateTimer;
 
 // Create the audio element for the player
-let curr_track = document.createElement('audio');
+let audioPlayer = document.createElement('audio');
+
 
 // Define your track list with time categories
 let trackList = [
@@ -21521,6 +21509,9 @@ console.log("Shuffled Track List:", trackList.map(track => track.name)); // Debu
       return scheduledMp3Files.reduce((sum, t) => sum + (typeof t.playcount === "number" ? t.playcount : 0), 0);
     }
 
+function computeTotalPlays() {
+  return scheduledMp3Files.reduce((sum, t) => sum + (Number(t.playcount) || 0), 0);
+}
 
 
 
