@@ -22030,21 +22030,7 @@ function seekUpdate() {
   }
 }
 
-loadTrack(track_index);
 
-$(document).ready(function(){
-  $("button").click(function(){
-    $("#div1").fadeIn();
-    $("#div2").fadeIn("slow");
-    $("#div3").fadeIn(3000);
-  });
-});
-
-
-
-$('.btn').click(function () {
-  $(this).toggleClass("click");
-});
 
 
 
