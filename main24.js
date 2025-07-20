@@ -21446,21 +21446,7 @@ const shuffledTracks = shuffle(scheduledMp3Files);
 // Sort by playcount: least-played first
 scheduledMp3Files.sort((a, b) => a.playcount - b.playcount);
 
-if (shuffledTracks.length > 0) {
-   
 
-
-const chosen = shuffledTracks[0];
-const idx = scheduledMp3Files.indexOf(chosen);
-loadTrack(idx);
- // Load the first track in random order
-
-console.log("Shuffled Track Order:", shuffledTracks.map(track => track.name));
-
-
-
-
-}
 
 
 
@@ -21522,41 +21508,6 @@ function initializePlayCounts(tracks) {
     if (typeof t.playcount !== "number") t.playcount = 0;
   });
 }
-
-function sortTracksByPlayCount(scheduledMp3Files) {
-  return [...scheduledMp3Files].sort((a, b) => b.playcount - a.playcount);
-}
-
-function getRarelyPlayedTracks(tracks, maxPlays = 3) {
-  return tracks.filter(t => t.playcount <= maxPlays);
-}
-
-
-
-// --- 2) Startup ---
-
-
-function playRareTrack() {
-  let pool = getRarelyPlayedTracks(scheduledMp3Files, 3);
-
-  if (!pool.length) {
-    console.warn("Resetting all play counts.");
-    initializePlayCounts(scheduledMp3Files);
-    pool = [...scheduledMp3Files];
-  }
-
-  const choice = pool[Math.floor(Math.random() * pool.length)];
-  const idx    = scheduledMp3Files.indexOf(choice);
-
-  if (idx !== -1) {
-    loadTrack(idx);
-  } else {
-    console.error("Track not found in scheduled list:", choice);
-  }
-}
-
-
-
 
 
 
