@@ -20408,8 +20408,8 @@ timeCategory: "f evening"
 
 
 {
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
+     name: "One Thing",
+    artist: "Lola Young ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Lola Young - One Thing.mp3",
  timeCategory: "f evening-late"
@@ -21364,6 +21364,11 @@ timeCategory: "f evening"
 
 
 
+trackList.forEach(track => {
+  if (track.name && track.name.includes("Extended")) {
+    track.forceFadeOut = true;
+  }
+});
 
 
 
@@ -21371,6 +21376,7 @@ timeCategory: "f evening"
 
 
 
+trackList[2].forceFadeOut = true;
 
 
 
@@ -21514,6 +21520,23 @@ function initializePlayCounts(tracks) {
 
 
 
+function fadeOut(audioElement, duration = 3000) {
+  const steps = 20;
+  const interval = duration / steps;
+  let currentStep = 0;
+
+  const fadeTimer = setInterval(() => {
+    currentStep++;
+    const newVolume = Math.max(0, audioElement.volume - 1 / steps);
+    audioElement.volume = newVolume;
+
+    if (currentStep >= steps || newVolume <= 0) {
+      clearInterval(fadeTimer);
+      audioElement.pause(); // Optional
+      audioElement.volume = 0;
+    }
+  }, interval);
+}
 
 
 
@@ -21535,7 +21558,21 @@ function loadTrack(index) {
     }
 
     curr_track = new Audio(track.path);
-      curr_track.addEventListener("play", () => {
+     
+curr_track.volume = 0.9; // 💥 Full blast as soon as playback starts
+
+// ⬇️ Place this AFTER curr_track is defined
+  if (track.forceFadeOut) {
+    curr_track.addEventListener("loadedmetadata", () => {
+      const duration = curr_track.duration;
+      const fadeStart = (duration * 1000) - 3000;
+
+      if (fadeStart > 0) {
+        setTimeout(() => fadeOut(curr_track, 3000), fadeStart);
+      }
+    });
+  }
+ curr_track.addEventListener("play", () => {
         track.playcount = Number(track.playcount) || 0;
         track.playcount++;
         console.log(
@@ -21762,34 +21799,6 @@ function playTrack() {
 
 
 
-
-
-
-function fadeOutTrack(audioElement, duration = 2000) {
-    if (!audioElement) {
-        console.error("Error: `audioElement` is undefined!");
-        return;
-    }
-
-    let fadeInterval = 50; // Adjust the speed of fade steps
-    let fadeStep = audioElement.volume / (duration / fadeInterval); // Volume decrement per step
-
-    let fadeEffect = setInterval(() => {
-        if (audioElement.volume > 0) {
-            audioElement.volume = Math.max(0, audioElement.volume - fadeStep);
-        } else {
-            clearInterval(fadeEffect);
-            audioElement.pause(); // Stop playback after fade-out completes
-        }
-    }, fadeInterval);
-}
-
-// ✅ Apply fade-out when the track is about to end (e.g., last 1 second)
-curr_track.addEventListener("timeupdate", () => {
-    if (curr_track.duration - curr_track.currentTime <= 1) {
-        fadeOutTrack(curr_track);
-    }
-});
 
 
 
