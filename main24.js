@@ -21928,20 +21928,7 @@ displaytrackList(); // Show initial tracks on page load
 
 
 
-  
-let fadeInitiated = false;
 
-curr_track.addEventListener("timeupdate", () => {
-    // Only fade tracks longer than 10s, and when near their end
-    if (
-        !fadeInitiated &&
-        curr_track.duration > 10 &&
-        curr_track.duration - curr_track.currentTime <= 4
-    ) {
-        fadeInitiated = true;
-        fadeOutTrack(curr_track);
-    }
-});
 
 
 
