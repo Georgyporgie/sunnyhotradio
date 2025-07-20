@@ -802,9 +802,25 @@ document.getElementById("online").innerHTML=" 3 ";
 
 
 
-<audio id="musicPlayer" autoplay loop >
-    <source id="musicSource" src="" type="audio/mpeg">
+
+
+
+<audio id="musicPlayer" autoplay loop>
+  <source id="musicSource" src="" type="audio/mpeg">
 </audio>
+
+<script>
+  const musicPlayer = document.getElementById("musicPlayer");
+
+  // Set initial volume to 50% (no visible control)
+  musicPlayer.volume = 0.4;
+</script>
+
+
+
+
+
+
 
 <script>
    
