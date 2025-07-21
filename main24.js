@@ -21553,6 +21553,19 @@ function fadeOut(audioElement, duration = 3000) {
 
 
 
+function getTimeBasedVolume() {
+  const hour = new Date().getHours();  // 0–23
+
+  if (hour >= 6 && hour < 12) {
+    return 0.6;  // Morning — softer wake-up vibes
+  } else if (hour >= 12 && hour < 18) {
+    return 0.8;  // Afternoon — balanced and bright
+  } else if (hour >= 18 && hour < 24) {
+    return 0.7;  // Evening — party mode or immersive listening
+  } else {
+    return 0.4;  // Night — low volume, chill zone
+  }
+}
 
 
 
@@ -21574,7 +21587,8 @@ function loadTrack(index) {
     curr_track = new Audio(track.path);
 
  
-curr_track.volume = 0.8; // 💥 Full blast as soon as playback starts
+curr_track.volume = getTimeBasedVolume(); // 💥 Full blast as soon as playback starts
+console.log(`🕒 Volume set to ${curr_track.volume} based on current hour`);
 
 // ⬇️ Place this AFTER curr_track is defined
   if (track.forceFadeOut) {
