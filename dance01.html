@@ -866,7 +866,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const weekdayAudioFiles = {
     hourlySou:        "audio/its now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
-    fortyFiveMinuteSou: "muziek/effects/DJ Saphire finale.mp3"
+    fortyFiveMinuteSou: "muziek/jingles/Sunny los.mp3"
   };
 
   const saturdayAudioFiles = {
@@ -941,10 +941,8 @@ document.addEventListener("DOMContentLoaded", () => {
   scheduleRangeSwap();
 });
 
-// Your existing volume‐normalization function
-function adjustVolumeDynamically(audio) {
-  // … your code here …
-}
+
+
 
 // Schedule reloads for midnight, noon and 6pm
 function scheduleRangeSwap() {
@@ -1065,19 +1063,6 @@ function scheduleRangeSwap() {
 
 
 
- // 🎛 Volume Balancer Function
-    function adjustVolumeDynamically(audioElement) {
-        let targetVolume = 0.8;  // Default volume level
-        let maxThreshold = 1; // Prevent distortion
-
-        audioElement.addEventListener("timeupdate", () => {
-            if (audioElement.volume < targetVolume) {
-                audioElement.volume = Math.min(maxThreshold, audioElement.volume + 0.01);  // Smooth increase
-            } else if (audioElement.volume > targetVolume) {
-                audioElement.volume = Math.max(0, audioElement.volume - 0.01);  // Smooth decrease
-            }
-        });
-    }
 
 
 
