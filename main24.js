@@ -21572,7 +21572,8 @@ function loadTrack(index) {
     }
 
     curr_track = new Audio(track.path);
-     
+
+ 
 curr_track.volume = 0.9; // 💥 Full blast as soon as playback starts
 
 // ⬇️ Place this AFTER curr_track is defined
@@ -21638,8 +21639,7 @@ curr_track.volume = 0.9; // 💥 Full blast as soon as playback starts
     // ✅ Load track before applying event listeners
     curr_track.load();
 
-
-
+   
 
 function incrementPlayCount(track) {
   track.playcount = (track.playcount || 0) + 1;
