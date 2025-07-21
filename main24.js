@@ -21559,9 +21559,9 @@ function getTimeBasedVolume() {
   if (hour >= 6 && hour < 12) {
     return 0.6;  // Morning — softer wake-up vibes
   } else if (hour >= 12 && hour < 18) {
-    return 0.8;  // Afternoon — balanced and bright
+    return 0.7;  // Afternoon — balanced and bright
   } else if (hour >= 18 && hour < 24) {
-    return 0.7;  // Evening — party mode or immersive listening
+    return 0.8;  // Evening — party mode or immersive listening
   } else {
     return 0.4;  // Night — low volume, chill zone
   }
