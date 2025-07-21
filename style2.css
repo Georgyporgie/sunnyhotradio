@@ -556,7 +556,7 @@ height: 200px; width: 300px; display: block; margin: auto auto auto auto; z-inde
 #track-list-container {  font-size: 15px; color: #FF0000; font-family: Arial ,Helvetica,sans-serif;
  margin-left: 0px ; background:linear-gradient(45deg,#0033FF,#006666,#003399);     border-radius: 20px;  border: solid 3px #FF0000; font-weight:800;font-optical-sizing: auto; padding: 5px;
  visibility: visible; position: relative; /* Required for z-index to work */
-  z-index: -10; /* Modify based on layering needs */
+  z-index: -200; /* Modify based on layering needs */
 }
 
 
@@ -1006,3 +1006,7 @@ z-index: 200; font-style: bold;font-family:myEvent;
 #play {  text-decoration: underline; color: silver; z-index: -400;
 
 }
+
+
+
+
