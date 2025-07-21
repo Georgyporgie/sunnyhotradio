@@ -21485,14 +21485,22 @@ console.table(scheduledMp3Files);
 
 
 
-
 function shuffle(array) {
-    return array.sort(() => Math.random() - 0.5);
+  let currentIndex = array.length, randomIndex;
+
+  while (currentIndex > 0) {
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // Swap elements
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]
+    ];
+  }
+
+  return array;
 }
 
-// Shuffle track list **on page load**
-
-console.log("Shuffled Track List:", trackList.map(track => track.name)); // Debugging
 
 
 
@@ -21517,23 +21525,28 @@ function initializePlayCounts(tracks) {
 
 
 
-
-
-
 function fadeOut(audioElement, duration = 3000) {
   const steps = 20;
   const interval = duration / steps;
   let currentStep = 0;
+
+  console.log(`🕊️ Fade-out starting... target duration: ${duration}ms`);
 
   const fadeTimer = setInterval(() => {
     currentStep++;
     const newVolume = Math.max(0, audioElement.volume - 1 / steps);
     audioElement.volume = newVolume;
 
+    console.log(`🔄 Step ${currentStep} | Volume: ${newVolume.toFixed(2)}`);
+
     if (currentStep >= steps || newVolume <= 0) {
       clearInterval(fadeTimer);
-      audioElement.pause(); // Optional
+      audioElement.pause();
       audioElement.volume = 0;
+      console.log("✅ Fade-out complete. Audio paused.");
+
+      // 🪄 Track Handoff
+      nextTrack();  // Automatically load & play the next track
     }
   }, interval);
 }
