@@ -4546,6 +4546,9 @@ timeCategory: "morning"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/sunny dance jingle.mp3",
      timeCategory: "afternoon"
+
+
+
 },
 
 
@@ -6240,6 +6243,7 @@ timeCategory: "morning"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Saweetie - Closer.mp3",
   timeCategory: "afternoon"
+
 },
 
 
@@ -7768,10 +7772,8 @@ timeCategory: "morning"
     artist: "DJ Seinfeld ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/DJ Seinfeld - Now U Do.mp3",
-  
+     timeCategory: "afternoon"
 
-
-   timeCategory: "afternoon"
 },
 
 
@@ -11231,7 +11233,8 @@ timeCategory: "morning"
     artist: "Sisters Sledge ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Sisters Sledge - He's The Greatest Dancer (12inch).mp3",
-  timeCategory: "evening-late"
+  timeCategory: "evening-late",
+quickFade: true 
 },
 
 
@@ -11263,7 +11266,8 @@ timeCategory: "morning"
     artist: "Donna Summer ",
      image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Donna Summer - I Feel Love (revisit mix).mp3",
-    timeCategory: "evening-late"
+    timeCategory: "evening-late",
+    quickFade: true
 },
 
 
@@ -11423,10 +11427,8 @@ timeCategory: "morning"
     artist: "Carleen Anderson",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Carleen Anderson - Was that all that was.mp3",
-  
-
-
-    timeCategory: "evening-late"
+timeCategory: "evening-late",
+  quickFade: true
 },
 
 
@@ -11450,7 +11452,8 @@ timeCategory: "morning"
     artist: "The Weeknd  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/The weeknd - Blinding Lights.mp3", 
-    timeCategory: "evening-late"
+    timeCategory: "evening-late",
+  quickFade: true
 },
 
 
@@ -11507,7 +11510,8 @@ timeCategory: "morning"
     artist: "Sam Smith ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Sam Smith - Desire.mp3",
-    timeCategory: "evening-late"
+    timeCategory: "evening-late",
+  quickFade: true
 },
 
 
@@ -11561,7 +11565,8 @@ timeCategory: "morning"
     artist: "Latto ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Latto - Big Energy.mp3",
-    timeCategory: "evening-late"
+    timeCategory: "evening-late",
+  quickFade: true
 },
 
  
@@ -11573,7 +11578,8 @@ timeCategory: "morning"
     artist: "Vibey",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Vibey03.mp3",
-     timeCategory: "evening-late"
+     timeCategory: "evening-late",
+  quickFade: true
 },
 
 
@@ -11659,7 +11665,8 @@ timeCategory: "morning"
     artist: "Topic & Bebe Rexha",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Topic & Bebe Rexha - Chain my heart.mp3",
-     timeCategory: "evening-late"
+     timeCategory: "evening-late",
+  quickFade: true
 },
 
 
@@ -11680,7 +11687,8 @@ timeCategory: "morning"
     artist: "Saweetie ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Saweetie - Best Friend.mp3",
-    timeCategory: "evening-late"
+    timeCategory: "evening-late",
+  quickFade: true
 },
 
 
@@ -11715,7 +11723,8 @@ timeCategory: "morning"
     artist: "Kano ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Kano - I'm Ready.mp3",
-     timeCategory: "evening-late"
+     timeCategory: "evening-late",
+  quickFade: true
 },
 
 
@@ -11753,7 +11762,8 @@ timeCategory: "morning"
     artist: "Charli XCX ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Charli XCX - Good Ones.mp3",
-     timeCategory: "evening-late"
+     timeCategory: "evening-late",
+  quickFade: true
 },
 
 
@@ -11799,7 +11809,8 @@ timeCategory: "morning"
   
 
 
-    timeCategory: "evening-late"
+    timeCategory: "evening-late",
+  quickFade: true
 },
 
 
@@ -15247,7 +15258,8 @@ timeCategory: "evening-late"
     artist: "Gwen Guthrie  ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Gwen Guthrie- Ain't Nothing Goin' On But The Rent.mp3",
-  timeCategory: "evening-late"
+  timeCategory: "evening-late",
+  quickFade: true
 },
 
 
@@ -21361,6 +21373,37 @@ timeCategory: "f evening"
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 trackList.forEach(track => {
   track.forceFadeOut = false;  // Default value
   if (track.name && track.name.includes("Extended")) {
@@ -21594,21 +21637,19 @@ console.log(`🕒 Volume set to ${curr_track.volume} based on current hour`);
 
 
 curr_track.addEventListener("loadedmetadata", () => {
-  console.log("📀 Metadata loaded for:", track.name);
-  console.log("🕰️ Track duration:", curr_track.duration, "seconds");
+  const duration = curr_track.duration;
+  const fadeTime = track.quickFade ? 2000 : 3000;  // Quick fade = 2 sec
+  const offset = track.quickFade ? 5000 : 3000;    // Start 5 sec early if quick
 
-  if (curr_track.duration > 180) {  // ⏱️ Only fade tracks longer than 3 min
-    const fadeStart = (curr_track.duration * 1000) - 3000;
-    
-    if (fadeStart > 0) {
-      console.log("⏳ Scheduled fade in", fadeStart, "ms for:", track.name);
-      setTimeout(() => fadeOut(curr_track, 3000), fadeStart);
-    }
-  } else {
-    console.log("🚫 No fade needed — short track:", track.name);
+  const fadeStart = (duration * 1000) - offset;
+
+  if (fadeStart > 0) {
+    console.log(`⏳ Scheduled ${fadeTime / 1000}s fade in ${fadeStart}ms for:`, track.name);
+    setTimeout(() => fadeOut(curr_track, fadeTime), fadeStart);
   }
 });
- curr_track.addEventListener("play", () => {
+ 
+curr_track.addEventListener("play", () => {
         track.playcount = Number(track.playcount) || 0;
         track.playcount++;
         console.log(
