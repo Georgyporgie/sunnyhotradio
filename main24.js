@@ -11896,7 +11896,8 @@ timeCategory: "evening-late",
     artist: "Communards",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Communards - Never can say goodbye 12inch.mp3",
-    timeCategory: "evening-late"
+    timeCategory: "evening-late",
+  quickFade: true
 },
 
 
@@ -11960,7 +11961,8 @@ timeCategory: "evening-late",
     artist: "Daft Punk  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Daft Punk - One More Time.mp3",
-     timeCategory: "evening-late"
+     timeCategory: "evening-late",
+  quickFade: true
 },
 
 
@@ -14244,7 +14246,8 @@ timeCategory: "evening-late",
     artist: "Dennis Ferrer",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Dennis Ferrer- Hey Hey original.mp3",
-    timeCategory: "evening-late"
+    timeCategory: "evening-late",
+  quickFade: true
 },
 
 
