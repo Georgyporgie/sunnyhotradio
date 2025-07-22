@@ -21573,7 +21573,7 @@ function initializePlayCounts(tracks) {
 
 
 
-function fadeOut(audioElement, duration = 3000) {
+function fadeOut(audioElement, duration = 1000) {
   const steps = 20;
   const interval = duration / steps;
   let currentStep = 0;
