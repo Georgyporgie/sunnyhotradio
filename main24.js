@@ -21361,14 +21361,13 @@ timeCategory: "f evening"
 
 
 
-
-
-
 trackList.forEach(track => {
+  track.forceFadeOut = false;  // Default value
   if (track.name && track.name.includes("Extended")) {
-    track.forceFadeOut = true;
+    track.forceFadeOut = true;  // Auto-tagged for fade
   }
 });
+
 
 
 
@@ -21409,6 +21408,9 @@ trackList[2].forceFadeOut = true;
 
 
 
+trackList.forEach((track, i) => {
+  console.log(`🎚️ Track ${i}: ${track.name} | Fade? ${track.forceFadeOut}`);
+});
 
 
 
@@ -21590,17 +21592,22 @@ function loadTrack(index) {
 curr_track.volume = getTimeBasedVolume(); // 💥 Full blast as soon as playback starts
 console.log(`🕒 Volume set to ${curr_track.volume} based on current hour`);
 
-// ⬇️ Place this AFTER curr_track is defined
-  if (track.forceFadeOut) {
-    curr_track.addEventListener("loadedmetadata", () => {
-      const duration = curr_track.duration;
-      const fadeStart = (duration * 1000) - 3000;
 
-      if (fadeStart > 0) {
-        setTimeout(() => fadeOut(curr_track, 3000), fadeStart);
-      }
-    });
+curr_track.addEventListener("loadedmetadata", () => {
+  console.log("📀 Metadata loaded for:", track.name);
+  console.log("🕰️ Track duration:", curr_track.duration, "seconds");
+
+  if (curr_track.duration > 180) {  // ⏱️ Only fade tracks longer than 3 min
+    const fadeStart = (curr_track.duration * 1000) - 3000;
+    
+    if (fadeStart > 0) {
+      console.log("⏳ Scheduled fade in", fadeStart, "ms for:", track.name);
+      setTimeout(() => fadeOut(curr_track, 3000), fadeStart);
+    }
+  } else {
+    console.log("🚫 No fade needed — short track:", track.name);
   }
+});
  curr_track.addEventListener("play", () => {
         track.playcount = Number(track.playcount) || 0;
         track.playcount++;
