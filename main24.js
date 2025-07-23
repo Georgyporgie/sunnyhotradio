@@ -21625,14 +21625,31 @@ function loadTrack(index) {
 curr_track.volume = getTimeBasedVolume(); // 💥 Full blast as soon as playback starts
 console.log(`🕒 Volume set to ${curr_track.volume} based on current hour`);
 
-
 curr_track.addEventListener("loadedmetadata", () => {
   const duration = curr_track.duration;
-  const fadeTime = track.quickFade ? 2000 : 3000;  // Quick fade = 2 sec
-  const offset = track.quickFade ? 5000 : 3000;    // Start 5 sec early if quick
+  console.log("📀 Metadata loaded for:", track.name);
+  console.log("🕰️ Track duration:", duration, "seconds");
 
-  const fadeStart = (duration * 1000) - offset;
+  // Determine fade timing
+  let fadeTime, fadeStart;
 
+  if (track.quickFade) {
+    // 💨 Quick fade logic
+    fadeTime = 2000;                  // Duration of fade
+    fadeStart = (duration * 1000) - 5000;  // Start 5 sec before end
+    console.log("⚡ Quick fade mode active");
+  } else if (duration > 180) {
+    // 🕯️ Default fade for long tracks
+    fadeTime = 3000;
+    fadeStart = (duration * 1000) - 3000;
+    console.log("⏱️ Standard fade for track >3min");
+  } else {
+    // 🚫 No fade needed
+    console.log("🚫 No fade scheduled — short track or no flag");
+    return;
+  }
+
+  // Schedule fade
   if (fadeStart > 0) {
     console.log(`⏳ Scheduled ${fadeTime / 1000}s fade in ${fadeStart}ms for:`, track.name);
     setTimeout(() => fadeOut(curr_track, fadeTime), fadeStart);
