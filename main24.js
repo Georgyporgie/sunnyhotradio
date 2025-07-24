@@ -22125,7 +22125,9 @@ function myFunction1() {
 
 
 
-
+ $('.btn').click(function () {
+            $(this).toggleClass("click");
+        });
 
 
 
