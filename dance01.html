@@ -654,6 +654,31 @@ window.setInterval(startTime, 1000);
 
  
 
+<audio id="djIntro" src="muziek/effects/DJ Saphire finale.mp3"></audio>
+
+<script>  
+
+window.addEventListener('load', () => {
+  const djIntro = document.getElementById('djIntro');
+  djIntro.play().catch((error) => {
+    console.log("Intro can't be played automatically:", error);
+  });
+});
+
+
+djIntro.muted = false;
+
+
+setTimeout(() => {
+  startMainPlayer(); // your custom function to trigger the music player
+}, 5000);
+
+
+
+
+
+djIntro.volume = 1.0; // Slightly louder than default
+djIntro.play();
 
 
 
@@ -662,8 +687,7 @@ window.setInterval(startTime, 1000);
 
 
 
-
-
+</script>
 
 
 
