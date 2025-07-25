@@ -879,21 +879,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const saturdayAudioFiles = {
     hourlySou:        "audio/its now.mp3",
-    quarterHourSou:   "muziek/effects/blast.mp3",
-    fortyFiveMinuteSou: "muziek/effects/DJ Saphire finale.mp3"
-  };
+    quarterHourSou:   "muziek/effects/best music.mp3",
+    fortyFiveMinuteSou: "muziek/effects/DJ Saphire finale.mp3",
+  twentyMinuteSou: "muziek/effects/Sunny Weekend Pirate.mp3"
+};
 
   // Sunday splits
   const sundayMorningAudioFiles = {
-    hourlySou:        "audio/its now.mp3",
+     hourlySou:        "audio/its now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
-    fortyFiveMinuteSou: "muziek/effects/DJ Saphire finale.mp3"
-  };
+    fortyFiveMinuteSou: "muziek/effects/best music.mp3",
+  twentyMinuteSou: "muziek/effects/Sunny Weekend Pirate.mp3"
+};
 
   const sundayAfternoonAudioFiles = {
     hourlySou:        "audio/its now.mp3",
-    quarterHourSou:   "muziek/effects/blast.mp3",
-    fortyFiveMinuteSou: "muziek/discjockeys/DJ S.mp3"
+    quarterHourSou:   "muziek/effects/best music.mp3",
+    fortyFiveMinuteSou: "muziek/discjockeys/DJ S.mp3",
+twentyMinuteSou: "muziek/effects/Sunny Weekend Pirate.mp3"
 
   };
 
@@ -901,6 +904,8 @@ document.addEventListener("DOMContentLoaded", () => {
     hourlySou:        "audio/its now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
     fortyFiveMinuteSou: "muziek/discjockeys/DJ S.mp3"
+twentyMinuteSou: "muziek/effects/Sunny Weekend Pirate.mp3"
+
 
   };
 
@@ -1213,7 +1218,6 @@ document.getElementById("now").innerHTML="<em>current track</em>";
 
 
 
-
  <audio id="hourlySou">
     <source src="" type="audio/mp3">
 </audio>
@@ -1224,10 +1228,9 @@ document.getElementById("now").innerHTML="<em>current track</em>";
     <source src="" type="audio/mp3">
 </audio>
 
-<audio id="twentyFiveMinuteSou">
+<audio id="twentyMinuteSou">
     <source src="" type="audio/mp3">
 </audio>
-
 
 
 
@@ -1242,6 +1245,7 @@ document.getElementById("now").innerHTML="<em>current track</em>";
     document.getElementById("quarterHourSou").setAttribute('src', 'muziek/effects/blast.mp3');
     document.getElementById("fortyFiveMinuteSou").setAttribute('src', 'muziek/effects/DJ Saphire finale.mp3');
     document.getElementById("twentyFiveMinuteSou").setAttribute('src', 'muziek/jingles/sunnymainjingle.mp3');
+document.getElementById("twentyMinuteSou").setAttribute('src', 'muziek/effects/Sunny Weekend Pirate.mp3');
 
     // ✅ Apply volume normalization when a track is ready to play
     document.querySelectorAll("audio").forEach(audio => {
@@ -1316,7 +1320,15 @@ document.getElementById("now").innerHTML="<em>current track</em>";
             }, 1900000); // every 20 minutes
         }, twentyFiveMinuteDelay);
 
+      // 🎵 20 minute sunny
+        var twentyMinuteDelay = (15 - (now.getMinutes() % 15)) * 60 * 1000 - now.getSeconds() * 1000;
 
+        setTimeout(function() {
+            playSound(["twentyFiveMinuteSou"]);
+            setInterval(function() {
+                playSound(["twentyFiveMinuteSou"]);
+            }, 900000); // every 15 minutes
+        }, twentyMinuteDelay);
 
 }
 
