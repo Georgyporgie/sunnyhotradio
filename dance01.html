@@ -674,7 +674,6 @@ slider.addEventListener('input', () => {
 
  
 
-<audio id="djIntro" src="muziek/effects/DJ Saphire finale3.mp3"></audio>
 
 <script>  
 
@@ -1228,43 +1227,19 @@ document.getElementById("now").innerHTML="<em>current track</em>";
 
     
 
+  <audio id="hourlySou"></audio>
+  <audio id="quarterHourSou"></audio>
+  <audio id="fortyFiveMinuteSou"></audio>
+  <audio id="twentyMinuteSou"></audio>
+  <audio id="twentyFiveMinuteSou"></audio>
 
- 
-
-
-
-
-
-
- <audio id="hourlySou">
-    <source src="" type="audio/mp3">
-</audio>
-<audio id="quarterHourSou">
-    <source src="" type="audio/mp3">
-</audio>
-<audio id="fortyFiveMinuteSou">
-    <source src="" type="audio/mp3">
-</audio>
-
-<audio id="twentyMinuteSou">
-    <source src="" type="audio/mp3">
-</audio>
-
-
-
-
-
-
-
-
-
-<script>
-    // 🎧 Set the source for scheduled sounds
-    document.getElementById("hourlySou").setAttribute('src', 'audio/its now.mp3');
-    document.getElementById("quarterHourSou").setAttribute('src', 'muziek/effects/blast.mp3');
-    document.getElementById("fortyFiveMinuteSou").setAttribute('src', 'muziek/effects/DJ Saphire finale.mp3');
-    document.getElementById("twentyFiveMinuteSou").setAttribute('src', 'muziek/jingles/sunnymainjingle.mp3');
-document.getElementById("twentyMinuteSou").setAttribute('src', 'muziek/effects/Sunny Weekend Pirate.mp3');
+  <script>
+    // 🔊 Set the audio sources
+    document.getElementById("hourlySou").src= "audio/its now.mp3";
+    document.getElementById("quarterHourSou").src= "muziek/effects/blast.mp3";
+    document.getElementById("fortyFiveMinuteSou").src= "muziek/effects/DJ Saphire finale.mp3";
+    document.getElementById("twentyMinuteSou").src = "muziek/effects/Sunny Weekend Pirate.mp3";
+    document.getElementById("twentyFiveMinuteSou").src= "muziek/jingles/sunnymainjingle.mp3";
 
 
     
@@ -1297,62 +1272,30 @@ document.getElementById("twentyMinuteSou").setAttribute('src', 'muziek/effects/S
 
 
 
+    // 🕒 Play sounds at specific times
+    function checkTimeForSounds() {
+      const now = new Date();
+      const minute = now.getMinutes();
+      const hour   = now.getHours();
 
+      // At start of the hour
+      if (minute === 0) document.getElementById("hourlySou").play();
 
- // 📢 Sound Scheduling Function
-    function scheduleSounds() {
-        console.log("Scheduling sounds...");
-        var now = new Date();
+      // Quarter past
+      else if (minute === 15) document.getElementById("quarterHourSou").play();
 
-        // 🎵 Hourly sound
-        var hourlyDelay = (60 - now.getMinutes()) * 60 * 1000 - now.getSeconds() * 1000;
-        setTimeout(function() {
-            playSound(["hourlySou"]);
-            setInterval(function() {
-                playSound(["hourlySou"]);
-            }, 3600000); // Every hour
-        }, hourlyDelay);
+      // 20 minutes past
+      else if (minute === 20) document.getElementById("twentyMinuteSou").play();
 
-        // 🎵 Quarter-hour sound
-        var quarterHourDelay = (15 - (now.getMinutes() % 15)) * 60 * 1000 - now.getSeconds() * 1000;
-        setTimeout(function() {
-            playSound(["quarterHourSou"]);
-            setInterval(function() {
-                playSound(["quarterHourSou"]);
-            }, 900000); // Every 15 minutes
-        }, quarterHourDelay);
+      // 25 minutes past
+      else if (minute === 25) document.getElementById("twentyFiveMinuteSou").play();
 
-        // 🎵 Forty-five-minute sound
-        var fortyFiveMinuteDelay = (45 - (now.getMinutes() % 45)) * 60 * 1000 - now.getSeconds() * 1000;
-        setTimeout(function() {
-            playSound(["fortyFiveMinuteSou"]);
-            setInterval(function() {
-                playSound(["fortyFiveMinuteSou"]);
-            }, 2700000); // Every 45 minutes
-        }, fortyFiveMinuteDelay);
-    
+      // 45 minutes past
+      else if (minute === 45) document.getElementById("fortyFiveMinuteSou").play();
+    }
 
-      // 🎵 20 minute sunny
-        var twentyFiveMinuteDelay = (20 - (now.getMinutes() % 20)) * 60 * 1000 - now.getSeconds() * 1000;
-
-        setTimeout(function() {
-            playSound(["twentyFiveMinuteSou"]);
-            setInterval(function() {
-                playSound(["twentyFiveMinuteSou"]);
-            }, 1900000); // every 20 minutes
-        }, twentyFiveMinuteDelay);
-
-      // 🎵 20 minute sunny
-        var twentyMinuteDelay = (15 - (now.getMinutes() % 15)) * 60 * 1000 - now.getSeconds() * 1000;
-
-        setTimeout(function() {
-            playSound(["twentyFiveMinuteSou"]);
-            setInterval(function() {
-                playSound(["twentyFiveMinuteSou"]);
-            }, 900000); // every 15 minutes
-        }, twentyMinuteDelay);
-
-}
+    // 🔁 Check every minute
+    setInterval(checkTimeForSounds, 60 * 1000);
 
 
 
