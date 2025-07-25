@@ -20,6 +20,7 @@
 
 
 
+
 <title> Sunny Danceradio</title>
    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
  <meta charset="UTF-8">
@@ -29,8 +30,7 @@
   <link rel="stylesheet"
         href=
 "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+ 
   <!-- Load the custom CSS style file -->
   <link rel="stylesheet" type="text/css" href="style2.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -279,15 +279,7 @@ body {
 <br>
 <img id= "playlist">
 
-<ul id="track-list-container">
-
-
-
-
-
-
-
-</ul>
+<ul id="track-list-container"></ul>
 
 
 
@@ -295,8 +287,6 @@ body {
 <br>
 <br>
 <br>
-
-
 <br>
 <br>
 <br>
@@ -307,12 +297,6 @@ body {
 
 <br>
 <br>
-
-
-
-
-
-
 
 <br>
 <br>
@@ -535,7 +519,7 @@ fetch('event.json')
 
 
 
-<IFRAME class="weather" SRC="https://shiphorn.netlify.app/countdown" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=345 HEIGHT=556></IFRAME>
+<IFRAME class="weather" SRC="https://shiphorn.netlify.app/countdown" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=345 HEIGHT=506></IFRAME>
 </div>
 
 <br>
@@ -563,7 +547,6 @@ fetch('event.json')
 
 
 <script>
-
 window.addEventListener("load", function () {
   const clock = document.getElementById("stop");
   let time = -1; // Initialize time
@@ -642,29 +625,17 @@ window.setInterval(startTime, 1000);
 
 
 
-<audio id="djIntro" src="muziek/effects/DJ Saphire finale3.mp3" controls></audio>
 
 
 
 
 
-<script> const audio = document.getElementById('djIntro');
-const slider = document.getElementById('volumeSlider');
-
-// Set initial volume
-audio.volume = slider.value;
-
-// Adjust volume on slider input
-slider.addEventListener('input', () => {
-  audio.volume = slider.value;
-  console.log(`🎚️ Volume set to: ${slider.value}`);
-});
-
-</script>
 
 
 
 
+
+<script src= "main24.js"> </script>
 
  
 
@@ -672,41 +643,12 @@ slider.addEventListener('input', () => {
 
 
 
- 
-
-
-<script>  
-
-window.addEventListener('load', () => {
-  const djIntro = document.getElementById('djIntro');
-  djIntro.play().catch((error) => {
-    console.log("Intro can't be played automatically:", error);
-  });
-});
-
-
-djIntro.muted = false;
-
-
-setTimeout(() => {
-  startMainPlayer(); // your custom function to trigger the music player
-}, 30000);
-
-
-
-
-
-djIntro.volume = 1.0; // Slightly louder than default
-djIntro.play();
 
 
 
 
 
 
-
-
-</script>
 
 
 
@@ -843,231 +785,49 @@ document.getElementById("online").innerHTML=" 3 ";
 
 
 
-
-
-
-
-
-
-
-
+<audio id="musicPlayer" autoplay loop>
+    <source id="musicSource" src="" type="audio/mpeg">
+</audio>
 
 <script>
-   
+    const tracks = {
+        0: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekend%20piratejinglepublic.mp3",
+        1: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
+        2: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
+        3: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
+        4: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
+        5: { 
+            early: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3", 
+            after17: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalepublic.mp3" 
+        },
+        6: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekend%20piratejinglepublic.mp3"
+    };
 
+    const today = new Date().getDay();
+    const currentHour = new Date().getHours();
 
+    let selectedTrack;
 
-
-
-
-
- // 🎛 Volume Balancer Function
-    function adjustVolumeDynamically(audioElement) {
-        let targetVolume = 0.8;  // Default volume level
-        let maxThreshold = 1; // Prevent distortion
-
-        audioElement.addEventListener("timeupdate", () => {
-            if (audioElement.volume < targetVolume) {
-                audioElement.volume = Math.min(maxThreshold, audioElement.volume + 0.01);  // Smooth increase
-            } else if (audioElement.volume > targetVolume) {
-                audioElement.volume = Math.max(0, audioElement.volume - 0.01);  // Smooth decrease
-            }
-        });
-    }
-
-
-
-
-
-
-
-
-// Wait for the DOM to be ready
-document.addEventListener("DOMContentLoaded", () => {
-  const now   = new Date();
-  const day   = now.getDay();    // 0 = Sunday, 6 = Saturday
-  const hour  = now.getHours();  // 0–23
-
-  // Weekday and Saturday as before
-  const weekdayAudioFiles = {
-    hourlySou:        "audio/its now.mp3",
-    quarterHourSou:   "muziek/effects/blast.mp3",
-    fortyFiveMinuteSou: "muziek/effects/DJ Saphire finale.mp3",
-    twentyFiveMinuteSou:"muziek/jingles/sunnymainjingle.mp3"
-};
-
-  const saturdayAudioFiles = {
-    hourlySou:        "audio/its now.mp3",
-    quarterHourSou:   "muziek/effects/best music.mp3",
-    fortyFiveMinuteSou: "muziek/effects/DJ Saphire finale.mp3",
-  twentyMinuteSou: "muziek/effects/Sunny Weekend Pirate.mp3"
-};
-
-  // Sunday splits
-  const sundayMorningAudioFiles = {
-     hourlySou:        "audio/its now.mp3",
-    quarterHourSou:   "muziek/effects/blast.mp3",
-    fortyFiveMinuteSou: "muziek/effects/best music.mp3",
-  twentyMinuteSou: "muziek/effects/Sunny Weekend Pirate.mp3"
-};
-
-  const sundayAfternoonAudioFiles = {
-    hourlySou:        "audio/its now.mp3",
-    quarterHourSou:   "muziek/effects/best music.mp3",
-    fortyFiveMinuteSou: "muziek/discjockeys/DJ S.mp3",
-twentyMinuteSou: "muziek/effects/Sunny Weekend Pirate.mp3"
-
-  };
-
-  const sundayEveningAudioFiles = {
-    hourlySou:        "audio/its now.mp3",
-    quarterHourSou:   "muziek/effects/blast.mp3",
-    fortyFiveMinuteSou: "muziek/discjockeys/DJ S.mp3"
-twentyMinuteSou: "muziek/effects/Sunny Weekend Pirate.mp3"
-
-
-  };
-
-  // Select the right map
-  let audioFiles;
-  if (day === 6) {
-    audioFiles = saturdayAudioFiles;
-    console.log("Using Saturday sounds.");
-  }
-  else if (day === 0) {
-    if (hour < 12) {
-      audioFiles = sundayMorningAudioFiles;
-      console.log("Using Sunday morning sounds.");
-    }
-    else if (hour < 17) {
-      audioFiles = sundayAfternoonAudioFiles;
-      console.log("Using Sunday afternoon sounds.");
-    }
-    else {
-      audioFiles = sundayEveningAudioFiles;
-      console.log("Using Sunday evening sounds.");
-    }
-  }
-  else {
-    audioFiles = weekdayAudioFiles;
-    console.log("Using weekday sounds.");
-  }
-
-  // Assign the chosen sources
-  Object.entries(audioFiles).forEach(([id, src]) => {
-    const audioEl = document.getElementById(id);
-    if (audioEl) {
-      audioEl.src = src;
-      console.log(`✅ Set ${id} → ${src}`);
+    // Special condition for Friday (5) to switch track after 17:00
+    if (today === 5) {
+        selectedTrack = currentHour >= 17 ? tracks[5].after17 : tracks[5].early;
     } else {
-      console.error(`❌ No element with id="${id}" found.`);
-    }
-  });
-
-  // Attach your normalization logic
-  document.querySelectorAll("audio").forEach(audio => {
-    audio.addEventListener("canplay", () => adjustVolumeDynamically(audio));
-  });
-
-  // Optional: re-evaluate mappings at midnight (and at noon & 6pm for Sunday)
-  scheduleRangeSwap();
-});
-
-
-
-
-// Schedule reloads for midnight, noon and 6pm
-function scheduleRangeSwap() {
-  const now = new Date();
-  const checkpoints = [];
-
-  // Midnight
-  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 1));
-  // Noon
-  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 0, 1));
-  // 6pm
-  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 18, 0, 1));
-
-  checkpoints.forEach(time => {
-    const ms = time - now;
-    if (ms > 0) {
-      setTimeout(() => {
-        console.log(`Time checkpoint reached (${time.toLocaleTimeString()})—reloading audio sources.`);
-        location.reload();
-      }, ms);
-    }
-  });
-}
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-
-
-
-
-
-    // ── Render the shuffled list in the DOM ──
-    function renderTrackList() {
-      const ul = document.getElementById("track-list-container");
-      ul.innerHTML = "";
-      scheduledMp3Files.forEach((t, idx) => {
-        const li = document.createElement("li");
-        li.textContent = t.name;
-        li.addEventListener("click", () => loadTrack(idx));
-        ul.appendChild(li);
-      });
+        selectedTrack = tracks[today];
     }
 
-
-
-
-
-
-
-
-
-
-window.addEventListener("load", () => {
-  loadTrack(0);        // Load your first track
-  playTrack();         // Start playing it
-if (curr_track) {
-  curr_track.muted = false;
-}
-
-});
-
-
-
-
-        
+    document.getElementById("musicSource").setAttribute('src', selectedTrack);
+    document.getElementById("musicPlayer").load(); // Reload to apply new src
 </script>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1183,7 +943,7 @@ img.src = 'images/record2.png';
 var img = document.getElementById("rec");
 
 //Set the src property of our element to the new image URL
-img.src = 'images/record2.png';
+img.src = 'images/record5.png';
 </script>
 
 <script>
@@ -1207,7 +967,7 @@ img.src = 'images/connection.gif';
 var img = document.getElementById("media");
 
 //Set the src property of our element to the new image URL
-img.src = 'images/pause.gif';
+img.src = 'images/play7.png';
 </script>
 
 
@@ -1225,98 +985,116 @@ document.getElementById("now").innerHTML="<em>current track</em>";
 
 
 
-    
 
-  <audio id="hourlySou"></audio>
-  <audio id="quarterHourSou"></audio>
-  <audio id="fortyFiveMinuteSou"></audio>
-  <audio id="twentyMinuteSou"></audio>
-  <audio id="twentyFiveMinuteSou"></audio>
 
-  <script>
-    // 🔊 Set the audio sources
-    document.getElementById("hourlySou").src= "audio/its now.mp3";
-    document.getElementById("quarterHourSou").src= "muziek/effects/blast.mp3";
-    document.getElementById("fortyFiveMinuteSou").src= "muziek/effects/DJ Saphire finale.mp3";
-    document.getElementById("twentyMinuteSou").src = "muziek/effects/Sunny Weekend Pirate.mp3";
-    document.getElementById("twentyFiveMinuteSou").src= "muziek/jingles/sunnymainjingle.mp3";
+
 
 
     
 
-// ✅ Apply volume normalization when a track is ready to play
-    document.querySelectorAll("audio").forEach(audio => {
-        audio.addEventListener("canplay", () => adjustVolumeDynamically(audio));
-    });
 
-
-
-   
-    // 1. Define playSound
-    function playSound(soundIds) {
-      soundIds.forEach(id => {
-        const soundEl = document.getElementById(id);
-        if (soundEl) {
-          soundEl.volume = 0.7;
-          // optional: adjustVolumeDynamically(soundEl);
-          soundEl.play().catch(err => {
-            console.error("Playback failed:", err);
-          });
-        } else {
-          console.error("Sound element not found:", id);
-        }
-      });
-    }
-
-
-
-
-
-    // 🕒 Play sounds at specific times
-    function checkTimeForSounds() {
-      const now = new Date();
-      const minute = now.getMinutes();
-      const hour   = now.getHours();
-
-      // At start of the hour
-      if (minute === 0) document.getElementById("hourlySou").play();
-
-      // Quarter past
-      else if (minute === 15) document.getElementById("quarterHourSou").play();
-
-      // 20 minutes past
-      else if (minute === 20) document.getElementById("twentyMinuteSou").play();
-
-      // 25 minutes past
-      else if (minute === 25) document.getElementById("twentyFiveMinuteSou").play();
-
-      // 45 minutes past
-      else if (minute === 45) document.getElementById("fortyFiveMinuteSou").play();
-    }
-
-    // 🔁 Check every minute
-    setInterval(checkTimeForSounds, 60 * 1000);
-
-
-
-
-
-    // 🕒 Activate scheduling on page load
-    window.onload = scheduleSounds;
+ 
 
 
 
 
 
 
+ <audio id="hourlySou" src=""></audio>
+    <audio id="quarterHourSou" src=""></audio>
+    <audio id="fortyFiveMinuteSou" src=""></audio>
+
+    
 
 
-
-
-
-
-
+<script>
+document.getElementById("hourlySou").setAttribute('src', 'audio/its now.mp3');
+document.getElementById("quarterHourSou").setAttribute('src', 'muziek/effects/blast.mp3');
+document.getElementById("fortyFiveMinuteSou").setAttribute('src', 'muziek/effects/DJ Saphire finale.mp3');
 </script>
+
+
+
+
+<script>
+        function playSound(audioIds) {
+            audioIds.forEach(function(id) {
+                var audio = document.getElementById(id);
+                if (audio) {
+                    audio.play().then(() => {
+                        console.log(`Playing ${id}`);
+                    }).catch(error => {
+                        console.error(`Error playing ${id}:`, error);
+                    });
+                } else {
+                    console.error(`Audio element with ID ${id} not found.`);
+                }
+            });
+        }
+    </script>
+
+    <script>
+        
+        
+function scheduleSounds() {
+    console.log("Scheduling sounds...");
+    var now = new Date();
+
+    // Calculate delay for hourly sound
+    var hourlyDelay = (60 - now.getMinutes()) * 60 * 1000 - now.getSeconds() * 1000;
+    setTimeout(function() {
+        playSound(["hourlySou"]);
+        setInterval(function() {
+            playSound(["hourlySou"]);
+        }, 3600000); // Every hour
+    }, hourlyDelay);
+
+    // Calculate delay for quarter-hour sound
+    var quarterHourDelay = (15 - (now.getMinutes() % 15)) * 60 * 1000 - now.getSeconds() * 1000;
+    setTimeout(function() {
+        playSound(["quarterHourSou"]);
+        setInterval(function() {
+            playSound(["quarterHourSou"]);
+        }, 900000); // Every 15 minutes
+    }, quarterHourDelay);
+
+    // Calculate delay for forty-five-minute sound
+    var fortyFiveMinuteDelay = (45 - (now.getMinutes() % 45)) * 60 * 1000 - now.getSeconds() * 1000;
+    setTimeout(function() {
+        playSound(["fortyFiveMinuteSou"]);
+        setInterval(function() {
+            playSound(["fortyFiveMinuteSou"]);
+        }, 2700000); // Every 45 minutes
+    }, fortyFiveMinuteDelay);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+window.onload = scheduleSounds;
+
+   </script>
+
+
+
+
+
+
+
 
 
 
@@ -1327,55 +1105,32 @@ document.getElementById("now").innerHTML="<em>current track</em>";
 
 <audio id="hourlyAnnouncement"></audio>
 
-<script>
-    // 🎧 Define the sources for hourly announcements
-    var sources = [
-        "audio/0.mp3", "audio/1.mp3", "audio/2.mp3", "audio/3.mp3",
-        "audio/4.mp3", "audio/5.mp3", "audio/6.mp3", "audio/7.mp3",
-        "audio/8.mp3", "audio/9.mp3", "audio/10.mp3", "audio/11.mp3",
-        "audio/12.mp3", "audio/13.mp3", "audio/14.mp3", "audio/15.mp3",
-        "audio/16.mp3", "audio/17.mp3", "audio/18.mp3", "audio/19.mp3",
-        "audio/20.mp3", "audio/21.mp3", "audio/22.mp3", "audio/23.mp3"
-    ]; // Array of audio sources
+    <script>
+        var sources = ["audio/0.mp3", "audio/1.mp3", "audio/2.mp3", "audio/3.mp3", "audio/4.mp3", "audio/5.mp3", "audio/6.mp3", "audio/7.mp3", "audio/8.mp3", "audio/9.mp3", "audio/10.mp3", "audio/11.mp3", "audio/12.mp3", "audio/13.mp3", "audio/14.mp3", "audio/15.mp3", "audio/16.mp3", "audio/17.mp3", "audio/18.mp3", "audio/19.mp3", "audio/20.mp3", "audio/21.mp3", "audio/22.mp3", "audio/23.mp3"]; // Array of audio sources
+        var currentIndex = new Date().getHours(); // Set current index based on the current hour
 
-    var currentIndex = new Date().getHours(); // Set index based on the current hour
+        function playHourlyAnnouncement() {
+            var audioElement = document.getElementById('hourlyAnnouncement');
+            var currentTime = new Date();
+            var minutes = currentTime.getMinutes();
+            var seconds = currentTime.getSeconds();
+            var millisecondsToNextHour = ((59 - minutes) * 60 + (60 - seconds)) * 1000;
 
- function playHourlyAnnouncement() {
-    var audioElement = document.getElementById('hourlyAnnouncement');
-    
-    if (!audioElement) {
-        console.error("Audio element not found!");
-        return;
-    }
+            setTimeout(function() {
+                audioElement.src = sources[currentIndex];
+                audioElement.play();
+                currentIndex = (currentIndex + 1) % sources.length;
 
-    var currentTime = new Date();
-    var minutes = currentTime.getMinutes();
-    var seconds = currentTime.getSeconds();
-    var millisecondsToNextHour = ((59 - minutes) * 60 + (60 - seconds)) * 1000;
+                setInterval(function() {
+                    audioElement.src = sources[currentIndex];
+                    audioElement.play();
+                    currentIndex = (currentIndex + 1) % sources.length;
+                }, 3600000); // Play every hour
+            }, millisecondsToNextHour);
+        }
 
-    setTimeout(function() {
-        audioElement.src = sources[currentIndex];
-        audioElement.load(); // ✅ Ensure the audio element is ready
-        audioElement.play();
-        adjustVolumeDynamically(audioElement); // ✅ Apply volume normalization
-
-        currentIndex = (currentIndex + 1) % sources.length;
-
-        setInterval(function() {
-            audioElement.src = sources[currentIndex];
-            audioElement.load();
-            audioElement.play();
-            adjustVolumeDynamically(audioElement); // ✅ Apply volume normalization for each track
-            currentIndex = (currentIndex + 1) % sources.length;
-        }, 3600000); // Play every hour
-    }, millisecondsToNextHour);
-}
-
-
-    // 🕒 Activate hourly announcements
-    playHourlyAnnouncement();
-</script>
-
+        playHourlyAnnouncement();
+    </script>
 
 
 
@@ -1396,9 +1151,9 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 }
+</script>
 
-
-
+<script>
 function generateSchedule() {
     const today = new Date();
     const schedule = {};
@@ -1407,22 +1162,22 @@ function generateSchedule() {
     const events = {
         5: [ // Friday
             { time: "03:00 - 12:00", event: "Morning Disco" },
-            { time: "12:00 - 17:00", event: "Afternoon Vibes" },
-            { time: "17:00 - 21:00", event: "Let It Happen!" },
-            { time: "21:00 - 23:00", event: "Sunny's Happening" }
+            { time: "12:00 - 17:00", event: "DJ'S Disco Event" },
+            { time: "17:00 - 21:00", event: "Lovely Miss Monique!" },
+            { time: "21:00 - 23:00", event: "Miss Monique Live!" }
         ],
         6: [ // Saturday
             { time: "03:00 - 12:00", event: "Morning Disco" },
-            { time: "12:00 - 17:00", event: "DJ Sapphire Live Set" },
-            { time: "17:00 - 21:00", event: "Love Sapphire!" },
-            { time: "21:00 - 23:00", event: "Sapphire's Shot" }
+            { time: "12:00 - 17:00", event: "DJ'S Disco Event" },
+            { time: "17:00 - 21:00", event: "Lovely Miss Monique!" },
+            { time: "21:00 - 23:00", event: "Miss Monique Live!" }
 
         ],
         0: [ // Sunday
             { time: "03:00 - 12:00", event: "Morning Disco" },
             { time: "12:00 - 17:00", event: "DJ'S Disco Event" },
-            { time: "17:00 - 21:00", event: "It's 'S" },
-            { time: "21:00 - 23:00", event: "Let's Say 'S!" }
+            { time: "17:00 - 21:00", event: "Lovely Miss Monique!" },
+            { time: "21:00 - 23:00", event: "Miss Monique Live!" }
 
         ]
     };
@@ -1440,49 +1195,11 @@ function generateSchedule() {
     return schedule;
 }
 
-// console.log("Generated Schedule:", JSON.stringify(generateSchedule(), null, 2));
-// console.log("Loading track:", scheduledMp3Files[track_index].name, "-", scheduledMp3Files[track_index].artist);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Example execution to generate upcoming events
+console.log("Generated Schedule:", JSON.stringify(generateSchedule(), null, 2));
+console.log("Loading track:", scheduledMp3Files[track_index].name, "-", scheduledMp3Files[track_index].artist);
 
 </script>
-
-
-
-
-
-
-
-
-
-<script defer src="main24.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
