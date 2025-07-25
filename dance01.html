@@ -642,11 +642,31 @@ window.setInterval(startTime, 1000);
 
 
 
+<audio id="djIntro" src="muziek/effects/DJ Saphire finale3.mp3" controls></audio>
 
 
 
 
 
+<script> const audio = document.getElementById('djIntro');
+const slider = document.getElementById('volumeSlider');
+
+// Set initial volume
+audio.volume = slider.value;
+
+// Adjust volume on slider input
+slider.addEventListener('input', () => {
+  audio.volume = slider.value;
+  console.log(`🎚️ Volume set to: ${slider.value}`);
+});
+
+</script>
+
+
+
+
+
+ 
 
 
 
@@ -1205,14 +1225,12 @@ document.getElementById("now").innerHTML="<em>current track</em>";
 
 
 
-<audio id="musicPlayer" autoplay loop >
-    <source id="musicSource" src="" type="audio/mpeg">
-</audio>
 
     
 
 
  
+
 
 
 
@@ -1239,6 +1257,7 @@ document.getElementById("now").innerHTML="<em>current track</em>";
 
 
 
+
 <script>
     // 🎧 Set the source for scheduled sounds
     document.getElementById("hourlySou").setAttribute('src', 'audio/its now.mp3');
@@ -1247,7 +1266,10 @@ document.getElementById("now").innerHTML="<em>current track</em>";
     document.getElementById("twentyFiveMinuteSou").setAttribute('src', 'muziek/jingles/sunnymainjingle.mp3');
 document.getElementById("twentyMinuteSou").setAttribute('src', 'muziek/effects/Sunny Weekend Pirate.mp3');
 
-    // ✅ Apply volume normalization when a track is ready to play
+
+    
+
+// ✅ Apply volume normalization when a track is ready to play
     document.querySelectorAll("audio").forEach(audio => {
         audio.addEventListener("canplay", () => adjustVolumeDynamically(audio));
     });
