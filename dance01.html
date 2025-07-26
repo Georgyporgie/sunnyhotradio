@@ -820,42 +820,25 @@ if (hour < 9) {
 
 
 
-
-
 <audio id="djIntro" src="muziek/effects/DJ Saphire finale3.mp3"></audio>
 
-<script>  
+<script>
+let djIntro; // Declare it in outer scope
 
 window.addEventListener('load', () => {
-  const djIntro = document.getElementById('djIntro');
+  djIntro = document.getElementById('djIntro');
+  djIntro.muted = false;
+  djIntro.volume = 0.4;
   djIntro.play().catch((error) => {
     console.log("Intro can't be played automatically:", error);
   });
+
+  setTimeout(() => {
+    startMainPlayer(); // your custom function
+  }, 30000);
 });
-
-
-djIntro.muted = false;
-
-
-setTimeout(() => {
-  startMainPlayer(); // your custom function to trigger the music player
-}, 30000);
-
-
-
-
-
-djIntro.volume = 0.4; // Slightly louder than default
-djIntro.play();
-
-
-
-
-
-
-
-
 </script>
+
 
 
 
