@@ -10787,13 +10787,6 @@ timeCategory: "morning"
 
 
 
-{
-     name: "Alarmschijf",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Alarm schijf.mp3",
-     timeCategory: "evening"
-},
 
 
 
@@ -18195,7 +18188,13 @@ timeCategory: "evening-late"
 
 
 
-
+{
+    name: " Closer To The Floor (new)",
+    artist: "Jazzy & Ankhoï ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Jazzy & Ankhoï - Closer To The Floor.mp3",
+  timeCategory: "F afternoon"
+},
 
 
 
@@ -18260,7 +18259,13 @@ timeCategory: "evening-late"
 },
 
 
-
+{
+     name: "Favourite Type",
+    artist: "Roxen (alarmschijf)",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Roxen - Favourite Type.mp3",
+ timeCategory: "f afternoon"
+},
 
 
 {
@@ -18427,7 +18432,13 @@ timeCategory: "evening-late"
 
 
 
-
+{
+    name: " Closer To The Floor (new)",
+    artist: "Jazzy & Ankhoï ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Jazzy & Ankhoï - Closer To The Floor.mp3",
+  timeCategory: "F afternoon"
+},
 
 
 
@@ -18485,7 +18496,13 @@ timeCategory: "evening-late"
 
 
 
-
+{
+     name: "Favourite Type",
+    artist: "Roxen (alarmschijf)",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Roxen - Favourite Type.mp3",
+ timeCategory: "f afternoon"
+},
 
 
 
@@ -18641,7 +18658,13 @@ timeCategory: "evening-late"
 
 
 
-
+{
+     name: "Favourite Type",
+    artist: "Roxen (alarmschijf)",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Roxen - Favourite Type.mp3",
+ timeCategory: "f afternoon"
+},
 
 
 
@@ -19183,6 +19206,13 @@ timeCategory: "f evening"
 },
 
 
+{
+     name: "Favourite Type",
+    artist: "Roxen (alarmschijf)",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Roxen - Favourite Type.mp3",
+ timeCategory: "f evening"
+},
 
 
 
@@ -19424,7 +19454,13 @@ timeCategory: "f evening"
    timeCategory: "f evening"
 },
 
-
+{
+     name: "Favourite Type",
+    artist: "Roxen (alarmschijf)",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Roxen - Favourite Type.mp3",
+ timeCategory: "f evening"
+},
 
 
 {
@@ -19727,7 +19763,13 @@ timeCategory: "f evening"
           timeCategory: "f evening"
 
 },
-
+{
+     name: "Favourite Type",
+    artist: "Roxen (alarmschijf)",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Roxen - Favourite Type.mp3",
+ timeCategory: "f evening"
+},
 
 {
     name: "Kings & Queens",
@@ -20440,7 +20482,7 @@ timeCategory: "f evening"
 
 {
      name: "Favourite Type",
-    artist: "Roxen (new)",
+    artist: "Roxen (alarmschijf)",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Roxen - Favourite Type.mp3",
  timeCategory: "f evening-late"
@@ -20643,7 +20685,13 @@ timeCategory: "f evening"
  timeCategory: "f evening-late"
 },
 
-
+{
+     name: "Favourite Type",
+    artist: "Roxen (alarmschijf)",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Roxen - Favourite Type.mp3",
+ timeCategory: "f evening-late"
+},
 
 {
     name: " Lighter ",
@@ -21043,7 +21091,13 @@ timeCategory: "f evening"
 
 
 
-
+{
+     name: "Favourite Type",
+    artist: "Roxen (alarmschijf)",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Roxen - Favourite Type.mp3",
+ timeCategory: "f evening-late"
+},
 
 
 
