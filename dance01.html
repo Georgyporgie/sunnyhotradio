@@ -787,65 +787,117 @@ document.getElementById("online").innerHTML=" 3 ";
 
 
 
-
-
-
-<audio id="musicPlayer" autoplay loop >
-    <source id="musicSource" src="" type="audio/mpeg">
+<audio id="musicPlayer" autoplay loop>
+  <source id="musicSource" src="muziek/maintrack.mp3" type="audio/mpeg">
 </audio>
 
-
-<script>
-function setVolume(level) {
-  const musicPlayer = document.getElementById("musicPlayer");
-  musicPlayer.volume = level; // Level from 0.0 to 1.0
-}
-
-// Example: adjust based on time
-const hour = new Date().getHours();
-if (hour < 9) {
-  setVolume(0.3); // morning
-} else if (hour >= 21) {
-  setVolume(0.4); // night
-} else {
-  setVolume(0.5); // default daytime
-}
-</script>
-
-
-
-
-
-
-
-
-
 <audio id="djIntro" src="muziek/effects/DJ Saphire finale3.mp3"></audio>
+<audio id="djPlayer" src="muziek/effects/DJ Saphire finale3.mp3"></audio>
+
+
+
+
+
+
 
 <script>
-
-function startMainPlayer() {
-  // Placeholder for future music player logic
-  console.log("Main player trigger received!");
-}
-
-
-
-let djIntro; // Declare it in outer scope
+let djIntro, djPlayer, musicSource;
 
 window.addEventListener('load', () => {
   djIntro = document.getElementById('djIntro');
+  djPlayer = document.getElementById('djPlayer');
+  musicSource = document.getElementById('musicSource');
+
+  // Set up intro
   djIntro.muted = false;
   djIntro.volume = 0.4;
   djIntro.play().catch((error) => {
     console.log("Intro can't be played automatically:", error);
   });
 
+  // Trigger main player after intro splash
   setTimeout(() => {
-    startMainPlayer(); // your custom function
+    startMainPlayer();
   }, 30000);
+
+  // Start DJ mood once intro ends
+  djIntro.addEventListener('ended', () => {
+    setDJMood(getCurrentMood());
+  });
+
+  // Volume fade-in for DJ
+  djPlayer.volume = 0;
+  const fadeIn = setInterval(() => {
+    if (djPlayer.volume < 0.4) {
+      djPlayer.volume = Math.min(djPlayer.volume + 0.02, 0.4);
+    } else {
+      clearInterval(fadeIn);
+    }
+  }, 200);
+
+  // Initial mood set at load
+  setDJMood(getCurrentMood());
 });
+
+function startMainPlayer() {
+  console.log("Main player trigger received!");
+}
+
+function setMainTrack(filePath) {
+  musicSource.src = filePath;
+  const musicPlayer = document.getElementById('musicPlayer');
+  musicPlayer.load(); // reload the new source
+  musicPlayer.play().catch(err => console.log("Playback issue:", err));
+}
+
+function getCurrentMood() {
+  const hour = new Date().getHours();
+  if (hour >= 6 && hour < 12) return "morning";
+  else if (hour >= 12 && hour < 17) return "afternoon";
+  else if (hour >= 17 && hour < 22) return "evening";
+  else return "weekend";
+}
+
+const tracks = {
+  morning: "muziek/effects/female dj3.mp3",
+  afternoon: "muziek/effects/DJ Saphire finale3.mp3",
+  evening: "muziek/effects/female dj4.mp3",
+  weekend: "muziek/discjockeys/DJ S.mp3"
+};
+
+function setDJMood(mood) {
+  const messages = {
+    morning: "Rising beats with the sunrise ☀️",
+    afternoon: "Midday grooves to keep energy alive 🌟",
+    evening: "Twilight tunes—kick back and vibe 🌆",
+    weekend: "Party mode: activated 🎉"
+  };
+
+  console.log(messages[mood] || "Setting the mood...");
+
+  if (tracks[mood]) {
+    djPlayer.src = tracks[mood];
+    djPlayer.play().catch(err => console.log("Playback issue:", err));
+    console.log("DJ mood changed to:", mood);
+  } else {
+    console.log("No track found for mood:", mood);
+  }
+}
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
