@@ -788,10 +788,10 @@ document.getElementById("online").innerHTML=" 3 ";
 
 
 <audio id="musicPlayer" autoplay >
-  <source id="musicSource" src="muziek/discjockeys/DJ S.mp3" type="audio/mpeg">
+  <source id="musicSource" src="muziek/maintheme.mp3" type="audio/mpeg">
 </audio>
 
-<audio id="djIntro" src="muziek/effects/DJ Saphire finale3.mp3"></audio>
+<audio id="djIntro" src="muziek/maintheme.mp3"></audio>
 <audio id="djPlayer" src="muziek/effects/DJ Saphire finale3.mp3"></audio>
 
 
@@ -828,8 +828,8 @@ window.addEventListener('load', () => {
   // Volume fade-in for DJ
   djPlayer.volume = 0;
   const fadeIn = setInterval(() => {
-    if (djPlayer.volume < 0.4) {
-      djPlayer.volume = Math.min(djPlayer.volume + 0.02, 0.4);
+    if (djPlayer.volume < 0.9) {
+      djPlayer.volume = Math.min(djPlayer.volume + 1.0, 0.7);
     } else {
       clearInterval(fadeIn);
     }
@@ -851,19 +851,29 @@ function setMainTrack(filePath) {
 }
 
 function getCurrentMood() {
-  const hour = new Date().getHours();
-  if (hour >= 6 && hour < 12) return "morning";
-  else if (hour >= 12 && hour < 17) return "afternoon";
-  else if (hour >= 17 && hour < 22) return "evening";
-  else return "weekend";
+  const now = new Date();
+  const day = now.getDay(); // Sunday = 0, Saturday = 6
+  const isWeekend = (day === 0 || day === 6);
+  return isWeekend ? "weekend" : "weekday";
 }
 
+
 const tracks = {
-  morning: "muziek/effects/female dj3.mp3",
-  afternoon: "muziek/effects/DJ Saphire finale3.mp3",
-  evening: "muziek/effects/female dj4.mp3",
+  weekday: "muziek/effects/DJ Saphire finale3.mp3",
   weekend: "muziek/discjockeys/DJ S.mp3"
 };
+
+
+
+const messages = {
+  weekday: "Weekday groove with DJ Saphire 🎶",
+  weekend: "Weekend blast with DJ S 💥"
+};
+
+
+
+
+
 
 function setDJMood(mood) {
   const messages = {
