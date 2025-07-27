@@ -44,7 +44,7 @@ function getCurrentTimeCategory() {
       } else if (currentHour >= 17 && currentHour < 21) {
         category = "afternoon";
       } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-        category = "f evening-late";    } else {
+        category = "f afternoon";    } else {
         category = " jingle-time";
       }
       break;
@@ -18608,13 +18608,7 @@ timeCategory: "evening-late"
     timeCategory: "f afternoon"
 },
 
-{
-    name: "   I Can Boogie ",
-    artist: "Baccara",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Baccara - Yes Sir  I Can Boogie.mp3",
-     timeCategory: "f afternoon"
-},
+
 
 
 
