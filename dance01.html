@@ -315,7 +315,7 @@ body {
 
 <h5 id="events">
 <script>
-fetch('event.json')
+fetch('./event.json')
 
     .then(response => {
         if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
@@ -859,7 +859,7 @@ function getCurrentMood() {
 
 
 const tracks = {
-  weekday: "muziek/effects/DJ Saphire finale3.mp3",
+  weekday: "muziek/jingles/Sunny los.mp3",
   weekend: "muziek/discjockeys/DJ S.mp3"
 };
 
