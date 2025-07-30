@@ -1344,9 +1344,36 @@ document.addEventListener("DOMContentLoaded", () => {
     <source src="" type="audio/mp3">
 </audio>
 
-<audio id="fiftynineSou">
-    <source src="" type="audio/mp3">
-</audio>
+
+
+
+<audio id="bonusTrack"></audio>
+
+
+
+<script>
+window.addEventListener('load', () => {
+  // Start your stream (if it's not already auto-playing)
+  const bonusTrack = document.getElementById('bonusTrack');
+  bonusTrack.src = "muziek/jingles/another hour of music.mp3";
+
+  // Set timer to trigger after 1 hour
+  setTimeout(() => {
+    bonusTrack.volume = 0.8;
+    bonusTrack.play().catch(err => console.log("Playback failed:", err));
+    console.log("🎶 Bonus hour activated!");
+  }, 3600000); // 1 hour = 60 min × 60 sec × 1000 ms
+});
+
+
+</script>
+
+
+
+
+
+
+
 
 
 
