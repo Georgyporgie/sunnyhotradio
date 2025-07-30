@@ -943,14 +943,18 @@ document.addEventListener("DOMContentLoaded", () => {
     hourlySou:        "audio/its now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
     fortyFiveMinuteSou: "muziek/effects/DJ Saphire finale.mp3",
-    twentyFiveMinuteSou:"muziek/jingles/sunnymainjingle.mp3"
+    twentyFiveMinuteSou:"muziek/jingles/sunnymainjingle.mp3",
+    fiftynineSou: "muziek/jingles/another hour of music.mp3"
+
 };
 
   const saturdayAudioFiles = {
     hourlySou:        "audio/its now.mp3",
     quarterHourSou:   "muziek/effects/best music.mp3",
     fortyFiveMinuteSou: "muziek/effects/DJ Saphire finale.mp3",
-  twentyMinuteSou: "muziek/effects/Sunny Weekend Pirate.mp3"
+  twentyMinuteSou: "muziek/effects/Sunny Weekend Pirate.mp3",
+   fiftynineSou:  "muziek/jingles/another hour of music.mp3"
+
 };
 
   // Sunday splits
@@ -958,22 +962,25 @@ document.addEventListener("DOMContentLoaded", () => {
      hourlySou:        "audio/its now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
     fortyFiveMinuteSou: "muziek/effects/best music.mp3",
-  twentyMinuteSou: "muziek/effects/Sunny Weekend Pirate.mp3"
+  twentyMinuteSou: "muziek/effects/Sunny Weekend Pirate.mp3",
+   fiftynineSou:  "muziek/jingles/another hour of music.mp3"
+
 };
 
   const sundayAfternoonAudioFiles = {
     hourlySou:        "audio/its now.mp3",
     quarterHourSou:   "muziek/effects/best music.mp3",
     fortyFiveMinuteSou: "muziek/discjockeys/DJ S.mp3",
-twentyMinuteSou: "muziek/effects/Sunny Weekend Pirate.mp3"
-
+    twentyMinuteSou: "muziek/effects/Sunny Weekend Pirate.mp3",
+    fiftynineSou:  "muziek/jingles/another hour of music.mp3"
   };
 
   const sundayEveningAudioFiles = {
     hourlySou:        "audio/its now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
     fortyFiveMinuteSou: "muziek/discjockeys/DJ S.mp3",
- twentyMinuteSou: "muziek/effects/Sunny Weekend Pirate.mp3"
+    twentyMinuteSou: "muziek/effects/Sunny Weekend Pirate.mp3",
+    fiftynineSou:  "muziek/jingles/another hour of music.mp3"
 
 
   };
@@ -1350,6 +1357,12 @@ document.addEventListener("DOMContentLoaded", () => {
     <source src="" type="audio/mp3">
 </audio>
 
+<audio id="fiftynineSou">
+    <source src="" type="audio/mp3">
+</audio>
+
+
+
 
 
 <script>
@@ -1357,7 +1370,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("hourlySou").setAttribute('src', 'audio/its now.mp3');
     document.getElementById("quarterHourSou").setAttribute('src', 'muziek/effects/blast.mp3');
     document.getElementById("fortyFiveMinuteSou").setAttribute('src', 'muziek/jingles/Sunny los.mp3');
-
+    document.getElementById("fiftynineSou").setAttribute('src', 'muziek/jingles/another hour of music.mp3');
     
 // ✅ Apply volume normalization when a track is ready to play
     document.querySelectorAll("audio").forEach(audio => {
@@ -1420,7 +1433,16 @@ document.addEventListener("DOMContentLoaded", () => {
                 playSound(["fortyFiveMinuteSou"]);
             }, 2700000); // Every 45 minutes
         }, fortyFiveMinuteDelay);
-    }
+    
+     // 🎵 59 minute sound
+        var fiftynineSou = (59 - (now.getMinutes() % 59)) * 60 * 1000 - now.getSeconds() * 1000;
+        setTimeout(function() {
+            playSound(["fiftynineSou"]);
+            setInterval(function() {
+                playSound(["fiftynineSou"]);
+            }, 3540000); // Every 59 minutes
+        }, fiftynineSou);
+}
 
 
 
