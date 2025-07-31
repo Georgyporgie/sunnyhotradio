@@ -29,7 +29,8 @@
   <link rel="stylesheet"
         href=
 "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
- 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
   <!-- Load the custom CSS style file -->
   <link rel="stylesheet" type="text/css" href="style2.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -225,7 +226,7 @@ body {
   
 
 
- <img id="myImage"  alt="Dance Radio">
+ <img id="myImage" src="images/jazzradio1.png" alt="Dance Radio">
 
     
 
@@ -283,6 +284,9 @@ body {
 
 
 
+
+
+
 </ul>
 
 
@@ -291,6 +295,8 @@ body {
 <br>
 <br>
 <br>
+
+
 <br>
 <br>
 <br>
@@ -301,6 +307,12 @@ body {
 
 <br>
 <br>
+
+
+
+
+
+
 
 <br>
 <br>
@@ -371,9 +383,9 @@ fetch('event.json')
 </div>
 <br>
 <br>
-<img id= "hero-image">
-<br>
 
+<br>
+<img id= "hero-image">
 <IFRAME  class= "ship" SRC="https://shiphorn.netlify.app/treasuree" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0  WIDTH=356 HEIGHT=250></IFRAME>
 <br>
 <br>
@@ -787,141 +799,39 @@ document.getElementById("online").innerHTML=" 3 ";
 
 
 
-<audio id="musicPlayer" autoplay >
-  <source id="musicSource" type="audio/mpeg">
+
+
+
+
+
+
+<audio id="musicPlayer" autoplay loop>
+  <source id="musicSource" src="" type="audio/mpeg">
 </audio>
-
-<audio id="djIntro" src="muziek/effects/DJ Saphire finale3.mp3"></audio>
-<audio id="djPlayer"></audio>
-
-
 
 
 
 
 
 <script>
-let djIntro, djPlayer, musicSource;
 
-window.addEventListener('load', () => {
-  djIntro = document.getElementById('djIntro');
-  djPlayer = document.getElementById('djPlayer');
-  musicSource = document.getElementById('musicSource');
 
-  // Set up intro
-  djIntro.muted = false;
-  djIntro.volume = 0.4;
-  djIntro.play().catch((error) => {
-    console.log("Intro can't be played automatically:", error);
-  });
-
-  // Trigger main player after intro splash
-  setTimeout(() => {
-    startMainPlayer();
-  }, 30000);
-
-  // Start DJ mood once intro ends
-  djIntro.addEventListener('ended', () => {
-    setDJMood(getCurrentMood());
-  });
-
-  // Volume fade-in for DJ
-  djPlayer.volume = 0;
-  const fadeIn = setInterval(() => {
-    if (djPlayer.volume < 0.9) {
-      djPlayer.volume = Math.min(djPlayer.volume + 1.0, 0.7);
-    } else {
-      clearInterval(fadeIn);
-    }
-  }, 200);
-
-  // Initial mood set at load
-  setDJMood(getCurrentMood());
-});
-
-function startMainPlayer() {
-  console.log("Main player trigger received!");
+function setVolume(level) {
+  const musicPlayer = document.getElementById("musicPlayer");
+  musicPlayer.volume = level; // Level from 0.0 to 1.0
 }
 
-function setMainTrack(filePath) {
-  musicSource.src = filePath;
-  const musicPlayer = document.getElementById('musicPlayer');
-  musicPlayer.load(); // reload the new source
-  musicPlayer.play().catch(err => console.log("Playback issue:", err));
+// Example: adjust based on time
+const hour = new Date().getHours();
+if (hour < 9) {
+  setVolume(0.2); // morning
+} else if (hour >= 21) {
+  setVolume(0.3); // night
+} else {
+  setVolume(0.4); // default daytime
 }
 
-function getCurrentMood() {
-  const now = new Date();
-  const day = now.getDay(); // Sunday = 0, Saturday = 6
-  const isWeekend = (day === 0 || day === 6);
-  return isWeekend ? "weekend" : "weekday";
-}
-
-
-const tracks = {
-  weekday: "muziek/jingles/Sunny los.mp3",
-  weekend: "muziek/discjockeys/DJ S.mp3"
-};
-
-
-
-const messages = {
-  weekday: "Weekday groove with DJ Saphire 🎶",
-  weekend: "Weekend blast with DJ S 💥"
-};
-
-
-
-
-
-
-function setDJMood(mood) {
-  const messages = {
-    morning: "Rising beats with the sunrise ☀️",
-    afternoon: "Midday grooves to keep energy alive 🌟",
-    evening: "Twilight tunes—kick back and vibe 🌆",
-    weekend: "Party mode: activated 🎉"
-  };
-
-  console.log(messages[mood] || "Setting the mood...");
-
-  if (tracks[mood]) {
-    djPlayer.src = tracks[mood];
-    djPlayer.play().catch(err => console.log("Playback issue:", err));
-    console.log("DJ mood changed to:", mood);
-  } else {
-    console.log("No track found for mood:", mood);
-  }
-}
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -930,6 +840,32 @@ function setDJMood(mood) {
 
 <script>
    
+
+
+
+
+
+
+
+ // 🎛 Volume Balancer Function
+    function adjustVolumeDynamically(audioElement) {
+        let targetVolume = 0.8;  // Default volume level
+        let maxThreshold = 1; // Prevent distortion
+
+        audioElement.addEventListener("timeupdate", () => {
+            if (audioElement.volume < targetVolume) {
+                audioElement.volume = Math.min(maxThreshold, audioElement.volume + 0.01);  // Smooth increase
+            } else if (audioElement.volume > targetVolume) {
+                audioElement.volume = Math.max(0, audioElement.volume - 0.01);  // Smooth decrease
+            }
+        });
+    }
+
+
+
+
+
+
 
 
 // Wait for the DOM to be ready
@@ -942,46 +878,33 @@ document.addEventListener("DOMContentLoaded", () => {
   const weekdayAudioFiles = {
     hourlySou:        "audio/its now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
-    fortyFiveMinuteSou: "muziek/effects/DJ Saphire finale.mp3",
-    twentyFiveMinuteSou:"muziek/jingles/sunnymainjingle.mp3"
- 
-
-};
+    fortyFiveMinuteSou: "muziek/effects/DJ Saphire finale.mp3"
+  };
 
   const saturdayAudioFiles = {
     hourlySou:        "audio/its now.mp3",
-    quarterHourSou:   "muziek/effects/best music.mp3",
-    fortyFiveMinuteSou: "muziek/effects/DJ Saphire finale.mp3",
-  twentyMinuteSou: "muziek/effects/Sunny Weekend Pirate.mp3"
-  
-
-};
+    quarterHourSou:   "muziek/effects/blast.mp3",
+    fortyFiveMinuteSou: "muziek/effects/DJ Saphire finale.mp3"
+  };
 
   // Sunday splits
   const sundayMorningAudioFiles = {
-     hourlySou:        "audio/its now.mp3",
+    hourlySou:        "audio/its now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
-    fortyFiveMinuteSou: "muziek/effects/best music.mp3",
-  twentyMinuteSou: "muziek/effects/Sunny Weekend Pirate.mp3"
-
-
-};
+    fortyFiveMinuteSou: "muziek/effects/DJ Saphire finale.mp3"
+  };
 
   const sundayAfternoonAudioFiles = {
     hourlySou:        "audio/its now.mp3",
-    quarterHourSou:   "muziek/effects/best music.mp3",
-    fortyFiveMinuteSou: "muziek/discjockeys/DJ S.mp3",
-    twentyMinuteSou: "muziek/effects/Sunny Weekend Pirate.mp3"
-  
+    quarterHourSou:   "muziek/effects/blast.mp3",
+    fortyFiveMinuteSou: "muziek/discjockeys/DJ S.mp3"
+
   };
 
   const sundayEveningAudioFiles = {
     hourlySou:        "audio/its now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
-    fortyFiveMinuteSou: "muziek/discjockeys/DJ S.mp3",
-    twentyMinuteSou: "muziek/effects/Sunny Weekend Pirate.mp3"
-
-
+    fortyFiveMinuteSou: "muziek/discjockeys/DJ S.mp3"
 
   };
 
@@ -1030,10 +953,8 @@ document.addEventListener("DOMContentLoaded", () => {
   scheduleRangeSwap();
 });
 
-// Your existing volume‐normalization function
-function adjustVolumeDynamically(audio) {
-  // … your code here …
-}
+
+
 
 // Schedule reloads for midnight, noon and 6pm
 function scheduleRangeSwap() {
@@ -1074,8 +995,19 @@ function scheduleRangeSwap() {
 
 
 
-
-
+ // 🎶 Define the tracks for each day
+    const tracks = {
+        0: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekend%20piratejinglepublic.mp3",
+        1: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
+        2: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
+        3: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
+        4: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
+        5: { 
+            early: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3", 
+            after17: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalepublic.mp3" 
+        },
+        6: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekend%20piratejinglepublic.mp3"
+    };
 
     
 
@@ -1095,6 +1027,29 @@ function scheduleRangeSwap() {
 
 
 
+// 🕰 Get the current day and hour
+    const today = new Date().getDay();
+    const currentHour = new Date().getHours();
+
+    let selectedTrack;
+
+    // Special condition for Friday (5) to switch track after 17:00
+    if (today === 5) {
+        selectedTrack = currentHour >= 17 ? tracks[5].after17 : tracks[5].early;
+    } else {
+        selectedTrack = tracks[today];
+    }
+
+    // 🎧 Set the source and load the track
+    document.getElementById("musicSource").setAttribute('src', selectedTrack);
+    const player = document.getElementById("musicPlayer");
+    player.load(); 
+
+    // ✅ Apply volume normalization when the track is ready to play
+    player.addEventListener("canplay", () => {
+        adjustVolumeDynamically(player);
+    });
+
    
 
 
@@ -1103,7 +1058,7 @@ function scheduleRangeSwap() {
 
     // ── Render the shuffled list in the DOM ──
     function renderTrackList() {
-      const ul = document.getElementById("track-list");
+      const ul = document.getElementById("track-list-container");
       ul.innerHTML = "";
       scheduledMp3Files.forEach((t, idx) => {
         const li = document.createElement("li");
@@ -1119,19 +1074,6 @@ function scheduleRangeSwap() {
 
 
 
- // 🎛 Volume Balancer Function
-    function adjustVolumeDynamically(audioElement) {
-        let targetVolume = 0.8;  // Default volume level
-        let maxThreshold = 1; // Prevent distortion
-
-        audioElement.addEventListener("timeupdate", () => {
-            if (audioElement.volume < targetVolume) {
-                audioElement.volume = Math.min(maxThreshold, audioElement.volume + 0.01);  // Smooth increase
-            } else if (audioElement.volume > targetVolume) {
-                audioElement.volume = Math.max(0, audioElement.volume - 0.01);  // Smooth decrease
-            }
-        });
-    }
 
 
 
@@ -1159,7 +1101,13 @@ if (curr_track) {
 
 
 
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("hero-image");
 
+//Set the src property of our element to the new image URL
+img.src = 'images/Jazzdivas.png';
+</script>
 
 
 
@@ -1238,6 +1186,13 @@ img.src = 'images/red star2.png';
 
 
 
+  <script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("myImage");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Miss Chang.png';
+</script>
 
 <script>
 //Get our img element by using document.getElementById
@@ -1336,57 +1291,13 @@ document.addEventListener("DOMContentLoaded", () => {
     <source src="" type="audio/mp3">
 </audio>
 
-
-<audio id="twentyMinuteSou">
-    <source src="" type="audio/mp3">
-</audio>
-<audio id="twentyFiveMinuteSou">
-    <source src="" type="audio/mp3">
-</audio>
-
-
-
-
-<audio id="bonusTrack"></audio>
-
-
-
-<script>
-window.addEventListener('load', () => {
-  // Start your stream (if it's not already auto-playing)
-  const bonusTrack = document.getElementById('bonusTrack');
-  bonusTrack.src = "muziek/jingles/another hour of music.mp3";
-
-  // Set timer to trigger after 1 hour
-  setTimeout(() => {
-    bonusTrack.volume = 0.8;
-    bonusTrack.play().catch(err => console.log("Playback failed:", err));
-    console.log("🎶 Bonus hour activated!");
-  }, 3600000); // 1 hour = 60 min × 60 sec × 1000 ms
-});
-
-
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
 <script>
     // 🎧 Set the source for scheduled sounds
     document.getElementById("hourlySou").setAttribute('src', 'audio/its now.mp3');
     document.getElementById("quarterHourSou").setAttribute('src', 'muziek/effects/blast.mp3');
     document.getElementById("fortyFiveMinuteSou").setAttribute('src', 'muziek/jingles/Sunny los.mp3');
- 
-    
-// ✅ Apply volume normalization when a track is ready to play
+
+    // ✅ Apply volume normalization when a track is ready to play
     document.querySelectorAll("audio").forEach(audio => {
         audio.addEventListener("canplay", () => adjustVolumeDynamically(audio));
     });
@@ -1447,8 +1358,7 @@ window.addEventListener('load', () => {
                 playSound(["fortyFiveMinuteSou"]);
             }, 2700000); // Every 45 minutes
         }, fortyFiveMinuteDelay);
-    
-  
+    }
 
 
 
@@ -1620,9 +1530,7 @@ function generateSchedule() {
 
 
 
-
-<script src= "main24.js" defer> </script>
-
+<script defer src="main24.js"></script>
 
 
 
