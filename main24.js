@@ -44,7 +44,7 @@ function getCurrentTimeCategory() {
       } else if (currentHour >= 17 && currentHour < 21) {
         category = "afternoon";
       } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-        category = "afternoon";    } else {
+        category = "evening";    } else {
         category = " jingle-time";
       }
       break;
@@ -99,7 +99,7 @@ function getCurrentTimeCategory() {
       } else if (currentHour >= 17 && currentHour < 21) {
         category = "evening-late";
       } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-        category = "afternoon";
+        category = "evening-late";
       } else {
         category = "jingle-time";
       }
@@ -121,7 +121,7 @@ function getCurrentTimeCategory() {
 
     case 6: // Saturday
       if (currentHour >= 8 && currentHour < 12) {
-        category = "f morning";
+        category = "morning";
       } else if (currentHour >= 12 && currentHour < 17) {
         category = "f afternoon";
       } else if (currentHour >= 17 && currentHour < 21) {
@@ -3766,6 +3766,80 @@ timeCategory: "morning"
 
 
 
+
+
+
+
+{
+    name: "Obsessed",
+    artist: "Calvin Harris ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Calvin Harris - Obsessed.mp3",
+    timeCategory: "morning"
+
+
+},
+
+
+
+
+{
+    name: "  She ",
+    artist: "Elderbrook Cola    ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/Elderbrook Cola - She.mp3",
+    timeCategory: "morning"
+
+
+},
+
+
+
+
+{
+    name: "Alice",
+    artist: "Lady Gaga   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Lady Gaga - Alice.mp3",
+           timeCategory: "morning"
+},
+
+
+
+{
+    name: " It's All The Way Live",
+    artist: "Lakeside ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Lakeside - It's All The Way Live.mp3",
+          timeCategory: "morning"
+},
+
+
+
+
+
+{
+    name: "Right Here ",
+    artist: "SWV ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/SWV - Right Here.mp3",
+        timeCategory: "morning"
+},
+
+
+
+
+
+{
+    name: " In The Forest (1980)",
+    artist: " Baby O  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Baby O - In The Forest.mp3",
+  
+
+
+      timeCategory: "morning"
+},
 
 
 
@@ -18904,10 +18978,7 @@ timeCategory: "evening-late"
     artist: "Listen Live Sunny Danceradio☀️ ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/nos journaal 11.mp3",
-  
-
-
-       timeCategory: "f afternoon"
+    timeCategory: "f afternoon"
 
 },
 
@@ -19221,6 +19292,95 @@ timeCategory: "f evening"
 
 
 {
+    name: "  She ",
+    artist: "Elderbrook Cola    ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/Elderbrook Cola - She.mp3",
+    timeCategory: "f evening"
+
+
+},
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Beautiful People ",
+    artist: "David Guetta Ft. Sia & Rihanna (new)",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/David Guetta Ft. Sia & Rihanna - Beautiful People.mp3",
+    timeCategory: "f evening"
+},
+
+
+
+{
+     name: " Anxiety ",
+    artist: "Doechii (new)",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Doechii - Anxiety.mp3",
+    timeCategory: "f evening"
+},
+
+
+
+
+
+
+
+
+{
+     name: " Handlebars",
+    artist: "Jennie & Dua Lipa (new)",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Jennie & Dua Lipa - Handlebars.mp3",
+    timeCategory: "f evening"
+},
+
+
+
+
+
+
+{
+     name: "One Thing",
+    artist: "Lola Young ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Lola Young - One Thing.mp3",
+ timeCategory: "f evening"
+},
+
+
+
+
+{
+     name: "Favourite Type",
+    artist: "Roxen (alarmschijf)",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Roxen - Favourite Type.mp3",
+ timeCategory: "f evening"
+},
+
+
+
+
+{
+     name: " Beautiful People ",
+    artist: "Sia David Guetta (new)",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Sia David Guetta - Beautiful People.mp3",
+ timeCategory: "f evening"
+},
+
+
+
+{
     name: "Welcome!",
     artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
@@ -19399,36 +19559,6 @@ timeCategory: "f evening"
 
 
 
-
-
-
-
-
-
-{
-  
-    name: " Nouveau Disco 03 ",
-    artist: "Mix Central  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 03.mp3",
- timeCategory: "f evening"
-},
-
-
-
-
-{
-  
-    name: " Nouveau Disco 04 ",
-    artist: "Mix Central  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 04.mp3",
-timeCategory: "f evening"
-},
-
-
-
-
 {
     name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️ ",
@@ -19550,80 +19680,13 @@ timeCategory: "f evening"
 
 
 
-
-{
-    name: "Obsessed",
-    artist: "Calvin Harris ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Calvin Harris - Obsessed.mp3",
-    timeCategory: "morning"
-
-
-},
-
-
-
-
-{
-    name: "  She ",
-    artist: "Elderbrook Cola    ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Elderbrook Cola - She.mp3",
-    timeCategory: "morning"
-
-
-},
-
-
-
-
-{
-    name: "Alice",
-    artist: "Lady Gaga   ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Lady Gaga - Alice.mp3",
-           timeCategory: "morning"
-},
-
-
-
-{
-    name: " It's All The Way Live",
-    artist: "Lakeside ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies04.netlify.app/Lakeside - It's All The Way Live.mp3",
-          timeCategory: "morning"
-},
-
-
-
-
-
-{
-    name: "Right Here ",
-    artist: "SWV ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/SWV - Right Here.mp3",
-        timeCategory: "morning"
-},
-
-
-
-
-
 {
     name: " In The Forest (1980)",
     artist: " Baby O  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Baby O - In The Forest.mp3",
-  
-
-
-      timeCategory: "morning"
+    timeCategory: "f evening"
 },
-
-
-
 
 
 
@@ -19676,7 +19739,13 @@ timeCategory: "f evening"
 
 
 
-
+{
+    name: "  Somedays ",
+    artist: "Sonny Fodera & Jazzy  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Sonny Fodera & Jazzy - Somedays.mp3",
+   timeCategory: "f evening"
+},
 
 
 
@@ -19960,7 +20029,13 @@ timeCategory: "f evening"
 },
 
 
-
+{
+    name: "  Blessings ",
+    artist: "Calvin Harris, Clementine Douglas ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Calvin Harris, Clementine Douglas - Blessings.mp3",
+   timeCategory: "f evening"
+},
 
 
 
@@ -20625,6 +20700,44 @@ timeCategory: "f evening"
 
 
 
+{
+    name: "  Somedays ",
+    artist: "Sonny Fodera & Jazzy  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Sonny Fodera & Jazzy - Somedays.mp3",
+   timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+{
+  
+    name: " Nouveau Disco 03 ",
+    artist: "Mix Central  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 03.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+
+{
+  
+    name: " Nouveau Disco 04 ",
+    artist: "Mix Central  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 04.mp3",
+timeCategory: "f evening-late"
+},
+
 
 
 
@@ -20671,13 +20784,6 @@ timeCategory: "f evening"
    timeCategory: "f evening-late"
 },
 
-{
-    name: " Saturday Night (12inch)",
-    artist: "T-Connection ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/T-Connection - Saturday Night.mp3",
- timeCategory: "evening-late"
-},
 
 
 
