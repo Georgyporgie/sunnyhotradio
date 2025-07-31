@@ -6075,13 +6075,6 @@ timeCategory: "morning"
 
 
 
-{
-    name: "  Another Man (1984)",
-    artist: "Barbara Mason",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnyhotradio.com/muziek/oldies07/Barbara Mason - Another Man.mp3",
-    timeCategory: "afternoon"
-},
 
 
 {
@@ -17133,10 +17126,74 @@ timeCategory: "evening-late"
 
 
 
+{
+    name: " Fake  ",
+    artist: "Alexander O Neal ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Alexander O Neal - Fake.mp3",
+   timeCategory: "evening-late"
+},
 
 
 
 
+
+{
+    name: "Luniz ",
+    artist: "I Got 5 On It  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/I Got 5 On It - Luniz.mp3",
+   timeCategory: "evening-late"
+},
+
+
+
+
+
+
+{
+    name: " Let's All Chant (1977) ",
+    artist: "Michael Zager Band  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Michael Zager Band - Let's All Chant (1977).mp3",
+   timeCategory: "evening-late"
+},
+
+
+
+
+
+
+{
+    name: " Boombastic  ",
+    artist: "Shaggy ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Shaggy - Boombastic.mp3",
+   timeCategory: "evening-late"
+},
+
+
+
+
+{
+    name: "  Blessings ",
+    artist: "Calvin Harris, Clementine Douglas ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Calvin Harris, Clementine Douglas - Blessings.mp3",
+   timeCategory: "evening-late"
+},
+
+
+
+
+
+{
+    name: "  Somedays ",
+    artist: "Sonny Fodera & Jazzy  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Sonny Fodera & Jazzy - Somedays.mp3",
+   timeCategory: "evening-late"
+},
 
 
 
