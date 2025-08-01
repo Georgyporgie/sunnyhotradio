@@ -19626,7 +19626,20 @@ timeCategory: "f evening"
 
 
 
+{
+     name: "",
+    artist: "Martin Garrix & Zedd",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Martin Garrix & Zedd - Follow.mp3",
+    timeCategory: "f evening"
+},
+
   
+
+
+
+
+
 {
     name: " Don't Stop ",
     artist: "KID  ",
