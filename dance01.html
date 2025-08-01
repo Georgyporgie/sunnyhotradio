@@ -326,24 +326,37 @@ body {
 <br>
 
 <h5 id="events">
-<script>
-        fetch('event.json')
-            .then(response => response.json())
-            .then(data => {
-                const today = new Date().toISOString().split('T')[0];
-                const events = data[today];
 
-                if (events) {
-                    let eventsHTML = '<em><br><u>Upcoming Events</u></em><br><br>Today:<br><br>';
-                    events.forEach(event => {
-                        eventsHTML += `${event.time}: <br><em>${event.event}</em><br><br>`;
-                    });
-                    document.getElementById('events').innerHTML = eventsHTML;
-                } else {
-                    document.getElementById('events').innerHTML = '<em>No events scheduled for today.</em>';
-                }
-            })
-            .catch(error => console.error('Error loading events:', error));
+<script>
+
+fetch('event.json')
+  .then(response => response.json())
+  .then(data => {
+    const now = new Date();
+    const todayName = now.toLocaleDateString('en-US', { weekday: 'long' });
+    const events = data.schedule[todayName];
+
+    if (events) {
+      let eventsHTML = '<em><br><u>Upcoming Events</u></em><br><br>' + todayName + ':<br><br>';
+
+      events.forEach(event => {
+        const [start, end] = event.time.split(' - ');
+        const startTime = new Date(now.toDateString() + ' ' + start);
+        const endTime = new Date(now.toDateString() + ' ' + end);
+
+        const isCurrent = now >= startTime && now <= endTime;
+        const glowClass = isCurrent ? 'glow' : '';
+
+        eventsHTML += `<div class="${glowClass}">${event.time}: <br><em>${event.event}</em><br><br></div>`;
+      });
+
+      document.getElementById('events').innerHTML = eventsHTML;
+    } else {
+      document.getElementById('events').innerHTML = '<em>No events scheduled for today.</em>';
+    }
+  })
+  .catch(error => console.error('Error loading events:', error));
+
     </script>
 
 </h5>
@@ -789,7 +802,7 @@ document.getElementById("online").innerHTML=" 3 ";
 
 
 
-<audio id="musicPlayer" autoplay >
+<audio id="musicPlayer" autoplay loop>
   <source id="musicSource"  type="audio/mpeg">
 </audio>
 
