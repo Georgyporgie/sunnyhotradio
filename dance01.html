@@ -329,59 +329,33 @@ body {
 
 <script>
   fetch('event.json')
-    .then(response => {
-      if (!response.ok) {
-        throw new Error(`HTTP error! Status: ${response.status}`);
-      }
-      return response.json();
-    })
-    .then(data => {
-      const now = new Date();
-      const todayName = now.toLocaleDateString('en-US', { weekday: 'long' });
+  .then(response => response.json())
+  .then(data => {
+    const now = new Date();
+    const todayName = now.toLocaleDateString('en-US', { weekday: 'long' });
+    const events = data.schedule[todayName];
 
-      const events = data.schedule[todayName];
-      const eventsContainer = document.getElementById('events');
+    if (events) {
+      let eventsHTML = '<em><br><u>Upcoming Events</u></em><br><br>' + todayName + ':<br><br>';
 
-      if (!eventsContainer) {
-        console.error('Missing target HTML element: #events');
-        return;
-      }
+      events.forEach(event => {
+        const [start, end] = event.time.split(' - ');
+        const startTime = new Date(now.toDateString() + ' ' + start);
+        const endTime = new Date(now.toDateString() + ' ' + end);
 
-      if (events && events.length > 0) {
-        let eventsHTML = `<em><br><u>Upcoming Events</u></em><br><br>${todayName}:<br><br>`;
+        const isCurrent = now >= startTime && now <= endTime;
+        const glowClass = isCurrent ? 'glow' : '';
 
-        events.forEach(event => {
-          const [start, end] = event.time.split(' - ');
-          const startTime = new Date(`${now.toDateString()} ${start}`);
-          const endTime = new Date(`${now.toDateString()} ${end}`);
+        eventsHTML += `<div class="${glowClass}">${event.time}: <br><em>${event.event}</em><br><br></div>`;
+      });
 
-          if (isNaN(startTime) || isNaN(endTime)) {
-            console.warn('Invalid time format:', event.time);
-            return;
-          }
+      document.getElementById('events').innerHTML = eventsHTML;
+    } else {
+      document.getElementById('events').innerHTML = '<em>No events scheduled for today.</em>';
+    }
+  })
+  .catch(error => console.error('Error loading events:', error));
 
-          const isCurrent = now >= startTime && now <= endTime;
-          const glowClass = isCurrent ? 'glow' : '';
-
-          eventsHTML += `
-            <div class="${glowClass}">
-              <strong>${event.time}:</strong><br>
-              <em>${event.event}</em><br><br>
-            </div>`;
-        });
-
-        eventsContainer.innerHTML = eventsHTML;
-      } else {
-        eventsContainer.innerHTML = '<em>No events scheduled for today.</em>';
-      }
-    })
-    .catch(error => {
-      console.error('Error loading events:', error);
-      const eventsContainer = document.getElementById('events');
-      if (eventsContainer) {
-        eventsContainer.innerHTML = '<em>Failed to load event schedule.</em>';
-      }
-    });
 </script>
 
 
