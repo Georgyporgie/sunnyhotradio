@@ -18300,6 +18300,34 @@ timeCategory: "evening-late"
  },
 
 
+{
+    name: " Billy Jean (1982)",
+    artist: "Michael Jackson   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Michael Jackson - Billy Jean (1982).mp3",
+      timeCategory: "f afternoon"
+ },
+
+
+
+{
+    name: "Dirty Cash",
+    artist: "Adventures Of Stevie V  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Adventures Of Stevie V - Dirty Cash.mp3",
+      timeCategory: "f afternoon"
+ },
+
+
+
+
+{
+    name: "We Got Our Own Thang",
+    artist: "Heavy D & The Boyz ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Heavy D & The Boyz - We Got Our Own Thang.mp3",
+      timeCategory: "f afternoon"
+ },
 
 
 
@@ -18310,7 +18338,7 @@ timeCategory: "evening-late"
     name: "Taste Of You",
     artist: "Rezz",
      image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Rezz - Taste of you.mp3",
+    path: "https://sunnydanceoldies08.netlify.app/Rezz - Taste of you.mp3",
        timeCategory: "f afternoon"
 
 },
@@ -22360,7 +22388,6 @@ function myFunction1() {
  $('.btn').click(function () {
             $(this).toggleClass("click");
         });
-
 
 
 
