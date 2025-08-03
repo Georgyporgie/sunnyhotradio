@@ -4831,6 +4831,14 @@ timeCategory: "morning"
 
 
 
+{
+    name: "   You And I ",
+    artist: "Rick James ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Rick James - You and I.mp3",
+   timeCategory: "f evening-late"
+},
+
 
 
 
