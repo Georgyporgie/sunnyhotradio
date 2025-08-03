@@ -42,9 +42,9 @@ function getCurrentTimeCategory() {
       } else if (currentHour >= 12 && currentHour < 17) {
         category = "f evening";
       } else if (currentHour >= 17 && currentHour < 21) {
-        category = "afternoon";
+        category = "f afternoon";
       } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-        category = "evening";    } else {
+        category = "f evening-late";    } else {
         category = " jingle-time";
       }
       break;
@@ -22360,6 +22360,7 @@ function myFunction1() {
  $('.btn').click(function () {
             $(this).toggleClass("click");
         });
+
 
 
 
