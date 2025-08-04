@@ -875,7 +875,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const weekdayAudioFiles = {
     hourlySou:        "audio/its now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
-    fortyFiveMinuteSou: "muziek/effects/DJ Saphire finale.mp3"
+    fortyFiveMinuteSou: "muziek/jingles/Sunny los.mp3"
   };
 
   const saturdayAudioFiles = {
@@ -940,7 +940,7 @@ document.addEventListener("DOMContentLoaded", () => {
       console.error(`❌ No element with id="${id}" found.`);
     }
   });
-
+ 
   // Attach your normalization logic
   document.querySelectorAll("audio").forEach(audio => {
     audio.addEventListener("canplay", () => adjustVolumeDynamically(audio));
