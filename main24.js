@@ -4647,13 +4647,6 @@ timeCategory: "morning"
 
 
 
-{
-    name: "  Encore (maxi)  ",
-    artist: "Cheryl Lynn ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Cheryl Lynn - Encore (maxi).mp3",
-   timeCategory: "afternoon"
-},
 
 
 
