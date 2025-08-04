@@ -4636,17 +4636,46 @@ timeCategory: "morning"
 
 
 
+{
+    name: "  Encore (maxi)  ",
+    artist: "Cheryl Lynn ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Cheryl Lynn - Encore (maxi).mp3",
+   timeCategory: "afternoon"
+},
+
+
+
+
+{
+    name: "  Encore (maxi)  ",
+    artist: "Cheryl Lynn ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Cheryl Lynn - Encore (maxi).mp3",
+   timeCategory: "afternoon"
+},
 
 
 
 
 
 
+{
+    name: "Love For Love ",
+    artist: "Robin S ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Robin S - Love For Love.mp3",
+   timeCategory: "afternoon"
+},
 
 
-
-
-
+{
+    name: "  Regulate ",
+    artist: "Warren G",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Warren G - Regulate.mp3",
+   timeCategory: "afternoon"
+},
 
 
 
@@ -7101,7 +7130,13 @@ timeCategory: "morning"
 
 
 
-
+{
+    name: "  A little Bit Wild (new)",
+    artist: "Sophie And The Giants  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Sophie And The Giants - A little Bit Wild.mp3",
+  timeCategory: "afternoon"
+},
 
 
 
@@ -15970,7 +16005,13 @@ timeCategory: "evening-late"
 
 
 
-
+{
+    name: " Lose Yourself To Dance",
+    artist: "Daft Punk ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Daft Punk - Lose Yourself To Dance.mp3",
+    timeCategory: "f evening-late"
+},
 
 
 
@@ -16550,6 +16591,17 @@ timeCategory: "evening-late"
 
 
 {
+    name: "   Yeke Yeke (Hardfloor Remix)",
+    artist: "Mory Kante ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Mory Kante - Yeke Yeke (Hardfloor Remix).mp3",
+  
+
+  timeCategory: "evening-late"
+},
+
+
+{
     name: "  Lfo",
     artist: "Lfo ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -16558,9 +16610,6 @@ timeCategory: "evening-late"
 
   timeCategory: "evening-late"
 },
-
-
-
 
 
 
