@@ -10656,7 +10656,7 @@ timeCategory: "morning"
     artist: "Miami Sound Machine",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Miami Sound Machine - Dr Beat.mp3",
-    timeCategory: "evening"
+    timeCategory: "morning"
 },
 
 
