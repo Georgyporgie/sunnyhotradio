@@ -4650,6 +4650,50 @@ timeCategory: "morning"
 
 
 
+{
+    name: " Specialize In love ",
+    artist: "Sharon Brown ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Sharon Brown Specialize in love.mp3",
+   timeCategory: "afternoon"
+},
+
+
+
+{
+    name: "   A hugh Pulsating Brain    ",
+    artist: "The Orb ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/The Orb - A hugh pulsating brain Paradox mix.mp3",
+   timeCategory: "afternoon"
+},
+
+
+
+{
+    name: "  Thriller ",
+    artist: "Michael Jackson ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Michael Jackson Thriller.mp3",
+   timeCategory: "afternoon"
+},
+
+
+
+{
+    name: " Passion ",
+    artist: "The Flirts ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/The Flirts - Passion.mp3",
+   timeCategory: "afternoon"
+},
+
+
+
+
+
+
+
 
 
 
