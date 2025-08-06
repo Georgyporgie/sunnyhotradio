@@ -12586,6 +12586,16 @@ timeCategory: "evening-late",
 
 
 
+{
+     name: "  Borderline ",
+    artist: "Madonna  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Madonna - Borderline.mp3",
+    timeCategory: "evening"
+},
+
+
+
 
 {
      name: "  X Static",
@@ -12596,7 +12606,13 @@ timeCategory: "evening-late",
 },
 
 
-
+{
+     name: "  X Static",
+    artist: "Bizarre Inc  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Bizarre Inc - X Static.mp3",
+    timeCategory: "evening"
+},
 
 
 
@@ -18414,7 +18430,7 @@ timeCategory: "evening-late"
     name: " Billy Jean (1982)",
     artist: "Michael Jackson   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Michael Jackson - Billy Jean (1982).mp3",
+    path: "https://danceoldies08.netlify.app/Michael Jackson - Billy Jean (1982).mp3",
       timeCategory: "f afternoon"
  },
 
@@ -18424,7 +18440,7 @@ timeCategory: "evening-late"
     name: "Dirty Cash",
     artist: "Adventures Of Stevie V  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Adventures Of Stevie V - Dirty Cash.mp3",
+    path: "https://danceoldies08.netlify.app/Adventures Of Stevie V - Dirty Cash.mp3",
       timeCategory: "f afternoon"
  },
 
@@ -18435,7 +18451,7 @@ timeCategory: "evening-late"
     name: "We Got Our Own Thang",
     artist: "Heavy D & The Boyz ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Heavy D & The Boyz - We Got Our Own Thang.mp3",
+    path: "https://danceoldies08.netlify.app/Heavy D & The Boyz - We Got Our Own Thang.mp3",
       timeCategory: "f afternoon"
  },
 
