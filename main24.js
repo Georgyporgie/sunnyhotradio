@@ -67,11 +67,11 @@ function getCurrentTimeCategory() {
       if (currentHour >= 8 && currentHour < 12) {
         category = "morning";
       } else if (currentHour >= 12 && currentHour < 17) {
-        category = "evening";
-      } else if (currentHour >= 17 && currentHour < 21) {
-        category = "afternoon";
-      } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
         category = "evening-late";
+      } else if (currentHour >= 17 && currentHour < 21) {
+        category = "evening";
+      } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
+        category = "afternoon";
       } else {
         category = "jingle-time";
       }
@@ -97,7 +97,7 @@ function getCurrentTimeCategory() {
       } else if (currentHour >= 12 && currentHour < 17) {
         category = "evening";
       } else if (currentHour >= 17 && currentHour < 21) {
-        category = "evening-late";
+        category = "afternoon";
       } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
         category = "evening-late";
       } else {
@@ -111,9 +111,9 @@ function getCurrentTimeCategory() {
       } else if (currentHour >= 12 && currentHour < 17) {
         category = "morning";
       } else if (currentHour >= 17 && currentHour < 21) {
-        category = "afternoon";
-      } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
         category = "evening-late";
+      } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
+        category = "evening";
       } else {
         category = "jingle-time";
       }
@@ -2463,7 +2463,7 @@ let trackList = [
 
 
 {
-    name: "  Thinkin' about your love",
+    name: "  Thinkin' About Your love",
     artist: "Skipworth & Turner ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Skipworth & Turner - Thinkin' about your love.mp3",
@@ -3112,13 +3112,6 @@ let trackList = [
 
 
 
-{
-     name: "Padam Padam",
-    artist: "Kylie Minogue",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://thechime.netlify.app/Half Kylie Minogue - Padam Padam.mp3",
-     timeCategory: "morning"
-},
 
 
 
@@ -5482,13 +5475,7 @@ timeCategory: "morning"
 
 
 
-{
-     name: "Baby Queen",
-    artist: "Gorillaz",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://thechime.netlify.app/Half Gorillaz - Baby Queen.mp3",
-     timeCategory: "afternoon"
-},
+
 
 
 {
@@ -6886,13 +6873,6 @@ timeCategory: "morning"
    timeCategory: "afternoon"
  },
 
-{
-    name: " Persuasive",
-    artist: "Doechii",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Doechii - Persuasive.mp3",
-   timeCategory: "afternoon"
- },
 
 
 
@@ -10408,13 +10388,7 @@ timeCategory: "morning"
 
 
 
-{
-     name: " Untz Untz",
-    artist: "Inji ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://thechime.netlify.app/Half Inji - Untz Untz.mp3",
-     timeCategory: "evening"
-},
+
 
 
 
@@ -16125,7 +16099,7 @@ timeCategory: "evening-late"
 
 
 {
-    name: "  Thinkin' about your love",
+    name: "  Thinkin' About Your love",
     artist: "Skipworth & Turner ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Skipworth & Turner - Thinkin' about your love.mp3",
@@ -16203,13 +16177,7 @@ timeCategory: "evening-late"
 
 
 
-{
-     name: "   The Power",
-    artist: " Snap",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://thechime.netlify.app/Half Snap - The Power.mp3",
-     timeCategory: "evening-late"
-},
+
 
 
 
