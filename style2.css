@@ -1009,15 +1009,15 @@ z-index: 200; font-style: bold;font-family:myEvent;
 
 
 .glow {
-  background-color: #ffecb3;
-  border-left: 5px solid #ff9800;
+  background-color: #C3E4E8;
+  border-left: solid 5px #6C91C2; margin-bottom: -10px;
   animation: pulse 1.5s infinite;
 }
 
 @keyframes pulse {
-  0% { box-shadow: 0 0 5px #ff9800; }
-  50% { box-shadow: 0 0 20px #ff9800; }
-  100% { box-shadow: 0 0 5px #ff9800; }
+  0% { box-shadow: 0 0 5px #4773A9; }
+  50% { box-shadow: 0 0 20px #4773A9; }
+  100% { box-shadow: 0 0 5px #4773A9; }
 }
 
 
