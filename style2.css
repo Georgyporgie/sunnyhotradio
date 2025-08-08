@@ -1010,7 +1010,7 @@ z-index: 200; font-style: bold;font-family:myEvent;
 
 .glow {
   background-color: #C3E4E8;
-  border-left: solid 5px #6C91C2; padding-top: 20px; padding-bottom: -20px;
+  border-left: solid 5px #6C91C2; padding-top: 20px; padding-bottom: -20px;border-right: solid 5px #6C91C2;
   animation: pulse 1.5s infinite;
 }
 
