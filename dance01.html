@@ -868,72 +868,99 @@ if (hour < 9) {
 
 
 
-// Wait for the DOM to be ready
 document.addEventListener("DOMContentLoaded", () => {
-  const now   = new Date();
-  const day   = now.getDay();    // 0 = Sunday, 6 = Saturday
-  const hour  = now.getHours();  // 0–23
+  const now  = new Date();
+  const day  = now.getDay();   // 0 = Sunday, 6 = Saturday
+  const hour = now.getHours(); // 0–23
 
-  // Weekday and Saturday as before
-  const weekdayAudioFiles = {
-    hourlySou:        "audio/its now.mp3",
-    quarterHourSou:   "muziek/effects/blast.mp3",
-    fortyFiveMinuteSou: "muziek/jingles/Sunny los.mp3"
+  // All audio sets grouped by day + time
+  const audioSchedule = {
+    weekday: {
+      allDay: {
+        hourlySou:        "audio/its now.mp3",
+        quarterHourSou:   "muziek/effects/blast.mp3",
+        fortyFiveMinuteSou: "muziek/jingles/Sunny los.mp3"
+      }
+    },
+    saturday: {
+      morning: {
+        hourlySou:        "audio/its now.mp3",
+        quarterHourSou:   "muziek/effects/blast.mp3",
+        fortyFiveMinuteSou: "muziek/discjockeys/starten met Sunny.mp3"
+      },
+      afternoon: {
+        hourlySou:        "audio/its now.mp3",
+        quarterHourSou:   "muziek/effects/blast.mp3",
+        fortyFiveMinuteSou: "muziek/effects/DJ S.mp3"
+      },
+      evening: {
+        hourlySou:        "audio/its now.mp3",
+        quarterHourSou:   "muziek/effects/blast.mp3",
+        fortyFiveMinuteSou: "muziek/effects/DJ Saphire finale.mp3"
+      }
+    },
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+sunday: {
+      morning: {
+        hourlySou:        "audio/its now.mp3",
+        quarterHourSou:   "muziek/effects/blast.mp3",
+        fortyFiveMinuteSou: "muziek/jingles/Sunny los.mp3"
+      },
+      afternoon: {
+        hourlySou:        "audio/its now.mp3",
+        quarterHourSou:   "muziek/effects/blast.mp3",
+        fortyFiveMinuteSou: "muziek/effects/DJ Saphire finale.mp3"
+      },
+      evening: {
+        hourlySou:        "audio/its now.mp3",
+        quarterHourSou:   "muziek/effects/blast.mp3",
+        fortyFiveMinuteSou: "muziek/discjockeys/DJ S.mp3"
+      }
+    }
   };
 
-  const saturdayAudioFiles = {
-    hourlySou:        "audio/its now.mp3",
-    quarterHourSou:   "muziek/effects/blast.mp3",
-    fortyFiveMinuteSou: "muziek/discjockeys/DJ S.mp3"
+  // Helper to pick the right time slot
+  const getTimeSlot = (hour) => {
+    if (hour < 12) return "morning";
+    if (hour < 17) return "afternoon";
+    return "evening";
   };
 
-  // Sunday splits
-  const sundayMorningAudioFiles = {
-    hourlySou:        "audio/its now.mp3",
-    quarterHourSou:   "muziek/effects/blast.mp3",
-    fortyFiveMinuteSou: "muziek/effects/DJ Saphire finale.mp3"
-  };
-
-  const sundayAfternoonAudioFiles = {
-    hourlySou:        "audio/its now.mp3",
-    quarterHourSou:   "muziek/effects/blast.mp3",
-    fortyFiveMinuteSou: "muziek/discjockeys/DJ S.mp3"
-
-  };
-
-  const sundayEveningAudioFiles = {
-    hourlySou:        "audio/its now.mp3",
-    quarterHourSou:   "muziek/effects/blast.mp3",
-    fortyFiveMinuteSou: "muziek/discjockeys/DJ S.mp3"
-
-  };
-
-  // Select the right map
+  // Selection logic using the schedule
   let audioFiles;
-  if (day === 6) {
-    audioFiles = saturdayAudioFiles;
-    console.log("Using Saturday sounds.");
+  if (day === 6) { // Saturday
+    audioFiles = audioSchedule.saturday[getTimeSlot(hour)];
+    console.log(`Using Saturday ${getTimeSlot(hour)} sounds.`);
   }
-  else if (day === 0) {
-    if (hour < 12) {
-      audioFiles = sundayMorningAudioFiles;
-      console.log("Using Sunday morning sounds.");
-    }
-    else if (hour < 17) {
-      audioFiles = sundayAfternoonAudioFiles;
-      console.log("Using Sunday afternoon sounds.");
-    }
-    else {
-      audioFiles = sundayEveningAudioFiles;
-      console.log("Using Sunday evening sounds.");
-    }
+  else if (day === 0) { // Sunday
+    audioFiles = audioSchedule.sunday[getTimeSlot(hour)];
+    console.log(`Using Sunday ${getTimeSlot(hour)} sounds.`);
   }
-  else {
-    audioFiles = weekdayAudioFiles;
+  else { // Weekdays
+    audioFiles = audioSchedule.weekday.allDay;
     console.log("Using weekday sounds.");
   }
 
-  // Assign the chosen sources
+  // audioFiles now holds the correct mapping for the current moment
+});
+
+
+
+
+// Assign the chosen sources
   Object.entries(audioFiles).forEach(([id, src]) => {
     const audioEl = document.getElementById(id);
     if (audioEl) {
