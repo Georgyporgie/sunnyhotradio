@@ -8,10 +8,7 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-gtag('config', 'G-HGPPL3SXDS', {
-  'page_path': window.location.pathname
-});
-
+  gtag('config', 'G-HGPPL3SXDS');
 </script>
 
 
@@ -32,8 +29,7 @@ gtag('config', 'G-HGPPL3SXDS', {
   <link rel="stylesheet"
         href=
 "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+ 
   <!-- Load the custom CSS style file -->
   <link rel="stylesheet" type="text/css" href="style2.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -229,7 +225,7 @@ body {
   
 
 
- <img id="myImage" alt="Dance Radio">
+ <img id="myImage" src="images/jazzradio1.png" alt="Dance Radio">
 
     
 
@@ -287,9 +283,6 @@ body {
 
 
 
-
-
-
 </ul>
 
 
@@ -298,8 +291,6 @@ body {
 <br>
 <br>
 <br>
-
-
 <br>
 <br>
 <br>
@@ -310,12 +301,6 @@ body {
 
 <br>
 <br>
-
-
-
-
-
-
 
 <br>
 <br>
@@ -329,38 +314,41 @@ body {
 <br>
 
 <h5 id="events">
-
 <script>
-  fetch('event.json')
-  .then(response => response.json())
-  .then(data => {
-    const now = new Date();
-    const todayName = now.toLocaleDateString('en-US', { weekday: 'long' });
-    const events = data.schedule[todayName];
+fetch('event.json')
 
-    if (events) {
-      let eventsHTML = '<em><br><u>Upcoming Events</u></em><br><br>' + todayName + ':<br><br>';
+    .then(response => {
+        if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+        return response.json();
+    })
+    .then(data => {
+        const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        const todayIndex = new Date().getDay(); // Get today's numeric index (0 = Sunday, 6 = Saturday)
+        const today = daysOfWeek[todayIndex]; // Convert to day name
 
-      events.forEach(event => {
-        const [start, end] = event.time.split(' - ');
-        const startTime = new Date(now.toDateString() + ' ' + start);
-        const endTime = new Date(now.toDateString() + ' ' + end);
+        // Only show events if today is Friday (5), Saturday (6), or Sunday (0)
+        if ([5, 6, 0].includes(todayIndex)) {
+            const events = data[today]; // Retrieve weekend events
 
-        const isCurrent = now >= startTime && now <= endTime;
-        const glowClass = isCurrent ? 'glow' : '';
+            console.log("Weekend Event Data:", events); // Debugging log
 
-        eventsHTML += `<div class="${glowClass}">${event.time}: <br><em>${event.event}</em><br><br></div>`;
-      });
+            if (events) {
+                let eventsHTML = `<em><br><u>Upcoming Weekend Events</u></em><br><br>Today (${today}):<br><br>`;
+                events.forEach(event => {
+                    eventsHTML += `${event.time}: <br><em>${event.event}</em><br><br>`;
+                });
+                document.getElementById('events').innerHTML = eventsHTML;
+            } else {
+                document.getElementById('events').innerHTML = '<em>No events scheduled for today.</em>';
+            }
+        } else {
+            // Hide events on weekdays
+            document.getElementById('events').innerHTML = '<em>No Events Today.</em>';
+        }
+    })
+    .catch(error => console.error('Error fetching weekend events:', error));
 
-      document.getElementById('events').innerHTML = eventsHTML;
-    } else {
-      document.getElementById('events').innerHTML = '<em>No events scheduled for today.</em>';
-    }
-  })
-  .catch(error => console.error('Error loading events:', error));
-
-</script>
-
+    </script>
 
 </h5>
 
@@ -543,6 +531,7 @@ body {
 <br>
 
  
+
 
 
 
@@ -801,10 +790,9 @@ document.getElementById("online").innerHTML=" 3 ";
 
 
 
-
-
-
-
+<audio id="musicPlayer" autoplay loop >
+    <source id="musicSource" src="" type="audio/mpeg">
+</audio>
 
 
 
@@ -818,23 +806,42 @@ document.getElementById("online").innerHTML=" 3 ";
 
 <script>
 
-
-function setVolume(level) {
-  const musicPlayer = document.getElementById("musicPlayer");
-  musicPlayer.volume = level; // Level from 0.0 to 1.0
+function startMainPlayer() {
+  // Placeholder for future music player logic
+  console.log("Main player trigger received!");
 }
 
-// Example: adjust based on time
-const hour = new Date().getHours();
-if (hour < 9) {
-  setVolume(0.2); // morning
-} else if (hour >= 21) {
-  setVolume(0.3); // night
-} else {
-  setVolume(0.4); // default daytime
-}
+<audio id="djIntro" src="muziek/effects/DJ Saphire finale3.mp3"></audio>
 
+let djIntro; // Declare it in outer scope
+
+window.addEventListener('load', () => {
+  djIntro = document.getElementById('djIntro');
+  djIntro.muted = false;
+  djIntro.volume = 0.4;
+  djIntro.play().catch((error) => {
+    console.log("Intro can't be played automatically:", error);
+  });
+
+  setTimeout(() => {
+    startMainPlayer(); // your custom function
+  }, 30000);
+});
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -845,139 +852,78 @@ if (hour < 9) {
    
 
 
-
-
-
-
-
- // 🎛 Volume Balancer Function
-    function adjustVolumeDynamically(audioElement) {
-        let targetVolume = 0.8;  // Default volume level
-        let maxThreshold = 1; // Prevent distortion
-
-        audioElement.addEventListener("timeupdate", () => {
-            if (audioElement.volume < targetVolume) {
-                audioElement.volume = Math.min(maxThreshold, audioElement.volume + 0.01);  // Smooth increase
-            } else if (audioElement.volume > targetVolume) {
-                audioElement.volume = Math.max(0, audioElement.volume - 0.01);  // Smooth decrease
-            }
-        });
-    }
-
-
-
-
-window.addEventListener("load", () => {
-  loadTrack(0);        // Load your first track
-  playTrack();         // Start playing it
-if (curr_track) {
-  curr_track.muted = false;
-}
-
-});
-
-
-
-
-        
-</script>
-
-
-
-
+// Wait for the DOM to be ready
 document.addEventListener("DOMContentLoaded", () => {
-  const now  = new Date();
-  const day  = now.getDay();   // 0 = Sunday, 6 = Saturday
-  const hour = now.getHours(); // 0–23
+  const now   = new Date();
+  const day   = now.getDay();    // 0 = Sunday, 6 = Saturday
+  const hour  = now.getHours();  // 0–23
 
-  // All audio sets grouped by day + time
-  const audioSchedule = {
-    weekday: {
-      allDay: {
-        hourlySou:        "audio/its now.mp3",
-        quarterHourSou:   "muziek/effects/blast.mp3",
-        fortyFiveMinuteSou: "muziek/jingles/Sunny los.mp3"
-      }
-    },
-    saturday: {
-      morning: {
-        hourlySou:        "audio/its now.mp3",
-        quarterHourSou:   "muziek/effects/blast.mp3",
-        fortyFiveMinuteSou: "muziek/discjockeys/starten met Sunny.mp3"
-      },
-      afternoon: {
-        hourlySou:        "audio/its now.mp3",
-        quarterHourSou:   "muziek/effects/blast.mp3",
-        fortyFiveMinuteSou: "muziek/effects/DJ S.mp3"
-      },
-      evening: {
-        hourlySou:        "audio/its now.mp3",
-        quarterHourSou:   "muziek/effects/blast.mp3",
-        fortyFiveMinuteSou: "muziek/effects/DJ Saphire finale.mp3"
-      }
-    },
-    
+  // Weekday and Saturday as before
+  const weekdayAudioFiles = {
+    hourlySou:        "audio/its now.mp3",
+    quarterHourSou:   "muziek/effects/blast.mp3",
+    fortyFiveMinuteSou: "muziek/effects/DJ Saphire finale.mp3",
+    twentyFiveMinuteSou:"muziek/jingles/sunnymainjingle.mp3"
+};
 
+  const saturdayAudioFiles = {
+    hourlySou:        "audio/its now.mp3",
+    quarterHourSou:   "muziek/effects/best music.mp3",
+    fortyFiveMinuteSou: "muziek/effects/DJ Saphire finale.mp3",
+  twentyMinuteSou: "muziek/effects/Sunny Weekend Pirate.mp3"
+};
 
+  // Sunday splits
+  const sundayMorningAudioFiles = {
+     hourlySou:        "audio/its now.mp3",
+    quarterHourSou:   "muziek/effects/blast.mp3",
+    fortyFiveMinuteSou: "muziek/effects/best music.mp3",
+  twentyMinuteSou: "muziek/effects/Sunny Weekend Pirate.mp3"
+};
 
+  const sundayAfternoonAudioFiles = {
+    hourlySou:        "audio/its now.mp3",
+    quarterHourSou:   "muziek/effects/best music.mp3",
+    fortyFiveMinuteSou: "muziek/discjockeys/DJ S.mp3",
+twentyMinuteSou: "muziek/effects/Sunny Weekend Pirate.mp3"
 
-
-
-
-
-
-
-
-
-
-sunday: {
-      morning: {
-        hourlySou:        "audio/its now.mp3",
-        quarterHourSou:   "muziek/effects/blast.mp3",
-        fortyFiveMinuteSou: "muziek/jingles/Sunny los.mp3"
-      },
-      afternoon: {
-        hourlySou:        "audio/its now.mp3",
-        quarterHourSou:   "muziek/effects/blast.mp3",
-        fortyFiveMinuteSou: "muziek/effects/DJ Saphire finale.mp3"
-      },
-      evening: {
-        hourlySou:        "audio/its now.mp3",
-        quarterHourSou:   "muziek/effects/blast.mp3",
-        fortyFiveMinuteSou: "muziek/discjockeys/DJ S.mp3"
-      }
-    }
   };
 
-  // Helper to pick the right time slot
-  const getTimeSlot = (hour) => {
-    if (hour < 12) return "morning";
-    if (hour < 17) return "afternoon";
-    return "evening";
+  const sundayEveningAudioFiles = {
+    hourlySou:        "audio/its now.mp3",
+    quarterHourSou:   "muziek/effects/blast.mp3",
+    fortyFiveMinuteSou: "muziek/discjockeys/DJ S.mp3",
+ twentyMinuteSou: "muziek/effects/Sunny Weekend Pirate.mp3"
+
+
   };
 
-  // Selection logic using the schedule
+  // Select the right map
   let audioFiles;
-  if (day === 6) { // Saturday
-    audioFiles = audioSchedule.saturday[getTimeSlot(hour)];
-    console.log(`Using Saturday ${getTimeSlot(hour)} sounds.`);
+  if (day === 6) {
+    audioFiles = saturdayAudioFiles;
+    console.log("Using Saturday sounds.");
   }
-  else if (day === 0) { // Sunday
-    audioFiles = audioSchedule.sunday[getTimeSlot(hour)];
-    console.log(`Using Sunday ${getTimeSlot(hour)} sounds.`);
+  else if (day === 0) {
+    if (hour < 12) {
+      audioFiles = sundayMorningAudioFiles;
+      console.log("Using Sunday morning sounds.");
+    }
+    else if (hour < 17) {
+      audioFiles = sundayAfternoonAudioFiles;
+      console.log("Using Sunday afternoon sounds.");
+    }
+    else {
+      audioFiles = sundayEveningAudioFiles;
+      console.log("Using Sunday evening sounds.");
+    }
   }
-  else { // Weekdays
-    audioFiles = audioSchedule.weekday.allDay;
+  else {
+    audioFiles = weekdayAudioFiles;
     console.log("Using weekday sounds.");
   }
 
-  // audioFiles now holds the correct mapping for the current moment
-});
-
-
-
-
-// Assign the chosen sources
+  // Assign the chosen sources
   Object.entries(audioFiles).forEach(([id, src]) => {
     const audioEl = document.getElementById(id);
     if (audioEl) {
@@ -987,7 +933,7 @@ sunday: {
       console.error(`❌ No element with id="${id}" found.`);
     }
   });
- 
+
   // Attach your normalization logic
   document.querySelectorAll("audio").forEach(audio => {
     audio.addEventListener("canplay", () => adjustVolumeDynamically(audio));
@@ -997,8 +943,10 @@ sunday: {
   scheduleRangeSwap();
 });
 
-
-
+// Your existing volume‐normalization function
+function adjustVolumeDynamically(audio) {
+  // … your code here …
+}
 
 // Schedule reloads for midnight, noon and 6pm
 function scheduleRangeSwap() {
@@ -1028,14 +976,6 @@ function scheduleRangeSwap() {
 
 
 
-<audio id="musicPlayer" autoplay loop>
-  <source id="musicSource" type="audio/mpeg">
-</audio>
-
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const player = document.getElementById("musicPlayer");
-  const source = document.getElementById("musicSource");
 
 
 
@@ -1044,29 +984,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
- // 🎶 Define the tracks for each day
-    const tracks = {
-        0: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekend%20piratejinglepublic.mp3",
-        1: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
-        2: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
-        3: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
-        4: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3",
-        5: { 
-            early: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic.mp3", 
-            after17: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalepublic.mp3" 
-        },
-        6: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekend%20piratejinglepublic.mp3"
-    };
+
+
+
+
+
 
     
-  const today = new Date().getDay();
-  const selectedTrack = tracks[today];
-
-  source.src = selectedTrack;
-  player.load();
-  player.play().catch(err => console.warn("Autoplay blocked:", err));
-});
-</script>
 
 
 
@@ -1083,28 +1007,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-// 🕰 Get the current day and hour
-    const today = new Date().getDay();
-    const currentHour = new Date().getHours();
-
-    let selectedTrack;
-
-    // Special condition for Friday (5) to switch track after 17:00
-    if (today === 5) {
-        selectedTrack = currentHour >= 17 ? tracks[5].after17 : tracks[5].early;
-    } else {
-        selectedTrack = tracks[today];
-    }
-
-    // 🎧 Set the source and load the track
-    document.getElementById("musicSource").setAttribute('src', selectedTrack);
-    const player = document.getElementById("musicPlayer");
-    player.load(); 
-
-    // ✅ Apply volume normalization when the track is ready to play
-    player.addEventListener("canplay", () => {
-        adjustVolumeDynamically(player);
-    });
 
    
 
@@ -1114,7 +1016,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // ── Render the shuffled list in the DOM ──
     function renderTrackList() {
-      const ul = document.getElementById("track-list-container");
+      const ul = document.getElementById("track-list");
       ul.innerHTML = "";
       scheduledMp3Files.forEach((t, idx) => {
         const li = document.createElement("li");
@@ -1130,6 +1032,36 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+ // 🎛 Volume Balancer Function
+    function adjustVolumeDynamically(audioElement) {
+        let targetVolume = 0.8;  // Default volume level
+        let maxThreshold = 1; // Prevent distortion
+
+        audioElement.addEventListener("timeupdate", () => {
+            if (audioElement.volume < targetVolume) {
+                audioElement.volume = Math.min(maxThreshold, audioElement.volume + 0.01);  // Smooth increase
+            } else if (audioElement.volume > targetVolume) {
+                audioElement.volume = Math.max(0, audioElement.volume - 0.01);  // Smooth decrease
+            }
+        });
+    }
+
+
+
+window.addEventListener("load", () => {
+  loadTrack(0);        // Load your first track
+  playTrack();         // Start playing it
+if (curr_track) {
+  curr_track.muted = false;
+}
+
+});
+
+
+
+
+        
+</script>
 
 
 
@@ -1140,10 +1072,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("hero-image");
 
-
-
-
+//Set the src property of our element to the new image URL
+img.src = 'images/Jazzdivas.png';
+</script>
 
 
 
@@ -1222,6 +1157,13 @@ img.src = 'images/red star2.png';
 
 
 
+  <script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("myImage");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Miss Chang.png';
+</script>
 
 <script>
 //Get our img element by using document.getElementById
@@ -1320,13 +1262,24 @@ document.addEventListener("DOMContentLoaded", () => {
     <source src="" type="audio/mp3">
 </audio>
 
+
+<audio id="twentyMinuteSou">
+    <source src="" type="audio/mp3">
+</audio>
+<audio id="twentyFiveMinuteSou">
+    <source src="" type="audio/mp3">
+</audio>
+
+
+
 <script>
     // 🎧 Set the source for scheduled sounds
     document.getElementById("hourlySou").setAttribute('src', 'audio/its now.mp3');
     document.getElementById("quarterHourSou").setAttribute('src', 'muziek/effects/blast.mp3');
     document.getElementById("fortyFiveMinuteSou").setAttribute('src', 'muziek/jingles/Sunny los.mp3');
 
-    // ✅ Apply volume normalization when a track is ready to play
+    
+// ✅ Apply volume normalization when a track is ready to play
     document.querySelectorAll("audio").forEach(audio => {
         audio.addEventListener("canplay", () => adjustVolumeDynamically(audio));
     });
@@ -1559,7 +1512,9 @@ function generateSchedule() {
 
 
 
-<script defer src="main24.js"></script>
+
+<script src= "main24.js" defer> </script>
+
 
 
 
