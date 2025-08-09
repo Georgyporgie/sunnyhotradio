@@ -864,6 +864,20 @@ if (hour < 9) {
 
 
 
+window.addEventListener("load", () => {
+  loadTrack(0);        // Load your first track
+  playTrack();         // Start playing it
+if (curr_track) {
+  curr_track.muted = false;
+}
+
+});
+
+
+
+
+        
+</script>
 
 
 
@@ -1104,20 +1118,6 @@ function scheduleRangeSwap() {
 
 
 
-window.addEventListener("load", () => {
-  loadTrack(0);        // Load your first track
-  playTrack();         // Start playing it
-if (curr_track) {
-  curr_track.muted = false;
-}
-
-});
-
-
-
-
-        
-</script>
 
 
 
