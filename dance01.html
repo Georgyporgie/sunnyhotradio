@@ -561,7 +561,6 @@ body {
 
 
 
-
 <script>
 
 window.addEventListener("load", function () {
@@ -805,9 +804,13 @@ document.getElementById("online").innerHTML=" 3 ";
 
 
 
-<audio id="musicPlayer" autoplay loop>
-  <source id="musicSource"  type="audio/mpeg">
-</audio>
+
+
+
+
+
+
+
 
 
 
@@ -1025,9 +1028,14 @@ function scheduleRangeSwap() {
 
 
 
+<audio id="musicPlayer" autoplay loop>
+  <source id="musicSource" type="audio/mpeg">
+</audio>
 
-
-
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const player = document.getElementById("musicPlayer");
+  const source = document.getElementById("musicSource");
 
 
 
@@ -1051,7 +1059,14 @@ function scheduleRangeSwap() {
     };
 
     
+  const today = new Date().getDay();
+  const selectedTrack = tracks[today];
 
+  source.src = selectedTrack;
+  player.load();
+  player.play().catch(err => console.warn("Autoplay blocked:", err));
+});
+</script>
 
 
 
