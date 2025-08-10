@@ -4874,10 +4874,22 @@ timeCategory: "morning"
 
 
 
+{
+    name: "  Ibiza (mini mix) ",
+    artist: "  Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Ibiza mini mix - Ministry of Sound1.mp3",
+   timeCategory: "f evening-late"
+},
 
 
-
-
+{
+    name: "  Ibiza (mini mix) ",
+    artist: "  Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Ibiza mini mix - Ministry of Sound2.mp3",
+   timeCategory: "f evening-late"
+},
 
 
 
