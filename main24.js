@@ -4829,107 +4829,6 @@ timeCategory: "morning"
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: "  Ibiza (mini mix) ",
-    artist: "  Ministry Of Sound",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Ibiza mini mix - Ministry of Sound1.mp3",
-   timeCategory: "f evening-late"
-},
-
-
-{
-    name: "  Ibiza (mini mix) ",
-    artist: "  Ministry Of Sound",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Ibiza mini mix - Ministry of Sound2.mp3",
-   timeCategory: "f evening-late"
-},
-
-
-
-{
-    name: "   You And I ",
-    artist: "Rick James ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Rick James - You and I.mp3",
-   timeCategory: "f evening-late"
-},
-
-
-
-
-
-
-
-{
-    name: "    Let It All Blow  ",
-    artist: "Dazz Band",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Dazz Band Let It All Blow.mp3",
-   timeCategory: "f evening-late"
-},
-
-
-
-
-
-{
-    name: " What You Waiting For  ",
-    artist: "Stargard",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Stargard - What you waiting for.mp3",
-   timeCategory: "f evening-late"
-},
-
-
-
-
 {
     name: "   Automatic",
     artist: "Pointer Sisters ",
@@ -8099,7 +7998,14 @@ timeCategory: "morning"
 
 
 
+{
+     name: "  Still In Love",
+    artist: "Rose Royce ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://soulfullforever.netlify.app/Rose Royce Still in love.mp3",
+         timeCategory: "evening"
 
+},
 
 
 
@@ -20789,6 +20695,107 @@ timeCategory: "f evening"
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "  Ibiza (mini mix) ",
+    artist: "  Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Ibiza mini mix - Ministry of Sound1.mp3",
+   timeCategory: "f evening-late"
+},
+
+
+{
+    name: "  Ibiza (mini mix) ",
+    artist: "  Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Ibiza mini mix - Ministry of Sound2.mp3",
+   timeCategory: "f evening-late"
+},
+
+
+
+{
+    name: "   You And I ",
+    artist: "Rick James ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Rick James - You and I.mp3",
+   timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+
+{
+    name: "    Let It All Blow  ",
+    artist: "Dazz Band",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Dazz Band Let It All Blow.mp3",
+   timeCategory: "f evening-late"
+},
+
+
+
+
+
+{
+    name: " What You Waiting For  ",
+    artist: "Stargard",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Stargard - What you waiting for.mp3",
+   timeCategory: "f evening-late"
+},
 
 
 
