@@ -498,19 +498,33 @@ margin-top: -70px; margin-right: 7px;
 }
 
 
-
 #travolta{
   
   /* Used if the image is unavailable */
 /* You must set a specified height */
  
 
-
+  background-size: cover;
+  background-position: center;  /* keep the “focus” in the middle */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* optional: parallax feel on desktop */
 background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 filter:opacity(20%); display: block; margin: auto auto auto auto; z-index: -200; border-radius:10px;
-width: 355px; height: 217px;
+width: 325px; height: 370px;
+
+
+
+}
+
+/* For small screens, adjust position or swap image */
+@media (max-width: 600px) {
+  .hero {
+    background-position: top center; /* show more of the top on phones */
+    /* or use a different, mobile‑optimized image */
+    background-image: url('images/your-pic-mobile.jpg');
+  }
 }
 
 
@@ -525,17 +539,31 @@ width: 355px; height: 217px;
 
 
 #hero-image {
-  /* The image used */
- /* Used if the image is unavailable */
+  /  /* Used if the image is unavailable */
 /* You must set a specified height */
  
 
-
+  background-size: cover;
+  background-position: center;  /* keep the “focus” in the middle */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* optional: parallax feel on desktop */
 background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 filter:opacity(20%); display: block; margin: auto auto auto auto; z-index: -200; border-radius:10px;
 width: 355px; height: 370px;
+
+
+
+}
+
+/* For small screens, adjust position or swap image */
+@media (max-width: 600px) {
+  .hero {
+    background-position: top center; /* show more of the top on phones */
+    /* or use a different, mobile‑optimized image */
+    background-image: url('images/your-pic-mobile.jpg');
+  }
 }
 
 
@@ -880,17 +908,33 @@ color: black;margin-left: 10px;
 
 
 #max{
-  /* The image used */
+
+  
   /* Used if the image is unavailable */
 /* You must set a specified height */
  
 
-
+  background-size: cover;
+  background-position: center;  /* keep the “focus” in the middle */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* optional: parallax feel on desktop */
 background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 filter:opacity(20%); display: block; margin: auto auto auto auto; z-index: -200; border-radius:10px;
 width: 325px; height: 370px;
+
+
+
+}
+
+/* For small screens, adjust position or swap image */
+@media (max-width: 600px) {
+  .hero {
+    background-position: top center; /* show more of the top on phones */
+    /* or use a different, mobile‑optimized image */
+    background-image: url('images/your-pic-mobile.jpg');
+  }
 }
 
 
