@@ -37,15 +37,7 @@
   
  
 
-<!-- Add a handwritten font -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&display=swap" rel="stylesheet">
 
-<style>
-  .artist-card { display: inline-block; text-align: center; }
-  .handwritten { font-family: "Caveat", cursive; font-size: 1.25rem; margin-top: 0.4rem; }
-</style>
 
 
 
@@ -456,139 +448,37 @@ body {
 
  </div>
 
-<div class="page">
+
+<div>
 <h5 class="inch"><em>Sunny Dance<span class="dark"> Radio</span> Stars</em></h5>
  <br>
-
+<br>
 <img id="ion">
 
-<br><br>
-<br><br>
+<br>
+<br>
+<br>
+<br>
 
 
-<figure class="artist-card">
-  <img id="travolta" alt="Scheduled visual">
-  <figcaption id="travolta-name" class="handwritten"></figcaption>
-</figure>
-
-<br><br>
-
-<figure class="artist-card">
-  <img id="max" alt="Secondary visual">
-  <figcaption id="max-name" class="handwritten"></figcaption>
-</figure>
-    </div>
-  </div>
-
-  <script>
-    // ---------- Data ----------
- const IMAGES = {
-  sunday: [
-    { start: 6,  end: 12, src: 'images/Ava Max.png',           alt: 'Sunday Service',             artist: 'Ava Max' },
-    { start: 12, end: 17, src: 'images/Bebe Rexha.png',        alt: 'Miss Monique (afternoon)',   artist: 'Bebe Rexha' },
-    { start: 17, end: 21, src: 'images/SG Lewis.jpg',          alt: 'DJ Set',                     artist: 'SG Lewis' },
-    { start: 21, end: 24, src: 'images/Bebe Rexha.png',        alt: 'Off-hours',                  artist: 'Bebe Rexha' },
-    { start: 0,  end: 6,  src: 'images/janelle monae.jpg',     alt: 'Off-hours',                  artist: 'Janelle Monáe' }
-  ],
-  weekendish: [
-    { start: 6,  end: 12, src: 'images/Ava Max.png',           alt: 'Sunday Service',             artist: 'Ava Max' },
-    { start: 12, end: 17, src: 'images/Bebe Rexha.png',        alt: 'Miss Monique (afternoon)',   artist: 'Bebe Rexha' },
-    { start: 17, end: 21, src: 'images/SG Lewis.jpg',          alt: 'DJ Set',                     artist: 'SG Lewis' },
-    { start: 21, end: 24, src: 'images/Bebe Rexha.png',        alt: 'Off-hours',                  artist: 'Bebe Rexha' },
-    { start: 0,  end: 6,  src: 'images/janelle monae.jpg',     alt: 'Off-hours',                  artist: 'Janelle Monáe' }
-  ],
-  weekday: [
-    { start: 6,  end: 12, src: 'images/sexy.jpg',              alt: 'Sunday Service',             artist: 'Sexy Babes!' }, 
-    { start: 12, end: 17, src: 'images/The weeknd.png',        alt: 'Miss Monique (afternoon)',   artist: 'The Weeknd' },
-    { start: 17, end: 21, src: 'images/Lola Young.avif',       alt: 'DJ Set',                     artist: 'Lola Young' },
-    { start: 21, end: 24, src: 'images/Bebe and David.jpg',    alt: 'Off-hours',                  artist: 'Bebe Rexha & David Guetta' },
-    { start: 0,  end: 6,  src: 'images/saweetie-portrait.avif',  alt: 'Off-hours',                artist: 'Saweetie' }
-  ]
-};
+<img  id= "travolta"> 
+<br>
+<br>
+<p > Doechii</p>
+<br>
+<br>
+<br>
+<br>
 
 
-    // ---------- Helpers ----------
-    function isSunday(d) { return d.getDay() === 0; }
-    function isWeekendish(d) {
-      const day = d.getDay();
-      const hour = d.getHours();
-      return day === 6 || (day === 5 && hour >= 18);
-    }
-    function getRulesFor(now) {
-      return isSunday(now) ? IMAGES.sunday : (isWeekendish(now) ? IMAGES.weekendish : IMAGES.weekday);
-    }
-    function getRuleFor(now) {
-      const hour = now.getHours();
-      return getRulesFor(now).find(r => hour >= r.start && hour < r.end);
-    }
-    function getComplementaryRule(now, excludeSrc) {
-      const rules = getRulesFor(now);
-      const currentIndex = rules.findIndex(r => r.src === excludeSrc);
-      if (currentIndex === -1) return getRuleFor(now);
-      const nextIndex = (currentIndex + 1) % rules.length;
-      return rules[nextIndex];
-    }
-    function preloadImages() {
-      const srcs = new Set();
-      Object.values(IMAGES).flat().forEach(r => srcs.add(r.src));
-      srcs.forEach(src => { const img = new Image(); img.src = src; });
-    }
-   function deriveArtistName(src) {
-  // Take filename, strip extension, tidy spacing, Title Case
-  const filename = src.split('/').pop().replace(/\.[^.]+$/, '');
-  const cleaned = filename.replace(/[_-]+/g, ' ').replace(/\s+/g, ' ').trim();
-  return cleaned.replace(/\b\w/g, c => c.toUpperCase());
-}
+<img id= "max">
+<br>
+<br>
+<p > Saweetie</p>
 
-function getArtist(rule) {
-  return rule.artist || deriveArtistName(rule.src);
-}
-
-function setImage(el, rule) {
-  if (!el || !rule) return;
-  if (el.dataset.currentSrc === rule.src) return;
-  el.src = rule.src;
-  el.alt = rule.alt || '';
-  el.dataset.currentSrc = rule.src;
-
-  // Write caption into a figcaption with ID pattern "<imgId>-name"
-  const cap = document.getElementById(`${el.id}-name`);
-  if (cap) cap.textContent = getArtist(rule);
-}
-
-
-    function updateImages() {
-      const now = new Date();
-      const ruleTravolta = getRuleFor(now);
-      const ruleMax = getComplementaryRule(now, ruleTravolta.src);
-
-      setImage(document.getElementById('travolta'), ruleTravolta);
-      setImage(document.getElementById('max'), ruleMax);
-    }
-
-    function scheduleNextUpdate() {
-      const now = new Date();
-      const next = new Date(now);
-      next.setSeconds(0, 0);
-      if (now.getSeconds() !== 0 || now.getMilliseconds() !== 0) {
-        next.setMinutes(now.getMinutes() + 1);
-      }
-      const ms = next - now;
-      setTimeout(() => {
-        updateImages();
-        setInterval(updateImages, 60 * 1000);
-      }, ms);
-    }
-
-    // ---------- Init ----------
-    window.addEventListener('DOMContentLoaded', () => {
-      preloadImages();
-      updateImages();
-      scheduleNextUpdate();
-    });
-  </script>
 
 </div>
+
 
 
 
@@ -811,7 +701,13 @@ img.src = 'images/alexander.png';
 
 
 
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("max");
 
+//Set the src property of our element to the new image URL
+img.src = 'images/saweetie-portrait.avif';
+</script>
 
 
 
@@ -832,7 +728,7 @@ img.src = 'images/Sunny DanceRadio444.png';
 var img = document.getElementById("playlist");
 
 //Set the src property of our element to the new image URL
-img.src = 'images/Sunny playlist2.png';
+img.src = 'images/Sunny playlist.png';
 </script>
 
 
@@ -982,7 +878,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const sundayEveningAudioFiles = {
     hourlySou:        "audio/its now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
-    fortyFiveMinuteSou: "muziek/discjockeys/DJ S.mp3"
+   fortyFiveMinuteSou: "muziek/effects/DJ Saphire finale.mp3"
   };
 
   // Select the right map
@@ -1219,6 +1115,13 @@ img.src = 'images/sunny stars.png';
 
 
 
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("travolta");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Doechii.jpg';
+</script>
 
 
 
@@ -1639,3 +1542,4 @@ function generateSchedule() {
 
 </body>
 </html>
+
