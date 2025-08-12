@@ -876,8 +876,8 @@ margin-top: 45px; margin-left: 10px;height: 50px; width: 65px;
 
 #chat {
 display:block;
-margin:auto auto auto auto; z-index:200; 
-filter: brightness(105%) saturate(110%) contrast(105%);
+margin:auto auto auto auto; z-index:-200; 
+filter: brightness(100%) saturate(105%) contrast(100%)opacity (70%);
 }
 
 
