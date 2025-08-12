@@ -1079,7 +1079,7 @@ z-index: 200; font-style: bold;font-family:myEvent;
 
 .handwritten {
   font-family: "Caveat", cursive;
-  font-size: 1.25rem;
+  font-size: 1.25rem; z-index: -200;
   margin-top: 0.4rem; /* fallback if not overlaid */
 }
 
