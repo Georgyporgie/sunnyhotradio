@@ -3487,13 +3487,6 @@ timeCategory: "morning"
 
 
 
-{
-    name: "Mind Up Tonight",
-    artist: "Melba Moore",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Melba Moore - Mind up tonight.mp3",
-timeCategory: "morning"
-},
 
 
 
@@ -7754,7 +7747,22 @@ timeCategory: "morning"
 
 
 
+{
+    name: "  Ibiza (mini mix) ",
+    artist: "  Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Ibiza mini mix - Ministry of Sound1.mp3",
+   timeCategory: "afternoon"
+},
 
+
+{
+    name: "  Ibiza (mini mix) ",
+    artist: "  Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Ibiza mini mix - Ministry of Sound2.mp3",
+   timeCategory: "afternoon"
+},
 
 
 
