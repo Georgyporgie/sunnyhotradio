@@ -5373,13 +5373,7 @@ timeCategory: "morning"
 
 
 
-{
-    name: "Born To Be Alive",
-    artist: "Patrick Hernandez ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies01.netlify.app/Patrick Hernandez Born to be alive.mp3",
-     timeCategory: "afternoon"
-},
+
 
 {
     name: "Juice",
