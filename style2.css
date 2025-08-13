@@ -1099,3 +1099,12 @@ z-index: 200; font-style: bold;font-family:myEvent;
 p  { font-family: Arial;   font-size: 20px; font-style: italic; font-weight: bold;margin-left: 20px;color:  #FF0000;
 }
 
+
+
+
+
+#stars {
+display:block;
+margin:auto auto auto auto; z-index:-200; 
+filter: brightness(100%) saturate(105%) contrast(100%)opacity (70%);
+}
