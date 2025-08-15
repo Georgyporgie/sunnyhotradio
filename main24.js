@@ -3783,13 +3783,6 @@ timeCategory: "morning"
 
 
 
-{
-    name: " It's All The Way Live",
-    artist: "Lakeside ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies04.netlify.app/Lakeside - It's All The Way Live.mp3",
-          timeCategory: "morning"
-},
 
 
 
