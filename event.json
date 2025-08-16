@@ -8,18 +8,19 @@
     ],
     "Saturday": [
       { "time": "03:00 - 12:00", "event": "Morning Disco" },
-      { "time": "12:00 - 17:00", "event": " DJ'S Dance Event" },
-      { "time": "17:00 - 21:00", "event": "Lovely Miss Monique!" },
+      { "time": "12:00 - 17:00", "event": "Lovely Miss Monique!" },
+      { "time": "17:00 - 21:00", "event": " DJ'S Dance Event" },
       { "time": "21:00 - 23:00", "event": "'Sapphire Again!" }
     ],
-    "Sunday": [
+    "Saturday": [
       { "time": "03:00 - 12:00", "event": "Morning Disco" },
-      { "time": "12:00 - 17:00", "event": " DJ'S Disco Event" },
-      { "time": "17:00 - 21:00", "event": "Lovely Miss Monique!" },
-      { "time": "21:00 - 23:00", "event": "'S Again!" }
+      { "time": "12:00 - 17:00", "event": "Lovely Miss Monique!" },
+      { "time": "17:00 - 21:00", "event": " DJ'S Disco Event" },
+      { "time": "21:00 - 23:00", "event": "'Sapphire Again!" }
     ]
   }
 }
+
 
 
 
