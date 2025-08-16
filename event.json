@@ -10,7 +10,7 @@
       { "time": "03:00 - 12:00", "event": "Morning Disco" },
       { "time": "12:00 - 17:00", "event": " DJ'S Dance Event" },
       { "time": "17:00 - 21:00", "event": "Lovely DJ Sapphire!" },
-      { "time": "21:00 - 23:00", "event": "'S Live!" }
+      { "time": "21:00 - 23:00", "event": "'Sapphire Again!" }
     ],
     "Sunday": [
       { "time": "03:00 - 12:00", "event": "Morning Disco" },
@@ -20,6 +20,7 @@
     ]
   }
 }
+
 
 
 
