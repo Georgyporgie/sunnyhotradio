@@ -3703,13 +3703,7 @@ timeCategory: "morning"
  timeCategory: "morning"
 },
 
-{
-    name: "Lowdown (12inch)",
-    artist: "Boz Scaggs",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies01.netlify.app/Boz Scaggs3 - Lowdown.mp3",
- timeCategory: "morning"
-},
+
 
 
 {
@@ -9033,13 +9027,7 @@ timeCategory: "morning"
    timeCategory: "evening"
 },
 
-{
-    name: "Lowdown (12inch)",
-    artist: "Boz Scaggs",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies01.netlify.app/Boz Scaggs3 - Lowdown.mp3",
-  timeCategory: "evening"
- },
+
 
 
 
@@ -11184,6 +11172,13 @@ timeCategory: "morning"
 
 
 
+{
+    name: "Cassius 1999",
+    artist: "Cassius",
+     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Cassius - Cassius 1999.mp3",
+    timeCategory: "evening-late"
+},
 
 
 
@@ -18284,7 +18279,7 @@ timeCategory: "evening-late"
 
 
 {
-    name: " Billy Jean (1982)",
+    name: " Billie Jean (1982)",
     artist: "Michael Jackson   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Michael Jackson - Billy Jean (1982).mp3",
