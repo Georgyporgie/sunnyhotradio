@@ -869,7 +869,27 @@ let trackList = [
 
 
 
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire03.mp3",
+       timeCategory: "morning"
+},
 
+
+
+
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire02.mp3",
+       timeCategory: "morning"
+},
 
 
 
@@ -4596,7 +4616,27 @@ timeCategory: "morning"
 
 
 
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire03.mp3",
+       timeCategory: "afternoon"
+},
 
+
+
+
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire02.mp3",
+       timeCategory: "afternoon"
+},
 
 
 
@@ -7970,7 +8010,27 @@ timeCategory: "morning"
 
 
 
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire03.mp3",
+       timeCategory: "evening"
+},
 
+
+
+
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire02.mp3",
+       timeCategory: "evening"
+},
 
 
 
@@ -11043,6 +11103,27 @@ timeCategory: "morning"
 
 
 
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire03.mp3",
+       timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire02.mp3",
+       timeCategory: "evening-late"
+},
 
 
 
@@ -18266,7 +18347,23 @@ timeCategory: "evening-late"
    timeCategory: "f afternoon"
 },
 
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire02.mp3",
+       timeCategory: "f afternoon"
+},
 
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire03.mp3",
+       timeCategory: "f afternoon"
+},
 
 
 {
@@ -19261,7 +19358,23 @@ timeCategory: "evening-late"
 
 
 
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire02.mp3",
+       timeCategory: "f evening"
+},
 
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire03.mp3",
+       timeCategory: "f evening"
+},
 
 
 
@@ -20566,7 +20679,23 @@ timeCategory: "f evening"
 
 
 
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire02.mp3",
+       timeCategory: "f evening-late"
+},
 
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire03.mp3",
+       timeCategory: "f evening-late"
+},
 
 
 
