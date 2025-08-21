@@ -22404,85 +22404,79 @@ applyBlinkingEffect();
 
 
 
-    const tracksToDisplayInitially = 10; // Number of tracks initially visible
-    const additionalTracksPerClick = 5; // Number of tracks to load per click
-    let currentDisplayLimit = tracksToDisplayInitially;
+    // ===== Keyword highlighting =====
+function emphasizeKeywords(text) {
+  return text.replace(/(classic|maxi|12inch|new|\b\d{4}\b)/gi, function(match) {
+    if (match.toLowerCase() === 'new') {
+      return '<em class="blinking-new">' + match + '</em>';
+    }
+    return '<em>' + match + '</em>';
+  });
+}
 
-   function displaytrackList(limit = currentDisplayLimit) {
+// ===== Playlist rendering =====
+const tracksToDisplayInitially = 10; // Number of tracks initially visible
+const additionalTracksPerClick = 5;  // Number of tracks to load per click
+let currentDisplayLimit = tracksToDisplayInitially;
+
+// Build the playlist up to the current limit
+function displayTrackList(limit = currentDisplayLimit) {
   const trackListElement = document.getElementById('track-list-container');
-  trackListElement.innerHTML = ''; // Clear the list before repopulating
+  trackListElement.innerHTML = ''; // Clear before repopulating
 
-  const limitedTracks = scheduledMp3Files.slice(0, limit); // Get limited number of tracks
+  const limitedTracks = scheduledMp3Files.slice(0, limit);
 
   limitedTracks.forEach((track) => {
     const lowerCaseName = track.name.toLowerCase();
     const lowerCaseArtist = track.artist.toLowerCase();
 
+    // Filter out unwanted tracks
     if (!lowerCaseName.includes('yyy') && !lowerCaseArtist.includes('zzzz')) {
       const li = document.createElement('li');
-      li.textContent = `${track.name} - ${track.artist}`;
+
+      // Apply keyword emphasis
+      const emphasizedTrackName = emphasizeKeywords(track.name);
+      const emphasizedArtist = emphasizeKeywords(track.artist);
+
+      // Golden "by"
+      const coloredBy = ' <span style="color: goldenrod;">by</span> ';
+
+      li.innerHTML = `<strong>${emphasizedTrackName}</strong>${coloredBy}${emphasizedArtist}`;
       trackListElement.appendChild(li);
-    
-}
+    }
   });
 
- 
-
-  // Hide the "Show More" button if all tracks are displayed
+  // Hide "Show More" if all tracks are displayed
   const showMoreButton = document.getElementById('show-more-button');
   if (limit >= scheduledMp3Files.length) {
-    showMoreButton.style.display = 'none'; console.log('Button clicked!');
+    showMoreButton.style.display = 'none';
+  } else {
+    showMoreButton.style.display = 'block';
   }
 }
 
+// ===== Highlight current track =====
 function applyBlinkingEffect() {
-  let allTracks = document.querySelectorAll('ul li'); // Get all <li> elements
-  allTracks.forEach(track => track.classList.remove('blinking')); // Remove "blinking" from all
+  const allTracks = document.querySelectorAll('#track-list-container li');
+  allTracks.forEach(track => track.classList.remove('blinking'));
 
-  // Add "blinking" class to the current track
-  if (allTracks[track_index]) { // Ensure the current track exists in the filtered list
+  if (allTracks[track_index]) {
     allTracks[track_index].classList.add('blinking');
   } else {
-    console.error("Filtered track not found in the DOM!");
+    console.error("Current track not found in the DOM!");
   }
- 
 }
 
-
-
-
-
-
-// Event listener for "Show More" button
+// ===== Event listener for "Show More" =====
 document.getElementById('show-more-button').addEventListener('click', () => {
-  currentDisplayLimit += additionalTracksPerClick; // Increase the limit
-  displaytrackList(); // Refresh the track list
-
-// Highlight the current track in the playlist
-  applyBlinkingEffect(); // Ensure blinking effect is reapplied after updating the list
-
-
-
-
-
-
-
-
-
+  currentDisplayLimit += additionalTracksPerClick;
+  displayTrackList();
+  applyBlinkingEffect();
 });
 
-// Initial display
-displaytrackList(); // Show initial tracks on page load
-
- 
-
-
-
-
-
-
-
-
+// ===== Initial load =====
+displayTrackList();
+applyBlinkingEffect();
 
 
 
