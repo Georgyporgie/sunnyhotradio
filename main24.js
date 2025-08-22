@@ -15411,7 +15411,7 @@ timeCategory: "evening-late"
 
 {
     name: " Free ",
-    artist: "Ultra Naté ",
+    artist: "Ultra Nate ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Ultra Naté - Free.mp3",
   
@@ -22419,7 +22419,6 @@ const tracksToDisplayInitially = 10; // Number of tracks initially visible
 const additionalTracksPerClick = 5;  // Number of tracks to load per click
 let currentDisplayLimit = tracksToDisplayInitially;
 
-// Build the playlist up to the current limit
 function displayTrackList(limit = currentDisplayLimit) {
   const trackListElement = document.getElementById('track-list-container');
   trackListElement.innerHTML = ''; // Clear before repopulating
@@ -22427,32 +22426,21 @@ function displayTrackList(limit = currentDisplayLimit) {
   const limitedTracks = scheduledMp3Files.slice(0, limit);
 
   limitedTracks.forEach((track) => {
-    const lowerCaseName = track.name.toLowerCase();
-    const lowerCaseArtist = track.artist.toLowerCase();
+    const li = document.createElement('li');
 
-    // Filter out unwanted tracks
-    if (!lowerCaseName.includes('yyy') && !lowerCaseArtist.includes('zzzz')) {
-      const li = document.createElement('li');
+    // Apply keyword emphasis
+    const emphasizedTrackName = emphasizeKeywords(track.name);
+    const emphasizedArtist = emphasizeKeywords(track.artist);
 
-      // Apply keyword emphasis
-      const emphasizedTrackName = emphasizeKeywords(track.name);
-      const emphasizedArtist = emphasizeKeywords(track.artist);
+    // Golden "by"
+    const coloredBy = ' <span style="color: goldenrod;">by</span> ';
 
-      // Golden "by"
-      const coloredBy = ' <span style="color: goldenrod;">by</span> ';
-
-      li.innerHTML = `<strong>${emphasizedTrackName}</strong>${coloredBy}${emphasizedArtist}`;
-      trackListElement.appendChild(li);
-    }
+    li.innerHTML = `<strong>${emphasizedTrackName}</strong>${coloredBy}${emphasizedArtist}`;
+    trackListElement.appendChild(li);
   });
 
-  // Hide "Show More" if all tracks are displayed
   const showMoreButton = document.getElementById('show-more-button');
-  if (limit >= scheduledMp3Files.length) {
-    showMoreButton.style.display = 'none';
-  } else {
-    showMoreButton.style.display = 'block';
-  }
+  showMoreButton.style.display = limit >= scheduledMp3Files.length ? 'none' : 'block';
 }
 
 // ===== Highlight current track =====
