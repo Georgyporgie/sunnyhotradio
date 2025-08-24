@@ -579,7 +579,16 @@ height: 200px; width: 300px; display: block; margin: auto auto auto auto; z-inde
 #track-list-container {  font-size: 15px; color: #FF0000; font-family: Arial ,Helvetica,sans-serif;
  margin-left: 0px ; background:linear-gradient(45deg,#0033FF,#006666,#003399);     border-radius: 20px;  border: solid 3px #FF0000; font-weight:800; padding: 15px;
  visibility: visible; position: relative; /* Required for z-index to work */
+
   z-index: -200; /* Modify based on layering needs */
+}
+
+#track-list-container em {
+  background-color: #fff8dc;
+  color: #b8860b;
+  font-style: normal;
+  padding: 0 4px;
+  border-radius: 3px;
 }
 
 
@@ -1108,3 +1117,12 @@ display:block;
 margin:auto auto auto auto; z-index:-200; 
 filter: brightness(100%) saturate(105%) contrast(100%)opacity (70%);
 }
+
+
+#crownImage  {  width: 50px;  height: 50px;filter: brightness(105%) saturate(105%) contrast(105%)opacity (75%); margin-bottom: -90px;
+margin-left: 150px;
+
+}
+
+
+
