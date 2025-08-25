@@ -22374,7 +22374,7 @@ applyBlinkingEffect();
     // ===== Keyword highlighting =====
 function emphasizeKeywords(text) {
   return text.replace(/(classic|maxi|12inch|new|\b\d{4}\b)/gi, function(match) {
-    if (match.toLowerCase() === 'new') {
+    if (match.toLowerCase() === '(new)') {
       return '<em class="blinking-new">' + match + '</em>';
     }
     return '<em>' + match + '</em>';
@@ -22404,7 +22404,21 @@ function displayTrackList(limit = currentDisplayLimit) {
 
     li.innerHTML = `<strong>${emphasizedTrackName}</strong>${coloredBy}${emphasizedArtist}`;
     trackListElement.appendChild(li);
+  
+
+// 🔹 Hover effect
+  li.addEventListener('mouseenter', () => {
+    li.classList.add('hover-highlight');
   });
+
+  li.addEventListener('mouseleave', () => {
+    li.classList.remove('hover-highlight');
+  });
+
+  trackListElement.appendChild(li);
+
+
+});
 
   const showMoreButton = document.getElementById('show-more-button');
   showMoreButton.style.display = limit >= scheduledMp3Files.length ? 'none' : 'block';

@@ -580,7 +580,7 @@ height: 200px; width: 300px; display: block; margin: auto auto auto auto; z-inde
  margin-left: 0px ; background:linear-gradient(45deg,#0033FF,#006666,#003399);     border-radius: 20px;  border: solid 3px #FF0000; font-weight:800; padding: 15px;
  visibility: visible; position: relative; /* Required for z-index to work */
 
-  z-index: -200; /* Modify based on layering needs */
+ /* Modify based on layering needs */
 }
 
 #track-list-container em {
@@ -589,6 +589,7 @@ height: 200px; width: 300px; display: block; margin: auto auto auto auto; z-inde
   font-style: normal;
   padding: 0 4px;
   border-radius: 3px;
+
 }
 
 
@@ -1125,4 +1126,62 @@ margin-left: 150px;
 }
 
 
+.hover-highlight {
+  --glow-color: rgba(255, 215, 0, 0.8); /* main glow color */
+  --glow-color-fade: rgba(255, 215, 0, 0.4); /* softer outer glow */
 
+  position: relative;
+  cursor: pointer;
+  animation: glowPulse 1.5s infinite alternate;
+  transition: background-color 0.2s ease, box-shadow 0.3s ease-in-out;
+  overflow: hidden; /* keep ripple inside */
+}
+
+.hover-highlight:hover::after {
+  animation: rippleGlow 0.8s ease-out;
+  animation-delay: 0.05s;
+}
+
+.hover-highlight::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: radial-gradient(circle, var(--glow-color-fade) 0%, rgba(0,0,0,0) 80%);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+@keyframes glowPulse {
+  0% {
+    box-shadow: 0 0 5px var(--glow-color-fade),
+                0 0 10px var(--glow-color-fade),
+                0 0 15px var(--glow-color-fade);
+  }
+  100% {
+    box-shadow: 0 0 15px var(--glow-color),
+                0 0 25px var(--glow-color-fade),
+                0 0 35px var(--glow-color-fade);
+  }
+}
+
+@keyframes rippleGlow {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 0.6;
+    background: radial-gradient(circle, var(--glow-color-fade) 0%, rgba(0,0,0,0) 80%);
+  }
+  70% {
+    opacity: 0.3;
+  }
+  100% {
+    width: 300%;
+    height: 300%;
+    opacity: 0;
+  }
+}
