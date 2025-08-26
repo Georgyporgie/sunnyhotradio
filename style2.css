@@ -862,7 +862,7 @@ margin: auto auto auto auto; z-index: 200;filter: brightness(105%) saturate(110%
 
 
 
-#stopw { position: absolute; filter: brightness(110%) saturate(120%) contrast(110%) opacity(80%);  z-index: 0; 
+#stopw { position: absolute; filter: brightness(105%) saturate(105%) contrast(105%) opacity(60%);  z-index: 0; 
 
 
 
@@ -873,7 +873,7 @@ margin-top: 50px; margin-left: 10px;height: 45px; width: 50px;
 
 
 
-#stopwa  {  filter: brightness(110%) saturate(120%) contrast(110%) opacity(75%);  z-index: 0;
+#stopwa  {  filter: brightness(105%) saturate(105%) contrast(105%) opacity(60%);   z-index: 0;
 
 
 
