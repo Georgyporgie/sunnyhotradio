@@ -7054,7 +7054,7 @@ timeCategory: "morning"
 
 
 {
-    name: " Closer To The Floor (new)",
+    name: " Closer To The Floor ",
     artist: "Jazzy & Ankhoï ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Jazzy & Ankhoï - Closer To The Floor.mp3",
@@ -7064,7 +7064,7 @@ timeCategory: "morning"
 
 
 {
-    name: "  A little Bit Wild (new)",
+    name: "  A little Bit Wild ",
     artist: "Sophie And The Giants  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Sophie And The Giants - A little Bit Wild.mp3",
@@ -18423,7 +18423,7 @@ timeCategory: "evening-late"
 
 
 {
-    name: " Closer To The Floor (new)",
+    name: " Closer To The Floor ",
     artist: "Jazzy & Ankhoï ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Jazzy & Ankhoï - Closer To The Floor.mp3",
@@ -18560,7 +18560,7 @@ timeCategory: "evening-late"
 
 
 {
-    name: " Closer To The Floor (new)",
+    name: " Closer To The Floor ",
     artist: "Jazzy & Ankhoï ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Jazzy & Ankhoï - Closer To The Floor.mp3",
@@ -18667,7 +18667,7 @@ timeCategory: "evening-late"
 
 
 {
-    name: " Closer To The Floor (new)",
+    name: " Closer To The Floor ",
     artist: "Jazzy & Ankhoï ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Jazzy & Ankhoï - Closer To The Floor.mp3",
@@ -19425,7 +19425,7 @@ timeCategory: "f evening"
 
 {
      name: "Beautiful People ",
-    artist: "David Guetta Ft. Sia & Rihanna (new)",
+    artist: "David Guetta Ft. Sia & Rihanna ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/David Guetta Ft. Sia & Rihanna - Beautiful People.mp3",
     timeCategory: "f evening"
@@ -19435,7 +19435,7 @@ timeCategory: "f evening"
 
 {
      name: " Anxiety ",
-    artist: "Doechii (new)",
+    artist: "Doechii ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Doechii - Anxiety.mp3",
     timeCategory: "f evening"
@@ -19450,7 +19450,7 @@ timeCategory: "f evening"
 
 {
      name: " Handlebars",
-    artist: "Jennie & Dua Lipa (new)",
+    artist: "Jennie & Dua Lipa ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Jennie & Dua Lipa - Handlebars.mp3",
     timeCategory: "f evening"
@@ -19485,7 +19485,7 @@ timeCategory: "f evening"
 
 {
      name: " Beautiful People ",
-    artist: "Sia David Guetta (new)",
+    artist: "Sia David Guetta ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Sia David Guetta - Beautiful People.mp3",
  timeCategory: "f evening"
@@ -20681,7 +20681,7 @@ timeCategory: "f evening"
 
 {
      name: "Beautiful People ",
-    artist: "David Guetta Ft. Sia & Rihanna (new)",
+    artist: "David Guetta Ft. Sia & Rihanna ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/David Guetta Ft. Sia & Rihanna - Beautiful People.mp3",
     timeCategory: "f evening-late"
@@ -20691,7 +20691,7 @@ timeCategory: "f evening"
 
 {
      name: " Anxiety ",
-    artist: "Doechii (new)",
+    artist: "Doechii ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Doechii - Anxiety.mp3",
     timeCategory: "f evening-late"
@@ -20706,7 +20706,7 @@ timeCategory: "f evening"
 
 {
      name: " Handlebars",
-    artist: "Jennie & Dua Lipa (new)",
+    artist: "Jennie & Dua Lipa ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Jennie & Dua Lipa - Handlebars.mp3",
     timeCategory: "f evening-late"
@@ -20741,7 +20741,7 @@ timeCategory: "f evening"
 
 {
      name: " Beautiful People ",
-    artist: "Sia David Guetta (new)",
+    artist: "Sia David Guetta ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Sia David Guetta - Beautiful People.mp3",
  timeCategory: "f evening-late"
