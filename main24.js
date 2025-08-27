@@ -681,7 +681,7 @@ let trackList = [
 
 
 {
-    name: "Pacific State",
+    name: "Pacific State (1989)",
     artist: "808 State  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/808 state - Pacific State.mp3",
@@ -706,7 +706,7 @@ let trackList = [
 
 
 {
-    name: "West End Girls ",
+    name: "West End Girls (1984) ",
     artist: "Pet Shop Boys ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Pet Shop Boys - West End Girls (10'' Mix).mp3",
@@ -772,7 +772,7 @@ let trackList = [
 
 
 {
-     name: "   Number One ",
+     name: "   Number One (1985)",
     artist: "Princess  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Princess - Say I'm Your Number One.mp3",
@@ -812,7 +812,7 @@ let trackList = [
 
  
 {
-    name: " Da Ya Think I'm Sexy ",
+    name: " Da Ya Think I'm Sexy (1978) ",
     artist: "Rod Stewart  ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Rod Stewarrt - Da Ya Think I'm Sexy.mp3",
@@ -980,7 +980,7 @@ let trackList = [
 
 
 {
-    name: " Black Sun",
+    name: " Black Sun 1978) ",
     artist: "The Far Out Orchestra ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/The far out monster orchestra - Black sun.mp3",
@@ -1166,7 +1166,7 @@ let trackList = [
 
 
 {
-    name: "Stop To Love",
+    name: "Stop To Love (1986) ",
     artist: "Luther Vandross ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Luther Vandross - Stop To Love.mp3",
@@ -1491,7 +1491,7 @@ let trackList = [
 
 
 {
-    name: "On The Beat",
+    name: "On The Beat (1980)",
     artist: "BB & Q Band ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/BB Q Band - On the Beat.mp3",
@@ -1732,7 +1732,7 @@ let trackList = [
 
 
 {
-    name: "  Your Love",
+    name: "  Your Love (12inch)",
     artist: "Lime ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Lime - Your Love.mp3",
@@ -1969,7 +1969,7 @@ let trackList = [
 
 
 {
-    name: "Pump Up The Jam",
+    name: "Pump Up The Jam (1989)",
     artist: "Technotronic ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Technotronic - Pump Up The Jam.mp3",
@@ -2505,7 +2505,7 @@ let trackList = [
 
 
 {
-    name: " Like I like It ",
+    name: " Like I like It (1985) ",
     artist: " Aurra ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Aurra - Like I like It.mp3",
@@ -2577,7 +2577,7 @@ let trackList = [
 
 
 {
-    name: "Enjoy The Silence",
+    name: "Enjoy The Silence (1989)",
     artist: "Depeche Mode ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Depeche Mode - Enjoy The Silence.mp3",
@@ -2832,7 +2832,7 @@ let trackList = [
 },
 
 {
-    name: " Fly Robin Fly ",
+    name: " Fly Robin Fly (1975) ",
     artist: "Silver Convention",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Silver Convention - Fly Robin Fly.mp3",
@@ -2899,7 +2899,7 @@ let trackList = [
 
 
 {
-    name: " I Can't Wait",
+    name: " I Can't Wait (1985)",
     artist: "NU Shooz ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
@@ -3165,7 +3165,7 @@ let trackList = [
 
 
 {
-    name: " Risin To The Top",
+    name: " Risin To The Top (1982)",
     artist: "Kenny Burke  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Kenny Burke - Risin to the Top.mp3",
@@ -3186,7 +3186,7 @@ let trackList = [
 
 
 {
-    name: "Across 110th Street",
+    name: "Across 110th Street (1973)",
     artist: "Bobby Womack ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Bobby Womack - Across 110th street.mp3",
@@ -3319,7 +3319,7 @@ let trackList = [
 
 
 {
-    name: " It's All The Way Live",
+    name: " It's All The Way Live (1978)",
     artist: "Lakeside ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Lakeside - It's All The Way Live.mp3",
@@ -3353,7 +3353,7 @@ let trackList = [
 
 
 {
-    name: "Groovin' You",
+    name: "Groovin' You (1979)",
     artist: "Harvey Mason",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Harvey Mason - Groovin' You.mp3",
@@ -3496,7 +3496,7 @@ let trackList = [
 
 
 {
-    name: "Glow Of Love",
+    name: "Glow Of Love (1980)",
     artist: "Change ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Change - Glow Of Love.mp3",
@@ -3736,7 +3736,7 @@ timeCategory: "morning"
 
 
 {
-    name: "Spacer",
+    name: "Spacer (1979)",
     artist: "Sheila B Devotion",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Sheila B Devotion - Spacer.mp3",
@@ -3802,13 +3802,6 @@ timeCategory: "morning"
 
 
 
-{
-    name: "Right Here ",
-    artist: "SWV ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/SWV - Right Here.mp3",
-        timeCategory: "morning"
-},
 
 
 
@@ -4003,7 +3996,7 @@ timeCategory: "morning"
 
 
 {
-    name: " All Around The World",
+    name: " All Around The World (1989)",
     artist: "Lisa Stansfield  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Lisa Stansfield - All Around the World.mp3",
@@ -5485,7 +5478,7 @@ timeCategory: "morning"
 
 
 {
-    name: "On The Beat",
+    name: "On The Beat (1980)",
     artist: "BB & Q Band ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/BB Q Band - On the Beat.mp3",
@@ -6331,7 +6324,7 @@ timeCategory: "morning"
 
 
 {
-    name: " I Can't Wait",
+    name: " I Can't Wait (1985)",
     artist: "NU Shooz ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/NU Shooz - I Can't Wait.mp3",
@@ -9277,7 +9270,7 @@ timeCategory: "morning"
 
 
 {
-    name: "Pump Up The Jam",
+    name: "Pump Up The Jam (1989)",
     artist: "Technotronic ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Technotronic - Pump Up The Jam.mp3",
@@ -9409,7 +9402,13 @@ timeCategory: "morning"
 },
 
 
-
+{
+     name: "   Number One (1985)",
+    artist: "Princess  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Princess - Say I'm Your Number One.mp3",
+     timeCategory: "evening"
+ },
 
 
 
@@ -14173,7 +14172,14 @@ timeCategory: "evening-late",
 
 
 
-
+ 
+{
+    name: " Da Ya Think I'm Sexy (1978) ",
+    artist: "Rod Stewart  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Rod Stewarrt - Da Ya Think I'm Sexy.mp3",
+        timeCategory: "evening-late"
+},
 
 
 
@@ -16479,7 +16485,7 @@ timeCategory: "evening-late"
 
 
 {
-    name: "Enjoy The Silence",
+    name: "Enjoy The Silence (1989)",
     artist: "Depeche Mode ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Depeche Mode - Enjoy The Silence.mp3",
@@ -16624,7 +16630,7 @@ timeCategory: "evening-late"
 
 
 {
-    name: " Like I like It ",
+    name: " Like I like It (1985)",
     artist: " Aurra ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Aurra - Like I like It.mp3",
@@ -18367,7 +18373,7 @@ timeCategory: "evening-late"
 
 
 {
-    name: "Pacific State",
+    name: "Pacific State (1989)",
     artist: "808 State  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/808 state - Pacific State.mp3",
@@ -18434,7 +18440,7 @@ timeCategory: "evening-late"
 
 
 {
-    name: "West End Girls ",
+    name: "West End Girls (1984) ",
     artist: "Pet Shop Boys ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Pet Shop Boys - West End Girls (10'' Mix).mp3",
@@ -21546,7 +21552,7 @@ timeCategory: "f evening-late"
 
 
 {
-    name: " Black Sun",
+    name: " Black Sun (1978)",
     artist: "The Far Out Orchestra ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/The far out monster orchestra - Black sun.mp3",
