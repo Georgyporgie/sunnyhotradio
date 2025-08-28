@@ -4651,7 +4651,7 @@ timeCategory: "morning"
 
 
 {
-    name: "Mau P",
+    name: "Mau P (new)",
     artist: " Tesla",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
@@ -4661,7 +4661,7 @@ timeCategory: "morning"
 
 
 {
-    name: "James Hype",
+    name: "James Hype (new)",
     artist: " Waterfalls",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/James Hype - Waterfalls.mp3",
@@ -14811,7 +14811,7 @@ timeCategory: "evening-late",
 
 
 {
-    name: "Mau P",
+    name: "Mau P (new)",
     artist: " Tesla",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
@@ -14821,7 +14821,7 @@ timeCategory: "evening-late",
 
 
 {
-    name: "James Hype",
+    name: "James Hype (new)",
     artist: " Waterfalls",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/James Hype - Waterfalls.mp3",
@@ -18993,7 +18993,7 @@ timeCategory: "evening-late"
 
 
 {
-    name: "Mau P",
+    name: "Mau P (new)",
     artist: " Tesla",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
@@ -19003,7 +19003,7 @@ timeCategory: "evening-late"
 
 
 {
-    name: "James Hype",
+    name: "James Hype (new)",
     artist: " Waterfalls",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/James Hype - Waterfalls.mp3",
@@ -21470,7 +21470,7 @@ timeCategory: "f evening-late"
 
 
 {
-    name: "Mau P",
+    name: "Mau P (new)",
     artist: " Tesla",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
@@ -21480,7 +21480,7 @@ timeCategory: "f evening-late"
 
 
 {
-    name: "James Hype",
+    name: "James Hype (new)",
     artist: " Waterfalls",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/James Hype - Waterfalls.mp3",
