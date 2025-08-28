@@ -4623,6 +4623,82 @@ timeCategory: "morning"
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "MK  (12inch) ",
+    artist: " Dior (12inch)",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/MK - Dior (12inch).mp3",
+       timeCategory: "afternoon"
+},
+
+
+
+
+{
+    name: "Mau P",
+    artist: " Tesla",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
+       timeCategory: "afternoon"
+},
+
+
+
+{
+    name: "James Hype",
+    artist: " Waterfalls",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/James Hype - Waterfalls.mp3",
+
+       timeCategory: "afternoon"
+},
+
+
+
+
+
+
+{
+    name: " Blackberries (maxi)",
+    artist: "Fischer Bbyclose",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Fischer Bbyclose - Blackberries (maxi).mp3",
+
+       timeCategory: "afternoon"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
     name: "Welcome!",
     artist: "Listen Live Sunny Danceradio ☀️",
@@ -4630,20 +4706,6 @@ timeCategory: "morning"
     path: "muziek/discjockeys/Sapphire02.mp3",
        timeCategory: "afternoon"
 },
-
-
-
-{
-    name: "  Encore (maxi)  ",
-    artist: "Cheryl Lynn ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Cheryl Lynn - Encore (maxi).mp3",
-   timeCategory: "afternoon"
-},
-
-
-
-
 
 
 
@@ -4656,6 +4718,13 @@ timeCategory: "morning"
 },
 
 
+{
+    name: "  Encore (maxi)  ",
+    artist: "Cheryl Lynn ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Cheryl Lynn - Encore (maxi).mp3",
+   timeCategory: "afternoon"
+},
 
 {
     name: "   A hugh Pulsating Brain    ",
@@ -14730,6 +14799,56 @@ timeCategory: "evening-late",
 
 
 
+{
+    name: "MK  (12inch) ",
+    artist: " Dior (12inch)",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/MK - Dior (12inch).mp3",
+       timeCategory: "evening-late"
+},
+
+
+
+
+{
+    name: "Mau P",
+    artist: " Tesla",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
+       timeCategory: "evening-late"
+},
+
+
+
+{
+    name: "James Hype",
+    artist: " Waterfalls",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/James Hype - Waterfalls.mp3",
+
+       timeCategory: "evening-late"
+},
+
+
+
+
+
+
+{
+    name: " Blackberries (maxi)",
+    artist: "Fischer Bbyclose",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Fischer Bbyclose - Blackberries (maxi).mp3",
+
+       timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
 
 
 
@@ -18862,6 +18981,54 @@ timeCategory: "evening-late"
 
 
 
+{
+    name: "MK  (12inch) ",
+    artist: " Dior (12inch)",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/MK - Dior (12inch).mp3",
+       timeCategory: "f afternoon"
+},
+
+
+
+
+{
+    name: "Mau P",
+    artist: " Tesla",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
+       timeCategory: "f afternoon"
+},
+
+
+
+{
+    name: "James Hype",
+    artist: " Waterfalls",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/James Hype - Waterfalls.mp3",
+
+       timeCategory: "f afternoon"
+},
+
+
+
+
+
+
+{
+    name: " Blackberries (maxi)",
+    artist: "Fischer Bbyclose",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Fischer Bbyclose - Blackberries (maxi).mp3",
+
+       timeCategory: "f afternoon"
+},
+
+
+
+
+
 
 
 
@@ -21290,6 +21457,52 @@ timeCategory: "f evening-late"
     path: "https://sunnydancemusic04.netlify.app/Ariane Grande - Save your Tears.mp3",
   timeCategory: "f evening-late"
 },
+
+{
+    name: "MK  (12inch) ",
+    artist: " Dior (12inch)",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/MK - Dior (12inch).mp3",
+       timeCategory: "f evening-late"
+},
+
+
+
+
+{
+    name: "Mau P",
+    artist: " Tesla",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
+       timeCategory: "f evening-late"
+},
+
+
+
+{
+    name: "James Hype",
+    artist: " Waterfalls",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/James Hype - Waterfalls.mp3",
+
+       timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+{
+    name: " Blackberries (maxi)",
+    artist: "Fischer Bbyclose",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Fischer Bbyclose - Blackberries (maxi).mp3",
+
+       timeCategory: "f evening-late"
+},
+
+
 
 
 
