@@ -65,7 +65,8 @@ font-weight:300;
 
 .track-name:hover {
   transform: scale(1.05);
-  background: linear-gradient(90deg, #FFCCCC, #FFD6D6, #FFE0E0);
+  background: linear-gradient(90deg, #A8E6CF, #DCEDC1, #FFD3B6);
+
 }
 
 
@@ -86,7 +87,8 @@ color: #FF0000;
 
 .track-artist:hover {
   transform: scale(1.05);
-  background: linear-gradient(90deg, #FFCCCC, #FFD6D6, #FFE0E0);
+  background: linear-gradient(90deg, #A8E6CF, #DCEDC1, #FFD3B6);
+
 }
 
 
