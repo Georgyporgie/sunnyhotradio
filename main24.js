@@ -4634,6 +4634,61 @@ timeCategory: "morning"
 
 
 
+{
+    name: " No Broke Boys(new) ",
+    artist: " Disco Lines & Tinashe ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Disco Lines & Tinashe - No Broke Boys.mp3",
+       timeCategory: "afternoon"
+},
+
+
+
+
+
+
+
+
+
+{
+    name: "Scandalous ",
+    artist: " Griffin Tinashe ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Griffin Tinashe - Scandalous.mp3",
+       timeCategory: "afternoon"
+},
+
+
+{
+    name: "I Can See The Future ",
+    artist: " Tinashe  ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Tinashe - I Can See The Future.mp3",
+       timeCategory: "afternoon"
+},
+
+
+
+{
+    name: " No Broke Boys",
+    artist: "Tinashe ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Tinashe - No Broke Boys.mp3",
+       timeCategory: "afternoon"
+},
+
+
+
+{
+    name: " Nasty",
+    artist: "Tinashe ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Tinashe - Nasty.mp3",
+       timeCategory: "afternoon"
+},
+
+
+
 
 
 
@@ -16147,6 +16202,61 @@ timeCategory: "evening-late"
 
 
 
+{
+    name: " No Broke Boys(new) ",
+    artist: " Disco Lines & Tinashe ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Disco Lines & Tinashe - No Broke Boys.mp3",
+       timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+
+
+
+{
+    name: "Scandalous ",
+    artist: " Griffin Tinashe ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Griffin Tinashe - Scandalous.mp3",
+       timeCategory: "f evening-late"
+},
+
+
+{
+    name: "I Can See The Future ",
+    artist: " Tinashe  ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Tinashe - I Can See The Future.mp3",
+       timeCategory: "f evening-late"
+},
+
+
+
+{
+    name: " No Broke Boys",
+    artist: "Tinashe ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Tinashe - No Broke Boys.mp3",
+       timeCategory: "f evening-late"
+},
+
+
+
+{
+    name: " Nasty",
+    artist: "Tinashe ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Tinashe - Nasty.mp3",
+       timeCategory: "f evening-late"
+},
+
+
+
 
 
 
@@ -19542,6 +19652,69 @@ timeCategory: "evening-late"
     path: "muziek/discjockeys/Sapphire03.mp3",
        timeCategory: "f evening"
 },
+
+
+
+
+
+
+
+
+{
+    name: " No Broke Boys(new) ",
+    artist: " Disco Lines & Tinashe ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Disco Lines & Tinashe - No Broke Boys.mp3",
+       timeCategory: "f evening"
+},
+
+
+
+
+
+
+
+
+
+{
+    name: "Scandalous ",
+    artist: " Griffin Tinashe ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Griffin Tinashe - Scandalous.mp3",
+       timeCategory: "f evening"
+},
+
+
+{
+    name: "I Can See The Future ",
+    artist: " Tinashe  ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Tinashe - I Can See The Future.mp3",
+       timeCategory: "f evening"
+},
+
+
+
+{
+    name: " No Broke Boys",
+    artist: "Tinashe ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Tinashe - No Broke Boys.mp3",
+       timeCategory: "f evening"
+},
+
+
+
+{
+    name: " Nasty",
+    artist: "Tinashe ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Tinashe - Nasty.mp3",
+       timeCategory: "f evening"
+},
+
+
+
 
 
 
