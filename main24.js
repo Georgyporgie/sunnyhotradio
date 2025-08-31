@@ -753,7 +753,13 @@ let trackList = [
 
 
 
-
+{
+    name: "    Let It All Blow  ",
+    artist: "Dazz Band",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Dazz Band Let It All Blow.mp3",
+   timeCategory: "morning"
+},
 
 
 
@@ -17239,13 +17245,6 @@ timeCategory: "evening-late"
 
 
 
-{
-    name: " Megamix 2023",
-    artist:  "Purple Disco Machine  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_01.mp3",
-    timeCategory: "evening-late"
-},
 
 {
      name: "Welcome!",
@@ -17255,23 +17254,11 @@ timeCategory: "evening-late"
    timeCategory: "evening-late"
 },
 
-{
-    name: " Megamix 2023",
-    artist:  "Purple Disco Machine  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_03.mp3",
-   timeCategory: "evening-late"
-},
 
 
 
-{
-    name: " Megamix 2023",
-    artist:  "Purple Disco Machine  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_04.mp3",
-  timeCategory: "evening-late"
-},
+
+
 
 
 {
@@ -19700,6 +19687,13 @@ timeCategory: "f evening"
 },
 
 
+{
+     name: "Favourite Type",
+    artist: "Roxen (alarmschijf)",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Roxen - Favourite Type.mp3",
+ timeCategory: "f evening-late"
+},
 
 
 {
@@ -19780,13 +19774,7 @@ timeCategory: "f evening"
 
 
 
-{
-     name: "Favourite Type",
-    artist: "Roxen (alarmschijf)",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic08.netlify.app/Roxen - Favourite Type.mp3",
- timeCategory: "f evening"
-},
+
 
 
 
@@ -20573,16 +20561,6 @@ timeCategory: "f evening"
 
 
 
-{
-    name: "Autonomy",
-    artist: "Bob Harsher ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Bob Harsher - Autonomy.mp3",
-       timeCategory: "f evening"
-
-
-
-},
 
 
 
@@ -20873,13 +20851,7 @@ timeCategory: "f evening"
 
 
 
-{
-     name: "Favourite Type",
-    artist: "Roxen (alarmschijf)",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic08.netlify.app/Roxen - Favourite Type.mp3",
- timeCategory: "f evening-late"
-},
+
 
 
 
@@ -20997,22 +20969,6 @@ timeCategory: "f evening"
 
 
 
-{
-    name: "  Ibiza (mini mix) ",
-    artist: "  Ministry Of Sound",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Ibiza mini mix - Ministry of Sound1.mp3",
-   timeCategory: "f evening-late"
-},
-
-
-{
-    name: "  Ibiza (mini mix) ",
-    artist: "  Ministry Of Sound",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Ibiza mini mix - Ministry of Sound2.mp3",
-   timeCategory: "f evening-late"
-},
 
 
 
@@ -21038,13 +20994,7 @@ timeCategory: "f evening"
 
 
 
-{
-    name: "    Let It All Blow  ",
-    artist: "Dazz Band",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Dazz Band Let It All Blow.mp3",
-   timeCategory: "f evening-late"
-},
+
 
 
 
@@ -21071,13 +21021,6 @@ timeCategory: "f evening"
 
 
 
-{
-     name: " Horny",
-    artist: "Mouse T ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/Mouse T - Horny.mp3",
- timeCategory: "f evening-late"
-},
 
 
 
@@ -21101,26 +21044,6 @@ timeCategory: "f evening"
 
 
 
-{
-  
-    name: " Nouveau Disco 03 ",
-    artist: "Mix Central  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 03.mp3",
- timeCategory: "f evening-late"
-},
-
-
-
-
-{
-  
-    name: " Nouveau Disco 04 ",
-    artist: "Mix Central  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 04.mp3",
-timeCategory: "f evening-late"
-},
 
 
 
@@ -21149,14 +21072,6 @@ timeCategory: "f evening-late"
 
 
 
-
-{
-     name: "     Me So Horny (1989)",
-    artist: "2 Live Crew  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/2 Live Crew - Me So H.mp3",
- timeCategory: "f evening-late"
-},
 
 
 
@@ -21186,45 +21101,15 @@ timeCategory: "f evening-late"
 },
 
 
-
-
-
 {
-    name: " Megamix 2023",
-    artist:  "Purple Disco Machine  ",
+     name: "     Me So Horny (1989)",
+    artist: "2 Live Crew  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_05.mp3",
-   timeCategory: "f evening-late"
-},
-
-
-{
-    name: " Megamix 2023",
-    artist:  "Purple Disco Machine  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_06.mp3",
- timeCategory: "f evening-late"
-},
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle3.mp3",
+    path: "muziek/oldies07/2 Live Crew - Me So H.mp3",
  timeCategory: "f evening-late"
 },
 
 
-
-{
-    name: "If You Don't Wanna Leave Me",
-    artist: "Dua Lipa",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Dua Lipa - If you don't wanna leave me.mp3",
-  
-
-
- timeCategory: "f evening-late"
-},
 
 {
      name: "Favourite Type",
@@ -21267,108 +21152,6 @@ timeCategory: "f evening-late"
 
 
  
-
-
-{
-  
-    name: "Drive",
-    artist: "Clean Bandit",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Clean Bandit - Drive.mp3",
- timeCategory: "f evening-late"
-},
-
-
-
-
-{
-    name: "The Weekend",
-    artist: "Michael Gray  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://Sunnydanceoldies04.netlify.app/Michael Gray - The weekend.mp3",
- timeCategory: "f evening-late"
-},
-
-
-
-
-{
-    name: "  Paul Van Dyk",
-    artist: "For An Angel ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://Sunnydanceoldies04.netlify.app/For an Ange l- Paul van Dyk.mp3",
- timeCategory: "f evening-late"
-},
-
-
-
-
-
-
-
-{
-    name: "  Rain Down Love",
-    artist: "Siedah Garret ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://Sunnydanceoldies04.netlify.app/Siedah Garret - Rain down Love.mp3",
- timeCategory: "f evening-late"
-},
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: "Mesmerized (12inch)",
-    artist: "Freemasons",
-     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://Sunnydanceoldies04.netlify.app/Freemasons  - Mesmerized.mp3",
-   timeCategory: "f evening-late"
-},
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle1.mp3",
- timeCategory: "f evening-late"
-},
-
-{
-    name: "  Megamix",
-    artist: "Janet Jackson   ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Janet Jackson - Megamix2 (Luke).mp3",
- timeCategory: "f evening-late"
-},
-
-{
-    name: " Sunglasses",
-    artist: "Heidi Klum ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic07.netlify.app/Heidi Klum - Sunglasses At Night.mp3",
-  
-
-
- timeCategory: "f evening-late"
-},
-
-
-
-{
-    name: " Lose Yourself To Dance",
-    artist: "Daft Punk ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Daft Punk - Lose Yourself To Dance.mp3",
-    timeCategory: "f evening-late"
-},
-
 
 
 
@@ -21512,24 +21295,6 @@ timeCategory: "f evening-late"
 
 
 {
-    name: "The Motto",
-    artist: "Tiesto & Ava Max",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Tiesto & Ava Max - the Motto.mp3",
-  timeCategory: "f evening-late"
-},
-
-
-
-{
-    name: "Save Your Tears",
-    artist: "Ariane Grande ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Ariane Grande - Save your Tears.mp3",
-  timeCategory: "f evening-late"
-},
-
-{
     name: "MK  (12inch) ",
     artist: " Dior (12inch)",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
@@ -21629,16 +21394,6 @@ timeCategory: "f evening-late"
 
 
 
-{
-    name: "Marss (12inch, 1987)",
-    artist: "Pump Up The Volume",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies01.netlify.app/Marss Pump up the volume.mp3",
-  
-
-
- timeCategory: "f evening-late"
-},
 
 
 
@@ -21657,106 +21412,8 @@ timeCategory: "f evening-late"
 
 
 
-{
-    name: "Love Tonight",
-    artist: "Shouse",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Shouse - Love tonight.mp3",
- timeCategory: "f evening-late"
-},
 
 
-
-
-{
-    name: "Nothing But You",
-    artist: "Paul Van Dyk",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Paul van Dyk - Nothing but you.mp3",
-   timeCategory: "f evening-late"
-},
-
-
-
-
-
-
-
-{
-    name: " About them time",
-    artist: "Lizzo ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Lizzo - About them time.mp3",
- timeCategory: "f evening-late"
-},
-
-
-{
-    name: "I Need You",
-    artist: "Dua Lipa  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Dua Lipa - I need you.mp3",
-  timeCategory: "f evening-late"
-},
-
-
-
-
-
- 
-
-
-
- 
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/40 in jingle11.mp3",
- timeCategory: "f evening-late"
-},
-
-
-
-
-
-
-
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/40 in jingle22.mp3",
- timeCategory: "f evening-late"
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-     name: " Oh Yeah",
-    artist: "Yello ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Yello - Oh Yeah.mp3",
-   timeCategory: "f evening-late"
-},
 
 
 
@@ -21848,14 +21505,6 @@ timeCategory: "f evening-late"
 
 
 
-{
-    name: "Break My Heart",
-    artist: "Dua Lipa ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Dua Lipa - Break My Heart.mp3",
-     timeCategory: "f evening-late"
-
-},
 
 
 
@@ -21904,15 +21553,6 @@ timeCategory: "f evening-late"
 
 
 
-{
-    name: "Autonomy",
-    artist: "Bob Harsher ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Bob Harsher - Autonomy.mp3",
-      timeCategory: "f evening-late"
-
-
-},
 
 
 
@@ -21968,16 +21608,6 @@ timeCategory: "f evening-late"
 
 
 
-{
-    name: "  All Nighter",
-    artist: "Tiesto  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/Tiesto - All Nighter.mp3",
-    timeCategory: "f evening-late"
-
-
-
-},
 
 
 
@@ -22010,16 +21640,6 @@ timeCategory: "f evening-late"
 
 
 
-{
-    name: " Big Fun",
-    artist: "Inner City  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Inner City - Big Fun.mp3",
-   timeCategory: "f evening-late"
-
-
-
-},
 
 
 
