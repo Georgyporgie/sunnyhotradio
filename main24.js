@@ -1118,7 +1118,13 @@ let trackList = [
 
 
 
-
+{
+     name: "     Me So Horny (1989)",
+    artist: "2 Live Crew  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/2 Live Crew - Me So H.mp3",
+ timeCategory: "morning"
+},
 
 
 {
@@ -4651,6 +4657,14 @@ timeCategory: "morning"
 
 
 
+{
+    name: " Peggy Gou ",
+    artist: "  D.A.N.C.E ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Peggy Gou- D.A.N.C.E.mp3",
+       timeCategory: "afternoon"
+},
+
 
 
 
@@ -4702,7 +4716,7 @@ timeCategory: "morning"
 
 {
     name: "MK  (12inch) ",
-    artist: " Dior (12inch)",
+    artist: " Dior ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/MK - Dior (12inch).mp3",
        timeCategory: "afternoon"
@@ -14915,7 +14929,7 @@ timeCategory: "evening-late",
 
 {
     name: "MK  (12inch) ",
-    artist: " Dior (12inch)",
+    artist: " Dior ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/MK - Dior (12inch).mp3",
        timeCategory: "evening-late"
@@ -19042,7 +19056,7 @@ timeCategory: "evening-late"
 
 {
     name: "MK  (12inch) ",
-    artist: " Dior (12inch)",
+    artist: " Dior ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/MK - Dior (12inch).mp3",
        timeCategory: "f afternoon"
@@ -19860,6 +19874,13 @@ timeCategory: "f evening"
 
 
 
+{
+    name: " Peggy Gou ",
+    artist: "  D.A.N.C.E ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Peggy Gou- D.A.N.C.E.mp3",
+       timeCategory: "f evening"
+},
 
 
 
@@ -20924,7 +20945,13 @@ timeCategory: "f evening"
 
 
 
-
+{
+    name: " Peggy Gou ",
+    artist: "  D.A.N.C.E ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Peggy Gou- D.A.N.C.E.mp3",
+       timeCategory: "f evening-late"
+},
 
 
 
@@ -21101,13 +21128,7 @@ timeCategory: "f evening"
 },
 
 
-{
-     name: "     Me So Horny (1989)",
-    artist: "2 Live Crew  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/2 Live Crew - Me So H.mp3",
- timeCategory: "f evening-late"
-},
+
 
 
 
@@ -21296,7 +21317,7 @@ timeCategory: "f evening"
 
 {
     name: "MK  (12inch) ",
-    artist: " Dior (12inch)",
+    artist: " Dior ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/MK - Dior (12inch).mp3",
        timeCategory: "f evening-late"
