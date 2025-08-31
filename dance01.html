@@ -279,6 +279,7 @@ body {
 <img id= "playlist">
 
 <ul id="track-list-container">
+li.classList.add('track-item');
 
 
 
@@ -685,13 +686,6 @@ img.src = 'images/alexander.png';
 
 
 
-<script>
-//Get our img element by using document.getElementById
-var img = document.getElementById("max");
-
-//Set the src property of our element to the new image URL
-img.src = 'images/saweetie-portrait.avif';
-</script>
 
 
 
@@ -758,9 +752,6 @@ img.src = 'images/Dance radio5.png';
 
 
 
-<script> 
-document.getElementById("online").innerHTML=" 3 "; 
-</script>
 
 
 
@@ -922,11 +913,38 @@ document.addEventListener("DOMContentLoaded", () => {
   scheduleRangeSwap();
 });
 
-// Your existing volume‐normalization function
-function adjustVolumeDynamically(audio) {
-  // … your code here …
+
+ // 🎛 Volume Balancer Function
+    function adjustVolumeDynamically(audioElement) {
+        let targetVolume = 0.6;  // Default volume level
+        let maxThreshold = 1; // Prevent distortion
+
+        audioElement.addEventListener("timeupdate", () => {
+            if (audioElement.volume < targetVolume) {
+                audioElement.volume = Math.min(maxThreshold, audioElement.volume + 0.01);  // Smooth increase
+            } else if (audioElement.volume > targetVolume) {
+                audioElement.volume = Math.max(0, audioElement.volume - 0.01);  // Smooth decrease
+            }
+        });
+    }
+
+
+
+window.addEventListener("load", () => {
+  loadTrack(0);        // Load your first track
+  playTrack();         // Start playing it
+if (curr_track) {
+  curr_track.muted = false;
 }
 
+});
+
+
+
+
+        
+</script>
+<script>
 // Schedule reloads for midnight, noon and 6pm
 function scheduleRangeSwap() {
   const now = new Date();
@@ -1046,30 +1064,6 @@ function scheduleRangeSwap() {
 
 
 
- // 🎛 Volume Balancer Function
-    function adjustVolumeDynamically(audioElement) {
-        let targetVolume = 0.8;  // Default volume level
-        let maxThreshold = 1; // Prevent distortion
-
-        audioElement.addEventListener("timeupdate", () => {
-            if (audioElement.volume < targetVolume) {
-                audioElement.volume = Math.min(maxThreshold, audioElement.volume + 0.01);  // Smooth increase
-            } else if (audioElement.volume > targetVolume) {
-                audioElement.volume = Math.max(0, audioElement.volume - 0.01);  // Smooth decrease
-            }
-        });
-    }
-
-
-
-window.addEventListener("load", () => {
-  loadTrack(0);        // Load your first track
-  playTrack();         // Start playing it
-if (curr_track) {
-  curr_track.muted = false;
-}
-
-});
 
 
 
@@ -1099,13 +1093,6 @@ img.src = 'images/sunny stars.png';
 
 
 
-<script>
-//Get our img element by using document.getElementById
-var img = document.getElementById("travolta");
-
-//Set the src property of our element to the new image URL
-img.src = 'images/Doechii.jpg';
-</script>
 
 
 
@@ -1116,13 +1103,8 @@ img.src = 'images/Doechii.jpg';
 
 
 
-<script>
-//Get our img element by using document.getElementById
-var img = document.getElementById("crownImage");
 
-//Set the src property of our element to the new image URL
-img.src = 'images/crown2.png';
-</script>
+
 
 
 
