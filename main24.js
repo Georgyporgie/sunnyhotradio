@@ -4740,14 +4740,36 @@ timeCategory: "morning"
 
 
 
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire04.mp3",
+       timeCategory: "afternoon"
+},
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire05.mp3",
+       timeCategory: "afternoon"
+},
 
 
 
 
 
 
-
-
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire06.mp3",
+       timeCategory: "afternoon"
+},
 
 
 
@@ -10441,6 +10463,37 @@ timeCategory: "morning"
 
 
 
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire04.mp3",
+       timeCategory: "afternoon"
+},
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire05.mp3",
+       timeCategory: "afternoon"
+},
+
+
+
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire06.mp3",
+       timeCategory: "afternoon"
+},
 
 
 
@@ -16177,89 +16230,6 @@ timeCategory: "evening-late"
 
 
 
-{
-    name: " Lose Yourself To Dance",
-    artist: "Daft Punk ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Daft Punk - Lose Yourself To Dance.mp3",
-    timeCategory: "f evening-late"
-},
-
-
-
-
-
-
-{
-    name: " Is This The Future",
-    artist: "Fatback ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Fatback - Is This the Future.mp3",
-    timeCategory: "f evening-late"
-},
-
-
-
-
-
-{
-    name: " No Broke Boys(new) ",
-    artist: " Disco Lines & Tinashe ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/Disco Lines & Tinashe - No Broke Boys.mp3",
-       timeCategory: "f evening-late"
-},
-
-
-
-
-
-
-
-
-
-{
-    name: "Scandalous ",
-    artist: " Griffin Tinashe ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/Griffin Tinashe - Scandalous.mp3",
-       timeCategory: "f evening-late"
-},
-
-
-{
-    name: "I Can See The Future ",
-    artist: " Tinashe  ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/Tinashe - I Can See The Future.mp3",
-       timeCategory: "f evening-late"
-},
-
-
-
-{
-    name: " No Broke Boys",
-    artist: "Tinashe ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/Tinashe - No Broke Boys.mp3",
-       timeCategory: "f evening-late"
-},
-
-
-
-{
-    name: " Nasty",
-    artist: "Tinashe ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/Tinashe - Nasty.mp3",
-       timeCategory: "f evening-late"
-},
-
-
-
-
-
-
 
 
 
@@ -18681,14 +18651,6 @@ timeCategory: "evening-late"
 
 
 
-{
-    name: "  Flashdance",
-    artist: "Irene Cara   ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Irene Cara - Flashdance.mp3",
-     timeCategory: "f afternoon"
-
-},
 
 
 
@@ -19867,13 +19829,7 @@ timeCategory: "f evening"
 
 
 
-{
-    name: "Goosebumps",
-    artist: "MO",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/MO - Goosebumps.mp3",
-timeCategory: "f evening"
-},
+
 
 
 
@@ -19889,37 +19845,6 @@ timeCategory: "f evening"
   timeCategory: "f evening"
 },
 
-
-
-{
-    name: "Hello Hello",
-    artist: "Inna x Melon ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Inna x Melon - Hello Hello.mp3",
-timeCategory: "f evening"
-},
-
-
-
-
-{
-    
-    name: "Deephouse",
-    artist: "Vibey",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Vibey05.mp3",
-  timeCategory: "f evening"
-},
-
-
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/sunny ship/radio dj - just for you.mp3",
-  timeCategory: "f evening"
-},
 
 
 
@@ -19948,13 +19873,7 @@ timeCategory: "f evening"
 
 
 
-{
-    name: "Boogie2nite",
-    artist: "Booty Luv",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/Booty luv - Boogie2nite.mp3",
-  timeCategory: "f evening"
-},
+
 
 
 {
@@ -19977,72 +19896,6 @@ timeCategory: "f evening"
     path: "muziek/jingles/Sunny dance jingle.mp3",
   timeCategory: "f evening"
 },
-
-
-
-
-
-
-
-{
-  
-    name: " Nouveau Disco 01 ",
-    artist: "Mix Central  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 01.mp3",
-  timeCategory: "f evening"
-},
-
-
-
-
-
-
-{
-  
-    name: " Nouveau Disco 02 ",
-    artist: "Mix Central  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 02.mp3",
- timeCategory: "f evening"
-},
-
-
-
-
-
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️ ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj3.mp3",
-timeCategory: "f evening"
-},
-
-{
-  
-    name: " Nouveau Disco 05 ",
-    artist: "Mix Central  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 05.mp3",
-timeCategory: "f evening"
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -20149,13 +20002,7 @@ timeCategory: "f evening"
 
 
 
-{
-    name: "Rasputin",
-    artist: "Majestic  & Boney M ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/majestic  & Boney M - Rasputin.mp3",
-  timeCategory: "f evening"
-},
+
 
 
 
@@ -20172,13 +20019,6 @@ timeCategory: "f evening"
 
 
 
-{
-    name: " Pipeline (1977)",
-    artist: "Bruce Johnston  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies01.netlify.app/Bruce Johnston- Pipeline.mp3",
-timeCategory: "f evening"
-},
 
 
 
@@ -20261,16 +20101,7 @@ timeCategory: "f evening"
 
 
 
-{
-    name: "Boogie2nite",
-    artist: "Booty Luv",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/Booty luv - Boogie2nite.mp3",
-  
 
-
-    timeCategory: "f evening"
-},
 
 
 
@@ -20299,31 +20130,6 @@ timeCategory: "f evening"
 
 
 
-
-{
-    name: "    Mellow Mellow Right On  ",
-    artist: "Lowrell ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Lowrell - Mellow Mellow Right On.mp3",
-   timeCategory: "f evening"
-
-},
-
-
-
-
-
-
-
-
-{
-    name: " Rockit",
-    artist: "Herbie Hancock  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/Herbie Hancock - Rockit.mp3",
-    timeCategory: "f evening"
-
-},
 
 
 
@@ -20424,28 +20230,18 @@ timeCategory: "f evening"
 
 
 
-{
-    name: "Q & A",
-    artist: "Nona  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Nona - Q & A.mp3",
-      timeCategory: "f evening"
 
-},
 
 
 
 
 {
-    name: "Spinning Around",
-    artist: "Kylie Minogue",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Kylie Minogue - Spinning Around.mp3",
-      timeCategory: "f evening"
-
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire04.mp3",
+       timeCategory: "f evening"
 },
-
-
 
 
 
@@ -20513,14 +20309,7 @@ timeCategory: "f evening"
 
 
 
-{
-    name: "  Flashdance",
-    artist: "Irene Cara   ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Irene Cara - Flashdance.mp3",
-       timeCategory: "f evening"
 
-},
 
 
 
@@ -20534,7 +20323,13 @@ timeCategory: "f evening"
 
 },
 
-
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire05.mp3",
+       timeCategory: "f evening"
+},
 
 
 
@@ -20670,7 +20465,13 @@ timeCategory: "f evening"
 },
 
 
-
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire06.mp3",
+       timeCategory: "f evening"
+},
 
 
 
@@ -20688,15 +20489,7 @@ timeCategory: "f evening"
 
 
 
-{
-    name: "Return Of The Mack (12inch) ",
-    artist: "Mark Morrison",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/Mark Morrison - Return of the mack.mp3",
-       timeCategory: "f evening"
 
-
-},
 
 
 
@@ -21020,7 +20813,13 @@ timeCategory: "f evening"
 
 
 
-
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire04.mp3",
+       timeCategory: "f evening-late"
+},
 
 
 
@@ -21119,6 +20918,14 @@ timeCategory: "f evening"
 
 
 
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire05.mp3",
+       timeCategory: "f evening-late"
+},
 
 
 
@@ -21219,6 +21026,14 @@ timeCategory: "f evening"
 
 
 
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire06.mp3",
+       timeCategory: "f evening-late"
+},
 
 
 
@@ -21543,6 +21358,89 @@ timeCategory: "f evening-late"
 
  timeCategory: "f evening-late"
 },
+
+
+
+{
+    name: " Lose Yourself To Dance",
+    artist: "Daft Punk ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Daft Punk - Lose Yourself To Dance.mp3",
+    timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+{
+    name: " Is This The Future",
+    artist: "Fatback ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Fatback - Is This the Future.mp3",
+    timeCategory: "f evening-late"
+},
+
+
+
+
+
+{
+    name: " No Broke Boys(new) ",
+    artist: " Disco Lines & Tinashe ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Disco Lines & Tinashe - No Broke Boys.mp3",
+       timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+
+
+
+{
+    name: "Scandalous ",
+    artist: " Griffin Tinashe ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Griffin Tinashe - Scandalous.mp3",
+       timeCategory: "f evening-late"
+},
+
+
+{
+    name: "I Can See The Future ",
+    artist: " Tinashe  ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Tinashe - I Can See The Future.mp3",
+       timeCategory: "f evening-late"
+},
+
+
+
+{
+    name: " No Broke Boys",
+    artist: "Tinashe ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Tinashe - No Broke Boys.mp3",
+       timeCategory: "f evening-late"
+},
+
+
+
+{
+    name: " Nasty",
+    artist: "Tinashe ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Tinashe - Nasty.mp3",
+       timeCategory: "f evening-late"
+},
+
+
+
 
 
 
@@ -21988,17 +21886,6 @@ timeCategory: "f evening-late"
 },
 
 
-
-{
-    name: "Return Of The Mack (12inch) ",
-    artist: "Mark Morrison",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/Mark Morrison - Return of the mack.mp3",
-      timeCategory: "f evening-late"
-
-
-
-},
 
 
 
