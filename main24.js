@@ -564,7 +564,13 @@ let trackList = [
 
 
 
-
+{
+    name: "Dr Beat (12inch)",
+    artist: "Miami Sound Machine",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Miami Sound Machine - Dr Beat.mp3",
+    timeCategory: "morning"
+},
 
 
 
@@ -581,7 +587,13 @@ let trackList = [
 },
 
 
-
+{
+    name: "Too Hot (12inch)",
+    artist: "Kool and the gang",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Kool and the gang - Too hot.mp3",
+    timeCategory: "morning"
+},
  
 
 
@@ -1553,16 +1565,6 @@ let trackList = [
 
 
 
-{
-    name: "Sacrifice",
-    artist: "Bebe Rexha",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Bebe Rexha - Sacrifice.mp3",
-      timeCategory: "morning"
-
-
-},
-
 
 
 
@@ -1910,6 +1912,14 @@ let trackList = [
 },
 
 
+
+{
+    name: " You Cant Hide ",
+    artist: "David Joseph  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/David Joseph - You Cant Hide (Your Love From Me).mp3",
+     timeCategory: "morning"
+},
 
 
 
@@ -7029,6 +7039,37 @@ timeCategory: "morning"
  },
 
 
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire04.mp3",
+       timeCategory: "afternoon"
+},
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire05.mp3",
+       timeCategory: "afternoon"
+},
+
+
+
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire06.mp3",
+       timeCategory: "afternoon"
+},
+
 
 
 
@@ -8514,13 +8555,6 @@ timeCategory: "morning"
 
 
 
-{
-    name: "   Woman Of The Ghetto (1969) ",
-    artist: "Marlena Shaw ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Marlena Shaw - Woman Of The Ghetto.mp3",
-     timeCategory: "evening"
-},
 
 
 
@@ -8546,16 +8580,6 @@ timeCategory: "morning"
 
 
 
-
-
-
-{
-     name: " Cybersonic",
-    artist: "Technarchy ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Technarchy - Cybersonic.mp3",
-      timeCategory: "evening"
-},
 
 
 
@@ -9511,15 +9535,6 @@ timeCategory: "morning"
           timeCategory: "evening"
 },
 
-{
-    name: " Technarchy",
-    artist: "Cybersonic ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Cybersonic - Technarchy.mp3",
-  
-
-        timeCategory: "evening"
-},
 
 
 
@@ -9546,16 +9561,6 @@ timeCategory: "morning"
 
 
 
-{
-    name: " Can You Handle It",
-    artist: "Sharon Redd ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Sharon Redd Can you handle it.mp3",
-  
-
-
-         timeCategory: "evening"
-},
 
 
 
@@ -9564,23 +9569,7 @@ timeCategory: "morning"
 
 
 
-{
-    name: "I Like It (Blowout dub)",
-    artist: "Landlord",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies01.netlify.app/Landlord - I like it (Blowout dub).mp3",
-  
 
-        timeCategory: "evening"
-},
-
-{
-    name: "K-Jee",
-    artist: "MFSB  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/MFSB - K-Jee.mp3",
-         timeCategory: "evening"
-},
 
 
 {
@@ -9710,14 +9699,6 @@ timeCategory: "morning"
 
 
 
-{
-    name: " Dancer (1979) ",
-    artist: "Gino Soccio ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Gino Soccio - Dancer (1979).mp3",
-     timeCategory: "evening"
-},
-
 
 
 
@@ -9788,26 +9769,7 @@ timeCategory: "morning"
 
 
 
-{
-    
-    name: "Chillhouse Del Mar",
-    artist: "Chillhouse",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/chillhouse del mar05.mp3",
-     timeCategory: "evening"
-},
 
-
-
- 
-{
-    
-    name: "Chillhouse Del Mar",
-    artist: "Chillhouse",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/chillhouse del mar06.mp3",
-       timeCategory: "evening"
-},
 
 
 
@@ -10020,15 +9982,6 @@ timeCategory: "morning"
 
 
 
-{
-    name: "Sunny (Ruud Remix)",
-    artist: "Boney M  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/Boney M - Sunny.mp3",
-          timeCategory: "evening"
-},
-
-
 
 
 
@@ -10228,16 +10181,6 @@ timeCategory: "morning"
 
 
 
-{
-    name: "  Give It To Me Baby ",
-    artist: "Sunny James ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/micofoon Rick James.mp3",
-
-
-         timeCategory: "evening"
-},
-
 
 
 
@@ -10303,13 +10246,6 @@ timeCategory: "morning"
 
 
 
-{
-    name: "  Open Sesame",
-    artist: "Leila K ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Leila K - Open Sesame.mp3",
-    timeCategory: "evening"
-}, 
 
 
 
@@ -10498,37 +10434,6 @@ timeCategory: "morning"
 
 
 
-
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ☀️",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Sapphire04.mp3",
-       timeCategory: "afternoon"
-},
-
-
-
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ☀️",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Sapphire05.mp3",
-       timeCategory: "afternoon"
-},
-
-
-
-
-
-
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ☀️",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Sapphire06.mp3",
-       timeCategory: "afternoon"
-},
 
 
 
@@ -10773,13 +10678,7 @@ timeCategory: "morning"
 },
 
 
-{
-    name: " Megamix 2023",
-    artist:  "Purple Disco Machine  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_08.mp3",
-     timeCategory: "evening"
-},
+
 
 
 {
@@ -10817,13 +10716,7 @@ timeCategory: "morning"
 
 
 
-{
-    name: "Dr Beat (12inch)",
-    artist: "Miami Sound Machine",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Miami Sound Machine - Dr Beat.mp3",
-    timeCategory: "morning"
-},
+
 
 
 
@@ -10949,13 +10842,7 @@ timeCategory: "morning"
 
 
 
-{
-    name: "Too Hot (12inch)",
-    artist: "Kool and the gang",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/Kool and the gang - Too hot.mp3",
-    timeCategory: "evening"
-},
+
 {
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️",
@@ -11090,14 +10977,6 @@ timeCategory: "morning"
 },
 
 
-
-{
-    name: " You Cant Hide ",
-    artist: "David Joseph  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies04.netlify.app/David Joseph - You Cant Hide (Your Love From Me).mp3",
-     timeCategory: "evening"
-},
 
 {
     name: "  Believer",
@@ -21562,18 +21441,6 @@ timeCategory: "f evening"
 
 
 
-
-
-{
-    name: "Sacrifice",
-    artist: "Bebe Rexha",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Bebe Rexha - Sacrifice.mp3",
-      timeCategory: "f evening-late"
-
-
-
-},
 
 
 
