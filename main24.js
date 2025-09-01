@@ -4708,7 +4708,22 @@ timeCategory: "morning"
 },
 
 
+{
+    name: " Crazy",
+    artist: "Seal ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Seal - Crazy.mp3",
+      timeCategory: "afternoon"
+},
 
+
+{
+    name: " Killer",
+    artist: "Seal ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Adamski, Seal- Killer (1990).mp3",
+      timeCategory: "afternoon"
+},
 
 
 
@@ -12328,6 +12343,11 @@ timeCategory: "evening-late",
     path: "https://sunnydanceoldies01.netlify.app/Des'ree - You gotta be.mp3",
       timeCategory: "evening"
 },
+
+
+
+
+
 
 
 
