@@ -778,11 +778,11 @@ function setVolume(level) {
 // Example: adjust based on time
 const hour = new Date().getHours();
 if (hour < 9) {
-  setVolume(0.3); // morning
+  setVolume(0.2); // morning
 } else if (hour >= 21) {
-  setVolume(0.4); // night
+  setVolume(0.3); // night
 } else {
-  setVolume(0.5); // default daytime
+  setVolume(0.3); // default daytime
 }
 </script>
 
@@ -1273,7 +1273,7 @@ document.addEventListener("DOMContentLoaded", () => {
       soundIds.forEach(id => {
         const soundEl = document.getElementById(id);
         if (soundEl) {
-          soundEl.volume = 0.8;
+          soundEl.volume = 0.6;
           // optional: adjustVolumeDynamically(soundEl);
           soundEl.play().catch(err => {
             console.error("Playback failed:", err);
