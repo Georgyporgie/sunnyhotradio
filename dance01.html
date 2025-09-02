@@ -777,16 +777,16 @@ window.addEventListener('load', () => {
   // After 10 seconds, set volume based on time of day
   setTimeout(() => {
     const hour = new Date().getHours();
-    let targetVolume = 0.4; // default
+    let targetVolume = 0.3; // default
 
     if (hour < 9) {
       targetVolume = 0.3; // morning
     } else if (hour >= 21) {
-      targetVolume = 0.4; // night
+      targetVolume = 0.3; // night
     }
 
     musicPlayer.volume = targetVolume;
-  }, 10000); // 10 seconds
+  }, 200); // 10 seconds
 });
 </script>
 
