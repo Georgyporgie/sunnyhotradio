@@ -763,28 +763,33 @@ img.src = 'images/Dance radio5.png';
 
 
 
-
-<audio id="musicPlayer" autoplay loop >
-    <source id="musicSource" src="" type="audio/mpeg">
+<audio id="musicPlayer" autoplay loop>
+  <source id="musicSource" src="" type="audio/mpeg">
 </audio>
 
-
 <script>
-function setVolume(level) {
+window.addEventListener('load', () => {
   const musicPlayer = document.getElementById("musicPlayer");
-  musicPlayer.volume = level; // Level from 0.0 to 1.0
-}
 
-// Example: adjust based on time
-const hour = new Date().getHours();
-if (hour < 9) {
-  setVolume(0.3); // morning
-} else if (hour >= 21) {
-  setVolume(0.4); // night
-} else {
-  setVolume(0.4); // default daytime
-}
+  // Start muted
+  musicPlayer.volume = 0.0;
+
+  // After 10 seconds, set volume based on time of day
+  setTimeout(() => {
+    const hour = new Date().getHours();
+    let targetVolume = 0.4; // default
+
+    if (hour < 9) {
+      targetVolume = 0.3; // morning
+    } else if (hour >= 21) {
+      targetVolume = 0.4; // night
+    }
+
+    musicPlayer.volume = targetVolume;
+  }, 10000); // 10 seconds
+});
 </script>
+
 
 
 
@@ -1501,8 +1506,58 @@ function generateSchedule() {
 
 
 
+<audio id="djIntro"></audio>
+<audio id="djPlayer" src="main-stream.mp3"></audio>
 
+<script>
+window.addEventListener('load', () => {
+    const djIntro = document.getElementById('djIntro');
+    const djPlayer = document.getElementById('djPlayer');
 
+    const weekdaySlots = [
+        { start: 6, end: 12, file: "muziek/discjockeys/DJ Morning Rise.mp3" },
+        { start: 12, end: 18, file: "muziek/discjockeys/DJ Afternoon Flow.mp3" },
+        { start: 18, end: 24, file: "muziek/discjockeys/starten met Sunny.mp3" }
+    ];
+
+    const weekendSlots = [
+        { start: 8, end: 14, file: "muziek/discjockeys/DJ Weekend Chill.mp3" },
+        { start: 14, end: 20, file: "muziek/discjockeys/DJ Sunset Grooves.mp3" },
+        { start: 20, end: 24, file: "muziek/discjockeys/DJ Club Beats.mp3" }
+    ];
+
+    const now = new Date();
+    const currentHour = now.getHours();
+    const currentDay = now.getDay(); // 0 = Sunday, 6 = Saturday
+
+    const isWeekend = currentDay === 0 || currentDay === 6;
+    const schedule = isWeekend ? weekendSlots : weekdaySlots;
+
+    const currentSlot = schedule.find(slot => currentHour >= slot.start && currentHour < slot.end);
+
+    if (currentSlot) {
+        djIntro.src = currentSlot.file;
+        djIntro.volume = 0.7;
+        djIntro.play().catch(err => console.log("Intro can't autoplay:", err));
+
+        djIntro.addEventListener('ended', () => {
+            djPlayer.volume = 0;
+            djPlayer.play().catch(err => console.log("Main player can't autoplay:", err));
+
+            const fadeIn = setInterval(() => {
+                if (djPlayer.volume < 0.7) {
+                    djPlayer.volume = Math.min(djPlayer.volume + 0.05, 0.7);
+                } else {
+                    clearInterval(fadeIn);
+                }
+            }, 200);
+        });
+    } else {
+        djPlayer.volume = 0.7;
+        djPlayer.play().catch(err => console.log("Main player can't autoplay:", err));
+    }
+});
+</script>
 
 
 
