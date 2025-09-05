@@ -20722,6 +20722,87 @@ timeCategory: "f evening"
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://sunnydanceoldies09.netlify.app/Bob Sinclar (live) - From Paris 01.mp3",
+       timeCategory: "f evening-late"
+},
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://sunnydanceoldies09.netlify.app/Bob Sinclar (live) - From Paris3.mp3",
+       timeCategory: "f evening-late"
+},
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://sunnydanceoldies09.netlify.app/Bob Sinclar (live) - From Paris4.mp3",
+       timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire04.mp3",
+       timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
      name: "Beautiful People ",
     artist: "David Guetta Ft. Sia & Rihanna ",
