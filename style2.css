@@ -580,7 +580,7 @@ height: 200px; width: 300px; display: block; margin: auto auto auto auto; z-inde
 
 #track-list-container {  font-size: 15px; color: #FF0000; font-family: Arial ,Helvetica,sans-serif;
  margin-left: 0px ; background:linear-gradient(45deg,#0033FF,#006666,#003399);     border-radius: 12px;  border: solid 3px #FF0000; font-weight:800; padding: 15px;line-height: 1.5;letter-spacing: 0.5px;box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-transition: all 0.3s ease;
+transition: all 0.3s ease; z-index:-200;
 
 
 
@@ -595,7 +595,7 @@ transition: all 0.3s ease;
   font-style: normal;
   padding: 0 4px;
   border-radius: 3px;
-
+z-index:200;
 }
 
 
