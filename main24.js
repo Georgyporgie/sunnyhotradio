@@ -18518,7 +18518,7 @@ timeCategory: "evening-late"
     name: "Taste Of You",
     artist: "Rezz",
      image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Rezz - Taste of you.mp3",
+    path: "https://sunnydancemuziek01.netlify.app/Rezz - Taste of you.mp3",
        timeCategory: "f afternoon"
 
 },
