@@ -19773,6 +19773,51 @@ timeCategory: "f evening"
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://sunnydanceoldies09.netlify.app/Bob Sinclar (live) - From Paris 01.mp3",
+       timeCategory: "f evening"
+},
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://sunnydanceoldies09.netlify.app/Bob Sinclar (live) - From Paris3.mp3",
+       timeCategory: "f evening"
+},
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://sunnydanceoldies09.netlify.app/Bob Sinclar (live) - From Paris4.mp3",
+       timeCategory: "f evening"
+},
+
+
+
+
+
+
+
+
+
 {
     name: " Peggy Gou ",
     artist: "  D.A.N.C.E ",
