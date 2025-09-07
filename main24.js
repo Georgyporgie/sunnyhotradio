@@ -19694,7 +19694,7 @@ timeCategory: "f evening"
 
 {
      name: " Beautiful People ",
-    artist: "Sia David Guetta ",
+    artist: "Sia & David Guetta ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Sia David Guetta - Beautiful People.mp3",
  timeCategory: "f evening"
@@ -20904,7 +20904,7 @@ timeCategory: "f evening"
 
 {
      name: " Beautiful People ",
-    artist: "Sia David Guetta ",
+    artist: "Sia & David Guetta ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Sia David Guetta - Beautiful People.mp3",
  timeCategory: "f evening-late"
