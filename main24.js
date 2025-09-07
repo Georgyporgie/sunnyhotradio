@@ -20782,8 +20782,8 @@ timeCategory: "f evening"
 
 
 {
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ☀️",
+    name: "Bob Sinclar ",
+    artist: "Live From Paris 01",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://sunnydanceoldies09.netlify.app/Bob Sinclar (live) - From Paris 01.mp3",
        timeCategory: "f evening-late"
