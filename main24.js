@@ -4648,6 +4648,13 @@ timeCategory: "morning"
 
 
 
+{
+    name: "All This Time(new) ",
+    artist: "Sonny Fodera & Jazzy  ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Sonny Fodera & Jazzy - All This Time.mp3",
+       timeCategory: "afternoon"
+},
 
 
 
