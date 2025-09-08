@@ -1503,17 +1503,13 @@ function generateSchedule() {
 
 
 
-
-
-
 <audio id="djIntro"></audio>
-<audio id="djPlayer" src="main-stream.mp3"></audio>
 
 <script>
 window.addEventListener('load', () => {
     const djIntro = document.getElementById('djIntro');
-    const djPlayer = document.getElementById('djPlayer');
 
+    // Intro schedules
     const weekdaySlots = [
         { start: 6, end: 12, file: "muziek/discjockeys/starten met Sunny4.mp3" },
         { start: 12, end: 18, file: "muziek/discjockeys/starten met Sunny4.mp3" },
@@ -1526,38 +1522,27 @@ window.addEventListener('load', () => {
         { start: 20, end: 24, file: "muziek/discjockeys/DJ Saphire finale.mp3" }
     ];
 
+    // Current time
     const now = new Date();
     const currentHour = now.getHours();
     const currentDay = now.getDay(); // 0 = Sunday, 6 = Saturday
 
+    // Pick schedule
     const isWeekend = currentDay === 0 || currentDay === 6;
     const schedule = isWeekend ? weekendSlots : weekdaySlots;
 
+    // Find matching slot
     const currentSlot = schedule.find(slot => currentHour >= slot.start && currentHour < slot.end);
 
+    // Play intro if there is one
     if (currentSlot) {
         djIntro.src = currentSlot.file;
         djIntro.volume = 0.7;
         djIntro.play().catch(err => console.log("Intro can't autoplay:", err));
-
-        djIntro.addEventListener('ended', () => {
-            djPlayer.volume = 0;
-            djPlayer.play().catch(err => console.log("Main player can't autoplay:", err));
-
-            const fadeIn = setInterval(() => {
-                if (djPlayer.volume < 0.7) {
-                    djPlayer.volume = Math.min(djPlayer.volume + 0.05, 0.7);
-                } else {
-                    clearInterval(fadeIn);
-                }
-            }, 200);
-        });
-    } else {
-        djPlayer.volume = 0.7;
-        djPlayer.play().catch(err => console.log("Main player can't autoplay:", err));
     }
 });
 </script>
+
 
 
 
