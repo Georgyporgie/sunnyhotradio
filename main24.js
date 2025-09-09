@@ -8130,6 +8130,47 @@ timeCategory: "morning"
 
 
 
+{
+     name: "  All This Time (new)",
+    artist: "Sonny Fodera & Jazzy",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Sonny Fodera & Jazzy - All This Time.mp3",
+    timeCategory: "afternoon"
+},
+
+
+{
+     name: "  In Love (new) ",
+    artist: "Minellli & Inna",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Minellli & Inna - In Love.mp3",
+    timeCategory: "afternoon"
+},
+
+
+
+
+
+{
+     name: "Believe In Magic (new) ",
+    artist: "Jessie J",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Jessie J - Believe In Magic.mp3",
+    timeCategory: "afternoon"
+},
+
+
+
+
+
+{
+     name: "The Dead Dance (new) ",
+    artist: "Lady Gaga ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Lady Gaga - The Dead Dance.mp3",
+    timeCategory: "afternoon"
+},
+
 
 
 
@@ -8304,6 +8345,55 @@ timeCategory: "morning"
     path: "https://dancemusic06.netlify.app/Kylie Minogue - Padam Padam.mp3",
     timeCategory: "evening"
 },
+
+
+
+
+
+{
+     name: "  All This Time (new)",
+    artist: "Sonny Fodera & Jazzy",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Sonny Fodera & Jazzy - All This Time.mp3",
+    timeCategory: "evening"
+},
+
+
+{
+     name: "  All This Time (new) ",
+    artist: "Sonny Fodera & Jazzy",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Minellli & Inna - In Love.mp3",
+    timeCategory: "evening"
+},
+
+
+
+
+
+{
+     name: "Believe In Magic (new) ",
+    artist: "Jessie J",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Jessie J - Believe In Magic.mp3",
+    timeCategory: "evening"
+},
+
+
+
+
+
+{
+     name: "The Dead Dance (new) ",
+    artist: "Lady Gaga ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Lady Gaga - The Dead Dance.mp3",
+    timeCategory: "evening"
+},
+
+
+
+
 
 
 
