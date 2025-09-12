@@ -8327,6 +8327,20 @@ timeCategory: "morning"
 },
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
      name: " Best Love",
     artist: "Rose Royce ",
@@ -8335,6 +8349,15 @@ timeCategory: "morning"
          timeCategory: "evening"
 
 },
+
+
+
+
+
+
+
+
+
 
 
 
@@ -10292,10 +10315,22 @@ timeCategory: "morning"
 },
 
 
+{
+     name: " Funkin For Jamaica",
+    artist: "Tom Brown",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Tom Brown Funkin For Jamaica.mp3",
+    timeCategory: "evening"
+},
 
 
-
-
+{
+     name: " Right In The Socket",
+    artist: "Shalamar ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Shalamar - Right In The Socket.mp3",
+    timeCategory: "evening"
+},
 
 
 
@@ -11322,6 +11357,16 @@ timeCategory: "morning"
 
 
 
+{
+     name: "I Can Make You Feel Good ",
+    artist: "Shalamar ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://soulfullforever.netlify.app/Shalamar - I can make you feel good.mp3",
+        timeCategory: "evening-late"
+
+
+},
+
 
 
 
@@ -11706,16 +11751,7 @@ quickFade: true
 
 
 
-{
-    name: "Boogie2nite",
-    artist: "Booty Luv",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/Booty luv - Boogie2nite.mp3",
-  
 
-
-    timeCategory: "evening-late"
-},
 
 
 
