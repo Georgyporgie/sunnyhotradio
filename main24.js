@@ -4664,7 +4664,7 @@ timeCategory: "morning"
 
 
 {
-    name: " No Broke Boys(new) ",
+    name: " No Broke Boys",
     artist: " Disco Lines & Tinashe ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Disco Lines & Tinashe - No Broke Boys.mp3",
@@ -4758,7 +4758,7 @@ timeCategory: "morning"
 
 
 {
-    name: "Mau P (new)",
+    name: "Mau P ",
     artist: " Tesla",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
@@ -4768,7 +4768,7 @@ timeCategory: "morning"
 
 
 {
-    name: "James Hype (new)",
+    name: "James Hype ",
     artist: " Waterfalls",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/James Hype - Waterfalls.mp3",
@@ -10020,7 +10020,7 @@ timeCategory: "morning"
 
 
 {
-    name: "The Message",
+    name: "The Message (1982)",
     artist: "Grandmaster Flash ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Grandmaster Flash & The Furious Five - The Message.mp3",
@@ -10251,6 +10251,34 @@ timeCategory: "morning"
 },
 
 
+
+{
+     name: " Ice Ice Baby (1990)",
+    artist: "Vanilla Ice ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Vanilla Ice - Ice Ice Baby (1990).mp3",
+    timeCategory: "evening"
+},
+
+
+{
+     name: " Push It (1987)",
+    artist: "Salt n Pepa ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Salt n Pepa - Push It (1987).mp3",
+    timeCategory: "evening"
+},
+
+
+
+
+{
+     name: "U Can't Touch This (1990)",
+    artist: "M.C. Hammer",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/M.C. Hammer - U Can't Touch This (1990).mp3",
+    timeCategory: "evening"
+},
 
 
 
@@ -11318,6 +11346,44 @@ timeCategory: "morning"
     path: "muziek/discjockeys/Sapphire02.mp3",
        timeCategory: "evening-late"
 },
+
+
+
+
+
+{
+     name: " Ice Ice Baby (1990)",
+    artist: "Vanilla Ice ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Vanilla Ice - Ice Ice Baby (1990).mp3",
+    timeCategory: "evening-late"
+},
+
+
+{
+     name: " Push It (1987)",
+    artist: "Salt n Pepa ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Salt n Pepa - Push It (1987).mp3",
+    timeCategory: "evening-late"
+},
+
+
+
+
+{
+     name: "U Can't Touch This (1990)",
+    artist: "M.C. Hammer",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/M.C. Hammer - U Can't Touch This (1990).mp3",
+    timeCategory: "evening-late"
+},
+
+
+
+
+
+
 
 
 
