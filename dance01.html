@@ -279,7 +279,7 @@ body {
 <img id= "playlist">
 
 <ul id="track-list-container">
-li.classList.add('track-item');
+
 
 
 
@@ -921,7 +921,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
  // 🎛 Volume Balancer Function
     function adjustVolumeDynamically(audioElement) {
-        let targetVolume = 0.8;  // Default volume level
+        let targetVolume = 0.6;  // Default volume level
         let maxThreshold = 1; // Prevent distortion
 
         audioElement.addEventListener("timeupdate", () => {
