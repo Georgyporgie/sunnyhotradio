@@ -19787,13 +19787,7 @@ timeCategory: "evening-late"
 
 
 
-{
-     name: "Homework ",
-    artist: "Daft Punk  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Daft Punk - Homework01.mp3",
-    timeCategory: "f evening-late"
-},
+
 
 
 
@@ -19819,25 +19813,31 @@ timeCategory: "evening-late"
 
 
 
-
-
-
-
-{
-     name: "Homework ",
-    artist: "Daft Punk  ",
+  {
+    name: "Homework",
+    artist: "Daft Punk",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Daft Punk - Homework02.mp3",
+    path: "https://sunnydanceoldies09.netlify.app/Daft%20Punk%20-%20Homework01.mp3",
     timeCategory: "f evening-late"
-},
+  },
 
-{
-     name: "Homework ",
-    artist: "Daft Punk  ",
+
+
+  {
+    name: "Homework",
+    artist: "Daft Punk",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Daft Punk - Homework03.mp3",
+    path: "https://sunnydanceoldies09.netlify.app/Daft%20Punk%20-%20Homework02.mp3",
     timeCategory: "f evening-late"
-},
+  },
+  {
+    name: "Homework ",
+    artist: "Daft Punk",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Daft%20Punk%20-%20Homework03.mp3",
+    timeCategory: "f evening-late"
+  },
+
 
 
 
@@ -19952,37 +19952,30 @@ timeCategory: "f evening"
 
 
 
-{
-     name: "Homework ",
-    artist: "Daft Punk  ",
+  {
+    name: "Homework",
+    artist: "Daft Punk",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Daft Punk - Homework01.mp3",
+    path: "https://sunnydanceoldies09.netlify.app/Daft%20Punk%20-%20Homework01.mp3",
     timeCategory: "f evening"
-},
+  },
 
 
 
-
-
-
-
-{
-     name: "Homework ",
-    artist: "Daft Punk  ",
+  {
+    name: "Homework",
+    artist: "Daft Punk",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Daft Punk - Homework02.mp3",
+    path: "https://sunnydanceoldies09.netlify.app/Daft%20Punk%20-%20Homework02.mp3",
     timeCategory: "f evening"
-},
-
-
-
-{
-     name: "Homework ",
-    artist: "Daft Punk  ",
+  },
+  {
+    name: "Homework ",
+    artist: "Daft Punk",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Daft Punk - Homework03.mp3",
+    path: "https://sunnydanceoldies09.netlify.app/Daft%20Punk%20-%20Homework03.mp3",
     timeCategory: "f evening"
-},
+  },
 
 
 
@@ -21884,13 +21877,6 @@ timeCategory: "f evening"
 },
 
 
-{
-     name: "Homework ",
-    artist: "Daft Punk  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Daft Punk - Homework01.mp3",
-    timeCategory: "f evening-late"
-},
 
 
 
@@ -21898,23 +21884,7 @@ timeCategory: "f evening"
 
 
 
-{
-     name: "Homework ",
-    artist: "Daft Punk  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Daft Punk - Homework02.mp3",
-    timeCategory: "f evening-late"
-},
 
-
-
-{
-     name: "Homework ",
-    artist: "Daft Punk  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Daft Punk - Homework03.mp3",
-    timeCategory: "f evening-late"
-},
 
 
 
