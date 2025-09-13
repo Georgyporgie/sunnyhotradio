@@ -19787,6 +19787,67 @@ timeCategory: "evening-late"
 
 
 
+{
+     name: "Homework ",
+    artist: "Daft Punk  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Daft Punk - Homework01.mp3",
+    timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+
+{
+     name: " Live Mix ",
+    artist: "Corne Kleyns",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Corne Kleyns- Live Mix 022.mp3",
+    timeCategory: "f evening-late"
+},
+
+{
+     name: "Live Mix   ",
+    artist: "Corne Kleyns",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Corne Kleyns- Live Mix 01.mp3",
+    timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+
+{
+     name: "Homework ",
+    artist: "Daft Punk  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Daft Punk - Homework02.mp3",
+    timeCategory: "f evening-late"
+},
+
+{
+     name: "Homework ",
+    artist: "Daft Punk  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Daft Punk - Homework03.mp3",
+    timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -19881,15 +19942,46 @@ timeCategory: "f evening"
 
 
 
+{
+     name: "Beautiful People ",
+    artist: "David Guetta Ft. Sia & Rihanna ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/David Guetta Ft. Sia & Rihanna - Beautiful People.mp3",
+    timeCategory: "f evening"
+},
 
 
 
 {
-     name: "One Thing",
-    artist: "Lola Young ",
+     name: "Homework ",
+    artist: "Daft Punk  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic08.netlify.app/Lola Young - One Thing.mp3",
- timeCategory: "f evening"
+    path: "https://sunnydanceoldies09.netlify.app/Daft Punk - Homework01.mp3",
+    timeCategory: "f evening"
+},
+
+
+
+
+
+
+
+{
+     name: "Homework ",
+    artist: "Daft Punk  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Daft Punk - Homework02.mp3",
+    timeCategory: "f evening"
+},
+
+
+
+{
+     name: "Homework ",
+    artist: "Daft Punk  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Daft Punk - Homework03.mp3",
+    timeCategory: "f evening"
 },
 
 
@@ -21792,6 +21884,40 @@ timeCategory: "f evening"
 },
 
 
+{
+     name: "Homework ",
+    artist: "Daft Punk  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Daft Punk - Homework01.mp3",
+    timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+
+{
+     name: "Homework ",
+    artist: "Daft Punk  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Daft Punk - Homework02.mp3",
+    timeCategory: "f evening-late"
+},
+
+
+
+{
+     name: "Homework ",
+    artist: "Daft Punk  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Daft Punk - Homework03.mp3",
+    timeCategory: "f evening-late"
+},
+
+
+
 
 
 
@@ -21804,10 +21930,7 @@ timeCategory: "f evening"
     artist: "Rita Ora",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Rita Ora - Doing It.mp3",
-  
-
-
-     timeCategory: "f evening-late"
+       timeCategory: "f evening-late"
 
 
 
