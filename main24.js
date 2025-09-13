@@ -19905,13 +19905,6 @@ timeCategory: "f evening"
 
 
 
-{
-     name: "Beautiful People ",
-    artist: "David Guetta Ft. Sia & Rihanna ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/David Guetta Ft. Sia & Rihanna - Beautiful People.mp3",
-    timeCategory: "f evening"
-},
 
 
 
