@@ -19233,13 +19233,6 @@ timeCategory: "evening-late"
 
 
 
-{
-     name: "Favourite Type",
-    artist: "Roxen (alarmschijf)",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic08.netlify.app/Roxen - Favourite Type.mp3",
- timeCategory: "f afternoon"
-},
 
 
 
@@ -19845,13 +19838,7 @@ timeCategory: "f evening"
 },
 
 
-{
-     name: "Favourite Type",
-    artist: "Roxen (alarmschijf)",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic08.netlify.app/Roxen - Favourite Type.mp3",
- timeCategory: "f evening-late"
-},
+
 
 
 {
