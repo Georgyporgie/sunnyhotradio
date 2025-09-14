@@ -935,6 +935,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+
+
+
+
+
+
 window.addEventListener("load", () => {
   loadTrack(0);        // Load your first track
   playTrack();         // Start playing it
@@ -1230,7 +1236,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     player.addEventListener("canplaythrough", () => {
         console.log("Track is fully loaded—applying volume adjustment.");
-        adjustVolumeDynamically(player);
+      
     });
 });
 
