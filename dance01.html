@@ -1236,7 +1236,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     player.addEventListener("canplaythrough", () => {
         console.log("Track is fully loaded—applying volume adjustment.");
-      
+        adjustVolumeDynamically(player);
     });
 });
 
