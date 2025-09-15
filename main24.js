@@ -7191,6 +7191,13 @@ timeCategory: "morning"
  },
 
 
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3",
+  timeCategory: "afternoon"
+},
 
 
 
@@ -7348,6 +7355,13 @@ timeCategory: "morning"
 
 
 
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3",
+  timeCategory: "afternoon"
+},
 
 
 
@@ -8353,7 +8367,13 @@ timeCategory: "morning"
 
 
 
-
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3",
+  timeCategory: "evening"
+},
 
 
 
@@ -11007,6 +11027,13 @@ timeCategory: "morning"
 
 
 
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3",
+  timeCategory: "evening"
+},
 
 
 
@@ -11610,6 +11637,13 @@ timeCategory: "morning"
 
 
 
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3",
+  timeCategory: "evening-late"
+},
 
 
 
@@ -11944,6 +11978,13 @@ timeCategory: "evening-late",
 
 
 
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3",
+  timeCategory: "evening-late"
+},
 
 
 
@@ -12315,6 +12356,13 @@ timeCategory: "evening-late",
 
 
 
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3",
+  timeCategory: "evening"
+},
 
 
 
