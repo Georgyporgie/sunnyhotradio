@@ -1515,37 +1515,86 @@ function generateSchedule() {
 window.addEventListener('load', () => {
     const djIntro = document.getElementById('djIntro');
 
-    // Intro schedules
+    // Weekday schedule
     const weekdaySlots = [
-        { start: 0, end: 12, file: "muziek/discjockeys/starten met Sunny4.mp3" },
-        { start: 12, end: 18, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" },
-        { start: 18, end: 24, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" }
+        { start: 0, end: 12,
+          intro: ["muziek/discjockeys/starten met Sunny4.mp3"],
+          hourly: ["muziek/voiceover/From The Heart Of Amsterdam.mp3", "muziek/voiceover/From The Heart Of Amsterdam2.mp3"]
+        },
+        { start: 12, end: 18,
+          intro: ["muziek/voiceover/Latest Hits Of Dance Area22222.mp3"],
+          hourly: ["muziek/voiceover/From The Heart Of Amsterdam.mp3", "muziek/voiceover/From The Heart Of Amsterdam2.mp3"]
+        },
+        { start: 18, end: 24,
+          intro: ["muziek/voiceover/Latest Hits Of Dance Area22222.mp3"],
+         hourly: ["muziek/voiceover/From The Heart Of Amsterdam.mp3", "muziek/voiceover/From The Heart Of Amsterdam2.mp3"]
+
+        }
     ];
 
+    // Weekend schedule
     const weekendSlots = [
-        { start: 0, end: 14, file: "muziek/discjockeys/starten met Sunny4.mp3" },
-        { start: 14, end: 20, file: "muziek/discjockeys/DJ Saphire finale.mp3" },
-        { start: 20, end: 24, file: "muziek/discjockeys/DJ Saphire finale.mp3" }
+        { start: 0, end: 14,
+          intro: ["muziek/discjockeys/starten met Sunny4.mp3"],
+          hourly: ["muziek/discjockeys/Morning Weekend Vibe.mp3", "muziek/discjockeys/Weekend Chill.mp3"]
+        },
+        { start: 14, end: 20,
+          intro: ["muziek/discjockeys/DJ Saphire finale.mp3"],
+          hourly: ["muziek/discjockeys/Weekend Party.mp3", "muziek/discjockeys/Beach Beats.mp3"]
+        },
+        { start: 20, end: 24,
+          intro: ["muziek/discjockeys/DJ Saphire finale.mp3"],
+          hourly: ["muziek/discjockeys/Late Night Energy.mp3", "muziek/discjockeys/After Hours.mp3"]
+        }
     ];
 
-    // Current time
     const now = new Date();
     const currentHour = now.getHours();
-    const currentDay = now.getDay(); // 0 = Sunday, 6 = Saturday
-
-    // Pick schedule
+    const currentDay = now.getDay();
     const isWeekend = currentDay === 0 || currentDay === 6;
     const schedule = isWeekend ? weekendSlots : weekdaySlots;
-
-    // Find matching slot
     const currentSlot = schedule.find(slot => currentHour >= slot.start && currentHour < slot.end);
 
-    // Play intro if there is one
-    if (currentSlot) {
-        djIntro.src = currentSlot.file;
+    let lastPlayed = null;
+
+    function playRandom(pool) {
+        if (!pool || pool.length === 0) return;
+        let file;
+        do {
+            file = pool[Math.floor(Math.random() * pool.length)];
+        } while (file === lastPlayed && pool.length > 1);
+        lastPlayed = file;
+
+        djIntro.src = file;
         djIntro.volume = 0.8;
-        djIntro.play().catch(err => console.log("Intro can't autoplay:", err));
+        djIntro.play().catch(err => console.log("Can't autoplay:", err));
     }
+
+    function scheduleNextQuarterHour() {
+        const now = new Date();
+        const minutes = now.getMinutes();
+        const nextQuarter = Math.ceil(minutes / 20) * 20;
+        let target = new Date(now);
+        target.setMinutes(nextQuarter === 60 ? 0 : nextQuarter);
+        if (nextQuarter === 60) target.setHours(now.getHours() + 1);
+        target.setSeconds(0);
+        target.setMilliseconds(0);
+
+        const delay = target - now;
+
+        setTimeout(() => {
+            playRandom(currentSlot.hourly);
+            scheduleNextQuarterHour();
+        }, delay);
+    }
+
+    // Play intro immediately at load
+    if (currentSlot) {
+        playRandom(currentSlot.intro);
+    }
+
+    // Schedule through-the-hour drops
+    scheduleNextQuarterHour();
 });
 </script>
 
