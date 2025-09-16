@@ -1307,12 +1307,13 @@ document.addEventListener("DOMContentLoaded", () => {
       setInterval(() => playSound(["quarterHourSou"]), 900000);
     }, quarterHourDelay);
 
-    // Every 20 minutes
-    var twentyMinuteDelay = (20 - (now.getMinutes() % 20)) * 60 * 1000 - now.getSeconds() * 1000;
-    setTimeout(function() {
-      playSound(["twentyMinuteSou"]);
-      setInterval(() => playSound(["twentyMinuteSou"]), 1200000);
-    }, twentyMinuteDelay);
+// Every 25 minutes
+var twentyFiveMinuteDelay = (25 - (now.getMinutes() % 25)) * 60 * 1000 - now.getSeconds() * 1000;
+
+setTimeout(function() {
+  playSound(["twentyFiveMinuteSou"]); // or rename to "twentyFiveMinuteSou" for clarity
+  setInterval(() => playSound(["twentyMinuteSou"]), 1500000); // 25 * 60 * 1000 = 1,500,000 ms
+}, twentyFiveMinuteDelay);
 
     // Every 45 minutes
     var fortyFiveMinuteDelay = (45 - (now.getMinutes() % 45)) * 60 * 1000 - now.getSeconds() * 1000;
@@ -1504,13 +1505,13 @@ window.addEventListener('load', () => {
     // Intro schedules
     const weekdaySlots = [
         { start: 0, end: 12, file: "muziek/discjockeys/starten met Sunny4.mp3" },
-        { start: 12, end: 18, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" },
+        { start: 12, end: 18, file: "muziek/discjockeys/starten met Sunny4.mp3" },
         { start: 18, end: 24, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" }
     ];
 
     const weekendSlots = [
         { start: 0, end: 14, file: "muziek/discjockeys/starten met Sunny4.mp3" },
-        { start: 14, end: 20, file: "muziek/discjockeys/DJ Saphire finale.mp3" },
+        { start: 14, end: 20, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" },
         { start: 20, end: 24, file: "muziek/discjockeys/DJ Saphire finale.mp3" }
     ];
 
