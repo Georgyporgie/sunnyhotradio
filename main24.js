@@ -149,7 +149,7 @@ function getCurrentTimeCategory() {
     2: shuffle(["morning","afternoon","evening","evening-late"], 2), // Tuesday
     3: shuffle(["morning","afternoon","evening-late","evening"], 3), // Wednesday
     4: shuffle(["morning","evening","evening-late","afternoon"], 4), // Thursday
-    5: shuffle([" evening","afternoon","afternoon","evening-late"], 5), // Friday
+    5: shuffle([" evening","afternoon","f afternoon","evening-late"], 5), // Friday
     6: shuffle(["f evening","f afternoon","f evening-late","f evening"], 6)  // Saturday
   };
 
@@ -599,7 +599,13 @@ let trackList = [
 
 
 
-
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3",
+  timeCategory: "morning"
+},
 
 
 
