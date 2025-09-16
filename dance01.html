@@ -1507,85 +1507,47 @@ function generateSchedule() {
 
 
 
+
+
 <audio id="djIntro"></audio>
 
 <script>
 window.addEventListener('load', () => {
     const djIntro = document.getElementById('djIntro');
-    const intervalMinutes = 20; // ⏱ Change this to adjust the interval
 
-    // Weekday schedule
+    // Intro schedules
     const weekdaySlots = [
-        { start: 0, end: 12,
-          intro: "muziek/discjockeys/starten met Sunny4.mp3",
-          hourly: "muziek/voiceover/From The Heart Of Amsterdam.mp3"
-        },
-        { start: 12, end: 18,
-          intro: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3",
-          hourly: "muziek/voiceover/From The Heart Of Amsterdam.mp3"
-        },
-        { start: 18, end: 24,
-          intro: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3",
-          hourly: "muziek/voiceover/From The Heart Of Amsterdam.mp3"
-        }
+        { start: 0, end: 12, file: "muziek/discjockeys/starten met Sunny4.mp3" },
+        { start: 12, end: 18, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" },
+        { start: 18, end: 24, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" }
     ];
 
-    // Weekend schedule
     const weekendSlots = [
-        { start: 0, end: 14,
-          intro: "muziek/discjockeys/starten met Sunny4.mp3",
-          hourly: "muziek/discjockeys/Morning Weekend Vibe.mp3"
-        },
-        { start: 14, end: 20,
-          intro: "muziek/discjockeys/DJ Saphire finale.mp3",
-          hourly: "muziek/discjockeys/Weekend Party.mp3"
-        },
-        { start: 20, end: 24,
-          intro: "muziek/discjockeys/DJ Saphire finale.mp3",
-          hourly: "muziek/discjockeys/Late Night Energy.mp3"
-        }
+        { start: 0, end: 14, file: "muziek/discjockeys/starten met Sunny4.mp3" },
+        { start: 14, end: 20, file: "muziek/discjockeys/DJ Saphire finale.mp3" },
+        { start: 20, end: 24, file: "muziek/discjockeys/DJ Saphire finale.mp3" }
     ];
 
+    // Current time
     const now = new Date();
     const currentHour = now.getHours();
-    const currentDay = now.getDay();
+    const currentDay = now.getDay(); // 0 = Sunday, 6 = Saturday
+
+    // Pick schedule
     const isWeekend = currentDay === 0 || currentDay === 6;
     const schedule = isWeekend ? weekendSlots : weekdaySlots;
+
+    // Find matching slot
     const currentSlot = schedule.find(slot => currentHour >= slot.start && currentHour < slot.end);
 
-    function playFile(file) {
-        if (!file) return;
-        djIntro.src = file;
-        djIntro.volume = 0.5;
-        djIntro.play().catch(err => console.log("Can't autoplay:", err));
-    }
-
-    function scheduleNextInterval(file) {
-        const now = new Date();
-        const minutes = now.getMinutes();
-        const nextInterval = Math.ceil(minutes / intervalMinutes) * intervalMinutes;
-        let target = new Date(now);
-        target.setMinutes(nextInterval === 60 ? 0 : nextInterval);
-        if (nextInterval === 60) target.setHours(now.getHours() + 1);
-        target.setSeconds(0);
-        target.setMilliseconds(0);
-
-        const delay = target - now;
-
-        setTimeout(() => {
-            playFile(file);
-            scheduleNextInterval(file); // Schedule the next one recursively
-        }, delay);
-    }
-
-    // Play intro immediately at load and schedule hourly playback
+    // Play intro if there is one
     if (currentSlot) {
-        playFile(currentSlot.intro);
-        scheduleNextInterval(currentSlot.hourly);
+        djIntro.src = currentSlot.file;
+        djIntro.volume = 0.5;
+        djIntro.play().catch(err => console.log("Intro can't autoplay:", err));
     }
 });
 </script>
-
 
 
 
