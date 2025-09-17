@@ -9441,6 +9441,13 @@ timeCategory: "morning"
 
 
 
+{
+    name: "  Hear The Drummer ",
+    artist: "Chad Jackson ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Chad Jackson - Hear The Drummer.mp3",
+   timeCategory: "evening"
+},
 
 
 
@@ -12232,6 +12239,13 @@ timeCategory: "evening-late",
 
 
 
+{
+    name: "  Stay On Me (new) ",
+    artist: "Sophie Ellis Bextor ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Sophie Ellis Bextor -  Stay On Me.mp3",
+   timeCategory: "evening-late"
+},
 
 
 
@@ -12788,6 +12802,13 @@ timeCategory: "evening-late",
 
 
 
+{
+    name: "  Stay On Me (new) ",
+    artist: "Sophie Ellis Bextor ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Sophie Ellis Bextor -  Stay On Me.mp3",
+   timeCategory: "evening"
+},
 
 
 
@@ -15707,7 +15728,13 @@ timeCategory: "evening-late"
 
 
 
-
+{
+    name: "  Hear The Drummer ",
+    artist: "Chad Jackson ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Chad Jackson - Hear The Drummer.mp3",
+   timeCategory: "evening-late"
+},
 
 
 
@@ -17044,6 +17071,14 @@ timeCategory: "evening-late"
 
 
  
+
+
+
+
+
+
+
+
 
 {
     name: " Searchin'  ",
@@ -19088,7 +19123,13 @@ timeCategory: "evening-late"
 },
 
 
-
+{
+    name: "  Stay On Me (new) ",
+    artist: "Sophie Ellis Bextor ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Sophie Ellis Bextor -  Stay On Me.mp3",
+   timeCategory: "f afternoon"
+},
 
 
 
@@ -20585,7 +20626,13 @@ timeCategory: "f evening"
 
 
 
-
+{
+    name: "  Stay On Me (new) ",
+    artist: "Sophie Ellis Bextor ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Sophie Ellis Bextor -  Stay On Me.mp3",
+   timeCategory: "f evening"
+},
 
 
 
