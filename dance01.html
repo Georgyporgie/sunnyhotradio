@@ -777,18 +777,45 @@ window.addEventListener('load', () => {
   // After 10 seconds, set volume based on time of day
   setTimeout(() => {
     const hour = new Date().getHours();
-    let targetVolume = 0.3; // default
+    let targetVolume;
 
     if (hour < 9) {
-      targetVolume = 0.3; // morning
+      targetVolume = 0.2; // softer in the morning
     } else if (hour >= 21) {
-      targetVolume = 0.3; // night
+      targetVolume = 0.15; // very soft at night
+    } else {
+      targetVolume = 0.5; // louder during the day
     }
 
-    musicPlayer.volume = targetVolume;
-  }, 200); // 10 seconds
+    // Configurable fade duration (ms)
+    const fadeDuration = 5000; // 5 seconds
+    const interval = 50;       // update every 50ms
+    const steps = fadeDuration / interval;
+    let currentStep = 0;
+
+    let fade = setInterval(() => {
+      currentStep++;
+
+      // Progress from 0 → 1
+      let progress = currentStep / steps;
+
+      // Apply ease-in-out curve (smooth acceleration & deceleration)
+      let eased = progress < 0.5
+        ? 2 * progress * progress           // accelerate
+        : -1 + (4 - 2 * progress) * progress; // decelerate
+
+      musicPlayer.volume = Math.min(targetVolume * eased, targetVolume);
+
+      if (currentStep >= steps) {
+        clearInterval(fade);
+        musicPlayer.volume = targetVolume; // ensure exact final value
+      }
+    }, interval);
+
+  }, 10000); // 10 seconds
 });
 </script>
+
 
 
 
