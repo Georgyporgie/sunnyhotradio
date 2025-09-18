@@ -1281,20 +1281,39 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 <audio id="hourlySou">
-  <source src="audio/its now.mp3" type="audio/mp3">
+   
 </audio>
 
 <audio id="quarterHourSou">
-  <source src="muziek/effects/blast.mp3" type="audio/mp3">
+  
 </audio>
 
 <audio id="twentyMinuteSou">
-  <source src="muziek/voiceover/From The Heart Of Amsterdam2.mp3" type="audio/mp3">
+  
 </audio>
 
 <audio id="fortyFiveMinuteSou">
-  <source src="muziek/jingles/Sunny los.mp3" type="audio/mp3">
 </audio>
+
+
+
+<script>
+document.getElementById("hourlySou").setAttribute('src', 'clock/its now.mp3');
+document.getElementById("quarterHourSou").setAttribute('src', 'muziek/effects/blast.mp3');
+document.getElementById("twentyMinuteSou").setAttribute('src', 'muziek/voiceover/From The Heart Of Amsterdam2.mp3');
+document.getElementById("fortyFiveMinuteSou").setAttribute('src', 'muziek/jingles/Sunny los.mp3');
+
+</script>
+
+
+
+
+
+
+
+
+
+
 
 <script>
   // ✅ Apply volume normalization when a track is ready to play
