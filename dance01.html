@@ -1280,90 +1280,153 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-<audio id="hourlySou"></audio>
-<audio id="quarterHourSou"></audio>
-<audio id="twentyFiveMinuteSou"></audio>
-<audio id="fortyFiveMinuteSou"></audio>
-<audio id="hourlyAnnouncement"></audio>
+<audio id="hourlySou">
+  <source src="audio/its now.mp3" type="audio/mp3">
+</audio>
+
+<audio id="quarterHourSou">
+  <source src="muziek/effects/blast.mp3" type="audio/mp3">
+</audio>
+
+<audio id="twentyMinuteSou">
+  <source src="muziek/voiceover/From The Heart Of Amsterdam2.mp3" type="audio/mp3">
+</audio>
+
+<audio id="fortyFiveMinuteSou">
+  <source src="muziek/jingles/Sunny los.mp3" type="audio/mp3">
+</audio>
 
 <script>
-  // Set sources
-  document.getElementById("hourlySou").src = "clock/its now.mp3";
-  document.getElementById("quarterHourSou").src = "muziek/effects/blast.mp3";
-  document.getElementById("twentyFiveMinuteSou").src = "muziek/voiceover/From The Heart Of Amsterdam2.mp3";
-  document.getElementById("fortyFiveMinuteSou").src = "muziek/jingles/Sunny los.mp3";
+  // ✅ Apply volume normalization when a track is ready to play
+  document.querySelectorAll("audio").forEach(audio => {
+    audio.addEventListener("canplay", () => adjustVolumeDynamically(audio));
+  });
 
-  // Play helper
-  function playSound(ids) {
-    ids.forEach(id => {
-      const el = document.getElementById(id);
-      if (el) {
-        el.volume = 0.7;
-        el.play().catch(err => console.error("Playback failed:", err));
+  // 🎵 Play sound helper
+  function playSound(soundIds) {
+    soundIds.forEach(id => {
+      const soundEl = document.getElementById(id);
+      if (soundEl) {
+        soundEl.volume = 0.7;
+        soundEl.play().catch(err => console.error("Playback failed:", err));
+      } else {
+        console.error("Sound element not found:", id);
       }
     });
   }
 
+  // 📢 Sound Scheduling Function
   function scheduleSounds() {
-    const now = new Date();
+    console.log("Scheduling sounds...");
+    var now = new Date();
 
     // Hourly
-    let hourlyDelay = (60 - now.getMinutes()) * 60 * 1000 - now.getSeconds() * 1000;
-    setTimeout(() => {
+    var hourlyDelay = (60 - now.getMinutes()) * 60 * 1000 - now.getSeconds() * 1000;
+    setTimeout(function() {
       playSound(["hourlySou"]);
       setInterval(() => playSound(["hourlySou"]), 3600000);
     }, hourlyDelay);
 
-    // Quarter-hour
-    let quarterDelay = (15 - (now.getMinutes() % 15)) * 60 * 1000 - now.getSeconds() * 1000;
-    setTimeout(() => {
+    // Every 15 minutes
+    var quarterHourDelay = (15 - (now.getMinutes() % 15)) * 60 * 1000 - now.getSeconds() * 1000;
+    setTimeout(function() {
       playSound(["quarterHourSou"]);
       setInterval(() => playSound(["quarterHourSou"]), 900000);
-    }, quarterDelay);
+    }, quarterHourDelay);
 
-    // Every 25 minutes
-    let twentyFiveDelay = (25 - (now.getMinutes() % 25)) * 60 * 1000 - now.getSeconds() * 1000;
-    setTimeout(() => {
-      playSound(["twentyFiveMinuteSou"]);
-      setInterval(() => playSound(["twentyFiveMinuteSou"]), 1500000);
-    }, twentyFiveDelay);
+// Every 25 minutes
+var twentyFiveMinuteDelay = (25 - (now.getMinutes() % 25)) * 60 * 1000 - now.getSeconds() * 1000;
+
+setTimeout(function() {
+  playSound(["twentyFiveMinuteSou"]); // or rename to "twentyFiveMinuteSou" for clarity
+  setInterval(() => playSound(["twentyMinuteSou"]), 1500000); // 25 * 60 * 1000 = 1,500,000 ms
+}, twentyFiveMinuteDelay);
 
     // Every 45 minutes
-    let fortyFiveDelay = (45 - (now.getMinutes() % 45)) * 60 * 1000 - now.getSeconds() * 1000;
-    setTimeout(() => {
+    var fortyFiveMinuteDelay = (45 - (now.getMinutes() % 45)) * 60 * 1000 - now.getSeconds() * 1000;
+    setTimeout(function() {
       playSound(["fortyFiveMinuteSou"]);
       setInterval(() => playSound(["fortyFiveMinuteSou"]), 2700000);
-    }, fortyFiveDelay);
+    }, fortyFiveMinuteDelay);
   }
 
+  // 🕒 Activate scheduling on page load
   window.onload = scheduleSounds;
-
-  // Hourly announcement
-  const sources = Array.from({length: 24}, (_, i) => `audio/${i}.mp3`);
-  let currentIndex = new Date().getHours();
-
-  function playHourlyAnnouncement() {
-    const el = document.getElementById("hourlyAnnouncement");
-    if (!el) return;
-
-    const now = new Date();
-    const msToNextHour = (60 - now.getMinutes()) * 60 * 1000 - now.getSeconds() * 1000;
-
-    setTimeout(() => {
-      el.src = sources[currentIndex];
-      el.play();
-      currentIndex = (currentIndex + 1) % sources.length;
-
-      setInterval(() => {
-        el.src = sources[currentIndex];
-        el.play();
-        currentIndex = (currentIndex + 1) % sources.length;
-      }, 3600000);
-    }, msToNextHour);
-  }
-
-  playHourlyAnnouncement();
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<audio id="hourlyAnnouncement"></audio>
+
+<script>
+    // 🎧 Define the sources for hourly announcements
+    var sources = [
+        "audio/0.mp3", "audio/1.mp3", "audio/2.mp3", "audio/3.mp3",
+        "audio/4.mp3", "audio/5.mp3", "audio/6.mp3", "audio/7.mp3",
+        "audio/8.mp3", "audio/9.mp3", "audio/10.mp3", "audio/11.mp3",
+        "audio/12.mp3", "audio/13.mp3", "audio/14.mp3", "audio/15.mp3",
+        "audio/16.mp3", "audio/17.mp3", "audio/18.mp3", "audio/19.mp3",
+        "audio/20.mp3", "audio/21.mp3", "audio/22.mp3", "audio/23.mp3"
+    ]; // Array of audio sources
+
+    var currentIndex = new Date().getHours(); // Set index based on the current hour
+
+ function playHourlyAnnouncement() {
+    var audioElement = document.getElementById('hourlyAnnouncement');
+    
+    if (!audioElement) {
+        console.error("Audio element not found!");
+        return;
+    }
+
+    var currentTime = new Date();
+    var minutes = currentTime.getMinutes();
+    var seconds = currentTime.getSeconds();
+    var millisecondsToNextHour = ((59 - minutes) * 60 + (60 - seconds)) * 1000;
+
+    setTimeout(function() {
+        audioElement.src = sources[currentIndex];
+        audioElement.load(); // ✅ Ensure the audio element is ready
+        audioElement.play();
+        adjustVolumeDynamically(audioElement); // ✅ Apply volume normalization
+
+        currentIndex = (currentIndex + 1) % sources.length;
+
+        setInterval(function() {
+            audioElement.src = sources[currentIndex];
+            audioElement.load();
+            audioElement.play();
+            adjustVolumeDynamically(audioElement); // ✅ Apply volume normalization for each track
+            currentIndex = (currentIndex + 1) % sources.length;
+        }, 3600000); // Play every hour
+    }, millisecondsToNextHour);
+}
+
+
+    // 🕒 Activate hourly announcements
+    playHourlyAnnouncement();
+</script>
+
 
 
 
@@ -1470,7 +1533,7 @@ window.addEventListener('load', () => {
     const weekdaySlots = [
         { start: 0, end: 12, file: "muziek/discjockeys/starten met Sunny4.mp3" },
         { start: 12, end: 18, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" },
-        { start: 18, end: 24, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" }
+        { start: 18, end: 24, file: "muziek/discjockeys/starten met Sunny4.mp3" }
     ];
 
     const weekendSlots = [
