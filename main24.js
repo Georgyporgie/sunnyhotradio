@@ -26,156 +26,99 @@ function displayMessage() {
 
 
 
+function shuffle(array, seed) {
+  // Simple seeded shuffle for reproducibility
+  let m = array.length, t, i;
+  let random = mulberry32(seed);
 
+  while (m) {
+    i = Math.floor(random() * m--);
+    t = array[m];
+    array[m] = array[i];
+    array[i] = t;
+  }
+  return array;
+}
+
+function mulberry32(a) {
+  return function() {
+    var t = a += 0x6D2B79F5;
+    t = Math.imul(t ^ t >>> 15, t | 1);
+    t ^= t + Math.imul(t ^ t >>> 7, t | 61);
+    return ((t ^ t >>> 14) >>> 0) / 4294967296;
+  }
+}
 
 function getCurrentTimeCategory() {
   const now = new Date();
   const currentHour = now.getHours();
   const currentDay = now.getDay();
 
-  let category;
-
-  switch (currentDay) {
-    case 0: // Sunday
-      if (currentHour >= 8 && currentHour < 12) {
-        category = "f afternoon";
-      } else if (currentHour >= 12 && currentHour < 17) {
-        category = "f evening";
-      } else if (currentHour >= 17 && currentHour < 21) {
-        category = "f evening-late";
-      } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-        category = "f evening-late";    } else {
-        category = " jingle-time";
-      }
-      break;
-      
-    case 1: // Monday
-      if (currentHour >= 8 && currentHour < 12) {
-        category = "morning";
-      } else if (currentHour >= 12 && currentHour < 17) {
-        category = "evening";
-      } else if (currentHour >= 17 && currentHour < 21) {
-        category = "afternoon";
-      } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-        category = "evening-late";
-      } else {
-        category = "jingle-time";
-      }
-      break;
-
-    case 2: // Tuesday
-      if (currentHour >= 8 && currentHour < 12) {
-        category = "morning";
-      } else if (currentHour >= 12 && currentHour < 17) {
-        category = "evening-late";
-      } else if (currentHour >= 17 && currentHour < 21) {
-        category = "evening";
-      } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-        category = "afternoon";
-      } else {
-        category = "jingle-time";
-      }
-      break;
-
-    case 3: // Wednesday
-      if (currentHour >= 8 && currentHour < 12) {
-        category = "morning";
-      } else if (currentHour >= 12 && currentHour < 17) {
-        category = "afternoon";
-      } else if (currentHour >= 17 && currentHour < 21) {
-        category = "evening-late";
-      } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-        category = "evening";
-      } else {
-        category = "jingle-time";
-      }
-      break;
-
-    case 4: // Thursday
-      if (currentHour >= 8 && currentHour < 12) {
-        category = "morning";
-      } else if (currentHour >= 12 && currentHour < 17) {
-        category = "evening";
-      } else if (currentHour >= 17 && currentHour < 21) {
-        category = "afternoon";
-      } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-        category = "evening-late";
-      } else {
-        category = "jingle-time";
-      }
-      break;
-
-    case 5: // Friday
-      if (currentHour >= 8 && currentHour < 12) {
-        category = "evening";
-      } else if (currentHour >= 12 && currentHour < 17) {
-        category = "morning";
-      } else if (currentHour >= 17 && currentHour < 21) {
-        category = "evening-late";
-      } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-        category = "evening";
-      } else {
-        category = "jingle-time";
-      }
-      break;
-
-    case 6: // Saturday
-      if (currentHour >= 8 && currentHour < 12) {
-        category = "morning";
-      } else if (currentHour >= 12 && currentHour < 17) {
-        category = "f afternoon";
-      } else if (currentHour >= 17 && currentHour < 21) {
-        category = "f evening-late";
-      } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-        category = "f evening";
-      } else {
-        category = "jingle-time";
-      }
-      break;
-
-    default:
-      category = "unknown"; // Fallback case
-  }
-
-  return category;
-
-
-
-
-  // Define categories for each day and shuffle them
+  // Define possible categories for each time range
   const categoriesPerDay = {
-    0: shuffle(["f evening","f afternoon","f evening-late","f evening"], 0), // Sunday
-    1: shuffle(["morning","afternoon","evening","evening-late"], 1), // Monday
-    2: shuffle(["morning","afternoon","evening","evening-late"], 2), // Tuesday
-    3: shuffle(["morning","afternoon","evening-late","evening"], 3), // Wednesday
-    4: shuffle(["morning","evening","evening-late","afternoon"], 4), // Thursday
-    5: shuffle([" evening","afternoon","f afternoon","evening-late"], 5), // Friday
-    6: shuffle(["f evening","f afternoon","f evening-late","f evening"], 6)  // Saturday
+    0: { // Sunday
+      morning: ["f afternoon"],
+      afternoon: ["f evening"],
+      evening: ["f evening-late"],
+      late: ["f evening-late"],
+      night: ["jingle-time"]
+    },
+    1: { // Monday
+      morning: ["morning"],
+      afternoon: ["evening"],
+      evening: ["afternoon"],
+      late: ["evening-late"],
+      night: ["jingle-time"]
+    },
+    2: { // Tuesday
+      morning: ["morning"],
+      afternoon: ["evening-late"],
+      evening: ["evening"],
+      late: ["afternoon"],
+      night: ["jingle-time"]
+    },
+    3: { // Wednesday
+      morning: ["morning"],
+      afternoon: ["afternoon"],
+      evening: ["evening-late"],
+      late: ["evening"],
+      night: ["jingle-time"]
+    },
+    4: { // Thursday
+      morning: ["morning"],
+      afternoon: ["evening"],
+      evening: ["afternoon"],
+      late: ["evening-late"],
+      night: ["jingle-time"]
+    },
+    5: { // Friday
+      morning: ["evening"],
+      afternoon: ["morning"],
+      evening: ["evening-late"],
+      late: ["evening"],
+      night: ["jingle-time"]
+    },
+    6: { // Saturday
+      morning: ["morning"],
+      afternoon: ["f afternoon"],
+      evening: ["f evening-late"],
+      late: ["f evening"],
+      night: ["jingle-time"]
+    }
   };
 
-  const shuffledCategories = categoriesPerDay[currentDay];
+  // Determine time-of-day key
+  let timeKey;
+  if (currentHour >= 8 && currentHour < 12) timeKey = "morning";
+  else if (currentHour >= 12 && currentHour < 17) timeKey = "afternoon";
+  else if (currentHour >= 17 && currentHour < 21) timeKey = "evening";
+  else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) timeKey = "late";
+  else timeKey = "night";
 
-  // Assign shuffled categories based on time slots
-  if (currentHour >= 8 && currentHour < 12) {
-    category = shuffledCategories[0];
-  } else if (currentHour >= 12 && currentHour < 17) {
-    category = shuffledCategories[1];
-  } else if (currentHour >= 17 && currentHour < 21) {
-    category = shuffledCategories[2];
-  } else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
-    category = shuffledCategories[3];
-  } else {
-    category = shuffledCategories[4]; // Early morning
-  }
-
-
-
-
+  // Shuffle and pick one category from the relevant list
+  const shuffled = shuffle([...categoriesPerDay[currentDay][timeKey]], currentDay + currentHour);
+  return shuffled[0];
 }
-
-
-
-
 
 
 
