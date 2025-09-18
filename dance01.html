@@ -946,19 +946,19 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
- // 🎛 Volume Balancer Function
-    function adjustVolumeDynamically(audioElement) {
-        let targetVolume = 0.8;  // Default volume level
-        let maxThreshold = 1; // Prevent distortion
-
-        audioElement.addEventListener("timeupdate", () => {
+function adjustVolumeDynamically(audioElement, targetVolume = 0.8, maxThreshold = 1) {
+    const tolerance = 0.01;
+    audioElement.addEventListener("timeupdate", () => {
+        if (Math.abs(audioElement.volume - targetVolume) > tolerance) {
             if (audioElement.volume < targetVolume) {
-                audioElement.volume = Math.min(maxThreshold, audioElement.volume + 0.01);  // Smooth increase
-            } else if (audioElement.volume > targetVolume) {
-                audioElement.volume = Math.max(0, audioElement.volume - 0.01);  // Smooth decrease
+                audioElement.volume = Math.min(maxThreshold, audioElement.volume + 0.01);
+            } else {
+                audioElement.volume = Math.max(0, audioElement.volume - 0.01);
             }
-        });
-    }
+        }
+    });
+}
+
 
 
 
