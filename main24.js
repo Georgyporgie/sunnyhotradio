@@ -94,8 +94,8 @@ function getCurrentTimeCategory() {
     5: { // Friday
       morning: ["evening"],
       afternoon: ["morning"],
-      evening: ["evening-late"],
-      late: ["evening"],
+      evening: ["f evening-late"],
+      late: ["f evening"],
       night: ["jingle-time"]
     },
     6: { // Saturday
