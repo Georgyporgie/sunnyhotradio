@@ -940,7 +940,15 @@ let trackList = [
 
 
 
+{
+    name: " You Are A Danger ",
+    artist: "Gary Low ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Gary Low - You are a danger.mp3",
+  
 
+      timeCategory: "morning"
+},
 
 
 
@@ -16278,6 +16286,14 @@ timeCategory: "evening-late"
 
 
 
+{
+     name: "   I Wanna Be Your Man",
+    artist: "Roger ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Roger - I wanna be your man.mp3",
+  timeCategory: "evening-late"
+
+},
 
 
 
