@@ -16287,10 +16287,10 @@ timeCategory: "evening-late"
 
 
 {
-     name: "   I Wanna Be Your Man",
-    artist: "Roger ",
+     name: "Let's Start To Dance (12inch)",
+    artist: "Hamilton Bohannon ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Roger - I wanna be your man.mp3",
+    path: "https://sunnydanceoldies09.netlify.app/Hamilton Bohannon - Let's Start To Dance 12 inch.mp3",
   timeCategory: "evening-late"
 
 },
@@ -16298,7 +16298,14 @@ timeCategory: "evening-late"
 
 
 
+{
+     name: "  Here Comes That Sound ",
+    artist: "Lovedeluxe ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Lovedeluxe - Here Comes That Sound.mp3",
+  timeCategory: "evening-late"
 
+},
 
 
 
