@@ -20080,31 +20080,12 @@ timeCategory: "f evening"
 
 
 
-{
-    name: "Bob Sinclair (live)",
-    artist: "Live From Paris ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://sunnydanceoldies09.netlify.app/Bob Sinclar (live) - From Paris 01.mp3",
-       timeCategory: "f evening-late"
-},
 
 
 
-{
-    name: "Bob Sinclair (live)",
-    artist: "Live From Paris",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://sunnydanceoldies09.netlify.app/Bob Sinclair - Live from Paris3.mp3",
-       timeCategory: "f evening-late"
-},
 
-{
-    name: "Bob Sinclair (live)",
-    artist: "Live From Paris",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://sunnydanceoldies09.netlify.app/Bob Sinclair - Live from Paris4.mp3",
-       timeCategory: "f evening-late"
-},
+
+
 
 
 
@@ -21088,7 +21069,7 @@ timeCategory: "f evening"
     artist: "Live From Paris ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://sunnydanceoldies09.netlify.app/Bob Sinclar (live) - From Paris 01.mp3",
-       timeCategory: "f evening-late"
+       timeCategory: "f afternoon"
 },
 
 
@@ -21098,7 +21079,7 @@ timeCategory: "f evening"
     artist: "Live From Paris",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://sunnydanceoldies09.netlify.app/Bob Sinclair - Live from Paris3.mp3",
-       timeCategory: "f evening-late"
+       timeCategory: "f afternoon"
 },
 
 {
@@ -21106,7 +21087,7 @@ timeCategory: "f evening"
     artist: "Live From Paris",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://sunnydanceoldies09.netlify.app/Bob Sinclair - Live from Paris4.mp3",
-       timeCategory: "f evening-late"
+       timeCategory: "f afternoon"
 },
 
 
