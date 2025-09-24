@@ -18615,7 +18615,7 @@ timeCategory: "evening-late"
 
 
 {
-    name: "Damiano David & Tyla",
+    name: "Damiano David & Tyla (new)",
     artist: "  Talk To Me ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Damiano David & Tyla - Talk To Me.mp3",
@@ -18628,7 +18628,7 @@ timeCategory: "evening-late"
 
 
 {
-    name: "Cherry",
+    name: "Cherry (new)",
     artist: "  Naomi Scott",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Naomi Scott - Cherry.mp3",
@@ -18640,7 +18640,7 @@ timeCategory: "evening-late"
 
 
 {
-    name: "Phases",
+    name: "Phases (new)",
     artist: " Joel Corry & Abi Flynn",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Joel Corry & Abi Flynn- Phases.mp3",
@@ -18862,7 +18862,7 @@ timeCategory: "evening-late"
 
 
 {
-    name: "Damiano David & Tyla",
+    name: "Damiano David & Tyla  (new)",
     artist: "  Talk To Me ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Damiano David & Tyla - Talk To Me.mp3",
@@ -18875,7 +18875,7 @@ timeCategory: "evening-late"
 
 
 {
-    name: "Cherry",
+    name: "Cherry  (new)",
     artist: "  Naomi Scott",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Naomi Scott - Cherry.mp3",
@@ -18887,7 +18887,7 @@ timeCategory: "evening-late"
 
 
 {
-    name: "Phases",
+    name: "Phases  (new)",
     artist: " Joel Corry & Abi Flynn",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Joel Corry & Abi Flynn- Phases.mp3",
