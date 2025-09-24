@@ -18614,7 +18614,46 @@ timeCategory: "evening-late"
 
 
 
+{
+    name: "Damiano David & Tyla",
+    artist: "  Talk To Me ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Damiano David & Tyla - Talk To Me.mp3",
+       timeCategory: "evening-late"
+},
 
+
+
+
+
+
+{
+    name: "Cherry",
+    artist: "  Naomi Scott",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Naomi Scott - Cherry.mp3",
+       timeCategory: "evening-late"
+},
+
+
+
+
+
+{
+    name: "Phases",
+    artist: " Joel Corry & Abi Flynn",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Joel Corry & Abi Flynn- Phases.mp3",
+       timeCategory: "evening-late"
+},
+
+{
+     name: " Free Yourself",
+    artist: "Jessie Ware  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Jessie Ware - Free Yourself.mp3",
+        timeCategory: "evening-late"
+},
 
 
 
@@ -18822,6 +18861,38 @@ timeCategory: "evening-late"
 
 
 
+{
+    name: "Damiano David & Tyla",
+    artist: "  Talk To Me ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Damiano David & Tyla - Talk To Me.mp3",
+       timeCategory: "f afternoon"
+},
+
+
+
+
+
+
+{
+    name: "Cherry",
+    artist: "  Naomi Scott",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Naomi Scott - Cherry.mp3",
+       timeCategory: "f afternoon"
+},
+
+
+
+
+
+{
+    name: "Phases",
+    artist: " Joel Corry & Abi Flynn",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Joel Corry & Abi Flynn- Phases.mp3",
+       timeCategory: "f afternoon"
+},
 
 
 
