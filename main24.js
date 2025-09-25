@@ -45,13 +45,14 @@ function shuffle(array) {
 function getCurrentTimeCategory() {
   const now = new Date();
   const currentHour = now.getHours();
-  const currentMinute = now.getMinutes();
   const currentDay = now.getDay();
 
-  // 🎶 Special case: Saturday between 20:00 and 20:30
-  if (currentDay === 4 && currentHour === 20 && currentMinute < 15) {
+  // 🎶 Special case: Saturday between 12:00 and 17:00
+  if (currentDay === 6 && currentHour >= 12 && currentHour < 17) {
     return "special-mix";
   }
+
+
 
   // Categories per day/time
   const categoriesPerDay = {
