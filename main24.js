@@ -46,8 +46,8 @@ function getCurrentTimeCategory() {
   const currentHour = now.getHours();
   const currentDay = now.getDay();
 
-  // 🎶 Special case: Saturday between 12:00 and 17:00
-  if (currentDay === 4 && currentHour >= 20 && currentMinute === 30) {
+   // 🎶 Special case: Saturday between 20:00 and 20:30
+  if (currentDay === 4 && currentHour === 20 && currentMinute < 30) {
     return "special-mix";
   }
 
