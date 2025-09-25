@@ -25,7 +25,7 @@ function displayMessage() {
 }
 
 
-
+// Utility: shuffle an array
 function shuffle(array) {
   let currentIndex = array.length, randomIndex;
 
@@ -41,28 +41,72 @@ function shuffle(array) {
   return array;
 }
 
+// Scheduler: decide which category should play now
 function getCurrentTimeCategory() {
   const now = new Date();
   const currentHour = now.getHours();
+  const currentMinute = now.getMinutes();
   const currentDay = now.getDay();
 
-   // 🎶 Special case: Saturday between 20:00 and 20:30
+  // 🎶 Special case: Saturday between 20:00 and 20:30
   if (currentDay === 4 && currentHour === 20 && currentMinute < 30) {
     return "special-mix";
   }
 
-
-
+  // Categories per day/time
   const categoriesPerDay = {
-    0: { morning: ["f afternoon"], afternoon: ["f evening"], evening: ["f evening-late"], late: ["f evening-late"], night: ["jingle-time"] },
-    1: { morning: ["morning"], afternoon: ["evening"], evening: ["afternoon"], late: ["evening-late"], night: ["jingle-time"] },
-    2: { morning: ["morning"], afternoon: ["evening-late"], evening: ["evening"], late: ["afternoon"], night: ["jingle-time"] },
-    3: { morning: ["morning"], afternoon: ["afternoon"], evening: ["evening-late"], late: ["evening"], night: ["jingle-time"] },
-    4: { morning: ["morning"], afternoon: ["evening"], evening: ["afternoon"], late: ["evening-late"], night: ["jingle-time"] },
-    5: { morning: ["evening"], afternoon: ["morning"], evening: ["f evening-late"], late: ["f evening"], night: ["jingle-time"] },
-    6: { morning: ["morning"], afternoon: ["f afternoon"], evening: ["f evening-late"], late: ["f evening"], night: ["jingle-time"] }
+    0: { // Sunday
+      morning: ["f afternoon"],
+      afternoon: ["f evening"],
+      evening: ["f evening-late"],
+      late: ["f evening-late"],
+      night: ["jingle-time"]
+    },
+    1: { // Monday
+      morning: ["morning"],
+      afternoon: ["evening"],
+      evening: ["afternoon"],
+      late: ["evening-late"],
+      night: ["jingle-time"]
+    },
+    2: { // Tuesday
+      morning: ["morning"],
+      afternoon: ["evening-late"],
+      evening: ["evening"],
+      late: ["afternoon"],
+      night: ["jingle-time"]
+    },
+    3: { // Wednesday
+      morning: ["morning"],
+      afternoon: ["afternoon"],
+      evening: ["evening-late"],
+      late: ["evening"],
+      night: ["jingle-time"]
+    },
+    4: { // Thursday
+      morning: ["morning"],
+      afternoon: ["evening"],
+      evening: ["afternoon"],
+      late: ["evening-late"],
+      night: ["jingle-time"]
+    },
+    5: { // Friday
+      morning: ["evening"],
+      afternoon: ["morning"],
+      evening: ["f evening-late"],
+      late: ["f evening"],
+      night: ["jingle-time"]
+    },
+    6: { // Saturday
+      morning: ["morning"],
+      afternoon: ["f afternoon"],
+      evening: ["f evening-late"],
+      late: ["f evening"],
+      night: ["jingle-time"]
+    }
   };
 
+  // Determine time-of-day key
   let timeKey;
   if (currentHour >= 8 && currentHour < 12) timeKey = "morning";
   else if (currentHour >= 12 && currentHour < 17) timeKey = "afternoon";
@@ -70,22 +114,32 @@ function getCurrentTimeCategory() {
   else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) timeKey = "late";
   else timeKey = "night";
 
+  // Shuffle and pick one category
   const shuffled = shuffle([...categoriesPerDay[currentDay][timeKey]]);
   return shuffled[0];
+}
+
+
+
+// Load playlist for a category
+function loadPlaylistForCategory(category) {
+  const playlist = shuffle(tracks.filter(track => track.timeCategory === category));
+  console.log("▶ Now playing category:", category, "Playlist:", playlist.map(t => t.name));
+  // Here you’d actually start playback
 }
 
 // Track the current category
 let currentCategory = null;
 
+// Check every minute
 setInterval(() => {
   const category = getCurrentTimeCategory();
-  console.log("Current category:", category);
-
   if (category !== currentCategory) {
     currentCategory = category;
     loadPlaylistForCategory(category);
   }
-}, 60 * 1000); // check every minute
+}, 60 * 1000);
+
 
 
 
