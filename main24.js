@@ -33,7 +33,6 @@ function shuffle(array) {
     randomIndex = Math.floor(Math.random() * currentIndex);
     currentIndex--;
 
-    // Swap elements
     [array[currentIndex], array[randomIndex]] = [
       array[randomIndex], array[currentIndex]
     ];
@@ -47,74 +46,23 @@ function getCurrentTimeCategory() {
   const currentHour = now.getHours();
   const currentDay = now.getDay();
 
-// 🎶 Special case: Saturday between 12:00 and 17:00
-if (currentDay === 6 && currentHour >= 12 && currentHour < 17) {
-  return "special-mix";
-}
-
-// 🎶 Special case: Saturday between 18:00 and 19:00
-if (currentDay === 4 && currentHour >= 18 && currentHour < 19) {
-  return "special-mix";
-}
-  
+  // 🎶 Special case: Saturday between 12:00 and 17:00
+  if (currentDay === 4 && currentHour >= 20 && currentMinute === 30) {
+    return "special-mix";
+  }
 
 
 
-
-
-const categoriesPerDay = {
-    0: { // Sunday
-      morning: ["f afternoon"],
-      afternoon: ["f evening"],
-      evening: ["f evening-late"],
-      late: ["f evening-late"],
-      night: ["jingle-time"]
-    },
-    1: { // Monday
-      morning: ["morning"],
-      afternoon: ["evening"],
-      evening: ["afternoon"],
-      late: ["evening-late"],
-      night: ["jingle-time"]
-    },
-    2: { // Tuesday
-      morning: ["morning"],
-      afternoon: ["evening-late"],
-      evening: ["evening"],
-      late: ["afternoon"],
-      night: ["jingle-time"]
-    },
-    3: { // Wednesday
-      morning: ["morning"],
-      afternoon: ["afternoon"],
-      evening: ["evening-late"],
-      late: ["evening"],
-      night: ["jingle-time"]
-    },
-    4: { // Thursday
-      morning: ["morning"],
-      afternoon: ["evening"],
-      evening: ["afternoon"],
-      late: ["evening-late"],
-      night: ["jingle-time"]
-    },
-    5: { // Friday
-      morning: ["evening"],
-      afternoon: ["morning"],
-      evening: ["f evening-late"],
-      late: ["f evening"],
-      night: ["jingle-time"]
-    },
-    6: { // Saturday
-      morning: ["morning"],
-      afternoon: ["f afternoon"],
-      evening: ["f evening-late"],
-      late: ["f evening"],
-      night: ["jingle-time"]
-    }
+  const categoriesPerDay = {
+    0: { morning: ["f afternoon"], afternoon: ["f evening"], evening: ["f evening-late"], late: ["f evening-late"], night: ["jingle-time"] },
+    1: { morning: ["morning"], afternoon: ["evening"], evening: ["afternoon"], late: ["evening-late"], night: ["jingle-time"] },
+    2: { morning: ["morning"], afternoon: ["evening-late"], evening: ["evening"], late: ["afternoon"], night: ["jingle-time"] },
+    3: { morning: ["morning"], afternoon: ["afternoon"], evening: ["evening-late"], late: ["evening"], night: ["jingle-time"] },
+    4: { morning: ["morning"], afternoon: ["evening"], evening: ["afternoon"], late: ["evening-late"], night: ["jingle-time"] },
+    5: { morning: ["evening"], afternoon: ["morning"], evening: ["f evening-late"], late: ["f evening"], night: ["jingle-time"] },
+    6: { morning: ["morning"], afternoon: ["f afternoon"], evening: ["f evening-late"], late: ["f evening"], night: ["jingle-time"] }
   };
 
-  // Determine time-of-day key
   let timeKey;
   if (currentHour >= 8 && currentHour < 12) timeKey = "morning";
   else if (currentHour >= 12 && currentHour < 17) timeKey = "afternoon";
@@ -122,18 +70,22 @@ const categoriesPerDay = {
   else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) timeKey = "late";
   else timeKey = "night";
 
-  // Shuffle and pick one category
   const shuffled = shuffle([...categoriesPerDay[currentDay][timeKey]]);
   return shuffled[0];
 }
 
+// Track the current category
+let currentCategory = null;
 
+setInterval(() => {
+  const category = getCurrentTimeCategory();
+  console.log("Current category:", category);
 
-
-
-
-
-
+  if (category !== currentCategory) {
+    currentCategory = category;
+    loadPlaylistForCategory(category);
+  }
+}, 60 * 1000); // check every minute
 
 
 
