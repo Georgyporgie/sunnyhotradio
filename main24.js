@@ -26,27 +26,20 @@ function displayMessage() {
 
 
 
-function shuffle(array, seed) {
-  // Simple seeded shuffle for reproducibility
-  let m = array.length, t, i;
-  let random = mulberry32(seed);
+function shuffle(array) {
+  let currentIndex = array.length, randomIndex;
 
-  while (m) {
-    i = Math.floor(random() * m--);
-    t = array[m];
-    array[m] = array[i];
-    array[i] = t;
+  while (currentIndex > 0) {
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // Swap elements
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]
+    ];
   }
+
   return array;
-}
-
-function mulberry32(a) {
-  return function() {
-    var t = a += 0x6D2B79F5;
-    t = Math.imul(t ^ t >>> 15, t | 1);
-    t ^= t + Math.imul(t ^ t >>> 7, t | 61);
-    return ((t ^ t >>> 14) >>> 0) / 4294967296;
-  }
 }
 
 function getCurrentTimeCategory() {
@@ -54,8 +47,22 @@ function getCurrentTimeCategory() {
   const currentHour = now.getHours();
   const currentDay = now.getDay();
 
-  // Define possible categories for each time range
-  const categoriesPerDay = {
+// 🎶 Special case: Saturday between 12:00 and 17:00
+if (currentDay === 6 && currentHour >= 12 && currentHour < 17) {
+  return "special-mix";
+}
+
+// 🎶 Special case: Saturday between 18:00 and 19:00
+if (currentDay === 4 && currentHour >= 18 && currentHour < 19) {
+  return "special-mix";
+}
+  
+
+
+
+
+
+const categoriesPerDay = {
     0: { // Sunday
       morning: ["f afternoon"],
       afternoon: ["f evening"],
@@ -115,49 +122,10 @@ function getCurrentTimeCategory() {
   else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) timeKey = "late";
   else timeKey = "night";
 
-  // Shuffle and pick one category from the relevant list
-  const shuffled = shuffle([...categoriesPerDay[currentDay][timeKey]], currentDay + currentHour);
+  // Shuffle and pick one category
+  const shuffled = shuffle([...categoriesPerDay[currentDay][timeKey]]);
   return shuffled[0];
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-function shuffle(array) {
-  let currentIndex = array.length, randomIndex;
-
-  while (currentIndex > 0) {
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
-
-    // Swap elements
-    [array[currentIndex], array[randomIndex]] = [
-      array[randomIndex], array[currentIndex]
-    ];
-  }
-
-  return array;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -19240,11 +19208,31 @@ timeCategory: "evening-late"
 
   
 
+{
+     name: " 3 Maal Doordraaien ",
+    artist: "DJ Dimitri",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/DJ Dimitri - 3 maal doordraaien01.mp3",
+    timeCategory: "special-mix"
+},
+
+{
+     name: " 3 Maal Doordraaien ",
+    artist: "DJ Dimitri",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/DJ Dimitri - 3 maal doordraaien02.mp3",
+    timeCategory: "special-mix"
+},
 
 
 
-
-
+{
+     name: " Live Mix ",
+    artist: "DJ Dimitri",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/DJ Dimitri - 3 maal doordraaien03.mp3",
+    timeCategory: "special-mix"
+},
  
 
  
@@ -19927,22 +19915,6 @@ timeCategory: "evening-late"
 
 
 
-
-{
-     name: " Live Mix ",
-    artist: "Corné Klijn",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Corne Kleyns- Live Mix 022.mp3",
-    timeCategory: "f evening-late"
-},
-
-{
-     name: "Live Mix   ",
-    artist: "Corné Klijn",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Corne Kleyns- Live Mix 01.mp3",
-    timeCategory: "f evening-late"
-},
 
 
 
@@ -22037,6 +22009,22 @@ timeCategory: "f evening"
 
 
 
+
+{
+     name: " Live Mix ",
+    artist: "Corné Klijn",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Corne Kleyns- Live Mix 022.mp3",
+    timeCategory: "special mix"
+},
+
+{
+     name: "Live Mix   ",
+    artist: "Corné Klijn",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Corne Kleyns- Live Mix 01.mp3",
+    timeCategory: "special mix"
+},
 
 
 
