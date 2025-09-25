@@ -22015,7 +22015,7 @@ timeCategory: "f evening"
     artist: "Corné Klijn",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Corne Kleyns- Live Mix 022.mp3",
-    timeCategory: "special mix"
+    timeCategory: "special-mix"
 },
 
 {
@@ -22023,7 +22023,7 @@ timeCategory: "f evening"
     artist: "Corné Klijn",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Corne Kleyns- Live Mix 01.mp3",
-    timeCategory: "special mix"
+    timeCategory: "special-mix"
 },
 
 
