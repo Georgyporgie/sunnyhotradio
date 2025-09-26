@@ -21936,15 +21936,7 @@ timeCategory: "f evening"
 
 
 
-{
-    name: " Black Sun (1978)",
-    artist: "The Far Out Orchestra ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/The far out monster orchestra - Black sun.mp3",
-  
 
-      timeCategory: "f evening-late"
-},
 
 
 
