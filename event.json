@@ -7,18 +7,19 @@
       { "time": "21:00 - 23:00", "event": "Sapphire Live!" }
     ],
     "Saturday": [
-      { "time": "03:00 - 15:00", "event": "Morning Disco" },
-      { "time": "15:00 - 17:00", "event": " Live Mixin'!" },
+      { "time": "03:00 - 13:00", "event": "Morning Disco" },
+      { "time": "13:00 - 15:00", "event": " Live Mixin'!" },
       { "time": "17:00 - 21:00", "event": "Miss Monique Live!" },
       { "time": "21:00 - 23:00", "event": "Lovely DJ Sapphire!" }
     ],
     "Sunday": [
-      { "time": "03:00 - 15:00", "event": "Morning Disco" },
-      { "time": "15:00 - 17:00", "event": " Live Mixin'!" },
+      { "time": "03:00 - 13:00", "event": "Morning Disco" },
+      { "time": "13:00 - 15:00", "event": " Live Mixin'!" },
       { "time": "17:00 - 21:00", "event": "Miss Monique Live!" },
       { "time": "21:00 - 23:00", "event": "Lovely DJ Sapphire!" }
 
     ]
   }
 }
+
 
