@@ -47,14 +47,14 @@ function getCurrentTimeCategory() {
   const currentHour = now.getHours();
   const currentDay = now.getDay();
 
-  // 🎶 Special case: Saturday between 15:00 and 17:00
-  if (currentDay === 6 && currentHour >= 15 && currentHour < 17) {
+  // 🎶 Special case: Saturday between 13:00 and 15:00
+  if (currentDay === 6 && currentHour >= 13 && currentHour < 15) {
     return "special-mix";
   
 }
 
- // 🎶 Special case: Sunday between 15:00 and 17:00
-  if (currentDay === 0 && currentHour >= 15 && currentHour < 17) {
+ // 🎶 Special case: Sunday between 13:00 and 15:00
+  if (currentDay === 0 && currentHour >= 13 && currentHour < 15) {
     return "special-mix";
 }
 
