@@ -8237,6 +8237,14 @@ timeCategory: "morning"
 
 
 
+{
+    name: " Rock It (12inch)",
+    artist: "Lipps Inc ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Lipps Inc - Rock It (12inch).mp3",
+    timeCategory: "evening"
+},
+
 
 
 
@@ -18660,6 +18668,14 @@ timeCategory: "evening-late"
 },
 
 
+{
+    name: " Dancin' Down The Street",
+    artist: "Peter Jacques Band ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Peter Jacques Band - Dancin' Down The Street.mp3",
+    timeCategory: "evening-late"
+},
+
 
 
 
@@ -19783,6 +19799,49 @@ timeCategory: "evening-late"
      timeCategory: "f afternoon"
 
 },
+
+
+
+{
+    name: "Diner With Gershwin ",
+    artist: "Donna Summer ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Donna Summer - Diner With Gershwin.mp3",
+    timeCategory: "f afternoon"
+},
+
+
+
+{
+    name: "You Are A Danger",
+    artist: "Gary Low ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Gary Low - You Are A Danger.mp3",
+    timeCategory: "f afternoon"
+},
+
+
+
+
+
+
+
+{
+    name: " Neneh Cherry ",
+    artist: "Buffalo Stance ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Buffalo Stance - Neneh Cherry.mp3",
+    timeCategory: "f afternoon"
+},
+
+
+
+
+
+
+
+
+
 
 
 {
