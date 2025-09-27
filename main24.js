@@ -107,7 +107,7 @@ function getCurrentTimeCategory() {
     6: { // Saturday
       morning: ["morning"],
       afternoon: ["f afternoon"],
-      evening: ["f evening-late"],
+      evening: ["f afternoon"],
       late: ["f evening"],
       night: ["jingle-time"]
     }
@@ -8344,13 +8344,6 @@ timeCategory: "morning"
 
 
 
-{
-     name: "  All This Time (new)",
-    artist: "Sonny Fodera & Jazzy",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Sonny Fodera & Jazzy - All This Time.mp3",
-    timeCategory: "evening"
-},
 
 
 {
@@ -19242,55 +19235,6 @@ timeCategory: "evening-late"
 
   
 
-{
-     name: "Love Generator ",
-    artist: "Calvin Harris",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator01.mp3",
-    timeCategory: "special-mix"
-},
-
-
-{
-     name: "Love Generator ",
-    artist: "Calvin Harris",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator02.mp3",
-    timeCategory: "special-mix"
-},
-
-
-{
-     name: "Love Generator ",
-    artist: "Calvin Harris",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator03.mp3",
-    timeCategory: "special-mix"
-},
-
- {
-     name: "Love Generator ",
-    artist: "Calvin Harris",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator04.mp3",
-    timeCategory: "special-mix"
-},
-
- {
-     name: "Love Generator ",
-    artist: "Calvin Harris",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator05.mp3",
-    timeCategory: "special-mix"
-},
-
-{
-     name: "Love Generator ",
-    artist: "Calvin Harris",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator06.mp3",
-    timeCategory: "special-mix"
-},
 
 
 
@@ -22083,7 +22027,31 @@ timeCategory: "f evening"
 },
 
 
+{
+    name: "Bob Sinclair (live)",
+    artist: "Live From Paris ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://sunnydanceoldies09.netlify.app/Bob Sinclar (live) - From Paris 01.mp3",
+       timeCategory: "special-mix"
+},
 
+
+
+{
+    name: "Bob Sinclair (live)",
+    artist: "Live From Paris",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://sunnydanceoldies09.netlify.app/Bob Sinclair - Live from Paris3.mp3",
+       timeCategory: "special-mix"
+},
+
+{
+    name: "Bob Sinclair (live)",
+    artist: "Live From Paris",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://sunnydanceoldies09.netlify.app/Bob Sinclair - Live from Paris4.mp3",
+       timeCategory: "special-mix"
+},
 
 
 
@@ -22108,6 +22076,55 @@ timeCategory: "f evening"
 
 
 
+{
+     name: "Love Generator ",
+    artist: "Calvin Harris",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator01.mp3",
+    timeCategory: "special-mix"
+},
+
+
+{
+     name: "Love Generator ",
+    artist: "Calvin Harris",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator02.mp3",
+    timeCategory: "special-mix"
+},
+
+
+{
+     name: "Love Generator ",
+    artist: "Calvin Harris",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator03.mp3",
+    timeCategory: "special-mix"
+},
+
+ {
+     name: "Love Generator ",
+    artist: "Calvin Harris",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator04.mp3",
+    timeCategory: "special-mix"
+},
+
+ {
+     name: "Love Generator ",
+    artist: "Calvin Harris",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator05.mp3",
+    timeCategory: "special-mix"
+},
+
+{
+     name: "Love Generator ",
+    artist: "Calvin Harris",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator06.mp3",
+    timeCategory: "special-mix"
+},
 
 
 
