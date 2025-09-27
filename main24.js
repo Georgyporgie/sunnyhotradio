@@ -128,24 +128,7 @@ function getCurrentTimeCategory() {
 
 
 
-// Load playlist for a category
-function loadPlaylistForCategory(category) {
-  const playlist = shuffle(tracks.filter(track => track.timeCategory === category));
-  console.log("▶ Now playing category:", category, "Playlist:", playlist.map(t => t.name));
-  // Here you’d actually start playback
-}
 
-// Track the current category
-let currentCategory = null;
-
-// Check every minute
-setInterval(() => {
-  const category = getCurrentTimeCategory();
-  if (category !== currentCategory) {
-    currentCategory = category;
-    loadPlaylistForCategory(category);
-  }
-}, 60 * 1000);
 
 
 
@@ -4720,7 +4703,7 @@ timeCategory: "morning"
 
 
 {
-    name: " Blackberries (maxi)",
+    name: " Blackberries (new)",
     artist: "Fischer Bbyclose",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Fischer Bbyclose - Blackberries (maxi).mp3",
@@ -7947,6 +7930,23 @@ timeCategory: "morning"
     artist: "  Ministry Of Sound",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Ibiza mini mix - Ministry of Sound1.mp3",
+   timeCategory: "special-mix"
+},
+
+
+{
+    name: "  Ibiza (mini mix) ",
+    artist: "  Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Ibiza mini mix - Ministry of Sound2.mp3",
+   timeCategory: "special-mix"
+},
+
+{
+    name: "  Ibiza (mini mix) ",
+    artist: "  Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Ibiza mini mix - Ministry of Sound1.mp3",
    timeCategory: "afternoon"
 },
 
@@ -7958,8 +7958,6 @@ timeCategory: "morning"
     path: "https://danceoldies08.netlify.app/Ibiza mini mix - Ministry of Sound2.mp3",
    timeCategory: "afternoon"
 },
-
-
 
 
 
@@ -22098,7 +22096,7 @@ timeCategory: "f evening"
 
 {
      name: " Live Mix ",
-    artist: "Corné Klijn",
+    artist: "Corne Klijn",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Corne Kleyns- Live Mix 022.mp3",
     timeCategory: "special-mix"
@@ -22106,7 +22104,7 @@ timeCategory: "f evening"
 
 {
      name: "Live Mix   ",
-    artist: "Corné Klijn",
+    artist: "Corne Klijn",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Corne Kleyns- Live Mix 01.mp3",
     timeCategory: "special-mix"
@@ -22179,8 +22177,22 @@ timeCategory: "f evening"
 
 
 
+// 3. Logic
+function loadPlaylistForCategory(category) {
+  const playlist = shuffle(trackList.filter(track => track.timeCategory === category));
+  console.log("▶ Now playing category:", category, "Playlist:", playlist.map(t => t.name));
+  // Here you’d actually start playback
+}
 
-
+// 4. Runtime
+let currentCategory = null;
+setInterval(() => {
+  const category = getCurrentTimeCategory();
+  if (category !== currentCategory) {
+    currentCategory = category;
+    loadPlaylistForCategory(category);
+  }
+}, 60 * 1000);
 
 
 
