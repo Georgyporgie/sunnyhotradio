@@ -63,12 +63,12 @@ function getCurrentTimeCategory() {
   // Categories per day/time
   const categoriesPerDay = {
     0: { // Sunday
-      morning: ["morning","f afternoon","f evening","f evening-late"],
-      afternoon: ["morning","f afternoon","f evening","f evening-late"],
+     morning: ["f afternoon","f evening","f evening-late"],
+      afternoon: ["f afternoon","f evening","f evening-late"],
 
-      evening:["morning","f afternoon","f evening","f evening-late"],
+      evening:["f afternoon","f evening","f evening-late"],
 
-      late:["morning","f afternoon","f evening","f evening-late"],
+      late:["f afternoon","f evening","f evening-late"],
 
       night: ["jingle-time"]
 
@@ -120,23 +120,23 @@ function getCurrentTimeCategory() {
 
     },
     5: { // Friday
-      morning: ["morning","f afternoon","f evening","f evening-late"],
-      afternoon: ["morning","f afternoon","f evening","f evening-late"],
+        morning: ["f afternoon","f evening","f evening-late"],
+      afternoon: ["f afternoon","f evening","f evening-late"],
 
-      evening:["morning","f afternoon","f evening","f evening-late"],
+      evening:["f afternoon","f evening","f evening-late"],
 
-      late:["morning","f afternoon","f evening","f evening-late"],
+      late:["f afternoon","f evening","f evening-late"],
 
       night: ["jingle-time"]
 
     },
     6: { // Saturday
-      morning: ["morning","f afternoon","f evening","f evening-late"],
-      afternoon: ["morning","f afternoon","f evening","f evening-late"],
+      morning: ["f afternoon","f evening","f evening-late"],
+      afternoon: ["f afternoon","f evening","f evening-late"],
 
-      evening:["morning","f afternoon","f evening","f evening-late"],
+      evening:["f afternoon","f evening","f evening-late"],
 
-      late:["morning","f afternoon","f evening","f evening-late"],
+      late:["f afternoon","f evening","f evening-late"],
 
       night: ["jingle-time"]
     }
