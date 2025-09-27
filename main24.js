@@ -19238,33 +19238,55 @@ timeCategory: "evening-late"
   
 
 {
-     name: " 3 Maal Doordraaien ",
-    artist: "DJ Dimitri",
+     name: "Love Generator ",
+    artist: "Calvin Harris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/DJ Dimitri - 3 maal doordraaien01.mp3",
+    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator01.mp3",
+    timeCategory: "special-mix"
+},
+
+
+{
+     name: "Love Generator ",
+    artist: "Calvin Harris",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator02.mp3",
+    timeCategory: "special-mix"
+},
+
+
+{
+     name: "Love Generator ",
+    artist: "Calvin Harris",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator03.mp3",
+    timeCategory: "special-mix"
+},
+
+ {
+     name: "Love Generator ",
+    artist: "Calvin Harris",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator04.mp3",
+    timeCategory: "special-mix"
+},
+
+ {
+     name: "Love Generator ",
+    artist: "Calvin Harris",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator05.mp3",
     timeCategory: "special-mix"
 },
 
 {
-     name: " 3 Maal Doordraaien ",
-    artist: "DJ Dimitri",
+     name: "Love Generator ",
+    artist: "Calvin Harris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/DJ Dimitri - 3 maal doordraaien02.mp3",
+    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator06.mp3",
     timeCategory: "special-mix"
 },
 
-
-
-{
-     name: " Live Mix ",
-    artist: "DJ Dimitri",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/DJ Dimitri - 3 maal doordraaien03.mp3",
-    timeCategory: "special-mix"
-},
- 
-
- 
 
 
 {
