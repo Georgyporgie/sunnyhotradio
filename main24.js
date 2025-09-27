@@ -2883,6 +2883,13 @@ let trackList = [
 
 
 
+{
+     name: " Handlebars",
+    artist: "Jennie & Dua Lipa ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Jennie & Dua Lipa - Handlebars.mp3",
+    timeCategory: "morning"
+},
 
 
 
@@ -20099,13 +20106,6 @@ timeCategory: "f evening"
 
 
 
-{
-     name: " Handlebars",
-    artist: "Jennie & Dua Lipa ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic08.netlify.app/Jennie & Dua Lipa - Handlebars.mp3",
-    timeCategory: "f evening"
-},
 
 
 
@@ -21291,13 +21291,6 @@ timeCategory: "f evening"
 
 
 
-{
-     name: " Handlebars",
-    artist: "Jennie & Dua Lipa ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic08.netlify.app/Jennie & Dua Lipa - Handlebars.mp3",
-    timeCategory: "f evening-late"
-},
 
 
 
