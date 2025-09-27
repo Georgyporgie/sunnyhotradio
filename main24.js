@@ -63,52 +63,81 @@ function getCurrentTimeCategory() {
   // Categories per day/time
   const categoriesPerDay = {
     0: { // Sunday
-      morning: ["f afternoon"],
-      afternoon: ["f evening"],
-      evening: ["f evening-late"],
-      late: ["f evening-late"],
+      morning: ["morning","f afternoon","f evening","f evening-late"],
+      afternoon: ["morning","f afternoon","f evening","f evening-late"],
+
+      evening:["morning","f afternoon","f evening","f evening-late"],
+
+      late:["morning","f afternoon","f evening","f evening-late"],
+
       night: ["jingle-time"]
+
     },
     1: { // Monday
-      morning: ["morning"],
-      afternoon: ["evening"],
-      evening: ["afternoon"],
-      late: ["evening-late"],
+     morning: ["morning","evening-late","evening","afternoon"],
+      afternoon: ["morning","evening-late","evening","afternoon"],
+
+      evening: ["morning","evening-late","evening","afternoon"],
+
+      late: ["morning","evening-late","evening","afternoon"],
+
       night: ["jingle-time"]
     },
     2: { // Tuesday
-      morning: ["morning"],
-      afternoon: ["evening-late"],
-      evening: ["evening"],
-      late: ["afternoon"],
+       morning: ["morning","evening-late","evening","afternoon"],
+      afternoon: ["morning","evening-late","evening","afternoon"],
+
+      evening: ["morning","evening-late","evening","afternoon"],
+
+      late: ["morning","evening-late","evening","afternoon"],
+
       night: ["jingle-time"]
     },
+      
+
+
+
     3: { // Wednesday
-      morning: ["morning"],
-      afternoon: ["afternoon"],
-      evening: ["evening-late"],
-      late: ["evening"],
+   morning: ["morning","evening-late","evening","afternoon"],
+      afternoon: ["morning","evening-late","evening","afternoon"],
+
+      evening: ["morning","evening-late","evening","afternoon"],
+
+      late: ["morning","evening-late","evening","afternoon"],
+
       night: ["jingle-time"]
+
     },
     4: { // Thursday
-      morning: ["morning"],
-      afternoon: ["evening"],
-      evening: ["afternoon"],
-      late: ["evening-late"],
+      morning: ["morning","evening-late","evening","afternoon"],
+      afternoon: ["morning","evening-late","evening","afternoon"],
+
+      evening: ["morning","evening-late","evening","afternoon"],
+
+      late: ["morning","evening-late","evening","afternoon"],
+
       night: ["jingle-time"]
+
     },
     5: { // Friday
-      morning: ["evening"],
-      afternoon: ["morning"],
-      evening: ["f evening-late"],
-      late: ["f evening"],
+      morning: ["morning","f afternoon","f evening","f evening-late"],
+      afternoon: ["morning","f afternoon","f evening","f evening-late"],
+
+      evening:["morning","f afternoon","f evening","f evening-late"],
+
+      late:["morning","f afternoon","f evening","f evening-late"],
+
       night: ["jingle-time"]
+
     },
     6: { // Saturday
-      morning: ["morning"],
-      afternoon: ["f afternoon"],
-      evening: ["f afternoon"],
-      late: ["f evening"],
+      morning: ["morning","f afternoon","f evening","f evening-late"],
+      afternoon: ["morning","f afternoon","f evening","f evening-late"],
+
+      evening:["morning","f afternoon","f evening","f evening-late"],
+
+      late:["morning","f afternoon","f evening","f evening-late"],
+
       night: ["jingle-time"]
     }
   };
