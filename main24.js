@@ -18930,7 +18930,83 @@ timeCategory: "evening-late"
 
 },
 
+{
+    name: "James Hype (new)",
+    artist: " Waterfalls",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/James Hype - Waterfalls.mp3",
 
+       timeCategory: "f afternoon"
+},
+
+
+
+
+{
+    name: "Mau P (new)",
+    artist: " Tesla",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
+       timeCategory: "f afternoon"
+},
+
+
+
+{
+    name: " No Broke Boys(new) ",
+    artist: " Disco Lines & Tinashe ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Disco Lines & Tinashe - No Broke Boys.mp3",
+       timeCategory: "f afternoon"
+},
+
+
+
+
+
+
+
+
+{
+     name: "The Dead Dance (new) ",
+    artist: "Lady Gaga ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Lady Gaga - The Dead Dance.mp3",
+    timeCategory: "f-afternoon"
+},
+
+
+{
+     name: "Believe In Magic (new) ",
+    artist: "Jessie J",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Jessie J - Believe In Magic.mp3",
+    timeCategory: "f-afternoon"
+
+},
+
+
+
+
+
+
+{
+     name: "  In Love (new) ",
+    artist: "Minellli & Inna",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Minellli & Inna - In Love.mp3",
+    timeCategory: "f-afternoon"
+
+},
+
+
+{
+    name: "  Stay On Me (new) ",
+    artist: "Sophie Ellis Bextor ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Sophie Ellis Bextor -  Stay On Me.mp3",
+   timeCategory: "f afternoon"
+},
 
 
 
@@ -19936,6 +20012,73 @@ timeCategory: "evening-late"
 
 
 
+
+
+
+
+{
+    name: "Phases  (new)",
+    artist: " Joel Corry & Abi Flynn",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Joel Corry & Abi Flynn- Phases.mp3",
+       timeCategory: "f evening"
+},
+
+
+
+
+
+
+
+
+{
+     name: "The Dead Dance (new) ",
+    artist: "Lady Gaga ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Lady Gaga - The Dead Dance.mp3",
+    timeCategory: "f-evening"
+},
+
+
+{
+     name: "Believe In Magic (new) ",
+    artist: "Jessie J",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Jessie J - Believe In Magic.mp3",
+    timeCategory: "f-evening"
+
+},
+
+
+
+
+
+
+{
+     name: "  In Love (new) ",
+    artist: "Minellli & Inna",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Minellli & Inna - In Love.mp3",
+    timeCategory: "f-evening"
+
+},
+
+{
+    name: "Cherry  (new)",
+    artist: "  Naomi Scott",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Naomi Scott - Cherry.mp3",
+       timeCategory: "f evening"
+},
+
+
+{
+    name: "Damiano David & Tyla  (new)",
+    artist: "  Talk To Me ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Damiano David & Tyla - Talk To Me.mp3",
+       timeCategory: "f evening"
+},
 
 
 
@@ -21024,7 +21167,35 @@ timeCategory: "f evening"
 
 
 
+{
+    name: "James Hype (new)",
+    artist: " Waterfalls",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/James Hype - Waterfalls.mp3",
 
+       timeCategory: "f evening"
+},
+
+
+
+
+{
+    name: "Mau P (new)",
+    artist: " Tesla",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
+       timeCategory: "f evening"
+},
+
+
+
+{
+    name: " No Broke Boys(new) ",
+    artist: " Disco Lines & Tinashe ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Disco Lines & Tinashe - No Broke Boys.mp3",
+       timeCategory: "f evening"
+},
 
 
 
@@ -21368,6 +21539,33 @@ timeCategory: "f evening"
 
 
 
+
+{
+    name: "Phases  (new)",
+    artist: " Joel Corry & Abi Flynn",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Joel Corry & Abi Flynn- Phases.mp3",
+       timeCategory: "f evening-late"
+},
+
+
+
+{
+    name: "Cherry  (new)",
+    artist: "  Naomi Scott",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Naomi Scott - Cherry.mp3",
+       timeCategory: "f evening-late"
+},
+
+
+{
+    name: "Damiano David & Tyla  (new)",
+    artist: "  Talk To Me ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Damiano David & Tyla - Talk To Me.mp3",
+       timeCategory: "f evening-late"
+},
 
 
 
@@ -22004,6 +22202,44 @@ timeCategory: "f evening"
 
 
 
+
+
+
+
+
+
+
+{
+     name: "The Dead Dance (new) ",
+    artist: "Lady Gaga ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Lady Gaga - The Dead Dance.mp3",
+    timeCategory: "f-evening-late"
+},
+
+
+{
+     name: "Believe In Magic (new) ",
+    artist: "Jessie J",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Jessie J - Believe In Magic.mp3",
+    timeCategory: "f-evening-late"
+
+},
+
+
+
+
+
+
+{
+     name: "  In Love (new) ",
+    artist: "Minellli & Inna",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Minellli & Inna - In Love.mp3",
+    timeCategory: "f-evening-late"
+
+},
 
 
 
