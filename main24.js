@@ -53,10 +53,10 @@ function getCurrentTimeCategory() {
   
 }
 
- // 🎶 Special case: Sunday between 13:00 and 15:00
-  if (currentDay === 0 && currentHour >= 13 && currentHour < 15) {
-    return "special-mix";
+if (currentDay === 0 && (currentHour >= 23 || currentHour < 1)) {
+  return "special-mix";
 }
+
 
 setInterval(() => {
   const updatedCategory = getCurrentTimeCategory();
