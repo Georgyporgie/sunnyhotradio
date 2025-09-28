@@ -53,8 +53,10 @@ function getCurrentTimeCategory() {
   
 }
 
-if (currentDay === 1 && currentHour >= 0 && currentHour < 1) {
-  return "special-mix";
+  // 🎶 Special case: Sunday between 13:00 and 15:00
+  if (currentDay === 0 && currentHour >= 13 && currentHour < 15) {
+    return "special-mix";
+  
 }
 
 
