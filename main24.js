@@ -19268,13 +19268,6 @@ timeCategory: "evening-late"
 },
 
 
-{
-    name: "  Stay On Me (new) ",
-    artist: "Sophie Ellis Bextor ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Sophie Ellis Bextor -  Stay On Me.mp3",
-   timeCategory: "f afternoon"
-},
 
 
 
