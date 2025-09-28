@@ -4645,7 +4645,7 @@ timeCategory: "morning"
 
 
 {
-    name: "Scandalous ",
+    name: "Scandalous (new) ",
     artist: " Griffin Tinashe ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Griffin Tinashe - Scandalous.mp3",
@@ -15105,7 +15105,7 @@ timeCategory: "evening-late",
 
 
 {
-    name: " Blackberries (maxi)",
+    name: " Blackberries (new)",
     artist: "Fischer Bbyclose",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Fischer Bbyclose - Blackberries (maxi).mp3",
@@ -19416,7 +19416,7 @@ timeCategory: "evening-late"
 
 
 {
-    name: " Blackberries (maxi)",
+    name: " Blackberries (new)",
     artist: "Fischer Bbyclose",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Fischer Bbyclose - Blackberries (maxi).mp3",
@@ -20069,7 +20069,7 @@ timeCategory: "evening-late"
 
 
 {
-    name: "Scandalous ",
+    name: "Scandalous (new)  ",
     artist: " Griffin Tinashe ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Griffin Tinashe - Scandalous.mp3",
@@ -21780,7 +21780,7 @@ timeCategory: "f evening"
 
 
 {
-    name: "Scandalous ",
+    name: "Scandalous(new)   ",
     artist: " Griffin Tinashe ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Griffin Tinashe - Scandalous.mp3",
@@ -21924,7 +21924,7 @@ timeCategory: "f evening"
 
 
 {
-    name: " Blackberries (maxi)",
+    name: " Blackberries (new)",
     artist: "Fischer Bbyclose",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Fischer Bbyclose - Blackberries (maxi).mp3",
