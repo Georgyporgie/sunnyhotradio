@@ -58,7 +58,10 @@ function getCurrentTimeCategory() {
     return "special-mix";
 }
 
-
+setInterval(() => {
+  const updatedCategory = getCurrentTimeCategory();
+  console.log("Refreshed category:", updatedCategory);
+}, 15 * 60 * 1000); // every 15 minutes
 
   // Categories per day/time
   const categoriesPerDay = {
