@@ -53,9 +53,10 @@ function getCurrentTimeCategory() {
   
 }
 
-if (currentDay === 0 && (currentHour >= 23 || currentHour < 1)) {
+if (currentDay === 1 && currentHour >= 0 && currentHour < 1) {
   return "special-mix";
 }
+
 
 
 setInterval(() => {
