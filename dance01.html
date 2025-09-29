@@ -1526,43 +1526,30 @@ function generateSchedule() {
 <audio id="djIntro"></audio>
 
 <script>
+const voiceovers = {
+  morning: "muziek/discjockeys/starten met Sunny4.mp3",
+  special-show: "muziek/voiceover/Latest Disco Hits.mp3",
+  "evening-late": "muziek/voiceover/latest disco hits of the eighties.mp3",
+  "jingle-time": "muziek/discjockeys/starten met Sunny4.mp3",
+  unknown: "muziek/discjockeys/starten met Sunny4.mp3"
+};
+
 window.addEventListener('load', () => {
-    const djIntro = document.getElementById('djIntro');
+  const djIntro = document.getElementById('djIntro');
+  const category = getCurrentTimeCategory();
+  const file = voiceovers[category];
 
-    // Intro schedules
-    const weekdaySlots = [
-        { start: 0, end: 12, file: "muziek/discjockeys/starten met Sunny4.mp3" },
-        { start: 12, end: 16, file: "muziek/voiceover/latest disco hits of the eighties.mp3" },
-        { start: 16, end: 24, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" }
-    ];
+  console.log("Category:", category);
+  console.log("Voiceover file:", file);
+  console.log("djIntro element:", djIntro);
 
-    const weekendSlots = [
-        { start: 0, end: 14, file: "muziek/discjockeys/starten met Sunny4.mp3" },
-        { start: 14, end: 20, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" },
-        { start: 20, end: 24, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" }
-    ];
-
-    // Current time
-    const now = new Date();
-    const currentHour = now.getHours();
-    const currentDay = now.getDay(); // 0 = Sunday, 6 = Saturday
-
-    // Pick schedule
-    const isWeekend = currentDay === 0 || currentDay === 6;
-    const schedule = isWeekend ? weekendSlots : weekdaySlots;
-
-    // Find matching slot
-    const currentSlot = schedule.find(slot => currentHour >= slot.start && currentHour < slot.end);
-
-    // Play intro if there is one
-    if (currentSlot) {
-        djIntro.src = currentSlot.file;
-        djIntro.volume = 0.7;
-        djIntro.play().catch(err => console.log("Intro can't autoplay:", err));
-    }
+  if (djIntro && file) {
+    djIntro.src = file;
+    djIntro.volume = 0.8;
+    djIntro.play().catch(err => console.log("Intro can't autoplay:", err));
+  }
 });
 </script>
-
 
 
 
