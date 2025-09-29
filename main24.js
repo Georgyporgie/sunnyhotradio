@@ -47,24 +47,12 @@ function getCurrentTimeCategory() {
   const currentHour = now.getHours();
   const currentDay = now.getDay();
 
-  // 🎶 Special case: Saturday between 13:00 and 15:00
-  if (currentDay === 6 && currentHour >= 13 && currentHour < 15) {
-    return "special-mix";
   
-}
-
-  // 🎶 Special case: Sunday between 13:00 and 15:00
-  if (currentDay === 0 && currentHour >= 13 && currentHour < 15) {
-    return "special-mix";
-  
-}
 
 
 
-setInterval(() => {
-  const updatedCategory = getCurrentTimeCategory();
-  console.log("Refreshed category:", updatedCategory);
-}, 15 * 60 * 1000); // every 15 minutes
+
+
 
   // Categories per day/time
   const categoriesPerDay = {
@@ -80,12 +68,13 @@ setInterval(() => {
       night: ["jingle-time"]
 
     },
-    1: { // Monday
+    
+1: { // Monday
      morning: ["morning","evening-late","evening","afternoon"],
       afternoon: ["morning","evening-late","evening","afternoon"],
       
 
-      specialmix: ["special-show"],
+      specialmix: ["morning","evening-late","evening","afternoon"],
 
 
       evening: ["morning","evening-late","evening","afternoon"],
@@ -96,8 +85,11 @@ setInterval(() => {
     },
     2: { // Tuesday
        morning: ["morning","evening-late","evening","afternoon"],
+      
       afternoon: ["morning","evening-late","evening","afternoon"],
-     specialmix: ["special-show"],
+     
+
+      specialmix: ["morning","evening-late","evening","afternoon"],
 
       evening: ["morning","evening-late","evening","afternoon"],
 
@@ -110,9 +102,10 @@ setInterval(() => {
 
 
     3: { // Wednesday
-   morning: ["morning","evening-late","evening","afternoon"],
+      morning: ["morning","evening-late","evening","afternoon"],
       afternoon: ["morning","evening-late","evening","afternoon"],
-      specialmix: ["special-show"],
+      
+      specialmix: ["morning","evening-late","evening","afternoon"],
 
       evening: ["morning","evening-late","evening","afternoon"],
 
@@ -124,7 +117,8 @@ setInterval(() => {
     4: { // Thursday
       morning: ["morning","evening-late","evening","afternoon"],
       afternoon: ["morning","evening-late","evening","afternoon"],
-      specialmix: ["special-show"],
+      
+     specialmix: ["morning","evening-late","evening","afternoon"],
 
       evening: ["morning","evening-late","evening","afternoon"],
 
@@ -136,7 +130,8 @@ setInterval(() => {
     5: { // Friday
         morning: ["f afternoon","f evening","f evening-late"],
       afternoon: ["f afternoon","f evening","f evening-late"],
-      specialmix: ["special-show"],
+      
+      specialmix: ["morning","evening-late","evening","afternoon"],
 
       evening:["f afternoon","f evening","f evening-late"],
 
@@ -148,7 +143,8 @@ setInterval(() => {
     6: { // Saturday
       morning: ["f afternoon","f evening","f evening-late"],
       afternoon: ["f afternoon","f evening","f evening-late"],
-       specialmix: ["special-show"],
+       
+     specialmix: ["special-show"],
 
       evening:["f afternoon","f evening","f evening-late"],
 
@@ -162,8 +158,8 @@ setInterval(() => {
   let timeKey;
   if (currentHour >= 8 && currentHour < 12) timeKey = "morning";
   else if (currentHour >= 12 && currentHour < 14) timeKey = "afternoon";
-   else if (currentHour >= 14 && currentHour < 18) timeKey = "specialmix";
-else if (currentHour >= 18 && currentHour < 21) timeKey = "evening";
+   else if (currentHour >= 14 && currentHour < 16) timeKey = "specialmix";
+else if (currentHour >= 16 && currentHour < 21) timeKey = "evening";
   else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) timeKey = "late";
   else timeKey = "night";
 
