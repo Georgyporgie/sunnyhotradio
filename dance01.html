@@ -1528,21 +1528,23 @@ function generateSchedule() {
 <script>
 const voiceovers = {
   morning: "muziek/discjockeys/starten met Sunny4.mp3",
-  "special-show": "muziek/voiceover/latest disco hits of the eighties.mp3",
+  afternoon: "muziek/voiceover/Latest Disco Hits.mp3",
+  evening: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3",
   "evening-late": "muziek/voiceover/Latest Hits Of Dance Area22222.mp3",
+  "special-show": "muziek/voiceover/latest disco hits of the eighties.mp3",
   "jingle-time": "muziek/discjockeys/starten met Sunny4.mp3",
-  unknown: "muziek/discjockeys/starten met Sunny4.mp3",
-evening: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3"
+  late: "muziek/voiceover/night-voice.mp3",
+  night: "muziek/voiceover/night-voice.mp3",
+  unknown: "muziek/discjockeys/starten met Sunny4.mp3"
 };
 
 window.addEventListener('load', () => {
   const djIntro = document.getElementById('djIntro');
-  const category = getCurrentTimeCategory();
-  const file = voiceovers[category];
+  const category = getCurrentTimeCategory(); // your scheduler
+  const file = voiceovers[category] || voiceovers.unknown;
 
   console.log("Category:", category);
   console.log("Voiceover file:", file);
-  console.log("djIntro element:", djIntro);
 
   if (djIntro && file) {
     djIntro.src = file;
@@ -1551,8 +1553,6 @@ window.addEventListener('load', () => {
   }
 });
 </script>
-
-
 
 
 
