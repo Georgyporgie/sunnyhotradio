@@ -71,6 +71,7 @@ setInterval(() => {
     0: { // Sunday
      morning: ["f afternoon","f evening","f evening-late"],
       afternoon: ["f afternoon","f evening","f evening-late"],
+      specialmix: ["special-show"],
 
       evening:["f afternoon","f evening","f evening-late"],
 
@@ -82,6 +83,10 @@ setInterval(() => {
     1: { // Monday
      morning: ["morning","evening-late","evening","afternoon"],
       afternoon: ["morning","evening-late","evening","afternoon"],
+      
+
+      specialmix: ["special-show"],
+
 
       evening: ["morning","evening-late","evening","afternoon"],
 
@@ -92,6 +97,7 @@ setInterval(() => {
     2: { // Tuesday
        morning: ["morning","evening-late","evening","afternoon"],
       afternoon: ["morning","evening-late","evening","afternoon"],
+     specialmix: ["special-show"],
 
       evening: ["morning","evening-late","evening","afternoon"],
 
@@ -106,6 +112,7 @@ setInterval(() => {
     3: { // Wednesday
    morning: ["morning","evening-late","evening","afternoon"],
       afternoon: ["morning","evening-late","evening","afternoon"],
+      specialmix: ["special-show"],
 
       evening: ["morning","evening-late","evening","afternoon"],
 
@@ -117,6 +124,7 @@ setInterval(() => {
     4: { // Thursday
       morning: ["morning","evening-late","evening","afternoon"],
       afternoon: ["morning","evening-late","evening","afternoon"],
+      specialmix: ["special-show"],
 
       evening: ["morning","evening-late","evening","afternoon"],
 
@@ -128,6 +136,7 @@ setInterval(() => {
     5: { // Friday
         morning: ["f afternoon","f evening","f evening-late"],
       afternoon: ["f afternoon","f evening","f evening-late"],
+      specialmix: ["special-show"],
 
       evening:["f afternoon","f evening","f evening-late"],
 
@@ -139,6 +148,7 @@ setInterval(() => {
     6: { // Saturday
       morning: ["f afternoon","f evening","f evening-late"],
       afternoon: ["f afternoon","f evening","f evening-late"],
+       specialmix: ["special-show"],
 
       evening:["f afternoon","f evening","f evening-late"],
 
@@ -151,8 +161,9 @@ setInterval(() => {
   // Determine time-of-day key
   let timeKey;
   if (currentHour >= 8 && currentHour < 12) timeKey = "morning";
-  else if (currentHour >= 12 && currentHour < 17) timeKey = "afternoon";
-  else if (currentHour >= 17 && currentHour < 21) timeKey = "evening";
+  else if (currentHour >= 12 && currentHour < 14) timeKey = "afternoon";
+   else if (currentHour >= 14 && currentHour < 18) timeKey = "specialmix";
+else if (currentHour >= 18 && currentHour < 21) timeKey = "evening";
   else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) timeKey = "late";
   else timeKey = "night";
 
@@ -472,18 +483,6 @@ let trackList = [
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 {
 
 
@@ -491,8 +490,22 @@ let trackList = [
     artist: "Listen Live Sunny Dance Radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet.mp3",
-  timeCategory: "morning"
+  timeCategory: "special-show"
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -22318,7 +22331,7 @@ timeCategory: "f evening"
     artist: "Calvin Harris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator01.mp3",
-    timeCategory: "special-mix"
+    timeCategory: "special-show"
 },
 
 
@@ -22327,7 +22340,7 @@ timeCategory: "f evening"
     artist: "Calvin Harris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator02.mp3",
-    timeCategory: "special-mix"
+    timeCategory: "special-show"
 },
 
 
@@ -22336,7 +22349,7 @@ timeCategory: "f evening"
     artist: "Calvin Harris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator03.mp3",
-    timeCategory: "special-mix"
+    timeCategory: "special-show"
 },
 
  {
@@ -22344,7 +22357,7 @@ timeCategory: "f evening"
     artist: "Calvin Harris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator04.mp3",
-    timeCategory: "special-mix"
+    timeCategory: "special-show"
 },
 
  {
@@ -22352,7 +22365,7 @@ timeCategory: "f evening"
     artist: "Calvin Harris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator05.mp3",
-    timeCategory: "special-mix"
+    timeCategory: "special-show"
 },
 
 {
@@ -22360,7 +22373,7 @@ timeCategory: "f evening"
     artist: "Calvin Harris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator06.mp3",
-    timeCategory: "special-mix"
+    timeCategory: "special-show"
 },
 
 
