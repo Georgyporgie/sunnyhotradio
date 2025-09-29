@@ -166,6 +166,26 @@ else if (currentHour >= 16 && currentHour < 21) timeKey = "evening";
   // Shuffle and pick one category
   const shuffled = shuffle([...categoriesPerDay[currentDay][timeKey]]);
   return shuffled[0];
+
+
+
+// 3. Transition logger (place this AFTER the functions)
+let currentCategory = getCurrentTimeCategory();
+console.log("Initial category:", currentCategory);
+
+setInterval(() => {
+  const updatedCategory = getCurrentTimeCategory();
+  if (updatedCategory !== currentCategory) {
+    console.log(
+      `⏰ Transition: ${currentCategory} → ${updatedCategory} at ${new Date().toLocaleTimeString()}`
+    );
+    // 🔊 Hook: fade out old block, load new block, update UI, etc.
+    currentCategory = updatedCategory;
+  }
+}, 15 * 60 * 1000); // every 15 minutes
+
+
+
 }
 
 
