@@ -479,15 +479,145 @@ let trackList = [
 
 
 
+
+
+
+
+
 {
-
-
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio☀️",
+     name: "Love Generator ",
+    artist: "Calvin Harris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet.mp3",
-  timeCategory: "special-show"
+    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator01.mp3",
+    timeCategory: "special-show"
 },
+
+
+{
+     name: "Love Generator ",
+    artist: "Calvin Harris",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator02.mp3",
+    timeCategory: "special-show"
+},
+
+
+{
+     name: "Love Generator ",
+    artist: "Calvin Harris",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator03.mp3",
+    timeCategory: "special-show"
+},
+
+ {
+     name: "Love Generator ",
+    artist: "Calvin Harris",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator04.mp3",
+    timeCategory: "special-show"
+},
+
+ {
+     name: "Love Generator ",
+    artist: "Calvin Harris",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator05.mp3",
+    timeCategory: "special-show"
+},
+
+{
+     name: "Love Generator ",
+    artist: "Calvin Harris",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator06.mp3",
+    timeCategory: "special-show"
+},
+
+
+
+
+
+
+
+
+{
+    name: "Bob Sinclair (live)",
+    artist: "Live From Paris ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://sunnydanceoldies09.netlify.app/Bob Sinclar (live) - From Paris 01.mp3",
+       timeCategory: "special-mix"
+},
+
+
+
+{
+    name: "Bob Sinclair (live)",
+    artist: "Live From Paris",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://sunnydanceoldies09.netlify.app/Bob Sinclair - Live from Paris3.mp3",
+       timeCategory: "special-mix"
+},
+
+{
+    name: "Bob Sinclair (live)",
+    artist: "Live From Paris",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://sunnydanceoldies09.netlify.app/Bob Sinclair - Live from Paris4.mp3",
+       timeCategory: "special-mix"
+},
+
+
+
+{
+     name: " Live Mix ",
+    artist: "Corne Klijn",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Corne Kleyns- Live Mix 022.mp3",
+    timeCategory: "special-mix"
+},
+
+{
+     name: "Live Mix   ",
+    artist: "Corne Klijn",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Corne Kleyns- Live Mix 01.mp3",
+    timeCategory: "special-mix"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7968,23 +8098,6 @@ timeCategory: "morning"
 
 
 
-
-{
-    name: "  Ibiza (mini mix) ",
-    artist: "  Ministry Of Sound",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Ibiza mini mix - Ministry of Sound1.mp3",
-   timeCategory: "special-mix"
-},
-
-
-{
-    name: "  Ibiza (mini mix) ",
-    artist: "  Ministry Of Sound",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Ibiza mini mix - Ministry of Sound2.mp3",
-   timeCategory: "special-mix"
-},
 
 {
     name: "  Ibiza (mini mix) ",
@@ -22271,147 +22384,6 @@ timeCategory: "f evening"
 
 
 },
-
-
-{
-    name: "Bob Sinclair (live)",
-    artist: "Live From Paris ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://sunnydanceoldies09.netlify.app/Bob Sinclar (live) - From Paris 01.mp3",
-       timeCategory: "special-mix"
-},
-
-
-
-{
-    name: "Bob Sinclair (live)",
-    artist: "Live From Paris",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://sunnydanceoldies09.netlify.app/Bob Sinclair - Live from Paris3.mp3",
-       timeCategory: "special-mix"
-},
-
-{
-    name: "Bob Sinclair (live)",
-    artist: "Live From Paris",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://sunnydanceoldies09.netlify.app/Bob Sinclair - Live from Paris4.mp3",
-       timeCategory: "special-mix"
-},
-
-
-
-{
-     name: " Live Mix ",
-    artist: "Corne Klijn",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Corne Kleyns- Live Mix 022.mp3",
-    timeCategory: "special-mix"
-},
-
-{
-     name: "Live Mix   ",
-    artist: "Corne Klijn",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Corne Kleyns- Live Mix 01.mp3",
-    timeCategory: "special-mix"
-},
-
-
-
-
-
-
-{
-     name: "Love Generator ",
-    artist: "Calvin Harris",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator01.mp3",
-    timeCategory: "special-show"
-},
-
-
-{
-     name: "Love Generator ",
-    artist: "Calvin Harris",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator02.mp3",
-    timeCategory: "special-show"
-},
-
-
-{
-     name: "Love Generator ",
-    artist: "Calvin Harris",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator03.mp3",
-    timeCategory: "special-show"
-},
-
- {
-     name: "Love Generator ",
-    artist: "Calvin Harris",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator04.mp3",
-    timeCategory: "special-show"
-},
-
- {
-     name: "Love Generator ",
-    artist: "Calvin Harris",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator05.mp3",
-    timeCategory: "special-show"
-},
-
-{
-     name: "Love Generator ",
-    artist: "Calvin Harris",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator06.mp3",
-    timeCategory: "special-show"
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
