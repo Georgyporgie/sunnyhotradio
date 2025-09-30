@@ -1525,6 +1525,9 @@ function generateSchedule() {
 
 <audio id="djIntro"></audio>
 
+
+
+
 <script>
 const voiceovers = {
   morning: "muziek/discjockeys/starten met Sunny4.mp3",
@@ -1540,25 +1543,43 @@ const voiceovers = {
 
 window.addEventListener('load', () => {
   const djIntro = document.getElementById('djIntro');
-  const category = getCurrentTimeCategory(); // your scheduler
-  const file = voiceovers[category] || voiceovers.unknown;
 
-  console.log("Category:", category);
-  console.log("Voiceover file:", file);
+  // Initial category
+  let currentCategory = getCurrentTimeCategory();
+  console.log("Initial category:", currentCategory);
 
-  if (djIntro && file) {
-    djIntro.src = file;
+  // Play intro for initial category
+  const initialFile = voiceovers[currentCategory] || voiceovers.unknown;
+  if (initialFile) {
+    djIntro.src = initialFile;
     djIntro.volume = 0.8;
     djIntro.play().catch(err => console.log("Intro can't autoplay:", err));
   }
+
+  // Check every 15 minutes for transitions
+  setInterval(() => {
+    const updatedCategory = getCurrentTimeCategory();
+    if (updatedCategory !== currentCategory) {
+      console.log(`⏰ Transition: ${currentCategory} → ${updatedCategory}`);
+
+      const file = voiceovers[updatedCategory] || voiceovers.unknown;
+      if (file) {
+        djIntro.src = file;
+        djIntro.play().catch(err => console.log("Intro can't autoplay:", err));
+      }
+
+      currentCategory = updatedCategory;
+    }
+  }, 15 * 60 * 1000);
 });
 </script>
 
 
 
 
-
 <script src= "main24.js"> </script>
+
+
 
 
 

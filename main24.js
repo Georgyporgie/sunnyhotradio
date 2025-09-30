@@ -59,105 +59,78 @@ function getCurrentTimeCategory() {
 
 
 
-  // Categories per day/time
-  const categoriesPerDay = {
-    0: { // Sunday
-     morning: ["f afternoon","f evening","f evening-late"],
-      afternoon: ["f afternoon","f evening","f evening-late"],
-      specialmix: ["special-show"],
+ const categoriesPerDay = {
+  0: { // Sunday
+    morning: ["morning","afternoon","evening"],
+    afternoon: ["afternoon","evening","evening-late"],
+    "special-show": ["special-show"],
+    evening: ["evening","evening-late","afternoon"],
+    "evening-late": ["evening-late","evening"],
+    late: ["late","evening-late"],
+    night: ["jingle-time"]
+  },
 
-      evening:["f afternoon","f evening","f evening-late"],
+  1: { // Monday
+    morning: ["morning","afternoon","evening"],
+    afternoon: ["afternoon","evening","morning"],
+    "special-show": ["special-show","afternoon","evening"],
+    evening: ["evening","evening-late","afternoon"],
+    "evening-late": ["evening-late","evening"],
+    late: ["late","evening-late","morning"],
+    night: ["jingle-time"]
+  },
 
-      late:["f afternoon","f evening","f evening-late"],
+  2: { // Tuesday
+    morning: ["morning","afternoon","evening"],
+    afternoon: ["afternoon","evening","morning"],
+    "special-show": ["special-show","evening","afternoon"],
+    evening: ["evening","evening-late","afternoon"],
+    "evening-late": ["evening-late","evening"],
+    late: ["late","evening-late","morning"],
+    night: ["jingle-time"]
+  },
 
-      night: ["jingle-time"]
+  3: { // Wednesday
+    morning: ["morning","afternoon","evening"],
+    afternoon: ["afternoon","evening","morning"],
+    "special-show": ["special-show","afternoon","evening"],
+    evening: ["evening","evening-late","afternoon"],
+    "evening-late": ["evening-late","evening"],
+    late: ["late","evening-late","morning"],
+    night: ["jingle-time"]
+  },
 
-    },
-    
-1: { // Monday
-     morning: ["morning","evening-late","evening","afternoon"],
-      afternoon: ["morning","evening-late","evening","afternoon"],
-      
+  4: { // Thursday
+    morning: ["morning","afternoon","evening"],
+    afternoon: ["afternoon","evening","morning"],
+    "special-show": ["special-show","afternoon","evening"],
+    evening: ["evening","evening-late","afternoon"],
+    "evening-late": ["evening-late","evening"],
+    late: ["late","evening-late","morning"],
+    night: ["jingle-time"]
+  },
 
-      specialmix: ["morning","evening-late","evening","afternoon"],
+  5: { // Friday
+    morning: ["morning","afternoon","evening","evening-late"],
+    afternoon: ["afternoon","evening","evening-late"],
+    "special-show": ["special-show","evening","afternoon"],
+    evening: ["evening","evening-late","afternoon"],
+    "evening-late": ["evening-late","evening"],
+    late: ["late","evening-late","afternoon"],
+    night: ["jingle-time"]
+  },
 
+  6: { // Saturday
+    morning: ["morning","afternoon","evening","evening-late"],
+    afternoon: ["afternoon","evening","evening-late"],
+    "special-show": ["special-show"],
+    evening: ["evening","evening-late","afternoon"],
+    "evening-late": ["evening-late","evening"],
+    late: ["late","evening-late","afternoon"],
+    night: ["jingle-time"]
+  }
+};
 
-      evening: ["morning","evening-late","evening","afternoon"],
-
-      late: ["morning","evening-late","evening","afternoon"],
-
-      night: ["jingle-time"]
-    },
-    2: { // Tuesday
-       morning: ["morning","evening-late","evening","afternoon"],
-      
-      afternoon: ["morning","evening-late","evening","afternoon"],
-     
-
-      specialmix: ["morning","evening-late","evening","afternoon"],
-
-      evening: ["morning","evening-late","evening","afternoon"],
-
-      late: ["morning","evening-late","evening","afternoon"],
-
-      night: ["jingle-time"]
-    },
-      
-
-
-
-    3: { // Wednesday
-      morning: ["morning","evening-late","evening","afternoon"],
-      afternoon: ["morning","evening-late","evening","afternoon"],
-      
-      specialmix: ["morning","evening-late","evening","afternoon"],
-
-      evening: ["morning","evening-late","evening","afternoon"],
-
-      late: ["morning","evening-late","evening","afternoon"],
-
-      night: ["jingle-time"]
-
-    },
-    4: { // Thursday
-      morning: ["morning","evening-late","evening","afternoon"],
-      afternoon: ["morning","evening-late","evening","afternoon"],
-      
-     specialmix: ["morning","evening-late","evening","afternoon"],
-
-      evening: ["morning","evening-late","evening","afternoon"],
-
-      late: ["morning","evening-late","evening","afternoon"],
-
-      night: ["jingle-time"]
-
-    },
-    5: { // Friday
-        morning: ["f afternoon","f evening","f evening-late"],
-      afternoon: ["f afternoon","f evening","f evening-late"],
-      
-      specialmix: ["morning","evening-late","evening","afternoon"],
-
-      evening:["f afternoon","f evening","f evening-late"],
-
-      late:["f afternoon","f evening","f evening-late"],
-
-      night: ["jingle-time"]
-
-    },
-    6: { // Saturday
-      morning: ["f afternoon","f evening","f evening-late"],
-      afternoon: ["f afternoon","f evening","f evening-late"],
-       
-     specialmix: ["special-show"],
-
-      evening:["f afternoon","f evening","f evening-late"],
-
-      late:["f afternoon","f evening","f evening-late"],
-
-      night: ["jingle-time"]
-    }
-  };
 
    // Determine which timeKey applies
   let timeKey = "night"; // default
