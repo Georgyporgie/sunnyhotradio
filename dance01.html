@@ -1086,7 +1086,7 @@ function scheduleRangeSwap() {
 
     // ── Render the shuffled list in the DOM ──
     function renderTrackList() {
-      const ul = document.getElementById("track-list");
+      const ul = document.getElementById("track-list-container");
       ul.innerHTML = "";
       scheduledMp3Files.forEach((t, idx) => {
         const li = document.createElement("li");

@@ -18,11 +18,7 @@ let volume_slider = document.querySelector(".volume_slider");
 let curr_time = document.querySelector(".current-time");
 let total_duration = document.querySelector(".total-duration");
 
-document.getElementById("myImage").addEventListener("touchstart", displayMessage);
 
-function displayMessage() {
-  document.getElementById("message").innerHTML = "";
-}
 
 
 // Utility: shuffle an array
@@ -50,7 +46,16 @@ function getCurrentTimeCategory() {
   
 
 
+  const timeRanges = [
+    { key: "morning", start: 8, end: 12 },
+    { key: "afternoon", start: 12, end: 14 },
+    { key: "special-show", start: 14, end: 16 },
+    { key: "evening", start: 16, end: 19 },
+    { key: "evening-late", start: 19, end: 23 },
 
+    { key: "late", start: 23, end: 3 }, // wraps past midnight
+    { key: "night", start: 3, end: 8 }
+  ];
 
 
 
@@ -154,14 +159,22 @@ function getCurrentTimeCategory() {
     }
   };
 
-  // Determine time-of-day key
-  let timeKey;
-  if (currentHour >= 8 && currentHour < 12) timeKey = "morning";
-  else if (currentHour >= 12 && currentHour < 14) timeKey = "afternoon";
-   else if (currentHour >= 14 && currentHour < 16) timeKey = "specialmix";
-else if (currentHour >= 16 && currentHour < 21) timeKey = "evening";
-  else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) timeKey = "late";
-  else timeKey = "night";
+   // Determine which timeKey applies
+  let timeKey = "night"; // default
+  for (const range of timeRanges) {
+    if (range.start < range.end) {
+      if (currentHour >= range.start && currentHour < range.end) {
+        timeKey = range.key;
+        break;
+      }
+    } else {
+      // wrap-around case (e.g. 23 → 3)
+      if (currentHour >= range.start || currentHour < range.end) {
+        timeKey = range.key;
+        break;
+      }
+    }
+  }
 
   // Shuffle and pick one category
   const shuffled = shuffle([...categoriesPerDay[currentDay][timeKey]]);
@@ -169,20 +182,7 @@ else if (currentHour >= 16 && currentHour < 21) timeKey = "evening";
 
 
 
-// 3. Transition logger (place this AFTER the functions)
-let currentCategory = getCurrentTimeCategory();
-console.log("Initial category:", currentCategory);
 
-setInterval(() => {
-  const updatedCategory = getCurrentTimeCategory();
-  if (updatedCategory !== currentCategory) {
-    console.log(
-      `⏰ Transition: ${currentCategory} → ${updatedCategory} at ${new Date().toLocaleTimeString()}`
-    );
-    // 🔊 Hook: fade out old block, load new block, update UI, etc.
-    currentCategory = updatedCategory;
-  }
-}, 15 * 60 * 1000); // every 15 minutes
 
 
 
@@ -22428,7 +22428,7 @@ timeCategory: "f evening"
 // 3. Logic
 function loadPlaylistForCategory(category) {
   const playlist = shuffle(trackList.filter(track => track.timeCategory === category));
-  console.log("▶ Now playing category:", category, "Playlist:", playlist.map(t => t.name));
+
   // Here you’d actually start playback
 }
 
