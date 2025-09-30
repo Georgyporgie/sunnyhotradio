@@ -61,12 +61,12 @@ function getCurrentTimeCategory() {
 
  const categoriesPerDay = {
   0: { // Sunday
-    morning: ["morning","afternoon","evening"],
-    afternoon: ["afternoon","evening","evening-late"],
+    morning: ["morning","f afternoon","f evening"],
+    afternoon: ["f afternoon","f evening","f evening-late"],
     "special-show": ["special-show"],
-    evening: ["evening","evening-late","afternoon"],
-    "evening-late": ["evening-late","evening"],
-    late: ["evening-late"],
+    evening: ["f evening","f evening-late","f afternoon"],
+    "evening-late": ["f evening-late","f evening"],
+    late: ["f evening-late"],
     night: ["jingle-time"]
   },
 
@@ -121,12 +121,12 @@ function getCurrentTimeCategory() {
   },
 
   6: { // Saturday
-    morning: ["morning","afternoon","evening","evening-late"],
-    afternoon: ["afternoon","evening","evening-late"],
+    morning: ["f afternoon","f evening","f evening-late"],
+    afternoon: ["f afternoon","f evening","f evening-late"],
     "special-show": ["special-show"],
-    evening: ["evening","evening-late","afternoon"],
-    "evening-late": ["evening-late","evening"],
-    late: ["evening-late","afternoon"],
+    evening: ["f evening","f evening-late","f afternoon"],
+    "evening-late": ["f evening-late","f evening"],
+    late: ["f evening-late","f afternoon"],
     night: ["jingle-time"]
   }
 };
