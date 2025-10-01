@@ -772,7 +772,7 @@ window.addEventListener('load', () => {
   const musicPlayer = document.getElementById("musicPlayer");
 
   // Start muted
-  musicPlayer.volume = 0.7;
+  musicPlayer.volume = 0.8;
 
   // After 10 seconds, set volume based on time of day
   setTimeout(() => {
@@ -780,11 +780,11 @@ window.addEventListener('load', () => {
     let targetVolume;
 
     if (hour < 9) {
-      targetVolume = 0.2; // softer in the morning
+      targetVolume = 0.4; // softer in the morning
     } else if (hour >= 21) {
-      targetVolume = 0.15; // very soft at night
+      targetVolume = 0.5; // very soft at night
     } else {
-      targetVolume = 0.5; // louder during the day
+      targetVolume = 0.6; // louder during the day
     }
 
     // Configurable fade duration (ms)
