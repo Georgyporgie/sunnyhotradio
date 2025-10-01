@@ -21,146 +21,6 @@ let total_duration = document.querySelector(".total-duration");
 
 
 
-// Utility: shuffle an array
-function shuffle(array) {
-  let currentIndex = array.length, randomIndex;
-
-  while (currentIndex > 0) {
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
-
-    [array[currentIndex], array[randomIndex]] = [
-      array[randomIndex], array[currentIndex]
-    ];
-  }
-
-  return array;
-}
-
-// Scheduler: decide which category should play now
-function getCurrentTimeCategory() {
-  const now = new Date();
-  const currentHour = now.getHours();
-  const currentDay = now.getDay();
-
-  
-
-
-  const timeRanges = [
-    { key: "morning", start: 8, end: 12 },
-    { key: "afternoon", start: 12, end: 14 },
-    { key: "special-show", start: 14, end: 16 },
-    { key: "evening", start: 16, end: 19 },
-    { key: "evening-late", start: 19, end: 23 },
-
-    { key: "late", start: 23, end: 3 }, // wraps past midnight
-    { key: "night", start: 3, end: 8 }
-  ];
-
-
-
- const categoriesPerDay = {
-  0: { // Sunday
-    morning: ["morning","f afternoon","f evening"],
-    afternoon: ["f afternoon","f evening","f evening-late"],
-    "special-show": ["special-show"],
-    evening: ["f evening","f evening-late","f afternoon"],
-    "evening-late": ["f evening-late","f evening"],
-    late: ["f evening-late"],
-    night: ["jingle-time"]
-  },
-
-  1: { // Monday
-    morning: ["morning","afternoon","evening"],
-    afternoon: ["afternoon","evening","morning"],
-    "special-show": ["afternoon","evening"],
-    evening: ["evening","evening-late","afternoon"],
-    "evening-late": ["evening-late","evening"],
-    late: ["evening-late","morning"],
-    night: ["jingle-time"]
-  },
-
-  2: { // Tuesday
-    morning: ["morning","afternoon","evening"],
-    afternoon: ["afternoon","evening","morning"],
-    "special-show": ["evening","afternoon"],
-    evening: ["evening","evening-late","afternoon"],
-    "evening-late": ["evening-late","evening"],
-    late: ["evening-late","morning"],
-    night: ["jingle-time"]
-  },
-
-  3: { // Wednesday
-    morning: ["morning","afternoon","evening"],
-    afternoon: ["afternoon","evening","morning"],
-    "special-show": ["afternoon","evening"],
-    evening: ["evening","evening-late","afternoon"],
-    "evening-late": ["evening-late","evening"],
-    late: ["evening-late","morning"],
-    night: ["jingle-time"]
-  },
-
-  4: { // Thursday
-    morning: ["morning","afternoon","evening"],
-    afternoon: ["afternoon","evening","morning"],
-    "special-show": ["afternoon","evening"],
-    evening: ["evening","evening-late","afternoon"],
-    "evening-late": ["evening-late","evening"],
-    late: ["evening-late","morning"],
-    night: ["jingle-time"]
-  },
-
-  5: { // Friday
-    morning: ["morning","afternoon","evening","evening-late"],
-    afternoon: ["afternoon","evening","evening-late"],
-    "special-show": ["evening","afternoon"],
-    evening: ["evening","evening-late","afternoon"],
-    "evening-late": ["evening-late","evening"],
-    late: ["evening-late","afternoon"],
-    night: ["jingle-time"]
-  },
-
-  6: { // Saturday
-    morning: ["f afternoon","f evening","f evening-late"],
-    afternoon: ["f afternoon","f evening","f evening-late"],
-    "special-show": ["special-show"],
-    evening: ["f evening","f evening-late","f afternoon"],
-    "evening-late": ["f evening-late","f evening"],
-    late: ["f evening-late","f afternoon"],
-    night: ["jingle-time"]
-  }
-};
-
-
-   // Determine which timeKey applies
-  let timeKey = "night"; // default
-  for (const range of timeRanges) {
-    if (range.start < range.end) {
-      if (currentHour >= range.start && currentHour < range.end) {
-        timeKey = range.key;
-        break;
-      }
-    } else {
-      // wrap-around case (e.g. 23 → 3)
-      if (currentHour >= range.start || currentHour < range.end) {
-        timeKey = range.key;
-        break;
-      }
-    }
-  }
-
-  // Shuffle and pick one category
-  const shuffled = shuffle([...categoriesPerDay[currentDay][timeKey]]);
-  return shuffled[0];
-
-
-
-
-
-
-
-}
-
 
 
 
@@ -637,14 +497,6 @@ let trackList = [
 
 
 
-
-{
-    name: "Dr Beat (12inch)",
-    artist: "Miami Sound Machine",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Miami Sound Machine - Dr Beat.mp3",
-    timeCategory: "morning"
-},
 
 
 
@@ -4792,7 +4644,7 @@ timeCategory: "morning"
 
 
 {
-    name: "I Can See The Future ",
+    name: "I Can See The Future (new) ",
     artist: " Tinashe  ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Tinashe - I Can See The Future.mp3",
@@ -20199,7 +20051,7 @@ timeCategory: "evening-late"
 
 
 {
-    name: "I Can See The Future ",
+    name: "I Can See The Future (new) ",
     artist: " Tinashe  ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Tinashe - I Can See The Future.mp3",
