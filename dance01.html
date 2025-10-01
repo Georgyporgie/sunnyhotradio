@@ -1510,7 +1510,7 @@ function generateSchedule() {
 
 </script>
 
-
+<audio id="djIntro"></audio>
 
 <script>
 
@@ -1557,9 +1557,9 @@ function getCurrentTimeCategory() {
     { key: "afternoon", start: 12, end: 14 },
     { key: "special-show", start: 14, end: 16 },
     { key: "evening", start: 16, end: 19 },
-    { key: "evening-late", start: 19, end: 22 },
+    { key: "evening-late", start: 19, end: 23 },
 
-    { key: "late", start: 22, end: 3 }, // wraps past midnight
+    { key: "late", start: 23, end: 3 }, // wraps past midnight
     { key: "night", start: 3, end: 8 }
   ];
 
@@ -1601,8 +1601,8 @@ function getCurrentTimeCategory() {
     afternoon: ["afternoon","evening","morning"],
     "special-show": ["afternoon","evening"],
     evening: ["evening","evening-late","afternoon"],
-    "evening-late": ["afternoon","evening"],
-    late: ["evening-late","afternoon"],
+    "evening-late": ["evening-late","evening"],
+    late: ["evening-late","morning"],
     night: ["jingle-time"]
   },
 
@@ -1667,7 +1667,6 @@ function getCurrentTimeCategory() {
 
 }
 
-</script>
 
 
 
@@ -1676,12 +1675,13 @@ function getCurrentTimeCategory() {
 
 
 
-<audio id="djIntro"></audio>
 
 
 
 
-<script>
+
+
+
 const voiceovers = {
   morning: "muziek/discjockeys/starten met Sunny4.mp3",
   afternoon: "muziek/voiceover/latest disco hits of the eighties.mp3",
@@ -1739,5 +1739,4 @@ window.addEventListener('load', () => {
 
 </body>
 </html>
-
 
