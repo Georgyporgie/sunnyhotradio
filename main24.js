@@ -19798,13 +19798,6 @@ timeCategory: "evening-late"
 
 
 
-{
-    name: "Ain't Nothing Goin'  (1986)",
-    artist: "Gwen Guthrie  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Gwen Guthrie- Ain't Nothing Goin' On But The Rent.mp3",
-  timeCategory: "f afternoon"
-},
 
 
 
