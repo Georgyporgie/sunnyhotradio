@@ -1684,7 +1684,7 @@ window.addEventListener('load', () => {
   const initialFile = voiceovers[currentCategory] || voiceovers.unknown;
   if (initialFile) {
     djIntro.src = initialFile;
-    djIntro.volume = 0.7;
+    djIntro.volume = 0.8;
     djIntro.play().catch(err => console.log("Intro can't autoplay:", err));
   }
 
