@@ -1520,31 +1520,26 @@ function generateSchedule() {
 
 
 
-// Utility: shuffle an array
+// Simple shuffle using Math.random()
 function shuffle(array) {
-  let currentIndex = array.length, randomIndex;
-
-  while (currentIndex > 0) {
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
-
-    [array[currentIndex], array[randomIndex]] = [
-      array[randomIndex], array[currentIndex]
-    ];
+  if (array.length <= 1) return array; // Skip shuffle if only one element
+  let m = array.length, t, i;
+  while (m) {
+    i = Math.floor(Math.random() * m--);
+    t = array[m];
+    array[m] = array[i];
+    array[i] = t;
   }
-
   return array;
 }
 
-// Scheduler: decide which category should play now
 function getCurrentTimeCategory() {
   const now = new Date();
   const currentHour = now.getHours();
   const currentDay = now.getDay();
 
+  // Define time ranges in one place for easy editing
   
-
-
   const timeRanges = [
     { key: "morning", start: 8, end: 12 },
     { key: "afternoon", start: 12, end: 14 },
@@ -1552,17 +1547,17 @@ function getCurrentTimeCategory() {
     { key: "evening", start: 16, end: 19 },
     { key: "evening-late", start: 19, end: 23 },
 
-    { key: "afternoon", start: 23, end: 1 }, // wraps past midnight
-    { key: "late", start: 1, end: 8 }
+    { key: "late", start: 23, end: 3 }, // wraps past midnight
+    { key: "night", start: 1, end: 8 }
   ];
+  
 
 
-
- const categoriesPerDay = {
+const categoriesPerDay = {
   0: { // Sunday
     morning: ["morning","f afternoon","f evening"],
     afternoon: ["f afternoon","f evening","f evening-late"],
-    "special-show": ["special-show"],
+    "special-show": ["special-show","special-mix"],
     evening: ["f evening","f evening-late","f afternoon"],
     "evening-late": ["f evening-late","f evening"],
     late: ["f evening-late"],
@@ -1622,7 +1617,7 @@ function getCurrentTimeCategory() {
   6: { // Saturday
     morning: ["f afternoon","f evening","f evening-late"],
     afternoon: ["f afternoon","f evening","f evening-late"],
-    "special-show": ["special-show"],
+    "special-show": ["special-mix","special-show"],
     evening: ["f evening","f evening-late","f afternoon"],
     "evening-late": ["f evening-late","f evening"],
     late: ["f evening-late","f afternoon"],
@@ -1631,7 +1626,7 @@ function getCurrentTimeCategory() {
 };
 
 
-   // Determine which timeKey applies
+  // Find matching timeKey
   let timeKey = "night"; // default
   for (const range of timeRanges) {
     if (range.start < range.end) {
@@ -1639,8 +1634,7 @@ function getCurrentTimeCategory() {
         timeKey = range.key;
         break;
       }
-    } else {
-      // wrap-around case (e.g. 23 → 3)
+    } else { // wrap-around range (e.g., late night)
       if (currentHour >= range.start || currentHour < range.end) {
         timeKey = range.key;
         break;
@@ -1648,18 +1642,10 @@ function getCurrentTimeCategory() {
     }
   }
 
-  // Shuffle and pick one category
-  const shuffled = shuffle([...categoriesPerDay[currentDay][timeKey]]);
+  const options = categoriesPerDay[currentDay][timeKey] || ["unknown"];
+  const shuffled = shuffle([...options]);
   return shuffled[0];
-
-
-
-
-
-
-
 }
-
 
 
 
