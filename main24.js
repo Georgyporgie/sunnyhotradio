@@ -6515,7 +6515,8 @@ timeCategory: "morning"
     artist: "The Weeknd ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/The Weeknd - Starboy.mp3",
-     timeCategory: "afternoon"
+     timeCategory: "afternoon",
+quickFade: true
 },
 
 
@@ -7127,8 +7128,9 @@ timeCategory: "morning"
     artist: "The Weeknd",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/The weeknd - Take my breath.mp3",
-   timeCategory: "afternoon"
- },
+   timeCategory: "afternoon",
+ quickFade: true
+},
 
 
 {
@@ -8463,7 +8465,8 @@ timeCategory: "morning"
     artist: "Joyce Sims ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Joyce Sims - Come Into My Life.mp3",
-    timeCategory: "evening"
+    timeCategory: "evening",
+quickFade: true
 },
 
 
@@ -9223,7 +9226,8 @@ timeCategory: "morning"
     artist: "Jazzy   ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic07.netlify.app/Jazzy feat. Kilimanjaro - No Bad Vibes.mp3",
-     timeCategory: "evening"
+     timeCategory: "evening",
+quickFade: true
 },
 
 
@@ -9368,7 +9372,8 @@ timeCategory: "morning"
     artist: "Depeche Mode",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/A Pain That I'm Used To (Jacques Lu Cont Remix).mp3",
-   timeCategory: "evening"
+   timeCategory: "evening",
+quickFade: true
 },
 
 
@@ -9762,7 +9767,8 @@ timeCategory: "morning"
     artist: "The Weeknd ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/The Weeknd - I Feel It Comin'.mp3",
-     timeCategory: "evening"
+     timeCategory: "evening",
+quickFade: true
 },
 
 
@@ -9816,7 +9822,8 @@ timeCategory: "morning"
     artist: "The Weeknd ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/The weeknd - Sacrifice.mp3",
-     timeCategory: "evening"
+     timeCategory: "evening",
+quickFade: true
 },
 
 
@@ -11658,7 +11665,8 @@ quickFade: true
     artist: "Jazzy & Ankhoï",
      image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Jazzy & Ankhoï - Closer To The Floor.mp3",
-    timeCategory: "evening-late"
+     timeCategory: "evening-late",
+quickFade: true 
 },
 
 
@@ -11845,7 +11853,8 @@ timeCategory: "evening-late",
     artist: "The Weeknd",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/The Weeknd - How Do I make You love me (12inch).mp3",
-      timeCategory: "evening-late"
+      timeCategory: "evening-late",
+quickFade: true
 },
 
 
@@ -12128,7 +12137,8 @@ timeCategory: "evening-late",
     artist: "The Weeknd ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/The weeknd - Sacrifice.mp3",
-    timeCategory: "evening-late"
+    timeCategory: "evening-late",
+quickFade: true
 },
 
 
@@ -13345,7 +13355,8 @@ timeCategory: "evening-late",
     artist: "Michael Gray  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Michael Gray - The weekend.mp3",
-     timeCategory: "evening-late"
+     timeCategory: "evening-late",
+     quickFade: true
 },
 
 
