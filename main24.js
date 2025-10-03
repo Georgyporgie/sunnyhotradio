@@ -22484,65 +22484,55 @@ function getTimeBasedVolume() {
 let currentTrackIndex = null;
 
 function loadTrack(index) {
- 
+  const track = scheduledMp3Files[index];
 
-    const track = scheduledMp3Files[index];
+  if (!scheduledMp3Files || !track) {
+    console.error("Error: No track found at index", index);
+    return;
+  }
 
-    if (!scheduledMp3Files || !track) {
-        console.error("Error: No track found at index", index);
-        return;
-    }
+  curr_track = new Audio(track.path);
 
-    curr_track = new Audio(track.path);
-
- 
-curr_track.volume = getTimeBasedVolume(); // 💥 Full blast as soon as playback starts
-console.log(`🕒 Volume set to ${curr_track.volume} based on current hour`);
+  curr_track.volume = getTimeBasedVolume();
+  console.log(`🕒 Volume set to ${curr_track.volume} based on current hour`);
 
 curr_track.addEventListener("loadedmetadata", () => {
   const duration = curr_track.duration;
   console.log("📀 Metadata loaded for:", track.name);
   console.log("🕰️ Track duration:", duration, "seconds");
 
-  // Determine fade timing
   let fadeTime, fadeStart;
 
   if (track.quickFade) {
-    // 💨 Quick fade logic
-    fadeTime = 2000;                  // Duration of fade
-    fadeStart = (duration * 1000) - 5000;  // Start 5 sec before end
-    console.log("⚡ Quick fade mode active");
+    fadeTime = track.fadeLength || 5000;   // default 5s fade if not set
+    const buffer = track.endBuffer || 0;   // default no buffer
+    fadeStart = (duration * 1000) - (fadeTime + buffer);
+
+    console.log(`⚡ Quick fade: ${fadeTime/1000}s, leaving ${buffer/1000}s buffer`);
   } else if (duration > 180) {
-    // 🕯️ Default fade for long tracks
     fadeTime = 3000;
     fadeStart = (duration * 1000) - 3000;
     console.log("⏱️ Standard fade for track >3min");
   } else {
-    // 🚫 No fade needed
     console.log("🚫 No fade scheduled — short track or no flag");
     return;
   }
 
-  // Schedule fade
   if (fadeStart > 0) {
-    console.log(`⏳ Scheduled ${fadeTime / 1000}s fade in ${fadeStart}ms for:`, track.name);
+    console.log(`⏳ Scheduled ${fadeTime/1000}s fade starting at ${Math.round(fadeStart/1000)}s`);
     setTimeout(() => fadeOut(curr_track, fadeTime), fadeStart);
   }
 });
- 
-curr_track.addEventListener("play", () => {
-        track.playcount = Number(track.playcount) || 0;
-        track.playcount++;
-        console.log(
-          "🎧 Playcount updated:", track.name,
-          "| Total plays:", computeTotalPlays()
-       
-
- );
 
 
-
-});
+  curr_track.addEventListener("play", () => {
+    track.playcount = Number(track.playcount) || 0;
+    track.playcount++;
+    console.log(
+      "🎧 Playcount updated:", track.name,
+      "| Total plays:", computeTotalPlays()
+    );
+  });
 
 
 
