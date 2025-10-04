@@ -1339,7 +1339,7 @@ var twentyFiveMinuteDelay = (25 - (now.getMinutes() % 25)) * 60 * 1000 - now.get
 
 setTimeout(function() {
   playSound(["twentyFiveMinuteSou"]); // or rename to "twentyFiveMinuteSou" for clarity
-  setInterval(() => playSound(["twentyMinuteSou"]), 1500000); // 25 * 60 * 1000 = 1,500,000 ms
+  setInterval(() => playSound(["twentyFiveMinuteSou"]), 1500000); // 25 * 60 * 1000 = 1,500,000 ms
 }, twentyFiveMinuteDelay);
 
     // Every 45 minutes

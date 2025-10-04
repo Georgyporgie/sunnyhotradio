@@ -1779,8 +1779,8 @@ let trackList = [
     artist: "CC Peniston ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/CC Peniston - We Got A Love Thang.mp3",
-      timeCategory: "morning"
-
+      timeCategory: "morning",
+    quickFade: true
 
 },
 
@@ -6667,8 +6667,9 @@ quickFade: true
     artist: "Mix Masters Feat. Mc Action",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Mix masters feat. Mc Action - In the mix.mp3",
-   timeCategory: "afternoon"
- },
+   timeCategory: "afternoon",
+ quickFade: true
+},
 
 
 
@@ -9563,7 +9564,8 @@ quickFade: true
     artist: "CC Peniston ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/CC Peniston - We Got A Love Thang.mp3",
-     timeCategory: "evening"
+     timeCategory: "evening",
+    quickFade: true
 },
 
 
@@ -20269,7 +20271,8 @@ timeCategory: "f evening"
     artist: "Mix Masters Feat. Mc Action",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Mix masters feat. Mc Action - In the mix.mp3",
-  timeCategory: "f evening"
+  timeCategory: "f evening",
+quickFade: true
 },
 
 
@@ -21010,8 +21013,8 @@ timeCategory: "f evening"
     artist: "CC Peniston ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/CC Peniston - We Got A Love Thang.mp3",
-      timeCategory: "f evening"
-
+      timeCategory: "f evening",
+quickFade: true
 
 
 },
