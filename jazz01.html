@@ -1,0 +1,1515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HGPPL3SXDS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HGPPL3SXDS');
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title> Sunny Jazzradio</title>
+   <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+ <meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Load FontAwesome icons -->
+  <link rel="stylesheet"
+        href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+ 
+  <!-- Load the custom CSS style file -->
+  <link rel="stylesheet" type="text/css" href="style2.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style type="text/css">
+  
+ 
+
+
+
+
+
+
+
+
+
+ <style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.header {
+  padding: 10px 16px;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0; z-index: 1;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav" id="myHeader" >
+  <h1 class="header" > <a href="#home" class="active"><img id= "logo"><img id= "dion">
+
+</a> </h1>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    
+  <a href="https://sunnyhotradio.com/Index.html">HOME<img id= "dwarf"></a>
+
+    <a href="https://sunnyrockradio.com/Index.html">SUNNY <em>ROCK</em> RADIO<img id= "lin"></a>
+  <a href="https://sunnyhotradio.com/Index.html">SUNNY <em>DANCE</em> RADIO<img id= "linger"></a>
+
+
+
+</div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction1()">
+    <div class="btn">
+        <span class="fas fa-bars"></span>
+    </div>
+ 
+ </a>
+</div>
+
+</head>
+
+
+<body>
+<div class = "arrow">
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<div id="now"></div>
+<br>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+<div class="player">
+ 
+    <!-- Define the section for displaying details -->
+    <div class="details">
+      <div class="now-playing">PLAYING x OF y</div>
+      <div class="track-art"></div>
+      <div class="track-name">Track Name</div>
+      <div class="track-artist">Track Artist</div>
+    </div>
+
+ 
+
+ <!-- Define the section for displaying track buttons -->
+    <div class="buttons">
+    
+      <div class="playpause-track" onclick="playpauseTrack()">
+        <br>
+<img id= "media">
+      </div>
+     
+    </div>
+<br>
+
+ <!-- Define the section for displaying the seek slider-->
+    <div class="slider_container">
+      <div class="current-time"><strong>00:00</strong></div>
+      <input type="range" min="1" max="100"
+        value="0" class="seek_slider" >
+      <div class="total-duration"><strong>00:00</strong></div>
+    </div>
+ 
+    <!-- Define the section for displaying the volume slider-->
+    <div class="slider_container">
+      <i class="fa fa-volume-down"></i>
+      <input type="range" min="1" max="100"
+        value="99" class="volume_slider" onchange="setVolume()">
+      <i class="fa fa-volume-up"></i>
+    </div>
+  
+<br>
+<br>
+
+
+
+
+<img id= "astro">
+
+</div>
+
+
+<div>
+ 
+
+   <IFRAME  SRC="https://gastjazz.netlify.app/gast" id="roll" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0  WIDTH=346 HEIGHT=360></IFRAME>
+
+
+ <img id="myImage" src="images/jazzradio1.png" alt="Jazz Radio">
+
+  
+  
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<p id="message"></p>
+</div>
+
+
+<br>
+<div>
+<br><img id="record">
+<h5 class= "inch"><em> Todays Hotlist</em></h5><br>
+<br>
+<br>
+<img id= "playlist">
+
+<div>
+<ul id="track-list"></ul>
+
+</div>
+<div>
+
+
+  <button id="show-more-button">show more</button>
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+<br>
+<br>
+<div>
+<IFRAME  SRC="https://weer2.netlify.app/" id="temp" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0  WIDTH=346 HEIGHT=350></IFRAME>
+
+<br>
+</div>
+<br>
+<br>
+<br>
+
+
+
+<br>
+<br>
+<div>
+<h5 id="events"> </h5>
+<script>
+
+  fetch('./event.json')
+  .then(response => response.json())
+  .then(data => {
+    const now = new Date();
+    const todayName = now.toLocaleDateString('en-US', { weekday: 'long' });
+    const events = data.schedule[todayName];
+
+    if (events) {
+      let eventsHTML = '<em><br><u>Upcoming Events</u></em><br><br>' + todayName + ':<br><br>';
+
+      events.forEach(event => {
+        const [start, end] = event.time.split(' - ');
+        const startTime = new Date(now.toDateString() + ' ' + start);
+        const endTime = new Date(now.toDateString() + ' ' + end);
+
+        const isCurrent = now >= startTime && now <= endTime;
+        const glowClass = isCurrent ? 'glow' : '';
+
+        eventsHTML += `<div class="${glowClass}">${event.time}: <br><em>${event.event}</em><br><br></div>`;
+      });
+
+      document.getElementById('events').innerHTML = eventsHTML;
+    } else {
+      document.getElementById('events').innerHTML = '<em>Weekend events only! Come back Saturday.</em>';
+    }
+  })
+  .catch(error => console.error('Error loading events:', error));
+
+</script>
+
+</div>
+
+<br>
+<br>
+<br>
+
+<div>
+<br><img id="stopw">
+
+<h5 id="stop" class="inch">00:00   
+ </h5><br><img id="stopwa">
+</div>
+<br>
+<br>
+<br>
+<IFRAME  SRC="https://shiphornn.netlify.app/treasuree" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0  WIDTH=356 HEIGHT=250></IFRAME>
+<br>
+<br>
+<br>
+<br>
+
+ <div>
+<h5 class="inch"><em>Leave A Message!</em></h5>
+<br>
+<IFRAME class="weather" SRC="subm.html" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=300 HEIGHT=556></IFRAME>
+
+</div>
+<br>
+<br>
+<p>
+Henny Lig nog in bed,lekker te luisteren!
+<br>
+Mar 17  2025
+<br>
+
+</p>
+<br>
+<br>
+<br>
+<br>
+<p>
+Dag Dank je for yours always mom!
+<br>
+May 01 2025
+<br>
+
+</p>
+
+
+
+<div>
+<h5 class="inch"><em>Weather Forecast</em></h5>
+<br>
+
+<IFRAME class="weather" SRC="buien.html" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=256 HEIGHT=506></IFRAME>
+</div>
+<br>
+ <br>
+<br>
+<br>
+
+<div>
+<br><img id="sunnyr">
+
+<h5 id="time"> </h5><br>
+
+<br>
+</div>
+
+
+<div>
+<IFRAME id="ero-image" SRC="https://jazzlegend.netlify.app/jazzestars" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0  WIDTH=356 HEIGHT=450></IFRAME>
+
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<img id= "giphy">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div>
+<br>
+<img id="alex"><h5 class="inch"><em>Users  Online:</em></h5>
+
+
+
+
+
+
+<br>
+
+<IFRAME id="chat" SRC="https://gasts1.netlify.app/sfeer" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=350 HEIGHT=656></IFRAME>
+
+<br>
+
+
+
+
+
+
+ </div>
+
+
+<div>
+<h5 class="inch"><em>Sunny Jazz<span class="dark"> Radio</span> Stars</em></h5>
+ <br>
+<br>
+<img id="ion">
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+<IFRAME id="chat" SRC="https://jazzstars.netlify.app/jazzstarss" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=350 HEIGHT=956></IFRAME>
+
+
+
+
+</div>
+
+
+
+
+
+
+<br>
+<br>
+<br>
+
+<br>
+
+
+
+
+ <div>
+<h5 class="inch"><em>Wikipedia</em></h5>
+<iframe class= "frame" src="https://nl.wikipedia.org/wiki/Ella_Fitzgerald"></iframe>
+</div>
+ <br>
+<br>
+<br>
+<br>
+ <div>
+<h5 class="inch"><em>Countdown Timer</em></h5>
+
+
+
+<IFRAME class="weather" SRC="https://countdownseason.netlify.app/countdown" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=345 HEIGHT=506></IFRAME>
+</div>
+
+<br>
+<br>
+<br>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+window.addEventListener("load", function () {
+  const clock = document.getElementById("stop");
+  let time = -1; // Initialize time
+  function incrementTime() {
+    time++;
+    clock.textContent =
+      ("0" + Math.trunc(time / 60)).slice(-2) + ":" + ("0" + (time % 60)).slice(-2);
+  }
+  incrementTime(); // Initialize display
+  setInterval(incrementTime, 1000); // Update every second
+});
+
+</script>
+
+
+
+
+
+
+
+
+<audio id="musicPlayer" autoplay loop>
+    <source id="musicSource" src="" type="audio/mpeg">
+</audio>
+
+<script>
+window.addEventListener('load', () => {
+  const musicPlayer = document.getElementById("musicPlayer");
+
+  // Start muted
+  musicPlayer.volume = 0.4;
+
+  // After 10 seconds, set volume based on time of day
+  setTimeout(() => {
+    const hour = new Date().getHours();
+    let targetVolume;
+
+    if (hour < 9) {
+      targetVolume = 0.4; // softer in the morning
+    } else if (hour >= 21) {
+      targetVolume = 0.5; // very soft at night
+    } else {
+      targetVolume = 0.6; // louder during the day
+    }
+
+    // Configurable fade duration (ms)
+    const fadeDuration = 5000; // 5 seconds
+    const interval = 50;       // update every 50ms
+    const steps = fadeDuration / interval;
+    let currentStep = 0;
+
+    let fade = setInterval(() => {
+      currentStep++;
+
+      // Progress from 0 → 1
+      let progress = currentStep / steps;
+
+      // Apply ease-in-out curve (smooth acceleration & deceleration)
+      let eased = progress < 0.5
+        ? 2 * progress * progress           // accelerate
+        : -1 + (4 - 2 * progress) * progress; // decelerate
+
+      musicPlayer.volume = Math.min(targetVolume * eased, targetVolume);
+
+      if (currentStep >= steps) {
+        clearInterval(fade);
+        musicPlayer.volume = targetVolume; // ensure exact final valueDJ
+      }
+    }, interval);
+
+  }, 10000); // 10 seconds
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    // 🎶 Define the tracks for each day
+    const tracks = {
+       0: "https://www.sunnyjazzradio.com/muziek/pirate%20background/Sunnyjazzradiopublic.mp3",
+        1: "https://www.sunnyjazzradio.com/muziek/pirate%20background/Sunnyjazzweekly2.mp3",
+        2: "https://www.sunnyjazzradio.com/muziek/pirate%20background/Sunnyjazzweekly2.mp3",
+        3: "https://www.sunnyjazzradio.com/muziek/pirate%20background/Sunnyjazzweekly2.mp3",
+        4: "https://www.sunnyjazzradio.com/muziek/pirate%20background/Sunnyjazzweekly2.mp3",
+
+        5: { 
+            early: "https://www.sunnyjazzradio.com/muziek/pirate%20background/Sunny radiojazz main33.mp3", 
+            after17: "https://www.sunnyjazzradio.com/muziek/pirate%20background/Sunnyjazzradiopublic.mp3" 
+        },
+        6: "https://www.sunnyjazzradio.com/muziek/pirate%20background/Sunnyjazzradiopublic.mp3"
+    };
+
+    // 🕰 Get the current day and hour
+    const today = new Date().getDay();
+    const currentHour = new Date().getHours();
+
+    let selectedTrack;
+
+    // Special condition for Friday (5) to switch track after 17:00
+    if (today === 5) {
+        selectedTrack = currentHour >= 17 ? tracks[5].after17 : tracks[5].early;
+    } else {
+        selectedTrack = tracks[today];
+    }
+
+    // 🎧 Set the source and load the track
+    document.getElementById("musicSource").setAttribute('src', selectedTrack);
+    const player = document.getElementById("musicPlayer");
+    player.load(); 
+
+
+
+    // 🎛 Volume Balancer Function
+    function adjustVolumeDynamically(audioElement) {
+        let targetVolume = 0.6;  // Default volume level
+        let maxThreshold = 1; // Prevent distortion
+
+        audioElement.addEventListener("timeupdate", () => {
+            if (audioElement.volume < targetVolume) {
+                audioElement.volume = Math.min(maxThreshold, audioElement.volume + 0.01);  // Smooth increase
+            } else if (audioElement.volume > targetVolume) {
+                audioElement.volume = Math.max(0, audioElement.volume - 0.01);  // Smooth decrease
+            }
+        });
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+window.addEventListener("load", () => {
+  loadTrack(0);        // Load your first track
+  playTrack();         // Start playing it
+ 
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("stopw");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/stopwatch.png';
+</script>
+
+
+ <script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("stopwa");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/stopwatch.png';
+</script>
+
+
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("alex");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/alexander.png';
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("logo");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny jazz.png';
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("giphy");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/giphy.gif';
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("ion");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/sunny stars.png';
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("dwarf");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/red star3.png';
+</script>
+  
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("lin");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny5.png';
+</script>
+ 
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("linger");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny7.png';
+</script>
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("astro");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/red star2.png';
+</script>
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("sunnyr");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny6.png';
+</script>
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("dion");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/red star3.png';
+</script>
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("record");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/record3.png';
+</script>
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("playlist");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny playlist3.png';
+</script>
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("media");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/pause66.gif';
+</script>
+
+
+
+<script> 
+document.getElementById("now").innerHTML="<em>current track</em>"; 
+</script>
+
+
+<script>
+function startTime() {
+    const today = new Date();
+    let h = today.getHours();
+    let m = today.getMinutes();
+    let s = today.getSeconds();
+    
+    m = checkTime(m);
+    s = checkTime(s);
+    
+    document.getElementById('time').innerHTML = "Sunny Time: " + h + ":" + m + ":" + s;
+    
+    setTimeout(startTime, 1000);
+}
+
+function checkTime(i) {
+    return i < 10 ? "0" + i : i; // Adds leading zero if needed
+}
+
+
+startTime();
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+ 
+
+
+
+
+
+
+
+
+<audio id="hourlyAnnouncement"></audio>
+
+<script>
+    // 🎧 Define the sources for hourly announcements
+    var sources = [
+        "audio/0.mp3", "audio/1.mp3", "audio/2.mp3", "audio/3.mp3",
+        "audio/4.mp3", "audio/5.mp3", "audio/6.mp3", "audio/7.mp3",
+        "audio/8.mp3", "audio/9.mp3", "audio/10.mp3", "audio/11.mp3",
+        "audio/12.mp3", "audio/13.mp3", "audio/14.mp3", "audio/15.mp3",
+        "audio/16.mp3", "audio/17.mp3", "audio/18.mp3", "audio/19.mp3",
+        "audio/20.mp3", "audio/21.mp3", "audio/22.mp3", "audio/23.mp3"
+    ]; // Array of audio sources
+
+    var currentIndex = new Date().getHours(); // Set index based on the current hour
+
+ function playHourlyAnnouncement() {
+    var audioElement = document.getElementById('hourlyAnnouncement');
+    
+    if (!audioElement) {
+        console.error("Audio element not found!");
+        return;
+    }
+
+    var currentTime = new Date();
+    var minutes = currentTime.getMinutes();
+    var seconds = currentTime.getSeconds();
+    var millisecondsToNextHour = ((59 - minutes) * 60 + (60 - seconds)) * 1000;
+
+    setTimeout(function() {
+        audioElement.src = sources[currentIndex];
+        audioElement.load(); // ✅ Ensure the audio element is ready
+        audioElement.play();
+        adjustVolumeDynamically(audioElement); // ✅ Apply volume normalization
+
+        currentIndex = (currentIndex + 1) % sources.length;
+
+        setInterval(function() {
+            audioElement.src = sources[currentIndex];
+            audioElement.load();
+            audioElement.play();
+            adjustVolumeDynamically(audioElement); // ✅ Apply volume normalization for each track
+            currentIndex = (currentIndex + 1) % sources.length;
+        }, 3600000); // Play every hour
+    }, millisecondsToNextHour);
+}
+
+
+    // 🕒 Activate hourly announcements
+    playHourlyAnnouncement();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+
+
+
+    // ── Render the shuffled list in the DOM ──
+    function renderTrackList() {
+      const ul = document.getElementById("track-list");
+      ul.innerHTML = "";
+      scheduledMp3Files.forEach((t, idx) => {
+        const li = document.createElement("li");
+        li.textContent = t.name;
+        li.addEventListener("click", () => loadTrack(idx));
+        ul.appendChild(li);
+      });
+    }
+    
+
+</script>
+ 
+<audio id="musicPlayer"></audio>
+<audio id="hourlySou"></audio>
+<audio id="quarterHourSou"></audio>
+<audio id="twentyFiveMinuteSou"></audio>
+<audio id="fortyFiveMinSou"></audio>
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<script>
+// 🔊 Optional: volume helper
+function adjustVolumeDynamically(audioEl) {
+    audioEl.volume = 0.8; // Set between 0.0 and 1.0
+}
+
+// 🔊 Play a list of audio IDs
+function playSound(ids) {
+    ids.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) {
+            adjustVolumeDynamically(el);
+            el.currentTime = 0; // restart from beginning
+            el.play();
+        }
+    });
+}
+
+// ⏰ Schedule chimes
+function scheduleSounds() {
+    const now = new Date();
+
+    // Hourly chime
+    const hourlyDelay = (60 - now.getMinutes()) * 60 * 1000 - now.getSeconds() * 1000;
+    setTimeout(() => {
+        playSound(["hourlySou"]);
+        setInterval(() => playSound(["hourlySou"]), 3600000);
+    }, hourlyDelay);
+
+    // Quarter-hour chime
+    const quarterHourDelay = (15 - (now.getMinutes() % 15)) * 60 * 1000 - now.getSeconds() * 1000;
+    setTimeout(() => {
+        playSound(["quarterHourSou"]);
+        setInterval(() => playSound(["quarterHourSou"]), 900000);
+    }, quarterHourDelay);
+
+    
+
+// Every 25 minutes
+var twentyFiveMinuteDelay = (25 - (now.getMinutes() % 25)) * 60 * 1000 - now.getSeconds() * 1000;
+
+setTimeout(function() {
+  playSound(["twentyFiveMinuteSou"]); // or rename to "twentyFiveMinuteSou" for clarity
+  setInterval(() => playSound(["twentyFiveMinuteSou"]), 1500000); // 25 * 60 * 1000 = 1,500,000 ms
+}, twentyFiveMinuteDelay);
+
+
+
+// 45‑minute chime
+    const minutes = now.getMinutes();
+    const next45 = (45 - (minutes % 45)) % 45;
+    const fortyFiveDelay = next45 * 60 * 1000 - now.getSeconds() * 1000;
+    setTimeout(() => {
+        playSound(["fortyFiveMinSou"]);
+        setInterval(() => playSound(["fortyFiveMinSou"]), 2700000);
+    }, fortyFiveDelay);
+}
+
+// 🚀 Start when DOM is ready
+document.addEventListener("DOMContentLoaded", () => {
+    // Assign audio sources
+    document.getElementById("hourlySou").src = 'audio/its now.mp3';
+    document.getElementById("quarterHourSou").src = 'audio/oldclock.mp3';
+    document.getElementById("twentyFiveMinuteSou").src = 'muziek/voiceover/From The Heart Of Amsterdam2.mp3';
+document.getElementById("fortyFiveMinSou").src = 'muziek/jingles/sunny los.mp3';
+
+    scheduleSounds();
+});
+</script>
+
+
+
+
+
+<script>
+// 🔊 Play Sound Function
+function playSound(soundIds) {
+    soundIds.forEach(id => {
+        let soundElement = document.getElementById(id);
+        if (soundElement) {
+            soundElement.volume = 0.8;
+            adjustVolumeDynamically(soundElement);
+            soundElement.play();
+        } else {
+            console.error("Sound element not found:", id);
+        }
+    });
+}
+
+
+
+function generateSchedule() {
+    const today = new Date();
+    const schedule = {};
+    const weekendDays = [5, 6, 0]; // Friday (5), Saturday (6), Sunday (0)
+    
+    const events = {
+        5: [ // Friday
+    { time: "03:00 - 12:00", "event": "Morning Jazz"},
+    { time: "12:00 - 17:00", "event": "Georgies Disco Event"},
+    { time: "17:00 - 21:00", "event": "Georgies Jazz Party"},
+    { time: "21:00 - 03:00", "event": "Georgies Dance Party"}
+  
+
+
+        ],
+        6: [ // Saturday
+    { time: "03:00 - 12:00", "event": "Morning Jazz"},
+    { time: "12:00 - 17:00", "event": "Georgies Disco Event"},
+    { time: "17:00 - 21:00", "event": "Georgies Jazz Party"},
+    { time: "21:00 - 03:00", "event": "Georgies Dance Party"}
+
+        ],
+        0: [ // Sunday
+    { time: "03:00 - 12:00", "event": "Morning Jazz"},
+    { time: "12:00 - 17:00", "event": "Georgies Disco Event"},
+    { time: "17:00 - 21:00", "event": "Georgies Jazz Party"},
+    { time: "21:00 - 03:00", "event": "Georgies Dance Party"}
+  
+
+        ]
+    };
+
+    for (let i = 1; i <= 7; i++) {
+        let date = new Date();
+        date.setDate(today.getDate() + i);
+        let dayOfWeek = date.getDay();
+
+        if (weekendDays.includes(dayOfWeek)) {
+            schedule[date.toISOString().split("T")[0]] = events[dayOfWeek];
+        }
+    }
+
+    return schedule;
+}
+
+// console.log("Generated Schedule:", JSON.stringify(generateSchedule(), null, 2));
+// console.log("Loading track:", scheduledMp3Files[track_index].name, "-", scheduledMp3Files[track_index].artist);
+
+
+</script>
+
+<audio id="djIntro"></audio>
+
+
+<script>
+
+
+
+function shuffle(array) {
+  let currentIndex = array.length, randomIndex;
+  while (currentIndex > 0) {
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]
+    ];
+  }
+  return array;
+}
+
+function getCurrentTimeCategory() {
+  const now = new Date();
+  const currentHour = now.getHours();
+  const currentDay = now.getDay(); // 0=Sun, 6=Sat
+
+  const timeRanges = [
+    { key: "morning", start: 8, end: 12 },
+    { key: "afternoon", start: 12, end: 19 },
+    { key: "evening", start: 19, end: 21 },
+    { key: "special-show", start: 21, end: 23 },
+    { key: "late", start: 23, end: 3 }, // wraps past midnight
+    { key: "night", start: 3, end: 8 }
+  ];
+
+  const categoriesPerDay = {
+0: { morning: ["morning","afternoon"], afternoon: ["afternoon","evening-late","evening"], evening: ["evening-late"], "special-show": ["soulful"], late: ["evening"], night: ["jingle-time"] },
+  
+    
+1: { morning: ["morning","afternoon"], afternoon: ["evening","afternoon"], evening: ["evening-late","afternoon"], "special-show": ["evening-late","evening","afternoon"], late: ["evening-late","afternoon"], night: ["evening-late","evening"] },
+    
+2: { morning: ["morning","afternoon"], afternoon: ["evening","afternoon"], evening: ["evening-late","afternoon"], "special-show": ["evening-late","evening","afternoon"], late: ["evening-late","afternoon"], night: ["evening-late","evening"] },
+
+
+    
+3: { morning: ["morning","afternoon"], afternoon: ["evening","afternoon"], evening: ["evening-late","afternoon"], "special-show": ["evening-late","evening","afternoon"], late: ["evening-late","afternoon"], night: ["evening-late","evening"] },
+
+
+    
+4:{ morning: ["morning","afternoon"], afternoon: ["evening","afternoon"], evening: ["evening-late","afternoon"], "special-show": ["evening-late","evening","afternoon"], late: ["evening-late","afternoon"], night: ["evening-late","evening"] },
+
+
+    
+5: { morning: ["morning","afternoon"], afternoon: ["evening","afternoon"], evening: ["evening-late","afternoon"], "special-show": ["evening-late","evening","afternoon"], late: ["evening-late","afternoon"], night: ["evening-late","evening"] },
+
+
+    
+6:  { morning: ["morning","afternoon"], afternoon: ["afternoon","evening-late","evening"], evening: ["evening-late"], "special-show": ["soulful"], late: ["evening"], night: ["jingle-time"] },
+  };
+
+ 
+
+
+
+
+
+
+  // Find matching timeKey
+  let timeKey = "night"; // default
+  for (const range of timeRanges) {
+    if (range.start < range.end) {
+      if (currentHour >= range.start && currentHour < range.end) {
+        timeKey = range.key;
+        break;
+      }
+    } else { // wrap-around range (e.g., late night)
+      if (currentHour >= range.start || currentHour < range.end) {
+        timeKey = range.key;
+        break;
+      }
+    }
+  }
+
+  const options = categoriesPerDay[currentDay][timeKey] || ["unknown"];
+  const shuffled = shuffle([...options]);
+  return shuffled[0];
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const voiceovers = {
+  morning: "muziek/discjockeys/Female dj1.mp3",
+  afternoon: "muziek/discjockeys/DJ Saphire finale.mp3",
+  evening: "muziek/voiceover/Sapphire033.mp3",
+  "evening-late": "muziek/discjockeys/DJ Saphire finale.mp3",
+  "special-show": "muziek/voiceover/Latest Disco Hits.mp3",
+  "jingle-time": "muziek/discjockeys/starten met Sunny4.mp3",
+  late: "muziek/voiceover/Latest Disco Hits.mp3",
+  night: "muziek/discjockeys/starten met Sunny4.mp3",
+  unknown: "muziek/discjockeys/starten met Sunny4.mp3"
+};
+
+window.addEventListener('load', () => {
+  const djIntro = document.getElementById('djIntro');
+
+  // Initial category
+  let currentCategory = getCurrentTimeCategory();
+  console.log("Initial category:", currentCategory);
+
+  // Play intro for initial category
+  const initialFile = voiceovers[currentCategory] || voiceovers.unknown;
+  if (initialFile) {
+    djIntro.src = initialFile;
+    djIntro.volume = 0.8;
+    djIntro.play().catch(err => console.log("Intro can't autoplay:", err));
+  }
+
+  // Check every 15 minutes for transitions
+  setInterval(() => {
+    const updatedCategory = getCurrentTimeCategory();
+    if (updatedCategory !== currentCategory) {
+      console.log(`⏰ Transition: ${currentCategory} → ${updatedCategory}`);
+
+      const file = voiceovers[updatedCategory] || voiceovers.unknown;
+      if (file) {
+        djIntro.src = file;
+        djIntro.play().catch(err => console.log("Intro can't autoplay:", err));
+      }
+
+      currentCategory = updatedCategory;
+    }
+  }, 15 * 60 * 1000);
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<script src= "main4.js"> </script>
+
+
+
+</body>
+</html>
