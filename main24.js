@@ -10273,7 +10273,8 @@ quickFade: true
     artist: "M.C. Hammer",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/M.C. Hammer - U Can't Touch This (1990).mp3",
-    timeCategory: "evening"
+    timeCategory: "evening",
+    quickFade: true
 },
 
 
@@ -15753,7 +15754,8 @@ timeCategory: "evening-late"
     artist: "Fatback ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Fatback - Backstrokin'.mp3",
-  timeCategory: "evening-late"
+  timeCategory: "evening-late",
+  quickFade: true
 },
 
 
@@ -16586,8 +16588,8 @@ timeCategory: "evening-late"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Capricorn - 20 hz.mp3",
   
-  timeCategory: "evening-late"
-
+  timeCategory: "evening-late",
+  quickFade: true
 },
 
 
@@ -19745,8 +19747,8 @@ timeCategory: "evening-late"
     artist: "Orbital ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Orbital- The Chime.mp3",
-   timeCategory: "f afternoon"
-
+   timeCategory: "f afternoon",
+quickFade: true
 },
 
 
@@ -19876,7 +19878,8 @@ timeCategory: "evening-late"
     artist: "Buffalo Stance ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Buffalo Stance - Neneh Cherry.mp3",
-    timeCategory: "f afternoon"
+    timeCategory: "f afternoon",
+    quickFade: true
 },
 
 
