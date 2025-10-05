@@ -15,12 +15,13 @@
     "Sunday": [
       { "time": "03:00 - 14:00", "event": "Morning Disco" },
       { "time": "14:00 - 16:00", "event": " Live Mixin'!" },
-      { "time": "16:00 - 21:00", "event": "Miss Monique Live!" },
-      { "time": "21:00 - 23:00", "event": "Lovely DJ Sapphire!" }
+      { "time": "16:00 - 20:00", "event": "Miss Monique Live!" },
+      { "time": "20:00 - 23:00", "event": "Lovely DJ Sapphire!" }
 
     ]
   }
 }
+
 
 
 
