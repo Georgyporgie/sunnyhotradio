@@ -1645,7 +1645,8 @@ function getCurrentTimeCategory() {
     }
   }
 const options = categoriesPerDay[currentDay][timeKey] || ["unknown"];
-return options[0]; // no shuffle
+return shuffle(options)[0]; // instead of options[0]
+
 
 }
 
