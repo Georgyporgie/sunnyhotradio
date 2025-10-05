@@ -338,8 +338,8 @@ let trackList = [
 
 
 {
-     name: "Love Generator ",
-    artist: "Calvin Harris",
+     name: "Love Generator  ",
+    artist: "Calvin Harris (live)",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator01.mp3",
     timeCategory: "special-mix"
@@ -347,7 +347,7 @@ let trackList = [
 
 
 {
-     name: "Love Generator ",
+     name: "Love Generator (live) ",
     artist: "Calvin Harris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator02.mp3",
@@ -380,7 +380,7 @@ let trackList = [
 },
 
 {
-     name: "Love Generator ",
+     name: "Love Generator (live) ",
     artist: "Calvin Harris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator06.mp3",
@@ -395,7 +395,7 @@ let trackList = [
 
 
 {
-    name: "Bob Sinclair (live)",
+    name: "Bob Sinclair ",
     artist: "Live From Paris ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://sunnydanceoldies09.netlify.app/Bob Sinclar (live) - From Paris 01.mp3",
@@ -405,7 +405,7 @@ let trackList = [
 
 
 {
-    name: "Bob Sinclair (live)",
+    name: "Bob Sinclair ",
     artist: "Live From Paris",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://sunnydanceoldies09.netlify.app/Bob Sinclair - Live from Paris3.mp3",
@@ -413,7 +413,7 @@ let trackList = [
 },
 
 {
-    name: "Bob Sinclair (live)",
+    name: "Bob Sinclair ",
     artist: "Live From Paris",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://sunnydanceoldies09.netlify.app/Bob Sinclair - Live from Paris4.mp3",
