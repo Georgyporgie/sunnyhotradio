@@ -1632,11 +1632,18 @@ function normalizeCategory(cat) {
   return typeof cat === "string" && cat.startsWith("f ") ? cat.slice(2) : cat || "unknown";
 }
 
+
+
+
+
+let cachedCategory = null;
+
 function getCurrentTimeCategory() {
   const now = new Date();
   const currentHour = now.getHours();
   const currentDay = now.getDay();
   let timeKey = "night";
+
   for (const range of timeRanges) {
     if (range.start < range.end) {
       if (currentHour >= range.start && currentHour < range.end) { timeKey = range.key; break; }
@@ -1644,11 +1651,19 @@ function getCurrentTimeCategory() {
       if (currentHour >= range.start || currentHour < range.end) { timeKey = range.key; break; }
     }
   }
-const options = categoriesPerDay[currentDay][timeKey] || ["unknown"];
-return shuffle(options)[0]; // instead of options[0]
 
+  // if we’re still in the same block, return the cached value
+  if (cachedCategory && cachedCategory.timeKey === timeKey) {
+    return cachedCategory.value;
+  }
 
+  // otherwise pick once and cache it
+  const options = categoriesPerDay[currentDay][timeKey] || ["unknown"];
+  const value = normalizeCategory(options[0]); // or shuffle once here if you want variety per block
+  cachedCategory = { timeKey, value };
+  return value;
 }
+
 
 function getTimeBounds(range) {
   const now = new Date();
@@ -1727,24 +1742,24 @@ window.addEventListener('load', () => {
     updateTimeBadge(normalized);
   }
 
-  let currentCategory = getCurrentTimeCategory();
-  console.log("Initial category:", currentCategory);
-  playIntroWithMusic(currentCategory);
+let currentCategory = getCurrentTimeCategory();
+playIntroWithMusic(currentCategory);
 
-  // update badge every minute
-  setInterval(() => {
-    updateTimeBadge(normalizeCategory(currentCategory));
-  }, 60 * 1000);
+// update badge every minute, but don’t recalc category
+setInterval(() => {
+  updateTimeBadge(normalizeCategory(currentCategory));
+}, 60 * 1000);
 
-  // check for category change every 15 minutes
-  setInterval(() => {
-    const updatedCategory = getCurrentTimeCategory();
-    if (updatedCategory !== currentCategory) {
-      console.log(`⏰ Transition: ${currentCategory} → ${updatedCategory}`);
-      currentCategory = updatedCategory;
-      playIntroWithMusic(currentCategory);
-    }
-  }, 15 * 60 * 1000);
+// at block boundaries, recalc and update
+setInterval(() => {
+  const updatedCategory = getCurrentTimeCategory();
+  if (updatedCategory !== currentCategory) {
+    console.log(`⏰ Transition: ${currentCategory} → ${updatedCategory}`);
+    currentCategory = updatedCategory;
+    playIntroWithMusic(currentCategory);
+  }
+}, 15 * 60 * 1000);
+
 });
 
 
