@@ -1835,8 +1835,8 @@ let trackList = [
   
 
 
-     timeCategory: "morning"
-
+     timeCategory: "morning",
+quickFade: true
 
 },
 
@@ -2114,8 +2114,8 @@ let trackList = [
     artist: "Mary J. Blige  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Mary J. Blige - You Ain't The Only One.mp3",
-      timeCategory: "morning"
-
+      timeCategory: "morning",
+quickFade: true
 
 },
 
@@ -4317,14 +4317,6 @@ timeCategory: "morning"
 
 
 
-{
-    name: "  You Only Love Me",
-    artist: "Rita Ora    ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Rita Ora - You Only Love Me.mp3",
-          timeCategory: "morning"
-},
-
 
 {
     name: "Super Duper Love",
@@ -4702,7 +4694,8 @@ timeCategory: "morning"
     artist: " Tesla",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
-       timeCategory: "afternoon"
+       timeCategory: "afternoon",
+    quickFade: true
 },
 
 
@@ -14299,7 +14292,8 @@ quickFade: true
     artist: "Beyonce ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Beyoncé - Cuff It.mp3",
-     timeCategory: "evening-late"
+     timeCategory: "evening-late",
+ quickFade: true
 },
 
 
@@ -15072,7 +15066,8 @@ quickFade: true
     artist: " Tesla",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
-       timeCategory: "evening-late"
+       timeCategory: "evening-late",
+    quickFade: true
 },
 
 
@@ -17152,7 +17147,8 @@ timeCategory: "evening-late"
     artist: "Cameo  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Cameo - Ugly Ego.mp3",
-   timeCategory: "evening-late"
+   timeCategory: "evening-late",
+ quickFade: true
 },
 
 
@@ -18928,7 +18924,8 @@ timeCategory: "evening-late"
     artist: " Tesla",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
-       timeCategory: "f afternoon"
+       timeCategory: "f afternoon",
+quickFade: true
 },
 
 
@@ -19384,7 +19381,8 @@ timeCategory: "evening-late"
     artist: " Tesla",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
-       timeCategory: "f afternoon"
+       timeCategory: "f afternoon",
+quickFade: true
 },
 
 
@@ -21056,7 +21054,8 @@ quickFade: true
     artist: "Rita Ora",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Rita Ora - Doing It.mp3",
-   timeCategory: "f evening"
+   timeCategory: "f evening",
+   quickFade: true
 },
 
 
@@ -21147,7 +21146,8 @@ quickFade: true
     artist: " Tesla",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
-       timeCategory: "f evening"
+       timeCategory: "f evening",
+quickFade: true
 },
 
 
@@ -21861,7 +21861,8 @@ quickFade: true
     artist: " Tesla",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
-       timeCategory: "f evening-late"
+       timeCategory: "f evening-late",
+quickFade: true
 },
 
 
@@ -22104,8 +22105,8 @@ quickFade: true
     artist: "Rita Ora",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Rita Ora - Doing It.mp3",
-       timeCategory: "f evening-late"
-
+       timeCategory: "f evening-late",
+quickFade: true
 
 
 },
@@ -22116,8 +22117,8 @@ quickFade: true
     artist: "Mary J. Blige  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Mary J. Blige - You Ain't The Only One.mp3",
-     timeCategory: "f evening-late"
-
+     timeCategory: "f evening-late",
+quickFade: true
 
 },
 
