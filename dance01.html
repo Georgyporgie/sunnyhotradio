@@ -1739,7 +1739,7 @@ window.addEventListener('load', () => {
     const file = voiceovers[normalized] || voiceovers.unknown;
 
     djIntro.src = file;
-    djIntro.volume = 0.8;
+    djIntro.volume = 1.0;
     musicplayer.volume = 0;
 
     djIntro.play().catch(err => console.warn("DJ intro failed:", err));
