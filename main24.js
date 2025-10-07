@@ -15282,12 +15282,93 @@ quickFade: true
 },
 
 
+
+{
+  
+    name: " Nouveau Disco 01 ",
+    artist: "Mix Central  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 01.mp3",
+  timeCategory: " evening-late"
+},
+
+
+
+
+
+
+{
+  
+    name: " Nouveau Disco 02 ",
+    artist: "Mix Central  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 02.mp3",
+ timeCategory: " evening-late"
+},
+
+
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj3.mp3",
+timeCategory: " evening-late"
+},
+
+{
+  
+    name: " Nouveau Disco 05 ",
+    artist: "Mix Central  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 05.mp3",
+timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+
+
+{
+  
+    name: " Nouveau Disco 03 ",
+    artist: "Mix Central  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 03.mp3",
+ timeCategory: " evening-late"
+},
+
+
+
+
+{
+  
+    name: " Nouveau Disco 04 ",
+    artist: "Mix Central  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 04.mp3",
+timeCategory: " evening-late"
+},
+
+
+
+
+
+
+
+
 {
     name: "Use Me  (12inch)",
     artist: "Paul Simpson Connection",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Paul Simpson connection - Use me Loose.mp3",
-  
+  timeCategory: " evening-late"
 
 
 },
@@ -15305,7 +15386,8 @@ quickFade: true
     artist: "Dee Johnson   ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Dee Johnson - Too much too late.mp3",
-  },
+  timeCategory: " evening-late"
+},
 
 
 
@@ -15314,7 +15396,9 @@ quickFade: true
     artist: " Stephanie Mills",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Stephanie Mills - The Medicine Song.mp3",
-  },
+  timeCategory: " evening-late"
+
+},
 
 
 
