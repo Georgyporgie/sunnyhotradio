@@ -325,7 +325,13 @@ let trackList = [
 
 
 
-
+{
+     name: "  All This Time (new)",
+    artist: "Sonny Fodera & Jazzy",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Sonny Fodera & Jazzy - All This Time.mp3",
+    timeCategory: "afternoon"
+},
 
 
 
@@ -341,17 +347,84 @@ let trackList = [
      name: "Love Generator  ",
     artist: "Calvin Harris (live)",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator01.mp3",
+    path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio01.mp3",
     timeCategory: "special-mix"
 },
 
+
+{
+     name: "Sonny Fodera ",
+    artist: "Sonny Fodera - Live From His Studio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio02.mp3",
+    timeCategory: "special"
+},
+
+
+
+
+
+
+{
+     name: "Sonny Fodera ",
+    artist: "Sonny Fodera - Live From His Studio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio03.mp3",
+    timeCategory: "special"
+},
+
+
+
+{
+     name: "Sonny Fodera ",
+    artist: "Sonny Fodera - Live From His Studio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio04.mp3",
+    timeCategory: "special"
+},
+
+
+
+{
+     name: "Sonny Fodera ",
+    artist: "Sonny Fodera - Live From His Studio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio05.mp3",
+    timeCategory: "special"
+},
+
+
+{
+     name: "Sonny Fodera ",
+    artist: "Sonny Fodera - Live From His Studio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio06.mp3",
+    timeCategory: "special"
+},
+
+
+{
+     name: "Sonny Fodera ",
+    artist: "Sonny Fodera - Live From His Studio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio07.mp3",
+    timeCategory: "special"
+},
+
+{
+     name: "Love Generator ",
+    artist: "Calvin Harris",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator01.mp3",
+    timeCategory: "special"
+},
 
 {
      name: "Love Generator (live) ",
     artist: "Calvin Harris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator02.mp3",
-    timeCategory: "special-mix"
+    timeCategory: "special"
 },
 
 
@@ -360,7 +433,7 @@ let trackList = [
     artist: "Calvin Harris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator03.mp3",
-    timeCategory: "special-mix"
+    timeCategory: "special"
 },
 
  {
@@ -368,7 +441,7 @@ let trackList = [
     artist: "Calvin Harris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator04.mp3",
-    timeCategory: "special-mix"
+    timeCategory: "special"
 },
 
  {
@@ -376,7 +449,7 @@ let trackList = [
     artist: "Calvin Harris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator05.mp3",
-    timeCategory: "special-mix"
+    timeCategory: "special"
 },
 
 {
@@ -384,7 +457,7 @@ let trackList = [
     artist: "Calvin Harris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator06.mp3",
-    timeCategory: "special-mix"
+    timeCategory: "special"
 },
 
 
@@ -15723,15 +15796,6 @@ timeCategory: "evening-late"
 
 
 
-{
-    name: " SevenStars (Dragonfighters)",
-    artist: "Quazar  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Quazar - SevenStars (Dragonfighters).mp3",
-    timeCategory: "evening-late"
-},
-
-
 
 
 {
@@ -18120,15 +18184,6 @@ timeCategory: "evening-late"
 
 
 
-{
-    name: "    Seven Stars",
-    artist: "Quazar ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Quazar - Seven Stars.mp3",
-  
-
-  timeCategory: "evening-late"
-},
 
 
 
