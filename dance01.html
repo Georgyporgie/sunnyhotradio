@@ -1782,15 +1782,25 @@ const aliases = {
   "jingle-time": ["Jingle Time", "Station ID", "Bumper Beats"]
 };
 
-// 🎛️ Alias lookup
+
+
+
+
+let cachedAlias = null;
+
 function getAlias(category) {
+  if (cachedAlias && cachedAlias.category === category) {
+    return cachedAlias.label;
+  }
   if (aliases[category]) {
     const list = aliases[category];
-    return list[Math.floor(Math.random() * list.length)];
+    const label = list[Math.floor(Math.random() * list.length)];
+    cachedAlias = { category, label };
+    return label;
   }
-  // fallback to default label if no aliases defined
   return badgeMeta[category]?.label || category;
 }
+
 
 
 
