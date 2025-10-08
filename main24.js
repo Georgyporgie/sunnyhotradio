@@ -344,11 +344,11 @@ let trackList = [
 
 
 {
-     name: "Love Generator  ",
-    artist: "Calvin Harris (live)",
+     name: "Live From His Studio ",
+    artist: "Sonny Fodera ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio01.mp3",
-    timeCategory: "special-mix"
+    timeCategory: "special"
 },
 
 
