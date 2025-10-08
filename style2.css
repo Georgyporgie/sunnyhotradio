@@ -318,7 +318,7 @@ border-radius: 3px;
 
 
 
-#ion  {     width: 100px;  height:100px;filter: brightness(110%) saturate(115%) contrast(110%) opacity(75%); transform: rotate(0deg); z-index: 0; display: block; margin: auto auto auto auto; transform: rotate(0deg); 
+#ion  {     width: 100px;  height:100px;filter: brightness(105%) saturate(105%) contrast(100%) opacity(75%); transform: rotate(0deg); z-index: -400; display: block; margin: auto auto auto auto; transform: rotate(0deg); 
 animation: blinker 3.6s step-start infinite;
 
 }
