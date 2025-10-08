@@ -6405,7 +6405,8 @@ timeCategory: "morning"
     artist: "Visage ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Visage - Fade to Grey.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+    quickFade: true
 },
 
 
@@ -11199,7 +11200,8 @@ quickFade: true
     artist: "Freemasons  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Freemasons - Believer.mp3",
-     timeCategory: "evening"
+     timeCategory: "evening",
+  quickFade: true
 },
 
 
@@ -12931,7 +12933,8 @@ quickFade: true
     artist: "Bizarre Inc  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Bizarre Inc - X Static.mp3",
-    timeCategory: "evening"
+    timeCategory: "evening",
+  quickFade: true
 },
 
 
