@@ -457,7 +457,7 @@ let trackList = [
     artist: "Calvin Harris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator06.mp3",
-    timeCategory: "special"
+    timeCategory: "special-mix"
 },
 
 
@@ -472,7 +472,7 @@ let trackList = [
     artist: "Live From Paris ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://sunnydanceoldies09.netlify.app/Bob Sinclar (live) - From Paris 01.mp3",
-       timeCategory: "special-mix"
+       timeCategory: "special-cast"
 },
 
 
@@ -482,7 +482,7 @@ let trackList = [
     artist: "Live From Paris",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://sunnydanceoldies09.netlify.app/Bob Sinclair - Live from Paris3.mp3",
-       timeCategory: "special-mix"
+       timeCategory: "special-cast"
 },
 
 {
@@ -490,7 +490,7 @@ let trackList = [
     artist: "Live From Paris",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://sunnydanceoldies09.netlify.app/Bob Sinclair - Live from Paris4.mp3",
-       timeCategory: "special-mix"
+       timeCategory: "special-cast"
 },
 
 
@@ -500,7 +500,7 @@ let trackList = [
     artist: "Corne Klijn",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Corne Kleyns- Live Mix 022.mp3",
-    timeCategory: "special-mix"
+    timeCategory: "special-cast"
 },
 
 {
@@ -508,7 +508,7 @@ let trackList = [
     artist: "Corne Klijn",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Corne Kleyns- Live Mix 01.mp3",
-    timeCategory: "special-mix"
+    timeCategory: "special-cast"
 },
 
 
