@@ -1614,71 +1614,22 @@ const categoriesPerDay = {
   6: { morning:["morning"], afternoon:["f afternoon"], evening:["f evening"], night:["jingle-time"], "evening-late":["f evening-late"], "special-show":["special"], late:["f evening"] }  // Sunday
 };
 
-
-
-function getVoiceover(category) {
-  const options = voiceovers[category] || voiceovers.unknown;
-  if (Array.isArray(options)) {
-    const index = Math.floor(Math.random() * options.length);
-    return options[index];
-  }
-  return options; // fallback if it's still a string
-}
-
-
-
-
-
-
-
-
-// --- Voiceovers (multiple options per category) ---
+// --- Voiceovers ---
 const voiceovers = {
-  morning: [
-    "muziek/voiceover/latest disco hits of the eighties.mp3",
-    "muziek/discjockeys/starten met Sunny4.mp3"
-  ],
-  afternoon: [
-    "muziek/discjockeys/DJ Saphire finale.mp3",
-    "muziek/voiceover/Latest Hits Of Dance Area22222.mp3"
-  ],
-  evening: [
-    "muziek/voiceover/Sapphire033.mp3",
-    "muziek/voiceover/Latest Hits Of Dance Area22222.mp3"
-  ],
-  "evening-late": [
-    "muziek/voiceover/Latest Hits Of Dance Area22222.mp3",
-    "muziek/discjockeys/starten met Sunny4.mp3"
-  ],
-  "special-show": [
-    "muziek/discjockeys/starten met Sunny4.mp3",
-    "muziek/discjockeys/starten met Sunny4.mp3"
-  ],
-  "jingle-time": [
-    "muziek/discjockeys/starten met Sunny4.mp3"
-  ],
-  late: [
-    "muziek/voiceover/Latest Hits Of Dance Area22222.mp3"
-  
-],
-  night: [
-    "muziek/discjockeys/starten met Sunny4.mp3"
-  ],
+  morning: "muziek/voiceover/latest disco hits of the eighties.mp3",
+  afternoon: "muziek/discjockeys/DJ Saphire finale.mp3",
+  evening: "muziek/voiceover/Sapphire033.mp3",
+  "evening-late": "muziek/voiceover/Latest Hits Of Dance Area22222.mp3",
+  "special-show": "muziek/discjockeys/starten met Sunny4.mp3",
+  "jingle-time": "muziek/discjockeys/starten met Sunny4.mp3",
+  late: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3",
+  night: "muziek/discjockeys/starten met Sunny4.mp3",
   // Weekend flavors
-  "f afternoon": [
-    "muziek/discjockeys/DJ Saphire finale.mp3"
-  ],
-  "f evening": [
-    "muziek/voiceover/Latest Hits Of Dance Area22222.mp3"
-  ],
-  "f evening-late": [
-    "muziek/voiceover/Sapphire033.mp3"
-  ],
-  unknown: [
-    "muziek/discjockeys/DJ Saphire finale.mp3"
-  ]
+  "f afternoon": "muziek/discjockeys/DJ Saphire finale.mp3",
+  "f evening": "muziek/voiceover/Latest Hits Of Dance Area22222.mp3",
+  "f evening-late": "muziek/voiceover/Sapphire033.mp3",
+  unknown: "muziek/discjockeys/DJ Saphire finale.mp3"
 };
-
 
 
 
