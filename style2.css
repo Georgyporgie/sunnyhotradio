@@ -1194,3 +1194,44 @@ filter: brightness(100%) saturate(105%) contrast(100%)opacity (70%);
 
 #geel  {    color: yellow;
 }
+
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 0;
+  filter: brightness(1.8) drop-shadow(0 0 6px #6ea8ff);
+}
+.loader img {
+  width: 40px;
+  height: 40px;
+}
+
+
+#station-loader, .badge-content {
+  transition: opacity 0.6s ease;
+}
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.visible {
+  opacity: 1;
+}
+
+
+
+
+#station-loader,
+#station-badge .badge-content {
+  transition: opacity 0.6s ease;
+}
+
+#station-loader.hidden,
+#station-badge .badge-content.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
