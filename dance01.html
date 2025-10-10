@@ -1691,7 +1691,7 @@ const categoriesPerDay = {
     evening: ["f evening"],
     night: ["jingle-time"],
     "evening-late": ["f evening-late"],
-    "special-show": ["special", ],
+    "special-show": ["special" ],
     late: ["f evening"]
   }
 };
@@ -1747,7 +1747,7 @@ const voiceovers = {
 const weekendOverrides = {
   morning: "muziek/voiceover/SunnyMorningEnergy.mp3",
   afternoon: "muziek/discjockeys/starten met Sunny4.mp3",
-  "special-show": "muziek/discjockeys/starten met Sunny4.mp3",
+  "special-show": "muziek/discjockeys/DJ S.mp3",
   evening: "muziek/voiceover/Latest Hits Of Dance Area2222.mp3",
   "evening-late": "muziek/voiceover/Sapphire033.mp3",
   late: "muziek/voiceover/Latest Hits Of Dance Area2222.mp3",
@@ -1863,7 +1863,7 @@ window.addEventListener('load', () => {
     const file = voiceovers[normalized] || voiceovers.unknown;
 
     djIntro.src = file;
-    djIntro.volume = 0.8;
+    djIntro.volume = 1.0;
     musicplayer.volume = 0;
 
     djIntro.play().catch(err => console.warn("DJ intro failed:", err));
