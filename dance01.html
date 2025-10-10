@@ -1659,8 +1659,8 @@ function getVoiceover(day, hour) {
   const categories = categoriesPerDay[day]?.[range.key] || [];
   const category = categories[0] || "unknown";
 
-  // Weekend override: Friday (5), Saturday (6), Sunday (0)
-  const isWeekend = (day === 5 || day === 6 || day === 0);
+  // Weekend override:  Saturday (6), Sunday (0)
+  const isWeekend = (day === 6 || day === 0);
   if (isWeekend && weekendOverrides[category]) {
     return weekendOverrides[category];
   }
@@ -1674,7 +1674,7 @@ function getVoiceover(day, hour) {
 // --- Voiceovers ---
 const voiceovers = {
   morning: "muziek/voiceover/latest disco hits of the eighties.mp3",
-  afternoon: "muziek/discjockeys/starten met Sunny4.mp3",
+  afternoon: "muziek/discjockeys/DJ Saphire finale.mp3",
   evening: "muziek/discjockeys/starten met Sunny4.mp3",
   "evening-late": "muziek/voiceover/Latest Hits Of Dance Area22222.mp3",
   "special-show": "muziek/discjockeys/starten met Sunny4.mp3",
@@ -1688,7 +1688,7 @@ const voiceovers = {
 
 
 const weekendOverrides = {
-  afternoon: "muziek/discjockeys/DJ Saphire finale.mp3",
+  afternoon: "muziek/discjockeys/starten met Sunny4.mp3",
   "special-show": "muziek/discjockeys/starten met Sunny4.mp3",
 evening: "muziek/voiceover/Latest Hits Of Dance Area2222.mp3",
   "evening-late": "muziek/voiceover/Sapphire033.mp3",
