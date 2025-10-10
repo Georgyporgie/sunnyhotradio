@@ -507,6 +507,51 @@ let trackList = [
 
 
 
+{
+     name: " Farce Majeur  ",
+    artist: "Trance Classics ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur01.mp3",
+    timeCategory: "special-cast"
+},
+
+
+{
+     name: " Farce Majeur  ",
+    artist: "Trance Classics ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur02.mp3",
+    timeCategory: "special-cast"
+},
+
+
+{
+     name: " Farce Majeur  ",
+    artist: "Trance Classics ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur03.mp3",
+    timeCategory: "special-cast"
+},
+
+
+{
+     name: " Farce Majeur  ",
+    artist: "Trance Classics ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur05.mp3",
+    timeCategory: "special-cast"
+},
+
+
+
+
+{
+     name: " Farce Majeur  ",
+    artist: "Trance Classics ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur06.mp3",
+    timeCategory: "special-cast"
+},
 
 
 
@@ -514,20 +559,54 @@ let trackList = [
 
 
 
+{
+     name: " Live From His Garden ",
+    artist: "Steve Ferrera",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://mixingg.netlify.app/Steve Ferrera- live from his garden01.mp3",
+    timeCategory: "special-cast"
+},
+
+
+
+{
+     name: " Live From His Garden ",
+    artist: "Steve Ferrera",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://mixingg.netlify.app/Steve Ferrera- live from his garden02.mp3",
+    timeCategory: "special-cast"
+},
+
+
+
+{
+     name: " Live From His Garden ",
+    artist: "Steve Ferrera",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://mixingg.netlify.app/Steve Ferrera- live from his garden03.mp3",
+    timeCategory: "special-cast"
+},
+
+
+{
+     name: " Live From His Garden ",
+    artist: "Steve Ferrera",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://mixingg.netlify.app/Steve Ferrera- live from his garden04.mp3",
+    timeCategory: "special-cast"
+},
 
 
 
 
 
-
-
-
-
-
-
-
-
-
+{
+     name: " Live From His Garden ",
+    artist: "Steve Ferrera",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://mixingg.netlify.app/Steve Ferrera- live from his garden05.mp3",
+    timeCategory: "special-cast"
+},
 
 
 
