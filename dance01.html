@@ -1704,7 +1704,6 @@ const categoriesPerDay = {
 
 
 
-
 function getVoiceover(day, hour) {
   const range = timeRanges.find(r =>
     (r.start <= hour && hour < r.end) ||
@@ -1714,16 +1713,17 @@ function getVoiceover(day, hour) {
   if (!range) return voiceovers.unknown;
 
   const categories = categoriesPerDay[day]?.[range.key] || [];
-  const category = categories[0] || "unknown";
+  const rawCategory = categories[0] || "unknown";
+  const category = normalizeCategory(rawCategory);
 
-  // Weekend override:  Saturday (6), Sunday (0)
-  const isWeekend = (day === 6 || day === 0);
+  const isWeekend = (day === 6 || day === 0); // Sat + Sun
   if (isWeekend && weekendOverrides[category]) {
     return weekendOverrides[category];
   }
 
   return voiceovers[category] || voiceovers.unknown;
 }
+
 
 
 
