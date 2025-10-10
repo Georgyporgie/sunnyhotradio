@@ -1568,21 +1568,60 @@ function generateSchedule() {
 
 
 
+<div class="badge" id="station-badge" aria-live="polite" aria-atomic="true">
+  <!-- Loader -->
+  <div class="loader" id="station-loader">
+    <img src="images/loader.gif" alt="Loading..." />
+  </div>
 
-
-
-<!-- Time-block badge with progress bar -->
-<div id="timeBadge" class="badge" aria-live="polite" aria-atomic="true">
-  <span class="badge-icon">🕒</span>
-  <span class="badge-label">Loading…</span>
-  <div class="progress">
-    <div class="progress-bar"></div>
+  <!-- Badge content -->
+  <div class="badge-content" style="display:none;">
+    <span class="badge-icon">🕒</span>
+    <span class="badge-label">Loading…</span>
+    <div class="progress">
+      <div class="progress-bar"></div>
+    </div>
   </div>
 </div>
 
 
 
+<script>
+function showBadgeContent(labelText, icon = "🕒") {
+  document.getElementById("station-loader").style.display = "none";
+  const content = document.querySelector("#station-badge .badge-content");
+  content.style.display = "block";
+  content.querySelector(".badge-label").textContent = labelText;
+  content.querySelector(".badge-icon").textContent = icon;
+}
 
+
+window.addEventListener("load", () => {
+  const loader = document.getElementById("station-loader");
+  const content = document.querySelector(".badge-content");
+  const progress = document.querySelector(".progress-bar");
+
+  setTimeout(() => {
+    loader.style.display = "none";
+    content.style.display = "flex";
+    progress.style.width = "100%"; // animate progress bar
+    showStationReady();            // <-- call it here
+  }, 3000);
+});
+
+
+
+function showStationReady() {
+  document.getElementById("station-loader").style.display = "none";
+  const content = document.querySelector("#station-badge .badge-content");
+  content.style.display = "flex";
+  content.querySelector(".badge-label").textContent = "🎶 Station Ready";
+}
+
+
+
+
+</script>
 
 
 
@@ -1822,9 +1861,20 @@ const badgeMeta = {
   unknown: { icon: "🕒", label: "On Air" }
 };
 
+
+
+
+
+
+
+
+
+
+
 function updateTimeBadge(categoryKey) {
-  const badge = document.getElementById("timeBadge");
+  const badge = document.querySelector("#station-badge .badge-content");
   if (!badge) return;
+
   const meta = badgeMeta[categoryKey] || badgeMeta.unknown;
   const range = timeRanges.find(r => r.key === categoryKey) || timeRanges.find(r => r.key === "night");
   const { start, end } = getTimeBounds(range);
@@ -1838,15 +1888,24 @@ function updateTimeBadge(categoryKey) {
   const mins = Math.floor((remaining % 3600000) / 60000);
 
   badge.querySelector(".badge-icon").textContent = meta.icon;
-const label = getAlias(categoryKey);
-badge.querySelector(".badge-label").textContent =
-  `${label} · ${hours > 0 ? hours + "h " : ""}${mins}m left`;
-
-
+  const label = getAlias(categoryKey);
+  badge.querySelector(".badge-label").textContent =
+    `${label} · ${hours > 0 ? hours + "h " : ""}${mins}m left`;
 
   const percent = Math.max(0, Math.min(100, (elapsed / total) * 100));
   badge.querySelector(".progress-bar").style.width = percent + "%";
 }
+
+
+document.getElementById("station-loader").style.display = "block";
+document.querySelector("#station-badge .badge-content").style.display = "none";
+
+
+
+
+
+
+
 
 // ——— Playback logic ———
 window.addEventListener('load', () => {
