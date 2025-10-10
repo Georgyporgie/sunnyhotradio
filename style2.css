@@ -1202,7 +1202,7 @@ filter: brightness(100%) saturate(105%) contrast(100%)opacity (70%);
   align-items: center;
   width: 100%;
   padding: 1rem 0;
-  filter: brightness(1.8) drop-shadow(0 0 6px #6ea8ff);
+  filter: brightness(110%)saturation(105%) contrast(105%)  drop-shadow(0 0 6px #6ea8ff);
 }
 .loader img {
   width: 40px;

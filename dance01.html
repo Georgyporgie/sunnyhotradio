@@ -1540,7 +1540,7 @@ function generateSchedule() {
     z-index: 9999;
   }
   .badge-icon { margin-right: 0.4rem; }
-  .badge-label { white-space: nowrap; }
+  .badge-label { white-space: nowrap; filter: brightness(110%)saturation(105%) contrast(105%); animation: blinker 3.6s step-start 10s; }
   .progress {
     width: 100%;
     height: 6px;
@@ -1615,7 +1615,7 @@ function showStationReady() {
   document.getElementById("station-loader").style.display = "none";
   const content = document.querySelector("#station-badge .badge-content");
   content.style.display = "flex";
-  content.querySelector(".badge-label").textContent = "🎶 Station Ready";
+  content.querySelector(".badge-label").textContent = "🎶 Station Ready!";
 }
 
 
