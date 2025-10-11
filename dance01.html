@@ -1518,117 +1518,12 @@ function generateSchedule() {
 
 
 </script>
-  
-
-
-<style>
-  .badge {
-    position: fixed;
-    bottom: 1rem;
-    right: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.3rem;
-    padding: 0.6rem 0.8rem;
-    border-radius: 12px;
-    color: #eaf0ff;
-    background-color: transparent;
-    box-shadow: 0 6px 16px rgba(0,0,0,0.35);
-    font: 600 14px/1.2 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto;
-    width: 200px;
-    z-index: 9999;
-  }
-  .badge-icon { margin-right: 0.4rem; }
-  .badge-label { white-space: nowrap; filter: brightness(110%)saturation(105%) contrast(105%); animation: blinker 3.6s step-start 10s; color: white; z-index:-700;}
-  .progress {
-    width: 100%;
-    height: 6px;
-    background: rgba(255,255,255,0.15);
-    border-radius: 4px;
-    overflow: hidden;
-  }
-  .progress-bar {
-    height: 100%;
-    width: 0%;
-    background: #6ea8ff;
-    transition: width 1s linear;
-  }
-</style>
-
-
-
-
-
 
 <audio id="djIntro" preload="auto"></audio>
 <audio id="musicplayer" preload="auto" loop></audio>
 
-
-
-
-
-<div class="badge" id="station-badge" aria-live="polite" aria-atomic="true">
-  <!-- Loader -->
-  <div class="loader" id="station-loader">
-    <img src="images/loader.gif" alt="Loading..." />
-  </div>
-
-  <!-- Badge content -->
-  <div class="badge-content" style="display:none;">
-    <span class="badge-icon">🕒</span>
-    <span class="badge-label">Loading…</span>
-    <div class="progress">
-      <div class="progress-bar"></div>
-    </div>
-  </div>
-</div>
-
-
-
 <script>
-function showBadgeContent(labelText, icon = "🕒") {
-  document.getElementById("station-loader").style.display = "none";
-  const content = document.querySelector("#station-badge .badge-content");
-  content.style.display = "block";
-  content.querySelector(".badge-label").textContent = labelText;
-  content.querySelector(".badge-icon").textContent = icon;
-}
-
-
-window.addEventListener("load", () => {
-  const loader = document.getElementById("station-loader");
-  const content = document.querySelector(".badge-content");
-  const progress = document.querySelector(".progress-bar");
-
-  setTimeout(() => {
-    loader.style.display = "none";
-    content.style.display = "flex";
-    progress.style.width = "100%"; // animate progress bar
-    showStationReady();            // <-- call it here
-  }, 2000);
-});
-
-
-
-function showStationReady() {
-  document.getElementById("station-loader").style.display = "none";
-  const content = document.querySelector("#station-badge .badge-content");
-  content.style.display = "flex";
-  content.querySelector(".badge-label").textContent = "🎶 Station Ready!";
-}
-
-
-
-
-</script>
-
-
-
-
-
-<script>
-// --- Shuffle helper ---
+// ——— Shuffle helper ———
 function shuffle(array) {
   if (array.length <= 1) return array;
   let m = array.length, t, i;
@@ -1641,7 +1536,7 @@ function shuffle(array) {
   return array;
 }
 
-// --- Fade-in effect ---
+// ——— Fade-in effect ———
 function fadeIn(audio, duration = 3000) {
   audio.volume = 0;
   const step = 1 / (duration / 100);
@@ -1651,261 +1546,69 @@ function fadeIn(audio, duration = 3000) {
   }, 100);
 }
 
-// --- Time ranges ---
-const timeRanges = [
-  { key: "morning", start: 8, end: 12 },
-  { key: "afternoon", start: 12, end: 14 },
-  { key: "special-show", start: 14, end: 16 },
-  { key: "evening", start: 16, end: 20 },
-  { key: "evening-late", start: 20, end: 23 },
-  { key: "late", start: 23, end: 3 },
-  { key: "night", start: 3, end: 8 }
-];
-
-
-
-
-
-
-
-// --- Categories per Day --- 
-
-
-const categoriesPerDay = {
-  0: { // Sunday
-    morning: ["morning"],
-    afternoon: ["afternoon"],
-    evening: ["evening"],
-    night: ["jingle-time"],
-    "evening-late": ["evening-late"],
-    "special-show": ["special","special-cast"],
-    late: ["evening"]
-  },
-  1: { // Monday
-    morning: ["morning"],
-    afternoon: ["afternoon"],
-    evening: ["evening"],
-    night: ["jingle-time"],
-    "special-show": ["afternoon", "evening"],
-    late: ["evening"]
-  },
-  2: { // Tuesday
-    morning: ["morning"],
-    afternoon: ["afternoon"],
-    evening: ["evening"],
-    night: ["jingle-time"],
-    "evening-late": ["evening-late"],
-    "special-show": ["afternoon", "evening"],
-    late: ["evening"]
-  },
-  3: { // Wednesday
-    morning: ["morning"],
-    afternoon: ["afternoon"],
-    evening: ["evening"],
-    night: ["jingle-time"],
-    "special-show": ["evening"],
-    late: ["afternoon"]
-  },
-  4: { // Thursday
-    morning: ["morning"],
-    afternoon: ["afternoon"],
-    evening: ["evening"],
-    night: ["jingle-time"],
-    "evening-late": ["evening-late"],
-    "special-show": ["evening"],
-    late: ["afternoon"]
-  },
-  5: { // Friday
-    morning: ["morning"],
-    afternoon: ["f afternoon"],   // make sure this exists in voiceovers
-    evening: ["f evening"],       // idem
-    night: ["jingle-time"],
-    "evening-late": ["f evening-late"],
-    "special-show": ["special-mix"],
-    late: ["f evening"]
-  },
-  6: { // Saturday
-    morning: ["morning"],
-    afternoon: ["f afternoon"],
-    evening: ["f evening"],
-    night: ["jingle-time"],
-    "evening-late": ["f evening-late"],
-    "special-show": ["special" ],
-    late: ["f evening"]
-  }
-};
-
-
-
-
-
-
-
-
-
-function getVoiceover(day, hour) {
-  const range = timeRanges.find(r =>
-    (r.start <= hour && hour < r.end) ||
-    (r.start > r.end && (hour >= r.start || hour < r.end)) // wraparound
-  );
-
-  if (!range) return voiceovers.unknown;
-
-  const categories = categoriesPerDay[day]?.[range.key] || [];
-  const rawCategory = categories[0] || "unknown";
-  const category = normalizeCategory(rawCategory);
-
-  const isWeekend = (day === 6 || day === 0); // Sat + Sun
-  if (isWeekend && weekendOverrides[category]) {
-    return weekendOverrides[category];
-  }
-
-  return voiceovers[category] || voiceovers.unknown;
-}
-
-
-
-
-
-// --- Voiceovers ---
-const voiceovers = {
-  morning: "muziek/voiceover/latest disco hits of the eighties.mp3",
-  afternoon: "muziek/discjockeys/DJ Saphire finale.mp3",
-  evening: "muziek/discjockeys/starten met Sunny4.mp3",
-  "evening-late": "muziek/voiceover/Latest Hits Of Dance Area22222.mp3",
-  "special-show": "muziek/discjockeys/starten met Sunny4.mp3",
-  "jingle-time": "muziek/discjockeys/starten met Sunny4.mp3",
-  late: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3",
-  night: "muziek/discjockeys/starten met Sunny4.mp3",
-  unknown: "muziek/discjockeys/starten met Sunny4.mp3"
-};
-
-
-
-
-const weekendOverrides = {
-  morning: "muziek/voiceover/SunnyMorningEnergy.mp3",
-  afternoon: "muziek/discjockeys/starten met Sunny4.mp3",
-  "special-show": "muziek/discjockeys/DJ S.mp3",
-  evening: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3",
-  "evening-late": "muziek/voiceover/Sapphire033.mp3",
-  late: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3",
-  night: "muziek/discjockeys/starten met Sunny4.mp3",
-  unknown: "muziek/discjockeys/starten met Sunny4.mp3"
-};
-
-
-
-
-// --- Helpers ---
-function normalizeCategory(cat) {
-  return typeof cat === "string" && cat.startsWith("f") ? cat.slice(2) : cat || "unknown";
-}
-
-
-
-
-
-let cachedCategory = null;
-
+// ——— Time category logic ———
 function getCurrentTimeCategory() {
   const now = new Date();
   const currentHour = now.getHours();
   const currentDay = now.getDay();
-  let timeKey = "night";
 
+  const timeRanges = [
+    { key: "morning", start: 8, end: 12 },
+    { key: "afternoon", start: 12, end: 14 },
+    { key: "special-show", start: 14, end: 16 },
+    { key: "evening", start: 16, end: 19 },
+    { key: "evening-late", start: 19, end: 23 },
+    { key: "late", start: 23, end: 3 },
+    { key: "night", start: 1, end: 8 }
+  ];
+
+  const categoriesPerDay = {
+    0: { morning: ["morning","f afternoon","f evening"], afternoon: ["f afternoon","f evening","f evening-late"], "special-show": ["special-mix"], evening: ["f evening","f evening-late","f afternoon"], "evening-late": ["f evening-late","f evening"], late: ["f evening-late"], night: ["jingle-time"] },
+    1: { morning: ["morning","afternoon","evening"], afternoon: ["afternoon","evening","morning"], "special-show": ["afternoon","evening"], evening: ["evening","evening-late","afternoon"], "evening-late": ["evening-late","evening"], late: ["evening-late","morning"], night: ["jingle-time"] },
+    2: { morning: ["morning","afternoon","evening"], afternoon: ["afternoon","evening","morning"], "special-show": ["evening","afternoon"], evening: ["evening","evening-late","afternoon"], "evening-late": ["evening-late","evening"], late: ["evening-late","morning"], night: ["jingle-time"] },
+    3: { morning: ["morning","afternoon","evening"], afternoon: ["afternoon","evening","morning"], "special-show": ["afternoon","evening"], evening: ["evening","evening-late","afternoon"], "evening-late": ["evening-late","evening"], late: ["evening-late","morning"], night: ["jingle-time"] },
+    4: { morning: ["morning","afternoon","evening"], afternoon: ["afternoon","evening","morning"], "special-show": ["afternoon","evening"], evening: ["evening","evening-late","afternoon"], "evening-late": ["evening-late","evening"], late: ["evening-late","afternoon"], night: ["jingle-time"] },
+    5: { morning: ["morning","afternoon","evening","evening-late"], afternoon: ["afternoon","evening","evening-late"], "special-show": ["evening","afternoon"], evening: ["evening","evening-late","afternoon"], "evening-late": ["evening-late","evening"], late: ["evening-late","afternoon"], night: ["jingle-time"] },
+    6: { morning: ["f afternoon","f evening","f evening-late"], afternoon: ["f afternoon","f evening","f evening-late"], "special-show": ["special-mix"], evening: ["f evening","f evening-late","f afternoon"], "evening-late": ["f evening-late","f evening"], late: ["f evening-late","f afternoon"], night: ["jingle-time"] }
+  };
+
+  let timeKey = "night";
   for (const range of timeRanges) {
     if (range.start < range.end) {
-      if (currentHour >= range.start && currentHour < range.end) { timeKey = range.key; break; }
+      if (currentHour >= range.start && currentHour < range.end) {
+        timeKey = range.key; break;
+      }
     } else {
-      if (currentHour >= range.start || currentHour < range.end) { timeKey = range.key; break; }
+      if (currentHour >= range.start || currentHour < range.end) {
+        timeKey = range.key; break;
+      }
     }
   }
 
-  // if we’re still in the same block, return the cached value
-  if (cachedCategory && cachedCategory.timeKey === timeKey) {
-    return cachedCategory.value;
-  }
-
-  // otherwise pick once and cache it
   const options = categoriesPerDay[currentDay][timeKey] || ["unknown"];
-  const value = normalizeCategory(options[0]); // or shuffle once here if you want variety per block
-  cachedCategory = { timeKey, value };
-  return value;
+  return shuffle([...options])[0];
 }
 
-
-function getTimeBounds(range) {
-  const now = new Date();
-  let start = new Date(now);
-  let end = new Date(now);
-  start.setHours(range.start, 0, 0, 0);
-  end.setHours(range.end, 0, 0, 0);
-  if (range.start > range.end) {
-    if (now.getHours() >= range.start) end.setDate(end.getDate() + 1);
-    else start.setDate(start.getDate() - 1);
+// ——— Normalize “flavor” categories ———
+function normalizeCategory(cat) {
+  if (typeof cat === "string" && cat.startsWith("f ")) {
+    return cat.slice(2);
   }
-  return { start, end };
+  return cat || "unknown";
 }
 
-
-const badgeMeta = {
-  morning: { icon: "🌅", label: "Morning" },
-  afternoon: { icon: "☀️", label: "Afternoon" },
-  evening: { icon: "🌇", label: "Evening" },
-  "evening-late": { icon: "🌃", label: "Evening Late" },
-  night: { icon: "🌙", label: "Night" },
-  late: { icon: "🦉", label: "Late" },
-  "special-show": { icon: "🎛️", label: "Special Show" },
-  "jingle-time": { icon: "🔔", label: "Jingle Time" },
-  unknown: { icon: "🕒", label: "On Air" }
+// ——— Voiceovers ———
+const voiceovers = {
+  morning: "muziek/voiceover/latest disco hits of the eighties.mp3",
+  afternoon: "muziek/discjockeys/DJ Saphire finale.mp3",
+  evening: "muziek/voiceover/Sapphire033.mp3",
+  "evening-late": "muziek/voiceover/Latest Hits Of Dance Area22222.mp3",
+  "special-show": "muziek/discjockeys/DJ Saphire finale.mp3",
+  "jingle-time": "muziek/discjockeys/starten met Sunny4.mp3",
+  late: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3",
+  night: "muziek/discjockeys/starten met Sunny4.mp3",
+  unknown: "muziek/discjockeys/DJ Saphire finale.mp3"
 };
-
-
-
-
-
-
-
-
-
-
-
-function updateTimeBadge(categoryKey) {
-  const badge = document.querySelector("#station-badge .badge-content");
-  if (!badge) return;
-
-  const meta = badgeMeta[categoryKey] || badgeMeta.unknown;
-  const range = timeRanges.find(r => r.key === categoryKey) || timeRanges.find(r => r.key === "night");
-  const { start, end } = getTimeBounds(range);
-
-  const now = new Date();
-  const total = end - start;
-  const elapsed = now - start;
-  const remaining = end - now;
-
-  const hours = Math.floor(remaining / 3600000);
-  const mins = Math.floor((remaining % 3600000) / 60000);
-
-  badge.querySelector(".badge-icon").textContent = meta.icon;
-  const label = getAlias(categoryKey);
-  badge.querySelector(".badge-label").textContent =
-    `${label} · ${hours > 0 ? hours + "h " : ""}${mins}m left`;
-
-  const percent = Math.max(0, Math.min(100, (elapsed / total) * 100));
-  badge.querySelector(".progress-bar").style.width = percent + "%";
-}
-
-
-document.getElementById("station-loader").style.display = "block";
-document.querySelector("#station-badge .badge-content").style.display = "none";
-
-
-
-
-
-
-
 
 // ——— Playback logic ———
 window.addEventListener('load', () => {
@@ -1926,60 +1629,22 @@ window.addEventListener('load', () => {
     musicplayer.volume = 0;
 
     djIntro.play().catch(err => console.warn("DJ intro failed:", err));
-    musicplayer.play().then(() => fadeIn(musicplayer, 5000))
-      .catch(err => console.warn("Musicplayer failed:", err));
-
-    updateTimeBadge(normalized);
+    musicplayer.play().then(() => fadeIn(musicplayer, 5000)).catch(err => console.warn("Musicplayer failed:", err));
   }
 
-let currentCategory = getCurrentTimeCategory();
-playIntroWithMusic(currentCategory);
+  let currentCategory = getCurrentTimeCategory();
+  console.log("Initial category:", currentCategory);
+  playIntroWithMusic(currentCategory);
 
-// update badge every minute, but don’t recalc category
-setInterval(() => {
-  updateTimeBadge(normalizeCategory(currentCategory));
-}, 60 * 1000);
-
-// at block boundaries, recalc and update
-setInterval(() => {
-  const updatedCategory = getCurrentTimeCategory();
-  if (updatedCategory !== currentCategory) {
-    console.log(`⏰ Transition: ${currentCategory} → ${updatedCategory}`);
-    currentCategory = updatedCategory;
-    playIntroWithMusic(currentCategory);
-  }
-}, 15 * 60 * 1000);
-
+  setInterval(() => {
+    const updatedCategory = getCurrentTimeCategory();
+    if (updatedCategory !== currentCategory) {
+      console.log(`⏰ Transition: ${currentCategory} → ${updatedCategory}`);
+      currentCategory = updatedCategory;
+      playIntroWithMusic(currentCategory);
+    }
+  }, 15 * 60 * 1000);
 });
-
-
-// 🎶 Aliases per category
-const aliases = {
-  morning: ["Morning Rise", "Sunrise Grooves", "Early Light"],
-  afternoon: ["Afternoon Flow", "Daylight Beats", "Sunny Sessions"],
-  evening: ["Evening Groove", "Evening Flow", "Evening Pulse"],
-  "evening-late": ["Late Evening Lights", "Twilight Grooves", "Sundown Sessions"],
-  night: ["Night Drift", "Moonlight Mix", "Starlight Sessions"],
-  late: ["Owl Hours", "Midnight Frequencies", "After Hours"],
-  "special-show": ["Special Mix", "Spotlight Session", "Feature Hour"],
-  "jingle-time": ["Jingle Time", "Station ID", "Bumper Beats"]
-};
-
-// 🎛️ Alias lookup
-function getAlias(category) {
-  if (aliases[category]) {
-    const list = aliases[category];
-    return list[Math.floor(Math.random() * list.length)];
-  }
-  // fallback to default label if no aliases defined
-  return badgeMeta[category]?.label || category;
-}
-
-
-
-
-
-
 </script>
 
 
