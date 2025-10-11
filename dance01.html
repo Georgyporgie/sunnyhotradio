@@ -1606,7 +1606,7 @@ window.addEventListener("load", () => {
     content.style.display = "flex";
     progress.style.width = "100%"; // animate progress bar
     showStationReady();            // <-- call it here
-  }, 3000);
+  }, 2000);
 });
 
 
@@ -1799,7 +1799,7 @@ const weekendOverrides = {
 
 // --- Helpers ---
 function normalizeCategory(cat) {
-  return typeof cat === "string" && cat.startsWith("f ") ? cat.slice(2) : cat || "unknown";
+  return typeof cat === "string" && cat.startsWith("f") ? cat.slice(2) : cat || "unknown";
 }
 
 
