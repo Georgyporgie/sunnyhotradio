@@ -8,7 +8,7 @@
     ],
     "Saturday": [
       { "time": "03:00 - 14:00", "event": "Morning Disco" },
-      { "time": "14:00 - 16:00", "event": "DJ Dimitri Live Mix!" },
+      { "time": "14:00 - 16:00", "event": "Sonny Fodera Mix!" },
       { "time": "16:00 - 21:00", "event": "Miss Monique Live!" },
       { "time": "21:00 - 23:00", "event": "Lovely DJ Sapphire!" }
     ],
@@ -21,3 +21,4 @@
     ]
   }
 }
+
