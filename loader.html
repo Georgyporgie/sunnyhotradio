@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Loading Station…</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: #111;
+      color: #fff;
+      font-family: sans-serif;
+    }
+    .loader {
+      text-align: center;
+    }
+    .loader img {
+      width: 60px;
+      height: 60px;
+      display: block;
+      margin: 0 auto 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="loader">
+    <img src="images/loader.gif" alt="Loading...">
+    <p>🎶 Loading Station…</p>
+  </div>
+
+  <script>
+    // Redirect after 3 seconds
+    setTimeout(() => {
+      window.location.href = "dance01.html"; // your actual radio page
+    }, 3000);
+  </script>
+</body>
+</html>
