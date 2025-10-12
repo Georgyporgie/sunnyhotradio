@@ -6648,6 +6648,15 @@ timeCategory: "morning"
 
 
 
+{
+     name: "  Music Sounds Better With You",
+    artist: "Stardust ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Stardust - Music Sounds Better With You.mp3",
+    timeCategory: "afternoon"
+},
+
+
 
 {
     name: "    Starboy ",
@@ -22378,7 +22387,13 @@ quickFade: true
 },
 
 
-
+{
+     name: "  Music Sounds Better With You",
+    artist: "Stardust ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Stardust - Music Sounds Better With You.mp3",
+    timeCategory: "f evening-late"
+},
 
 
 
