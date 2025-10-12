@@ -847,7 +847,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const weekdayAudioFiles = {
     hourlySou:        "audio/its now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
-    fortyFiveMinuteSou: "muziek/jingles/sunny los.mp3"
+    
   };
 
   // Saturday splits
@@ -1280,8 +1280,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+<audio id="hourlySou">
+  <source src="audio/its now.mp3" type="audio/mp3">
+</audio>
 
+<audio id="quarterHourSou">
+  <source src="muziek/effects/blast.mp3" type="audio/mp3">
+</audio>
 
+<audio id="twentyFiveMinuteSou">
+  <source src="muziek/voiceover/AI voice - From The Heart Of Amsterdam3.mp3" type="audio/mp3">
+</audio>
+
+<audio id="fortyFiveMinuteSou">
+  <source src="" type="audio/mp3">
+</audio>
 
 <script>
   // ✅ Apply volume normalization when a track is ready to play
@@ -1289,70 +1302,52 @@ document.addEventListener("DOMContentLoaded", () => {
     audio.addEventListener("canplay", () => adjustVolumeDynamically(audio));
   });
 
-<audio id="hourlySou" src="audio/its now.mp3"></audio>
-<audio id="quarterHourSou" src="muziek/effects/blast.mp3"></audio>
-<audio id="twentyFiveMinuteSou" src="muziek/voiceover/AI voice - From The Heart Of Amsterdam3.mp3"></audio>
-<audio id="fortyFiveMinuteSou" src="muziek/effects/blast.mp3"></audio>
+  // 🎵 Play sound helper
+  function playSound(soundIds) {
+    soundIds.forEach(id => {
+      const soundEl = document.getElementById(id);
+      if (soundEl) {
+        soundEl.volume = 0.7;
+        soundEl.play().catch(err => console.error("Playback failed:", err));
+      } else {
+        console.error("Sound element not found:", id);
+      }
+    });
+  }
 
-<script>
-// 🎵 Play sound helper with logging
-function playSound(ids, label) {
-  const now = new Date();
-  const timeStr = now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit', second:'2-digit'});
-  console.log(`🔔 ${label} chime at ${timeStr}`);
+  // 📢 Sound Scheduling Function
+  function scheduleSounds() {
+    console.log("Scheduling sounds...");
+    var now = new Date();
 
-  ids.forEach(id => {
-    const el = document.getElementById(id);
-    if (el) {
-      el.currentTime = 0; // restart from beginning
-      el.volume = 0.7;
-      el.play().catch(err => console.warn("Playback failed:", err));
-    }
-  });
-}
+    // Hourly
+    var hourlyDelay = (60 - now.getMinutes()) * 60 * 1000 - now.getSeconds() * 1000;
+    setTimeout(function() {
+      playSound(["hourlySou"]);
+      setInterval(() => playSound(["hourlySou"]), 3600000);
+    }, hourlyDelay);
 
-// ⏱️ Helper: ms until next multiple of N minutes
-function msUntilNext(minuteMark) {
-  const now = new Date();
-  const next = new Date(now);
-  next.setSeconds(0, 0);
-  next.setMinutes(Math.ceil(now.getMinutes() / minuteMark) * minuteMark);
-  if (next <= now) next.setMinutes(next.getMinutes() + minuteMark);
-  return next - now;
-}
+    // Every 15 minutes
+    var quarterHourDelay = (15 - (now.getMinutes() % 15)) * 60 * 1000 - now.getSeconds() * 1000;
+    setTimeout(function() {
+      playSound(["quarterHourSou"]);
+      setInterval(() => playSound(["quarterHourSou"]), 900000);
+    }, quarterHourDelay);
 
-// 📢 Schedule sounds
-function scheduleSounds() {
-  console.log("Scheduling sounds…");
+// Every 25 minutes
+var twentyFiveMinuteDelay = (25 - (now.getMinutes() % 25)) * 60 * 1000 - now.getSeconds() * 1000;
 
-  // Hourly
-  setTimeout(() => {
-    playSound(["hourlySou"], "Hourly");
-    setInterval(() => playSound(["hourlySou"], "Hourly"), 3600000);
-  }, msUntilNext(60));
+setTimeout(function() {
+  playSound(["twentyFiveMinuteSou"]); // or rename to "twentyFiveMinuteSou" for clarity
+  setInterval(() => playSound(["twentyFiveMinuteSou"]), 1500000); // 25 * 60 * 1000 = 1,500,000 ms
+}, twentyFiveMinuteDelay);
 
-  // Every 15 minutes
-  setTimeout(() => {
-    playSound(["quarterHourSou"], "Quarter-hour");
-    setInterval(() => playSound(["quarterHourSou"], "Quarter-hour"), 900000);
-  }, msUntilNext(15));
 
-  // Every 25 minutes
-  setTimeout(() => {
-    playSound(["twentyFiveMinuteSou"], "25-minute");
-    setInterval(() => playSound(["twentyFiveMinuteSou"], "25-minute"), 1500000);
-  }, msUntilNext(25));
+  }
 
-  // Every 45 minutes
-  setTimeout(() => {
-    playSound(["fortyFiveMinuteSou"], "45-minute");
-    setInterval(() => playSound(["fortyFiveMinuteSou"], "45-minute"), 2700000);
-  }, msUntilNext(45));
-}
-
-window.addEventListener("load", scheduleSounds);
+  // 🕒 Activate scheduling on page load
+  window.onload = scheduleSounds;
 </script>
-
 
 
 
