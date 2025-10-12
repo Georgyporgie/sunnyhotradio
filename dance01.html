@@ -1522,6 +1522,14 @@ function generateSchedule() {
 <audio id="djIntro" preload="auto"></audio>
 <audio id="musicplayer" preload="auto" loop></audio>
 
+
+
+
+
+
+
+
+
 <script>
 // ——— Shuffle helper ———
 function shuffle(array) {
@@ -1563,7 +1571,7 @@ function getCurrentTimeCategory() {
   ];
 
   const categoriesPerDay = {
-    0: { morning: ["morning","f afternoon","f evening"], afternoon: ["f afternoon","f evening","f evening-late"], "special-show": ["special-mix"], evening: ["f evening","f evening-late","f afternoon"], "evening-late": ["f evening-late","f evening"], late: ["f evening-late"], night: ["jingle-time"] },
+    0: { morning: ["morning","f afternoon","f evening"], afternoon: ["f afternoon","f evening","f evening-late"], "special-show": ["special-cast"], evening: ["f evening","f evening-late","f afternoon"], "evening-late": ["f evening-late","f evening"], late: ["f evening-late"], night: ["jingle-time"] },
     1: { morning: ["morning","afternoon","evening"], afternoon: ["afternoon","evening","morning"], "special-show": ["afternoon","evening"], evening: ["evening","evening-late","afternoon"], "evening-late": ["evening-late","evening"], late: ["evening-late","morning"], night: ["jingle-time"] },
     2: { morning: ["morning","afternoon","evening"], afternoon: ["afternoon","evening","morning"], "special-show": ["evening","afternoon"], evening: ["evening","evening-late","afternoon"], "evening-late": ["evening-late","evening"], late: ["evening-late","morning"], night: ["jingle-time"] },
     3: { morning: ["morning","afternoon","evening"], afternoon: ["afternoon","evening","morning"], "special-show": ["afternoon","evening"], evening: ["evening","evening-late","afternoon"], "evening-late": ["evening-late","evening"], late: ["evening-late","morning"], night: ["jingle-time"] },
