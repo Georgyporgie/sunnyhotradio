@@ -564,7 +564,7 @@ let trackList = [
     artist: "Steve Ferrera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Steve Ferrera- live from his garden01.mp3",
-    timeCategory: "special-cast"
+    timeCategory: "speciall"
 },
 
 
@@ -574,7 +574,7 @@ let trackList = [
     artist: "Steve Ferrera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Steve Ferrera- live from his garden02.mp3",
-    timeCategory: "special-cast"
+    timeCategory: "speciall"
 },
 
 
@@ -584,7 +584,7 @@ let trackList = [
     artist: "Steve Ferrera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Steve Ferrera- live from his garden03.mp3",
-    timeCategory: "special-cast"
+    timeCategory: "speciall"
 },
 
 
@@ -593,7 +593,7 @@ let trackList = [
     artist: "Steve Ferrera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Steve Ferrera- live from his garden04.mp3",
-    timeCategory: "special-cast"
+    timeCategory: "speciall"
 },
 
 
@@ -605,7 +605,7 @@ let trackList = [
     artist: "Steve Ferrera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Steve Ferrera- live from his garden05.mp3",
-    timeCategory: "special-cast"
+    timeCategory: "speciall"
 },
 
 
@@ -21958,7 +21958,7 @@ quickFade: true
 
 
 {
-    name: "I Can See The Future ",
+    name: "I Can See The Future (new)",
     artist: " Tinashe  ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Tinashe - I Can See The Future.mp3",
