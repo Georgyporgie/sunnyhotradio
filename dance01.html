@@ -1632,7 +1632,7 @@ function fadeIn(audioEl, target = 0.7, step = 0.05, interval = 200) {
 // ——— Main scheduling logic ———
 window.addEventListener('load', () => {
   const djIntro = document.getElementById('djIntro');
-  const djPlayer = document.getElementById('djPlayer');
+  const djPlayer = document.getElementById('musicplayer');
 
   const weekdaySlots = [
     { start: 8, end: 14, file: "muziek/voiceover/latest disco hits of the eighties.mp3" },
@@ -1683,8 +1683,30 @@ window.addEventListener('load', () => {
 });
 </script>
 
+<script>
+function playIntroWithOverlap(file) {
+  const djIntro = document.getElementById('djIntro');
+  const djPlayer = document.getElementById('musicplayer');
 
+  djIntro.src = file;
+  djIntro.currentTime = 0;
+  djIntro.volume = 1.0;
 
+  djPlayer.volume = 0;
+
+  djIntro.play().catch(err => console.warn("Intro failed:", err));
+
+  // Start music fade-in 3s before intro ends
+  djIntro.addEventListener('timeupdate', function overlapHandler() {
+    if (djIntro.duration && djIntro.currentTime >= djIntro.duration - 3) {
+      djIntro.removeEventListener('timeupdate', overlapHandler);
+      djPlayer.play()
+        .then(() => fadeIn(djPlayer, 0.7, 0.05, 200))
+        .catch(err => console.warn("Music failed:", err));
+    }
+  });
+}
+</script>
 
 
 
