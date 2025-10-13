@@ -822,8 +822,9 @@ let trackList = [
     artist: "Change ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Change - Let's go together.mp3",
-       timeCategory: "morning"
- },
+       timeCategory: "morning",
+ quickFade: true
+},
 
 
 
@@ -2003,7 +2004,8 @@ quickFade: true
     artist: "David Joseph  ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/David Joseph - You Cant Hide (Your Love From Me).mp3",
-     timeCategory: "morning"
+     timeCategory: "morning",
+quickFade: true
 },
 
 
@@ -18797,7 +18799,8 @@ timeCategory: "evening-late"
     artist: "Holy Molly x Lizot ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Holy Molly x Lizot - Sunday Night.mp3",
-       timeCategory: "evening-late"
+       timeCategory: "evening-late",
+quickFade: true
 },
 
 
@@ -19886,8 +19889,8 @@ quickFade: true
     artist: "Holy Molly x Lizot ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Holy Molly x Lizot - Sunday Night.mp3",
-       timeCategory: "f afternoon"
-
+       timeCategory: "f afternoon",
+quickFade: true
 },
 
 

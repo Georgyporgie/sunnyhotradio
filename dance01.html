@@ -556,6 +556,7 @@ window.addEventListener("load", function () {
 
 
 
+
 <script>
 
 
@@ -588,7 +589,16 @@ window.setInterval(startTime, 1000);
 
 
 
-
+<!-- Add this somewhere in your page -->
+<div id="chimeOverlay" style="
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+  pointer-events: none;
+"></div>
 
 
 
@@ -1302,18 +1312,40 @@ document.addEventListener("DOMContentLoaded", () => {
     audio.addEventListener("canplay", () => adjustVolumeDynamically(audio));
   });
 
-  // 🎵 Play sound helper
-  function playSound(soundIds) {
-    soundIds.forEach(id => {
-      const soundEl = document.getElementById(id);
-      if (soundEl) {
-        soundEl.volume = 0.7;
-        soundEl.play().catch(err => console.error("Playback failed:", err));
-      } else {
-        console.error("Sound element not found:", id);
-      }
-    });
+function playSound(soundIds, label = "Chime") {
+  const now = new Date();
+  const timeStr = now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit', second:'2-digit'});
+
+  // Pick an emoji based on the current minute
+  let emoji = "🕒";
+  const m = now.getMinutes();
+  if (m === 0) emoji = "🕛";
+  else if (m === 15) emoji = "🕒";
+  else if (m === 25) emoji = "🕟";
+  else if (m === 45) emoji = "🕞";
+
+  console.log(`${emoji} ${label} at ${timeStr}`);
+
+  // 🔔 Show emoji overlay on the page
+  const overlay = document.getElementById("chimeOverlay");
+  if (overlay) {
+    overlay.textContent = emoji;
+    overlay.style.opacity = 1;
+    setTimeout(() => {
+      overlay.style.opacity = 0;
+    }, 1500); // fade out after 1.5s
   }
+
+  // Play the sound(s)
+  soundIds.forEach(id => {
+    const soundEl = document.getElementById(id);
+    if (soundEl) {
+      soundEl.currentTime = 0;
+      soundEl.volume = 0.7;
+      soundEl.play().catch(err => console.error("Playback failed:", err));
+    }
+  });
+}
 
   // 📢 Sound Scheduling Function
   function scheduleSounds() {
@@ -1539,16 +1571,6 @@ function shuffle(array) {
   return array;
 }
 
-// ——— Fade-in effect ———
-function fadeIn(audio, duration = 3000) {
-  audio.volume = 0;
-  const step = 1 / (duration / 100);
-  const fade = setInterval(() => {
-    audio.volume = Math.min(1, audio.volume + step);
-    if (audio.volume >= 1) clearInterval(fade);
-  }, 100);
-}
-
 // ——— Time category logic ———
 function getCurrentTimeCategory() {
   const now = new Date();
@@ -1575,16 +1597,20 @@ function getCurrentTimeCategory() {
     6: { morning: ["f afternoon","f evening","f evening-late"], afternoon: ["f afternoon","f evening","f evening-late"], "special-show": ["special-mix"], evening: ["f evening","f evening-late","f afternoon"], "evening-late": ["f evening-late","f evening"], late: ["f evening-late","f afternoon"], night: ["jingle-time"] }
   };
 
+  // Helper for overnight ranges
+  function isInRange(hour, start, end) {
+    if (start < end) {
+      return hour >= start && hour < end;
+    } else {
+      return hour >= start || hour < end;
+    }
+  }
+
   let timeKey = "night";
   for (const range of timeRanges) {
-    if (range.start < range.end) {
-      if (currentHour >= range.start && currentHour < range.end) {
-        timeKey = range.key; break;
-      }
-    } else {
-      if (currentHour >= range.start || currentHour < range.end) {
-        timeKey = range.key; break;
-      }
+    if (isInRange(currentHour, range.start, range.end)) {
+      timeKey = range.key;
+      break;
     }
   }
 
@@ -1592,63 +1618,74 @@ function getCurrentTimeCategory() {
   return shuffle([...options])[0];
 }
 
-// ——— Normalize “flavor” categories ———
-function normalizeCategory(cat) {
-  if (typeof cat === "string" && cat.startsWith("f ")) {
-    return cat.slice(2);
-  }
-  return cat || "unknown";
+// ——— Fade-in helper ———
+function fadeIn(audioEl, target = 0.7, step = 0.05, interval = 200) {
+  const fade = setInterval(() => {
+    if (audioEl.volume < target) {
+      audioEl.volume = Math.min(audioEl.volume + step, target);
+    } else {
+      clearInterval(fade);
+    }
+  }, interval);
 }
 
-// ——— Voiceovers ———
-const voiceovers = {
-  morning: "muziek/voiceover/latest disco hits of the eighties.mp3",
-  afternoon: "muziek/discjockeys/DJ Saphire finale.mp3",
-  evening: "muziek/voiceover/Sapphire033.mp3",
-  "evening-late": "muziek/voiceover/Latest Hits Of Dance Area22222.mp3",
-  "special-show": "muziek/discjockeys/DJ Saphire finale.mp3",
-  "jingle-time": "muziek/discjockeys/starten met Sunny4.mp3",
-  late: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3",
-  night: "muziek/discjockeys/starten met Sunny4.mp3",
-  unknown: "muziek/discjockeys/DJ Saphire finale.mp3"
-};
-
-// ——— Playback logic ———
+// ——— Main scheduling logic ———
 window.addEventListener('load', () => {
   const djIntro = document.getElementById('djIntro');
-  const musicplayer = document.getElementById('musicplayer');
+  const djPlayer = document.getElementById('djPlayer');
 
-  if (!djIntro || !musicplayer) {
-    console.error("Missing audio elements.");
-    return;
-  }
+  const weekdaySlots = [
+    { start: 8, end: 14, file: "muziek/voiceover/latest disco hits of the eighties.mp3" },
+    { start: 14, end: 16, file: "muziek/voiceover/latest disco hits of the eighties.mp3" },
+    { start: 16, end: 19, file: "muziek/discjockeys/starten met Sunny4.mp3" },
+    { start: 19, end: 23, file: "muziek/discjockeys/starten met Sunny4.mp3" },
+    { start: 23, end: 3, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" },
+    { start: 3, end: 8, file: "muziek/discjockeys/starten met Sunny4.mp3" }
+  ];
 
-  function playIntroWithMusic(category) {
-    const normalized = normalizeCategory(category);
-    const file = voiceovers[normalized] || voiceovers.unknown;
+  const weekendSlots = [
+    { start: 8, end: 14, file: "muziek/discjockeys/starten met Sunny4.mp3" },
+    { start: 14, end: 16, file: "muziek/discjockeys/DJ Saphire finale.mp3" },
+    { start: 16, end: 19, file: "muziek/voiceover/Sapphire033.mp3" },
+    { start: 19, end: 23, file: "muziek/discjockeys/DJ Saphire finale.mp3" },
+    { start: 23, end: 3, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" },
+    { start: 3, end: 8, file: "muziek/discjockeys/starten met Sunny4.mp3" }
+  ];
 
-    djIntro.src = file;
+  const now = new Date();
+  const currentHour = now.getHours();
+  const currentDay = now.getDay(); // 0 = Sunday, 6 = Saturday
+
+  const isWeekend = currentDay === 0 || currentDay === 6;
+  const schedule = isWeekend ? weekendSlots : weekdaySlots;
+
+  // Use the isInRange helper for overnight slots
+  const currentSlot = schedule.find(slot => {
+    return (slot.start < slot.end)
+      ? currentHour >= slot.start && currentHour < slot.end
+      : currentHour >= slot.start || currentHour < slot.end;
+  });
+
+  if (currentSlot) {
+    djIntro.src = currentSlot.file;
     djIntro.volume = 1.0;
-    musicplayer.volume = 0;
+    djIntro.play().catch(err => console.log("Intro can't autoplay:", err));
 
-    djIntro.play().catch(err => console.warn("DJ intro failed:", err));
-    musicplayer.play().then(() => fadeIn(musicplayer, 5000)).catch(err => console.warn("Musicplayer failed:", err));
+    djIntro.addEventListener('ended', () => {
+      djPlayer.volume = 0;
+      djPlayer.play().catch(err => console.log("Main player can't autoplay:", err));
+      fadeIn(djPlayer, 0.7, 0.05, 200);
+    });
+  } else {
+    djPlayer.volume = 1.0;
+    djPlayer.play().catch(err => console.log("Main player can't autoplay:", err));
   }
-
-  let currentCategory = getCurrentTimeCategory();
-  console.log("Initial category:", currentCategory);
-  playIntroWithMusic(currentCategory);
-
-  setInterval(() => {
-    const updatedCategory = getCurrentTimeCategory();
-    if (updatedCategory !== currentCategory) {
-      console.log(`⏰ Transition: ${currentCategory} → ${updatedCategory}`);
-      currentCategory = updatedCategory;
-      playIntroWithMusic(currentCategory);
-    }
-  }, 15 * 60 * 1000);
 });
 </script>
+
+
+
+
 
 
 
