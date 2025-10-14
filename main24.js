@@ -4301,7 +4301,9 @@ timeCategory: "morning"
     artist: "T-Connection",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/T-Connection - Best of my Love.mp3",
-           timeCategory: "morning"
+           timeCategory: "morning",
+quickFade: true
+
 },
 
 
@@ -4442,7 +4444,9 @@ timeCategory: "morning"
     artist: "Slave ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Slave - Just A Touch (1979).mp3",
-       timeCategory: "morning"
+       timeCategory: "morning",
+quickFade: true
+
 },
 
 
