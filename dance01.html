@@ -1341,7 +1341,7 @@ function playSound(soundIds, label = "Chime") {
     const soundEl = document.getElementById(id);
     if (soundEl) {
       soundEl.currentTime = 0;
-      soundEl.volume = 0.7;
+      soundEl.volume = 0.6;
       soundEl.play().catch(err => console.error("Playback failed:", err));
     }
   });
