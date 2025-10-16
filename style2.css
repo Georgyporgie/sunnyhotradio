@@ -610,6 +610,18 @@ z-index:200;
 }
 
 
+.vinyl-icon {
+  color: #00FFFF;
+  text-shadow: 0 0 8px #00FFFF, 0 0 12px #0033FF;
+}
+
+
+
+.maxi-icon {
+  color: #00FFFF;
+  text-shadow: 0 0 8px #00FFFF, 0 0 12px #0033FF;
+}
+
 
 
 
@@ -1234,4 +1246,53 @@ filter: brightness(100%) saturate(105%) contrast(100%)opacity (70%);
   opacity: 0;
   pointer-events: none;
 }
+
+.blinking-new {
+  animation: blink 1s step-start infinite;
+  color: gold;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+
+.new-tag {
+  font-weight: bold;
+  color: gold;
+}
+
+.blinking-star {
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }<em
+}
+
+
+/* White background + gold text */
+.new-tag {
+  background-color: #fff8dc; /* soft white */
+  color: #b8860b;            /* gold */
+  font-weight: bold;
+  padding: 0 6px;
+  border-radius: 4px;z-index:200;
+}
+
+/* Make only the NEW text smaller */
+.new-text {
+  font-size: 1em;   /* 75% of normal size */
+  /* optional: adds a bit of spacing */
+}
+
+/* Stars keep blinking at full size */
+.blinking-star {
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
 
