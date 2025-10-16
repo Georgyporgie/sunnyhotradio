@@ -325,9 +325,7 @@ body {
 
 
 <script>
-  fetch('event.json')
-  .then(response => response.json())
-  .then(data => {
+
     const now = new Date();
     const todayName = now.toLocaleDateString('en-US', { weekday: 'long' });
     const events = data.schedule[todayName];
@@ -1491,10 +1489,13 @@ function myFunction() {
   }
 }
 
+</script>
+
+<script>
 
 // Example schedule JSON
 const schedule = {
-  "Thursday": [
+  "Friday": [
     { time: "03:00 - 14:00", event: "Morning Disco" },
     { time: "14:00 - 16:00", event: "DJ'S Disco Event" },
     { time: "16:00 - 19:00", event: "Lovely Miss Monique" },
