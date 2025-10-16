@@ -1302,6 +1302,13 @@ document.addEventListener("DOMContentLoaded", () => {
   <source src="muziek/voiceover/AI voice - From The Heart Of Amsterdam3.mp3" type="audio/mp3">
 </audio>
 
+
+<audio id="thirtySevenMinuteSou">
+  <source src="muziek/voiceover/From The Heart Of Amsterdam.mp3" type="audio/mp3">
+</audio>
+
+
+
 <audio id="fortyFiveMinuteSou">
   <source src="" type="audio/mp3">
 </audio>
@@ -1368,12 +1375,17 @@ function playSound(soundIds, label = "Chime") {
 
 // Every 25 minutes
 var twentyFiveMinuteDelay = (25 - (now.getMinutes() % 25)) * 60 * 1000 - now.getSeconds() * 1000;
-
 setTimeout(function() {
   playSound(["twentyFiveMinuteSou"]); // or rename to "twentyFiveMinuteSou" for clarity
   setInterval(() => playSound(["twentyFiveMinuteSou"]), 1500000); // 25 * 60 * 1000 = 1,500,000 ms
 }, twentyFiveMinuteDelay);
 
+// Every 37 minutes
+var thirtySevenMinuteDelay = (37 - (now.getMinutes() % 37)) * 60 * 1000 - now.getSeconds() * 1000;
+setTimeout(function() {
+  playSound(["thirtySevenMinuteSou"]); // or rename to "thirtySevenMinuteSou" for clarity
+  setInterval(() => playSound(["thirtySevenMinuteSou"]), 2,220,000); // 37 * 60 * 1000 = 2,220,000 ms
+}, thirtySevenMinuteDelay);
 
   }
 
@@ -1660,7 +1672,7 @@ const weekdaySlots = [
     { start: 16, end: 19, file: "muziek/voiceover/starten met Sunny.mp3" },
     { start: 19, end: 23, file: "muziek/voiceover/starten met Sunny.mp3" },
     { start: 23, end: 3, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" },
-    { start: 3, end: 8, file: "muziek/discjockeys/starten met Sunny4.mp3" }
+    { start: 3, end: 8, file: "muziek/voiceover/latest disco hits of the eighties.mp3" }
   ];
 
   const weekendSlots = [
