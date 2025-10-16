@@ -317,11 +317,12 @@ body {
 <br>
 
 <h5 id="events">
-
 <div id="program-progress-container">
   <div id="program-progress"></div>
 </div>
 <div id="program-label"></div>
+
+
 
 <script>
   fetch('event.json')
@@ -352,89 +353,7 @@ body {
   })
   .catch(error => console.error('Error loading events:', error));
 
-
-
-
-
-// Example schedule JSON
-const schedule = {
-  "Thursday": [
-    { time: "03:00 - 14:00", event: "Morning Disco" },
-    { time: "14:00 - 16:00", event: "DJ'S Disco Event" },
-    { time: "16:00 - 19:00", event: "Lovely Miss Monique" },
-    { time: "19:00 - 23:00", event: "Sapphire Live!" }
-  ],
-  "Saturday": [
-    { time: "03:00 - 14:00", event: "Morning Disco" },
-    { time: "14:00 - 16:00", event: "Sonny Fodera Mix!" },
-    { time: "16:00 - 21:00", event: "Miss Monique Live!" },
-    { time: "21:00 - 23:00", event: "Lovely DJ Sapphire!" }
-  ],
-  "Sunday": [
-    { time: "03:00 - 14:00", event: "Morning Disco" },
-    { time: "14:00 - 16:00", event: "DJ'S Disco Event" },
-    { time: "16:00 - 21:00", event: "Miss Monique Live!" },
-    { time: "21:00 - 23:00", event: "Lovely DJ Sapphire!" }
-  ]
-};
-
-function startProgramProgress() {
-  const dayNames = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-  const now = new Date();
-  const todayName = dayNames[now.getDay()];
-  const todaySchedule = schedule[todayName];
-  if (!todaySchedule) return;
-
-  // Find current program
-  const current = todaySchedule.find(item => {
-    const [startStr, endStr] = item.time.split(" - ");
-    const start = parseTime(startStr);
-    const end = parseTime(endStr);
-    return now >= start && now < end;
-  });
-
-  if (!current) return;
-
-  const [startStr, endStr] = current.time.split(" - ");
-  const start = parseTime(startStr);
-  const end = parseTime(endStr);
-
-  const bar = document.getElementById("program-progress");
-  const labelEl = document.getElementById("program-label");
-
-  function updateBar() {
-    const now = new Date();
-    const total = end - start;
-    const remaining = end - now;
-    const percent = Math.max(0, (remaining / total) * 100);
-
-    bar.style.width = percent + "%";
-
-    const minutesLeft = Math.max(0, Math.floor(remaining / 60000));
-    labelEl.textContent = `${current.event} — ${minutesLeft} min left`;
-
-    if (remaining <= 0) {
-      clearInterval(timer);
-      labelEl.textContent = `${current.event} finished`;
-    }
-  }
-
-  updateBar();
-  const timer = setInterval(updateBar, 1000);
-}
-
-// Helper: parse "HH:MM" into Date today
-function parseTime(str) {
-  const [h, m] = str.split(":").map(Number);
-  const d = new Date();
-  d.setHours(h, m, 0, 0);
-  return d;
-}
-
-// Kick it off
-document.addEventListener("DOMContentLoaded", startProgramProgress);
 </script>
-
 
 </h5>
 
@@ -1573,47 +1492,84 @@ function myFunction() {
 }
 
 
+// Example schedule JSON
+const schedule = {
+  "Thursday": [
+    { time: "03:00 - 14:00", event: "Morning Disco" },
+    { time: "14:00 - 16:00", event: "DJ'S Disco Event" },
+    { time: "16:00 - 19:00", event: "Lovely Miss Monique" },
+    { time: "19:00 - 23:00", event: "Sapphire Live!" }
+  ],
+  "Saturday": [
+    { time: "03:00 - 14:00", event: "Morning Disco" },
+    { time: "14:00 - 16:00", event: "Sonny Fodera Mix!" },
+    { time: "16:00 - 21:00", event: "Miss Monique Live!" },
+    { time: "21:00 - 23:00", event: "Lovely DJ Sapphire!" }
+  ],
+  "Sunday": [
+    { time: "03:00 - 14:00", event: "Morning Disco" },
+    { time: "14:00 - 16:00", event: "DJ'S Disco Event" },
+    { time: "16:00 - 21:00", event: "Miss Monique Live!" },
+    { time: "21:00 - 23:00", event: "Lovely DJ Sapphire!" }
+  ]
+};
 
-function generateSchedule() {
-    const today = new Date();
-    const schedule = {};
-    const weekendDays = [5, 6, 0]; // Friday (5), Saturday (6), Sunday (0)
-    
-    const events = {
-        5: [ // Friday
-            { time: "03:00 - 12:00", event: "Morning Disco" },
-            { time: "12:00 - 17:00", event: "Afternoon Vibes" },
-            { time: "17:00 - 21:00", event: "Let It Happen!" },
-            { time: "21:00 - 23:00", event: "Sunny's Happening" }
-        ],
-        6: [ // Saturday
-            { time: "03:00 - 12:00", event: "Morning Disco" },
-            { time: "12:00 - 17:00", event: "DJ Sapphire Live Set" },
-            { time: "17:00 - 21:00", event: "Love Sapphire!" },
-            { time: "21:00 - 23:00", event: "Sapphire's Shot" }
+function startProgramProgress() {
+  const dayNames = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  const now = new Date();
+  const todayName = dayNames[now.getDay()];
+  const todaySchedule = schedule[todayName];
+  if (!todaySchedule) return;
 
-        ],
-        0: [ // Sunday
-            { time: "03:00 - 12:00", event: "Morning Disco" },
-            { time: "12:00 - 17:00", event: "DJ'S Disco Event" },
-            { time: "17:00 - 21:00", event: "It's 'S" },
-            { time: "21:00 - 23:00", event: "Let's Say 'S!" }
+  // Find current program
+  const current = todaySchedule.find(item => {
+    const [startStr, endStr] = item.time.split(" - ");
+    const start = parseTime(startStr);
+    const end = parseTime(endStr);
+    return now >= start && now < end;
+  });
 
-        ]
-    };
+  if (!current) return;
 
-    for (let i = 1; i <= 7; i++) {
-        let date = new Date();
-        date.setDate(today.getDate() + i);
-        let dayOfWeek = date.getDay();
+  const [startStr, endStr] = current.time.split(" - ");
+  const start = parseTime(startStr);
+  const end = parseTime(endStr);
 
-        if (weekendDays.includes(dayOfWeek)) {
-            schedule[date.toISOString().split("T")[0]] = events[dayOfWeek];
-        }
+  const bar = document.getElementById("program-progress");
+  const labelEl = document.getElementById("program-label");
+
+  function updateBar() {
+    const now = new Date();
+    const total = end - start;
+    const remaining = end - now;
+    const percent = Math.max(0, (remaining / total) * 100);
+
+    bar.style.width = percent + "%";
+
+    const minutesLeft = Math.max(0, Math.floor(remaining / 60000));
+    labelEl.textContent = `${current.event} — ${minutesLeft} min left`;
+
+    if (remaining <= 0) {
+      clearInterval(timer);
+      labelEl.textContent = `${current.event} finished`;
     }
+  }
 
-    return schedule;
+  updateBar();
+  const timer = setInterval(updateBar, 1000);
 }
+
+// Helper: parse "HH:MM" into Date today
+function parseTime(str) {
+  const [h, m] = str.split(":").map(Number);
+  const d = new Date();
+  d.setHours(h, m, 0, 0);
+  return d;
+}
+
+// Kick it off
+document.addEventListener("DOMContentLoaded", startProgramProgress);
+
 
 // console.log("Generated Schedule:", JSON.stringify(generateSchedule(), null, 2));
 // console.log("Loading track:", scheduledMp3Files[track_index].name, "-", scheduledMp3Files[track_index].artist);
