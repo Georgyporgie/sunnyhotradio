@@ -317,6 +317,12 @@ body {
 <br>
 
 <h5 id="events">
+
+<div id="program-progress-container">
+  <div id="program-progress"></div>
+</div>
+<div id="program-label"></div>
+
 <script>
   fetch('event.json')
   .then(response => response.json())
@@ -346,7 +352,89 @@ body {
   })
   .catch(error => console.error('Error loading events:', error));
 
+
+
+
+
+// Example schedule JSON
+const schedule = {
+  "Thursday": [
+    { time: "03:00 - 14:00", event: "Morning Disco" },
+    { time: "14:00 - 16:00", event: "DJ'S Disco Event" },
+    { time: "16:00 - 19:00", event: "Lovely Miss Monique" },
+    { time: "19:00 - 23:00", event: "Sapphire Live!" }
+  ],
+  "Saturday": [
+    { time: "03:00 - 14:00", event: "Morning Disco" },
+    { time: "14:00 - 16:00", event: "Sonny Fodera Mix!" },
+    { time: "16:00 - 21:00", event: "Miss Monique Live!" },
+    { time: "21:00 - 23:00", event: "Lovely DJ Sapphire!" }
+  ],
+  "Sunday": [
+    { time: "03:00 - 14:00", event: "Morning Disco" },
+    { time: "14:00 - 16:00", event: "DJ'S Disco Event" },
+    { time: "16:00 - 21:00", event: "Miss Monique Live!" },
+    { time: "21:00 - 23:00", event: "Lovely DJ Sapphire!" }
+  ]
+};
+
+function startProgramProgress() {
+  const dayNames = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  const now = new Date();
+  const todayName = dayNames[now.getDay()];
+  const todaySchedule = schedule[todayName];
+  if (!todaySchedule) return;
+
+  // Find current program
+  const current = todaySchedule.find(item => {
+    const [startStr, endStr] = item.time.split(" - ");
+    const start = parseTime(startStr);
+    const end = parseTime(endStr);
+    return now >= start && now < end;
+  });
+
+  if (!current) return;
+
+  const [startStr, endStr] = current.time.split(" - ");
+  const start = parseTime(startStr);
+  const end = parseTime(endStr);
+
+  const bar = document.getElementById("program-progress");
+  const labelEl = document.getElementById("program-label");
+
+  function updateBar() {
+    const now = new Date();
+    const total = end - start;
+    const remaining = end - now;
+    const percent = Math.max(0, (remaining / total) * 100);
+
+    bar.style.width = percent + "%";
+
+    const minutesLeft = Math.max(0, Math.floor(remaining / 60000));
+    labelEl.textContent = `${current.event} — ${minutesLeft} min left`;
+
+    if (remaining <= 0) {
+      clearInterval(timer);
+      labelEl.textContent = `${current.event} finished`;
+    }
+  }
+
+  updateBar();
+  const timer = setInterval(updateBar, 1000);
+}
+
+// Helper: parse "HH:MM" into Date today
+function parseTime(str) {
+  const [h, m] = str.split(":").map(Number);
+  const d = new Date();
+  d.setHours(h, m, 0, 0);
+  return d;
+}
+
+// Kick it off
+document.addEventListener("DOMContentLoaded", startProgramProgress);
 </script>
+
 
 </h5>
 
