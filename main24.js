@@ -2082,8 +2082,8 @@ quickFade: true
     artist: "Technotronic ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Technotronic - Pump Up The Jam.mp3",
-      timeCategory: "morning"
-
+      timeCategory: "morning",
+quickFade: true
 
 },
 
@@ -9733,7 +9733,8 @@ quickFade: true
     artist: "Technotronic ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Technotronic - Pump Up The Jam.mp3",
-      timeCategory: "evening"
+      timeCategory: "evening",
+quickFade: true
 },
 
 
@@ -9743,7 +9744,8 @@ quickFade: true
     artist: "Miley Cyrus",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Miley Cyrus - Slide Away.mp3",
-            timeCategory: "evening"
+            timeCategory: "evening",
+quickFade: true
 },
 
 
@@ -16791,7 +16793,8 @@ timeCategory: "evening-late"
     artist: "Spiller ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/Spiller - Groovejet.mp3",
-      timeCategory: "evening-late"
+      timeCategory: "evening-late",
+quickFade: true
 },
 
 
@@ -17075,8 +17078,8 @@ timeCategory: "evening-late"
     artist: "Cheri ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Cheri -Murphys Law.mp3",
-    timeCategory: "evening-late"
-
+    timeCategory: "evening-late",
+ quickFade: true
 
 },
 
@@ -18371,7 +18374,8 @@ timeCategory: "evening-late"
     artist: "Lipps Inc. ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Lipps Inc. - Funkytown (1980).mp3",
-  timeCategory: "evening-late"
+  timeCategory: "evening-late",
+quickFade: true
 },
 
 
@@ -19959,7 +19963,8 @@ quickFade: true
     artist: "Lipps Inc. ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Lipps Inc. - Funkytown (1980).mp3",
-  timeCategory: "f afternoon"
+  timeCategory: "f afternoon",
+quickFade: true
 
 },
 
@@ -23032,17 +23037,44 @@ applyBlinkingEffect();
 
 
 
-
-
-    // ===== Keyword highlighting =====
 function emphasizeKeywords(text) {
-  return text.replace(/(classic|maxi|12inch|new|\b\d{4}\b)/gi, function(match) {
-    if (match.toLowerCase() === '(new)') {
-      return '<em class="blinking-new">' + match + '</em>';
+  return text.replace(/(classic|maxi|12inch|\(new\)|\b\d{4}\b)/gi, function(match) {
+    const lower = match.toLowerCase();
+
+ if (lower === '(new)') {
+  return `
+    <span class="new-tag">
+      ( <span class="blinking-star">🌟</span> 
+        <span class="new-text">NEW</span> 
+      <span class="blinking-star">🌟</span> )
+    </span>
+  `;
+}
+
+    if (lower === '12inch') {
+      return '<span class="vinyl-icon">💿 12"</span>';
     }
+    if (lower === 'maxi') {
+      return '<span class="maxi-icon">📀 Maxi</span>';
+    }
+
     return '<em>' + match + '</em>';
   });
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // ===== Playlist rendering =====
 const tracksToDisplayInitially = 10; // Number of tracks initially visible
