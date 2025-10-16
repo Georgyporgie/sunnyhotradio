@@ -46,8 +46,13 @@
     filter: brightness(100%)saturation(100%) contrast(100%) opacity(50%);
 transform: rotate(20deg);
 z-index:-400;
+animation: blink 1s step-start infinite;
+}
 
-
+@keyframes blink {
+  50% { opacity: 0; }
+}
+}
 
 
 
