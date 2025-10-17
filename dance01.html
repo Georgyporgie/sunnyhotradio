@@ -257,8 +257,50 @@ body {
 </div>
 
 
+<div id="clock-flash"></div>
+
+<script>
+function getClockEmoji(hour) {
+  const h = hour % 12 === 0 ? 12 : hour % 12;
+  const map = {
+    1: "🕐", 2: "🕑", 3: "🕒", 4: "🕓", 5: "🕔", 6: "🕕",
+    7: "🕖", 8: "🕗", 9: "🕘", 10: "🕙", 11: "🕚", 12: "🕛"
+  };
+  return map[h] || "🕰️";
+}
+
+function flashClock(hour) {
+  const flashEl = document.getElementById("clock-flash");
+  flashEl.textContent = getClockEmoji(hour);
+  flashEl.classList.add("show");
+
+  setTimeout(() => {
+    flashEl.classList.remove("show");
+  }, 3000); // visible for 3s
+}
 
 
+function scheduleHourlyFlash() {
+  const now = new Date();
+  const nextHour = new Date(now);
+  nextHour.setHours(now.getHours() + 1, 0, 0, 0);
+  const delay = nextHour - now;
+
+  setTimeout(() => {
+    triggerFlash();
+    setInterval(triggerFlash, 3600000); // every hour
+  }, delay);
+}
+
+function triggerFlash() {
+  const hour = new Date().getHours();
+  flashClock(hour);
+  console.log(`${getClockEmoji(hour)} DJ Brain: It's ${hour}:00 sharp!`);
+}
+
+// Kick it off
+document.addEventListener("DOMContentLoaded", scheduleHourlyFlash);
+</script>
 
 
 <br>
@@ -589,16 +631,6 @@ window.setInterval(startTime, 1000);
 
 
 
-<!-- Add this somewhere in your page -->
-<div id="chimeOverlay" style="
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  font-size: 2rem;
-  opacity: 0;
-  transition: opacity 0.6s ease;
-  pointer-events: none;
-"></div>
 
 
 
@@ -1319,29 +1351,7 @@ document.addEventListener("DOMContentLoaded", () => {
     audio.addEventListener("canplay", () => adjustVolumeDynamically(audio));
   });
 
-function playSound(soundIds, label = "Chime") {
-  const now = new Date();
-  const timeStr = now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit', second:'2-digit'});
 
-  // Pick an emoji based on the current minute
-  let emoji = "🕒";
-  const m = now.getMinutes();
-  if (m === 0) emoji = "🕛";
-  else if (m === 15) emoji = "🕒";
-  else if (m === 25) emoji = "🕟";
-  else if (m === 45) emoji = "🕞";
-
-  console.log(`${emoji} ${label} at ${timeStr}`);
-
-  // 🔔 Show emoji overlay on the page
-  const overlay = document.getElementById("chimeOverlay");
-  if (overlay) {
-    overlay.textContent = emoji;
-    overlay.style.opacity = 1;
-    setTimeout(() => {
-      overlay.style.opacity = 0;
-    }, 1500); // fade out after 1.5s
-  }
 
   // Play the sound(s)
   soundIds.forEach(id => {
@@ -1612,7 +1622,7 @@ function getCurrentTimeCategory() {
     { key: "evening", start: 16, end: 19 },
     { key: "evening-late", start: 19, end: 23 },
     { key: "late", start: 23, end: 3 },
-    { key: "night", start: 1, end: 8 }
+    { key: "night", start: 3, end: 8 }
   ];
 
   const categoriesPerDay = {
@@ -1739,6 +1749,158 @@ function playIntroWithOverlap(file) {
   });
 }
 </script>
+
+
+<style>
+  .badge {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+    padding: 0.6rem 0.8rem;
+    border-radius: 12px;
+    color: #333333;
+    background-color: transparent;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.35);
+    font: 600 14px/1.2 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto;
+    width: 200px;
+    z-index: 9999;
+  }
+  .badge-icon { margin-right: 0.4rem; }
+  .badge-label { white-space: nowrap; }
+  .progress {
+    width: 100%;
+    height: 6px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .progress-bar {
+    height: 100%;
+    width: 0%;
+    background: #6ea8ff;
+    transition: width 1s linear;
+  }
+</style>
+
+<!-- Time-block badge with progress bar -->
+<div id="timeBadge" class="badge" aria-live="polite" aria-atomic="true">
+  <span class="badge-icon">🕒</span>
+  <span class="badge-label">Loading…</span>
+  <div class="progress">
+    <div class="progress-bar"></div>
+  </div>
+</div>
+
+<script>
+function getTimeBounds(range) {
+  const now = new Date();
+  let start = new Date(now);
+  let end = new Date(now);
+  start.setHours(range.start, 0, 0, 0);
+  end.setHours(range.end, 0, 0, 0);
+  if (range.start > range.end) {
+    if (now.getHours() >= range.start) end.setDate(end.getDate() + 1);
+    else start.setDate(start.getDate() - 1);
+  }
+  return { start, end };
+}
+
+const badgeMeta = {
+  morning: { icon: "🌅", label: "Morning" },
+  afternoon: { icon: "☀️", label: "Afternoon" },
+  evening: { icon: "🌇", label: "Evening" },
+  "evening-late": { icon: "🌃", label: "Evening Late" },
+  night: { icon: "🌙", label: "Night" },
+  late: { icon: "🦉", label: "Late" },
+  "special-show": { icon: "🎛️", label: "Special Show" },
+  "jingle-time": { icon: "🔔", label: "Jingle Time" },
+  unknown: { icon: "🕒", label: "On Air" }
+};
+
+const aliases = {
+  morning: ["Morning Rise", "Sunrise Grooves", "Early Light"],
+  afternoon: ["Afternoon Flow", "Daylight Beats", "Sunny Sessions"],
+  evening: ["Evening Groove", "Evening Flow", "Evening Pulse"],
+  "evening-late": ["Late Evening Lights", "Twilight Grooves", "Sundown Sessions"],
+  night: ["Night Drift", "Moonlight Mix", "Starlight Sessions"],
+  late: ["Owl Hours", "Midnight Frequencies", "After Hours"],
+  "special-show": ["Special Mix", "Spotlight Session", "Feature Hour"],
+  "jingle-time": ["Jingle Time", "Station ID", "Bumper Beats"]
+};
+
+let cachedAlias = null;
+
+function getAlias(category) {
+  if (cachedAlias && cachedAlias.category === category) {
+    return cachedAlias.label;
+  }
+  if (aliases[category]) {
+    const list = aliases[category];
+    const label = list[Math.floor(Math.random() * list.length)];
+    cachedAlias = { category, label };
+    return label;
+  }
+  return badgeMeta[category]?.label || category;
+}
+
+// Example ranges (adjust to your station’s schedule)
+const timeRanges = [
+  { key: "morning", start: 6, end: 12 },
+  { key: "afternoon", start: 12, end: 17 },
+  { key: "evening", start: 17, end: 21 },
+  { key: "evening-late", start: 21, end: 23 },
+  { key: "night", start: 23, end: 2 },
+  { key: "late", start: 2, end: 6 }
+];
+
+function updateTimeBadge(categoryKey) {
+  const badge = document.getElementById("timeBadge");
+  if (!badge) return;
+  const meta = badgeMeta[categoryKey] || badgeMeta.unknown;
+  const range = timeRanges.find(r => r.key === categoryKey) || timeRanges.find(r => r.key === "night");
+  const { start, end } = getTimeBounds(range);
+
+  const now = new Date();
+  const total = end - start;
+  const elapsed = now - start;
+  const remaining = end - now;
+
+  const hours = Math.floor(remaining / 3600000);
+  const mins = Math.floor((remaining % 3600000) / 60000);
+
+  badge.querySelector(".badge-icon").textContent = meta.icon;
+  const label = getAlias(categoryKey);
+  badge.querySelector(".badge-label").textContent =
+    `${label} · ${hours > 0 ? hours + "h " : ""}${mins}m left`;
+
+  const percent = Math.max(0, Math.min(100, (elapsed / total) * 100));
+  badge.querySelector(".progress-bar").style.width = percent + "%";
+}
+
+function getCurrentCategory() {
+  const nowHour = new Date().getHours();
+  return timeRanges.find(r =>
+    (r.start <= r.end && nowHour >= r.start && nowHour < r.end) ||
+    (r.start > r.end && (nowHour >= r.start || nowHour < r.end))
+  )?.key || "unknown";
+}
+
+function startBadgeLoop() {
+  function tick() {
+    const cat = getCurrentCategory();
+    updateTimeBadge(cat);
+  }
+  tick();
+  setInterval(tick, 60000);
+}
+
+document.addEventListener("DOMContentLoaded", startBadgeLoop);
+</script>
+
 
 
 

@@ -1295,3 +1295,28 @@ filter: brightness(100%) saturate(105%) contrast(100%)opacity (70%);
   50% { opacity: 0; }
 }
 
+
+
+#clock-flash {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 8rem;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 9999;   /* 👈 ensures it's above all other elements */
+}
+
+#clock-flash.show {
+  opacity: 1;
+  animation: bounce 1s ease infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translate(-50%, -50%) scale(1); }
+  50% { transform: translate(-50%, -50%) scale(1.2); }
+}
+
+
+
