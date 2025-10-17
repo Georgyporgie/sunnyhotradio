@@ -4738,13 +4738,6 @@ quickFade: true
 
 
 
-{
-    name: "All This Time(new) ",
-    artist: "Sonny Fodera & Jazzy  ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/Sonny Fodera & Jazzy - All This Time.mp3",
-       timeCategory: "afternoon"
-},
 
 
 
@@ -8403,13 +8396,6 @@ quickFade: true
 
 
 
-{
-     name: "  All This Time (new)",
-    artist: "Sonny Fodera & Jazzy",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Sonny Fodera & Jazzy - All This Time.mp3",
-    timeCategory: "afternoon"
-},
 
 
 {
@@ -8663,8 +8649,8 @@ quickFade: true
 
 
 {
-     name: "  All This Time (new) ",
-    artist: "Sonny Fodera & Jazzy",
+     name: "  In Love ",
+    artist: "Minellli & Inna",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Minellli & Inna - In Love.mp3",
     timeCategory: "evening"
@@ -20337,6 +20323,14 @@ quickFade: true
 },
 
 
+
+{
+     name: "  All This Time (new)",
+    artist: "Sonny Fodera & Jazzy",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Sonny Fodera & Jazzy - All This Time.mp3",
+    timeCategory: "f evening"
+},
 
 
 
