@@ -1796,15 +1796,17 @@ function playIntroWithOverlap(file) {
 </div>
 
 <script>
+// --- Helpers ---
 function getTimeBounds(range) {
   const now = new Date();
   let start = new Date(now);
   let end = new Date(now);
-  start.setHours(range.start, 0, 0, 0);
-  end.setHours(range.end, 0, 0, 0);
+  start.setHours(range.start,0,0,0);
+  end.setHours(range.end,0,0,0);
   if (range.start > range.end) {
-    if (now.getHours() >= range.start) end.setDate(end.getDate() + 1);
-    else start.setDate(start.getDate() - 1);
+    // wrap past midnight
+    if (now.getHours() >= range.start) end.setDate(end.getDate()+1);
+    else start.setDate(start.getDate()-1);
   }
   return { start, end };
 }
@@ -1860,12 +1862,13 @@ const timeRanges = [
 function updateTimeBadge(categoryKey) {
   const badge = document.getElementById("timeBadge");
   if (!badge) return;
+
   const meta = badgeMeta[categoryKey] || badgeMeta.unknown;
-  const range = timeRanges.find(r => r.key === categoryKey) || timeRanges.find(r => r.key === "night");
+  const range = timeRanges.find(r => r.key === categoryKey) || timeRanges.find(r => r.key==="night");
   const { start, end } = getTimeBounds(range);
 
   const now = new Date();
-  const total = end - start;
+  const total = Math.max(1, end - start);
   const elapsed = now - start;
   const remaining = end - now;
 
@@ -1873,16 +1876,15 @@ function updateTimeBadge(categoryKey) {
   const mins = Math.floor((remaining % 3600000) / 60000);
 
   badge.querySelector(".badge-icon").textContent = meta.icon;
-  const label = getAlias(categoryKey);
   badge.querySelector(".badge-label").textContent =
-    `${label} · ${hours > 0 ? hours + "h " : ""}${mins}m left`;
+    `${meta.label} · ${hours > 0 ? hours + "h " : ""}${mins}m left`;
 
   const percent = Math.max(0, Math.min(100, (elapsed / total) * 100));
   badge.querySelector(".progress-bar").style.width = percent + "%";
 }
 
 function getCurrentCategory() {
-  const nowHour = new Date().getHours();
+  const nowHour = new Date().getHours(); // LOCAL hour
   return timeRanges.find(r =>
     (r.start <= r.end && nowHour >= r.start && nowHour < r.end) ||
     (r.start > r.end && (nowHour >= r.start || nowHour < r.end))
@@ -1895,7 +1897,7 @@ function startBadgeLoop() {
     updateTimeBadge(cat);
   }
   tick();
-  setInterval(tick, 60000);
+  setInterval(tick, 60000); // update every minute
 }
 
 document.addEventListener("DOMContentLoaded", startBadgeLoop);
