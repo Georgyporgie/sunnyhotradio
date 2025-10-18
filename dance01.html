@@ -1351,7 +1351,7 @@ document.addEventListener("DOMContentLoaded", () => {
     audio.addEventListener("canplay", () => adjustVolumeDynamically(audio));
   });
 
-
+</script>
 
 <script>
 function playSound(soundIds) {
@@ -1371,28 +1371,31 @@ function scheduleSounds() {
   const now = new Date();
 
   // Hourly
-  const hourlyDelay = (60 - now.getMinutes())*60000 - now.getSeconds()*1000;
+  const hourlyDelay = ((60 - now.getMinutes()) * 60 - now.getSeconds()) * 1000;
   setTimeout(() => {
     playSound(["hourlySou"]);
     setInterval(() => playSound(["hourlySou"]), 3600000);
   }, hourlyDelay);
 
   // Every 15 minutes
-  const quarterHourDelay = (15 - (now.getMinutes() % 15))*60000 - now.getSeconds()*1000;
+  const minsToQuarter = 15 - (now.getMinutes() % 15);
+  const quarterHourDelay = ((minsToQuarter === 15 ? 0 : minsToQuarter) * 60 - now.getSeconds()) * 1000;
   setTimeout(() => {
     playSound(["quarterHourSou"]);
     setInterval(() => playSound(["quarterHourSou"]), 900000);
   }, quarterHourDelay);
 
   // Every 25 minutes
-  const twentyFiveDelay = (25 - (now.getMinutes() % 25))*60000 - now.getSeconds()*1000;
+  const minsTo25 = 25 - (now.getMinutes() % 25);
+  const twentyFiveDelay = ((minsTo25 === 25 ? 0 : minsTo25) * 60 - now.getSeconds()) * 1000;
   setTimeout(() => {
     playSound(["twentyFiveMinuteSou"]);
     setInterval(() => playSound(["twentyFiveMinuteSou"]), 1500000);
   }, twentyFiveDelay);
 
   // Every 37 minutes
-  const thirtySevenDelay = (37 - (now.getMinutes() % 37))*60000 - now.getSeconds()*1000;
+  const minsTo37 = 37 - (now.getMinutes() % 37);
+  const thirtySevenDelay = ((minsTo37 === 37 ? 0 : minsTo37) * 60 - now.getSeconds()) * 1000;
   setTimeout(() => {
     playSound(["thirtySevenMinuteSou"]);
     setInterval(() => playSound(["thirtySevenMinuteSou"]), 2220000);
@@ -1401,6 +1404,7 @@ function scheduleSounds() {
 
 window.onload = scheduleSounds;
 </script>
+
 
 
 
