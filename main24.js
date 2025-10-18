@@ -10389,7 +10389,7 @@ quickFade: true
 
 
 {
-    name: " I Hear Music",
+    name: " I Hear Music (1980)",
     artist: "Unlimited Touch ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Unlimited Touch - I hear music.mp3",
@@ -18876,13 +18876,6 @@ quickFade: true
 
 
 
-{
-    name: "Cherry (new)",
-    artist: "  Naomi Scott",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Naomi Scott - Cherry.mp3",
-       timeCategory: "evening-late"
-},
 
 
 
@@ -19131,13 +19124,7 @@ quickFade: true
 
 
 
-{
-    name: "Cherry  (new)",
-    artist: "  Naomi Scott",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Naomi Scott - Cherry.mp3",
-       timeCategory: "f afternoon"
-},
+
 
 
 
@@ -20286,13 +20273,7 @@ quickFade: true
 
 },
 
-{
-    name: "Cherry  (new)",
-    artist: "  Naomi Scott",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Naomi Scott - Cherry.mp3",
-       timeCategory: "f evening"
-},
+
 
 
 {
@@ -21745,13 +21726,7 @@ quickFade: true
 
 
 
-{
-    name: "Cherry  (new)",
-    artist: "  Naomi Scott",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Naomi Scott - Cherry.mp3",
-       timeCategory: "f evening-late"
-},
+
 
 
 {
@@ -22002,7 +21977,7 @@ quickFade: true
 
 
 {
-    name: "Scandalous(new)   ",
+    name: "Scandalous (new)   ",
     artist: " Griffin Tinashe ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Griffin Tinashe - Scandalous.mp3",
