@@ -987,19 +987,26 @@ document.addEventListener("DOMContentLoaded", () => {
   scheduleRangeSwap();
 });
 
-
 function adjustVolumeDynamically(audioElement, targetVolume = 0.8, maxThreshold = 1) {
-    const tolerance = 0.01;
-    audioElement.addEventListener("timeupdate", () => {
-        if (Math.abs(audioElement.volume - targetVolume) > tolerance) {
-            if (audioElement.volume < targetVolume) {
-                audioElement.volume = Math.min(maxThreshold, audioElement.volume + 0.01);
-            } else {
-                audioElement.volume = Math.max(0, audioElement.volume - 0.01);
-            }
-        }
-    });
+  if (audioElement._volumeAdjusting) return; // prevent duplicates
+  audioElement._volumeAdjusting = true;
+
+  const tolerance = 0.01;
+  const step = 0.01;
+  const interval = setInterval(() => {
+    if (Math.abs(audioElement.volume - targetVolume) <= tolerance) {
+      clearInterval(interval);
+      audioElement._volumeAdjusting = false;
+      return;
+    }
+    if (audioElement.volume < targetVolume) {
+      audioElement.volume = Math.min(maxThreshold, audioElement.volume + step);
+    } else {
+      audioElement.volume = Math.max(0, audioElement.volume - step);
+    }
+  }, 100); // adjust every 100ms
 }
+
 
 
 
