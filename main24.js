@@ -335,6 +335,13 @@ let trackList = [
 
 
 
+{
+     name: "   Cherry",
+    artist: "Naomi Scott ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Naomi Scott - Cherry.mp3",
+    timeCategory: "afternoon"
+},
 
 
 
@@ -2421,15 +2428,6 @@ quickFade: true
 
 
 
-
-{
-    name: "   Disconnect",
-    artist: "Becky Hill ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/Becky Hill - Disconnect.mp3",
-    timeCategory: "morning"
-
-},
 
 
 
