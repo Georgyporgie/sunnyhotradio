@@ -3921,16 +3921,6 @@ timeCategory: "morning"
 
 
 
-{
-    name: " In The Forest (1980)",
-    artist: " Baby O  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Baby O - In The Forest.mp3",
-  
-
-
-      timeCategory: "morning"
-},
 
 
 
@@ -5194,7 +5184,8 @@ quickFade: true
     artist: "Keith Sweat ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Keith Sweat - I Want Her.mp3",
-   timeCategory: "afternoon"
+   timeCategory: "afternoon",
+quickFade: true
 },
 
 
@@ -5957,7 +5948,8 @@ quickFade: true
     artist: "Phyllis Hyman  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Phyllis Hyman - You Know How To Love Me (12inch).mp3",
-  timeCategory: "afternoon"
+  timeCategory: "afternoon",
+quickFade: true
 },
 
 
@@ -19172,7 +19164,7 @@ quickFade: true
 
 
 {
-    name: " No Broke Boys(new) ",
+    name: " No Broke Boys ",
     artist: " Disco Lines & Tinashe ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Disco Lines & Tinashe - No Broke Boys.mp3",
@@ -20116,8 +20108,8 @@ quickFade: true
 
 
 {
-    name: " Neneh Cherry ",
-    artist: "Buffalo Stance ",
+    name: " Buffalo Stance ",
+    artist: "Neneh Cherry ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Buffalo Stance - Neneh Cherry.mp3",
     timeCategory: "f afternoon",
@@ -20208,7 +20200,7 @@ quickFade: true
 
 
 {
-    name: " No Broke Boys(new) ",
+    name: " No Broke Boys",
     artist: " Disco Lines & Tinashe ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Disco Lines & Tinashe - No Broke Boys.mp3",
