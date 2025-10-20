@@ -1746,19 +1746,26 @@ function playIntroWithOverlap(file) {
 
   djPlayer.volume = 0;
 
-  djIntro.play().catch(err => console.warn("Intro failed:", err));
-
-  // Start music fade-in 3s before intro ends
-  djIntro.addEventListener('timeupdate', function overlapHandler() {
-    if (djIntro.duration && djIntro.currentTime >= djIntro.duration - 3) {
-      djIntro.removeEventListener('timeupdate', overlapHandler);
-      djPlayer.play()
-        .then(() => fadeIn(djPlayer, 0.7, 0.05, 200))
-        .catch(err => console.warn("Music failed:", err));
-    }
-  });
+  // Delay intro playback by 4 seconds
+  setTimeout(() => {
+    djIntro.play()
+      .then(() => {
+        // Attach overlap handler only once playback has started
+        djIntro.addEventListener('timeupdate', function overlapHandler() {
+          if (djIntro.duration && djIntro.currentTime >= djIntro.duration - 3) {
+            djIntro.removeEventListener('timeupdate', overlapHandler);
+            djPlayer.play()
+              .then(() => fadeIn(djPlayer, 0.7, 0.05, 200))
+              .catch(err => console.warn("Music failed:", err));
+          }
+        });
+      })
+      .catch(err => console.warn("Intro failed:", err));
+  }, 4000);
 }
 </script>
+
+
 
 
 <style>
