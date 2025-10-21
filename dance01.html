@@ -1736,6 +1736,58 @@ const weekdaySlots = [
 </script>
 
 <script>
+// --- Shuffle Modes ---
+const ShuffleModes = {
+  balancedBias: track => 1 / (1 + track.playcount),
+  deepCrateDig: track => 1 / Math.pow(1 + track.playcount, 2),
+  crowdPleaser: track => 1 / (1 + Math.abs(track.playcount - medianPlaycount()))
+};
+
+function medianPlaycount() {
+  const counts = scheduledMp3Files.map(t => t.playcount).sort((a,b) => a-b);
+  const mid = Math.floor(counts.length / 2);
+  return counts.length % 2 ? counts[mid] : (counts[mid-1] + counts[mid]) / 2;
+}
+
+function weightedPick(tracks, mode = 'balancedBias') {
+  const weightFn = ShuffleModes[mode];
+  const weights = tracks.map(t => weightFn(t));
+  const total = weights.reduce((a, b) => a + b, 0);
+
+  let r = Math.random() * total;
+  for (let i = 0; i < tracks.length; i++) {
+    r -= weights[i];
+    if (r <= 0) return tracks[i];
+  }
+  return tracks[tracks.length - 1];
+}
+
+// --- Mood logic ---
+function getShuffleMode() {
+  const hour = new Date().getHours();
+
+  if (hour >= 6 && hour < 12) {
+    return "balancedBias";   // morning: smooth and fair
+  } else if (hour >= 12 && hour < 18) {
+    return "crowdPleaser";   // afternoon: familiar energy
+  } else if (hour >= 18 && hour < 22) {
+    return "deepCrateDig";   // evening: dig into rarities
+  } else {
+    return "balancedBias";   // late night: calm balance
+  }
+}
+
+// --- Fade helper ---
+function fadeIn(audio, targetVolume, step, interval) {
+  let vol = audio.volume;
+  const fade = setInterval(() => {
+    vol = Math.min(vol + step, targetVolume);
+    audio.volume = vol;
+    if (vol >= targetVolume) clearInterval(fade);
+  }, interval);
+}
+
+// --- Main intro + overlap logic ---
 function playIntroWithOverlap(file) {
   const djIntro = document.getElementById('djIntro');
   const djPlayer = document.getElementById('djPlayer');
@@ -1743,27 +1795,34 @@ function playIntroWithOverlap(file) {
   djIntro.src = file;
   djIntro.currentTime = 0;
   djIntro.volume = 1.0;
-
   djPlayer.volume = 0;
 
   // Delay intro playback by 4 seconds
   setTimeout(() => {
-    djIntro.play()
-      .then(() => {
-        // Attach overlap handler only once playback has started
-        djIntro.addEventListener('timeupdate', function overlapHandler() {
-          if (djIntro.duration && djIntro.currentTime >= djIntro.duration - 3) {
-            djIntro.removeEventListener('timeupdate', overlapHandler);
-            djPlayer.play()
-              .then(() => fadeIn(djPlayer, 0.7, 0.05, 200))
-              .catch(err => console.warn("Music failed:", err));
-          }
-        });
-      })
-      .catch(err => console.warn("Intro failed:", err));
+    djIntro.play().then(() => {
+      djIntro.addEventListener('timeupdate', function overlapHandler() {
+        if (djIntro.duration && djIntro.currentTime >= djIntro.duration - 3) {
+          djIntro.removeEventListener('timeupdate', overlapHandler);
+
+          // Pick shuffle mode automatically
+          const mode = getShuffleMode();
+          const nextTrack = weightedPick(scheduledMp3Files, mode);
+          console.log("🎶 Mode:", mode, "→", nextTrack.name, "playcount:", nextTrack.playcount);
+
+          nextTrack.playcount++;
+
+          djPlayer.src = nextTrack.url;
+          djPlayer.play()
+            .then(() => fadeIn(djPlayer, 0.7, 0.05, 200))
+            .catch(err => console.warn("Music failed:", err));
+        }
+      });
+    }).catch(err => console.warn("Intro failed:", err));
   }, 4000);
 }
 </script>
+
+
 
 
 
@@ -1921,15 +1980,7 @@ document.addEventListener("DOMContentLoaded", startBadgeLoop);
 </script>
 
 
-<script>
-  const leastPlayed = [...scheduledMp3Files].sort(
-      (a, b) => a.playcount - b.playcount
-    );
-    console.log(
-      "Least‐Played Order:",
-      leastPlayed.map(t => `${t.name}: ${t.playcount}`)
-    );
-</script>
+
 
 <script src= "main24.js"> </script>
 

@@ -6051,7 +6051,8 @@ quickFade: true
     artist: "Salt N Pepa ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/Salt N Pepa - Whatta Man.mp3",
-  timeCategory: "afternoon"
+  timeCategory: "afternoon",
+quickFade: true
 },
 
 
@@ -17428,8 +17429,8 @@ quickFade: true
     artist: "Hazel Dean ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Hazel Dean - Searchin'.mp3",
-    timeCategory: "evening-late"
-
+    timeCategory: "evening-late",
+ quickFade: true
 
 },
 
