@@ -818,31 +818,46 @@ window.addEventListener('load', () => {
 
   // After 4 seconds, fade down a bit
   setTimeout(() => {
-    const fadeDuration = 2000; // 3 seconds fade
-    const interval = 50;       // update every 50ms
-    const steps = fadeDuration / interval;
-    let currentStep = 0;
+    const fadeDownDuration = 2000; // 2s fade down
+    const fadeUpDuration   = 2000; // 2s fade back up
+    const interval = 50;
 
     const startVolume = musicPlayer.volume;
-    const targetVolume = 0.3; // softer level under DJ
+    const lowVolume   = 0.3; // softer under DJ
+    const normalVolume = 0.7;
 
-    let fade = setInterval(() => {
-      currentStep++;
-      let progress = currentStep / steps;
+    // Fade down
+    let step = 0;
+    const steps = fadeDownDuration / interval;
+    const fadeDown = setInterval(() => {
+      step++;
+      let progress = step / steps;
+      musicPlayer.volume = startVolume + (lowVolume - startVolume) * progress;
+      if (step >= steps) {
+        clearInterval(fadeDown);
+        musicPlayer.volume = lowVolume;
 
-      // Linear interpolation between start and target
-      musicPlayer.volume = startVolume + (targetVolume - startVolume) * progress;
-
-      if (currentStep >= steps) {
-        clearInterval(fade);
-        musicPlayer.volume = targetVolume; // lock final value
+        // Hold low volume for 5 seconds (DJ speaking)
+        setTimeout(() => {
+          // Fade back up
+          let upStep = 0;
+          const upSteps = fadeUpDuration / interval;
+          const fadeUp = setInterval(() => {
+            upStep++;
+            let upProgress = upStep / upSteps;
+            musicPlayer.volume = lowVolume + (normalVolume - lowVolume) * upProgress;
+            if (upStep >= upSteps) {
+              clearInterval(fadeUp);
+              musicPlayer.volume = normalVolume; // restore
+            }
+          }, interval);
+        }, 5000); // <-- how long to stay ducked
       }
     }, interval);
-
-  }, 3000); // trigger 4 seconds after load/play
+  }, 4000); // trigger 4s after load/play
 });
-
 </script>
+
 
 
 
