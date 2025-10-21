@@ -1726,7 +1726,7 @@ const weekdaySlots = [
     djIntro.addEventListener('ended', () => {
       djPlayer.volume = 0;
       djPlayer.play().catch(err => console.log("Main player can't autoplay:", err));
-      fadeIn(djPlayer, 0.7, 0.05, 200);
+      fadeIn(djPlayer, 1.0, 0.05, 200);
     });
   } else {
     djPlayer.volume = 1.0;
