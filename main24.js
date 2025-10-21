@@ -37,17 +37,6 @@ let updateTimer;
 // Create the audio element for the player
 let audioPlayer = document.createElement('audio');
 
-// Auto‑advance when a track ends, with time‑based shuffle mode
-audioPlayer.addEventListener("ended", () => {
-  const hour = new Date().getHours();
-  if (hour >= 18) {
-    nextTrack('deepCrateDig');   // evening vibe
-  } else {
-    nextTrack('crowdPleaser');   // daytime vibe
-  }
-});
-
-
 
 // Define your track list with time categories
 let trackList = [
@@ -23158,37 +23147,25 @@ applyBlinkingEffect();
 
 
 
-function nextTrack(shuffleMode = 'balancedBias') {
-  if (!scheduledMp3Files || scheduledMp3Files.length === 0) {
-    console.warn("🚧 No tracks available.");
-    return;
-  }
+function nextTrack() {
+    let nextIndex = track_index + 1;
 
-  // Pick next track using weighted shuffle
-  const next = weightedPick(scheduledMp3Files, shuffleMode);
-
-  // Update global index so UI highlighting works
-  track_index = scheduledMp3Files.indexOf(next);
-
-  // Load and play
-  loadTrack(track_index);
-  playTrack();
-
-  // Increment playcount so bias evolves
-  next.playcount = (next.playcount || 0) + 1;
-
-  console.log(`🎶 Mode: ${shuffleMode} → ${next.name} (playcount: ${next.playcount})`);
-
-  // Update UI highlight
-  applyBlinkingEffect();
+    if (typeof nextIndex === "number" && nextIndex >= 0 && nextIndex < scheduledMp3Files.length) {
+        track_index = nextIndex;
+        loadTrack(track_index);
+        playTrack();
+     
+} else {
+        console.warn("🚧 No next track available—playlist end reached.");
+        // Optionally loop back to first track or stay put:
+       track_index = 0;
+       loadTrack(track_index);
+       playTrack();
+    }
 }
 
 
 
-next_btn.addEventListener("click", (e) => {
-  e.preventDefault();
-  console.log("⛔ Next button disabled for listeners.");
-});
 
 
 
