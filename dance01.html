@@ -1813,7 +1813,7 @@ function playIntroWithOverlap(file) {
 
           djPlayer.src = nextTrack.url;
           djPlayer.play()
-            .then(() => fadeIn(djPlayer, 0.7, 0.05, 200))
+            .then(() => fadeIn(djPlayer, 1.0, 0.05, 200))
             .catch(err => console.warn("Music failed:", err));
         }
       });
