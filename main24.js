@@ -22733,7 +22733,7 @@ curr_track.addEventListener("loadedmetadata", () => {
   let fadeTime, fadeStart;
 
   if (track.quickFade) {
-    fadeTime = track.fadeLength || 5000;   // default 5s fade if not set
+    fadeTime = track.fadeLength || 4000;   // default 5s fade if not set
     const buffer = track.endBuffer || 0;   // default no buffer
     fadeStart = (duration * 1000) - (fadeTime + buffer);
 
