@@ -813,49 +813,35 @@ img.src = 'images/Dance radio5.png';
 window.addEventListener('load', () => {
   const musicPlayer = document.getElementById("musicPlayer");
 
-  // Start muted
-  musicPlayer.volume = 0.5;
+  // Start at normal volume
+  musicPlayer.volume = 0.7;
 
-  // After 10 seconds, set volume based on time of day
+  // After 4 seconds, fade down a bit
   setTimeout(() => {
-    const hour = new Date().getHours();
-    let targetVolume;
-
-    if (hour < 9) {
-      targetVolume = 0.5; // softer in the morning
-    } else if (hour >= 21) {
-      targetVolume = 0.6; // very soft at night
-    } else {
-      targetVolume = 0.7; // louder during the day
-    }
-
-    // Configurable fade duration (ms)
-    const fadeDuration = 5000; // 5 seconds
+    const fadeDuration = 2000; // 3 seconds fade
     const interval = 50;       // update every 50ms
     const steps = fadeDuration / interval;
     let currentStep = 0;
 
+    const startVolume = musicPlayer.volume;
+    const targetVolume = 0.3; // softer level under DJ
+
     let fade = setInterval(() => {
       currentStep++;
-
-      // Progress from 0 → 1
       let progress = currentStep / steps;
 
-      // Apply ease-in-out curve (smooth acceleration & deceleration)
-      let eased = progress < 0.5
-        ? 2 * progress * progress           // accelerate
-        : -1 + (4 - 2 * progress) * progress; // decelerate
-
-      musicPlayer.volume = Math.min(targetVolume * eased, targetVolume);
+      // Linear interpolation between start and target
+      musicPlayer.volume = startVolume + (targetVolume - startVolume) * progress;
 
       if (currentStep >= steps) {
         clearInterval(fade);
-        musicPlayer.volume = targetVolume; // ensure exact final valueDJ
+        musicPlayer.volume = targetVolume; // lock final value
       }
     }, interval);
 
-  }, 10000); // 10 seconds
+  }, 3000); // trigger 4 seconds after load/play
 });
+
 </script>
 
 
