@@ -12350,7 +12350,7 @@ quickFade: true
     artist: "90 s House",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/House05.mp3",
-  timeCategory: "evening"
+  timeCategory: "afternoon"
 },
 
 
@@ -12379,7 +12379,7 @@ quickFade: true
     artist: "90 s House",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/House07.mp3",
-   timeCategory: "evening"
+   timeCategory: "evening-late"
 },
 
 
@@ -12388,7 +12388,7 @@ quickFade: true
     artist: "90 s House",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/House08.mp3",
-   timeCategory: "evening"
+   timeCategory: "evening-late"
 },
 
 {
@@ -12404,7 +12404,7 @@ quickFade: true
     artist: "90 s House",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/House04.mp3",
-  timeCategory: "evening"
+  timeCategory: "afternoon"
 },
 
 
@@ -12413,7 +12413,7 @@ quickFade: true
     artist: "90 s House",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/House01.mp3",
-   timeCategory: "evening"
+   timeCategory: "afternoon"
 },
 
  
@@ -12422,7 +12422,7 @@ quickFade: true
     artist: "90 s House",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/House02.mp3",
-   timeCategory: "evening"
+   timeCategory: "evening-late"
 },
 
 
