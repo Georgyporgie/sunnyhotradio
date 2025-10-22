@@ -1721,16 +1721,16 @@ const weekdaySlots = [
 
   if (currentSlot) {
     djIntro.src = currentSlot.file;
-    djIntro.volume = 1.0;
+    djIntro.volume = 0.9;
     djIntro.play().catch(err => console.log("Intro can't autoplay:", err));
 
     djIntro.addEventListener('ended', () => {
       djPlayer.volume = 0;
       djPlayer.play().catch(err => console.log("Main player can't autoplay:", err));
-      fadeIn(djPlayer, 1.0, 0.05, 200);
+      fadeIn(djPlayer, 0.9, 0.05, 200);
     });
   } else {
-    djPlayer.volume = 1.0;
+    djPlayer.volume = 0.9;
     djPlayer.play().catch(err => console.log("Main player can't autoplay:", err));
   }
 });
@@ -1795,7 +1795,7 @@ function playIntroWithOverlap(file) {
 
   djIntro.src = file;
   djIntro.currentTime = 0;
-  djIntro.volume = 1.0;
+  djIntro.volume = 0.9;
   djPlayer.volume = 0;
 
   // Delay intro playback by 4 seconds
@@ -1814,7 +1814,7 @@ function playIntroWithOverlap(file) {
 
           djPlayer.src = nextTrack.url;
           djPlayer.play()
-            .then(() => fadeIn(djPlayer, 1.0, 0.05, 200))
+            .then(() => fadeIn(djPlayer, 0.9, 0.05, 200))
             .catch(err => console.warn("Music failed:", err));
         }
       });

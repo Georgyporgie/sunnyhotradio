@@ -22733,14 +22733,16 @@ curr_track.addEventListener("loadedmetadata", () => {
   let fadeTime, fadeStart;
 
   if (track.quickFade) {
-    fadeTime = track.fadeLength || 4000;   // default 5s fade if not set
-    const buffer = track.endBuffer || 0;   // default no buffer
+    // make quick fades faster (e.g. 1500ms instead of 4000ms)
+    fadeTime = track.fadeLength || 1500;   
+    const buffer = track.endBuffer || 0;
     fadeStart = (duration * 1000) - (fadeTime + buffer);
 
     console.log(`⚡ Quick fade: ${fadeTime/1000}s, leaving ${buffer/1000}s buffer`);
   } else if (duration > 180) {
-    fadeTime = 3000;
-    fadeStart = (duration * 1000) - 3000;
+    // make standard fades faster (e.g. 2000ms instead of 3000ms)
+    fadeTime = 2000;  
+    fadeStart = (duration * 1000) - fadeTime;
     console.log("⏱️ Standard fade for track >3min");
   } else {
     console.log("🚫 No fade scheduled — short track or no flag");
@@ -22752,6 +22754,46 @@ curr_track.addEventListener("loadedmetadata", () => {
     setTimeout(() => fadeOut(curr_track, fadeTime), fadeStart);
   }
 });
+
+// Smooth fade-out with ease-out curve
+function fadeOut(audio, duration, targetVolume = 0) {
+  const startVolume = audio.volume;
+  const steps = 30;
+  const stepTime = duration / steps;
+  let currentStep = 0;
+
+  const fade = setInterval(() => {
+    currentStep++;
+    const progress = currentStep / steps;
+    const eased = 1 - Math.pow(1 - progress, 3); // ease-out
+    audio.volume = startVolume - (startVolume - targetVolume) * eased;
+
+    if (currentStep >= steps) {
+      clearInterval(fade);
+      audio.volume = targetVolume;
+    }
+  }, stepTime);
+}
+
+// Optional: matching fade-in
+function fadeIn(audio, duration, targetVolume = 1.0) {
+  const startVolume = audio.volume;
+  const steps = 30;
+  const stepTime = duration / steps;
+  let currentStep = 0;
+
+  const fade = setInterval(() => {
+    currentStep++;
+    const progress = currentStep / steps;
+    const eased = 1 - Math.pow(1 - progress, 3); // ease-out
+    audio.volume = startVolume + (targetVolume - startVolume) * eased;
+
+    if (currentStep >= steps) {
+      clearInterval(fade);
+      audio.volume = targetVolume;
+    }
+  }, stepTime);
+}
 
 
   curr_track.addEventListener("play", () => {
