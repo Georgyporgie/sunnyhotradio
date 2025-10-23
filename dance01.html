@@ -1736,47 +1736,10 @@ const weekdaySlots = [
 });
 </script>
 
-<script>
-// --- Shuffle Modes ---
-const ShuffleModes = {
-  balancedBias: track => 1 / (1 + track.playcount),
-  deepCrateDig: track => 1 / Math.pow(1 + track.playcount, 2),
-  crowdPleaser: track => 1 / (1 + Math.abs(track.playcount - medianPlaycount()))
-};
 
-function medianPlaycount() {
-  const counts = scheduledMp3Files.map(t => t.playcount).sort((a,b) => a-b);
-  const mid = Math.floor(counts.length / 2);
-  return counts.length % 2 ? counts[mid] : (counts[mid-1] + counts[mid]) / 2;
-}
 
-function weightedPick(tracks, mode = 'balancedBias') {
-  const weightFn = ShuffleModes[mode];
-  const weights = tracks.map(t => weightFn(t));
-  const total = weights.reduce((a, b) => a + b, 0);
 
-  let r = Math.random() * total;
-  for (let i = 0; i < tracks.length; i++) {
-    r -= weights[i];
-    if (r <= 0) return tracks[i];
-  }
-  return tracks[tracks.length - 1];
-}
 
-// --- Mood logic ---
-function getShuffleMode() {
-  const hour = new Date().getHours();
-
-  if (hour >= 6 && hour < 12) {
-    return "balancedBias";   // morning: smooth and fair
-  } else if (hour >= 12 && hour < 18) {
-    return "crowdPleaser";   // afternoon: familiar energy
-  } else if (hour >= 18 && hour < 22) {
-    return "deepCrateDig";   // evening: dig into rarities
-  } else {
-    return "balancedBias";   // late night: calm balance
-  }
-}
 
 // --- Fade helper ---
 function fadeIn(audio, targetVolume, step, interval) {
@@ -1982,6 +1945,101 @@ document.addEventListener("DOMContentLoaded", startBadgeLoop);
 
 
 
+
+<script>
+// --- Shuffle Modes ---
+const ShuffleModes = {
+  balancedBias: track => 1 / (1 + track.playcount),
+  deepCrateDig: track => 1 / Math.pow(1 + track.playcount, 2),
+  crowdPleaser: track => 1 / (1 + Math.abs(track.playcount - medianPlaycount()))
+};
+
+function medianPlaycount() {
+  const counts = scheduledMp3Files.map(t => t.playcount).sort((a,b) => a-b);
+  const mid = Math.floor(counts.length / 2);
+  return counts.length % 2 ? counts[mid] : (counts[mid-1] + counts[mid]) / 2;
+}
+
+function weightedPick(tracks, mode = 'balancedBias') {
+  const weightFn = ShuffleModes[mode];
+  const weights = tracks.map(t => weightFn(t));
+  const total = weights.reduce((a, b) => a + b, 0);
+
+  let r = Math.random() * total;
+  for (let i = 0; i < tracks.length; i++) {
+    r -= weights[i];
+    if (r <= 0) return tracks[i];
+  }
+  return tracks[tracks.length - 1];
+}
+
+// --- Rotation memory ---
+function markPlayed(track) {
+  const key = `lastPlayed_${track.id}`;
+  const today = new Date().toISOString().slice(0,10); // YYYY-MM-DD
+  localStorage.setItem(key, today);
+
+  // also increment playcount
+  track.playcount = (track.playcount || 0) + 1;
+}
+
+function wasPlayedRecently(track, days = 1) {
+  const key = `lastPlayed_${track.id}`;
+  const lastPlayed = localStorage.getItem(key);
+  if (!lastPlayed) return false;
+
+  const last = new Date(lastPlayed);
+  const now = new Date();
+  const diffDays = (now - last) / (1000 * 60 * 60 * 24);
+  return diffDays <= days;
+}
+
+function buildDailyPlaylist(allTracks, days = 1) {
+  return allTracks.filter(track => !wasPlayedRecently(track, days));
+}
+
+function pickNextTrack(allTracks) {
+  // Step 0: decide shuffle mode based on time of day
+  const mode = getShuffleMode();
+
+  // Step 1: filter out recently played
+  const eligible = buildDailyPlaylist(allTracks, 1);
+  if (eligible.length === 0) {
+    console.warn("No eligible tracks — falling back to full list");
+    return weightedPick(allTracks, mode);
+  }
+
+  // Step 2: weighted pick from eligible pool
+  const chosen = weightedPick(eligible, mode);
+
+  // Step 3: mark as played
+  markPlayed(chosen);
+
+  return chosen;
+}
+
+</script>
+
+
+
+
+
+
+
+// --- Mood logic ---
+function getShuffleMode() {
+  const hour = new Date().getHours();
+
+  if (hour >= 6 && hour < 12) {
+    return "balancedBias";   // morning: smooth and fair
+  } else if (hour >= 12 && hour < 18) {
+    return "crowdPleaser";   // afternoon: familiar energy
+  } else if (hour >= 18 && hour < 22) {
+    return "deepCrateDig";   // evening: dig into rarities
+  } else {
+    return "balancedBias";   // late night: calm balance
+  }
+}
 
 <script src= "main24.js"> </script>
 
