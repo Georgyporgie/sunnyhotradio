@@ -1,11 +1,6 @@
 {
   "schedule": {
-   "Friday": [
-      { "time": "03:00 - 14:00", "event": "Morning Disco" },
-      { "time": "14:00 - 16:00", "event": "DJ'S Disco Event" },
-      { "time": "16:00 - 19:00", "event": "Lovely Miss Monique" },
-      { "time": "19:00 - 23:00", "event": "Sapphire Live!" }
-    ],
+
     "Saturday": [
       { "time": "03:00 - 14:00", "event": "Morning Disco" },
       { "time": "14:00 - 16:00", "event": "Sonny Fodera Mix!" },
@@ -21,6 +16,7 @@
     ]
   }
 }
+
 
 
 
