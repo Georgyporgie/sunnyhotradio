@@ -10724,13 +10724,7 @@ quickFade: true
 
 
 
-   {
-     name: "   I Like (12inch)",
-    artist: "Young & Company  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Young & Company - I Like (12i nch).mp3",
-     timeCategory: "evening"
-},
+
 
 {
      name: "  Windows ",
