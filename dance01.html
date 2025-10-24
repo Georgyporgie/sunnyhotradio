@@ -1393,12 +1393,12 @@ function scheduleSounds() {
     setInterval(() => playSound(["quarterHourSou"]), 900000);
   }, quarterHourDelay);
 
-  // Every 25 minutes
-  const minsTo25 = 25 - (now.getMinutes() % 25);
-  const twentyFiveDelay = ((minsTo25 === 25 ? 0 : minsTo25) * 60 - now.getSeconds()) * 1000;
+  // Every 28 minutes
+  const minsTo28 = 28 - (now.getMinutes() % 28);
+  const twentyFiveDelay = ((minsTo28 === 28 ? 0 : minsTo28) * 60 - now.getSeconds()) * 1000;
   setTimeout(() => {
     playSound(["twentyFiveMinuteSou"]);
-    setInterval(() => playSound(["twentyFiveMinuteSou"]), 1500000);
+    setInterval(() => playSound(["twentyFiveMinuteSou"]), 1680000);
   }, twentyFiveDelay);
 
   // Every 37 minutes
