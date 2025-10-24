@@ -2047,47 +2047,38 @@ function getShuffleMode() {
 
 
 <script>
-
-// Record when listening began
 const startTime = Date.now();
-
-// Keep track of which milestones have already been played
 const milestonesPlayed = new Set();
 
-// Your milestone sound files
 const milestoneSounds = [
   "muziek/effects/Michael Speakin Fans.mp3",
   "muziek/effects/Michael Speakin Fans - 2.mp3",
   "muziek/effects/Michael Speakin Fans - 3.mp3"
 ];
 
+function playSound(files) {
+  const audio = new Audio(files[0]);
+  audio.play().catch(err => console.error("Audio play failed:", err));
+}
+
 function startListeningMilestones() {
   setInterval(() => {
-    // Calculate how many full hours have passed
-    const hoursListened = Math.floor((Date.now() - startTime) / (1000 * 60 * 60));
+    // For testing: 1 minute = 1 hour
+    const hoursListened = Math.floor((Date.now() - startTime) / (1000 * 60));
 
-    // Only trigger for 1h–6h, and only once per milestone
     if (hoursListened > 0 && hoursListened <= 6 && !milestonesPlayed.has(hoursListened)) {
-      // Pick a random sound from the list
       const randomIndex = Math.floor(Math.random() * milestoneSounds.length);
       const chosenSound = milestoneSounds[randomIndex];
 
-      // Play the sound
       playSound([chosenSound]);
-
-      // Mark this milestone as completed
       milestonesPlayed.add(hoursListened);
 
-      // Debug log (optional)
       console.log(`Milestone reached: ${hoursListened}h → playing ${chosenSound}`);
     }
-  }, 60000); // check once per minute
+  }, 60000);
 }
 
-// Kick it off
 startListeningMilestones();
-
-
 </script>
 
 
