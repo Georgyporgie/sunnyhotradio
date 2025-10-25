@@ -571,7 +571,7 @@ let trackList = [
     artist: "Steve Ferrera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Steve Ferrera- live from his garden01.mp3",
-    timeCategory: "speciall"
+    timeCategory: "special"
 },
 
 
@@ -581,7 +581,7 @@ let trackList = [
     artist: "Steve Ferrera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Steve Ferrera- live from his garden02.mp3",
-    timeCategory: "speciall"
+    timeCategory: "special"
 },
 
 
@@ -591,7 +591,7 @@ let trackList = [
     artist: "Steve Ferrera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Steve Ferrera- live from his garden03.mp3",
-    timeCategory: "speciall"
+    timeCategory: "special"
 },
 
 
@@ -600,7 +600,7 @@ let trackList = [
     artist: "Steve Ferrera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Steve Ferrera- live from his garden04.mp3",
-    timeCategory: "speciall"
+    timeCategory: "special"
 },
 
 
@@ -612,7 +612,7 @@ let trackList = [
     artist: "Steve Ferrera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Steve Ferrera- live from his garden05.mp3",
-    timeCategory: "speciall"
+    timeCategory: "special"
 },
 
 
