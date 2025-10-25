@@ -20436,14 +20436,6 @@ timeCategory: "f evening"
 
 
 
-{
-     name: " Beautiful People ",
-    artist: "Sia & David Guetta ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic08.netlify.app/Sia David Guetta - Beautiful People.mp3",
- timeCategory: "f evening"
-},
-
 
 
 {
@@ -21580,16 +21572,6 @@ quickFade: true
 
 
 {
-     name: "Beautiful People ",
-    artist: "David Guetta Ft. Sia & Rihanna ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic08.netlify.app/David Guetta Ft. Sia & Rihanna - Beautiful People.mp3",
-    timeCategory: "f evening-late"
-},
-
-
-
-{
      name: " Anxiety ",
     artist: "Doechii ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -21625,17 +21607,6 @@ quickFade: true
 
 
 
-
-{
-     name: " Beautiful People ",
-    artist: "Sia & David Guetta ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic08.netlify.app/Sia David Guetta - Beautiful People.mp3",
- timeCategory: "f evening-late"
-},
-
-
-
 {
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️",
@@ -21651,6 +21622,14 @@ quickFade: true
 
 
 
+
+{
+     name: " Beautiful People ",
+    artist: "Sia & David Guetta ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Sia David Guetta - Beautiful People.mp3",
+ timeCategory: "f evening-late"
+},
 
 
 
@@ -23190,23 +23169,12 @@ applyBlinkingEffect();
 
 
 
-
 function nextTrack() {
-    let nextIndex = track_index + 1;
-
-    if (typeof nextIndex === "number" && nextIndex >= 0 && nextIndex < scheduledMp3Files.length) {
-        track_index = nextIndex;
-        loadTrack(track_index);
-        playTrack();
-     
-} else {
-        console.warn("🚧 No next track available—playlist end reached.");
-        // Optionally loop back to first track or stay put:
-       track_index = 0;
-       loadTrack(track_index);
-       playTrack();
-    }
+  track_index = (track_index + 1) % scheduledMp3Files.length;
+  loadTrack(track_index);
+  playTrack();
 }
+
 
 
 
