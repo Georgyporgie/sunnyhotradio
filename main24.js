@@ -20623,7 +20623,8 @@ quickFade: true
     artist: "KID  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/KID - Don't Stop.mp3",
-   timeCategory: "f evening"
+   timeCategory: "f evening",
+ volumeBoost: 0.25
 },
 
 
@@ -20650,7 +20651,9 @@ quickFade: true
     artist: "Donna Summer ",
      image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Donna Summer - I Feel Love (revisit mix).mp3",
-    timeCategory: "f evening"
+    timeCategory: "f evening",
+volumeBoost: 0.35
+
 },
 
 
@@ -20669,7 +20672,9 @@ quickFade: true
     artist: " Baby O  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Baby O - In The Forest.mp3",
-    timeCategory: "f evening"
+    timeCategory: "f evening",
+volumeBoost: 0.20
+
 },
 
 
@@ -20817,7 +20822,8 @@ quickFade: true
     artist: "Five Star ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Five Star - All Fall Down.mp3",
-          timeCategory: "f evening"
+          timeCategory: "f evening",
+volumeBoost: 0.10
 
 },
 
@@ -20976,7 +20982,8 @@ quickFade: true
     artist: "Nomad ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Nomad - I Wanna Give You Devotion.mp3",
-      timeCategory: "f evening"
+      timeCategory: "f evening",
+volumeBoost: 0.25
 
 },
 
@@ -21098,8 +21105,8 @@ quickFade: true
     artist: "RUN DMC ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/RUN DMC - It's Like That.mp3",
-     timeCategory: "f evening"
-
+     timeCategory: "f evening",
+volumeBoost: 0.25
 
 
 },
@@ -21138,7 +21145,8 @@ quickFade: true
     artist: "Beyonce",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Beyonce - Crazy In Love.mp3",
-   timeCategory: "f evening"
+   timeCategory: "f evening",
+volumeBoost: 0.15
 
 
 },
@@ -21159,7 +21167,8 @@ quickFade: true
     artist: "Lime ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Lime - Your Love.mp3",
-       timeCategory: "f evening"
+       timeCategory: "f evening",
+volumeBoost: 0.20
 
 
 
@@ -21229,7 +21238,8 @@ quickFade: true
     artist: "Bomb The Base  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Bomb The Base - Beat Dis.mp3",
-     timeCategory: "f evening"
+     timeCategory: "f evening",
+volumeBoost: 0.10
 
 
 
@@ -21243,7 +21253,8 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/CC Peniston - We Got A Love Thang.mp3",
       timeCategory: "f evening",
-quickFade: true
+quickFade: true,
+volumeBoost: 0.15
 
 
 },
@@ -21753,7 +21764,8 @@ quickFade: true
     artist: "Rick James ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Rick James - You and I.mp3",
-   timeCategory: "f evening-late"
+   timeCategory: "f evening-late",
+volumeBoost: 0.20
 },
 
 
@@ -21781,7 +21793,9 @@ quickFade: true
     artist: "Stargard",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Stargard - What you waiting for.mp3",
-   timeCategory: "f evening-late"
+   timeCategory: "f evening-late",
+volumeBoost: 0.25
+
 },
 
 
@@ -21932,7 +21946,10 @@ quickFade: true
     artist: "Fatback ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Fatback - Is This the Future.mp3",
-    timeCategory: "f evening-late"
+    timeCategory: "f evening-late",
+volumeBoost: 0.20
+
+
 },
 
 
@@ -22383,7 +22400,9 @@ quickFade: true
     artist: "Stardust ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Stardust - Music Sounds Better With You.mp3",
-    timeCategory: "f evening-late"
+    timeCategory: "f evening-late",
+volumeBoost: 0.25
+
 },
 
 
@@ -22703,7 +22722,19 @@ function loadTrack(index) {
 
   curr_track = new Audio(track.path);
 
-  curr_track.volume = getTimeBasedVolume();
+curr_track = new Audio(track.path);
+
+// Base volume from time of day
+let baseVolume = getTimeBasedVolume();
+
+// Apply per-track boost if tagged
+if (track.volumeBoost) {
+  baseVolume = Math.min(1.0, baseVolume + track.volumeBoost);
+}
+
+curr_track.volume = baseVolume;
+console.log(`🕒 Volume set to ${curr_track.volume} (base + boost if any)`);
+
   console.log(`🕒 Volume set to ${curr_track.volume} based on current hour`);
 
 curr_track.addEventListener("loadedmetadata", () => {
@@ -22788,7 +22819,20 @@ function fadeIn(audio, duration, targetVolume = 1.0) {
 
 
 
+// --- Tagging step (put this near your other track tagging like forceFadeOut) ---
+trackList.forEach(track => {
+  track.forceFadeOut = false;  // Default value
+  track.volumeBoost = 0;       // Default boost
 
+  if (track.name && track.name.includes("Extended")) {
+    track.forceFadeOut = true;  // Auto-tagged for fade
+  }
+
+  // Example: auto-tag softer/older tracks
+  if (track.name && track.name.includes("Oldies")) {
+    track.volumeBoost = 0.2;   // +20% louder
+  }
+}); 
 
 
 
