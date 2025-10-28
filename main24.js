@@ -6709,7 +6709,14 @@ timeCategory: "afternoon",
 
 
 
+{
+    name: "   Woman Of The Ghetto (1969) ",
+    artist: "Marlena Shaw ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Marlena Shaw - Woman Of The Ghetto.mp3",
+       timeCategory: "afternoon"
 
+},
 
 
 
