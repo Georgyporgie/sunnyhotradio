@@ -276,7 +276,7 @@ function flashClock(hour) {
 
   setTimeout(() => {
     flashEl.classList.remove("show");
-  }, 9000); // visible for 9s
+  }, 10000); // visible for 10s
 }
 
 
@@ -437,12 +437,6 @@ document.addEventListener("DOMContentLoaded", scheduleHourlyFlash);
 <br><img id="sunnyr">
 <h5 id="time"> </h5><br>
 <br>
-
-
-
-
-
-
 <IFRAME  class= "sandspinner" SRC="https://sandpinner.netlify.app/sandpinner" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0  WIDTH=356 HEIGHT=250></IFRAME>
 <br>
 <br>
@@ -1341,7 +1335,14 @@ document.addEventListener("DOMContentLoaded", () => {
   <source src="muziek/effects/blast.mp3" type="audio/mp3">
 </audio>
 
+<audio id="twentyFiveMinuteSou">
+  <source src="muziek/voiceover/AI%20voice - From%20The%20Heart%20Of%20Amsterdam3.mp3" type="audio/mp3">
+</audio>
 
+
+<audio id="thirtySevenMinuteSou">
+  <source src="muziek/voiceover/From%20The%20Heart%20Of%20Amsterdam.mp3" type="audio/mp3">
+</audio>
 
 
 
@@ -1369,55 +1370,6 @@ function playSound(soundIds) {
   });
 }
 
-
-
-
-
-// Pools of IDs
-const twentyFiveSouIds = ["twentyFiveSou1","twentyFiveSou2","twentyFiveSou3"];
-const thirtySevenSouIds = ["thirtySevenSou1","thirtySevenSou2"];
-
-// Index trackers
-let idx25 = 0;
-let idx37 = 0;
-
-function playNextSound(soundIds, indexRef) {
-  const id = soundIds[indexRef.value];
-  const soundEl = document.getElementById(id);
-  if (soundEl) {
-    soundEl.currentTime = 0;
-    soundEl.volume = 0.6;
-    soundEl.play().catch(err => console.error("Playback failed:", err));
-  }
-  // advance index, wrap around
-  indexRef.value = (indexRef.value + 1) % soundIds.length;
-}
-
-// Wrap index in an object so we can mutate it
-let index25 = { value: 0 };
-let index37 = { value: 0 };
-
-// Every 28 minutes
-const minsTo28 = 28 - (now.getMinutes() % 28);
-const twentyFiveDelay = ((minsTo28 === 28 ? 0 : minsTo28) * 60 - now.getSeconds()) * 1000;
-setTimeout(() => {
-  playNextSound(twentyFiveSouIds, index25);
-  setInterval(() => playNextSound(twentyFiveSouIds, index25), 1680000);
-}, twentyFiveDelay);
-
-// Every 37 minutes
-const minsTo37 = 37 - (now.getMinutes() % 37);
-const thirtySevenDelay = ((minsTo37 === 37 ? 0 : minsTo37) * 60 - now.getSeconds()) * 1000;
-setTimeout(() => {
-  playNextSound(thirtySevenSouIds, index37);
-  setInterval(() => playNextSound(thirtySevenSouIds, index37), 2220000);
-}, thirtySevenDelay);
-
-
-
-
-
-
 // 📢 Sound Scheduling Function
 function scheduleSounds() {
   console.log("Scheduling sounds...");
@@ -1438,25 +1390,22 @@ function scheduleSounds() {
     setInterval(() => playSound(["quarterHourSou"]), 900000);
   }, quarterHourDelay);
 
-<!-- Multiple variants for the 25‑minute ritual -->
-<audio id="twentyFiveSou1">
-  <source src="muziek/voiceover/From The Heart Of Amsterdam.mp3" type="audio/mp3">
-</audio>
-<audio id="twentyFiveSou2">
-  <source src="muziek/voiceover/From The Heart Of Amsterdam2.mp3" type="audio/mp3">
-</audio>
-<audio id="twentyFiveSou3">
-  <source src="muziek/voiceover/AI voice - From The Heart Of Amsterdam3.mp3" type="audio/mp3">
-</audio>
-<!-- Multiple variants for the 37‑minute ritual -->
+  // Every 28 minutes
+  const minsTo28 = 28 - (now.getMinutes() % 28);
+  const twentyFiveDelay = ((minsTo28 === 28 ? 0 : minsTo28) * 60 - now.getSeconds()) * 1000;
+  setTimeout(() => {
+    playSound(["twentyFiveMinuteSou"]);
+    setInterval(() => playSound(["twentyFiveMinuteSou"]), 1680000);
+  }, twentyFiveDelay);
 
-<audio id="thirtySevenSou1">
-  <source src="muziek/voiceover/From The Heart Of Amsterdam.mp3" type="audio/mp3">
-</audio>
-<audio id="thirtySevenSou2">
-  <source src="muziek/voiceover/From The Heart Of Amsterdam1.mp3" type="audio/mp3">
-</audio>
-
+  // Every 37 minutes
+  const minsTo37 = 37 - (now.getMinutes() % 37);
+  const thirtySevenDelay = ((minsTo37 === 37 ? 0 : minsTo37) * 60 - now.getSeconds()) * 1000;
+  setTimeout(() => {
+    playSound(["thirtySevenMinuteSou"]);
+    setInterval(() => playSound(["thirtySevenMinuteSou"]), 2220000);
+  }, thirtySevenDelay);
+}
 
 window.onload = scheduleSounds;
 </script>
@@ -1685,7 +1634,7 @@ function getCurrentTimeCategory() {
   ];
 
   const categoriesPerDay = {
-    0: { morning: ["morning","f afternoon","f evening"], afternoon: ["f afternoon","f evening","f evening-late"], "special-show": ["special-cast"], evening: ["f evening","f evening-late","f afternoon"], "evening-late": ["f evening"], late: ["f evening-late"], night: ["jingle-time"] },
+    0: { morning: ["morning","f afternoon","f evening"], afternoon: ["f afternoon","f evening","f evening-late"], "special-show": ["special-cast"], evening: ["f evening","f evening-late","f afternoon"], "evening-late": ["f evening-late","f evening"], late: ["f evening-late"], night: ["jingle-time"] },
     1: { morning: ["morning","afternoon","evening"], afternoon: ["afternoon","evening","morning"], "special-show": ["afternoon","evening"], evening: ["evening","evening-late","afternoon"], "evening-late": ["evening-late","evening"], late: ["evening-late"], night: ["jingle-time"] },
     2: { morning: ["morning","afternoon","evening"], afternoon: ["afternoon","evening","morning"], "special-show": ["evening","afternoon"], evening: ["evening","evening-late","afternoon"], "evening-late": ["evening-late","evening"], late: ["evening-late"], night: ["jingle-time"] },
     3: { morning: ["morning","afternoon","evening"], afternoon: ["afternoon","evening","morning"], "special-show": ["afternoon","evening"], evening: ["evening","evening-late","afternoon"], "evening-late": ["evening-late","evening"], late: ["evening-late"], night: ["jingle-time"] },
@@ -2090,6 +2039,43 @@ function getShuffleMode() {
 }
 
 
+</script>
+
+
+
+<script>
+const startTime = Date.now();
+const milestonesPlayed = new Set();
+
+const milestoneSounds = [
+  "muziek/effects/Michael Speakin Fans.mp3",
+  "muziek/effects/Michael Speakin Fans - 2.mp3",
+  "muziek/effects/Michael Speakin Fans - 3.mp3"
+];
+
+function playSound(files) {
+  const audio = new Audio(files[0]);
+  audio.play().catch(err => console.error("Audio play failed:", err));
+}
+
+function startListeningMilestones() {
+  setInterval(() => {
+    // For testing: 1 minute = 1 hour
+    const hoursListened = Math.floor((Date.now() - startTime) / (1000 * 60));
+
+    if (hoursListened > 0 && hoursListened <= 6 && !milestonesPlayed.has(hoursListened)) {
+      const randomIndex = Math.floor(Math.random() * milestoneSounds.length);
+      const chosenSound = milestoneSounds[randomIndex];
+
+      playSound([chosenSound]);
+      milestonesPlayed.add(hoursListened);
+
+      console.log(`Milestone reached: ${hoursListened}h → playing ${chosenSound}`);
+    }
+  }, 60000);
+}
+
+startListeningMilestones();
 </script>
 
 
