@@ -1293,4 +1293,11 @@ filter: brightness(100%) saturate(105%) contrast(100%)opacity (70%);
 }
 
 
+.sandspinner  {   margin: auto auto auto auto;   display:  block; z-index: 0;
+
+}
+
+
+
+
 
