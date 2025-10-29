@@ -1939,6 +1939,13 @@ let trackList = [
 
 
 
+{
+    name: "Love Come Down (classic)",
+    artist: "Evelyn King ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Evelyn King - Love come down.mp3",
+  timeCategory: "morning"
+},
 
 
 {
@@ -12302,13 +12309,6 @@ quickFade: true
 
 
 
-{
-    name: "Love Come Down (classic)",
-    artist: "Evelyn King ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies01.netlify.app/Evelyn King - Love come down.mp3",
-  timeCategory: "evening"
-},
 
 
 {
