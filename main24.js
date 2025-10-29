@@ -8422,7 +8422,7 @@ quickFade: true
 
 
 {
-     name: "The Dead Dance (new) ",
+     name: "The Dead Dance  ",
     artist: "Lady Gaga ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Lady Gaga - The Dead Dance.mp3",
