@@ -326,7 +326,7 @@ let trackList = [
 
 
 {
-     name: "  All This Time (new)",
+     name: "  All This Time ",
     artist: "Sonny Fodera & Jazzy",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera & Jazzy - All This Time.mp3",
@@ -4760,7 +4760,7 @@ quickFade: true
 
 
 {
-    name: "Scandalous (new) ",
+    name: "Scandalous  ",
     artist: " Griffin Tinashe ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Griffin Tinashe - Scandalous.mp3",
@@ -4769,7 +4769,7 @@ quickFade: true
 
 
 {
-    name: "I Can See The Future (new) ",
+    name: "I Can See The Future  ",
     artist: " Tinashe  ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Tinashe - I Can See The Future.mp3",
@@ -4848,7 +4848,7 @@ quickFade: true
 
 
 {
-    name: " Blackberries (new)",
+    name: " Blackberries ",
     artist: "Fischer Bbyclose",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Fischer Bbyclose - Blackberries (maxi).mp3",
@@ -8398,7 +8398,7 @@ quickFade: true
 
 
 {
-     name: "  In Love (new) ",
+     name: "  In Love ",
     artist: "Minellli & Inna",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Minellli & Inna - In Love.mp3",
@@ -8410,7 +8410,7 @@ quickFade: true
 
 
 {
-     name: "Believe In Magic (new) ",
+     name: "Believe In Magic  ",
     artist: "Jessie J",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Jessie J - Believe In Magic.mp3",
@@ -8660,7 +8660,7 @@ quickFade: true
 
 
 {
-     name: "Believe In Magic (new) ",
+     name: "Believe In Magic ",
     artist: "Jessie J",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Jessie J - Believe In Magic.mp3",
@@ -10730,7 +10730,7 @@ quickFade: true
 
 
 {
-    name: "  Stay On Me (new) ",
+    name: "  Stay On Me  ",
     artist: "Sophie Ellis Bextor ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sophie Ellis Bextor -  Stay On Me.mp3",
@@ -13547,7 +13547,7 @@ quickFade: true
 
 
 {
-    name: "  Stay On Me (new) ",
+    name: "  Stay On Me  ",
     artist: "Sophie Ellis Bextor ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sophie Ellis Bextor -  Stay On Me.mp3",
@@ -15481,7 +15481,7 @@ quickFade: true
 
 
 {
-    name: "Mau P (new)",
+    name: "Mau P ",
     artist: " Tesla",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
@@ -15492,7 +15492,7 @@ quickFade: true
 
 
 {
-    name: "James Hype (new)",
+    name: "James Hype ",
     artist: " Waterfalls",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/James Hype - Waterfalls.mp3",
@@ -15506,7 +15506,7 @@ quickFade: true
 
 
 {
-    name: " Blackberries (new)",
+    name: " Blackberries ",
     artist: "Fischer Bbyclose",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Fischer Bbyclose - Blackberries (maxi).mp3",
@@ -18858,7 +18858,7 @@ quickFade: true
 
 
 {
-    name: "Damiano David & Tyla (new)",
+    name: "Damiano David & Tyla ",
     artist: "  Talk To Me ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Damiano David & Tyla - Talk To Me.mp3",
@@ -18876,7 +18876,7 @@ quickFade: true
 
 
 {
-    name: "Phases (new)",
+    name: "Phases ",
     artist: " Joel Corry & Abi Flynn",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Joel Corry & Abi Flynn- Phases.mp3",
@@ -19106,7 +19106,7 @@ quickFade: true
 
 
 {
-    name: "Damiano David & Tyla  (new)",
+    name: "Damiano David & Tyla  ",
     artist: "  Talk To Me ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Damiano David & Tyla - Talk To Me.mp3",
@@ -19125,7 +19125,7 @@ quickFade: true
 
 
 {
-    name: "Phases  (new)",
+    name: "Phases ",
     artist: " Joel Corry & Abi Flynn",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Joel Corry & Abi Flynn- Phases.mp3",
@@ -19145,7 +19145,7 @@ quickFade: true
 },
 
 {
-    name: "James Hype (new)",
+    name: "James Hype ",
     artist: " Waterfalls",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/James Hype - Waterfalls.mp3",
@@ -19157,7 +19157,7 @@ quickFade: true
 
 
 {
-    name: "Mau P (new)",
+    name: "Mau P",
     artist: " Tesla",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
@@ -19192,7 +19192,7 @@ quickFade: true
 
 
 {
-     name: "Believe In Magic (new) ",
+     name: "Believe In Magic ",
     artist: "Jessie J",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Jessie J - Believe In Magic.mp3",
@@ -19206,7 +19206,7 @@ quickFade: true
 
 
 {
-     name: "  In Love (new) ",
+     name: "  In Love ",
     artist: "Minellli & Inna",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Minellli & Inna - In Love.mp3",
@@ -19216,7 +19216,7 @@ quickFade: true
 
 
 {
-    name: "  Stay On Me (new) ",
+    name: "  Stay On Me  ",
     artist: "Sophie Ellis Bextor ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sophie Ellis Bextor -  Stay On Me.mp3",
@@ -19614,7 +19614,7 @@ quickFade: true
 
 
 {
-    name: "Mau P (new)",
+    name: "Mau P ",
     artist: " Tesla",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
@@ -19625,7 +19625,7 @@ quickFade: true
 
 
 {
-    name: "James Hype (new)",
+    name: "James Hype",
     artist: " Waterfalls",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/James Hype - Waterfalls.mp3",
@@ -19639,7 +19639,7 @@ quickFade: true
 
 
 {
-    name: " Blackberries (new)",
+    name: " Blackberries ",
     artist: "Fischer Bbyclose",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Fischer Bbyclose - Blackberries (maxi).mp3",
@@ -20221,7 +20221,7 @@ quickFade: true
 
 
 {
-    name: "Phases  (new)",
+    name: "Phases  ",
     artist: " Joel Corry & Abi Flynn",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Joel Corry & Abi Flynn- Phases.mp3",
@@ -20245,7 +20245,7 @@ quickFade: true
 
 
 {
-     name: "Believe In Magic (new) ",
+     name: "Believe In Magic  ",
     artist: "Jessie J",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Jessie J - Believe In Magic.mp3",
@@ -20259,7 +20259,7 @@ quickFade: true
 
 
 {
-     name: "  In Love (new) ",
+     name: "  In Love ",
     artist: "Minellli & Inna",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Minellli & Inna - In Love.mp3",
@@ -20271,7 +20271,7 @@ quickFade: true
 
 
 {
-    name: "Damiano David & Tyla  (new)",
+    name: "Damiano David & Tyla  ",
     artist: "  Talk To Me ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Damiano David & Tyla - Talk To Me.mp3",
@@ -20281,7 +20281,7 @@ quickFade: true
 
 
 {
-    name: "Scandalous (new)  ",
+    name: "Scandalous   ",
     artist: " Griffin Tinashe ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Griffin Tinashe - Scandalous.mp3",
@@ -20290,7 +20290,7 @@ quickFade: true
 
 
 {
-    name: "I Can See The Future (new) ",
+    name: "I Can See The Future  ",
     artist: " Tinashe  ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Tinashe - I Can See The Future.mp3",
@@ -20300,7 +20300,7 @@ quickFade: true
 
 
 {
-     name: "  All This Time (new)",
+     name: "  All This Time ",
     artist: "Sonny Fodera & Jazzy",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera & Jazzy - All This Time.mp3",
@@ -21026,7 +21026,7 @@ quickFade: true
 
 
 {
-    name: "  Stay On Me (new) ",
+    name: "  Stay On Me ",
     artist: "Sophie Ellis Bextor ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sophie Ellis Bextor -  Stay On Me.mp3",
@@ -21361,26 +21361,9 @@ quickFade: true
 
 
 
-{
-    name: "James Hype (new)",
-    artist: " Waterfalls",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/James Hype - Waterfalls.mp3",
-
-       timeCategory: "f evening"
-},
 
 
 
-
-{
-    name: "Mau P (new)",
-    artist: " Tesla",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
-       timeCategory: "f evening",
-quickFade: true
-},
 
 
 
@@ -21689,26 +21672,12 @@ quickFade: true
 
 
 
-{
-    name: "Phases  (new)",
-    artist: " Joel Corry & Abi Flynn",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Joel Corry & Abi Flynn- Phases.mp3",
-       timeCategory: "f evening-late"
-},
 
 
 
 
 
 
-{
-    name: "Damiano David & Tyla  (new)",
-    artist: "  Talk To Me ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Damiano David & Tyla - Talk To Me.mp3",
-       timeCategory: "f evening-late"
-},
 
 
 
@@ -21950,16 +21919,7 @@ quickFade: true
 
 
 {
-    name: "Scandalous (new)   ",
-    artist: " Griffin Tinashe ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/Griffin Tinashe - Scandalous.mp3",
-       timeCategory: "f evening-late"
-},
-
-
-{
-    name: "I Can See The Future (new)",
+    name: "I Can See The Future ",
     artist: " Tinashe  ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Tinashe - I Can See The Future.mp3",
@@ -22070,7 +22030,7 @@ quickFade: true
 
 
 {
-    name: "Mau P (new)",
+    name: "Mau P ",
     artist: " Tesla",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
@@ -22080,28 +22040,9 @@ quickFade: true
 
 
 
-{
-    name: "James Hype (new)",
-    artist: " Waterfalls",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/James Hype - Waterfalls.mp3",
-
-       timeCategory: "f evening-late"
-},
 
 
 
-
-
-
-{
-    name: " Blackberries (new)",
-    artist: "Fischer Bbyclose",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/Fischer Bbyclose - Blackberries (maxi).mp3",
-
-       timeCategory: "f evening-late"
-},
 
 
 
@@ -22355,22 +22296,13 @@ quickFade: true
 },
 
 
-{
-     name: "Believe In Magic (new) ",
-    artist: "Jessie J",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Jessie J - Believe In Magic.mp3",
-    timeCategory: "f-evening-late"
-
-},
-
 
 
 
 
 
 {
-     name: "  In Love (new) ",
+     name: "  In Love",
     artist: "Minellli & Inna",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Minellli & Inna - In Love.mp3",
