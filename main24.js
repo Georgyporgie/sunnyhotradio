@@ -3125,13 +3125,7 @@ quickFade: true
 
 
 
-{
-    name: " Hit 'N Run Lover (12inch)",
-    artist: "Carol Jiani",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/sunny ship/radio dj - just for you.mp3",
-          timeCategory: "morning"
-},
+
 
 
 {
