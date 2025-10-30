@@ -18867,9 +18867,34 @@ quickFade: true
 
 
 
+{
+    name: " Gorgeous (new)",
+    artist: "  Doja Cat ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Doja Cat - Gorgeous.mp3",
+       timeCategory: "evening-late"
+},
 
 
 
+
+{
+    name: "All Natural (new)",
+    artist: " Rita Ora  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Rita Ora - All Natural.mp3",
+       timeCategory: "evening-late"
+},
+
+
+
+{
+    name: "Come Find Me (new)",
+    artist: "Clementine Douglas ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Clementine Douglas - Come Find Me.mp3",
+       timeCategory: "evening-late"
+},
 
 
 
@@ -19063,6 +19088,34 @@ quickFade: true
       timeCategory: "f afternoon"
  },
 
+{
+    name: " Gorgeous (new)",
+    artist: "  Doja Cat ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Doja Cat - Gorgeous.mp3",
+       timeCategory: "f afternoon"
+},
+
+
+
+
+{
+    name: "All Natural (new)",
+    artist: " Rita Ora  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Rita Ora - All Natural.mp3",
+       timeCategory: "f afternoon"
+},
+
+
+
+{
+    name: "Come Find Me (new)",
+    artist: "Clementine Douglas ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Clementine Douglas - Come Find Me.mp3",
+       timeCategory: "f afternoon"
+},
 
 
 
@@ -20307,7 +20360,34 @@ quickFade: true
     timeCategory: "f evening"
 },
 
+{
+    name: " Gorgeous (new)",
+    artist: "  Doja Cat ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Doja Cat - Gorgeous.mp3",
+       timeCategory: "f evening"
+},
 
+
+
+
+{
+    name: "All Natural (new)",
+    artist: " Rita Ora  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Rita Ora - All Natural.mp3",
+       timeCategory: "f evening"
+},
+
+
+
+{
+    name: "Come Find Me (new)",
+    artist: "Clementine Douglas ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Clementine Douglas - Come Find Me.mp3",
+       timeCategory: "f evening"
+},
 
 
 
@@ -22198,7 +22278,34 @@ quickFade: true
 
 
 
+{
+    name: " Gorgeous (new)",
+    artist: "  Doja Cat ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Doja Cat - Gorgeous.mp3",
+       timeCategory: "f evening-late"
+},
 
+
+
+
+{
+    name: "All Natural (new)",
+    artist: " Rita Ora  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Rita Ora - All Natural.mp3",
+       timeCategory: "f evening-late"
+},
+
+
+
+{
+    name: "Come Find Me (new)",
+    artist: "Clementine Douglas ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Clementine Douglas - Come Find Me.mp3",
+       timeCategory: "f evening-late"
+},
 
 
 
@@ -22352,7 +22459,34 @@ quickFade: true
 
 },
 
+{
+    name: " Gorgeous (new)",
+    artist: "  Doja Cat ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Doja Cat - Gorgeous.mp3",
+       timeCategory: "f evening"
+},
 
+
+
+
+{
+    name: "All Natural (new)",
+    artist: " Rita Ora  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Rita Ora - All Natural.mp3",
+       timeCategory: "f evening"
+},
+
+
+
+{
+    name: "Come Find Me (new)",
+    artist: "Clementine Douglas ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Clementine Douglas - Come Find Me.mp3",
+       timeCategory: "f evening"
+},
 
 
 
