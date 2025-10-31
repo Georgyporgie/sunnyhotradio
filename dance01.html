@@ -1861,41 +1861,16 @@ const badgeMeta = {
   unknown: { icon: "🕒", label: "On Air" }
 };
 
-const aliases = {
-  morning: ["Morning Rise", "Sunrise Grooves", "Early Light"],
-  afternoon: ["Afternoon Flow", "Daylight Beats", "Sunny Sessions"],
-  evening: ["Evening Groove", "Evening Flow", "Evening Pulse"],
-  "evening-late": ["Late Evening Lights", "Twilight Grooves", "Sundown Sessions"],
-  night: ["Night Drift", "Moonlight Mix", "Starlight Sessions"],
-  late: ["Owl Hours", "Midnight Frequencies", "After Hours"],
-  "special-show": ["Special Mix", "Spotlight Session", "Feature Hour"],
-  "jingle-time": ["Jingle Time", "Station ID", "Bumper Beats"]
-};
 
-let cachedAlias = null;
-
-function getAlias(category) {
-  if (cachedAlias && cachedAlias.category === category) {
-    return cachedAlias.label;
-  }
-  if (aliases[category]) {
-    const list = aliases[category];
-    const label = list[Math.floor(Math.random() * list.length)];
-    cachedAlias = { category, label };
-    return label;
-  }
-  return badgeMeta[category]?.label || category;
-}
-
-// Example ranges (adjust to your station’s schedule)
-const timeRanges = [
-  { key: "morning", start: 6, end: 12 },
-  { key: "afternoon", start: 12, end: 17 },
-  { key: "evening", start: 17, end: 21 },
-  { key: "evening-late", start: 21, end: 23 },
-  { key: "night", start: 23, end: 2 },
-  { key: "late", start: 2, end: 6 }
-];
+  const timeRanges = [
+    { key: "morning", start: 8, end: 12 },
+    { key: "afternoon", start: 12, end: 14 },
+    { key: "special-show", start: 14, end: 16 },
+    { key: "evening", start: 16, end: 19 },
+    { key: "evening-late", start: 19, end: 23 },
+    { key: "late", start: 23, end: 3 },
+    { key: "night", start: 3, end: 8 }
+  ];
 
 function updateTimeBadge(categoryKey) {
   const badge = document.getElementById("timeBadge");
@@ -1945,12 +1920,7 @@ document.addEventListener("DOMContentLoaded", startBadgeLoop);
 
 
 <script>
-// --- Shuffle Modes ---
-const ShuffleModes = {
-  balancedBias: track => 1 / (1 + track.playcount),
-  deepCrateDig: track => 1 / Math.pow(1 + track.playcount, 2),
-  crowdPleaser: track => 1 / (1 + Math.abs(track.playcount - medianPlaycount()))
-};
+
 
 function medianPlaycount() {
   const counts = scheduledMp3Files.map(t => t.playcount).sort((a,b) => a-b);
@@ -2017,66 +1987,45 @@ function pickNextTrack(allTracks) {
 }
 
 
+// Map each timeRange key to a shuffle mode
+const shuffleModes = {
+  "morning": "balancedBias",      // smooth and fair
+  "afternoon": "crowdPleaser",    // familiar energy
+  "special-show": "specialSet",   // custom mode for show
+  "evening": "deepCrateDig",      // rarities
+  "evening-late": "deepCrateDig", // keep digging
+  "late": "balancedBias",         // calm balance
+  "night": "balancedBias"         // night calm
+};
 
-
-
-
-
-
-
-// --- Mood logic ---
 function getShuffleMode() {
   const hour = new Date().getHours();
 
-  if (hour >= 6 && hour < 12) {
-    return "balancedBias";   // morning: smooth and fair
-  } else if (hour >= 12 && hour < 18) {
-    return "crowdPleaser";   // afternoon: familiar energy
-  } else if (hour >= 18 && hour < 22) {
-    return "deepCrateDig";   // evening: dig into rarities
-  } else {
-    return "balancedBias";   // late night: calm balance
-  }
-}
-
-
-</script>
-
-
-
-<script>
-const startTime = Date.now();
-const milestonesPlayed = new Set();
-
-const milestoneSounds = [
-  "muziek/effects/Michael Speakin Fans.mp3",
-  "muziek/effects/Michael Speakin Fans - 2.mp3",
-  "muziek/effects/Michael Speakin Fans - 3.mp3"
-];
-
-function playSound(files) {
-  const audio = new Audio(files[0]);
-  audio.play().catch(err => console.error("Audio play failed:", err));
-}
-
-function startListeningMilestones() {
-  setInterval(() => {
-    // For testing: 1 minute = 1 hour
-    const hoursListened = Math.floor((Date.now() - startTime) / (1000 * 60));
-
-    if (hoursListened > 0 && hoursListened <= 6 && !milestonesPlayed.has(hoursListened)) {
-      const randomIndex = Math.floor(Math.random() * milestoneSounds.length);
-      const chosenSound = milestoneSounds[randomIndex];
-
-      playSound([chosenSound]);
-      milestonesPlayed.add(hoursListened);
-
-      console.log(`Milestone reached: ${hoursListened}h → playing ${chosenSound}`);
+  // Find the matching timeRange
+  const range = timeRanges.find(r => {
+    if (r.start < r.end) {
+      // Normal range (e.g. 8–12)
+      return hour >= r.start && hour < r.end;
+    } else {
+      // Overnight range (e.g. 23–3)
+      return hour >= r.start || hour < r.end;
     }
-  }, 60000);
+  });
+
+  const key = range ? range.key : "unknown";
+  const mode = range ? shuffleModes[key] : "balancedBias";
+
+  // 🌟 Debug ritual: log the mapping
+  console.log(
+    `🕒 Hour: ${hour} | ⏳ Range: ${key} | 🎶 Shuffle mode: ${mode}`
+  );
+
+  return mode;
 }
 
-startListeningMilestones();
+
+
+
 </script>
 
 
