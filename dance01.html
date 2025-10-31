@@ -1640,7 +1640,7 @@ function getCurrentTimeCategory() {
     2: { morning: ["morning"], afternoon: ["evening","morning"], "special-show": ["evening","afternoon"], evening: ["evening","evening-late"], "evening-late": ["evening-late","evening"], late: ["evening-late"], night: ["jingle-time"] },
     3: { morning: ["afternoon","evening"], afternoon: ["afternoon","evening"], "special-show": ["afternoon","evening"], evening: ["evening","evening-late"], "evening-late": ["evening-late","evening"], late: ["evening"], night: ["jingle-time"] },
     4: { morning: ["afternoon","evening"], afternoon: ["afternoon","evening"], "special-show": ["afternoon","evening"], evening: ["evening-late","afternoon"], "evening-late": ["evening-late"], late: ["evening"], night: ["jingle-time"] },
-    5: { morning: ["evening","evening-late"], afternoon: ["afternoon","evening-late"], "special-show": ["evening","afternoon"], evening: ["evening","evening-late"], "evening-late": ["evening-late","evening"], late: ["evening-late"], night: ["jingle-time"] },
+    5: { morning: ["evening","evening-late"], afternoon: ["afternoon","evening-late"], "special-show": ["evening","afternoon"], evening: ["evening"], "evening-late": ["evening-late","evening"], late: ["f evening-late"], night: ["jingle-time"] },
     6: { morning: ["f afternoon","f evening"], afternoon: ["f evening","f evening-late"], "special-show": ["special"], evening: ["f evening","f evening-late"], "evening-late": ["f evening-late","f evening"], late: ["f evening-late","f afternoon"], night: ["jingle-time"] }
   };
 
@@ -1862,15 +1862,7 @@ const badgeMeta = {
 };
 
 
-  const timeRanges = [
-    { key: "morning", start: 8, end: 12 },
-    { key: "afternoon", start: 12, end: 14 },
-    { key: "special-show", start: 14, end: 16 },
-    { key: "evening", start: 16, end: 19 },
-    { key: "evening-late", start: 19, end: 23 },
-    { key: "late", start: 23, end: 3 },
-    { key: "night", start: 3, end: 8 }
-  ];
+
 
 function updateTimeBadge(categoryKey) {
   const badge = document.getElementById("timeBadge");
@@ -1987,6 +1979,17 @@ function pickNextTrack(allTracks) {
 }
 
 
+  const timeRanges = [
+    { key: "morning", start: 8, end: 12 },
+    { key: "afternoon", start: 12, end: 14 },
+    { key: "special-show", start: 14, end: 16 },
+    { key: "evening", start: 16, end: 19 },
+    { key: "evening-late", start: 19, end: 23 },
+    { key: "late", start: 23, end: 3 },
+    { key: "night", start: 3, end: 8 }
+  ];
+
+
 // Map each timeRange key to a shuffle mode
 const shuffleModes = {
   "morning": "balancedBias",      // smooth and fair
@@ -2024,6 +2027,27 @@ function getShuffleMode() {
 }
 
 
+function previewDaySchedule() {
+  for (let h = 0; h < 24; h++) {
+    const range = timeRanges.find(r => {
+      if (r.start < r.end) {
+        return h >= r.start && h < r.end;
+      } else {
+        return h >= r.start || h < r.end;
+      }
+    });
+
+    const key = range ? range.key : "unknown";
+    const mode = range ? shuffleModes[key] : "balancedBias";
+
+    console.log(
+      `🕒 Hour: ${h.toString().padStart(2, "0")}:00 | ⏳ Range: ${key} | 🎶 Mode: ${mode}`
+    );
+  }
+}
+
+// Run once to preview the full 24h cycle
+previewDaySchedule();
 
 
 </script>
