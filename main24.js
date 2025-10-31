@@ -12338,13 +12338,7 @@ volumeBoost: 0.15
 
 
 
-{
-    name: "Grandmaster Flash ",
-    artist: "White  Lines ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies01.netlify.app/White  Lines - Grandmaster Flash & the furious five.mp3",
-      timeCategory: "evening"
-},
+
 
 {
     name: "Chillhouse Del Mar",
