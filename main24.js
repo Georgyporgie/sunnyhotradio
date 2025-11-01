@@ -356,7 +356,7 @@ let trackList = [
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio01.mp3",
     timeCategory: "special",
-volumeBoost:0.20
+volumeBoost:0.50
 },
 
 
@@ -366,7 +366,7 @@ volumeBoost:0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio02.mp3",
     timeCategory: "special",
-volumeBoost:0.20
+volumeBoost:0.50
 },
 
 
@@ -380,7 +380,7 @@ volumeBoost:0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio03.mp3",
     timeCategory: "special",
-volumeBoost:0.20
+volumeBoost:0.50
 },
 
 
@@ -391,7 +391,7 @@ volumeBoost:0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio04.mp3",
     timeCategory: "special",
-volumeBoost:0.20
+volumeBoost:0.50
 },
 
 
@@ -402,7 +402,7 @@ volumeBoost:0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio05.mp3",
     timeCategory: "special",
-volumeBoost:0.20
+volumeBoost:0.50
 },
 
 
@@ -412,7 +412,7 @@ volumeBoost:0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio06.mp3",
     timeCategory: "special",
-volumeBoost:0.20
+volumeBoost:0.50
 },
 
 
@@ -422,7 +422,7 @@ volumeBoost:0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio07.mp3",
     timeCategory: "special",
-volumeBoost:0.20
+volumeBoost:0.50
 },
 
 
@@ -13094,7 +13094,7 @@ volumeBoost: 0.10
     path: "https://sunnydancemusic07.netlify.app/Donna Summer - I Feel Love (revisit mix).mp3",
     timeCategory: "evening-late",
     quickFade: true,
-volumeBoost: 0.35
+volumeBoost: 0.25
 },
 
 
