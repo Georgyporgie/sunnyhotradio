@@ -355,7 +355,8 @@ let trackList = [
     artist: "Sonny Fodera ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio01.mp3",
-    timeCategory: "special"
+    timeCategory: "special",
+volumeBoost:0.20
 },
 
 
@@ -364,7 +365,8 @@ let trackList = [
     artist: "Sonny Fodera - Live From His Studio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio02.mp3",
-    timeCategory: "special"
+    timeCategory: "special",
+volumeBoost:0.20
 },
 
 
@@ -377,7 +379,8 @@ let trackList = [
     artist: "Sonny Fodera - Live From His Studio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio03.mp3",
-    timeCategory: "special"
+    timeCategory: "special",
+volumeBoost:0.20
 },
 
 
@@ -387,7 +390,8 @@ let trackList = [
     artist: "Sonny Fodera - Live From His Studio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio04.mp3",
-    timeCategory: "special"
+    timeCategory: "special",
+volumeBoost:0.20
 },
 
 
@@ -397,7 +401,8 @@ let trackList = [
     artist: "Sonny Fodera - Live From His Studio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio05.mp3",
-    timeCategory: "special"
+    timeCategory: "special",
+volumeBoost:0.20
 },
 
 
@@ -406,7 +411,8 @@ let trackList = [
     artist: "Sonny Fodera - Live From His Studio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio06.mp3",
-    timeCategory: "special"
+    timeCategory: "special",
+volumeBoost:0.20
 },
 
 
@@ -415,7 +421,8 @@ let trackList = [
     artist: "Sonny Fodera - Live From His Studio",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio07.mp3",
-    timeCategory: "special"
+    timeCategory: "special",
+volumeBoost:0.20
 },
 
 
@@ -9095,7 +9102,7 @@ quickFade: true,
 
 
      timeCategory: "evening",
-  volumeBoost: 0.30
+  volumeBoost: 0.50
 },
 
 
