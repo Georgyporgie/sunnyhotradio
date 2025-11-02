@@ -818,8 +818,9 @@ volumeBoost:0.40
     artist: "Pet Shop Boys ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Pet Shop Boys - West End Girls (10'' Mix).mp3",
-      timeCategory: "morning"
- },
+      timeCategory: "morning",
+  volumeBoost: 0.35
+},
 
 
 
@@ -6830,7 +6831,7 @@ timeCategory: "afternoon",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Stardust - Music Sounds Better With You.mp3",
     timeCategory: "afternoon",
-  volumeBoost: 0.40
+  volumeBoost: 0.50
 },
 
 
@@ -19220,7 +19221,7 @@ volumeBoost: 0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Pet Shop Boys - West End Girls (10'' Mix).mp3",
       timeCategory: "f afternoon",
-  volumeBoost: 0.25
+  volumeBoost: 0.35
  },
 
 
@@ -22464,7 +22465,7 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Stardust - Music Sounds Better With You.mp3",
     timeCategory: "f evening-late",
-  volumeBoost: 0.40
+  volumeBoost: 0.50
 },
 
 
@@ -22500,13 +22501,7 @@ quickFade: true
 
 },
 
-{
-    name: " Gorgeous (new)",
-    artist: "  Doja Cat ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Doja Cat - Gorgeous.mp3",
-       timeCategory: "f evening"
-},
+
 
 
 
