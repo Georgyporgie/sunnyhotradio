@@ -1030,6 +1030,7 @@ if (curr_track) {
 
         
 </script>
+
 <script>
 // Schedule reloads for midnight, noon and 6pm
 function scheduleRangeSwap() {
@@ -1041,7 +1042,11 @@ function scheduleRangeSwap() {
   // Noon
   checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 0, 1));
   // 6pm
-  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 18, 0, 1));
+  
+ checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 14, 0, 1));
+checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 16, 0, 1));
+
+checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 19, 15, 1));
 
   checkpoints.forEach(time => {
     const ms = time - now;
@@ -1053,6 +1058,7 @@ function scheduleRangeSwap() {
     }
   });
 }
+
 
 
 
@@ -1697,7 +1703,7 @@ const weekdaySlots = [
   const weekendSlots = [
     { start: 8, end: 14, file: "muziek/voiceover/From The Heart Of Amsterdam2.mp3" },
     { start: 14, end: 16, file: "muziek/voiceover/From The Heart Of Amsterdam2.mp3" },
-    { start: 16, end: 19, file: "muziek/discjockeys/female dj333.mp3" },
+    { start: 16, end: 19, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" },
     { start: 19, end: 23, file: "muziek/voiceover/From The Heart Of Amsterdam2.mp3" },
     { start: 23, end: 3, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" },
     { start: 3, end: 8, file: "muziek/discjockeys/starten met Sunny4.mp3" }
@@ -2025,29 +2031,6 @@ function getShuffleMode() {
 
   return mode;
 }
-
-
-function previewDaySchedule() {
-  for (let h = 0; h < 24; h++) {
-    const range = timeRanges.find(r => {
-      if (r.start < r.end) {
-        return h >= r.start && h < r.end;
-      } else {
-        return h >= r.start || h < r.end;
-      }
-    });
-
-    const key = range ? range.key : "unknown";
-    const mode = range ? shuffleModes[key] : "balancedBias";
-
-    console.log(
-      `🕒 Hour: ${h.toString().padStart(2, "0")}:00 | ⏳ Range: ${key} | 🎶 Mode: ${mode}`
-    );
-  }
-}
-
-// Run once to preview the full 24h cycle
-previewDaySchedule();
 
 
 </script>
