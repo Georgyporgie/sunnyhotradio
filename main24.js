@@ -526,7 +526,8 @@ volumeBoost:0.50
     artist: "Trance Classics ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur01.mp3",
-    timeCategory: "special-cast"
+    timeCategory: "special-cast",
+volumeBoost:0.40
 },
 
 
@@ -535,7 +536,8 @@ volumeBoost:0.50
     artist: "Trance Classics ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur02.mp3",
-    timeCategory: "special-cast"
+    timeCategory: "special-cast",
+volumeBoost:0.40
 },
 
 
@@ -544,7 +546,8 @@ volumeBoost:0.50
     artist: "Trance Classics ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur03.mp3",
-    timeCategory: "special-cast"
+    timeCategory: "special-cast",
+volumeBoost:0.40
 },
 
 
@@ -553,7 +556,8 @@ volumeBoost:0.50
     artist: "Trance Classics ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur05.mp3",
-    timeCategory: "special-cast"
+    timeCategory: "special-cast",
+volumeBoost:0.40
 },
 
 
@@ -564,7 +568,8 @@ volumeBoost:0.50
     artist: "Trance Classics ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur06.mp3",
-    timeCategory: "special-cast"
+    timeCategory: "special-cast",
+volumeBoost:0.40
 },
 
 
@@ -6824,7 +6829,8 @@ timeCategory: "afternoon",
     artist: "Stardust ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Stardust - Music Sounds Better With You.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+  volumeBoost: 0.40
 },
 
 
@@ -14704,7 +14710,8 @@ quickFade: true
     artist: "Lizzo",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Lizzo - Rumours.mp3",
-     timeCategory: "evening-late"
+     timeCategory: "evening-late",
+volumeBoost: 0.10
 },
 
 
@@ -22014,7 +22021,7 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Fatback - Is This the Future.mp3",
     timeCategory: "f evening-late",
-  volumeBoost: 0.25
+  volumeBoost: 0.35
 },
 
 
@@ -22457,7 +22464,7 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Stardust - Music Sounds Better With You.mp3",
     timeCategory: "f evening-late",
-  volumeBoost: 0.20
+  volumeBoost: 0.40
 },
 
 
