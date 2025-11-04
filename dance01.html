@@ -353,10 +353,14 @@ document.addEventListener("DOMContentLoaded", scheduleHourlyFlash);
 <br>
 <br>
 <br>
+
 <br>
 <br>
 <br>
 <br>
+<br>
+<br>
+
 
 <h5 id="events">
 <script>
@@ -574,20 +578,36 @@ document.addEventListener("DOMContentLoaded", scheduleHourlyFlash);
 
 
 <script>
-
 window.addEventListener("load", function () {
   const clock = document.getElementById("stop");
-  let time = -1; // Initialize time
+  let time = -1; // seconds elapsed
+
   function incrementTime() {
     time++;
-    clock.textContent =
-      ("0" + Math.trunc(time / 60)).slice(-2) + ":" + ("0" + (time % 60)).slice(-2);
+
+    const hours = Math.trunc(time / 3600);
+    const minutes = Math.trunc((time % 3600) / 60);
+    const seconds = time % 60;
+
+    if (hours > 0) {
+      // Show HH:MM:SS once an hour has passed
+      clock.textContent =
+        ("0" + hours).slice(-2) + ":" +
+        ("0" + minutes).slice(-2) + ":" +
+        ("0" + seconds).slice(-2);
+    } else {
+      // Before an hour, just show MM:SS
+      clock.textContent =
+        ("0" + minutes).slice(-2) + ":" +
+        ("0" + seconds).slice(-2);
+    }
   }
+
   incrementTime(); // Initialize display
   setInterval(incrementTime, 1000); // Update every second
 });
-
 </script>
+
 
 
 
@@ -770,7 +790,7 @@ img.src = 'images/Sunny4.png';
 var img = document.getElementById("logo");
 
 //Set the src property of our element to the new image URL
-img.src = 'images/Dance radio5.png';
+img.src = 'images/Sunny Winter Dance.png';
 </script>
 
 
@@ -1349,7 +1369,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 <audio id="thirtySevenMinuteSou">
-  <source src="muziek/voiceover/Live from amsterdam2.mp3" type="audio/mp3">
+  <source src="muziek/voiceover/Live%20from%20amsterdam2.mp3" type="audio/mp3">
 </audio>
 
 
@@ -1642,13 +1662,13 @@ function getCurrentTimeCategory() {
   ];
 
   const categoriesPerDay = {
-    0: { morning: ["f afternoon","f evening"], afternoon: ["f afternoon","f evening-late"], "special-show": ["special-cast"], evening: ["f evening","f afternoon"], "evening-late": ["f evening-late","f evening"], late: ["f evening-late"], night: ["jingle-time"] },
-    1: { morning: ["morning","afternoon"], afternoon: ["afternoon","morning"], "special-show": ["afternoon","evening"], evening: ["evening","evening-late"], "evening-late": ["evening-late","evening"], late: ["evening-late"], night: ["jingle-time"] },
-    2: { morning: ["morning"], afternoon: ["evening","morning"], "special-show": ["evening","afternoon"], evening: ["evening","evening-late"], "evening-late": ["evening-late","evening"], late: ["evening-late"], night: ["jingle-time"] },
-    3: { morning: ["afternoon","evening"], afternoon: ["afternoon","evening"], "special-show": ["afternoon","evening"], evening: ["evening","evening-late"], "evening-late": ["evening-late","evening"], late: ["evening"], night: ["jingle-time"] },
+    0: { morning: ["f afternoon","f evening"], afternoon: ["f afternoon","f evening-late"], "special-show": ["special-mix"], evening: ["f evening","f afternoon"], "evening-late": ["f evening-late","f evening"], late: ["f evening-late"], night: ["jingle-time"] },
+    1: { morning: ["morning"], afternoon: ["afternoon"], "special-show": ["evening"], evening: ["evening","evening-late"], "evening-late": ["afternoon","evening"], late: ["evening-late"], night: ["jingle-time"] },
+    2: { morning: ["morning"], afternoon: ["afternoon","morning"], "special-show": ["evening","afternoon"], evening: ["evening","evening-late"], "evening-late": ["evening-late","morning"], late: ["evening-late"], night: ["jingle-time"] },
+    3: { morning: ["afternoon","evening"], afternoon: ["morning","evening"], "special-show": ["evening"], evening: ["evening-late"], "evening-late": ["evening-late"], late: ["evening"], night: ["jingle-time"] },
     4: { morning: ["afternoon","evening"], afternoon: ["afternoon","evening"], "special-show": ["afternoon","evening"], evening: ["evening-late","afternoon"], "evening-late": ["evening-late"], late: ["evening"], night: ["jingle-time"] },
     5: { morning: ["evening","evening-late"], afternoon: ["afternoon","evening-late"], "special-show": ["evening","afternoon"], evening: ["evening"], "evening-late": ["evening-late","evening"], late: ["f evening-late"], night: ["jingle-time"] },
-    6: { morning: ["f afternoon","f evening"], afternoon: ["f evening","f evening-late"], "special-show": ["special"], evening: ["f evening","f evening-late"], "evening-late": ["f evening-late","f evening"], late: ["f evening-late","f afternoon"], night: ["jingle-time"] }
+    6: { morning: ["f afternoon","f evening"], afternoon: ["f evening","f evening-late"], "special-show": ["special"], evening: ["f evening-late"], "evening-late": ["f evening"], late: ["f afternoon"], night: ["jingle-time"] }
   };
 
   // Helper for overnight ranges
@@ -2061,5 +2081,4 @@ function getShuffleMode() {
 
 </body>
 </html>
-
 

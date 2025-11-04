@@ -325,23 +325,6 @@ let trackList = [
 
 
 
-{
-     name: "  All This Time ",
-    artist: "Sonny Fodera & Jazzy",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Sonny Fodera & Jazzy - All This Time.mp3",
-    timeCategory: "afternoon"
-},
-
-
-
-{
-     name: "   Cherry",
-    artist: "Naomi Scott ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Naomi Scott - Cherry.mp3",
-    timeCategory: "afternoon"
-},
 
 
 
@@ -1435,7 +1418,8 @@ volumeBoost:0.25
     artist: "Nomad ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Nomad - I Wanna Give You Devotion.mp3",
-      timeCategory: "morning"
+      timeCategory: "morning",
+volumeBoost: 0.20
 },
 
 
@@ -1802,8 +1786,8 @@ volumeBoost:0.25
     artist: "RUN DMC ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/RUN DMC - It's Like That.mp3",
-     timeCategory: "morning"
-
+     timeCategory: "morning",
+volumeBoost: 0.20
 
 },
 
@@ -1839,7 +1823,7 @@ volumeBoost:0.25
     artist: "Beyonce",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Beyonce - Crazy In Love.mp3",
-  
+  volumeBoost: 0.10,
 
 
      timeCategory: "morning"
@@ -1857,8 +1841,8 @@ volumeBoost:0.25
     artist: "Lime ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Lime - Your Love.mp3",
-       timeCategory: "morning"
-
+       timeCategory: "morning",
+volumeBoost: 0.35
 
 },
 
@@ -1947,8 +1931,8 @@ volumeBoost:0.25
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/CC Peniston - We Got A Love Thang.mp3",
       timeCategory: "morning",
-    quickFade: true
-
+    quickFade: true,
+volumeBoost: 0.10
 },
 
 
@@ -1958,7 +1942,8 @@ volumeBoost:0.25
     artist: "Evelyn King ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Evelyn King - Love come down.mp3",
-  timeCategory: "morning"
+  timeCategory: "morning",
+volumeBoost: 0.35
 },
 
 
@@ -2033,6 +2018,7 @@ quickFade: true
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/David Joseph - You Cant Hide (Your Love From Me).mp3",
      timeCategory: "morning",
+volumeBoost: 0.35,
 quickFade: true
 },
 
@@ -2111,6 +2097,7 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Technotronic - Pump Up The Jam.mp3",
       timeCategory: "morning",
+volumeBoost: 0.15,
 quickFade: true
 
 },
@@ -2364,7 +2351,7 @@ quickFade: true
     artist: "Imagination ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Imagination - Just an Illusion 1982.mp3",
-  
+  volumeBoost: 0.25,
       timeCategory: "morning"
 
 },
@@ -2526,7 +2513,7 @@ quickFade: true
     artist: "Commodores",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Commodores - Machine gun.mp3",
-  
+  volumeBoost: 0.45,
 
 
     timeCategory: "morning"
@@ -2602,8 +2589,8 @@ quickFade: true
     artist: "Inner City  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Inner City - Big Fun.mp3",
-    timeCategory: "morning"
-
+    timeCategory: "morning",
+volumeBoost: 0.20
 
 },
 
@@ -2652,7 +2639,7 @@ volumeBoost: 0.15
     artist: "Mary Jane Girls ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mary Jane Girls - All Night Long.mp3",
-  
+  volumeBoost: 0.40,
 
 
     timeCategory: "morning"
@@ -2709,8 +2696,8 @@ volumeBoost: 0.15
     artist: "Depeche Mode ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Depeche Mode - Enjoy The Silence.mp3",
-    timeCategory: "morning"
-
+    timeCategory: "morning",
+volumeBoost: 0.10
 
 },
 
@@ -2949,23 +2936,15 @@ volumeBoost: 0.15
 
 
 
-{
-    name: "  She ",
-    artist: "Elderbrook Cola    ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Elderbrook Cola - She.mp3",
-    timeCategory: "morning"
 
-
-},
 
 {
     name: " Fly Robin Fly (1975) ",
     artist: "Silver Convention",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Silver Convention - Fly Robin Fly.mp3",
-     timeCategory: "morning"
-
+     timeCategory: "morning",
+volumeBoost: 0.45
 
 },
 
@@ -3103,7 +3082,8 @@ volumeBoost: 0.15
     artist: "Cher",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Cher - Believe.mp3",
-        timeCategory: "morning"
+        timeCategory: "morning",
+volumeBoost: 0.35
 },
 
 
@@ -3120,7 +3100,8 @@ volumeBoost: 0.15
     artist: "The Brothers Johnson",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/THE BROTHERS JOHNSON - Stomp! (Album Version) HQ.mp3",
-         timeCategory: "morning"
+         timeCategory: "morning",
+volumeBoost: 0.40
 },
 
 
@@ -3163,7 +3144,8 @@ volumeBoost: 0.15
     artist: "Simply Red",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Simply Red - Money's too tight (to mention).mp3",
-      timeCategory: "morning"
+      timeCategory: "morning",
+volumeBoost: 0.35
 },
 
 
@@ -3208,7 +3190,8 @@ volumeBoost: 0.15
     artist: "Herb  Alpert  ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Herb  Alpert - Diamonds.mp3",
-          timeCategory: "morning"
+          timeCategory: "morning",
+volumeBoost: 0.25
 },
 
 
@@ -3227,7 +3210,8 @@ volumeBoost: 0.15
     artist: "Soul II Soul ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Soul II Soul - Keep on movin'.mp3",
-       timeCategory: "morning"
+       timeCategory: "morning",
+volumeBoost: 0.25
 },
 
 
@@ -3251,7 +3235,8 @@ volumeBoost: 0.15
     artist: "Sos Band  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Sos Band Just the way youn like it.mp3",
-        timeCategory: "morning"
+        timeCategory: "morning",
+volumeBoost: 0.30
 },
 
 
@@ -3299,7 +3284,8 @@ volumeBoost: 0.15
     artist: "Kenny Burke  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Kenny Burke - Risin to the Top.mp3",
-           timeCategory: "morning"
+           timeCategory: "morning",
+volumeBoost: 0.20
 },
 
 
@@ -3320,7 +3306,8 @@ volumeBoost: 0.15
     artist: "Bobby Womack ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Bobby Womack - Across 110th street.mp3",
-           timeCategory: "morning"
+           timeCategory: "morning",
+volumeBoost: 0.35
 },
 
 
@@ -3359,7 +3346,8 @@ volumeBoost: 0.15
     artist: "Deee-Lite   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Deee-Lite - Groove Is In The Heart.mp3",
-        timeCategory: "morning"
+        timeCategory: "morning",
+volumeBoost: 0.25
 },
 
 
@@ -3453,7 +3441,8 @@ volumeBoost: 0.15
     artist: "Lakeside ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Lakeside - It's All The Way Live.mp3",
-          timeCategory: "morning"
+          timeCategory: "morning",
+volumeBoost: 0.35
 },
 
 
@@ -3469,7 +3458,8 @@ volumeBoost: 0.15
     artist: "MFSB    ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/MFSB - Sexy (12inch).mp3",
-    timeCategory: "morning"
+    timeCategory: "morning",
+volumeBoost: 0.40
 },
 
 
@@ -3488,9 +3478,10 @@ volumeBoost: 0.15
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Harvey Mason - Groovin' You.mp3",
   
-
+volumeBoost: 0.40,
 
           timeCategory: "morning"
+
 },
 
 
@@ -3522,7 +3513,8 @@ volumeBoost: 0.15
     artist: "SWV ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/SWV - Right Here.mp3",
-        timeCategory: "morning"
+        timeCategory: "morning",
+volumeBoost: 0.25
 },
 
 
@@ -3547,7 +3539,9 @@ volumeBoost: 0.15
     artist: "Whodini  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Whodini - Magic's Wand.mp3",
-  timeCategory: "morning"
+  timeCategory: "morning",
+volumeBoost: 0.25
+
 },
 
 
@@ -3557,11 +3551,17 @@ volumeBoost: 0.15
     artist: " Baby O  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Baby O - In The Forest.mp3",
-  
+        timeCategory: "morning",
+volumeBoost: 0.35
 
 
-      timeCategory: "morning"
+
 },
+
+
+
+
+
 {
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️",
@@ -3631,7 +3631,8 @@ volumeBoost: 0.15
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Change - Glow Of Love.mp3",
           category: "tuesday-chill",
-timeCategory: "morning"
+timeCategory: "morning",
+volumeBoost: 0.40
 },
 
 
@@ -3754,7 +3755,8 @@ timeCategory: "morning"
     artist: "Massive ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Massive Attack - Unfinished Sympathy.mp3",
- timeCategory: "morning"
+ timeCategory: "morning",
+volumeBoost: 0.25
 },
 
 
@@ -3850,7 +3852,8 @@ timeCategory: "morning"
     artist: "Depeche Mode",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/A Pain That I'm Used To (Jacques Lu Cont Remix).mp3",
- timeCategory: "morning"
+ timeCategory: "morning",
+volumeBoost: 0.35
 },
 
 
@@ -3861,7 +3864,8 @@ timeCategory: "morning"
     artist: "Jacksons",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Jacksons - Let me show you (Ruud Remix).mp3",
-timeCategory: "morning"
+timeCategory: "morning",
+volumeBoost: 0.35
 },
 
 
@@ -3870,7 +3874,9 @@ timeCategory: "morning"
     artist: "Sheila B Devotion",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Sheila B Devotion - Spacer.mp3",
-timeCategory: "morning"
+timeCategory: "morning",
+volumeBoost: 0.35
+
 },
  
 
@@ -3881,7 +3887,8 @@ timeCategory: "morning"
     artist: "E W F ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/E W F - Win or lose.mp3",
-  timeCategory: "morning"
+  timeCategory: "morning",
+volumeBoost: 0.55
 },
 
 
@@ -4019,7 +4026,8 @@ timeCategory: "morning"
     artist: "Bruce Johnston  ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Bruce Johnston- Pipeline.mp3",
- timeCategory: "morning"
+ timeCategory: "morning",
+volumeBoost: 0.35
 },
 
 
@@ -4120,7 +4128,8 @@ timeCategory: "morning"
     artist: "Lisa Stansfield  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Lisa Stansfield - All Around the World.mp3",
- timeCategory: "morning"
+ timeCategory: "morning",
+volumeBoost: 0.25
 },
 
 
@@ -4286,7 +4295,8 @@ timeCategory: "morning"
     artist: "Depeche Mode ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Depeche mode- People are people.mp3",
-           timeCategory: "morning"
+           timeCategory: "morning",
+volumeBoost: 0.35
 },
 
 
@@ -4306,8 +4316,8 @@ timeCategory: "morning"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/T-Connection - Best of my Love.mp3",
            timeCategory: "morning",
-quickFade: true
-
+quickFade: true,
+volumeBoost: 0.40
 },
 
 
@@ -4339,7 +4349,8 @@ quickFade: true
     artist: "The Sun ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/The Sun - Radiation Level.mp3",
-          timeCategory: "morning"
+          timeCategory: "morning",
+volumeBoost: 0.35
 },
 
 
@@ -4430,7 +4441,7 @@ quickFade: true
     artist: "Prince",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Prince - I wanna be your lover.mp3",
-  
+  volumeBoost: 0.35,
 
 
       timeCategory: "morning"
@@ -4449,8 +4460,8 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Slave - Just A Touch (1979).mp3",
        timeCategory: "morning",
-quickFade: true
-
+quickFade: true,
+  volumeBoost: 0.35
 },
 
 
@@ -4529,7 +4540,8 @@ quickFade: true
     artist: "James Brown",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/James Brown - Funky president.mp3",
-        timeCategory: "morning"
+        timeCategory: "morning",
+  volumeBoost: 0.45
 },
 
 
@@ -4619,8 +4631,9 @@ quickFade: true
     artist: "Deeelite ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Deeelite - What Is Love.mp3",
-      timeCategory: "morning"
- },
+      timeCategory: "morning",
+   volumeBoost: 0.15
+},
 
 
 
@@ -4724,6 +4737,23 @@ quickFade: true
 },
 
 
+{
+     name: "  All This Time ",
+    artist: "Sonny Fodera & Jazzy",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Sonny Fodera & Jazzy - All This Time.mp3",
+    timeCategory: "afternoon"
+},
+
+
+
+{
+     name: "   Cherry",
+    artist: "Naomi Scott ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Naomi Scott - Cherry.mp3",
+    timeCategory: "afternoon"
+},
 
 {
     name: "Welcome!",
@@ -4810,7 +4840,8 @@ quickFade: true
     artist: "Seal ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Seal - Crazy.mp3",
-      timeCategory: "afternoon"
+      timeCategory: "afternoon",
+  volumeBoost: 0.20
 },
 
 
@@ -4819,7 +4850,8 @@ quickFade: true
     artist: "Seal ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Adamski, Seal- Killer (1990).mp3",
-      timeCategory: "afternoon"
+      timeCategory: "afternoon",
+  volumeBoost: 0.20
 },
 
 
@@ -4924,7 +4956,8 @@ quickFade: true
     artist: "Sharon Brown ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Sharon Brown Specialize in love.mp3",
-   timeCategory: "afternoon"
+   timeCategory: "afternoon",
+  volumeBoost: 0.40
 },
 
 
@@ -4941,7 +4974,8 @@ quickFade: true
     artist: "The Orb ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/The Orb - A hugh pulsating brain Paradox mix.mp3",
-   timeCategory: "afternoon"
+   timeCategory: "afternoon",
+  volumeBoost: 0.30
 },
 
 
@@ -4951,7 +4985,8 @@ quickFade: true
     artist: "Michael Jackson ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Michael Jackson Thriller.mp3",
-   timeCategory: "afternoon"
+   timeCategory: "afternoon",
+  volumeBoost: 0.40
 },
 
 
@@ -4961,7 +4996,8 @@ quickFade: true
     artist: "The Flirts ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/The Flirts - Passion.mp3",
-   timeCategory: "afternoon"
+   timeCategory: "afternoon",
+  volumeBoost: 0.30
 },
 
 
@@ -5126,7 +5162,8 @@ quickFade: true
     artist: "Pointer Sisters ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Pointer Sisters - Automatic.mp3",
-   timeCategory: "afternoon"
+   timeCategory: "afternoon",
+  volumeBoost: 0.30
 },
 
 
@@ -5798,7 +5835,7 @@ quickFade: true
     artist: "Slave  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Slave - Stellar Funk (1978).mp3",
-  
+    volumeBoost: 0.30,
 
 
     timeCategory: "afternoon"
@@ -10251,7 +10288,8 @@ quickFade: true
     artist: "Azoto ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Azoto - San Salvador.mp3",
-      timeCategory: "evening"
+      timeCategory: "evening",
+volumeBoost: 0.25
 },
 
 
@@ -10871,7 +10909,8 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Bizarre Inc - Raise Me.mp3",
     timeCategory: "evening",
-  volumeBoost: 0.10
+  volumeBoost: 0.10,
+  quickFade: true
 },
 
 
@@ -11468,7 +11507,7 @@ volumeBoost: 0.20
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Shannon - Let The Music Play.mp3",
         timeCategory: "evening",
-volumeBoost: 0.20
+volumeBoost: 0.15
 },
 
 
@@ -12574,7 +12613,8 @@ volumeBoost: 0.15
     artist: "Change ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Change - Miracles.mp3",
-      timeCategory: "evening"
+      timeCategory: "evening",
+  volumeBoost: 0.25
 },
 
 
@@ -12838,7 +12878,7 @@ volumeBoost: 0.15
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Vanilla Ice - Ice Ice Baby (1990).mp3",
    timeCategory: "evening-late",
-  volumeBoost: 0.10
+  volumeBoost: 0.20
 
 },
 
@@ -15694,7 +15734,8 @@ volumeBoost: 0.25
     artist: "Mix Central  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 01.mp3",
-  timeCategory: " evening-late"
+  timeCategory: " evening-late",
+volumeBoost: 0.25
 },
 
 
@@ -15708,7 +15749,8 @@ volumeBoost: 0.25
     artist: "Mix Central  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 02.mp3",
- timeCategory: " evening-late"
+ timeCategory: " evening-late",
+volumeBoost: 0.25
 },
 
 
@@ -15729,7 +15771,8 @@ timeCategory: " evening-late"
     artist: "Mix Central  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 05.mp3",
-timeCategory: "evening-late"
+timeCategory: "evening-late",
+volumeBoost: 0.25
 },
 
 
@@ -15746,7 +15789,8 @@ timeCategory: "evening-late"
     artist: "Mix Central  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 03.mp3",
- timeCategory: " evening-late"
+ timeCategory: " evening-late",
+volumeBoost: 0.25
 },
 
 
@@ -15758,7 +15802,8 @@ timeCategory: "evening-late"
     artist: "Mix Central  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 04.mp3",
-timeCategory: " evening-late"
+timeCategory: " evening-late",
+volumeBoost: 0.25
 },
 
 
@@ -17534,7 +17579,14 @@ volumeBoost: 0.15
 
 
 
-
+{
+    name: "Radiation Level (12inch)",
+    artist: "The Sun ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/The Sun - Radiation Level.mp3",
+          timeCategory: "evening-late",
+volumeBoost: 0.35
+},
 
 
 

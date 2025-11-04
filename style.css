@@ -263,7 +263,7 @@ li:hover {
 .ham  {    width: 40px;  height: 40px; filter: brightness(110%) saturate(110%) contrast(110%) opacity(70%); transform: rotate(0deg); z-index: -200; margin-bottom: -22px; margin-right: 8px;margin-top: -11px; color: white;
 }
 
-#logo  {    width: 120px;  height: 90px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(70%); transform: rotate(0deg); z-index: -200; margin-top: -16px;margin-bottom: -38px;margin-left: 8px;  border-radius: 5px;
+#logo  {    width: 120px;  height: 90px;filter:  opacity(70%); transform: rotate(0deg); z-index: -200; margin-top: -16px;margin-bottom: -38px;margin-left: 8px;  border-radius: 5px;
 }
 .star  {    width: 55px;  height: 45px;filter: brightness(115%) saturate(115%) contrast(115%) opacity(70%); transform: rotate(0deg); z-index: -200; float: right;
 margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
