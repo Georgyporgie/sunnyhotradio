@@ -1120,7 +1120,7 @@ function scheduleRangeSwap() {
   // 6pm
   checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 14, 0, 1));
   checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 16, 0, 1));
-  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 19, 0, 1));
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 18, 51, 1));
   checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 23, 0, 1));
   
   checkpoints.forEach(time => {
@@ -1447,7 +1447,7 @@ function playSound(soundIds) {
     const soundEl = document.getElementById(id);
     if (soundEl) {
       soundEl.currentTime = 0;
-      soundEl.volume = 0.6;
+      soundEl.volume = 0.5;
       soundEl.play().catch(err => console.error("Playback failed:", err));
     }
   });
