@@ -1052,6 +1052,62 @@ if (curr_track) {
 </script>
 
 <script>
+function resetWithFadeIn() {
+  const audioElement = document.getElementById("player");
+  if (!audioElement) {
+    console.warn("Audio element #player not found. Falling back to page reload.");
+    location.reload();
+    return;
+  }
+
+  console.log("Resetting audio with fade‑in…");
+
+  // Pause and reload the current source
+  const currentSrc = audioElement.currentSrc || audioElement.src;
+  audioElement.pause();
+  audioElement.src = currentSrc;
+  audioElement.load();
+
+  // Start at volume 0 and play when it can
+  audioElement.volume = 0;
+
+  const startPlayback = () => {
+    audioElement.play().then(() => {
+      // Smooth fade‑in via rAF
+      let target = 1;
+      let step = 0.03; // smaller = slower fade
+      const fade = () => {
+        if (audioElement.volume < target) {
+          audioElement.volume = Math.min(target, audioElement.volume + step);
+          requestAnimationFrame(fade);
+        }
+      };
+      requestAnimationFrame(fade);
+    }).catch(err => {
+      console.warn("Playback failed, falling back to reload:", err);
+      location.reload();
+    });
+  };
+
+  // If the source is streamy, canplay might not fire reliably; try both
+  const onCanPlay = () => {
+    audioElement.removeEventListener("canplay", onCanPlay);
+    startPlayback();
+  };
+  audioElement.addEventListener("canplay", onCanPlay);
+
+  // Fallback start if canplay doesn’t arrive quickly
+  setTimeout(() => {
+    if (audioElement.paused) startPlayback();
+  }, 500);
+}
+</script>
+
+
+
+
+
+<script>
 // Schedule reloads for midnight, noon and 6pm
 function scheduleRangeSwap() {
   const now = new Date();
@@ -1062,23 +1118,22 @@ function scheduleRangeSwap() {
   // Noon
   checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 0, 1));
   // 6pm
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 14, 0, 1));
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 16, 0, 1));
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 19, 0, 1));
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 23, 0, 1));
   
- checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 14, 0, 1));
-checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 16, 0, 1));
-
-checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 19, 0, 1));
-checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 23, 0, 1));
-  
-checkpoints.forEach(time => {
+  checkpoints.forEach(time => {
     const ms = time - now;
     if (ms > 0) {
       setTimeout(() => {
-        console.log(`Time checkpoint reached (${time.toLocaleTimeString()})—reloading audio sources.`);
-        location.reload();
+        console.log(`Time checkpoint reached (${time.toLocaleTimeString()})—refreshing audio with fade.`);
+        resetWithFadeIn(); // swapped in here
       }, ms);
     }
   });
 }
+
 
 
 
