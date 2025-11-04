@@ -1335,7 +1335,9 @@ volumeBoost:0.25
     artist: "Yarbrough & Peoples  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Yarbrough & Peoples - Don't Stop The Music.mp3",
-       timeCategory: "morning"
+       timeCategory: "morning",
+volumeBoost: 0.25
+
 },
 
 
@@ -3191,7 +3193,7 @@ volumeBoost: 0.35
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Herb  Alpert - Diamonds.mp3",
           timeCategory: "morning",
-volumeBoost: 0.25
+volumeBoost: 0.30
 },
 
 
@@ -3600,8 +3602,8 @@ volumeBoost: 0.35
     artist: "Moloko ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Moloko - Sing It Back.mp3",
-    timeCategory: "morning"
-
+    timeCategory: "morning",
+volumeBoost: 0.25
 
 },
 
@@ -6545,7 +6547,8 @@ timeCategory: "afternoon",
     artist: "Deeelite ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Deeelite - What Is Love.mp3",
-     timeCategory: "afternoon"
+     timeCategory: "afternoon",
+volumeBoost: 0.15
 },
 
 
@@ -11548,7 +11551,7 @@ volumeBoost: 0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Salt n Pepa - Push It (1987).mp3",
     timeCategory: "evening",
-volumeBoost: 0.25
+volumeBoost: 0.35
 },
 
 
@@ -11977,7 +11980,7 @@ volumeBoost: 0.20
 
 
         timeCategory: "evening",
-volumeBoost: 0.15
+volumeBoost: 0.25
 },
 
 
@@ -12890,7 +12893,7 @@ volumeBoost: 0.15
     path: "https://sunnydanceoldies09.netlify.app/Salt n Pepa - Push It (1987).mp3",
     timeCategory: "evening-late",
 
-  volumeBoost: 0.15
+  volumeBoost: 0.35
 },
 
 
@@ -16316,7 +16319,8 @@ volumeBoost: 0.15
     artist: "Fatback ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Fatback - Girls On My Mind.mp3",
-  timeCategory: "evening-late"
+  timeCategory: "evening-late",
+volumeBoost:0.30 
 },
 
 
@@ -16329,7 +16333,8 @@ volumeBoost: 0.15
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Fatback - Backstrokin'.mp3",
   timeCategory: "evening-late",
-  quickFade: true
+  quickFade: true,
+volumeBoost:0.35 
 },
 
 
@@ -17516,8 +17521,8 @@ volumeBoost: 0.15
     artist: "Mary Jane Girls ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mary Jane Girls - All Night Long.mp3",
-    timeCategory: "evening-late"
-
+    timeCategory: "evening-late",
+volumeBoost: 0.40
 
 },
 
@@ -21444,7 +21449,7 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Bomb The Base - Beat Dis.mp3",
      timeCategory: "f evening",
-  volumeBoost: 0.15
+  volumeBoost: 0.05
 
 
 },
