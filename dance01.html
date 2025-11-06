@@ -340,7 +340,7 @@ document.addEventListener("DOMContentLoaded", scheduleHourlyFlash);
   
 
 <div>
-<IFRAME id="frame" SRC="https://gasts.netlify.app/gasts" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=345 HEIGHT=382></IFRAME>
+<IFRAME id="frame" SRC="https://gasts.netlify.app/gasts" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=345 HEIGHT=402></IFRAME>
 <br>
 </div>
 
@@ -1055,52 +1055,43 @@ if (curr_track) {
 function resetWithFadeIn() {
   const audioElement = document.getElementById("player");
   if (!audioElement) {
-    console.warn("Audio element #player not found. Falling back to page reload.");
-    location.reload();
+    console.warn("Audio element #player not found.");
     return;
   }
 
-  console.log("Resetting audio with fade‑in…");
+  console.log("Resetting audio with fade‑out/in…");
 
-  // Pause and reload the current source
-  const currentSrc = audioElement.currentSrc || audioElement.src;
-  audioElement.pause();
-  audioElement.src = currentSrc;
-  audioElement.load();
+  // Fade out first
+  let fadeOut = setInterval(() => {
+    if (audioElement.volume > 0.05) {
+      audioElement.volume = Math.max(0, audioElement.volume - 0.05);
+    } else {
+      clearInterval(fadeOut);
+      audioElement.pause();
 
-  // Start at volume 0 and play when it can
-  audioElement.volume = 0;
+      // Reload the same source
+      const currentSrc = audioElement.currentSrc || audioElement.src;
+      audioElement.src = currentSrc;
+      audioElement.load();
 
-  const startPlayback = () => {
-    audioElement.play().then(() => {
-      // Smooth fade‑in via rAF
-      let target = 1;
-      let step = 0.03; // smaller = slower fade
-      const fade = () => {
-        if (audioElement.volume < target) {
-          audioElement.volume = Math.min(target, audioElement.volume + step);
-          requestAnimationFrame(fade);
+      // Start at volume 0
+      audioElement.volume = 0;
+      audioElement.play().catch(err => {
+        console.warn("Autoplay blocked, waiting for user interaction:", err);
+      });
+
+      // Fade back in
+      let fadeIn = setInterval(() => {
+        if (audioElement.volume < 0.95) {
+          audioElement.volume = Math.min(1, audioElement.volume + 0.05);
+        } else {
+          clearInterval(fadeIn);
         }
-      };
-      requestAnimationFrame(fade);
-    }).catch(err => {
-      console.warn("Playback failed, falling back to reload:", err);
-      location.reload();
-    });
-  };
-
-  // If the source is streamy, canplay might not fire reliably; try both
-  const onCanPlay = () => {
-    audioElement.removeEventListener("canplay", onCanPlay);
-    startPlayback();
-  };
-  audioElement.addEventListener("canplay", onCanPlay);
-
-  // Fallback start if canplay doesn’t arrive quickly
-  setTimeout(() => {
-    if (audioElement.paused) startPlayback();
-  }, 500);
+      }, 200); // adjust interval for slower/faster fade
+    }
+  }, 200);
 }
+
 </script>
 
 
@@ -2113,11 +2104,15 @@ function getShuffleMode() {
 
 
 
+<script>
+const btn = document.querySelector('.btn');
+const menu = document.querySelector('.menu');
 
-
-
-
-
+btn.addEventListener('click', () => {
+  btn.classList.toggle('click');
+  menu.classList.toggle('open');
+});
+</script>
 
 
 
@@ -2136,5 +2131,4 @@ function getShuffleMode() {
 
 </body>
 </html>
-
 
