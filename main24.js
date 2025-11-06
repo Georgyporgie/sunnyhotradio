@@ -7702,7 +7702,8 @@ quickFade: true
     artist: "Rockers Revenge ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Rockers Revenge - Walking On Sunshine (12inch).mp3",
-   timeCategory: "afternoon"
+   timeCategory: "afternoon",
+volumeBoost: 0.25
 },
 
 
@@ -7867,7 +7868,8 @@ quickFade: true
     artist: "Mary Jane Girls  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Mary Jane Girls - In My House.mp3",
-     timeCategory: "afternoon"
+     timeCategory: "afternoon",
+volumeBoost:  0.20
 },
 
 
@@ -9706,14 +9708,6 @@ quickFade: true
 
 
 
-{
-    name: "Do Your Dance (1977)",
-    artist: "Rose Royce ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies01.netlify.app/Rose Royce - Do your dance.mp3",
-   timeCategory: "evening",
-  volumeBoost: 0.40
-},
 
 
 {
