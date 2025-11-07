@@ -1438,7 +1438,7 @@ function playSound(soundIds) {
     const soundEl = document.getElementById(id);
     if (soundEl) {
       soundEl.currentTime = 0;
-      soundEl.volume = 0.6;
+      soundEl.volume = 0.5;
       soundEl.play().catch(err => console.error("Playback failed:", err));
     }
   });
