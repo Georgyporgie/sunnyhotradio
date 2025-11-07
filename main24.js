@@ -1612,7 +1612,8 @@ volumeBoost: 0.20
     artist: "BB & Q Band ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/BB Q Band - On the Beat.mp3",
-        timeCategory: "morning"
+        timeCategory: "morning",
+volumeBoost: 0.30
 },
 
 
@@ -5801,7 +5802,8 @@ quickFade: true
     artist: "BB & Q Band ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/BB Q Band - On the Beat.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+volumeBoost: 0.30
 },
 
 
@@ -6004,7 +6006,8 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Phyllis Hyman - You Know How To Love Me (12inch).mp3",
   timeCategory: "afternoon",
-quickFade: true
+quickFade: true,
+volumeBoost: 0.25
 },
 
 
@@ -6475,8 +6478,8 @@ quickFade: true
     artist: "Dennis Coffey  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/Dennis Coffey - Gimme That Funk (1978).mp3",
-    timeCategory: "afternoon"
-
+    timeCategory: "afternoon",
+volumeBoost: 0.30
 
 },
 
@@ -6489,7 +6492,8 @@ quickFade: true
     artist: "Geraldine Hunt ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Geraldine Hunt - Can t Fake The Feeling.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+volumeBoost: 0.30
 },
 
 
@@ -6871,7 +6875,8 @@ volumeBoost: 0.15
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Stardust - Music Sounds Better With You.mp3",
     timeCategory: "afternoon",
-  volumeBoost: 0.50
+  volumeBoost: 0.50,
+quickFade: true
 },
 
 
@@ -7640,7 +7645,9 @@ quickFade: true
     artist: "Advance ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Advance - Take me to the top.mp3",
-   timeCategory: "afternoon"
+   timeCategory: "afternoon",
+volumeBoost: 0.30
+
 },
 
 {
@@ -8045,8 +8052,8 @@ volumeBoost:  0.20
     artist: "Mtume ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Mtume - Juicy Fruit.mp3",
-  
-
+  quickFade: true,
+volumeBoost: 0.40,
 
    timeCategory: "afternoon"
 },
@@ -8520,7 +8527,8 @@ volumeBoost:  0.20
     artist: "Geraldine Hunt ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Geraldine Hunt - Can t Fake The Feeling.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+volumeBoost: 0.40
 },
 
 
@@ -15105,7 +15113,8 @@ volumeBoost:0.25
     artist: "Total Contrast ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Total Contrast - Takes a little time.mp3",
-      timeCategory: "evening-late"
+      timeCategory: "evening-late",
+volumeBoost: 0.25
 },
 
 
