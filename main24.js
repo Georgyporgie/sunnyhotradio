@@ -21799,7 +21799,8 @@ quickFade: true,
     artist: "Katy Perry ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Katy Perry - Nirvana.mp3",
- timeCategory: "f evening-late"
+ timeCategory: "f evening-late",
+volumeBoost: 0.25
 },
 
 
