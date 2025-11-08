@@ -1667,8 +1667,8 @@ volumeBoost: 0.30
     artist: "La Velle ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/La Velle - Playgirl.mp3",
-    timeCategory: "morning"
-
+    timeCategory: "morning",
+ volumeBoost: 0.55
 
 },
 
@@ -19204,7 +19204,7 @@ volumeBoost: 0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Adventures Of Stevie V - Dirty Cash.mp3",
       timeCategory: "f afternoon",
-   volumeBoost: 0.10
+   volumeBoost: 0.30
 },
 
 
@@ -19425,7 +19425,7 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/La Velle - Playgirl.mp3",
       timeCategory: "f afternoon",
-  volumeBoost: 0.25
+  volumeBoost: 0.55
 
 },
 
