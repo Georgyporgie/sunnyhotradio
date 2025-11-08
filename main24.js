@@ -21579,7 +21579,16 @@ quickFade: true,
 
 
 
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance radio☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle1.mp3",
+      timeCategory: "f evening"
 
+
+
+},
 
 
 
@@ -21745,19 +21754,39 @@ quickFade: true,
 
 
 
-
-
-
-
-
+{
+     name: "Call On Me",
+    artist: "Eric Prydz",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Eric Prydz - Call On Me.mp3",
+ timeCategory: "f evening-late"
+},
 
 
 
 {
-     name: "One Thing",
-    artist: "Lola Young ",
+     name: " Ocean",
+    artist: "Calvin Harris ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic08.netlify.app/Lola Young - One Thing.mp3",
+    path: "https://dancemusic09.netlify.app/Calvin Harris -  Ocean.mp3",
+ timeCategory: "f evening-late"
+},
+
+{
+     name: " Situation (1982) ",
+    artist: "Yazoo ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Yazoo - Situation (1982).mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+{
+     name: "Nirvana",
+    artist: "Katy Perry ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Katy Perry - Nirvana.mp3",
  timeCategory: "f evening-late"
 },
 
