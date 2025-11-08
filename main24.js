@@ -19301,7 +19301,13 @@ volumeBoost: 0.20
 
 
 
-
+{
+     name: " Ocean (alarmschijf)",
+    artist: "Calvin Harris ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Calvin Harris -  Ocean.mp3",
+ timeCategory: "f afternoon"
+},
 
 
 
@@ -19432,7 +19438,7 @@ quickFade: true
 
 {
      name: "Favourite Type",
-    artist: "Roxen (alarmschijf)",
+    artist: "Roxen ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Roxen - Favourite Type.mp3",
  timeCategory: "f afternoon"
@@ -21525,7 +21531,13 @@ quickFade: true,
 
 
 
-
+{
+     name: " Ocean (alarmschijf)",
+    artist: "Calvin Harris ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Calvin Harris -  Ocean.mp3",
+ timeCategory: "f evening"
+},
 
 
 
@@ -21765,7 +21777,7 @@ quickFade: true,
 
 
 {
-     name: " Ocean",
+     name: " Ocean (alarmschijf)",
     artist: "Calvin Harris ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Calvin Harris -  Ocean.mp3",
@@ -22061,7 +22073,7 @@ quickFade: true,
 
 {
      name: "Favourite Type",
-    artist: "Roxen (alarmschijf)",
+    artist: "Roxen ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Roxen - Favourite Type.mp3",
  timeCategory: "f evening-late"
