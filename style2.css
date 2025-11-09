@@ -546,7 +546,7 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
 
 
 #frame  {  
- display: block; margin: auto; z-index: -200; border: solid #663300 3px;
+ display: block; margin: auto; z-index: -200; 
 }
 
 #uitzinnig  {  display: block; margin: auto;  height: 400px;

@@ -20312,7 +20312,7 @@ quickFade: true,
     path: "https://sunnydanceoldies09.netlify.app/Buffalo Stance - Neneh Cherry.mp3",
     timeCategory: "f afternoon",
     quickFade: true,
-  volumeBoost: 0.25
+  volumeBoost: 0.35
 },
 
 
