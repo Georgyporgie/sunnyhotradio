@@ -545,8 +545,8 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
 }
 
 
-.frame  {  
-height: 200px; width: 300px; display: block; margin: auto auto auto auto; z-index: -200; border: solid #663300 3px;
+#frame  {  
+ display: block; margin: auto; z-index: -200; border: solid #663300 3px;
 }
 
 
