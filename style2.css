@@ -549,8 +549,8 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
  display: block; margin: auto; z-index: -200; border: solid #663300 3px;
 }
 
-
-
+#uitzinnig  {  display: block; margin: auto;  height: 200px;
+}
 
 #track-list-container {  font-size: 15px; color: #FF0000; font-family: Arial ,Helvetica,sans-serif;
  margin-left: 0px ; background:linear-gradient(45deg,#0033FF,#006666,#003399);     border-radius: 12px;  border: solid 3px #FF0000; font-weight:800; padding: 15px;line-height: 1.5;letter-spacing: 0.5px;box-shadow: 0 4px 10px rgba(0,0,0,0.3);
