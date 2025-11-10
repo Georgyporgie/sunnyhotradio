@@ -1063,49 +1063,6 @@ if (curr_track) {
         
 </script>
 
-<script>
-function resetWithFadeIn() {
-  const audioElement = document.getElementById("player");
-  if (!audioElement) {
-    console.warn("Audio element #player not found.");
-    return;
-  }
-
-  console.log("Resetting audio with fade‑out/in…");
-
-  // Fade out first
-  let fadeOut = setInterval(() => {
-    if (audioElement.volume > 0.05) {
-      audioElement.volume = Math.max(0, audioElement.volume - 0.05);
-    } else {
-      clearInterval(fadeOut);
-      audioElement.pause();
-
-      // Reload the same source
-      const currentSrc = audioElement.currentSrc || audioElement.src;
-      audioElement.src = currentSrc;
-      audioElement.load();
-
-      // Start at volume 0
-      audioElement.volume = 0;
-      audioElement.play().catch(err => {
-        console.warn("Autoplay blocked, waiting for user interaction:", err);
-      });
-
-      // Fade back in
-      let fadeIn = setInterval(() => {
-        if (audioElement.volume < 0.95) {
-          audioElement.volume = Math.min(1, audioElement.volume + 0.05);
-        } else {
-          clearInterval(fadeIn);
-        }
-      }, 200); // adjust interval for slower/faster fade
-    }
-  }, 200);
-}
-
-</script>
-
 
 
 
@@ -1724,7 +1681,7 @@ function getCurrentTimeCategory() {
   const categoriesPerDay = {
     0: { morning: ["f afternoon"], afternoon: ["f evening"], "special-show": ["special-mix"], evening: ["f evening-late"], "evening-late": ["f afternoon"], late: ["f evening"], night: ["jingle-time"] },
     1: { morning: ["morning"], afternoon: ["afternoon"], "special-show": ["evening"], evening: ["evening"], "evening-late": ["afternoon"], late: ["evening-late"], night: ["jingle-time"] },
-    2: { morning: ["morning"], afternoon: ["afternoon"], "special-show": ["evening"], evening: ["evening-late"], "evening-late": ["morning"], late: ["evening-late"], night: ["jingle-time"] },
+    2: { morning: ["morning"], afternoon: ["afternoon"], "special-show": ["evening"], evening: ["evening-late"], "evening-late": ["morning"], late: ["evening"], night: ["jingle-time"] },
     3: { morning: ["morning"], afternoon: ["evening"], "special-show": ["evening"], evening: ["evening-late"], "evening-late": ["afternoon"], late: ["evening"], night: ["jingle-time"] },
     4: { morning: ["afternoon"], afternoon: ["evening"], "special-show": ["evening"], evening: ["afternoon"], "evening-late": ["evening-late"], late: ["evening"], night: ["jingle-time"] },
     5: { morning: ["morning"], afternoon: ["afternoon"], "special-show": ["evening"], evening: ["evening-late"], "evening-late": ["f evening"], late: ["f evening-late"], night: ["jingle-time"] },
@@ -1776,8 +1733,8 @@ const weekdaySlots = [
     { start: 8, end: 14, file: "muziek/voiceover/latest disco hits of the eighties.mp3" },
     { start: 14, end: 16, file: "muziek/voiceover/starten met Sunny.mp3" },
     { start: 16, end: 19, file: "muziek/voiceover/starten met Sunny.mp3" },
-    { start: 19, end: 21, file: "muziek/voiceover/latest disco hits of the eighties.mp3" },
-    { start: 21, end: 3, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" },
+    { start: 19, end: 21, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" },
+    { start: 21, end: 3, file: "muziek/voiceover/latest disco hits of the eighties.mp3" },
     { start: 3, end: 8, file: "muziek/voiceover/latest disco hits of the eighties.mp3" }
   ];
 
@@ -1789,7 +1746,7 @@ const weekdaySlots = [
     { start: 23, end: 3, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" },
     { start: 3, end: 8, file: "muziek/discjockeys/starten met Sunny4.mp3" }
   ];
-
+ 
   const now = new Date();
   const currentHour = now.getHours();
   const currentDay = now.getDay(); // 0 = Sunday, 6 = Saturday
