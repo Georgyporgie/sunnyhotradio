@@ -271,13 +271,13 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
 
 }
 
-#classic  {    width: 130px;  height: 130px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(80%) grayscale(60%); transform: rotate(3deg); z-index: -200; margin-top: -24px;margin-bottom: -36px;margin-left: 22px;  border-radius:15px; background : linear-gradient(90deg,black,#050202,#060000);
+#classic  {    width: 130px;  height: 130px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(80%) grayscale(60%); transform: rotate(3deg); z-index: -200; margin-top: -24px;margin-bottom: -36px;margin-left: 22px;  border-radius:15px; 
 border: solid 1px #00CC00;
 
 
 }
 
-#dance  {    width: 245px;  height: 150px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(80%); transform: rotate(1deg);  margin: auto auto auto auto; display: block; z-index: 200; border-radius:15px; border: solid 1px #FF0000; background : linear-gradient(90deg,black,#050202,#060000);
+#dance  {    width: 245px;  height: 150px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(80%); transform: rotate(1deg);  margin: auto auto auto auto; display: block; z-index: 200; border-radius:15px; border: solid 1px #FF0000; 
 animation: blinker 1s step-start infinite;
 
 }
@@ -289,7 +289,7 @@ animation: blinker 1s step-start infinite;
   }
 }
 
-#rock   {    width: 145px;  height: 145px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(80%) grayscale(50%); transform: rotate(-1deg); z-index: -200; float : right; border-radius:15px; margin-right: 20px; background : linear-gradient(90deg,black,#050202,#060000);
+#rock   {    width: 145px;  height: 145px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(80%) grayscale(50%); transform: rotate(-1deg); z-index: -200; float : right; border-radius:15px; margin-right: 20px; 
  border: solid 1px #0099FF;
 }
  .licht  {    width: 25px;  height: 25px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(60%); transform: rotate(40deg); z-index: -200; margin: -38px auto 10px  auto; display: block; border-radius: 5px;
