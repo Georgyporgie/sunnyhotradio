@@ -10430,7 +10430,7 @@ volumeBoost: 0.25
     path: "https://sunnydanceoldies04.netlify.app/Daft Punk - One More Time.mp3",
      timeCategory: "evening-late",
   quickFade: true,
-  volumeBoost: 0.20
+  volumeBoost: 0.40
 },
 
 
@@ -13851,15 +13851,7 @@ volumeBoost: 0.25
   
 
 
-{
-    name: "   One More Time",
-    artist: "Daft Punk  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://Sunnydanceoldies04.netlify.app/Daft Punk - One More Time.mp3",
-      timeCategory: "evening-late",
-volumeBoost: 0.25
 
-},
 
 
 
