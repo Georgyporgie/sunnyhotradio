@@ -689,6 +689,214 @@ volumeBoost:0.40
 
 
 
+{
+    name: " Specialize In love ",
+    artist: "Sharon Brown ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Sharon Brown Specialize in love.mp3",
+   timeCategory: "morning",
+  volumeBoost: 0.40
+},
+
+
+
+{
+    name: "   A hugh Pulsating Brain    ",
+    artist: "The Orb ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/The Orb - A hugh pulsating brain Paradox mix.mp3",
+   timeCategory: "morning",
+  volumeBoost: 0.30
+},
+
+
+
+{
+    name: "  Thriller ",
+    artist: "Michael Jackson ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Michael Jackson Thriller.mp3",
+   timeCategory: "morning",
+  volumeBoost: 0.40
+},
+
+
+
+{
+    name: " Passion ",
+    artist: "The Flirts ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/The Flirts - Passion.mp3",
+   timeCategory: "morning",
+  volumeBoost: 0.30
+},
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Love For Love ",
+    artist: "Robin S ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Robin S - Love For Love.mp3",
+   timeCategory: "morning"
+},
+
+{
+    name: "   Automatic",
+    artist: "Pointer Sisters ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Pointer Sisters - Automatic.mp3",
+   timeCategory: "morning",
+  volumeBoost: 0.30
+},
+
+
+
+
+
+{
+    name: "Ain't Nothing Goin'  (1986)",
+    artist: "Gwen Guthrie  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Gwen Guthrie- Ain't Nothing Goin' On But The Rent.mp3",
+  timeCategory: "morning"
+},
+
+
+
+
+{
+    name: " Rockit",
+    artist: "Herbie Hancock  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Herbie Hancock - Rockit.mp3",
+   timeCategory: "morning"
+},
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: " All Fall Down",
+    artist: "Five Star ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Five Star - All Fall Down.mp3",
+          timeCategory: "morning"
+},
+
+
+
+
+
+{
+    name: "  I Want Her",
+    artist: "Keith Sweat ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Keith Sweat - I Want Her.mp3",
+   timeCategory: "morning",
+quickFade: true
+},
+
+
+
+
+{
+    name: "  Jump (for my love)",
+    artist: "Pointer Sisters  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Pointer Sisters - Jump (for my love).mp3",
+   timeCategory: "morning"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Let op.mp3",
+          timeCategory: "afternoon"
+},
+
+ 
+
+
+{
+     name: "   My Forbidden Lover",
+    artist: " Tapps ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Tapps - My Forbidden Lover.mp3",
+          timeCategory: "morning"
+},
+
+
+
+{
+    name: "  Born Slippy ",
+    artist: "Underworld ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Underworld - born slippy2.mp3",
+    timeCategory: "morning"
+},
+
+
+
+
+
+
+{
+    name: "Real Groove",
+    artist: "Kylie Minogue",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Kylie Minogue -Real Groove.mp3",
+  
+
+
+    timeCategory: "morning"
+},
+
+
+
+{
+    name: "A Long Walk ",
+    artist: "Jill Scott  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Jill Scott A Long Walk.mp3",
+    timeCategory: "morning"
+},
+
+
+
 
 
 
@@ -4954,14 +5162,7 @@ quickFade: true,
 
 
 
-{
-    name: " Specialize In love ",
-    artist: "Sharon Brown ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Sharon Brown Specialize in love.mp3",
-   timeCategory: "afternoon",
-  volumeBoost: 0.40
-},
+
 
 
 {
@@ -4969,54 +5170,6 @@ quickFade: true,
     artist: "Cheryl Lynn ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Cheryl Lynn - Encore (maxi).mp3",
-   timeCategory: "afternoon"
-},
-
-{
-    name: "   A hugh Pulsating Brain    ",
-    artist: "The Orb ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/The Orb - A hugh pulsating brain Paradox mix.mp3",
-   timeCategory: "afternoon",
-  volumeBoost: 0.30
-},
-
-
-
-{
-    name: "  Thriller ",
-    artist: "Michael Jackson ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Michael Jackson Thriller.mp3",
-   timeCategory: "afternoon",
-  volumeBoost: 0.40
-},
-
-
-
-{
-    name: " Passion ",
-    artist: "The Flirts ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/The Flirts - Passion.mp3",
-   timeCategory: "afternoon",
-  volumeBoost: 0.30
-},
-
-
-
-
-
-
-
-
-
-
-{
-    name: "Love For Love ",
-    artist: "Robin S ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Robin S - Love For Love.mp3",
    timeCategory: "afternoon"
 },
 
@@ -5160,26 +5313,7 @@ quickFade: true,
 
 
 
-{
-    name: "   Automatic",
-    artist: "Pointer Sisters ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Pointer Sisters - Automatic.mp3",
-   timeCategory: "afternoon",
-  volumeBoost: 0.30
-},
 
-
-
-
-
-{
-    name: "Ain't Nothing Goin'  (1986)",
-    artist: "Gwen Guthrie  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Gwen Guthrie- Ain't Nothing Goin' On But The Rent.mp3",
-  timeCategory: "afternoon"
-},
 
 
 
@@ -5203,46 +5337,6 @@ quickFade: true,
 
 
 
-
-
-{
-    name: " Rockit",
-    artist: "Herbie Hancock  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/Herbie Hancock - Rockit.mp3",
-   timeCategory: "afternoon"
-},
-
-
-
-
-
-
-
-
-
-
-
-{
-    name: " All Fall Down",
-    artist: "Five Star ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Five Star - All Fall Down.mp3",
-          timeCategory: "afternoon"
-},
-
-
-
-
-
-{
-    name: "  I Want Her",
-    artist: "Keith Sweat ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Keith Sweat - I Want Her.mp3",
-   timeCategory: "afternoon",
-quickFade: true
-},
 
 
 
@@ -5317,50 +5411,6 @@ quickFade: true
 
 
 
-{
-    name: "  Jump (for my love)",
-    artist: "Pointer Sisters  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Pointer Sisters - Jump (for my love).mp3",
-   timeCategory: "afternoon"
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-          timeCategory: "afternoon"
-},
-
- 
-
-
-{
-     name: "   My Forbidden Lover",
-    artist: " Tapps ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Tapps - My Forbidden Lover.mp3",
-          timeCategory: "afternoon"
-},
 
   
  
@@ -5636,42 +5686,6 @@ quickFade: true
     timeCategory: "afternoon"
 },
 
-
-
-
-{
-    name: "  Born Slippy ",
-    artist: "Underworld ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Underworld - born slippy2.mp3",
-    timeCategory: "afternoon"
-},
-
-
-
-
-
-
-{
-    name: "Real Groove",
-    artist: "Kylie Minogue",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Kylie Minogue -Real Groove.mp3",
-  
-
-
-    timeCategory: "afternoon"
-},
-
-
-
-{
-    name: "A Long Walk ",
-    artist: "Jill Scott  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Jill Scott A Long Walk.mp3",
-    timeCategory: "afternoon"
-},
 
 
 
