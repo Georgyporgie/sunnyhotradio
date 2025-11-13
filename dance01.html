@@ -345,7 +345,7 @@ document.addEventListener("DOMContentLoaded", scheduleHourlyFlash);
 <br>
 <br>
 <div>
-<IFRAME id="frame" SRC="https://gasts.netlify.app/gasts.html" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=345 HEIGHT=825></IFRAME>
+<IFRAME id="frame" SRC="https://gasts.netlify.app/gasts" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=345 HEIGHT=825></IFRAME>
 <br>
 </div>
 
@@ -395,7 +395,7 @@ document.addEventListener("DOMContentLoaded", scheduleHourlyFlash);
       document.getElementById('events').innerHTML = '<em>Weekend events only! Come back Saturday.</em>';
     }
   })
-  .catch(error => consolsched
+  .catch(error => console.error('Error loading events:', error));
 
 </script>
 
@@ -1101,40 +1101,6 @@ checkpoints.forEach(time => {
 
 
 
-function scheduleFromOorkonde() {
-  const now = new Date();
-  const iframe = document.getElementById("myOorkondeFrame");
-
-  iframe.addEventListener("load", () => {
-    const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
-    const items = iframeDoc.querySelectorAll("#programOorkonde li");
-    const checkpoints = [];
-
-    items.forEach(li => {
-      const startHour = parseInt(li.dataset.start, 10);
-      let cp = new Date(now.getFullYear(), now.getMonth(), now.getDate(), startHour, 0, 1);
-
-      if (startHour < now.getHours()) {
-        cp.setDate(cp.getDate() + 1);
-      }
-      checkpoints.push(cp);
-    });
-
-    checkpoints.sort((a, b) => a - b);
-    const nextCheckpoint = checkpoints.find(cp => cp > now);
-
-    if (nextCheckpoint) {
-      const ms = nextCheckpoint - now;
-      setTimeout(() => {
-        console.log(`⏰ Program change at ${nextCheckpoint.toLocaleTimeString()} — reloading audio sources.`);
-        location.reload();
-        scheduleFromOorkonde(); // reschedule after reload
-      }, ms);
-    }
-  });
-}
-
-window.addEventListener("load", scheduleFromOorkonde);
 
 
 
@@ -1726,10 +1692,10 @@ function getCurrentTimeCategory() {
 3: { morning: ["evening-late"], afternoon: ["evening"], "special-show": ["special"], evening: ["afternoon"], "evening-late": ["evening-late"], late: ["evening"], night: ["jingle-time"] },
     
 
-4: { morning: ["evening-late"], afternoon: ["evening"], "special-show": ["special-cast"], evening: ["afternoon"], "evening-late": ["evening-late"], late: ["evening"], night: ["jingle-time"] },
+4: { morning: ["evening-late"], afternoon: ["evening"], "special-show": ["evening"], evening: ["afternoon"], "evening-late": ["evening-late"], late: ["evening"], night: ["jingle-time"] },
     
 
-5: { morning: ["morning"], afternoon: ["afternoon"], "special-show": ["special-mix"], evening: ["evening-late"], "evening-late": ["f evening"], late: ["f evening-late"], night: ["jingle-time"] },
+5: { morning: ["morning"], afternoon: ["afternoon"], "special-show": ["evening"], evening: ["evening-late"], "evening-late": ["f evening"], late: ["f evening-late"], night: ["jingle-time"] },
     
 
 6: { morning: ["f afternoon"], afternoon: ["f evening"], "special-show": ["special"], evening: ["f evening-late"], "evening-late": ["f evening"], late: ["f afternoon"], night: ["jingle-time"] }
@@ -1780,7 +1746,7 @@ const weekdaySlots = [
     { start: 8, end: 14, file: "muziek/voiceover/latest disco hits of the eighties.mp3" },
     { start: 14, end: 16, file: "muziek/voiceover/starten met Sunny.mp3" },
     { start: 16, end: 19, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" },
-    { start: 19, end: 21, file: "muziek/discjockeys/DJ Saphire finale.mp3" },
+    { start: 19, end: 21, file: "muziek/voiceover/latest disco hits of the eighties.mp3" },
     { start: 21, end: 3, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" },
     { start: 3, end: 8, file: "muziek/voiceover/latest disco hits of the eighties.mp3" }
   ];
