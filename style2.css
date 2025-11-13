@@ -546,7 +546,7 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
 
 
 #gas  {  
- display: block; margin: auto; z-index: 0; filter: brightness(105%) saturate(105%) contrast(105%);
+ display: block; margin: auto auto auto auto; z-index: 0; filter: brightness(105%) saturate(105%) contrast(105%);
 }
 
 #uitzinnig  {  display: block; margin: auto;  height: 400px;
