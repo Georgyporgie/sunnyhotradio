@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <title>Beach Radio</title>
+  <link rel="stylesheet" href="style3.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* --- Layout --- */
+    body { margin:0; font-family:sans-serif; background:#111; color:#fff; }
+    #kroonImage, #myImage { display: block; max-width: 100%; }
+
+    .blink { animation: blink 1s step-start infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    .top-bar {
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      padding:8px 16px;
+      background:linear-gradient(to bottom,#5C4033,#4B3621);
+      border-bottom:2px solid #2F1B0C;
+      box-shadow:0 2px 6px rgba(0,0,0,0.4);
+      color:#fff;
+    }
+
+    #marquee {
+      flex:1;
+      overflow:hidden;
+      white-space:nowrap;
+      opacity:0;
+      transition:opacity 1s ease;
+      text-align:center;
+    }
+    #marquee.visible { opacity:1; }
+
+    #marquee span {
+      position:relative;
+      font-family:'Rubik Moonrocks',cursive;
+      font-size:18px;
+      animation:marquee 8s linear infinite;
+      background:linear-gradient(to right,#ff8c00,#ff69b4);
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+      text-shadow:2px 2px 4px #ff69b4;
+    }
+    @keyframes marquee {
+      0%   { left:100%; }
+      100% { left:-100%; }
+    }
+
+    #timeMessage {
+      text-align:center;
+      font-size:20px;
+      font-style:italic;
+      font-weight:bold;
+      text-decoration:underline #FF0026;
+    }
+
+    /* --- Program Oorkonde --- */
+    #programOorkonde {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 20px 30px;
+      background: #222;
+      border: 4px double #ff8c00;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255,140,0,0.6), inset 0 0 10px rgba(255,255,255,0.2);
+      text-align: center;
+      font-family: 'Georgia', serif;
+      color: #fff;
+    }
+
+    #programOorkonde h2 {
+      font-size: 26px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      background: linear-gradient(to right, #ff8c00, #ff69b4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    #programOorkonde ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    #programOorkonde li {
+      margin: 10px 0;
+      font-size: 18px;
+      line-height: 1.4;
+    }
+
+    #programOorkonde li.active {
+      background: linear-gradient(to right, #ff8c00, #ff69b4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: bold;
+      text-shadow: 0 0 10px rgba(255,140,0,0.8);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    <img id="kroonImage" alt="ON AIR lamp">
+    <div id="marquee"><span></span></div>
+    <canvas id="clock" width="80" height="80"></canvas>
+  </div>
+
+  <br><br><br><br>
+  <img id="myImage">
+  <p id="timeMessage"></p>
+
+  <!-- Program Oorkonde -->
+  <div id="programOorkonde">
+    <h2>Today's Program</h2>
+    <ul>
+      <li data-start="3" data-end="12"><strong>3.00 am – 12.00 pm</strong>: Latest Disco hits Of The Eighties</li>
+      <li data-start="12" data-end="14"><strong>12.00 – 14.00</strong>: Latest Hits Of The Dance Area</li>
+      <li data-start="14" data-end="16"><strong>14.00 – 16.00</strong>: Special-show!</li>
+      <li data-start="16" data-end="19"><strong>16.00 – 19.00</strong>:Latest Hits Of The Dance Area</li>
+      <li data-start="19" data-end="21"><strong>19.00 – 21.00</strong>: Come See The Eighties Disco!</li>
+      
+      <li data-start="21" data-end="3"><strong>21.00 – 3.00 am</strong>: Latest Hits Of The Dance Area!</li>
+    </ul>
+  </div>
+
+  <script>
+    async function updateImage() {
+      const timeMessage = document.getElementById("timeMessage");
+      const img = document.getElementById("myImage");
+      const kroon = document.getElementById("kroonImage");
+      const marquee = document.getElementById("marquee");
+      const marqueeSpan = marquee.querySelector("span");
+
+      const now = new Date();
+      const hour = now.getHours();
+      const day = now.getDay();
+
+      // --- fetch today’s sunset for Amsterdam ---
+      let sunset;
+      try {
+        const response = await fetch("https://api.sunrise-sunset.org/json?lat=52.37&lng=4.89&formatted=0");
+        const data = await response.json();
+        sunset = new Date(data.results.sunset);
+      } catch (err) {
+        console.warn("⚠️ Could not fetch sunset, fallback to 18:30");
+        sunset = new Date();
+        sunset.setHours(18,30,0);
+      }
+
+      const isWeekend =
+        (day === 6 || day === 0) ||
+        (day === 5 && hour >= 18) ||
+        (day === 0 && hour < 21);
+
+      let djActive = false;
+
+      if (isWeekend) {
+        if (hour >= 14 && hour < 16) {
+          img.src = "images/DJ S.gif";
+          timeMessage.textContent = "";
+          djActive = true;
+          marqueeSpan.textContent = "DJ S is spinning the decks!";
+        } else if (hour >= 16 && hour < 23) {
+          if (now < sunset) {
+            img.src = "images/Miss Monique2.gif";
+            timeMessage.textContent = "";
+            djActive = true;
+            marqueeSpan.textContent = "Miss Monique warming up the sunset vibes!";
+          } else {
+            img.src = "images/Lovely Miss Monique.gif";
+            timeMessage.textContent = "";
+            djActive = true;
+            marqueeSpan.textContent = "Voetjes van de vloer...";
+          }
+        } else {
+          img.src = "images/aquarium3.gif";
+          timeMessage.textContent = "Good night!";
+          djActive = false;
+          marqueeSpan.textContent = "";
+        }
+      } else {
+        if (hour >= 7 && hour < 12) {
+          img.src = "images/aquarium3.gif";
+          timeMessage.textContent = "Good morning!";
+          djActive = false;
+          marqueeSpan.textContent = "";
+        } else if (hour >= 12 && hour < 17) {
+          img.src = "images/transparent.png";
+          timeMessage.textContent = "";
+          djActive = false;
+          marqueeSpan.textContent = "";
+        } else if (hour >= 17 && hour < 23) {
+          img.src = "images/aquarium.png";
+          timeMessage.textContent = "";
+          djActive = false;
+          marqueeSpan.textContent = "";
+        } else {
+          img.src = "images/aquarium3.gif";
+          timeMessage.textContent = "Night reflections!";
+          djActive = false;
+          marqueeSpan.textContent = "";
+        }
+      }
+
+      // --- ON AIR lamp ---
+      kroon.src = djActive ? "images/on air.gif" : "images/on air.png";
+
+      // --- Fade marquee in/out ---
+      if (djActive) {
+        marquee.classList.add("visible");
+      } else {
+        marquee.classList.remove("visible");
+      }
+
+      // --- Highlight current program ---
+      highlightProgram();
+    }
+
+        function highlightProgram() {
+      const now = new Date();
+      const hour = now.getHours();
+      const items = document.querySelectorAll("#programOorkonde li");
+
+      items.forEach(li => {
+        const start = parseInt(li.dataset.start, 10);
+        const end = parseInt(li.dataset.end, 10);
+
+        let active = false;
+        if (start < end) {
+          // normal range (e.g. 12–14)
+          active = hour >= start && hour < end;
+        } else {
+          // overnight range (e.g. 21–3)
+          active = (hour >= start || hour < end);
+        }
+
+        li.classList.toggle("active", active);
+      });
+    }
+
+    window.addEventListener("load", () => {
+      updateImage();
+      highlightProgram();
+    });
+    setInterval(() => {
+      updateImage();
+      highlightProgram();
+    }, 60000); // update every minute
+  </script>
+
+<script>
+    // --- Analog clock ---
+    const canvas = document.getElementById("clock");
+    const ctx = canvas.getContext("2d");
+    const radius = canvas.width / 2;
+    ctx.translate(radius, radius);
+
+    function drawClock() {
+      ctx.clearRect(-radius, -radius, canvas.width, canvas.height);
+
+      ctx.beginPath();
+      ctx.arc(0, 0, radius - 2, 0, 2 * Math.PI);
+      ctx.fillStyle = "#111";
+      ctx.fill();
+      ctx.strokeStyle = "#0ff";
+      ctx.lineWidth = 2;
+      ctx.stroke();
+
+      ctx.fillStyle = "#0ff";
+      ctx.font = `${radius * 0.25}px Arial`;
+      ctx.textAlign = "center";
+      ctx.textBaseline = "middle";
+      for (let num = 1; num <= 12; num++) {
+        let angle = (num * Math.PI) / 6;
+        ctx.rotate(angle);
+        ctx.translate(0, -radius * 0.75);
+        ctx.rotate(-angle);
+        ctx.fillText(num.toString(), 0, 0);
+        ctx.rotate(angle);
+        ctx.translate(0, radius * 0.75);
+        ctx.rotate(-angle);
+      }
+
+      const now = new Date();
+      let hour = now.getHours() % 12;
+      let minute = now.getMinutes();
+      let second = now.getSeconds();
+
+      drawHand((hour + minute / 60) * Math.PI / 6, radius * 0.5, 3, "#f0f");
+      drawHand((minute + second / 60) * Math.PI / 30, radius * 0.7, 2, "#0f0");
+      drawHand(second * Math.PI / 30, radius * 0.85, 1, "#ff0");
+    }
+
+    function drawHand(angle, length, width, color) {
+      ctx.beginPath();
+      ctx.lineWidth = width;
+      ctx.lineCap = "round";
+      ctx.strokeStyle = color;
+      ctx.moveTo(0, 0);
+      ctx.rotate(angle);
+      ctx.lineTo(0, -length);
+      ctx.stroke();
+      ctx.rotate(-angle);
+    }
+
+    function updateClock() {
+      drawClock();
+      requestAnimationFrame(updateClock);
+    }
+    updateClock();
+  </script>
+
+</body>
+</html>
+
+
+
+

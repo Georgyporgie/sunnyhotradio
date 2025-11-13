@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+#myImage  {    filter:brightness(100%) saturation(100%) contrast(100%) opacity(75%);width: 235px; height: 145px; margin-right: -105px; display: block; margin: auto auto auto auto ; border: solid #555555 3px; z-index: 0; border-radius: 50px;
+
+    
+          }
+
+#marquee {
+  display: block;
+  width: 175px;
+  margin: auto;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#marquee span {
+  position: relative;
+  font-family: 'Rubik Moonrocks', cursive;
+  font-size: 18px;
+  color: #FFD700;
+  animation: marquee 8s linear infinite;
+  text-shadow: 2px 2px 4px #ff69b4;
+  background: linear-gradient(to right, #ff8c00, #ff69b4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#marquee:hover span {
+  animation-play-state: paused;
+}
+
+#marquee span:nth-child(1) { animation-delay: 0s; }
+#marquee span:nth-child(2) { animation-delay: 0.8s; }
+#marquee span:nth-child(3) { animation-delay: 1.6s; }
+#marquee span:nth-child(4) { animation-delay: 2.4s; }
+#marquee span:nth-child(5) { animation-delay: 3.2s; }
+
+@keyframes marquee {
+  0%   { left: 100%; }
+  100% { left: -100%; }
+}
+
+
+
+
+
+#timeMessage  {  
+ font-family: sans-serif;   font-size: 20px;  font-style: italic; font-weight: bold; margin-left: 110px; text-decoration:underline #FF0026;
+} 
+
+
+/* Blinking effect */
+@keyframes blinker {
+  0%   { opacity: 1; }
+  50%  { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.blink {
+  animation: blinker 1.5s linear infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.05); }
+}
+.pulse {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes glowBlink {
+  0%, 100% { opacity: 1; filter: drop-shadow(0 0 4px cyan); }
+  50%      { opacity: 0.6; filter: drop-shadow(0 0 12px magenta); }
+}
+.glow-blink {
+  animation: glowBlink 2s ease-in-out infinite;
+}
+
+
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* spreads items across full width */
+  gap: 10px;
+  padding: 8px 16px;
+  background: linear-gradient(to bottom, #5C4033, #4B3621);
+  border-bottom: 2px solid #2F1B0C;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+  color: #fff;
+}
+
+
+
+#kroonImage {
+  height: 30px;
+  width: auto;
+}
+
+#clock {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
