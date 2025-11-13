@@ -345,7 +345,7 @@ document.addEventListener("DOMContentLoaded", scheduleHourlyFlash);
 <br>
 <br>
 <div>
-<IFRAME id="frame" SRC="https://gasts.netlify.app/gasts" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=345 HEIGHT=825></IFRAME>
+<IFRAME id="frame" SRC="https://sunnyhotradio.com/gasts.html" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=345 HEIGHT=825></IFRAME>
 <br>
 </div>
 
@@ -395,7 +395,7 @@ document.addEventListener("DOMContentLoaded", scheduleHourlyFlash);
       document.getElementById('events').innerHTML = '<em>Weekend events only! Come back Saturday.</em>';
     }
   })
-  .catch(error => console.error('Error loading events:', error));
+  .catch(error => consolsched
 
 </script>
 
@@ -1101,6 +1101,40 @@ checkpoints.forEach(time => {
 
 
 
+function scheduleFromOorkonde() {
+  const now = new Date();
+  const iframe = document.getElementById("myOorkondeFrame");
+
+  iframe.addEventListener("load", () => {
+    const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+    const items = iframeDoc.querySelectorAll("#programOorkonde li");
+    const checkpoints = [];
+
+    items.forEach(li => {
+      const startHour = parseInt(li.dataset.start, 10);
+      let cp = new Date(now.getFullYear(), now.getMonth(), now.getDate(), startHour, 0, 1);
+
+      if (startHour < now.getHours()) {
+        cp.setDate(cp.getDate() + 1);
+      }
+      checkpoints.push(cp);
+    });
+
+    checkpoints.sort((a, b) => a - b);
+    const nextCheckpoint = checkpoints.find(cp => cp > now);
+
+    if (nextCheckpoint) {
+      const ms = nextCheckpoint - now;
+      setTimeout(() => {
+        console.log(`⏰ Program change at ${nextCheckpoint.toLocaleTimeString()} — reloading audio sources.`);
+        location.reload();
+        scheduleFromOorkonde(); // reschedule after reload
+      }, ms);
+    }
+  });
+}
+
+window.addEventListener("load", scheduleFromOorkonde);
 
 
 
