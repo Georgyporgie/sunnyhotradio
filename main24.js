@@ -633,13 +633,55 @@ volumeBoost:0.60
 
 
 
+{
+     name: " Live Manchester (2023) ",
+    artist: "Sonny Fodera",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023).mp3",
+    timeCategory: "sonny"
+},
+
+
+
+
+{
+     name: " Live Manchester (2023) ",
+    artist: "Sonny Fodera",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 02.mp3",
+    timeCategory: "sonny"
+},
 
 
 
 
 
+{
+     name: " Live Manchester (2023) ",
+    artist: "Sonny Fodera",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 03.mp3",
+    timeCategory: "sonny"
+},
 
 
+
+{
+     name: " Live Manchester (2023) ",
+    artist: "Sonny Fodera",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 04.mp3",
+    timeCategory: "sonny"
+},
+
+
+{
+     name: " Live Manchester (2023) ",
+    artist: "Sonny Fodera",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 05.mp3",
+    timeCategory: "sonny"
+},
 
 
 
@@ -16624,6 +16666,30 @@ quickFade: true,
 
 
 
+{
+    name: " Sweat",
+    artist: "  Melanie C ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Melanie C - Sweat.mp3",
+       timeCategory: "f evening"
+},
+
+
+
+{
+    name: " Diabla",
+    artist: "  Izzy La Reina ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Izzy La Reina - Diabla.mp3",
+       timeCategory: "f evening"
+},
+
+
+
+
+
+
+
 
 {
     name: "All Natural (new)",
@@ -17912,7 +17978,7 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Katy Perry - Nirvana.mp3",
  timeCategory: "f evening-late",
-volumeBoost: 0.25
+volumeBoost: 0.55
 },
 
 
@@ -18540,6 +18606,29 @@ quickFade: true
     path: "https://dancemusic09.netlify.app/Doja Cat - Gorgeous.mp3",
        timeCategory: "f evening-late"
 },
+
+
+
+
+{
+    name: " Sweat",
+    artist: "  Melanie C ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Melanie C - Sweat.mp3",
+       timeCategory: "f evening-late"
+},
+
+
+
+{
+    name: " Diabla",
+    artist: "  Izzy La Reina ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Izzy La Reina - Diabla.mp3",
+       timeCategory: "f evening-late"
+},
+
+
 
 
 
