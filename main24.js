@@ -15025,7 +15025,8 @@ volumeBoost:0.10
     artist: "Shaggy ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Shaggy - Boombastic.mp3",
-   timeCategory: "evening-late"
+   timeCategory: "evening-late",
+volumeBoost: 0.30
 },
 
 
