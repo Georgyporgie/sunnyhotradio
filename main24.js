@@ -18308,7 +18308,7 @@ volumeBoost: 0.55
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Fatback - Is This the Future.mp3",
     timeCategory: "f evening-late",
-  volumeBoost: 0.35
+  volumeBoost: 0.55
 },
 
 
