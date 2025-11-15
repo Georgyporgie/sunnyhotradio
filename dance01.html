@@ -184,7 +184,7 @@ body {
     
       <div class="playpause-track" onclick="playpauseTrack()">
         <br>
-<img id= "media">
+<img id= "curren">
       </div>
      
     </div>
@@ -1441,7 +1441,18 @@ function scheduleSounds() {
     playSound(["fortyEightMinuteSou"]);
     setInterval(() => playSound(["fortyEightMinuteSou"]), 2880000); // 48 min
   }, delay48);
+},
+
+  // Every 45 minutes
+  const minsTo45 = 45 - (now.getMinutes() % 45);
+  const delay45 = ((minsTo45 === 45 ? 0 : minsTo45) * 60 - now.getSeconds()) * 1000;
+  setTimeout(() => {
+    playSound(["fortyFiveMinuteSou"]);
+    setInterval(() => playSound(["fortyFiveMinuteSou"]), 2600000); // 45 min
+  }, delay45);
 }
+
+
 
 window.onload = scheduleSounds;
 </script>
@@ -1467,7 +1478,7 @@ window.onload = scheduleSounds;
 </audio>
 
 <audio id="fortyEightMinuteSou">
-  <source src="muziek/voiceover/From%20all%20over%20the%20world.mp3" type="audio/mp3">
+  <source src="muziek/voiceover/From all over the world.mp3" type="audio/mp3">
 </audio>
 
 
