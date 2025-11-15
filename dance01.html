@@ -1373,37 +1373,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-<audio id="hourlySou">
-  <source src="audio/its%20now.mp3" type="audio/mp3">
-</audio>
-
-<audio id="quarterHourSou">
-  <source src="muziek/effects/blast.mp3" type="audio/mp3">
-</audio>
-
-<audio id="twentyFiveMinuteSou">
-  <source src="muziek/voiceover/AI%20voice - From%20The%20Heart%20Of%20Amsterdam3.mp3" type="audio/mp3">
-</audio>
-
-
-<audio id="thirtySevenMinuteSou">
-  <source src="muziek/voiceover/Live%20from%20amsterdam2.mp3" type="audio/mp3">
-</audio>
-
-
-
-<audio id="fortyFiveMinuteSou">
-  <source src="" type="audio/mp3">
-</audio>
-
-
-
-
-
-<audio id="fortyEightMinuteSou">
-  <source src="muziek/voiceover/From%20all%20over%20the%20world.mp3" type="audio/mp3">
-</audio>
-
 
 
 
@@ -1428,6 +1397,7 @@ function playSound(soundIds) {
   });
 }
 
+<script>
 // 📢 Sound Scheduling Function
 function scheduleSounds() {
   console.log("Scheduling sounds...");
@@ -1437,55 +1407,68 @@ function scheduleSounds() {
   const hourlyDelay = ((60 - now.getMinutes()) * 60 - now.getSeconds()) * 1000;
   setTimeout(() => {
     playSound(["hourlySou"]);
-    setInterval(() => playSound(["hourlySou"]), 3600000);
+    setInterval(() => playSound(["hourlySou"]), 3600000); // 1 hour
   }, hourlyDelay);
 
   // Every 15 minutes
   const minsToQuarter = 15 - (now.getMinutes() % 15);
-  const quarterHourDelay = ((minsToQuarter === 15 ? 0 : minsToQuarter) * 60 - now.getSeconds()) * 1000;
+  const quarterDelay = ((minsToQuarter === 15 ? 0 : minsToQuarter) * 60 - now.getSeconds()) * 1000;
   setTimeout(() => {
     playSound(["quarterHourSou"]);
-    setInterval(() => playSound(["quarterHourSou"]), 900000);
-  }, quarterHourDelay);
+    setInterval(() => playSound(["quarterHourSou"]), 900000); // 15 min
+  }, quarterDelay);
 
   // Every 28 minutes
   const minsTo28 = 28 - (now.getMinutes() % 28);
-  const twentyFiveDelay = ((minsTo28 === 28 ? 0 : minsTo28) * 60 - now.getSeconds()) * 1000;
+  const delay28 = ((minsTo28 === 28 ? 0 : minsTo28) * 60 - now.getSeconds()) * 1000;
   setTimeout(() => {
     playSound(["twentyFiveMinuteSou"]);
-    setInterval(() => playSound(["twentyFiveMinuteSou"]), 1680000);
-  }, twentyFiveDelay);
+    setInterval(() => playSound(["twentyFiveMinuteSou"]), 1680000); // 28 min
+  }, delay28);
 
   // Every 37 minutes
   const minsTo37 = 37 - (now.getMinutes() % 37);
-  const thirtySevenDelay = ((minsTo37 === 37 ? 0 : minsTo37) * 60 - now.getSeconds()) * 1000;
+  const delay37 = ((minsTo37 === 37 ? 0 : minsTo37) * 60 - now.getSeconds()) * 1000;
   setTimeout(() => {
     playSound(["thirtySevenMinuteSou"]);
-    setInterval(() => playSound(["thirtySevenMinuteSou"]), 2220000);
-  }, thirtySevenDelay);
-,
-
+    setInterval(() => playSound(["thirtySevenMinuteSou"]), 2220000); // 37 min
+  }, delay37);
 
   // Every 48 minutes
   const minsTo48 = 48 - (now.getMinutes() % 48);
-  const fortyEightDelay = ((minsTo48 === 48 ? 0 : minsTo48) * 60 - now.getSeconds()) * 1000;
+  const delay48 = ((minsTo48 === 48 ? 0 : minsTo48) * 60 - now.getSeconds()) * 1000;
   setTimeout(() => {
     playSound(["fortyEightMinuteSou"]);
-    setInterval(() => playSound(["fortyEightMinuteSou"]), 2880000);
-  }, fortyEightDelay);
+    setInterval(() => playSound(["fortyEightMinuteSou"]), 2880000); // 48 min
+  }, delay48);
 }
-
-
-
-
-
-
-
 
 window.onload = scheduleSounds;
 </script>
 
 
+
+
+
+<audio id="hourlySou">
+  <source src="audio/its%20now.mp3" type="audio/mp3">
+</audio>
+
+<audio id="quarterHourSou">
+  <source src="muziek/effects/blast.mp3" type="audio/mp3">
+</audio>
+
+<audio id="twentyFiveMinuteSou">
+  <source src="muziek/voiceover/AI%20voice - From%20The%20Heart%20Of%20Amsterdam3.mp3" type="audio/mp3">
+</audio>
+
+<audio id="thirtySevenMinuteSou">
+  <source src="muziek/voiceover/Live%20from%20amsterdam2.mp3" type="audio/mp3">
+</audio>
+
+<audio id="fortyEightMinuteSou">
+  <source src="muziek/voiceover/From%20all%20over%20the%20world.mp3" type="audio/mp3">
+</audio>
 
 
 
