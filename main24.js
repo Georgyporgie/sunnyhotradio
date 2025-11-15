@@ -15354,7 +15354,7 @@ volumeBoost: 0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Michael Jackson - Billy Jean (1982).mp3",
       timeCategory: "f afternoon",
-   volumeBoost: 0.25
+   volumeBoost: 0.45
 },
 
 
