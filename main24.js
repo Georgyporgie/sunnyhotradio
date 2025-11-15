@@ -16401,7 +16401,14 @@ quickFade: true,
 
 
 
+{
+     name: "All Over The World",
+    artist: "Sunny ☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/voiceover/From all over the world.mp3",
+        timeCategory: "f afternoon"
 
+},
 
 
 
@@ -17753,7 +17760,14 @@ quickFade: true,
 },
 
 
+{
+     name: "All Over The World",
+    artist: "Sunny ☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/voiceover/From all over the world.mp3",
+        timeCategory: "f evening"
 
+},
 
 
 
@@ -18676,7 +18690,14 @@ quickFade: true
 
 
 
+{
+     name: "All Over The World",
+    artist: "Sunny ☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/voiceover/From all over the world.mp3",
+        timeCategory: "f evening-late"
 
+},
 
 
 
