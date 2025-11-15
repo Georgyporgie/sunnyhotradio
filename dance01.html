@@ -1396,6 +1396,18 @@ document.addEventListener("DOMContentLoaded", () => {
   <source src="" type="audio/mp3">
 </audio>
 
+
+
+
+
+<audio id="fortyEightMinuteSou">
+  <source src="muziek/voiceover/From%20all%20over%20the%20world.mp3" type="audio/mp3">
+</audio>
+
+
+
+
+
 <script>
   // ✅ Apply volume normalization when a track is ready to play
   document.querySelectorAll("audio").forEach(audio => {
@@ -1451,7 +1463,24 @@ function scheduleSounds() {
     playSound(["thirtySevenMinuteSou"]);
     setInterval(() => playSound(["thirtySevenMinuteSou"]), 2220000);
   }, thirtySevenDelay);
+,
+
+
+  // Every 48 minutes
+  const minsTo48 = 48 - (now.getMinutes() % 48);
+  const fortyEightDelay = ((minsTo48 === 48 ? 0 : minsTo48) * 60 - now.getSeconds()) * 1000;
+  setTimeout(() => {
+    playSound(["fortyEightMinuteSou"]);
+    setInterval(() => playSound(["fortyEightMinuteSou"]), 2880000);
+  }, fortyEightDelay);
 }
+
+
+
+
+
+
+
 
 window.onload = scheduleSounds;
 </script>
