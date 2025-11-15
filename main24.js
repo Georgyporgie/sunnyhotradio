@@ -1795,7 +1795,8 @@ volumeBoost: 0.20
     artist: "Vaughan  Mason & Crew",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Vaughan  Mason & Crew - Bounce skate roll.mp3",
-        timeCategory: "morning"
+        timeCategory: "morning",
+volumeBoost: 0.35
 },
 
 
@@ -15217,7 +15218,7 @@ volumeBoost: 0.15
     path: "https://sunnydanceoldies08.netlify.app/Lipps Inc. - Funkytown (1980).mp3",
   timeCategory: "evening-late",
 quickFade: true,
-volumeBoost: 0.25
+volumeBoost: 0.40
 },
 
 
@@ -15490,7 +15491,7 @@ volumeBoost: 0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Vaughan  Mason & Crew - Bounce skate roll.mp3",
        timeCategory: "f afternoon",
-  volumeBoost: 0.15
+  volumeBoost: 0.35
 },
 
 {
@@ -16321,7 +16322,7 @@ quickFade: true
     path: "https://sunnydanceoldies08.netlify.app/Lipps Inc. - Funkytown (1980).mp3",
   timeCategory: "f afternoon",
 quickFade: true,
-  volumeBoost: 0.25
+  volumeBoost: 0.40
 },
 
 
