@@ -1327,7 +1327,7 @@ volumeBoost:0.25
   
 
       timeCategory: "morning",
-volumeBoost: 0.25
+volumeBoost: 0.35
 },
 
 
@@ -16453,7 +16453,7 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Donna Summer - Diner With Gershwin.mp3",
     timeCategory: "f afternoon",
-  volumeBoost: 0.20
+  volumeBoost: 0.40
 },
 
 
@@ -16464,7 +16464,7 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Gary Low - You Are A Danger.mp3",
     timeCategory: "f afternoon",
-  volumeBoost: 0.25
+  volumeBoost: 0.35
 },
 
 
