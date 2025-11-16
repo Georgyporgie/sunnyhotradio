@@ -52,11 +52,11 @@ src:url(arialbi.ttf);
 
 .track-name {
   z-index: 0; padding: 12px 15px 12px 15px; 
-margin-bottom: 9px;background:linear-gradient(90deg,#CCCCCC,#d6d6d6,#e0e0e0); font-family: myMuss;border: solid 1px black; border-radius:5px;font-size:30px; color: #FF0000;
+margin-bottom: 9px; font-family: 'Orbitron', sans-serif;border: solid 1px black; border-radius:5px;font-size:30px; 
 transition: all 0.3s ease-in-out;
 
 
-font-weight:300;
+font-weight:200;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
   text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5);
  
@@ -74,10 +74,11 @@ font-weight:300;
 
 
 .track-artist {
-  z-index: 0; padding: 12px 15px 12px 15px ; background:linear-gradient(90deg,#CCCCCC,#d6d6d6,#e0e0e0);border: solid 1px black;  margin-top: -11px;  font-family: myMuss; border-radius:5px; font-size:30px;font-weight:300;
+  z-index: 0; padding: 12px 15px 12px 15px ; border: solid 1px black;  margin-top: -11px;         font-family: 'Orbitron', sans-serif;
+ border-radius:5px; font-size:30px;font-weight:200;
 transition: all 0.3s ease-in-out;
 
-color: #FF0000;
+
 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
   text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5);
@@ -246,12 +247,12 @@ font-weight: italic; display: block; margin: auto auto auto auto;
     height: 120px;
     filter: brightness(100%) saturate(100%) contrast(100%) opacity(100%);
     transform: rotate(0deg);
-    z-index: -100;
+    z-index: -900;
     display: block;
     margin: auto;
     box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
     border-radius: 3px;
-    border: solid 1px #fff;
+    border: solid 1px black;
     
 }
 
@@ -286,7 +287,7 @@ font-weight: italic; display: block; margin: auto auto auto auto;
 
 
 
-#med  {    width: 120px;  height:120px;filter: brightness(100%) saturate(100%) contrast(100%) opacity(100%); transform: rotate(0deg); z-index: -100; display: block; margin: auto auto auto auto;  border: solid 1px #fff; box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+#med  {    width: 120px;  height:120px;filter: brightness(100%) saturate(100%) contrast(100%) opacity(100%); transform: rotate(0deg); z-index: -100; display: block; margin: auto auto auto auto;  border: solid 1px black; box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
 border-radius: 3px;
 }
 
@@ -679,7 +680,7 @@ color: #000080; z-index: 200; text-align: center; font-family: myEvent; padding:
 #now  {
 color: #414a4c;
 
-  ; z-index: -150; text-align: center; font-family: myMuss;  font-size: 15px; font-weight:300;background:linear-gradient(90deg,#CCCCCC,white,#e0e0e0);padding: 5px 5px 5px 5px;
+  ; z-index: -750; text-align: center; font-family: myMuss;  font-size: 15px; font-weight:300;background:linear-gradient(90deg,#CCCCCC,white,#e0e0e0);padding: 5px 5px 5px 5px;
 transition: all 0.3s ease-in-out; border-radius:5px;
 
 
@@ -1303,3 +1304,6 @@ filter: brightness(100%) saturate(105%) contrast(100%)opacity (70%);
 #clock  {   margin: auto auto auto auto; display: block;
 }
 
+#frame  {  
+height: 900px; width: 300px; display: block; margin: auto auto auto auto; z-index: -200; border: solid #663300 3px;
+}
