@@ -11032,7 +11032,9 @@ volumeBoost: 0.25
     artist: "Fierce Ruling Diva ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Fierce Ruling Diva - Rubb It In.mp3",
-    timeCategory: "evening"
+      playcount: 0,
+timeCategory: "evening"
+
 },
 
 
@@ -12604,9 +12606,10 @@ volumeBoost: 0.25
     artist: "Alexander O Neal ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Alexander O Neal - Fake.mp3",
-   timeCategory: "evening"
+   timeCategory: "evening",
+volumeBoost: 0.40,
+  playcount: 0
 },
-
 
 
 
@@ -14375,7 +14378,7 @@ volumeBoost:0.40
     artist: "Splendor ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Splendor - All night long.mp3",
-  
+  volumeBoost:0.55,
 
 
       timeCategory: "evening-late"
@@ -17737,8 +17740,8 @@ quickFade: true,
     path: "https://sunnydanceoldies05.netlify.app/CC Peniston - We Got A Love Thang.mp3",
       timeCategory: "f evening",
 quickFade: true,
-  volumeBoost: 0.20
-
+  volumeBoost: 0.20,
+  playcount: 0
 },
 
 
@@ -19953,7 +19956,8 @@ volumeBoost: 0.10
     artist: "Jones Girls ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Jones Girls - Nights Over Egypt.mp3",
-    timeCategory: "evening-late"
+    timeCategory: "evening-late",
+volumeBoost:0.65
 },
 
 
@@ -20085,7 +20089,7 @@ volumeBoost: 0.10
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Rod Stewarrt - Da Ya Think I'm Sexy.mp3",
         timeCategory: "evening-late",
-volumeBoost:0.25
+volumeBoost:0.45
 },
 
 
@@ -21264,6 +21268,7 @@ volumeBoost: 0.15
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet3.mp3",
   timeCategory: "evening-late"
+
 
 },
 

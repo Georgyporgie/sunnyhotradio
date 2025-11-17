@@ -547,7 +547,7 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
 
 
 #gas  {  
- display: block; margin: auto auto auto auto; z-index: 0; filter: brightness(105%) saturate(105%) contrast(105%);
+ display: block; margin: auto auto auto auto; z-index: 200; filter: brightness(105%) saturate(105%) contrast(105%);
 }
 
 #uitzinnig  {  display: block; margin: auto;  height: 400px;
@@ -1304,6 +1304,6 @@ filter: brightness(100%) saturate(105%) contrast(100%)opacity (70%);
 #clock  {   margin: auto auto auto auto; display: block;
 }
 
-#frame  {  
-height: 900px; width: 300px; display: block; margin: auto auto auto auto; z-index: -200; border: solid #663300 3px;
+#gas  {  
+height: 900px; width: 300px; display: block; margin: auto auto auto auto; z-index: -200; border: solid #663300 3px;filter: brightness(105%) saturation(105%) contrast(100%); 
 }
