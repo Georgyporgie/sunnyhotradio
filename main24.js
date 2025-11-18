@@ -5948,8 +5948,9 @@ volumeBoost: 0.30
     artist: "Macy Gray",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Macy Gray Sweet Baby.mp3",
-    timeCategory: "afternoon"
-
+    timeCategory: "afternoon",
+quickFade: true,
+volumeBoost: 0.25
 
 },
 
@@ -10114,7 +10115,7 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Gat Decor - Passion.mp3",
      timeCategory: "evening",
-  volumeBoost: 0.15
+  volumeBoost: 0.45
 
 
 },
@@ -10905,7 +10906,7 @@ volumeBoost: 0.25
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Modjo - Lady.mp3",
      timeCategory: "evening",
-  volumeBoost: 0.10
+  volumeBoost: 0.30
 },
 
 
@@ -11717,7 +11718,7 @@ volumeBoost: 0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Salt n Pepa - Push It (1987).mp3",
     timeCategory: "evening",
-volumeBoost: 0.35
+volumeBoost: 0.40
 },
 
 
@@ -13047,7 +13048,7 @@ volumeBoost: 0.40,
     path: "https://sunnydanceoldies09.netlify.app/Salt n Pepa - Push It (1987).mp3",
     timeCategory: "evening-late",
 
-  volumeBoost: 0.35
+  volumeBoost: 0.40
 },
 
 
@@ -13193,7 +13194,8 @@ volumeBoost: 0.35
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Modjo - Lady.mp3",
  timeCategory: "evening-late",
-volumeBoost: 0.10
+volumeBoost: 0.25,
+quickFade: true
 },
 
 
