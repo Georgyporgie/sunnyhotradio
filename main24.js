@@ -662,7 +662,7 @@ volumeBoost:0.60
     artist: "Sonny Fodera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 02.mp3",
-    timeCategory: "sonny",
+    timeCategory: "special-cast",
     volumeBoost: 0.50
 },
 
@@ -675,7 +675,7 @@ volumeBoost:0.60
     artist: "Sonny Fodera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 03.mp3",
-   timeCategory: "sonny",
+   timeCategory: "special-cast",
     volumeBoost: 0.50
 },
 
@@ -686,7 +686,7 @@ volumeBoost:0.60
     artist: "Sonny Fodera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 04.mp3",
-   timeCategory: "sonny",
+   timeCategory: "special-cast",
     volumeBoost: 0.50
 },
 
@@ -696,7 +696,7 @@ volumeBoost:0.60
     artist: "Sonny Fodera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 05.mp3",
-    timeCategory: "sonny",
+    timeCategory: "special-cast",
     volumeBoost: 0.50
 },
 
