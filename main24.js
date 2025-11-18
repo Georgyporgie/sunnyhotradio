@@ -405,7 +405,7 @@ volumeBoost:0.50
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio07.mp3",
     timeCategory: "special",
-volumeBoost:0.50
+volumeBoost:0.60
 },
 
 
@@ -415,7 +415,7 @@ volumeBoost:0.50
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator02.mp3",
     timeCategory: "special-mix",
-    volumeBoost:0.50
+    volumeBoost:0.60
 },
 
 
@@ -425,7 +425,7 @@ volumeBoost:0.50
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator03.mp3",
     timeCategory: "special-mix",
-     volumeBoost:0.50
+     volumeBoost:0.60
 
 },
 
@@ -435,7 +435,7 @@ volumeBoost:0.50
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator04.mp3",
     timeCategory: "special-mix",
-    volumeBoost:0.50
+    volumeBoost:0.60
 },
 
  {
@@ -454,7 +454,7 @@ volumeBoost:0.50
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator06.mp3",
     timeCategory: "special-mix",
-volumeBoost:0.50
+volumeBoost:0.60
 },
 
 
@@ -470,7 +470,7 @@ volumeBoost:0.50
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://sunnydanceoldies09.netlify.app/Bob Sinclar (live) - From Paris 01.mp3",
        timeCategory: "special-mix",
-volumeBoost:0.50
+volumeBoost:0.60
 },
 
 
@@ -481,7 +481,7 @@ volumeBoost:0.50
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://sunnydanceoldies09.netlify.app/Bob Sinclair - Live from Paris3.mp3",
        timeCategory: "special-mix",
-volumeBoost:0.50
+volumeBoost:0.60
 },
 
 {
@@ -490,7 +490,7 @@ volumeBoost:0.50
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://sunnydanceoldies09.netlify.app/Bob Sinclair - Live from Paris4.mp3",
        timeCategory: "special-mix",
-volumeBoost:0.50
+volumeBoost:0.60
 },
 
 
@@ -522,7 +522,7 @@ volumeBoost:0.50
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur01.mp3",
     timeCategory: "special-cast",
-volumeBoost:0.60
+volumeBoost:0.70
 },
 
 
@@ -532,7 +532,7 @@ volumeBoost:0.60
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur02.mp3",
     timeCategory: "special-cast",
-volumeBoost:0.60
+volumeBoost:0.70
 },
 
 
@@ -542,7 +542,7 @@ volumeBoost:0.60
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur03.mp3",
     timeCategory: "special-cast",
-volumeBoost:0.60
+volumeBoost:0.70
 },
 
 
@@ -552,7 +552,7 @@ volumeBoost:0.60
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur05.mp3",
     timeCategory: "special-cast",
-volumeBoost:0.60
+volumeBoost:0.70
 },
 
 
@@ -564,7 +564,7 @@ volumeBoost:0.60
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur06.mp3",
     timeCategory: "special-cast",
-volumeBoost:0.60
+volumeBoost:0.70
 },
 
 
