@@ -2091,10 +2091,13 @@ function getShuffleMode() {
 const btn = document.querySelector('.btn');
 const menu = document.querySelector('.menu');
 
-btn.addEventListener('click', () => {
-  btn.classList.toggle('click');
-  menu.classList.toggle('open');
-});
+if (btn && menu) {
+  btn.addEventListener('click', () => {
+    btn.classList.toggle('click');
+    menu.classList.toggle('open');
+  });
+}
+
 </script>
 
 
