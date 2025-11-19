@@ -339,7 +339,8 @@ let trackList = [
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio01.mp3",
     timeCategory: "special",
-volumeBoost:0.50
+volumeBoost:0.50,
+   playcount: 0
 },
 
 
@@ -349,7 +350,8 @@ volumeBoost:0.50
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio02.mp3",
     timeCategory: "special",
-volumeBoost:0.50
+volumeBoost:0.50,
+   playcount: 0
 },
 
 
@@ -363,7 +365,8 @@ volumeBoost:0.50
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio03.mp3",
     timeCategory: "special",
-volumeBoost:0.50
+volumeBoost:0.50,
+   playcount: 0
 },
 
 
@@ -374,7 +377,8 @@ volumeBoost:0.50
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio04.mp3",
     timeCategory: "special",
-volumeBoost:0.50
+volumeBoost:0.50,
+   playcount: 0
 },
 
 
@@ -385,7 +389,8 @@ volumeBoost:0.50
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio05.mp3",
     timeCategory: "special",
-volumeBoost:0.50
+volumeBoost:0.50,
+   playcount: 0
 },
 
 
@@ -395,7 +400,8 @@ volumeBoost:0.50
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio06.mp3",
     timeCategory: "special",
-volumeBoost:0.50
+volumeBoost:0.50,
+   playcount: 0
 },
 
 
@@ -405,7 +411,8 @@ volumeBoost:0.50
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio07.mp3",
     timeCategory: "special",
-volumeBoost:0.60
+volumeBoost:0.50,
+   playcount: 0
 },
 
 
@@ -415,7 +422,8 @@ volumeBoost:0.60
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator02.mp3",
     timeCategory: "special-mix",
-    volumeBoost:0.60
+volumeBoost:0.50,
+   playcount: 0
 },
 
 
@@ -425,8 +433,8 @@ volumeBoost:0.60
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator03.mp3",
     timeCategory: "special-mix",
-     volumeBoost:0.60
-
+volumeBoost:0.50,
+   playcount: 0
 },
 
  {
@@ -435,7 +443,7 @@ volumeBoost:0.60
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator04.mp3",
     timeCategory: "special-mix",
-    volumeBoost:0.60
+    volumeBoost:0.50
 },
 
  {
@@ -454,7 +462,7 @@ volumeBoost:0.60
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator06.mp3",
     timeCategory: "special-mix",
-volumeBoost:0.60
+volumeBoost:0.50
 },
 
 
@@ -741,8 +749,9 @@ playcount: 0
     artist: " Tapps ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Tapps - My Forbidden Lover.mp3",
-          timeCategory: "morning",
-playcount: 0
+       playcount: 0,
+timeCategory: "morning",
+  volumeBoost: 0.40
 },
 
 
@@ -1538,7 +1547,7 @@ timeCategory: "morning",
     path: "muziek/oldies07/2 Live Crew - Me So H.mp3",
    playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.10
+  volumeBoost: 0.50
 
 
 },
@@ -3308,7 +3317,8 @@ volumeBoost: 0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Simply Red - Money's too tight (to mention).mp3",
       timeCategory: "morning",
-volumeBoost: 0.35
+volumeBoost: 0.45,
+playcount: 0
 },
 
 
@@ -4052,7 +4062,8 @@ volumeBoost: 0.35
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/E W F - Win or lose.mp3",
   timeCategory: "morning",
-volumeBoost: 0.55
+     playcount: 0,
+  volumeBoost: 0.70
 },
 
 
@@ -5027,7 +5038,9 @@ quickFade: true,
     artist: " Dior ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/MK - Dior (12inch).mp3",
-       timeCategory: "afternoon"
+    timeCategory: "afternoon",
+    volumeBoost: 0.15,
+    playcount: 0
 },
 
 
@@ -6014,7 +6027,9 @@ volumeBoost: 0.25
     artist: "Full Flava",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Full Flava - You are the universe.mp3",
-  timeCategory: "afternoon"
+    timeCategory: "afternoon",
+    volumeBoost: 0.50,
+    playcount: 0
 },
 
 
@@ -6103,7 +6118,8 @@ quickFade: true
     artist: "Superfunk ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/Superfunk - Lucky Star.mp3",
- timeCategory: "afternoon"
+ timeCategory: "afternoon",
+  playcount: 0
 },
 
 
@@ -10114,12 +10130,10 @@ quickFade: true,
     artist: "Gat Decor",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Gat Decor - Passion.mp3",
-     timeCategory: "evening",
-  volumeBoost: 0.45
-
-
+    timeCategory: "evening",
+    volumeBoost: 0.55,
+    playcount: 0
 },
-
 
 
 
@@ -11103,7 +11117,9 @@ timeCategory: "evening"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Bizarre Inc - X Static.mp3",
     timeCategory: "evening",
-  quickFade: true
+  quickFade: true,
+    volumeBoost: 0.20,
+    playcount: 0
 },
 
 
@@ -11143,8 +11159,10 @@ timeCategory: "evening"
     artist: "Azymuth",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://sunnydanceoldies08.netlify.app/Azymuth - Jazz carnaval.mp3",
- timeCategory: "evening",
-volumeBoost: 0.30
+    timeCategory: "evening",
+    quickFade: true,
+    volumeBoost: 0.40,
+playcount: 0
 },
 
 
@@ -11180,10 +11198,11 @@ volumeBoost: 0.10
     artist: "James Bond",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/James Bond - Bond theme 77.mp3",
-            timeCategory: "evening",
-  volumeBoost: 0.30
+    timeCategory: "evening",
+    quickFade: true,
+    volumeBoost: 0.40,
+playcount: 0
 },
-
 
 
 
@@ -11472,7 +11491,9 @@ volumeBoost: 0.10
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Grandmaster Flash & The Furious Five - The Message.mp3",
      timeCategory: "evening",
-volumeBoost: 0.30
+    quickFade: true,
+volumeBoost: 0.40,
+playcount: 0
 },
 
 
@@ -11763,7 +11784,7 @@ volumeBoost: 0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Shalamar - Right In The Socket.mp3",
     timeCategory: "evening",
-volumeBoost: 0.20
+volumeBoost: 0.25
 },
 
 
@@ -13436,7 +13457,9 @@ volumeBoost: 0.25
     artist: "S Express ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/S Express - Theme From S Express.mp3",
-     timeCategory: "evening-late"
+     timeCategory: "evening-late",
+    volumeBoost: 0.25,
+    playcount: 0
 },
 
 
