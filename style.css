@@ -277,7 +277,7 @@ border: solid 1px #00CC00;
 
 }
 
-#dance  {    width: 245px;  height: 150px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(80%); transform: rotate(1deg);  margin: auto auto auto auto; display: block; z-index: 200; border-radius:15px; border: solid 1px #FF0000; 
+#dance  {    width: 245px;  height: 150px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(80%); transform: rotate(1deg);  margin: auto auto auto auto; display: block; z-index: 200; border-radius:15px; border: solid 1px #86c5da; 
 animation: blinker 1s step-start infinite;
 
 }

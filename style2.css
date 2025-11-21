@@ -1303,7 +1303,7 @@ color: goldenrod:
 }
 
 
-#clock  {   margin: auto auto auto auto; display: block;
+#clock  {   margin: auto auto auto auto; display: block; filter: brightness(95%) saturation(95%) contrast(95%); 
 }
 
 #gas  {  

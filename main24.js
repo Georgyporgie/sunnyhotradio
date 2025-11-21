@@ -422,7 +422,7 @@ volumeBoost:0.50,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator02.mp3",
     timeCategory: "special-mix",
-volumeBoost:0.50,
+volumeBoost:0.40,
    playcount: 0
 },
 
@@ -433,7 +433,7 @@ volumeBoost:0.50,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator03.mp3",
     timeCategory: "special-mix",
-volumeBoost:0.50,
+volumeBoost:0.40,
    playcount: 0
 },
 
@@ -443,7 +443,7 @@ volumeBoost:0.50,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator04.mp3",
     timeCategory: "special-mix",
-    volumeBoost:0.50
+    volumeBoost:0.40
 },
 
  {
@@ -452,7 +452,7 @@ volumeBoost:0.50,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator05.mp3",
     timeCategory: "special-mix",
-    volumeBoost:0.50
+    volumeBoost:0.40
 
 },
 
@@ -462,7 +462,7 @@ volumeBoost:0.50,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator06.mp3",
     timeCategory: "special-mix",
-volumeBoost:0.50
+volumeBoost:0.40
 },
 
 
@@ -4917,7 +4917,9 @@ quickFade: true,
     artist: "Sonny Fodera & Jazzy",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera & Jazzy - All This Time.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+  volumeBoost: 0.05,
+  playcount: 0
 },
 
 
@@ -4984,7 +4986,9 @@ quickFade: true,
     artist: " Griffin Tinashe ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Griffin Tinashe - Scandalous.mp3",
-       timeCategory: "afternoon"
+       timeCategory: "afternoon",
+  volumeBoost: 0,
+  playcount: 0
 },
 
 
@@ -5819,10 +5823,10 @@ volumeBoost: 0.30
     artist: "Slave  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Slave - Stellar Funk (1978).mp3",
-    volumeBoost: 0.30,
-
-
-    timeCategory: "afternoon"
+      volumeBoost: 0.50,
+    playcount: 0,
+   timeCategory: "afternoon",
+quickFade: true
 },
 
 
@@ -5936,10 +5940,9 @@ volumeBoost: 0.30
     artist: "Five Star ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Five Star - Can't Wait Another Minute.mp3",
-  
-
-
-      timeCategory: "afternoon"
+    timeCategory: "afternoon",
+    volumeBoost: 0.20,
+    playcount: 0
 },
 
 
@@ -6507,7 +6510,10 @@ timeCategory: "afternoon",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Vibey03.mp3",
      timeCategory: "afternoon",
-  quickFade: true
+  quickFade: true,
+  volumeBoost: 0.45,
+    playcount: 0
+
 },
 
 
@@ -6575,7 +6581,10 @@ volumeBoost: 0.15
     artist: "Vibey ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Vibey02.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+  volumeBoost: 0.45,
+    playcount: 0
+
 },
 
 
@@ -6584,7 +6593,10 @@ volumeBoost: 0.15
     artist: "Vibey ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Vibey01.mp3",
-     timeCategory: "afternoon"
+     timeCategory: "afternoon",
+  volumeBoost: 0.45,
+    playcount: 0
+
 },
 
 
@@ -6635,10 +6647,11 @@ volumeBoost: 0.15
     artist: "Vibey",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Vibey04.mp3",
-      timeCategory: "afternoon"
+      timeCategory: "afternoon",
+  volumeBoost: 0.45,
+    playcount: 0
+
 },
-
-
 
 
 
@@ -9960,7 +9973,10 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Chad Jackson - Hear The Drummer.mp3",
    timeCategory: "evening",
-  volumeBoost: 0.15
+     quickFade: true,
+  volumeBoost: 0.15,
+    playcount: 0
+
 },
 
 
@@ -10090,10 +10106,9 @@ quickFade: true,
     artist: "Christian Jay Bolland ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Christian Jay Bolland - Horsepower (1991).mp3",
-  
-
-     timeCategory: "evening",
-  volumeBoost: 0.10
+    timeCategory: "evening",
+    volumeBoost: 0.25,
+    playcount: 0
 
 },
 
@@ -10107,7 +10122,8 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Fast Love - George Michael.mp3",
    timeCategory: "evening",
-  volumeBoost: 0.25
+    volumeBoost: 0.45,
+    playcount: 0
 },
 
 
@@ -13201,7 +13217,8 @@ volumeBoost: 0.10
      image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Cassius - Cassius 1999.mp3",
     timeCategory: "evening-late",
-volumeBoost: 0.35
+    volumeBoost: 0.40,
+    playcount: 0
 },
 
 
@@ -13417,7 +13434,10 @@ volumeBoost: 0.25
     artist: "Da Hool ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Da Hool - Meet Her At The Love Parade.mp3",
-    timeCategory: "evening-late"
+    timeCategory: "evening-late",
+     quickFade: true,
+    playcount: 0
+
 },
 
 
@@ -13439,7 +13459,10 @@ volumeBoost: 0.25
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Michael Gray - The weekend.mp3",
      timeCategory: "evening-late",
-     quickFade: true
+     quickFade: true,
+  volumeBoost: 0.25,
+    playcount: 0
+
 },
 
 
@@ -13560,7 +13583,9 @@ volumeBoost: 0.25
     artist: "George Michael  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/George Michael - Too Funky.mp3",
-    timeCategory: "evening-late"
+    timeCategory: "evening-late",
+    volumeBoost: 0.55,
+    playcount: 0
 },
 
 
@@ -14726,9 +14751,10 @@ quickFade: true
     artist: " Capricorn  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Capricorn - 20 hz.mp3",
-  
-  timeCategory: "evening-late",
-  quickFade: true
+    timeCategory: "evening-late",
+    quickFade: true,
+    playcount: 0,
+   volumeBoost: 0.25
 },
 
 
@@ -14767,8 +14793,10 @@ quickFade: true
     artist: "Lil Louis   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Lil Louis - French Kiss.mp3",
-    timeCategory: "evening-late"
-
+    timeCategory: "evening-late",
+     quickFade: true,
+  volumeBoost: 0.05,
+    playcount: 0
 
 },
 
@@ -15119,7 +15147,10 @@ volumeBoost:0.10
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Michael Zager Band - Let's All Chant (1977).mp3",
    timeCategory: "evening-late",
-  volumeBoost: 0.25
+     quickFade: true,
+  volumeBoost: 0.55,
+    playcount: 0
+
 },
 
 
@@ -16749,7 +16780,9 @@ quickFade: true,
     artist: " Griffin Tinashe ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Griffin Tinashe - Scandalous.mp3",
-       timeCategory: "f evening"
+       timeCategory: "f evening",
+  volumeBoost: 0,
+  playcount: 0
 },
 
 
@@ -16768,7 +16801,9 @@ quickFade: true,
     artist: "Sonny Fodera & Jazzy",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera & Jazzy - All This Time.mp3",
-    timeCategory: "f evening"
+    timeCategory: "f evening",
+  volumeBoost: 0,
+  playcount: 0
 },
 
 {
@@ -17339,7 +17374,8 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Five Star - All Fall Down.mp3",
           timeCategory: "f evening",
-  volumeBoost: 0.25
+  volumeBoost: 0.25,
+  playcount: 0
 },
 
 
@@ -17476,7 +17512,8 @@ quickFade: true,
     artist: "Calvin Harris, Clementine Douglas ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Calvin Harris, Clementine Douglas - Blessings.mp3",
-   timeCategory: "f evening"
+   timeCategory: "f evening",
+  playcount: 0
 },
 
 
@@ -18100,9 +18137,10 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Katy Perry - Nirvana.mp3",
  timeCategory: "f evening-late",
-volumeBoost: 0.55
+volumeBoost: 0.70,
+  volumeBoost: 0.25,
+ playcount: 0
 },
-
 
 
 
@@ -18272,7 +18310,8 @@ volumeBoost: 0.55
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Stargard - What you waiting for.mp3",
    timeCategory: "f evening-late",
-  volumeBoost: 0.25
+  volumeBoost: 0.25,
+ playcount: 0
 },
 
 
@@ -18465,7 +18504,8 @@ volumeBoost: 0.55
     artist: "Tinashe ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Tinashe - Nasty.mp3",
-       timeCategory: "f evening-late"
+       timeCategory: "f evening-late",
+ playcount: 0
 },
 
 
@@ -20764,7 +20804,11 @@ volumeBoost: 0.15
     artist: "Full Flava ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Music is my way of life - Full flava.mp3",
-  timeCategory: "evening-late"
+  timeCategory: "evening-late",
+     quickFade: true,
+  volumeBoost: 0.50,
+    playcount: 0
+
 },
 
 
@@ -21287,15 +21331,6 @@ volumeBoost: 0.15
 
 
 
-{
-    name: "The Weekend",
-    artist: "Michael Gray  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet3.mp3",
-  timeCategory: "evening-late"
-
-
-},
 
 
 
@@ -21690,7 +21725,8 @@ playcount: 0
     artist: "Calvin Harris, Clementine Douglas ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Calvin Harris, Clementine Douglas - Blessings.mp3",
-   timeCategory: "afternoon"
+   timeCategory: "afternoon",
+   playcount: 0
 },
 
 
