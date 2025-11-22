@@ -2247,11 +2247,10 @@ timeCategory: "morning"
     artist: "CC Peniston ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/CC Peniston - We Got A Love Thang.mp3",
-      timeCategory: "morning",
+    timeCategory: "morning",
     quickFade: true,
-  playcount: 0,
-
-  volumeBoost: 0.15
+    playcount: 0,
+    volumeBoost: 0.25
 },
 
 
@@ -2263,9 +2262,8 @@ timeCategory: "morning"
     path: "https://sunnydanceoldies01.netlify.app/Evelyn King - Love come down.mp3",
      timeCategory: "morning",
     quickFade: true,
-  playcount: 0,
-
-  volumeBoost: 0.35
+   playcount: 0,
+   volumeBoost: 0.35
 },
 
 
@@ -4988,7 +4986,8 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Katy Perry - Bandaids.mp3",
            timeCategory: "afternoon",
-  playcount: 0
+  playcount: 0,
+volumeBoost: 0.30
 },
 
 
@@ -5039,7 +5038,8 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sabrina Carpenter - Tears.mp3",
            timeCategory: "afternoon",
-  playcount: 0
+  playcount: 0,
+volumeBoost: 0.30
 },
 
 {
@@ -10266,7 +10266,7 @@ quickFade: true,
     path: "https://sunnydanceoldies05.netlify.app/CC Peniston - We Got A Love Thang.mp3",
      timeCategory: "evening",
     quickFade: true,
-  volumeBoost: 0.15
+  volumeBoost: 0.35
 
 },
 
@@ -21892,7 +21892,7 @@ quickFade: true,
     path: "https://sunnydanceoldies05.netlify.app/CC Peniston - We Got A Love Thang.mp3",
       timeCategory: "f evening",
 quickFade: true,
-  volumeBoost: 0.20,
+  volumeBoost: 0.35,
   playcount: 0
 },
 
@@ -21960,7 +21960,8 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Katy Perry - Bandaids.mp3",
            timeCategory: "f evening",
-  playcount: 0
+  playcount: 0,
+volumeBoost: 0.30
 },
 
 
@@ -22011,7 +22012,8 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sabrina Carpenter - Tears.mp3",
            timeCategory: "f evening",
-  playcount: 0
+  playcount: 0,
+volumeBoost: 0.30
 },
 
 {
@@ -22020,8 +22022,10 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Selena Gomez - In The Dark.mp3",
            timeCategory: "f evening",
+  volumeBoost: 0.60,
   playcount: 0
 },
+
  
 
 
@@ -22332,7 +22336,7 @@ quickFade: true,
     path: "https://dancemusic09.netlify.app/Katy Perry - Nirvana.mp3",
  timeCategory: "f evening-late",
 volumeBoost: 0.70,
-  volumeBoost: 0.25,
+ 
  playcount: 0
 },
 
@@ -22475,7 +22479,9 @@ volumeBoost: 0.70,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Rick James - You and I.mp3",
    timeCategory: "f evening-late",
-  volumeBoost: 0.25
+   volumeBoost: 0.35,
+   quickFade: true,
+   playcount: 0
 },
 
 
@@ -22498,8 +22504,11 @@ volumeBoost: 0.70,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Dua Lipa - Toxic Love.mp3",
            timeCategory: "f evening-late",
-  playcount: 0
+  playcount: 0,
+volumeBoost: 0.25
+
 },
+
 
 
 
@@ -22535,7 +22544,8 @@ volumeBoost: 0.70,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Katy Perry - Bandaids.mp3",
            timeCategory: "f evening-late",
-  playcount: 0
+   playcount: 0,
+volumeBoost: 0.30
 },
 
 
@@ -22586,7 +22596,8 @@ volumeBoost: 0.70,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sabrina Carpenter - Tears.mp3",
            timeCategory: "f evening-late",
-  playcount: 0
+  playcount: 0,
+volumeBoost: 0.30
 },
 
 {
