@@ -4997,7 +4997,8 @@ volumeBoost: 0.30
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Kim Petras  - I LIke Ur Look.mp3",
            timeCategory: "afternoon",
-  playcount: 0
+  playcount: 0,
+volumeBoost: 0.30
 },
 
 {
