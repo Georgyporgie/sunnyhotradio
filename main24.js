@@ -2250,7 +2250,7 @@ timeCategory: "morning"
     timeCategory: "morning",
     quickFade: true,
     playcount: 0,
-    volumeBoost: 0.25
+    volumeBoost: 0.35
 },
 
 
@@ -5040,7 +5040,7 @@ volumeBoost: 0.30
     path: "https://dancemusic09.netlify.app/Sabrina Carpenter - Tears.mp3",
            timeCategory: "afternoon",
   playcount: 0,
-volumeBoost: 0.30
+volumeBoost: 0.40
 },
 
 {
@@ -5049,7 +5049,8 @@ volumeBoost: 0.30
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Selena Gomez - In The Dark.mp3",
            timeCategory: "afternoon",
-  playcount: 0
+  playcount: 0,
+volumeBoost: 0.10
 },
 
 
@@ -8994,7 +8995,8 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Rose Royce - Best Love (single).mp3",
          timeCategory: "evening",
-  volumeBoost: 0.20
+  playcount: 0,
+volumeBoost: 0.50
 },
 
 
@@ -22014,7 +22016,7 @@ volumeBoost: 0.30
     path: "https://dancemusic09.netlify.app/Sabrina Carpenter - Tears.mp3",
            timeCategory: "f evening",
   playcount: 0,
-volumeBoost: 0.30
+volumeBoost: 0.40
 },
 
 {
@@ -22598,7 +22600,7 @@ volumeBoost: 0.30
     path: "https://dancemusic09.netlify.app/Sabrina Carpenter - Tears.mp3",
            timeCategory: "f evening-late",
   playcount: 0,
-volumeBoost: 0.30
+volumeBoost: 0.40
 },
 
 {
@@ -24008,7 +24010,11 @@ function nextTrack() {
   track_index = (track_index + 1) % scheduledMp3Files.length;
   loadTrack(track_index);
   playTrack();
+
+  // 🔄 Optional: check threshold reset
+  resetPlayCountsCeremony(5);
 }
+
 
 
 
