@@ -1309,3 +1309,7 @@ color: goldenrod:
 #gas  {  
 height: 900px; width: 300px; display: block; margin: auto auto auto auto; z-index: -200; filter: brightness(105%) saturation(105%) contrast(100%); 
 }
+
+
+#yello  {    color: #cc5500;z-index: -300;
+}
