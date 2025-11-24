@@ -3467,7 +3467,9 @@ volumeBoost: 0.20
     artist: "Kelis",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Kelis - Feed Them.mp3",
- timeCategory: "morning"
+ timeCategory: "morning",
+  playcount: 0,
+volumeBoost: 0.10
 },
 
 
@@ -5017,7 +5019,10 @@ volumeBoost: 0.30
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Poppy Baskcomb - Think About Us.mp3",
            timeCategory: "afternoon",
-  playcount: 0
+  volumeBoost: 0.20,
+playcount: 0
+
+
 },
 
 
@@ -6712,7 +6717,8 @@ volumeBoost: 0.15
     artist: "Luther Vandross ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://Sunnydanceoldies04.netlify.app/Luther Vandross & Janet Jackson - Best things in life are free.mp3",
-      timeCategory: "afternoon"
+    timeCategory: "afternoon",
+    volumeBoost: 0.40
 },
 
 {
@@ -8141,7 +8147,7 @@ volumeBoost:  0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Mtume - Juicy Fruit.mp3",
   quickFade: true,
-volumeBoost: 0.40,
+volumeBoost: 0.70,
 
    timeCategory: "afternoon"
 },
@@ -8151,7 +8157,8 @@ volumeBoost: 0.40,
     artist: "Listen Live Sunny Dance Radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle4.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+
 },
 
 
@@ -8161,7 +8168,9 @@ volumeBoost: 0.40,
     artist: "Dua Lipa  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Dua Lipa - Call my name.mp3",
-   timeCategory: "afternoon"
+   timeCategory: "afternoon",
+volumeBoost: 0.10
+
 },
 
 
@@ -8424,7 +8433,9 @@ volumeBoost: 0.40,
     artist: "  Ministry Of Sound",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Ibiza mini mix - Ministry of Sound1.mp3",
-   timeCategory: "afternoon"
+   timeCategory: "afternoon",
+  playcount: 0,
+volumeBoost: 0.10
 },
 
 
@@ -8433,7 +8444,9 @@ volumeBoost: 0.40,
     artist: "  Ministry Of Sound",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Ibiza mini mix - Ministry of Sound2.mp3",
-   timeCategory: "afternoon"
+   timeCategory: "afternoon",
+  playcount: 0,
+volumeBoost: 0.10
 },
 
 
@@ -9972,7 +9985,7 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Luther Vandross & Janet Jackson - Best things in life are free.mp3",
     timeCategory: "evening",
-  volumeBoost: 0.30
+  volumeBoost: 0.40
 },
 
 
@@ -10215,7 +10228,7 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Christian Jay Bolland - Horsepower (1991).mp3",
     timeCategory: "evening",
-    volumeBoost: 0.25,
+    volumeBoost: 0.55,
     playcount: 0
 
 },
@@ -12201,7 +12214,9 @@ volumeBoost: 0.20
     artist: "Chemise ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Chemise - She Can't Love You.mp3",
-     timeCategory: "evening"
+     timeCategory: "evening",
+  playcount: 0,
+volumeBoost: 0.10
 },
 
 
@@ -12274,8 +12289,11 @@ volumeBoost: 0.20
     artist: "Kelis",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Kelis - Feed Them.mp3",
-        timeCategory: "evening"
+        timeCategory: "evening",
+  playcount: 0,
+volumeBoost: 0.20
 },
+
 {
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️",
@@ -12877,9 +12895,9 @@ volumeBoost: 0.40,
     artist: " Funkstar Deluxe ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Sun is shining - Funkstar deluxe.mp3",
-  
-  timeCategory: "evening"
-
+    timeCategory: "evening",
+    volumeBoost: 0.20,
+    playcount: 0
 },
 
 
