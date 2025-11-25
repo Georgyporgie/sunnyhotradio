@@ -263,7 +263,7 @@ li:hover {
 .ham  {    width: 40px;  height: 40px; filter: brightness(110%) saturate(110%) contrast(110%) opacity(70%); transform: rotate(0deg); z-index: -200; margin-bottom: -22px; margin-right: 8px;margin-top: -11px; color: white;
 }
 
-#logo  {    width: 120px;  height: 90px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(70%); transform: rotate(0deg); z-index: -200; margin-top: -16px;margin-bottom: -38px;margin-left: 8px;  border-radius: 5px;
+#logo  {    width: 120px;  height: 90px;filter:  opacity(70%); transform: rotate(0deg); z-index: -200; margin-top: -16px;margin-bottom: -38px;margin-left: 8px;  border-radius: 5px;
 }
 .star  {    width: 55px;  height: 45px;filter: brightness(115%) saturate(115%) contrast(115%) opacity(70%); transform: rotate(0deg); z-index: -200; float: right;
 margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
@@ -271,13 +271,13 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
 
 }
 
-#classic  {    width: 130px;  height: 130px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(80%) grayscale(60%); transform: rotate(3deg); z-index: -200; margin-top: -24px;margin-bottom: -36px;margin-left: 22px;  border-radius:15px; background : linear-gradient(90deg,black,#050202,#060000);
-border: solid 1px #00CC00;
+#classic  {    width: 130px;  height: 130px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(80%) grayscale(60%); transform: rotate(3deg); z-index: -200; margin-top: -24px;margin-bottom: -36px;margin-left: 22px;  border-radius:15px; 
+border: solid 1px #86c5da;
 
 
 }
 
-#dance  {    width: 255px;  height: 150px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(80%); transform: rotate(1deg);  margin: auto auto auto auto; display: block; z-index: 200; border-radius:15px; border: solid 1px #FF0000; background : linear-gradient(90deg,black,#050202,#060000);
+#dance  {    width: 245px;  height: 150px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(80%); transform: rotate(1deg);  margin: auto auto auto auto; display: block; z-index: 200; border-radius:15px; border: solid 1px #86c5da; 
 animation: blinker 1s step-start infinite;
 
 }
@@ -289,7 +289,7 @@ animation: blinker 1s step-start infinite;
   }
 }
 
-#rock   {    width: 145px;  height: 145px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(80%) grayscale(50%); transform: rotate(-1deg); z-index: -200; float : right; border-radius:15px; margin-right: 20px; background : linear-gradient(90deg,black,#050202,#060000);
+#rock   {    width: 145px;  height: 145px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(80%) grayscale(50%); transform: rotate(-1deg); z-index: -200; float : right; border-radius:15px; margin-right: 20px; 
  border: solid 1px #0099FF;
 }
  .licht  {    width: 25px;  height: 25px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(60%); transform: rotate(40deg); z-index: -200; margin: -38px auto 10px  auto; display: block; border-radius: 5px;
@@ -357,7 +357,7 @@ h6  {  font-size: 20px; color: white; font-family: Arial ,Helvetica,sans-serif; 
   overflow: hidden;font-size:15px;
   white-space: nowrap;
 height: 40px; 
-
+font-weight:800;
 }
 
 
@@ -419,7 +419,7 @@ z-index: -300;  border-radius: 5px;
 a { color: black;
 }
 
-#first { width: 37px; height: 39px;filter: brightness(90%) saturate(110%) contrast(100%) opacity(78%); z-index: -200; transform:rotate(0deg); border-radius:3px;
+#first { width: 37px; height: 39px;filter: brightness(100%) saturate(105%) contrast(100%) opacity(70%); z-index: -1000; transform:rotate(0deg); border-radius:3px;
 }
 
 
@@ -427,11 +427,11 @@ a { color: black;
 
 
 
-#pick { width: 20px; height:25px;filter: brightness(105%) saturate(105%) contrast(100%) opacity(78%); z-index: -200; transform:rotate(0deg);
+#pick { width: 20px; height:25px;filter: brightness(100%) saturate(105%) contrast(100%) opacity(70%); z-index: -1000; transform:rotate(0deg);
 }
 
 
-#third { width: 20px; height: 25px;filter: brightness(105%) saturate(105%) contrast(100%) opacity(78%); z-index: -200; transform:rotate(0deg);
+#third { width: 20px; height: 25px;filter: brightness(100%) saturate(105%) contrast(100%) opacity(70%); z-index: -1000; transform:rotate(0deg);
 }
 
 
