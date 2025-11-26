@@ -5941,7 +5941,7 @@ volumeBoost: 0.30
     artist: "Slave  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Slave - Stellar Funk (1978).mp3",
-      volumeBoost: 0.50,
+      volumeBoost: 0.70,
     playcount: 0,
    timeCategory: "afternoon",
 quickFade: true
@@ -6190,10 +6190,12 @@ volumeBoost: 0.25
     artist: "Rene &  Angela",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Rene &  Angela - I'll be good.mp3",
-  timeCategory: "afternoon"
-
-
+    timeCategory: "afternoon",
+    quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
 },
+
 
 
 {
@@ -6598,7 +6600,9 @@ volumeBoost: 0.30
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Geraldine Hunt - Can t Fake The Feeling.mp3",
     timeCategory: "afternoon",
-volumeBoost: 0.50
+     quickFade: true,
+    volumeBoost: 0.85,
+    playcount: 0
 },
 
 
@@ -7355,8 +7359,8 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Katy Perry - Chained To The Rhythm.mp3",
     timeCategory: "afternoon",
-playcount: 0
-   
+    playcount: 0,
+    volumeBoost: 0.40
 
 
 },
@@ -8922,7 +8926,9 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Geraldine Hunt - Can t Fake The Feeling.mp3",
     timeCategory: "afternoon",
-volumeBoost: 0.50
+     quickFade: true,
+    volumeBoost: 0.85,
+    playcount: 0
 },
 
 
@@ -16093,7 +16099,15 @@ quickFade: true
 },
 
 
-
+{
+    name: " Freed From Desire (1996)  ",
+    artist: "Gala  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Gala - Freed From Desire (1996).mp3",
+   timeCategory: "evening",
+playcount: 0,
+volumeBoost: 0.20
+},
 
 
 
@@ -19159,8 +19173,8 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Katy Perry - Chained To The Rhythm.mp3",
     timeCategory: " evening-late",
-playcount: 0
-   
+    playcount: 0,
+    volumeBoost: 0.30
 
 
 },
@@ -19690,8 +19704,8 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Katy Perry - Chained To The Rhythm.mp3",
     timeCategory: "f afternoon",
-playcount: 0
-   
+    playcount: 0,
+    volumeBoost: 0.30
 
 
 },
@@ -23130,8 +23144,8 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Katy Perry - Chained To The Rhythm.mp3",
     timeCategory: "f evening-late",
-playcount: 0
-   
+playcount: 0,
+     volumeBoost: 0.40
 
 
 },

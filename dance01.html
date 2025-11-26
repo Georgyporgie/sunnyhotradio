@@ -896,6 +896,22 @@ window.addEventListener('load', () => {
 <script>
    
 
+function quarterCheck() {
+  const now = new Date();
+  if (now.getSeconds() === 0 && now.getMinutes() % 15 === 0) {
+    // Visual
+    ejectStars();
+    // Audio
+    const audioEl = document.getElementById("quarterHourSou");
+    if (audioEl) {
+      audioEl.currentTime = 0;
+      audioEl.play();
+    }
+  }
+}
+
+// Run every second
+setInterval(quarterCheck, 1000);
 
 
 
@@ -2242,5 +2258,4 @@ if (btn && menu) {
 
 </body>
 </html>
-
 
