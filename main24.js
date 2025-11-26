@@ -6644,7 +6644,10 @@ timeCategory: "afternoon",
     artist: "Narada Michael Walden  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Narada Michael Walden - Tonight I Am Allright.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+     quickFade: true,
+    volumeBoost: 0.75,
+    playcount: 0
 },
 
 
@@ -6664,7 +6667,7 @@ timeCategory: "afternoon",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Deeelite - What Is Love.mp3",
      timeCategory: "afternoon",
-volumeBoost: 0.15
+volumeBoost: 0.35
 },
 
 
@@ -12950,8 +12953,9 @@ volumeBoost: 0.40,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Cheri -Murphys Law.mp3",
     timeCategory: "evening",
- quickFade: true
-
+    quickFade: true,
+     volumeBoost: 0.25,
+    playcount: 0
 },
 
 {
@@ -18496,7 +18500,10 @@ playcount: 0
     artist: "Jamiroquaii",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Jamiroquaii - Allright.mp3",
-   timeCategory: "evening-late"
+   timeCategory: "evening-late",
+     quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
 },
 
 
