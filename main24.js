@@ -1994,7 +1994,7 @@ timeCategory: "morning",
     path: "muziek/oldies07/La Velle - Playgirl.mp3",
     playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.55
+  volumeBoost: 0.75
 
 },
 
@@ -2781,10 +2781,11 @@ volumeBoost: 0.20
     artist: "Skipworth & Turner ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Skipworth & Turner - Thinkin' about your love.mp3",
-  volumeBoost: 0.25,
-
-
-    timeCategory: "morning"
+  timeCategory: "morning",
+volumeBoost: 0.30,
+playcount: 0,
+quickFade: true
+    
 
 
 },
@@ -3180,7 +3181,10 @@ volumeBoost: 0.45
     artist: "NU Shooz ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Let op.mp3",
-         timeCategory: "morning"
+         timeCategory: "morning",
+     quickFade: true,
+    volumeBoost: 0.55,
+    playcount: 0
 },
 
 
@@ -3427,7 +3431,9 @@ volumeBoost: 0.30
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Daft Punk - Get Lucky.mp3",
            timeCategory: "morning",
-  volumeBoost: 0.15
+    quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
 },
 
 {
@@ -6936,7 +6942,10 @@ volumeBoost: 0.15
     artist: "NU Shooz ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/NU Shooz - I Can't Wait.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+     quickFade: true,
+    volumeBoost: 0.55,
+    playcount: 0
 },
 
 
@@ -7309,25 +7318,89 @@ quickFade: true
 
 
 
+{
+     name: " Better Of Alone (1998) ",
+    artist: "Alice Deejay ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Alice Deejay - Better Of Alone (1998).mp3",
+    timeCategory: "afternoon",
+   playcount: 0,
+   quickfade: true,
+   volumeBoost: 0.10
+
+},
 
 
 
 
 
 
+{
+     name: " Insomnia (1995) ",
+    artist: "Faithless ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Faithless - Insomnia (1995).mp3",
+    timeCategory: "afternoon",
+   quickfade: true,
+playcount: 0
+   
+
+
+},
+
+
+{
+     name: " Chained To The Rhythm  ",
+    artist: "Katy Perry ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Katy Perry - Chained To The Rhythm.mp3",
+    timeCategory: "afternoon",
+playcount: 0
+   
+
+
+},
 
 
 
 
 
+{
+     name: "  Take Over (new)",
+    artist: "Rihanna ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Rihanna - Take Over (new).mp3",
+    timeCategory: "afternoon",
+playcount: 0
+   
 
 
+},
+
+{
+     name: "  Nobody's Girl (new)",
+    artist: "Tate McRae ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Tate McRae - Nobody's Girl (new).mp3",
+    timeCategory: "afternoon",
+playcount: 0
+   
 
 
+},
 
 
+{
+     name: "  Bring Me To Life",
+    artist: "Tiesto  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Tiesto - Bring Me To Life.mp3",
+    timeCategory: "afternoon",
+playcount: 0
+   
 
 
+},
 
 
 
@@ -7391,8 +7464,11 @@ quickFade: true
     artist: "Barbara Mason",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Barbara Mason - Another Man.mp3",
-   timeCategory: "afternoon"
- },
+   timeCategory: "afternoon",
+      quickFade: true,
+    volumeBoost: 0.15,
+    playcount: 0
+},
 
 
 {
@@ -8983,7 +9059,7 @@ volumeBoost: 0.50
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://soulfullforever.netlify.app/Rose Royce Still in love.mp3",
          timeCategory: "evening",
-  volumeBoost: 0.30,
+  volumeBoost: 0.50,
 quickFade: true
 },
 
@@ -9907,7 +9983,8 @@ quickFade: true,
     artist: "Cannons ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Cannons - Desire.mp3",
-       timeCategory: "evening"
+       timeCategory: "evening",
+  quickFade: true
 },
 
 
@@ -10268,7 +10345,7 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Gat Decor - Passion.mp3",
     timeCategory: "evening",
-    volumeBoost: 0.55,
+    volumeBoost: 0.85,
     playcount: 0
 },
 
@@ -11185,8 +11262,8 @@ volumeBoost: 0.25
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Fierce Ruling Diva - Rubb It In.mp3",
       playcount: 0,
-timeCategory: "evening"
-
+timeCategory: "evening",
+volumeBoost: 0.20
 },
 
 
@@ -11581,7 +11658,11 @@ volumeBoost: 0.10
     artist: "Bizarre Inc. ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Bizarre Inc. - I'm Gonna Get You.mp3",
-      timeCategory: "evening"
+      quickFade: true,
+playcount: 0,
+timeCategory: "evening",
+ volumeBoost: 0.15,
+
 },
 
 
@@ -12495,10 +12576,9 @@ volumeBoost: 0.25
     artist: "Quadrophonia",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Quadrophonia - Quadrophonia (original).mp3",
-  
-
-
-      timeCategory: "evening"
+    timeCategory: "evening",
+volumeBoost: 0.50,
+  playcount: 0
 },
 
 
@@ -12935,7 +13015,9 @@ volumeBoost: 0.40,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Change - Miracles.mp3",
       timeCategory: "evening",
-  volumeBoost: 0.25
+     quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
 },
 
 
@@ -14828,8 +14910,9 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Skipworth & Turner - Thinkin' about your love.mp3",
   timeCategory: "evening-late",
-volumeBoost: 0.30
-
+volumeBoost: 0.30,
+ playcount: 0,
+quickFade: true
 },
 
 
@@ -14952,14 +15035,14 @@ quickFade: true
 
 
 {
-    name: "    Seven Stars",
+    name: "    Seven Stars (1990)",
     artist: "Quazar ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Quazar - Seven Stars.mp3",
-  
-
-  timeCategory: "evening-late",
-  volumeBoost: 0.25
+    timeCategory: "evening-late",
+     quickFade: true,
+    volumeBoost: 0.15,
+    playcount: 0
 },
 
 
@@ -16781,10 +16864,10 @@ volumeBoost:0.45
     artist: "Doja Cat",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Doja Cat - Like That.mp3",
-      timeCategory: "evening"
+      timeCategory: "evening",
+quickFade: true,
+ playcount: 0
 },
-
-
 
 
 
@@ -19070,6 +19153,58 @@ quickFade: true
 
 
 
+{
+     name: " Chained To The Rhythm  ",
+    artist: "Katy Perry ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Katy Perry - Chained To The Rhythm.mp3",
+    timeCategory: " evening-late",
+playcount: 0
+   
+
+
+},
+
+
+
+
+
+{
+     name: "  Take Over (new)",
+    artist: "Rihanna ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Rihanna - Take Over (new).mp3",
+    timeCategory: " evening-late",
+playcount: 0
+   
+
+
+},
+
+{
+     name: "  Nobody's Girl (new)",
+    artist: "Tate McRae ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Tate McRae - Nobody's Girl (new).mp3",
+    timeCategory: "evening-late",
+playcount: 0
+   
+
+
+},
+
+
+{
+     name: "  Bring Me To Life",
+    artist: "Tiesto  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Tiesto - Bring Me To Life.mp3",
+    timeCategory: " evening-late",
+playcount: 0
+   
+
+
+},
 
 
 
@@ -19381,7 +19516,9 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Daft Punk - Get Lucky.mp3",
   timeCategory: "evening-late",
- volumeBoost: 0.15
+     quickFade: true,
+    volumeBoost: 0.15,
+    playcount: 0
 },
 
 
@@ -19547,7 +19684,58 @@ quickFade: true
 
 
 
+{
+     name: " Chained To The Rhythm  ",
+    artist: "Katy Perry ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Katy Perry - Chained To The Rhythm.mp3",
+    timeCategory: "f afternoon",
+playcount: 0
+   
 
+
+},
+
+
+
+
+
+{
+     name: "  Take Over (new)",
+    artist: "Rihanna ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Rihanna - Take Over (new).mp3",
+    timeCategory: "f afternoon",
+playcount: 0
+   
+
+
+},
+
+{
+     name: "  Nobody's Girl (new)",
+    artist: "Tate McRae ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Tate McRae - Nobody's Girl (new).mp3",
+    timeCategory: "f afternoon",
+playcount: 0
+   
+
+
+},
+
+
+{
+     name: "  Bring Me To Life",
+    artist: "Tiesto  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Tiesto - Bring Me To Life.mp3",
+    timeCategory: "f afternoon",
+playcount: 0
+   
+
+
+},
 
 
 
@@ -19835,7 +20023,7 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/La Velle - Playgirl.mp3",
       timeCategory: "f afternoon",
-  volumeBoost: 0.55
+  volumeBoost: 0.75
 
 },
 
@@ -20543,10 +20731,10 @@ quickFade: true
     artist: "Quazar ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Quazar - Seven Stars.mp3",
-  
-
-  timeCategory: "f afternoon",
-  volumeBoost: 0.15
+    timeCategory: "f afternoon",
+     quickFade: true,
+    volumeBoost: 0.15,
+    playcount: 0
 },
 
 
@@ -21287,7 +21475,8 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/KID - Don't Stop.mp3",
    timeCategory: "f evening",
-  volumeBoost: 0.25
+   volumeBoost: 0.25,
+   playcount: 0
 },
 
 
@@ -22935,6 +23124,58 @@ quickFade: true
 
 
 
+{
+     name: " Chained To The Rhythm  ",
+    artist: "Katy Perry ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Katy Perry - Chained To The Rhythm.mp3",
+    timeCategory: "f evening-late",
+playcount: 0
+   
+
+
+},
+
+
+
+
+
+{
+     name: "  Take Over (new)",
+    artist: "Rihanna ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Rihanna - Take Over (new).mp3",
+    timeCategory: "f evening-late",
+playcount: 0
+   
+
+
+},
+
+{
+     name: "  Nobody's Girl (new)",
+    artist: "Tate McRae ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Tate McRae - Nobody's Girl (new).mp3",
+    timeCategory: "f evening-late",
+playcount: 0
+   
+
+
+},
+
+
+{
+     name: "  Bring Me To Life",
+    artist: "Tiesto  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Tiesto - Bring Me To Life.mp3",
+    timeCategory: "f evening-late",
+playcount: 0
+   
+
+
+},
 
 
 
