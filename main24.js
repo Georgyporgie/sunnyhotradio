@@ -4957,7 +4957,9 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Dua Lipa - Toxic Love.mp3",
            timeCategory: "afternoon",
-  playcount: 0
+      quickFade: true,
+    volumeBoost: 0.15,
+    playcount: 0
 },
 
 
@@ -5155,15 +5157,7 @@ volumeBoost: 0.10
 
 
 
-{
-    name: "MK  (12inch) ",
-    artist: " Dior ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/MK - Dior (12inch).mp3",
-    timeCategory: "afternoon",
-    volumeBoost: 0.15,
-    playcount: 0
-},
+
 
 
 
@@ -9923,7 +9917,9 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://soulfullforever.netlify.app/Young & Company - I Like (single).mp3",
         timeCategory: "evening",
-  volumeBoost: 0.30
+   quickFade: true,
+    volumeBoost: 0.65,
+    playcount: 0
 },
 
 
@@ -11316,8 +11312,7 @@ volumeBoost: 0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Bizarre Inc - Raise Me.mp3",
     timeCategory: "evening",
-  volumeBoost: 0.10,
-  quickFade: true
+    quickFade: true
 },
 
 
@@ -11341,7 +11336,7 @@ volumeBoost: 0.20
     path: "https://danceoldies06.netlify.app/Bizarre Inc - X Static.mp3",
     timeCategory: "evening",
   quickFade: true,
-    volumeBoost: 0.20,
+    volumeBoost: 0.30,
     playcount: 0
 },
 
@@ -12075,8 +12070,10 @@ volumeBoost: 0.10
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Snap - The Power.mp3",
       timeCategory: "evening",
-volumeBoost: 0.20
-}, 
+     quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
+},
 
 
 
@@ -15246,11 +15243,14 @@ volumeBoost:0.10
     artist: "Full Flava",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Full Flava - Fall.mp3",
-  
-
-
+       quickFade: true,
+    volumeBoost: 0.15,
+    playcount: 0,
   timeCategory: "evening-late"
 },
+
+
+
 
 {
     name: "   Murder On The Dancefloor  ",
