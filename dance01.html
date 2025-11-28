@@ -896,22 +896,7 @@ window.addEventListener('load', () => {
 <script>
    
 
-function quarterCheck() {
-  const now = new Date();
-  if (now.getSeconds() === 0 && now.getMinutes() % 15 === 0) {
-    // Visual
-    ejectStars();
-    // Audio
-    const audioEl = document.getElementById("quarterHourSou");
-    if (audioEl) {
-      audioEl.currentTime = 0;
-      audioEl.play();
-    }
-  }
-}
 
-// Run every second
-setInterval(quarterCheck, 1000);
 
 
 
@@ -1885,22 +1870,22 @@ function fisherYatesShuffle(array) {
 // ── Reset Ceremony ──
 function resetPlayCountsCeremony(threshold = 5) {
   // Guard: if no tracks, exit early
-  if (!track_list.length) return;
+  if (!trackList.length) return;
 
-  const allAboveThreshold = track_list.every(t => t.playCount >= threshold);
+  const allAboveThreshold = trackList.every(t => t.playCount >= threshold);
 
   if (allAboveThreshold) {
     console.log("🔄 Ceremony: All tracks exceeded", threshold, "plays. Resetting counts at", new Date().toLocaleTimeString());
 
     // Reset playcounts
-    track_list.forEach(t => {
+    trackList.forEach(t => {
       t.playCount = 0;
     });
 
     // Shuffle the playlist after reset
-    track_list = fisherYatesShuffle(track_list);
+    trackList = fisherYatesShuffle(trackList);
 
-    console.log("✨ Playlist reborn:", track_list.map(t => t.name));
+    console.log("✨ Playlist reborn:", trackList.map(t => t.name));
   }
 }
 
@@ -1913,8 +1898,8 @@ function scheduleMidnightReset() {
 
   setTimeout(() => {
     console.log("🌅 Dawn reset ceremony at", new Date().toLocaleTimeString());
-    track_list.forEach(t => (t.playCount = 0));
-    console.log("✨ Playlist reborn:", track_list.map(t => t.name));
+    trackList.forEach(t => (t.playCount = 0));
+    console.log("✨ Playlist reborn:", trackList.map(t => t.name));
 
     // Reschedule for next midnight
     scheduleMidnightReset();
@@ -1922,7 +1907,7 @@ function scheduleMidnightReset() {
 }
 
 // ── Startup ──
-initializePlayCounts(track_list);
+initializePlayCounts(trackList);
 scheduleMidnightReset();
 
 </script>
@@ -1931,15 +1916,15 @@ scheduleMidnightReset();
 <script>
 // ── Soft Decay Ceremony ──
 function decayPlayCounts(decayRate = 0.9) {
-  if (!track_list.length) return;
+  if (!trackList.length) return;
 
-  track_list.forEach(t => {
+  trackList.forEach(t => {
     t.playCount = Math.floor(t.playCount * decayRate);
   });
 
   console.log("🌙 Soft decay applied at", new Date().toLocaleTimeString(),
               "| Decay rate:", decayRate,
-              "| Counts:", track_list.map(t => t.playCount));
+              "| Counts:", trackList.map(t => t.playCount));
 }
 
 // ── Gentle Hourly Decay ──

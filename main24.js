@@ -530,7 +530,9 @@ volumeBoost:0.50
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur01.mp3",
     timeCategory: "special-cast",
-volumeBoost:0.70
+     quickFade: true,
+    volumeBoost: 0.95,
+    playcount: 0
 },
 
 
@@ -540,7 +542,9 @@ volumeBoost:0.70
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur02.mp3",
     timeCategory: "special-cast",
-volumeBoost:0.70
+     quickFade: true,
+    volumeBoost: 0.95,
+    playcount: 0
 },
 
 
@@ -550,7 +554,9 @@ volumeBoost:0.70
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur03.mp3",
     timeCategory: "special-cast",
-volumeBoost:0.70
+     quickFade: true,
+    volumeBoost: 0.95,
+    playcount: 0
 },
 
 
@@ -560,7 +566,9 @@ volumeBoost:0.70
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur05.mp3",
     timeCategory: "special-cast",
-volumeBoost:0.70
+     quickFade: true,
+    volumeBoost: 0.95,
+    playcount: 0
 },
 
 
@@ -572,7 +580,9 @@ volumeBoost:0.70
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur06.mp3",
     timeCategory: "special-cast",
-volumeBoost:0.70
+     quickFade: true,
+    volumeBoost: 0.95,
+    playcount: 0
 },
 
 
@@ -6031,7 +6041,9 @@ quickFade: true
     artist: "Nick Straker ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Nick Straker Band - A walk in the park 7inch.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+    quickFade: true,
+    playcount: 0
 },
 
 
@@ -6595,7 +6607,7 @@ volumeBoost: 0.30
     path: "https://sunnydanceoldies09.netlify.app/Geraldine Hunt - Can t Fake The Feeling.mp3",
     timeCategory: "afternoon",
      quickFade: true,
-    volumeBoost: 0.85,
+    volumeBoost: 0.95,
     playcount: 0
 },
 
@@ -7326,8 +7338,8 @@ quickFade: true
     path: "https://dancemusic09.netlify.app/Alice Deejay - Better Of Alone (1998).mp3",
     timeCategory: "afternoon",
    playcount: 0,
-   quickfade: true,
-   volumeBoost: 0.10
+   quickfade: true
+   
 
 },
 
@@ -7392,7 +7404,7 @@ playcount: 0
 
 
 {
-     name: "  Bring Me To Life",
+     name: "  Bring Me To Life (new)",
     artist: "Tiesto  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Tiesto - Bring Me To Life.mp3",
@@ -8924,7 +8936,7 @@ quickFade: true
     path: "https://sunnydanceoldies09.netlify.app/Geraldine Hunt - Can t Fake The Feeling.mp3",
     timeCategory: "afternoon",
      quickFade: true,
-    volumeBoost: 0.85,
+    volumeBoost: 0.95,
     playcount: 0
 },
 
@@ -19216,7 +19228,7 @@ playcount: 0
 
 
 {
-     name: "  Bring Me To Life",
+     name: "  Bring Me To Life (new)",
     artist: "Tiesto  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Tiesto - Bring Me To Life.mp3",
@@ -19747,7 +19759,7 @@ playcount: 0
 
 
 {
-     name: "  Bring Me To Life",
+     name: "  Bring Me To Life (new)",
     artist: "Tiesto  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Tiesto - Bring Me To Life.mp3",
@@ -22736,7 +22748,7 @@ volumeBoost: 0.70,
     path: "https://dancemusic09.netlify.app/Dua Lipa - Toxic Love.mp3",
            timeCategory: "f evening-late",
   playcount: 0,
-volumeBoost: 0.25
+volumeBoost: 0.15
 
 },
 
@@ -23121,13 +23133,6 @@ volumeBoost: 0.40
 },
 
 
-{
-    name: "MK  (12inch) ",
-    artist: " Dior ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/MK - Dior (12inch).mp3",
-       timeCategory: "f evening-late"
-},
 
 
 
@@ -23187,7 +23192,7 @@ playcount: 0
 
 
 {
-     name: "  Bring Me To Life",
+     name: "  Bring Me To Life (new)",
     artist: "Tiesto  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Tiesto - Bring Me To Life.mp3",
