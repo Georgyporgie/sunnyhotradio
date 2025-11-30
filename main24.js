@@ -524,67 +524,6 @@ volumeBoost:0.50
 
 
 
-{
-     name: " Farce Majeur  ",
-    artist: "Trance Classics ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur01.mp3",
-    timeCategory: "special-cast",
-     quickFade: true,
-    volumeBoost: 0.95,
-    playcount: 0
-},
-
-
-{
-     name: " Farce Majeur  ",
-    artist: "Trance Classics ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur02.mp3",
-    timeCategory: "special-cast",
-     quickFade: true,
-    volumeBoost: 0.95,
-    playcount: 0
-},
-
-
-{
-     name: " Farce Majeur  ",
-    artist: "Trance Classics ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur03.mp3",
-    timeCategory: "special-cast",
-     quickFade: true,
-    volumeBoost: 0.95,
-    playcount: 0
-},
-
-
-{
-     name: " Farce Majeur  ",
-    artist: "Trance Classics ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur05.mp3",
-    timeCategory: "special-cast",
-     quickFade: true,
-    volumeBoost: 0.95,
-    playcount: 0
-},
-
-
-
-
-{
-     name: " Farce Majeur  ",
-    artist: "Trance Classics ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur06.mp3",
-    timeCategory: "special-cast",
-     quickFade: true,
-    volumeBoost: 0.95,
-    playcount: 0
-},
-
 
 
 
@@ -2127,7 +2066,7 @@ timeCategory: "morning",
     path: "muziek/oldies07/RUN DMC - It's Like That.mp3",
    playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.20
+  volumeBoost: 0.40
 
 },
 
@@ -2176,7 +2115,7 @@ timeCategory: "morning",
     path: "https://sunnydanceoldies05.netlify.app/Lime - Your Love.mp3",
      playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.35
+  volumeBoost: 0.55
 
 },
 
@@ -4993,7 +4932,9 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Jessie J -  HAPPY.mp3",
            timeCategory: "afternoon",
-  playcount: 0
+   quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
 },
 
 
@@ -7384,8 +7325,9 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Rihanna - Take Over (new).mp3",
     timeCategory: "afternoon",
-playcount: 0
-   
+    quickFade: true,
+    playcount: 0,
+    volumeBoost: 0.40 
 
 
 },
@@ -13547,7 +13489,7 @@ quickFade: true
     path: "https://sunnydancemusic07.netlify.app/Donna Summer - I Feel Love (revisit mix).mp3",
     timeCategory: "evening-late",
     quickFade: true,
-volumeBoost: 0.25
+volumeBoost: 0.65
 },
 
 
@@ -19840,8 +19782,12 @@ playcount: 0
     artist: "Heavy D & The Boyz ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Heavy D & The Boyz - We Got Our Own Thang.mp3",
-      timeCategory: "f afternoon"
- },
+      timeCategory: "f afternoon",
+    quickFade: true,
+    playcount: 0,
+    volumeBoost: 0.55
+},
+
 
 {
     name: " Gorgeous (new)",
@@ -20943,8 +20889,9 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Buffalo Stance - Neneh Cherry.mp3",
     timeCategory: "f afternoon",
-    quickFade: true,
-  volumeBoost: 0.35
+     quickFade: true,
+    volumeBoost: 0.65,
+    playcount: 0
 },
 
 
@@ -21537,7 +21484,7 @@ quickFade: true,
      image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Donna Summer - I Feel Love (revisit mix).mp3",
     timeCategory: "f evening",
-  volumeBoost: 0.25
+  volumeBoost: 0.65
 
 },
 
@@ -21967,9 +21914,28 @@ quickFade: true,
 
 
 
+{
+    name: "Turn The Music Up!",
+    artist: "Players Association ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Players Association - Turn The Music Up!.mp3",
+    timeCategory: "f evening",
+    quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
+},
 
 
-
+{
+    name: " Fantastic Voyage",
+    artist: "Lakeside  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Lakeside - Fantastic Voyage.mp3",
+    timeCategory: "f evening",
+    quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
+},
 
 
 {
@@ -21990,8 +21956,8 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/RUN DMC - It's Like That.mp3",
      timeCategory: "f evening",
-  volumeBoost: 0.15
-
+  volumeBoost: 0.45,
+    playcount: 0
 
 },
 
@@ -22046,13 +22012,13 @@ quickFade: true,
 
 
 {
-    name: "  Your Love",
+    name: "  Your Love (1981)",
     artist: "Lime ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Lime - Your Love.mp3",
-       timeCategory: "f evening",
-  volumeBoost: 0.25
-
+    timeCategory: "f evening",
+    playcount: 0,
+    volumeBoost: 0.50
 
 },
 
@@ -22190,7 +22156,9 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Jessie J -  HAPPY.mp3",
            timeCategory: "f evening",
-  playcount: 0
+   quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
 },
 
 
@@ -22722,7 +22690,7 @@ volumeBoost: 0.70,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Rick James - You and I.mp3",
    timeCategory: "f evening-late",
-   volumeBoost: 0.35,
+   volumeBoost: 0.55,
    quickFade: true,
    playcount: 0
 },
@@ -22774,7 +22742,9 @@ volumeBoost: 0.15
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Jessie J -  HAPPY.mp3",
            timeCategory: "f evening-late",
-  playcount: 0
+   quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
 },
 
 
@@ -23011,12 +22981,14 @@ volumeBoost: 0.40
 
 
 {
-    name: " Is This The Future",
+    name: " Is This The Future (1985)",
     artist: "Fatback ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Fatback - Is This the Future.mp3",
     timeCategory: "f evening-late",
-  volumeBoost: 0.55
+     quickFade: true,
+    volumeBoost: 0.70,
+    playcount: 0
 },
 
 
