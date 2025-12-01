@@ -8855,6 +8855,38 @@ quickFade: true
 
 
 
+{
+     name: " Try It Out",
+    artist: "Gino Soccio ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Gino Soccio - Try It Out (maxi).mp3",
+    timeCategory: "afternoon",
+     quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
+},
+
+
+
+
+{
+     name: " Don t Stop Till",
+    artist: "Michael Jackson ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Michael Jackson - Don t Stop Till.mp3",
+    timeCategory: "afternoon",
+   quickFade: true,
+   playcount: 0
+},
+
+
+
+
+
+
+
+
+
 
 
 
@@ -9082,6 +9114,41 @@ volumeBoost: 0.50
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Minellli & Inna - In Love.mp3",
     timeCategory: "evening"
+},
+
+
+
+
+{
+     name: "   Hands On Me ",
+    artist: "Dua Lipa",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Dua Lipa - Hands On Me.mp3",
+    timeCategory: "evening",
+    volumeBoost: 0.15,
+    playcount: 0
+},
+
+
+{
+     name: "  In Love Again ",
+    artist: "Dua Lipa",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Dua Lipa - In Love Again.mp3",
+    timeCategory: "evening",
+    volumeBoost: 0.15,
+    playcount: 0
+},
+
+
+{
+     name: "   Pour Toi",
+    artist: "Dua Lipa",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Dua Lipa - Pour Toi.mp3",
+    timeCategory: "evening",
+    volumeBoost: 0.15,
+    playcount: 0
 },
 
 
@@ -14535,9 +14602,10 @@ volumeBoost: 0.25
     name: " Girls On My Mind (1985) ",
     artist: "Fatback ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Fatback - Girls On My Mind.mp3",
-  timeCategory: "evening-late",
-volumeBoost:0.30 
+   path: "https://sunnydanceoldies08.netlify.app/Fatback - Girls On My Mind.mp3",
+   timeCategory: "evening-late",
+    volumeBoost: 0.55,
+    playcount: 0
 },
 
 
@@ -14668,7 +14736,9 @@ volumeBoost:0.40
     artist: "D-Shake",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/D-Shake - Techno Trance Yaaah.mp3",
-      timeCategory: "evening-late"
+    timeCategory: "evening-late",
+    volumeBoost: 0.45,
+    playcount: 0
 },
 
 
@@ -14821,8 +14891,10 @@ volumeBoost:0.40
     artist: "Lovedeluxe ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Lovedeluxe - Here Comes That Sound.mp3",
-  timeCategory: "evening-late"
-
+    timeCategory: "evening-late",
+    quickFade: true,
+    volumeBoost: 0.75,
+    playcount: 0
 },
 
 
@@ -15337,7 +15409,9 @@ volumeBoost:0.10
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Shaggy - Boombastic.mp3",
    timeCategory: "evening-late",
-volumeBoost: 0.30
+   quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
 },
 
 
@@ -18309,7 +18383,9 @@ playcount: 0
     artist: "How & Little ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/How & Little - Why Can't We Start Again.mp3",
-   timeCategory: "evening-late"
+   timeCategory: "evening-late",
+    volumeBoost: 0.25,
+    playcount: 0
 },
 
 
@@ -22833,7 +22909,7 @@ volumeBoost: 0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Stargard - What you waiting for.mp3",
    timeCategory: "f evening-late",
-  volumeBoost: 0.25,
+  volumeBoost: 0.35,
  playcount: 0
 },
 
