@@ -8178,7 +8178,7 @@ volumeBoost:  0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Mtume - Juicy Fruit.mp3",
   quickFade: true,
-volumeBoost: 0.70,
+volumeBoost: 0.80,
 
    timeCategory: "afternoon"
 },
@@ -11344,8 +11344,11 @@ volumeBoost: 0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Madonna - Borderline.mp3",
     timeCategory: "evening",
-  volumeBoost: 0.20
+     quickFade: true,
+    volumeBoost: 0.15,
+    playcount: 0
 },
+
 
 
 
@@ -12322,10 +12325,12 @@ volumeBoost: 0.10
     artist: "Chemise ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Chemise - She Can't Love You.mp3",
-     timeCategory: "evening",
-  playcount: 0,
-volumeBoost: 0.10
+    timeCategory: "evening",
+    quickFade: true,
+    volumeBoost: 0.15,
+    playcount: 0
 },
+
 
 
 
@@ -19678,7 +19683,9 @@ playcount: 0
     artist: "Miley Cyrus & Bebe Rexha  ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Miley Cyrus & Bebe Rexha- Blue.mp3",
-  timeCategory: "afternoon"
+  timeCategory: "afternoon",
+    volumeBoost: 0.45,
+    playcount: 0
 },
 
 
@@ -23900,7 +23907,56 @@ function getTimeBasedVolume() {
 
 
 
+// 🌊 Fade OUT old track (non-blocking)
+function crossfadeFadeOut(audio, duration = 2000) {
+  if (!audio) return;
+  const startVolume = audio.volume;
+  const steps = 30;
+  const stepTime = duration / steps;
+  let step = 0;
+
+  const fade = setInterval(() => {
+    step++;
+    const progress = step / steps;
+    const eased = 1 - Math.pow(1 - progress, 3);
+    audio.volume = startVolume * (1 - eased);
+
+    if (step >= steps) {
+      clearInterval(fade);
+      audio.pause();
+      audio.volume = startVolume; // reset for next use
+    }
+  }, stepTime);
+}
+
+// 🌅 Fade IN new track
+function crossfadeFadeIn(audio, targetVolume = 1, duration = 2000) {
+  audio.volume = 0;
+  const steps = 30;
+  const stepTime = duration / steps;
+  let step = 0;
+
+  const fade = setInterval(() => {
+    step++;
+    const progress = step / steps;
+    const eased = 1 - Math.pow(1 - progress, 3);
+    audio.volume = targetVolume * eased;
+
+    if (step >= steps) {
+      clearInterval(fade);
+      audio.volume = targetVolume;
+    }
+  }, stepTime);
+}
+
+
+
+
+
+
+// ✅ CROSSFADE‑ENABLED LOADTRACK
 let currentTrackIndex = null;
+let curr_track = null;
 
 function loadTrack(index) {
   const track = scheduledMp3Files[index];
@@ -23910,21 +23966,46 @@ function loadTrack(index) {
     return;
   }
 
-  curr_track = new Audio(track.path);
+  // ✅ CROSSFADE LOGIC
+  const oldTrack = curr_track;
+  const shouldCrossfade = track.quickFade === true;
+
+  // Create new track
+  const newTrack = new Audio(track.path);
 
   // 🔊 Volume logic with safe boost handling
   const base = Number(getTimeBasedVolume());
-  const boostRaw = track.volumeBoost;               // could be undefined, string, number
-  const boost = Number(boostRaw);                   // coerce to number
-  const boostSafe = Number.isFinite(boost) ? boost : 0;  // default to 0 if NaN/undefined
+  const boostRaw = track.volumeBoost;
+  const boost = Number(boostRaw);
+  const boostSafe = Number.isFinite(boost) ? boost : 0;
 
   let finalVolume = base + boostSafe;
-  if (!Number.isFinite(finalVolume)) finalVolume = base; // fallback
-  finalVolume = Math.max(0, Math.min(1, finalVolume));   // clamp to [0,1]
+  if (!Number.isFinite(finalVolume)) finalVolume = base;
+  finalVolume = Math.max(0, Math.min(1, finalVolume));
 
-  curr_track.volume = finalVolume;
-  console.log(`🔊 Volume set: base=${base}, boost=${boostSafe}, final=${finalVolume}`);
+  // ✅ CROSSFADE if allowed
+  if (oldTrack && !oldTrack.paused && shouldCrossfade) {
+    console.log("🎚️ Crossfading from old track to new track...");
 
+    newTrack.volume = 0;
+    try {
+      newTrack.play();
+      crossfadeFadeIn(newTrack, finalVolume, 2000);
+      crossfadeFadeOut(oldTrack, 2000);
+    } catch (err) {
+      console.warn("Autoplay blocked:", err);
+      newTrack.volume = finalVolume;
+    }
+  } else {
+    // ✅ Normal behavior
+    newTrack.volume = finalVolume;
+  }
+
+  curr_track = newTrack; // ✅ update global reference
+
+  console.log("Loading track:", track.path);
+
+  // ✅ Metadata fade scheduling
   curr_track.addEventListener("loadedmetadata", () => {
     const duration = curr_track.duration;
     console.log("📀 Metadata loaded for:", track.name);
@@ -23933,12 +24014,12 @@ function loadTrack(index) {
     let fadeTime, fadeStart;
 
     if (track.quickFade) {
-      fadeTime = track.fadeLength || 1500;   
+      fadeTime = track.fadeLength || 1500;
       const buffer = track.endBuffer || 0;
       fadeStart = (duration * 1000) - (fadeTime + buffer);
       console.log(`⚡ Quick fade: ${fadeTime/1000}s, leaving ${buffer/1000}s buffer`);
     } else if (duration > 180) {
-      fadeTime = 2000;  
+      fadeTime = 2000;
       fadeStart = (duration * 1000) - fadeTime;
       console.log("⏱️ Standard fade for track >3min");
     } else {
@@ -23952,7 +24033,7 @@ function loadTrack(index) {
     }
   });
 
-  // Smooth fade-out with ease-out curve
+  // ✅ Smooth fade-out (existing)
   function fadeOut(audio, duration, targetVolume = 0) {
     const startVolume = audio.volume;
     const steps = 30;
@@ -23962,7 +24043,7 @@ function loadTrack(index) {
     const fade = setInterval(() => {
       currentStep++;
       const progress = currentStep / steps;
-      const eased = 1 - Math.pow(1 - progress, 3); // ease-out
+      const eased = 1 - Math.pow(1 - progress, 3);
       audio.volume = startVolume - (startVolume - targetVolume) * eased;
 
       if (currentStep >= steps) {
@@ -23972,123 +24053,49 @@ function loadTrack(index) {
     }, stepTime);
   }
 
-  // Optional: matching fade-in
-  function fadeIn(audio, duration, targetVolume = 1.0) {
-    const startVolume = audio.volume;
-    const steps = 30;
-    const stepTime = duration / steps;
-    let currentStep = 0;
-
-    const fade = setInterval(() => {
-      currentStep++;
-      const progress = currentStep / steps;
-      const eased = 1 - Math.pow(1 - progress, 3); // ease-out
-      audio.volume = startVolume + (targetVolume - startVolume) * eased;
-
-      if (currentStep >= steps) {
-        clearInterval(fade);
-        audio.volume = targetVolume;
-      }
-    }, stepTime);
-  }
-
+  // ✅ Playcount ritual
   curr_track.addEventListener("play", () => {
     track.playcount = Number(track.playcount) || 0;
     track.playcount++;
-    console.log(
-      "🎧 Playcount updated:", track.name,
-      "| Total plays:", computeTotalPlays()
-    );
+    console.log("🎧 Playcount updated:", track.name, "| Total plays:", computeTotalPlays());
   });
 
-  // ✅ Ensure `curr_track` exists before proceeding
-  if (!curr_track) {
-    console.error("Error: `curr_track` is undefined!");
-    return;
-  }
-
-  console.log("Loading track:", scheduledMp3Files[index].path);
-
-  // ✅ Update track details
-  track_art.style.backgroundImage = "url(" + scheduledMp3Files[index].image + ")";
-  track_name.textContent = scheduledMp3Files[index].name;
-  track_artist.textContent = scheduledMp3Files[index].artist;
+  // ✅ UI updates
+  track_art.style.backgroundImage = "url(" + track.image + ")";
+  track_name.textContent = track.name;
+  track_artist.textContent = track.artist;
   now_playing.textContent = "PLAYING " + (index + 1) + " OF " + scheduledMp3Files.length;
 
-  // ✅ Ensure seek timer is reset
+  // ✅ Seek timer
   clearInterval(updateTimer);
   updateTimer = setInterval(seekUpdate, 1000);
 
-  // ✅ Move to next track when current finishes playing
+  // ✅ Next track
   curr_track.addEventListener("ended", nextTrack);
 
-  // ✅ Apply random background color
+  // ✅ Background color
   random_bg_color();
 
-  // ✅ Load track before applying event listeners
+  // ✅ Load track
   curr_track.load();
 
-  function incrementPlayCount(track) {
-    track.playcount = (track.playcount || 0) + 1;
-  }
-  incrementPlayCount(track);
-
+  // ✅ Highlight in playlist
   curr_track.addEventListener("canplay", () => {
     const allTracks = document.querySelectorAll('ul li');
-    if (!allTracks || allTracks.length === 0) {
-      console.warn("No track items found in DOM—did you forget to render them?");
-      return;
-    }
-    allTracks.forEach(track => track.classList.remove('blinking'));
+    if (!allTracks || allTracks.length === 0) return;
+
+    allTracks.forEach(t => t.classList.remove('blinking'));
     if (index >= 0 && index < allTracks.length) {
-      console.log("Highlighting track via autoplay:", allTracks[index]);
       allTracks[index].classList.add('blinking');
-    } else {
-      console.warn(`Track index ${index} is out of bounds for DOM tracks (${allTracks.length} items found).`);
     }
   });
 
-  // ✅ Ensure dynamic volume balancing applies after full load
+  // ✅ Dynamic volume balancing
   curr_track.addEventListener("canplaythrough", () => {
     console.log("✅ canplaythrough event fired—applying volume adjustment...");
     adjustVolumeDynamically(curr_track);
   });
 }
-
-// Sorting and rendering playcounts (unchanged)
-const sortedByPlaycount = [...scheduledMp3Files].sort((a, b) => b.playcount - a.playcount);
-console.log("Sorted by playcount:", sortedByPlaycount.map(t => `${t.name}: ${t.playcount}`));
-
-function renderSortedPlaycounts() {
-  const container = document.getElementById("track-list-container");
-  container.innerHTML = "";
-  sortedByPlaycount.forEach(track => {
-    const li = document.createElement("li");
-    li.textContent = `${track.name}: ${track.playcount || 0}`;
-    container.appendChild(li);
-  });
-}
-renderSortedPlaycounts();
-
-console.log("Playcount Order:", scheduledMp3Files.map(t => `${t.name}: ${t.playcount}`));
-console.log("Playcounts:", scheduledMp3Files.map(t =>
-  `${t.name}: ${typeof t.playcount === "number" ? t.playcount : 0}`
-));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
