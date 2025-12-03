@@ -6633,7 +6633,10 @@ volumeBoost: 0.35
     artist: "SOS Band ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/SOS Band - The Finest (DJ'S Remix).mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+   quickFade: true,
+    volumeBoost: 0.15,
+    playcount: 0
 },
 
 
@@ -7950,6 +7953,75 @@ volumeBoost: 0.25
 
 
 
+
+
+
+{
+    name: "   Inside Out ",
+    artist: "Odyssey",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Odyssey - Inside Out.mp3",
+  timeCategory: "afternoon",
+     quickFade: true,
+  volumeBoost: 0.40,
+    playcount: 0
+
+},
+
+
+
+{
+    name: "   What You Waiting For (maxi) ",
+    artist: "Stargard ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Stargard - What You Waiting For (maxi).mp3",
+  timeCategory: "afternoon",
+     quickFade: true,
+  volumeBoost: 0.60,
+    playcount: 0
+
+},
+
+
+{
+    name: "   Good Times  ",
+    artist: "Chic vs Sugarhill Gang ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Chic vs Sugarhill Gang - Good Times.mp3",
+  timeCategory: "afternoon",
+     quickFade: true,
+  volumeBoost: 0.30,
+    playcount: 0
+
+},
+
+
+
+
+{
+    name: " Last Night A DJ (maxi)",
+    artist: "InDeep ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/InDeep - Last Night A DJ (maxi).mp3",
+  timeCategory: "afternoon",
+     quickFade: true,
+  volumeBoost: 0.55,
+    playcount: 0
+
+},
+
+{
+    name: " Yah Mo B There",
+    artist: "James Ingram  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/James Ingram - Yah Mo B There.mp3",
+  timeCategory: "afternoon",
+     quickFade: true,
+  volumeBoost: 0.45,
+    playcount: 0
+
+},
+
  
 {
     name: "Just For You ",
@@ -9048,7 +9120,7 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://soulfullforever.netlify.app/Rose Royce Still in love.mp3",
          timeCategory: "evening",
-  volumeBoost: 0.50,
+  volumeBoost: 0.60,
 quickFade: true
 },
 
@@ -16143,7 +16215,7 @@ quickFade: true
     path: "https://dancemusic09.netlify.app/Gala - Freed From Desire (1996).mp3",
    timeCategory: "evening",
 playcount: 0,
-volumeBoost: 0.20
+volumeBoost: 0.40
 },
 
 
@@ -16375,13 +16447,7 @@ volumeBoost: 0.20
       timeCategory: "evening-late"
 },
 
-{
-    name: "    Nothing Left To Loose ",
-    artist: "Everything But The Girl  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Everything But The Girl - Nothing Left To Loose.mp3",
-    timeCategory: "evening"
-},
+
 
 
 
