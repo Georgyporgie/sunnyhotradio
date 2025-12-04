@@ -1070,33 +1070,33 @@ if (curr_track) {
 
 
 <script>
-// Schedule reloads for midnight, noon and 6pm
 function scheduleRangeSwap() {
   const now = new Date();
   const checkpoints = [];
 
-  // Midnight
-  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 1));
-  // Noon
-  
-checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 0, 1));
-  // 6pm
-  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 14, 0, 1));
-checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 16, 0, 1));
-checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 19, 0, 1));
-checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 21, 0, 1));
-  
+  // Midnight + 11 seconds
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 10));
 
-checkpoints.forEach(time => {
+  // Noon + 11 seconds
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 0, 10));
+
+  // 6pm + 11 seconds
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 18, 0, 10));
+
+  // Optional extras (9pm, etc.)
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 21, 0, 10));
+
+  checkpoints.forEach(time => {
     const ms = time - now;
     if (ms > 0) {
       setTimeout(() => {
-        console.log(`Time checkpoint reached (${time.toLocaleTimeString()})—reloading audio sources.`);
+        console.log(`Checkpoint reached (${time.toLocaleTimeString()}) — reloading audio sources.`);
         location.reload();
       }, ms);
     }
   });
 }
+
 
 
 
