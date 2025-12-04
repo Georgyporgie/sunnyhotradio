@@ -10011,7 +10011,7 @@ quickFade: true,
     path: "https://soulfullforever.netlify.app/Young & Company - I Like (single).mp3",
         timeCategory: "evening",
    quickFade: true,
-    volumeBoost: 0.65,
+    volumeBoost: 0.75,
     playcount: 0
 },
 
@@ -10418,7 +10418,7 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Fast Love - George Michael.mp3",
    timeCategory: "evening",
-    volumeBoost: 0.45,
+    volumeBoost: 0.75,
     playcount: 0
 },
 
@@ -12478,6 +12478,20 @@ volumeBoost: 0.10
   playcount: 0,
 volumeBoost: 0.20
 },
+
+
+
+{
+    name: " Feed Them",
+    artist: "Kelis",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Kelis - Feed Them Forever.mp3",
+        timeCategory: "evening",
+  playcount: 0,
+volumeBoost: 0.20
+},
+
+
 
 {
      name: "Welcome!",
