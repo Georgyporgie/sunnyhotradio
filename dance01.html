@@ -1076,8 +1076,12 @@ function scheduleRangeSwap() {
 
   // Midnight + 11 seconds
   checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 10));
+ // jingle-time + 11 seconds
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate() + 3, 0, 0, 10));
+   // morning disco + 11 seconds
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate() + 4, 0, 0, 10));
 
-  // Noon + 11 seconds
+// Noon + 11 seconds
   checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 0, 10));
 
   // 6pm + 11 seconds
@@ -1690,7 +1694,7 @@ function getCurrentTimeCategory() {
     { key: "evening", start: 16, end: 19 },
     { key: "evening-late", start: 19, end: 21 },
     { key: "late", start: 21, end: 3 },
-  
+    { key: "night", start: 3, end: 4 },
   ];
 
   const categoriesPerDay = {

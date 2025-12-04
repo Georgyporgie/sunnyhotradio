@@ -681,6 +681,159 @@ volumeBoost:0.50
 
 
 
+
+
+{
+     name: "Sunny  ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/time classic.mp3",
+    timeCategory: "jingle-time"
+  
+},
+
+
+{
+     name: "Sunny  ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/another hour of music.mp3",
+    timeCategory: "jingle-time"
+  
+},
+
+
+{
+     name: " Sunny ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/sunny dance jingle.mp3",
+    timeCategory: "jingle-time"
+  
+},
+
+
+
+
+
+{
+     name: " Sunny ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+    timeCategory: "jingle-time"
+  
+},
+
+
+
+{
+     name: "Sunny  ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Let op.mp3",
+    timeCategory: "jingle-time"
+  
+},
+
+
+
+
+
+
+
+
+{
+     name: "Sunny  ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+    timeCategory: "jingle-time"
+  
+},
+
+
+
+
+
+
+
+{
+     name: " Sunny ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle4.mp3",
+    timeCategory: "jingle-time"
+  
+},
+
+
+
+{
+     name: " Sunny ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet5.mp3",
+    timeCategory: "jingle-time"
+  
+},
+
+
+
+{
+     name: " Sunny ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/start the party.mp3",
+    timeCategory: "jingle-time"
+  
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️",
