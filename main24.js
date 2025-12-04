@@ -2731,7 +2731,7 @@ volumeBoost: 0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Skipworth & Turner - Thinkin' about your love.mp3",
   timeCategory: "morning",
-volumeBoost: 0.30,
+volumeBoost: 0.50,
 playcount: 0,
 quickFade: true
     
@@ -14828,7 +14828,7 @@ volumeBoost:0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/D-Shake - Techno Trance Yaaah.mp3",
     timeCategory: "evening-late",
-    volumeBoost: 0.45,
+    volumeBoost: 0.50,
     playcount: 0
 },
 
@@ -15022,9 +15022,11 @@ volumeBoost:0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Change - You Are My Melody.mp3",
     timeCategory: "evening-late",
-volumeBoost: 0.30,
-quickFade: true
+     quickFade: true,
+    volumeBoost: 0.55,
+    playcount: 0
 },
+
 
 
 
@@ -15034,7 +15036,7 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Skipworth & Turner - Thinkin' about your love.mp3",
   timeCategory: "evening-late",
-volumeBoost: 0.30,
+volumeBoost: 0.50,
  playcount: 0,
 quickFade: true
 },
@@ -17543,13 +17545,16 @@ timeCategory: "morning"
 
 
 {
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio☀️",
+     name: " Let Us Groove",
+    artist: "EWF",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/EWF Let's us groove.mp3",
  timeCategory: "evening-late",
-volumeBoost: 0.15
+  quickFade: true,
+    volumeBoost: 0.55,
+    playcount: 0
 },
+
 
 
 
