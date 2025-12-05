@@ -1070,24 +1070,33 @@ if (curr_track) {
 
 
 <script>
+
 function scheduleRangeSwap() {
   const now = new Date();
   const checkpoints = [];
 
-  // Midnight + 11 seconds
+  // Midnight + 10 seconds (next day)
   checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 10));
- // jingle-time + 11 seconds
-  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate() + 3, 0, 0, 10));
-   // morning disco + 11 seconds
-  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate() + 4, 0, 0, 10));
 
-// Noon + 11 seconds
+  // 3am + 10 seconds
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 3, 0, 10));
+
+  // 4am + 10 seconds
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 4, 0, 10));
+
+  // Noon + 10 seconds
   checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 0, 10));
 
-  // 6pm + 11 seconds
+  // 2pm + 10 seconds (special show)
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 14, 0, 10));
+
+  // 4pm + 10 seconds (special show)
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 16, 0, 10));
+
+  // 6pm + 10 seconds
   checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 18, 0, 10));
 
-  // Optional extras (9pm, etc.)
+  // 9pm + 10 seconds
   checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 21, 0, 10));
 
   checkpoints.forEach(time => {
@@ -1100,6 +1109,7 @@ function scheduleRangeSwap() {
     }
   });
 }
+
 
 
 
