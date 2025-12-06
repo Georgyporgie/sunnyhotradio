@@ -5167,7 +5167,7 @@ volumeBoost: 0.40
     path: "https://dancemusic09.netlify.app/Selena Gomez - In The Dark.mp3",
            timeCategory: "afternoon",
   playcount: 0,
-volumeBoost: 0.10
+volumeBoost: 0.30
 },
 
 
@@ -7104,8 +7104,9 @@ volumeBoost: 0.35
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Stardust - Music Sounds Better With You.mp3",
     timeCategory: "afternoon",
-  volumeBoost: 0.50,
-quickFade: true
+  volumeBoost: 0.80,
+quickFade: true,
+ playcount: 0
 },
 
 
@@ -8143,7 +8144,7 @@ volumeBoost: 0.25
     path: "https://danceoldies10.netlify.app/Chic vs Sugarhill Gang - Good Times.mp3",
   timeCategory: "afternoon",
      quickFade: true,
-  volumeBoost: 0.30,
+  volumeBoost: 0.10,
     playcount: 0
 
 },
@@ -8158,7 +8159,7 @@ volumeBoost: 0.25
     path: "https://danceoldies10.netlify.app/InDeep - Last Night A DJ (maxi).mp3",
   timeCategory: "afternoon",
      quickFade: true,
-  volumeBoost: 0.55,
+  volumeBoost: 0.75,
     playcount: 0
 
 },
@@ -15320,7 +15321,7 @@ quickFade: true
     path: "https://sunnydanceoldies08.netlify.app/Quazar - Seven Stars.mp3",
     timeCategory: "evening-late",
      quickFade: true,
-    volumeBoost: 0.15,
+    volumeBoost: 0.45,
     playcount: 0
 },
 
@@ -20695,14 +20696,7 @@ quickFade: true
 
 
 
-{
-    name: "Mau P ",
-    artist: " Tesla",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
-       timeCategory: "f afternoon",
-quickFade: true
-},
+
 
 
 
@@ -20956,7 +20950,8 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/White  Lines - Grandmaster Flash & the furious five.mp3",
       timeCategory: "f afternoon",
-  volumeBoost: 0.15
+  volumeBoost: 0.25,
+  playcount: 0
 },
 
 {
@@ -21033,7 +21028,7 @@ quickFade: true
     path: "https://sunnydanceoldies08.netlify.app/Quazar - Seven Stars.mp3",
     timeCategory: "f afternoon",
      quickFade: true,
-    volumeBoost: 0.15,
+    volumeBoost: 0.45,
     playcount: 0
 },
 
@@ -22554,7 +22549,7 @@ volumeBoost: 0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Selena Gomez - In The Dark.mp3",
            timeCategory: "f evening",
-  volumeBoost: 0.60,
+  volumeBoost: 0.40,
   playcount: 0
 },
 
@@ -23134,14 +23129,7 @@ volumeBoost: 0.30
 volumeBoost: 0.40
 },
 
-{
-     name: "   In The Dark  ",
-    artist: "Selena Gomez",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Selena Gomez - In The Dark.mp3",
-           timeCategory: "f evening-late",
-  playcount: 0
-},
+
 
 
 
@@ -23828,7 +23816,9 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Stardust - Music Sounds Better With You.mp3",
     timeCategory: "f evening-late",
-  volumeBoost: 0.50
+  volumeBoost: 0.80,
+quickFade: true,
+ playcount: 0
 },
 
 
