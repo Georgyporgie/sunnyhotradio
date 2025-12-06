@@ -5060,7 +5060,7 @@ quickFade: true,
     path: "https://dancemusic09.netlify.app/Dua Lipa - Toxic Love.mp3",
            timeCategory: "afternoon",
       quickFade: true,
-    volumeBoost: 0.15,
+    volumeBoost: 0.35,
     playcount: 0
 },
 
@@ -7466,10 +7466,9 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Katy Perry - Chained To The Rhythm.mp3",
     timeCategory: "afternoon",
-    playcount: 0,
-    volumeBoost: 0.40
-
-
+     quickFade: true,
+    volumeBoost: 0.55,
+    playcount: 0
 },
 
 
@@ -19454,10 +19453,9 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Katy Perry - Chained To The Rhythm.mp3",
     timeCategory: " evening-late",
-    playcount: 0,
-    volumeBoost: 0.30
-
-
+     quickFade: true,
+    volumeBoost: 0.55,
+    playcount: 0
 },
 
 
@@ -19987,10 +19985,9 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Katy Perry - Chained To The Rhythm.mp3",
     timeCategory: "f afternoon",
-    playcount: 0,
-    volumeBoost: 0.30
-
-
+     quickFade: true,
+    volumeBoost: 0.55,
+    playcount: 0
 },
 
 
@@ -21179,7 +21176,9 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Donna Summer - Diner With Gershwin.mp3",
     timeCategory: "f afternoon",
-  volumeBoost: 0.40
+     quickFade: true,
+    volumeBoost: 0.65,
+    playcount: 0
 },
 
 
@@ -22448,7 +22447,9 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Dua Lipa - Toxic Love.mp3",
            timeCategory: "f evening",
-  playcount: 0
+      quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
 },
 
 
@@ -23025,16 +23026,7 @@ volumeBoost: 0.70,
 
 
 
-{
-     name: "   Toxic Love (new)",
-    artist: "Dua Lipa",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Dua Lipa - Toxic Love.mp3",
-           timeCategory: "f evening-late",
-  playcount: 0,
-volumeBoost: 0.15
 
-},
 
 
 
@@ -23431,17 +23423,6 @@ quickFade: true
 
 
 
-{
-     name: " Chained To The Rhythm  ",
-    artist: "Katy Perry ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Katy Perry - Chained To The Rhythm.mp3",
-    timeCategory: "f evening-late",
-playcount: 0,
-     volumeBoost: 0.40
-
-
-},
 
 
 
@@ -24673,6 +24654,9 @@ function myFunction1() {
  $('.btn').click(function () {
             $(this).toggleClass("click");
         });
+
+
+
 
 
 
