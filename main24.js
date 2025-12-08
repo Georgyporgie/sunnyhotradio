@@ -2268,7 +2268,7 @@ timeCategory: "morning",
     path: "https://sunnydanceoldies05.netlify.app/Lime - Your Love.mp3",
      playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.55
+  volumeBoost: 0.60
 
 },
 
@@ -5244,7 +5244,9 @@ volumeBoost: 0.30
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Seal - Crazy.mp3",
       timeCategory: "afternoon",
-  volumeBoost: 0.20
+     quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
 },
 
 
@@ -5356,7 +5358,10 @@ volumeBoost: 0.30
     artist: "Cheryl Lynn ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Cheryl Lynn - Encore (maxi).mp3",
-   timeCategory: "afternoon"
+   timeCategory: "afternoon",
+     quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
 },
 
 
@@ -6665,7 +6670,10 @@ quickFade: true
     artist: "Diana King  ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Diana King - Shy guy.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+     quickFade: true,
+    volumeBoost: 0.65,
+    playcount: 0
 },
 
 {
@@ -7582,13 +7590,7 @@ playcount: 0
 },
 
 
-{
-    name: " Shy Guy (1995)",
-    artist: "Diana King  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/Diana King - Shy guy.mp3",
-   timeCategory: "afternoon"
- },
+
 
 
 
@@ -7991,9 +7993,10 @@ volumeBoost: 0.30
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Rockers Revenge - Walking On Sunshine (12inch).mp3",
    timeCategory: "afternoon",
-volumeBoost: 0.25
+     quickFade: true,
+    volumeBoost: 0.55,
+    playcount: 0
 },
-
 
 
 
@@ -13050,8 +13053,12 @@ volumeBoost: 0.50,
     artist: "KID  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/KID - Don't Stop.mp3",
-   timeCategory: "evening"
+   timeCategory: "evening",
+     quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
 },
+
 
 
 
@@ -19454,7 +19461,7 @@ quickFade: true
     path: "https://dancemusic09.netlify.app/Katy Perry - Chained To The Rhythm.mp3",
     timeCategory: " evening-late",
      quickFade: true,
-    volumeBoost: 0.55,
+    volumeBoost: 0.60,
     playcount: 0
 },
 
@@ -20090,9 +20097,10 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Adventures Of Stevie V - Dirty Cash.mp3",
       timeCategory: "f afternoon",
-   volumeBoost: 0.30
+     quickFade: true,
+    volumeBoost: 0.55,
+    playcount: 0
 },
-
 
 
 
@@ -21770,9 +21778,11 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/KID - Don't Stop.mp3",
    timeCategory: "f evening",
-   volumeBoost: 0.25,
-   playcount: 0
+     quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
 },
+
 
 
 
@@ -22236,7 +22246,7 @@ quickFade: true,
     path: "https://sunnydanceoldies09.netlify.app/Players Association - Turn The Music Up!.mp3",
     timeCategory: "f evening",
     quickFade: true,
-    volumeBoost: 0.45,
+    volumeBoost: 0.55,
     playcount: 0
 },
 
@@ -22333,7 +22343,7 @@ quickFade: true,
     path: "https://sunnydanceoldies05.netlify.app/Lime - Your Love.mp3",
     timeCategory: "f evening",
     playcount: 0,
-    volumeBoost: 0.50
+    volumeBoost: 0.60
 
 },
 
@@ -24656,6 +24666,13 @@ function myFunction1() {
         });
 
 
+if (!trackList.classList.contains("show")) {
+  trackList.classList.add("show");
+  showMoreButton.textContent = "show less";
+} else {
+  trackList.classList.remove("show");
+  showMoreButton.textContent = "show more";
+}
 
 
 
