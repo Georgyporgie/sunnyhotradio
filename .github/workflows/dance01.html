@@ -24,7 +24,7 @@
    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
  <meta charset="UTF-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <!-- Load FontAwesome icons -->
   <link rel="stylesheet"
         href=
@@ -345,7 +345,7 @@ document.addEventListener("DOMContentLoaded", scheduleHourlyFlash);
 <br>
 <br>
 <div>
-<IFRAME id="gas" SRC="https://gasts.netlify.app/gasts" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=1 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=345 HEIGHT=825></IFRAME>
+<IFRAME id="gas" SRC="https://gasts.netlify.app/gasts" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=345 HEIGHT=825></IFRAME>
 <br>
 </div>
 
@@ -362,6 +362,8 @@ document.addEventListener("DOMContentLoaded", scheduleHourlyFlash);
 <br>
 <br>
 <br>
+
+
 <br>
 <br>
 <br>
@@ -909,6 +911,7 @@ window.addEventListener('load', () => {
 
 
 
+
 // Wait for the DOM to be ready
 document.addEventListener("DOMContentLoaded", () => {
   const now   = new Date();
@@ -1069,33 +1072,54 @@ if (curr_track) {
 
 
 <script>
-// Schedule reloads for midnight, noon and 6pm
+
 function scheduleRangeSwap() {
   const now = new Date();
   const checkpoints = [];
 
-  // Midnight
-  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 1));
-  // Noon
+  // Midnight + 10 seconds (next day)
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 10));
+
+  // 3am + 10 seconds
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 3, 0, 10));
+
+  // 4am + 10 seconds
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 4, 0, 10));
+
+  // Noon + 10 seconds
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 0, 10));
+
+  // 2pm + 10 seconds (special show)
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 14, 0, 10));
+
+  // 4pm + 10 seconds (special show)
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 16, 0, 10));
+
+  // 6pm + 10 seconds
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 18, 0, 10));
+
+  // 9pm + 10 seconds
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 21, 0, 10));
+   
+
+// 11pm + 10 seconds
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 23, 0, 10));
   
-checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 0, 1));
-  // 6pm
-  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 14, 0, 1));
-checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 16, 0, 1));
-checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 18, 42, 1));
-checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 21, 0, 1));
-  
+
+
 
 checkpoints.forEach(time => {
     const ms = time - now;
     if (ms > 0) {
       setTimeout(() => {
-        console.log(`Time checkpoint reached (${time.toLocaleTimeString()})—reloading audio sources.`);
+        console.log(`Checkpoint reached (${time.toLocaleTimeString()}) — reloading audio sources.`);
         location.reload();
       }, ms);
     }
   });
 }
+
+
 
 
 
@@ -1392,9 +1416,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+<audio id="fortyEightMinuteSou">
+   <source src="muziek/voiceover/From The Heart Of Amsterdam.mp3" type="audio/mp3">
+
+</audio>
+
+
+
+
 <audio id="fortyFiveMinuteSou">
   <source src="" type="audio/mp3">
 </audio>
+
+
 
 <script>
   // ✅ Apply volume normalization when a track is ready to play
@@ -1438,11 +1472,11 @@ function scheduleSounds() {
 
   // Every 28 minutes
   const minsTo28 = 28 - (now.getMinutes() % 28);
-  const twentyFiveDelay = ((minsTo28 === 28 ? 0 : minsTo28) * 60 - now.getSeconds()) * 1000;
+  const twentyEightDelay = ((minsTo28 === 28 ? 0 : minsTo28) * 60 - now.getSeconds()) * 1000;
   setTimeout(() => {
     playSound(["twentyFiveMinuteSou"]);
     setInterval(() => playSound(["twentyFiveMinuteSou"]), 1680000);
-  }, twentyFiveDelay);
+  }, twentyEightDelay);
 
   // Every 37 minutes
   const minsTo37 = 37 - (now.getMinutes() % 37);
@@ -1451,10 +1485,19 @@ function scheduleSounds() {
     playSound(["thirtySevenMinuteSou"]);
     setInterval(() => playSound(["thirtySevenMinuteSou"]), 2220000);
   }, thirtySevenDelay);
+
+  // Every 48 minutes
+  const minsTo48 = 48 - (now.getMinutes() % 48);
+  const fortyEightDelay = ((minsTo48 === 48 ? 0 : minsTo48) * 60 - now.getSeconds()) * 1000;
+  setTimeout(() => {
+    playSound(["fortyEightMinuteSou"]);
+    setInterval(() => playSound(["fortyEightMinuteSou"]), 2880000); // 48 * 60 * 1000
+  }, fortyEightDelay);
 }
 
 window.onload = scheduleSounds;
 </script>
+
 
 
 
@@ -1683,13 +1726,14 @@ function getCurrentTimeCategory() {
   const currentDay = now.getDay();
 
   const timeRanges = [
-    { key: "morning", start: 8, end: 12 },
+    { key: "morning", start: 3, end: 12 },
     { key: "afternoon", start: 12, end: 14 },
     { key: "special-show", start: 14, end: 16 },
     { key: "evening", start: 16, end: 19 },
     { key: "evening-late", start: 19, end: 21 },
-    { key: "late", start: 21, end: 3 },
-    { key: "night", start: 3, end: 8 }
+    { key: "late", start: 21, end: 23 },
+    { key: "evening-late", start: 23, end: 3 },
+    { key: "night", start: 3, end: 4 },
   ];
 
   const categoriesPerDay = {
@@ -1699,16 +1743,16 @@ function getCurrentTimeCategory() {
 1: { morning: ["morning"], afternoon: ["afternoon"], "special-show": ["evening"], evening: ["evening"], "evening-late": ["afternoon"], late: ["evening-late"], night: ["jingle-time"] },
     
 
-2: { morning: ["evening-late"], afternoon: ["afternoon"], "special-show": ["evening-late"], evening: ["special-cast"], "evening-late": ["morning"], late: ["evening"], night: ["jingle-time"] },
+2: { morning: ["evening-late"], afternoon: ["afternoon"], "special-show": ["evening-late"], evening: ["evening"], "evening-late": ["morning"], late: ["evening"], night: ["jingle-time"] },
     
 
 3: { morning: ["evening-late"], afternoon: ["evening"], "special-show": ["afternoon"], evening: ["afternoon"], "evening-late": ["evening-late"], late: ["evening"], night: ["jingle-time"] },
     
 
-4: { morning: ["evening-late"], afternoon: ["evening"], "special-show": ["special-cast"], evening: ["afternoon"], "evening-late": ["evening-late"], late: ["evening"], night: ["jingle-time"] },
+4: { morning: ["morning"], afternoon: ["evening"], "special-show": ["evening-late"], evening: ["afternoon"], "evening-late": ["evening-late"], late: ["evening"], night: ["jingle-time"] },
     
 
-5: { morning: ["morning"], afternoon: ["afternoon"], "special-show": ["special-mix"], evening: ["evening-late"], "evening-late": ["f evening"], late: ["f evening-late"], night: ["jingle-time"] },
+5: { morning: ["morning"], afternoon: ["afternoon"], "special-show": ["special-cast"], evening: ["evening-late"], "evening-late": ["f evening"], late: ["f evening-late"], night: ["jingle-time"] },
     
 
 6: { morning: ["f afternoon"], afternoon: ["f evening"], "special-show": ["special"], evening: ["f evening-late"], "evening-late": ["f evening"], late: ["f afternoon"], night: ["jingle-time"] }
@@ -1869,22 +1913,22 @@ function fisherYatesShuffle(array) {
 // ── Reset Ceremony ──
 function resetPlayCountsCeremony(threshold = 5) {
   // Guard: if no tracks, exit early
-  if (!track_list.length) return;
+  if (!trackList.length) return;
 
-  const allAboveThreshold = track_list.every(t => t.playCount >= threshold);
+  const allAboveThreshold = trackList.every(t => t.playCount >= threshold);
 
   if (allAboveThreshold) {
     console.log("🔄 Ceremony: All tracks exceeded", threshold, "plays. Resetting counts at", new Date().toLocaleTimeString());
 
     // Reset playcounts
-    track_list.forEach(t => {
+    trackList.forEach(t => {
       t.playCount = 0;
     });
 
     // Shuffle the playlist after reset
-    track_list = fisherYatesShuffle(track_list);
+    trackList = fisherYatesShuffle(trackList);
 
-    console.log("✨ Playlist reborn:", track_list.map(t => t.name));
+    console.log("✨ Playlist reborn:", trackList.map(t => t.name));
   }
 }
 
@@ -1897,8 +1941,8 @@ function scheduleMidnightReset() {
 
   setTimeout(() => {
     console.log("🌅 Dawn reset ceremony at", new Date().toLocaleTimeString());
-    track_list.forEach(t => (t.playCount = 0));
-    console.log("✨ Playlist reborn:", track_list.map(t => t.name));
+    trackList.forEach(t => (t.playCount = 0));
+    console.log("✨ Playlist reborn:", trackList.map(t => t.name));
 
     // Reschedule for next midnight
     scheduleMidnightReset();
@@ -1906,7 +1950,7 @@ function scheduleMidnightReset() {
 }
 
 // ── Startup ──
-initializePlayCounts(track_list);
+initializePlayCounts(trackList);
 scheduleMidnightReset();
 
 </script>
@@ -1915,15 +1959,15 @@ scheduleMidnightReset();
 <script>
 // ── Soft Decay Ceremony ──
 function decayPlayCounts(decayRate = 0.9) {
-  if (!track_list.length) return;
+  if (!trackList.length) return;
 
-  track_list.forEach(t => {
+  trackList.forEach(t => {
     t.playCount = Math.floor(t.playCount * decayRate);
   });
 
   console.log("🌙 Soft decay applied at", new Date().toLocaleTimeString(),
               "| Decay rate:", decayRate,
-              "| Counts:", track_list.map(t => t.playCount));
+              "| Counts:", trackList.map(t => t.playCount));
 }
 
 // ── Gentle Hourly Decay ──
@@ -1988,7 +2032,8 @@ function switchCategory(newCategory) {
     font: 600 14px/1.2 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto;
     width: 270px;
     z-index: 9999;
-  }
+   border: solid 1px #FFD580;
+}
   .badge-icon { margin-right: 0.4rem; }
   .badge-label { white-space: nowrap; }
   .progress {
@@ -2032,10 +2077,10 @@ function getTimeBounds(range) {
 }
 
 const badgeMeta = {
-  morning: { icon: "🌅", label: "Early Light" },
+  morning: { icon: "🌅", label: "Latest Disco Hits Of The Eighties" },
   afternoon: { icon: "☀️", label: "Latest Hits Of The Dance Area" },
-  evening: { icon: "🌇", label: "Come See The Eighties Disco!" },
-  "evening-late": { icon: "🌃", label: "Latest Hits Of The Dance Area" },
+  evening: { icon: "🌇", label: "Latest Hits Of The Dance Area" },
+  "evening-late": { icon: "🌃", label: "Come See The Eighties Disco!" },
   night: { icon: "🌙", label: "Starlight Sessions" },
   late: { icon: "🦉", label: "Dance Yourself Dizzy!" },
   "special-show": { icon: "🎛️", label: "On Air" },
@@ -2161,13 +2206,13 @@ function pickNextTrack(allTracks) {
 }
 
   const timeRanges = [
-    { key: "morning", start: 8, end: 12 },
+      { key: "morning", start: 3, end: 12 },
     { key: "afternoon", start: 12, end: 14 },
     { key: "special-show", start: 14, end: 16 },
     { key: "evening", start: 16, end: 19 },
     { key: "evening-late", start: 19, end: 21 },
-    { key: "late", start: 21, end: 3 },
-    { key: "night", start: 3, end: 8 }
+    { key: "late", start: 21, end: 23 },
+    { key: "afternoon", start: 23, end: 3 },
   ];
 
 

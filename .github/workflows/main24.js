@@ -524,57 +524,6 @@ volumeBoost:0.50
 
 
 
-{
-     name: " Farce Majeur  ",
-    artist: "Trance Classics ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur01.mp3",
-    timeCategory: "special-cast",
-volumeBoost:0.70
-},
-
-
-{
-     name: " Farce Majeur  ",
-    artist: "Trance Classics ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur02.mp3",
-    timeCategory: "special-cast",
-volumeBoost:0.70
-},
-
-
-{
-     name: " Farce Majeur  ",
-    artist: "Trance Classics ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur03.mp3",
-    timeCategory: "special-cast",
-volumeBoost:0.70
-},
-
-
-{
-     name: " Farce Majeur  ",
-    artist: "Trance Classics ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur05.mp3",
-    timeCategory: "special-cast",
-volumeBoost:0.70
-},
-
-
-
-
-{
-     name: " Farce Majeur  ",
-    artist: "Trance Classics ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://mixingg.netlify.app/Trance Classics - Farce Majeur06.mp3",
-    timeCategory: "special-cast",
-volumeBoost:0.70
-},
-
 
 
 
@@ -707,6 +656,159 @@ volumeBoost:0.70
     timeCategory: "special-cast",
     volumeBoost: 0.50
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Sunny  ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/time classic.mp3",
+    timeCategory: "jingle-time"
+  
+},
+
+
+{
+     name: "Sunny  ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/another hour of music.mp3",
+    timeCategory: "jingle-time"
+  
+},
+
+
+{
+     name: " Sunny ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/sunny dance jingle.mp3",
+    timeCategory: "jingle-time"
+  
+},
+
+
+
+
+
+{
+     name: " Sunny ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+    timeCategory: "jingle-time"
+  
+},
+
+
+
+{
+     name: "Sunny  ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Let op.mp3",
+    timeCategory: "jingle-time"
+  
+},
+
+
+
+
+
+
+
+
+{
+     name: "Sunny  ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+    timeCategory: "jingle-time"
+  
+},
+
+
+
+
+
+
+
+{
+     name: " Sunny ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle4.mp3",
+    timeCategory: "jingle-time"
+  
+},
+
+
+
+{
+     name: " Sunny ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet5.mp3",
+    timeCategory: "jingle-time"
+  
+},
+
+
+
+{
+     name: " Sunny ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/start the party.mp3",
+    timeCategory: "jingle-time"
+  
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1994,7 +2096,7 @@ timeCategory: "morning",
     path: "muziek/oldies07/La Velle - Playgirl.mp3",
     playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.55
+  volumeBoost: 0.75
 
 },
 
@@ -2117,7 +2219,7 @@ timeCategory: "morning",
     path: "muziek/oldies07/RUN DMC - It's Like That.mp3",
    playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.20
+  volumeBoost: 0.40
 
 },
 
@@ -2166,7 +2268,7 @@ timeCategory: "morning",
     path: "https://sunnydanceoldies05.netlify.app/Lime - Your Love.mp3",
      playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.35
+  volumeBoost: 0.60
 
 },
 
@@ -2782,7 +2884,7 @@ volumeBoost: 0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Skipworth & Turner - Thinkin' about your love.mp3",
   timeCategory: "morning",
-volumeBoost: 0.30,
+volumeBoost: 0.50,
 playcount: 0,
 quickFade: true
     
@@ -4957,7 +5059,9 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Dua Lipa - Toxic Love.mp3",
            timeCategory: "afternoon",
-  playcount: 0
+      quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
 },
 
 
@@ -4981,7 +5085,9 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Jessie J -  HAPPY.mp3",
            timeCategory: "afternoon",
-  playcount: 0
+   quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
 },
 
 
@@ -5061,7 +5167,7 @@ volumeBoost: 0.40
     path: "https://dancemusic09.netlify.app/Selena Gomez - In The Dark.mp3",
            timeCategory: "afternoon",
   playcount: 0,
-volumeBoost: 0.10
+volumeBoost: 0.30
 },
 
 
@@ -5138,7 +5244,9 @@ volumeBoost: 0.10
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Seal - Crazy.mp3",
       timeCategory: "afternoon",
-  volumeBoost: 0.20
+     quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
 },
 
 
@@ -5155,15 +5263,7 @@ volumeBoost: 0.10
 
 
 
-{
-    name: "MK  (12inch) ",
-    artist: " Dior ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/MK - Dior (12inch).mp3",
-    timeCategory: "afternoon",
-    volumeBoost: 0.15,
-    playcount: 0
-},
+
 
 
 
@@ -5258,7 +5358,10 @@ volumeBoost: 0.10
     artist: "Cheryl Lynn ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Cheryl Lynn - Encore (maxi).mp3",
-   timeCategory: "afternoon"
+   timeCategory: "afternoon",
+     quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
 },
 
 
@@ -5941,7 +6044,7 @@ volumeBoost: 0.30
     artist: "Slave  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Slave - Stellar Funk (1978).mp3",
-      volumeBoost: 0.50,
+      volumeBoost: 0.70,
     playcount: 0,
    timeCategory: "afternoon",
 quickFade: true
@@ -6037,7 +6140,9 @@ quickFade: true
     artist: "Nick Straker ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Nick Straker Band - A walk in the park 7inch.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+    quickFade: true,
+    playcount: 0
 },
 
 
@@ -6190,10 +6295,12 @@ volumeBoost: 0.25
     artist: "Rene &  Angela",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Rene &  Angela - I'll be good.mp3",
-  timeCategory: "afternoon"
-
-
+    timeCategory: "afternoon",
+    quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
 },
+
 
 
 {
@@ -6563,7 +6670,10 @@ quickFade: true
     artist: "Diana King  ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Diana King - Shy guy.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+     quickFade: true,
+    volumeBoost: 0.65,
+    playcount: 0
 },
 
 {
@@ -6598,7 +6708,9 @@ volumeBoost: 0.30
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Geraldine Hunt - Can t Fake The Feeling.mp3",
     timeCategory: "afternoon",
-volumeBoost: 0.50
+     quickFade: true,
+    volumeBoost: 0.95,
+    playcount: 0
 },
 
 
@@ -6640,7 +6752,10 @@ timeCategory: "afternoon",
     artist: "Narada Michael Walden  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Narada Michael Walden - Tonight I Am Allright.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+     quickFade: true,
+    volumeBoost: 0.75,
+    playcount: 0
 },
 
 
@@ -6660,7 +6775,7 @@ timeCategory: "afternoon",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Deeelite - What Is Love.mp3",
      timeCategory: "afternoon",
-volumeBoost: 0.15
+volumeBoost: 0.35
 },
 
 
@@ -6679,7 +6794,10 @@ volumeBoost: 0.15
     artist: "SOS Band ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/SOS Band - The Finest (DJ'S Remix).mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+   quickFade: true,
+    volumeBoost: 0.15,
+    playcount: 0
 },
 
 
@@ -6994,8 +7112,9 @@ volumeBoost: 0.15
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Stardust - Music Sounds Better With You.mp3",
     timeCategory: "afternoon",
-  volumeBoost: 0.50,
-quickFade: true
+  volumeBoost: 0.80,
+quickFade: true,
+ playcount: 0
 },
 
 
@@ -7318,25 +7437,89 @@ quickFade: true
 
 
 
+{
+     name: " Better Of Alone (1998) ",
+    artist: "Alice Deejay ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Alice Deejay - Better Of Alone (1998).mp3",
+    timeCategory: "afternoon",
+   playcount: 0,
+   quickfade: true
+   
+
+},
 
 
 
 
 
 
+{
+     name: " Insomnia (1995) ",
+    artist: "Faithless ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Faithless - Insomnia (1995).mp3",
+    timeCategory: "afternoon",
+   quickfade: true,
+playcount: 0
+   
+
+
+},
+
+
+{
+     name: " Chained To The Rhythm  ",
+    artist: "Katy Perry ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Katy Perry - Chained To The Rhythm.mp3",
+    timeCategory: "afternoon",
+     quickFade: true,
+    volumeBoost: 0.55,
+    playcount: 0
+},
 
 
 
 
 
+{
+     name: "  Take Over (new)",
+    artist: "Rihanna ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Rihanna - Take Over (new).mp3",
+    timeCategory: "afternoon",
+    quickFade: true,
+    playcount: 0,
+    volumeBoost: 0.40 
 
 
+},
+
+{
+     name: "  Nobody's Girl (new)",
+    artist: "Tate McRae ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Tate McRae - Nobody's Girl (new).mp3",
+    timeCategory: "afternoon",
+playcount: 0
+   
 
 
+},
 
 
+{
+     name: "  Bring Me To Life (new)",
+    artist: "Tiesto  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Tiesto - Bring Me To Life.mp3",
+    timeCategory: "afternoon",
+playcount: 0
+   
 
 
+},
 
 
 
@@ -7407,13 +7590,7 @@ quickFade: true
 },
 
 
-{
-    name: " Shy Guy (1995)",
-    artist: "Diana King  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/Diana King - Shy guy.mp3",
-   timeCategory: "afternoon"
- },
+
 
 
 
@@ -7816,9 +7993,10 @@ volumeBoost: 0.30
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Rockers Revenge - Walking On Sunshine (12inch).mp3",
    timeCategory: "afternoon",
-volumeBoost: 0.25
+     quickFade: true,
+    volumeBoost: 0.55,
+    playcount: 0
 },
-
 
 
 
@@ -7930,6 +8108,75 @@ volumeBoost: 0.25
 },
 
 
+
+
+
+
+{
+    name: "   Inside Out ",
+    artist: "Odyssey",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Odyssey - Inside Out.mp3",
+  timeCategory: "afternoon",
+     quickFade: true,
+  volumeBoost: 0.40,
+    playcount: 0
+
+},
+
+
+
+{
+    name: "   What You Waiting For (maxi) ",
+    artist: "Stargard ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Stargard - What You Waiting For (maxi).mp3",
+  timeCategory: "afternoon",
+     quickFade: true,
+  volumeBoost: 0.60,
+    playcount: 0
+
+},
+
+
+{
+    name: "   Good Times  ",
+    artist: "Chic vs Sugarhill Gang ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Chic vs Sugarhill Gang - Good Times.mp3",
+  timeCategory: "afternoon",
+     quickFade: true,
+  volumeBoost: 0.10,
+    playcount: 0
+
+},
+
+
+
+
+{
+    name: " Last Night A DJ (maxi)",
+    artist: "InDeep ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/InDeep - Last Night A DJ (maxi).mp3",
+  timeCategory: "afternoon",
+     quickFade: true,
+  volumeBoost: 0.75,
+    playcount: 0
+
+},
+
+{
+    name: " Yah Mo B There",
+    artist: "James Ingram  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/James Ingram - Yah Mo B There.mp3",
+  timeCategory: "afternoon",
+     quickFade: true,
+  volumeBoost: 0.45,
+    playcount: 0
+
+},
 
  
 {
@@ -8159,7 +8406,7 @@ volumeBoost:  0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Mtume - Juicy Fruit.mp3",
   quickFade: true,
-volumeBoost: 0.70,
+volumeBoost: 0.80,
 
    timeCategory: "afternoon"
 },
@@ -8836,6 +9083,38 @@ quickFade: true
 
 
 
+{
+     name: " Try It Out",
+    artist: "Gino Soccio ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Gino Soccio - Try It Out (maxi).mp3",
+    timeCategory: "afternoon",
+     quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
+},
+
+
+
+
+{
+     name: " Don t Stop Till",
+    artist: "Michael Jackson ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Michael Jackson - Don t Stop Till.mp3",
+    timeCategory: "afternoon",
+   quickFade: true,
+   playcount: 0
+},
+
+
+
+
+
+
+
+
+
 
 
 
@@ -8858,7 +9137,9 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Geraldine Hunt - Can t Fake The Feeling.mp3",
     timeCategory: "afternoon",
-volumeBoost: 0.50
+     quickFade: true,
+    volumeBoost: 0.95,
+    playcount: 0
 },
 
 
@@ -8995,7 +9276,7 @@ volumeBoost: 0.50
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://soulfullforever.netlify.app/Rose Royce Still in love.mp3",
          timeCategory: "evening",
-  volumeBoost: 0.50,
+  volumeBoost: 0.60,
 quickFade: true
 },
 
@@ -9061,6 +9342,41 @@ volumeBoost: 0.50
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Minellli & Inna - In Love.mp3",
     timeCategory: "evening"
+},
+
+
+
+
+{
+     name: "   Hands On Me ",
+    artist: "Dua Lipa",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Dua Lipa - Hands On Me.mp3",
+    timeCategory: "evening",
+    volumeBoost: 0.15,
+    playcount: 0
+},
+
+
+{
+     name: "  In Love Again ",
+    artist: "Dua Lipa",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Dua Lipa - In Love Again.mp3",
+    timeCategory: "evening",
+    volumeBoost: 0.15,
+    playcount: 0
+},
+
+
+{
+     name: "   Pour Toi",
+    artist: "Dua Lipa",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Dua Lipa - Pour Toi.mp3",
+    timeCategory: "evening",
+    volumeBoost: 0.15,
+    playcount: 0
 },
 
 
@@ -9850,7 +10166,9 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://soulfullforever.netlify.app/Young & Company - I Like (single).mp3",
         timeCategory: "evening",
-  volumeBoost: 0.30
+   quickFade: true,
+    volumeBoost: 0.75,
+    playcount: 0
 },
 
 
@@ -9919,7 +10237,8 @@ quickFade: true,
     artist: "Cannons ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Cannons - Desire.mp3",
-       timeCategory: "evening"
+       timeCategory: "evening",
+  quickFade: true
 },
 
 
@@ -10255,7 +10574,7 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Fast Love - George Michael.mp3",
    timeCategory: "evening",
-    volumeBoost: 0.45,
+    volumeBoost: 0.75,
     playcount: 0
 },
 
@@ -10280,7 +10599,7 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Gat Decor - Passion.mp3",
     timeCategory: "evening",
-    volumeBoost: 0.55,
+    volumeBoost: 0.85,
     playcount: 0
 },
 
@@ -11197,8 +11516,8 @@ volumeBoost: 0.25
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Fierce Ruling Diva - Rubb It In.mp3",
       playcount: 0,
-timeCategory: "evening"
-
+timeCategory: "evening",
+volumeBoost: 0.20
 },
 
 
@@ -11242,8 +11561,7 @@ timeCategory: "evening"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Bizarre Inc - Raise Me.mp3",
     timeCategory: "evening",
-  volumeBoost: 0.10,
-  quickFade: true
+    quickFade: true
 },
 
 
@@ -11254,8 +11572,11 @@ timeCategory: "evening"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Madonna - Borderline.mp3",
     timeCategory: "evening",
-  volumeBoost: 0.20
+     quickFade: true,
+    volumeBoost: 0.15,
+    playcount: 0
 },
+
 
 
 
@@ -11267,7 +11588,7 @@ timeCategory: "evening"
     path: "https://danceoldies06.netlify.app/Bizarre Inc - X Static.mp3",
     timeCategory: "evening",
   quickFade: true,
-    volumeBoost: 0.20,
+    volumeBoost: 0.30,
     playcount: 0
 },
 
@@ -11593,7 +11914,11 @@ volumeBoost: 0.10
     artist: "Bizarre Inc. ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Bizarre Inc. - I'm Gonna Get You.mp3",
-      timeCategory: "evening"
+      quickFade: true,
+playcount: 0,
+timeCategory: "evening",
+ volumeBoost: 0.15,
+
 },
 
 
@@ -11997,8 +12322,10 @@ volumeBoost: 0.10
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Snap - The Power.mp3",
       timeCategory: "evening",
-volumeBoost: 0.20
-}, 
+     quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
+},
 
 
 
@@ -12226,10 +12553,12 @@ volumeBoost: 0.20
     artist: "Chemise ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Chemise - She Can't Love You.mp3",
-     timeCategory: "evening",
-  playcount: 0,
-volumeBoost: 0.10
+    timeCategory: "evening",
+    quickFade: true,
+    volumeBoost: 0.15,
+    playcount: 0
 },
+
 
 
 
@@ -12305,6 +12634,20 @@ volumeBoost: 0.10
   playcount: 0,
 volumeBoost: 0.20
 },
+
+
+
+{
+    name: " Feed Them",
+    artist: "Kelis",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Kelis - Feed Them Forever.mp3",
+        timeCategory: "evening",
+  playcount: 0,
+volumeBoost: 0.20
+},
+
+
 
 {
      name: "Welcome!",
@@ -12507,10 +12850,9 @@ volumeBoost: 0.25
     artist: "Quadrophonia",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Quadrophonia - Quadrophonia (original).mp3",
-  
-
-
-      timeCategory: "evening"
+    timeCategory: "evening",
+volumeBoost: 0.50,
+  playcount: 0
 },
 
 
@@ -12711,8 +13053,12 @@ volumeBoost: 0.25
     artist: "KID  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/KID - Don't Stop.mp3",
-   timeCategory: "evening"
+   timeCategory: "evening",
+     quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
 },
+
 
 
 
@@ -12876,8 +13222,9 @@ volumeBoost: 0.40,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Cheri -Murphys Law.mp3",
     timeCategory: "evening",
- quickFade: true
-
+    quickFade: true,
+     volumeBoost: 0.25,
+    playcount: 0
 },
 
 {
@@ -12947,7 +13294,9 @@ volumeBoost: 0.40,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Change - Miracles.mp3",
       timeCategory: "evening",
-  volumeBoost: 0.25
+     quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
 },
 
 
@@ -13458,7 +13807,7 @@ quickFade: true
     path: "https://sunnydancemusic07.netlify.app/Donna Summer - I Feel Love (revisit mix).mp3",
     timeCategory: "evening-late",
     quickFade: true,
-volumeBoost: 0.25
+volumeBoost: 0.65
 },
 
 
@@ -14504,9 +14853,10 @@ volumeBoost: 0.25
     name: " Girls On My Mind (1985) ",
     artist: "Fatback ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Fatback - Girls On My Mind.mp3",
-  timeCategory: "evening-late",
-volumeBoost:0.30 
+   path: "https://sunnydanceoldies08.netlify.app/Fatback - Girls On My Mind.mp3",
+   timeCategory: "evening-late",
+    volumeBoost: 0.55,
+    playcount: 0
 },
 
 
@@ -14637,7 +14987,9 @@ volumeBoost:0.40
     artist: "D-Shake",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/D-Shake - Techno Trance Yaaah.mp3",
-      timeCategory: "evening-late"
+    timeCategory: "evening-late",
+    volumeBoost: 0.50,
+    playcount: 0
 },
 
 
@@ -14790,8 +15142,10 @@ volumeBoost:0.40
     artist: "Lovedeluxe ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Lovedeluxe - Here Comes That Sound.mp3",
-  timeCategory: "evening-late"
-
+    timeCategory: "evening-late",
+    quickFade: true,
+    volumeBoost: 0.75,
+    playcount: 0
 },
 
 
@@ -14828,9 +15182,11 @@ volumeBoost:0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Change - You Are My Melody.mp3",
     timeCategory: "evening-late",
-volumeBoost: 0.30,
-quickFade: true
+     quickFade: true,
+    volumeBoost: 0.55,
+    playcount: 0
 },
+
 
 
 
@@ -14840,7 +15196,7 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Skipworth & Turner - Thinkin' about your love.mp3",
   timeCategory: "evening-late",
-volumeBoost: 0.30,
+volumeBoost: 0.50,
  playcount: 0,
 quickFade: true
 },
@@ -14971,7 +15327,7 @@ quickFade: true
     path: "https://sunnydanceoldies08.netlify.app/Quazar - Seven Stars.mp3",
     timeCategory: "evening-late",
      quickFade: true,
-    volumeBoost: 0.15,
+    volumeBoost: 0.45,
     playcount: 0
 },
 
@@ -15166,11 +15522,14 @@ volumeBoost:0.10
     artist: "Full Flava",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Full Flava - Fall.mp3",
-  
-
-
+       quickFade: true,
+    volumeBoost: 0.15,
+    playcount: 0,
   timeCategory: "evening-late"
 },
+
+
+
 
 {
     name: "   Murder On The Dancefloor  ",
@@ -15303,7 +15662,9 @@ volumeBoost:0.10
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Shaggy - Boombastic.mp3",
    timeCategory: "evening-late",
-volumeBoost: 0.30
+   quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
 },
 
 
@@ -16023,7 +16384,15 @@ quickFade: true
 },
 
 
-
+{
+    name: " Freed From Desire (1996)  ",
+    artist: "Gala  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Gala - Freed From Desire (1996).mp3",
+   timeCategory: "evening",
+playcount: 0,
+volumeBoost: 0.40
+},
 
 
 
@@ -16254,13 +16623,7 @@ quickFade: true
       timeCategory: "evening-late"
 },
 
-{
-    name: "    Nothing Left To Loose ",
-    artist: "Everything But The Girl  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Everything But The Girl - Nothing Left To Loose.mp3",
-    timeCategory: "evening"
-},
+
 
 
 
@@ -17342,13 +17705,16 @@ timeCategory: "morning"
 
 
 {
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio☀️",
+     name: " Let Us Groove",
+    artist: "EWF",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/EWF Let's us groove.mp3",
  timeCategory: "evening-late",
-volumeBoost: 0.15
+  quickFade: true,
+    volumeBoost: 0.55,
+    playcount: 0
 },
+
 
 
 
@@ -18267,7 +18633,9 @@ playcount: 0
     artist: "How & Little ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/How & Little - Why Can't We Start Again.mp3",
-   timeCategory: "evening-late"
+   timeCategory: "evening-late",
+    volumeBoost: 0.25,
+    playcount: 0
 },
 
 
@@ -18412,7 +18780,10 @@ playcount: 0
     artist: "Jamiroquaii",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Jamiroquaii - Allright.mp3",
-   timeCategory: "evening-late"
+   timeCategory: "evening-late",
+     quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
 },
 
 
@@ -19083,6 +19454,57 @@ quickFade: true
 
 
 
+{
+     name: " Chained To The Rhythm  ",
+    artist: "Katy Perry ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Katy Perry - Chained To The Rhythm.mp3",
+    timeCategory: " evening-late",
+     quickFade: true,
+    volumeBoost: 0.60,
+    playcount: 0
+},
+
+
+
+
+
+{
+     name: "  Take Over (new)",
+    artist: "Rihanna ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Rihanna - Take Over (new).mp3",
+    timeCategory: " evening-late",
+playcount: 0
+   
+
+
+},
+
+{
+     name: "  Nobody's Girl (new)",
+    artist: "Tate McRae ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Tate McRae - Nobody's Girl (new).mp3",
+    timeCategory: "evening-late",
+playcount: 0
+   
+
+
+},
+
+
+{
+     name: "  Bring Me To Life (new)",
+    artist: "Tiesto  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Tiesto - Bring Me To Life.mp3",
+    timeCategory: " evening-late",
+playcount: 0
+   
+
+
+},
 
 
 
@@ -19505,7 +19927,9 @@ quickFade: true
     artist: "Miley Cyrus & Bebe Rexha  ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Miley Cyrus & Bebe Rexha- Blue.mp3",
-  timeCategory: "afternoon"
+  timeCategory: "afternoon",
+    volumeBoost: 0.45,
+    playcount: 0
 },
 
 
@@ -19562,7 +19986,57 @@ quickFade: true
 
 
 
+{
+     name: " Chained To The Rhythm  ",
+    artist: "Katy Perry ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Katy Perry - Chained To The Rhythm.mp3",
+    timeCategory: "f afternoon",
+     quickFade: true,
+    volumeBoost: 0.55,
+    playcount: 0
+},
 
+
+
+
+
+{
+     name: "  Take Over (new)",
+    artist: "Rihanna ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Rihanna - Take Over (new).mp3",
+    timeCategory: "f afternoon",
+playcount: 0
+   
+
+
+},
+
+{
+     name: "  Nobody's Girl (new)",
+    artist: "Tate McRae ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Tate McRae - Nobody's Girl (new).mp3",
+    timeCategory: "f afternoon",
+playcount: 0
+   
+
+
+},
+
+
+{
+     name: "  Bring Me To Life (new)",
+    artist: "Tiesto  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Tiesto - Bring Me To Life.mp3",
+    timeCategory: "f afternoon",
+playcount: 0
+   
+
+
+},
 
 
 
@@ -19623,9 +20097,10 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Adventures Of Stevie V - Dirty Cash.mp3",
       timeCategory: "f afternoon",
-   volumeBoost: 0.30
+     quickFade: true,
+    volumeBoost: 0.55,
+    playcount: 0
 },
-
 
 
 
@@ -19634,8 +20109,12 @@ quickFade: true
     artist: "Heavy D & The Boyz ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Heavy D & The Boyz - We Got Our Own Thang.mp3",
-      timeCategory: "f afternoon"
- },
+      timeCategory: "f afternoon",
+    quickFade: true,
+    playcount: 0,
+    volumeBoost: 0.55
+},
+
 
 {
     name: " Gorgeous (new)",
@@ -19850,7 +20329,7 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/La Velle - Playgirl.mp3",
       timeCategory: "f afternoon",
-  volumeBoost: 0.55
+  volumeBoost: 0.75
 
 },
 
@@ -20222,14 +20701,7 @@ quickFade: true
 
 
 
-{
-    name: "Mau P ",
-    artist: " Tesla",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
-       timeCategory: "f afternoon",
-quickFade: true
-},
+
 
 
 
@@ -20483,7 +20955,8 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/White  Lines - Grandmaster Flash & the furious five.mp3",
       timeCategory: "f afternoon",
-  volumeBoost: 0.15
+  volumeBoost: 0.25,
+  playcount: 0
 },
 
 {
@@ -20560,7 +21033,7 @@ quickFade: true
     path: "https://sunnydanceoldies08.netlify.app/Quazar - Seven Stars.mp3",
     timeCategory: "f afternoon",
      quickFade: true,
-    volumeBoost: 0.15,
+    volumeBoost: 0.45,
     playcount: 0
 },
 
@@ -20711,7 +21184,9 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Donna Summer - Diner With Gershwin.mp3",
     timeCategory: "f afternoon",
-  volumeBoost: 0.40
+     quickFade: true,
+    volumeBoost: 0.65,
+    playcount: 0
 },
 
 
@@ -20737,8 +21212,9 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Buffalo Stance - Neneh Cherry.mp3",
     timeCategory: "f afternoon",
-    quickFade: true,
-  volumeBoost: 0.35
+     quickFade: true,
+    volumeBoost: 0.65,
+    playcount: 0
 },
 
 
@@ -21302,8 +21778,11 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/KID - Don't Stop.mp3",
    timeCategory: "f evening",
-  volumeBoost: 0.25
+     quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
 },
+
 
 
 
@@ -21330,7 +21809,7 @@ quickFade: true,
      image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Donna Summer - I Feel Love (revisit mix).mp3",
     timeCategory: "f evening",
-  volumeBoost: 0.25
+  volumeBoost: 0.65
 
 },
 
@@ -21760,9 +22239,28 @@ quickFade: true,
 
 
 
+{
+    name: "Turn The Music Up!",
+    artist: "Players Association ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Players Association - Turn The Music Up!.mp3",
+    timeCategory: "f evening",
+    quickFade: true,
+    volumeBoost: 0.55,
+    playcount: 0
+},
 
 
-
+{
+    name: " Fantastic Voyage",
+    artist: "Lakeside  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Lakeside - Fantastic Voyage.mp3",
+    timeCategory: "f evening",
+    quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
+},
 
 
 {
@@ -21783,8 +22281,8 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/RUN DMC - It's Like That.mp3",
      timeCategory: "f evening",
-  volumeBoost: 0.15
-
+  volumeBoost: 0.45,
+    playcount: 0
 
 },
 
@@ -21839,13 +22337,13 @@ quickFade: true,
 
 
 {
-    name: "  Your Love",
+    name: "  Your Love (1981)",
     artist: "Lime ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Lime - Your Love.mp3",
-       timeCategory: "f evening",
-  volumeBoost: 0.25
-
+    timeCategory: "f evening",
+    playcount: 0,
+    volumeBoost: 0.60
 
 },
 
@@ -21959,7 +22457,9 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Dua Lipa - Toxic Love.mp3",
            timeCategory: "f evening",
-  playcount: 0
+      quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
 },
 
 
@@ -21983,7 +22483,9 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Jessie J -  HAPPY.mp3",
            timeCategory: "f evening",
-  playcount: 0
+   quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
 },
 
 
@@ -22058,7 +22560,7 @@ volumeBoost: 0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Selena Gomez - In The Dark.mp3",
            timeCategory: "f evening",
-  volumeBoost: 0.60,
+  volumeBoost: 0.40,
   playcount: 0
 },
 
@@ -22515,7 +23017,7 @@ volumeBoost: 0.70,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Rick James - You and I.mp3",
    timeCategory: "f evening-late",
-   volumeBoost: 0.35,
+   volumeBoost: 0.55,
    quickFade: true,
    playcount: 0
 },
@@ -22534,16 +23036,7 @@ volumeBoost: 0.70,
 
 
 
-{
-     name: "   Toxic Love (new)",
-    artist: "Dua Lipa",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Dua Lipa - Toxic Love.mp3",
-           timeCategory: "f evening-late",
-  playcount: 0,
-volumeBoost: 0.25
 
-},
 
 
 
@@ -22567,7 +23060,9 @@ volumeBoost: 0.25
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Jessie J -  HAPPY.mp3",
            timeCategory: "f evening-late",
-  playcount: 0
+   quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
 },
 
 
@@ -22636,14 +23131,7 @@ volumeBoost: 0.30
 volumeBoost: 0.40
 },
 
-{
-     name: "   In The Dark  ",
-    artist: "Selena Gomez",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Selena Gomez - In The Dark.mp3",
-           timeCategory: "f evening-late",
-  playcount: 0
-},
+
 
 
 
@@ -22656,7 +23144,7 @@ volumeBoost: 0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Stargard - What you waiting for.mp3",
    timeCategory: "f evening-late",
-  volumeBoost: 0.25,
+  volumeBoost: 0.35,
  playcount: 0
 },
 
@@ -22804,12 +23292,14 @@ volumeBoost: 0.40
 
 
 {
-    name: " Is This The Future",
+    name: " Is This The Future (1985)",
     artist: "Fatback ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Fatback - Is This the Future.mp3",
     timeCategory: "f evening-late",
-  volumeBoost: 0.55
+     quickFade: true,
+    volumeBoost: 0.70,
+    playcount: 0
 },
 
 
@@ -22926,13 +23416,6 @@ volumeBoost: 0.40
 },
 
 
-{
-    name: "MK  (12inch) ",
-    artist: " Dior ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/MK - Dior (12inch).mp3",
-       timeCategory: "f evening-late"
-},
 
 
 
@@ -22950,6 +23433,47 @@ quickFade: true
 
 
 
+
+
+
+
+
+{
+     name: "  Take Over (new)",
+    artist: "Rihanna ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Rihanna - Take Over (new).mp3",
+    timeCategory: "f evening-late",
+playcount: 0
+   
+
+
+},
+
+{
+     name: "  Nobody's Girl (new)",
+    artist: "Tate McRae ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Tate McRae - Nobody's Girl (new).mp3",
+    timeCategory: "f evening-late",
+playcount: 0
+   
+
+
+},
+
+
+{
+     name: "  Bring Me To Life (new)",
+    artist: "Tiesto  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Tiesto - Bring Me To Life.mp3",
+    timeCategory: "f evening-late",
+playcount: 0
+   
+
+
+},
 
 
 
@@ -23283,7 +23807,9 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Stardust - Music Sounds Better With You.mp3",
     timeCategory: "f evening-late",
-  volumeBoost: 0.50
+  volumeBoost: 0.80,
+quickFade: true,
+ playcount: 0
 },
 
 
@@ -23600,7 +24126,56 @@ function getTimeBasedVolume() {
 
 
 
+// 🌊 Fade OUT old track (non-blocking)
+function crossfadeFadeOut(audio, duration = 2000) {
+  if (!audio) return;
+  const startVolume = audio.volume;
+  const steps = 30;
+  const stepTime = duration / steps;
+  let step = 0;
+
+  const fade = setInterval(() => {
+    step++;
+    const progress = step / steps;
+    const eased = 1 - Math.pow(1 - progress, 3);
+    audio.volume = startVolume * (1 - eased);
+
+    if (step >= steps) {
+      clearInterval(fade);
+      audio.pause();
+      audio.volume = startVolume; // reset for next use
+    }
+  }, stepTime);
+}
+
+// 🌅 Fade IN new track
+function crossfadeFadeIn(audio, targetVolume = 1, duration = 2000) {
+  audio.volume = 0;
+  const steps = 30;
+  const stepTime = duration / steps;
+  let step = 0;
+
+  const fade = setInterval(() => {
+    step++;
+    const progress = step / steps;
+    const eased = 1 - Math.pow(1 - progress, 3);
+    audio.volume = targetVolume * eased;
+
+    if (step >= steps) {
+      clearInterval(fade);
+      audio.volume = targetVolume;
+    }
+  }, stepTime);
+}
+
+
+
+
+
+
+// ✅ CROSSFADE‑ENABLED LOADTRACK
 let currentTrackIndex = null;
+let curr_track = null;
 
 function loadTrack(index) {
   const track = scheduledMp3Files[index];
@@ -23610,21 +24185,46 @@ function loadTrack(index) {
     return;
   }
 
-  curr_track = new Audio(track.path);
+  // ✅ CROSSFADE LOGIC
+  const oldTrack = curr_track;
+  const shouldCrossfade = track.quickFade === true;
+
+  // Create new track
+  const newTrack = new Audio(track.path);
 
   // 🔊 Volume logic with safe boost handling
   const base = Number(getTimeBasedVolume());
-  const boostRaw = track.volumeBoost;               // could be undefined, string, number
-  const boost = Number(boostRaw);                   // coerce to number
-  const boostSafe = Number.isFinite(boost) ? boost : 0;  // default to 0 if NaN/undefined
+  const boostRaw = track.volumeBoost;
+  const boost = Number(boostRaw);
+  const boostSafe = Number.isFinite(boost) ? boost : 0;
 
   let finalVolume = base + boostSafe;
-  if (!Number.isFinite(finalVolume)) finalVolume = base; // fallback
-  finalVolume = Math.max(0, Math.min(1, finalVolume));   // clamp to [0,1]
+  if (!Number.isFinite(finalVolume)) finalVolume = base;
+  finalVolume = Math.max(0, Math.min(1, finalVolume));
 
-  curr_track.volume = finalVolume;
-  console.log(`🔊 Volume set: base=${base}, boost=${boostSafe}, final=${finalVolume}`);
+  // ✅ CROSSFADE if allowed
+  if (oldTrack && !oldTrack.paused && shouldCrossfade) {
+    console.log("🎚️ Crossfading from old track to new track...");
 
+    newTrack.volume = 0;
+    try {
+      newTrack.play();
+      crossfadeFadeIn(newTrack, finalVolume, 2000);
+      crossfadeFadeOut(oldTrack, 2000);
+    } catch (err) {
+      console.warn("Autoplay blocked:", err);
+      newTrack.volume = finalVolume;
+    }
+  } else {
+    // ✅ Normal behavior
+    newTrack.volume = finalVolume;
+  }
+
+  curr_track = newTrack; // ✅ update global reference
+
+  console.log("Loading track:", track.path);
+
+  // ✅ Metadata fade scheduling
   curr_track.addEventListener("loadedmetadata", () => {
     const duration = curr_track.duration;
     console.log("📀 Metadata loaded for:", track.name);
@@ -23633,12 +24233,12 @@ function loadTrack(index) {
     let fadeTime, fadeStart;
 
     if (track.quickFade) {
-      fadeTime = track.fadeLength || 1500;   
+      fadeTime = track.fadeLength || 1500;
       const buffer = track.endBuffer || 0;
       fadeStart = (duration * 1000) - (fadeTime + buffer);
       console.log(`⚡ Quick fade: ${fadeTime/1000}s, leaving ${buffer/1000}s buffer`);
     } else if (duration > 180) {
-      fadeTime = 2000;  
+      fadeTime = 2000;
       fadeStart = (duration * 1000) - fadeTime;
       console.log("⏱️ Standard fade for track >3min");
     } else {
@@ -23652,7 +24252,7 @@ function loadTrack(index) {
     }
   });
 
-  // Smooth fade-out with ease-out curve
+  // ✅ Smooth fade-out (existing)
   function fadeOut(audio, duration, targetVolume = 0) {
     const startVolume = audio.volume;
     const steps = 30;
@@ -23662,7 +24262,7 @@ function loadTrack(index) {
     const fade = setInterval(() => {
       currentStep++;
       const progress = currentStep / steps;
-      const eased = 1 - Math.pow(1 - progress, 3); // ease-out
+      const eased = 1 - Math.pow(1 - progress, 3);
       audio.volume = startVolume - (startVolume - targetVolume) * eased;
 
       if (currentStep >= steps) {
@@ -23672,123 +24272,49 @@ function loadTrack(index) {
     }, stepTime);
   }
 
-  // Optional: matching fade-in
-  function fadeIn(audio, duration, targetVolume = 1.0) {
-    const startVolume = audio.volume;
-    const steps = 30;
-    const stepTime = duration / steps;
-    let currentStep = 0;
-
-    const fade = setInterval(() => {
-      currentStep++;
-      const progress = currentStep / steps;
-      const eased = 1 - Math.pow(1 - progress, 3); // ease-out
-      audio.volume = startVolume + (targetVolume - startVolume) * eased;
-
-      if (currentStep >= steps) {
-        clearInterval(fade);
-        audio.volume = targetVolume;
-      }
-    }, stepTime);
-  }
-
+  // ✅ Playcount ritual
   curr_track.addEventListener("play", () => {
     track.playcount = Number(track.playcount) || 0;
     track.playcount++;
-    console.log(
-      "🎧 Playcount updated:", track.name,
-      "| Total plays:", computeTotalPlays()
-    );
+    console.log("🎧 Playcount updated:", track.name, "| Total plays:", computeTotalPlays());
   });
 
-  // ✅ Ensure `curr_track` exists before proceeding
-  if (!curr_track) {
-    console.error("Error: `curr_track` is undefined!");
-    return;
-  }
-
-  console.log("Loading track:", scheduledMp3Files[index].path);
-
-  // ✅ Update track details
-  track_art.style.backgroundImage = "url(" + scheduledMp3Files[index].image + ")";
-  track_name.textContent = scheduledMp3Files[index].name;
-  track_artist.textContent = scheduledMp3Files[index].artist;
+  // ✅ UI updates
+  track_art.style.backgroundImage = "url(" + track.image + ")";
+  track_name.textContent = track.name;
+  track_artist.textContent = track.artist;
   now_playing.textContent = "PLAYING " + (index + 1) + " OF " + scheduledMp3Files.length;
 
-  // ✅ Ensure seek timer is reset
+  // ✅ Seek timer
   clearInterval(updateTimer);
   updateTimer = setInterval(seekUpdate, 1000);
 
-  // ✅ Move to next track when current finishes playing
+  // ✅ Next track
   curr_track.addEventListener("ended", nextTrack);
 
-  // ✅ Apply random background color
+  // ✅ Background color
   random_bg_color();
 
-  // ✅ Load track before applying event listeners
+  // ✅ Load track
   curr_track.load();
 
-  function incrementPlayCount(track) {
-    track.playcount = (track.playcount || 0) + 1;
-  }
-  incrementPlayCount(track);
-
+  // ✅ Highlight in playlist
   curr_track.addEventListener("canplay", () => {
     const allTracks = document.querySelectorAll('ul li');
-    if (!allTracks || allTracks.length === 0) {
-      console.warn("No track items found in DOM—did you forget to render them?");
-      return;
-    }
-    allTracks.forEach(track => track.classList.remove('blinking'));
+    if (!allTracks || allTracks.length === 0) return;
+
+    allTracks.forEach(t => t.classList.remove('blinking'));
     if (index >= 0 && index < allTracks.length) {
-      console.log("Highlighting track via autoplay:", allTracks[index]);
       allTracks[index].classList.add('blinking');
-    } else {
-      console.warn(`Track index ${index} is out of bounds for DOM tracks (${allTracks.length} items found).`);
     }
   });
 
-  // ✅ Ensure dynamic volume balancing applies after full load
+  // ✅ Dynamic volume balancing
   curr_track.addEventListener("canplaythrough", () => {
     console.log("✅ canplaythrough event fired—applying volume adjustment...");
     adjustVolumeDynamically(curr_track);
   });
 }
-
-// Sorting and rendering playcounts (unchanged)
-const sortedByPlaycount = [...scheduledMp3Files].sort((a, b) => b.playcount - a.playcount);
-console.log("Sorted by playcount:", sortedByPlaycount.map(t => `${t.name}: ${t.playcount}`));
-
-function renderSortedPlaycounts() {
-  const container = document.getElementById("track-list-container");
-  container.innerHTML = "";
-  sortedByPlaycount.forEach(track => {
-    const li = document.createElement("li");
-    li.textContent = `${track.name}: ${track.playcount || 0}`;
-    container.appendChild(li);
-  });
-}
-renderSortedPlaycounts();
-
-console.log("Playcount Order:", scheduledMp3Files.map(t => `${t.name}: ${t.playcount}`));
-console.log("Playcounts:", scheduledMp3Files.map(t =>
-  `${t.name}: ${typeof t.playcount === "number" ? t.playcount : 0}`
-));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -24138,6 +24664,9 @@ function myFunction1() {
  $('.btn').click(function () {
             $(this).toggleClass("click");
         });
+
+
+
 
 
 
