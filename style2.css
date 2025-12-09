@@ -553,16 +553,45 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
 #uitzinnig  {  display: block; margin: auto;  height: 400px;
 }
 
-#track-list-container {  font-size: 15px; color: #FF0000; font-family: Arial ,Helvetica,sans-serif;
- margin-left: 0px ; background:linear-gradient(45deg,#0033FF,#006666,#003399);     border-radius: 12px;  border: solid 3px #FF0000; font-weight:800; padding: 15px;line-height: 1.5;letter-spacing: 0.5px;box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-transition: all 0.3s ease; z-index:0;
-
-
-
- visibility: visible; position: relative; /* Required for z-index to work */
-
- /* Modify based on layering needs */
+/* Base styling */
+#track-list-container {
+  font-size: 15px;
+  color: #FF0000;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 0;
+  background: linear-gradient(45deg, #0033FF, #006666, #003399);
+  border-radius: 12px;
+  border: solid 3px #FF0000;
+  font-weight: 800;
+  padding: 15px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden; /* important for slide effect */
 }
+
+#track-list-container.is-hidden {
+  max-height: 0;
+  opacity: 0;
+  visibility: hidden;   /* ensures it’s not focusable/clickable */
+}
+
+#track-list-container.is-visible {
+  max-height: 800px;    /* adjust to fit your playlist */
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+
+
+
+
+
+
 
 #track-list-container em {
   background-color: #fff8dc;
@@ -604,8 +633,8 @@ z-index:200;
 
 
 
-#show-more-button {  font-size: 15px; color: #FF0000; font-family: Arial ,Helvetica,sans-serif; display:block;
-z-index: -200;  margin: -15px auto auto auto ; background:linear-gradient(45deg,#0033FF,#006666,#003399);     border-radius: 5px;   font-weight:800;font-optical-sizing: auto; padding: -5px;  visibility: visible;
+#show-more-button {  font-size: 14px; color: #FF0000; font-family: Arial ,Helvetica,sans-serif; display:block;
+z-index: -800;  margin: -15px auto auto auto ; background:linear-gradient(45deg,#0033FF,#006666,#003399);     border-radius: 5px;   font-weight:800;font-optical-sizing: auto; padding: -5px;  visibility: visible;filter: brightness(100%) saturate(100%) contrast(100%) opacity(95%); border: solid 1px #FFD300;
 }
 
 
@@ -947,7 +976,8 @@ width: 355px; height: 370px;
 
 
 
-#playlist  {    width: 125px;  height: 120px;filter: brightness(100%) saturate(100%) contrast(100%) opacity(40%); transform: rotate(0deg); z-index: -800; margin: -10px auto -15px auto; display: block; 
+#playlist  {    width: 125px;  height: 120px;filter: brightness(100%) saturate(100%) contrast(100%) opacity(50%); transform: rotate(0deg); z-index: -200; margin: -30px auto 15px auto; display: block; border-radius: 5px; border: solid 5px #FFD300 ;
+
 
 
 }
@@ -955,6 +985,10 @@ width: 355px; height: 370px;
 
 
 
+#playlist:hover {
+  transform: scale(1.15); /* slight zoom forward */
+  box-shadow: 0 0 16px rgba(10, 61, 98, 0.6); /* stronger glow */
+}
 
 
 .blinking {

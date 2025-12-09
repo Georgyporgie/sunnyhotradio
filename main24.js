@@ -1085,9 +1085,11 @@ timeCategory: "morning",
     artist: "Robin S ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Robin S - Love For Love.mp3",
-  playcount: 0,
-timeCategory: "morning"
+     quickFade: true,
+    volumeBoost: 0.25,
+    playcount: 0
 },
+
 
 {
     name: "   Automatic",
@@ -3564,8 +3566,11 @@ volumeBoost: 0.30
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Kenny Burke - Risin to the Top.mp3",
            timeCategory: "morning",
-volumeBoost: 0.20
+     quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
 },
+
 
 
 
@@ -3628,8 +3633,11 @@ volumeBoost: 0.35
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Deee-Lite - Groove Is In The Heart.mp3",
         timeCategory: "morning",
-volumeBoost: 0.25
+     quickFade: true,
+    volumeBoost: 0.55,
+    playcount: 0
 },
+
 
 
 
@@ -4579,7 +4587,9 @@ timeCategory: "morning"
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Depeche mode- People are people.mp3",
            timeCategory: "morning",
-volumeBoost: 0.35
+     quickFade: true,
+    volumeBoost: 0.40,
+    playcount: 0
 },
 
 
@@ -9090,7 +9100,7 @@ quickFade: true
     path: "https://sunnydanceoldies09.netlify.app/Gino Soccio - Try It Out (maxi).mp3",
     timeCategory: "afternoon",
      quickFade: true,
-    volumeBoost: 0.35,
+    volumeBoost: 0.75,
     playcount: 0
 },
 
@@ -14617,7 +14627,9 @@ timeCategory: " evening-late"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 05.mp3",
 timeCategory: "evening-late",
-volumeBoost: 0.25
+     quickFade: true,
+    volumeBoost: 0.25,
+    playcount: 0
 },
 
 
@@ -19817,7 +19829,7 @@ playcount: 0
     path: "https://sunnydanceoldies04.netlify.app/Daft Punk - Get Lucky.mp3",
   timeCategory: "evening-late",
      quickFade: true,
-    volumeBoost: 0.15,
+    volumeBoost: 0.45,
     playcount: 0
 },
 
@@ -24661,7 +24673,19 @@ function myFunction1() {
 
 
 
- $('.btn').click(function () {
+ 
+
+
+
+
+
+
+
+
+
+
+
+$('.btn').click(function () {
             $(this).toggleClass("click");
         });
 
@@ -24669,6 +24693,38 @@ function myFunction1() {
 
 
 
+
+
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.getElementById("show-more-button");
+  const trackListContainer = document.getElementById("track-list-container");
+
+  let visibleCount = 0;
+  const groupSize = 20;
+
+  function updateVisibleTracks() {
+    const tracks = trackListContainer.querySelectorAll("li");
+    if (!tracks || tracks.length === 0) return; // nothing yet
+    tracks.forEach((track, index) => {
+      track.style.display = index < visibleCount ? "block" : "none";
+    });
+  }
+
+  // start hidden
+  trackListContainer.style.display = "none";
+
+  btn.addEventListener("click", () => {
+    visibleCount += groupSize;
+    trackListContainer.style.display = "block";
+    updateVisibleTracks();
+  });
+});
 
 
 

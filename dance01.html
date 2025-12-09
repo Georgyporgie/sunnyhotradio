@@ -341,6 +341,10 @@ document.addEventListener("DOMContentLoaded", scheduleHourlyFlash);
 <br>
 <br>
 <br>
+<br>
+
+  <br>
+<br>
   <br>
 <br>
 <br>
@@ -1933,6 +1937,23 @@ function resetPlayCountsCeremony(threshold = 5) {
 }
 
 
+
+function initializePlayCounts(tracks) {
+  tracks.forEach(track => {
+    // If playcount is missing or not numeric, set it to 0
+    if (typeof track.playcount !== "number") {
+      track.playcount = 0;
+    }
+  });
+}
+
+
+function filterMp3ByTimeCategory(mp3Files, timeCategory) {
+    return mp3Files.filter(mp3 => mp3.timeCategory === timeCategory);
+}
+
+
+
 // ── Midnight Ritual ──
 function scheduleMidnightReset() {
   const now = new Date();
@@ -1950,7 +1971,7 @@ function scheduleMidnightReset() {
 }
 
 // ── Startup ──
-initializePlayCounts(trackList);
+
 scheduleMidnightReset();
 
 </script>
