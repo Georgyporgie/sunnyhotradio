@@ -24666,13 +24666,6 @@ function myFunction1() {
         });
 
 
-if (!trackList.classList.contains("show")) {
-  trackList.classList.add("show");
-  showMoreButton.textContent = "show less";
-} else {
-  trackList.classList.remove("show");
-  showMoreButton.textContent = "show more";
-}
 
 
 
