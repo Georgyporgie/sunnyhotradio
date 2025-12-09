@@ -320,7 +320,10 @@ float: right; margin-right: 20px;z-index: -210;font-size: 20px;color:crimson; bo
 }
 
 
-
+#studio:hover {
+  transform: scale(1.40); /* slight zoom forward */
+  /* stronger glow */
+}
 
 
 .balk  {  border: solid 4px #FFCC99;  z-index: -400;
