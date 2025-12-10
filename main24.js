@@ -23900,6 +23900,7 @@ quickFade: true,
 // 3. Logic
 function loadPlaylistForCategory(category) {
   const playlist = shuffle(trackList.filter(track => track.timeCategory === category));
+console.log("▶ Now playing category:", category, "Playlist:", playlist.map(t => t.name));
 
   // Here you’d actually start playback
 }
