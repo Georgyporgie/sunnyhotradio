@@ -5266,7 +5266,9 @@ volumeBoost: 0.30
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Adamski, Seal- Killer (1990).mp3",
       timeCategory: "afternoon",
-  volumeBoost: 0.20
+     quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
 },
 
 
@@ -15000,7 +15002,7 @@ volumeBoost:0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/D-Shake - Techno Trance Yaaah.mp3",
     timeCategory: "evening-late",
-    volumeBoost: 0.50,
+    volumeBoost: 0.60,
     playcount: 0
 },
 
@@ -17609,14 +17611,7 @@ quickFade: true,
 
 
 
-{
-    name: " Blackberries ",
-    artist: "Fischer Bbyclose",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/Fischer Bbyclose - Blackberries (maxi).mp3",
 
-       timeCategory: "afternoon"
-},
 
 
 
@@ -24394,38 +24389,6 @@ function playTrack() {
   playpause_btn.innerHTML = '<img id="media" src="images/pause66.gif">';
 
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
 
  
  // Highlight the current track in the playlist
