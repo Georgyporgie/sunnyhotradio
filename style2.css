@@ -556,10 +556,15 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
 /* Base styling */
 #track-list-container {
   font-size: 15px;
-  color: #FF0000;
-  font-family: Arial, Helvetica, sans-serif;
+color: #E53935;
+background:linear-gradient(45deg,#0033FF,#006666,#003399);  
+ text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+  box-shadow: 0 0 12px rgba(0,0,0,0.4);
+
+
+font-family: Arial, Helvetica, sans-serif;
   margin-left: 0;
-  background: linear-gradient(45deg, #0033FF, #006666, #003399);
+  
   border-radius: 12px;
   border: solid 3px #FF0000;
   font-weight: 800;
