@@ -712,7 +712,9 @@ color: #000080; z-index: 200; text-align: center; font-family: myEvent; padding:
 }
 
 #now  {
-color: #414a4c; z-index: -750; text-align: center; font-family: myMuss;  font-size: 15px; font-weight:300;background:linear-gradient(90deg,#CCCCCC,white,#e0e0e0);padding: 5px 5px 5px 5px;
+color: #414a4c;
+
+  ; z-index: -750; text-align: center; font-family: myMuss;  font-size: 15px; font-weight:300;background:linear-gradient(90deg,#CCCCCC,white,#e0e0e0);padding: 5px 5px 5px 5px;
 transition: all 0.3s ease-in-out; border-radius:5px;
 
 
@@ -1271,7 +1273,7 @@ filter: brightness(100%) saturate(105%) contrast(100%)opacity (70%);
 
 .new-tag {
   font-weight: bold;
-  color: gold; z-index: 200;
+  color: gold;
 }
 
 .blinking-star {

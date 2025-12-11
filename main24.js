@@ -1114,8 +1114,7 @@ volumeBoost: 0.30
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Gwen Guthrie- Ain't Nothing Goin' On But The Rent.mp3",
   timeCategory: "morning",
-  playcount: 0,
-year: 1986
+  playcount: 0
 },
 
 
@@ -1192,8 +1191,8 @@ timeCategory: "morning",
     path: "https://sunnydanceoldies02.netlify.app/808 state - Pacific State.mp3",
         playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.30,
- year:1989
+  volumeBoost: 0.30
+ 
 },
 
 
@@ -1220,8 +1219,7 @@ timeCategory: "morning",
     path: "https://sunnydanceoldies01.netlify.app/Pet Shop Boys - West End Girls (10'' Mix).mp3",
    playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.35,
-year:1984
+  volumeBoost: 0.35
 },
 
 
@@ -1305,9 +1303,8 @@ timeCategory: "morning",
     artist: "Princess  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Princess - Say I'm Your Number One.mp3",
-     timeCategory: "morning",
- year:1985
-},
+     timeCategory: "morning"
+ },
 
 
 
@@ -1339,8 +1336,7 @@ timeCategory: "morning",
     path: "https://sunnydanceoldies08.netlify.app/Rod Stewarrt - Da Ya Think I'm Sexy.mp3",
   playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.10,
-year: 1978
+  volumeBoost: 0.10
 },
 
 
@@ -1519,7 +1515,7 @@ timeCategory: "morning",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/The far out monster orchestra - Black sun.mp3",
   
-year: 1978,
+
         playcount: 0,
 timeCategory: "morning",
   volumeBoost: 0.15
@@ -1655,8 +1651,8 @@ timeCategory: "morning",
     path: "muziek/oldies07/2 Live Crew - Me So H.mp3",
    playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.50,
-year: 1989
+  volumeBoost: 0.50
+
 
 },
 
@@ -1714,8 +1710,7 @@ timeCategory: "morning",
     path: "https://sunnydanceoldies05.netlify.app/Luther Vandross - Stop To Love.mp3",
        playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.30,
-year: 1986
+  volumeBoost: 0.30
 },
 
 
@@ -1770,8 +1765,8 @@ timeCategory: "morning",
     path: "https://sunnydanceoldies05.netlify.app/Yarbrough & Peoples - Don't Stop The Music.mp3",
       playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.30,
-year:1980
+  volumeBoost: 0.30
+
 },
 
 
@@ -7485,7 +7480,16 @@ playcount: 0
 },
 
 
-
+{
+     name: " Chained To The Rhythm  ",
+    artist: "Katy Perry ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Katy Perry - Chained To The Rhythm.mp3",
+    timeCategory: "afternoon",
+     quickFade: true,
+    volumeBoost: 0.55,
+    playcount: 0
+},
 
 
 
@@ -7820,11 +7824,7 @@ playcount: 0
     artist: "Stu Air ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Stu Air - Dream Of You.mp3",
-     timeCategory: "afternoon",
-   isLoud: true,          
-  loudnessValue: 0.90,    
-     quickFade: true,
-        playcount: 0
+     timeCategory: "afternoon"
 },
 
 {
@@ -19465,6 +19465,16 @@ quickFade: true
 
 
 
+{
+     name: " Chained To The Rhythm  ",
+    artist: "Katy Perry ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Katy Perry - Chained To The Rhythm.mp3",
+    timeCategory: " evening-late",
+     quickFade: true,
+    volumeBoost: 0.60,
+    playcount: 0
+},
 
 
 
@@ -23862,35 +23872,6 @@ quickFade: true,
 
 
 
-
-
-
-{
-    name: " Don't Stop (1980)",
-    artist: "Yarbrough & Peoples  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Yarbrough & Peoples - Don't Stop The Music.mp3",
-      playcount: 0,
-timeCategory: "y-afternoon",
-  volumeBoost: 0.30,
-year:1980
-},
-
-
-
-{
-    name: "Stop To Love (1986) ",
-    artist: "Luther Vandross ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Luther Vandross - Stop To Love.mp3",
-       playcount: 0,
-timeCategory: "y-afternoon",
-  volumeBoost: 0.30,
-year: 1986
-},
-
-
-
 ];
 
 
@@ -24674,7 +24655,7 @@ const jingleFolders = [
   "discjockeys",
   "effects",
   "games",
-  "audio"
+"audio"
 ];
 
 const getName = t => (t?.name || t?.title || t?.filename || String(t)).trim();
@@ -24691,39 +24672,13 @@ const jingles = trackList.filter(t => {
   );
 });
 
-// Deduplicate helper with logging
-function dedupeTracks(tracks) {
-  const seen = new Set();
-  const duplicates = [];
-
-  const unique = tracks.filter(t => {
-    const key = `${getName(t)}-${getPath(t)}`;
-    if (seen.has(key)) {
-      duplicates.push(getName(t));
-      return false;
-    }
-    seen.add(key);
-    return true;
-  });
-
-  // Log duplicates
-  if (duplicates.length > 0) {
-    console.log("Duplicates removed:", duplicates);
-  } else {
-    console.log("No duplicates found.");
-  }
-chained
-  return unique;
-}
-
-// Real tracks are everything else, deduped
-const realTracks = dedupeTracks(
-  trackList.filter(t => !jingles.includes(t))
-);
+// Real tracks are everything else
+const realTracks = trackList.filter(t => !jingles.includes(t));
 
 console.log("Total tracks:", totalTracks);
 console.log("Number of jingles/non-music:", jingles.length);
-console.log("Number of real tracks (deduped):", realTracks.length);
+console.log("Number of real tracks:", realTracks.length);
+console.log("Real track list:", realTracks.map(getName));
 
 
 
@@ -24731,52 +24686,6 @@ console.log("Number of real tracks (deduped):", realTracks.length);
 
 
 
-
-// 1975–1980 retro show
-const seventiesShow = getFilteredPlaylist(tracklist, "y-afternoon", 1980, 1989);
-
-// 1990–1999 throwback
-const ninetiesShow = getFilteredPlaylist(tracklist, "party", 1990, 1999);
-
-// 2020–2025 fresh cuts
-const freshShow = getFilteredPlaylist(tracklist, "y-evening-late", 2020, 2025);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function getFilteredPlaylist(tracks, timeCategory, minYear = 1900, maxYear = 2025) {
-  return tracks.filter(track => {
-    const year = parseInt(track.year);
-    const validYear = isNaN(year) || (year >= minYear && year <= maxYear);
-
-    // Match timeCategory (broad or custom tags)
-    const validTimeCategory = !timeCategory || 
-      (Array.isArray(track.timeCategory)
-        ? track.timeCategory.includes(timeCategory)
-        : track.timeCategory === timeCategory);
-
-    return validYear && validTimeCategory;
-  });
-}
-
-// Example: get all tracks tagged "w-afternoon"
-const warmAfternoonPlaylist = getFilteredPlaylist(tracklist, "y-afternoon");
-console.log("Warm Afternoon Playlist:", warmAfternoonPlaylist);
-
-// Example: get all tracks tagged "night"
-const nightPlaylist = getFilteredPlaylist(tracklist, "night");
-console.log("Night Playlist:", nightPlaylist);
 
 
 
@@ -24785,34 +24694,19 @@ document.addEventListener("DOMContentLoaded", () => {
   const btn = document.getElementById("show-more-button");
   const trackListContainer = document.getElementById("track-list-container");
 
-  if (!btn || !trackListContainer) {
-    console.warn("Show more: button or container not found");
-    return;
-  }
-
   let visibleCount = 0;
   const groupSize = 20;
 
   function updateVisibleTracks() {
     const tracks = trackListContainer.querySelectorAll("li");
-    if (tracks.length === 0) {
-      // If list is empty, keep container hidden and show button
-      trackListContainer.style.display = "none";
-      btn.style.display = "inline-block";
-      return;
-    }
-
+    if (!tracks || tracks.length === 0) return; // nothing yet
     tracks.forEach((track, index) => {
-      track.style.display = index < visibleCount ? "list-item" : "none";
+      track.style.display = index < visibleCount ? "block" : "none";
     });
-
-    // Hide button when all are visible
-    btn.style.display = visibleCount >= tracks.length ? "none" : "inline-block";
   }
 
-  // Start with first batch visible if items already exist
-  visibleCount = groupSize;
-  updateVisibleTracks();
+  // start hidden
+  trackListContainer.style.display = "none";
 
   btn.addEventListener("click", () => {
     visibleCount += groupSize;
@@ -24820,4 +24714,8 @@ document.addEventListener("DOMContentLoaded", () => {
     updateVisibleTracks();
   });
 });
+
+
+
+
 
