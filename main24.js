@@ -14869,7 +14869,7 @@ volumeBoost: 0.25
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
    path: "https://sunnydanceoldies08.netlify.app/Fatback - Girls On My Mind.mp3",
    timeCategory: "evening-late",
-    volumeBoost: 0.55,
+    volumeBoost: 0.65,
     playcount: 0
 },
 
@@ -15478,7 +15478,11 @@ volumeBoost: 0.40
     artist: "Aphex Twin ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Aphex Twin - Polynomial C.mp3",
-   timeCategory: "evening-late"
+   timeCategory: "evening-late",
+   isLoud: true,          
+  loudnessValue: 0.62,    
+     quickFade: true,
+        playcount: 0
 },
 
 
@@ -15677,7 +15681,7 @@ volumeBoost:0.10
     path: "https://danceoldies08.netlify.app/Shaggy - Boombastic.mp3",
    timeCategory: "evening-late",
    quickFade: true,
-    volumeBoost: 0.45,
+    volumeBoost: 0.55,
     playcount: 0
 },
 
@@ -22510,23 +22514,8 @@ volumeBoost: 0.30
 },
 
 
-{
-     name: " I LIke Ur Look    (new)",
-    artist: "Kim Petras    ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Kim Petras  - I LIke Ur Look.mp3",
-           timeCategory: "f evening",
-  playcount: 0
-},
 
-{
-     name: " I LIke Ur Look    (new)",
-    artist: "Kim Petras    ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Kim Petras  - I LIke Ur Look.mp3",
-           timeCategory: "f evening",
-  playcount: 0
-},
+
 
 
 {
@@ -23096,14 +23085,6 @@ volumeBoost: 0.30
   playcount: 0
 },
 
-{
-     name: " I LIke Ur Look    (new)",
-    artist: "Kim Petras    ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Kim Petras  - I LIke Ur Look.mp3",
-           timeCategory: "f evening-late",
-  playcount: 0
-},
 
 
 {
@@ -24210,6 +24191,18 @@ function loadTrack(index) {
   if (!Number.isFinite(finalVolume)) finalVolume = base;
   finalVolume = Math.max(0, Math.min(1, finalVolume));
 
+  // ✅ Loudness tagging (natural vs boosted)
+  const loudThreshold = 0.9;
+  track.loudnessValue = finalVolume;
+  track.isLoud = finalVolume >= loudThreshold;
+  track.wasBoosted = boostSafe > 0;
+
+  if (track.isLoud) {
+    console.warn(
+      `🚨 Loud track tagged: ${track.name} | Boosted? ${track.wasBoosted} | Volume: ${finalVolume}`
+    );
+  }
+
   // ✅ CROSSFADE if allowed
   if (oldTrack && !oldTrack.paused && shouldCrossfade) {
     console.log("🎚️ Crossfading from old track to new track...");
@@ -24323,9 +24316,6 @@ function loadTrack(index) {
     adjustVolumeDynamically(curr_track);
   });
 }
-
-
-
 
 
 
@@ -24654,6 +24644,41 @@ $('.btn').click(function () {
         });
 
 
+
+// Keywords/folders you want to treat as jingles or non-music
+const jingleFolders = [
+  "jingle",
+  "sunny ship",
+  "voiceover",
+  "pirate background",
+  "reklame",
+  "discjockeys",
+  "effects",
+  "games",
+"audio"
+];
+
+const getName = t => (t?.name || t?.title || t?.filename || String(t)).trim();
+const getPath = t => (t?.path || "").trim().toLowerCase();
+
+const totalTracks = trackList.length;
+
+// Jingles: check if name or path contains any keyword
+const jingles = trackList.filter(t => {
+  const name = getName(t).toLowerCase();
+  const path = getPath(t);
+  return jingleFolders.some(keyword =>
+    name.includes(keyword) || path.includes(keyword)
+  );
+});
+
+// Real tracks are everything else
+const realTracks = trackList.filter(t => !jingles.includes(t));
+
+console.log("Total tracks:", totalTracks);
+console.log("Number of jingles/non-music:", jingles.length);
+console.log("Number of real tracks:", realTracks.length);
+console.log("Real track list:", realTracks.map(getName));
 
 
 
