@@ -603,7 +603,7 @@ volumeBoost:0.50
 
 
 {
-     name: " Live Manchester (2023) ",
+     name: " Live Manchester  ",
     artist: "Sonny Fodera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023).mp3",
@@ -615,7 +615,7 @@ volumeBoost:0.50
 
 
 {
-     name: " Live Manchester (2023) ",
+     name: " Live Manchester  ",
     artist: "Sonny Fodera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 02.mp3",
@@ -628,7 +628,7 @@ volumeBoost:0.50
 
 
 {
-     name: " Live Manchester (2023) ",
+     name: " Live Manchester  ",
     artist: "Sonny Fodera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 03.mp3",
@@ -639,7 +639,7 @@ volumeBoost:0.50
 
 
 {
-     name: " Live Manchester (2023) ",
+     name: " Live Manchester  ",
     artist: "Sonny Fodera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 04.mp3",
@@ -649,7 +649,7 @@ volumeBoost:0.50
 
 
 {
-     name: " Live Manchester (2023) ",
+     name: " Live Manchester  ",
     artist: "Sonny Fodera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 05.mp3",
@@ -11682,7 +11682,7 @@ volumeBoost: 0.10
     path: "https://sunnydanceoldies03.netlify.app/James Bond - Bond theme 77.mp3",
     timeCategory: "evening",
     quickFade: true,
-    volumeBoost: 0.40,
+    volumeBoost: 0.50,
 playcount: 0
 },
 
@@ -11946,7 +11946,7 @@ timeCategory: "evening",
      timeCategory: "evening"
 },
 
-,
+
 
 
 
@@ -14772,13 +14772,15 @@ volumeBoost: 0.25
 
 {
     name: "    Dance (Do What You Wanna Do) ",
-    artist: "Sun  ",
+    artist: " The Sun  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Sun - Dance (Do What You Wanna Do).mp3",
  timeCategory: "evening-late",
-
+   isLoud: true,          
+  loudnessValue: 0.72,    
+     quickFade: true,
+        playcount: 0
 },
-
 
 
 
@@ -15995,15 +15997,6 @@ volumeBoost: 0.20
 
 
 
-
-{
-    name: "Closer To The Floor",
-    artist: "Jazzy & Ankhoï",
-     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic07.netlify.app/Jazzy & Ankhoï - Closer To The Floor.mp3",
-     timeCategory: "morning",
-quickFade: true 
-},
 
 
 
@@ -17979,6 +17972,19 @@ timeCategory: "morning"
 
 
 
+
+
+
+{
+    name: "   You And I ",
+    artist: "Rick James ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Rick James - You and I.mp3",
+   timeCategory: "evening-late",
+   volumeBoost: 0.55,
+   quickFade: true,
+   playcount: 0
+},
 
 
 
@@ -23004,19 +23010,6 @@ volumeBoost: 0.70,
 
 
 
-
-
-
-{
-    name: "   You And I ",
-    artist: "Rick James ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Rick James - You and I.mp3",
-   timeCategory: "f evening-late",
-   volumeBoost: 0.55,
-   quickFade: true,
-   playcount: 0
-},
 
 
 
