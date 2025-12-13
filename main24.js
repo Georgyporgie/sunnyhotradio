@@ -2792,16 +2792,6 @@ quickFade: true
 
 
 
-{
-    name: "In The Dark",
-    artist: "Purple Disco Machine ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Purple disco machine - in the Dark.mp3",
-       timeCategory: "morning"
-
-
-},
-
 
 
 
@@ -3471,20 +3461,6 @@ volumeBoost: 0.10
 
 
 
-
-
-
-{
-    name: "Obsessed",
-    artist: "Calvin Harris ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Calvin Harris - Obsessed.mp3",
-    timeCategory: "morning"
-
-
-},
-
-
 {
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️",
@@ -3627,13 +3603,6 @@ volumeBoost: 0.45
 
 
 
-{
-    name: "Taste Of You",
-    artist: "Rezz",
-     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Rezz - Taste of you.mp3",
-        timeCategory: "morning"
-},
 
 
 
@@ -4421,14 +4390,6 @@ timeCategory: "morning"
 
 
 
-{
-     name: "A Pain That I'm Used To",
-    artist: "Depeche Mode",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/A Pain That I'm Used To (Jacques Lu Cont Remix).mp3",
- timeCategory: "morning",
-volumeBoost: 0.35
-},
 
 
 
@@ -4499,13 +4460,7 @@ volumeBoost: 0.35
 
 
 
-{
-    name: "Alice",
-    artist: "Lady Gaga   ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Lady Gaga - Alice.mp3",
-           timeCategory: "morning"
-},
+
 
 
 
@@ -5202,15 +5157,6 @@ quickFade: true,
 
 
 
-
-{
-    name: "What Is Love",
-    artist: "Deeelite ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Deeelite - What Is Love.mp3",
-      timeCategory: "morning",
-   volumeBoost: 0.15
-},
 
 
 
@@ -6287,17 +6233,6 @@ volumeBoost: 0.30
 
 
 
-
-
-
-{
-    name: "On The Beat (1980)",
-    artist: "BB & Q Band ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/BB Q Band - On the Beat.mp3",
-    timeCategory: "afternoon",
-volumeBoost: 0.30
-},
 
 
 
@@ -9419,16 +9354,6 @@ quickFade: true
 
 
 
-{
-     name: " Can t Fake The Feeling",
-    artist: "Geraldine Hunt ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Geraldine Hunt - Can t Fake The Feeling.mp3",
-    timeCategory: "afternoon",
-     quickFade: true,
-    volumeBoost: 0.95,
-    playcount: 0
-},
 
 
 
@@ -14095,7 +14020,7 @@ quickFade: true
     path: "https://sunnydancemusic07.netlify.app/Donna Summer - I Feel Love (revisit mix).mp3",
     timeCategory: "evening-late",
     quickFade: true,
-volumeBoost: 0.65
+volumeBoost: 0.85
 },
 
 
@@ -20442,14 +20367,6 @@ playcount: 0
 
 
 
-{
-    name: "Taste Of You",
-    artist: "Rezz",
-     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Rezz - Taste of you.mp3",
-       timeCategory: "f afternoon"
-
-},
 
 
 
@@ -22096,15 +22013,7 @@ quickFade: true,
 },
 
 
-{
-    name: "I Feel Love (revisit mix)",
-    artist: "Donna Summer ",
-     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic07.netlify.app/Donna Summer - I Feel Love (revisit mix).mp3",
-    timeCategory: "f evening",
-  volumeBoost: 0.65
 
-},
 
 
 
@@ -23144,7 +23053,7 @@ volumeBoost: 0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Katy Perry - Nirvana.mp3",
  timeCategory: "f evening-late",
-volumeBoost: 0.70,
+volumeBoost: 0.80,
  
  playcount: 0
 },
@@ -24652,6 +24561,10 @@ function playTrack() {
       });
     });
   }
+ // 🔹 Playcount integration
+  if (tracks[track_index]) {
+    onTrackStart(tracks[track_index]); // call here
+  }
 }
 
 function formatTime(seconds) {
@@ -24665,10 +24578,55 @@ function formatTime(seconds) {
 
 
 
+function renderProgram() {
+  const programList = document.getElementById("programList");
+  programList.innerHTML = "";
+
+  tracks.forEach((track, index) => {
+    // Sync playcount from LocalStorage
+    track.playcount = getPlayCount(track.name);
+
+    const li = document.createElement("li");
+    li.innerHTML = `
+      <strong>${track.name}</strong> by ${track.artist}
+      <span class="playcount">(Playcount: ${track.playcount})</span>
+    `;
+
+    // Clicking starts playback and increments playcount
+    li.addEventListener("click", () => {
+      track_index = index;       // set current index
+      curr_track = new Audio(track.path); // load audio
+      playTrack();               // your existing playTrack function
+    });
+
+    programList.appendChild(li);
+  });
+}
 
 
 
 
+
+function onTrackStart(track) {
+  // bump the persistent tally
+  const plays = incrementPlayCount(track.name);
+
+  // keep the track object in sync
+  track.playcount = plays;
+
+  console.log(`${track.name} playcount: ${plays}`);
+
+  // update the UI if the playlist is rendered
+  const items = document.querySelectorAll("#programOorkonde li");
+  items.forEach(li => {
+    if (li.textContent.includes(track.name)) {
+      const span = li.querySelector(".playcount");
+      if (span) {
+        span.textContent = `(Playcount: ${plays})`;
+      }
+    }
+  });
+}
 
 
 
