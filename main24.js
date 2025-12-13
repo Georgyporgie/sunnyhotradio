@@ -797,6 +797,290 @@ volumeBoost:0.50
 
 
 
+{
+    name: "Too Hot (12inch)",
+    artist: "Kool and the gang",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Kool and the gang - Too hot.mp3",
+    playcount: 0,
+timeCategory: "seventies"
+
+
+},
+
+
+
+
+
+{
+    name: " Black Sun 1978) ",
+    artist: "The Far Out Orchestra ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/The far out monster orchestra - Black sun.mp3",
+  
+
+        playcount: 0,
+timeCategory: "seventies",
+
+  volumeBoost: 0.15
+},
+
+
+
+{
+    name: "Sunny (Ruud Remix)",
+    artist: "Boney M  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Boney M - Sunny.mp3",
+           playcount: 0,
+timeCategory: "seventies",
+  volumeBoost: 0.16
+},
+
+
+
+{
+    name: " Bounce Skate Roll (12inch) ",
+    artist: "Vaughan  Mason & Crew",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Vaughan  Mason & Crew - Bounce skate roll.mp3",
+  playcount: 0,
+timeCategory: "seventies",
+  volumeBoost: 0.35
+},
+
+
+
+
+{
+    name: "Machine Gun (1974)",
+    artist: "Commodores",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Commodores - Machine gun.mp3",
+  volumeBoost: 0.45,
+
+
+timeCategory: "seventies"
+
+
+},
+
+
+
+
+
+{
+    name: " Fly Robin Fly (1975) ",
+    artist: "Silver Convention",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Silver Convention - Fly Robin Fly.mp3",
+   timeCategory: "seventies",
+volumeBoost: 0.45
+
+},
+
+
+
+
+{
+     name: " Right In The Socket",
+    artist: "Shalamar ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Shalamar - Right In The Socket.mp3",
+   timeCategory: "seventies",
+volumeBoost: 0.25
+},
+
+
+
+
+
+{
+    name: "Across 110th Street (1973)",
+    artist: "Bobby Womack ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Bobby Womack - Across 110th street.mp3",
+timeCategory: "seventies",
+volumeBoost: 0.35
+},
+
+
+{
+    
+    name: " San Salvador (1979)",
+    artist: "Azoto ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Azoto - San Salvador.mp3",
+      timeCategory: "seventies",
+volumeBoost: 0.25
+},
+
+
+
+{
+    name: " It's All The Way Live (1978)",
+    artist: "Lakeside ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Lakeside - It's All The Way Live.mp3",
+         timeCategory: "seventies",
+volumeBoost: 0.35
+},
+
+
+
+
+
+
+
+
+
+{
+    name: "  Sexy (12inch)",
+    artist: "MFSB    ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/MFSB - Sexy (12inch).mp3",
+timeCategory: "seventies",
+volumeBoost: 0.40
+},
+
+
+
+
+{
+    name: " Da Ya Think I'm Sexy (1978) ",
+    artist: "Rod Stewart  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Rod Stewarrt - Da Ya Think I'm Sexy.mp3",
+      timeCategory: "seventies",
+volumeBoost:0.45
+},
+
+
+{
+    name: "  Nights Over Egypt ",
+    artist: "Jones Girls ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Jones Girls - Nights Over Egypt.mp3",
+ timeCategory: "seventies",
+volumeBoost:0.65
+},
+
+
+
+
+{
+    name: "Groovin' You (1979)",
+    artist: "Harvey Mason",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Harvey Mason - Groovin' You.mp3",
+  
+volumeBoost: 0.40,
+
+         timeCategory: "seventies"
+
+},
+{
+    name: " What You Waiting For  ",
+    artist: "Stargard",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Stargard - What you waiting for.mp3",
+timeCategory: "seventies",
+  volumeBoost: 0.35,
+ playcount: 0
+},
+
+{
+    name: "Radiation Level (12inch)",
+    artist: "The Sun ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/The Sun - Radiation Level.mp3",
+         timeCategory: "seventies",
+volumeBoost: 0.35
+},
+
+
+{
+    name: " Let's All Chant (1977) ",
+    artist: "Michael Zager Band  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Michael Zager Band - Let's All Chant (1977).mp3",
+   timeCategory: "seventies",
+     quickFade: true,
+  volumeBoost: 0.55,
+    playcount: 0
+
+},
+
+
+{
+     name: "Let's Start To Dance (12inch)",
+    artist: "Hamilton Bohannon ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Hamilton Bohannon - Let's Start To Dance 12 inch.mp3",
+timeCategory: "seventies"
+
+},
+
+
+
+
+{
+    name: "  Shaft In Africa (1973)",
+    artist: "Johnny Pate ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnyhotradio.com/muziek/oldies07/Johnny Pate - Shaft In Africa.mp3",
+  
+ timeCategory: "seventies",
+volumeBoost: 0.20
+},
+
+
+{
+    name: "Bond Theme 77",
+    artist: "James Bond",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/James Bond - Bond theme 77.mp3",
+   timeCategory: "seventies",
+    quickFade: true,
+    volumeBoost: 0.50,
+playcount: 0
+},
+
+
+{
+     name: "Jazz Carnaval",
+    artist: "Azymuth",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://sunnydanceoldies08.netlify.app/Azymuth - Jazz carnaval.mp3",
+   timeCategory: "seventies",
+    quickFade: true,
+    volumeBoost: 0.40,
+playcount: 0
+},
+
+
+
+
+{
+    name: " All Night Long",
+    artist: "Splendor ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Splendor - All night long.mp3",
+  volumeBoost:0.55,
+
+
+      timeCategory: "seventies"
+},
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5148,14 +5432,6 @@ playcount: 0
 },
 
 
-{
-     name: " All Natural    ",
-    artist: "Rita Ora & Yll Limani  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Rita Ora & Yll Limani - All Natural.mp3",
-           timeCategory: "afternoon",
-  playcount: 0
-},
 
 
 
@@ -22001,14 +22277,7 @@ quickFade: true,
 },
 
 
-{
-    name: "Kings & Queens",
-    artist: "Ava Max  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Ava Max - Kings & Queens.mp3",
-           timeCategory: "f evening"
 
-},
 
 
 
@@ -23090,14 +23359,7 @@ volumeBoost: 0.30
 },
 
 
-{
-     name: " All Natural    ",
-    artist: "Rita Ora & Yll Limani  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Rita Ora & Yll Limani - All Natural.mp3",
-           timeCategory: "f evening-late",
-  playcount: 0
-},
+
 
 
 
@@ -23831,13 +24093,6 @@ quickFade: true,
 
 
 
-{
-    name: "All Natural (new)",
-    artist: " Rita Ora  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Rita Ora - All Natural.mp3",
-       timeCategory: "f evening"
-},
 
 
 
@@ -24359,38 +24614,52 @@ function resetValues() {
 
 
 
-
 function playTrack() {
-    if (!curr_track) {
-        console.error("Error: `curr_track` is undefined!");
-        return;
-    }
+  if (!curr_track) {
+    console.error("Error: `curr_track` is undefined!");
+    return;
+  }
 
-    curr_track.play();
-    isPlaying = true;
+  curr_track.play();
+  isPlaying = true;
 
   // Replace the play icon with the pause icon
   playpause_btn.innerHTML = '<img id="media" src="images/pause66.gif">';
 
- 
+  // Highlight the current track in the playlist
+  let allTracks = document.querySelectorAll('ul li');
+  allTracks.forEach(track => track.classList.remove('blinking'));
 
- 
- // Highlight the current track in the playlist
-  let allTracks = document.querySelectorAll('ul li'); // Get all <li> elements
-  allTracks.forEach(track => track.classList.remove('blinking')); // Remove "blinking" from all
-
-  // Add "blinking" class to the current track
-  if (allTracks[track_index]) { // Ensure the current track exists in the filtered list
+  if (allTracks[track_index]) {
     allTracks[track_index].classList.add('blinking');
   } else {
     console.error("Filtered track not found in the DOM!");
   }
-console.log("Calling adjustVolumeDynamically:", curr_track);
 
+  console.log("Calling adjustVolumeDynamically:", curr_track);
+  adjustVolumeDynamically(curr_track);
+  applyBlinkingEffect();
 
-adjustVolumeDynamically(curr_track); 
-applyBlinkingEffect();
+  // 🔹 Countdown integration
+  const countdownElement = document.getElementById(`countdown-${track_index}`);
+  if (countdownElement) {
+    curr_track.addEventListener("loadedmetadata", () => {
+      const duration = curr_track.duration;
+
+      curr_track.addEventListener("timeupdate", () => {
+        const remaining = Math.max(0, duration - curr_track.currentTime);
+        countdownElement.textContent = formatTime(remaining);
+      });
+    });
+  }
 }
+
+function formatTime(seconds) {
+  const m = Math.floor(seconds / 60);
+  const s = Math.floor(seconds % 60);
+  return `${m}:${s.toString().padStart(2, "0")}`;
+}
+
 
 
 
@@ -24463,33 +24732,30 @@ function displayTrackList(limit = currentDisplayLimit) {
 
   const limitedTracks = scheduledMp3Files.slice(0, limit);
 
-  limitedTracks.forEach((track) => {
-    const li = document.createElement('li');
+limitedTracks.forEach((track, index) => {
+  const li = document.createElement('li');
 
-    // Apply keyword emphasis
-    const emphasizedTrackName = emphasizeKeywords(track.name);
-    const emphasizedArtist = emphasizeKeywords(track.artist);
+  // Apply keyword emphasis
+  const emphasizedTrackName = emphasizeKeywords(track.name);
+  const emphasizedArtist = emphasizeKeywords(track.artist);
 
-    // Golden "by"
-    const coloredBy = ' <span style="color: goldenrod;">by</span> ';
+  // Golden "by"
+  const coloredBy = ' <span style="color: goldenrod;">by</span> ';
 
-    li.innerHTML = `<strong>${emphasizedTrackName}</strong>${coloredBy}${emphasizedArtist}`;
-    trackListElement.appendChild(li);
-  
+  // ✅ Replace your old li.innerHTML line with this:
+  li.innerHTML = `
+    <strong>${emphasizedTrackName}</strong>${coloredBy}${emphasizedArtist}
+    <span class="countdown" id="countdown-${index}" style="margin-left:10px; color:gray;"></span>
+  `;
 
-// 🔹 Hover effect
-  li.addEventListener('mouseenter', () => {
-    li.classList.add('hover-highlight');
-  });
-
-  li.addEventListener('mouseleave', () => {
-    li.classList.remove('hover-highlight');
-  });
+  // Hover effect
+  li.addEventListener('mouseenter', () => li.classList.add('hover-highlight'));
+  li.addEventListener('mouseleave', () => li.classList.remove('hover-highlight'));
 
   trackListElement.appendChild(li);
-
-
 });
+
+
 
   const showMoreButton = document.getElementById('show-more-button');
   showMoreButton.style.display = limit >= scheduledMp3Files.length ? 'none' : 'block';
@@ -24507,16 +24773,23 @@ function applyBlinkingEffect() {
   }
 }
 
-// ===== Event listener for "Show More" =====
 document.getElementById('show-more-button').addEventListener('click', () => {
   currentDisplayLimit += additionalTracksPerClick;
   displayTrackList();
   applyBlinkingEffect();
+  reattachCountdown(); // 🔹 new helper
 });
 
-// ===== Initial load =====
-displayTrackList();
-applyBlinkingEffect();
+function reattachCountdown() {
+  const countdownElement = document.getElementById(`countdown-${track_index}`);
+  if (countdownElement && curr_track) {
+    curr_track.addEventListener("timeupdate", () => {
+      const remaining = Math.max(0, curr_track.duration - curr_track.currentTime);
+      countdownElement.textContent = formatTime(remaining);
+    });
+  }
+}
+
 
 
 

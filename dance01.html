@@ -438,7 +438,7 @@ document.addEventListener("DOMContentLoaded", scheduleHourlyFlash);
  <div>
 <h5 class="inch"><em>Leave A Message!</em></h5>
 <br>
-<IFRAME class="weather" SRC="subm.html" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=300 HEIGHT=556></IFRAME>
+<IFRAME class="weather" SRC="subm.html" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=300 HEIGHT=576></IFRAME>
 
 </div>
 <br>
@@ -1100,7 +1100,7 @@ function scheduleRangeSwap() {
   checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 16, 0, 10));
 
   // 6pm + 10 seconds
-  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 18, 0, 10));
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 19, 0, 10));
 
   // 9pm + 10 seconds
   checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 21, 0, 10));
@@ -1741,7 +1741,7 @@ function getCurrentTimeCategory() {
   ];
 
   const categoriesPerDay = {
-    0: { morning: ["f afternoon"], afternoon: ["f evening"], "special-show": ["special-mix"], evening: ["f evening-late"], "evening-late": ["f afternoon"], late: ["f evening"], night: ["jingle-time"] },
+    0: { morning: ["f afternoon"], afternoon: ["f evening"], "special-show": ["seventies"], evening: ["f evening-late"], "evening-late": ["f afternoon"], late: ["f evening"], night: ["jingle-time"] },
     
 
 1: { morning: ["morning"], afternoon: ["afternoon"], "special-show": ["evening"], evening: ["evening"], "evening-late": ["afternoon"], late: ["evening-late"], night: ["jingle-time"] },
@@ -2104,7 +2104,7 @@ const badgeMeta = {
   "evening-late": { icon: "🌃", label: "Come See The Eighties Disco!" },
   night: { icon: "🌙", label: "Starlight Sessions" },
   late: { icon: "🦉", label: "Dance Yourself Dizzy!" },
-  "special-show": { icon: "🎛️", label: "On Air" },
+  "special-show": { icon: "🎛️", label: "Live Show" },
   "jingle-time": { icon: "🔔", label: "Owl Hours" },
   unknown: { icon: "🕒", label: "On Air" }
 };
