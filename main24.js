@@ -44,7 +44,15 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 
-
+// ── Shuffle Helper ──
+function fisherYatesShuffle(array) {
+  let m = array.length, i;
+  while (m) {
+    i = Math.floor(Math.random() * m--);
+    [array[m], array[i]] = [array[i], array[m]];
+  }
+  return array;
+}
 
 
 // Define your track list with time categories
@@ -24102,6 +24110,24 @@ quickFade: true,
 
 ];
 
+
+
+
+
+// ── Shuffle immediately at startup ──
+trackList = fisherYatesShuffle(trackList);
+console.log("✨ Shuffled playlist:", trackList.map(t => t.name));
+
+
+
+
+
+
+
+
+
+
+
 function sortAndShuffle(tracks) {
   // Sort by playcount first
   tracks.sort((a, b) => a.playcount - b.playcount);
@@ -24611,17 +24637,26 @@ function loadPlayCounts(files) {
     track.playcount = savedCount ? parseInt(savedCount, 10) : 0;
   });
 }
-function incrementPlayCount(track) {
-  track.playcount = Number(track.playcount) || 0;
-  track.playcount++;
-  localStorage.setItem((track.name || track.src) + "_playcount", track.playcount);
 
-  console.log(`Playcount for ${track.name || track.src}: ${track.playcount}`);
+
+
+
+
+
+
+function formatTrackLabel(track) {
+  if (track.name) return track.name;
+  if (track.path) return track.path.split("/").pop().replace(".mp3", "");
+  return "Unknown track";
 }
 
+function incrementPlayCount(trackObj) {
+  trackObj.playcount = getPlayCount(trackObj.path);
+  trackObj.playcount++;
+  localStorage.setItem(trackObj.path + "_playcount", trackObj.playcount);
 
-
-
+  console.log(`Playcount for ${trackObj.name || trackObj.path}: ${trackObj.playcount}`);
+}
 
 
 
@@ -24664,11 +24699,11 @@ function playTrack() {
 
 
 
-// 1. Helper
-function getPlayCount(trackName) {
-  const savedCount = localStorage.getItem(trackName + "_playcount");
+function getPlayCount(trackPath) {
+  const savedCount = localStorage.getItem(trackPath + "_playcount");
   return savedCount ? parseInt(savedCount, 10) : 0;
 }
+
 
 // 2. Render playlist
 function renderProgram(trackList) {
