@@ -20383,14 +20383,7 @@ playcount: 0
 
 
 
-{
-    name: "West End Girls (1984) ",
-    artist: "Pet Shop Boys ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies01.netlify.app/Pet Shop Boys - West End Girls (10'' Mix).mp3",
-      timeCategory: "f afternoon",
-  volumeBoost: 0.35
- },
+
 
 
 
@@ -24514,15 +24507,31 @@ function resetValues() {
 
 
 
+// 🔹 Increment playcount and persist
+function incrementPlayCount(track) {
+  if (typeof track.playcount === "undefined") {
+    track.playcount = 0;
+  }
+  track.playcount++;
+  localStorage.setItem(track.name + "_playcount", track.playcount);
+  console.log(`Playcount for ${track.name}: ${track.playcount}`);
+}
 
+// 🔹 Load playcounts from LocalStorage on startup
+function loadPlayCounts(tracks) {
+  tracks.forEach(track => {
+    const savedCount = localStorage.getItem(track.name + "_playcount");
+    track.playcount = savedCount ? parseInt(savedCount, 10) : 0;
+  });
+}
 
+// 🔹 Helper to fetch playcount directly
+function getPlayCount(trackName) {
+  const savedCount = localStorage.getItem(trackName + "_playcount");
+  return savedCount ? parseInt(savedCount, 10) : 0;
+}
 
-
-
-
-
-
-
+// 🔹 Play a track
 function playTrack() {
   if (!curr_track) {
     console.error("Error: `curr_track` is undefined!");
@@ -24561,23 +24570,22 @@ function playTrack() {
       });
     });
   }
- // 🔹 Playcount integration
+
+  // 🔹 Playcount integration
   if (tracks[track_index]) {
-    onTrackStart(tracks[track_index]); // call here
+    onTrackStart(tracks[track_index]);   // ceremonial UI updates
+    incrementPlayCount(tracks[track_index]); // scoreboard tally
   }
 }
 
+// 🔹 Format time helper
 function formatTime(seconds) {
   const m = Math.floor(seconds / 60);
   const s = Math.floor(seconds % 60);
   return `${m}:${s.toString().padStart(2, "0")}`;
 }
 
-
-
-
-
-
+// 🔹 Render playlist with playcounts
 function renderProgram() {
   const programList = document.getElementById("programList");
   programList.innerHTML = "";
@@ -24603,30 +24611,27 @@ function renderProgram() {
   });
 }
 
-
-
-
-
+// 🔹 Handle track start (UI update)
 function onTrackStart(track) {
-  // bump the persistent tally
-  const plays = incrementPlayCount(track.name);
+  // Playcount already incremented, just sync UI
+  console.log(`${track.name} playcount: ${track.playcount}`);
 
-  // keep the track object in sync
-  track.playcount = plays;
-
-  console.log(`${track.name} playcount: ${plays}`);
-
-  // update the UI if the playlist is rendered
   const items = document.querySelectorAll("#programOorkonde li");
   items.forEach(li => {
     if (li.textContent.includes(track.name)) {
       const span = li.querySelector(".playcount");
       if (span) {
-        span.textContent = `(Playcount: ${plays})`;
+        span.textContent = `(Playcount: ${track.playcount})`;
       }
     }
   });
 }
+
+// Call this once when your app initializes
+
+loadPlayCounts(trackList);
+
+
 
 
 
