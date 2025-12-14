@@ -38,6 +38,15 @@ let updateTimer;
 let audioPlayer = document.createElement('audio');
 
 
+window.addEventListener("DOMContentLoaded", () => {
+  loadPlayCounts(trackList);   // sync saved playcounts
+  renderProgram(trackList);    // build playlist UI
+});
+
+
+
+
+
 // Define your track list with time categories
 let trackList = [
   
@@ -20407,13 +20416,6 @@ playcount: 0
 },
 
 
-{
-    name: " Gorgeous (new)",
-    artist: "  Doja Cat ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Doja Cat - Gorgeous.mp3",
-       timeCategory: "f afternoon"
-},
 
 
 
@@ -24100,17 +24102,37 @@ quickFade: true,
 
 ];
 
+function sortAndShuffle(tracks) {
+  // Sort by playcount first
+  tracks.sort((a, b) => a.playcount - b.playcount);
 
-
-
-
-// 3. Logic
-function loadPlaylistForCategory(category) {
-  const playlist = shuffle(trackList.filter(track => track.timeCategory === category));
-console.log("▶ Now playing category:", category, "Playlist:", playlist.map(t => t.name));
-
-  // Here you’d actually start playback
+  // Shuffle tracks with equal playcount
+  let i = 0;
+  while (i < tracks.length) {
+    let j = i;
+    while (j < tracks.length && tracks[j].playcount === tracks[i].playcount) j++;
+    const group = tracks.slice(i, j);
+    const shuffledGroup = shuffle(group);
+    for (let k = 0; k < shuffledGroup.length; k++) {
+      tracks[i + k] = shuffledGroup[k];
+    }
+    i = j;
+  }
+  return tracks;
 }
+
+
+
+
+
+function loadPlaylistForCategory(category) {
+  const filtered = trackList.filter(track => track.timeCategory === category);
+ const playlist = sortAndShuffle(trackList.filter(track => track.timeCategory === category));
+
+  console.log("▶ Now playing category:", category, "Playlist:", playlist.map(t => t.name));
+  // start playback here
+}
+
 
 // 4. Runtime
 let currentCategory = null;
@@ -24257,6 +24279,11 @@ trackList.forEach((track, i) => {
 
 
 
+function formatTime(seconds) {
+  const m = Math.floor(seconds / 60);
+  const s = Math.floor(seconds % 60);
+  return `${m}:${s.toString().padStart(2, "0")}`;
+}
 
 
 
@@ -24499,12 +24526,6 @@ function loadTrack(index) {
     }, stepTime);
   }
 
-  // ✅ Playcount ritual
-  curr_track.addEventListener("play", () => {
-    track.playcount = Number(track.playcount) || 0;
-    track.playcount++;
-    console.log("🎧 Playcount updated:", track.name, "| Total plays:", computeTotalPlays());
-  });
 
   // ✅ UI updates
   track_art.style.backgroundImage = "url(" + track.image + ")";
@@ -24583,28 +24604,45 @@ function resetValues() {
 
 
 
-// 🔹 Increment playcount and persist
-function incrementPlayCount(track) {
-  if (typeof track.playcount === "undefined") {
-    track.playcount = 0;
-  }
-  track.playcount++;
-  localStorage.setItem(track.name + "_playcount", track.playcount);
-  console.log(`Playcount for ${track.name}: ${track.playcount}`);
-}
-
 // 🔹 Load playcounts from LocalStorage on startup
-function loadPlayCounts(tracks) {
-  tracks.forEach(track => {
+function loadPlayCounts(files) {
+  files.forEach(track => {
     const savedCount = localStorage.getItem(track.name + "_playcount");
     track.playcount = savedCount ? parseInt(savedCount, 10) : 0;
   });
 }
+function incrementPlayCount(track) {
+  track.playcount = Number(track.playcount) || 0;
+  track.playcount++;
+  localStorage.setItem((track.name || track.src) + "_playcount", track.playcount);
 
-// 🔹 Helper to fetch playcount directly
-function getPlayCount(trackName) {
-  const savedCount = localStorage.getItem(trackName + "_playcount");
-  return savedCount ? parseInt(savedCount, 10) : 0;
+  console.log(`Playcount for ${track.name || track.src}: ${track.playcount}`);
+}
+
+
+
+
+
+
+
+
+
+
+
+// 🔹 Handle track start (UI update + tally)
+function onTrackStart(track) {
+  incrementPlayCount(track); // bump once here
+
+  const items = document.querySelectorAll("#track-list-container li");
+
+  items.forEach(li => {
+    if (li.textContent.includes(track.name)) {
+      const span = li.querySelector(".playcount");
+      if (span) {
+        span.textContent = `(Playcount: ${track.playcount})`;
+      }
+    }
+  });
 }
 
 // 🔹 Play a track
@@ -24617,100 +24655,41 @@ function playTrack() {
   curr_track.play();
   isPlaying = true;
 
-  // Replace the play icon with the pause icon
-  playpause_btn.innerHTML = '<img id="media" src="images/pause66.gif">';
+  // … your existing UI logic …
 
-  // Highlight the current track in the playlist
-  let allTracks = document.querySelectorAll('ul li');
-  allTracks.forEach(track => track.classList.remove('blinking'));
-
-  if (allTracks[track_index]) {
-    allTracks[track_index].classList.add('blinking');
-  } else {
-    console.error("Filtered track not found in the DOM!");
-  }
-
-  console.log("Calling adjustVolumeDynamically:", curr_track);
-  adjustVolumeDynamically(curr_track);
-  applyBlinkingEffect();
-
-  // 🔹 Countdown integration
-  const countdownElement = document.getElementById(`countdown-${track_index}`);
-  if (countdownElement) {
-    curr_track.addEventListener("loadedmetadata", () => {
-      const duration = curr_track.duration;
-
-      curr_track.addEventListener("timeupdate", () => {
-        const remaining = Math.max(0, duration - curr_track.currentTime);
-        countdownElement.textContent = formatTime(remaining);
-      });
-    });
-  }
-
-  // 🔹 Playcount integration
-  if (tracks[track_index]) {
-    onTrackStart(tracks[track_index]);   // ceremonial UI updates
-    incrementPlayCount(tracks[track_index]); // scoreboard tally
-  }
+ // 🔹 Playcount integration
+  onTrackStart(curr_track);        // updates UI for the actual track
+  incrementPlayCount(curr_track); 
 }
 
-// 🔹 Format time helper
-function formatTime(seconds) {
-  const m = Math.floor(seconds / 60);
-  const s = Math.floor(seconds % 60);
-  return `${m}:${s.toString().padStart(2, "0")}`;
+
+
+// 1. Helper
+function getPlayCount(trackName) {
+  const savedCount = localStorage.getItem(trackName + "_playcount");
+  return savedCount ? parseInt(savedCount, 10) : 0;
 }
 
-// 🔹 Render playlist with playcounts
-function renderProgram() {
-  const programList = document.getElementById("programList");
+// 2. Render playlist
+function renderProgram(trackList) {
+  const programList = document.getElementById("track-list-container");
   programList.innerHTML = "";
 
-  tracks.forEach((track, index) => {
-    // Sync playcount from LocalStorage
-    track.playcount = getPlayCount(track.name);
+  trackList.forEach((track, index) => {
+    track.playcount = getPlayCount(track.name); // ✅ now defined
 
     const li = document.createElement("li");
     li.innerHTML = `
       <strong>${track.name}</strong> by ${track.artist}
       <span class="playcount">(Playcount: ${track.playcount})</span>
     `;
-
-    // Clicking starts playback and increments playcount
-    li.addEventListener("click", () => {
-      track_index = index;       // set current index
-      curr_track = new Audio(track.path); // load audio
-      playTrack();               // your existing playTrack function
-    });
-
     programList.appendChild(li);
   });
 }
 
-// 🔹 Handle track start (UI update)
-function onTrackStart(track) {
-  // Playcount already incremented, just sync UI
-  console.log(`${track.name} playcount: ${track.playcount}`);
 
-  const items = document.querySelectorAll("#programOorkonde li");
-  items.forEach(li => {
-    if (li.textContent.includes(track.name)) {
-      const span = li.querySelector(".playcount");
-      if (span) {
-        span.textContent = `(Playcount: ${track.playcount})`;
-      }
-    }
-  });
-}
-
-// Call this once when your app initializes
-
+// 🔹 Startup
 loadPlayCounts(trackList);
-
-
-
-
-
 
 
 
