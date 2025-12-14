@@ -884,7 +884,7 @@ timeCategory: "seventies"
     name: "Welcome!",
     artist: "Sunny Jazzradio  ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/jingles/jazz jingle.mp3",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
  timeCategory: "seventies"
 
 },
@@ -981,7 +981,9 @@ volumeBoost: 0.25
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Bobby Womack - Across 110th street.mp3",
 timeCategory: "seventies",
-volumeBoost: 0.35
+     quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
 },
 
 
@@ -1057,9 +1059,10 @@ timeCategory: "seventies",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/The Sun - Radiation Level.mp3",
          timeCategory: "seventies",
-volumeBoost: 0.35
+ quickFade: true,
+  volumeBoost: 0.45,
+    playcount: 0
 },
-
 
 {
     name: " Let's All Chant (1977) ",
@@ -3941,7 +3944,9 @@ volumeBoost: 0.10
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Bobby Womack - Across 110th street.mp3",
            timeCategory: "morning",
-volumeBoost: 0.35
+     quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
 },
 
 
@@ -4977,7 +4982,7 @@ volumeBoost: 0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/The Sun - Radiation Level.mp3",
           timeCategory: "morning",
-volumeBoost: 0.35
+volumeBoost: 0.45
 },
 
 
@@ -15786,14 +15791,6 @@ volumeBoost: 0.40
 
 
 
-{
-    name: "Radiation Level (12inch)",
-    artist: "The Sun ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/The Sun - Radiation Level.mp3",
-          timeCategory: "evening-late",
-volumeBoost: 0.35
-},
 
 
 
@@ -15954,18 +15951,6 @@ volumeBoost:0.10
 
 
 
-
-{
-    name: " Let's All Chant (1977) ",
-    artist: "Michael Zager Band  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Michael Zager Band - Let's All Chant (1977).mp3",
-   timeCategory: "evening-late",
-     quickFade: true,
-  volumeBoost: 0.55,
-    playcount: 0
-
-},
 
 
 
@@ -21718,7 +21703,10 @@ quickFade: true,
     artist: "  Melanie C ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Melanie C - Sweat.mp3",
-       timeCategory: "f evening"
+       timeCategory: "f evening",
+    quickFade: true,
+
+    playcount: 0
 },
 
 
@@ -22003,7 +21991,10 @@ quickFade: true,
     artist: "Bebe Rexha ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Bebe Rexha - One In A Million.mp3",
- timeCategory: "f evening"
+ timeCategory: "f evening",
+    quickFade: true,
+ 
+    playcount: 0
 },
 
 
@@ -22601,8 +22592,9 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Beyonce - Crazy In Love.mp3",
    timeCategory: "f evening",
-  volumeBoost: 0.15
-
+     quickFade: true,
+    volumeBoost: 0.15,
+    playcount: 0
 },
 
 
@@ -23375,15 +23367,7 @@ volumeBoost: 0.40
 
 
 
-{
-    name: " What You Waiting For  ",
-    artist: "Stargard",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Stargard - What you waiting for.mp3",
-   timeCategory: "f evening-late",
-  volumeBoost: 0.35,
- playcount: 0
-},
+
 
 
 
