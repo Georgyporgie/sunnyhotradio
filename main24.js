@@ -798,6 +798,42 @@ volumeBoost:0.50
 
 
 {
+    name: "    Dance (Do What You Wanna Do) ",
+    artist: " The Sun  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnyhotradio.com/muziek/oldies07/Sun - Dance (Do What You Wanna Do).mp3",
+ timeCategory: "seventies",
+   isLoud: true,          
+  loudnessValue: 0.72,    
+     quickFade: true,
+        playcount: 0
+},
+
+{
+    name: "   Ugly Ego (classic)",
+    artist: "Cameo  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnyhotradio.com/muziek/oldies07/Cameo - Ugly Ego.mp3",
+   timeCategory: "seventies",
+ quickFade: true,
+volumeBoost:0.10
+},
+
+
+{
+    
+    name: " San Salvador (1979)",
+    artist: "Azoto ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnyhotradio.com/muziek/oldies07/Azoto - San Salvador.mp3",
+      timeCategory: "seventies",
+volumeBoost: 0.25
+},
+
+
+
+
+{
     name: "Too Hot (12inch)",
     artist: "Kool and the gang",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -808,6 +844,50 @@ timeCategory: "seventies"
 
 },
 
+
+{
+     name: "Welcome! todays program☀️",
+    artist: "Listen Live Sunny Jazzradio",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/jingles/Sunny radio jingle4.mp3",
+ 
+ timeCategory: "seventies"
+
+},
+
+
+
+
+{
+     name: "Welcome! todays program☀️",
+    artist: "Listen Live Sunny Jazzradio",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+ 
+ timeCategory: "seventies"
+
+},
+
+
+{
+     name: "Welcome! todays program☀️",
+    artist: "Listen Live Sunny Jazzradio",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+ 
+ timeCategory: "seventies"
+
+},
+
+
+{
+    name: "Welcome!",
+    artist: "Sunny Jazzradio  ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/jingles/jazz jingle.mp3",
+ timeCategory: "seventies"
+
+},
 
 
 
@@ -905,15 +985,6 @@ volumeBoost: 0.35
 },
 
 
-{
-    
-    name: " San Salvador (1979)",
-    artist: "Azoto ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Azoto - San Salvador.mp3",
-      timeCategory: "seventies",
-volumeBoost: 0.25
-},
 
 
 
@@ -946,14 +1017,7 @@ volumeBoost: 0.40
 
 
 
-{
-    name: " Da Ya Think I'm Sexy (1978) ",
-    artist: "Rod Stewart  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Rod Stewarrt - Da Ya Think I'm Sexy.mp3",
-      timeCategory: "seventies",
-volumeBoost:0.45
-},
+
 
 
 {
@@ -973,9 +1037,7 @@ volumeBoost:0.65
     artist: "Harvey Mason",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Harvey Mason - Groovin' You.mp3",
-  
-volumeBoost: 0.40,
-
+  volumeBoost: 0.40,
          timeCategory: "seventies"
 
 },
@@ -1071,6 +1133,39 @@ playcount: 0
 
       timeCategory: "seventies"
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -19653,14 +19748,7 @@ quickFade: true
 
 
 
-{
-    name: " I Am The Drama  ",
-    artist: "Bebe Rexha  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic07.netlify.app/Bebe Rexha - I Am The Drama.mp3",
-  
-      timeCategory: "evening-late"
-},
+
 {
      name: "Welcome!",
     artist: "Listen Live Sunny Dance radio☀️",
@@ -20620,7 +20708,9 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/CJ & Co - Devils Gun.mp3",
      timeCategory: "f afternoon",
-  volumeBoost: 0.25
+     quickFade: true,
+    volumeBoost: 0.25,
+    playcount: 0
 },
   
  
@@ -20648,7 +20738,9 @@ quickFade: true
     artist: "Dua Lipa ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Dua Lipa - Illusion.mp3",
-     timeCategory: "f afternoon"
+    timeCategory: "f afternoon",
+     quickFade: true,
+      playcount: 0
 },
 
 
