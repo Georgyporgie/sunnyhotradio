@@ -7176,14 +7176,7 @@ volumeBoost: 0.35
 },
 
 
-{
-    name: "Best Things  ",
-    artist: "Luther Vandross ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://Sunnydanceoldies04.netlify.app/Luther Vandross & Janet Jackson - Best things in life are free.mp3",
-    timeCategory: "afternoon",
-    volumeBoost: 0.40
-},
+
 
 {
     name: " Live To Tell (1986) ",
@@ -8404,7 +8397,8 @@ volumeBoost: 0.30
     artist: "Charli XCX",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Charli XCX - Break the Rules.mp3",
-  
+   isLoud: true,          
+  loudnessValue: 0.70,  
 
 
    timeCategory: "afternoon"
@@ -9631,7 +9625,8 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Rose Royce - Best Love (single).mp3",
          timeCategory: "evening",
-  playcount: 0,
+  eq: { bass: +2, mid: 2, treble: +2 } ,
+playcount: 0,
 volumeBoost: 0.50
 },
 
@@ -10646,7 +10641,7 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Luther Vandross & Janet Jackson - Best things in life are free.mp3",
     timeCategory: "evening",
-  volumeBoost: 0.40
+  volumeBoost: 0.60
 },
 
 
@@ -21842,15 +21837,6 @@ timeCategory: "f evening"
 
 
 
-{
-     name: "Beautiful People ",
-    artist: "David Guetta Ft. Sia & Rihanna ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic08.netlify.app/David Guetta Ft. Sia & Rihanna - Beautiful People.mp3",
-    timeCategory: "f evening"
-},
-
-
 
 {
      name: " Anxiety ",
@@ -24453,6 +24439,39 @@ function loadTrack(index) {
     return;
   }
 
+  // Create audio element
+  curr_track = new Audio(track.path);
+
+ 
+
+  // Apply EQ lift if tagged
+  if (track.eq) {
+    const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    const source = audioCtx.createMediaElementSource(curr_track);
+
+    const bass = audioCtx.createBiquadFilter();
+    bass.type = "lowshelf";
+    bass.frequency.value = 200;
+    bass.gain.value = track.eq.bass || 0;
+
+    const mid = audioCtx.createBiquadFilter();
+    mid.type = "peaking";
+    mid.frequency.value = 1000;
+    mid.Q.value = 1;
+    mid.gain.value = track.eq.mid || 0;
+
+    const treble = audioCtx.createBiquadFilter();
+    treble.type = "highshelf";
+    treble.frequency.value = 3000;
+    treble.gain.value = track.eq.treble || 0;
+
+    source.connect(bass).connect(mid).connect(treble).connect(audioCtx.destination);
+  }
+
+
+
+
+
   // ✅ CROSSFADE LOGIC
   const oldTrack = curr_track;
   const shouldCrossfade = track.quickFade === true;
@@ -24571,8 +24590,13 @@ function loadTrack(index) {
 
   // ✅ Load track
   curr_track.load();
+attachTrackEvents(curr_track, track_index);
 
-  // ✅ Highlight in playlist
+  
+
+
+
+// ✅ Highlight in playlist
   curr_track.addEventListener("canplay", () => {
     const allTracks = document.querySelectorAll('ul li');
     if (!allTracks || allTracks.length === 0) return;
@@ -24695,6 +24719,7 @@ function playTrack() {
  // 🔹 Playcount integration
   onTrackStart(curr_track);        // updates UI for the actual track
   incrementPlayCount(curr_track); 
+reattachCountdown();
 }
 
 
@@ -24773,7 +24798,6 @@ function emphasizeKeywords(text) {
 
 
 
-
 // ===== Playlist rendering =====
 const tracksToDisplayInitially = 10; // Number of tracks initially visible
 const additionalTracksPerClick = 5;  // Number of tracks to load per click
@@ -24795,11 +24819,18 @@ limitedTracks.forEach((track, index) => {
   // Golden "by"
   const coloredBy = ' <span style="color: goldenrod;">by</span> ';
 
-  // ✅ Replace your old li.innerHTML line with this:
-  li.innerHTML = `
-    <strong>${emphasizedTrackName}</strong>${coloredBy}${emphasizedArtist}
-    <span class="countdown" id="countdown-${index}" style="margin-left:10px; color:gray;"></span>
-  `;
+  // Add duration if available
+  const durationText = track.duration ? 
+    `<span class="track-duration" style="margin-left:10px; color:darkslategray;">${track.duration}</span>` 
+    : '';
+
+li.innerHTML = `
+  <strong>${emphasizedTrackName}</strong>${coloredBy}${emphasizedArtist}
+  <span class="track-duration" style="margin-left:10px; color:darkslategray;">${track.duration || ""}</span>
+  <span class="countdown" id="countdown-${index}" style="margin-left:10px; color:gray;"></span>
+`;
+
+
 
   // Hover effect
   li.addEventListener('mouseenter', () => li.classList.add('hover-highlight'));
@@ -24807,6 +24838,7 @@ limitedTracks.forEach((track, index) => {
 
   trackListElement.appendChild(li);
 });
+
 
 
 
@@ -24831,7 +24863,55 @@ document.getElementById('show-more-button').addEventListener('click', () => {
   displayTrackList();
   applyBlinkingEffect();
   reattachCountdown(); // 🔹 new helper
+addDurationsToTrackList(scheduledMp3Files);
+
 });
+
+
+function attachTrackEvents(curr_track, track_index) {
+  // When playback starts → hide duration, show countdown
+  curr_track.addEventListener("play", () => {
+    const currentLi = document.querySelectorAll("#track-list-container li")[track_index];
+    if (currentLi) {
+      const durationSpan = currentLi.querySelector(".track-duration");
+      const countdownSpan = currentLi.querySelector(".countdown");
+      if (durationSpan) durationSpan.style.display = "none";
+      if (countdownSpan) countdownSpan.style.display = "inline";
+    }
+  });
+
+  // When playback ends → show duration again, hide countdown
+  curr_track.addEventListener("ended", () => {
+    const currentLi = document.querySelectorAll("#track-list-container li")[track_index];
+    if (currentLi) {
+      const durationSpan = currentLi.querySelector(".track-duration");
+      const countdownSpan = currentLi.querySelector(".countdown");
+      if (durationSpan) durationSpan.style.display = "inline";
+      if (countdownSpan) countdownSpan.style.display = "none";
+    }
+  });
+}
+
+
+
+
+
+function addDurationsToTrackList(trackList) {
+  trackList.forEach((track, index) => {
+    let audio = new Audio(track.path);
+
+    audio.addEventListener("loadedmetadata", () => {
+      track.duration = formatTime(Math.floor(audio.duration));
+
+      // Update the corresponding <li> duration span
+      const durationElement = document.querySelectorAll(".track-duration")[index];
+      if (durationElement) {
+        durationElement.textContent = track.duration;
+      }
+    });
+  });
+}
+
 
 function reattachCountdown() {
   const countdownElement = document.getElementById(`countdown-${track_index}`);
