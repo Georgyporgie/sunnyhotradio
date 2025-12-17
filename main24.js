@@ -3462,9 +3462,12 @@ volumeBoost: 0.10
     artist: "Sunny Ship",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/chillhouse del mar01.mp3",
-      timeCategory: "morning"
+      timeCategory: "morning",
 
 
+   isLoud: true,          
+  loudnessValue: 0.90,    
+     quickFade: true
 },
 
 {
@@ -8829,7 +8832,10 @@ volumeBoost: 0.10
     artist: "Sunny Ship",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/chillhouse del mar02.mp3",
-      timeCategory: "afternoon"
+      timeCategory: "afternoon",
+   isLoud: true,          
+  loudnessValue: 0.90,    
+     quickFade: true
 },
 
 {
@@ -8837,9 +8843,11 @@ volumeBoost: 0.10
     artist: "Sunny Ship",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/chillhouse del mar03.mp3",
-      timeCategory: "afternoon"
+      timeCategory: "afternoon",
+   isLoud: true,          
+  loudnessValue: 0.90,    
+     quickFade: true
 },
-
 
 
 
@@ -9438,7 +9446,9 @@ quickFade: true
     path: "https://sunnydanceoldies09.netlify.app/Michael Jackson - Don t Stop Till.mp3",
     timeCategory: "afternoon",
    quickFade: true,
-   playcount: 0
+   playcount: 0,
+ eq: { bass:1, mid: 1, treble: 1 } ,
+volumeBoost: 0.30
 },
 
 
@@ -9613,7 +9623,15 @@ quickFade: true
 
 
 
-
+{
+     name: " Push It (1987)",
+    artist: "Salt n Pepa ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Salt n Pepa - Push It (1987).mp3",
+    timeCategory: "evening",
+ eq: { bass:0, mid: 1, treble: 0 } ,
+volumeBoost: 0.40
+},
 
 
 
@@ -10413,7 +10431,7 @@ quickFade: true,
 
 
       timeCategory: "evening",
-  volumeBoost: 0.15
+  volumeBoost: 0.45
 },
 
 
@@ -13415,7 +13433,11 @@ volumeBoost: 0.50,
     artist: "Sunny Ship",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/chillhouse del mar04.mp3",
-    timeCategory: "evening"
+    timeCategory: "evening",
+     
+   isLoud: true,          
+  loudnessValue: 0.90,    
+     quickFade: true
 },
 
 
@@ -13427,7 +13449,11 @@ volumeBoost: 0.50,
     artist: "Sunny Ship",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/chillhouse del mar04.mp3",
-    timeCategory: "evening"
+    timeCategory: "evening",
+      timeCategory: "afternoon",
+   isLoud: true,          
+  loudnessValue: 0.90,    
+     quickFade: true
 },
 
 
@@ -13524,7 +13550,10 @@ volumeBoost: 0.40,
     artist: "Divine   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/Divine - Shoot Your Shot (1982).mp3",
-   timeCategory: "evening"
+      isLoud: true,          
+  loudnessValue: 0.92,    
+     quickFade: true,
+timeCategory: "evening"
 },
 
 
@@ -13890,15 +13919,7 @@ volumeBoost: 0.40,
 },
 
 
-{
-     name: " Push It (1987)",
-    artist: "Salt n Pepa ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Salt n Pepa - Push It (1987).mp3",
-    timeCategory: "evening-late",
 
-  volumeBoost: 0.40
-},
 
 
 
@@ -14293,20 +14314,13 @@ volumeBoost: 0.25
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/S Express - Theme From S Express.mp3",
      timeCategory: "evening-late",
-    volumeBoost: 0.25,
+    volumeBoost: 0.45,
     playcount: 0
 },
 
 
 
 
-{
-    name: "Body Motion",
-    artist: "Sadomasy  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Sadomasy - Body Motion.mp3",
-     timeCategory: "evening-late"
-},
 
 
 
@@ -15488,7 +15502,8 @@ volumeBoost:0.40
     artist: "SL2  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/SL2 - DJ Take Control.mp3",
-  
+   isLoud: true,          
+  loudnessValue: 0.90,  
     timeCategory: "evening-late"
 
 
@@ -15668,7 +15683,7 @@ quickFade: true
     artist: "Mory Kante ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Mory Kante - Yeke Yeke (Hardfloor Remix).mp3",
-  
+   eq: { bass: 0, mid: 0, treble: +1 } ,
 
   timeCategory: "evening-late"
 },
@@ -15976,7 +15991,7 @@ volumeBoost:0.10
     path: "https://danceoldies08.netlify.app/Shaggy - Boombastic.mp3",
    timeCategory: "evening-late",
    quickFade: true,
-    volumeBoost: 0.55,
+    volumeBoost: 0.75,
     playcount: 0
 },
 
@@ -16060,13 +16075,6 @@ volumeBoost: 0.15
 
 
 
-{
-    name: "  Theme From S Express",
-    artist: "S Express ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/S Express - Theme From S Express.mp3",
-      timeCategory: "evening-late"
- },
 
 
 
@@ -16278,14 +16286,6 @@ volumeBoost: 0.20
 
 
 
-
-{
-    name: "Closer To The Floor",
-    artist: "Jazzy & Ankhoï",
-     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic07.netlify.app/Jazzy & Ankhoï - Closer To The Floor.mp3",
-    timeCategory: "evening"
-},
 
 
 
@@ -19764,8 +19764,9 @@ quickFade: true
     path: "https://dancemusic09.netlify.app/Katy Perry - Chained To The Rhythm.mp3",
     timeCategory: " evening-late",
      quickFade: true,
-    volumeBoost: 0.60,
-    playcount: 0
+    volumeBoost: 0.40,
+    playcount: 0,
+ eq: { bass: 0, mid: 1, treble: +1 } 
 },
 
 
@@ -19784,17 +19785,7 @@ playcount: 0
 
 },
 
-{
-     name: "  Nobody's Girl (new)",
-    artist: "Tate McRae ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Tate McRae - Nobody's Girl (new).mp3",
-    timeCategory: "evening-late",
-playcount: 0
-   
 
-
-},
 
 
 {
@@ -20681,13 +20672,6 @@ quickFade: true
 
 
 
-{
-    name: " Closer To The Floor ",
-    artist: "Jazzy & Ankhoï ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic08.netlify.app/Jazzy & Ankhoï - Closer To The Floor.mp3",
-  timeCategory: "f afternoon"
-},
 
 
 
@@ -20793,13 +20777,6 @@ quickFade: true
 
 
 
-{
-    name: " Closer To The Floor ",
-    artist: "Jazzy & Ankhoï ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic08.netlify.app/Jazzy & Ankhoï - Closer To The Floor.mp3",
-  timeCategory: "F afternoon"
-},
 
 
 
@@ -20939,7 +20916,11 @@ quickFade: true
     artist: "Chillhouse",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/chillhouse del mar07.mp3",
-     timeCategory: "f afternoon"
+     timeCategory: "f afternoon",
+ 
+   isLoud: true,          
+  loudnessValue: 0.90,    
+     quickFade: true
 },
 
 
@@ -21311,16 +21292,7 @@ quickFade: true
 
 
 
-{
-    name: "    Seven Stars",
-    artist: "Quazar ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Quazar - Seven Stars.mp3",
-    timeCategory: "f afternoon",
-     quickFade: true,
-    volumeBoost: 0.45,
-    playcount: 0
-},
+
 
 
 
@@ -23667,17 +23639,7 @@ playcount: 0
 
 },
 
-{
-     name: "  Nobody's Girl (new)",
-    artist: "Tate McRae ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Tate McRae - Nobody's Girl (new).mp3",
-    timeCategory: "f evening-late",
-playcount: 0
-   
 
-
-},
 
 
 {
@@ -24367,13 +24329,13 @@ function getTimeBasedVolume() {
   const hour = new Date().getHours();  // 0–23
 
   if (hour >= 6 && hour < 12) {
-    return 0.5;  // Morning — softer wake-up vibes
+    return 0.6;  // Morning — softer wake-up vibes
   } else if (hour >= 12 && hour < 18) {
-    return 0.65;  // Afternoon — balanced and bright
+    return 0.8;  // Afternoon — balanced and bright
   } else if (hour >= 18 && hour < 24) {
-    return 0.7;  // Evening — party mode or immersive listening
+    return 0.75;  // Evening — party mode or immersive listening
   } else {
-    return 0.4;  // Night — low volume, chill zone
+    return 0.5;  // Night — low volume, chill zone
   }
 }
 
@@ -24846,17 +24808,31 @@ li.innerHTML = `
   showMoreButton.style.display = limit >= scheduledMp3Files.length ? 'none' : 'block';
 }
 
-// ===== Highlight current track =====
+
 function applyBlinkingEffect() {
   const allTracks = document.querySelectorAll('#track-list-container li');
-  allTracks.forEach(track => track.classList.remove('blinking'));
 
-  if (allTracks[track_index]) {
-    allTracks[track_index].classList.add('blinking');
+  // Step 1: clear all states
+  allTracks.forEach(track => {
+    track.classList.remove('blinking');
+    const vinyl = track.querySelector('#vinyl-icon');
+    if (vinyl) vinyl.remove();
+  });
+
+  // Step 2: add blinking + vinyl to the new active track
+  const activeTrack = allTracks[track_index];
+  if (activeTrack) {
+    activeTrack.classList.add('blinking');
+
+    const vinylIcon = document.createElement('span');
+    vinylIcon.id = 'vinyl-icon';
+    activeTrack.appendChild(vinylIcon);
   } else {
     console.error("Current track not found in the DOM!");
   }
 }
+
+
 
 document.getElementById('show-more-button').addEventListener('click', () => {
   currentDisplayLimit += additionalTracksPerClick;
@@ -24868,10 +24844,12 @@ addDurationsToTrackList(scheduledMp3Files);
 });
 
 
-function attachTrackEvents(curr_track, track_index) {
-  // When playback starts → hide duration, show countdown
+function attachTrackEvents(curr_track, index) {
   curr_track.addEventListener("play", () => {
-    const currentLi = document.querySelectorAll("#track-list-container li")[track_index];
+    track_index = index; // 🔹 update the global track_index
+    applyBlinkingEffect(); // 🔹 re-run highlight + vinyl logic
+
+    const currentLi = document.querySelectorAll("#track-list-container li")[index];
     if (currentLi) {
       const durationSpan = currentLi.querySelector(".track-duration");
       const countdownSpan = currentLi.querySelector(".countdown");
@@ -24880,9 +24858,8 @@ function attachTrackEvents(curr_track, track_index) {
     }
   });
 
-  // When playback ends → show duration again, hide countdown
   curr_track.addEventListener("ended", () => {
-    const currentLi = document.querySelectorAll("#track-list-container li")[track_index];
+    const currentLi = document.querySelectorAll("#track-list-container li")[index];
     if (currentLi) {
       const durationSpan = currentLi.querySelector(".track-duration");
       const countdownSpan = currentLi.querySelector(".countdown");
@@ -24891,6 +24868,7 @@ function attachTrackEvents(curr_track, track_index) {
     }
   });
 }
+
 
 
 
@@ -25113,6 +25091,9 @@ document.addEventListener("DOMContentLoaded", () => {
     updateVisibleTracks();
   });
 });
+
+
+
 
 
 
