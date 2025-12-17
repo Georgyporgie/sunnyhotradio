@@ -6618,7 +6618,7 @@ volumeBoost: 0.25
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj5.mp3",
+    path: "muziek/discjockeys/Female dj5.mp3",
        timeCategory: "afternoon"
 },
 
@@ -6764,13 +6764,6 @@ quickFade: true
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj6.mp3",
-      timeCategory: "afternoon"
-},
 
 
 
@@ -10734,7 +10727,7 @@ quickFade: true
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj2.mp3",
+    path: "muziek/discjockeys/Female dj2.mp3",
       timeCategory: "evening"
 },
 
@@ -10744,7 +10737,7 @@ quickFade: true
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj4.mp3",
+    path: "muziek/discjockeys/Female dj4.mp3",
       timeCategory: "evening"
 },
 
@@ -10932,7 +10925,7 @@ quickFade: true,
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj3.mp3",
+    path: "muziek/discjockeys/Female dj3.mp3",
       timeCategory: "evening"
 },
 
@@ -11436,7 +11429,7 @@ volumeBoost: 0.25
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj5.mp3",
+    path: "muziek/discjockeys/Female dj5.mp3",
       timeCategory: "evening"
 },
 
@@ -12346,7 +12339,11 @@ volumeBoost: 0.10
     artist: " Julian Perreta",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Gaulin & Julian Perreta - Seven nation army.mp3",
-      timeCategory: "evening"
+      timeCategory: "evening",
+isLoud: true,          
+  loudnessValue: 0.90 
+
+
 },
 
 
@@ -12929,7 +12926,7 @@ volumeBoost: 0.10
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj4.mp3",
+    path: "muziek/discjockeys/Female dj4.mp3",
       timeCategory: "evening"
 },
 
@@ -12992,13 +12989,7 @@ volumeBoost: 0.20
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj6.mp3",
-      timeCategory: "evening"
-},
+
 
 {
     name: " Just An Illusion (12inch)",
@@ -14193,17 +14184,11 @@ volumeBoost: 0.85
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj2.mp3",
+    path: "muziek/discjockeys/Female dj2.mp3",
       timeCategory: "evening"
 },
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj6.mp3",
-      timeCategory: "evening"
-},
+
 
 
 
@@ -16331,30 +16316,14 @@ volumeBoost: 0.20
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj3.mp3",
+    path: "muziek/discjockeys/Female dj3.mp3",
     timeCategory: "evening-late"
 },
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj2.mp3",
-      timeCategory: "evening-late"
-},
 
 
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj4.mp3",
-      timeCategory: "evening-late"
-},
 
 
 
@@ -16431,7 +16400,7 @@ volumeBoost: 0.20
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj2.mp3",
+    path: "muziek/discjockeys/Female dj2.mp3",
       timeCategory: "evening-late"
 },
 
@@ -16525,13 +16494,6 @@ quickFade: true
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj3.mp3",
-      timeCategory: "evening-late"
-},
 
 
 
@@ -16654,13 +16616,7 @@ quickFade: true
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj2.mp3",
-      timeCategory: "evening"
-},
+
 
 
 
@@ -16754,13 +16710,7 @@ volumeBoost: 0.40
     timeCategory: "evening-late"
 },
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj3.mp3",
-      timeCategory: "evening"
-},
+
 
 
 
@@ -16917,15 +16867,6 @@ volumeBoost: 0.40
 
 
 
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj5.mp3",
-      timeCategory: "evening-late"
-},
 
 
 
@@ -17959,13 +17900,6 @@ quickFade: true,
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj5.mp3",
-      timeCategory: "evening-late"
-},
 
 {
     name: "Booty Call",
@@ -18008,8 +17942,9 @@ timeCategory: "morning"
     path: "https://sunnydanceoldies09.netlify.app/EWF Let's us groove.mp3",
  timeCategory: "evening-late",
   quickFade: true,
-    volumeBoost: 0.55,
-    playcount: 0
+    volumeBoost: 0.35,
+      eq: { bass: 1, mid: 1, treble: 0 } ,
+playcount: 0
 },
 
 
@@ -18519,16 +18454,6 @@ timeCategory: "morning"
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj2.mp3",
-      timeCategory: "evening-late"
-},
-
-
-
 
 
 
@@ -18799,7 +18724,9 @@ playcount: 0
     artist: "Humanoid",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Humanoid - Stakker Humanoid.mp3",
-   timeCategory: "evening-late"
+   timeCategory: "evening-late",
+isLoud: true,          
+  loudnessValue: 0.90
 },
 
 
@@ -20076,7 +20003,7 @@ playcount: 0
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj5.mp3",
+    path: "muziek/discjockeys/Female dj5.mp3",
       timeCategory: "evening-late"
 },
 
@@ -20096,7 +20023,7 @@ playcount: 0
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj5.mp3",
+    path: "muziek/discjockeys/Female dj5.mp3",
       timeCategory: "evening-late"
 },
 
@@ -21842,14 +21769,6 @@ timeCategory: "f evening"
 
 
 
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ☀️",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj6.mp3",
-timeCategory: "f evening"
-},
-
 
 {
     name: "Welcome!",
@@ -22151,30 +22070,16 @@ quickFade: true,
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj3.mp3",
+    path: "muziek/discjockeys/Female dj3.mp3",
     timeCategory: "f evening"
 },
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj2.mp3",
-      timeCategory: "f evening"
-},
 
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female Dj4.mp3",
-      timeCategory: "f evening"
-},
 
 
 
