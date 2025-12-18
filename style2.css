@@ -981,11 +981,26 @@ width: 355px; height: 370px;
 
 
 
-#playlist  {    width: 150px;  height: 145px;filter: brightness(100%) saturate(100%) contrast(100%) opacity(75%); transform: rotate(0deg); z-index: -200; margin: -30px auto 15px auto; display: block; border-radius: 5px; border: solid 5px #FFD300 ;
+#playlist {
+  width: 150px;
+  height: 145px;
+  margin: -30px auto 15px auto;
+  display: block;
+  border-radius: 5px;
+  border: solid 5px #FFD300;
+  filter: brightness(100%) saturate(100%) contrast(100%) opacity(75%);
+  position: relative;
+  z-index: -200;
 
-
-
+  animation: borderPulse 3s linear infinite;
 }
+
+@keyframes borderPulse {
+  0%   { border-color: #FFD300; }
+  50%  { border-color: #FF6F00; }
+  100% { border-color: #FFD300; }
+}
+
 
 
 

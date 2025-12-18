@@ -1,0 +1,93 @@
+/* Base leaf style */
+.leaf {
+  position: absolute;
+  top: -50px;
+  width: 40px;
+  height: 40px;
+  background-image: url('snowflake.png'); /* default */
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  /* Use named animation; duration is set from JS */
+  animation-name: fall;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+/* Regular fall animation */
+@keyframes fall {
+  0% { transform: translateY(-50px) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(100vh) rotate(360deg); opacity: 0.7; }
+}
+
+/* Black leaf animation — distinct vibe */
+@keyframes blackFall {
+  0%   { transform: translateX(0vw)  translateY(-50px) rotate(0deg);   opacity: 1; }
+  25%  { transform: translateX(5vw)  translateY(25vh)  rotate(60deg);  opacity: 0.95; }
+  50%  { transform: translateX(-5vw) translateY(50vh)  rotate(180deg); opacity: 0.9; }
+  75%  { transform: translateX(8vw)  translateY(75vh)  rotate(300deg); opacity: 0.85; }
+  100% { transform: translateX(0vw)  translateY(100vh) rotate(420deg); opacity: 0.8; }
+}
+
+/* Remove nth-child delays (JS controls timing) */
+/* .leaf:nth-child(1) { animation-delay: 0s; }
+   .leaf:nth-child(2) { animation-delay: 3s; }
+   .leaf:nth-child(3) { animation-delay: 6s; } */
+
+
+
+
+/* Golden leaf look (glow and warmth) */
+.leaf[style*="snowflake.png"] {
+  filter: drop-shadow(0 0 8px rgba(255, 200, 80, 0.9));
+  opacity: 0.98;
+  z-index: 12; /* above regular leaves */
+  animation-name: goldenFall; /* unique motion */
+}
+
+/* Golden leaf animation — lighter, buoyant */
+@keyframes goldenFall {
+  0%   { transform: translateX(0vw)  translateY(-50px) rotate(0deg)   scale(1);   opacity: 1; }
+  20%  { transform: translateX(6vw)  translateY(20vh)  rotate(50deg)  scale(1.05); opacity: 0.98; }
+  45%  { transform: translateX(-4vw) translateY(45vh)  rotate(150deg) scale(1.1);  opacity: 0.95; }
+  70%  { transform: translateX(8vw)  translateY(70vh)  rotate(280deg) scale(1.06); opacity: 0.92; }
+  100% { transform: translateX(0vw)  translateY(100vh) rotate(420deg) scale(1.02); opacity: 0.88; }
+}
+
+
+
+
+.flake {
+  position: absolute;
+  top: -50px;
+  width: 25px;
+  height: 25px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation-name: snowFall;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes snowFall {
+  0%   { transform: translateY(-50px) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(100vh) rotate(360deg); opacity: 0.8; }
+}
+
+
+.lane {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.lane-front { z-index: 30; }
+.lane-mid   { z-index: 20; filter: blur(1px); opacity: 0.9; }
+.lane-back  { z-index: 10; filter: blur(2px); opacity: 0.7; }
+
+/* You can also vary speed via CSS variables per lane */
+.lane-front { --snow-speed-min: 16s; --snow-speed-var: 4s; }
+.lane-mid   { --snow-speed-min: 20s; --snow-speed-var: 6s; }
+.lane-back  { --snow-speed-min: 24s; --snow-speed-var: 8s; }
+
