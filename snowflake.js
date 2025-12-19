@@ -102,41 +102,46 @@ function maybeSpawnGoldenRandom() {
 }
 setInterval(maybeSpawnGoldenRandom, 10000);
 
-/* --- Daily snow window (random 4h block) --- */
+// Helper: pick one random 4-hour window per day
 let cachedDay = null;
 let cachedWindow = null;
+
 function dailySnowWindow() {
   const today = new Date().getDate();
   if (cachedDay !== today) {
     cachedDay = today;
+
+    // Pick a random start hour between 8 and 18
     const start = 8 + Math.floor(Math.random() * 10);
-    const end = start + 4;
+    const end = start + 4; // 4-hour block
+
     cachedWindow = { start, end };
     console.log("Snow active window today:", start, "→", end);
   }
   return cachedWindow;
 }
 
-/* --- Snowflakes --- */
 function spawnFlake() {
   const now = new Date();
   const month = now.getMonth();
   const day   = now.getDate();
   const hour  = now.getHours();
 
-  // Stop after Feb 1
+  // Stop completely after Feb 1
   if (month > 1 || (month === 1 && day >= 1)) return;
 
+  // Check if current hour is inside today’s window
   const { start, end } = dailySnowWindow();
   if (hour < start || hour >= end) return;
 
-  // January taper
+  // Taper factor in January
   let spawnChance = 1;
   if (month === 0) {
     spawnChance = Math.max(0, 1 - (day / 31));
   }
   if (Math.random() > spawnChance) return;
 
+  // Normal flake creation
   const flake = document.createElement("div");
   flake.className = "flake";
   flake.style.left = Math.random() * window.innerWidth + "px";
@@ -148,6 +153,52 @@ function spawnFlake() {
   container.appendChild(flake);
   setTimeout(() => flake.remove(), duration * 1000);
 }
+
+// Helper: pick random hours once per day
+let cachedDay = null;
+let cachedHours = [];
+function dailySnowHours() {
+  const today = new Date().getDate();
+  if (cachedDay !== today) {
+    cachedDay = today;
+    cachedHours = [];
+    while (cachedHours.length < 3) { // 3 random hours
+      const h = 10 + Math.floor(Math.random() * 12); // between 10–22
+      if (!cachedHours.includes(h)) cachedHours.push(h);
+    }
+    console.log("Snow active hours today:", cachedHours);
+  }
+  return cachedHours;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* --- Seasonal mix --- */
 function spawnSeasonal() {

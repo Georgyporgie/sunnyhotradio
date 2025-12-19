@@ -1718,7 +1718,40 @@ function shuffle(array) {
 
 
 
+// Helper to update categoriesPerDay easily
+function setShow(day, timeRange, newTag) {
+  if (!categoriesPerDay[day]) {
+    console.warn("Day not found:", day);
+    return;
+  }
+  if (!categoriesPerDay[day][timeRange]) {
+    console.warn("Time range not found:", timeRange);
+    return;
+  }
+  categoriesPerDay[day][timeRange] = [newTag];
+}
 
+// Example usage:
+setShow(4, "late", "sunset-grooves");   // Day 4, afternoon slot now plays "sunset-grooves"
+setShow(5, "special-show", "DJ's Special");   // Day 5, special-show slot now plays "disco-night"
+
+
+// Helper to retrieve what's scheduled
+function getShow(day, timeRange) {
+  if (!categoriesPerDay[day]) {
+    console.warn("Day not found:", day);
+    return null;
+  }
+  if (!categoriesPerDay[day][timeRange]) {
+    console.warn("Time range not found:", timeRange);
+    return null;
+  }
+  return categoriesPerDay[day][timeRange];
+}
+
+// Example usage:
+console.log(getShow(4, "late"));   // → ["sunset-grooves"]
+console.log(getShow(5, "special-show")); // → ["special-cast"]
 
 
 
@@ -1766,7 +1799,14 @@ function getCurrentTimeCategory() {
 6: { morning: ["f afternoon"], afternoon: ["f evening"], "special-show": ["special"], evening: ["f evening-late"], "evening-late": ["f evening"], late: ["f afternoon"], night: ["jingle-time"] }
   };
 
-  // Helper for overnight ranges
+  
+
+
+
+
+
+
+// Helper for overnight ranges
   function isInRange(hour, start, end) {
     if (start < end) {
       return hour >= start && hour < end;
@@ -1818,10 +1858,10 @@ const weekdaySlots = [
 
   const weekendSlots = [
     { start: 8, end: 14, file: "muziek/voiceover/From The Heart Of Amsterdam2.mp3" },
-    { start: 14, end: 16, file: "muziek/voiceover/From all over the world.mp3" },
-    { start: 16, end: 19, file: "muziek/voiceover/From The Heart Of Amsterdam2.mp3" },
-    { start: 19, end: 23, file: "muziek/discjockeys/DJ Saphire finale.mp3" },
-    { start: 23, end: 3, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" },
+    { start: 14, end: 16, file: "muziek/jingle bells/jingle bells2.mp3" },
+    { start: 16, end: 19, file: "muziek/jingle bells/jingle bells2.mp3" },
+    { start: 19, end: 23, file: "muziek/jingle bells/jingle bells2.mp3" },
+    { start: 23, end: 3, file: "muziek/jingle bells/jingle bells2.mp3" },
     { start: 3, end: 8, file: "muziek/discjockeys/starten met Sunny4.mp3" }
   ];
  

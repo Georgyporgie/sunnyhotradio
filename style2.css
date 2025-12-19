@@ -1005,11 +1005,6 @@ width: 355px; height: 370px;
 
 
 
-#playlist:hover {
-  transform: scale(1.15); /* slight zoom forward */
-  box-shadow: 0 0 16px rgba(10, 61, 98, 0.6); /* stronger glow */
-}
-
 
 .blinking {
   animation: blink 2s infinite ease-in-out, pulse 1.5s infinite ease-in-out;

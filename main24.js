@@ -8394,7 +8394,7 @@ volumeBoost: 0.30
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Charli XCX - Break the Rules.mp3",
    isLoud: true,          
-  loudnessValue: 0.70,  
+  loudnessValue: 0.50,  
 
 
    timeCategory: "afternoon"
@@ -13388,9 +13388,11 @@ volumeBoost: 0.50,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/KID - Don't Stop.mp3",
    timeCategory: "evening",
-     quickFade: true,
-    volumeBoost: 0.45,
-    playcount: 0
+        quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0,
+  eq: { bass: 1, mid: 1, treble: +1 } 
+
 },
 
 
@@ -20234,6 +20236,104 @@ playcount: 0
 
 },
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
      name: "  Nobody's Girl (new)",
     artist: "Tate McRae ",
@@ -20755,7 +20855,7 @@ quickFade: true
     name: "Welcome!",
     artist: "Listen Live Sunny Dance Radio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj4.mp3",
+    path: "muziek/discjockeys/Female dj44.mp3",
      timeCategory: "f afternoon"
 },
 
@@ -20772,7 +20872,7 @@ quickFade: true
     name: "Welcome!",
     artist: "Listen Live Sunny Dance Radio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj2.mp3",
+    path: "muziek/discjockeys/Female dj22.mp3",
     timeCategory: "f afternoon"
 },
 
@@ -20859,7 +20959,7 @@ quickFade: true
     name: "Welcome!",
     artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj2.mp3",
+    path: "muziek/discjockeys/Female dj22.mp3",
     timeCategory: "f afternoon"
 },
 
@@ -21195,7 +21295,7 @@ quickFade: true
     name: "Welcome!",
     artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj2.mp3",
+    path: "muziek/discjockeys/Female dj33.mp3",
        timeCategory: "f afternoon"
 
 },
@@ -21774,7 +21874,7 @@ timeCategory: "f evening"
     name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj5.mp3",
+    path: "muziek/discjockeys/Female dj55.mp3",
  timeCategory: "f evening"
 },
 
@@ -21783,7 +21883,7 @@ timeCategory: "f evening"
     name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj2.mp3",
+    path: "muziek/discjockeys/Female dj44.mp3",
   timeCategory: "f evening"
 },
 
@@ -21880,7 +21980,8 @@ quickFade: true,
     path: "https://dancemusic06.netlify.app/Bebe Rexha - One In A Million.mp3",
  timeCategory: "f evening",
     quickFade: true,
- 
+ isLoud: true,          
+  loudnessValue: 0.80, 
     playcount: 0
 },
 
@@ -21952,8 +22053,9 @@ quickFade: true,
     path: "https://sunnyhotradio.com/muziek/oldies07/KID - Don't Stop.mp3",
    timeCategory: "f evening",
      quickFade: true,
-    volumeBoost: 0.45,
-    playcount: 0
+    volumeBoost: 0.35,
+    playcount: 0,
+  eq: { bass: 1, mid: 1, treble: +1 } 
 },
 
 
@@ -22070,7 +22172,7 @@ quickFade: true,
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female dj3.mp3",
+    path: "muziek/discjockeys/Female dj66.mp3",
     timeCategory: "f evening"
 },
 
@@ -22390,8 +22492,9 @@ quickFade: true,
     path: "https://sunnydanceoldies09.netlify.app/Players Association - Turn The Music Up!.mp3",
     timeCategory: "f evening",
     quickFade: true,
-    volumeBoost: 0.55,
-    playcount: 0
+    volumeBoost: 0.45,
+    playcount: 0,
+  eq: { bass: 1, mid: 2, treble: +1 } 
 },
 
 
@@ -22586,7 +22689,7 @@ quickFade: true,
     name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj5.mp3",
+    path: "muziek/discjockeys/Female dj55.mp3",
        timeCategory: "f evening"
 },
 
