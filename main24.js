@@ -445,6 +445,18 @@ volumeBoost:0.40,
 
 
 {
+     name: "Love Generator (live) ",
+    artist: "Calvin Harris",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "special-mix"
+
+},
+
+
+
+
+{
      name: "Love Generator ",
     artist: "Calvin Harris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -485,6 +497,14 @@ volumeBoost:0.40
 
 
 
+{
+     name: "Love Generator (live) ",
+    artist: "Calvin Harris",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "special"
+
+},
 
 
 
@@ -540,6 +560,14 @@ volumeBoost:0.50
 
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "special-mix"
+
+},
 
 
 
@@ -601,6 +629,14 @@ volumeBoost:0.50
 
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "special"
+
+},
 
 
 
@@ -679,6 +715,14 @@ volumeBoost:0.50
 
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "special-cast"
+
+},
 
 
 
@@ -2449,6 +2493,15 @@ timeCategory: "morning",
 
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "morning"
+
+
+},
 
 
 
@@ -3438,7 +3491,15 @@ volumeBoost: 0.10
 },
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "morning"
 
+
+},
 
 {
     name: "Bang Bang",
@@ -3942,7 +4003,15 @@ volumeBoost: 0.30
     playcount: 0
 },
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "morning"
 
+
+},
 
 
 
@@ -4019,7 +4088,15 @@ volumeBoost: 0.10
 
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "morning"
 
+
+},
 
 
 
@@ -4581,7 +4658,15 @@ volumeBoost: 0.35
 
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "morning"
 
+
+},
 
 
 
@@ -9258,6 +9343,18 @@ quickFade: true
 },
 
 {
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "afternoon"
+
+
+},
+
+
+
+{
     name: " Moth To A Flame",
     artist: "The Weeknd",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -9378,7 +9475,15 @@ quickFade: true
 },
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "afternoon"
 
+
+},
 
 
 
@@ -9764,7 +9869,15 @@ volumeBoost: 0.50
 
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "afternoon"
 
+
+},
 
 
 
@@ -10077,7 +10190,15 @@ quickFade: true,
 
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "evening"
 
+
+},
 
 
 
@@ -10406,7 +10527,15 @@ quickFade: true,
 },
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "evening"
 
+
+},
 
 
 
@@ -10592,7 +10721,15 @@ quickFade: true,
 
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "evening"
 
+
+},
 
 
 
@@ -10954,7 +11091,15 @@ quickFade: true,
 },
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "evening"
 
+
+},
 
 
 
@@ -11037,7 +11182,15 @@ quickFade: true
 
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "evening"
 
+
+},
 
 
 
@@ -15380,7 +15533,15 @@ volumeBoost:0.40
   timeCategory: "evening-late"
 },
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "evening-late"
 
+
+},
 
 
 {
@@ -16164,7 +16325,15 @@ volumeBoost: 0.40
 
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "evening-late"
 
+
+},
 
 
 
@@ -16275,7 +16444,15 @@ volumeBoost: 0.20
 
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "afternoon"
 
+
+},
 
 
 
@@ -16498,7 +16675,15 @@ quickFade: true
 
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "evening-late"
 
+
+},
 
 
 
@@ -16712,7 +16897,15 @@ volumeBoost: 0.40
     timeCategory: "evening-late"
 },
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "evening-late"
 
+
+},
 
 
 
@@ -16821,7 +17014,15 @@ volumeBoost: 0.40
 
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "evening-late"
 
+
+},
 
 
 
@@ -17003,7 +17204,15 @@ volumeBoost: 0.40
 
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "evening-late"
 
+
+},
 
 
 
@@ -17159,7 +17368,15 @@ volumeBoost: 0.10
 
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "evening-late"
 
+
+},
 
 
 
@@ -20221,7 +20438,15 @@ playcount: 0
 },
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "f afternoon"
 
+
+},
 
 
 {
@@ -20360,7 +20585,15 @@ playcount: 0
 },
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "f afternoon"
 
+
+},
 
 
 
@@ -20423,7 +20656,15 @@ playcount: 0
     playcount: 0
 },
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "f afternoon"
 
+
+},
 
 {
     name: "We Got Our Own Thang",
@@ -20480,7 +20721,15 @@ playcount: 0
 
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "f afternoon"
 
+
+},
 
 
 
@@ -21649,7 +21898,15 @@ quickFade: true,
 },
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "f-evening"
 
+
+},
 
 {
     name: "Damiano David & Tyla  ",
@@ -21726,6 +21983,15 @@ quickFade: true,
 
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "f-evening"
+
+
+},
 
 
 
@@ -21829,6 +22095,15 @@ timeCategory: "f evening"
 
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "f-evening"
+
+
+},
 
 
 
@@ -22004,6 +22279,15 @@ quickFade: true,
 
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "f-evening"
+
+
+},
 
 
 
@@ -22638,6 +22922,15 @@ quickFade: true,
 
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "f-evening"
+
+
+},
 
 
 
@@ -22911,6 +23204,15 @@ volumeBoost: 0.40
 
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "f-evening"
+
+
+},
 
 
 
@@ -23053,6 +23355,15 @@ volumeBoost: 0.40
 
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "f-evening-late"
+
+
+},
 
 
 
@@ -23149,6 +23460,19 @@ volumeBoost: 0.80,
 
 
 
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "f-evening-late"
+
+
+},
+
+
+
+
 
 {
     name: "Welcome!",
@@ -23214,6 +23538,19 @@ volumeBoost: 0.80,
 
 
 
+
+
+
+
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "f-evening-late"
+
+
+},
 
 
 
@@ -23311,6 +23648,19 @@ volumeBoost: 0.30
 
 
 
+
+
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "f-evening-late"
+
+
+},
+
+
 {
      name: " Think About Us    (new)",
     artist: "Poppy Baskcomb   ",
@@ -23395,6 +23745,19 @@ volumeBoost: 0.40
 
 
 
+
+
+
+
+{
+     name: "jingle bells ",
+    artist: "Christmas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/jingle bells2.mp3",
+    timeCategory: "f-evening-late"
+
+
+},
 
 
 
