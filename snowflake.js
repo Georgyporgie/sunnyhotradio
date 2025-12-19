@@ -154,50 +154,6 @@ function spawnFlake() {
   setTimeout(() => flake.remove(), duration * 1000);
 }
 
-// Helper: pick random hours once per day
-let cachedDay = null;
-let cachedHours = [];
-function dailySnowHours() {
-  const today = new Date().getDate();
-  if (cachedDay !== today) {
-    cachedDay = today;
-    cachedHours = [];
-    while (cachedHours.length < 3) { // 3 random hours
-      const h = 10 + Math.floor(Math.random() * 12); // between 10–22
-      if (!cachedHours.includes(h)) cachedHours.push(h);
-    }
-    console.log("Snow active hours today:", cachedHours);
-  }
-  return cachedHours;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* --- Seasonal mix --- */
