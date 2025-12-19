@@ -1718,40 +1718,7 @@ function shuffle(array) {
 
 
 
-// Helper to update categoriesPerDay easily
-function setShow(day, timeRange, newTag) {
-  if (!categoriesPerDay[day]) {
-    console.warn("Day not found:", day);
-    return;
-  }
-  if (!categoriesPerDay[day][timeRange]) {
-    console.warn("Time range not found:", timeRange);
-    return;
-  }
-  categoriesPerDay[day][timeRange] = [newTag];
-}
 
-// Example usage:
-setShow(4, "late", "sunset-grooves");   // Day 4, afternoon slot now plays "sunset-grooves"
-setShow(5, "special-show", "DJ's Special");   // Day 5, special-show slot now plays "disco-night"
-
-
-// Helper to retrieve what's scheduled
-function getShow(day, timeRange) {
-  if (!categoriesPerDay[day]) {
-    console.warn("Day not found:", day);
-    return null;
-  }
-  if (!categoriesPerDay[day][timeRange]) {
-    console.warn("Time range not found:", timeRange);
-    return null;
-  }
-  return categoriesPerDay[day][timeRange];
-}
-
-// Example usage:
-console.log(getShow(4, "late"));   // → ["sunset-grooves"]
-console.log(getShow(5, "special-show")); // → ["special-cast"]
 
 
 
@@ -1799,14 +1766,7 @@ function getCurrentTimeCategory() {
 6: { morning: ["f afternoon"], afternoon: ["f evening"], "special-show": ["special"], evening: ["f evening-late"], "evening-late": ["f evening"], late: ["f afternoon"], night: ["jingle-time"] }
   };
 
-  
-
-
-
-
-
-
-// Helper for overnight ranges
+  // Helper for overnight ranges
   function isInRange(hour, start, end) {
     if (start < end) {
       return hour >= start && hour < end;
