@@ -2287,7 +2287,11 @@ timeCategory: "morning",
     path: "https://sunnydanceoldies05.netlify.app/Nomad - I Wanna Give You Devotion.mp3",
   playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.25
+  volumeBoost: 0.25,
+     quickFade: true
+
+   
+
 },
 
 
@@ -16348,7 +16352,10 @@ volumeBoost: 0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Peter Jacques Band - Dancin' Down The Street.mp3",
     timeCategory: "evening-late",
-volumeBoost: 0.20
+
+  eq: { bass: 0, mid: 0, treble: +1 } ,
+volumeBoost: 0.15
+
 },
 
 
@@ -22669,10 +22676,14 @@ quickFade: true,
     artist: "Nomad ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Nomad - I Wanna Give You Devotion.mp3",
-      timeCategory: "f evening",
-  volumeBoost: 0.20
-},
+  playcount: 0,
+timeCategory: "f evening",
+  volumeBoost: 0.25,
+     quickFade: true
 
+   
+
+},
 
 
 
@@ -23611,16 +23622,7 @@ volumeBoost: 0.80,
 
 
 
-{
-     name: "   HAPPY",
-    artist: "Jessie J ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Jessie J -  HAPPY.mp3",
-           timeCategory: "f evening-late",
-   quickFade: true,
-    volumeBoost: 0.35,
-    playcount: 0
-},
+
 
 
 
@@ -24418,8 +24420,9 @@ quickFade: true,
     artist: "Becky Hill ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Becky Hill - Disconnect.mp3",
-   timeCategory: "f evening-late"
-
+   timeCategory: "f evening-late",
+isLoud: true,          
+  loudnessValue: 0.90
 
 },
 
@@ -24957,27 +24960,48 @@ attachTrackEvents(curr_track, track_index);
 
 
 
-
-
-
-
-
-
-
 function random_bg_color() {
-  // Get a random number between 64 to 256
-  // (for getting lighter colors)
-  let red = Math.floor(Math.random() * 256) + 64;
-  let green = Math.floor(Math.random() * 256) + 64;
-  let blue = Math.floor(Math.random() * 256) + 64;
- 
-  // Construct a color withe the given values
-  let bgColor = "rgb(" + red + ", " + green + ", " + blue + ")";
- 
-  // Set the background to the new color
-  document.body.style.background = bgColor;
+  // Weekday palette (calmer tones)
+  const weekdayColors = [
+    "#4A90E2", "#50E3C2", "#B8E986", "#F5A623", "#9B9B9B"
+  ];
+
+  // Weekend palette (groovy neon)
+  const weekendColors = [
+    "#FF0080", "#00FFD5", "#FFD300", "#0033FF",
+    "#E53935", "#8E2DE2", "#00C853"
+  ];
+
+  const now = new Date();
+  const day = now.getDay();   // 0 = Sunday, 5 = Friday, 6 = Saturday
+  const hour = now.getHours();
+
+  // Weekend starts Friday at 20:00
+  const isWeekend = (day === 6 || day === 0) || (day === 5 && hour >= 20);
+
+  // Choose palette
+  const palette = isWeekend ? weekendColors : weekdayColors;
+
+  // Pick two different random colors
+  const color1 = palette[Math.floor(Math.random() * palette.length)];
+  let color2 = palette[Math.floor(Math.random() * palette.length)];
+  while (color1 === color2) {
+    color2 = palette[Math.floor(Math.random() * palette.length)];
+  }
+
+  // Build gradient
+  const bgGradient = `linear-gradient(135deg, ${color1}, ${color2})`;
+  document.body.style.background = bgGradient;
+
+  // Debug log
+  console.log("Day:", day, "Hour:", hour, "Weekend mode:", isWeekend, "Colors:", color1, color2);
 }
- 
+
+
+
+
+
+
 // Function to reset all values to their default
 function resetValues() {
   curr_time.textContent = "00:00";
