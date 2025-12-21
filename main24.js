@@ -55,12 +55,6 @@ function fisherYatesShuffle(array) {
 }
 
 
-
-
-
-
-
-
 // Define your track list with time categories
 let trackList = [
   
@@ -451,18 +445,6 @@ volumeBoost:0.40,
 
 
 {
-     name: "Love Generator (live) ",
-    artist: "Calvin Harris",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "special-mix"
-
-},
-
-
-
-
-{
      name: "Love Generator ",
     artist: "Calvin Harris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -503,14 +485,6 @@ volumeBoost:0.40
 
 
 
-{
-     name: "Love Generator (live) ",
-    artist: "Calvin Harris",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "special"
-
-},
 
 
 
@@ -566,14 +540,6 @@ volumeBoost:0.50
 
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "special-mix"
-
-},
 
 
 
@@ -635,14 +601,6 @@ volumeBoost:0.50
 
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "special"
-
-},
 
 
 
@@ -721,14 +679,6 @@ volumeBoost:0.50
 
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "special-cast"
-
-},
 
 
 
@@ -914,7 +864,7 @@ timeCategory: "seventies"
 
 {
      name: "Welcome! todays program☀️",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Jazzradio",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/jingles/Sunny radio jingle4.mp3",
  
@@ -927,7 +877,7 @@ timeCategory: "seventies"
 
 {
      name: "Welcome! todays program☀️",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Jazzradio",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
  
@@ -938,7 +888,7 @@ timeCategory: "seventies"
 
 {
      name: "Welcome! todays program☀️",
-    artist: "Listen Live Sunny Danceradio",
+    artist: "Listen Live Sunny Jazzradio",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
  
@@ -949,7 +899,7 @@ timeCategory: "seventies"
 
 {
     name: "Welcome!",
-    artist: "Sunny Danceradio  ",
+    artist: "Sunny Jazzradio  ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
  timeCategory: "seventies"
@@ -1948,10 +1898,10 @@ timeCategory: "morning",
     artist: "Gary Low ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Gary Low - You are a danger.mp3",
-   eq: { bass: 2, mid: 1, treble: +1 } ,
+  
   playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.30
+  volumeBoost: 0.35
 },
 
 
@@ -2293,11 +2243,7 @@ timeCategory: "morning",
     path: "https://sunnydanceoldies05.netlify.app/Nomad - I Wanna Give You Devotion.mp3",
   playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.25,
-     quickFade: true
-
-   
-
+  volumeBoost: 0.25
 },
 
 
@@ -2503,15 +2449,6 @@ timeCategory: "morning",
 
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "morning"
-
-
-},
 
 
 
@@ -2560,8 +2497,8 @@ timeCategory: "morning",
     path: "muziek/oldies07/La Velle - Playgirl.mp3",
     playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.65
-  eq: { bass: 1, mid: 1, treble: +1 } 
+  volumeBoost: 0.75
+
 },
 
 
@@ -2794,7 +2731,17 @@ timeCategory: "morning",
 },
 
 
+{
+    name: "  Beat Dis (1987) ",
+    artist: "Bomb The Base  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Bomb The Base - Beat Dis.mp3",
+      playcount: 0,
+timeCategory: "morning"
+ 
 
+
+},
 
 
 
@@ -3491,15 +3438,7 @@ volumeBoost: 0.10
 },
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "morning"
 
-
-},
 
 {
     name: "Bang Bang",
@@ -4003,15 +3942,7 @@ volumeBoost: 0.30
     playcount: 0
 },
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "morning"
 
-
-},
 
 
 
@@ -4088,15 +4019,7 @@ volumeBoost: 0.10
 
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "morning"
 
-
-},
 
 
 
@@ -4292,8 +4215,7 @@ volumeBoost: 0.25
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Baby O - In The Forest.mp3",
         timeCategory: "morning",
-  volumeBoost: 0.20,
-  eq: { bass: 1, mid: 1, treble: +1 } 
+volumeBoost: 0.35
 
 
 
@@ -4659,15 +4581,7 @@ volumeBoost: 0.35
 
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "morning"
 
-
-},
 
 
 
@@ -8480,7 +8394,7 @@ volumeBoost: 0.30
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Charli XCX - Break the Rules.mp3",
    isLoud: true,          
-  loudnessValue: 0.50,  
+  loudnessValue: 0.70,  
 
 
    timeCategory: "afternoon"
@@ -9344,18 +9258,6 @@ quickFade: true
 },
 
 {
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "afternoon"
-
-
-},
-
-
-
-{
     name: " Moth To A Flame",
     artist: "The Weeknd",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -9476,15 +9378,7 @@ quickFade: true
 },
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "afternoon"
 
-
-},
 
 
 
@@ -9870,15 +9764,7 @@ volumeBoost: 0.50
 
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "afternoon"
 
-
-},
 
 
 
@@ -10191,15 +10077,7 @@ quickFade: true,
 
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "evening"
 
-
-},
 
 
 
@@ -10528,15 +10406,7 @@ quickFade: true,
 },
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "evening"
 
-
-},
 
 
 
@@ -10722,15 +10592,7 @@ quickFade: true,
 
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "evening"
 
-
-},
 
 
 
@@ -11092,15 +10954,7 @@ quickFade: true,
 },
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "evening"
 
-
-},
 
 
 
@@ -11183,15 +11037,7 @@ quickFade: true
 
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "evening"
 
-
-},
 
 
 
@@ -13542,11 +13388,9 @@ volumeBoost: 0.50,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/KID - Don't Stop.mp3",
    timeCategory: "evening",
-        quickFade: true,
-    volumeBoost: 0.35,
-    playcount: 0,
-  eq: { bass: 1, mid: 1, treble: +1 } 
-
+     quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
 },
 
 
@@ -15534,15 +15378,7 @@ volumeBoost:0.40
   timeCategory: "evening-late"
 },
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "evening-late"
 
-
-},
 
 
 {
@@ -16326,15 +16162,7 @@ volumeBoost: 0.40
 
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "evening-late"
 
-
-},
 
 
 
@@ -16349,10 +16177,7 @@ volumeBoost: 0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Peter Jacques Band - Dancin' Down The Street.mp3",
     timeCategory: "evening-late",
-
-  eq: { bass: 0, mid: 0, treble: +1 } ,
-volumeBoost: 0.15
-
+volumeBoost: 0.20
 },
 
 
@@ -16448,15 +16273,7 @@ volumeBoost: 0.15
 
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "afternoon"
 
-
-},
 
 
 
@@ -16679,15 +16496,7 @@ quickFade: true
 
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "evening-late"
 
-
-},
 
 
 
@@ -16901,15 +16710,7 @@ volumeBoost: 0.40
     timeCategory: "evening-late"
 },
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "evening-late"
 
-
-},
 
 
 
@@ -17018,15 +16819,7 @@ volumeBoost: 0.40
 
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "evening-late"
 
-
-},
 
 
 
@@ -17208,15 +17001,7 @@ volumeBoost: 0.40
 
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "evening-late"
 
-
-},
 
 
 
@@ -17372,15 +17157,7 @@ volumeBoost: 0.10
 
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "evening-late"
 
-
-},
 
 
 
@@ -20442,15 +20219,7 @@ playcount: 0
 },
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "f afternoon"
 
-
-},
 
 
 {
@@ -20464,104 +20233,6 @@ playcount: 0
 
 
 },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 {
      name: "  Nobody's Girl (new)",
@@ -20589,15 +20260,7 @@ playcount: 0
 },
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "f afternoon"
 
-
-},
 
 
 
@@ -20660,15 +20323,7 @@ playcount: 0
     playcount: 0
 },
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "f afternoon"
 
-
-},
 
 {
     name: "We Got Our Own Thang",
@@ -20725,15 +20380,7 @@ playcount: 0
 
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "f afternoon"
 
-
-},
 
 
 
@@ -20881,8 +20528,8 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/La Velle - Playgirl.mp3",
       timeCategory: "f afternoon",
-  volumeBoost: 0.65,
-eq: { bass: 1, mid: 1, treble: +1 } 
+  volumeBoost: 0.75
+
 },
 
 
@@ -21108,7 +20755,7 @@ eq: { bass: 1, mid: 1, treble: +1 }
     name: "Welcome!",
     artist: "Listen Live Sunny Dance Radio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj44.mp3",
+    path: "muziek/discjockeys/Female dj4.mp3",
      timeCategory: "f afternoon"
 },
 
@@ -21125,7 +20772,7 @@ eq: { bass: 1, mid: 1, treble: +1 }
     name: "Welcome!",
     artist: "Listen Live Sunny Dance Radio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj22.mp3",
+    path: "muziek/discjockeys/Female dj2.mp3",
     timeCategory: "f afternoon"
 },
 
@@ -21212,7 +20859,7 @@ eq: { bass: 1, mid: 1, treble: +1 }
     name: "Welcome!",
     artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj22.mp3",
+    path: "muziek/discjockeys/Female dj2.mp3",
     timeCategory: "f afternoon"
 },
 
@@ -21548,7 +21195,7 @@ quickFade: true
     name: "Welcome!",
     artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj33.mp3",
+    path: "muziek/discjockeys/Female dj2.mp3",
        timeCategory: "f afternoon"
 
 },
@@ -21734,8 +21381,7 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Gary Low - You Are A Danger.mp3",
     timeCategory: "f afternoon",
-  volumeBoost: 0.35,
- eq: { bass: 2, mid: 1, treble: +1 } 
+  volumeBoost: 0.35
 },
 
 
@@ -21903,15 +21549,7 @@ quickFade: true,
 },
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "f-evening"
 
-
-},
 
 {
     name: "Damiano David & Tyla  ",
@@ -21988,15 +21626,6 @@ quickFade: true,
 
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "f-evening"
-
-
-},
 
 
 
@@ -22100,15 +21729,6 @@ timeCategory: "f evening"
 
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "f-evening"
-
-
-},
 
 
 
@@ -22154,7 +21774,7 @@ timeCategory: "f evening"
     name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj55.mp3",
+    path: "muziek/discjockeys/Female dj5.mp3",
  timeCategory: "f evening"
 },
 
@@ -22163,7 +21783,7 @@ timeCategory: "f evening"
     name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj44.mp3",
+    path: "muziek/discjockeys/Female dj2.mp3",
   timeCategory: "f evening"
 },
 
@@ -22260,8 +21880,7 @@ quickFade: true,
     path: "https://dancemusic06.netlify.app/Bebe Rexha - One In A Million.mp3",
  timeCategory: "f evening",
     quickFade: true,
- isLoud: true,          
-  loudnessValue: 0.70, 
+ 
     playcount: 0
 },
 
@@ -22284,15 +21903,6 @@ quickFade: true,
 
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "f-evening"
-
-
-},
 
 
 
@@ -22342,9 +21952,8 @@ quickFade: true,
     path: "https://sunnyhotradio.com/muziek/oldies07/KID - Don't Stop.mp3",
    timeCategory: "f evening",
      quickFade: true,
-    volumeBoost: 0.35,
-    playcount: 0,
-  eq: { bass: 1, mid: 1, treble: +1 } 
+    volumeBoost: 0.45,
+    playcount: 0
 },
 
 
@@ -22386,8 +21995,7 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Baby O - In The Forest.mp3",
     timeCategory: "f evening",
-  volumeBoost: 0.20,
-  eq: { bass: 1, mid: 1, treble: +1 } 
+  volumeBoost: 0.25
 },
 
 
@@ -22462,7 +22070,7 @@ quickFade: true,
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female dj66.mp3",
+    path: "muziek/discjockeys/Female dj3.mp3",
     timeCategory: "f evening"
 },
 
@@ -22675,14 +22283,10 @@ quickFade: true,
     artist: "Nomad ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Nomad - I Wanna Give You Devotion.mp3",
-  playcount: 0,
-timeCategory: "f evening",
-  volumeBoost: 0.25,
-     quickFade: true
-
-   
-
+      timeCategory: "f evening",
+  volumeBoost: 0.20
 },
+
 
 
 
@@ -22786,9 +22390,8 @@ timeCategory: "f evening",
     path: "https://sunnydanceoldies09.netlify.app/Players Association - Turn The Music Up!.mp3",
     timeCategory: "f evening",
     quickFade: true,
-    volumeBoost: 0.45,
-    playcount: 0,
-  eq: { bass: 2, mid: 2, treble: +1 } 
+    volumeBoost: 0.55,
+    playcount: 0
 },
 
 
@@ -22800,8 +22403,7 @@ timeCategory: "f evening",
     timeCategory: "f evening",
     quickFade: true,
     volumeBoost: 0.45,
-      eq: { bass: 1, mid: 1, treble: +1 } ,
-playcount: 0
+    playcount: 0
 },
 
 
@@ -22933,15 +22535,6 @@ playcount: 0
 
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "f-evening"
-
-
-},
 
 
 
@@ -22964,8 +22557,7 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Bomb The Base - Beat Dis.mp3",
      timeCategory: "f evening",
- isLoud: true,          
-  loudnessValue: 0.80
+  volumeBoost: 0.05
 
 
 },
@@ -22994,7 +22586,7 @@ quickFade: true,
     name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj55.mp3",
+    path: "muziek/discjockeys/Female dj5.mp3",
        timeCategory: "f evening"
 },
 
@@ -23216,15 +22808,6 @@ volumeBoost: 0.40
 
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "f-evening"
-
-
-},
 
 
 
@@ -23367,15 +22950,6 @@ volumeBoost: 0.40
 
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "f-evening-late"
-
-
-},
 
 
 
@@ -23472,19 +23046,6 @@ volumeBoost: 0.80,
 
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "f-evening-late"
-
-
-},
-
-
-
-
 
 {
     name: "Welcome!",
@@ -23554,19 +23115,6 @@ volumeBoost: 0.80,
 
 
 
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "f-evening-late"
-
-
-},
-
-
-
-
 
 
 
@@ -23623,7 +23171,16 @@ volumeBoost: 0.80,
 
 
 
-
+{
+     name: "   HAPPY",
+    artist: "Jessie J ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Jessie J -  HAPPY.mp3",
+           timeCategory: "f evening-late",
+   quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
+},
 
 
 
@@ -23649,19 +23206,6 @@ volumeBoost: 0.30
   playcount: 0
 },
 
-
-
-
-
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "f-evening-late"
-
-
-},
 
 
 {
@@ -23748,19 +23292,6 @@ volumeBoost: 0.40
 
 
 
-
-
-
-
-{
-     name: "jingle bells ",
-    artist: "Christmas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/jingle bells2.mp3",
-    timeCategory: "f-evening-late"
-
-
-},
 
 
 
@@ -24421,9 +23952,8 @@ quickFade: true,
     artist: "Becky Hill ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Becky Hill - Disconnect.mp3",
-   timeCategory: "f evening-late",
-isLoud: true,          
-  loudnessValue: 0.90
+   timeCategory: "f evening-late"
+
 
 },
 
@@ -24961,48 +24491,27 @@ attachTrackEvents(curr_track, track_index);
 
 
 
+
+
+
+
+
+
+
 function random_bg_color() {
-  // Weekday palette (calmer tones)
-  const weekdayColors = [
-    "#4A90E2", "#50E3C2", "#B8E986", "#F5A623", "#9B9B9B"
-  ];
-
-  // Weekend palette (groovy neon)
-  const weekendColors = [
-    "#FF0080", "#00FFD5", "#FFD300", "#0033FF",
-    "#E53935", "#8E2DE2", "#00C853"
-  ];
-
-  const now = new Date();
-  const day = now.getDay();   // 0 = Sunday, 5 = Friday, 6 = Saturday
-  const hour = now.getHours();
-
-  // Weekend starts Friday at 20:00
-  const isWeekend = (day === 6 || day === 0) || (day === 5 && hour >= 20);
-
-  // Choose palette
-  const palette = isWeekend ? weekendColors : weekdayColors;
-
-  // Pick two different random colors
-  const color1 = palette[Math.floor(Math.random() * palette.length)];
-  let color2 = palette[Math.floor(Math.random() * palette.length)];
-  while (color1 === color2) {
-    color2 = palette[Math.floor(Math.random() * palette.length)];
-  }
-
-  // Build gradient
-  const bgGradient = `linear-gradient(135deg, ${color1}, ${color2})`;
-  document.body.style.background = bgGradient;
-
-  // Debug log
-  console.log("Day:", day, "Hour:", hour, "Weekend mode:", isWeekend, "Colors:", color1, color2);
+  // Get a random number between 64 to 256
+  // (for getting lighter colors)
+  let red = Math.floor(Math.random() * 256) + 64;
+  let green = Math.floor(Math.random() * 256) + 64;
+  let blue = Math.floor(Math.random() * 256) + 64;
+ 
+  // Construct a color withe the given values
+  let bgColor = "rgb(" + red + ", " + green + ", " + blue + ")";
+ 
+  // Set the background to the new color
+  document.body.style.background = bgColor;
 }
-
-
-
-
-
-
+ 
 // Function to reset all values to their default
 function resetValues() {
   curr_time.textContent = "00:00";
@@ -25487,6 +24996,7 @@ document.addEventListener("DOMContentLoaded", () => {
     updateVisibleTracks();
   });
 });
+
 
 
 
