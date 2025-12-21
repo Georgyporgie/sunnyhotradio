@@ -55,6 +55,12 @@ function fisherYatesShuffle(array) {
 }
 
 
+
+
+
+
+
+
 // Define your track list with time categories
 let trackList = [
   
@@ -908,7 +914,7 @@ timeCategory: "seventies"
 
 {
      name: "Welcome! todays program☀️",
-    artist: "Listen Live Sunny Jazzradio",
+    artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/jingles/Sunny radio jingle4.mp3",
  
@@ -921,7 +927,7 @@ timeCategory: "seventies"
 
 {
      name: "Welcome! todays program☀️",
-    artist: "Listen Live Sunny Jazzradio",
+    artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
  
@@ -932,7 +938,7 @@ timeCategory: "seventies"
 
 {
      name: "Welcome! todays program☀️",
-    artist: "Listen Live Sunny Jazzradio",
+    artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
  
@@ -943,7 +949,7 @@ timeCategory: "seventies"
 
 {
     name: "Welcome!",
-    artist: "Sunny Jazzradio  ",
+    artist: "Sunny Danceradio  ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
  timeCategory: "seventies"
@@ -1942,10 +1948,10 @@ timeCategory: "morning",
     artist: "Gary Low ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Gary Low - You are a danger.mp3",
-  
+   eq: { bass: 2, mid: 1, treble: +1 } ,
   playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.35
+  volumeBoost: 0.30
 },
 
 
@@ -2554,8 +2560,8 @@ timeCategory: "morning",
     path: "muziek/oldies07/La Velle - Playgirl.mp3",
     playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.75
-
+  volumeBoost: 0.65
+  eq: { bass: 1, mid: 1, treble: +1 } 
 },
 
 
@@ -2788,17 +2794,7 @@ timeCategory: "morning",
 },
 
 
-{
-    name: "  Beat Dis (1987) ",
-    artist: "Bomb The Base  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Bomb The Base - Beat Dis.mp3",
-      playcount: 0,
-timeCategory: "morning"
- 
 
-
-},
 
 
 
@@ -4296,7 +4292,8 @@ volumeBoost: 0.25
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Baby O - In The Forest.mp3",
         timeCategory: "morning",
-volumeBoost: 0.35
+  volumeBoost: 0.20,
+  eq: { bass: 1, mid: 1, treble: +1 } 
 
 
 
@@ -20884,8 +20881,8 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/La Velle - Playgirl.mp3",
       timeCategory: "f afternoon",
-  volumeBoost: 0.75
-
+  volumeBoost: 0.65,
+eq: { bass: 1, mid: 1, treble: +1 } 
 },
 
 
@@ -21737,7 +21734,8 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Gary Low - You Are A Danger.mp3",
     timeCategory: "f afternoon",
-  volumeBoost: 0.35
+  volumeBoost: 0.35,
+ eq: { bass: 2, mid: 1, treble: +1 } 
 },
 
 
@@ -22263,7 +22261,7 @@ quickFade: true,
  timeCategory: "f evening",
     quickFade: true,
  isLoud: true,          
-  loudnessValue: 0.80, 
+  loudnessValue: 0.70, 
     playcount: 0
 },
 
@@ -22388,7 +22386,8 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Baby O - In The Forest.mp3",
     timeCategory: "f evening",
-  volumeBoost: 0.25
+  volumeBoost: 0.20,
+  eq: { bass: 1, mid: 1, treble: +1 } 
 },
 
 
@@ -22789,7 +22788,7 @@ timeCategory: "f evening",
     quickFade: true,
     volumeBoost: 0.45,
     playcount: 0,
-  eq: { bass: 1, mid: 2, treble: +1 } 
+  eq: { bass: 2, mid: 2, treble: +1 } 
 },
 
 
@@ -22801,7 +22800,8 @@ timeCategory: "f evening",
     timeCategory: "f evening",
     quickFade: true,
     volumeBoost: 0.45,
-    playcount: 0
+      eq: { bass: 1, mid: 1, treble: +1 } ,
+playcount: 0
 },
 
 
@@ -22964,7 +22964,8 @@ timeCategory: "f evening",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Bomb The Base - Beat Dis.mp3",
      timeCategory: "f evening",
-  volumeBoost: 0.05
+ isLoud: true,          
+  loudnessValue: 0.80
 
 
 },
@@ -25486,7 +25487,6 @@ document.addEventListener("DOMContentLoaded", () => {
     updateVisibleTracks();
   });
 });
-
 
 
 
