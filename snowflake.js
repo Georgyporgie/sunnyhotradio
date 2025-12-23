@@ -153,18 +153,68 @@ function spawnFlake() {
   }
   if (Math.random() > spawnChance) return;
 
-  // ❄️ Create a flake
+function spawnFlake() {
+ const now   = new Date();
+  const month = now.getMonth();   // 0 = Jan, 1 = Feb
+  const day   = now.getDate();
+  const hour  = now.getHours();
+  const min   = now.getMinutes();
+
+  // ❄️ Stop completely after Feb 1
+  if (month > 1 || (month === 1 && day >= 1)) return;
+
+  // ❄️ Daily window (your existing function)
+  const { start, end } = dailySnowWindow();
+  if (hour < start || hour >= end) return;
+
+  // ❄️ Only snow during these hours (morning + evening)
+  const SNOW_HOURS = [6, 7, 8, 15, 16, 17, 22, 23];
+  if (!SNOW_HOURS.includes(hour)) return;
+
+  // ❄️ Only snow during the first 15 minutes of those hours
+  if (min > 15) return;
+
+  // ❄️ Weather randomness: only 50% of those days actually snow
+  const weatherSeed = (day * 17 + hour * 3) % 10;
+  if (weatherSeed > 4) return; // 0–4 = snow, 5–9 = dry
+
+  // ❄️ January taper (your original logic)
+  let spawnChance = 1;
+  if (month === 0) {
+    spawnChance = Math.max(0, 1 - (day / 31));
+  }
+  if (Math.random() > spawnChance) return;
+}
+  // ❄️ REPLACE your old flake creation with this:
   const flake = document.createElement("div");
   flake.className = "flake";
+
+  const size = 6 + Math.random() * 18;
+  flake.style.width = size + "px";
+  flake.style.height = size + "px";
+  flake.style.backgroundSize = "contain";
+
   flake.style.left = Math.random() * window.innerWidth + "px";
-  flake.style.backgroundImage = `url('${SNOW_IMG}')`;
+
+  const drift = (Math.random() - 0.5) * 100;
+  flake.style.setProperty("--drift", drift + "px");
+
+  const depth = Math.random();
+  flake.style.opacity = 0.3 + depth * 0.7;
+  flake.style.zIndex = depth > 0.5 ? 9999 : 1;
+
+  flake.classList.add(Math.random() > 0.5 ? "spin1" : "spin2");
 
   const duration = 18 + Math.random() * 4;
+  flake.style.setProperty("--fall", duration + "s");
   flake.style.animationDuration = duration + "s";
+
+  flake.style.backgroundImage = `url('${SNOW_IMG}')`;
 
   container.appendChild(flake);
   setTimeout(() => flake.remove(), duration * 1000);
 }
+
 
 
 

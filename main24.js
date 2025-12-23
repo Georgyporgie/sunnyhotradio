@@ -821,7 +821,7 @@ volumeBoost:0.50
     path: "https://sunnyhotradio.com/muziek/oldies07/Sun - Dance (Do What You Wanna Do).mp3",
  timeCategory: "seventies",
    isLoud: true,          
-  loudnessValue: 0.72,    
+  loudnessValue: 0.62,    
      quickFade: true,
         playcount: 0
 },
@@ -844,7 +844,8 @@ volumeBoost:0.10
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/Azoto - San Salvador.mp3",
       timeCategory: "seventies",
-volumeBoost: 0.25
+volumeBoost: 0.20,
+  eq: { bass: 1, mid: 2, treble: +1 } 
 },
 
 
@@ -2491,8 +2492,8 @@ timeCategory: "morning",
     path: "muziek/oldies07/La Velle - Playgirl.mp3",
     playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.75
-
+  volumeBoost: 0.75,
+  eq: { bass: 2, mid: 3, treble: +2 } 
 },
 
 
@@ -3307,8 +3308,7 @@ volumeBoost: 0.15
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mary Jane Girls - All Night Long.mp3",
   volumeBoost: 0.40,
-
-
+  eq: { bass: 1, mid: 1, treble: +1 } ,
     timeCategory: "morning"
 
 
@@ -5460,7 +5460,7 @@ volumeBoost: 0.30
 
 
 {
-     name: " I LIke Ur Look    (new)",
+     name: " I LIke Ur Look    ",
     artist: "Kim Petras    ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Kim Petras  - I LIke Ur Look.mp3",
@@ -5470,7 +5470,7 @@ volumeBoost: 0.30
 },
 
 {
-     name: " I LIke Ur Look    (new)",
+     name: " I LIke Ur Look    ",
     artist: "Kim Petras    ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Kim Petras  - I LIke Ur Look.mp3",
@@ -7073,8 +7073,8 @@ timeCategory: "afternoon",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Narada Michael Walden - Tonight I Am Allright.mp3",
     timeCategory: "afternoon",
-      volumeBoost: 0.75,
-     eq: { bass: 1, mid: 1, treble: +1 } ,
+      volumeBoost: 0.80,
+     eq: { bass: 2, mid: 2, treble: +2 } ,
 playcount: 0
 },
 
@@ -8463,8 +8463,8 @@ playcount: 0
   timeCategory: "afternoon",
      quickFade: true,
   volumeBoost: 0.10,
-    playcount: 0
-
+    playcount: 0,
+  eq: { bass: 1, mid: 1, treble: +1 } 
 },
 
 
@@ -11064,7 +11064,11 @@ quickFade: true
     artist: "Supermode ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Supermode - Tell me why.mp3",
-        timeCategory: "evening"
+    timeCategory: "evening",
+isLoud: true,          
+  loudnessValue: 0.80 
+
+
 },
 
 
@@ -11263,15 +11267,15 @@ quickFade: true
 
 
 
-
 {
     
     name: " San Salvador (1979)",
     artist: "Azoto ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Azoto - San Salvador.mp3",
+    path: "https://sunnyhotradio.com/muziek/oldies07/Azoto - San Salvador.mp3",
       timeCategory: "evening",
-volumeBoost: 0.25
+volumeBoost: 0.20,
+  eq: { bass: 1, mid: 2, treble: +1 } 
 },
 
 
@@ -11459,7 +11463,10 @@ volumeBoost: 0.25
     artist: "Unlimited Touch ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Unlimited Touch - I hear music.mp3",
-     timeCategory: "evening"
+     timeCategory: "evening",
+  eq: { bass: 2, mid: 2, treble: +1 }
+
+
 },
 
 
@@ -12577,7 +12584,8 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Tom Brown Funkin For Jamaica.mp3",
     timeCategory: "evening",
-volumeBoost: 0.40
+volumeBoost: 0.30,
+  eq: { bass: 2, mid: 2, treble: +2 } 
 },
 
 
@@ -14133,7 +14141,8 @@ quickFade: true
     path: "https://sunnydancemusic07.netlify.app/Donna Summer - I Feel Love (revisit mix).mp3",
     timeCategory: "evening-late",
     quickFade: true,
-volumeBoost: 0.85
+volumeBoost: 0.75,
+  eq: { bass: 1, mid: 1, treble: +1 } 
 },
 
 
@@ -15078,7 +15087,7 @@ volumeBoost: 0.25
     path: "muziek/oldies07/Sun - Dance (Do What You Wanna Do).mp3",
  timeCategory: "evening-late",
    isLoud: true,          
-  loudnessValue: 0.72,    
+  loudnessValue: 0.62,    
      quickFade: true,
         playcount: 0
 },
@@ -15608,9 +15617,10 @@ quickFade: true
     path: "https://sunnylounge01.netlify.app/Lil Louis - French Kiss.mp3",
     timeCategory: "evening-late",
      quickFade: true,
-  volumeBoost: 0.05,
-    playcount: 0
-
+    eq: { bass: 1, mid: 1, treble: +1 } ,  
+playcount: 0,
+ quickFade: true,
+    volumeBoost: 0.25
 },
 
 
@@ -15726,8 +15736,8 @@ volumeBoost: 0.15
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mary Jane Girls - All Night Long.mp3",
     timeCategory: "evening-late",
-volumeBoost: 0.40
-
+volumeBoost: 0.40,
+  eq: { bass: 1, mid: 1, treble: +1 }
 },
 
 
@@ -20517,8 +20527,8 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/La Velle - Playgirl.mp3",
       timeCategory: "f afternoon",
-  volumeBoost: 0.75
-
+  volumeBoost: 0.75,
+  eq: { bass: 2, mid: 3, treble: +2 } 
 },
 
 
@@ -23185,7 +23195,7 @@ volumeBoost: 0.80,
 
 
 {
-     name: " I LIke Ur Look    (new)",
+     name: " I LIke Ur Look    ",
     artist: "Kim Petras    ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Kim Petras  - I LIke Ur Look.mp3",
