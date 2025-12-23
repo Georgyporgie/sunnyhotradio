@@ -1829,13 +1829,7 @@ timeCategory: "morning",
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
-       timeCategory: "morning"
-},
+
 
 
 
@@ -5455,7 +5449,7 @@ quickFade: true,
 
 
 {
-     name: "   Bandaids (new)",
+     name: "   Bandaids ",
     artist: "Katy Perry  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Katy Perry - Bandaids.mp3",
@@ -6290,7 +6284,8 @@ volumeBoost: 0.30
     artist: "The Ones ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/The Ones - Flawless.mp3",
-  timeCategory: "afternoon"
+  timeCategory: "afternoon",
+ volumeBoost: 0.15
 },
 
 
@@ -6365,13 +6360,7 @@ volumeBoost: 0.30
 
 
 
-{
-    name: " Saturday Night (12inch)",
-    artist: "T-Connection ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/T-Connection - Saturday Night.mp3",
-     timeCategory: "morning"
-},
+
 
 
 
@@ -6387,8 +6376,9 @@ volumeBoost: 0.30
     artist: "Slave  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Slave - Stellar Funk (1978).mp3",
-      volumeBoost: 0.70,
-    playcount: 0,
+      volumeBoost: 0.50,
+      eq: { bass: 1, mid: 1, treble: +1 } ,
+playcount: 0,
    timeCategory: "afternoon",
 quickFade: true
 },
@@ -7060,13 +7050,7 @@ timeCategory: "afternoon",
 },
 
 
-{
-    name: " Saturday Night (12inch)",
-    artist: "T-Connection ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/T-Connection - Saturday Night.mp3",
-      timeCategory: "afternoon"
-},
+
 
 
 {
@@ -7089,9 +7073,9 @@ timeCategory: "afternoon",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Narada Michael Walden - Tonight I Am Allright.mp3",
     timeCategory: "afternoon",
-     quickFade: true,
-    volumeBoost: 0.75,
-    playcount: 0
+      volumeBoost: 0.75,
+     eq: { bass: 1, mid: 1, treble: +1 } ,
+playcount: 0
 },
 
 
@@ -8324,7 +8308,8 @@ volumeBoost: 0.30
    timeCategory: "afternoon",
      quickFade: true,
     volumeBoost: 0.55,
-    playcount: 0
+    playcount: 0,
+  eq: { bass: 2, mid: 1, treble: +1 }
 },
 
 
@@ -8449,8 +8434,9 @@ volumeBoost: 0.30
     path: "https://danceoldies10.netlify.app/Odyssey - Inside Out.mp3",
   timeCategory: "afternoon",
      quickFade: true,
-  volumeBoost: 0.40,
-    playcount: 0
+  volumeBoost: 0.45,
+      eq: { bass: 0, mid: 1, treble: +1 } ,
+playcount: 0
 
 },
 
@@ -8629,7 +8615,9 @@ volumeBoost:  0.20
     artist: "Jam & Spoon  ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Jam & Spoon - The Age of Love.mp3",
-   timeCategory: "afternoon"
+   timeCategory: "afternoon",
+ volumeBoost: 0.45,
+ eq: { bass: 1, mid: 1, treble: 1} 
 },
 
 
@@ -9242,8 +9230,9 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Mary J. Blige - You Ain't The Only One.mp3",
       timeCategory: "afternoon",
-quickFade: true
-
+quickFade: true,
+isLoud: true,          
+  loudnessValue: 0.90
 },
 
 {
@@ -9638,7 +9627,7 @@ volumeBoost: 0.40
          timeCategory: "evening",
   eq: { bass: +2, mid: 2, treble: +2 } ,
 playcount: 0,
-volumeBoost: 0.50
+volumeBoost: 0.60
 },
 
 
@@ -10895,7 +10884,7 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Christian Jay Bolland - Horsepower (1991).mp3",
     timeCategory: "evening",
-    volumeBoost: 0.55,
+    volumeBoost: 0.65,
     playcount: 0
 
 },
@@ -13471,7 +13460,7 @@ volumeBoost: 0.50,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Alexander O Neal - Fake.mp3",
    timeCategory: "evening",
-volumeBoost: 0.40,
+volumeBoost: 0.70,
   playcount: 0
 },
 
@@ -19622,7 +19611,7 @@ quickFade: true
 
 
 {
-    name: "All Natural (new)",
+    name: "All Natural ",
     artist: " Rita Ora  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Rita Ora - All Natural.mp3",
@@ -20342,7 +20331,7 @@ playcount: 0
 
 
 {
-    name: "All Natural (new)",
+    name: "All Natural ",
     artist: " Rita Ora  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Rita Ora - All Natural.mp3",
@@ -20600,7 +20589,13 @@ quickFade: true
 
 
 
-
+{
+    name: " Saturday Night (12inch)",
+    artist: "T-Connection ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/T-Connection - Saturday Night.mp3",
+      timeCategory: "f afternoon"
+},
 
 
 {
@@ -21517,7 +21512,7 @@ quickFade: true,
 
 
 {
-     name: "The Dead Dance (new) ",
+     name: "The Dead Dance ",
     artist: "Lady Gaga ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Lady Gaga - The Dead Dance.mp3",
@@ -22638,7 +22633,7 @@ quickFade: true,
 
 
 {
-     name: "   Bandaids (new)",
+     name: "   Bandaids ",
     artist: "Katy Perry  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Katy Perry - Bandaids.mp3",
@@ -23186,15 +23181,7 @@ volumeBoost: 0.80,
 
 
 
-{
-     name: "   Bandaids (new)",
-    artist: "Katy Perry  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Katy Perry - Bandaids.mp3",
-           timeCategory: "f evening-late",
-   playcount: 0,
-volumeBoost: 0.30
-},
+
 
 
 {
@@ -23846,8 +23833,9 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Mary J. Blige - You Ain't The Only One.mp3",
      timeCategory: "f evening-late",
-quickFade: true
-
+quickFade: true,
+isLoud: true,          
+  loudnessValue: 0.90
 },
 
 
@@ -23862,7 +23850,7 @@ quickFade: true
 
 
 {
-     name: "The Dead Dance (new) ",
+     name: "The Dead Dance ",
     artist: "Lady Gaga ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Lady Gaga - The Dead Dance.mp3",
