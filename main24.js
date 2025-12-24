@@ -3460,7 +3460,7 @@ volumeBoost: 0.10
 
 
    isLoud: true,          
-  loudnessValue: 0.90,    
+  loudnessValue: 0.80,    
      quickFade: true
 },
 
@@ -4265,6 +4265,16 @@ volumeBoost: 0.25
 
 
 
+{
+    name: " Merry Christmas ",
+    artist: "Artists☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/Merry Christma artists.mp3",
+    timeCategory: "morning",
+volumeBoost: 0.25
+
+},
+
 
 
 {
@@ -4502,7 +4512,15 @@ timeCategory: "morning"
 },
 
 
+{
+    name: " Merry Christmas ",
+    artist: "Artists☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/Merry Christma artists.mp3",
+    timeCategory: "afternoon",
+volumeBoost: 0.25
 
+},
 
 
 
@@ -4969,6 +4987,15 @@ volumeBoost: 0.40
 
 
 
+{
+    name: " Merry Christmas ",
+    artist: "Artists☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/Merry Christma artists.mp3",
+    timeCategory: "morning",
+volumeBoost: 0.25
+
+},
 
 
 
@@ -5979,6 +6006,15 @@ volumeBoost: 0.30
 
 
 
+{
+    name: " Merry Christmas ",
+    artist: "Artists☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/Merry Christma artists.mp3",
+    timeCategory: "afternoon",
+volumeBoost: 0.25
+
+},
 
 
 
@@ -8734,8 +8770,8 @@ volumeBoost:  0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Mtume - Juicy Fruit.mp3",
   quickFade: true,
-volumeBoost: 0.80,
-
+volumeBoost: 0.75,
+  eq: { bass: 1, mid: 1, treble: +2 } ,
    timeCategory: "afternoon"
 },
 
@@ -8825,7 +8861,7 @@ volumeBoost: 0.10
     path: "https://sunnydancemuziek01.netlify.app/chillhouse del mar02.mp3",
       timeCategory: "afternoon",
    isLoud: true,          
-  loudnessValue: 0.90,    
+  loudnessValue: 0.80,    
      quickFade: true
 },
 
@@ -8836,7 +8872,7 @@ volumeBoost: 0.10
     path: "https://sunnydancemuziek01.netlify.app/chillhouse del mar03.mp3",
       timeCategory: "afternoon",
    isLoud: true,          
-  loudnessValue: 0.90,    
+  loudnessValue: 0.80,    
      quickFade: true
 },
 
@@ -9188,6 +9224,15 @@ volumeBoost: 0.10
 
 
 
+{
+    name: " Merry Christmas ",
+    artist: "Artists☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/Merry Christma artists.mp3",
+    timeCategory: "afternoon",
+volumeBoost: 0.25
+
+},
 
  
 
@@ -9467,6 +9512,15 @@ volumeBoost: 0.30
 
 
 
+{
+    name: " Merry Christmas ",
+    artist: "Artists☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/Merry Christma artists.mp3",
+    timeCategory: "afternoon",
+volumeBoost: 0.25
+
+},
 
 
 
@@ -12077,6 +12131,15 @@ playcount: 0
 
 
 
+{
+    name: " Merry Christmas ",
+    artist: "Artists☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/Merry Christma artists.mp3",
+    timeCategory: "afternoon",
+volumeBoost: 0.25
+
+},
 
 
 
@@ -12099,6 +12162,15 @@ volumeBoost: 0.10
 
 
 
+{
+    name: " Merry Christmas ",
+    artist: "Artists☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/Merry Christma artists.mp3",
+    timeCategory: "evening",
+volumeBoost: 0.25
+
+},
 
 
 
@@ -13057,7 +13129,15 @@ volumeBoost: 0.25
 
 },
 
+{
+    name: " Merry Christmas ",
+    artist: "Artists☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/Merry Christma artists.mp3",
+    timeCategory: "evening",
+volumeBoost: 0.25
 
+},
 
 
 
@@ -13178,7 +13258,15 @@ volumeBoost: 0.25
 
 
 
+{
+    name: " Merry Christmas ",
+    artist: "Artists☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/Merry Christma artists.mp3",
+    timeCategory: "evening",
+volumeBoost: 0.25
 
+},
 
 
 
@@ -13444,7 +13532,7 @@ timeCategory: "evening"
     timeCategory: "evening",
      
    isLoud: true,          
-  loudnessValue: 0.90,    
+  loudnessValue: 0.80,    
      quickFade: true
 },
 
@@ -13460,7 +13548,7 @@ timeCategory: "evening"
     timeCategory: "evening",
       timeCategory: "afternoon",
    isLoud: true,          
-  loudnessValue: 0.90,    
+  loudnessValue: 0.80,    
      quickFade: true
 },
 
@@ -15041,7 +15129,15 @@ volumeBoost: 0.25
 
 },
 
+{
+    name: " Merry Christmas ",
+    artist: "Artists☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/Merry Christma artists.mp3",
+    timeCategory: "evening-late",
+volumeBoost: 0.25
 
+},
 
 
 
@@ -16838,7 +16934,15 @@ volumeBoost: 0.40
 
 
 
+{
+    name: " Merry Christmas ",
+    artist: "Artists☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/Merry Christma artists.mp3",
+    timeCategory: "evening-late",
+volumeBoost: 0.25
 
+},
 
 
 
@@ -16912,7 +17016,15 @@ volumeBoost: 0.40
 
 
 
+{
+    name: " Merry Christmas ",
+    artist: "Artists☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/Merry Christma artists.mp3",
+    timeCategory: "evening-late",
+volumeBoost: 0.25
 
+},
 
 
 
@@ -17090,7 +17202,15 @@ volumeBoost: 0.40
 
 
 
+{
+    name: " Merry Christmas ",
+    artist: "Artists☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingle bells/Merry Christma artists.mp3",
+    timeCategory: "evening-late",
+volumeBoost: 0.25
 
+},
 
 
 {
@@ -20905,7 +21025,7 @@ timeCategory: "f afternoon"
      timeCategory: "f afternoon",
  
    isLoud: true,          
-  loudnessValue: 0.90,    
+  loudnessValue: 0.80,    
      quickFade: true
 },
 
