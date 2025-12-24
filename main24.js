@@ -5603,7 +5603,7 @@ volumeBoost: 0.30
     path: "https://danceoldies08.netlify.app/Adamski, Seal- Killer (1990).mp3",
       timeCategory: "afternoon",
      quickFade: true,
-    volumeBoost: 0.35,
+    volumeBoost: 0.45,
     playcount: 0
 },
 
@@ -6107,7 +6107,8 @@ volumeBoost: 0.30
     artist:  "Purple Disco Machine  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_07.mp3",
-          timeCategory: "afternoon"
+    timeCategory: "afternoon",
+    volumeBoost: 0.25
 },
 
 
@@ -7716,6 +7717,15 @@ quickFade: true
 
 
 
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
+  playcount: 0,
+timeCategory: "afternoon"
+
+},
 
 
 
@@ -10265,7 +10275,8 @@ quickFade: true,
     artist:  "Purple Disco Machine  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_05.mp3",
-      timeCategory: "evening"
+    timeCategory: "evening",
+    volumeBoost: 0.25
 },
 
 
@@ -10274,7 +10285,8 @@ quickFade: true,
     artist:  "Purple Disco Machine  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_06.mp3",
-        timeCategory: "evening"
+    timeCategory: "evening",
+    volumeBoost: 0.25
 },
 
 {
@@ -13376,7 +13388,15 @@ volumeBoost: 0.50,
 },
 
 
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
+  playcount: 0,
+timeCategory: "evening"
 
+},
 
   
 {
@@ -20097,7 +20117,15 @@ playcount: 0
 
 
 
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
+  playcount: 0,
+timeCategory: "evening-late"
 
+},
 
 
 
@@ -20360,7 +20388,15 @@ playcount: 0
 
 
 
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
+  playcount: 0,
+timeCategory: "f afternoon"
 
+},
 
 
 
@@ -20569,6 +20605,15 @@ quickFade: true
 
 
 
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
+  playcount: 0,
+timeCategory: "f afternoon"
+
+},
 
 
 
@@ -20597,6 +20642,15 @@ quickFade: true
 
 
 
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
+  playcount: 0,
+timeCategory: "f afternoon"
+
+},
 
 
 {
@@ -21565,6 +21619,15 @@ quickFade: true,
 },
 
 
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
+  playcount: 0,
+timeCategory: "f evening"
+
+},
 
 {
     name: "Scandalous   ",
@@ -21667,6 +21730,15 @@ quickFade: true,
 
 
 
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
+  playcount: 0,
+timeCategory: "f evening"
+
+},
 
 
 
@@ -21738,6 +21810,15 @@ timeCategory: "f evening"
 
 
 
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
+  playcount: 0,
+timeCategory: "f evening"
+
+},
 
 
 
@@ -23001,6 +23082,15 @@ volumeBoost: 0.40
 },
 
 
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
+  playcount: 0,
+timeCategory: "f evening-late"
+
+},
 
 {
      name: "Nirvana",
@@ -23215,7 +23305,15 @@ volumeBoost: 0.80,
 },
 
 
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
+  playcount: 0,
+timeCategory: "f evening-late"
 
+},
 
 
 
@@ -23252,7 +23350,15 @@ volumeBoost: 0.40
 
 
 
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
+  playcount: 0,
+timeCategory: "f evening-late"
 
+},
 
 
 
@@ -23318,7 +23424,15 @@ volumeBoost: 0.40
 
 
 
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
+  playcount: 0,
+timeCategory: "f evening-late"
 
+},
 
 
 
