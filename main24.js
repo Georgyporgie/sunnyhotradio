@@ -13765,7 +13765,13 @@ timeCategory: "evening"
 
 
 
-
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Cosmos Midnight - Polarised.mp3",
+    timeCategory: "evening"
+},
 
 
 
@@ -19246,7 +19252,13 @@ isLoud: true,
 
 
 
-
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Cosmos Midnight - Polarised.mp3",
+    timeCategory: "evening-late"
+},
 
 
 
@@ -21607,6 +21619,13 @@ quickFade: true,
 
 
 
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Cosmos Midnight - Polarised.mp3",
+    timeCategory: "f afternoon"
+},
 
 
 
