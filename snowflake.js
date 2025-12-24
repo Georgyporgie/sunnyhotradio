@@ -121,9 +121,15 @@ function dailySnowWindow() {
   return cachedWindow;
 }
 
+
+
+
+
+
+
 function spawnFlake() {
   const now   = new Date();
-  const month = now.getMonth();   // 0 = Jan, 1 = Feb
+  const month = now.getMonth();
   const day   = now.getDate();
   const hour  = now.getHours();
   const min   = now.getMinutes();
@@ -131,61 +137,29 @@ function spawnFlake() {
   // ❄️ Stop completely after Feb 1
   if (month > 1 || (month === 1 && day >= 1)) return;
 
-  // ❄️ Daily window (your existing function)
+  // ❄️ Daily window
   const { start, end } = dailySnowWindow();
   if (hour < start || hour >= end) return;
 
-  // ❄️ Only snow during these hours (morning + evening)
+  // ❄️ Only snow during these hours
   const SNOW_HOURS = [6, 7, 8, 15, 16, 17, 22, 23];
   if (!SNOW_HOURS.includes(hour)) return;
 
-  // ❄️ Only snow during the first 15 minutes of those hours
+  // ❄️ Only snow during the first 15 minutes
   if (min > 15) return;
 
-  // ❄️ Weather randomness: only 50% of those days actually snow
+  // ❄️ Weather randomness
   const weatherSeed = (day * 17 + hour * 3) % 10;
-  if (weatherSeed > 4) return; // 0–4 = snow, 5–9 = dry
+  if (weatherSeed > 4) return;
 
-  // ❄️ January taper (your original logic)
+  // ❄️ January taper
   let spawnChance = 1;
   if (month === 0) {
     spawnChance = Math.max(0, 1 - (day / 31));
   }
   if (Math.random() > spawnChance) return;
 
-function spawnFlake() {
- const now   = new Date();
-  const month = now.getMonth();   // 0 = Jan, 1 = Feb
-  const day   = now.getDate();
-  const hour  = now.getHours();
-  const min   = now.getMinutes();
-
-  // ❄️ Stop completely after Feb 1
-  if (month > 1 || (month === 1 && day >= 1)) return;
-
-  // ❄️ Daily window (your existing function)
-  const { start, end } = dailySnowWindow();
-  if (hour < start || hour >= end) return;
-
-  // ❄️ Only snow during these hours (morning + evening)
-  const SNOW_HOURS = [6, 7, 8, 15, 16, 17, 22, 23];
-  if (!SNOW_HOURS.includes(hour)) return;
-
-  // ❄️ Only snow during the first 15 minutes of those hours
-  if (min > 15) return;
-
-  // ❄️ Weather randomness: only 50% of those days actually snow
-  const weatherSeed = (day * 17 + hour * 3) % 10;
-  if (weatherSeed > 4) return; // 0–4 = snow, 5–9 = dry
-
-  // ❄️ January taper (your original logic)
-  let spawnChance = 1;
-  if (month === 0) {
-    spawnChance = Math.max(0, 1 - (day / 31));
-  }
-  if (Math.random() > spawnChance) return;
-}
-  // ❄️ REPLACE your old flake creation with this:
+  // ❄️ Create a flake
   const flake = document.createElement("div");
   flake.className = "flake";
 
@@ -214,8 +188,6 @@ function spawnFlake() {
   container.appendChild(flake);
   setTimeout(() => flake.remove(), duration * 1000);
 }
-
-
 
 
 
