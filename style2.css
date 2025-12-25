@@ -1429,3 +1429,26 @@ li.new-track {
   from { transform: rotate(0deg); }
   to   { transform: rotate(360deg); }
 }
+.flake {
+  position: fixed;
+  top: -30px;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  animation: fall linear forwards, fadeIn 1.5s ease-out;
+}
+
+@keyframes fall {
+  0%   { transform: translateX(0) translateY(0) rotate(0deg); }
+  100% { transform: translateX(var(--drift)) translateY(110vh) rotate(360deg); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes spin1 { from { rotate: 0deg; } to { rotate: 360deg; } }
+@keyframes spin2 { from { rotate: 0deg; } to { rotate: -360deg; } }
+
+
+

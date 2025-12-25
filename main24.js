@@ -10966,7 +10966,10 @@ quickFade: true,
     path: "https://sunnydanceoldies01.netlify.app/Fast Love - George Michael.mp3",
    timeCategory: "evening",
     volumeBoost: 0.75,
-    playcount: 0
+    playcount: 0,
+  eq: { bass: 1, mid: 2, treble: +1 } 
+
+
 },
 
 
@@ -13658,9 +13661,9 @@ timeCategory: "evening"
     artist: "Moby",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Moby - Go 1991.mp3",
-    timeCategory: "evening"
-
-
+    timeCategory: "evening",
+  eq: { bass: 1, mid: 2, treble: +1 }, 
+volumeBoost: 0.25
 },
 
 
@@ -15016,7 +15019,8 @@ volumeBoost: 0.25
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 01.mp3",
   timeCategory: " evening-late",
-volumeBoost: 0.25
+volumeBoost: 0.25,
+eq: { bass: 0, mid: 2, treble: +1 } 
 },
 
 
@@ -15031,10 +15035,9 @@ volumeBoost: 0.25
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 02.mp3",
  timeCategory: " evening-late",
-volumeBoost: 0.25
+volumeBoost: 0.25,
+eq: { bass: 0, mid: 2, treble: +1 } 
 },
-
-
 
 
 
@@ -15055,7 +15058,7 @@ timeCategory: " evening-late"
 timeCategory: "evening-late",
      quickFade: true,
     volumeBoost: 0.25,
-    playcount: 0
+   eq: { bass: 0, mid: 2, treble: +1 } 
 },
 
 
@@ -15073,7 +15076,9 @@ timeCategory: "evening-late",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 03.mp3",
  timeCategory: " evening-late",
-volumeBoost: 0.25
+     quickFade: true,
+    volumeBoost: 0.25,
+   eq: { bass: 0, mid: 2, treble: +1 } 
 },
 
 
@@ -15086,7 +15091,9 @@ volumeBoost: 0.25
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 04.mp3",
 timeCategory: " evening-late",
-volumeBoost: 0.25
+     quickFade: true,
+    volumeBoost: 0.25,
+   eq: { bass: 0, mid: 2, treble: +1 } 
 },
 
 
