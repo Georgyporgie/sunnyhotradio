@@ -624,8 +624,10 @@ volumeBoost:0.50
     artist: "Sonny Fodera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023).mp3",
-    timeCategory: "sonny",
-    volumeBoost: 0.50
+    timeCategory: "special-cast",
+  eq: { bass: 0, mid: 0, treble: +1 } ,
+volumeBoost: 0.50
+
 },
 
 
@@ -637,7 +639,8 @@ volumeBoost:0.50
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 02.mp3",
     timeCategory: "special-cast",
-    volumeBoost: 0.50
+  eq: { bass: 0, mid: 0, treble: +1 } ,
+volumeBoost: 0.50
 },
 
 
@@ -650,9 +653,9 @@ volumeBoost:0.50
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 03.mp3",
    timeCategory: "special-cast",
-    volumeBoost: 0.50
+  eq: { bass: 0, mid: 0, treble: +1 } ,
+volumeBoost: 0.50
 },
-
 
 
 {
@@ -660,8 +663,9 @@ volumeBoost:0.50
     artist: "Sonny Fodera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 04.mp3",
-   timeCategory: "special-cast",
-    volumeBoost: 0.50
+    timeCategory: "special-cast",
+  eq: { bass: 0, mid: 0, treble: +1 } ,
+volumeBoost: 0.50
 },
 
 
@@ -671,7 +675,8 @@ volumeBoost:0.50
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 05.mp3",
     timeCategory: "special-cast",
-    volumeBoost: 0.50
+  eq: { bass: 0, mid: 0, treble: +1 } ,
+volumeBoost: 0.50
 },
 
 
@@ -7098,8 +7103,9 @@ timeCategory: "afternoon",
     path: "https://danceoldies06.netlify.app/Vibey03.mp3",
      timeCategory: "afternoon",
   quickFade: true,
-  volumeBoost: 0.45,
-    playcount: 0
+  volumeBoost: 0.40,
+     eq: { bass: 1, mid: 0, treble: +1 } ,
+ playcount: 0
 
 },
 
@@ -7175,8 +7181,9 @@ volumeBoost: 0.35
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Vibey02.mp3",
     timeCategory: "afternoon",
-  volumeBoost: 0.45,
-    playcount: 0
+  volumeBoost: 0.40,
+     eq: { bass: 1, mid: 0, treble: +1 } ,
+ playcount: 0
 
 },
 
@@ -7187,8 +7194,9 @@ volumeBoost: 0.35
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Vibey01.mp3",
      timeCategory: "afternoon",
-  volumeBoost: 0.45,
-    playcount: 0
+  volumeBoost: 0.40,
+     eq: { bass: 1, mid: 0, treble: +1 } ,
+ playcount: 0
 
 },
 
@@ -7235,8 +7243,9 @@ volumeBoost: 0.35
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Vibey04.mp3",
       timeCategory: "afternoon",
-  volumeBoost: 0.45,
-    playcount: 0
+  volumeBoost: 0.40,
+     eq: { bass: 1, mid: 0, treble: +1 } ,
+ playcount: 0
 
 },
 
@@ -7507,8 +7516,10 @@ quickFade: true
     artist: "Pabllo Vittar ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Pabllo Vittar - Follow Me.mp3",
-     timeCategory: "afternoon"
- },
+     timeCategory: "afternoon",
+ isLoud: true,          
+  loudnessValue: 0.80
+},
 
 
 
@@ -15311,7 +15322,9 @@ volumeBoost: 0.25
    path: "https://sunnydanceoldies08.netlify.app/Fatback - Girls On My Mind.mp3",
    timeCategory: "evening-late",
     volumeBoost: 0.65,
-    playcount: 0
+    eq: { bass: 1, mid: 2, treble: +1 } ,
+   playcount: 0
+ 
 },
 
 
@@ -17893,7 +17906,9 @@ quickFade: true,
     artist: "Dua Lipa  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Dua Lipa - Houdini.mp3",
-     timeCategory: "morning"
+     timeCategory: "morning",
+isLoud: true,          
+  loudnessValue: 0.85,
 },
 
 
@@ -18641,9 +18656,11 @@ playcount: 0
     artist: "Dua Lipa  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Dua Lipa - Houdin1 (maxi).mp3",
-  timeCategory: "evening"
-
+  timeCategory: "evening",
+  isLoud: true,          
+  loudnessValue: 0.85,
 },
+
 
 
 
