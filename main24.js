@@ -4270,15 +4270,6 @@ volumeBoost: 0.25
 
 
 
-{
-    name: " Merry Christmas ",
-    artist: "Artists☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/Merry Christma artists.mp3",
-    timeCategory: "morning",
-volumeBoost: 0.25
-
-},
 
 
 
@@ -4517,15 +4508,7 @@ timeCategory: "morning"
 },
 
 
-{
-    name: " Merry Christmas ",
-    artist: "Artists☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/Merry Christma artists.mp3",
-    timeCategory: "afternoon",
-volumeBoost: 0.25
 
-},
 
 
 
@@ -4992,15 +4975,6 @@ volumeBoost: 0.40
 
 
 
-{
-    name: " Merry Christmas ",
-    artist: "Artists☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/Merry Christma artists.mp3",
-    timeCategory: "morning",
-volumeBoost: 0.25
-
-},
 
 
 
@@ -6011,15 +5985,7 @@ volumeBoost: 0.30
 
 
 
-{
-    name: " Merry Christmas ",
-    artist: "Artists☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/Merry Christma artists.mp3",
-    timeCategory: "afternoon",
-volumeBoost: 0.25
 
-},
 
 
 
@@ -9311,16 +9277,6 @@ volumeBoost: 0.10
 
 
 
-{
-    name: " Merry Christmas ",
-    artist: "Artists☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/Merry Christma artists.mp3",
-    timeCategory: "afternoon",
-volumeBoost: 0.25
-
-},
-
  
 
 
@@ -9598,16 +9554,6 @@ volumeBoost: 0.30
 
 
 
-
-{
-    name: " Merry Christmas ",
-    artist: "Artists☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/Merry Christma artists.mp3",
-    timeCategory: "afternoon",
-volumeBoost: 0.25
-
-},
 
 
 
@@ -12221,15 +12167,6 @@ playcount: 0
 
 
 
-{
-    name: " Merry Christmas ",
-    artist: "Artists☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/Merry Christma artists.mp3",
-    timeCategory: "afternoon",
-volumeBoost: 0.25
-
-},
 
 
 
@@ -12252,15 +12189,7 @@ volumeBoost: 0.10
 
 
 
-{
-    name: " Merry Christmas ",
-    artist: "Artists☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/Merry Christma artists.mp3",
-    timeCategory: "evening",
-volumeBoost: 0.25
 
-},
 
 
 
@@ -13219,15 +13148,7 @@ volumeBoost: 0.25
 
 },
 
-{
-    name: " Merry Christmas ",
-    artist: "Artists☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/Merry Christma artists.mp3",
-    timeCategory: "evening",
-volumeBoost: 0.25
 
-},
 
 
 
@@ -13348,15 +13269,7 @@ volumeBoost: 0.25
 
 
 
-{
-    name: " Merry Christmas ",
-    artist: "Artists☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/Merry Christma artists.mp3",
-    timeCategory: "evening",
-volumeBoost: 0.25
 
-},
 
 
 
@@ -15229,15 +15142,7 @@ volumeBoost: 0.25
 
 },
 
-{
-    name: " Merry Christmas ",
-    artist: "Artists☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/Merry Christma artists.mp3",
-    timeCategory: "evening-late",
-volumeBoost: 0.25
 
-},
 
 
 
@@ -17036,15 +16941,7 @@ volumeBoost: 0.40
 
 
 
-{
-    name: " Merry Christmas ",
-    artist: "Artists☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/Merry Christma artists.mp3",
-    timeCategory: "evening-late",
-volumeBoost: 0.25
 
-},
 
 
 
@@ -17116,17 +17013,6 @@ volumeBoost: 0.25
 
 
 
-
-
-{
-    name: " Merry Christmas ",
-    artist: "Artists☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/Merry Christma artists.mp3",
-    timeCategory: "evening-late",
-volumeBoost: 0.25
-
-},
 
 
 
@@ -17304,15 +17190,6 @@ volumeBoost: 0.25
 
 
 
-{
-    name: " Merry Christmas ",
-    artist: "Artists☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingle bells/Merry Christma artists.mp3",
-    timeCategory: "evening-late",
-volumeBoost: 0.25
-
-},
 
 
 {
@@ -23119,7 +22996,7 @@ volumeBoost: 0.30
     artist: "Rita Ora & Yll Limani  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Rita Ora & Yll Limani - All Natural.mp3",
-           timeCategory: "f evening",
+           timeCategory: "evening",
   playcount: 0
 },
 
