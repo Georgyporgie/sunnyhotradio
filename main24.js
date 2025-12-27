@@ -6446,7 +6446,83 @@ quickFade: true
     timeCategory: "afternoon"
 },
 
+{
+    name: "Still In The Groove",
+    artist: "Ray Parker Junior",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Ray Parker Junior - Still in the groove.mp3",
+        timeCategory: "afternoon",
+    quickFade: true,
+    volumeBoost: 0.75,
+    playcount: 0
+},
 
+
+
+
+{
+    name: "A Woman Needs Love",
+    artist: "Ray Parker Junior",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Ray Parker jr - A woman needs love.mp3",
+        timeCategory: "afternoon",
+    quickFade: true,
+    volumeBoost: 0.75,
+    playcount: 0
+},
+
+
+{
+    name: "It's Your Night",
+    artist: "Ray Parker Junior",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Ray Parker jr - It's your night.mp3",
+        timeCategory: "afternoon",
+    quickFade: true,
+    volumeBoost: 0.75,
+    playcount: 0
+},
+
+
+
+
+{
+    name: "Honey I'm Rich.mp3",
+    artist: "Ray Parker Junior",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Ray Parker jr -Honey I'm rich.mp3",
+        timeCategory: "afternoon",
+    quickFade: true,
+    volumeBoost: 0.75,
+    playcount: 0
+},
+
+
+{
+    name: "Jack & Jill",
+    artist: "Ray Parker Junior",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Ray Parker jr - Jack & Jill.mp3",
+        timeCategory: "afternoon",
+    quickFade: true,
+    volumeBoost: 0.75,
+    playcount: 0
+},
+
+
+
+
+  
+{
+    name: "You Can t Change That",
+    artist: "Ray Parker Junior",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Ray Parker jr -You can t change that.mp3",
+        timeCategory: "afternoon",
+    quickFade: true,
+    volumeBoost: 0.75,
+    playcount: 0
+},
 
 {
     name: " She's Gone Dance On",
@@ -20940,6 +21016,17 @@ timeCategory: "f afternoon"
 
 
 
+{
+    name: "Unfinished Sympathy (1991)",
+    artist: "Massive ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Massive Attack - Unfinished Sympathy.mp3",
+ timeCategory: "f afternoon",
+volumeBoost: 0.45
+},
+
+
+
 
 
 
@@ -21164,7 +21251,104 @@ timeCategory: "f afternoon"
 
 
 
+{
+    name: "Still In The Groove",
+    artist: "Ray Parker Junior",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Ray Parker Junior - Still in the groove.mp3",
+        timeCategory: "afternoon",
+    quickFade: true,
+    volumeBoost: 0.75,
+    playcount: 0
+},
 
+
+
+
+{
+    name: "A Woman Needs Love",
+    artist: "Ray Parker Junior",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Ray Parker jr - A woman needs love.mp3",
+        timeCategory: "afternoon",
+    quickFade: true,
+    volumeBoost: 0.75,
+    playcount: 0
+},
+
+
+{
+    name: "It's Your Night",
+    artist: "Ray Parker Junior",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Ray Parker jr - It's your night.mp3",
+        timeCategory: "afternoon",
+    quickFade: true,
+    volumeBoost: 0.75,
+    playcount: 0
+},
+
+
+
+
+{
+    name: "Honey I'm Rich.mp3",
+    artist: "Ray Parker Junior",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Ray Parker jr -Honey I'm rich.mp3",
+        timeCategory: "afternoon",
+    quickFade: true,
+    volumeBoost: 0.75,
+    playcount: 0
+},
+
+
+{
+    name: "Jack & Jill",
+    artist: "Ray Parker Junior",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Ray Parker jr - Jack & Jill.mp3",
+        timeCategory: "afternoon",
+    quickFade: true,
+    volumeBoost: 0.75,
+    playcount: 0
+},
+
+
+
+
+  
+{
+    name: "You Can t Change That",
+    artist: "Ray Parker Junior",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Ray Parker jr -You can t change that.mp3",
+        timeCategory: "afternoon",
+    quickFade: true,
+    volumeBoost: 0.75,
+    playcount: 0
+},
+
+
+{
+    name: "Jimmy Bo Horne",
+    artist: "Spank 69",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Spank 69.mp3",
+        timeCategory: "f afternoon",
+    quickFade: true,
+      playcount: 0
+},
+
+{
+    name: "Dance (Disco Heat)",
+    artist: "Sylvester",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Sylvester - Dance (Disco Heat) live.mp3",
+        timeCategory: "f afternoon",
+    quickFade: true,
+      playcount: 0
+},
 
 
 
@@ -23261,6 +23445,7 @@ timeCategory: "f evening-late"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Katy Perry - Nirvana.mp3",
  timeCategory: "f evening-late",
+  eq: { bass: 1, mid: 2, treble: +1 } ,
 volumeBoost: 0.80,
  
  playcount: 0
