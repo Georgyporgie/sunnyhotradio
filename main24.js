@@ -21214,7 +21214,11 @@ volumeBoost: 0.45
     path: "https://jazzmusic05.netlify.app/Spank 69.mp3",
         timeCategory: "f afternoon",
     quickFade: true,
-      playcount: 0
+      isLoud: true,          
+  loudnessValue: 0.60, 
+playcount: 0
+
+
 },
 
 {
@@ -22634,10 +22638,28 @@ quickFade: true,
 
 },
 
+{
+     name: "Alf Naafish",
+    artist: "Hashim ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Slf Naafish Hashim.mp3",
+     isLoud: true,          
+  loudnessValue: 0.50, 
+   timeCategory: "f evening"
+
+},
 
 
+{
+     name: "Hip Hop Be Bop",
+    artist: "Man Parish  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Man Parish Hip Hop Be Bop.mp3",
+     isLoud: true,          
+  loudnessValue: 0.60, 
+   timeCategory: "f evening"
 
-
+},
 
 
 
