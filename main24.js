@@ -23009,8 +23009,27 @@ quickFade: true,
 },
 
 
+{
+    name: " Let's Wait A While",
+    artist: "Janet Jackson ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Janet Jackson - Let's wait a while.mp3",
+        timeCategory: "f evening",
+    quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
+},
 
-
+{
+    name: " Miss You much",
+    artist: "Janet Jackson ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Janet Jackson - Miss you much.mp3",
+        timeCategory: "f evening",
+    quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
+},
 
 
 
