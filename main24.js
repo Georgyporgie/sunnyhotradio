@@ -24383,7 +24383,9 @@ quickFade: true,
     artist: "Becky Hill ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Becky Hill - Disconnect.mp3",
-   timeCategory: "f evening-late"
+   isLoud: true,          
+  loudnessValue: 0.80, 
+timeCategory: "f evening-late"
 
 
 },
