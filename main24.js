@@ -7,6 +7,9 @@
 // Select all the elements in the HTML page and assign them to a variable
 let now_playing = document.querySelector(".now-playing");
 let track_art = document.querySelector(".track-art");
+
+
+
 let track_name = document.querySelector(".track-name");
 let track_artist = document.querySelector(".track-artist");
 
@@ -826,7 +829,7 @@ volumeBoost: 0.50
     path: "https://sunnyhotradio.com/muziek/oldies07/Sun - Dance (Do What You Wanna Do).mp3",
  timeCategory: "seventies",
    isLoud: true,          
-  loudnessValue: 0.62,    
+  loudnessValue: 0.52,    
      quickFade: true,
         playcount: 0
 },
@@ -858,7 +861,7 @@ volumeBoost: 0.20,
 
 {
     name: "Too Hot (12inch)",
-    artist: "Kool and the gang",
+    artist: "Kool And The Gang",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Kool and the gang - Too hot.mp3",
     playcount: 0,
@@ -1005,7 +1008,7 @@ volumeBoost: 0.25
     path: "https://sunnydanceoldies01.netlify.app/Bobby Womack - Across 110th street.mp3",
 timeCategory: "seventies",
      quickFade: true,
-    volumeBoost: 0.35,
+    volumeBoost: 0.25,
     playcount: 0
 },
 
@@ -1063,9 +1066,12 @@ volumeBoost:0.65
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Harvey Mason - Groovin' You.mp3",
   volumeBoost: 0.40,
-         timeCategory: "seventies"
+  eq: { bass: 1, mid: 1, treble: +1 } ,
+  timeCategory: "seventies"
+
 
 },
+
 {
     name: " What You Waiting For  ",
     artist: "Stargard",
@@ -1092,9 +1098,10 @@ timeCategory: "seventies",
     artist: "Michael Zager Band  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Michael Zager Band - Let's All Chant (1977).mp3",
-   timeCategory: "seventies",
+     eq: { bass: 2, mid: 2, treble: +1 } ,
+timeCategory: "seventies",
      quickFade: true,
-  volumeBoost: 0.55,
+  volumeBoost: 0.50,
     playcount: 0
 
 },
@@ -1105,6 +1112,8 @@ timeCategory: "seventies",
     artist: "Hamilton Bohannon ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Hamilton Bohannon - Let's Start To Dance 12 inch.mp3",
+  eq: { bass: 1, mid: 2, treble: +1 } ,
+volumeBoost: 0.15,
 timeCategory: "seventies"
 
 },
@@ -1398,7 +1407,7 @@ timeCategory: "morning"
 
 {
     name: "Too Hot (12inch)",
-    artist: "Kool and the gang",
+    artist: "Kool And The Gang",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Kool and the gang - Too hot.mp3",
     playcount: 0,
@@ -3964,7 +3973,7 @@ volumeBoost: 0.10
     path: "https://sunnydanceoldies01.netlify.app/Bobby Womack - Across 110th street.mp3",
            timeCategory: "morning",
      quickFade: true,
-    volumeBoost: 0.35,
+    volumeBoost: 0.25,
     playcount: 0
 },
 
@@ -4131,17 +4140,15 @@ volumeBoost: 0.40
 
 
 
-
-
 {
     name: "Groovin' You (1979)",
     artist: "Harvey Mason",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Harvey Mason - Groovin' You.mp3",
-  
-volumeBoost: 0.40,
+  volumeBoost: 0.40,
+  eq: { bass: 1, mid: 1, treble: +1 } ,
+  timeCategory: "morning"
 
-          timeCategory: "morning"
 
 },
 
@@ -7812,6 +7819,7 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
   playcount: 0,
+volumeBoost: 0.55,
 timeCategory: "afternoon"
 
 },
@@ -12604,15 +12612,17 @@ volumeBoost: 0.20
 
 
 
-
 {
-    name: "Let The Music Play ",
-    artist: "Shannon  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Shannon - Let The Music Play.mp3",
-        timeCategory: "evening",
-volumeBoost: 0.15
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
+  playcount: 0,
+volumeBoost: 0.55,
+timeCategory: "evening"
+
 },
+
 
 
 
@@ -13437,6 +13447,14 @@ volumeBoost: 0.50,
 
 
 
+{
+    name: "Let The Music Play ",
+    artist: "Shannon  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Shannon - Let The Music Play.mp3",
+        timeCategory: "evening",
+volumeBoost: 0.15
+},
 
 
 
@@ -13485,9 +13503,11 @@ volumeBoost: 0.50,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
   playcount: 0,
+volumeBoost: 0.55,
 timeCategory: "evening"
 
 },
+
 
   
 {
@@ -15208,7 +15228,7 @@ volumeBoost: 0.25
     path: "muziek/oldies07/Sun - Dance (Do What You Wanna Do).mp3",
  timeCategory: "evening-late",
    isLoud: true,          
-  loudnessValue: 0.62,    
+  loudnessValue: 0.52,    
      quickFade: true,
         playcount: 0
 },
@@ -15579,7 +15599,9 @@ volumeBoost:0.40
     artist: "Hamilton Bohannon ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Hamilton Bohannon - Let's Start To Dance 12 inch.mp3",
-  timeCategory: "evening-late"
+  eq: { bass: 1, mid: 2, treble: +1 } ,
+volumeBoost: 0.15,
+timeCategory: "evening-late"
 
 },
 
@@ -16430,7 +16452,9 @@ volumeBoost: 0.20
     artist: "Inna  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Inna - Un Momento.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+isLoud: true,          
+  loudnessValue: 0.90
 },
 
 
@@ -20224,14 +20248,13 @@ playcount: 0
 
 
 
-
-
 {
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
   playcount: 0,
+volumeBoost: 0.55,
 timeCategory: "evening-late"
 
 },
@@ -20340,6 +20363,24 @@ timeCategory: "evening-late"
     path: "https://sunnydancemusic05.netlify.app/Post Malone - Love Is My Drug.mp3",
   timeCategory: "evening"
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -20503,7 +20544,8 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
   playcount: 0,
-timeCategory: "f afternoon"
+volumeBoost: 0.55,
+timeCategory: "f-afternoon"
 
 },
 
@@ -20713,14 +20755,14 @@ quickFade: true
 },
 
 
-
 {
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
   playcount: 0,
-timeCategory: "f afternoon"
+volumeBoost: 0.55,
+timeCategory: "f-afternoon"
 
 },
 
@@ -20750,14 +20792,14 @@ timeCategory: "f afternoon"
 
 
 
-
 {
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
   playcount: 0,
-timeCategory: "f afternoon"
+volumeBoost: 0.55,
+timeCategory: "f-afternoon"
 
 },
 
@@ -20934,7 +20976,7 @@ volumeBoost: 0.45
     name: "Welcome!",
     artist: "Listen Live Sunny Dance Radio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj4.mp3",
+    path: "muziek/discjockeys/Female dj44.mp3",
      timeCategory: "f afternoon"
 },
 
@@ -20951,7 +20993,7 @@ volumeBoost: 0.45
     name: "Welcome!",
     artist: "Listen Live Sunny Dance Radio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj2.mp3",
+    path: "muziek/discjockeys/Female dj22.mp3",
     timeCategory: "f afternoon"
 },
 
@@ -21038,7 +21080,7 @@ volumeBoost: 0.45
     name: "Welcome!",
     artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj2.mp3",
+    path: "muziek/discjockeys/Female dj22.mp3",
     timeCategory: "f afternoon"
 },
 
@@ -21475,7 +21517,7 @@ quickFade: true
     name: "Welcome!",
     artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj2.mp3",
+    path: "muziek/discjockeys/Female dj33.mp3",
        timeCategory: "f afternoon"
 
 },
@@ -21853,9 +21895,11 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
   playcount: 0,
+volumeBoost: 0.55,
 timeCategory: "f evening"
 
 },
+
 
 {
     name: "Scandalous   ",
@@ -21964,6 +22008,7 @@ timeCategory: "f evening"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
   playcount: 0,
+volumeBoost: 0.55,
 timeCategory: "f evening"
 
 },
@@ -21972,7 +22017,15 @@ timeCategory: "f evening"
 
 
 
+{
+    name: "  Hitler Rap",
+    artist: "Mel Brooks   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Mel Brooks - Hitler Rap.mp3",
+    timeCategory: "f evening"
 
+
+},
 
 
 
@@ -22037,13 +22090,13 @@ timeCategory: "f evening"
 
 
 
-
 {
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
   playcount: 0,
+volumeBoost: 0.55,
 timeCategory: "f evening"
 
 },
@@ -22088,7 +22141,7 @@ timeCategory: "f evening"
     name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj5.mp3",
+    path: "muziek/discjockeys/Female dj55.mp3",
  timeCategory: "f evening"
 },
 
@@ -22097,7 +22150,7 @@ timeCategory: "f evening"
     name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj2.mp3",
+    path: "muziek/discjockeys/Female dj22.mp3",
   timeCategory: "f evening"
 },
 
@@ -22376,7 +22429,9 @@ quickFade: true,
     artist: "Inna  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Inna - Un Momento.mp3",
-    timeCategory: "f evening"
+    timeCategory: "f evening",
+isLoud: true,          
+  loudnessValue: 0.90
 },
 
 
@@ -22384,7 +22439,7 @@ quickFade: true,
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/Female dj3.mp3",
+    path: "muziek/discjockeys/Female dj33.mp3",
     timeCategory: "f evening"
 },
 
@@ -22937,7 +22992,7 @@ quickFade: true,
     name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj5.mp3",
+    path: "muziek/discjockeys/Female dj55.mp3",
        timeCategory: "f evening"
 },
 
@@ -23353,17 +23408,17 @@ volumeBoost: 0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
   playcount: 0,
+volumeBoost: 0.55,
 timeCategory: "f evening-late"
 
 },
-
 {
      name: "Nirvana",
     artist: "Katy Perry ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Katy Perry - Nirvana.mp3",
  timeCategory: "f evening-late",
-  eq: { bass: 1, mid: 2, treble: +1 } ,
+  eq: { bass: 2, mid: 3, treble: +1 } ,
 volumeBoost: 0.80,
  
  playcount: 0
@@ -23570,14 +23625,14 @@ volumeBoost: 0.80,
   playcount: 0
 },
 
-
 {
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
   playcount: 0,
-timeCategory: "f evening-late"
+volumeBoost: 0.55,
+timeCategory: "f evening"
 
 },
 
@@ -23615,14 +23670,14 @@ volumeBoost: 0.40
 },
 
 
-
 {
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
   playcount: 0,
-timeCategory: "f evening-late"
+volumeBoost: 0.55,
+timeCategory: "f evening"
 
 },
 
@@ -23688,18 +23743,16 @@ timeCategory: "f evening-late"
 
 
 
-
-
 {
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
   playcount: 0,
+volumeBoost: 0.55,
 timeCategory: "f evening-late"
 
 },
-
 
 
 
