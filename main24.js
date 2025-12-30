@@ -24775,31 +24775,7 @@ function loadTrack(index) {
 
  
 
-  // Apply EQ lift if tagged
-  if (track.eq) {
-    const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-    const source = audioCtx.createMediaElementSource(curr_track);
-
-    const bass = audioCtx.createBiquadFilter();
-    bass.type = "lowshelf";
-    bass.frequency.value = 200;
-    bass.gain.value = track.eq.bass || 0;
-
-    const mid = audioCtx.createBiquadFilter();
-    mid.type = "peaking";
-    mid.frequency.value = 1000;
-    mid.Q.value = 1;
-    mid.gain.value = track.eq.mid || 0;
-
-    const treble = audioCtx.createBiquadFilter();
-    treble.type = "highshelf";
-    treble.frequency.value = 3000;
-    treble.gain.value = track.eq.treble || 0;
-
-    source.connect(bass).connect(mid).connect(treble).connect(audioCtx.destination);
-  }
-
-
+// Apply EQ + analogue warmth if tagged
 if (track.eq) {
   const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
   const source = audioCtx.createMediaElementSource(curr_track);
@@ -24820,10 +24796,10 @@ if (track.eq) {
   treble.frequency.value = 3000;
   treble.gain.value = track.eq.treble || 0;
 
-  // 🌟 NEW: analogue warmth
+  // analogue warmth
   const warm = audioCtx.createWaveShaper();
   warm.curve = createAnalogueCurve();
-  warm.oversample = "4x"; // optional, smoother
+  warm.oversample = "4x";
 
   // chain: EQ → warmth → output
   source
@@ -24832,8 +24808,8 @@ if (track.eq) {
     .connect(treble)
     .connect(warm)
     .connect(audioCtx.destination);
-
 }
+
 
   // ✅ CROSSFADE LOGIC
   const oldTrack = curr_track;
