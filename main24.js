@@ -4425,7 +4425,7 @@ volumeBoost: 0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Massive Attack - Unfinished Sympathy.mp3",
  timeCategory: "morning",
-volumeBoost: 0.25
+volumeBoost: 0.55
 },
 
 
@@ -20956,7 +20956,7 @@ volumeBoost: 0.15,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Massive Attack - Unfinished Sympathy.mp3",
  timeCategory: "f afternoon",
-volumeBoost: 0.45
+volumeBoost: 0.55
 },
 
 
