@@ -24711,47 +24711,8 @@ function createAnalogueCurve() {
 
 
 
-// 🌊 Fade OUT old track (non-blocking)
-function crossfadeFadeOut(audio, duration = 2000) {
-  if (!audio) return;
-  const startVolume = audio.volume;
-  const steps = 30;
-  const stepTime = duration / steps;
-  let step = 0;
 
-  const fade = setInterval(() => {
-    step++;
-    const progress = step / steps;
-    const eased = 1 - Math.pow(1 - progress, 3);
-    audio.volume = startVolume * (1 - eased);
 
-    if (step >= steps) {
-      clearInterval(fade);
-      audio.pause();
-      audio.volume = startVolume; // reset for next use
-    }
-  }, stepTime);
-}
-
-// 🌅 Fade IN new track
-function crossfadeFadeIn(audio, targetVolume = 1, duration = 2000) {
-  audio.volume = 0;
-  const steps = 30;
-  const stepTime = duration / steps;
-  let step = 0;
-
-  const fade = setInterval(() => {
-    step++;
-    const progress = step / steps;
-    const eased = 1 - Math.pow(1 - progress, 3);
-    audio.volume = targetVolume * eased;
-
-    if (step >= steps) {
-      clearInterval(fade);
-      audio.volume = targetVolume;
-    }
-  }, stepTime);
-}
 
 
 
@@ -24811,55 +24772,9 @@ if (track.eq) {
 }
 
 
-  // ✅ CROSSFADE LOGIC
-  const oldTrack = curr_track;
-  const shouldCrossfade = track.quickFade === true;
 
-  // Create new track
-  const newTrack = new Audio(track.path);
 
-  // 🔊 Volume logic with safe boost handling
-  const base = Number(getTimeBasedVolume());
-  const boostRaw = track.volumeBoost;
-  const boost = Number(boostRaw);
-  const boostSafe = Number.isFinite(boost) ? boost : 0;
-
-  let finalVolume = base + boostSafe;
-  if (!Number.isFinite(finalVolume)) finalVolume = base;
-  finalVolume = Math.max(0, Math.min(1, finalVolume));
-
-  // ✅ Loudness tagging (natural vs boosted)
-  const loudThreshold = 0.9;
-  track.loudnessValue = finalVolume;
-  track.isLoud = finalVolume >= loudThreshold;
-  track.wasBoosted = boostSafe > 0;
-
-  if (track.isLoud) {
-    console.warn(
-      `🚨 Loud track tagged: ${track.name} | Boosted? ${track.wasBoosted} | Volume: ${finalVolume}`
-    );
-  }
-
-  // ✅ CROSSFADE if allowed
-  if (oldTrack && !oldTrack.paused && shouldCrossfade) {
-    console.log("🎚️ Crossfading from old track to new track...");
-
-    newTrack.volume = 0;
-    try {
-      newTrack.play();
-      crossfadeFadeIn(newTrack, finalVolume, 2000);
-      crossfadeFadeOut(oldTrack, 2000);
-    } catch (err) {
-      console.warn("Autoplay blocked:", err);
-      newTrack.volume = finalVolume;
-    }
-  } else {
-    // ✅ Normal behavior
-    newTrack.volume = finalVolume;
-  }
-
-  curr_track = newTrack; // ✅ update global reference
-
+  
   console.log("Loading track:", track.path);
 
   // ✅ Metadata fade scheduling
