@@ -37,7 +37,8 @@ let track_index = 0;
 let currentTrack = null;  
 let updateTimer;
 
-
+// Create the audio element for the player
+let audioPlayer = document.createElement('audio');
 
 
 window.addEventListener("DOMContentLoaded", () => {
@@ -4425,7 +4426,7 @@ volumeBoost: 0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Massive Attack - Unfinished Sympathy.mp3",
  timeCategory: "morning",
-volumeBoost: 0.55
+volumeBoost: 0.25
 },
 
 
@@ -7505,8 +7506,7 @@ volumeBoost: 0.35
     artist: "Miami Funk Machine ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Miami Funk Machine - Hollywood.mp3",
-     
-timeCategory: "afternoon"
+     timeCategory: "afternoon"
 
 
 },
@@ -8904,9 +8904,7 @@ volumeBoost: 0.10
     artist: "Madonna ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Madonna - Hollywood.mp3",
-       timeCategory: "afternoon",
-  quickFade: true,
-    volumeBoost: 0.45
+       timeCategory: "afternoon"
 },
 
 
@@ -16127,8 +16125,7 @@ volumeBoost:0.10
     path: "https://danceoldies08.netlify.app/Shaggy - Boombastic.mp3",
    timeCategory: "evening-late",
    quickFade: true,
-      eq: { bass: 1, mid: 1, treble: +1 } ,
-volumeBoost: 0.75,
+    volumeBoost: 0.75,
     playcount: 0
 },
 
@@ -20316,7 +20313,7 @@ timeCategory: "evening-late"
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Miley Cyrus & Bebe Rexha- Blue.mp3",
   timeCategory: "afternoon",
-    volumeBoost: 0.55,
+    volumeBoost: 0.45,
     playcount: 0
 },
 
@@ -20956,7 +20953,7 @@ volumeBoost: 0.15,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Massive Attack - Unfinished Sympathy.mp3",
  timeCategory: "f afternoon",
-volumeBoost: 0.55
+volumeBoost: 0.45
 },
 
 
@@ -24759,70 +24756,79 @@ function crossfadeFadeIn(audio, targetVolume = 1, duration = 2000) {
 
 
 
-// 🌟 CROSSFADE‑ENABLED, ANALOGUE‑AWARE LOADTRACK
+
+
+// ✅ CROSSFADE‑ENABLED LOADTRACK
 let currentTrackIndex = null;
 let curr_track = null;
-let audioCtx = null;
 
 function loadTrack(index) {
   const track = scheduledMp3Files[index];
-  if (!track) return;
 
-  // Create global AudioContext once
-  if (!audioCtx) {
-    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  if (!scheduledMp3Files || !track) {
+    console.error("Error: No track found at index", index);
+    return;
   }
 
-  // 🎧 Create new audio element for this track
+  // Create audio element
+  curr_track = new Audio(track.path);
+
+ 
+
+// Apply EQ + analogue warmth if tagged
+if (track.eq) {
+  const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  const source = audioCtx.createMediaElementSource(curr_track);
+
+  const bass = audioCtx.createBiquadFilter();
+  bass.type = "lowshelf";
+  bass.frequency.value = 200;
+  bass.gain.value = track.eq.bass || 0;
+
+  const mid = audioCtx.createBiquadFilter();
+  mid.type = "peaking";
+  mid.frequency.value = 1000;
+  mid.Q.value = 1;
+  mid.gain.value = track.eq.mid || 0;
+
+  const treble = audioCtx.createBiquadFilter();
+  treble.type = "highshelf";
+  treble.frequency.value = 3000;
+  treble.gain.value = track.eq.treble || 0;
+
+  // analogue warmth
+  const warm = audioCtx.createWaveShaper();
+  warm.curve = createAnalogueCurve();
+  warm.oversample = "4x";
+
+  // chain: EQ → warmth → output
+  source
+    .connect(bass)
+    .connect(mid)
+    .connect(treble)
+    .connect(warm)
+    .connect(audioCtx.destination);
+}
+
+
+  // ✅ CROSSFADE LOGIC
+  const oldTrack = curr_track;
+  const shouldCrossfade = track.quickFade === true;
+
+  // Create new track
   const newTrack = new Audio(track.path);
-
-  // 🎚 Apply EQ + analogue warmth if tagged
-  let processedNode = null;
-
-  if (track.eq) {
-    const source = audioCtx.createMediaElementSource(newTrack);
-
-    const bass = audioCtx.createBiquadFilter();
-    bass.type = "lowshelf";
-    bass.frequency.value = 200;
-    bass.gain.value = track.eq.bass || 0;
-
-    const mid = audioCtx.createBiquadFilter();
-    mid.type = "peaking";
-    mid.frequency.value = 1000;
-    mid.Q.value = 1;
-    mid.gain.value = track.eq.mid || 0;
-
-    const treble = audioCtx.createBiquadFilter();
-    treble.type = "highshelf";
-    treble.frequency.value = 3000;
-    treble.gain.value = track.eq.treble || 0;
-
-    const warm = audioCtx.createWaveShaper();
-    warm.curve = createAnalogueCurve();
-    warm.oversample = "4x";
-
-    // FINAL chain: EQ → warmth → output
-    source
-      .connect(bass)
-      .connect(mid)
-      .connect(treble)
-      .connect(warm)
-      .connect(audioCtx.destination);
-
-    processedNode = warm;
-  }
 
   // 🔊 Volume logic with safe boost handling
   const base = Number(getTimeBasedVolume());
-  const boost = Number(track.volumeBoost);
+  const boostRaw = track.volumeBoost;
+  const boost = Number(boostRaw);
   const boostSafe = Number.isFinite(boost) ? boost : 0;
 
   let finalVolume = base + boostSafe;
   if (!Number.isFinite(finalVolume)) finalVolume = base;
   finalVolume = Math.max(0, Math.min(1, finalVolume));
 
-  // 🔥 Loudness tagging
+  // ✅ Loudness tagging (natural vs boosted)
   const loudThreshold = 0.9;
   track.loudnessValue = finalVolume;
   track.isLoud = finalVolume >= loudThreshold;
@@ -24834,15 +24840,11 @@ function loadTrack(index) {
     );
   }
 
-  // 🎚 CROSSFADE LOGIC
-  const oldTrack = curr_track;
-  const shouldCrossfade = track.quickFade === true;
-
+  // ✅ CROSSFADE if allowed
   if (oldTrack && !oldTrack.paused && shouldCrossfade) {
     console.log("🎚️ Crossfading from old track to new track...");
 
     newTrack.volume = 0;
-
     try {
       newTrack.play();
       crossfadeFadeIn(newTrack, finalVolume, 2000);
@@ -24852,14 +24854,19 @@ function loadTrack(index) {
       newTrack.volume = finalVolume;
     }
   } else {
+    // ✅ Normal behavior
     newTrack.volume = finalVolume;
   }
 
-  curr_track = newTrack;
+  curr_track = newTrack; // ✅ update global reference
 
-  // 📀 Metadata fade scheduling
-  newTrack.addEventListener("loadedmetadata", () => {
-    const duration = newTrack.duration;
+  console.log("Loading track:", track.path);
+
+  // ✅ Metadata fade scheduling
+  curr_track.addEventListener("loadedmetadata", () => {
+    const duration = curr_track.duration;
+    console.log("📀 Metadata loaded for:", track.name);
+    console.log("🕰️ Track duration:", duration, "seconds");
 
     let fadeTime, fadeStart;
 
@@ -24867,19 +24874,21 @@ function loadTrack(index) {
       fadeTime = track.fadeLength || 1500;
       const buffer = track.endBuffer || 0;
       fadeStart = (duration * 1000) - (fadeTime + buffer);
+      console.log(`⚡ Quick fade: ${fadeTime/1000}s, leaving ${buffer/1000}s buffer`);
     } else if (duration > 180) {
       fadeTime = 2000;
       fadeStart = (duration * 1000) - fadeTime;
+      console.log("⏱️ Standard fade for track >3min");
     } else {
+      console.log("🚫 No fade scheduled — short track or no flag");
       return;
     }
 
     if (fadeStart > 0) {
-      setTimeout(() => fadeOut(newTrack, fadeTime), fadeStart);
+      console.log(`⏳ Scheduled ${fadeTime/1000}s fade starting at ${Math.round(fadeStart/1000)}s`);
+      setTimeout(() => fadeOut(curr_track, fadeTime), fadeStart);
     }
   });
-
-
 
   // ✅ Smooth fade-out (existing)
   function fadeOut(audio, duration, targetVolume = 0) {
