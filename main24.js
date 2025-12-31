@@ -952,7 +952,7 @@ timeCategory: "seventies",
     path: "https://sunnydanceoldies02.netlify.app/Vaughan  Mason & Crew - Bounce skate roll.mp3",
   playcount: 0,
 timeCategory: "seventies",
-  volumeBoost: 0.25
+  volumeBoost: 0.35
 },
 
 
@@ -1907,10 +1907,10 @@ timeCategory: "morning",
     artist: "Gary Low ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Gary Low - You are a danger.mp3",
-    eq: { bass: 1, mid: 2, treble: +1 } ,
+  
   playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.55
+  volumeBoost: 0.35
 },
 
 
@@ -2404,7 +2404,7 @@ timeCategory: "morning"
     path: "https://sunnydanceoldies02.netlify.app/Vaughan  Mason & Crew - Bounce skate roll.mp3",
   playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.25
+  volumeBoost: 0.35
 },
 
 
@@ -8232,10 +8232,7 @@ playcount: 0
     artist: "Stu Air ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Stu Air - Dream Of You.mp3",
-     isLoud: true,          
-  loudnessValue: 0.80, 
-timeCategory: "afternoon"
-
+     timeCategory: "afternoon"
 },
 
 {
@@ -9341,7 +9338,7 @@ quickFade: true
       timeCategory: "afternoon",
 quickFade: true,
 isLoud: true,          
-  loudnessValue: 0.80
+  loudnessValue: 0.90
 },
 
 {
@@ -15634,7 +15631,7 @@ timeCategory: "evening-late"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/SL2 - DJ Take Control.mp3",
    isLoud: true,          
-  loudnessValue: 0.60,  
+  loudnessValue: 0.90,  
     timeCategory: "evening-late"
 
 
@@ -15930,9 +15927,7 @@ volumeBoost: 0.40,
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female DJ1 dance.mp3",
-       volumeBoost: 0.55,
-timeCategory: "evening-late"
-
+      timeCategory: "evening-late"
 },
 
 
@@ -20515,10 +20510,7 @@ playcount: 0
       timeCategory: "f afternoon",
     quickFade: true,
     playcount: 0,
-     eq: { bass: 1, mid: 1, treble: +1 } ,
-volumeBoost: 0.55
-
-
+    volumeBoost: 0.55
 },
 
 
@@ -20621,8 +20613,7 @@ timeCategory: "f-afternoon"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Vaughan  Mason & Crew - Bounce skate roll.mp3",
        timeCategory: "f afternoon",
-    eq: { bass: 0, mid: 0, treble: +2 } ,
-volumeBoost: 0.25
+  volumeBoost: 0.35
 },
 
 {
@@ -20818,10 +20809,7 @@ timeCategory: "f-afternoon"
     artist: "T-Connection ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/T-Connection - Saturday Night.mp3",
-       eq: { bass: 1, mid: 1, treble: 0 } ,
-volumeBoost: 0.15,
- timeCategory: "f afternoon"
-
+      timeCategory: "f afternoon"
 },
 
 
@@ -20989,8 +20977,7 @@ volumeBoost: 0.45
     artist: "Listen Live Sunny Dance Radio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj44.mp3",
-     volumeBoost: 0.55,
- timeCategory: "f afternoon"
+     timeCategory: "f afternoon"
 },
 
 
@@ -21007,8 +20994,7 @@ volumeBoost: 0.45
     artist: "Listen Live Sunny Dance Radio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj22.mp3",
-     volumeBoost: 0.55,
-timeCategory: "f afternoon"
+    timeCategory: "f afternoon"
 },
 
 
@@ -21095,8 +21081,7 @@ timeCategory: "f afternoon"
     artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj22.mp3",
-    volumeBoost: 0.55,
- timeCategory: "f afternoon"
+    timeCategory: "f afternoon"
 },
 
 
@@ -21486,8 +21471,7 @@ playcount: 0
     path: "https://sunnydanceoldies01.netlify.app/White  Lines - Grandmaster Flash & the furious five.mp3",
       timeCategory: "f afternoon",
   volumeBoost: 0.25,
-    eq: { bass: 0, mid: 1, treble: +1 } ,
-playcount: 0
+  playcount: 0
 },
 
 {
@@ -21534,8 +21518,7 @@ quickFade: true
     artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj33.mp3",
-     volumeBoost: 0.55,
-   timeCategory: "f afternoon"
+       timeCategory: "f afternoon"
 
 },
 
@@ -21715,14 +21698,12 @@ quickFade: true,
 
 
 {
-    name: " You Are A Danger ",
+    name: "You Are A Danger",
     artist: "Gary Low ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Gary Low - You are a danger.mp3",
-    eq: { bass: 1, mid: 2, treble: +1 } ,
-  playcount: 0,
-timeCategory: "f afternoon",
-  volumeBoost: 0.55
+    path: "https://sunnydanceoldies09.netlify.app/Gary Low - You Are A Danger.mp3",
+    timeCategory: "f afternoon",
+  volumeBoost: 0.35
 },
 
 
@@ -22161,8 +22142,7 @@ timeCategory: "f evening"
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj55.mp3",
-  volumeBoost: 0.55,
-timeCategory: "f evening"
+ timeCategory: "f evening"
 },
 
 
@@ -22171,8 +22151,7 @@ timeCategory: "f evening"
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj22.mp3",
-   volumeBoost: 0.55,
-timeCategory: "f evening"
+  timeCategory: "f evening"
 },
 
 
@@ -22461,8 +22440,7 @@ isLoud: true,
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female dj33.mp3",
-     volumeBoost: 0.55,
-timeCategory: "f evening"
+    timeCategory: "f evening"
 },
 
 
@@ -23015,8 +22993,7 @@ quickFade: true,
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj55.mp3",
-     volumeBoost: 0.55,
-   timeCategory: "f evening"
+       timeCategory: "f evening"
 },
 
 
@@ -24642,6 +24619,9 @@ console.table(scheduledMp3Files);
       return scheduledMp3Files.reduce((sum, t) => sum + (typeof t.playcount === "number" ? t.playcount : 0), 0);
     }
 
+function computeTotalPlays() {
+  return scheduledMp3Files.reduce((sum, t) => sum + (Number(t.playcount) || 0), 0);
+}
 
 
 
@@ -24697,17 +24677,6 @@ function getTimeBasedVolume() {
   }
 }
 
-function createAnalogueCurve() {
-  const samples = 256;
-  const curve = new Float32Array(samples);
-
-  for (let i = 0; i < samples; i++) {
-    const x = (i / (samples - 1)) * 2 - 1; // -1 to +1
-    curve[i] = x - 0.02 * x * x * x;      // soft analogue warmth
-  }
-
-  return curve;
-}
 
 
 
@@ -24736,45 +24705,67 @@ function loadTrack(index) {
 
  
 
-// Apply EQ + analogue warmth if tagged
-if (track.eq) {
-  const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-  const source = audioCtx.createMediaElementSource(curr_track);
+  // Apply EQ lift if tagged
+  if (track.eq) {
+    const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    const source = audioCtx.createMediaElementSource(curr_track);
 
-  const bass = audioCtx.createBiquadFilter();
-  bass.type = "lowshelf";
-  bass.frequency.value = 200;
-  bass.gain.value = track.eq.bass || 0;
+    const bass = audioCtx.createBiquadFilter();
+    bass.type = "lowshelf";
+    bass.frequency.value = 200;
+    bass.gain.value = track.eq.bass || 0;
 
-  const mid = audioCtx.createBiquadFilter();
-  mid.type = "peaking";
-  mid.frequency.value = 1000;
-  mid.Q.value = 1;
-  mid.gain.value = track.eq.mid || 0;
+    const mid = audioCtx.createBiquadFilter();
+    mid.type = "peaking";
+    mid.frequency.value = 1000;
+    mid.Q.value = 1;
+    mid.gain.value = track.eq.mid || 0;
 
-  const treble = audioCtx.createBiquadFilter();
-  treble.type = "highshelf";
-  treble.frequency.value = 3000;
-  treble.gain.value = track.eq.treble || 0;
+    const treble = audioCtx.createBiquadFilter();
+    treble.type = "highshelf";
+    treble.frequency.value = 3000;
+    treble.gain.value = track.eq.treble || 0;
 
-  // analogue warmth
-  const warm = audioCtx.createWaveShaper();
-  warm.curve = createAnalogueCurve();
-  warm.oversample = "4x";
-
-  // chain: EQ → warmth → output
-  source
-    .connect(bass)
-    .connect(mid)
-    .connect(treble)
-    .connect(warm)
-    .connect(audioCtx.destination);
-}
+    source.connect(bass).connect(mid).connect(treble).connect(audioCtx.destination);
+  }
 
 
 
 
-  
+
+  // ✅ CROSSFADE LOGIC
+  const oldTrack = curr_track;
+  const shouldCrossfade = track.quickFade === true;
+
+  // Create new track
+  const newTrack = new Audio(track.path);
+
+  // 🔊 Volume logic with safe boost handling
+  const base = Number(getTimeBasedVolume());
+  const boostRaw = track.volumeBoost;
+  const boost = Number(boostRaw);
+  const boostSafe = Number.isFinite(boost) ? boost : 0;
+
+  let finalVolume = base + boostSafe;
+  if (!Number.isFinite(finalVolume)) finalVolume = base;
+  finalVolume = Math.max(0, Math.min(1, finalVolume));
+
+  // ✅ Loudness tagging (natural vs boosted)
+  const loudThreshold = 0.9;
+  track.loudnessValue = finalVolume;
+  track.isLoud = finalVolume >= loudThreshold;
+  track.wasBoosted = boostSafe > 0;
+
+  if (track.isLoud) {
+    console.warn(
+      `🚨 Loud track tagged: ${track.name} | Boosted? ${track.wasBoosted} | Volume: ${finalVolume}`
+    );
+  }
+
+
+
+  curr_track = newTrack; // ✅ update global reference
+
   console.log("Loading track:", track.path);
 
   // ✅ Metadata fade scheduling
