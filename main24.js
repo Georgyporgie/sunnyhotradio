@@ -6450,7 +6450,8 @@ quickFade: true
     artist: "Ray Parker Junior",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Ray Parker jr - It's your night.mp3",
-        timeCategory: "afternoon",
+     eq: { bass: 1, mid: 2, treble: +1 } ,
+   timeCategory: "afternoon",
     quickFade: true,
     volumeBoost: 0.75,
     playcount: 0
@@ -9519,7 +9520,8 @@ isLoud: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Gino Soccio - Try It Out (maxi).mp3",
     timeCategory: "afternoon",
-     quickFade: true,
+       eq: { bass: 1, mid: 2, treble: +1 } ,
+quickFade: true,
     volumeBoost: 0.75,
     playcount: 0
 },
@@ -9535,7 +9537,7 @@ isLoud: true,
     timeCategory: "afternoon",
    quickFade: true,
    playcount: 0,
- eq: { bass:1, mid: 1, treble: 1 } ,
+ eq: { bass:1, mid: 1, treble: 0 } ,
 volumeBoost: 0.30
 },
 
@@ -15308,7 +15310,31 @@ volumeBoost: 0.25
 
 
 
+{
+  
+    name: "Spank (1979) ",
+    artist: "Jimmy Bo Horne  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Jimmy Bo Horne - Spank (1979).mp3",
+timeCategory: " evening-late",
+     quickFade: true,
+    volumeBoost: 0.25,
+   eq: { bass: 0, mid: 2, treble: +1 } 
+},
 
+
+
+{
+  
+    name: " TSOP",
+    artist: "MFSB  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/MFSB - TSOP.mp3",
+timeCategory: " evening-late",
+     quickFade: true,
+    volumeBoost: 0.25,
+   eq: { bass: 0, mid: 2, treble: +1 } 
+},
 
 
 
@@ -21201,10 +21227,12 @@ volumeBoost: 0.45
     artist: "Ray Parker Junior",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Ray Parker jr - It's your night.mp3",
-        timeCategory: "afternoon",
+      eq: { bass: 0, mid: 0, treble: +1 } ,
+  timeCategory: "afternoon",
     quickFade: true,
     volumeBoost: 0.75,
-    playcount: 0
+    
+playcount: 0
 },
 
 
@@ -24875,20 +24903,24 @@ attachTrackEvents(curr_track, track_index);
 
 
 
-
 function random_bg_color() {
-  // Get a random number between 64 to 256
-  // (for getting lighter colors)
-  let red = Math.floor(Math.random() * 256) + 64;
-  let green = Math.floor(Math.random() * 256) + 64;
-  let blue = Math.floor(Math.random() * 256) + 64;
- 
-  // Construct a color withe the given values
-  let bgColor = "rgb(" + red + ", " + green + ", " + blue + ")";
- 
-  // Set the background to the new color
-  document.body.style.background = bgColor;
+  const palette = [
+    "rgb(255, 140, 80)",
+    "rgb(255, 110, 60)",
+    "rgb(200, 60, 120)",
+    "rgb(180, 40, 100)",
+    "rgb(140, 80, 180)",
+    "rgb(120, 60, 160)",
+    "rgb(80, 120, 200)",
+    "rgb(60, 100, 180)",
+    "rgb(150, 90, 200)",
+    "rgb(130, 70, 180)"
+  ];
+
+  const color = palette[Math.floor(Math.random() * palette.length)];
+  document.body.style.background = color;
 }
+
  
 // Function to reset all values to their default
 function resetValues() {

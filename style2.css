@@ -2,7 +2,7 @@ body {
   
 
   /* Smoothly transition the background color */
-  transition: background-color .5s;
+ transition: background 3s ease;
 
 }
  
