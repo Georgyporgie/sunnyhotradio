@@ -1750,7 +1750,8 @@ timeCategory: "morning",
     path: "https://sunnydanceoldies08.netlify.app/Rod Stewarrt - Da Ya Think I'm Sexy.mp3",
   playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.10
+  eq: { bass: 1, mid: 0, treble: +1 } ,
+ volumeBoost: 0.40
 },
 
 
@@ -3016,11 +3017,35 @@ quickFade: true
 
 
 
+{
+    name: "   Un-break My Heart",
+    artist: " Toni Braxton ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Toni Braxton - Un-break my heart.mp3",
+    timeCategory: "morning"
+
+},
+
+{
+    name: "   Push the Button ",
+    artist: " Sugababes ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Sugababes - Push the Button.mp3",
+    timeCategory: "morning",
+  eq: { bass: 1, mid: 1, treble: +1 } ,
+    volumeBoost: 0.35
+},
 
 
-
-
-
+{
+    name: "  Right on ",
+    artist: " The pasadenas  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/The pasadenas - Right on.mp3",
+    timeCategory: "morning",
+  eq: { bass: 0, mid: 1, treble: 0 } ,
+    volumeBoost: 0.45
+},
 
 
 
@@ -4024,9 +4049,31 @@ volumeBoost: 0.10
 
 
 
+{
+    name: " Lose Yourself To Dance  ",
+    artist: "Daft Punk ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Daft Punk - Lose Yourself To Dance.mp3",
+        timeCategory: "morning",
+     quickFade: true,
+     eq: { bass: 1, mid: 1, treble: +1 } ,
+ volumeBoost: 0.25,
+    playcount: 0
+},
 
 
 
+{
+    name: "Around The World ",
+    artist: "Daft Punk ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Daft Punk - Around The World.mp3",
+        timeCategory: "morning",
+     quickFade: true,
+     eq: { bass: 1, mid: 1, treble: +1 } ,
+ volumeBoost: 0.45,
+    playcount: 0
+},
 
 
 
@@ -4276,6 +4323,17 @@ volumeBoost: 0.25
 
 
 
+{
+    name: "  When You touch me",
+    artist: "Freemasons ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Freemasons - When You touch me.mp3",
+    timeCategory: "morning",
+isLoud: true,          
+  loudnessValue: 0.70 
+
+
+},
 
 
 
@@ -6595,9 +6653,27 @@ quickFade: true
 
 
 
+{
+     name: " More More More ",
+    artist: "Andrea True ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Andrea True Connection - More More More.mp3",
+     quickFade: true,
+    volumeBoost: 0.55,
+    playcount: 0
+},
 
 
 
+{
+    name: " What Is Love ",
+    artist: "Haddaway ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Haddaway - What Is Love.mp3",
+    timeCategory: "afternoon",
+    volumeBoost: 0.20,
+    playcount: 0
+},
 
 
 
@@ -7253,12 +7329,22 @@ volumeBoost: 0.35
 
 
 
+
+
+
+
+
+
+
+
 {
     name: " Live To Tell (1986) ",
     artist: "Madonna  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Madonna - Live To Tell (1986).mp3",
- timeCategory: "afternoon"
+ timeCategory: "afternoon",
+isLoud: true,          
+  loudnessValue: 0.80 
 },
 
 
@@ -8670,7 +8756,29 @@ volumeBoost:  0.20
 },
 
 
+{
+    name: " I O U (1983) ",
+    artist: "Freeez ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Freeez - IOU.mp3",
+    timeCategory: "afternoon"
 
+
+},
+
+
+
+
+
+{
+    name: "  You and I (1979)",
+    artist: "Delegation   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Delegation - You and I.mp3",
+    timeCategory: "afternoon"
+
+
+},
 
 
 
@@ -12219,6 +12327,15 @@ volumeBoost: 0.10
 
 
 
+{
+    name: " I Didn't Mean To Turn ",
+    artist: "Cherelle ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Cherelle - I didn't mean to turn you on.mp3",
+    timeCategory: "evening-late"
+
+},
+
 
 
 
@@ -14062,7 +14179,15 @@ volumeBoost: 0.10
 
 
 
-
+{
+    name: "  Cry for You ",
+    artist: " September  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/September - Cry for You.mp3",
+    timeCategory: "evening-late",
+  eq: { bass: 1, mid: 0, treble: 1 } ,
+    volumeBoost: 0.15
+},
 
 
 
@@ -15613,7 +15738,9 @@ volumeBoost:0.40
     artist: "Roger Sanchez  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Roger Sanchez - Another Chance.mp3",
-      timeCategory: "evening-late"
+      timeCategory: "evening-late",
+  eq: { bass: 0, mid: 1, treble: 0 } ,
+ volumeBoost: 0.35,
 },
 
 
@@ -15925,7 +16052,7 @@ volumeBoost: 0.40,
 
 
 {
-    name: " Searchin'  ",
+    name: " Searchin' (1984) ",
     artist: "Hazel Dean ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Hazel Dean - Searchin'.mp3",
@@ -15965,7 +16092,7 @@ volumeBoost: 0.40,
     path: "https://sunnylounge01.netlify.app/Aphex Twin - Polynomial C.mp3",
    timeCategory: "evening-late",
    isLoud: true,          
-  loudnessValue: 0.62,    
+  loudnessValue: 0.42,    
      quickFade: true,
         playcount: 0
 },
@@ -17497,7 +17624,8 @@ volumeBoost:0.65
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Rod Stewarrt - Da Ya Think I'm Sexy.mp3",
         timeCategory: "evening-late",
-volumeBoost:0.45
+eq: { bass: 1, mid: 0, treble: +1 } ,
+ volumeBoost: 0.40
 },
 
 
@@ -20249,14 +20377,35 @@ playcount: 0
 
 
 
+{
+    name: "Mouse T",
+    artist: " Horny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Mouse T - Horny.mp3",
+    timeCategory: "evening-late"
+
+},
 
 
 
+{
+    name: "Hit 'n Run Lover",
+    artist: " Carol Jiani",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Carol Jiani - Hit 'n run lover.mp3",
+    timeCategory: "evening-late"
+
+},
 
 
+{
+    name: "  Keep The ire Burning",
+    artist: " Gwen McCrae",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Gwen McCrae - Keep the fire Burning.mp3",
+    timeCategory: "evening-late"
 
-
-
+},
 
 
 
@@ -22054,8 +22203,6 @@ timeCategory: "f evening"
 
 
 },
-
-
 
 
 
