@@ -15262,7 +15262,17 @@ volumeBoost: 0.35
 
 
 
-
+{
+     name: "Love Is The Message",
+    artist: "MFSB ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/MFSB - Love Is The Message (12inch).mp3",
+       timeCategory: "evening-late",
+   eq: { bass: +1, mid: 2, treble: 0 } ,
+playcount: 0,
+volumeBoost: 0.65,
+  quickFade: true
+},
 
 
 
@@ -15507,6 +15517,27 @@ volumeBoost:0.40
 
 
 
+{
+    name: " Oh Yeah ",
+    artist: "Yello ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Yello - Oh Yeah.mp3",
+  timeCategory: "evening-late",
+  quickFade: true
+},
+
+
+{
+    name: " The Sound Of Music ",
+    artist: "Dayton  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Dayton - The Sound Of Music.mp3",
+  timeCategory: "evening-late",
+   eq: { bass: 0, mid: 1, treble: +1 } ,
+  volumeBoost: 0.35,
+quickFade: true
+
+},
 
 
 
