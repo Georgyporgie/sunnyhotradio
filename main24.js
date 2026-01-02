@@ -846,6 +846,41 @@ volumeBoost:0.10
 
 
 {
+    name: "   Just A Touch (1979) ",
+    artist: "Slave ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Slave - Just A Touch (1979).mp3",
+       timeCategory: "seventies",
+quickFade: true
+  
+},
+
+
+{
+    
+    name: "Lady Bug",
+    artist: "Bumblebee Unlimited",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Bumblebee Unlimited - Lady Bug.mp3",
+      timeCategory: "seventies",
+volumeBoost: 0.40, 
+},
+
+
+{
+    
+    name: "From 9 Untill",
+    artist: "Lakeside",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app / Lakeside - From 9 untill.mp3",
+      timeCategory: "seventies",
+volumeBoost: 0.30, 
+},
+
+
+
+
+{
     
     name: " San Salvador (1979)",
     artist: "Azoto ",
@@ -1588,7 +1623,9 @@ timeCategory: "morning",
     artist: "Pointer Sisters  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Pointer Sisters - Jump (for my love).mp3",
-   playcount: 0,
+     eq: { bass: 1, mid: 1, treble: +1 } ,
+
+playcount: 0,
 timeCategory: "morning",
   volumeBoost: 0.25
 
@@ -2280,6 +2317,18 @@ timeCategory: "morning",
       timeCategory: "morning"
 },
 
+
+{
+    name: "  Don't Look Any Further",
+    artist: "Dennis Edwards        ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies07.netlify.app/Dennis Edwards - Don't Look Any Further    .mp3",
+    playcount: 0,
+timeCategory: "morning",
+isLoud: true,          
+  loudnessValue: 0.50
+
+},
 
 
 
@@ -4884,6 +4933,15 @@ timeCategory: "morning"
 
 
 
+{
+  
+    name: "Joys ",
+    artist: "Roberto Surace ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Roberto Surace - Joys.mp3",
+      timeCategory: "morning"
+},
+
 
 
 
@@ -5177,8 +5235,8 @@ volumeBoost: 0.45
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Slave - Just A Touch (1979).mp3",
        timeCategory: "morning",
-quickFade: true,
-  volumeBoost: 0.35
+quickFade: true
+  
 },
 
 
@@ -9583,7 +9641,13 @@ isLoud: true,
 
 
 
-
+{
+     name: " Cherie ",
+    artist: "Darius",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/Darius - Cherie.mp3",
+    timeCategory: "afternoon"
+},
 
 
 
@@ -12367,8 +12431,26 @@ volumeBoost: 0.10
 
 
 
+{
+    name: " Funky Sensation ",
+    artist: "Gwen McCrae  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Gwen McCrae - Funky Sensation.mp3",
+  timeCategory: "evening"
+
+},
 
 
+
+{
+    name: " Time Problem",
+    artist: "Alice D In Wonderland ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies06.netlify.app/Alice D In Wonderland - Time Problem.mp3",
+  timeCategory: "evening",
+     quickFade: true,
+    volumeBoost: 0.55
+},
 
 
 
@@ -15473,7 +15555,13 @@ timeCategory: " evening-late",
 
 
 
-
+{
+    name: "Ain't We Funkin' Now",
+    artist: "Brothers Johnson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Brothers Johnson - Ain't We Funkin' Now!!2.mp3",
+         timeCategory: "evening-late"
+},
 
 
 
@@ -20915,6 +21003,31 @@ quickFade: true
 
 
 {
+    name: "Free love",
+    artist: "Bebe Rexha ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Bebe Rexha - Free love.mp3",
+         timeCategory: "f afternoon"
+
+
+},
+
+
+
+
+
+{
+    name: "  Stay On Me  ",
+    artist: "Sophie Ellis Bextor ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Bebe Rexha - Sacrifice.mp3",
+   timeCategory: "f afternoon"
+},
+
+
+
+
+{
     name: "  Playgirl (1979)  ",
     artist: "La Velle ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -21030,6 +21143,28 @@ timeCategory: "f-afternoon"
     playcount: 0
 },
   
+
+
+{
+    name: " Get together",
+    artist: "Bebe Rexha ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Bebe Rexha - Get together.mp3",
+         timeCategory: "f afternoon"
+
+
+},
+
+
+
+
+
+
+
+
+
+
+
  
 {
     name: "Gimme Gimme Gimme",
@@ -22030,7 +22165,13 @@ quickFade: true,
 },
 
 
-
+{
+     name: " Cherie ",
+    artist: "Darius",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/Darius - Cherie.mp3",
+    timeCategory: "f evening"
+},
 
 
 
@@ -22321,11 +22462,25 @@ timeCategory: "f evening"
 
 
 
+{
+     name: " Charlie Wilson  ",
+    artist: "No Stoppin' Us    ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Charlie Wilson - No stoppin' us   .mp3",
+    timeCategory: "f evening"
+},
 
 
 
 
 
+{
+     name: " Te Felicito ",
+    artist: "Shakira & Rauw Alejandro     ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Shakira & Rauw Alejandro - Te Felicito.mp3",
+    timeCategory: "f evening"
+},
 
 
 
@@ -23046,6 +23201,15 @@ isLoud: true,
 
 
 
+{
+    
+    name: "From 9 Untill",
+    artist: "Lakeside",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app / Lakeside - From 9 untill.mp3",
+      timeCategory: "f evening",
+volumeBoost: 0.30, 
+},
 
 
 
