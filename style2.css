@@ -704,8 +704,7 @@ animation: blinker 1s step-start infinite;
 #dwarf {    width: 30px;  height: 30px;filter: brightness(115%) saturate(115%) contrast(115%) opacity(60%); transform: rotate(deg); z-index: -200;  border-radius: 5px; float: left; margin-left: 0px;
 }
 
-#myImage  {    display: none;
-}
+
 
 #events {
 color: #000080; z-index: 200; text-align: center; font-family: myEvent; padding: 25px 15px 25px 15px; font-size: 30px;  border: solid 3px #FF0000; border-radius: 5px;

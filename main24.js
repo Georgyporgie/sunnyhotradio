@@ -907,6 +907,21 @@ timeCategory: "seventies"
 
 
 {
+    name: "Controversy (12inch)",
+    artist: "Prince",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies10.netlify.app/Prince - Controversy (1981).mp3",
+    playcount: 0,
+    volumeBoost: 0.55,
+eq: { bass: 1, mid: 1, treble: 0 } ,
+timeCategory: "seventies"
+
+
+},
+
+
+
+{
      name: "Welcome! todays program☀️",
     artist: "Listen Live Sunny Jazzradio",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
@@ -13568,6 +13583,13 @@ volumeBoost: 0.50,
 
 
 
+{
+    name: "Can't Get Over You",
+    artist: "Yuna  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Yuna - Can't get over you.mp3",
+    timeCategory: "evening"
+},
 
 
 
