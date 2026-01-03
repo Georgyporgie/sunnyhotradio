@@ -1,7 +1,7 @@
 // --- Config ---
 const IMG_BASE = ''; // e.g., 'images/' if your assets live in /images/
-const BLACK_IMG  = IMG_BASE + 'black-leaf.png';
-const GOLDEN_IMG = IMG_BASE + 'golden-leaf.png';
+
+
 const SNOW_IMG   = IMG_BASE + 'snowflake.png';
 
 // --- Cached DOM refs ---
