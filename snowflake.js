@@ -6,7 +6,7 @@ const SNOW_IMG   = IMG_BASE + 'snowflake.png';
 
 // --- Cached DOM refs ---
 const container = document.getElementById('leaf-container');
-const soloLeaf  = document.getElementById('solo-leaf');
+
 
 // --- Guards for special triggers ---
 let lastHourBlackTriggered = null;
