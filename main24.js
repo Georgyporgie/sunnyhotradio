@@ -559,6 +559,45 @@ volumeBoost:0.50
 },
 
 
+{
+     name: " Live From London",
+    artist: "Fat Tony",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://mixingg.netlify.app/Fat Tony - Live From London01.mp3",
+    timeCategory: "mixinglondon"
+},
+
+
+{
+     name: " Live From London",
+    artist: "Fat Tony",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://mixingg.netlify.app/Fat Tony - Live From London02.mp3",
+    timeCategory: "mixinglondon"
+},
+
+
+
+{
+     name: " Live From London",
+    artist: "Fat Tony",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://mixingg.netlify.app/Fat Tony - Live From London03.mp3",
+    timeCategory: "mixinglondon"
+},
+
+
+
+{
+     name: " Live From London",
+    artist: "Fat Tony",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://mixingg.netlify.app/Fat Tony - Live From London04.mp3",
+    timeCategory: "mixinglondon"
+},
+
+
+
 
 {
      name: " Live From His Garden ",
@@ -22488,7 +22527,7 @@ timeCategory: "f evening"
      name: " Charlie Wilson  ",
     artist: "No Stoppin' Us    ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Charlie Wilson - No stoppin' us   .mp3",
+    path: "https://Sunny-Dancemuziek04.netlify.app/Charlie Wilson - No stoppin' us   .mp3",
     timeCategory: "f evening"
 },
 
@@ -22500,7 +22539,7 @@ timeCategory: "f evening"
      name: " Te Felicito ",
     artist: "Shakira & Rauw Alejandro     ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Shakira & Rauw Alejandro - Te Felicito.mp3",
+    path: "https://Sunny-Dancemuziek04/Shakira & Rauw Alejandro - Te Felicito.mp3",
     timeCategory: "f evening"
 },
 
@@ -23161,7 +23200,9 @@ isLoud: true,
     timeCategory: "f evening",
     quickFade: true,
     volumeBoost: 0.55,
-    playcount: 0
+    
+  eq: { bass: 2, mid: 2, treble: +1 } ,
+playcount: 0
 },
 
 
@@ -23172,7 +23213,9 @@ isLoud: true,
     path: "https://sunnydanceoldies09.netlify.app/Lakeside - Fantastic Voyage.mp3",
     timeCategory: "f evening",
     quickFade: true,
-    volumeBoost: 0.45,
+   eq: { bass: 1, mid: 1, treble: +1 } ,
+
+ volumeBoost: 0.45,
     playcount: 0
 },
 
@@ -23350,7 +23393,8 @@ volumeBoost: 0.30,
     path: "https://sunnydanceoldies05.netlify.app/CC Peniston - We Got A Love Thang.mp3",
       timeCategory: "f evening",
 quickFade: true,
-  volumeBoost: 0.35,
+    eq: { bass: 1, mid: 2, treble: +1 } ,
+volumeBoost: 0.35,
   playcount: 0
 },
 
@@ -24645,21 +24689,6 @@ playcount: 0
 
 
 
-
-
-
-
-
-{
-    name: "Doing It",
-    artist: "Rita Ora",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Rita Ora - Doing It.mp3",
-       timeCategory: "f evening-late",
-quickFade: true
-
-
-},
 
 
 {
