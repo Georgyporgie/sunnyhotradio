@@ -7,13 +7,7 @@ const front = document.getElementById('snow-container');
 const mid   = document.getElementById('snow-container-mid');
 const back  = document.getElementById('snow-container-back');
 
-// --- Guards for special triggers ---
-let lastHourBlackTriggered = null;
-let lastHourGoldenTriggered = null;
-const appStart = Date.now();
-const STARTUP_COOLDOWN_MS = 3000; // 3s
 
-setInterval(maybeSpawnGoldenRandom, 10000);
 
 // Helper: pick one random 4-hour window per day
 let cachedDay = null;
