@@ -140,9 +140,12 @@ body {
 
 
 <body>
-<div id="leaf-container" class="lane lane-front"></div>
-<div id="snow-container-mid" class="lane lane-mid"></div>
-<div id="snow-container-back" class="lane lane-back"></div>
+
+<script>
+const front = document.getElementById('snow-container');
+const mid   = document.getElementById('snow-container-mid');
+const back  = document.getElementById('snow-container-back');
+</script>
 <div class = "arrow">
 <br>
 <br>
@@ -1783,11 +1786,11 @@ const musicplayer = document.getElementById('musicplayer'); // for looping backg
 
 
 const weekdaySlots = [
-    { start: 8, end: 14, file: "muziek/voiceover/latest disco hits of the eighties.mp3" },
-    { start: 14, end: 16, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" },
+    { start: 8, end: 14, file: "muziek/discjockeys/starten met Sunny4.mp3" },
+    { start: 14, end: 16, file: "muziek/voiceover/latest disco hits of the eighties.mp3" },
     { start: 16, end: 19, file: "muziek/voiceover/From all over the world.mp3" },
-    { start: 19, end: 21, file: "muziek/discjockeys/starten met Sunny4.mp3" },
-    { start: 21, end: 3, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" },
+    { start: 19, end: 21, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" },
+    { start: 21, end: 3, file: "muziek/voiceover/latest disco hits of the eighties.mp3" },
     { start: 3, end: 8, file: "muziek/voiceover/From all over the world.mp3" }
   ];
 

@@ -1,19 +1,17 @@
 // --- Config ---
 const IMG_BASE = ''; // e.g., 'images/' if your assets live in /images/
+const SNOW_IMG = IMG_BASE + 'snowflake.png';
 
-
-const SNOW_IMG   = IMG_BASE + 'snowflake.png';
-
-// --- Cached DOM refs ---
-const container = document.getElementById('leaf-container');
-
+// --- Layered containers ---
+const front = document.getElementById('snow-container');
+const mid   = document.getElementById('snow-container-mid');
+const back  = document.getElementById('snow-container-back');
 
 // --- Guards for special triggers ---
 let lastHourBlackTriggered = null;
 let lastHourGoldenTriggered = null;
 const appStart = Date.now();
 const STARTUP_COOLDOWN_MS = 3000; // 3s
-
 
 setInterval(maybeSpawnGoldenRandom, 10000);
 
@@ -35,12 +33,6 @@ function dailySnowWindow() {
   }
   return cachedWindow;
 }
-
-
-
-
-
-
 
 function spawnFlake() {
   const now   = new Date();
@@ -100,9 +92,13 @@ function spawnFlake() {
 
   flake.style.backgroundImage = `url('${SNOW_IMG}')`;
 
-  container.appendChild(flake);
+  // ❄️ Layer assignment
+  let target;
+  if (depth < 0.33) target = back;
+  else if (depth < 0.66) target = mid;
+  else target = front;
+
+  target.appendChild(flake);
+
   setTimeout(() => flake.remove(), duration * 1000);
 }
-
-
-
