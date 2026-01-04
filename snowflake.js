@@ -43,7 +43,7 @@ function spawnFlake() {
   if (hour < start || hour >= end) return;
 
   // ❄️ Only snow during these hours
-  const SNOW_HOURS = [6, 7, 8, 15, 16, 17, 22, 23];
+  const SNOW_HOURS = [6, 7, 8, 15, 16, 17, 20,22, 23];
   if (!SNOW_HOURS.includes(hour)) return;
 
   // ❄️ Only snow during the first 15 minutes
