@@ -1,5 +1,5 @@
 // --- Config ---
-const IMG_BASE = ''; // e.g., 'images/' if your assets live in /images/
+const IMG_BASE = ''; 
 const SNOW_IMG = IMG_BASE + 'snowflake.png';
 
 // --- Layered containers ---
@@ -7,7 +7,8 @@ const front = document.getElementById('snow-container');
 const mid   = document.getElementById('snow-container-mid');
 const back  = document.getElementById('snow-container-back');
 
-
+// ❄️ Spawn more flakes (3× more often)
+setInterval(spawnFlake, 150);
 
 // Helper: pick one random 4-hour window per day
 let cachedDay = null;
@@ -18,9 +19,8 @@ function dailySnowWindow() {
   if (cachedDay !== today) {
     cachedDay = today;
 
-    // Pick a random start hour between 8 and 18
     const start = 8 + Math.floor(Math.random() * 10);
-    const end = start + 4; // 4-hour block
+    const end = start + 4;
 
     cachedWindow = { start, end };
     console.log("Snow active window today:", start, "→", end);
@@ -49,9 +49,9 @@ function spawnFlake() {
   // ❄️ Only snow during the first 15 minutes
   if (min > 15) return;
 
-  // ❄️ Weather randomness
+  // ❄️ Weather randomness (more snow now)
   const weatherSeed = (day * 17 + hour * 3) % 10;
-  if (weatherSeed > 4) return;
+  if (weatherSeed > 7) return; // 80% chance instead of 50%
 
   // ❄️ January taper
   let spawnChance = 1;
