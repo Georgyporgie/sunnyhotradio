@@ -913,7 +913,7 @@ volumeBoost: 0.40,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Lakeside - From 9 untill.mp3",
       timeCategory: "seventies",
-volumeBoost: 0.30, 
+volumeBoost: 0.30 
 },
 
 
@@ -22539,7 +22539,7 @@ timeCategory: "f evening"
      name: " Te Felicito ",
     artist: "Shakira & Rauw Alejandro     ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://Sunny-Dancemuziek04/Shakira & Rauw Alejandro - Te Felicito.mp3",
+    path: "https://SunnyDancemuziek04/Shakira & Rauw Alejandro - Te Felicito.mp3",
     timeCategory: "f evening"
 },
 
@@ -23273,7 +23273,7 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app / Lakeside - From 9 untill.mp3",
       timeCategory: "f evening",
-volumeBoost: 0.30, 
+volumeBoost: 0.70
 },
 
 
@@ -25799,8 +25799,6 @@ document.addEventListener("DOMContentLoaded", () => {
     updateVisibleTracks();
   });
 });
-
-
 
 
 
