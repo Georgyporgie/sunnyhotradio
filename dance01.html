@@ -923,13 +923,13 @@ document.addEventListener("DOMContentLoaded", () => {
   const saturdayAfternoonAudioFiles = {
     hourlySou:        "audio/its%20now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
-    fortyFiveMinuteSou: "muziek/effects/DJ S.mp3"
+    fortyFiveMinuteSou: "muziek/effects/ship horn orig.mp3"
   };
 
   const saturdayEveningAudioFiles = {
     hourlySou:        "audio/its%20now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
-    fortyFiveMinuteSou: "muziek/effects/DJ%20Saphire%20finale.mp3"
+    fortyFiveMinuteSou: "muziek/effects/ship horn orig.mp3"
   };
 
   // Sunday splits
@@ -942,13 +942,13 @@ document.addEventListener("DOMContentLoaded", () => {
   const sundayAfternoonAudioFiles = {
     hourlySou:        "audio/its%20now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
-    fortyFiveMinuteSou: "muziek/effects/DJ S.mp3"
+    fortyFiveMinuteSou: "muziek/effects/ship horn orig.mp3"
   };
 
   const sundayEveningAudioFiles = {
     hourlySou:        "audio/its%20now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
-   fortyFiveMinuteSou: "muziek/effects/DJ%20Saphire%20finale.mp3"
+   fortyFiveMinuteSou: "muziek/effects/ship horn orig.mp3"
   };
 
   // Select the right map
@@ -1713,7 +1713,7 @@ function getCurrentTimeCategory() {
   const currentDay = now.getDay();
 
   const timeRanges = [
-    { key: "morning", start: 3, end: 12 },
+    { key: "morning", start: 4, end: 12 },
     { key: "afternoon", start: 12, end: 14 },
     { key: "special-show", start: 14, end: 16 },
     { key: "evening", start: 16, end: 19 },
@@ -1739,7 +1739,7 @@ function getCurrentTimeCategory() {
 4: { morning: ["morning"], afternoon: ["evening-late"], "special-show": ["evening"], evening: ["afternoon"], "evening-late": ["evening-late"], late: ["evening"], night: ["jingle-time"] },
     
 
-5: { morning: ["morning"], afternoon: ["afternoon"], "special-show": ["special-cast"], evening: ["evening-late"], "evening-late": ["f afternoon"], late: ["f evening-late"], night: ["jingle-time"] },
+5: { morning: ["morning"], afternoon: ["afternoon"], "special-show": ["love"], evening: ["evening-late"], "evening-late": ["f afternoon"], late: ["f evening-late"], night: ["jingle-time"] },
     
 
 6: { morning: ["f afternoon"], afternoon: ["f evening"], "special-show": ["mixinglondon"], evening: ["f evening-late"], "evening-late": ["f evening"], late: ["f afternoon"], night: ["jingle-time"] }
@@ -1797,8 +1797,8 @@ const weekdaySlots = [
 
   const weekendSlots = [
     { start: 8, end: 14, file: "muziek/voiceover/latest disco hits of the eighties.mp3" },
-    { start: 14, end: 16, file: "muziek/voiceover/latest disco hits of the eighties.mp3" },
-    { start: 16, end: 19, file: "muziek/voiceover/latest disco hits of the eighties.mp3" },
+    { start: 14, end: 16, file: "muziek/voiceover/From all over the world.mp3" },
+    { start: 16, end: 19, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" },
     { start: 19, end: 23, file: "muziek/voiceover/From all over the world.mp3" },
     { start: 23, end: 3, file: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3" },
     { start: 3, end: 8, file: "muziek/discjockeys/starten met Sunny4.mp3" }
@@ -2065,6 +2065,10 @@ function switchCategory(newCategory) {
 </div>
 
 <script>
+// --- Weekend toggle ---
+const isWeekend = [0, 6].includes(new Date().getDay());
+// 0 = Sunday, 6 = Saturday
+
 // --- Helpers ---
 function getTimeBounds(range) {
   const now = new Date();
@@ -2084,22 +2088,33 @@ const badgeMeta = {
   morning: { icon: "🌅", label: "Latest Disco Hits Of The Eighties" },
   afternoon: { icon: "☀️", label: "Latest Hits Of The Dance Area" },
   evening: { icon: "🌇", label: "Latest Hits Of The Dance Area" },
-  "evening-late": { icon: "🌃", label: "Come See The Eighties Disco!" },
+  "evening-late": { icon: "🌃", label: "Latest Hits Of The Dance Area" },
   night: { icon: "🌙", label: "Starlight Sessions" },
   late: { icon: "🦉", label: "Dance Yourself Dizzy!" },
-  "special-show": { icon: "🎛️", label: "Live Show" },
+  "special-show": { icon: "🎛️", label: "Come See The Eighties Disco!" },
   "jingle-time": { icon: "🔔", label: "Owl Hours" },
   unknown: { icon: "🕒", label: "On Air" }
 };
 
+// --- Weekend overrides (optional, but ready for use) ---
+const weekendMeta = {
+  morning: { icon: "🎉", label: "Weekend Morning Grooves" },
+  afternoon: { icon: "🎶", label: "Weekend Dance Flow" },
+  "special-show": { icon: "🎛️", label: "Live Show" },
 
-
+evening: { icon: "🌆", label: "Weekend Night Fever" },
+  night: { icon: "🌙", label: "Late Night Weekend Vibes" },
+  unknown: { icon: "🕒", label: "Weekend Mode" }
+};
 
 function updateTimeBadge(categoryKey) {
   const badge = document.getElementById("timeBadge");
   if (!badge) return;
 
-  const meta = badgeMeta[categoryKey] || badgeMeta.unknown;
+  const meta = isWeekend
+    ? (weekendMeta[categoryKey] || weekendMeta.unknown)
+    : (badgeMeta[categoryKey] || badgeMeta.unknown);
+
   const range = timeRanges.find(r => r.key === categoryKey) || timeRanges.find(r => r.key==="night");
   const { start, end } = getTimeBounds(range);
 
@@ -2120,7 +2135,11 @@ function updateTimeBadge(categoryKey) {
 }
 
 function getCurrentCategory() {
-  const nowHour = new Date().getHours(); // LOCAL hour
+  const nowHour = new Date().getHours();
+
+  // Weekend override example (optional)
+  // if (isWeekend) return "special-show";
+
   return timeRanges.find(r =>
     (r.start <= r.end && nowHour >= r.start && nowHour < r.end) ||
     (r.start > r.end && (nowHour >= r.start || nowHour < r.end))
@@ -2138,6 +2157,7 @@ function startBadgeLoop() {
 
 document.addEventListener("DOMContentLoaded", startBadgeLoop);
 </script>
+
 
 
 
@@ -2285,8 +2305,7 @@ if (btn && menu) {
 <script src= "main24.js"> </script>
 <script src= "snowflake.js"> </script>
 <script src= "noise-bed.js"> </script>
-<!-- 100% privacy-first analytics -->
-<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+
 
 
 

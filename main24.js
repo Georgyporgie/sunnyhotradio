@@ -441,7 +441,7 @@ volumeBoost:0.50,
     artist: "Calvin Harris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator02.mp3",
-    timeCategory: "special-mix",
+    timeCategory: "love",
 volumeBoost:0.40,
    playcount: 0
 },
@@ -452,7 +452,7 @@ volumeBoost:0.40,
     artist: "Calvin Harris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator03.mp3",
-    timeCategory: "special-mix",
+    timeCategory: "love",
 volumeBoost:0.40,
    playcount: 0
 },
@@ -462,7 +462,7 @@ volumeBoost:0.40,
     artist: "Calvin Harris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator04.mp3",
-    timeCategory: "special-mix",
+    timeCategory: "love",
     volumeBoost:0.40
 },
 
@@ -471,7 +471,7 @@ volumeBoost:0.40,
     artist: "Calvin Harris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator05.mp3",
-    timeCategory: "special-mix",
+    timeCategory: "love",
     volumeBoost:0.40
 
 },
@@ -481,7 +481,7 @@ volumeBoost:0.40,
     artist: "Calvin Harris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator06.mp3",
-    timeCategory: "special-mix",
+    timeCategory: "love",
 volumeBoost:0.40
 },
 
@@ -868,7 +868,7 @@ volumeBoost: 0.50
     path: "https://sunnyhotradio.com/muziek/oldies07/Sun - Dance (Do What You Wanna Do).mp3",
  timeCategory: "seventies",
    isLoud: true,          
-  loudnessValue: 0.52,    
+  loudnessValue: 0.32,    
      quickFade: true,
         playcount: 0
 },
@@ -2376,7 +2376,7 @@ timeCategory: "morning",
     name: "  Don't Look Any Further",
     artist: "Dennis Edwards        ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies07.netlify.app/Dennis Edwards - Don't Look Any Further    .mp3",
+    path: "https://danceoldies07.netlify.app/Dennis Edwards - Don't Look Any Further.mp3",
     playcount: 0,
 timeCategory: "morning",
 isLoud: true,          
@@ -6597,7 +6597,8 @@ quickFade: true
         timeCategory: "afternoon",
     quickFade: true,
     volumeBoost: 0.75,
-    playcount: 0
+      eq: { bass: 2, mid: 2, treble: +1 } ,
+playcount: 0
 },
 
 
@@ -6611,21 +6612,14 @@ quickFade: true
         timeCategory: "afternoon",
     quickFade: true,
     volumeBoost: 0.75,
-    playcount: 0
+      eq: { bass: 2, mid: 2, treble: +1 } ,
+volumeBoost: 0.55,
+playcount: 0
+
 },
 
 
-{
-    name: "It's Your Night",
-    artist: "Ray Parker Junior",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Ray Parker jr - It's your night.mp3",
-     eq: { bass: 1, mid: 2, treble: +1 } ,
-   timeCategory: "afternoon",
-    quickFade: true,
-    volumeBoost: 0.75,
-    playcount: 0
-},
+
 
 
 
@@ -7299,8 +7293,8 @@ quickFade: true
     artist: "Dennis Coffey  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/Dennis Coffey - Gimme That Funk (1978).mp3",
-    timeCategory: "afternoon",
-volumeBoost: 0.30
+    timeCategory: "afternoon"
+
 
 },
 
@@ -9746,9 +9740,9 @@ isLoud: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Gino Soccio - Try It Out (maxi).mp3",
     timeCategory: "afternoon",
-       eq: { bass: 1, mid: 2, treble: +1 } ,
+       eq: { bass: 1, mid: 3, treble: +1 } ,
 quickFade: true,
-    volumeBoost: 0.75,
+    volumeBoost: 0.95,
     playcount: 0
 },
 
@@ -15508,7 +15502,7 @@ volumeBoost: 0.25
     path: "muziek/oldies07/Sun - Dance (Do What You Wanna Do).mp3",
  timeCategory: "evening-late",
    isLoud: true,          
-  loudnessValue: 0.52,    
+  loudnessValue: 0.32,    
      quickFade: true,
         playcount: 0
 },
@@ -21603,10 +21597,10 @@ volumeBoost: 0.45
     artist: "Ray Parker Junior",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Ray Parker jr - It's your night.mp3",
-      eq: { bass: 0, mid: 0, treble: +1 } ,
+      eq: { bass: 1, mid: 2, treble: +1 } ,
   timeCategory: "afternoon",
     quickFade: true,
-    volumeBoost: 0.75,
+    volumeBoost: 0.95,
     
 playcount: 0
 },
@@ -21626,16 +21620,7 @@ playcount: 0
 },
 
 
-{
-    name: "Jack & Jill",
-    artist: "Ray Parker Junior",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Ray Parker jr - Jack & Jill.mp3",
-        timeCategory: "afternoon",
-    quickFade: true,
-    volumeBoost: 0.75,
-    playcount: 0
-},
+
 
 
 
@@ -23532,7 +23517,7 @@ volumeBoost: 0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Selena Gomez - In The Dark.mp3",
            timeCategory: "f evening",
-  volumeBoost: 0.40,
+  volumeBoost: 0.50,
   playcount: 0
 },
 

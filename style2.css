@@ -639,7 +639,7 @@ z-index:200;
 
 
 #show-more-button {  font-size: 20px; color: #FF0000; font-family: Arial ,Helvetica,sans-serif; display:block;
-z-index: 400;  margin: -15px auto auto auto ; background:linear-gradient(45deg,#0033FF,#006666,#003399);     border-radius: 5px;   font-weight:800;font-optical-sizing: auto; padding: -5px;  visibility: visible;filter: brightness(100%) saturate(100%) contrast(100%) opacity(95%); border: solid 1px #FFD300;
+z-index: 400;  margin: -15px auto auto auto ; background:linear-gradient(45deg,#0033FF,#006666,#003399);     border-radius: 5px;   font-weight:800;font-optical-sizing: auto; padding: -5px;  visibility: visible;filter: brightness(100%) saturate(100%) contrast(100%) opacity(95%);
 }
 
 
@@ -981,8 +981,8 @@ width: 355px; height: 370px;
 
 
 #playlist {
-  width: 150px;
-  height: 145px;
+  width: 170px;
+  height: 165px;
   margin: -30px auto 15px auto;
   display: block;
   border-radius: 5px;
@@ -1448,7 +1448,6 @@ li.new-track {
 
 @keyframes spin1 { from { rotate: 0deg; } to { rotate: 360deg; } }
 @keyframes spin2 { from { rotate: 0deg; } to { rotate: -360deg; } }
-
 
 
 
