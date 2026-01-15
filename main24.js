@@ -6613,7 +6613,7 @@ playcount: 0
     quickFade: true,
     volumeBoost: 0.75,
       eq: { bass: 2, mid: 2, treble: +1 } ,
-volumeBoost: 0.55,
+volumeBoost: 0.75,
 playcount: 0
 
 },
@@ -12444,7 +12444,9 @@ volumeBoost: 0.10
     artist: "Cherelle ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Cherelle - I didn't mean to turn you on.mp3",
-    timeCategory: "evening-late"
+    isLoud: true,          
+  loudnessValue: 0.60, 
+timeCategory: "evening-late"
 
 },
 
@@ -20567,7 +20569,9 @@ playcount: 0
     artist: " Carol Jiani",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Carol Jiani - Hit 'n run lover.mp3",
-    timeCategory: "evening-late"
+    isLoud: true,          
+  loudnessValue: 0.80, 
+timeCategory: "evening-late"
 
 },
 
@@ -25094,6 +25098,11 @@ function getTimeBasedVolume() {
 
 
 
+// URL helper
+function cleanURL(url) {
+  return url.replace(/ /g, "%20");
+}
+
 // ✅ CROSSFADE‑ENABLED LOADTRACK
 let currentTrackIndex = null;
 let curr_track = null;
@@ -25106,15 +25115,13 @@ function loadTrack(index) {
     return;
   }
 
-  // Create audio element
-  curr_track = new Audio(track.path);
-
- 
+  // Create new track (only once!)
+  const newTrack = new Audio(cleanURL(track.path));
 
   // Apply EQ lift if tagged
   if (track.eq) {
     const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-    const source = audioCtx.createMediaElementSource(curr_track);
+    const source = audioCtx.createMediaElementSource(newTrack);
 
     const bass = audioCtx.createBiquadFilter();
     bass.type = "lowshelf";
@@ -25135,46 +25142,11 @@ function loadTrack(index) {
     source.connect(bass).connect(mid).connect(treble).connect(audioCtx.destination);
   }
 
+  curr_track = newTrack;
+
+  console.log("Loading track:", cleanURL(track.path));
 
 
-
-
-  // ✅ CROSSFADE LOGIC
-  const oldTrack = curr_track;
-  const shouldCrossfade = track.quickFade === true;
-
-  // Create new track
-  const newTrack = new Audio(track.path);
-
-  // 🔊 Volume logic with safe boost handling
-  const base = Number(getTimeBasedVolume());
-  const boostRaw = track.volumeBoost;
-  const boost = Number(boostRaw);
-  const boostSafe = Number.isFinite(boost) ? boost : 0;
-
-  let finalVolume = base + boostSafe;
-  if (!Number.isFinite(finalVolume)) finalVolume = base;
-  finalVolume = Math.max(0, Math.min(1, finalVolume));
-
-  // ✅ Loudness tagging (natural vs boosted)
-  const loudThreshold = 0.9;
-  track.loudnessValue = finalVolume;
-  track.isLoud = finalVolume >= loudThreshold;
-  track.wasBoosted = boostSafe > 0;
-
-  if (track.isLoud) {
-    console.warn(
-      `🚨 Loud track tagged: ${track.name} | Boosted? ${track.wasBoosted} | Volume: ${finalVolume}`
-    );
-  }
-
-
-
-  curr_track = newTrack; // ✅ update global reference
-
-  console.log("Loading track:", track.path);
-
-  // ✅ Metadata fade scheduling
   curr_track.addEventListener("loadedmetadata", () => {
     const duration = curr_track.duration;
     console.log("📀 Metadata loaded for:", track.name);
@@ -25201,6 +25173,7 @@ function loadTrack(index) {
       setTimeout(() => fadeOut(curr_track, fadeTime), fadeStart);
     }
   });
+
 
   // ✅ Smooth fade-out (existing)
   function fadeOut(audio, duration, targetVolume = 0) {
