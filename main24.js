@@ -442,6 +442,8 @@ volumeBoost:0.50,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator02.mp3",
     timeCategory: "love",
+
+  eq: { bass: 2, mid: 2, treble: 0 } ,
 volumeBoost:0.40,
    playcount: 0
 },
@@ -453,6 +455,7 @@ volumeBoost:0.40,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator03.mp3",
     timeCategory: "love",
+ eq: { bass: 2, mid: 2, treble: 0 } ,
 volumeBoost:0.40,
    playcount: 0
 },
@@ -463,7 +466,8 @@ volumeBoost:0.40,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator04.mp3",
     timeCategory: "love",
-    volumeBoost:0.40
+     eq: { bass: 2, mid: 2, treble: 0 } ,
+volumeBoost:0.40
 },
 
  {
@@ -472,7 +476,8 @@ volumeBoost:0.40,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator05.mp3",
     timeCategory: "love",
-    volumeBoost:0.40
+     eq: { bass: 2, mid: 2, treble: 0 } ,
+volumeBoost:0.40
 
 },
 
@@ -481,7 +486,8 @@ volumeBoost:0.40,
     artist: "Calvin Harris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator06.mp3",
-    timeCategory: "love",
+     eq: { bass: 2, mid: 2, treble: 0 } ,
+timeCategory: "love",
 volumeBoost:0.40
 },
 
@@ -2031,7 +2037,13 @@ timeCategory: "morning",
 },
 
 
-
+{
+    name: " Won't Forget You",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/DJ Sapphire - Good Vibes4.mp3",
+        timeCategory: "morning"
+},
 
 
 
@@ -2114,7 +2126,13 @@ timeCategory: "morning",
 
 
 
-
+{
+    name: " Won't Forget You",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/DJ Sapphire - Good Vibes3.mp3",
+        timeCategory: "morning"
+},
 
 
 
@@ -2187,6 +2205,13 @@ timeCategory: "morning",
       timeCategory: "morning"
 },
 
+{
+    name: " Won't Forget You",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/DJ Sapphire - Good Vibes2.mp3",
+        timeCategory: "morning"
+},
 
 
 
@@ -2217,6 +2242,13 @@ timeCategory: "morning",
 
 
 
+{
+    name: " Won't Forget You",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/DJ Sapphire - Good Vibes.mp3",
+        timeCategory: "morning"
+},
 
 
 
@@ -7768,7 +7800,13 @@ quickFade: true
 
 
 
-
+{
+    name: " Won't Forget You",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/DJ Sapphire - Good Vibes4.mp3",
+        timeCategory: "afternoon"
+},
 
 
 
@@ -7831,7 +7869,13 @@ quickFade: true
 
 
 
-
+{
+    name: " Won't Forget You",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/DJ Sapphire - Good Vibes3.mp3",
+        timeCategory: "afternoon"
+},
 
 
 
@@ -7885,7 +7929,13 @@ quickFade: true
 
 
 
-
+{
+    name: " Won't Forget You",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/DJ Sapphire - Good Vibes2.mp3",
+        timeCategory: "afternoon"
+},
 
 
  
@@ -7909,6 +7959,13 @@ quickFade: true
 
 
 
+{
+    name: " Won't Forget You",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/DJ Sapphire - Good Vibes.mp3",
+        timeCategory: "afternoon"
+},
 
 
 
@@ -11256,7 +11313,7 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Gat Decor - Passion.mp3",
     timeCategory: "evening",
-    volumeBoost: 0.85,
+    volumeBoost: 0.95,
     playcount: 0
 },
 
@@ -20849,7 +20906,8 @@ playcount: 0
     path: "https://danceoldies08.netlify.app/Adventures Of Stevie V - Dirty Cash.mp3",
       timeCategory: "f afternoon",
      quickFade: true,
-    volumeBoost: 0.55,
+      eq: { bass: 1, mid: 2, treble: +1 } ,
+volumeBoost: 0.55,
     playcount: 0
 },
 
@@ -21187,7 +21245,9 @@ timeCategory: "f-afternoon"
     artist: "T-Connection ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/T-Connection - Saturday Night.mp3",
-      timeCategory: "f afternoon"
+      volumeBoost: 0.55,
+timeCategory: "f afternoon"
+
 },
 
 
@@ -21777,7 +21837,13 @@ playcount: 0
 
 
 
-
+{
+    name: " Won't Forget You",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/DJ Sapphire - Good Vibes4.mp3",
+        timeCategory: "f afternoon"
+},
 
 
 
@@ -21928,7 +21994,13 @@ quickFade: true
 
 
 
-
+{
+    name: " Won't Forget You",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/DJ Sapphire - Good Vibes3.mp3",
+        timeCategory: "f afternoon"
+},
 
 
 
@@ -21985,7 +22057,13 @@ quickFade: true,
 
 
 
-
+{
+    name: " Won't Forget You",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/DJ Sapphire - Good Vibes2.mp3",
+        timeCategory: "f afternoon"
+},
 
 
 
@@ -22046,7 +22124,13 @@ quickFade: true,
 
 
 
-
+{
+    name: " Won't Forget You",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/DJ Sapphire - Good Vibes.mp3",
+        timeCategory: "f afternoon"
+},
 
 
 
@@ -22226,6 +22310,13 @@ quickFade: true,
 
 
 
+{
+    name: " Won't Forget You",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/DJ Sapphire - Good Vibes4.mp3",
+        timeCategory: "f evening"
+},
 
 
 
@@ -22309,7 +22400,13 @@ timeCategory: "f evening"
   volumeBoost: 0,
   playcount: 0
 },
-
+{
+    name: " Won't Forget You",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/DJ Sapphire - Good Vibes3.mp3",
+        timeCategory: "f evening"
+},
 
 {
     name: "I Can See The Future  ",
@@ -22339,7 +22436,13 @@ timeCategory: "f evening"
        timeCategory: "f evening"
 },
 
-
+{
+    name: " Won't Forget You",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/DJ Sapphire - Good Vibes2.mp3",
+        timeCategory: "f evening"
+},
 
 {
     name: " Sweat",
@@ -22377,7 +22480,13 @@ timeCategory: "f evening"
        timeCategory: "f evening"
 },
 
-
+{
+    name: " Won't Forget You",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/DJ Sapphire - Good Vibes.mp3",
+        timeCategory: "f evening"
+},
 
 {
     name: "Come Find Me (new)",
