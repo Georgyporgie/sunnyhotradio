@@ -22625,7 +22625,7 @@ timeCategory: "f evening"
      name: " Charlie Wilson  ",
     artist: "No Stoppin' Us    ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://Sunny-Dancemuziek04.netlify.app/Charlie Wilson - No stoppin' us   .mp3",
+    path: "https://sunnydancemuziek04.netlify.app/Charlie Wilson - No stoppin' us   .mp3",
     timeCategory: "f evening"
 },
 
@@ -22637,7 +22637,7 @@ timeCategory: "f evening"
      name: " Te Felicito ",
     artist: "Shakira & Rauw Alejandro     ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://SunnyDancemuziek04/Shakira & Rauw Alejandro - Te Felicito.mp3",
+    path: "https://sunnydancemuziek04.netlify.app/Shakira & Rauw Alejandro - Te Felicito.mp3",
     timeCategory: "f evening"
 },
 
