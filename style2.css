@@ -48,7 +48,7 @@ src:url(arialbi.ttf);
 
 /* Changing the font sizes to suitable ones */
 .now-playing {
-  font-size: 1rem; margin-left: 877px; z-index: -400;
+  font-size: 1rem; font-style: italic;
 }
 
  
