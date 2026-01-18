@@ -6,7 +6,7 @@
 
 // Select all the elements in the HTML page and assign them to a variable
 let now_playing = document.querySelector(".now-playing");
-let track_art = document.querySelector(".track-art");
+
 
 
 
@@ -902,6 +902,18 @@ quickFade: true
 
 
 {
+    name: "   Strictly Seventies",
+    artist: "Sunny ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Strictly%20seventies%20show.mp3",
+       timeCategory: "seventies",
+quickFade: true
+  
+},
+
+
+
+{
     
     name: "Lady Bug",
     artist: "Bumblebee Unlimited",
@@ -968,7 +980,15 @@ timeCategory: "seventies"
 
 },
 
-
+{
+    name: "   Strictly Seventies",
+    artist: "Sunny ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Strictly%20seventies%20show.mp3",
+       timeCategory: "seventies",
+quickFade: true
+  
+},
 
 
 {
@@ -1030,7 +1050,15 @@ timeCategory: "seventies",
   volumeBoost: 0.16
 },
 
-
+{
+    name: "   Strictly Seventies",
+    artist: "Sunny ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Strictly%20seventies%20show.mp3",
+       timeCategory: "seventies",
+quickFade: true
+  
+},
 
 {
     name: " Bounce Skate Roll (12inch) ",
@@ -22617,7 +22645,7 @@ timeCategory: "f evening"
      name: " Charlie Wilson  ",
     artist: "No Stoppin' Us    ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://Sunny-Dancemuziek04.netlify.app/Charlie Wilson - No stoppin' us.mp3",
+    path: "https://sunnydancemuziek04.netlify.app/Charlie Wilson - No stoppin' us.mp3",
     timeCategory: "f evening"
 },
 
@@ -22629,7 +22657,7 @@ timeCategory: "f evening"
      name: " Te Felicito ",
     artist: "Shakira & Rauw Alejandro     ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://Sunny-Dancemuziek04.netlify.app/Shakira & Rauw Alejandro - Te Felicito.mp3",
+    path: "https://sunnydancemuziek04.netlify.app/Shakira & Rauw Alejandro - Te Felicito.mp3",
     timeCategory: "f evening"
 },
 
@@ -25290,7 +25318,7 @@ function loadTrack(index) {
 
 
   // ✅ UI updates
-  track_art.style.backgroundImage = "url(" + track.image + ")";
+ 
   track_name.textContent = track.name;
   track_artist.textContent = track.artist;
   now_playing.textContent = "PLAYING " + (index + 1) + " OF " + scheduledMp3Files.length;

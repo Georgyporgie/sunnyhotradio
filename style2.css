@@ -46,7 +46,10 @@ src:url(arialbi.ttf);
 
 
 
-
+/* Changing the font sizes to suitable ones */
+.now-playing {
+  font-size: 1rem; margin-left: 877px; z-index: -400;
+}
 
  
 
@@ -68,7 +71,6 @@ font-weight:200;
   background: linear-gradient(90deg, #A8E6CF, #DCEDC1, #FFD3B6);
 
 }
-
 
 
 
@@ -392,9 +394,7 @@ color: black;background-color: #FFCC99;border-radius:5px;
 }
 
 
-.now-playing   {
-display: none;
-}
+
 
 .moon  {    width: 75px;  height: 75px;filter: brightness(110%) saturate(110%) contrast(110%) opacity(40%); transform: rotate(-15deg); z-index: 0; display: block; margin: auto auto auto auto;
 }
