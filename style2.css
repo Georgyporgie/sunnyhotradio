@@ -49,6 +49,10 @@ src:url(arialbi.ttf);
 /* Changing the font sizes to suitable ones */
 .now-playing {
   font-size: 1rem; font-style: italic;
+
+  text-shadow: 0 0 8px rgba(255, 0, 0, 0.6);
+
+
 }
 
  
@@ -1450,4 +1454,15 @@ li.new-track {
 @keyframes spin2 { from { rotate: 0deg; } to { rotate: -360deg; } }
 
 
+.track-number {
+  color: red;
+  font-weight: bold;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0%   { opacity: 1; }
+  50%  { opacity: 0.3; }
+  100% { opacity: 1; }
+}
 

@@ -20590,16 +20590,6 @@ playcount: 0
 
 
 
-{
-    name: "Get Lucky (12inch)",
-    artist: "Daft Punk ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies04.netlify.app/Daft Punk - Get Lucky.mp3",
-  timeCategory: "evening-late",
-     quickFade: true,
-    volumeBoost: 0.45,
-    playcount: 0
-},
 
 
 
@@ -25321,7 +25311,9 @@ function loadTrack(index) {
  
   track_name.textContent = track.name;
   track_artist.textContent = track.artist;
-  now_playing.textContent = "PLAYING " + (index + 1) + " OF " + scheduledMp3Files.length;
+  now_playing.innerHTML = 
+  `PLAYING <span class="track-number">${index + 1}</span> OF ${scheduledMp3Files.length}`;
+
 
   // ✅ Seek timer
   clearInterval(updateTimer);
