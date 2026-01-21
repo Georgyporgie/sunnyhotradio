@@ -33,6 +33,14 @@ let total_duration = document.querySelector(".total-duration");
 
 
 // Specify globally used values
+// GLOBAL AUDIO CHAIN STATE
+let audioCtx = null;
+let sourceNode = null;
+let eqNodes = [];
+let boostGain = null;
+let loudnessGain = null;
+let masterGain = null;
+
 let track_index = 0;
 let currentTrack = null;  
 let updateTimer;
@@ -45,6 +53,46 @@ window.addEventListener("DOMContentLoaded", () => {
   loadPlayCounts(trackList);   // sync saved playcounts
   renderProgram(trackList);    // build playlist UI
 });
+
+function initAudioChain() {
+  if (!audioCtx) {
+    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+
+    loudnessGain = audioCtx.createGain();
+    boostGain = audioCtx.createGain();
+    masterGain = audioCtx.createGain();
+
+    loudnessGain.gain.value = 1;
+    boostGain.gain.value = 1;
+    masterGain.gain.value = 1;
+
+    masterGain.connect(audioCtx.destination);
+  }
+}
+function applyEQ(eq) {
+  eqNodes.forEach(n => n.disconnect());
+  eqNodes = [];
+
+  if (!eq) return;
+
+  const bass = audioCtx.createBiquadFilter();
+  bass.type = "lowshelf";
+  bass.frequency.value = 200;
+  bass.gain.value = eq.bass || 0;
+
+  const mid = audioCtx.createBiquadFilter();
+  mid.type = "peaking";
+  mid.frequency.value = 1000;
+  mid.Q.value = 1;
+  mid.gain.value = eq.mid || 0;
+
+  const treble = audioCtx.createBiquadFilter();
+  treble.type = "highshelf";
+  treble.frequency.value = 3000;
+  treble.gain.value = eq.treble || 0;
+
+  eqNodes = [bass, mid, treble];
+}
 
 
 // ── Shuffle Helper ──
@@ -7133,16 +7181,7 @@ playcount: 0
 },
 
 
-{
-    name: "Still In The Groove",
-    artist: "Ray Parker Junior",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Ray Parker Junior - Still in the groove.mp3",
-        timeCategory: "afternoon",
-    quickFade: true,
-    volumeBoost: 0.75,
-    playcount: 0
-},
+
 
 
 
@@ -7911,7 +7950,7 @@ quickFade: true
     path: "https://sunnydanceoldies09.netlify.app/Geraldine Hunt - Can t Fake The Feeling.mp3",
     timeCategory: "afternoon",
      quickFade: true,
-    volumeBoost: 0.95,
+    volumeBoost: 1.0,
     playcount: 0
 },
 
@@ -25278,10 +25317,9 @@ function getTimeBasedVolume() {
 
 
 
-
-
-
-
+// State
+let currentTrackIndex = null;
+let curr_track = null;
 
 
 
@@ -25290,142 +25328,137 @@ function cleanURL(url) {
   return url.replace(/ /g, "%20");
 }
 
-// ✅ CROSSFADE‑ENABLED LOADTRACK
-let currentTrackIndex = null;
-let curr_track = null;
+
 
 function loadTrack(index) {
   const track = scheduledMp3Files[index];
 
-  if (!scheduledMp3Files || !track) {
-    console.error("Error: No track found at index", index);
+  if (!track) {
+    console.error("❌ No track found at index", index);
     return;
   }
 
-  // Create new track (only once!)
-  const newTrack = new Audio(cleanURL(track.path));
+  console.log("🎧 Loading track:", cleanURL(track.path));
 
-  // Apply EQ lift if tagged
-  if (track.eq) {
-    const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-    const source = audioCtx.createMediaElementSource(newTrack);
+  // Create audio element
+  const audio = new Audio(cleanURL(track.path));
+  curr_track = audio;
+  currentTrackIndex = index;
 
-    const bass = audioCtx.createBiquadFilter();
-    bass.type = "lowshelf";
-    bass.frequency.value = 200;
-    bass.gain.value = track.eq.bass || 0;
-
-    const mid = audioCtx.createBiquadFilter();
-    mid.type = "peaking";
-    mid.frequency.value = 1000;
-    mid.Q.value = 1;
-    mid.gain.value = track.eq.mid || 0;
-
-    const treble = audioCtx.createBiquadFilter();
-    treble.type = "highshelf";
-    treble.frequency.value = 3000;
-    treble.gain.value = track.eq.treble || 0;
-
-    source.connect(bass).connect(mid).connect(treble).connect(audioCtx.destination);
-  }
-
-  curr_track = newTrack;
-
-  console.log("Loading track:", cleanURL(track.path));
-
-
-  curr_track.addEventListener("loadedmetadata", () => {
-    const duration = curr_track.duration;
+  // -----------------------------
+  // METADATA + FADE SCHEDULING
+  // -----------------------------
+  audio.addEventListener("loadedmetadata", () => {
+    const duration = audio.duration;
     console.log("📀 Metadata loaded for:", track.name);
-    console.log("🕰️ Track duration:", duration, "seconds");
+    console.log("🕰️ Duration:", duration, "seconds");
 
-    let fadeTime, fadeStart;
+    let fadeTime = 0;
+    let fadeStart = 0;
 
     if (track.quickFade) {
       fadeTime = track.fadeLength || 1500;
       const buffer = track.endBuffer || 0;
       fadeStart = (duration * 1000) - (fadeTime + buffer);
-      console.log(`⚡ Quick fade: ${fadeTime/1000}s, leaving ${buffer/1000}s buffer`);
+
+      console.log(`⚡ Quick fade: ${fadeTime / 1000}s, buffer ${buffer / 1000}s`);
     } else if (duration > 180) {
       fadeTime = 2000;
       fadeStart = (duration * 1000) - fadeTime;
+
       console.log("⏱️ Standard fade for track >3min");
     } else {
-      console.log("🚫 No fade scheduled — short track or no flag");
+      console.log("🚫 No fade scheduled");
       return;
     }
 
     if (fadeStart > 0) {
-      console.log(`⏳ Scheduled ${fadeTime/1000}s fade starting at ${Math.round(fadeStart/1000)}s`);
-      setTimeout(() => fadeOut(curr_track, fadeTime), fadeStart);
+      console.log(
+        `⏳ Fade starts at ${Math.round(fadeStart / 1000)}s for ${fadeTime / 1000}s`
+      );
+      setTimeout(() => fadeOut(audio, fadeTime), fadeStart);
     }
   });
 
-
-  // ✅ Smooth fade-out (existing)
+  // -----------------------------
+  // FADE FUNCTION
+  // -----------------------------
   function fadeOut(audio, duration, targetVolume = 0) {
     const startVolume = audio.volume;
     const steps = 30;
     const stepTime = duration / steps;
-    let currentStep = 0;
+    let step = 0;
 
     const fade = setInterval(() => {
-      currentStep++;
-      const progress = currentStep / steps;
+      step++;
+      const progress = step / steps;
       const eased = 1 - Math.pow(1 - progress, 3);
+
       audio.volume = startVolume - (startVolume - targetVolume) * eased;
 
-      if (currentStep >= steps) {
+      if (step >= steps) {
         clearInterval(fade);
         audio.volume = targetVolume;
       }
     }, stepTime);
   }
 
-
-  // ✅ UI updates
- 
+  // -----------------------------
+  // UI UPDATES
+  // -----------------------------
   track_name.textContent = track.name;
   track_artist.textContent = track.artist;
-  now_playing.innerHTML = 
-  `PLAYING <span class="track-number">${index + 1}</span> OF ${scheduledMp3Files.length}`;
 
+  now_playing.innerHTML =
+    `PLAYING <span class="track-number">${index + 1}</span> OF ${scheduledMp3Files.length}`;
 
-  // ✅ Seek timer
+  // -----------------------------
+  // SEEK TIMER
+  // -----------------------------
   clearInterval(updateTimer);
   updateTimer = setInterval(seekUpdate, 1000);
 
-  // ✅ Next track
-  curr_track.addEventListener("ended", nextTrack);
+  // -----------------------------
+  // NEXT TRACK
+  // -----------------------------
+  audio.addEventListener("ended", nextTrack);
 
-  // ✅ Background color
+  // -----------------------------
+  // BACKGROUND COLOR
+  // -----------------------------
   random_bg_color();
 
-  // ✅ Load track
-  curr_track.load();
-attachTrackEvents(curr_track, track_index);
+  // -----------------------------
+  // TRACK EVENTS
+  // -----------------------------
+  attachTrackEvents(audio, index);
 
-  
+  // -----------------------------
+  // PLAYLIST HIGHLIGHT
+  // -----------------------------
+  audio.addEventListener("canplay", () => {
+    const items = document.querySelectorAll("ul li");
+    if (!items.length) return;
 
-
-
-// ✅ Highlight in playlist
-  curr_track.addEventListener("canplay", () => {
-    const allTracks = document.querySelectorAll('ul li');
-    if (!allTracks || allTracks.length === 0) return;
-
-    allTracks.forEach(t => t.classList.remove('blinking'));
-    if (index >= 0 && index < allTracks.length) {
-      allTracks[index].classList.add('blinking');
-    }
+    items.forEach(li => li.classList.remove("blinking"));
+    if (items[index]) items[index].classList.add("blinking");
   });
 
-  // ✅ Dynamic volume balancing
-  curr_track.addEventListener("canplaythrough", () => {
-    console.log("✅ canplaythrough event fired—applying volume adjustment...");
-    adjustVolumeDynamically(curr_track);
+  // -----------------------------
+  // DYNAMIC VOLUME BALANCING
+  // -----------------------------
+  audio.addEventListener("canplaythrough", () => {
+    console.log("🔊 Applying dynamic volume adjustment...");
+    adjustVolumeDynamically(audio);
   });
+
+  // -----------------------------
+  // LOAD + RETURN
+  // -----------------------------
+  audio.load();
+  return audio;
 }
+
 
 
 
