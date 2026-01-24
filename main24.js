@@ -22654,8 +22654,8 @@ timeCategory: "f evening"
      name: " Charlie Wilson  ",
     artist: "No Stoppin' Us    ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek04.netlify.app/Charlie Wilson - No stoppin' us.mp3",
-    timeCategory: "f evening"
+    path: "https://sunnydancemusic04.netlify.app/Charlie Wilson - No stoppin' us.mp3",
+    timeCategory: "f evening"  
 },
 
 
@@ -22666,7 +22666,7 @@ timeCategory: "f evening"
      name: " Te Felicito ",
     artist: "Shakira & Rauw Alejandro     ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek04.netlify.app/Shakira & Rauw Alejandro - Te Felicito.mp3",
+    path: "https://sunnydancemusic04.netlify.app/Shakira & Rauw Alejandro - Te Felicito.mp3",
     timeCategory: "f evening"
 },
 
@@ -23288,7 +23288,7 @@ playcount: 0
     path: "https://sunnydanceoldies09.netlify.app/Lakeside - Fantastic Voyage.mp3",
     timeCategory: "f evening",
     quickFade: true,
-   eq: { bass: 1, mid: 1, treble: +1 } ,
+   eq: { bass: 2, mid: 1, treble: +2 } ,
 
  volumeBoost: 0.45,
     playcount: 0
@@ -25486,12 +25486,12 @@ limitedTracks.forEach((track, index) => {
 
   // Add duration if available
   const durationText = track.duration ? 
-    `<span class="track-duration" style="margin-left:10px; color:darkslategray;">${track.duration}</span>` 
+    `<span class="track-duration" style="margin-left:10px; color:darkslategray; z-index:0;">${track.duration}</span>` 
     : '';
 
 li.innerHTML = `
   <strong>${emphasizedTrackName}</strong>${coloredBy}${emphasizedArtist}
-  <span class="track-duration" style="margin-left:10px; color:darkslategray;">${track.duration || ""}</span>
+  <span class="track-duration" style="margin-left:10px; color:darkslategray; ">${track.duration || ""}</span>
   <span class="countdown" id="countdown-${index}" style="margin-left:10px; color:gray;"></span>
 `;
 

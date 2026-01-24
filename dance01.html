@@ -148,6 +148,7 @@ body {
 
 
 <div class = "arrow">
+
 <br>
 <br>
 <br>
@@ -351,6 +352,7 @@ document.addEventListener("DOMContentLoaded", scheduleHourlyFlash);
   <br>
 <br>
 <br>
+</div>
 <div>
 <IFRAME id="gas" SRC="https://gasts.netlify.app/gasts" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=345 HEIGHT=825></IFRAME>
 <br>
@@ -375,7 +377,7 @@ document.addEventListener("DOMContentLoaded", scheduleHourlyFlash);
 <br>
 <br>
 
-
+<div>
 <h5 id="events">
 <script>
   fetch('event.json')
@@ -411,7 +413,7 @@ document.addEventListener("DOMContentLoaded", scheduleHourlyFlash);
 </h5>
 
 <img id= "miss"> 
-
+</div>
 <br>
 <br>
 <br>
@@ -431,20 +433,28 @@ document.addEventListener("DOMContentLoaded", scheduleHourlyFlash);
 <br>
 
 <br>
+<div>
 <img id= "hero-image">
 <IFRAME  class= "ship" SRC="https://shiphornn.netlify.app/treasuree" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0  WIDTH=356 HEIGHT=250></IFRAME>
-<br>
-<br>
-<br>
-<br>
-
- <div>
-<h5 class="inch"><em>Leave A Message!</em></h5>
-<br>
-<IFRAME class="weather" SRC="subm.html" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=300 HEIGHT=576></IFRAME>
-
 </div>
 <br>
+<br>
+<br>
+<br>
+
+<div>
+<h5 class="inch"><em>Sunny Dance<span class="dark"> Radio</span> Stars</em></h5>
+ <br>
+<br>
+<img id="ion">
+
+
+
+<IFRAME id="stars" SRC="https://dancestars.netlify.app/dancestars" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=350 HEIGHT=910></IFRAME>
+
+
+
+</div>
 <br>
 <br>
 <br>
@@ -461,6 +471,7 @@ document.addEventListener("DOMContentLoaded", scheduleHourlyFlash);
 <br>
 <br>
 <br>
+</div>
 <div>
 <h5 class="inch"><em>Weather Forecast</em></h5>
 <br>
@@ -508,16 +519,9 @@ document.addEventListener("DOMContentLoaded", scheduleHourlyFlash);
 
 
 <div>
-<h5 class="inch"><em>Sunny Dance<span class="dark"> Radio</span> Stars</em></h5>
- <br>
+<h5 class="inch"><em>Leave A Message!</em></h5>
 <br>
-<img id="ion">
-
-
-
-<IFRAME id="stars" SRC="https://dancestars.netlify.app/dancestars" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=350 HEIGHT=910></IFRAME>
-
-
+<IFRAME class="weather" SRC="subm.html" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=300 HEIGHT=576></IFRAME>
 
 </div>
 
@@ -546,7 +550,7 @@ document.addEventListener("DOMContentLoaded", scheduleHourlyFlash);
 <br>
 <br>
  <br> 
-
+</div>
 
 
 
@@ -1711,68 +1715,60 @@ function shuffle(array) {
 
 
 
-// ——— Time category logic ———
+// ————————————————————————————————
+//  TIME CATEGORY + RANGE HELPERS
+// ————————————————————————————————
+
+function isInRange(hour, start, end) {
+  // Handles normal and overnight ranges
+  return start < end
+    ? hour >= start && hour < end
+    : hour >= start || hour < end;
+}
+
 function getCurrentTimeCategory() {
   const now = new Date();
-  const currentHour = now.getHours();
-  const currentDay = now.getDay();
+  const hour = now.getHours();
+  const day = now.getDay();
 
   const timeRanges = [
-    { key: "morning", start: 4, end: 12 },
-    { key: "afternoon", start: 12, end: 14 },
-    { key: "special-show", start: 14, end: 16 },
-    { key: "evening", start: 16, end: 19 },
-    { key: "evening-late", start: 19, end: 21 },
-    { key: "late", start: 21, end: 23 },
-    { key: "evening-late", start: 23, end: 3 },
-    { key: "night", start: 3, end: 4 },
+    { key: "morning",        start: 4,  end: 12 },
+    { key: "afternoon",      start: 12, end: 14 },
+    { key: "special-show",   start: 14, end: 16 },
+    { key: "evening",        start: 16, end: 19 },
+    { key: "evening-late",   start: 19, end: 23 },
+    { key: "late",           start: 23, end: 3  },
+    { key: "night",          start: 3,  end: 4  }
   ];
 
   const categoriesPerDay = {
-    0: { morning: ["f afternoon"], afternoon: ["f evening"], "special-show": ["seventies"], evening: ["f evening"], "evening-late": ["f evening-late"], late: ["f afternoon"], night: ["jingle-time"] },
-    
-
-1: { morning: ["morning"], afternoon: ["afternoon"], "special-show": ["evening"], evening: ["evening"], "evening-late": ["afternoon"], late: ["evening-late"], night: ["jingle-time"] },
-    
-
-2: { morning: ["evening-late"], afternoon: ["evening"], "special-show": ["evening-late"], evening: ["afternoon"], "evening-late": ["morning"], late: ["evening"], night: ["jingle-time"] },
-    
-
-3: { morning: ["evening-late"], afternoon: ["evening"], "special-show": ["afternoon"], evening: ["afternoon"], "evening-late": ["evening-late"], late: ["evening"], night: ["jingle-time"] },
-    
-
-4: { morning: ["morning"], afternoon: ["evening-late"], "special-show": ["evening"], evening: ["afternoon"], "evening-late": ["evening-late"], late: ["evening"], night: ["jingle-time"] },
-    
-
-5: { morning: ["morning"], afternoon: ["afternoon"], "special-show": ["love"], evening: ["evening-late"], "evening-late": ["f evening"], late: ["f afternoon"], night: ["jingle-time"] },
-    
-
-6: { morning: ["f evening"], afternoon: ["f afternoon "], "special-show": ["mixinglondon"], evening: ["f evening-late"], "evening-late": ["f afternoon"], late: ["f evening"], night: ["jingle-time"] }
+    0: { morning:["f afternoon"], afternoon:["f evening"], "special-show":["seventies"], evening:["f evening"], "evening-late":["f evening-late"], late:["f afternoon"], night:["jingle-time"] },
+    1: { morning:["morning"], afternoon:["afternoon"], "special-show":["evening"], evening:["evening"], "evening-late":["afternoon"], late:["evening-late"], night:["jingle-time"] },
+    2: { morning:["evening-late"], afternoon:["evening"], "special-show":["evening-late"], evening:["afternoon"], "evening-late":["morning"], late:["evening"], night:["jingle-time"] },
+    3: { morning:["evening-late"], afternoon:["evening"], "special-show":["afternoon"], evening:["afternoon"], "evening-late":["evening-late"], late:["evening"], night:["jingle-time"] },
+    4: { morning:["morning"], afternoon:["evening-late"], "special-show":["evening"], evening:["afternoon"], "evening-late":["evening-late"], late:["evening"], night:["jingle-time"] },
+    5: { morning:["morning"], afternoon:["afternoon"], "special-show":["love"], evening:["evening-late"], "evening-late":["f evening"], late:["f afternoon"], night:["jingle-time"] },
+    6: { morning:["f evening"], afternoon:["afternoon"], "special-show":["mixinglondon"], evening:["f evening-late"], "evening-late":["f afternoon"], late:["f evening"], night:["jingle-time"] }
   };
 
-  // Helper for overnight ranges
-  function isInRange(hour, start, end) {
-    if (start < end) {
-      return hour >= start && hour < end;
-    } else {
-      return hour >= start || hour < end;
-    }
-  }
-
-  let timeKey = "night";
+  let key = "night";
   for (const range of timeRanges) {
-    if (isInRange(currentHour, range.start, range.end)) {
-      timeKey = range.key;
+    if (isInRange(hour, range.start, range.end)) {
+      key = range.key;
       break;
     }
   }
 
-  const options = categoriesPerDay[currentDay][timeKey] || ["unknown"];
-  return shuffle([...options])[0];
+  const options = categoriesPerDay[day][key] || ["unknown"];
+  return options[Math.floor(Math.random() * options.length)];
 }
 
-// ——— Fade-in helper ———
-function fadeIn(audioEl, target = 0.7, step = 0.05, interval = 200) {
+
+// ————————————————————————————————
+//  FADE-IN
+// ————————————————————————————————
+
+function fadeIn(audioEl, target = 0.8, step = 0.02, interval = 250) {
   const fade = setInterval(() => {
     if (audioEl.volume < target) {
       audioEl.volume = Math.min(audioEl.volume + step, target);
@@ -1782,38 +1778,32 @@ function fadeIn(audioEl, target = 0.7, step = 0.05, interval = 200) {
   }, interval);
 }
 
-// ——— Main scheduling logic ———
-window.addEventListener('load', () => {
-  const djIntro = document.getElementById('djIntro');
-  const djPlayer = document.getElementById('djPlayer');
-const musicplayer = document.getElementById('musicplayer'); // for looping background music
-  
 
-
+// ————————————————————————————————
+//  SCHEDULE DEFINITIONS
+// ————————————————————————————————
 
 const weekdaySlots = [
-  { start: 8, end: 14, file: "muziek/discjockeys/starten%20met%20Sunny4.mp3" },
+  { start: 8,  end: 14, file: "muziek/discjockeys/starten%20met%20Sunny4.mp3" },
   { start: 14, end: 16, file: "muziek/voiceover/latest%20disco%20hits%20of%20the%20eighties.mp3" },
   { start: 16, end: 19, file: "muziek/voiceover/From%20all%20over%20the%20world.mp3" },
   { start: 19, end: 21, file: "muziek/voiceover/latest%20disco%20hits%20of%20the%20eighties.mp3" },
-  { start: 21, end: 3, file: "https://danceoldies10.netlify.app/DJ%20Sapphire%20-%20Good%20Vibes.mp3" },
-  { start: 3, end: 8, file: "muziek/voiceover/From%20all%20over%20the%20world.mp3" }
+  { start: 21, end: 3,  file: "https://danceoldies10.netlify.app/DJ%20Sapphire%20-%20Good%20Vibes.mp3" },
+  { start: 3,  end: 8,  file: "muziek/voiceover/From%20all%20over%20the%20world.mp3" }
 ];
 
-// --- Saturday schedule ---
 const saturdaySlots = [
-  { start: 8, end: 14, file: "muziek/voiceover/latest%20disco%20hits%20of%20the%20eighties.mp3" },
-  { start: 14, end: 16, file: "https://danceoldies10.netlify.app/starten%20met%20Sunny4.mp3"},
+  { start: 8,  end: 14, file: "muziek/voiceover/latest%20disco%20hits%20of%20the%20eighties.mp3" },
+  { start: 14, end: 16, file: "https://danceoldies10.netlify.app/starten%20met%20Sunny4.mp3" },
   { start: 16, end: 19, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
   { start: 19, end: 23, file: "https://danceoldies10.netlify.app/DJ%20Sapphire%20-%20Good%20Vibes.mp3" },
   { start: 23, end: 3,  file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
   { start: 3,  end: 8,  file: "muziek/discjockeys/starten%20met%20Sunny4.mp3" }
 ];
 
-// --- Sunday schedule (example: same as Saturday for now) ---
 const sundaySlots = [
-  { start: 8, end: 14, file: "muziek/voiceover/latest%20disco%20hits%20of%20the%20eighties.mp3" },
-  { start: 14, end: 16, file: "https://danceoldies10.netlify.app/Strictly%20seventies%20show.mp3"},
+  { start: 8,  end: 14, file: "muziek/voiceover/latest%20disco%20hits%20of%20the%20eighties.mp3" },
+  { start: 14, end: 16, file: "https://danceoldies10.netlify.app/Strictly%20seventies%20show.mp3" },
   { start: 16, end: 19, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
   { start: 19, end: 23, file: "https://danceoldies10.netlify.app/DJ%20Sapphire%20-%20Good%20Vibes.mp3" },
   { start: 23, end: 3,  file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
@@ -1821,49 +1811,44 @@ const sundaySlots = [
 ];
 
 
- 
- const now = new Date();
-const currentHour = now.getHours();
-const currentDay = now.getDay(); // 0 = Sunday, 6 = Saturday
+// ————————————————————————————————
+//  MAIN SCHEDULER
+// ————————————————————————————————
 
-let schedule;
+window.addEventListener("load", () => {
+  const djIntro = document.getElementById("djIntro");
+  const djPlayer = document.getElementById("djPlayer");
 
-if (currentDay === 6) {
-  schedule = saturdaySlots;
-} else if (currentDay === 0) {
-  schedule = sundaySlots;
-} else {
-  schedule = weekdaySlots;
-}
+  const now = new Date();
+  const hour = now.getHours();
+  const day = now.getDay();
 
+  const schedule =
+    day === 6 ? saturdaySlots :
+    day === 0 ? sundaySlots :
+    weekdaySlots;
 
-  // Use the isInRange helper for overnight slots
-  const currentSlot = schedule.find(slot => {
-    return (slot.start < slot.end)
-      ? currentHour >= slot.start && currentHour < slot.end
-      : currentHour >= slot.start || currentHour < slot.end;
-  });
+  const currentSlot = schedule.find(slot => isInRange(hour, slot.start, slot.end));
 
   if (currentSlot) {
     djIntro.src = currentSlot.file;
-    djIntro.volume = 0.9;
+    djIntro.volume = 0.7;
     djIntro.play().catch(err => console.log("Intro can't autoplay:", err));
 
-    djIntro.addEventListener('ended', () => {
+    djIntro.addEventListener("ended", () => {
       djPlayer.volume = 0;
       djPlayer.play().catch(err => console.log("Main player can't autoplay:", err));
-      fadeIn(djPlayer, 0.9, 0.05, 200);
+      fadeIn(djPlayer, 0.85, 0.02, 250);
     });
   } else {
-    djPlayer.volume = 0.9;
+    djPlayer.volume = 0.85;
     djPlayer.play().catch(err => console.log("Main player can't autoplay:", err));
   }
 });
-</script>
 
 
 
-<script>
+
 
 
 // --- Fade helper ---
