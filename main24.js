@@ -106,6 +106,18 @@ function fisherYatesShuffle(array) {
 }
 
 
+
+
+// --- Helpers ---
+const purifyTrack = (track) => ({
+  ...track,
+  timeCategory: track.timeCategory?.trim().toLowerCase(),
+  mood: track.mood?.trim().toLowerCase(),
+  artist: track.artist?.trim(),
+  name: track.name?.trim()
+});
+
+
 // Define your track list with time categories
 let trackList = [
   
@@ -1069,12 +1081,12 @@ quickFade: true
 
 
 {
-    name: "   Strictly Seventies",
+    name: "Strictly Seventies Jingle",
     artist: "Sunny ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Strictly%20seventies%20show.mp3",
-       timeCategory: "seventies",
-quickFade: true
+       timeCategory: "seventies"
+
   
 },
 
@@ -1139,12 +1151,12 @@ timeCategory: "seventies"
 },
 
 {
-    name: "   Strictly Seventies",
+    name: "Strictly Seventies Jingle",
     artist: "Sunny ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Strictly%20seventies%20show.mp3",
-       timeCategory: "seventies",
-quickFade: true
+       timeCategory: "seventies"
+
   
 },
 
@@ -1209,12 +1221,11 @@ timeCategory: "seventies",
 },
 
 {
-    name: "   Strictly Seventies",
+    name: "Strictly Seventies Jingle",
     artist: "Sunny ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Strictly%20seventies%20show.mp3",
-       timeCategory: "seventies",
-quickFade: true
+       timeCategory: "seventies"
   
 },
 
@@ -8694,6 +8705,7 @@ quickFade: true
     path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
   playcount: 0,
 volumeBoost: 0.55,
+  eq: { bass: 1, mid: 1, treble: +1 } ,
 timeCategory: "afternoon"
 
 },
@@ -12437,6 +12449,96 @@ quickFade: true,
 
 
 
+
+
+
+
+{
+    name: " Can You Handle It",
+    artist: "Sharon Redd ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Sharon Redd Can you handle it.mp3",
+  
+
+
+         timeCategory: "evening"
+},
+
+{
+    name: "I Like It (Blowout dub)",
+    artist: "Landlord",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Landlord - I like it (Blowout dub).mp3",
+  
+
+        timeCategory: "evening"
+},
+
+{
+    name: "K-Jee",
+    artist: "MFSB  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/MFSB - K-Jee.mp3",
+         timeCategory: "evening"
+},
+
+
+
+
+{
+    name: " Dancer (1979) ",
+    artist: "Gino Soccio ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Gino Soccio - Dancer (1979).mp3",
+     timeCategory: "evening"
+},
+
+
+
+
+
+{
+    
+    name: "Chillhouse Del Mar",
+    artist: "Chillhouse",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/chillhouse del mar05.mp3",
+     timeCategory: "evening"
+},
+
+
+
+ 
+{
+    
+    name: "Chillhouse Del Mar",
+    artist: "Chillhouse",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/chillhouse del mar06.mp3",
+       timeCategory: "evening"
+},
+
+
+
+
+{
+    name: "Sunny (Ruud Remix)",
+    artist: "Boney M  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Boney M - Sunny.mp3",
+          timeCategory: "evening"
+},
+
+
+{
+    name: " Megamix 2023",
+    artist:  "Purple Disco Machine  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_08.mp3",
+     timeCategory: "evening"
+},
+
+
 {
     name: "Just For You",
     artist: "Sunny Ship☀️",
@@ -14442,7 +14544,6 @@ volumeBoost: 0.20
 
 
 
-
 {
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️ ",
@@ -14450,6 +14551,7 @@ volumeBoost: 0.20
     path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
   playcount: 0,
 volumeBoost: 0.55,
+  eq: { bass: 1, mid: 1, treble: +1 } ,
 timeCategory: "evening"
 
 },
@@ -15342,6 +15444,7 @@ volumeBoost: 0.15
     path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
   playcount: 0,
 volumeBoost: 0.55,
+  eq: { bass: 1, mid: 1, treble: +1 } ,
 timeCategory: "evening"
 
 },
@@ -17097,7 +17200,7 @@ volumeBoost: 0.25
     artist: "Jimmy Bo Horne  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Jimmy Bo Horne - Spank (1979).mp3",
-timeCategory: " evening-late",
+timeCategory: "evening-late",
      quickFade: true,
     volumeBoost: 0.25,
    eq: { bass: 0, mid: 2, treble: +1 } 
@@ -17111,7 +17214,7 @@ timeCategory: " evening-late",
     artist: "MFSB  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/MFSB - TSOP.mp3",
-timeCategory: " evening-late",
+timeCategory: "evening-late",
      quickFade: true,
     volumeBoost: 0.25,
    eq: { bass: 0, mid: 2, treble: +1 } 
@@ -21116,8 +21219,8 @@ playcount: 0
     path: "https://danceoldies08.netlify.app/Adventures Of Stevie V - Dirty Cash.mp3",
       timeCategory: "f afternoon",
      quickFade: true,
-      eq: { bass: 1, mid: 2, treble: +1 } ,
-volumeBoost: 0.55,
+      eq: { bass: 2, mid: 2, treble: +1 } ,
+volumeBoost: 0.65,
     playcount: 0
 },
 
@@ -21166,6 +21269,7 @@ volumeBoost: 0.55,
     path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
   playcount: 0,
 volumeBoost: 0.55,
+  eq: { bass: 1, mid: 1, treble: +1 } ,
 timeCategory: "f-afternoon"
 
 },
@@ -21378,9 +21482,11 @@ quickFade: true
     path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
   playcount: 0,
 volumeBoost: 0.55,
-timeCategory: "f afternoon"
+  eq: { bass: 1, mid: 1, treble: +1 } ,
+timeCategory: "f-afternoon"
 
 },
+
 
 
 
@@ -21409,9 +21515,11 @@ timeCategory: "f afternoon"
     path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
   playcount: 0,
 volumeBoost: 0.55,
-timeCategory: "f afternoon"
+  eq: { bass: 1, mid: 1, treble: +1 } ,
+timeCategory: "f-afternoon"
 
 },
+
 
 
 
@@ -22238,7 +22346,7 @@ quickFade: true,
     timeCategory: "f afternoon",
      quickFade: true,
     eq: { bass: 2, mid: 1, treble: +1 } ,
-volumeBoost: 0.60,
+volumeBoost: 0.70,
     playcount: 0
 },
 
@@ -22429,6 +22537,7 @@ volumeBoost: 0.60,
     path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
   playcount: 0,
 volumeBoost: 0.55,
+  eq: { bass: 1, mid: 1, treble: +1 } ,
 timeCategory: "f evening"
 
 },
@@ -22554,6 +22663,7 @@ timeCategory: "f evening"
     path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
   playcount: 0,
 volumeBoost: 0.55,
+  eq: { bass: 1, mid: 1, treble: +1 } ,
 timeCategory: "f evening"
 
 },
@@ -22640,6 +22750,7 @@ timeCategory: "f evening"
     path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
   playcount: 0,
 volumeBoost: 0.55,
+  eq: { bass: 1, mid: 1, treble: +1 } ,
 timeCategory: "f evening"
 
 },
@@ -22670,6 +22781,46 @@ timeCategory: "f evening"
     timeCategory: "f evening"
 },
 
+
+
+{
+    name: "Hello Hello",
+    artist: "Inna x Melon ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Inna x Melon - Hello Hello.mp3",
+timeCategory: "f evening"
+},
+
+
+
+
+{
+    
+    name: "Deephouse",
+    artist: "Vibey",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Vibey05.mp3",
+  timeCategory: "f evening"
+},
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you.mp3",
+  timeCategory: "f evening"
+},
+
+
+{
+    name: "Boogie2nite",
+    artist: "Booty Luv",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Booty luv - Boogie2nite.mp3",
+  timeCategory: "f evening"
+},
 
 
 
@@ -23814,6 +23965,348 @@ volumeBoost: 0.40
        timeCategory: "f evening-late"
 },
 
+{
+    name: " Megamix 2023",
+    artist:  "Purple Disco Machine  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_05.mp3",
+   timeCategory: "f evening-late"
+},
+
+
+{
+    name: " Megamix 2023",
+    artist:  "Purple Disco Machine  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_06.mp3",
+ timeCategory: "f evening-late"
+},
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+{
+    name: "If You Don't Wanna Leave Me",
+    artist: "Dua Lipa",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+
+
+    path: "https://sunnydancemusic04.netlify.app/Dua Lipa - If you don't wanna leave me.mp3",
+  
+
+
+ timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+{
+  
+    name: "Drive",
+    artist: "Clean Bandit",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Clean Bandit - Drive.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+
+{
+    name: "The Weekend",
+    artist: "Michael Gray  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://Sunnydanceoldies04.netlify.app/Michael Gray - The weekend.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+
+{
+    name: "  Paul Van Dyk",
+    artist: "For An Angel ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://Sunnydanceoldies04.netlify.app/For an Ange l- Paul van Dyk.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+
+{
+    name: "  Rain Down Love",
+    artist: "Siedah Garret ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://Sunnydanceoldies04.netlify.app/Siedah Garret - Rain down Love.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Mesmerized (12inch)",
+    artist: "Freemasons",
+     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://Sunnydanceoldies04.netlify.app/Freemasons  - Mesmerized.mp3",
+   timeCategory: "f evening-late"
+},
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle1.mp3",
+ timeCategory: "f evening-late"
+},
+
+{
+    name: "  Megamix",
+    artist: "Janet Jackson   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Janet Jackson - Megamix2 (Luke).mp3",
+ timeCategory: "f evening-late"
+},
+
+{
+    name: " Sunglasses",
+    artist: "Heidi Klum ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Heidi Klum - Sunglasses At Night.mp3",
+  
+
+
+ timeCategory: "f evening-late"
+},
+
+
+
+{
+    name: " Lose Yourself To Dance",
+    artist: "Daft Punk ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Daft Punk - Lose Yourself To Dance.mp3",
+    timeCategory: "f evening-late"
+},
+
+
+{
+    name: "The Motto",
+    artist: "Tiesto & Ava Max",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Tiesto & Ava Max - the Motto.mp3",
+  timeCategory: "f evening-late"
+},
+
+
+
+{
+    name: "Save Your Tears",
+    artist: "Ariane Grande ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Ariane Grande - Save your Tears.mp3",
+  timeCategory: "f evening-late"
+},
+
+{
+    name: "Marss (12inch, 1987)",
+    artist: "Pump Up The Volume",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Marss Pump up the volume.mp3",
+  
+
+
+ timeCategory: "f evening-late"
+},
+{
+    name: "Love Tonight",
+    artist: "Shouse",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Shouse - Love tonight.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+
+{
+    name: "Nothing But You",
+    artist: "Paul Van Dyk",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Paul van Dyk - Nothing but you.mp3",
+   timeCategory: "f evening-late"
+},
+
+
+{
+    name: "Love Tonight",
+    artist: "Shouse",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Shouse - Love tonight.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: " About them time",
+    artist: "Lizzo ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Lizzo - About them time.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+{
+    name: "I Need You",
+    artist: "Dua Lipa  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Dua Lipa - I need you.mp3",
+  timeCategory: "f evening-late"
+},
+
+
+
+
+
+ 
+
+
+
+ 
+{
+    name: "Just For You",
+    artist: "Sunny Ship☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/40 in jingle11.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/40 in jingle22.mp3",
+ timeCategory: "f evening-late"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: " Oh Yeah",
+    artist: "Yello ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Yello - Oh Yeah.mp3",
+   timeCategory: "f evening-late"
+},
+
+
+
+
+
+{
+    name: "Autonomy",
+    artist: "Bob Harsher ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Bob Harsher - Autonomy.mp3",
+      timeCategory: "f evening-late"
+
+
+},
+
+{
+    name: "  All Nighter",
+    artist: "Tiesto  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Tiesto - All Nighter.mp3",
+    timeCategory: "f evening-late"
+
+
+
+},
+
+
+
+{
+    name: "Break My Heart",
+    artist: "Dua Lipa ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/Dua Lipa - Break My Heart.mp3",
+     timeCategory: "f evening-late"
+
+},
+
+
+{
+    name: "Big Fun ",
+    artist: "Inner City  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Inner City - Big Fun.mp3",
+   timeCategory: "f evening-late"
+
+
+
+},
+
+
 
 
 
@@ -23887,6 +24380,7 @@ volumeBoost: 0.40
     path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
   playcount: 0,
 volumeBoost: 0.55,
+  eq: { bass: 1, mid: 1, treble: +1 } ,
 timeCategory: "f evening-late"
 
 },
@@ -24110,6 +24604,7 @@ volumeBoost: 0.80,
     path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
   playcount: 0,
 volumeBoost: 0.55,
+  eq: { bass: 1, mid: 1, treble: +1 } ,
 timeCategory: "f evening-late"
 
 },
@@ -24155,6 +24650,7 @@ volumeBoost: 0.40
     path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
   playcount: 0,
 volumeBoost: 0.55,
+  eq: { bass: 1, mid: 1, treble: +1 } ,
 timeCategory: "f evening-late"
 
 },
@@ -24228,6 +24724,7 @@ timeCategory: "f evening-late"
     path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
   playcount: 0,
 volumeBoost: 0.55,
+  eq: { bass: 1, mid: 1, treble: +1 } ,
 timeCategory: "f evening-late"
 
 },
@@ -24849,6 +25346,9 @@ timeCategory: "f evening-late"
 
 
 
+
+// --- Purify ritual --- trackList = trackList.map(purifyTrack);
+console.log("Purified trackList:", trackList);
 
 
 // ── Shuffle immediately at startup ──
@@ -25491,7 +25991,7 @@ limitedTracks.forEach((track, index) => {
 
 li.innerHTML = `
   <strong>${emphasizedTrackName}</strong>${coloredBy}${emphasizedArtist}
-  <span class="track-duration" style="margin-left:10px; color:darkslategray; ">${track.duration || ""}</span>
+  <span class="track-duration" style="margin-left:10px;  color:darkslategray;">${track.duration || ""}</span>
   <span class="countdown" id="countdown-${index}" style="margin-left:10px; color:gray;"></span>
 `;
 
