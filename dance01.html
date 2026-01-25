@@ -891,6 +891,9 @@ window.addEventListener('load', () => {
 
 
 
+
+
+
 <script>
    
 
@@ -1017,25 +1020,7 @@ document.addEventListener("DOMContentLoaded", () => {
   scheduleRangeSwap();
 });
 
-function adjustVolumeDynamically(audioElement, targetVolume = 0.8, maxThreshold = 1) {
-  if (audioElement._volumeAdjusting) return; // prevent duplicates
-  audioElement._volumeAdjusting = true;
 
-  const tolerance = 0.01;
-  const step = 0.01;
-  const interval = setInterval(() => {
-    if (Math.abs(audioElement.volume - targetVolume) <= tolerance) {
-      clearInterval(interval);
-      audioElement._volumeAdjusting = false;
-      return;
-    }
-    if (audioElement.volume < targetVolume) {
-      audioElement.volume = Math.min(maxThreshold, audioElement.volume + step);
-    } else {
-      audioElement.volume = Math.max(0, audioElement.volume - step);
-    }
-  }, 100); // adjust every 100ms
-}
 
 
 
@@ -1898,15 +1883,6 @@ function playIntroWithOverlap(file) {
 
 
 <script>
-// ── Shuffle Helper ──
-function fisherYatesShuffle(array) {
-  let m = array.length, i;
-  while (m) {
-    i = Math.floor(Math.random() * m--);
-    [array[m], array[i]] = [array[i], array[m]];
-  }
-  return array;
-}
 
 // ── Reset Ceremony ──
 function resetPlayCountsCeremony(threshold = 5) {

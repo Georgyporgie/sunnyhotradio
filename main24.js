@@ -107,6 +107,26 @@ function fisherYatesShuffle(array) {
 
 
 
+function adjustVolumeDynamically(audioElement, targetVolume = 0.8, maxThreshold = 1) {
+  if (audioElement._volumeAdjusting) return; // prevent duplicates
+  audioElement._volumeAdjusting = true;
+
+  const tolerance = 0.01;
+  const step = 0.01;
+  const interval = setInterval(() => {
+    if (Math.abs(audioElement.volume - targetVolume) <= tolerance) {
+      clearInterval(interval);
+      audioElement._volumeAdjusting = false;
+      return;
+    }
+    if (audioElement.volume < targetVolume) {
+      audioElement.volume = Math.min(maxThreshold, audioElement.volume + step);
+    } else {
+      audioElement.volume = Math.max(0, audioElement.volume - step);
+    }
+  }, 100); // adjust every 100ms
+}
+
 
 // --- Helpers ---
 const purifyTrack = (track) => ({
