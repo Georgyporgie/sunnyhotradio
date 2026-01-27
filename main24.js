@@ -517,61 +517,77 @@ volumeBoost:0.50,
 
 
 {
-     name: "Love Generator (live) ",
-    artist: "Calvin Harris",
+     name: "Tomorrowland (live) ",
+    artist: "Monika Kruse",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator02.mp3",
+    path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 01.mp3",
     timeCategory: "love",
 
-  eq: { bass: 2, mid: 2, treble: 0 } ,
-volumeBoost:0.40,
+  eq: { bass: 2, mid: 2, treble: 2 } ,
+volumeBoost:0.60,
    playcount: 0
 },
 
 
 {
-     name: "Love Generator ",
-    artist: "Calvin Harris",
+     name: "Tomorrowland (live) ",
+    artist: "Monika Kruse",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator03.mp3",
+    path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 02.mp3",
     timeCategory: "love",
- eq: { bass: 2, mid: 2, treble: 0 } ,
-volumeBoost:0.40,
+
+  eq: { bass: 2, mid: 2, treble: 2 } ,
+volumeBoost:0.60,
+   playcount: 0
+},
+{
+     name: "Tomorrowland (live) ",
+    artist: "Monika Kruse",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 03.mp3",
+    timeCategory: "love",
+
+  eq: { bass: 2, mid: 2, treble: 2 } ,
+volumeBoost:0.60,
    playcount: 0
 },
 
- {
-     name: "Love Generator ",
-    artist: "Calvin Harris",
+{
+     name: "Tomorrowland (live) ",
+    artist: "Monika Kruse",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator04.mp3",
+    path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 04.mp3",
     timeCategory: "love",
-     eq: { bass: 2, mid: 2, treble: 0 } ,
-volumeBoost:0.40
-},
 
- {
-     name: "Love Generator ",
-    artist: "Calvin Harris",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator05.mp3",
-    timeCategory: "love",
-     eq: { bass: 2, mid: 2, treble: 0 } ,
-volumeBoost:0.40
-
+  eq: { bass: 2, mid: 2, treble: 2 } ,
+volumeBoost:0.60,
+   playcount: 0
 },
 
 {
-     name: "Love Generator (live) ",
-    artist: "Calvin Harris",
+     name: "Tomorrowland (live) ",
+    artist: "Monika Kruse",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Calvin Harris - Love Generator06.mp3",
-     eq: { bass: 2, mid: 2, treble: 0 } ,
-timeCategory: "love",
-volumeBoost:0.40
+    path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 05.mp3",
+    timeCategory: "love",
+
+  eq: { bass: 2, mid: 2, treble: 2 } ,
+volumeBoost:0.60,
+   playcount: 0
 },
 
 
+{
+     name: "Tomorrowland (live) ",
+    artist: "Monika Kruse",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 06.mp3",
+    timeCategory: "love",
+
+  eq: { bass: 2, mid: 2, treble: 2 } ,
+volumeBoost:0.60,
+   playcount: 0
+},
 
 
 
@@ -17480,16 +17496,18 @@ quickFade: true
 
 
 {
-    name: "     Human League  ",
+    name: "Human League",
     artist: "Human",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Human - Human League.mp3",
-      timeCategory: "evening-late"
+    timeCategory: "evening-late",
+    isLoud: true,          
+    loudnessValue: 0.85 
 },
 
 
 {
-    name: "Just Get Ready (12inch) ",
+    name: "Just Get Ready (12inch)",
     artist: "Sos Band",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Sos Band - Just get ready (Ben lIebrand remix).mp3",
@@ -26030,6 +26048,12 @@ li.innerHTML = `
   const showMoreButton = document.getElementById('show-more-button');
   showMoreButton.style.display = limit >= scheduledMp3Files.length ? 'none' : 'block';
 }
+
+
+
+
+
+
 
 
 function applyBlinkingEffect() {

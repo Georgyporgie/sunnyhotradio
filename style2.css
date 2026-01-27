@@ -560,68 +560,102 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
 /* Base styling */
 #track-list-container {
   font-size: 15px;
-color: #E53935;
-background:linear-gradient(45deg,#0033FF,#006666,#003399);  
- text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+  color: #E53935;
+  background: linear-gradient(45deg,#0033FF,#006666,#003399);  
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
   box-shadow: 0 0 12px rgba(0,0,0,0.4);
-
-
-font-family: Arial, Helvetica, sans-serif;
-  margin-left: 0;
-  
+  font-family: Arial, Helvetica, sans-serif;
   border-radius: 12px;
   border: solid 3px #FF0000;
   font-weight: 800;
   padding: 15px;
   line-height: 1.5;
   letter-spacing: 0.5px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
   transition: all 0.3s ease;
   position: relative;
-  overflow: hidden; /* important for slide effect */
+  overflow: hidden;
 }
 
-#track-list-container.is-hidden {
-  max-height: 0;
-  opacity: 0;
-  visibility: hidden;   /* ensures it’s not focusable/clickable */
+/* Numbering system */
+#track-list-container ul {
+  counter-reset: track;
+  padding-left: 0;
+  margin: 0;
 }
 
-#track-list-container.is-visible {
-  max-height: 800px;    /* adjust to fit your playlist */
-  opacity: 1;
-  visibility: visible;
+/* Cue-sheet row styling */
+#track-list-container li {
+  list-style: none;
+  counter-increment: track;
+  padding: 10px 8px;
+  margin: 0;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+  position: relative;
 }
 
+/* Last item: no border */
+#track-list-container li:last-child {
+  border-bottom: none;
+}
 
+/* Professional cue-sheet numbering */
+#track-list-container li::before {
+  content: counter(track) ".";
+  color: #ffdf5e;
+  font-weight: 900;
+  margin-right: 10px;
+  display: inline-block;
+  width: 28px;
+  text-align: right;
+  text-shadow:
+    0 0 6px #ffdf5e,
+    0 0 12px #ffd23c,
+    0 0 18px #ffb300;
+  animation: pulseNumber 2s infinite ease-in-out;
+}
 
+@keyframes pulseNumber {
+  0%   { transform: scale(1); opacity: 1; }
+  50%  { transform: scale(1.15); opacity: 0.75; }
+  100% { transform: scale(1); opacity: 1; }
+}
 
+/* Duration column (right aligned) */
+#track-list-container li::after {
+  content: attr(data-duration);
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ffdf5e;
+  font-weight: 700;
+  opacity: 0.9;
+  text-shadow:
+    0 0 4px #ffdf5e,
+    0 0 8px #ffd23c;
+}
 
+/* Active track: ON-AIR glow */
+#track-list-container li.active {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 6px;
+  animation: activeGlow 1.5s infinite ease-in-out;
+}
 
+@keyframes activeGlow {
+  0%   { box-shadow: 0 0 6px #ffdf5e; }
+  50%  { box-shadow: 0 0 16px #ffd23c; }
+  100% { box-shadow: 0 0 6px #ffdf5e; }
+}
 
-
-
-
+/* Highlighted text inside track titles */
 #track-list-container em {
   background-color: #fff8dc;
   color: #b8860b;
   font-style: normal;
   padding: 0 4px;
   border-radius: 3px;
-z-index:200;
 }
-
-
-
-
-/* Example CSS */
-#track-list-container li {
-  padding: 10px; /* Adds 10px spacing inside each item */
-  margin-bottom: 5px; /* Adds 5px spacing below each item */
-  list-style: none; /* Removes default bullet points */
-z-index:200;
-}
-
 
 .vinyl-icon {
   color: #00FFFF;
