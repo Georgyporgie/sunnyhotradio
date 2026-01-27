@@ -666,9 +666,11 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
     padding-bottom: 8px;
   }
 
-  #track-list-container li::before {
-    width: 40px;
-  }
+#track-list-container li::before {
+  left: -4px;   /* was 10px */
+  width: 35px;
+  text-align: right;
+}
 
   #track-list-container li::after {
     font-size: 13px;
