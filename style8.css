@@ -7,12 +7,17 @@ background: linear-gradient(90deg,whitesmoke,#dddddd,#c4c4c4);
 
 button {
 padding: 5px 5px 5px 5px;
- background: linear-gradient(45deg,crimson,#ed365b,#FF0000); color : #CCCCCC; 
+  background: #ff3366;
+color: white;
   font-size: 15px; display:block;
- border-radius: 5px;
+ border-radius: 6px;
+ font-weight: 600;
+
 }
 
-
+button:hover {
+  background: #ff5580;
+}
 #cont {
 
 height: 70px; width: 75px; filter: brightness(100%) saturate(110%) contrast(110%) opacity(75%); z-index: -200; transform:rotate(40deg); float:right;
@@ -22,4 +27,22 @@ height: 70px; width: 75px; filter: brightness(100%) saturate(110%) contrast(110%
 #disq  {
 
 margin-left:30px; margin-bottom:10px;
+}
+
+
+
+
+.donate-button {
+  display: inline-block; margin-left: 30px;
+  padding: 10px 18px;
+  background: #ff3366;
+  color: white;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease;
+border: solid black 1px;
+}
+.donate-button:hover {
+  background: #ff5580;
 }
