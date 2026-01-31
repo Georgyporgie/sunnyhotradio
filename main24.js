@@ -1500,7 +1500,486 @@ playcount: 0
 
 
 
+{
+     name: "   My Forbidden Lover",
+    artist: " Tapps ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Tapps - My Forbidden Lover.mp3",
+       playcount: 0,
+timeCategory: "eighties",
+  volumeBoost: 0.40
+},
 
+
+
+
+{
+    name: " Funkytown (1980)",
+    artist: "Lipps Inc. ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Lipps Inc. - Funkytown (1980).mp3",
+ timeCategory: "eighties",
+quickFade: true,
+  volumeBoost: 0.40
+},
+
+
+
+
+{
+    name: "  Thriller ",
+    artist: "Michael Jackson ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Michael Jackson Thriller.mp3",
+    playcount: 0,
+timeCategory: "eighties",  
+volumeBoost: 0.40
+},
+
+
+
+{
+    name: " Passion ",
+    artist: "The Flirts ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/The Flirts - Passion.mp3",
+  playcount: 0,
+timeCategory: "eighties",
+  volumeBoost: 0.30
+},
+
+
+
+{
+    name: "   Automatic",
+    artist: "Pointer Sisters ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Pointer Sisters - Automatic.mp3",
+   timeCategory: "eighties",
+    playcount: 0,
+volumeBoost: 0.30
+
+},
+
+
+
+
+
+
+
+{
+    name: "Ain't Nothing Goin'  (1986)",
+    artist: "Gwen Guthrie  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Gwen Guthrie- Ain't Nothing Goin' On But The Rent.mp3",
+  timeCategory: "eighties",
+  playcount: 0
+},
+
+
+
+
+{
+    name: " Rockit",
+    artist: "Herbie Hancock  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Herbie Hancock - Rockit.mp3",
+  playcount: 0,
+timeCategory: "eighties",
+  volumeBoost: 0.10
+},
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: " All Fall Down",
+    artist: "Five Star ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Five Star - All Fall Down.mp3",
+  playcount: 0,
+timeCategory: "eighties",
+  volumeBoost: 0.20
+},
+
+
+
+{
+    name: "  Jump (for my love)",
+    artist: "Pointer Sisters  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Pointer Sisters - Jump (for my love).mp3",
+     eq: { bass: 1, mid: 1, treble: +1 } ,
+
+playcount: 0,
+timeCategory: "eighties",
+  volumeBoost: 0.25
+
+},
+
+
+
+{
+    name: "West End Girls (1984) ",
+    artist: "Pet Shop Boys ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Pet Shop Boys - West End Girls (10'' Mix).mp3",
+   playcount: 0,
+timeCategory: "eighties",
+  volumeBoost: 0.35
+},
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+         playcount: 0,
+timeCategory: "eighties"
+
+ 
+},
+
+
+
+
+
+{
+    name: "Let's Go Together (12inch)",
+    artist: "Change ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Change - Let's go together.mp3",
+     playcount: 0,
+timeCategory: "eighties",
+  volumeBoost: 0.10,
+ quickFade: true
+},
+
+
+
+
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/40 in jingle.mp3",
+  playcount: 0,
+timeCategory: "eighties"
+
+ 
+ },
+
+
+
+{
+    name: "Let It All Blow",
+    artist: "Dazz Band",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Dazz Band Let It All Blow.mp3",
+    playcount: 0,
+timeCategory: "eighties",
+  volumeBoost: 0.40
+
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Number One (1985)",
+    artist: "Princess  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Princess - Say I'm Your Number One.mp3",
+     timeCategory: "eighties"
+ },
+
+
+{
+    name: "Dolce Vita (12inch)",
+    artist: "Ryan Paris",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Ryan Paris - Dolce Vita.mp3",
+   playcount: 0,
+timeCategory: "eighties",
+  volumeBoost: 0.10
+},
+
+
+{
+     name: "     Me So Horny (1989)",
+    artist: "2 Live Crew  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/2 Live Crew - Me So H.mp3",
+   playcount: 0,
+timeCategory: "eighties",
+  volumeBoost: 0.50
+
+
+},
+
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire03.mp3",
+    timeCategory: "eighties"
+},
+
+
+
+
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio ☀️",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Sapphire02.mp3",
+    timeCategory: "eighties"
+},
+
+
+
+
+{
+    name: " You Are A Danger ",
+    artist: "Gary Low ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Gary Low - You are a danger.mp3",
+  
+  playcount: 0,
+timeCategory: "eighties",
+  volumeBoost: 0.35
+},
+
+
+
+{
+    name: "Stop To Love (1986) ",
+    artist: "Luther Vandross ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Luther Vandross - Stop To Love.mp3",
+       playcount: 0,
+timeCategory: "eighties",
+  volumeBoost: 0.30
+},
+
+
+
+{
+    name: " Don't Stop (1980)",
+    artist: "Yarbrough & Peoples  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Yarbrough & Peoples - Don't Stop The Music.mp3",
+      playcount: 0,
+timeCategory: "eighties",
+  volumeBoost: 0.30
+
+},
+
+
+
+
+
+
+{
+    name: "On The Beat (1980)",
+    artist: "BB & Q Band ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/BB Q Band - On the Beat.mp3",
+  playcount: 0,
+timeCategory: "eighties",
+  volumeBoost: 0.30
+},
+
+
+{
+    name: "Pump Up The Jam (1989)",
+    artist: "Technotronic ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Technotronic - Pump Up The Jam.mp3",
+     timeCategory: "eighties",
+volumeBoost: 0.15,
+quickFade: true
+
+},
+
+
+
+{
+    name: " Just An Illusion (12inch)",
+    artist: "Imagination ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Imagination - Just an Illusion 1982.mp3",
+  volumeBoost: 0.25,
+      timeCategory: "eighties"
+
+},
+
+
+
+
+
+
+{
+    name: " Big Fun",
+    artist: "Inner City  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Inner City - Big Fun.mp3",
+    timeCategory: "eighties",
+volumeBoost: 0.20
+
+},
+
+
+
+
+{
+    name: "  Thinkin' About Your love",
+    artist: "Skipworth & Turner ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Skipworth & Turner - Thinkin' about your love.mp3",
+  timeCategory: "eighties",
+volumeBoost: 0.50,
+playcount: 0,
+quickFade: true
+    
+
+
+},
+
+
+
+
+
+
+
+
+
+
+{
+    name: " Like I like It (1985) ",
+    artist: " Aurra ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Aurra - Like I like It.mp3",
+  
+
+
+    timeCategory: "eighties",
+volumeBoost: 0.15
+
+},
+
+
+
+{
+    name: " All Night Long ",
+    artist: "Mary Jane Girls ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mary Jane Girls - All Night Long.mp3",
+  volumeBoost: 0.40,
+  eq: { bass: 1, mid: 1, treble: +1 } ,
+    timeCategory: "eighties"
+
+
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Enjoy The Silence (1989)",
+    artist: "Depeche Mode ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Depeche Mode - Enjoy The Silence.mp3",
+    timeCategory: "eighties",
+volumeBoost: 0.10
+
+},
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/nos journaal 11.mp3",
+    timeCategory: "eighties"
+
+
+},
 
 
 
@@ -2745,37 +3224,13 @@ timeCategory: "morning",
 
 
 {
-    name: "  Flashdance",
-    artist: "Irene Cara   ",
+    name: " Don't Stop (1980)",
+    artist: "Yarbrough & Peoples  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Irene Cara - Flashdance.mp3",
-    playcount: 0,
+    path: "https://sunnydanceoldies05.netlify.app/Yarbrough & Peoples - Don't Stop The Music.mp3",
+      playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.10
-
-},
-
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle3.mp3",
-      timeCategory: "morning"
-},
-
-
-{
-    name: "  Don't Look Any Further",
-    artist: "Dennis Edwards        ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies07.netlify.app/Dennis Edwards - Don't Look Any Further.mp3",
-    playcount: 0,
-timeCategory: "morning",
-isLoud: true,          
-  loudnessValue: 0.50
+  volumeBoost: 0.30
 
 },
 
@@ -14192,7 +14647,7 @@ volumeBoost: 0.10
 
 
 {
-    name: " Funky Sensation ",
+    name: "Funky Sensation",
     artist: "Gwen McCrae  ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Gwen McCrae - Funky Sensation.mp3",
@@ -14203,7 +14658,7 @@ volumeBoost: 0.10
 
 
 {
-    name: " Time Problem",
+    name: "Time Problem",
     artist: "Alice D In Wonderland ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies06.netlify.app/Alice D In Wonderland - Time Problem.mp3",
@@ -14216,7 +14671,7 @@ volumeBoost: 0.10
 
 
 {
-    name: "  Illusion",
+    name: "Illusion",
     artist: "Dua Lipa ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Dua Lipa - Illusion.mp3",
@@ -21245,7 +21700,9 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Michael Jackson - Billy Jean (1982).mp3",
       timeCategory: "f afternoon",
-   volumeBoost: 0.45
+     eq: { bass: 2, mid: 2, treble: +2 } ,
+volumeBoost: 0.45
+
 },
 
 
