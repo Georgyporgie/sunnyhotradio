@@ -26648,9 +26648,6 @@ function nextTrack() {
   track_index = (track_index + 1) % scheduledMp3Files.length;
   loadTrack(track_index);
   playTrack();
-
-  // 🔄 Optional: check threshold reset
-  resetPlayCountsCeremony(5);
 }
 
 
