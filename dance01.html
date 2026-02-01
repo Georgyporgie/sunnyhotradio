@@ -1848,40 +1848,6 @@ function playIntroWithOverlap(file) {
 </script>
 
 
-<script>
-
-// ── Reset Ceremony ──
-function resetPlayCountsCeremony(threshold = 5) {
-  // Guard: if no tracks, exit early
-  if (!trackList.length) return;
-
-  const allAboveThreshold = trackList.every(t => t.playCount >= threshold);
-
-  if (allAboveThreshold) {
-    console.log("🔄 Ceremony: All tracks exceeded", threshold, "plays. Resetting counts at", new Date().toLocaleTimeString());
-
-    // Reset playcounts
-    trackList.forEach(t => {
-      t.playCount = 0;
-    });
-
-    // Shuffle the playlist after reset
-    trackList = fisherYatesShuffle(trackList);
-
-    console.log("✨ Playlist reborn:", trackList.map(t => t.name));
-  }
-}
-
-
-
-function initializePlayCounts(tracks) {
-  tracks.forEach(track => {
-    // If playcount is missing or not numeric, set it to 0
-    if (typeof track.playcount !== "number") {
-      track.playcount = 0;
-    }
-  });
-}
 
 
 function filterMp3ByTimeCategory(mp3Files, timeCategory) {
@@ -1913,61 +1879,6 @@ scheduleMidnightReset();
 </script>
 
 
-<script>
-// ── Soft Decay Ceremony ──
-function decayPlayCounts(decayRate = 0.9) {
-  if (!trackList.length) return;
-
-  trackList.forEach(t => {
-    t.playCount = Math.floor(t.playCount * decayRate);
-  });
-
-  console.log("🌙 Soft decay applied at", new Date().toLocaleTimeString(),
-              "| Decay rate:", decayRate,
-              "| Counts:", trackList.map(t => t.playCount));
-}
-
-// ── Gentle Hourly Decay ──
-setInterval(() => decayPlayCounts(0.95), 60 * 60 * 1000); 
-// Every hour, fade playcounts by 5%
-// Keeps balance subtle and continuous
-
-// ── Stronger Category Decay ──
-function switchCategory(newCategory) {
-  // Apply stronger decay when moods shift
-  decayPlayCounts(0.8);
-
-  // Then load the new category playlist
-  scheduledMp3Files = categoryPlaylists[newCategory] || [];
-  track_index = 0;
-
-  console.log("🎶 Category switched to:", newCategory,
-              "| Playlist length:", scheduledMp3Files.length);
-
-  if (scheduledMp3Files.length > 0) {
-    loadTrack(track_index);
-    playTrack();
-  }
-}
-
-// ── Stronger Category Decay ──
-function switchCategory(newCategory) {
-  // Apply stronger decay when moods shift
-  decayPlayCounts(0.8);
-
-  // Then load the new category playlist
-  scheduledMp3Files = categoryPlaylists[newCategory] || [];
-  track_index = 0;
-
-  console.log("🎶 Category switched to:", newCategory,
-              "| Playlist length:", scheduledMp3Files.length);
-
-  if (scheduledMp3Files.length > 0) {
-    loadTrack(track_index);
-    playTrack();
-  }
-}
-</script>
 
 
 
