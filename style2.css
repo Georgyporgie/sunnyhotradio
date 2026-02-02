@@ -702,7 +702,9 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
 z-index: 400;  margin: -15px auto auto auto ; background:linear-gradient(45deg,#0033FF,#006666,#003399);     border-radius: 5px;   font-weight:800;font-optical-sizing: auto; padding: -5px;  visibility: visible;filter: brightness(100%) saturate(100%) contrast(100%) opacity(95%);
 }
 
-
+#show-more-button:hover {
+  background: white; color:black;
+}
 
 
 

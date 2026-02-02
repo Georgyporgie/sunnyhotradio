@@ -307,6 +307,10 @@ animation: blinker 1s step-start infinite;background-color: black;
 float: left; margin-left: 20px; z-index: 200; font-size: 20px; color:crimson; background-color: black; border-radius: 3px; padding: 5px 5px 0px 5px; 
 }
 
+
+
+
+
 .two  {  
 display: block; margin: auto auto auto auto; z-index: -210;font-size: 28px;color:black;
 
@@ -484,7 +488,9 @@ border-radius: 5px; z-index: -500; width: 51px; height: 34px; font-size: 17px; d
 
 
 }
-
+.info:hover {
+  background: white; color:black;
+}
 
 #lijntje  {  color: black; font-weight: bold;
 
