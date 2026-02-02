@@ -1371,6 +1371,16 @@ document.addEventListener("DOMContentLoaded", () => {
 </audio>
 
 
+
+
+
+
+<audio id="thirtyFiveMinuteSou">
+  <source src="https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekend%20piratejinglepublic2.mp3" type="audio/mp3">
+</audio>
+
+
+
 <audio id="thirtySevenMinuteSou">
   <source src="muziek/voiceover/Live%20from%20amsterdam2.mp3" type="audio/mp3">
 </audio>
@@ -1385,8 +1395,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-<audio id="fortyFiveMinuteSou">
-  <source src="" type="audio/mp3">
+<audio id="thirtyFiveMinuteSou">
+  <source src="https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekend%20piratejinglepublic2.mp3" type="audio/mp3">
 </audio>
 
 
@@ -1440,7 +1450,22 @@ function scheduleSounds() {
     setInterval(() => playSound(["twentyFiveMinuteSou"]), 1680000);
   }, Math.max(0, twentyEightDelay));
 
-  // Every 37 minutes
+ 
+
+
+// Every 35 minutes
+const thirtyFiveMinuteDelay =
+  ((35 - (now.getMinutes() % 35)) % 35) * ms - now.getSeconds() * 1000;
+
+setTimeout(() => {
+  playSound(["thirtyFiveMinuteSou"]);
+  setInterval(() => playSound(["thirtyFiveMinuteSou"]), 2100000);
+}, Math.max(0, thirtyFiveMinuteDelay));
+
+
+
+
+ // Every 37 minutes
   const thirtySevenDelay =
     ((37 - (now.getMinutes() % 37)) % 37) * ms - now.getSeconds() * 1000;
   setTimeout(() => {
