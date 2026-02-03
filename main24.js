@@ -661,43 +661,6 @@ volumeBoost:0.50
 },
 
 
-{
-     name: " Live From London",
-    artist: "Fat Tony",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://mixingg.netlify.app/Fat Tony - Live From London01.mp3",
-    timeCategory: "mixinglondon"
-},
-
-
-{
-     name: " Live From London",
-    artist: "Fat Tony",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://mixingg.netlify.app/Fat Tony - Live From London02.mp3",
-    timeCategory: "mixinglondon"
-},
-
-
-
-{
-     name: " Live From London",
-    artist: "Fat Tony",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://mixingg.netlify.app/Fat Tony - Live From London03.mp3",
-    timeCategory: "mixinglondon"
-},
-
-
-
-{
-     name: " Live From London",
-    artist: "Fat Tony",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://mixingg.netlify.app/Fat Tony - Live From London04.mp3",
-    timeCategory: "mixinglondon"
-},
-
 
 
 
@@ -836,6 +799,43 @@ volumeBoost: 0.50
 
 
 
+
+{
+     name: " Live From London",
+    artist: "Fat Tony",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://mixingg.netlify.app/Fat Tony - Live From London01.mp3",
+    timeCategory: "mixinglondon"
+},
+
+
+{
+     name: " Live From London",
+    artist: "Fat Tony",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://mixingg.netlify.app/Fat Tony - Live From London02.mp3",
+    timeCategory: "mixinglondon"
+},
+
+
+
+{
+     name: " Live From London",
+    artist: "Fat Tony",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://mixingg.netlify.app/Fat Tony - Live From London03.mp3",
+    timeCategory: "mixinglondon"
+},
+
+
+
+{
+     name: " Live From London",
+    artist: "Fat Tony",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://mixingg.netlify.app/Fat Tony - Live From London04.mp3",
+    timeCategory: "mixinglondon"
+},
 
 
 
@@ -1078,7 +1078,7 @@ volumeBoost: 0.50
 
 
 
-
+//strictly seventies show
 
 
 
@@ -1494,7 +1494,7 @@ playcount: 0
 
 
 
-
+//strictly eighties show
 
 
 
@@ -2020,6 +2020,7 @@ volumeBoost: 0.10
 
 
 
+//strictly nineties show
 
 
 
@@ -2027,18 +2028,335 @@ volumeBoost: 0.10
 
 
 
+{
+    name: "  Born Slippy ",
+    artist: "Underworld ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Underworld - born slippy2.mp3",
+    timeCategory: "nineties",
+playcount: 0
+},
+
+
+
+{
+    name: "Strictly Nineties Jingle",
+    artist: "Sunny ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Strictly%20nineties%20show.mp3",
+       timeCategory: "nineties"
+
+  
+},
+
+
+{
+    name: "Love For Love ",
+    artist: "Robin S ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Robin S - Love For Love.mp3",
+     timeCategory: "nineties",
+quickFade: true,
+    volumeBoost: 0.25,
+    playcount: 0
+
+},
+
+
+
+{
+    name: "   A hugh Pulsating Brain    ",
+    artist: "The Orb ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/The Orb - A hugh pulsating brain Paradox mix.mp3",
+   playcount: 0,
+timeCategory: "nineties",
+  volumeBoost: 0.30
+},
+
+
+
+
+{
+    name: "  I Want Her",
+    artist: "Keith Sweat ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Keith Sweat - I Want Her.mp3",
+   timeCategory: "morning",
+quickFade: true,
+  playcount: 0,
+timeCategory: "morning",
+  volumeBoost: 0.30
+},
+
+{
+    name: "Strictly Nineties Jingle",
+    artist: "Sunny ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Strictly%20nineties%20show.mp3",
+       timeCategory: "nineties"
+
+  
+},
+{
+    
+    name: " I Wanna Give You Devotion",
+    artist: "Nomad ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Nomad - I Wanna Give You Devotion.mp3",
+  playcount: 0,
+timeCategory: "nineties",
+  volumeBoost: 0.25
+},
+
+
+{
+    name: " It's Like That (1997)",
+    artist: "RUN DMC ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/RUN DMC - It's Like That.mp3",
+   playcount: 0,
+timeCategory: "nineties",
+  volumeBoost: 0.40
+
+},
+
+{
+    name: "Strictly Nineties Jingle",
+    artist: "Sunny ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Strictly%20nineties%20show.mp3",
+       timeCategory: "nineties"
+
+  
+},
+
+{
+    name: "  We Got A Love Thang",
+    artist: "CC Peniston ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/CC Peniston - We Got A Love Thang.mp3",
+    timeCategory: "nineties",
+    quickFade: true,
+    playcount: 0,
+    volumeBoost: 0.35
+},
+
+
+
+{
+    name: "Believe (1998)",
+    artist: "Cher",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Cher - Believe.mp3",
+        timeCategory: "nineties",
+volumeBoost: 0.35
+},
+
+
+{
+    name: "Unfinished Sympathy (1991)",
+    artist: "Massive ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Massive Attack - Unfinished Sympathy.mp3",
+ timeCategory: "nineties",
+volumeBoost: 0.25
+},
+
+
+
+
+{
+    name: " Waterfall (1994)",
+    artist: "Atlantic Ocean  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Atlantic Ocean - Waterfall.mp3",
+      timeCategory: "nineties"
+},
+
+
+{
+    name: " What Is Love ",
+    artist: "Haddaway ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Haddaway - What Is Love.mp3",
+    timeCategory: "nineties",
+    volumeBoost: 0.20,
+    playcount: 0
+},
+
+{
+    name: "   Creep (1994)  ",
+    artist: "TLC ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnyhotradio.com/muziek/oldies07/TLC - Creep.mp3",
+  timeCategory: "nineties"
+},
 
 
 
 
 
+{
+    name: "  Whatta Man (1993)  ",
+    artist: "Salt N Pepa ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnyhotradio.com/muziek/oldies07/Salt N Pepa - Whatta Man.mp3",
+  timeCategory: "nineties",
+quickFade: true
+},
+
+
+{
+    name: "Strictly Nineties Jingle",
+    artist: "Sunny ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Strictly%20nineties%20show.mp3",
+       timeCategory: "nineties"
+
+  
+},
+
+
+{
+    name: "   No Scrubs (1999)  ",
+    artist: "TLC ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path:"https://sunnyhotradio.com/muziek/oldies07/TLC - No Scrubs.mp3",
+  timeCategory: "nineties"
+},
 
 
 
 
+{
+    name: " Shy Guy (1995)",
+    artist: "Diana King  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Diana King - Shy guy.mp3",
+    timeCategory: "nineties",
+     quickFade: true,
+    volumeBoost: 0.65,
+    playcount: 0
+},
 
 
 
+{
+    name: "In The Mix",
+    artist: "Mix Masters Feat. Mc Action",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Mix masters feat. Mc Action - In the mix.mp3",
+   timeCategory: "nineties",
+ quickFade: true
+},
+
+
+
+{
+     name: " Better Of Alone (1998) ",
+    artist: "Alice Deejay ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Alice Deejay - Better Of Alone (1998).mp3",
+    timeCategory: "nineties",
+   playcount: 0,
+   quickfade: true
+   
+
+},
+
+
+{
+    name: "Strictly Nineties Jingle",
+    artist: "Sunny ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Strictly%20nineties%20show.mp3",
+       timeCategory: "nineties"
+
+  
+},
+
+
+
+{
+     name: " Insomnia (1995) ",
+    artist: "Faithless ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Faithless - Insomnia (1995).mp3",
+    timeCategory: "nineties",
+   quickfade: true,
+playcount: 0
+   
+
+
+},
+
+
+
+{
+    name: " The Age Of Love",
+    artist: "Jam & Spoon  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Jam & Spoon - The Age of Love.mp3",
+   timeCategory: "nineties",
+ volumeBoost: 0.45,
+ eq: { bass: 1, mid: 1, treble: 1} 
+},
+
+
+{
+    name: " Vogue (12 inch) ",
+    artist: "Madonna  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Madonna - Vogue (12 inch).mp3",
+   timeCategory: "nineties"
+},
+
+
+
+
+{
+     name: " Ice Ice Baby (1990)",
+    artist: "Vanilla Ice ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Vanilla Ice - Ice Ice Baby (1990).mp3",
+    timeCategory: "nineties",
+volumeBoost: 0.20
+},
+
+
+
+{
+    name: "   I'm Gonna Get You",
+    artist: "Bizarre Inc. ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Bizarre Inc. - I'm Gonna Get You.mp3",
+         timeCategory: "nineties"
+},
+
+
+{
+    name: "The Power",
+    artist: "Snap ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Snap - The Power.mp3",
+      timeCategory: "nineties",
+     quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
+},
+
+
+
+{
+    name: "Strictly Nineties Jingle",
+    artist: "Sunny ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Strictly%20nineties%20show.mp3",
+       timeCategory: "nineties"
+
+  
+},
 
 
 
@@ -7734,16 +8052,7 @@ playcount: 0
 
 
 
-{
-    name: "A Woman Needs Love",
-    artist: "Ray Parker Junior",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Ray Parker jr - A woman needs love.mp3",
-        timeCategory: "afternoon",
-    quickFade: true,
-    volumeBoost: 0.75,
-    playcount: 0
-},
+
 
 
 {
@@ -7762,16 +8071,7 @@ playcount: 0
 
 
 
-{
-    name: "Honey I'm Rich",
-    artist: "Ray Parker Junior",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Ray Parker jr -Honey I'm rich.mp3",
-        timeCategory: "afternoon",
-    quickFade: true,
-    volumeBoost: 0.75,
-    playcount: 0
-},
+
 
 
 
