@@ -516,6 +516,28 @@ volumeBoost:0.50,
 },
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
      name: "Tomorrowland (live) ",
     artist: "Monika Kruse",
@@ -523,7 +545,7 @@ volumeBoost:0.50,
     path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 01.mp3",
     timeCategory: "love",
 
-  eq: { bass: 2, mid: 2, treble: 2 } ,
+  eq: { bass: 2, mid: 3, treble: 2 } ,
 volumeBoost:0.60,
    playcount: 0
 },
@@ -536,7 +558,7 @@ volumeBoost:0.60,
     path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 02.mp3",
     timeCategory: "love",
 
-  eq: { bass: 2, mid: 2, treble: 2 } ,
+  eq: { bass: 2, mid: 3, treble: 2 } ,
 volumeBoost:0.60,
    playcount: 0
 },
@@ -547,7 +569,7 @@ volumeBoost:0.60,
     path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 03.mp3",
     timeCategory: "love",
 
-  eq: { bass: 2, mid: 2, treble: 2 } ,
+  eq: { bass: 2, mid: 3, treble: 2 } ,
 volumeBoost:0.60,
    playcount: 0
 },
@@ -559,7 +581,7 @@ volumeBoost:0.60,
     path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 04.mp3",
     timeCategory: "love",
 
-  eq: { bass: 2, mid: 2, treble: 2 } ,
+  eq: { bass: 2, mid: 3, treble: 2 } ,
 volumeBoost:0.60,
    playcount: 0
 },
@@ -571,7 +593,7 @@ volumeBoost:0.60,
     path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 05.mp3",
     timeCategory: "love",
 
-  eq: { bass: 2, mid: 2, treble: 2 } ,
+  eq: { bass: 2, mid: 3, treble: 2 } ,
 volumeBoost:0.60,
    playcount: 0
 },
@@ -584,10 +606,65 @@ volumeBoost:0.60,
     path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 06.mp3",
     timeCategory: "love",
 
-  eq: { bass: 2, mid: 2, treble: 2 } ,
+  eq: { bass: 2, mid: 3, treble: 2 } ,
 volumeBoost:0.60,
    playcount: 0
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -625,6 +702,32 @@ volumeBoost:0.60
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
      name: " Live Mix ",
     artist: "Corne Klijn",
@@ -642,6 +745,20 @@ volumeBoost:0.50
     timeCategory: "special-mix",
 volumeBoost:0.50
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -785,6 +902,15 @@ volumeBoost: 0.50
   eq: { bass: 0, mid: 0, treble: +1 } ,
 volumeBoost: 0.50
 },
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2357,6 +2483,51 @@ volumeBoost: 0.20
 
   
 },
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "  DJ Frankie Bones",
+    artist: "Escape ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/DJ Frankie Bones - Escape01.mp3",
+         timeCategory: "frankiebones",
+    quickFade: true,
+    volumeBoost: 0.35
+},
+
+
+{
+    name: "  DJ Frankie Bones",
+    artist: "Escape ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/DJ Frankie Bones - Escape02.mp3",
+         timeCategory: "frankiebones",
+    quickFade: true,
+    volumeBoost: 0.35
+},
+
+
+
+{
+    name: "  DJ Frankie Bones",
+    artist: "Escape ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/DJ Frankie Bones - Escape03.mp3",
+         timeCategory: "frankiebones",
+    quickFade: true,
+    volumeBoost: 0.35
+},
+
 
 
 
