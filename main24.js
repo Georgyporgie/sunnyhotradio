@@ -1524,7 +1524,8 @@ volumeBoost:0.65
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Stargard - What you waiting for.mp3",
 timeCategory: "seventies",
-  volumeBoost: 0.35,
+    eq: { bass: 2, mid: 2, treble: +1 } ,
+volumeBoost: 0.75,
  playcount: 0
 },
 
@@ -5203,7 +5204,8 @@ volumeBoost: 0.45
     artist: "Jamiroquaii",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Jamiroquaii - Little L.mp3",
-      timeCategory: "morning"
+    quickFade: true,
+    timeCategory: "morning"
 
 
 },
@@ -10486,8 +10488,9 @@ playcount: 0
     path: "https://danceoldies10.netlify.app/Stargard - What You Waiting For (maxi).mp3",
   timeCategory: "afternoon",
      quickFade: true,
-  volumeBoost: 0.60,
-    playcount: 0
+     eq: { bass: 2, mid: 2, treble: +1 } ,
+volumeBoost: 0.75,
+ playcount: 0
 
 },
 
