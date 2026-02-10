@@ -324,6 +324,57 @@ document.addEventListener("DOMContentLoaded", scheduleHourlyFlash);
 <br>
 <img id= "playlist">
 
+
+
+
+
+<script>
+function seededRandom(seed) {
+  let x = Math.sin(seed) * 10000;
+  return x - Math.floor(x);
+}
+
+function getDailyRandomImage(images) {
+  const today = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+  const seed = Number(today.replace(/-/g, ""));        // e.g. 20260209
+  const index = Math.floor(seededRandom(seed) * images.length);
+  return images[index];
+}
+
+// Example usage:
+const images = [
+  "images/jazzy05.jpg",
+  "images/Monika-Kruse-Dj.jpg",
+  "images/jazzy04.jpg",
+  "images/jazzy03.jpg",
+  "images/jazzy02.jpg",
+ "images/Ava Max.png",
+ "images/Rihanna.jpg"
+];
+
+const imageOfTheDay = getDailyRandomImage(images);
+console.log(imageOfTheDay);
+
+
+
+// Apply it to the <img>
+document.getElementById("playlist").src = imageOfTheDay;
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
 <ul id="track-list-container">
 
 
@@ -749,14 +800,6 @@ img.src = 'images/Sunny DanceRadio444.png';
 
 
 
-
-<script>
-//Get our img element by using document.getElementById
-var img = document.getElementById("playlist");
-
-//Set the src property of our element to the new image URL
-img.src = 'images/jazzy05.jpg';
-</script>
 
 
 

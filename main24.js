@@ -1649,7 +1649,16 @@ quickFade: true,
   volumeBoost: 0.40
 },
 
+{
+    name: "Sunny",
+    artist: "Eighties ",
+    image:"https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path:"https://danceoldies10.netlify.app/Strictly%20eighties%20show.mp3",
+   timeCategory: "eighties",
+    playcount: 0,
+volumeBoost: 0.30
 
+},
 
 
 {
@@ -1858,7 +1867,16 @@ timeCategory: "eighties",
 
 
 
+{
+    name: "Sunny",
+    artist: "Eighties ",
+    image:"https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path:"https://danceoldies10.netlify.app/Strictly%20eighties%20show.mp3",
+   timeCategory: "eighties",
+    playcount: 0,
+volumeBoost: 0.30
 
+},
 
 
 
@@ -1905,27 +1923,23 @@ timeCategory: "eighties",
 
 
 
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ☀️",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Sapphire03.mp3",
-    timeCategory: "eighties"
-},
-
-
-
 
 
 
 
 {
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio ☀️",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Sapphire02.mp3",
-    timeCategory: "eighties"
+    name: "Sunny",
+    artist: "Eighties ",
+    image:"https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path:"https://danceoldies10.netlify.app/Strictly%20eighties%20show.mp3",
+   timeCategory: "eighties",
+    playcount: 0,
+volumeBoost: 0.30
+
 },
+
+
+
 
 
 
@@ -2016,7 +2030,7 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Inner City - Big Fun.mp3",
     timeCategory: "eighties",
-volumeBoost: 0.20
+volumeBoost: 0.70
 
 },
 
@@ -2302,8 +2316,8 @@ volumeBoost: 0.25
 
 
 {
-    name: " What Is Love ",
-    artist: "Haddaway ",
+    name: "What Is Love",
+    artist: "Haddaway (1993)",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Haddaway - What Is Love.mp3",
     timeCategory: "nineties",
@@ -4807,7 +4821,7 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Inner City - Big Fun.mp3",
     timeCategory: "morning",
-volumeBoost: 0.20
+volumeBoost: 0.70
 
 },
 
@@ -10716,8 +10730,8 @@ volumeBoost:  0.20
 
 
 {
-    name: " What Have You Done",
-    artist: "One Tribe ",
+    name: "What Have You Done (1992)",
+    artist: "One Tribe",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/One Tribe feat. Gem - What Have You Done.mp3",
      timeCategory: "afternoon"
@@ -14336,7 +14350,9 @@ quickFade: true
     artist: "Incognito",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Incognito - Always There.mp3",
-      timeCategory: "evening"
+    timeCategory: "evening",
+volumeBoost: 0.50,
+  eq: { bass: 1, mid: 1, treble: +1 } 
 },
 
 
@@ -16418,8 +16434,8 @@ volumeBoost: 0.50,
 
 
 {
-    name: "Let The Music Play ",
-    artist: "Shannon  ",
+    name: "Let The Music Play",
+    artist: "Shannon",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Shannon - Let The Music Play.mp3",
         timeCategory: "evening",
@@ -16482,8 +16498,8 @@ timeCategory: "evening"
 
   
 {
-    name: " Don't Stop ",
-    artist: "KID  ",
+    name: "Don't Stop",
+    artist: "KID",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/KID - Don't Stop.mp3",
    timeCategory: "evening",
@@ -16498,15 +16514,15 @@ timeCategory: "evening"
 
 {
     name: "Gorgeous",
-    artist: "Snoop Dogg, Dr Dre   ",
+    artist: "Snoop Dogg, Dr Dre",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Snoop Dogg, Dr Dre - Gorgeous.mp3",
     timeCategory: "evening"
 },
 
 {
-    name: "   I Like It",
-    artist: "Alesso, Nate Smith ",
+    name: "I Like It",
+    artist: "Alesso, Nate Smith",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Alesso, Nate Smith - I Like It.mp3",
     timeCategory: "evening"
@@ -16547,7 +16563,7 @@ timeCategory: "evening"
 
 
 {
-    name: " Turn On Tune In  ",
+    name: "Turn On Tune In",
     artist: "Freak Power ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Freak Power - Turn On Tune In Cop Out.mp3",
@@ -16564,8 +16580,8 @@ timeCategory: "evening"
 
 
 {
-    name: " Fake  ",
-    artist: "Alexander O Neal ",
+    name: "Fake",
+    artist: "Alexander O Neal",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Alexander O Neal - Fake.mp3",
    timeCategory: "evening",
@@ -16590,7 +16606,7 @@ volumeBoost: 0.70,
 
 
 {
-    name: " Shoot Your Shot (1982) ",
+    name: "Shoot Your Shot (1982)",
     artist: "Divine   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/Divine - Shoot Your Shot (1982).mp3",
@@ -16602,7 +16618,7 @@ timeCategory: "evening"
 
 
 {
-    name: " Go (1991)",
+    name: "Go (1991)",
     artist: "Moby",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Moby - Go 1991.mp3",
@@ -16615,8 +16631,8 @@ volumeBoost: 0.25
 
 
 {
-    name: " Murphys Law",
-    artist: "Cheri ",
+    name: "Murphys Law (1982)",
+    artist: "Cheri",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Cheri -Murphys Law.mp3",
     timeCategory: "evening",
@@ -16626,7 +16642,7 @@ volumeBoost: 0.25
 },
 
 {
-    name: "  Popcorn Makers",
+    name: "Popcorn Makers",
     artist: "Popcorn ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Popcorn - Popcorn Makers.mp3",
@@ -16637,7 +16653,7 @@ volumeBoost: 0.25
 
 
 {
-    name: "  Energy Flash ",
+    name: "Energy Flash",
     artist: "Joey Beltram  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Joey Beltram - Energy Flash.mp3",
@@ -25316,8 +25332,8 @@ volumeBoost: 0.40
     artist: "Inner City  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Inner City - Big Fun.mp3",
-   timeCategory: "f evening-late"
-
+   timeCategory: "f evening-late",
+volumeBoost: 0.70
 
 
 },
@@ -25405,11 +25421,10 @@ timeCategory: "f evening-late"
     artist: "Katy Perry ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Katy Perry - Nirvana.mp3",
- timeCategory: "f evening-late",
-  eq: { bass: 2, mid: 3, treble: +1 } ,
-volumeBoost: 0.80,
- 
- playcount: 0
+    timeCategory: "f evening-late",
+    eq: { bass: 2, mid: 3, treble: +1 } ,
+    volumeBoost: 1.3,
+    playcount: 0
 },
 
 
