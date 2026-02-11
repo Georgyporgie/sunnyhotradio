@@ -322,46 +322,32 @@ document.addEventListener("DOMContentLoaded", scheduleHourlyFlash);
 
 <br>
 <br>
-<img id= "playlist">
-
-
-
-
+<img id="playlist">
 
 <script>
-function seededRandom(seed) {
-  let x = Math.sin(seed) * 10000;
-  return x - Math.floor(x);
-}
-
-function getDailyRandomImage(images) {
-  const today = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
-  const seed = Number(today.replace(/-/g, ""));        // e.g. 20260209
-  const index = Math.floor(seededRandom(seed) * images.length);
-  return images[index];
-}
-
-// Example usage:
 const images = [
   "images/jazzy05.jpg",
   "images/Monika-Kruse-Dj.jpg",
   "images/jazzy04.jpg",
   "images/jazzy03.jpg",
   "images/jazzy02.jpg",
- "images/Ava Max.png",
- "images/Rihanna.jpg"
+  "images/Dance radio2.png",
+  "images/Ava Max.png",
+  "images/Rihanna.jpg"
 ];
 
-const imageOfTheDay = getDailyRandomImage(images);
-console.log(imageOfTheDay);
+// Days since Jan 1, 1970
+const daysSinceEpoch = Math.floor(Date.now() / (1000 * 60 * 60 * 24));
 
+// Pick image based on day number
+const index = daysSinceEpoch % images.length;
+const imageOfTheDay = images[index];
 
+console.log("Image of the day:", imageOfTheDay);
 
-// Apply it to the <img>
 document.getElementById("playlist").src = imageOfTheDay;
-
-
 </script>
+
 
 
 
@@ -1771,7 +1757,7 @@ function getCurrentTimeCategory() {
     0: { morning:["f afternoon"], afternoon:["f evening"], "special-show":["eighties"], evening:["f evening"], "evening-late":["f evening-late"], late:["f afternoon"], night:["jingle-time"] },
     1: { morning:["morning"], afternoon:["afternoon"], "special-show":["evening"], evening:["evening"], "evening-late":["afternoon"], late:["evening-late"], night:["jingle-time"] },
     2: { morning:["evening-late"], afternoon:["evening"], "special-show":["evening-late"], evening:["afternoon"], "evening-late":["morning"], late:["nineties"], night:["jingle-time"] },
-    3: { morning:["evening-late"], afternoon:["evening"], "special-show":["afternoon"], evening:["afternoon"], "evening-late":["evening-late"], late:["nineties"], night:["jingle-time"] },
+    3: { morning:["evening-late"], afternoon:["evening"], "special-show":["afternoon"], evening:["afternoon"], "evening-late":["seventies"], late:["nineties"], night:["jingle-time"] },
     4: { morning:["morning"], afternoon:["evening-late"], "special-show":["evening"], evening:["afternoon"], "evening-late":["evening-late"], late:["evening"], night:["jingle-time"] },
     5: { morning:["morning"], afternoon:["afternoon"], "special-show":["love"], evening:["evening-late"], "evening-late":["f evening"], late:["f afternoon"], night:["jingle-time"] },
     6: { morning:["f evening"], afternoon:["afternoon"], "special-show":["frankiebones"], evening:["f evening-late"], "evening-late":["f afternoon"], late:["f evening"], night:["jingle-time"] }
