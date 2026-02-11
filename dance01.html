@@ -945,14 +945,13 @@ document.addEventListener("DOMContentLoaded", () => {
     hourlySou:        "audio/its%20now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
     fortyFiveMinuteSou: "muziek/voiceover/Live%20from%20amsterdam2.mp3"
-
   };
 
   // Saturday splits
   const saturdayMorningAudioFiles = {
     hourlySou:        "audio/its%20now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
-    fortyFiveMinuteSou: "muziek/discjockeys/DJ Saphire%20finale.mp3"
+    fortyFiveMinuteSou: "muziek/discjockeys/DJ%20Saphire%20finale.mp3"
   };
 
   const saturdayAfternoonAudioFiles = {
@@ -1440,6 +1439,15 @@ document.addEventListener("DOMContentLoaded", () => {
 <audio id="thirtyFiveMinuteSou">
   <source src="https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic2.mp3" type="audio/mp3">
 </audio>
+
+
+<audio id="fortyFiveMinuteSou">
+  
+</audio>
+
+
+
+
 
 
 
@@ -1998,13 +2006,7 @@ scheduleMidnightReset();
 <script>
 
 
-const timeRanges = [
-  { key: "morning", start: 6, end: 12 },
-  { key: "afternoon", start: 12, end: 17 },
-  { key: "evening", start: 17, end: 21 },
-  { key: "night", start: 21, end: 3 },
-  { key: "late", start: 3, end: 6 }
-];
+
 
 
 
@@ -2123,20 +2125,7 @@ document.addEventListener("DOMContentLoaded", startBadgeLoop);
 
 
 
-function buildDailyPlaylist(allTracks, days = 1) {
-  return allTracks.filter(track => !wasPlayedRecently(track, days));
-}
 
-
-
-  // Step 2: weighted pick from eligible pool
-  const chosen = weightedPick(eligible, mode);
-
-  // Step 3: mark as played
-  markPlayed(chosen);
-
-  return chosen;
-}
 
   const timeRanges = [
       { key: "morning", start: 3, end: 12 },

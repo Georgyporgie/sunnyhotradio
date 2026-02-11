@@ -1587,6 +1587,7 @@ volumeBoost: 0.20
    timeCategory: "seventies",
     quickFade: true,
     volumeBoost: 0.50,
+  eq: { bass: 1, mid: 2, treble: +1 } ,
 playcount: 0
 },
 
@@ -15068,6 +15069,7 @@ volumeBoost: 0.10
     timeCategory: "evening",
     quickFade: true,
     volumeBoost: 0.50,
+    eq: { bass: 1, mid: 2, treble: +1 } ,
 playcount: 0
 },
 
