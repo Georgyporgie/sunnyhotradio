@@ -1287,18 +1287,7 @@ volumeBoost: 0.20,
 
 
 
-{
-    name: "Controversy (12inch)",
-    artist: "Prince",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies10.netlify.app/Prince - Controversy (1981).mp3",
-    playcount: 0,
-    volumeBoost: 0.55,
-eq: { bass: 1, mid: 1, treble: 0 } ,
-timeCategory: "seventies"
 
-
-},
 
 
 
