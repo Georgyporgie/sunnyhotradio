@@ -1991,15 +1991,17 @@ scheduleMidnightReset();
   </div>
 </div>
 
+
+
+
+
+
+
+
+
+
+
 <script>
-
-
-
-
-
-
-
-
 
 // --- Weekend toggle ---
 const isWeekend = [0, 6].includes(new Date().getDay());
@@ -2012,7 +2014,6 @@ function getTimeBounds(range, now) {
   start.setHours(range.start, 0, 0, 0);
   end.setHours(range.end, 0, 0, 0);
 
-  // Handle ranges that cross midnight
   if (range.start > range.end) {
     if (now.getHours() >= range.start) {
       end.setDate(end.getDate() + 1);
@@ -2046,7 +2047,51 @@ const weekendMeta = {
   unknown:       { icon: "🕒", label: "Weekend Mode" }
 };
 
-// --- Main functions ---
+// --- Show rules ---
+const showRules = [
+  { match: /eighties/i, key: "special-show" },
+  { match: /nineties/i, key: "special-show" },
+  { match: /seventies/i, key: "special-show" },
+  { match: /special/i, key: "special-show" },
+  { match: /love generator/i, key: "evening" },
+  { match: /frankie bones/i, key: "evening" },
+  { match: /dance area/i, key: "afternoon" },
+  { match: /disco/i, key: "morning" },
+  { match: /mix/i, key: "evening-late" }
+];
+
+function getShowBadgeKey(text) {
+  for (const rule of showRules) {
+    if (rule.match.test(text)) return rule.key;
+  }
+  return "unknown";
+}
+
+// --- Apply badges to weekly program ---
+document.addEventListener("DOMContentLoaded", () => {
+  const weekendDays = ["saturday", "sunday"];
+
+  document.querySelectorAll(".day").forEach(dayBlock => {
+    const dayName = dayBlock.dataset.day;
+    const isWeekend = weekendDays.includes(dayName);
+
+    const meta = isWeekend ? weekendMeta : badgeMeta;
+
+    dayBlock.querySelectorAll("li").forEach(li => {
+      const text = li.textContent.trim();
+      const key = getShowBadgeKey(text);
+      const badge = meta[key] || meta.unknown;
+
+      const span = document.createElement("span");
+      span.className = "badge";
+      span.textContent = `${badge.icon} ${badge.label} — `;
+
+      li.prepend(span);
+    });
+  });
+});
+
+// --- Time badge logic continues here ---
 function getCurrentCategory(now) {
   if (!Array.isArray(timeRanges)) return "unknown";
 
@@ -2100,14 +2145,13 @@ function startBadgeLoop() {
     updateTimeBadge(category, now);
   }
 
-  tick(); // initial
-  setInterval(tick, 60000); // every minute
+  tick();
+  setInterval(tick, 60000);
 }
 
 document.addEventListener("DOMContentLoaded", startBadgeLoop);
-</script>
 
-<script>
+
 
 
 
