@@ -1759,7 +1759,7 @@ function getCurrentTimeCategory() {
     0: { morning:["f afternoon"], afternoon:["f evening"], "special-show":["eighties"], evening:["f evening"], "evening-late":["nineties"], late:["f afternoon"], night:["jingle-time"] },
     1: { morning:["morning"], afternoon:["afternoon"], "special-show":["nineties"], evening:["evening"], "evening-late":["afternoon"], late:["evening-late"], night:["jingle-time"] },
     2: { morning:["evening-late"], afternoon:["evening"], "special-show":["evening-late"], evening:["afternoon"], "evening-late":["morning"], late:["nineties"], night:["jingle-time"] },
-    3: { morning:["evening-late"], afternoon:["evening"], "special-show":["afternoon"], evening:["afternoon"], "evening-late":["eighties"], late:["eighties"], night:["jingle-time"] },
+    3: { morning:["evening-late"], afternoon:["evening"], "special-show":["afternoon"], evening:["afternoon"], "evening-late":["eighties"], late:["evening-late"], night:["jingle-time"] },
     4: { morning:["morning"], afternoon:["evening-late"], "special-show":["eighties"], evening:["afternoon"], "evening-late":["seventies"], late:["nineties"], night:["jingle-time"] },
     5: { morning:["morning"], afternoon:["afternoon"], "special-show":["love"], evening:["evening-late"], "evening-late":["nineties"], late:["f afternoon"], night:["jingle-time"] },
     6: { morning:["f evening"], afternoon:["afternoon"], "special-show":["frankiebones"], evening:["f evening-late"], "evening-late":["f afternoon"], late:["f evening"], night:["jingle-time"] }
@@ -1793,41 +1793,77 @@ function fadeIn(audioEl, target = 0.8, step = 0.02, interval = 250) {
 }
 
 
-// ————————————————————————————————
-//  SCHEDULE DEFINITIONS
-// ————————————————————————————————
+const weeklySchedule = {
+  monday: [
+    { start: 3,  end: 12, file: "muziek/voiceover/latest%20disco%20hits%20of%20the%20eighties.mp3" },
+    { start: 12, end: 14, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 14, end: 16, file: "https://danceoldies10.netlify.app/Strictly%20nineties%20show.mp3" },
+    { start: 16, end: 19, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 19, end: 21, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 21, end: 3,  file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" }
+  ],
 
-const weekdaySlots = [
-  { start: 8,  end: 14, file: "muziek/discjockeys/starten%20met%20Sunny4.mp3" },
-  { start: 14, end: 16, file: "muziek/voiceover/latest%20disco%20hits%20of%20the%20eighties.mp3" },
-  { start: 16, end: 19, file: "muziek/voiceover/From%20all%20over%20the%20world.mp3" },
-  { start: 19, end: 21, file: "muziek/voiceover/latest%20disco%20hits%20of%20the%20eighties.mp3" },
-  { start: 21, end: 3,  file: "https://danceoldies10.netlify.app/Strictly%20eighties%20show.mp3" },
-  { start: 3,  end: 8,  file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" }
-];
+  tuesday: [
+    { start: 3,  end: 12, file: "muziek/voiceover/latest%20disco%20hits%20of%20the%20eighties.mp3" },
+    { start: 12, end: 14, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 14, end: 16, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 16, end: 19, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 19, end: 21, file: "https://danceoldies10.netlify.app/Strictly%20eighties%20show.mp3" },
+    { start: 21, end: 3,  file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" }
+  ],
 
-const saturdaySlots = [
-  { start: 8,  end: 14, file: "muziek/voiceover/latest%20disco%20hits%20of%20the%20eighties.mp3" },
-  { start: 14, end: 16, file: "https://danceoldies10.netlify.app/starten%20met%20Sunny4.mp3" },
-  { start: 16, end: 19, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
-  { start: 19, end: 23, file: "https://danceoldies10.netlify.app/DJ%20Sapphire%20-%20Good%20Vibes.mp3" },
-  { start: 23, end: 3,  file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
-  { start: 3,  end: 8,  file: "muziek/discjockeys/starten%20met%20Sunny4.mp3" }
-];
+  wednesday: [
+    { start: 3,  end: 12, file: "muziek/voiceover/latest%20disco%20hits%20of%20the%20eighties.mp3" },
+    { start: 12, end: 14, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 14, end: 16, file: "https://danceoldies10.netlify.app/Strictly%20eighties%20show.mp3" },
+    { start: 16, end: 19, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 19, end: 21, file: "https://danceoldies10.netlify.app/Strictly%20eighties%20show.mp3" },
+    { start: 21, end: 3,  file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" }
+  ],
 
-const sundaySlots = [
-  { start: 8,  end: 14, file: "muziek/voiceover/latest%20disco%20hits%20of%20the%20eighties.mp3" },
-  { start: 14, end: 16, file: "https://danceoldies10.netlify.app/Strictly%20eighties%20show.mp3" },
-  { start: 16, end: 19, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
-  { start: 19, end: 23, file: "https://danceoldies10.netlify.app/DJ%20Sapphire%20-%20Good%20Vibes.mp3" },
-  { start: 23, end: 3,  file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
-  { start: 3,  end: 8,  file: "muziek/discjockeys/starten%20met%20Sunny4.mp3" }
-];
+  thursday: [
+    { start: 3,  end: 12, file: "muziek/voiceover/latest%20disco%20hits%20of%20the%20eighties.mp3" },
+    { start: 12, end: 14, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 14, end: 16, file: "https://danceoldies10.netlify.app/Strictly%20eighties%20show.mp3" },
+    { start: 16, end: 19, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 19, end: 21, file: "https://danceoldies10.netlify.app/Strictly%20seventies%20show.mp3" },
+    { start: 21, end: 3,  file: "https://danceoldies10.netlify.app/Strictly%20nineties%20show.mp3" }
+  ],
+
+  friday: [
+    { start: 3,  end: 12, file: "muziek/voiceover/latest%20disco%20hits%20of%20the%20eighties.mp3" },
+    { start: 12, end: 14, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 14, end: 16, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 16, end: 19, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 19, end: 21, file: "https://danceoldies10.netlify.app/Strictly%20nineties%20show.mp3" },
+    { start: 21, end: 3,  file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" }
+  ],
+  saturday: [
+       { start: 3,  end: 12, file: "muziek/voiceover/latest%20disco%20hits%20of%20the%20eighties.mp3" },
+    { start: 12, end: 14, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 14, end: 16, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 16, end: 19, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 19, end: 21, file: "https://danceoldies10.netlify.app/Strictly%20eighties%20show.mp3" },
+    { start: 21, end: 3,  file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" }
+  ],
+
+  sunday: [
+     { start: 3,  end: 12, file: "muziek/voiceover/latest%20disco%20hits%20of%20the%20eighties.mp3" },
+    { start: 12, end: 14, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 14, end: 16, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 16, end: 19, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 19, end: 21, file: "https://danceoldies10.netlify.app/Strictly%20nineties%20show.mp3" },
+    { start: 21, end: 3,  file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" }
+  ],
+};
 
 
-// ————————————————————————————————
-//  MAIN SCHEDULER
-// ————————————————————————————————
+function isInRange(hour, start, end) {
+  if (start < end) {
+    return hour >= start && hour < end;
+  }
+  return hour >= start || hour < end;
+}
 
 window.addEventListener("load", () => {
   const djIntro = document.getElementById("djIntro");
@@ -1835,13 +1871,12 @@ window.addEventListener("load", () => {
 
   const now = new Date();
   const hour = now.getHours();
-  const day = now.getDay();
+  const dayIndex = now.getDay();
 
-  const schedule =
-    day === 6 ? saturdaySlots :
-    day === 0 ? sundaySlots :
-    weekdaySlots;
+  const dayNames = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+  const today = dayNames[dayIndex];
 
+  const schedule = weeklySchedule[today];
   const currentSlot = schedule.find(slot => isInRange(hour, slot.start, slot.end));
 
   if (currentSlot) {
@@ -1859,8 +1894,6 @@ window.addEventListener("load", () => {
     djPlayer.play().catch(err => console.log("Main player can't autoplay:", err));
   }
 });
-
-
 
 
 
