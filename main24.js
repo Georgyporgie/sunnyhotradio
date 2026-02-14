@@ -8150,7 +8150,17 @@ volumeBoost: 0.30
 
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "afternoon",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -8265,7 +8275,17 @@ playcount: 0
 
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "afternoon",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -8404,7 +8424,17 @@ playcount: 0
      timeCategory: "afternoon"
 },
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "afternoon",
+playcount: 0
+   
 
+
+},
 
 {
     name: "One Day In Your Life",
@@ -8622,7 +8652,17 @@ volumeBoost: 0.25
   timeCategory: "afternoon"
 },
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "afternoon",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -8783,7 +8823,17 @@ quickFade: true
 
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "afternoon",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -9003,7 +9053,17 @@ quickFade: true
 },
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "afternoon",
+playcount: 0
+   
 
+
+},
 
 
 {
@@ -14863,7 +14923,17 @@ volumeBoost: 0.20,
 },
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "evening",
+playcount: 0
+   
 
+
+},
 
 
 {
@@ -14980,7 +15050,17 @@ volumeBoost: 0.20
     playcount: 0
 },
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "evening",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -15024,7 +15104,17 @@ playcount: 0
 },
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "evening",
+playcount: 0
+   
 
+
+},
 
 {
     name: " Forever ",
@@ -15166,7 +15256,17 @@ volumeBoost: 0.10
 
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "evening",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -15294,7 +15394,17 @@ volumeBoost: 0.10
 },
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "evening",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -15515,7 +15625,17 @@ isLoud: true,
 
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "evening",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -15787,7 +15907,17 @@ volumeBoost: 0.10
 
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "evening",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -19109,7 +19239,17 @@ volumeBoost:0.10
 
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "evening-late",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -19206,7 +19346,17 @@ volumeBoost: 0.15
 
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "evening-late",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -19533,7 +19683,17 @@ volumeBoost: 0.20
 },
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "evening-late",
+playcount: 0
+   
 
+
+},
 
 
 {
@@ -19597,7 +19757,17 @@ volumeBoost: 0.20
 
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "evening-late",
+playcount: 0
+   
 
+
+},
 
 
  {
@@ -19692,7 +19862,17 @@ volumeBoost: 0.20
 
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "evening-late",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -19966,7 +20146,17 @@ volumeBoost:0.65
 
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "evening-late",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -20064,7 +20254,17 @@ eq: { bass: 1, mid: 0, treble: +1 } ,
       timeCategory: "evening-late"
 },
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "evening-late",
+playcount: 0
+   
 
+
+},
 
 
 {
@@ -22495,8 +22695,8 @@ quickFade: true
 
 
 {
-    name: "  Stay On Me  ",
-    artist: "Sophie Ellis Bextor ",
+    name: "Sacrifice",
+    artist: "Bebe Rexha",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Bebe Rexha - Sacrifice.mp3",
    timeCategory: "f afternoon"
@@ -23590,7 +23790,17 @@ playcount: 0
 
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "f evening",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -23724,7 +23934,17 @@ timeCategory: "f evening"
 
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "f evening",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -23795,7 +24015,17 @@ timeCategory: "f evening"
 
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "f evening",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -23860,7 +24090,17 @@ timeCategory: "f evening"
 },
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "f evening",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -23931,7 +24171,17 @@ timeCategory: "f evening"
 
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "f evening",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -24018,7 +24268,17 @@ timeCategory: "f evening"
 
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "f evening",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -24058,7 +24318,17 @@ timeCategory: "f evening"
 
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "f evening",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -25122,7 +25392,17 @@ volumeBoost: 0.40
  timeCategory: "f evening-late"
 },
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "f evening-late",
+playcount: 0
+   
 
+
+},
 
 
 {
@@ -25270,8 +25550,17 @@ volumeBoost: 0.40
 
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "f evening-late",
+playcount: 0
+   
 
 
+},
 
 
 
@@ -25406,7 +25695,17 @@ volumeBoost: 0.70
 
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "f evening-late",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -25495,7 +25794,17 @@ timeCategory: "f evening-late"
 
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "f evening-late",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -25776,7 +26085,17 @@ timeCategory: "f evening-late"
 
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "f evening-late",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -26051,7 +26370,17 @@ playcount: 0
 
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "f evening-late",
+playcount: 0
+   
 
+
+},
 
 
 
