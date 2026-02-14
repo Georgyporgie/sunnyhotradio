@@ -671,6 +671,7 @@ volumeBoost:0.60,
 
 
 
+
 {
     name: "Bob Sinclair ",
     artist: "Live From Paris ",
@@ -22161,6 +22162,17 @@ timeCategory: "evening-late"
 },
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "f afternoon",
+playcount: 0
+   
+
+
+},
 
 
 
@@ -22343,7 +22355,17 @@ timeCategory: "f-afternoon"
 },
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "f afternoon",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -22526,7 +22548,17 @@ timeCategory: "f-afternoon"
 },
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "f afternoon",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -22766,7 +22798,17 @@ timeCategory: "f-afternoon"
 
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "f afternoon",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -22982,7 +23024,17 @@ playcount: 0
       timeCategory: "f afternoon"
 },
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "f afternoon",
+playcount: 0
+   
 
+
+},
 
 
 {
@@ -23213,7 +23265,17 @@ quickFade: true
 
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "f afternoon",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -23426,7 +23488,17 @@ volumeBoost: 0.70,
 
 
 
+{
+     name: "Broadcast Amsterdam",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "f afternoon",
+playcount: 0
+   
 
+
+},
 
 
 
