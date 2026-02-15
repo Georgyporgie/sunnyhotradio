@@ -1430,7 +1430,10 @@ document.addEventListener("DOMContentLoaded", () => {
   
 </audio>
 
+<audio id="FiftyNineMinuteSou">
+  <source src="https://www.sunnyhotradio.com/muziek/pirate%20background/another hour.mp3" type="audio/mp3">
 
+</audio>
 
 
 
@@ -1525,7 +1528,14 @@ setTimeout(() => {
     setInterval(() => playSound(["fortyFiveMinuteSou"]), 3300000);
   }, Math.max(0, FiftyFiveDelay));
 }
-
+  // Every 59 minutes
+  const FiftyNineDelay =
+    ((59 - (now.getMinutes() % 59)) % 59) * ms - now.getSeconds() * 1000;
+  setTimeout(() => {
+    playSound(["FiftyNineMinuteSou"]);
+    setInterval(() => playSound(["FiftyNineMinuteSou"]), 3540000);
+  }, Math.max(0, FiftyNineDelay));
+}
 
 
 window.onload = scheduleSounds;
