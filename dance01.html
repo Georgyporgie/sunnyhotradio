@@ -103,8 +103,8 @@ body {
     
   <a href="https://sunnyhotradio.com/Index.html">HOME<img id= "dwarf"></a>
 
-    <a href="https://sunnyrockradio.com/Index.html">SUNNY <em>ROCK</em> RADIO<img id= "lin"></a>
-  <a href="https://sunnyjazzradio.com/Index.html">SUNNY <em>JAZZ</em> RADIO<img id= "linger"></a>
+    <a href="https://sunnyrockradio.com/rock01.html">SUNNY <em>ROCK</em> RADIO<img id= "lin"></a>
+  <a href="https://sunnyjazzradio.com/jazz01.html">SUNNY <em>JAZZ</em> RADIO<img id= "linger"></a>
 
 
 
@@ -1517,6 +1517,17 @@ setTimeout(() => {
   }, Math.max(0, fortyEightDelay));
 }
 
+  // Every 55 minutes
+  const FiftyFiveDelay =
+    ((55 - (now.getMinutes() % 55)) % 55) * ms - now.getSeconds() * 1000;
+  setTimeout(() => {
+    playSound(["fortyFiveMinuteSou"]);
+    setInterval(() => playSound(["fortyFiveMinuteSou"]), 3300000);
+  }, Math.max(0, FiftyFiveDelay));
+}
+
+
+
 window.onload = scheduleSounds;
 </script>
 
@@ -1847,7 +1858,7 @@ const weeklySchedule = {
   sunday: [
      { start: 3,  end: 12, file: "muziek/voiceover/latest%20disco%20hits%20of%20the%20eighties.mp3" },
     { start: 12, end: 14, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
-    { start: 14, end: 16, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 14, end: 16, file: "muziek/voiceover/latest%20disco%20hits%20of%20the%20eighties.mp3" },
     { start: 16, end: 19, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
     { start: 19, end: 21, file: "https://danceoldies10.netlify.app/Strictly%20nineties%20show.mp3" },
     { start: 21, end: 3,  file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" }
@@ -2057,12 +2068,12 @@ function getTimeBounds(range, now) {
 
 // --- Metadata ---
 const badgeMeta = {
-  morning:       { icon: "🌅", label: "Latest Disco Hits Of The Eighties" },
-  afternoon:     { icon: "☀️", label: "Latest Hits Of The Dance Area" },
-  evening:       { icon: "🌇", label: "Latest Hits Of The Dance Area" },
-  "evening-late":{ icon: "🌃", label: "Latest Hits Of The Dance Area" },
+  morning:       { icon: "🌅", label: "Sunrise Spin Session" },
+  afternoon:     { icon: "☀️", label: "Daylight Dancefloor" },
+  evening:       { icon: "🌇", label: "Sunset Rhythm Ride" },
+  "evening-late":{ icon: "🌃", label: "Golden Hour Grooves" },
   night:         { icon: "🌙", label: "Starlight Sessions" },
-  late:          { icon: "🦉", label: "Dance Yourself Dizzy!" },
+  late:          { icon: "🦉", label: "Owlhouse Dance Party" },
   "special-show":{ icon: "🎛️", label: "Come Feel The Vibes!" },
   "jingle-time": { icon: "🔔", label: "Owl Hours" },
   unknown:       { icon: "🕒", label: "On Air" }
@@ -2073,8 +2084,8 @@ const weekendMeta = {
   afternoon:     { icon: "🎶", label: "Weekend Dance Flow" },
   evening:       { icon: "🌆", label: "Weekend Night Fever" },
   night:         { icon: "🌙", label: "Late Night Weekend Vibes" },
-  "special-show":{ icon: "🎛️", label: "Live Show" },
-  unknown:       { icon: "🕒", label: "Weekend Mode" }
+  "special-show":{ icon: "🎛️", label: "Live Show!" },
+  unknown:       { icon: "🕒", label: "Airwave Auto‑Pilot" }
 };
 
 // --- Show rules ---
