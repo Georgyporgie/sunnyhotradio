@@ -1387,6 +1387,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+
+ 
+
+
+
+ 
+
+
+
+
 <audio id="hourlySou">
   <source src="audio/its%20now.mp3" type="audio/mp3">
 </audio>
@@ -1404,6 +1414,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+<audio id="thirtyFiveMinuteSou">
+  <source src="https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic2.mp3" type="audio/mp3">
+</audio>
 
 
 
@@ -1417,23 +1430,11 @@ document.addEventListener("DOMContentLoaded", () => {
    <source src="muziek/voiceover/From%20The%20Heart%20Of%20Amsterdam.mp3" type="audio/mp3">
 
 </audio>
-
-
-
-
-<audio id="thirtyFiveMinuteSou">
-  <source src="https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekdaysfinalenopublic2.mp3" type="audio/mp3">
-</audio>
-
-
 <audio id="fortyFiveMinuteSou">
-  
-</audio>
-
-<audio id="FiftyNineMinuteSou">
-  <source src="https://www.sunnyhotradio.com/muziek/pirate%20background/another hour.mp3" type="audio/mp3">
+   
 
 </audio>
+
 
 
 
@@ -1446,7 +1447,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 </script>
-
 <script>
 function playSound(soundIds) {
   soundIds.forEach(id => {
@@ -1488,22 +1488,15 @@ function scheduleSounds() {
     setInterval(() => playSound(["twentyFiveMinuteSou"]), 1680000);
   }, Math.max(0, twentyEightDelay));
 
- 
+  // Every 35 minutes
+  const thirtyFiveMinuteDelay =
+    ((35 - (now.getMinutes() % 35)) % 35) * ms - now.getSeconds() * 1000;
+  setTimeout(() => {
+    playSound(["thirtyFiveMinuteSou"]);
+    setInterval(() => playSound(["thirtyFiveMinuteSou"]), 2100000);
+  }, Math.max(0, thirtyFiveMinuteDelay));
 
-
-// Every 35 minutes
-const thirtyFiveMinuteDelay =
-  ((35 - (now.getMinutes() % 35)) % 35) * ms - now.getSeconds() * 1000;
-
-setTimeout(() => {
-  playSound(["thirtyFiveMinuteSou"]);
-  setInterval(() => playSound(["thirtyFiveMinuteSou"]), 2100000);
-}, Math.max(0, thirtyFiveMinuteDelay));
-
-
-
-
- // Every 37 minutes
+  // Every 37 minutes
   const thirtySevenDelay =
     ((37 - (now.getMinutes() % 37)) % 37) * ms - now.getSeconds() * 1000;
   setTimeout(() => {
@@ -1519,28 +1512,18 @@ setTimeout(() => {
     setInterval(() => playSound(["fortyEightMinuteSou"]), 2880000);
   }, Math.max(0, fortyEightDelay));
 
-
   // Every 55 minutes
-  const FiftyFiveDelay =
+  const fiftyFiveDelay =
     ((55 - (now.getMinutes() % 55)) % 55) * ms - now.getSeconds() * 1000;
   setTimeout(() => {
     playSound(["fortyFiveMinuteSou"]);
     setInterval(() => playSound(["fortyFiveMinuteSou"]), 3300000);
-  }, Math.max(0, FiftyFiveDelay));
+  }, Math.max(0, fiftyFiveDelay));
 
-  // Every 59 minutes
-  const FiftyNineDelay =
-    ((59 - (now.getMinutes() % 59)) % 59) * ms - now.getSeconds() * 1000;
-  setTimeout(() => {
-    playSound(["FiftyNineMinuteSou"]);
-    setInterval(() => playSound(["FiftyNineMinuteSou"]), 3540000);
-  }, Math.max(0, FiftyNineDelay));
-}
-
+} // ← NOW the function closes correctly
 
 window.onload = scheduleSounds;
 </script>
-
 
 
 
@@ -1577,17 +1560,29 @@ window.onload = scheduleSounds;
     const seconds = now.getSeconds();
     const millisecondsToNextHour = ((59 - minutes) * 60 + (60 - seconds)) * 1000;
 
-    // 🔔 Schedule first announcement at top of next hour
+setTimeout(() => {
+  // 1) Play the hourly beep first
+  playSound(["hourlySou"]);
+
+  // 2) Then wait 1 second and play the announcement
+  setTimeout(() => {
+    playAnnouncement(audioElement, currentIndex);
+  }, 1000);
+
+  // 3) Schedule future hours
+  setInterval(() => {
+    currentIndex = (currentIndex + 1) % sources.length;
+
+    playSound(["hourlySou"]);
+
     setTimeout(() => {
       playAnnouncement(audioElement, currentIndex);
+    }, 1000);
 
-      // 🔁 Schedule hourly announcements
-      setInterval(() => {
-        currentIndex = (currentIndex + 1) % sources.length;
-        playAnnouncement(audioElement, currentIndex);
-      }, 3600000); // every hour
-    }, millisecondsToNextHour);
-  }
+  }, 3600000);
+
+}, millisecondsToNextHour);
+}
 
   function playAnnouncement(audioElement, index) {
     const source = sources[index];
@@ -1608,9 +1603,6 @@ window.onload = scheduleSounds;
   // 🕒 Activate hourly announcements
   playHourlyAnnouncement();
 </script>
-
-
-
 
 
 
