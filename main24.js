@@ -8151,7 +8151,7 @@ volumeBoost: 0.30
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -8276,7 +8276,7 @@ playcount: 0
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -8425,7 +8425,7 @@ playcount: 0
 },
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -8653,7 +8653,7 @@ volumeBoost: 0.25
 },
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -8824,7 +8824,7 @@ quickFade: true
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -9054,7 +9054,7 @@ playcount: 0
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -14924,7 +14924,7 @@ volumeBoost: 0.20,
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -15051,7 +15051,7 @@ volumeBoost: 0.20
 },
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -15105,7 +15105,7 @@ playcount: 0
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -15257,7 +15257,7 @@ volumeBoost: 0.10
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -15395,7 +15395,7 @@ playcount: 0
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -15626,7 +15626,7 @@ isLoud: true,
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -15908,7 +15908,7 @@ volumeBoost: 0.10
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -19240,7 +19240,7 @@ volumeBoost:0.10
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -19347,7 +19347,7 @@ volumeBoost: 0.15
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -19684,7 +19684,7 @@ volumeBoost: 0.20
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -19758,7 +19758,7 @@ playcount: 0
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -19863,7 +19863,7 @@ playcount: 0
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -20147,7 +20147,7 @@ volumeBoost:0.65
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -20255,7 +20255,7 @@ eq: { bass: 1, mid: 0, treble: +1 } ,
 },
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -22363,7 +22363,7 @@ timeCategory: "evening-late"
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -22556,7 +22556,7 @@ timeCategory: "f-afternoon"
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -22749,7 +22749,7 @@ timeCategory: "f-afternoon"
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -22999,7 +22999,7 @@ timeCategory: "f-afternoon"
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -23225,7 +23225,7 @@ playcount: 0
 },
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -23466,7 +23466,7 @@ quickFade: true
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -23689,7 +23689,7 @@ volumeBoost: 0.70,
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -23791,7 +23791,7 @@ playcount: 0
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -23935,7 +23935,7 @@ timeCategory: "f evening"
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -24016,7 +24016,7 @@ timeCategory: "f evening"
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -24091,7 +24091,7 @@ timeCategory: "f evening"
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -24172,7 +24172,7 @@ timeCategory: "f evening"
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -24269,7 +24269,7 @@ playcount: 0
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -24319,7 +24319,7 @@ playcount: 0
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -25393,7 +25393,7 @@ volumeBoost: 0.40
 },
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -25551,7 +25551,7 @@ playcount: 0
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -25696,7 +25696,7 @@ volumeBoost: 0.70
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -25795,7 +25795,7 @@ timeCategory: "f evening-late"
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -26086,7 +26086,7 @@ timeCategory: "f evening-late"
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -26371,7 +26371,7 @@ playcount: 0
 
 
 {
-     name: "Broadcast Amsterdam",
+     name: "Broadcast Amsterdam☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
