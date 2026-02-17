@@ -1594,6 +1594,16 @@ playcount: 0
 },
 
 
+{
+    name: "Too Hot (12inch)",
+    artist: "Kool And The Gang",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Kool and the gang - Too hot.mp3",
+    playcount: 0,
+timeCategory: "seventies"
+
+
+},
 
 
 {
@@ -1602,11 +1612,199 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Splendor - All night long.mp3",
   volumeBoost:0.55,
-
-
-      timeCategory: "seventies"
+  timeCategory: "seventies"
 },
 
+
+{
+    name: " Let Me Show You (Ruud Remix)",
+    artist: "Jacksons",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Jacksons - Let me show you (Ruud Remix).mp3",
+timeCategory: "seventies",
+volumeBoost: 0.35
+},
+
+{
+    name: "Spacer (1979)",
+    artist: "Sheila B Devotion",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Sheila B Devotion - Spacer.mp3",
+timeCategory: "seventies",
+volumeBoost: 0.35
+
+},
+
+
+
+{
+    name: " Pipeline (1977)",
+    artist: "Bruce Johnston  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Bruce Johnston- Pipeline.mp3",
+ timeCategory: "seventies",
+volumeBoost: 0.35
+},
+
+
+{
+    name: "Best Of My Love",
+    artist: "T-Connection",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/T-Connection - Best of my Love.mp3",
+           timeCategory: "seventies",
+quickFade: true,
+volumeBoost: 0.40
+},
+
+
+{
+    name: "I Wanna Be Your Lover (12inch)",
+    artist: "Prince",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Prince - I wanna be your lover.mp3",
+  volumeBoost: 0.35,
+  timeCategory: "seventies"
+},
+
+{
+     name: "Funky President (1974)",
+    artist: "James Brown",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/James Brown - Funky president.mp3",
+        timeCategory: "seventies",
+  volumeBoost: 0.45
+},
+
+{
+    name: "    Mellow Mellow Right On  ",
+    artist: "Lowrell ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Lowrell - Mellow Mellow Right On.mp3",
+   timeCategory: "seventies"
+},
+
+
+
+{
+    name: " Do What You Wanna Do ",
+    artist: "T - Connection ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/T - Connection - Do What You Wanna Do.mp3",
+    timeCategory: "seventies"
+},
+
+{
+    name: " Stellar Funk (1978)",
+    artist: "Slave  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Slave - Stellar Funk (1978).mp3",
+      volumeBoost: 0.50,
+      eq: { bass: 1, mid: 1, treble: +1 } ,
+playcount: 0,
+   timeCategory: "seventies",
+quickFade: true
+},
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Honey I'm Rich",
+    artist: "Ray Parker Junior",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Ray Parker jr -Honey I'm rich.mp3",
+        timeCategory: "seventies",
+    quickFade: true,
+    volumeBoost: 0.75,
+    playcount: 0
+},
+
+
+{
+    name: "Jack & Jill",
+    artist: "Ray Parker Junior",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Ray Parker jr - Jack & Jill.mp3",
+        timeCategory: "seventies",
+    quickFade: true,
+    volumeBoost: 0.75,
+    playcount: 0
+},
+
+
+{
+    name: "A Walk In The Park ",
+    artist: "Nick Straker ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Nick Straker Band - A walk in the park 7inch.mp3",
+    timeCategory: "seventies",
+    quickFade: true,
+    playcount: 0
+},
+
+  
+
+{
+    name: " Saturday Night (12inch)",
+    artist: "T-Connection ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/T-Connection - Saturday Night.mp3",
+      volumeBoost: 0.55,
+timeCategory: "seventies"
+
+},
+
+
+{
+    name: " You Know How To (12inch)",
+    artist: "Phyllis Hyman  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Phyllis Hyman - You Know How To Love Me (12inch).mp3",
+  timeCategory: "seventies",
+quickFade: true,
+volumeBoost: 0.25
+},
+{
+    name: "Gimme That Funk (1978)",
+    artist: "Dennis Coffey  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnyhotradio.com/muziek/oldies07/Dennis Coffey - Gimme That Funk (1978).mp3",
+    timeCategory: "seventies"
+
+
+},
+
+{
+     name: " Can t Fake The Feeling",
+    artist: "Geraldine Hunt ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Geraldine Hunt - Can t Fake The Feeling.mp3",
+    timeCategory: "seventies",
+     quickFade: true,
+    volumeBoost: 1.0,
+    playcount: 0
+},
+
+
+{
+     name: "   I Am Allright",
+    artist: "Narada Michael Walden  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Narada Michael Walden - Tonight I Am Allright.mp3",
+    timeCategory: "seventies",
+      volumeBoost: 0.80,
+     eq: { bass: 2, mid: 2, treble: +2 } ,
+playcount: 0
+},
 
 
 
@@ -1615,7 +1813,14 @@ playcount: 0
 //strictly eighties show
 
 
-
+{
+    name: "Just The Way You Like It (12inch)",
+    artist: "Sos Band  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Sos Band Just the way youn like it.mp3",
+        timeCategory: "eighties",
+volumeBoost: 0.30
+},
 
 
 {
@@ -1628,7 +1833,16 @@ timeCategory: "eighties",
   volumeBoost: 0.40
 },
 
-
+{
+    name: "You Can t Change That",
+    artist: "Ray Parker Junior",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Ray Parker jr -You can t change that.mp3",
+        timeCategory: "eighties",
+    quickFade: true,
+    volumeBoost: 0.75,
+    playcount: 0
+},
 
 
 {
@@ -1652,6 +1866,29 @@ volumeBoost: 0.30
 
 },
 
+
+{
+    name: "A Woman Needs Love",
+    artist: "Ray Parker Junior",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Ray Parker jr - A woman needs love.mp3",
+        timeCategory: "eighties",
+    quickFade: true,
+    volumeBoost: 0.75,
+      eq: { bass: 2, mid: 2, treble: +1 } ,
+volumeBoost: 0.75,
+playcount: 0
+
+},
+
+{
+    name: " Oh Sheila",
+    artist: "Ready For The World ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Ready For The World - Oh Sheila.mp3",
+  
+   timeCategory: "eighties"
+},
 
 {
     name: "  Thriller ",
@@ -1713,7 +1950,16 @@ volumeBoost: 0.30
   playcount: 0
 },
 
-
+{
+    name: "   The Finest   ",
+    artist: "SOS Band ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/SOS Band - The Finest (DJ'S Remix).mp3",
+    timeCategory: "eighties",
+   quickFade: true,
+    volumeBoost: 0.15,
+    playcount: 0
+},
 
 
 {
@@ -1727,10 +1973,29 @@ timeCategory: "eighties",
 },
 
 
+{
+    name: "  Beat Dis (1987) ",
+    artist: "Bomb The Base  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Bomb The Base - Beat Dis.mp3",
+      playcount: 0,
+timeCategory: "eighties"
+ 
 
 
+},
 
 
+{
+    name: "Love Come Down (classic)",
+    artist: "Evelyn King ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Evelyn King - Love come down.mp3",
+     timeCategory: "eighties",
+    quickFade: true,
+   playcount: 0,
+   volumeBoost: 0.35
+},
 
 
 
@@ -1800,6 +2065,16 @@ timeCategory: "eighties"
 
 
 
+{
+    name: " I Can't Wait (1985)",
+    artist: "NU Shooz ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Let op.mp3",
+         timeCategory: "eighties",
+     quickFade: true,
+    volumeBoost: 0.55,
+    playcount: 0
+},
 
 
 {
@@ -1827,6 +2102,15 @@ volumeBoost: 0.30
 },
 
 
+{
+    name: "Money's Too Tight (12inch)",
+    artist: "Simply Red",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Simply Red - Money's too tight (to mention).mp3",
+      timeCategory: "eighties",
+volumeBoost: 0.45,
+playcount: 0
+},
 
 
 
@@ -1975,6 +2259,16 @@ timeCategory: "eighties",
 
 
 
+{
+    name: "  Right on ",
+    artist: " The pasadenas  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/The pasadenas - Right on.mp3",
+    timeCategory: "eighties",
+  eq: { bass: 0, mid: 1, treble: 0 } ,
+    volumeBoost: 0.45
+},
+
 
 
 {
@@ -2045,7 +2339,15 @@ quickFade: true
 
 
 
-
+{
+    name: " Specialize In love ",
+    artist: "Sharon Brown ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Sharon Brown Specialize in love.mp3",
+     playcount: 0,
+timeCategory: "eighties",
+  volumeBoost: 0.40
+},
 
 
 
@@ -2107,11 +2409,27 @@ volumeBoost: 0.15
 
 
 
+{
+    name: "  I Want Her",
+    artist: "Keith Sweat ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Keith Sweat - I Want Her.mp3",
+quickFade: true,
+  playcount: 0,
+timeCategory: "eighties",
+  volumeBoost: 0.30
+},
 
 
 
 
-
+{
+    name: "Promised Land (12inch)",
+    artist: "Joe Smooth",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Joe Smooth - Promised Land.mp3",
+    timeCategory: "eighties",
+},
 
 
 
@@ -2146,7 +2464,216 @@ volumeBoost: 0.10
 },
 
 
+{
+    name: " You Cant Hide ",
+    artist: "David Joseph  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/David Joseph - You Cant Hide (Your Love From Me).mp3",
+     timeCategory: "eighties",
+    quickFade: true,
+  playcount: 0,
+  volumeBoost: 0.35
+},
 
+
+
+{
+    name: "Stomp! (Album Version) ",
+    artist: "The Brothers Johnson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/THE BROTHERS JOHNSON - Stomp! (Album Version) HQ.mp3",
+         timeCategory: "eighties",
+volumeBoost: 0.40
+},
+
+
+
+
+
+
+{
+    name: "  Diamonds (12inch)",
+    artist: "Herb  Alpert  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Herb  Alpert - Diamonds.mp3",
+          timeCategory: "eighties",
+volumeBoost: 0.30
+},
+
+
+
+
+{
+    name: "   Keep On Movin'",
+    artist: "Soul II Soul ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Soul II Soul - Keep on movin'.mp3",
+       timeCategory: "eighties",
+volumeBoost: 0.25
+},
+
+
+{
+    name: " Risin To The Top (1982)",
+    artist: "Kenny Burke  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Kenny Burke - Risin to the Top.mp3",
+           timeCategory: "eighties",
+     quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
+},
+
+
+
+{
+    name: "  Magic's Wand (1982) ",
+    artist: "Whodini  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Whodini - Magic's Wand.mp3",
+  timeCategory: "eighties",
+volumeBoost: 0.25
+
+},
+
+
+{
+    name: " In The Forest (1980)",
+    artist: " Baby O  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Baby O - In The Forest.mp3",
+        timeCategory: "eighties",
+volumeBoost: 0.35
+
+
+
+},
+
+{
+    name: "Glow Of Love (1980)",
+    artist: "Change ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Change - Glow Of Love.mp3",
+         
+timeCategory: "eighties",
+volumeBoost: 0.40
+},
+
+
+{
+    name: " All Around The World (1989)",
+    artist: "Lisa Stansfield  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Lisa Stansfield - All Around the World.mp3",
+ timeCategory: "eighties",
+volumeBoost: 0.25
+},
+
+
+
+{
+    name: " People Are People",
+    artist: "Depeche Mode ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Depeche mode- People are people.mp3",
+           timeCategory: "eighties",
+     quickFade: true,
+    volumeBoost: 0.40,
+    playcount: 0
+},
+
+
+{
+    name: "  Encore (maxi)  ",
+    artist: "Cheryl Lynn ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Cheryl Lynn - Encore (maxi).mp3",
+   timeCategory: "eighties",
+     quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
+},
+
+{
+     name: "   Fresh",
+    artist: " Kool & The Gang",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Kool & The Gang -  Fresh.mp3",
+           timeCategory: "eighties"
+},
+
+
+{
+    name: " Everything She Wants",
+    artist: "Wham  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Wham - Everything She Wants.mp3",
+    timeCategory: "eighties"
+},
+
+{
+    name: " Can't Wait Another Minute ",
+    artist: "Five Star ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Five Star - Can't Wait Another Minute.mp3",
+    timeCategory: "eighties",
+    volumeBoost: 0.20,
+    playcount: 0
+},
+
+
+
+{
+    name: "I'll Be Good",
+    artist: "Rene &  Angela",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Rene &  Angela - I'll be good.mp3",
+    timeCategory: "eighties",
+    quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
+},
+
+
+{
+    name: "Never Can Say Goodbye (12inch)",
+    artist: "Communards",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Communards - Never can say goodbye 12inch.mp3",
+    timeCategory: "eighties",
+  quickFade: true
+},
+
+
+{
+    name: " Live To Tell (1986) ",
+    artist: "Madonna  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Madonna - Live To Tell (1986).mp3",
+ timeCategory: "eighties",
+isLoud: true,          
+  loudnessValue: 0.80 
+},
+
+
+{
+    name: " Wild Girls",
+    artist: "Klymaxx",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Wild Girls - Klymaxx.mp3",
+    timeCategory: "eighties"
+},
+
+{
+    name: "  Another Man (1984)",
+    artist: "Barbara Mason",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Barbara Mason - Another Man.mp3",
+   timeCategory: "eighties",
+      quickFade: true,
+    volumeBoost: 0.55,
+    playcount: 0
+},
 
 
 
@@ -2209,17 +2736,6 @@ timeCategory: "nineties",
 
 
 
-{
-    name: "  I Want Her",
-    artist: "Keith Sweat ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Keith Sweat - I Want Her.mp3",
-   timeCategory: "morning",
-quickFade: true,
-  playcount: 0,
-timeCategory: "morning",
-  volumeBoost: 0.30
-},
 
 {
     name: "Strictly Nineties Jingle",
@@ -2499,6 +3015,138 @@ volumeBoost: 0.20
 
 
 
+{
+     name: "   Natural Thing  ",
+    artist: "Innocence ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Innocence - Natural Thing.mp3",
+      timeCategory: "nineties",
+ volumeBoost: 0.35
+
+},
+
+
+
+{
+    name: "Groove Is In The Heart",
+    artist: "Deee-Lite   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Deee-Lite - Groove Is In The Heart.mp3",
+        timeCategory: "nineties",
+     quickFade: true,
+    volumeBoost: 0.55,
+    playcount: 0
+},
+
+
+
+{
+    name: "Around The World ",
+    artist: "Daft Punk ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Daft Punk - Around The World.mp3",
+        timeCategory: "nineties",
+     quickFade: true,
+     eq: { bass: 1, mid: 1, treble: +1 } ,
+ volumeBoost: 0.45,
+    playcount: 0
+},
+
+
+
+
+{
+    name: "Right Here ",
+    artist: "SWV ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/SWV - Right Here.mp3",
+        timeCategory: "nineties",
+volumeBoost: 0.25,
+playcount: 0
+},
+
+
+{
+    name: " Crazy",
+    artist: "Seal ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Seal - Crazy.mp3",
+      timeCategory: "nineties",
+     quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
+},
+
+
+{
+    name: " Killer",
+    artist: "Seal ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Adamski, Seal- Killer (1990).mp3",
+      timeCategory: "nineties",
+     quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
+},
+
+
+{
+    name: "  Regulate ",
+    artist: "Warren G",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Warren G - Regulate.mp3",
+   timeCategory: "nineties"
+},
+
+
+{
+    name: "What Is Love",
+    artist: "Deeelite ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Deeelite - What Is Love.mp3",
+     timeCategory: "nineties",
+volumeBoost: 0.35
+},
+
+
+
+{
+    name: "  On A Ragga Tip",
+    artist: "SL2",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/SL2 - On A Ragga Tip.mp3",
+   timeCategory: "nineties"
+ },
+
+
+
+
+{
+     name: "  Music Sounds Better With You",
+    artist: "Stardust ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Stardust - Music Sounds Better With You.mp3",
+    timeCategory: "nineties",
+  volumeBoost: 0.80,
+quickFade: true,
+ playcount: 0
+},
+
+
+{
+    name: " Scream",
+    artist: "Michael Jackson & Janet Jackson  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Michael Jackson , Janet Jackson -  Scream.mp3",
+   timeCategory: "nineties"
+ },
+
+
+
+
+//frankiebones
+
+
 
 
 {
@@ -2603,6 +3251,7 @@ volumeBoost: 0.20
 
 
 
+//morning
 
 
 
@@ -2891,7 +3540,6 @@ timeCategory: "morning"
 
 
 
-
 {
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️ ",
@@ -3076,7 +3724,6 @@ timeCategory: "morning",
    timeCategory: "morning",
 quickFade: true,
   playcount: 0,
-timeCategory: "morning",
   volumeBoost: 0.30
 },
 
@@ -4306,12 +4953,11 @@ timeCategory: "morning"
      timeCategory: "morning",
     quickFade: true,
   playcount: 0,
-
   volumeBoost: 0.35
 },
 
 
-
+ 
 
 
 
@@ -4604,7 +5250,8 @@ quickFade: true
     artist: "Joe Smooth",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Joe Smooth - Promised Land.mp3",
-       timeCategory: "morning"
+       
+timeCategory: "morning"
 
 
 },
@@ -7151,9 +7798,7 @@ quickFade: true
     artist: "Katy Perry ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic07.netlify.app/Katy Perry - Lifetimes.mp3",
-  
-
-
+    volumeBoost: 0.55,
   timeCategory: "afternoon"
 },
 
@@ -7311,14 +7956,7 @@ volumeBoost: 0.30
 volumeBoost: 0.30
 },
 
-{
-     name: " I LIke Ur Look    ",
-    artist: "Kim Petras    ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Kim Petras  - I LIke Ur Look.mp3",
-           timeCategory: "afternoon",
-  playcount: 0
-},
+
 
 
 {
@@ -8265,7 +8903,7 @@ quickFade: true
     path: "https://jazzmusic05.netlify.app/Ray Parker Junior - Still in the groove.mp3",
         timeCategory: "afternoon",
     quickFade: true,
-    volumeBoost: 0.75,
+    volumeBoost: 0.95,
       eq: { bass: 2, mid: 2, treble: +1 } ,
 playcount: 0
 },
@@ -8314,16 +8952,7 @@ playcount: 0
 
 
   
-{
-    name: "You Can t Change That",
-    artist: "Ray Parker Junior",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Ray Parker jr -You can t change that.mp3",
-        timeCategory: "afternoon",
-    quickFade: true,
-    volumeBoost: 0.75,
-    playcount: 0
-},
+
 
 
 
@@ -9988,7 +10617,7 @@ playcount: 0
     path: "muziek/oldies07/Barbara Mason - Another Man.mp3",
    timeCategory: "afternoon",
       quickFade: true,
-    volumeBoost: 0.15,
+    volumeBoost: 0.55,
     playcount: 0
 },
 
@@ -13211,7 +13840,8 @@ quickFade: true,
     artist: "SG Lewis",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/SG Lewis - Lifetime.mp3",
-      timeCategory: "evening"
+     
+ timeCategory: "evening"
 },
 
 
@@ -23555,7 +24185,7 @@ quickFade: true,
     artist: "Katy Perry ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic07.netlify.app/Katy Perry - Lifetimes.mp3",
-  
+  volumeBoost: 0.55,
 
 
   timeCategory: "f afternoon"
