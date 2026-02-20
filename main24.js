@@ -545,7 +545,7 @@ volumeBoost:0.50,
     path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 01.mp3",
     timeCategory: "love",
 
-  eq: { bass: 2, mid: 3, treble: 2 } ,
+  eq: { bass: 2, mid: 3, treble: 3 } ,
 volumeBoost:0.60,
    playcount: 0
 },
@@ -558,7 +558,7 @@ volumeBoost:0.60,
     path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 02.mp3",
     timeCategory: "love",
 
-  eq: { bass: 2, mid: 3, treble: 2 } ,
+  eq: { bass: 2, mid: 3, treble: 3 } ,
 volumeBoost:0.60,
    playcount: 0
 },
@@ -569,7 +569,7 @@ volumeBoost:0.60,
     path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 03.mp3",
     timeCategory: "love",
 
-  eq: { bass: 2, mid: 3, treble: 2 } ,
+  eq: { bass: 2, mid: 3, treble: 3 } ,
 volumeBoost:0.60,
    playcount: 0
 },
@@ -581,7 +581,7 @@ volumeBoost:0.60,
     path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 04.mp3",
     timeCategory: "love",
 
-  eq: { bass: 2, mid: 3, treble: 2 } ,
+  eq: { bass: 2, mid: 3, treble: 3 } ,
 volumeBoost:0.60,
    playcount: 0
 },
@@ -593,7 +593,7 @@ volumeBoost:0.60,
     path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 05.mp3",
     timeCategory: "love",
 
-  eq: { bass: 2, mid: 3, treble: 2 } ,
+  eq: { bass: 2, mid: 3, treble: 3 } ,
 volumeBoost:0.60,
    playcount: 0
 },
@@ -606,7 +606,7 @@ volumeBoost:0.60,
     path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 06.mp3",
     timeCategory: "love",
 
-  eq: { bass: 2, mid: 3, treble: 2 } ,
+  eq: { bass: 2, mid: 3, treble: 3 } ,
 volumeBoost:0.60,
    playcount: 0
 },
@@ -1294,7 +1294,7 @@ volumeBoost: 0.20,
 
 {
      name: "Welcome! todays program☀️",
-    artist: "Listen Live Sunny Jazzradio",
+    artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/jingles/Sunny radio jingle4.mp3",
  
@@ -1315,7 +1315,7 @@ volumeBoost: 0.20,
 
 {
      name: "Welcome! todays program☀️",
-    artist: "Listen Live Sunny Jazzradio",
+    artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
  
@@ -1326,7 +1326,7 @@ volumeBoost: 0.20,
 
 {
      name: "Welcome! todays program☀️",
-    artist: "Listen Live Sunny Jazzradio",
+    artist: "Listen Live Sunny Danceradio",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
  
@@ -1337,7 +1337,7 @@ volumeBoost: 0.20,
 
 {
     name: "Welcome!",
-    artist: "Sunny Jazzradio  ",
+    artist: "Sunny Danceradio  ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
  timeCategory: "seventies"
@@ -1804,6 +1804,228 @@ volumeBoost: 0.25
       volumeBoost: 0.80,
      eq: { bass: 2, mid: 2, treble: +2 } ,
 playcount: 0
+},
+
+{
+    name: " Yes Sir  I Can Boogie ",
+    artist: "Baccara",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Baccara - Yes Sir  I Can Boogie.mp3",
+     timeCategory: "seventies"
+ },
+
+
+
+
+
+
+
+
+{
+    name: "  You and I (1979)",
+    artist: "Delegation   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Delegation - You and I.mp3",
+    timeCategory: "seventies"
+
+
+},
+
+
+
+
+{
+     name: " Try It Out",
+    artist: "Gino Soccio ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Gino Soccio - Try It Out (maxi).mp3",
+    timeCategory: "seventies",
+       eq: { bass: 1, mid: 3, treble: +1 } ,
+quickFade: true,
+    volumeBoost: 0.95,
+    playcount: 0
+},
+
+
+
+
+
+
+{
+     name: " Don t Stop Till",
+    artist: "Michael Jackson ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Michael Jackson - Don t Stop Till.mp3",
+    timeCategory: "seventies",
+   quickFade: true,
+   playcount: 0,
+ eq: { bass:1, mid: 1, treble: 0 } ,
+volumeBoost: 0.30
+},
+
+
+
+
+{
+    name: " Rock It (12inch)",
+    artist: "Lipps Inc ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Lipps Inc - Rock It (12inch).mp3",
+    timeCategory: "seventies",
+  volumeBoost: 0.10
+},
+
+
+
+{
+    name: " Dance 1978",
+    artist: "Sylvester",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Sylvester- Dance 1978.mp3",
+   timeCategory: "seventies",
+  volumeBoost: 0.60
+},
+
+{
+    name: "K-Jee",
+    artist: "MFSB  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/MFSB - K-Jee.mp3",
+         timeCategory: "seventies"
+},
+
+
+
+{
+    name: " Dancer (1979) ",
+    artist: "Gino Soccio ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Gino Soccio - Dancer (1979).mp3",
+     timeCategory: "seventies"
+},
+
+
+{
+    name: "Summer Madness (12inch)",
+    artist: "Kool And The Gang",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Kool and the gang - Summer Madness.mp3",
+        timeCategory: "seventies"
+},
+
+
+
+
+
+
+{
+    name: " Sexy Thing",
+    artist: "Hot Chocolate ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Hot Chocolate - Sexy Thing.mp3",
+     timeCategory: "seventies"
+},
+
+
+
+{
+  
+    name: "Spank (1979) ",
+    artist: "Jimmy Bo Horne  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Jimmy Bo Horne - Spank (1979).mp3",
+timeCategory: "seventies",
+     quickFade: true,
+    volumeBoost: 0.25,
+   eq: { bass: 0, mid: 2, treble: +1 } 
+},
+
+
+
+{
+  
+    name: " TSOP",
+    artist: "MFSB  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/MFSB - TSOP.mp3",
+timeCategory: "seventies",
+     quickFade: true,
+    volumeBoost: 0.25,
+   eq: { bass: 0, mid: 2, treble: +1 } 
+},
+
+
+
+{
+     name: "La Vie En Rose ",
+    artist: "Grace Jones",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://soulfullforever.netlify.app/Grace Jones - La Vie En Rose.mp3",
+  timeCategory: "seventies",
+  eq: { bass: 2, mid: 2, treble: +1 } ,
+    quickFade: true,
+    volumeBoost: 0.45
+},
+
+
+
+
+
+{
+     name: "  Souvenirs",
+    artist: "Voyage ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://soulfullforever.netlify.app/Voyage - Souvenirs.mp3",
+   timeCategory: "seventies"
+
+},
+
+
+
+{
+    name: " Home Fires Burnin'",
+    artist: "Millie Jackson ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://sunnyjazzradio/muziek/muziek04/Millie Jackson - Keep The Home Fires Burnin'.mp3",
+    timeCategory: "seventies",
+   volumeBoost: 0.25,
+    playcount: 0
+},
+
+
+{
+     name: " From East to West ",
+    artist: "Voyage ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://soulfullforever.netlify.app/Voyage - From East to West.mp3",
+    eq: { bass: 1, mid: 2, treble: 0 } ,
+volumeBoost: 0.85,
+timeCategory: "seventies"
+
+
+},
+
+{
+    name: "   What Cha Gonna Do For Me ",
+    artist: " Chaka Khan",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://jazzmusic04.netlify.app/Chaka Kahn - What Cha Gonna Do For Me.mp3",
+       timeCategory: "seventies"
+
+},
+
+
+
+
+{
+     name: "  Here Comes That Sound ",
+    artist: "Lovedeluxe ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Lovedeluxe - Here Comes That Sound.mp3",
+    timeCategory: "seventies",
+    quickFade: true,
+    volumeBoost: 0.75,
+    playcount: 0
 },
 
 
@@ -2670,20 +2892,429 @@ isLoud: true,
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Barbara Mason - Another Man.mp3",
    timeCategory: "eighties",
-      quickFade: true,
+   quickFade: true,
+   volumeBoost: 0.65,
+   eq: { bass: 1, mid: 2, treble: 1 } ,
+   playcount: 0
+},
+
+
+
+{
+    name:  "Do You wanna Funk",
+    artist: "Sylvester",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Sylvester- Do You wanna Funk.mp3",
+     timeCategory: "eighties"
+ },
+
+
+{
+    name: "No One's Gonna Love You (1984)",
+    artist: "SOS Band ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/SOS Band - No One's Gonna Love You (1984).mp3",
+    timeCategory: "eighties"
+},
+
+{
+     name: " Take Me To The Top",
+    artist: "Advance ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Advance - Take me to the top.mp3",
+   timeCategory: "eighties",
+volumeBoost: 0.30
+
+},
+
+
+
+
+{
+     name: " Walking On Sunshine ",
+    artist: "Rockers Revenge ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Rockers Revenge - Walking On Sunshine (12inch).mp3",
+   timeCategory: "eighties",
+     quickFade: true,
     volumeBoost: 0.55,
+    playcount: 0,
+  eq: { bass: 2, mid: 1, treble: +1 }
+},
+
+
+{
+    name: "   Inside Out ",
+    artist: "Odyssey",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Odyssey - Inside Out.mp3",
+  timeCategory: "eighties",
+     quickFade: true,
+  volumeBoost: 0.45,
+      eq: { bass: 0, mid: 1, treble: +1 } ,
+playcount: 0
+
+},
+
+
+
+{
+    name: "   Good Times  ",
+    artist: "Chic vs Sugarhill Gang ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Chic vs Sugarhill Gang - Good Times.mp3",
+  timeCategory: "eighties",
+     quickFade: true,
+  volumeBoost: 0.10,
+    playcount: 0,
+  eq: { bass: 1, mid: 1, treble: +1 } 
+},
+
+
+
+
+{
+    name: " Last Night A DJ (maxi)",
+    artist: "InDeep ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/InDeep - Last Night A DJ (maxi).mp3",
+  timeCategory: "eighties",
+     quickFade: true,
+  volumeBoost: 0.75,
     playcount: 0
+
+},
+
+{
+    name: " Yah Mo B There",
+    artist: "James Ingram  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/James Ingram - Yah Mo B There.mp3",
+  timeCategory: "eighties",
+     quickFade: true,
+  volumeBoost: 0.45,
+    playcount: 0
+
+},
+
+
+{
+    name: " In My House (1984)",
+    artist: "Mary Jane Girls  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Mary Jane Girls - In My House.mp3",
+     timeCategory: "eighties",
+volumeBoost:  0.20
+},
+
+
+{
+    name: " I O U (1983) ",
+    artist: "Freeez ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Freeez - IOU.mp3",
+    timeCategory: "eighties"
+
+
+},
+
+
+
+{
+    name: " Juicy Fruit",
+    artist: "Mtume ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Mtume - Juicy Fruit.mp3",
+  quickFade: true,
+volumeBoost: 0.75,
+  eq: { bass: 1, mid: 1, treble: +2 } ,
+   timeCategory: "eighties"
+},
+
+
+{
+    name: "  Can You Feel It (1986)",
+    artist: "Mr Fingers ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Mr Fingers - Can you feel it.mp3",
+    timeCategory: "eighties"
+},
+
+{
+     name: "  Still In Love",
+    artist: "Rose Royce ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://soulfullforever.netlify.app/Rose Royce Still in love.mp3",
+         timeCategory: "eighties",
+  volumeBoost: 0.60,
+quickFade: true
+},
+
+
+
+{
+     name: " Push It (1987)",
+    artist: "Salt n Pepa ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Salt n Pepa - Push It (1987).mp3",
+    timeCategory: "eighties",
+ eq: { bass:0, mid: 1, treble: 0 } ,
+volumeBoost: 0.40
+},
+
+{
+     name: " Best Love",
+    artist: "Rose Royce ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Rose Royce - Best Love (single).mp3",
+         timeCategory: "eighties",
+  eq: { bass: +2, mid: 2, treble: +2 } ,
+playcount: 0,
+volumeBoost: 0.60
+},
+
+
+
+
+{
+    name: " Come Into My Life (1987)",
+    artist: "Joyce Sims ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Joyce Sims - Come Into My Life.mp3",
+    timeCategory: "eighties",
+quickFade: true,
+  volumeBoost: 0.25
+},
+
+
+{
+     name: "I Like (single)",
+    artist: "Young & Company ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://soulfullforever.netlify.app/Young & Company - I Like (single).mp3",
+        timeCategory: "eighties",
+   quickFade: true,
+    volumeBoost: 0.75,
+    playcount: 0
+},
+
+
+{
+    name: " Can You Handle It",
+    artist: "Sharon Redd ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Sharon Redd Can you handle it.mp3",
+    timeCategory: "eighties"
+},
+
+
+
+{
+    name: "I Like It (Blowout dub)",
+    artist: "Landlord",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Landlord - I like it (Blowout dub).mp3",
+    timeCategory: "eighties"
+},
+
+{
+    name: "Rainforest (12inch)",
+    artist: "Paul Hardcastle",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Paul Hardcastle - Rainforest.mp3",
+        timeCategory: "eighties"
+},
+
+
+
+
+{
+    name: "Personal Jesus ",
+    artist: "Depeche Mode",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Depeche Mode - Personal Jesus.mp3",
+      timeCategory: "eighties"
+},
+
+{
+    name: " I Hear Music (1980)",
+    artist: "Unlimited Touch ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Unlimited Touch - I hear music.mp3",
+     timeCategory: "eighties",
+  eq: { bass: 2, mid: 2, treble: +1 }
+
+
+},
+
+{
+     name: "    Paris Latino",
+    artist: "Bandolero ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Bandolero - Paris Latino.mp3",
+    timeCategory: "eighties",
+  volumeBoost: 0.20
+},
+
+
+{
+     name: "    Street Dance ",
+    artist: "Break Machine",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Break Machine - Street Dance.mp3",
+    timeCategory: "eighties",
+  volumeBoost: 0.20
+},
+
+
+
+{
+     name: "  Borderline ",
+    artist: "Madonna  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Madonna - Borderline.mp3",
+    timeCategory: "eighties",
+     quickFade: true,
+    volumeBoost: 0.15,
+    playcount: 0
+},
+
+
+{
+    name: "   Control ",
+    artist: "Janet Jackson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Janet Jackson - Control.mp3",
+             timeCategory: "eighties",
+volumeBoost: 0.10
+},
+
+
+
+{
+    name: "Funky Sensation",
+    artist: "Gwen McCrae  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Gwen McCrae - Funky Sensation.mp3",
+  timeCategory: "eighties"
+
+},
+
+
+{
+    name: "The Message (1982)",
+    artist: "Grandmaster Flash ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Grandmaster Flash & The Furious Five - The Message.mp3",
+     timeCategory: "eighties",
+    quickFade: true,
+volumeBoost: 0.40,
+playcount: 0
+},
+
+
+
+{
+    name: "  Give It To Me Baby",
+    artist: "Rick James ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Rick James - Give it to me baby.mp3",
+   timeCategory: "eighties",
+volumeBoost: 0.10
 },
 
 
 
 
 
+{
+     name: " She Can't Love You",
+    artist: "Chemise ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Chemise - She Can't Love You.mp3",
+    timeCategory: "eighties",
+    quickFade: true,
+    volumeBoost: 0.15,
+    playcount: 0
+},
+
+{
+    name: "Let The Music Play",
+    artist: "Shannon",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Shannon - Let The Music Play.mp3",
+        timeCategory: "eighties",
+volumeBoost: 0.15
+},
+
+{
+    name: "Don't Stop",
+    artist: "KID",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnyhotradio.com/muziek/oldies07/KID - Don't Stop.mp3",
+   timeCategory: "eighties",
+     quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
+},
+
+{
+    name: "Fake",
+    artist: "Alexander O Neal",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Alexander O Neal - Fake.mp3",
+   timeCategory: "eighties",
+volumeBoost: 0.70,
+  playcount: 0
+},
+
+
+{
+    name: "Shoot Your Shot (1982)",
+    artist: "Divine   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnyhotradio.com/muziek/oldies07/Divine - Shoot Your Shot (1982).mp3",
+      isLoud: true,          
+  loudnessValue: 0.92,    
+     quickFade: true,
+timeCategory: "eighties"
+},
+
+
+{
+    name: "Murphys Law (1982)",
+    artist: "Cheri",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Cheri -Murphys Law.mp3",
+    timeCategory: "eighties",
+    quickFade: true,
+     volumeBoost: 0.25,
+    playcount: 0
+},
+
+
+
 //strictly nineties show
 
 
+{
+    name: "Go (1991)",
+    artist: "Moby",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Moby - Go 1991.mp3",
+    timeCategory: "nineties",
+  eq: { bass: 1, mid: 2, treble: +1 }, 
+volumeBoost: 0.25
+},
 
 
+{
+    name: "Turn On Tune In",
+    artist: "Freak Power ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Freak Power - Turn On Tune In Cop Out.mp3",
+   timeCategory: "nineties"
+},
 
 
 
@@ -3140,6 +3771,292 @@ quickFade: true,
     path: "https://sunnydanceoldies02.netlify.app/Michael Jackson , Janet Jackson -  Scream.mp3",
    timeCategory: "nineties"
  },
+
+
+
+{
+    name: " I Get Lonely",
+    artist: "Janet Jackson  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Janet Jackson - I Get Lonely.mp3",
+   timeCategory: "nineties"
+ },
+
+
+{
+     name: "Oh My",
+    artist: "Moby ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Moby - Oh my.mp3",
+    timeCategory: "nineties"
+},
+
+
+
+
+
+{
+    name: "What Have You Done (1992)",
+    artist: "One Tribe",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/One Tribe feat. Gem - What Have You Done.mp3",
+     timeCategory: "nineties"
+},
+
+
+{
+    name: " Freed From Desire (1996)  ",
+    artist: "Gala  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Gala - Freed From Desire (1996).mp3",
+   timeCategory: "nineties",
+playcount: 0,
+volumeBoost: 0.40
+},
+
+
+{
+    name: "No Diggity",
+    artist: "Blackstreet ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Blackstreet - No Diggity ft. Dr. Dre, Queen Pen.mp3",
+    timeCategory: "nineties",
+    volumeBoost: 0.45
+},
+
+{
+    name: " SevenStars (Dragonfighters)",
+    artist: "Quazar  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Quazar - SevenStars (Dragonfighters).mp3",
+      timeCategory: "nineties",
+   quickFade: true,
+ eq: { bass: 1, mid: 2, treble: +1 } ,
+volumeBoost: 0.30
+},
+
+{
+    name: "Best Things (classic) ",
+    artist: " Janet Jackson  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Luther Vandross & Janet Jackson - Best things in life are free.mp3",
+    timeCategory: "nineties",
+  volumeBoost: 0.60
+},
+
+
+{
+    name: "  Hear The Drummer ",
+    artist: "Chad Jackson ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Chad Jackson - Hear The Drummer.mp3",
+   timeCategory: "nineties",
+     quickFade: true,
+  volumeBoost: 0.15,
+    playcount: 0
+
+},
+
+{
+    name: " Horsepower (1991)",
+    artist: "Christian Jay Bolland ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Christian Jay Bolland - Horsepower (1991).mp3",
+    timeCategory: "nineties",
+    volumeBoost: 0.65,
+    playcount: 0
+
+},
+
+
+{
+    name: "Fast Love",
+    artist: "George Michael",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Fast Love - George Michael.mp3",
+   timeCategory: "nineties",
+    volumeBoost: 0.75,
+    playcount: 0,
+  eq: { bass: 1, mid: 2, treble: +1 } 
+
+
+},
+
+
+{
+    name: "Passion (1992)",
+    artist: "Gat Decor",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Gat Decor - Passion.mp3",
+    timeCategory: "nineties",
+    volumeBoost: 0.95,
+    playcount: 0
+},
+
+{
+    name: "Medly",
+    artist: "Robin S & CC Peniston",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Robin S Crystal Waters & CC Peniston.mp3",
+    timeCategory: "nineties"
+},
+
+{
+    name: "   To Blind To See It",
+    artist: "Kym Sims",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Kym Sims - To Blind To See It.mp3",
+     timeCategory: "nineties",
+volumeBoost: 0.30
+},
+
+
+{
+    
+    name: "   Always There (1991)",
+    artist: "Incognito",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Incognito - Always There.mp3",
+    timeCategory: "nineties",
+volumeBoost: 0.50,
+  eq: { bass: 1, mid: 1, treble: +1 } 
+},
+
+
+
+{
+    name: "  Open Sesame",
+    artist: "Leila K ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Leila K - Open Sesame.mp3",
+      timeCategory: "nineties"
+},
+
+
+{
+    name: " You gotta be (1994)",
+    artist: "Des'ree  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Des'ree - You gotta be.mp3",
+      timeCategory: "nineties",
+  volumeBoost: 0.25
+},
+
+
+
+
+{
+     name: "  Windows ",
+    artist: "SIL ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/SIL - Windows.mp3",
+    timeCategory: "nineties"
+},
+
+{
+     name: "   The House Of God ",
+    artist: "DHS",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/DHS - The House Of God.mp3",
+    timeCategory: "nineties"
+},
+
+{
+     name: "    I Want You ",
+    artist: "DJ Carl Cox",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/DJ Carl Cox - I Want You.mp3",
+    timeCategory: "nineties"
+},
+
+{
+     name: "   Compnded ",
+    artist: "DJ Edge ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/DJ Edge - Compnded.mp3",
+    timeCategory: "nineties"
+},
+
+{
+     name: "  Rubb It In ",
+    artist: "Fierce Ruling Diva ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Fierce Ruling Diva - Rubb It In.mp3",
+      playcount: 0,
+timeCategory: "nineties",
+volumeBoost: 0.20
+},
+
+
+{
+     name: "   Searchin' (1990)",
+    artist: "33 Queen ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/33 Queen - Searchin' (1990).mp3",
+    timeCategory: "nineties"
+},
+
+
+
+
+{
+     name: "  Raise Me",
+    artist: "Bizarre Inc  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Bizarre Inc - Raise Me.mp3",
+    timeCategory: "nineties",
+    quickFade: true
+},
+
+{
+     name: "  X Static",
+    artist: "Bizarre Inc  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Bizarre Inc - X Static.mp3",
+    timeCategory: "nineties",
+  quickFade: true,
+    volumeBoost: 0.30,
+    playcount: 0
+},
+
+
+ {
+     name: " Papua New Guinea ",
+    artist: "FS Of London  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/FS Of London - Papua New Guinea.mp3",
+    timeCategory: "nineties",
+  volumeBoost: 0.10
+},
+
+{
+    name: "Time Problem",
+    artist: "Alice D In Wonderland ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies06.netlify.app/Alice D In Wonderland - Time Problem.mp3",
+  timeCategory: "nineties",
+     quickFade: true,
+    volumeBoost: 0.55
+},
+
+
+{
+    name: " DD ",
+    artist: "DD House  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/DD House - DD.mp3",
+     timeCategory: "nineties"
+},
+
+{
+    name: " Quadrophonia ",
+    artist: "Quadrophonia",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Quadrophonia - Quadrophonia (original).mp3",
+    timeCategory: "nineties",
+volumeBoost: 0.50,
+  playcount: 0
+},
 
 
 
@@ -4918,16 +5835,7 @@ timeCategory: "morning"
 
 
 
-{
-    name: "  We Got A Love Thang",
-    artist: "CC Peniston ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/CC Peniston - We Got A Love Thang.mp3",
-    timeCategory: "morning",
-    quickFade: true,
-    playcount: 0,
-    volumeBoost: 0.35
-},
+
 
 
 
@@ -10616,9 +11524,10 @@ playcount: 0
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Barbara Mason - Another Man.mp3",
    timeCategory: "afternoon",
-      quickFade: true,
-    volumeBoost: 0.55,
-    playcount: 0
+    quickFade: true,
+   volumeBoost: 0.65,
+   eq: { bass: 1, mid: 2, treble: 1 } ,
+   playcount: 0
 },
 
 
@@ -11929,10 +12838,7 @@ volumeBoost: 0.10
     artist: "Rita Ora",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Rita Ora - Doing It.mp3",
-  
-
-
-      timeCategory: "afternoon",
+       timeCategory: "afternoon",
 quickFade: true
 
 },
@@ -13801,10 +14707,7 @@ quickFade: true,
     artist: "Sylvester",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Sylvester- Dance 1978.mp3",
-  
-
-
-     timeCategory: "evening",
+   timeCategory: "evening",
   volumeBoost: 0.60
 },
 
@@ -14186,10 +15089,7 @@ quickFade: true,
     artist: "Sharon Redd ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Sharon Redd Can you handle it.mp3",
-  
-
-
-         timeCategory: "evening"
+    timeCategory: "evening"
 },
 
 {
@@ -15987,10 +16887,7 @@ playcount: 0
     artist: "Peoples Choice",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Peoples choice Do it anyway you wanna boosted.mp3",
-  
-
-
-      timeCategory: "evening"
+   timeCategory: "evening"
 },
 
 
