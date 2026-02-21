@@ -2030,6 +2030,38 @@ timeCategory: "seventies"
 
 
 
+{
+    name: "I Feel Love (revisit mix)",
+    artist: "Donna Summer ",
+     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Donna Summer - I Feel Love (revisit mix).mp3",
+    timeCategory: "seventies",
+    quickFade: true,
+volumeBoost: 0.75,
+  eq: { bass: 1, mid: 1, treble: +1 } 
+},
+
+
+{
+    name: "     Young Hearts  (classic)  ",
+    artist: "Candi Station ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Candi Station - Young Hearts Run Free.mp3",
+      timeCategory: "seventies"
+},
+
+
+{
+    name: " Ffun",
+    artist: "Con Funk Shun",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Con Funk Shun- Ffun.mp3",
+   timeCategory: "seventies",
+volumeBoost: 0.25
+},
+
+
+
 
 
 //strictly eighties show
@@ -3292,6 +3324,114 @@ timeCategory: "eighties"
     playcount: 0
 },
 
+{
+    name: " Miracles (12inch)",
+    artist: "Change ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Change - Miracles.mp3",
+      timeCategory: "eighties",
+     quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
+},
+
+
+{
+    name: " I Didn't Mean To Turn ",
+    artist: "Cherelle ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Cherelle - I didn't mean to turn you on.mp3",
+    isLoud: true,          
+  loudnessValue: 0.60, 
+timeCategory: "eighties"
+
+},
+
+{
+     name: "I Can Make You Feel Good ",
+    artist: "Shalamar ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://soulfullforever.netlify.app/Shalamar - I can make you feel good.mp3",
+        timeCategory: "eighties",
+  
+  volumeBoost: 0.10
+
+},
+
+
+{
+     name: " Funkin For Jamaica",
+    artist: "Tom Brown",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Tom Brown Funkin For Jamaica.mp3",
+    timeCategory: "eighties",
+volumeBoost: 0.30,
+  eq: { bass: 2, mid: 2, treble: +2 } 
+},
+
+
+{
+     name: " Situation (1982) ",
+    artist: "Yazoo ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Yazoo - Situation (1982).mp3",
+ timeCategory: " eighties"
+},
+
+{
+     name: " I'm Ready",
+    artist: "Kano ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Kano - I'm Ready.mp3",
+     timeCategory: "eighties",
+  quickFade: true,
+volumeBoost: 0.25
+},
+
+
+
+{
+    name: "  Theme From S Express",
+    artist: "S Express ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/S Express - Theme From S Express.mp3",
+     timeCategory: "eighties",
+    volumeBoost: 0.45,
+    playcount: 0
+},
+
+
+{
+    name: " Good Life (12inch)",
+    artist: "Inner City  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Inner City - Good Life.mp3",
+     timeCategory: "eighties"
+},
+
+
+
+{
+    name: "Takes A Little Time",
+    artist: "Total Contrast ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Total Contrast - Takes a little time.mp3",
+      timeCategory: "eighties",
+volumeBoost: 0.25
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //strictly nineties show
@@ -3415,10 +3555,11 @@ timeCategory: "nineties",
     artist: "CC Peniston ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/CC Peniston - We Got A Love Thang.mp3",
-    timeCategory: "nineties",
-    quickFade: true,
-    playcount: 0,
-    volumeBoost: 0.35
+      timeCategory: "nineties",
+quickFade: true,
+    eq: { bass: 1, mid: 2, treble: +1 } ,
+volumeBoost: 0.45,
+  playcount: 0
 },
 
 
@@ -3889,6 +4030,7 @@ volumeBoost: 0.30
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Gat Decor - Passion.mp3",
     timeCategory: "nineties",
+    eq: { bass: 1, mid: 2, treble: +1 } ,
     volumeBoost: 0.95,
     playcount: 0
 },
@@ -4058,10 +4200,139 @@ volumeBoost: 0.50,
   playcount: 0
 },
 
+{
+    name: "Energy Flash",
+    artist: "Joey Beltram  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Joey Beltram - Energy Flash.mp3",
+  
+  timeCategory: "nineties"
+
+},
+
+
+{
+    name: " Sun Is Shining ",
+    artist: " Funkstar Deluxe ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Sun is shining - Funkstar deluxe.mp3",
+    timeCategory: "nineties",
+    volumeBoost: 0.40,
+    playcount: 0
+},
+
+
+
+
+{
+    name: " Open your mind",
+    artist: "Usura ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Usura - Open your mind.mp3",
+    timeCategory: "nineties"
+
+
+},
+
+
+
+
+{
+  
+
+
+  name: "Saltwater (12inch)",
+    artist: "Chicane  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Chicane - Saltwater.mp3",
+     timeCategory: "nineties"
+},
+
+{
+    name: "Cassius 1999",
+    artist: "Cassius",
+     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Cassius - Cassius 1999.mp3",
+    timeCategory: "nineties",
+    volumeBoost: 0.40,
+    playcount: 0
+},
+
+{
+    name: "   The Love Parade  ",
+    artist: "Da Hool ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Da Hool - Meet Her At The Love Parade.mp3",
+    timeCategory: "nineties",
+     quickFade: true,
+    playcount: 0
+
+},
+
+
+
+
+
+{
+    name: " Too Funky (12inch)",
+    artist: "George Michael  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/George Michael - Too Funky.mp3",
+    timeCategory: "nineties",
+    volumeBoost: 0.55,
+    playcount: 0
+},
+
+
+
+
+{
+  
+
+
+  name: "Energy  52 (12inch)",
+    artist: "Cafe Del Mar ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Cafe del Mar - Energy  52.mp3",
+    timeCategory: "nineties"
+},
+
+
+
+
+{
+    name: "Body Motion",
+    artist: "Sadomasy  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Sadomasy - Body Motion.mp3",
+       timeCategory: "nineties"
+},
+
+
+
+
+{
+    name: "Hypnotize",
+    artist: "The Notorious B.I.G  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Hypnotize--The Notorious B.I.G..mp3",
+       timeCategory: "nineties"
+},
+
+
+
+
 
 
 
 //frankiebones
+
+
+
+
+
+
+
 
 
 
@@ -15590,16 +15861,17 @@ quickFade: true,
       timeCategory: "evening"
 },
 
+
 {
     name: "Passion (1992)",
     artist: "Gat Decor",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Gat Decor - Passion.mp3",
     timeCategory: "evening",
+    eq: { bass: 1, mid: 2, treble: +1 } ,
     volumeBoost: 0.95,
     playcount: 0
 },
-
 
 
 
@@ -15608,10 +15880,11 @@ quickFade: true,
     artist: "CC Peniston ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/CC Peniston - We Got A Love Thang.mp3",
-     timeCategory: "evening",
-    quickFade: true,
-  volumeBoost: 0.35
-
+      timeCategory: "evening",
+quickFade: true,
+    eq: { bass: 1, mid: 2, treble: +1 } ,
+volumeBoost: 0.45,
+  playcount: 0
 },
 
 
@@ -18684,9 +18957,8 @@ timeCategory: "evening-late"
     artist: "Shalamar ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://soulfullforever.netlify.app/Shalamar - I can make you feel good.mp3",
-        timeCategory: "evening-late",
-   timeCategory: "evening-late",
-  volumeBoost: 0.10
+    timeCategory: "evening-late",
+    volumeBoost: 0.10
 
 },
 
@@ -18735,14 +19007,7 @@ timeCategory: "evening-late"
 
 
 
-{
-     name: "U Can't Touch This (1990)",
-    artist: "M.C. Hammer",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/M.C. Hammer - U Can't Touch This (1990).mp3",
-    timeCategory: "evening-late",
-volumeBoost: 0.10
-},
+
 
 
 
@@ -19100,14 +19365,13 @@ volumeBoost: 0.25
 
 
 {
-    name: "The Weekend (2004)",
+    name: "The Weekend",
     artist: "Michael Gray  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies04.netlify.app/Michael Gray - The weekend.mp3",
-     timeCategory: "evening-late",
-     quickFade: true,
-  volumeBoost: 0.25,
-    playcount: 0
+    path: "https://Sunnydanceoldies04.netlify.app/Michael Gray - The weekend.mp3",
+  eq: { bass: 1, mid: 2, treble: +1 } ,
+volumeBoost: 0.35,
+timeCategory: "evening-late"
 
 },
 
@@ -26496,7 +26760,7 @@ playcount: 0
       timeCategory: "f evening",
 quickFade: true,
     eq: { bass: 1, mid: 2, treble: +1 } ,
-volumeBoost: 0.35,
+volumeBoost: 0.65,
   playcount: 0
 },
 
@@ -26937,7 +27201,10 @@ playcount: 0
     artist: "Michael Gray  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://Sunnydanceoldies04.netlify.app/Michael Gray - The weekend.mp3",
- timeCategory: "f evening-late"
+  eq: { bass: 1, mid: 2, treble: +1 } ,
+volumeBoost: 0.35,
+timeCategory: "f evening-late"
+
 },
 
 
