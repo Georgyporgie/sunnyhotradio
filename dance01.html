@@ -940,18 +940,21 @@ document.addEventListener("DOMContentLoaded", () => {
     hourlySou:        "audio/its%20now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
     fortyFiveMinuteSou: "muziek/discjockeys/DJ%20Saphire%20finale.mp3"
-  };
+  
+};
 
   const saturdayAfternoonAudioFiles = {
     hourlySou:        "audio/its%20now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
-    fortyFiveMinuteSou: "muziek/effects/Best%20Music.mp3"
+    thirtysou:        "muziek/effects/Sunny public.mp3",
+fortyFiveMinuteSou: "muziek/effects/Best%20Music.mp3"
   };
 
   const saturdayEveningAudioFiles = {
     hourlySou:        "audio/its%20now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
-    fortyFiveMinuteSou: "muziek/effects/Best%20Music.mp3"
+   thirtysou:         "muziek/effects/Sunny public.mp3",
+ fortyFiveMinuteSou: "muziek/effects/Best%20Music.mp3"
   };
 
   // Sunday splits
@@ -964,13 +967,15 @@ document.addEventListener("DOMContentLoaded", () => {
   const sundayAfternoonAudioFiles = {
     hourlySou:        "audio/its%20now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
+    thirtysou:        "muziek/effects/Sunny public.mp3",
     fortyFiveMinuteSou: "muziek/effects/Best%20Music.mp3"
   };
 
   const sundayEveningAudioFiles = {
     hourlySou:        "audio/its%20now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
-   fortyFiveMinuteSou: "muziek/effects/Best%20Music.mp3"
+    thirtysou: "muziek/effects/Sunny public.mp3",
+    fortyFiveMinuteSou: "muziek/effects/Best%20Music.mp3"
   };
 
   // Select the right map
@@ -1520,7 +1525,27 @@ function scheduleSounds() {
     setInterval(() => playSound(["fortyFiveMinuteSou"]), 3300000);
   }, Math.max(0, fiftyFiveDelay));
 
+  // Every 30 minutes
+  const thirtyDelay =
+    ((30 - (now.getMinutes() % 30)) % 30) * ms - now.getSeconds() * 1000;
+  setTimeout(() => {
+    playSound(["thirtysou"]);
+    setInterval(() => playSound(["thirtysou"]), 1800000);
+  }, Math.max(0, thirtyDelay));
+
+
+
+
+
 } // ← NOW the function closes correctly
+
+
+
+
+
+
+
+
 
 window.onload = scheduleSounds;
 </script>
@@ -1880,7 +1905,7 @@ const weeklySchedule = {
   sunday: [
      { start: 3,  end: 12, file: "muziek/voiceover/latest%20disco%20hits%20of%20the%20eighties.mp3" },
     { start: 12, end: 14, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
-    { start: 14, end: 16, file: "muziek/voiceover/latest%20disco%20hits%20of%20the%20eighties.mp3" },
+    { start: 14, end: 16, file: "https://danceoldies10.netlify.app/Strictly%20eighties%20show" },
     { start: 16, end: 19, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
     { start: 19, end: 21, file: "https://danceoldies10.netlify.app/Strictly%20nineties%20show.mp3" },
     { start: 21, end: 3,  file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" }

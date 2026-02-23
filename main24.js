@@ -2062,6 +2062,29 @@ volumeBoost: 0.25
 
 
 
+{
+     name: "Love Is The Message",
+    artist: "MFSB ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/MFSB - Love Is The Message (12inch).mp3",
+       timeCategory: "seventies",
+   eq: { bass: +1, mid: 2, treble: 0 } ,
+playcount: 0,
+volumeBoost: 0.65,
+  quickFade: true
+},
+
+
+
+{
+    name: "Ain't We Funkin' Now",
+    artist: "Brothers Johnson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Brothers Johnson - Ain't We Funkin' Now!!2.mp3",
+         timeCategory: "seventies"
+},
+
+
 
 
 //strictly eighties show
@@ -3425,6 +3448,27 @@ volumeBoost: 0.25
 
 
 
+{
+    name: "Use Me  (12inch)",
+    artist: "Paul Simpson Connection",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Paul Simpson connection - Use me Loose.mp3",
+  timeCategory: " eighties",
+volumeBoost: 0.35
+
+},
+
+
+
+{
+     name: "Medicine Song (1984)",
+    artist: " Stephanie Mills",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Stephanie Mills - The Medicine Song.mp3",
+  timeCategory: "eighties",
+volumeBoost: 0.25
+
+},
 
 
 
@@ -6204,16 +6248,6 @@ timeCategory: "morning"
 
 
 
-{
-    name: "Pump Up The Jam (1989)",
-    artist: "Technotronic ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Technotronic - Pump Up The Jam.mp3",
-      timeCategory: "morning",
-volumeBoost: 0.15,
-quickFade: true
-
-},
 
 
 
@@ -10082,7 +10116,7 @@ quickFade: true
     path: "https://jazzmusic05.netlify.app/Ray Parker Junior - Still in the groove.mp3",
         timeCategory: "afternoon",
     quickFade: true,
-    volumeBoost: 0.95,
+    volumeBoost: 1.45,
       eq: { bass: 2, mid: 2, treble: +1 } ,
 playcount: 0
 },
@@ -25282,16 +25316,6 @@ playcount: 0
 
 
 
-
-{
-    name: " The Chime",
-    artist: "Orbital ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic08.netlify.app/Orbital- The Chime.mp3",
-   timeCategory: "f afternoon",
-quickFade: true,
-  volumeBoost: 0.25
-},
 
 
 
