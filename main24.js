@@ -1214,7 +1214,7 @@ volumeBoost: 0.50
     artist: " The Sun  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/Sun - Dance (Do What You Wanna Do).mp3",
- timeCategory: "seventies",
+    timeCategory: "seventies",
    isLoud: true,          
   loudnessValue: 0.52,    
      quickFade: true,
@@ -1252,6 +1252,68 @@ quickFade: true
 
   
 },
+
+
+{
+    name: "Bill Withers",
+    artist: "Lovely Day",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Bill Withers - Lovely Day(strictly.mp3",
+       timeCategory: "seventies"
+
+  
+},
+
+
+
+
+{
+    name: "Bill Withers",
+    artist: "Lovely Day",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Bill Withers - Lovey Day ((strictly).mp3",
+       timeCategory: "seventies"
+
+  
+},
+
+
+
+
+
+{
+    name: "Dance Across The Floor",
+    artist: "Jimmy Bo Horne",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Jimmy Bo Horne - Dance Across The Floor (strictly).mp3",
+       timeCategory: "seventies"
+
+  
+},
+
+
+{
+    name: " Aint No Stoppin'",
+    artist: "MC Fadden ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/MC Fadden - Aint No Stoppin'(strictly.mp3",
+       timeCategory: "seventies"
+
+  
+},
+
+
+{
+    name: " Aint No Stoppin'",
+    artist: "MC Fadden ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/MC Fadden - Aint No Stoppin'(strictly.mp3",
+       timeCategory: "seventies"
+
+  
+},
+
+
 
 
 
@@ -2142,6 +2204,101 @@ quickFade: true,
 volumeBoost: 0.30
 
 },
+
+
+{
+    name: "Music (12inch)",
+    artist: "D Train   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/D Train - Music ((strictly.mp3",
+        timeCategory: "eighties"
+
+},
+
+
+
+{
+    name: "You re The One For Me (12inch)",
+    artist: "D Train",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/D Train - Youre The One For Me(strictly.mp3",
+        timeCategory: "eighties"
+
+},
+
+
+
+
+{
+    name: " Saturday Night (12inch)",
+    artist: "Oliver Cheatham ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Oliver Cheatam - Saturday Night ((strictlyi).mp3",
+        timeCategory: "eighties"
+
+},
+
+
+
+
+
+
+{
+    name: "Forget me Nots (12inch)",
+    artist: "Patrice Rushen ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Patrice Rushen - Forget me Nots (strictlyi).mp3",
+        timeCategory: "eighties"
+
+},
+
+
+
+
+
+{
+    name: "Lost In Music (maxi)",
+    artist: "Sisters Sledge",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Sisters Sledge - Lost In Music (strictly).mp3",
+        timeCategory: "eighties"
+
+},
+
+
+{
+    name: "Club Tropicana",
+    artist: "Wham ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Wham - Club Tropicana (strictly).mp3",
+        timeCategory: "eighties"
+
+},
+
+
+
+{
+    name: "Wham Rap!",
+    artist: "Wham",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Wham - Wham Rap!(stricltly).mp3",
+        timeCategory: "eighties"
+
+},
+
+
+{
+    name: "Young Guns (maxi",
+    artist: "Wham",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Wham - Young Guns (strictly).mp3",
+        timeCategory: "eighties"
+
+},
+
+
+
+
 
 
 {
