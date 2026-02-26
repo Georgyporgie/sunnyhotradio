@@ -1302,18 +1302,25 @@ quickFade: true
   
 },
 
-
 {
-    name: " Aint No Stoppin'",
-    artist: "MC Fadden ",
+    name: "Thats The Way",
+    artist: "KC and The Sunshine Band",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/MC Fadden - Aint No Stoppin'(strictly.mp3",
+    path: "https://danceoldies10.netlify.app/K C and The Sunshine Band - Thats The Way (1975).mp3",
        timeCategory: "seventies"
 
   
 },
 
+{
+    name: "I Want Your Love",
+    artist: "Chic ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Chic - I Want Your Love ((strictly).mp3",
+       timeCategory: "seventies"
 
+  
+},
 
 
 
@@ -2148,6 +2155,348 @@ volumeBoost: 0.65,
 
 
 
+//soulshow
+
+
+
+
+
+
+{
+    name: "    Dance (Do What You Wanna Do) ",
+    artist: " The Sun  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnyhotradio.com/muziek/oldies07/Sun - Dance (Do What You Wanna Do).mp3",
+    timeCategory: "soulshow",
+   isLoud: true,          
+  loudnessValue: 0.52,    
+     quickFade: true,
+        playcount: 0
+},
+
+{
+    name: "   Ugly Ego (classic)",
+    artist: "Cameo  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnyhotradio.com/muziek/oldies07/Cameo - Ugly Ego.mp3",
+   timeCategory: "soulshow",
+ quickFade: true,
+volumeBoost:0.10
+},
+
+
+{
+    name: "   Just A Touch (1979) ",
+    artist: "Slave ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Slave - Just A Touch (1979).mp3",
+       timeCategory: "soulshow",
+quickFade: true
+  
+},
+
+
+{
+    name: "Thats The Way",
+    artist: "KC and The Sunshine Band",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/K C and The Sunshine Band - Thats The Way (1975).mp3",
+       timeCategory: "soulshow"
+
+  
+},
+
+{
+    name: "I Want Your Love",
+    artist: "Chic ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Chic - I Want Your Love ((strictly).mp3",
+       timeCategory: "soulshow"
+
+  
+},
+
+
+{
+    name: " Bounce Skate Roll (12inch) ",
+    artist: "Vaughan  Mason & Crew",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Vaughan  Mason & Crew - Bounce skate roll.mp3",
+  playcount: 0,
+timeCategory: "soulshow",
+  volumeBoost: 0.35
+},
+
+
+
+
+
+{
+    name: " It's All The Way Live (1978)",
+    artist: "Lakeside ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Lakeside - It's All The Way Live.mp3",
+         timeCategory: "soulshow",
+volumeBoost: 0.35
+},
+
+
+
+{
+    name: " What You Waiting For  ",
+    artist: "Stargard",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Stargard - What you waiting for.mp3",
+timeCategory: "soulshow",
+    eq: { bass: 2, mid: 2, treble: +1 } ,
+volumeBoost: 0.75,
+ playcount: 0
+},
+
+{
+    name: "Radiation Level (12inch)",
+    artist: "The Sun ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/The Sun - Radiation Level.mp3",
+         timeCategory: "soulshow",
+ quickFade: true,
+  volumeBoost: 0.45,
+    playcount: 0
+},
+
+
+
+
+{
+     name: "Let's Start To Dance (12inch)",
+    artist: "Hamilton Bohannon ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Hamilton Bohannon - Let's Start To Dance 12 inch.mp3",
+  eq: { bass: 2, mid: 3, treble: +1 } ,
+volumeBoost: 0.55,
+timeCategory: "soulshow"
+
+},
+
+
+
+
+{
+    name: "  Shaft In Africa (1973)",
+    artist: "Johnny Pate ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnyhotradio.com/muziek/oldies07/Johnny Pate - Shaft In Africa.mp3",
+  
+ timeCategory: "soulshow",
+volumeBoost: 0.20
+},
+
+
+{
+    name: "Bond Theme 77",
+    artist: "James Bond",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/James Bond - Bond theme 77.mp3",
+   timeCategory: "soulshow",
+    quickFade: true,
+    volumeBoost: 0.50,
+  eq: { bass: 1, mid: 2, treble: +1 } ,
+playcount: 0
+},
+
+
+{
+     name: "Jazz Carnaval",
+    artist: "Azymuth",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://sunnydanceoldies08.netlify.app/Azymuth - Jazz carnaval.mp3",
+   timeCategory: "soulshow",
+    quickFade: true,
+    volumeBoost: 0.40,
+playcount: 0
+},
+
+
+{
+    name: "Too Hot (12inch)",
+    artist: "Kool And The Gang",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Kool and the gang - Too hot.mp3",
+    playcount: 0,
+timeCategory: "soulshow"
+
+
+},
+
+
+{
+    name: " All Night Long",
+    artist: "Splendor ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Splendor - All night long.mp3",
+  volumeBoost:0.55,
+  timeCategory: "soulshow"
+},
+
+
+
+
+
+{
+    name: "Best Of My Love",
+    artist: "T-Connection",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/T-Connection - Best of my Love.mp3",
+           timeCategory: "soulshow",
+quickFade: true,
+volumeBoost: 0.40
+},
+
+
+{
+    name: "I Wanna Be Your Lover (12inch)",
+    artist: "Prince",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Prince - I wanna be your lover.mp3",
+  volumeBoost: 0.35,
+  timeCategory: "soulshow"
+},
+
+
+{
+    name: "    Mellow Mellow Right On  ",
+    artist: "Lowrell ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Lowrell - Mellow Mellow Right On.mp3",
+   timeCategory: "soulshow"
+},
+
+
+
+{
+    name: " Do What You Wanna Do ",
+    artist: "T - Connection ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/T - Connection - Do What You Wanna Do.mp3",
+    timeCategory: "soulshow"
+},
+
+{
+    name: " Stellar Funk (1978)",
+    artist: "Slave  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Slave - Stellar Funk (1978).mp3",
+      volumeBoost: 0.50,
+      eq: { bass: 1, mid: 1, treble: +1 } ,
+playcount: 0,
+   timeCategory: "soulshow",
+quickFade: true
+},
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Honey I'm Rich",
+    artist: "Ray Parker Junior",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Ray Parker jr -Honey I'm rich.mp3",
+        timeCategory: "soulshow",
+    quickFade: true,
+    volumeBoost: 0.75,
+    playcount: 0
+},
+
+
+{
+    name: "Jack & Jill",
+    artist: "Ray Parker Junior",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Ray Parker jr - Jack & Jill.mp3",
+        timeCategory: "soulshow",
+    quickFade: true,
+    volumeBoost: 0.75,
+    playcount: 0
+},
+
+
+{
+    name: "Gimme That Funk (1978)",
+    artist: "Dennis Coffey  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnyhotradio.com/muziek/oldies07/Dennis Coffey - Gimme That Funk (1978).mp3",
+    timeCategory: "soulshow"
+
+
+},
+
+
+{
+    name: " Dance 1978",
+    artist: "Sylvester",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Sylvester- Dance 1978.mp3",
+   timeCategory: "soulshow",
+  volumeBoost: 0.60
+},
+
+
+{
+    name: " Dancer (1979) ",
+    artist: "Gino Soccio ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Gino Soccio - Dancer (1979).mp3",
+     timeCategory: "soulshow"
+},
+
+
+
+
+{
+    name: "I Feel Love (revisit mix)",
+    artist: "Donna Summer ",
+     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Donna Summer - I Feel Love (revisit mix).mp3",
+    timeCategory: "soulshow",
+    quickFade: true,
+volumeBoost: 0.75,
+  eq: { bass: 1, mid: 1, treble: +1 } 
+},
+
+
+
+{
+    name: " Ffun",
+    artist: "Con Funk Shun",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Con Funk Shun- Ffun.mp3",
+   timeCategory: "soulshow",
+volumeBoost: 0.25
+},
+
+
+
+{
+    name: "Ain't We Funkin' Now",
+    artist: "Brothers Johnson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Brothers Johnson - Ain't We Funkin' Now!!2.mp3",
+         timeCategory: "soulshow"
+},
+
+
+
+
+
+
 
 //strictly eighties show
 
@@ -2750,7 +3099,7 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Inner City - Big Fun.mp3",
     timeCategory: "eighties",
-volumeBoost: 0.70
+volumeBoost: 1.0
 
 },
 
@@ -6830,7 +7179,7 @@ timeCategory: "morning"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Inner City - Big Fun.mp3",
     timeCategory: "morning",
-volumeBoost: 0.70
+volumeBoost: 1.0
 
 },
 
@@ -11321,6 +11670,15 @@ isLoud: true,
 
 
 
+{
+    name: "Girl Get Up (new)",
+    artist: "Doechii",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic10.netlify.app/Doechii - Girl Get Up (new).mp3",
+  timeCategory: "afternoon"
+
+},
+
 
 
 
@@ -15239,7 +15597,14 @@ quickFade: true,
 
 
 
+{
+    name: "Music (12inch)",
+    artist: "D Train   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/D Train - Music (12inch).mp3",
+        timeCategory: "evening"
 
+},
 
 
 
@@ -25244,6 +25609,14 @@ playcount: 0
 
 
 
+{
+    name: "Lost In Music (maxi)",
+    artist: "Sisters Sledge",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Sisters Sledge - Lost In Music (1984).mp3",
+        timeCategory: "f afternoon"
+
+},
 
 
 
@@ -25643,6 +26016,14 @@ volumeBoost: 0.70,
 
 
 
+{
+    name: "Club Tropicana",
+    artist: "Wham ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Wham - Club Tropicana.mp3",
+        timeCategory: "f afternoon"
+
+},
 
 
 
@@ -26384,6 +26765,14 @@ playcount: 0
 },
 
 
+{
+    name: " Saturday Night (12inch)",
+    artist: "Oliver Cheatham ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Oliver Cheatam - Saturday Night (maxi).mp3",
+        timeCategory: "f evening"
+
+},
 
 
 
@@ -26403,8 +26792,14 @@ playcount: 0
 
 
 
+{
+    name: "Girl Get Up (new)",
+    artist: "Doechii",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic10.netlify.app/Doechii - Girl Get Up (new).mp3",
+  timeCategory: "f evening"
 
-
+},
 
 
 
@@ -27341,17 +27736,21 @@ volumeBoost: 0.40
     name: "If You Don't Wanna Leave Me",
     artist: "Dua Lipa",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-
-
     path: "https://sunnydancemusic04.netlify.app/Dua Lipa - If you don't wanna leave me.mp3",
-  
-
-
- timeCategory: "f evening-late"
+   timeCategory: "f evening-late"
 },
 
 
 
+{
+    name: "Thats The Way",
+    artist: "KC and The Sunshine Band",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/K C and The Sunshine Band - Thats The Way (1975).mp3",
+       timeCategory: "f evening-late"
+
+  
+},
 
 
 
@@ -27505,7 +27904,14 @@ timeCategory: "f evening-late"
  timeCategory: "f evening-late"
 },
 
+{
+    name: "Girl Get Up (new)",
+    artist: "Doechii",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic10.netlify.app/Doechii - Girl Get Up (new).mp3",
+  timeCategory: "f evening-late"
 
+},
 
 
 {
@@ -27657,16 +28063,7 @@ playcount: 0
 },
 
 
-{
-    name: "Big Fun ",
-    artist: "Inner City  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Inner City - Big Fun.mp3",
-   timeCategory: "f evening-late",
-volumeBoost: 0.70
 
-
-},
 
 
 
