@@ -1528,12 +1528,12 @@ function scheduleSounds() {
     setInterval(() => playSound(["fortyFiveMinuteSou"]), 3300000);
   }, Math.max(0, fiftyFiveDelay));
 
-  // Every 30 minutes
+  // Every 31 minutes
   const thirtyDelay =
-    ((30 - (now.getMinutes() % 30)) % 30) * ms - now.getSeconds() * 1000;
+    ((31 - (now.getMinutes() % 31)) % 31) * ms - now.getSeconds() * 1000;
   setTimeout(() => {
     playSound(["thirtysou"]);
-    setInterval(() => playSound(["thirtysou"]), 1800000);
+    setInterval(() => playSound(["thirtysou"]), 1860000);
   }, Math.max(0, thirtyDelay));
 
 
