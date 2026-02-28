@@ -1322,7 +1322,15 @@ quickFade: true
   
 },
 
+{
+    name: " I Gotta Keep Dancin'",
+    artist: "Carrie Lucas",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Carrie Lucas -I Gotta Keep Dancin''.mp3",
+       timeCategory: "seventies"
 
+  
+},
 
 {
     
@@ -1353,12 +1361,37 @@ volumeBoost: 0.20,
 
 
 
+{
+    name: " Ai No Corrida",
+    artist: "Chaz Jankel ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Chaz Jankel - Ai No Corrida.mp3",
+       timeCategory: "seventies"
+
+  
+},
 
 
+{
+    name: "Shame",
+    artist: "Evelyn Champagne King ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Evelyn Champagne King - Shame.mp3",
+       timeCategory: "seventies"
+
+  
+},
 
 
+{
+    name: " Sunshine Hotel",
+    artist: "Richard T Bear ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Richard T Bear - Sunshine Hotel.mp3",
+       timeCategory: "seventies"
 
-
+  
+},
 
 
 {
@@ -3271,6 +3304,14 @@ volumeBoost: 0.40
 
 
 
+{
+    name: "Another Part Of Me (12inch)",
+    artist: "Michael Jackson ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Another Part Of Me (maxi).mp3",
+        timeCategory: "evening"
+
+},
 
 
 
@@ -15696,6 +15737,14 @@ quickFade: true,
 
 
 
+{
+    name: " Love Never Felt So Good ",
+    artist: "Michael Jackson, Justin Timberblake   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Michael Jackson Justin Timberblake - Love NeverFelt So Good.mp3",
+        timeCategory: "evening"
+
+},
 
 
 
