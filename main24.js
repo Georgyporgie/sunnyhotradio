@@ -3977,10 +3977,97 @@ volumeBoost: 0.25
 },
 
 
+{
+    name: " Girls On My Mind (1985) ",
+    artist: "Fatback ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+   path: "https://sunnydanceoldies08.netlify.app/Fatback - Girls On My Mind.mp3",
+   timeCategory: "eighties",
+    volumeBoost: 0.65,
+    eq: { bass: 1, mid: 2, treble: +1 } ,
+   playcount: 0
+ 
+},
+
+
+
+{
+    name: " Backstrokin'(1980) ",
+    artist: "Fatback ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Fatback - Backstrokin'.mp3",
+  timeCategory: "eighties",
+  quickFade: true,
+volumeBoost:0.40 
+},
+
+{
+    name: " The Sound Of Music ",
+    artist: "Dayton  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Dayton - The Sound Of Music.mp3",
+  timeCategory: "eighties",
+   eq: { bass: 0, mid: 1, treble: +1 } ,
+  volumeBoost: 0.35,
+quickFade: true
+
+},
+
+
+{
+    name: "Human League",
+    artist: "Human",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Human - Human League.mp3",
+    timeCategory: "eighties",
+    isLoud: true,          
+    loudnessValue: 0.85 
+},
+
+{
+    name: " You Are My Melody  ",
+    artist: "Change  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Change - You Are My Melody.mp3",
+    timeCategory: "eighties",
+     quickFade: true,
+    volumeBoost: 0.55,
+    playcount: 0
+},
 
 
 
 
+{
+    name: " French Kiss (1989)",
+    artist: "Lil Louis   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Lil Louis - French Kiss.mp3",
+    timeCategory: "eighties",
+     quickFade: true,
+    eq: { bass: 1, mid: 1, treble: +1 } ,  
+playcount: 0,
+ quickFade: true,
+    volumeBoost: 0.25
+},
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Enjoy The Silence (1989)",
+    artist: "Depeche Mode ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Depeche Mode - Enjoy The Silence.mp3",
+    timeCategory: "eighties"
+},
 
 
 
