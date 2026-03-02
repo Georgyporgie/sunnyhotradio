@@ -1215,8 +1215,9 @@ volumeBoost: 0.50
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/Sun - Dance (Do What You Wanna Do).mp3",
     timeCategory: "seventies",
+   year: 1978,
    isLoud: true,          
-  loudnessValue: 0.52,    
+     loudnessValue: 0.52,    
      quickFade: true,
         playcount: 0
 },
@@ -1226,7 +1227,8 @@ volumeBoost: 0.50
     artist: "Cameo  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/Cameo - Ugly Ego.mp3",
-   timeCategory: "seventies",
+   year: 1978,
+timeCategory: "seventies",
  quickFade: true,
 volumeBoost:0.10
 },
@@ -1238,6 +1240,7 @@ volumeBoost:0.10
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Slave - Just A Touch (1979).mp3",
        timeCategory: "seventies",
+year: 1979,
 quickFade: true
   
 },
@@ -1248,7 +1251,9 @@ quickFade: true
     artist: "Sunny ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Strictly%20seventies%20show.mp3",
-       timeCategory: "seventies"
+     year: 1977,
+  
+timeCategory: "seventies"
 
   
 },
@@ -1259,7 +1264,9 @@ quickFade: true
     artist: "Lovely Day",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Bill Withers - Lovely Day(strictly.mp3",
-       timeCategory: "seventies"
+      year: 1977,
+
+  timeCategory: "seventies"
 
   
 },
@@ -1272,7 +1279,8 @@ quickFade: true
     artist: "Lovely Day",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Bill Withers - Lovey Day ((strictly).mp3",
-       timeCategory: "seventies"
+      year: 1977,
+  timeCategory: "seventies"
 
   
 },
@@ -1286,7 +1294,8 @@ quickFade: true
     artist: "Jimmy Bo Horne",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Jimmy Bo Horne - Dance Across The Floor (strictly).mp3",
-       timeCategory: "seventies"
+    year: 1978,
+   timeCategory: "seventies"
 
   
 },
@@ -1297,7 +1306,8 @@ quickFade: true
     artist: "MC Fadden ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/MC Fadden - Aint No Stoppin'(strictly.mp3",
-       timeCategory: "seventies"
+       year: 1979,
+timeCategory: "seventies"
 
   
 },
@@ -1307,7 +1317,8 @@ quickFade: true
     artist: "KC and The Sunshine Band",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/K C and The Sunshine Band - Thats The Way (1975).mp3",
-       timeCategory: "seventies"
+     year: 1975,
+   timeCategory: "seventies"
 
   
 },
@@ -1317,7 +1328,8 @@ quickFade: true
     artist: "Chic ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Chic - I Want Your Love ((strictly).mp3",
-       timeCategory: "seventies"
+        year: 1978,
+  timeCategory: "seventies"
 
   
 },
@@ -1327,7 +1339,8 @@ quickFade: true
     artist: "Carrie Lucas",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Carrie Lucas -I Gotta Keep Dancin''.mp3",
-       timeCategory: "seventies"
+       year: 1977,
+   timeCategory: "seventies"
 
   
 },
@@ -2371,7 +2384,14 @@ timeCategory: "soulshow"
   timeCategory: "soulshow"
 },
 
+{
+    name: "Word Up ",
+    artist: "Cameo ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Word up cameo.mp3",
+        timeCategory: "soulshow"
 
+},
 
 
 
@@ -2597,7 +2617,14 @@ volumeBoost: 0.30
 
 },
 
+{
+    name: "Word Up ",
+    artist: "Cameo ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Word up cameo.mp3",
+        timeCategory: "eighties"
 
+},
 
 {
     name: "You re The One For Me (12inch)",
@@ -2680,6 +2707,16 @@ volumeBoost: 0.30
 
 
 
+{
+    name: " Searchin' (1984) ",
+    artist: "Hazel Dean ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Hazel Dean - Searchin'.mp3",
+    timeCategory: "eighties",
+  year: 1984,
+quickFade: true
+
+},
 
 
 
@@ -3111,6 +3148,13 @@ quickFade: true
 
 
 
+
+
+
+
+
+
+
 {
     name: " Just An Illusion (12inch)",
     artist: "Imagination ",
@@ -3257,15 +3301,7 @@ timeCategory: "eighties",
 
 
 
-{
-    name: "Enjoy The Silence (1989)",
-    artist: "Depeche Mode ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Depeche Mode - Enjoy The Silence.mp3",
-    timeCategory: "eighties",
-volumeBoost: 0.10
 
-},
 
 
 
@@ -3294,6 +3330,20 @@ volumeBoost: 0.10
 
 
 {
+    name: "Again",
+    artist: "The Night People ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/The Night People - Again (1980).mp3",
+        timeCategory: "eighties"
+
+},
+
+
+
+
+
+
+{
     name: "Stomp! (Album Version) ",
     artist: "The Brothers Johnson",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -3309,7 +3359,7 @@ volumeBoost: 0.40
     artist: "Michael Jackson ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Another Part Of Me (maxi).mp3",
-        timeCategory: "evening"
+        timeCategory: "eighties"
 
 },
 
@@ -4096,7 +4146,15 @@ playcount: 0,
 
 
 
+{
+    name: " 19 ",
+    artist: " Paul Hardcastle ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/19 - Paul Hardcastle.mp3",
+    timeCategory: "eighties",
+ year: 1985
 
+},
 
 
 
@@ -4109,6 +4167,19 @@ playcount: 0,
     path: "https://sunnydanceoldies02.netlify.app/Depeche Mode - Enjoy The Silence.mp3",
     timeCategory: "eighties"
 },
+
+
+{
+    name: "  Hangin' On A String (classic)  ",
+    artist: "Loose Ends  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Loose Ends - Hangin' On A String (12inch).mp3",
+      year: 1985,
+timeCategory: "eighties"
+
+},
+
+
 
 
 
@@ -4702,6 +4773,20 @@ volumeBoost: 0.30
 },
 
 
+
+{
+    name: "Shy guy",
+    artist: "Diana King",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Diana King - Shy guy (strictly ninet).mp3",
+         timeCategory: "nineties",
+    quickFade: true
+    
+},
+
+
+
+
 {
     name: "Passion (1992)",
     artist: "Gat Decor",
@@ -4889,6 +4974,16 @@ volumeBoost: 0.50,
 },
 
 
+
+
+
+
+
+
+
+
+
+
 {
     name: " Sun Is Shining ",
     artist: " Funkstar Deluxe ",
@@ -4910,6 +5005,18 @@ volumeBoost: 0.50,
     timeCategory: "nineties"
 
 
+},
+
+
+{
+    name: "The Power",
+    artist: "Snap",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Snap - The Power (strict).mp3",
+     year: 1990,
+    timeCategory: "evening",
+    quickFade: true
+    
 },
 
 
@@ -19383,6 +19490,16 @@ volumeBoost: 0.25
  
 
 
+{
+    name: "Human Beings",
+    artist: "Seal",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Seal - Human Beings (2005).mp3",
+     year: 2005,
+    timeCategory: "evening",
+    quickFade: true
+    
+},
 
 
 
@@ -19403,8 +19520,14 @@ volumeBoost: 0.25
 
 
 
+{
+    name: "Word Up ",
+    artist: "Cameo ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Word up cameo.mp3",
+        timeCategory: "evening"
 
-
+},
 
 
 
@@ -21394,7 +21517,7 @@ playcount: 0,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Quazar - Seven Stars.mp3",
     timeCategory: "evening-late",
-    
+       year: 1990,
  quickFade: true,
     volumeBoost: 0.45,
     playcount: 0
@@ -21420,7 +21543,7 @@ playcount: 0,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Lfo - Lfo.mp3",
   volumeBoost: 0.25,
-
+ year: 1990,
   timeCategory: "evening-late"
 },
 
@@ -21456,6 +21579,7 @@ playcount: 0,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Aurra - Like I like It.mp3",
   timeCategory: "evening-late",
+ year: 1985,
 volumeBoost: 0.15
 
 },
@@ -21465,8 +21589,8 @@ volumeBoost: 0.15
     artist: " Paul Hardcastle ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/19 - Paul Hardcastle.mp3",
-    timeCategory: "evening-late"
-
+    timeCategory: "evening-late",
+ year: 1985
 
 },
 
@@ -21500,7 +21624,8 @@ volumeBoost: 0.40,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Hazel Dean - Searchin'.mp3",
     timeCategory: "evening-late",
- quickFade: true
+  year: 1984,
+quickFade: true
 
 },
 
@@ -21534,7 +21659,8 @@ volumeBoost: 0.40,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Aphex Twin - Polynomial C.mp3",
    timeCategory: "evening-late",
-   isLoud: true,          
+      year: 1995,
+isLoud: true,          
   loudnessValue: 0.42,    
      quickFade: true,
         playcount: 0
@@ -21552,7 +21678,9 @@ volumeBoost: 0.40,
     artist: "Loose Ends  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Loose Ends - Hangin' On A String (12inch).mp3",
-   timeCategory: "evening-late"
+      year: 1985,
+timeCategory: "evening-late"
+
 },
 
 
@@ -21575,7 +21703,8 @@ volumeBoost: 0.40,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Cameo - Ugly Ego.mp3",
    timeCategory: "evening-late",
- quickFade: true,
+    year: 1978,
+quickFade: true,
 volumeBoost:0.10
 },
 
@@ -21612,7 +21741,8 @@ volumeBoost:0.10
     artist: "Dr Dre feat. Snoop Dogg  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Dr Dre feat. Snoop Dogg - Still.mp3",
-   timeCategory: "evening-late"
+      year: 1999,
+timeCategory: "evening-late"
 },
 
 
@@ -24764,7 +24894,7 @@ timeCategory: "evening-late"
 
 
 {
-    name: "  Keep The ire Burning",
+    name: "  Keep The Fire Burning",
     artist: " Gwen McCrae",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Gwen McCrae - Keep the fire Burning.mp3",
