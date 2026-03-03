@@ -2055,6 +2055,62 @@ timeCategory: "seventies",
    eq: { bass: 0, mid: 2, treble: +1 } 
 },
 
+{
+  
+    name: "Shine On ",
+    artist: "George Duke  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/George Duke - Shine On.mp3",
+year: 1978,
+timeCategory: "seventies",
+     quickFade: true,
+    volumeBoost: 0.25,
+   eq: { bass: 0, mid: 2, treble: +1 } 
+},
+
+
+{
+  
+    name: "Thigs High ",
+    artist: "Tom Browne  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Tom Browne - Thigs high.mp3",
+year: 1978,
+timeCategory: "seventies",
+     quickFade: true,
+    volumeBoost: 0.25,
+   eq: { bass: 0, mid: 2, treble: +1 } 
+},
+
+
+{
+  
+    name: "Rubberband Man  ",
+    artist: "Detroit Spinners ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Detroit Spinners- Rubberband Man.mp3",
+year: 1976,
+timeCategory: "seventies",
+     quickFade: true,
+    volumeBoost: 0.25,
+   eq: { bass: 0, mid: 2, treble: +1 } 
+},
+
+
+
+
+{
+  
+    name: "Shine (1978)  ",
+    artist: "Bar-Kays ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Bar-Kays - Shine 1978.mp3",
+year: 1978,
+timeCategory: "seventies",
+     quickFade: true,
+    volumeBoost: 0.25,
+   eq: { bass: 0, mid: 2, treble: +1 } 
+},
 
 
 {
@@ -2068,6 +2124,10 @@ timeCategory: "seventies",
     volumeBoost: 0.25,
    eq: { bass: 0, mid: 2, treble: +1 } 
 },
+
+
+
+
 
 
 
@@ -2188,6 +2248,9 @@ playcount: 0,
 volumeBoost: 0.65,
   quickFade: true
 },
+
+
+
 
 
 
@@ -2385,6 +2448,16 @@ timeCategory: "soulshow"
 },
 
 {
+    name: " She's Strange",
+    artist: "Cameo ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Cameo - She's Strange.mp3",
+        timeCategory: "soulshow"
+
+},
+
+
+{
     name: "Word Up ",
     artist: "Cameo ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -2392,6 +2465,7 @@ timeCategory: "soulshow"
         timeCategory: "soulshow"
 
 },
+
 
 
 
@@ -2425,6 +2499,89 @@ volumeBoost: 0.40
 },
 
 
+{
+    name: "Let It All Blow",
+    artist: "Dazz Band",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies08.netlify.app/Dazz Band Let It All Blow.mp3",
+    playcount: 0,
+timeCategory: "soulshow",
+  volumeBoost: 0.40
+
+},
+
+
+
+
+{
+    name: "  Right on ",
+    artist: " The pasadenas  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/The pasadenas - Right on.mp3",
+    timeCategory: "soulshow",
+  eq: { bass: 0, mid: 1, treble: 0 } ,
+    volumeBoost: 0.45
+},
+
+
+{
+     name: "Starlette (instrumental)",
+    artist: "BB & Q Band ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/BB & Q Band - Starlette (instrumental).mp3",
+         timeCategory: "soulshow",
+  eq: { bass: 0, mid: 0, treble: +1 } ,
+    volumeBoost: 0.45
+},
+
+
+{
+    name: "  Thinkin' About Your Love",
+    artist: "Skipworth & Turner ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Skipworth & Turner - Thinkin' about your love.mp3",
+  timeCategory: "soulshow",
+volumeBoost: 0.50,
+playcount: 0,
+quickFade: true
+    
+
+
+},
+
+
+
+{
+    name: " Ghetto Feeling  ",
+    artist: "Man Go Funk ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/Man Go Funk - Ghetto Feeling.mp3",
+    timeCategory: "soulshow"
+},
+
+
+
+
+{
+    name: "   One More Time (2001)",
+    artist: "Daft Punk  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Daft Punk - One More Time.mp3",
+     timeCategory: "soulshow",
+  quickFade: true,
+  volumeBoost: 0.40
+},
+
+
+{
+    name: "  Theme From S Express",
+    artist: "S Express ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/S Express - Theme From S Express.mp3",
+     timeCategory: "soulshow",
+    volumeBoost: 0.45,
+    playcount: 0
+},
 
 {
     name: " Do What You Wanna Do ",
@@ -3184,7 +3341,7 @@ volumeBoost: 1.0
 
 
 {
-    name: "  Thinkin' About Your love",
+    name: "  Thinkin' About Your Love",
     artist: "Skipworth & Turner ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Skipworth & Turner - Thinkin' about your love.mp3",
@@ -3580,7 +3737,24 @@ volumeBoost: 0.30
 },
 
 
+{
+    name: " She's Strange",
+    artist: "Cameo ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Cameo - She's Strange.mp3",
+        timeCategory: "eighties"
 
+},
+
+
+{
+    name: "Word Up ",
+    artist: "Cameo ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Word up cameo.mp3",
+        timeCategory: "eighties"
+
+},
 
 {
      name: " Walking On Sunshine ",
@@ -4205,7 +4379,18 @@ volumeBoost: 0.25
    timeCategory: "nineties"
 },
 
-
+{
+  
+    name: " Killer (1990)  ",
+    artist: "Adamski, Seal",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Adamski, Seal- Killer (1990).mp3",
+year: 1990,
+timeCategory: "nineties",
+     quickFade: true,
+    volumeBoost: 0.25,
+   eq: { bass: 0, mid: 2, treble: +1 } 
+},
 
 {
     name: "  Born Slippy ",
@@ -14086,7 +14271,15 @@ isLoud: true,
 },
 
 
-
+{
+     name: "Starlette (instrumental)",
+    artist: "BB & Q Band ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/BB & Q Band - Starlette (instrumental).mp3",
+         timeCategory: "afternoon",
+  eq: { bass: 0, mid: 0, treble: +1 } ,
+    volumeBoost: 0.45
+},
 
 
 {
@@ -21258,10 +21451,31 @@ quickFade: true
 
 
 
+{
+  
+    name: "Wake Me Up  ",
+    artist: "Avicii",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Avicii- Wake me up.mp3",
+timeCategory: "evening-late",
+     quickFade: true,
+    volumeBoost: 0.25,
+   eq: { bass: 0, mid: 2, treble: +1 } 
+},
 
 
-
-
+{
+  
+    name: " Killer (1990)  ",
+    artist: "Adamski, Seal",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Adamski, Seal- Killer (1990).mp3",
+year: 1990,
+timeCategory: "evening-late",
+     quickFade: true,
+    volumeBoost: 0.25,
+   eq: { bass: 0, mid: 2, treble: +1 } 
+},
 
 
 
