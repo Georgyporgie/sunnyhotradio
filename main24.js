@@ -1247,6 +1247,17 @@ quickFade: true
 
 
 {
+     name: "Night Fever",
+    artist: "Beegees",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Beegees Night fever.mp3",
+    timeCategory: "seventies"
+},
+
+
+
+
+{
     name: "Strictly Seventies Jingle",
     artist: "Sunny ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -2336,8 +2347,28 @@ timeCategory: "soulshow",
   volumeBoost: 0.35
 },
 
+{
+     name: "Night Fever",
+    artist: "Beegees",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Beegees Night fever.mp3",
+    timeCategory: "soulshow"
+},
 
-
+{
+     name: "Relight My Fire",
+    artist: "Dan Hartman",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Dan Hartman Relight My Fire.mp3",
+    timeCategory: "soulshow"
+},
+{
+     name: "Fantasy (maxi)",
+    artist: "EWF ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/EWF Fantasy.mp3",
+    timeCategory: "soulshow"
+},
 
 
 {
@@ -2386,6 +2417,25 @@ volumeBoost: 0.55,
 timeCategory: "soulshow"
 
 },
+
+{
+     name: "Rock Me Baby",
+    artist: "George mcGray ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/George mcGray - Rock Me Baby.mp3",
+    timeCategory: "soulshow"
+},
+
+{
+     name: "Intro",
+    artist: "Soulshow  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Soulshow intro.mp3",
+    timeCategory: "soulshow"
+},
+
+
+
 
 
 
@@ -2437,7 +2487,13 @@ timeCategory: "soulshow"
 
 },
 
-
+{
+     name: "Intro",
+    artist: "Soulshow  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Soulshow intro2.mp3",
+    timeCategory: "soulshow"
+},
 {
     name: " All Night Long",
     artist: "Splendor ",
@@ -2468,6 +2524,13 @@ timeCategory: "soulshow"
 
 
 
+{
+     name: "Intro",
+    artist: "Soulshow  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/soulshow tune01.mp3",
+    timeCategory: "soulshow"
+},
 
 {
     name: "Best Of My Love",
@@ -2511,7 +2574,13 @@ timeCategory: "soulshow",
 },
 
 
-
+{
+     name: "Intro",
+    artist: "Soulshow  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Soulshow tussen.mp3",
+    timeCategory: "soulshow"
+},
 
 {
     name: "  Right on ",
@@ -2549,6 +2618,13 @@ quickFade: true
 
 },
 
+{
+     name: "Intro",
+    artist: "Soulshow  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Soulshow tussen2.mp3",
+    timeCategory: "soulshow"
+},
 
 
 {
@@ -2681,7 +2757,15 @@ volumeBoost: 0.75,
   eq: { bass: 1, mid: 1, treble: +1 } 
 },
 
-
+{
+    name: "Tell Me If You Still Care ",
+    artist: "Sos Band  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/SSos Band -Tell Me If You Still Care.mp3",
+  playcount: 0,
+timeCategory: "eighties",
+  volumeBoost: 0.20
+},
 
 {
     name: " Ffun",
@@ -3008,6 +3092,15 @@ timeCategory: "eighties"
 },
 
 
+{
+    name: "  In The Name Of Love",
+    artist: "Sharon Redd  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Sharon Redd -  In The Name Of Love.mp3",
+  playcount: 0,
+timeCategory: "eighties",
+  volumeBoost: 0.20
+},
 
 
 
@@ -4301,7 +4394,14 @@ quickFade: true
 },
 
 
-
+{
+     name: "When Doves Cry",
+    artist: "Prince",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Prince When Doves  - Cry.mp3",
+    year: 1979,
+timeCategory: "eighties"
+},
 
 {
     name: " French Kiss (1989)",
@@ -15575,7 +15675,13 @@ volumeBoost: 0.60
 
 
 
-
+{
+     name: "   Starlette (extended version) ",
+    artist: "BB & Q Band",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/B B & Q Band - Starlette (extended version).mp3",
+    timeCategory: "evening"
+},
 
 
 
@@ -25416,7 +25522,14 @@ playcount: 0
        timeCategory: "f afternoon"
 },
 
-
+{
+     name: "This Time Baby",
+    artist: "Jackie Moore",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Jackie Moore - This Time Baby (1979).mp3",
+    year: 1979,
+timeCategory: "f afternoon"
+},
 
 
 {
@@ -26706,7 +26819,15 @@ timeCategory: "f evening"
   playcount: 0
 },
 
-
+{
+    name: "Tell Me If You Still Care ",
+    artist: "Sos Band  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/SSos Band -Tell Me If You Still Care.mp3",
+  playcount: 0,
+timeCategory: "f evening",
+  volumeBoost: 0.20
+},
 
 {
     name: " Won't Forget You",
@@ -28425,7 +28546,13 @@ playcount: 0
 
 
 
-
+{
+     name: "Night Fever",
+    artist: "Beegees",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Beegees Night fever.mp3",
+    timeCategory: "f evening-late"
+},
 
 
 
