@@ -2317,6 +2317,18 @@ quickFade: true
 
 
 {
+    name: "  Fall In Love With Me (1982) ",
+    artist: " EARTH WIND & FIRE ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://jazzmusic04.netlify.app/EARTH WIND & FIRE - Fall In Love With Me (1982).mp3",
+    timeCategory: "soulshow",
+    volumeBoost: 0.55,
+    playcount: 0
+},
+
+
+
+{
     name: "Thats The Way",
     artist: "KC and The Sunshine Band",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -3166,7 +3178,15 @@ timeCategory: "eighties"
  
 },
 
-
+{
+    name: "  Fall In Love With Me (1982) ",
+    artist: " EARTH WIND & FIRE ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://jazzmusic04.netlify.app/EARTH WIND & FIRE - Fall In Love With Me (1982).mp3",
+    timeCategory: "eighties",
+    volumeBoost: 0.55,
+    playcount: 0
+},
 
 {
     name: " I Can't Wait (1985)",
@@ -4454,7 +4474,17 @@ timeCategory: "eighties"
 },
 
 
+{
+    name: " Dancin' Down The Street",
+    artist: "Peter Jacques Band ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Peter Jacques Band - Dancin' Down The Street.mp3",
+    timeCategory: "evening-late",
+    year:1985,
+    timeCategory: "eighties",
+volumeBoost: 0.20
 
+},
 
 
 //strictly nineties show
@@ -22146,7 +22176,8 @@ timeCategory: "evening-late"
     artist: "I Got 5 On It  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/I Got 5 On It - Luniz.mp3",
-   timeCategory: "evening-late"
+   year:1995,
+    timeCategory: "evening-late"
 },
 
 
@@ -22166,7 +22197,8 @@ timeCategory: "evening-late"
     path: "https://danceoldies08.netlify.app/Shaggy - Boombastic.mp3",
    timeCategory: "evening-late",
    quickFade: true,
-    volumeBoost: 0.75,
+     year:1995,
+volumeBoost: 0.75,
     playcount: 0
 },
 
@@ -22193,7 +22225,9 @@ playcount: 0
     artist: "Technarchy ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Technarchy - Cybersonic.mp3",
-   timeCategory: "evening-late"
+    year:1995,
+    timeCategory: "evening-late"
+
 },
 
 
@@ -22203,7 +22237,9 @@ playcount: 0
     artist: "The Break Boys",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/The Break Boys - My House Is Your House.mp3",
-   timeCategory: "evening-late"
+   year:1990,
+timeCategory: "evening-late"
+
 },
 
 
@@ -22213,6 +22249,7 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/The Prodigy - Android.mp3",
     timeCategory: "evening-late",
+year:1991,
 volumeBoost: 0.15
 },
 
@@ -22233,7 +22270,8 @@ volumeBoost: 0.15
     artist: "The Suburban Knight  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/The Suburban Knight - The Art Of Stalking.mp3",
-    timeCategory: "evening-late"
+    year:1990,
+timeCategory: "evening-late"
 },
 
 
@@ -22359,18 +22397,6 @@ playcount: 0
 
 
 
-{
-    name: " Funkytown (1980)",
-    artist: "Lipps Inc. ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Lipps Inc. - Funkytown (1980).mp3",
-  timeCategory: "evening-late",
-quickFade: true,
-volumeBoost: 0.40
-},
-
-
-
 
 
 
@@ -22387,7 +22413,9 @@ volumeBoost: 0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Peter Jacques Band - Dancin' Down The Street.mp3",
     timeCategory: "evening-late",
-volumeBoost: 0.20
+    year:1985,
+    volumeBoost: 0.20
+
 },
 
 
@@ -26874,7 +26902,15 @@ timeCategory: "f evening",
 },
 
 
-
+{
+    name: "  Fall In Love With Me (1982) ",
+    artist: " EARTH WIND & FIRE ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://jazzmusic04.netlify.app/EARTH WIND & FIRE - Fall In Love With Me (1982).mp3",
+    timeCategory: "f evening",
+    volumeBoost: 0.55,
+    playcount: 0
+},
 
 
 {
