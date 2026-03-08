@@ -2773,7 +2773,7 @@ volumeBoost: 0.75,
     name: "Tell Me If You Still Care ",
     artist: "Sos Band  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/SSos Band -Tell Me If You Still Care.mp3",
+    path: "https://sunnydanceoldies05.netlify.app/Sos Band -Tell Me If You Still Care.mp3",
   playcount: 0,
 timeCategory: "eighties",
   volumeBoost: 0.20
