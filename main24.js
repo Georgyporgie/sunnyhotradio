@@ -12224,7 +12224,7 @@ isLoud: true,
     name: "Girl Get Up (new)",
     artist: "Doechii",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic10.netlify.app/Doechii - Girl Get Up (new).mp3",
+    path: "https://danceoldies10.netlify.app/Doechii - Girl Get Up (new).mp3",
   timeCategory: "afternoon"
 
 },
@@ -27433,7 +27433,7 @@ playcount: 0
     name: "Girl Get Up (new)",
     artist: "Doechii",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic10.netlify.app/Doechii - Girl Get Up (new).mp3",
+    path: "https://danceoldies10.netlify.app/Doechii - Girl Get Up (new).mp3",
   timeCategory: "f evening"
 
 },
@@ -28545,7 +28545,7 @@ timeCategory: "f evening-late"
     name: "Girl Get Up (new)",
     artist: "Doechii",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic10.netlify.app/Doechii - Girl Get Up (new).mp3",
+    path: "https://danceoldies10.netlify.app/Doechii - Girl Get Up (new).mp3",
   timeCategory: "f evening-late"
 
 },

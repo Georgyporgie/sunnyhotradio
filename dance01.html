@@ -685,7 +685,23 @@ window.setInterval(startTime, 1000);
 
 
 
+<script>
+    // Get today's date
+    const today = new Date();
+    const month = today.getMonth() + 1; // JavaScript months: 0 = Jan, 11 = Dec
 
+    // Get the image element
+    const img = document.getElementById("logo");
+
+    // Change image based on month
+    // June → October 31  → use Sunny hotradio2.png
+    // November 1 → May 31 → use Sunny hotradio22.png
+    if (month >= 6 && month <= 10) {
+        img.src = 'images/';Dance radio5.png
+    } else {
+        img.src = 'images/Sunny Winter Dance.png';
+    }
+</script>
 
   
 
