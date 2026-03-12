@@ -575,7 +575,7 @@ document.getElementById("playlist").src = imageOfTheDay;
 
 
 <div>
-<h5 class="inch"><em>Countdown Timer</em></h5>
+<h5 class="inch"><em>Countdown Season</em></h5>
 
 
 
@@ -685,23 +685,7 @@ window.setInterval(startTime, 1000);
 
 
 
-<script>
-    // Get today's date
-    const today = new Date();
-    const month = today.getMonth() + 1; // JavaScript months: 0 = Jan, 11 = Dec
 
-    // Get the image element
-    const img = document.getElementById("logo");
-
-    // Change image based on month
-    // June → October 31  → use Sunny hotradio2.png
-    // November 1 → May 31 → use Sunny hotradio22.png
-    if (month >= 6 && month <= 10) {
-        img.src = 'images/';Dance radio5.png
-    } else {
-        img.src = 'images/Sunny Winter Dance.png';
-    }
-</script>
 
   
 
@@ -1833,7 +1817,7 @@ function getCurrentTimeCategory() {
     0: { morning:["f afternoon"], afternoon:["f evening"], "special-show":["eighties"], evening:["f afternoon"], "evening-late":["nineties"], late:["f afternoon"], night:["jingle-time"] },
     1: { morning:["morning"], afternoon:["afternoon"], "special-show":["nineties"], evening:["evening"], "evening-late":["afternoon"], late:["evening-late"], night:["jingle-time"] },
     2: { morning:["evening-late"], afternoon:["evening"], "special-show":["evening-late"], evening:["afternoon"], "evening-late":["morning"], late:["nineties"], night:["jingle-time"] },
-    3: { morning:["evening-late"], afternoon:["evening"], "special-show":["afternoon"], evening:["afternoon"], "evening-late":["eighties"], late:["evening-late"], night:["jingle-time"] },
+    3: { morning:["evening-late"], afternoon:["evening"], "special-show":["afternoon"], evening:["evening-late"], "evening-late":["eighties"], late:["morning"], night:["jingle-time"] },
     4: { morning:["morning"], afternoon:["evening-late"], "special-show":["eighties"], evening:["afternoon"], "evening-late":["soulshow"], late:["f afternoon"], night:["jingle-time"] },
     5: { morning:["morning"], afternoon:["afternoon"], "special-show":["eighties"], evening:["evening-late"], "evening-late":["nineties"], late:["f afternoon"], night:["jingle-time"] },
     6: { morning:["f evening"], afternoon:["afternoon"], "special-show":["frankiebones"], evening:["f evening-late"], "evening-late":["f afternoon"], late:["f evening"], night:["jingle-time"] }
