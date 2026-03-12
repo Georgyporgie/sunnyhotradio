@@ -5419,7 +5419,46 @@ volumeBoost: 0.50,
        timeCategory: "nineties"
 },
 
+{
+    name: "Return Of The Mack (12inch) ",
+    artist: "Mark Morrison",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Mark Morrison - Return of the mack.mp3",
+        
+playcount: 0,
+timeCategory: "nineties",
+  volumeBoost: 0.10
 
+
+},
+
+{
+    name: "You Are Not Alone",
+    artist: "Michael Jackson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Michael Jackson- You are not alone.mp3",
+      timeCategory: "nineties"
+},
+
+
+
+{
+    name: " Flawless",
+    artist: "The Ones ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/The Ones - Flawless.mp3",
+  timeCategory: "nineties",
+ volumeBoost: 0.15
+},
+
+
+{
+    name: " Don't Call  Me Baby",
+    artist: "Madison Avenue  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Madison Avenue - Don't Call  Me Baby.mp3",
+    timeCategory: "nineties"
+},
 
 
 
@@ -7142,7 +7181,8 @@ timeCategory: "morning",
     artist: "Mark Morrison",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Mark Morrison - Return of the mack.mp3",
-        playcount: 0,
+        
+playcount: 0,
 timeCategory: "morning",
   volumeBoost: 0.10
 
