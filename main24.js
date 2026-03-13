@@ -2274,11 +2274,81 @@ volumeBoost: 0.65,
 },
 
 
+{
+    name: "A Lovers Holiday",
+    artist: "Change",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Change - A lovers Holiday.mp3",
+    year: 1979,
+   timeCategory: "seventies"
+
+  
+},
+
+
+{
+    name: " Hot Shot (maxi) ",
+    artist: "Karen Young ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Karen Young - Hot Shot (maxi).mp3",
+       timeCategory: "seventies"
+
+  
+},
+
+
+
+
+
+{
+    
+    name: "Memories",
+    artist: "Earth & Fire",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Earth & Fire - Memories.mp3",
+      timeCategory: "seventies",
+volumeBoost: 0.40
+},
+
+
+{
+    
+    name: " Disco Nights",
+    artist: "G.Q ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/G.Q - Disco Nights.mp3",
+      timeCategory: "seventies",
+volumeBoost: 0.20,
+  eq: { bass: 1, mid: 2, treble: +1 } 
+},
+
+{
+     name: "Newyork City (maxi)",
+    artist: "Tramps",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://jazzmusic05.netlify.app/Tramps Newyork City.mp3",
+ 
+ timeCategory: "seventies"
+
+},
+
+
+
+
 
 //soulshow
 
 
 
+{
+     name: "Newyork City (maxi)",
+    artist: "Tramps",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://jazzmusic05.netlify.app/Tramps Newyork City.mp3",
+ 
+ timeCategory: "soulshow"
+
+},
 
 
 
@@ -2775,9 +2845,16 @@ volumeBoost: 0.75,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Sos Band -Tell Me If You Still Care.mp3",
   playcount: 0,
-timeCategory: "eighties",
+timeCategory: "soulshow",
   volumeBoost: 0.20
 },
+
+
+
+
+
+
+
 
 {
     name: " Ffun",
@@ -4479,12 +4556,59 @@ timeCategory: "eighties"
     artist: "Peter Jacques Band ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Peter Jacques Band - Dancin' Down The Street.mp3",
-    timeCategory: "evening-late",
+    
     year:1985,
     timeCategory: "eighties",
 volumeBoost: 0.20
 
 },
+
+
+{
+    name: "Wot",
+    artist: "Captain Sensible",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Captain Sensible - Wot (1983).mp3",
+      year: 1983,
+  timeCategory: "eighties"
+
+  
+},
+
+{
+    name: "Double Dutch Bus",
+    artist: " Frankie Smith ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Double Dutch Bus Frankie Smith.mp3",
+        year: 1981,
+  timeCategory: "eighties"
+
+  
+},
+
+
+{
+    name: " Din Daa Daa",
+    artist: "George Kranz ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/George Kranz - Din Daa Daa.mp3",
+       timeCategory: "eighties"
+
+  
+},
+
+
+
+{
+     name: "Just Be Good To Me (maxi)",
+    artist: "S.O.S. Band ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://jazzmusic05.netlify.app/S.O.S. Band - Just Be Good To Me.mp3",
+ 
+ timeCategory: "eighties"
+
+},
+
 
 
 //strictly nineties show
@@ -4499,6 +4623,30 @@ volumeBoost: 0.20
   eq: { bass: 1, mid: 2, treble: +1 }, 
 volumeBoost: 0.25
 },
+
+
+{
+     name: "Back By Dope Demand",
+    artist: "King Bee",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://jazzmusic05.netlify.app/King Bee - Back By Dope Demand.mp3",
+ 
+ timeCategory: "nineties"
+
+},
+
+{
+    
+    name: " Don t You Want Me (1992)",
+    artist: "Felix ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Felix - Don t You Want Me (1992).mp3",
+      timeCategory: "nineties",
+volumeBoost: 0.40 
+},
+
+
+
 
 
 {
@@ -5336,6 +5484,15 @@ volumeBoost: 0.50,
 
 
 
+{
+     name: "Newyork City (maxi)",
+    artist: "Tramps",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://jazzmusic05.netlify.app/Tramps Newyork City.mp3",
+ 
+ timeCategory: "evening"
+
+},
 
 {
   
@@ -5458,6 +5615,29 @@ timeCategory: "nineties",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Madison Avenue - Don't Call  Me Baby.mp3",
     timeCategory: "nineties"
+},
+
+{
+    name: "Gypsy Woman",
+    artist: "Crystal Waters ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Crystal Waters - Gypsy Woman.mp3",
+     year: 1991,
+   timeCategory: "nineties"
+
+  
+},
+
+
+{
+    name: "  Rhythm Is A Dancer",
+    artist: "Snap ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Snap - Rhythm Is A Dancer.mp3",
+       year: 1977,
+   timeCategory: "nineties"
+
+  
 },
 
 
@@ -9908,6 +10088,26 @@ quickFade: true
 
 
 
+{
+    name: " Rhythm Of The Night",
+    artist: "Corona ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Corona - Rhythm Of The Night.mp3",
+       year: 2019,
+timeCategory: " afternoon"
+
+  
+},
+{
+    
+    name: " Disco Nights",
+    artist: "G.Q ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/G.Q - Disco Nights.mp3",
+      timeCategory: "afternoon",
+volumeBoost: 0.20,
+  eq: { bass: 1, mid: 2, treble: +1 } 
+},
 
 {
     name: "You & Me",
@@ -25361,7 +25561,15 @@ timeCategory: "evening-late"
     volumeBoost: 0.55,
     playcount: 0
 },
+{
+    name: " New Religion",
+    artist: "Bebe Rexha ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Bebe Rexha - New Religion (2026).mp3",
+       timeCategory: "f afternoon"
 
+  
+},
 
 {
      name: "Broadcast Amsterdam☀️",
@@ -25467,7 +25675,70 @@ volumeBoost: 0.45
 
 },
 
+{
+    name: "Wot",
+    artist: "Captain Sensible",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Captain Sensible - Wot (1983).mp3",
+      year: 1983,
+  timeCategory: "f afternoon"
 
+  
+},
+
+
+
+{
+    name: " New Religion (new)",
+    artist: "Bebe Rexha ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Bebe Rexha - New Religion (2026).mp3",
+       timeCategory: "f afternoon"
+
+  
+},
+
+{
+    name: " Rhythm Of The Night",
+    artist: "Corona ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Corona - Rhythm Of The Night.mp3",
+       year: 2019,
+timeCategory: "f afternoon"
+
+  
+},
+
+
+{
+    name: "Double Dutch Bus",
+    artist: " Frankie Smith ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Double Dutch Bus Frankie Smith.mp3",
+        year: 1981,
+  timeCategory: "f afternoon"
+
+  
+},
+{
+    name: "  Rhythm Is A Dancer",
+    artist: "Snap ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Snap - Rhythm Is A Dancer.mp3",
+       year: 1977,
+   timeCategory: "f afternoon"
+
+  
+},
+{
+     name: "Back By Dope Demand",
+    artist: "King Bee",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://jazzmusic05.netlify.app/King Bee - Back By Dope Demand.mp3",
+ 
+ timeCategory: "f afternoon"
+
+},
 
 {
     name: "Dirty Cash",
@@ -26734,7 +27005,26 @@ playcount: 0
 
 
 
+{
+    name: "Gypsy Woman",
+    artist: "Crystal Waters ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Crystal Waters - Gypsy Woman.mp3",
+     year: 1991,
+   timeCategory: "f evening"
 
+  
+},
+{
+    
+    name: " Don t You Want Me (1992)",
+    artist: "Felix ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Felix - Don t You Want Me (1992).mp3",
+      timeCategory: "f evening",
+volumeBoost: 0.40 
+
+},
 
 
 
@@ -26759,7 +27049,15 @@ playcount: 0
 
 
 
+{
+    name: " New Religion",
+    artist: "Bebe Rexha ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Bebe Rexha - New Religion (2026).mp3",
+       timeCategory: "f evening"
 
+  
+},
 
 
 
@@ -28354,6 +28652,209 @@ volumeBoost: 0.40
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: " Din Daa Daa",
+    artist: "George Kranz ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/George Kranz - Din Daa Daa.mp3",
+       timeCategory: "f evening-late"
+
+  
+},
+
+
+
+
+{
+    name: " Hot Shot (maxi) ",
+    artist: "Karen Young ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Karen Young - Hot Shot (maxi).mp3",
+       timeCategory: "f evening-late"
+
+  
+},
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Just Be Good To Me (maxi)",
+    artist: "S.O.S. Band ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://jazzmusic05.netlify.app/S.O.S. Band - Just Be Good To Me.mp3",
+ 
+ timeCategory: "f evening-late"
+
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: " New Religion (new)",
+    artist: "Bebe Rexha ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Bebe Rexha - New Religion (2026).mp3",
+       timeCategory: "f evening-late"
+
+  
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: " Din Daa Daa",
+    artist: "George Kranz ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/George Kranz - Din Daa Daa.mp3",
+       timeCategory: "f evening-late"
+
+  
+},
+
+
+//f evening-late
+
+{
+    name: " Hot Shot (maxi) ",
+    artist: "Karen Young ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Karen Young - Hot Shot (maxi).mp3",
+       timeCategory: "f evening-late"
+
+  
+},
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Just Be Good To Me (maxi)",
+    artist: "S.O.S. Band ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://jazzmusic05.netlify.app/S.O.S. Band - Just Be Good To Me.mp3",
+ 
+ timeCategory: "f evening-late"
+
+},
+
+
+
+
+
+
+
+
+
+
 {
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️",
@@ -28362,7 +28863,15 @@ volumeBoost: 0.40
     timeCategory: "f evening-late"
 },
 
+{
+    name: " New Religion",
+    artist: "Bebe Rexha ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Bebe Rexha - New Religion (2026).mp3",
+       timeCategory: "f evening-late"
 
+  
+},
 
 
 {
