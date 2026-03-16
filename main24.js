@@ -10312,10 +10312,10 @@ quickFade: true
 },
 
 {
-    name: "Come Find Me (new)",
+    name: "Come Find Me ",
     artist: "Clementine Douglas ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Clementine Douglas - Come Find Me.mp3",
+    path: "https://jazzmusic05.netlify.app/Clementine Douglas - Come Find Me.mp3",
        timeCategory: "afternoon"
 },
 
@@ -10417,11 +10417,12 @@ quickFade: true,
 
 
 
+
 {
      name: "   Faded",
     artist: "Hayla & Nelly Furtado",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Hayla & Nelly Furtado - Faded.mp3",
+    path: "https://jazzmusic05.netlify.app/Hayla & Nelly Furtado - Faded.mp3",
            timeCategory: "afternoon",
   playcount: 0
 },
@@ -12461,10 +12462,10 @@ isLoud: true,
 
 
 {
-    name: "Girl Get Up (new)",
+    name: "Girl Get Up ",
     artist: "Doechii",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Doechii - Girl Get Up (new).mp3",
+    path: "https://jazzmusic05.netlify.app/Doechii - Girl Get Up .mp3",
   timeCategory: "afternoon"
 
 },
@@ -12923,6 +12924,19 @@ quickFade: true
 
 
 
+{
+     name: "  Take Over ",
+    artist: "Rihanna ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Rihanna - Take Over (new).mp3",
+    timeCategory: "afternoon",
+playcount: 0
+   
+
+
+},
+
+
 
 
 
@@ -13047,10 +13061,10 @@ playcount: 0
 },
 
 {
-     name: "  Nobody's Girl (new)",
+     name: "  Nobody's Girl ",
     artist: "Tate McRae ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Tate McRae - Nobody's Girl (new).mp3",
+    path: "https://jazzmusic05.netlify.app/Tate McRae - Nobody's Girl (new).mp3",
     timeCategory: "afternoon",
 playcount: 0
    
@@ -13074,6 +13088,18 @@ playcount: 0
 
 
 
+
+{
+     name: "  In Your Eyes",
+    artist: "The Weeknd  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/The Weeknd - In Your Eyes.mp3",
+    timeCategory: "afternoon",
+playcount: 0
+   
+
+
+},
 
 
 
@@ -13524,10 +13550,25 @@ volumeBoost: 0.30
 
 
 
+{
+    name: "Dancin' (maxi)",
+    artist: "Crown Heights Affair ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Crown Heights Affair - Dancin' (maxi).mp3",
+     year: 1991,
+   timeCategory: "afternoon"
+
+  
+},
 
 
-
-
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/voiceover/Latest Hits Of Dance Area22222.mp3",
+  timeCategory: "afternoon"
+},
 
 
 {
@@ -14255,6 +14296,17 @@ volumeBoost: 0.10
 
 
 
+{
+     name: "    Be My Lover (12inch) ",
+    artist: "La Bouche",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/La Bouche - Be My Lover (12inch).mp3",
+           timeCategory: "afternoon",
+      quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
+},
+
 
 
 
@@ -14354,6 +14406,30 @@ volumeBoost: 0.10
 
 
 
+
+
+{
+    name: " New Religion",
+    artist: "Bebe Rexha ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Bebe Rexha - New Religion (2026).mp3",
+       timeCategory: "afternoon"
+
+  
+},
+
+
+
+
+{
+    name: "  I Can t Wait (new)",
+    artist: "Bob Sinclar & Kiesza  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Bob Sinclar & Kiesza - I Can t Wait (new).mp3",
+       timeCategory: "afternoon"
+
+  
+},
 
 
 
@@ -15703,15 +15779,13 @@ quickFade: true
 },
 
 
-
 {
-    name: " Gorgeous (new)",
+    name: " Gorgeous ",
     artist: "  Doja Cat ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Doja Cat - Gorgeous.mp3",
-       timeCategory: "evening"
+    path: "https://jazzmusic05.netlify.app/Doja Cat - Gorgeous.mp3",
+       timeCategory: " evening"
 },
-
 
 
 
@@ -17218,6 +17292,16 @@ quickFade: true,
 
 
 
+{
+     name: "   Toxic Love",
+    artist: "Dua Lipa",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Dua Lipa - Toxic Love.mp3",
+           timeCategory: "evening",
+      quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
+},
 
 
 
@@ -18832,7 +18916,16 @@ playcount: 0
 
 
 
+{
+    name: "Dancin' (maxi)",
+    artist: "Crown Heights Affair ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Crown Heights Affair - Dancin' (maxi).mp3",
+     year: 1991,
+   timeCategory: "evening"
 
+  
+},
 
 
 
@@ -18927,7 +19020,15 @@ volumeBoost: 0.20
 volumeBoost: 0.40
 },
 
+{
+    name: " New Religion",
+    artist: "Bebe Rexha ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Bebe Rexha - New Religion (2026).mp3",
+       timeCategory: "evening"
 
+  
+},
 
 
 {
@@ -20389,7 +20490,14 @@ timeCategory: "evening-late"
 
 
 
+{
+    name: "Girl Get Up ",
+    artist: "Doechii",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Doechii - Girl Get Up .mp3",
+  timeCategory: "evening-late"
 
+},
 
 
 
@@ -25125,10 +25233,10 @@ isLoud: true,
 
 
 {
-     name: "  Take Over (new)",
+     name: "  Take Over ",
     artist: "Rihanna ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Rihanna - Take Over (new).mp3",
+    path: "https://jazzmusic05.netlify.app/Rihanna - Take Over (new).mp3",
     timeCategory: " evening-late",
 playcount: 0
    
@@ -25598,10 +25706,10 @@ playcount: 0
 },
 
 {
-     name: "  Nobody's Girl (new)",
+     name: "  Nobody's Girl )",
     artist: "Tate McRae ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Tate McRae - Nobody's Girl (new).mp3",
+    path: "https://jazzmusic05.netlify.app/Tate McRae - Nobody's Girl (new).mp3",
     timeCategory: "f afternoon",
 playcount: 0
    
@@ -25970,7 +26078,15 @@ quickFade: true
 },
 
 
+{
+    name: " New Religion",
+    artist: "Bebe Rexha ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Bebe Rexha - New Religion (2026).mp3",
+       timeCategory: "f afternoon"
 
+  
+},
 
 
 {
@@ -26331,7 +26447,17 @@ playcount: 0
 
 
   
+{
+     name: "  In Your Eyes",
+    artist: "The Weeknd  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/The Weeknd - In Your Eyes.mp3",
+    timeCategory: "f afternoon",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -27027,7 +27153,15 @@ volumeBoost: 0.40
 },
 
 
+{
+    name: " New Religion",
+    artist: "Bebe Rexha ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Bebe Rexha - New Religion (2026).mp3",
+       timeCategory: "f evening"
 
+  
+},
 
 {
     name: "Welcome!",
@@ -27224,10 +27358,10 @@ timeCategory: "f evening",
 },
 
 {
-    name: " Gorgeous (new)",
+    name: " Gorgeous ",
     artist: "  Doja Cat ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Doja Cat - Gorgeous.mp3",
+    path: "https://jazzmusic05.netlify.app/Doja Cat - Gorgeous.mp3",
        timeCategory: "f evening"
 },
 
@@ -28349,17 +28483,26 @@ volumeBoost: 0.65,
        timeCategory: "f evening"
 },
 
-
+{
+     name: "   Toxic Love ",
+    artist: "Dua Lipa",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Dua Lipa - Toxic Love.mp3",
+           timeCategory: "f evening",
+      quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
+},
 
 
 
 
 
 {
-     name: "   Toxic Love (new)",
-    artist: "Dua Lipa",
+     name: "    Be My Lover (12inch) ",
+    artist: "La Bouche",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Dua Lipa - Toxic Love.mp3",
+    path: "https://jazzmusic05.netlify.app/La Bouche - Be My Lover (12inch).mp3",
            timeCategory: "f evening",
       quickFade: true,
     volumeBoost: 0.35,
@@ -28373,7 +28516,7 @@ volumeBoost: 0.65,
      name: "   Faded",
     artist: "Hayla & Nelly Furtado",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Hayla & Nelly Furtado - Faded.mp3",
+    path: "https://jazzmusic05.netlify.app/Hayla & Nelly Furtado - Faded.mp3",
            timeCategory: "f evening",
   playcount: 0
 },
@@ -29516,12 +29659,11 @@ playcount: 0
 
 
 
-
 {
      name: "   Faded",
     artist: "Hayla & Nelly Furtado",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Hayla & Nelly Furtado - Faded.mp3",
+    path: "https://jazzmusic05.netlify.app/Hayla & Nelly Furtado - Faded.mp3",
            timeCategory: "f evening-late",
   playcount: 0
 },
@@ -30099,10 +30241,10 @@ playcount: 0
 
 
 {
-    name: " Gorgeous (new)",
+    name: " Gorgeous ",
     artist: "  Doja Cat ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Doja Cat - Gorgeous.mp3",
+    path: "https://jazzmusic05.netlify.app/Doja Cat - Gorgeous.mp3",
        timeCategory: "f evening-late"
 },
 
@@ -30142,13 +30284,7 @@ playcount: 0
 
 
 
-{
-    name: "Come Find Me (new)",
-    artist: "Clementine Douglas ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Clementine Douglas - Come Find Me.mp3",
-       timeCategory: "f evening-late"
-},
+
 
 
 
