@@ -939,7 +939,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const saturdayMorningAudioFiles = {
     hourlySou:        "audio/its%20now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
-    fortyFiveMinuteSou: "muziek/discjockeys/DJ%20Saphire%20finale.mp3"
+    fortyMinuteSou:   "muziek/jingles/more music at the weekend.mp3",
+fortyFiveMinuteSou: "muziek/discjockeys/DJ%20Saphire%20finale.mp3"
   
 };
 
@@ -947,6 +948,7 @@ document.addEventListener("DOMContentLoaded", () => {
     hourlySou:        "audio/its%20now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
     thirtysou:        "muziek/effects/Sunny public.mp3",
+fortyMinuteSou:   "muziek/jingles/more music at the weekend.mp3",
 fortyFiveMinuteSou: "muziek/voiceover/From The Heart Of Amsterdam5.mp3"
   };
 
@@ -954,28 +956,32 @@ fortyFiveMinuteSou: "muziek/voiceover/From The Heart Of Amsterdam5.mp3"
     hourlySou:        "audio/its%20now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
    thirtysou:         "muziek/effects/Sunny public.mp3",
- fortyFiveMinuteSou: "muziek/voiceover/From The Heart Of Amsterdam5.mp3"
+ fortyMinuteSou:   "muziek/jingles/more music at the weekend.mp3",
+fortyFiveMinuteSou: "muziek/voiceover/From The Heart Of Amsterdam5.mp3"
   };
 
   // Sunday splits
   const sundayMorningAudioFiles = {
     hourlySou:        "audio/its%20now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
-    fortyFiveMinuteSou: "muziek/jingles/DJ%20S.mp3"
+    fortyMinuteSou:   "muziek/jingles/more music at the weekend.mp3",
+fortyFiveMinuteSou: "muziek/jingles/DJ%20S.mp3"
   };
 
   const sundayAfternoonAudioFiles = {
     hourlySou:        "audio/its%20now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
     thirtysou:        "muziek/effects/Sunny public.mp3",
-    fortyFiveMinuteSou: "muziek/voiceover/From The Heart Of Amsterdam5.mp3"
+    fortyMinuteSou:   "muziek/jingles/more music at the weekend.mp3",
+fortyFiveMinuteSou: "muziek/voiceover/From The Heart Of Amsterdam5.mp3"
   };
 
   const sundayEveningAudioFiles = {
     hourlySou:        "audio/its%20now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
     thirtysou: "muziek/effects/Sunny public.mp3",
-    fortyFiveMinuteSou: "muziek/voiceover/From The Heart Of Amsterdam5.mp3"
+    fortyMinuteSou:   "muziek/jingles/more music at the weekend.mp3",
+fortyFiveMinuteSou: "muziek/voiceover/From The Heart Of Amsterdam5.mp3"
   };
 
   // Select the right map
@@ -1440,6 +1446,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
 </audio>
 
+<audio id="fortyMinuteSou">
+   <source src="muziek/jingles/more music at the weekend.mp3" type="audio/mp3">
+
+
+</audio>
+
+
+
 <audio id="thirtysou">
    
 
@@ -1537,7 +1551,13 @@ function scheduleSounds() {
   }, Math.max(0, thirtyDelay));
 
 
-
+  // Every 40 minutes
+  const fortyDelay =
+    ((40 - (now.getMinutes() % 40)) % 40) * ms - now.getSeconds() * 1000;
+  setTimeout(() => {
+    playSound(["fortyMinuteSou"]);
+    setInterval(() => playSound(["fortyMinuteSou"]), 2400000);
+  }, Math.max(0, fortyDelay));
 
 
 } // ← NOW the function closes correctly
