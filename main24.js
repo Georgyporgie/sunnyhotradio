@@ -2878,6 +2878,39 @@ volumeBoost: 0.25
 
 
 
+{
+    name: "Celebration  ",
+    artist: "Kool & Gang ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Kool & Gang - Celebration.mp3",
+        timeCategory: "soulshow",
+    quickFade: true
+ 
+},
+
+
+
+{
+    name: "Let No Man Put Asunder  ",
+    artist: "First Choice   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/First Choice  -Let No Man Put Asunder.mp3",
+        timeCategory: "soulshow",
+    quickFade: true
+ 
+},
+
+
+
+{
+    name: " Get On Up (maxi) ",
+    artist: " Jazzy Dee",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Jazzy Dee - Get On Up (maxi).mp3",
+        timeCategory: "soulshow",
+    quickFade: true
+ 
+},
 
 
 
@@ -4609,7 +4642,27 @@ volumeBoost: 0.20
 
 },
 
+{
+    name: "Celebration  ",
+    artist: "Kool & Gang ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Kool & Gang - Celebration.mp3",
+        timeCategory: "eighties",
+    quickFade: true
+ 
+},
 
+
+
+{
+    name: "Let No Man Put Asunder  ",
+    artist: "First Choice   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/First Choice  -Let No Man Put Asunder.mp3",
+        timeCategory: "eighties",
+    quickFade: true
+ 
+},
 
 //strictly nineties show
 
@@ -14612,6 +14665,15 @@ isLoud: true,
 },
 
 
+{
+    name: "Rick Astley ",
+    artist: " Never Gonna Give",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Rick Astley - Never Gonna Give.mp3",
+        timeCategory: "afternoon",
+    quickFade: true
+ 
+},
 
 
 
@@ -24694,12 +24756,54 @@ isLoud: true,
 
 
 
+{
+    name: "Rick Astley ",
+    artist: " Never Gonna Give",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Rick Astley - Never Gonna Give.mp3",
+        timeCategory: "evening-late",
+    quickFade: true
+ 
+},
+
+
+
+
+{
+    name: " Get On Up (maxi) ",
+    artist: " Jazzy Dee",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Jazzy Dee - Get On Up (maxi).mp3",
+        timeCategory: "evening-late",
+    quickFade: true
+ 
+},
 
 
 
 
 
+{
+    name: "Save Me Tonight (new) ",
+    artist: " Jennifer Lopez",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Jennifer Lopez - Save Me Tonight (new).mp3",
+        timeCategory: "evening-late",
+    quickFade: true
+ 
+},
 
+
+
+{
+    name: "Hung Up ",
+    artist: " Madonna ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Madonna Hung up.mp3",
+        timeCategory: "evening-late",
+    quickFade: true
+ 
+},
 
 
 
@@ -25783,7 +25887,15 @@ timeCategory: "f-afternoon"
 
 
 
-
+{
+    name: "Rick Astley ",
+    artist: " Never Gonna Give",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Rick Astley - Never Gonna Give.mp3",
+        timeCategory: "F afternoon",
+    quickFade: true
+ 
+},
 
 
 
