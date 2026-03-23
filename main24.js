@@ -4406,6 +4406,14 @@ volumeBoost: 0.25
 },
 
 
+{
+     name: "   Showing Out",
+    artist: "Mel & Kim - Showing Out  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Mel & Kim - Showing Out.mp3",
+    timeCategory: "eighties"
+
+},
 
 {
     name: "  Theme From S Express",
@@ -4976,7 +4984,15 @@ playcount: 0
 
 },
 
-
+{
+     name: " 100% Pure Love",
+    artist: "Crystal Waters  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Crystal Waters - 100% Pure Love.mp3",
+    timeCategory: "nineties",
+  volumeBoost: 0.25,
+  playcount: 0
+},
 
 {
     name: " The Age Of Love",
@@ -5694,7 +5710,16 @@ timeCategory: "nineties",
 },
 
 
-
+{
+     name: "U Can't Touch This (1990)",
+    artist: "M.C. Hammer",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/M.C. Hammer - U Can't Touch This (1990).mp3",
+    timeCategory: "nineties",
+    quickFade: true,
+volumeBoost: 0.20,
+playcount: 0
+},
 
 
 //frankiebones
@@ -5783,6 +5808,47 @@ timeCategory: "nineties",
 
 
 
+//ministry of sound
+
+
+{
+     name: "  All This Time ",
+    artist: "Sonny Fodera & Jazzy",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/MinistryofSound01.mp3",
+    timeCategory: "ministry",
+  volumeBoost: 0.05,
+  playcount: 0
+},
+
+
+
+
+
+
+{
+     name: " MinistryofSound",
+    artist: "Sonny Fodera & Jazzy",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/MinistryofSound02.mp3",
+    timeCategory: "ministry",
+  volumeBoost: 0.05,
+  playcount: 0
+},
+
+
+
+
+
+{
+     name: "  MinistryofSound ",
+    artist: "Sonny Fodera & Jazzy",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/MinistryofSound03.mp3",
+    timeCategory: "ministry",
+  volumeBoost: 0.05,
+  playcount: 0
+},
 
 
 
@@ -5790,21 +5856,69 @@ timeCategory: "nineties",
 
 
 
+{
+     name: " MinistryofSound ",
+    artist: "Sonny Fodera & Jazzy",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/MinistryofSound04.mp3",
+    timeCategory: "ministry",
+  volumeBoost: 0.05,
+  playcount: 0
+},
 
 
 
 
 
+{
+     name: " MinistryofSound ",
+    artist: "Sonny Fodera & Jazzy",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/MinistryofSound05.mp3",
+    timeCategory: "ministry",
+  volumeBoost: 0.05,
+  playcount: 0
+},
 
 
 
 
 
+{
+     name: "  MinistryofSound ",
+    artist: "Sonny Fodera & Jazzy",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/MinistryofSound06.mp3",
+    timeCategory: "ministry",
+  volumeBoost: 0.05,
+  playcount: 0
+},
 
 
 
 
+{
+     name: "  MinistryofSound ",
+    artist: "Sonny Fodera & Jazzy",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/MinistryofSound07.mp3",
+    timeCategory: "ministry",
+  volumeBoost: 0.05,
+  playcount: 0
+},
 
+
+
+
+{
+     name: "  MinistryofSound ",
+    artist: "Sonny Fodera & Jazzy",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/MinistryofSound08.mp3",
+    timeCategory: "ministry",
+  volumeBoost: 0.05,
+  playcount: 0
+},
 
 
 
@@ -10457,7 +10571,7 @@ quickFade: true,
 
 
 {
-     name: "   Toxic Love (new)",
+     name: "   Toxic Love ",
     artist: "Dua Lipa",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Dua Lipa - Toxic Love.mp3",
@@ -10523,7 +10637,7 @@ volumeBoost: 0.30
 
 
 {
-     name: " Think About Us    (new)",
+     name: " Think About Us   ",
     artist: "Poppy Baskcomb   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Poppy Baskcomb - Think About Us.mp3",
@@ -11811,7 +11925,15 @@ volumeBoost: 0.25
   timeCategory: "afternoon"
 },
 
-
+{
+     name: " 100% Pure Love",
+    artist: "Crystal Waters  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Crystal Waters - 100% Pure Love.mp3",
+    timeCategory: "afternoon",
+  volumeBoost: 0.25,
+  playcount: 0
+},
 
 {
     name: "I'll Be Good",
@@ -12309,6 +12431,15 @@ playcount: 0
 volumeBoost: 0.35
 },
 
+{
+     name: " Missing  ",
+    artist: "Everything But The Girl ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Everything But The Girl - Missing.mp3",
+    timeCategory: "afternoon",
+  volumeBoost: 0.25,
+  playcount: 0
+},
 
 
 {
@@ -13081,7 +13212,7 @@ playcount: 0
 
 
 {
-     name: "  Take Over (new)",
+     name: "  Take Over ",
     artist: "Rihanna ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Rihanna - Take Over (new).mp3",
@@ -15810,6 +15941,15 @@ quickFade: true
 },
 
 
+{
+     name: " We Connect (new) ",
+    artist: "Snoop Dogg ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Snoop Dogg - We Connect (new).mp3",
+    timeCategory: "evening",
+  volumeBoost: 0.05,
+  playcount: 0
+},
 
 
 {
@@ -18281,7 +18421,9 @@ volumeBoost: 0.20
     artist: "33 Queen ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/33 Queen - Searchin' (1990).mp3",
-    timeCategory: "evening"
+    year:1990,
+timeCategory: "evening"
+
 },
 
 
@@ -18960,7 +19102,7 @@ isLoud: true,
     artist: "Johnny Pate ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/Johnny Pate - Shaft In Africa.mp3",
-  
+  year:1973,
  timeCategory: "evening",
 volumeBoost: 0.20
 },
@@ -19097,14 +19239,6 @@ volumeBoost: 0.25
 },
 
 
-
-{
-    name: "   I'm Gonna Get You",
-    artist: "Bizarre Inc. ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Bizarre Inc. - I'm Gonna Get You.mp3",
-         timeCategory: "evening"
-},
 
 
 
@@ -20017,7 +20151,8 @@ volumeBoost: 0.70,
     path: "https://sunnyhotradio.com/muziek/oldies07/Divine - Shoot Your Shot (1982).mp3",
       isLoud: true,          
   loudnessValue: 0.92,    
-     quickFade: true,
+     year:1982,
+quickFade: true,
 timeCategory: "evening"
 },
 
@@ -20358,7 +20493,8 @@ volumeBoost: 0.25
     artist: "Daft Punk  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Daft Punk - One More Time.mp3",
-     timeCategory: "evening-late",
+    year:2001,
+ timeCategory: "evening-late",
   quickFade: true,
   volumeBoost: 0.40
 },
@@ -25143,6 +25279,14 @@ isLoud: true,
 
 
 
+{
+     name: "   Showing Out",
+    artist: "Mel & Kim - Showing Out  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Mel & Kim - Showing Out.mp3",
+    timeCategory: "evening-late"
+
+},
 
 
 
@@ -25687,7 +25831,7 @@ playcount: 0
 
 
 {
-     name: "  Bring Me To Life (new)",
+     name: "  Bring Me To Life ",
     artist: "Tiesto  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Tiesto - Bring Me To Life.mp3",
@@ -25986,7 +26130,7 @@ quickFade: true
 
 
 {
-     name: "The Dead Dance (new) ",
+     name: "The Dead Dance ",
     artist: "Lady Gaga ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Lady Gaga - The Dead Dance.mp3",
@@ -26276,6 +26420,14 @@ timeCategory: "f-afternoon"
 
 
 
+{
+     name: "   Showing Out",
+    artist: "Mel & Kim - Showing Out  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Mel & Kim - Showing Out.mp3",
+    timeCategory: "f afternoon"
+
+},
 
 
 
@@ -27303,7 +27455,7 @@ timeCategory: "f evening",
 
 
 {
-    name: "All Natural (new)",
+    name: "All Natural ",
     artist: " Rita Ora  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Rita Ora - All Natural.mp3",
@@ -27530,7 +27682,15 @@ timeCategory: "f evening"
 
 
 
-
+{
+     name: " We Connect (new) ",
+    artist: "Snoop Dogg ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Snoop Dogg - We Connect (new).mp3",
+    timeCategory: "f evening",
+  volumeBoost: 0.25,
+  playcount: 0
+},
 
 
 
@@ -29082,7 +29242,15 @@ timeCategory: "f evening-late"
 
 
 
-
+{
+     name: " 100% Pure Love",
+    artist: "Crystal Waters  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Crystal Waters - 100% Pure Love.mp3",
+    timeCategory: "f evening-late",
+  volumeBoost: 0.25,
+  playcount: 0
+},
 
 
 
@@ -29349,6 +29517,29 @@ timeCategory: "f evening-late"
        timeCategory: "f evening-late"
 },
 
+
+
+
+{
+     name: " We Connect (new) ",
+    artist: "Snoop Dogg ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Snoop Dogg - We Connect (new).mp3",
+    timeCategory: "f evening-late",
+  volumeBoost: 0.25,
+  playcount: 0
+},
+
+
+{
+     name: " Missing  ",
+    artist: "Everything But The Girl ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Everything But The Girl - Missing.mp3",
+    timeCategory: "f evening-late",
+  volumeBoost: 0.25,
+  playcount: 0
+},
 
 
 
