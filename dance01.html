@@ -410,14 +410,12 @@ document.getElementById("playlist").src = imageOfTheDay;
 <br>
 <br>
 <br>
-<p class="inca">12 inch radio</p>
- <img class= "dixo"  src="images\mediaplayer.png">
+
 
 <br>
 <br>
 <br>
-<br>
-<br>
+
 <div>
 <h5 id="events">
 <script>
@@ -934,15 +932,18 @@ document.addEventListener("DOMContentLoaded", () => {
   const weekdayAudioFiles = {
     hourlySou:        "audio/its%20now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
+    thirtySevenMinuteSou: "muziek/voiceover/Live%20from%20amsterdam2.mp3",
     fortyFiveMinuteSou: "muziek/effects/Best%20Music.mp3"
-  };
+  
+};
 
   // Saturday splits
   const saturdayMorningAudioFiles = {
     hourlySou:        "audio/its%20now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
+    thirtySevenMinuteSou: "muziek/voiceover/Live%20from%20amsterdam2.mp3",
     fortyMinuteSou:   "muziek/jingles/more music at the weekend.mp3",
-fortyEightMinuteSou: "muziek/discjockeys/DJ%20Saphire%20finale.mp3"
+    fortyFiveMinuteSou: "muziek/discjockeys/DJ%20Saphire%20finale.mp3"
   
 };
 
@@ -950,40 +951,46 @@ fortyEightMinuteSou: "muziek/discjockeys/DJ%20Saphire%20finale.mp3"
     hourlySou:        "audio/its%20now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
     thirtysou:        "muziek/effects/Sunny public.mp3",
-fortyMinuteSou:   "muziek/jingles/more music at the weekend.mp3",
-fortySixMinuteSou: "muziek/voiceover/From The Heart Of Amsterdam5.mp3"
+    thirtySevenMinuteSou: "muziek/voiceover/Live%20from%20amsterdam2.mp3",
+    fortyMinuteSou:   "muziek/jingles/more music at the weekend.mp3",
+    fortyFiveMinuteSou: "muziek/voiceover/From The Heart Of Amsterdam5.mp3"
   };
 
   const saturdayEveningAudioFiles = {
     hourlySou:        "audio/its%20now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
    thirtysou:         "muziek/effects/Sunny public.mp3",
- fortyMinuteSou:   "muziek/jingles/more music at the weekend.mp3",
-fortySixMinuteSou: "muziek/voiceover/From The Heart Of Amsterdam5.mp3"
+   thirtySevenMinuteSou: "muziek/voiceover/Live%20from%20amsterdam2.mp3",
+   fortyMinuteSou:   "muziek/jingles/more music at the weekend.mp3",
+   fortyFiveMinuteSou: "muziek/voiceover/From The Heart Of Amsterdam5.mp3"
   };
 
   // Sunday splits
   const sundayMorningAudioFiles = {
     hourlySou:        "audio/its%20now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
+    thirtySevenMinuteSou: "muziek/voiceover/Live%20from%20amsterdam2.mp3",
+
     fortyMinuteSou:   "muziek/jingles/more music at the weekend.mp3",
-fortySevenMinuteSou: "muziek/jingles/DJ%20S.mp3"
+    fortyFiveMinuteSou: "muziek/jingles/DJ%20S.mp3"
   };
 
   const sundayAfternoonAudioFiles = {
     hourlySou:        "audio/its%20now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
     thirtysou:        "muziek/effects/Sunny public.mp3",
+    thirtySevenMinuteSou: "muziek/voiceover/Live%20from%20amsterdam2.mp3",
     fortyMinuteSou:   "muziek/jingles/more music at the weekend.mp3",
-fortySixMinuteSou: "muziek/voiceover/From The Heart Of Amsterdam5.mp3"
+    fortyFiveMinuteSou: "muziek/voiceover/From The Heart Of Amsterdam5.mp3"
   };
 
   const sundayEveningAudioFiles = {
     hourlySou:        "audio/its%20now.mp3",
     quarterHourSou:   "muziek/effects/blast.mp3",
     thirtysou: "muziek/effects/Sunny public.mp3",
+    thirtySevenMinuteSou: "muziek/voiceover/Live%20from%20amsterdam2.mp3",
     fortyMinuteSou:   "muziek/jingles/more music at the weekend.mp3",
-fortySixMinuteSou: "muziek/voiceover/From The Heart Of Amsterdam5.mp3"
+    fortyFiveMinuteSou: "muziek/voiceover/From The Heart Of Amsterdam5.mp3"
   };
 
   // Select the right map
@@ -1434,13 +1441,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 <audio id="thirtySevenMinuteSou">
-  
+  <source src="muziek/voiceover/Live from amsterdam2.mp3" type="audio/mp3">
 </audio>
 
 
 
 <audio id="fortyEightMinuteSou">
-   
+   <source src="muziek/voiceover/From%20The%20Heart%20Of%20Amsterdam.mp3" type="audio/mp3">
 
 </audio>
 <audio id="fortyFiveMinuteSou">
@@ -1448,16 +1455,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 </audio>
 
-
-<audio id="fortySixMinuteSou">
-   
-
-</audio>
-
-
-
 <audio id="fortyMinuteSou">
-   
+   <source src="muziek/jingles/more music at the weekend.mp3" type="audio/mp3">
 
 
 </audio>
@@ -1844,7 +1843,7 @@ function getCurrentTimeCategory() {
   ];
 
   const categoriesPerDay = {
-    0: { morning:["f afternoon"], afternoon:["f evening"], "special-show":["eighties"], evening:["f afternoon"], "evening-late":["nineties"], late:["f afternoon"], night:["jingle-time"] },
+    0: { morning:["f afternoon"], afternoon:["f evening"], "special-show":["seventies"], evening:["f afternoon"], "evening-late":["nineties"], late:["f afternoon"], night:["jingle-time"] },
     1: { morning:["morning"], afternoon:["afternoon"], "special-show":["nineties"], evening:["evening"], "evening-late":["afternoon"], late:["evening-late"], night:["jingle-time"] },
     2: { morning:["evening-late"], afternoon:["evening"], "special-show":["evening-late"], evening:["afternoon"], "evening-late":["morning"], late:["nineties"], night:["jingle-time"] },
     3: { morning:["evening-late"], afternoon:["evening"], "special-show":["afternoon"], evening:["evening-late"], "evening-late":["eighties"], late:["morning"], night:["jingle-time"] },
