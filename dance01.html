@@ -839,11 +839,6 @@ img.src = 'images/Sunny Winter Dance.png';
 
 
 
-
-
-
-
-
 <audio id="musicPlayer" autoplay>
   <source id="musicSource" src="" type="audio/mpeg">
 </audio>
@@ -852,46 +847,42 @@ img.src = 'images/Sunny Winter Dance.png';
 window.addEventListener('load', () => {
   const musicPlayer = document.getElementById("musicPlayer");
 
-  // Start at normal volume
-  musicPlayer.volume = 0.7;
+  const lowVolume = 0.3;
+  const normalVolume = 0.7;
 
-  // After 4 seconds, fade down a bit
+  const fadeUpDuration = 2000; // example: 2 seconds
+  const interval = 50;         // interval for fade steps
+
+  // Start at normal volume
+  musicPlayer.volume = normalVolume;
+
+  // After 4 seconds, instantly duck
   setTimeout(() => {
 
+    // Instantly drop to low volume (no fade-out)
+    musicPlayer.volume = lowVolume;
 
-    const startVolume = musicPlayer.volume;
-    const lowVolume   = 0.3; // softer under DJ
-    const normalVolume = 0.7;
+    // Hold low volume for 5 seconds
+    setTimeout(() => {
 
-    // Fade down
-    let step = 0;
-    const steps = fadeDownDuration / interval;
-    const fadeDown = setInterval(() => {
-      step++;
-      let progress = step / steps;
-      musicPlayer.volume = startVolume + (lowVolume - startVolume) * progress;
-      if (step >= steps) {
-        clearInterval(fadeDown);
-        musicPlayer.volume = lowVolume;
+      // Fade back up
+      let upStep = 0;
+      const upSteps = fadeUpDuration / interval;
 
-        // Hold low volume for 5 seconds (DJ speaking)
-        setTimeout(() => {
-          // Fade back up
-          let upStep = 0;
-          const upSteps = fadeUpDuration / interval;
-          const fadeUp = setInterval(() => {
-            upStep++;
-            let upProgress = upStep / upSteps;
-            musicPlayer.volume = lowVolume + (normalVolume - lowVolume) * upProgress;
-            if (upStep >= upSteps) {
-              clearInterval(fadeUp);
-              musicPlayer.volume = normalVolume; // restore
-            }
-          }, interval);
-        }, 5000); // <-- how long to stay ducked
-      }
-    }, interval);
-  }, 4000); // trigger 4s after load/play
+      const fadeUp = setInterval(() => {
+        upStep++;
+        let progress = upStep / upSteps;
+        musicPlayer.volume = lowVolume + (normalVolume - lowVolume) * progress;
+
+        if (upStep >= upSteps) {
+          clearInterval(fadeUp);
+          musicPlayer.volume = normalVolume;
+        }
+      }, interval);
+
+    }, 5000);
+
+  }, 4000);
 });
 </script>
 
