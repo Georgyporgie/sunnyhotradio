@@ -1020,14 +1020,6 @@ volumeBoost: 0.50
 
 
 
-{
-     name: "Sunny  ",
-    artist: "Jingle Time",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-    timeCategory: "jingle-time"
-  
-},
 
 
 
@@ -1119,13 +1111,6 @@ volumeBoost: 0.50
 },
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-    timeCategory: "jingle-time"
-},
 
 {
     name: "Just For You",
@@ -3298,16 +3283,7 @@ timeCategory: "eighties"
     playcount: 0
 },
 
-{
-    name: " I Can't Wait (1985)",
-    artist: "NU Shooz ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-         timeCategory: "eighties",
-     quickFade: true,
-    volumeBoost: 0.55,
-    playcount: 0
-},
+
 
 
 {
@@ -6711,13 +6687,7 @@ timeCategory: "morning",
 
  
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-      timeCategory: "morning"
-},
+
 
 
 
@@ -6785,13 +6755,6 @@ timeCategory: "morning",
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-       timeCategory: "morning"
-},
 
 
 
@@ -6903,15 +6866,6 @@ timeCategory: "morning",
 
 
 
- 
-
- {
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-      timeCategory: "morning"
-},
 
 {
     name: "Make It Right",
@@ -8070,15 +8024,6 @@ timeCategory: "morning"
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-     timeCategory: "morning"
-
-
-},
 
 
 {
@@ -8339,18 +8284,6 @@ volumeBoost: 0.10
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-    timeCategory: "morning"
-
-
-},
-
-
-
 
 
 
@@ -8512,16 +8445,6 @@ volumeBoost: 0.45
 
 
 
-{
-    name: " I Can't Wait (1985)",
-    artist: "NU Shooz ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-         timeCategory: "morning",
-     quickFade: true,
-    volumeBoost: 0.55,
-    playcount: 0
-},
 
 
 
@@ -10019,13 +9942,6 @@ quickFade: true
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-         timeCategory: "morning"
-},
 
 
 
@@ -11224,15 +11140,6 @@ volumeBoost: 0.30
 
 
 {
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-          timeCategory: "afternoon"
-},
-
-
-{
     name: "Just For You",
     artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -11917,13 +11824,7 @@ volumeBoost: 0.25
 },
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-  timeCategory: "afternoon"
-},
+
 
 {
      name: " 100% Pure Love",
@@ -13033,13 +12934,6 @@ quickFade: true
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-   timeCategory: "afternoon"
- },
 
 
 
@@ -13857,14 +13751,6 @@ volumeBoost: 0.30
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-     timeCategory: "afternoon"
-},
-
 
 
 
@@ -14354,13 +14240,6 @@ volumeBoost: 0.10
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-      timeCategory: "afternoon"
-},
 
 
 
@@ -16793,13 +16672,6 @@ quickFade: true,
        timeCategory: "evening"
 },
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-       timeCategory: "evening"
-},
 
 
 
@@ -18117,14 +17989,6 @@ volumeBoost: 0.20,
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-     timeCategory: "evening"
-},
-
 
 
 {
@@ -18159,13 +18023,6 @@ volumeBoost: 0.20,
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-    timeCategory: "evening"
-},
 
 
 
@@ -19940,13 +19797,7 @@ volumeBoost: 0.50,
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-     timeCategory: "evening"
-},
+
 
 
 
@@ -22476,15 +22327,7 @@ quickFade: true
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-    timeCategory: "evening-late"
 
-
-},
 
 
 
@@ -22618,13 +22461,6 @@ timeCategory: "evening-late"
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-   timeCategory: "evening-late"
-},
 
 
 
@@ -22633,14 +22469,6 @@ timeCategory: "evening-late"
 
 
 
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-  timeCategory: "evening-late"
-},
 
 {
     name: "Just For You",
@@ -22984,14 +22812,6 @@ timeCategory: "evening-late"
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-      timeCategory: "evening-late"
-},
-
 
 
 {
@@ -23107,14 +22927,6 @@ timeCategory: "evening-late"
 
 
 
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-    timeCategory: "evening-late"
-},
 
 
 
@@ -23329,14 +23141,6 @@ timeCategory: "evening-late"
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-    timeCategory: "evening-late"
-},
-
 
 
 
@@ -23500,14 +23304,6 @@ volumeBoost:0.65
 
 
 
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-    timeCategory: "evening-late"
-},
 
 
 
@@ -23682,13 +23478,6 @@ quickFade: true,
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-        timeCategory: "evening-late"
-},
 
 
 
@@ -23801,13 +23590,6 @@ quickFade: true,
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-    timeCategory: "evening-late"
-},
 
 
 
@@ -23825,13 +23607,6 @@ quickFade: true,
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-    timeCategory: "evening-late"
-},
 
 
 
@@ -23919,16 +23694,6 @@ quickFade: true,
 
 
 
-
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
- timeCategory: "evening-late"
-},
 
 
 
@@ -24036,14 +23801,6 @@ playcount: 0
 
 
 
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-   timeCategory: "evening-late"
-},
 
 
 
@@ -24282,13 +24039,6 @@ playcount: 0
 
 
 {
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-      timeCategory: "evening-late"
-},
-{
     name: "   All Nite",
     artist: "Janet Jackson  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -24345,13 +24095,6 @@ playcount: 0
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-  timeCategory: "evening-late"
-},
 
 
 
@@ -24880,13 +24623,6 @@ isLoud: true,
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-  timeCategory: "evening-late"
-},
 
 
 
@@ -27015,14 +26751,6 @@ quickFade: true
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-   timeCategory: "f afternoon"
-
-},
 
 
 
@@ -27977,14 +27705,6 @@ isLoud: true,
 
 
 
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
-      timeCategory: "f evening"
-},
 
 
 
@@ -29967,13 +29687,7 @@ timeCategory: "f evening-late"
 },
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Let op.mp3",
- timeCategory: "f evening-late"
-},
+
 
 
 
