@@ -2589,7 +2589,13 @@ timeCategory: "soulshow"
 
 },
 
-
+{
+     name: "Intro",
+    artist: "Soulshow  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Soulshow intro.mp3",
+    timeCategory: "soulshow"
+},
 
 {
      name: "Intro",
@@ -2703,7 +2709,13 @@ quickFade: true
 },
 
 
-
+{
+     name: "Intro",
+    artist: "Soulshow  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Soulshow tussen.mp3",
+    timeCategory: "soulshow"
+},
 
 {
     name: "   One More Time (2001)",
