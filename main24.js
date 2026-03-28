@@ -2318,12 +2318,65 @@ volumeBoost: 0.20,
 },
 
 
+{
+     name: "Boogie Oogie (maxi)",
+    artist: "A Taste Of Honey",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/A Taste Of Honey - Boogie Oogie strictl.mp3",
+ 
+ timeCategory: "seventies"
 
+},
+
+
+
+
+{
+     name: " Get Down Tonight",
+    artist: "KC & Sunshine Band ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/KC - Get Down Tonight strictly.mp3",
+ 
+ timeCategory: "seventies"
+
+},
+
+
+
+{
+     name: "  Shake Your Booty",
+    artist: "KC & Sunshine Band ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/KC - Shake Your Booty strictly.mp3",
+ 
+ timeCategory: "seventies"
+
+},
+
+
+
+
+
+{
+     name: " Disco Inferno",
+    artist: "The Trammps  ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/The Trammps - Disco Inferno.mp3",
+ 
+ timeCategory: "seventies"
+
+},
 
 
 //soulshow
 
-
+{
+     name: "Intro",
+    artist: "Soulshow  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Soulshow intro2.mp3",
+    timeCategory: "soulshow"
+},
 
 {
      name: "Newyork City (maxi)",
@@ -2381,7 +2434,13 @@ quickFade: true
     playcount: 0
 },
 
-
+{
+     name: "Intro",
+    artist: "Soulshow  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Soulshow intro2.mp3",
+    timeCategory: "soulshow"
+},
 
 {
     name: "Thats The Way",
@@ -2447,7 +2506,13 @@ timeCategory: "soulshow",
 volumeBoost: 0.35
 },
 
-
+{
+     name: "Intro",
+    artist: "Soulshow  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Soulshow intro2.mp3",
+    timeCategory: "soulshow"
+},
 
 {
     name: " What You Waiting For  ",
@@ -2516,19 +2581,15 @@ timeCategory: "soulshow"
  timeCategory: "soulshow",
 volumeBoost: 0.20
 },
-
-
 {
-    name: "Bond Theme 77",
-    artist: "James Bond",
+     name: "Intro",
+    artist: "Soulshow  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/James Bond - Bond theme 77.mp3",
-   timeCategory: "soulshow",
-    quickFade: true,
-    volumeBoost: 0.50,
-  eq: { bass: 1, mid: 2, treble: +1 } ,
-playcount: 0
+    path: "https://sunnydancemusic04.netlify.app/Soulshow intro2.mp3",
+    timeCategory: "soulshow"
 },
+
+
 
 
 {
@@ -2577,6 +2638,15 @@ timeCategory: "soulshow"
     path: "https://danceoldies10.netlify.app/Cameo - She's Strange.mp3",
         timeCategory: "soulshow"
 
+},
+
+
+{
+     name: "Intro",
+    artist: "Soulshow  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Soulshow intro2.mp3",
+    timeCategory: "soulshow"
 },
 
 
@@ -2646,6 +2716,22 @@ timeCategory: "soulshow",
 
 },
 
+
+{
+     name: "Intro",
+    artist: "Soulshow  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Soulshow intro.mp3",
+    timeCategory: "soulshow"
+},
+
+{
+     name: "Intro",
+    artist: "Soulshow  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Soulshow intro2.mp3",
+    timeCategory: "soulshow"
+},
 
 {
      name: "Intro",
@@ -10183,6 +10269,65 @@ quickFade: true
 
 
 
+
+
+
+{
+     name: "Boogie Oogie (maxi)",
+    artist: "A Taste Of Honey",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/A Taste Of Honey - Boogie Oogie.mp3",
+ 
+ timeCategory: "afternoon"
+
+},
+
+
+
+
+{
+     name: "Boogie Oogie (maxi)",
+    artist: "A Taste Of Honey",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/A Taste Of Honey - Boogie Oogie.mp3",
+ 
+ timeCategory: "afternoon"
+
+},
+
+
+
+
+
+{
+     name: " Get Down Tonight",
+    artist: "KC ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/KC - Get Down Tonight2.mp3",
+ 
+ timeCategory: "afternoon"
+
+},
+
+
+
+{
+     name: " Shake Your Booty",
+    artist: "KC ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/KC - Shake Your Booty2.mp3",
+ 
+ timeCategory: "afternoon"
+
+},
+
+
+
+
+
+
+
+
 {
     name: " Rhythm Of The Night",
     artist: "Corona ",
@@ -10224,6 +10369,28 @@ isLoud: true,
 },
 
 
+
+
+{
+     name: " Dont Make Me Love U (new)",
+    artist: "Lizzo  ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Lizzo - Dont Make Me Love U (new).mp3",
+ 
+ timeCategory: "afternoon"
+
+},
+
+
+{
+     name: "  Looking Lovely (new) ",
+    artist: "Shaggy ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Shaggy - Looking Lovely (new).mp3",
+ 
+ timeCategory: "afternoon"
+
+},
 
 {
     name: "How Do I Make You Love Me ",
@@ -13077,7 +13244,7 @@ timeCategory: "afternoon"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Alice Deejay - Better Of Alone (1998).mp3",
     timeCategory: "afternoon",
-   playcount: 0,
+  year:1998,
    quickfade: true
    
 
@@ -13095,7 +13262,7 @@ timeCategory: "afternoon"
     path: "https://dancemusic09.netlify.app/Faithless - Insomnia (1995).mp3",
     timeCategory: "afternoon",
    quickfade: true,
-playcount: 0
+   year:1995
    
 
 
@@ -13144,7 +13311,7 @@ playcount: 0
 
 
 {
-     name: "  Bring Me To Life (new)",
+     name: "  Bring Me To Life ",
     artist: "Tiesto  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Tiesto - Bring Me To Life.mp3",
@@ -13233,7 +13400,7 @@ playcount: 0
     quickFade: true,
    volumeBoost: 0.65,
    eq: { bass: 1, mid: 2, treble: 1 } ,
-   playcount: 0
+  year: 1984
 },
 
 
@@ -13567,7 +13734,8 @@ playcount: 0
     artist: "SOS Band ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/SOS Band - No One's Gonna Love You (1984).mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+year:1984
 },
 
 {
@@ -13625,7 +13793,7 @@ volumeBoost: 0.30
     artist: "Crown Heights Affair ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Crown Heights Affair - Dancin' (maxi).mp3",
-     year: 1991,
+     year: 1976,
    timeCategory: "afternoon"
 
   
@@ -13886,7 +14054,8 @@ volumeBoost: 0.75,
     artist: "Mary Jane Girls  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Mary Jane Girls - In My House.mp3",
-     timeCategory: "afternoon",
+    timeCategory: "afternoon",
+    year:1984,
 volumeBoost:  0.20
 },
 
@@ -13909,8 +14078,8 @@ volumeBoost:  0.20
     artist: "Freeez ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Freeez - IOU.mp3",
-    timeCategory: "afternoon"
-
+    timeCategory: "afternoon",
+    year:1983
 
 },
 
@@ -13923,7 +14092,8 @@ volumeBoost:  0.20
     artist: "Delegation   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Delegation - You and I.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+    year:1979
 
 
 },
@@ -14039,7 +14209,8 @@ volumeBoost:  0.20
     artist: "One Tribe",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/One Tribe feat. Gem - What Have You Done.mp3",
-     timeCategory: "afternoon"
+    timeCategory: "afternoon",
+    year:1992
 },
 
 
@@ -14718,7 +14889,8 @@ isLoud: true,
     artist: "Mr Fingers ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Mr Fingers - Can you feel it.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+    year:1986
 },
 
 
@@ -15130,8 +15302,9 @@ volumeBoost: 0.05
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Gala - Freed From Desire (1996).mp3",
    timeCategory: "evening",
-playcount: 0,
-volumeBoost: 0.40
+   playcount: 0,
+   year:1996,
+   volumeBoost: 0.40
 },
 
 
@@ -15141,9 +15314,7 @@ volumeBoost: 0.40
     artist: "Rui Da Silva (2007)",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Rui da Silva - Touch Me.mp3",
-  
-
-
+    year:2007,
     timeCategory: "evening",
   quickFade: true
 },
@@ -15956,8 +16127,9 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Salt n Pepa - Push It (1987).mp3",
     timeCategory: "evening",
- eq: { bass:0, mid: 1, treble: 0 } ,
-volumeBoost: 0.40
+    eq: { bass:0, mid: 1, treble: 0 } ,
+    year:1987,
+    volumeBoost: 0.40
 },
 
 
@@ -16170,7 +16342,8 @@ volumeBoost: 0.60
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Joyce Sims - Come Into My Life.mp3",
     timeCategory: "evening",
-quickFade: true,
+   quickFade: true,
+   year:1987,
   volumeBoost: 0.25
 },
 
@@ -16184,7 +16357,8 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle4.mp3",
     timeCategory: "evening",
-  volumeBoost: 0.10
+  year:2007,
+ volumeBoost: 0.10
 },
 
 
@@ -16461,7 +16635,8 @@ quickFade: true,
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Freemasons - Love on my mind.mp3",
      timeCategory: "evening",
-  volumeBoost: 0.10
+   year:2005,
+volumeBoost: 0.10
 },
 
 
@@ -16479,7 +16654,8 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Sylvester- Dance 1978.mp3",
    timeCategory: "evening",
-  volumeBoost: 0.60
+   year:1978,
+volumeBoost: 0.60
 },
 
 
@@ -16630,7 +16806,8 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_05.mp3",
     timeCategory: "evening",
-    volumeBoost: 0.25
+         year:2023,
+volumeBoost: 0.25
 },
 
 
@@ -16640,7 +16817,8 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_06.mp3",
     timeCategory: "evening",
-    volumeBoost: 0.25
+     year:2023,
+volumeBoost: 0.25
 },
 
 {
@@ -16897,7 +17075,8 @@ quickFade: true,
     artist: "Gino Soccio ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Gino Soccio - Dancer (1979).mp3",
-     timeCategory: "evening"
+     timeCategory: "evening",
+     year:1979
 },
 
 
@@ -17333,8 +17512,8 @@ quickFade: true,
     path: "https://danceoldies06.netlify.app/Christian Jay Bolland - Horsepower (1991).mp3",
     timeCategory: "evening",
     volumeBoost: 0.65,
-    playcount: 0
-
+    playcount: 0,
+     year:1991
 },
 
 
@@ -17388,7 +17567,8 @@ quickFade: true,
     timeCategory: "evening",
     eq: { bass: 1, mid: 2, treble: +1 } ,
     volumeBoost: 0.95,
-    playcount: 0
+        year:1992
+ 
 },
 
 
@@ -17417,7 +17597,8 @@ volumeBoost: 0.45,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Technotronic - Pump Up The Jam.mp3",
       timeCategory: "evening",
-quickFade: true
+quickFade: true,
+     year:1989
 },
 
 
@@ -17516,8 +17697,9 @@ quickFade: true
     artist: "Princess  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Princess - Say I'm Your Number One.mp3",
-     timeCategory: "evening"
- },
+     timeCategory: "evening",
+      year:1985
+},
 
 
 
@@ -17727,7 +17909,8 @@ quickFade: true
     path: "muziek/oldies07/Incognito - Always There.mp3",
     timeCategory: "evening",
 volumeBoost: 0.50,
-  eq: { bass: 1, mid: 1, treble: +1 } 
+      year:1991,
+ eq: { bass: 1, mid: 1, treble: +1 } 
 },
 
 
@@ -17740,7 +17923,8 @@ volumeBoost: 0.50,
     path: "https://sunnyhotradio.com/muziek/oldies07/Azoto - San Salvador.mp3",
       timeCategory: "evening",
 volumeBoost: 0.20,
-  eq: { bass: 1, mid: 2, treble: +1 } 
+  eq: { bass: 1, mid: 2, treble: +1 }, 
+     year:1979
 },
 
 
@@ -17901,8 +18085,8 @@ volumeBoost: 0.20,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Unlimited Touch - I hear music.mp3",
      timeCategory: "evening",
-  eq: { bass: 2, mid: 2, treble: +1 }
-
+  eq: { bass: 2, mid: 2, treble: +1 },
+     year:1980
 
 },
 
@@ -17928,7 +18112,8 @@ volumeBoost: 0.20,
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Des'ree - You gotta be.mp3",
       timeCategory: "evening",
-  volumeBoost: 0.25
+       year:1994,
+volumeBoost: 0.25
 },
 
 
@@ -18789,7 +18974,7 @@ timeCategory: "evening",
      timeCategory: "evening",
     quickFade: true,
 volumeBoost: 0.40,
-playcount: 0
+     year:1982
 },
 
 
@@ -18954,7 +19139,7 @@ isLoud: true,
     artist: "Crown Heights Affair ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Crown Heights Affair - Dancin' (maxi).mp3",
-     year: 1991,
+     year: 1976,
    timeCategory: "evening"
 
   
@@ -19040,7 +19225,8 @@ timeCategory: "evening"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Vanilla Ice - Ice Ice Baby (1990).mp3",
     timeCategory: "evening",
-volumeBoost: 0.20
+volumeBoost: 0.20,
+     year:1990
 },
 
 
@@ -20301,7 +20487,46 @@ volumeBoost: 0.25
 
 
 
-  
+  {
+     name: " Get Down Tonight",
+    artist: "KC & Sunshine Band ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/KC - Get Down Tonight strictly.mp3",
+ 
+ timeCategory: "evening"
+
+},
+
+
+
+{
+     name: "  Shake Your Booty",
+    artist: "KC & Sunshine Band ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/KC - Shake Your Booty strictly.mp3",
+ 
+ timeCategory: "evening"
+
+},
+
+
+
+
+
+{
+     name: " Disco Inferno",
+    artist: "The Trammps  ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/The Trammps - Disco Inferno.mp3",
+ 
+ timeCategory: "evening"
+
+},
+
+
+
+
+
 
 
 
@@ -25118,7 +25343,7 @@ playcount: 0
 
 
 {
-     name: "  Bring Me To Life (new)",
+     name: "  Bring Me To Life ",
     artist: "Tiesto  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Tiesto - Bring Me To Life.mp3",
@@ -27593,9 +27818,26 @@ timeCategory: "f evening"
 
 
 
+{
+     name: " Dont Make Me Love U (new)",
+    artist: "Lizzo  ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Lizzo - Dont Make Me Love U (new).mp3",
+ 
+ timeCategory: "f evening"
+
+},
 
 
+{
+     name: "  Looking Lovely (new) ",
+    artist: "Shaggy ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Shaggy - Looking Lovely (new).mp3",
+ 
+ timeCategory: "f evening"
 
+},
 
 
 
@@ -29761,17 +30003,6 @@ playcount: 0
 
 
 
-{
-     name: "  Bring Me To Life (new)",
-    artist: "Tiesto  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Tiesto - Bring Me To Life.mp3",
-    timeCategory: "f evening-late",
-playcount: 0
-   
-
-
-},
 
 
 
