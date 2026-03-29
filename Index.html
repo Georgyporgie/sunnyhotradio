@@ -13,7 +13,7 @@
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 <title> Sunny Hotradio</title>
  
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 
@@ -120,14 +120,14 @@ body {
 <img id= "sun">
 
 <br>click on your favorite station with <em><u id="lijntje">high quality</em></u> sound below</h2>
-
+</div>
 
 
 
 <br>
 
 
-
+<div>
 <h5 class="streep"></h5>
 </div>
 <br>
@@ -136,12 +136,12 @@ body {
 <br>
 <div>
 <h5 class="balk"></h5>
-
+</div>
 
 <br>
 <br>
 
-
+<div>
 <h5 class="two"><img id= "first"></h5>
 <br>
 
@@ -159,10 +159,10 @@ body {
 </div>
 <div>
 <h5 class="balk"></h5>
-
+</div>
 <br>
 <br>
-
+<div>
 <h5 class="three"><img id= "pick"  ></h5>
 <a href= "https://sunnyrockradio.com/index.html"><img id= "rock"></a>
 <br>
@@ -197,9 +197,9 @@ body {
 
 <div>
 <h5 class="balk"></h5>
-
+</div>
 <br>
-
+<div>
 
 
 <h5 class="one"><img id= "third"  ></h5>
@@ -219,7 +219,7 @@ body {
 
 <div>
 <h5 class="balk"></h5>
-
+</div>
 
 
 
@@ -232,7 +232,7 @@ body {
 
 
 <div>
-<h5 id="marquee"> <span id= "red">Live From Amsterdam Sunny Dance Radio! </h5>
+<h5 id="marquee"> <span id= "red">Live From Amsterdam Sunny Dance </h5>
 
 
 <img id= "studio">
@@ -246,7 +246,7 @@ body {
 
 <div>
 <h5 id="strip"></h5>
-
+</div>
 
 
 <H5>Sunny Hotradio <em><u>sponsors</em></u></h5>
@@ -301,7 +301,7 @@ The Netherlands<br>
 <img id= "mimo">
 </a>
 
-
+</div>
 <br>
 <br>
 <br>
@@ -324,7 +324,7 @@ The Netherlands<br>
 </a>
 
 <br>
-</div>
+
 
 <br>
 <br>
@@ -335,9 +335,43 @@ The Netherlands<br>
 
 
 
+
+<audio  id="foyflip"  autoplay loop>
+ <source src="" type="audio/mpeg" />
+   <source src="" type="audio/wav" />
+</audio>
+
+
+
+
+
+
+<script>
+document.getElementById("foyflip").setAttribute('src', 'muziek/pirate background/radio zoek effect2.mp3');
+</script>
+
+
+
+
+
 <script src= "script2.js"> </script>
 
 
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const today = new Date();
+    const month = today.getMonth() + 1;
+
+    const img = document.getElementById("logo");
+
+    if (month >= 6 && month <= 10) {
+        img.src = 'images/Sunny hotradio2.png';
+    } else {
+        img.src = 'images/Sunny hotradio22.png';
+    }
+});
+</script>
 
 
 
@@ -350,7 +384,7 @@ The Netherlands<br>
 var img = document.getElementById("dance");
 
 //Set the src property of our element to the new image URL
-img.src = 'images/Sunny start.png';
+img.src = 'images/Sunny Dance radio.png';
 </script>
 
 <script>
@@ -422,13 +456,7 @@ var img = document.getElementById("bull");
 img.src = 'images/bullseye-59-376797.png';
 </script>
 
-<script>
-//Get our img element by using document.getElementById
-var img = document.getElementById("logo");
 
-//Set the src property of our element to the new image URL
-img.src = 'images/Sunny hotradio22.png';
-</script>
 
 
 
@@ -499,5 +527,4 @@ function myFunction() {
 
 
 </body>
-
 </html>
