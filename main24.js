@@ -1240,6 +1240,32 @@ quickFade: true
 },
 
 
+{
+     name: "You Should be Dancin' ",
+    artist: "Beegees",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Beegees - You Should be Dancin' (strictly).mp3",
+    timeCategory: "seventies"
+},
+
+
+
+{
+     name: "EWF ",
+    artist: "Boogie Wonderland",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/EWF - Boogie Wonderland (strictly).mp3",
+    timeCategory: "seventies"
+},
+
+{
+     name: " Disco Inferno (maxi)",
+    artist: "Trammps",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Trammps - Disco Inferno (maxi) strictly.mp3",
+    timeCategory: "seventies"
+},
+
 
 
 {
@@ -13572,7 +13598,13 @@ playcount: 0
 
 
 
-
+{
+     name: "   Paradise Mix ",
+    artist: "Sueno Latino ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Sueno Latino - Paradise Mix.mp3",
+    timeCategory: "afternoon"
+},
 
 
 
@@ -14402,6 +14434,13 @@ volumeBoost: 0.10
 
 
 
+{
+     name: "EWF ",
+    artist: "Boogie Wonderland",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/EWF - Boogie Wonderland (maxi).mp3",
+    timeCategory: "afternoon"
+},
 
 
 
@@ -23696,6 +23735,13 @@ quickFade: true,
 
 
 
+{
+     name: "EWF ",
+    artist: "Boogie Wonderland",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/EWF - Boogie Wonderland (maxi).mp3",
+    timeCategory: "evening-late"
+},
 
 
 
@@ -26710,7 +26756,13 @@ playcount: 0
 },
 
 
-
+{
+     name: "Saltwater (crossfade) ",
+    artist: "Chicane ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Chicane - Saltwater (crossfade).mp3",
+    timeCategory: "f afternoon"
+},
 
 
 
@@ -27621,7 +27673,13 @@ timeCategory: "f evening"
 
 
 
-
+{
+     name: " Rock With You  ",
+    artist: "Michael Jackson ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Michael Jackson - Rock With You (purrfection).mp3",
+    timeCategory: "f afternoon"
+},
 
 
 
@@ -28124,7 +28182,13 @@ isLoud: true,
 
 
 
-
+{
+     name: "   Paradise Mix ",
+    artist: "Sueno Latino ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Sueno Latino - Paradise Mix.mp3",
+    timeCategory: "f afternoon"
+},
 
 
 
