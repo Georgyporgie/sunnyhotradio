@@ -2961,6 +2961,15 @@ timeCategory: "soulshow",
 
 
 
+{
+    name: " Straight Ahead ",
+    artist: "Kool & Gang ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Kool & The Gang - Straight Ahead.mp3",
+        timeCategory: "soulshow",
+    quickFade: true
+ 
+},
 
 
 
@@ -3120,7 +3129,14 @@ volumeBoost: 0.30
 },
 
 
-
+{
+     name: "Straight Ahead",
+    artist: "Kool & The Gang",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Kool & The Gang - Straight Ahead (eigties).mp3",
+    timeCategory: "eighties",
+     year:1982
+},
 
 
 
@@ -4738,7 +4754,14 @@ volumeBoost: 0.20
   
 },
 
-
+{
+     name: "Thriller (maxi)",
+    artist: "Michael Jackson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Michael Jackson - Thriller (strictly).mp3",
+    timeCategory: "eighties",
+     year:1982
+},
 
 {
      name: "Just Be Good To Me (maxi)",
@@ -4750,17 +4773,17 @@ volumeBoost: 0.20
 
 },
 
+
+
 {
-    name: "Celebration  ",
-    artist: "Kool & Gang ",
+     name: "Celebration",
+    artist: "Kool & The Gang",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Kool & Gang - Celebration.mp3",
-        timeCategory: "eighties",
-    quickFade: true
- 
+    path: "https://sunnydanceoldies09.netlify.app/Kool & The Gang - Celebration (sevent).mp3",
+    timeCategory: "eighties",
+     quickFade: true,
+ year:1980
 },
-
-
 
 {
     name: "Let No Man Put Asunder  ",
@@ -13369,7 +13392,117 @@ playcount: 0
 
 
 
+{
+     name: " Sunny ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/sunny dance jingle.mp3",
+    timeCategory: "afternoon"
+  
+},
 
+
+
+
+
+{
+     name: " Sunny ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+    timeCategory: "afternoon"
+  
+},
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Sunny  ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+   timeCategory: "afternoon"
+  
+},
+
+
+
+
+
+
+
+{
+     name: " Sunny ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle4.mp3",
+   timeCategory: "afternoon"
+  
+},
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet5.mp3",
+    timeCategory: "afternoon"
+},
+
+
+{
+    name: "Just for You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you.mp3",
+    timeCategory: "afternoon"
+},
+
+
+
+ 
+{
+    name: "Just for You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you22.mp3",
+    timeCategory: "afternoon"
+},
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/sunny dance jingle.mp3",
+    timeCategory: "afternoon"
+},
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance radio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+   timeCategory: "afternoon"
+},
 
 
 
@@ -17327,7 +17460,117 @@ volumeBoost: 0.30
 
 
 
+{
+     name: " Sunny ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/sunny dance jingle.mp3",
+    timeCategory: "evening"
+  
+},
 
+
+
+
+
+{
+     name: " Sunny ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+     timeCategory: "evening"
+  
+},
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Sunny  ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+    timeCategory: "evening"
+  
+},
+
+
+
+
+
+
+
+{
+     name: " Sunny ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle4.mp3",
+  timeCategory: "evening"
+  
+},
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet5.mp3",
+     timeCategory: "evening"
+},
+
+
+{
+    name: "Just for You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you.mp3",
+    timeCategory: "evening"
+},
+
+
+
+ 
+{
+    name: "Just for You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you22.mp3",
+    timeCategory: "evening"
+},
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/sunny dance jingle.mp3",
+    timeCategory: "evening"
+},
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance radio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+  timeCategory: "evening"
+},
 
 
 
@@ -17339,7 +17582,7 @@ volumeBoost: 0.30
     artist: "Sunny Ship☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio snippet3.mp3",
-    timeCategory: "evening"
+   timeCategory: "evening"
 },
 
 
@@ -22421,7 +22664,117 @@ quickFade: true
 
 
 
+{
+     name: " Sunny ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/sunny dance jingle.mp3",
+     timeCategory: "evening-late"
+  
+},
 
+
+
+
+
+{
+     name: " Sunny ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+    timeCategory: "evening-late"
+  
+},
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Sunny  ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+     timeCategory: "evening-late"
+  
+},
+
+
+
+
+
+
+
+{
+     name: " Sunny ",
+    artist: "Jingle Time",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle4.mp3",
+  timeCategory: "evening-late"
+  
+},
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet5.mp3",
+      timeCategory: "evening-late"
+},
+
+
+{
+    name: "Just for You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you.mp3",
+     timeCategory: "evening-late"
+},
+
+
+
+ 
+{
+    name: "Just for You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you22.mp3",
+      timeCategory: "evening-late"
+},
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/sunny dance jingle.mp3",
+      timeCategory: "evening-late"
+},
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance radio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+    timeCategory: "evening-late"
+},
 
 
 
@@ -23079,7 +23432,14 @@ timeCategory: "evening-late"
 
 
 
-
+{
+     name: "Thriller (maxi)",
+    artist: "Michael Jackson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Michael Jackson - Thriller (maxi).mp3",
+    timeCategory: "evening-late",
+     year:1982
+},
 
 
 
@@ -26271,7 +26631,14 @@ timeCategory: "f-afternoon"
 },
 
 
-
+{
+     name: "Straight Ahead",
+    artist: "Kool & The Gang",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Kool & The Gang - Straight Ahead.mp3",
+    timeCategory: "f afternoon",
+     year:1983
+},
 
 
 
@@ -26757,7 +27124,7 @@ playcount: 0
 
 
 {
-     name: "Saltwater (crossfade) ",
+     name: "Saltwater  ",
     artist: "Chicane ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Chicane - Saltwater (crossfade).mp3",
@@ -27342,7 +27709,14 @@ volumeBoost: 0.40
 },
 
 
-
+{
+     name: "Thriller (maxi)",
+    artist: "Michael Jackson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Michael Jackson - Thriller (maxi).mp3",
+    timeCategory: "f-evening",
+     year:1982
+},
 
 
 
@@ -29359,6 +29733,14 @@ timeCategory: "f evening-late"
 
 
 
+{
+     name: "Straight Ahead",
+    artist: "Kool & The Gang",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Kool & The Gang - Straight Ahead.mp3",
+    timeCategory: "f afternoon",
+     year:1983
+},
 
 
 
