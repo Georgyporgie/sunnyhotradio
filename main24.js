@@ -1920,6 +1920,19 @@ volumeBoost: 0.25
 
 },
 
+
+{
+     name: "  The Deep ",
+    artist: "Donna Summer ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Donna Summer The Deep.mp3",
+    timeCategory: "seventies"
+},
+
+
+
+
+
 {
      name: " Can t Fake The Feeling",
     artist: "Geraldine Hunt ",
@@ -2356,6 +2369,14 @@ volumeBoost: 0.20,
 
 
 
+
+{
+     name: " One nation Under A Groove  ",
+    artist: " Funkadelic ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/One nation under a groove -  Funkadelic.mp3",
+    timeCategory: "seventies"
+},
 
 {
      name: " Get Down Tonight",
@@ -2994,7 +3015,13 @@ volumeBoost: 0.25
 },
 
 
-
+{
+     name: " One nation Under A Groove  ",
+    artist: " Funkadelic ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/One nation under a groove -  Funkadelic.mp3",
+    timeCategory: "soulshow"
+},
 
 {
     name: "Celebration  ",
@@ -4773,7 +4800,13 @@ volumeBoost: 0.20
 
 },
 
-
+{
+     name: " Straight Ahead ",
+    artist: " Nick Straker Band ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Nick Straker Band - Straight Ahead.mp3",
+    timeCategory: "eighties"
+},
 
 {
      name: "Celebration",
@@ -13350,7 +13383,7 @@ timeCategory: "afternoon"
      name: "  Nobody's Girl ",
     artist: "Tate McRae ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Tate McRae - Nobody's Girl (new).mp3",
+    path: "https://jazzmusic05.netlify.app/Tate McRae - Nobody's Girl.mp3",
     timeCategory: "afternoon",
 playcount: 0
    
@@ -13727,6 +13760,13 @@ playcount: 0
 
 
 
+{
+     name: "  The Deep ",
+    artist: "Donna Summer ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Donna Summer The Deep.mp3",
+    timeCategory: "afternoon"
+},
 
 
 
@@ -22149,6 +22189,13 @@ volumeBoost: 0.25
 
 
 
+{
+     name: "  It s A Man World",
+    artist: "James Brownd",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/James Brown - Its A Man World.mp3",
+    timeCategory: "evening-late"
+},
 
 
 
@@ -26200,7 +26247,7 @@ playcount: 0
      name: "  Nobody's Girl )",
     artist: "Tate McRae ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Tate McRae - Nobody's Girl (new).mp3",
+    path: "https://jazzmusic05.netlify.app/Tate McRae - Nobody's Girl.mp3",
     timeCategory: "f afternoon",
 playcount: 0
    
@@ -26379,6 +26426,13 @@ volumeBoost: 0.65,
 
 
 
+{
+     name: " Straight Ahead ",
+    artist: " Nick Straker Band ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Nick Straker Band - Straight Ahead.mp3",
+    timeCategory: "f afternoon"
+},
 
 
 
@@ -26588,6 +26642,15 @@ quickFade: true
 
 
 
+{
+    name: " Sunrise (12inch)",
+    artist: "Simply Red   ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Simply Red - Sunrise (Extended).mp3",
+    timeCategory: "f afternoon"
+
+
+},
 
 
 
@@ -27830,6 +27893,13 @@ timeCategory: "f evening",
 },
 
 
+{
+     name: " One nation Under A Groove  ",
+    artist: " Funkadelic ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/One nation under a groove -  Funkadelic.mp3",
+    timeCategory: "f evening"
+},
 {
     name: " Diabla",
     artist: "  Izzy La Reina ",
