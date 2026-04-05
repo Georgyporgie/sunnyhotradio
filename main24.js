@@ -10569,7 +10569,14 @@ quickFade: true
 },
 
 
+{
+    name: "Midnight Drif(new)",
+    artist: "Ariana Grande",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Ariana Grande - Midnight Drif (new).mp3",
+  timeCategory: "afternoon"
 
+},
 
 
 {
@@ -29735,7 +29742,14 @@ timeCategory: "f evening-late"
 },
 
 
+{
+    name: "Midnight Drif(new)",
+    artist: "Ariana Grande",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Ariana Grande - Midnight Drif (new).mp3",
+  timeCategory: "f evening-late"
 
+},
 
 
 {
