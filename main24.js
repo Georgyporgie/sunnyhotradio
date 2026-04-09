@@ -2131,7 +2131,15 @@ timeCategory: "seventies",
    eq: { bass: 0, mid: 2, treble: +1 } 
 },
 
+{
+     name: " High On Your Love",
+    artist: "Debbie Jacobs",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Debbie Jacobs - High On Your Love.mp3",
+ 
+ timeCategory: "seventies"
 
+},
 
 
 {
@@ -2389,6 +2397,15 @@ volumeBoost: 0.20,
 },
 
 
+{
+     name: "  Wear It Out",
+    artist: "Stargard ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Stargard - Wear It Out.mp3",
+ 
+ timeCategory: "seventies"
+
+},
 
 {
      name: "  Shake Your Booty",
@@ -2413,6 +2430,43 @@ volumeBoost: 0.20,
  timeCategory: "seventies"
 
 },
+
+
+{
+     name: "Movin'",
+    artist: "Brass Construction ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Brass Construction - Movin'.mp3",
+ 
+ timeCategory: "seventies"
+
+},
+
+{
+     name: "Dance Dance Dance",
+    artist: "Chic  ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Chic - Dance Dance Dance (strictly).mp3",
+ 
+ timeCategory: "seventies"
+
+},
+
+
+
+{
+     name: "Boogie Man ",
+    artist: "KC & The Sunshine Band",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/KC & Sunshine Band - Boogie Man.mp3",
+ 
+ timeCategory: "seventies"
+
+},
+
+
+
+
 
 
 //soulshow
@@ -2520,6 +2574,12 @@ timeCategory: "soulshow",
   volumeBoost: 0.35
 },
 
+
+
+
+
+
+
 {
      name: "Night Fever",
     artist: "Beegees",
@@ -2584,7 +2644,15 @@ volumeBoost: 0.75,
 },
 
 
+{
+     name: "Movin'",
+    artist: "Brass Construction ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Brass Construction - Movin'.mp3",
+ 
+ timeCategory: "soulshow"
 
+},
 
 {
      name: "Let's Start To Dance (12inch)",
@@ -3057,11 +3125,50 @@ volumeBoost: 0.25
  
 },
 
+{
+     name: " Straight Ahead",
+    artist: "Kool & Gang",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Ferry Kool en Nick.mp3",
+ 
+ timeCategory: "soulshow"
+
+},
+
+{
+     name: " Megamix Kool",
+    artist: "Kool & The Gang  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Kool & The Gang - Megamix soulshow!.mp3",
+    timeCategory: "afternoon"
+},
+
+
 
 
 //strictly eighties show
 
 
+{
+     name: "  RR Express (maxi)",
+    artist: "Rose Royce ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Rose Royce - RR Express (maxi).mp3",
+ 
+ timeCategory: "eighties"
+
+},
+
+
+{
+     name: " Straight Ahead",
+    artist: "Kool & The Gang",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Kool en Nick (crossfade).mp3",
+ 
+ timeCategory: "eighties"
+
+},
 {
     name: "Just The Way You Like It (12inch)",
     artist: "Sos Band  ",
@@ -3703,7 +3810,13 @@ volumeBoost: 1.0
 
 },
 
-
+{
+     name: " Don t You Want Me",
+    artist: "Human League  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Human League - Don t You Want Me.mp3",
+    timeCategory: "eighties"
+},
 
 
 {
@@ -14753,7 +14866,15 @@ volumeBoost: 0.10
 },
 
 
+{
+     name: "Dance Dance Dance",
+    artist: "Chic  ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Chic - Dance Dance Dance (strictly).mp3",
+ 
+ timeCategory: "afternoon"
 
+},
 
 
 
@@ -14791,6 +14912,17 @@ volumeBoost: 0.10
 
 
 
+{
+    name: " In The Forest (1980)",
+    artist: " Baby O  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Baby O - In The Forest.mp3",
+        timeCategory: "afternoon",
+volumeBoost: 0.35
+
+
+
+},
 
 
 
@@ -15192,6 +15324,15 @@ isLoud: true,
 },
 
 
+{
+     name: " House Tour (new) ",
+    artist: "Sabrina Carpenter ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Sabrina Carpenter - House Tour (new).mp3",
+ 
+ timeCategory: "afternoon"
+
+},
 
 
 {
@@ -15615,7 +15756,17 @@ volumeBoost: 0.05
 
 
 
-
+{
+    name: " Buffalo Stance ",
+    artist: "Neneh Cherry ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Buffalo Stance - Neneh Cherry.mp3",
+    timeCategory: "evening",
+     quickFade: true,
+    eq: { bass: 2, mid: 1, treble: +1 } ,
+volumeBoost: 0.70,
+    playcount: 0
+},
 
 {
     name: "Rumours",
@@ -15809,14 +15960,6 @@ volumeBoost: 0.10
 
 
 
-{
-    name: "Mau P ",
-    artist: " Tesla",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
-       timeCategory: "evening",
-    quickFade: true
-},
 
 
 
@@ -16363,6 +16506,7 @@ quickFade: true
          timeCategory: "evening",
   eq: { bass: +2, mid: 2, treble: +2 } ,
 playcount: 0,
+  year:1982,
 volumeBoost: 0.60
 },
 
@@ -16388,7 +16532,8 @@ volumeBoost: 0.60
     artist: "Kylie Minogue ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Kylie Minogue - Padam Padam.mp3",
-    timeCategory: "evening"
+     year:2023,
+timeCategory: "evening"
 },
 
 
@@ -16402,20 +16547,23 @@ volumeBoost: 0.60
     artist: "Minellli & Inna",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Minellli & Inna - In Love.mp3",
-    timeCategory: "evening"
+     year:2025,
+timeCategory: "evening"
+
 },
 
 
 
 
 {
-     name: "   Hands On Me ",
+     name: "  Pretty Please ",
     artist: "Dua Lipa",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Dua Lipa - Hands On Me.mp3",
     timeCategory: "evening",
     volumeBoost: 0.15,
-    playcount: 0
+      year:2021,
+playcount: 0
 },
 
 
@@ -17915,7 +18063,15 @@ volumeBoost: 0.45,
 },
 
 
+{
+     name: " High On Your Love",
+    artist: "Debbie Jacobs",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Debbie Jacobs - High On Your Love.mp3",
+ 
+ timeCategory: "evening"
 
+},
 
 
 
@@ -19102,6 +19258,13 @@ playcount: 0
 },
 
 
+{
+     name: " Don t You Want Me",
+    artist: "Human League  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Human League - Don t You Want Me.mp3",
+    timeCategory: "evening"
+},
 
 
 
@@ -22192,7 +22355,15 @@ volumeBoost: 0.25
 
 
 
+{
+     name: "  Carousel (new)",
+    artist: "Cannons",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Cannons - Carousel (new).mp3",
+ 
+ timeCategory: "evening-late"
 
+},
 
 
 
@@ -26224,22 +26395,14 @@ timeCategory: "evening-late"
     volumeBoost: 0.55,
     playcount: 0
 },
-{
-    name: " New Religion",
-    artist: "Bebe Rexha ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Bebe Rexha - New Religion (2026).mp3",
-       timeCategory: "f afternoon"
 
-  
-},
 
 
 
 
 
 {
-     name: "  Take Over (new)",
+     name: "  Take Over ",
     artist: "Rihanna ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Rihanna - Take Over (new).mp3",
@@ -26251,7 +26414,7 @@ playcount: 0
 },
 
 {
-     name: "  Nobody's Girl )",
+     name: "  Nobody's Girl ",
     artist: "Tate McRae ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Tate McRae - Nobody's Girl.mp3",
@@ -26341,15 +26504,6 @@ volumeBoost: 0.45
 
 
 
-{
-    name: " New Religion (new)",
-    artist: "Bebe Rexha ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Bebe Rexha - New Religion (2026).mp3",
-       timeCategory: "f afternoon"
-
-  
-},
 
 {
     name: " Rhythm Of The Night",
@@ -26569,14 +26723,6 @@ quickFade: true
 
 
 
-{
-     name: "The Dead Dance ",
-    artist: "Lady Gaga ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Lady Gaga - The Dead Dance.mp3",
-    timeCategory: "f-afternoon"
-},
-
 
 {
      name: "Believe In Magic ",
@@ -26627,15 +26773,7 @@ quickFade: true
 },
 
 
-{
-    name: " New Religion",
-    artist: "Bebe Rexha ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Bebe Rexha - New Religion (2026).mp3",
-       timeCategory: "f afternoon"
 
-  
-},
 
 
 {
@@ -26968,7 +27106,15 @@ timeCategory: "f-afternoon"
     timeCategory: "f afternoon"
 },
 
+{
+     name: " House Tour (new) ",
+    artist: "Sabrina Carpenter ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Sabrina Carpenter - House Tour (new).mp3",
+ 
+ timeCategory: "f afternoon"
 
+},
 
 
 
@@ -27072,14 +27218,6 @@ playcount: 0
 
 
 
-{
-    name: "James Hype",
-    artist: " Waterfalls",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/James Hype - Waterfalls.mp3",
-
-       timeCategory: "f afternoon"
-},
 
 
 
@@ -27289,6 +27427,13 @@ playcount: 0
 
 
 
+{
+     name: " Don t You Want Me",
+    artist: "Human League  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Human League - Don t You Want Me.mp3",
+    timeCategory: "f afternoon"
+},
 
 
 
@@ -27509,7 +27654,15 @@ quickFade: true
 
 },
 
+{
+    name: "  I Can t Wait (new)",
+    artist: "Bob Sinclar & Kiesza  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Bob Sinclar & Kiesza - I Can t Wait (new).mp3",
+       timeCategory: "f afternoon"
 
+  
+},
 
 
 
@@ -27570,17 +27723,7 @@ quickFade: true
 
 
 
-{
-    name: " Buffalo Stance ",
-    artist: "Neneh Cherry ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Buffalo Stance - Neneh Cherry.mp3",
-    timeCategory: "f afternoon",
-     quickFade: true,
-    eq: { bass: 2, mid: 1, treble: +1 } ,
-volumeBoost: 0.70,
-    playcount: 0
-},
+
 
 
 
@@ -27671,15 +27814,6 @@ volumeBoost: 0.40
 },
 
 
-{
-    name: " New Religion",
-    artist: "Bebe Rexha ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Bebe Rexha - New Religion (2026).mp3",
-       timeCategory: "f evening"
-
-  
-},
 
 {
     name: "Welcome!",
@@ -28352,14 +28486,6 @@ timeCategory: "f evening"
 
 
 
-{
-    name: " In The Forest (1980)",
-    artist: " Baby O  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Baby O - In The Forest.mp3",
-    timeCategory: "f evening",
-  volumeBoost: 0.25
-},
 
 
 {
@@ -28390,7 +28516,7 @@ timeCategory: "f evening"
 
 
 {
-    name: "Girl Get Up (new)",
+    name: "Girl Get Up ",
     artist: "Doechii",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Doechii - Girl Get Up (new).mp3",
@@ -28398,7 +28524,15 @@ timeCategory: "f evening"
 
 },
 
+{
+     name: " House Tour (new) ",
+    artist: "Sabrina Carpenter ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Sabrina Carpenter - House Tour (new).mp3",
+ 
+ timeCategory: "f evening"
 
+},
 
 {
   
@@ -28411,7 +28545,15 @@ timeCategory: "f evening"
 },
 
 
+{
+     name: " High On Your Love",
+    artist: "Debbie Jacobs",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Debbie Jacobs - High On Your Love.mp3",
+ 
+ timeCategory: "f evening"
 
+},
 
 {
     name: "  Somedays ",
@@ -28541,14 +28683,6 @@ isLoud: true,
 
 
 
-
-{
-     name: "   Just Be ",
-    artist: "Tiesto ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/Tiesto - Just Be.mp3",
-           timeCategory: "f evening"
-},
 
 
 
@@ -29032,7 +29166,7 @@ volumeBoost: 0.65,
 
 
 {
-     name: " Think About Us    (new)",
+     name: " Think About Us   ",
     artist: "Poppy Baskcomb   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Poppy Baskcomb - Think About Us.mp3",
@@ -29104,7 +29238,15 @@ volumeBoost: 0.40
 
 },
 
+{
+     name: "Carousel (new)",
+    artist: "Cannons",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Cannons - Carousel (new).mp3",
+ 
+ timeCategory: "f evening"
 
+},
 
 {
      name: " Ocean (alarmschijf)",
@@ -29289,23 +29431,7 @@ volumeBoost: 0.40
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//f evening-late
 
 
 
@@ -29315,14 +29441,37 @@ volumeBoost: 0.40
 
 
 {
-    name: " Din Daa Daa",
-    artist: "George Kranz ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/George Kranz - Din Daa Daa.mp3",
-       timeCategory: "f evening-late"
+     name: "  RR Express (maxi)",
+    artist: "Rose Royce ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Rose Royce - RR Express (maxi).mp3",
+ 
+ timeCategory: "f evening-late"
 
-  
 },
+
+
+
+
+
+{
+     name: "  Wear It Out",
+    artist: "Stargard ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Stargard - Wear It Out.mp3",
+ 
+ timeCategory: "f evening-late"
+
+},
+
+
+
+
+
+
+
+
+
 
 
 
@@ -29340,6 +29489,15 @@ volumeBoost: 0.40
 
 
 
+{
+     name: " Dont Make Me Love U (new)",
+    artist: "Lizzo  ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Lizzo - Dont Make Me Love U (new).mp3",
+ 
+ timeCategory: "f evening-late"
+
+},
 
 
 
@@ -29362,22 +29520,14 @@ volumeBoost: 0.40
 
 
 
-
-
-
-
-
-
-
-
 {
-    name: " New Religion (new)",
-    artist: "Bebe Rexha ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Bebe Rexha - New Religion (2026).mp3",
-       timeCategory: "f evening-late"
+     name: "  Looking Lovely (new) ",
+    artist: "Shaggy ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Shaggy - Looking Lovely (new).mp3",
+ 
+ timeCategory: "f evening-late"
 
-  
 },
 
 
@@ -29431,18 +29581,17 @@ volumeBoost: 0.40
 
 
 
-{
-    name: " Din Daa Daa",
-    artist: "George Kranz ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/George Kranz - Din Daa Daa.mp3",
-       timeCategory: "f evening-late"
-
-  
-},
 
 
-//f evening-late
+
+
+
+
+
+
+
+
+
 
 {
     name: " Hot Shot (maxi) ",
@@ -29521,22 +29670,7 @@ volumeBoost: 0.40
        timeCategory: "f evening-late"
 },
 
-{
-    name: " Megamix 2023",
-    artist:  "Purple Disco Machine  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_05.mp3",
-   timeCategory: "f evening-late"
-},
 
-
-{
-    name: " Megamix 2023",
-    artist:  "Purple Disco Machine  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_06.mp3",
- timeCategory: "f evening-late"
-},
 {
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️",
@@ -29710,7 +29844,7 @@ timeCategory: "f evening-late"
 },
 
 {
-    name: "Girl Get Up (new)",
+    name: "Girl Get Up",
     artist: "Doechii",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Doechii - Girl Get Up (new).mp3",
@@ -29743,7 +29877,7 @@ timeCategory: "f evening-late"
 
 
 {
-    name: "Midnight Drif(new)",
+    name: "Midnight Drif",
     artist: "Ariana Grande",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Ariana Grande - Midnight Drif (new).mp3",
@@ -30189,7 +30323,7 @@ timeCategory: "f evening-late"
 
 
 {
-     name: " Think About Us    (new)",
+     name: " Think About Us   ",
     artist: "Poppy Baskcomb   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Poppy Baskcomb - Think About Us.mp3",
@@ -30396,7 +30530,15 @@ timeCategory: "f evening-late"
 
 
 
+{
+     name: "Carousel (new)",
+    artist: "Cannons",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Cannons - Carousel (new).mp3",
+ 
+ timeCategory: "f evening-late"
 
+},
 
 
 
@@ -30500,15 +30642,6 @@ timeCategory: "f evening-late"
 
 
 
-{
-    name: "Mau P ",
-    artist: " Tesla",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
-       timeCategory: "f evening-late",
-quickFade: true
-},
-
 
 
 
@@ -30519,7 +30652,7 @@ quickFade: true
 
 
 {
-     name: "  Take Over (new)",
+     name: "  Take Over",
     artist: "Rihanna ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Rihanna - Take Over (new).mp3",
@@ -30725,7 +30858,7 @@ playcount: 0
 
 
 {
-    name: "All Natural (new)",
+    name: "All Natural ",
     artist: " Rita Ora  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Rita Ora - All Natural.mp3",
@@ -30809,20 +30942,18 @@ isLoud: true,
 
 
 
-
-
-
-
-
-
-
 {
-     name: "The Dead Dance ",
-    artist: "Lady Gaga ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Lady Gaga - The Dead Dance.mp3",
-    timeCategory: "f-evening-late"
+     name: " Straight Ahead",
+    artist: "Kool & Gang",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Kool en Nick (crossfade).mp3",
+ 
+ timeCategory: "f evening-late"
+
 },
+
+
+
 
 
 
