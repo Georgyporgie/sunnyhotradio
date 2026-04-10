@@ -11435,6 +11435,35 @@ volumeBoost: 0.30
 
 
 
+{
+    name: " Doing It Too (new) ",
+    artist: "Rochelle Jordan  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Rochelle Jordan - Doing It Too (new).mp3",
+   timeCategory: "afternoon"
+},
+
+
+
+{
+    name: "  Angels Cry (new)",
+    artist: "Snoop Dogg   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Snoop Dogg - Angels Cry (new).mp3",
+   timeCategory: "evening"
+},
+
+
+
+{
+    name: "  Mural (new) ",
+    artist: "Swae Lee  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Swae Lee - Mural (new).mp3",
+   timeCategory: "evening-late"
+},
+
+
 
 
 
@@ -11809,7 +11838,13 @@ playcount: 0
 
 
 
-
+{
+    name: "   Angels Cry (new) ",
+    artist: "Snoop Dogg  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Snoop Dogg - Angels Cry (new).mp3",
+   timeCategory: "afternoon"
+},
 
 
 
@@ -16167,6 +16202,16 @@ volumeBoost: 0.10
 
 
 
+
+
+
+{
+    name: "  Mural (new) ",
+    artist: "Swae Lee  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Swae Lee - Mural (new).mp3",
+   timeCategory: "evening"
+},
 
 
 
@@ -27386,7 +27431,13 @@ playcount: 0
 },
 
 
-
+{
+    name: " Doing It Too (new) ",
+    artist: "Rochelle Jordan  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Rochelle Jordan - Doing It Too (new).mp3",
+   timeCategory: "f afternoon"
+},
 
 {
     name: "Just For You",
@@ -27409,7 +27460,13 @@ playcount: 0
 },
 
 
-
+{
+    name: "  You Lost Me Forever (new)",
+    artist: "Morgan Luna  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Morgan Luna - You Lost Me Forever (new).mp3",
+   timeCategory: "f afternoon"
+},
 
 
 
@@ -27442,6 +27499,13 @@ playcount: 0
 
 
 
+{
+    name: "  Angels Cry (new)",
+    artist: "Snoop Dogg   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Snoop Dogg - Angels Cry (new).mp3",
+   timeCategory: "f afternoon"
+},
 
 
 
@@ -28849,6 +28913,13 @@ isLoud: true,
 
 
 
+{
+    name: " Doing It Too (new) ",
+    artist: "Rochelle Jordan  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Rochelle Jordan - Doing It Too (new).mp3",
+   timeCategory: "f evening"
+},
 
 
 
@@ -29470,6 +29541,14 @@ volumeBoost: 0.40
 
 
 
+
+{
+    name: "  Angels Cry (new)",
+    artist: "Snoop Dogg   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Snoop Dogg - Angels Cry (new).mp3",
+   timeCategory: "f afternoon"
+},
 
 
 
@@ -30124,6 +30203,13 @@ timeCategory: "f evening-late"
 
 
 
+{
+    name: "  You Lost Me Forever (new)",
+    artist: "Morgan Luna  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Morgan Luna - You Lost Me Forever (new).mp3",
+   timeCategory: "f evening-late"
+},
 
 
 
@@ -30765,6 +30851,13 @@ playcount: 0
 },
 
 
+{
+    name: "  Mural (new) ",
+    artist: "Swae Lee  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Swae Lee - Mural (new).mp3",
+   timeCategory: "f afternoon"
+},
 
 
 
