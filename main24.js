@@ -3140,7 +3140,7 @@ volumeBoost: 0.25
     artist: "Kool & The Gang  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Kool & The Gang - Megamix soulshow!.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "soulshow"
 },
 
 
@@ -11824,7 +11824,16 @@ playcount: 0
 
 
 
-
+{
+    name: "Diner With Gershwin ",
+    artist: "Donna Summer ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Donna Summer - Diner With Gershwin.mp3",
+    timeCategory: " afternoon",
+     quickFade: true,
+    volumeBoost: 0.65,
+    playcount: 0
+},
 
 
 
@@ -22414,7 +22423,7 @@ volumeBoost: 0.25
 
 {
      name: "  It s A Man World",
-    artist: "James Brownd",
+    artist: "James Brown",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/James Brown - Its A Man World.mp3",
     timeCategory: "evening-late"
@@ -27768,16 +27777,7 @@ quickFade: true
 
 
 
-{
-    name: "Diner With Gershwin ",
-    artist: "Donna Summer ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Donna Summer - Diner With Gershwin.mp3",
-    timeCategory: "f afternoon",
-     quickFade: true,
-    volumeBoost: 0.65,
-    playcount: 0
-},
+
 
 
 
