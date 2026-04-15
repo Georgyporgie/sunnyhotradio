@@ -2117,6 +2117,29 @@ timeCategory: "seventies",
    eq: { bass: 0, mid: 2, treble: +1 } 
 },
 
+ {
+     name: "Tell Everybody",
+    artist: "Herbie Hancock   ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Herbie Hancock - Tell Everybody.mp3",
+ 
+timeCategory: "seventies"
+
+},
+
+ {
+     name: " I Thought It Was You (maxi)",
+    artist: "Herbie Hancock   ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Herbie Hancock - I Thought It Was You stricti).mp3",
+ 
+timeCategory: "seventies"
+
+},
+
+
+
+
 
 {
   
@@ -3340,7 +3363,14 @@ quickFade: true
 
 },
 
+{
+    name: "   Feel So Real (maxi)",
+    artist: " Steve Arrington",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Steve Arrington - Feel So Real (strictlyi).mp3",
+    timeCategory: "eighties"
 
+},
 
 {
     name: "A Woman Needs Love",
@@ -3595,7 +3625,15 @@ volumeBoost: 0.45,
 playcount: 0
 },
 
+{
+     name: "The Crown",
+    artist: "Gary Byrd   ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Gary Byrd - The Crown (eighties).mp3",
+ 
+ timeCategory: "eighties"
 
+},
 
 
 {
@@ -4355,7 +4393,15 @@ volumeBoost: 0.75,
 quickFade: true
 },
 
+ {
+     name: " Set Me Free",
+    artist: "Jaki Graham    ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Jaki Graham - Set Me Free (strict).mp3",
+ 
+    timeCategory: "eighties"
 
+},
 
 {
      name: " Push It (1987)",
@@ -4680,6 +4726,10 @@ volumeBoost: 0.25
     volumeBoost: 0.45,
     playcount: 0
 },
+
+
+
+
 
 
 {
@@ -11140,6 +11190,15 @@ volumeBoost: 0.30
 
 
 
+{
+    name: " Starchild (maxi)",
+    artist: " Level 42",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Level 42 - Starchild (maxi).mp3",
+    timeCategory: "afternoon"
+
+},
+
 
 
 {
@@ -13570,6 +13629,14 @@ playcount: 0
 
 
 
+{
+    name: "   Feel So Real (maxi)",
+    artist: " Steve Arrington",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Steve Arrington - Feel So Real (maxi).mp3",
+    timeCategory: "afternoon"
+
+},
 
 
 {
@@ -14127,8 +14194,26 @@ volumeBoost: 0.30
 
 
 
+ {
+     name: "Giant In My Heart ",
+    artist: "Kiesza  ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Kiesza - Giant In My Heart.mp3",
+ 
+    timeCategory: "afternoon"
+
+},
 
 
+ {
+     name: " Sound Of A Woman ",
+    artist: "Kiesza ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Kiesza - Sound Of A Woman.mp3",
+ 
+ timeCategory: "afternoon"
+
+},
 
 {
      name: "Welcome!",
@@ -14744,7 +14829,14 @@ volumeBoost: 0.10
 
 
 
+{
+     name: "  When I'm Dancing (new)",
+    artist: "Kiesza ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Kiesza - When I'm Dancing (new).mp3",
+      timeCategory: "afternoon"
 
+},
 
 
 
@@ -14914,7 +15006,7 @@ volumeBoost: 0.10
      name: "Dance Dance Dance",
     artist: "Chic  ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://danceoldies10.netlify.app/Chic - Dance Dance Dance (strictly).mp3",
+    path: "https://danceoldies10.netlify.app/Chic - Dance Dance Dance (maxi).mp3",
  
  timeCategory: "afternoon"
 
@@ -20003,6 +20095,14 @@ volumeBoost: 0.10
 
 
 
+{
+    name: "  Watermelon Man",
+    artist: " Mongo Santamaria ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Mongo Santamaria - Watermelon Man.mp3",
+    timeCategory: "evening"
+
+},
 
 
 
@@ -20163,6 +20263,16 @@ volumeBoost: 0.10
 
 
 
+
+ {
+     name: "  Echo (new) ",
+    artist: "The Chainsmokers ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/The Chainsmokers - Echo (new).mp3",
+ 
+  timeCategory: "evening"
+
+},
 
 
 
@@ -22771,7 +22881,15 @@ timeCategory: "evening-late",
 
 
 
+ {
+     name: " I Thought It Was You (maxi)",
+    artist: "Herbie Hancock   ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Herbie Hancock - I Thought It Was You (maxi).mp3",
+ 
+timeCategory: "f afternoon"
 
+},
 
 
 
@@ -22853,7 +22971,15 @@ timeCategory: "evening-late"
 
 
 
+ {
+     name: "The Crown",
+    artist: "Gary Byrd   ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Gary Byrd - The Crown.mp3",
  
+ timeCategory: "evening-late"
+
+},
 
 
 
@@ -23485,6 +23611,15 @@ volumeBoost: 0.15
 
 
 
+ {
+     name: "Giant In My Heart ",
+    artist: "Kiesza  ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Kiesza - Giant In My Heart.mp3",
+ 
+     timeCategory: "evening-late"
+
+},
 
 {
      name: " The Art Of ",
@@ -26770,6 +26905,27 @@ quickFade: true
 
 
 
+{
+    name: "  Hot Water",
+    artist: " Level 42",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Level 42 - Hot Water.mp3",
+    timeCategory: "f evening"
+
+},
+
+
+
+{
+    name: " Love Games (maxi)",
+    artist: " Level 42",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Level 42 - Love Games (maxi).mp3",
+    timeCategory: "f evening"
+
+},
+
+
 
 
 
@@ -26933,7 +27089,14 @@ timeCategory: "f-afternoon"
 },
 
 
+{
+    name: "   Feel So Real (maxi)",
+    artist: " Steve Arrington",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Steve Arrington - Feel So Real (maxi).mp3",
+    timeCategory: "f-afternoon"
 
+},
 
 
 {
@@ -27533,6 +27696,16 @@ playcount: 0
 
 
 
+ {
+     name: "The Crown",
+    artist: "Gary Byrd   ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Gary Byrd - The Crown.mp3",
+ 
+timeCategory: "f afternoon"
+
+},
+
 
 
 
@@ -27751,6 +27924,15 @@ quickFade: true
 
 
 
+ {
+     name: "  Echo (new) ",
+    artist: "The Chainsmokers ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/The Chainsmokers - Echo (new).mp3",
+ 
+timeCategory: "f afternoon"
+
+},
 
 
 
@@ -28115,10 +28297,27 @@ timeCategory: "f evening",
 
 
 
+ {
+     name: "  When I'm Dancing (new)",
+    artist: "Kiesza ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Kiesza - When I'm Dancing (new).mp3",
+ 
+timeCategory: "f evening"
+
+},
 
 
 
+ {
+     name: " Sound Of A Woman ",
+    artist: "Kiesza ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Kiesza - Sound Of A Woman.mp3",
+ 
+timeCategory: "f evening"
 
+},
 
 {
     name: "All Natural ",
@@ -28264,7 +28463,14 @@ timeCategory: "f evening"
 },
 
 
+ {
+     name: "Tell Everybody",
+    artist: "Herbie Hancock   ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Herbie Hancock - Tell Everybody.mp3",
+    timeCategory: "f evening"  
 
+},
 
 
 {
@@ -28438,6 +28644,15 @@ timeCategory: "f evening"
 
 
 
+
+{
+    name: "  Watermelon Man",
+    artist: " Mongo Santamaria ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Mongo Santamaria - Watermelon Man.mp3",
+    timeCategory: "f evening"
+
+},
 
 
 
@@ -29404,11 +29619,25 @@ volumeBoost: 0.40
 
 
 
+{
+    name: "  Hot Water",
+    artist: " Level 42",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Level 42 - Hot Water.mp3",
+    timeCategory: "f evening"
+
+},
 
 
 
+{
+    name: "  Hot Water",
+    artist: " Level 42",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Level 42 - Lessons In Love (maxi).mp3",
+    timeCategory: "f evening"
 
-
+},
 
 
 
@@ -29685,7 +29914,15 @@ volumeBoost: 0.40
 
 
 
+ {
+     name: " Sound Of A Woman ",
+    artist: "Kiesza ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Kiesza - Sound Of A Woman.mp3",
+ 
+timeCategory: "f evening"
 
+},
 
 
 
@@ -29894,7 +30131,15 @@ timeCategory: "f evening-late"
   timeCategory: "f evening-late"
 },
 
+ {
+     name: " Set Me Free (maxi)",
+    artist: "Jaki Graham   ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Jaki Graham - Set Me Free (maxi).mp3",
+ 
+  timeCategory: "f evening-late"
 
+},
 
 {
     name: "Save Your Tears",
@@ -30268,6 +30513,15 @@ timeCategory: "f evening-late"
 
 
 
+ {
+     name: "  Echo (new) ",
+    artist: "The Chainsmokers ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/The Chainsmokers - Echo (new).mp3",
+ 
+ timeCategory: "f evening-late"
+
+},
 
 
 
@@ -30285,6 +30539,15 @@ timeCategory: "f evening-late"
 
 
 
+
+{
+    name: " Something About You",
+    artist: " Level 42",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Level 42 - Something About You.mp3",
+    timeCategory: "f evening-late"
+
+},
 
 
 
