@@ -1693,6 +1693,15 @@ timeCategory: "seventies"
 },
 
 
+{
+     name: "Newyork City (maxi)",
+    artist: "Tramps",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://jazzmusic05.netlify.app/Tramps Newyork City.mp3",
+ 
+ timeCategory: "seventies"
+
+},
 
 
 {
@@ -2488,7 +2497,24 @@ volumeBoost: 0.20,
 },
 
 
+{
+    name: "Dancin' (maxi)",
+    artist: "Crown Heights Affair ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Crown Heights Affair - Dancin' (maxi).mp3",
+     year: 1976,
+   timeCategory: "seventies"
 
+  
+},
+
+{
+    name: "One Day In Your Life",
+    artist: "Michael Jackson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Michael Jackson - One day in your life.mp3",
+     timeCategory: "seventies"
+},
 
 
 
@@ -4991,6 +5017,30 @@ volumeBoost: 0.20
  
 },
 
+{
+    name: "Diner With Gershwin ",
+    artist: "Donna Summer ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Donna Summer - Diner With Gershwin.mp3",
+    timeCategory: "eighties",
+     quickFade: true,
+    volumeBoost: 0.65,
+    playcount: 0
+},
+
+{
+    name: " I Can't Wait (1985)",
+    artist: "NU Shooz ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/NU Shooz - I Can't Wait.mp3",
+    timeCategory: "eighties",
+     quickFade: true,
+    volumeBoost: 0.55,
+    playcount: 0
+},
+
+
+
 //strictly nineties show
 
 
@@ -5004,6 +5054,18 @@ volumeBoost: 0.20
 volumeBoost: 0.25
 },
 
+
+
+
+
+
+{
+     name: "   Paradise Mix ",
+    artist: "Sueno Latino ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Sueno Latino - Paradise Mix.mp3",
+    timeCategory: "nineties"
+},
 
 {
      name: "Back By Dope Demand",
@@ -5865,22 +5927,13 @@ volumeBoost: 0.50,
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Snap - The Power (strict).mp3",
      year: 1990,
-    timeCategory: "evening",
+    timeCategory: "nineties",
     quickFade: true
     
 },
 
 
 
-{
-     name: "Newyork City (maxi)",
-    artist: "Tramps",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://jazzmusic05.netlify.app/Tramps Newyork City.mp3",
- 
- timeCategory: "evening"
-
-},
 
 {
   
@@ -10517,28 +10570,9 @@ quickFade: true
 
 
 
-{
-     name: "Boogie Oogie (maxi)",
-    artist: "A Taste Of Honey",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/A Taste Of Honey - Boogie Oogie.mp3",
- 
- timeCategory: "afternoon"
-
-},
 
 
 
-
-{
-     name: "Boogie Oogie (maxi)",
-    artist: "A Taste Of Honey",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/A Taste Of Honey - Boogie Oogie.mp3",
- 
- timeCategory: "afternoon"
-
-},
 
 
 
@@ -10583,16 +10617,7 @@ timeCategory: " afternoon"
 
   
 },
-{
-    
-    name: " Disco Nights",
-    artist: "G.Q ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/G.Q - Disco Nights.mp3",
-      timeCategory: "afternoon",
-volumeBoost: 0.20,
-  eq: { bass: 1, mid: 2, treble: +1 } 
-},
+
 
 {
     name: "You & Me",
@@ -10733,7 +10758,7 @@ quickFade: true
 
 
 {
-    name: "Midnight Drif(new)",
+    name: "Midnight Drif (new)",
     artist: "Ariana Grande",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Ariana Grande - Midnight Drif (new).mp3",
@@ -11504,23 +11529,7 @@ volumeBoost: 0.30
 
 
 
-{
-    name: "  Angels Cry (new)",
-    artist: "Snoop Dogg   ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Snoop Dogg - Angels Cry (new).mp3",
-   timeCategory: "evening"
-},
 
-
-
-{
-    name: "  Mural (new) ",
-    artist: "Swae Lee  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Swae Lee - Mural (new).mp3",
-   timeCategory: "evening-late"
-},
 
 
 
@@ -11883,16 +11892,7 @@ playcount: 0
 
 
 
-{
-    name: "Diner With Gershwin ",
-    artist: "Donna Summer ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Donna Summer - Diner With Gershwin.mp3",
-    timeCategory: " afternoon",
-     quickFade: true,
-    volumeBoost: 0.65,
-    playcount: 0
-},
+
 
 
 
@@ -11981,17 +11981,6 @@ playcount: 0
 
 
 
-{
-     name: "Broadcast Amsterdam☀️",
-    artist: "Sunny",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "audio/Broadcast Amsterdam2.mp3",
-    timeCategory: "afternoon",
-playcount: 0
-   
-
-
-},
 
 
 
@@ -12123,13 +12112,6 @@ playcount: 0
 
 
 
-{
-    name: "One Day In Your Life",
-    artist: "Michael Jackson",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Michael Jackson - One day in your life.mp3",
-     timeCategory: "afternoon"
-},
 
 
 
@@ -12167,40 +12149,13 @@ playcount: 0
 },
 
 
-{
-    name: " Can't Wait Another Minute ",
-    artist: "Five Star ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Five Star - Can't Wait Another Minute.mp3",
-    timeCategory: "afternoon",
-    volumeBoost: 0.20,
-    playcount: 0
-},
-
-
-{
-    name: " Saturday Night (12inch)",
-    artist: "T-Connection ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/T-Connection - Saturday Night.mp3",
-      volumeBoost: 0.55,
-timeCategory: " afternoon"
-
-},
 
 
 
 
 
-{
-    name: " What Is Love ",
-    artist: "Haddaway ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Haddaway - What Is Love.mp3",
-    timeCategory: "afternoon",
-    volumeBoost: 0.20,
-    playcount: 0
-},
+
+
 
 
 
@@ -12235,15 +12190,6 @@ volumeBoost: 0.25
 
 
 
-{
-    name: " You Know How To (12inch)",
-    artist: "Phyllis Hyman  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Phyllis Hyman - You Know How To Love Me (12inch).mp3",
-  timeCategory: "afternoon",
-quickFade: true,
-volumeBoost: 0.25
-},
 
 
 
@@ -12320,16 +12266,7 @@ volumeBoost: 0.25
   playcount: 0
 },
 
-{
-    name: "I'll Be Good",
-    artist: "Rene &  Angela",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies01.netlify.app/Rene &  Angela - I'll be good.mp3",
-    timeCategory: "afternoon",
-    quickFade: true,
-    volumeBoost: 0.45,
-    playcount: 0
-},
+
 
 
 
@@ -12341,17 +12278,7 @@ volumeBoost: 0.25
   timeCategory: "afternoon"
 },
 
-{
-     name: "Broadcast Amsterdam☀️",
-    artist: "Sunny",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "audio/Broadcast Amsterdam2.mp3",
-    timeCategory: "afternoon",
-playcount: 0
-   
 
-
-},
 
 
 
@@ -12732,29 +12659,8 @@ quickFade: true
 },
 
 
-{
-     name: "Broadcast Amsterdam☀️",
-    artist: "Sunny",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "audio/Broadcast Amsterdam2.mp3",
-    timeCategory: "afternoon",
-playcount: 0
-   
 
 
-},
-
-
-{
-     name: " Can t Fake The Feeling",
-    artist: "Geraldine Hunt ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Geraldine Hunt - Can t Fake The Feeling.mp3",
-    timeCategory: "afternoon",
-     quickFade: true,
-    volumeBoost: 1.0,
-    playcount: 0
-},
 
 
 {
@@ -12785,16 +12691,6 @@ timeCategory: "afternoon",
 },
 
 
-{
-     name: "   I Am Allright",
-    artist: "Narada Michael Walden  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Narada Michael Walden - Tonight I Am Allright.mp3",
-    timeCategory: "afternoon",
-      volumeBoost: 0.80,
-     eq: { bass: 2, mid: 2, treble: +2 } ,
-playcount: 0
-},
 
 
 {
@@ -12807,14 +12703,7 @@ playcount: 0
 },
 
 
-{
-    name: "What Is Love",
-    artist: "Deeelite ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Deeelite - What Is Love.mp3",
-     timeCategory: "afternoon",
-volumeBoost: 0.35
-},
+
 
 {
      name: " Missing  ",
@@ -12895,15 +12784,6 @@ volumeBoost: 0.35
 
 
 
-{
-    name: " Live To Tell (1986) ",
-    artist: "Madonna  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Madonna - Live To Tell (1986).mp3",
- timeCategory: "afternoon",
-isLoud: true,          
-  loudnessValue: 0.80 
-},
 
 
 
@@ -12917,16 +12797,6 @@ isLoud: true,
 
 
 
-{
-    name: " Wild Girls",
-    artist: "Klymaxx",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Wild Girls - Klymaxx.mp3",
-  
-
-
-      timeCategory: "afternoon"
-},
 
 
 
@@ -13038,14 +12908,6 @@ isLoud: true,
 
 
 
-{
-    name: "  On A Ragga Tip",
-    artist: "SL2",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/SL2 - On A Ragga Tip.mp3",
-   timeCategory: "afternoon"
- },
-
 
 
 
@@ -13117,16 +12979,7 @@ isLoud: true,
 
 
 
-{
-    name: " I Can't Wait (1985)",
-    artist: "NU Shooz ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/NU Shooz - I Can't Wait.mp3",
-    timeCategory: "afternoon",
-     quickFade: true,
-    volumeBoost: 0.55,
-    playcount: 0
-},
+
 
 
 
@@ -13814,18 +13667,6 @@ playcount: 0
 
 
 
-{
-    name: "  Another Man (1984)",
-    artist: "Barbara Mason",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Barbara Mason - Another Man.mp3",
-   timeCategory: "afternoon",
-    quickFade: true,
-   volumeBoost: 0.65,
-   eq: { bass: 1, mid: 2, treble: 1 } ,
-  year: 1984
-},
-
 
 
 
@@ -13867,16 +13708,7 @@ playcount: 0
 
 
 
-{
-    name:  "Do You wanna Funk",
-    artist: "Sylvester",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Sylvester- Do You wanna Funk.mp3",
-  
 
-
-   timeCategory: "afternoon"
- },
 
 
 
@@ -13942,13 +13774,7 @@ playcount: 0
  },
 
 
-{
-    name: " Yes Sir  I Can Boogie ",
-    artist: "Baccara",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Baccara - Yes Sir  I Can Boogie.mp3",
-     timeCategory: "afternoon"
- },
+
 
 
 
@@ -14002,13 +13828,6 @@ playcount: 0
 
 
 
-{
-     name: "   Paradise Mix ",
-    artist: "Sueno Latino ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Sueno Latino - Paradise Mix.mp3",
-    timeCategory: "afternoon"
-},
 
 
 
@@ -14242,17 +14061,6 @@ volumeBoost: 0.30
 
 
 
-{
-    name: "Dancin' (maxi)",
-    artist: "Crown Heights Affair ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Crown Heights Affair - Dancin' (maxi).mp3",
-     year: 1976,
-   timeCategory: "afternoon"
-
-  
-},
-
 
 {
      name: "Welcome!",
@@ -14405,18 +14213,6 @@ playcount: 0
 
 
 
-{
-    name: "   What You Waiting For (maxi) ",
-    artist: "Stargard ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Stargard - What You Waiting For (maxi).mp3",
-  timeCategory: "afternoon",
-     quickFade: true,
-     eq: { bass: 2, mid: 2, treble: +1 } ,
-volumeBoost: 0.75,
- playcount: 0
-
-},
 
 
 {
@@ -14434,29 +14230,9 @@ volumeBoost: 0.75,
 
 
 
-{
-    name: " Last Night A DJ (maxi)",
-    artist: "InDeep ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/InDeep - Last Night A DJ (maxi).mp3",
-  timeCategory: "afternoon",
-     quickFade: true,
-  volumeBoost: 0.75,
-    playcount: 0
 
-},
 
-{
-    name: " Yah Mo B There",
-    artist: "James Ingram  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/James Ingram - Yah Mo B There.mp3",
-  timeCategory: "afternoon",
-     quickFade: true,
-  volumeBoost: 0.45,
-    playcount: 0
 
-},
 
  
 {
@@ -14503,15 +14279,7 @@ volumeBoost: 0.75,
 
 
 
-{
-    name: " In My House (1984)",
-    artist: "Mary Jane Girls  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Mary Jane Girls - In My House.mp3",
-    timeCategory: "afternoon",
-    year:1984,
-volumeBoost:  0.20
-},
+
 
 
 
@@ -14598,15 +14366,6 @@ volumeBoost:  0.20
 
 
 
-{
-    name: " The Age Of Love",
-    artist: "Jam & Spoon  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Jam & Spoon - The Age of Love.mp3",
-   timeCategory: "afternoon",
- volumeBoost: 0.45,
- eq: { bass: 1, mid: 1, treble: 1} 
-},
 
 
 
@@ -14648,24 +14407,10 @@ volumeBoost:  0.20
 
 
 
-{
-    name: " Vogue (12 inch) ",
-    artist: "Madonna  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Madonna - Vogue (12 inch).mp3",
-   timeCategory: "afternoon"
-},
 
 
 
-{
-    name: "What Have You Done (1992)",
-    artist: "One Tribe",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/One Tribe feat. Gem - What Have You Done.mp3",
-    timeCategory: "afternoon",
-    year:1992
-},
+
 
 
 
@@ -14707,16 +14452,6 @@ volumeBoost:  0.20
 },
 
 
-{
-    name: " Juicy Fruit",
-    artist: "Mtume ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/Mtume - Juicy Fruit.mp3",
-  quickFade: true,
-volumeBoost: 0.75,
-  eq: { bass: 1, mid: 1, treble: +2 } ,
-   timeCategory: "afternoon"
-},
 
 {
      name: "Welcome!",
@@ -14862,14 +14597,6 @@ volumeBoost: 0.10
 
 
 
-
-{
-     name: "EWF ",
-    artist: "Boogie Wonderland",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/EWF - Boogie Wonderland (maxi).mp3",
-    timeCategory: "afternoon"
-},
 
 
 
@@ -15048,17 +14775,7 @@ volumeBoost: 0.10
 
 
 
-{
-    name: " In The Forest (1980)",
-    artist: " Baby O  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Baby O - In The Forest.mp3",
-        timeCategory: "afternoon",
-volumeBoost: 0.35
 
-
-
-},
 
 
 
@@ -15345,15 +15062,7 @@ isLoud: true,
 },
 
 
-{
-    name: "Rick Astley ",
-    artist: " Never Gonna Give",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Rick Astley - Never Gonna Give.mp3",
-        timeCategory: "afternoon",
-    quickFade: true
- 
-},
+
 
 
 
@@ -15369,16 +15078,6 @@ isLoud: true,
 
 
 
-
-
-{
-    name: "  Can You Feel It (1986)",
-    artist: "Mr Fingers ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/Mr Fingers - Can you feel it.mp3",
-    timeCategory: "afternoon",
-    year:1986
-},
 
 
 {
@@ -15471,17 +15170,7 @@ isLoud: true,
 },
 
 
-{
-     name: " Try It Out",
-    artist: "Gino Soccio ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Gino Soccio - Try It Out (maxi).mp3",
-    timeCategory: "afternoon",
-       eq: { bass: 1, mid: 3, treble: +1 } ,
-quickFade: true,
-    volumeBoost: 0.95,
-    playcount: 0
-},
+
 
 
 
@@ -15892,17 +15581,7 @@ volumeBoost: 0.05
 
 
 
-{
-    name: " Buffalo Stance ",
-    artist: "Neneh Cherry ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Buffalo Stance - Neneh Cherry.mp3",
-    timeCategory: "evening",
-     quickFade: true,
-    eq: { bass: 2, mid: 1, treble: +1 } ,
-volumeBoost: 0.70,
-    playcount: 0
-},
+
 
 {
     name: "Rumours",
@@ -16610,15 +16289,6 @@ quickFade: true
 
 
 
-{
-     name: "  Still In Love",
-    artist: "Rose Royce ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://soulfullforever.netlify.app/Rose Royce Still in love.mp3",
-         timeCategory: "evening",
-  volumeBoost: 0.60,
-quickFade: true
-},
 
 
 
@@ -16627,18 +16297,6 @@ quickFade: true
 
 
 
-
-
-{
-     name: " Push It (1987)",
-    artist: "Salt n Pepa ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Salt n Pepa - Push It (1987).mp3",
-    timeCategory: "evening",
-    eq: { bass:0, mid: 1, treble: 0 } ,
-    year:1987,
-    volumeBoost: 0.40
-},
 
 
 
@@ -16842,7 +16500,7 @@ playcount: 0
 
 
 
-
+//hier gebleven
 
 
 
@@ -19449,7 +19107,23 @@ playcount: 0
 },
 
 
+{
+    name: "  Angels Cry (new)",
+    artist: "Snoop Dogg   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Snoop Dogg - Angels Cry (new).mp3",
+   timeCategory: "evening"
+},
 
+
+
+{
+    name: "  Mural (new) ",
+    artist: "Swae Lee  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Swae Lee - Mural (new).mp3",
+   timeCategory: "evening"
+},
 
 {
     name: "Illusion",
@@ -24509,13 +24183,7 @@ quickFade: true,
 
 
 
-{
-     name: "EWF ",
-    artist: "Boogie Wonderland",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/EWF - Boogie Wonderland (maxi).mp3",
-    timeCategory: "evening-late"
-},
+
 
 
 
@@ -25683,17 +25351,6 @@ isLoud: true,
 
 
 
-
-
-{
-    name: "Rick Astley ",
-    artist: " Never Gonna Give",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Rick Astley - Never Gonna Give.mp3",
-        timeCategory: "evening-late",
-    quickFade: true
- 
-},
 
 
 

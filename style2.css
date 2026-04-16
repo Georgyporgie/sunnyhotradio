@@ -13,11 +13,26 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center; margin-top: -90px;
-   transform: scale(0.6);
+  justify-content: center;
+  margin-top: -90px;
+
+  /* EXTREME DRAMA START */
+  transform: scale(0.2) translateY(200px) rotateX(35deg);
   opacity: 0;
-  transition: transform 2.2s ease, opacity 2.2s ease;
+
+  /* MICROPULSE + CINEMATIC MOTION */
+  transition:
+    transform 2.8s cubic-bezier(0.19, 1, 0.22, 1) 0.12s,
+    opacity 2.8s ease-out 0.12s;
 }
+
+.player.loaded {
+  transform: scale(1) translateY(0) rotateX(0deg);
+  opacity: 1;
+}
+
+
+
 .details {
   display: flex;
   align-items: center;
@@ -25,13 +40,6 @@ body {
   justify-content: center;
   margin-top: 25px;
 }
- 
-.player.loaded {
-  transform: scale(1);
-  opacity: 1;
-}
-
-
 @font-face{ 
 font-family: myMuss;
 src:url(fonts/DISKOTEQUE.ttf);
