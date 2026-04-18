@@ -5372,6 +5372,29 @@ volumeBoost: 0.20
     playcount: 0
 },
 
+{
+    name: "Pacific State (1989)",
+    artist: "808 State  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/808 state - Pacific State.mp3",
+      timeCategory: "eighties",
+   volumeBoost: 0.25
+},
+
+
+
+
+
+{
+    name: "  Your Love (1981)",
+    artist: "Lime ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Lime - Your Love.mp3",
+    timeCategory: "eighties",
+    playcount: 0,
+    volumeBoost: 0.60
+
+},
 
 
 //strictly nineties show
@@ -11011,6 +11034,51 @@ quickFade: true
 
 
 
+{
+    name: "Double Dutch Bus",
+    artist: " Frankie Smith ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Double Dutch Bus Frankie Smith.mp3",
+        year: 1981,
+  timeCategory: " afternoon"
+
+  
+},
+
+
+{
+     name: " More More More ",
+    artist: "Andrea True ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Andrea True Connection - More More More.mp3",
+      timeCategory: "afternoon",
+ quickFade: true,
+    volumeBoost: 0.55,
+    playcount: 0
+},
+
+
+
+
+{
+    name: "Jimmy Bo Horne",
+    artist: "Spank 69",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Spank 69.mp3",
+        timeCategory: " afternoon",
+    quickFade: true,
+      isLoud: true,          
+  loudnessValue: 0.60, 
+playcount: 0
+
+
+},
+
+
+
+
+
+
 
 {
      name: " Get Down Tonight",
@@ -15283,6 +15351,15 @@ volumeBoost: 0.10
 },
 
 
+{
+    name: "  Giant In My Heart",
+    artist: "Kiesza ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Kiesza - Giant In My Heart (crossfade).mp3",
+       timeCategory: "afternoon"
+
+  
+},
 
 
 {
@@ -17827,6 +17904,77 @@ volumeBoost: 0.30
 
 
 
+
+{
+    name: "  Fall In Love With Me (1982) ",
+    artist: " EARTH WIND & FIRE ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://jazzmusic04.netlify.app/EARTH WIND & FIRE - Fall In Love With Me (1982).mp3",
+    timeCategory: "evening",
+    volumeBoost: 0.55,
+    playcount: 0
+},
+
+
+{
+     name: " High On Your Love",
+    artist: "Debbie Jacobs",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Debbie Jacobs - High On Your Love.mp3",
+ 
+ timeCategory: " evening"
+
+},
+
+
+{
+    name: " Fantastic Voyage",
+    artist: "Lakeside  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Lakeside - Fantastic Voyage.mp3",
+    timeCategory: " evening",
+    quickFade: true,
+   eq: { bass: 2, mid: 1, treble: +2 } ,
+
+ volumeBoost: 0.45,
+    playcount: 0
+},
+
+
+
+
+{
+    name: "Loving You",
+    artist: "Michael Jackson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Loving You - Michael Jackson.mp3",
+          timeCategory: " evening"
+
+},
+
+
+{
+    name: "Loving You",
+    artist: "Michael Jackson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Loving You - Michael Jackson.mp3",
+          timeCategory: " evening"
+
+},
+
+
+
+{
+    name: " Miss You much",
+    artist: "Janet Jackson ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Janet Jackson - Miss you much.mp3",
+        timeCategory: " evening",
+    quickFade: true,
+    volumeBoost: 0.45,
+    playcount: 0
+},
+
 {
     name: "Best Things (classic) ",
     artist: " Janet Jackson  ",
@@ -18180,33 +18328,7 @@ quickFade: true,
 
 
 
-{
-    name: " Horsepower (1991)",
-    artist: "Christian Jay Bolland ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Christian Jay Bolland - Horsepower (1991).mp3",
-    timeCategory: "evening",
-    volumeBoost: 0.65,
-    playcount: 0,
-     year:1991
-},
 
-
-
-
-
-{
-    name: "Fast Love",
-    artist: "George Michael",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies01.netlify.app/Fast Love - George Michael.mp3",
-   timeCategory: "evening",
-    volumeBoost: 0.75,
-    playcount: 0,
-  eq: { bass: 1, mid: 2, treble: +1 } 
-
-
-},
 
 
 
@@ -18274,15 +18396,7 @@ volumeBoost: 0.45,
 
 
 
-{
-    name: "Pump Up The Jam (1989)",
-    artist: "Technotronic ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Technotronic - Pump Up The Jam.mp3",
-      timeCategory: "evening",
-quickFade: true,
-     year:1989
-},
+
 
 
 {
@@ -18317,16 +18431,7 @@ quickFade: true
 
 
 
-{
-    name: "Medly",
-    artist: "Robin S & CC Peniston",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/Robin S Crystal Waters & CC Peniston.mp3",
-  
 
-
-          timeCategory: "evening"
-},
 
 {
     name: "Golden",
@@ -18371,18 +18476,6 @@ quickFade: true
 
 
 
-
-
-
-
-{
-     name: "   Number One (1985)",
-    artist: "Princess  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Princess - Say I'm Your Number One.mp3",
-     timeCategory: "evening",
-      year:1985
-},
 
 
 
@@ -18584,31 +18677,7 @@ quickFade: true
 
 
 
-{
-    
-    name: "   Always There (1991)",
-    artist: "Incognito",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Incognito - Always There.mp3",
-    timeCategory: "evening",
-volumeBoost: 0.50,
-      year:1991,
- eq: { bass: 1, mid: 1, treble: +1 } 
-},
 
-
-
-{
-    
-    name: " San Salvador (1979)",
-    artist: "Azoto ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnyhotradio.com/muziek/oldies07/Azoto - San Salvador.mp3",
-      timeCategory: "evening",
-volumeBoost: 0.20,
-  eq: { bass: 1, mid: 2, treble: +1 }, 
-     year:1979
-},
 
 
 
@@ -18789,15 +18858,7 @@ volumeBoost: 0.20,
 
 
 
-{
-    name: " You gotta be (1994)",
-    artist: "Des'ree  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies01.netlify.app/Des'ree - You gotta be.mp3",
-      timeCategory: "evening",
-       year:1994,
-volumeBoost: 0.25
-},
+
 
 
 
@@ -19109,7 +19170,7 @@ playcount: 0
 
 },
 
-
+//hier gebleven
 {
      name: "  Windows ",
     artist: "SIL ",
@@ -24252,6 +24313,14 @@ timeCategory: "evening-late"
 
 
 
+{
+    name: " Lighter ",
+    artist: "Paris Hilton   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Paris Hilton - Lighter.mp3",
+
+ timeCategory: " evening-late"
+},
 
 
 
@@ -26622,6 +26691,45 @@ timeCategory: "evening-late"
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //f afternoon
 
 
@@ -26710,14 +26818,7 @@ playcount: 0
 },
 
 
-{
-    name: "Pacific State (1989)",
-    artist: "808 State  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/808 state - Pacific State.mp3",
-      timeCategory: "f afternoon",
-   volumeBoost: 0.25
-},
+
 
 
 {
@@ -26757,16 +26858,7 @@ timeCategory: "f afternoon"
 },
 
 
-{
-    name: "Double Dutch Bus",
-    artist: " Frankie Smith ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Double Dutch Bus Frankie Smith.mp3",
-        year: 1981,
-  timeCategory: "f afternoon"
 
-  
-},
 {
     name: "  Rhythm Is A Dancer",
     artist: "Snap ",
@@ -26827,13 +26919,7 @@ volumeBoost: 0.65,
 
 
 
-{
-     name: " Straight Ahead ",
-    artist: " Nick Straker Band ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Nick Straker Band - Straight Ahead.mp3",
-    timeCategory: "f afternoon"
-},
+
 
 
 
@@ -27100,14 +27186,7 @@ timeCategory: "f-afternoon"
 },
 
 
-{
-     name: "Straight Ahead",
-    artist: "Kool & The Gang",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Kool & The Gang - Straight Ahead.mp3",
-    timeCategory: "f afternoon",
-     year:1983
-},
+
 
 
 
@@ -27161,16 +27240,7 @@ timeCategory: "f-afternoon"
     playcount: 0
 },
   
-{
-     name: " More More More ",
-    artist: "Andrea True ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Andrea True Connection - More More More.mp3",
-      timeCategory: "f afternoon",
- quickFade: true,
-    volumeBoost: 0.55,
-    playcount: 0
-},
+
 
 {
     name: " Get together",
@@ -27270,13 +27340,7 @@ timeCategory: "f-afternoon"
 },
 
 
-{
-    name: "Gonna Get Over You",
-    artist: "Beverlei Brown ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Gonna get over you - Beverlei Brown.mp3",
-    timeCategory: "f afternoon"
-},
+
 
 
 
@@ -27530,19 +27594,6 @@ playcount: 0
 
 
 
-{
-    name: "Jimmy Bo Horne",
-    artist: "Spank 69",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Spank 69.mp3",
-        timeCategory: "f afternoon",
-    quickFade: true,
-      isLoud: true,          
-  loudnessValue: 0.60, 
-playcount: 0
-
-
-},
 
 {
     name: "Dance (Disco Heat)",
@@ -28101,7 +28152,7 @@ timeCategory: "f afternoon"
 },
 {
     
-    name: " Don t You Want Me (1992)",
+    name: " Don't You Want Me (1992)",
     artist: "Felix ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Felix - Don t You Want Me (1992).mp3",
@@ -28320,15 +28371,7 @@ timeCategory: "f evening",
 },
 
 
-{
-    name: "  Fall In Love With Me (1982) ",
-    artist: " EARTH WIND & FIRE ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://jazzmusic04.netlify.app/EARTH WIND & FIRE - Fall In Love With Me (1982).mp3",
-    timeCategory: "f evening",
-    volumeBoost: 0.55,
-    playcount: 0
-},
+
 
 
 {
@@ -28875,15 +28918,7 @@ timeCategory: "f evening"
 },
 
 
-{
-     name: " High On Your Love",
-    artist: "Debbie Jacobs",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://danceoldies10.netlify.app/Debbie Jacobs - High On Your Love.mp3",
- 
- timeCategory: "f evening"
 
-},
 
 {
     name: "  Somedays ",
@@ -29097,13 +29132,6 @@ isLoud: true,
 
 
 
-{
-     name: "   Paradise Mix ",
-    artist: "Sueno Latino ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Sueno Latino - Paradise Mix.mp3",
-    timeCategory: "f afternoon"
-},
 
 
 
@@ -29244,7 +29272,7 @@ playcount: 0
     artist: "Lakeside  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Lakeside - Fantastic Voyage.mp3",
-    timeCategory: "f evening",
+    timeCategory: " evening",
     quickFade: true,
    eq: { bass: 2, mid: 1, treble: +2 } ,
 
@@ -29253,28 +29281,10 @@ playcount: 0
 },
 
 
-{
-    name: "Loving You",
-    artist: "Michael Jackson",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies01.netlify.app/Loving You - Michael Jackson.mp3",
-          timeCategory: "f evening"
-
-},
 
 
 
 
-{
-    name: " It's Like That (1997)",
-    artist: "RUN DMC ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/RUN DMC - It's Like That.mp3",
-     timeCategory: "f evening",
-  volumeBoost: 0.45,
-    playcount: 0
-
-},
 
 
 
@@ -29319,17 +29329,6 @@ playcount: 0
 },
 
 
-
-{
-    name: "  Your Love (1981)",
-    artist: "Lime ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Lime - Your Love.mp3",
-    timeCategory: "f evening",
-    playcount: 0,
-    volumeBoost: 0.60
-
-},
 
 
 
@@ -29418,16 +29417,7 @@ volumeBoost: 0.65,
     playcount: 0
 },
 
-{
-    name: " Miss You much",
-    artist: "Janet Jackson ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Janet Jackson - Miss you much.mp3",
-        timeCategory: "f evening",
-    quickFade: true,
-    volumeBoost: 0.45,
-    playcount: 0
-},
+
 
 
 
@@ -29682,7 +29672,7 @@ volumeBoost: 0.40
 
 
 {
-    name: "  Hot Water",
+    name: "  Lessons In Love",
     artist: " Level 42",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Level 42 - Lessons In Love (maxi).mp3",
@@ -29951,16 +29941,6 @@ volumeBoost: 0.40
 
 
 
-
-{
-    name: " Hot Shot (maxi) ",
-    artist: "Karen Young ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Karen Young - Hot Shot (maxi).mp3",
-       timeCategory: "f evening-late"
-
-  
-},
 
 
 
@@ -30346,15 +30326,6 @@ timeCategory: "f evening-late"
 
 
 
-
-
-{
-     name: " Oh Yeah",
-    artist: "Yello ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Yello - Oh Yeah.mp3",
-   timeCategory: "f evening-late"
-},
 
 
 
@@ -30879,14 +30850,7 @@ timeCategory: "f evening-late"
 
 
 
-{
-    name: " Lighter ",
-    artist: "Paris Hilton   ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/Paris Hilton - Lighter.mp3",
 
- timeCategory: "f evening-late"
-},
 
 
 
