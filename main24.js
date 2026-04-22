@@ -8279,15 +8279,6 @@ timeCategory: "morning",
 
 
 
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️ ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/DJ S.mp3",
-      timeCategory: "morning"
-
-
-},
 
 
 
@@ -22790,13 +22781,7 @@ quickFade: true
        timeCategory: "evening-late"
 },
 
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️ ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/DJ S.mp3",
-      timeCategory: "evening-late"
-},
+
 
 {
   
@@ -23917,13 +23902,6 @@ timeCategory: "evening-late"
 
 
 
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️ ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/DJ S.mp3",
-     timeCategory: "evening-late"
-},
 
 
 
@@ -28417,13 +28395,7 @@ timeCategory: "f evening"
 },
 
 
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️ ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/DJ S.mp3",
- timeCategory: "f evening"
-},
+
 
 
 
@@ -28902,16 +28874,6 @@ isLoud: true,
 
 
 
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️ ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/DJ S.mp3",
-     timeCategory: "f evening"
-
-},
-
-
 
 
 
@@ -29280,16 +29242,6 @@ playcount: 0
 },
 
 
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️ ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/DJ S.mp3",
-       timeCategory: "f evening"
-
-
-
-},
 
 
 
