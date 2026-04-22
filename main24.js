@@ -1343,17 +1343,6 @@ quickFade: true
 
 
 
-{
-    name: "Strictly Seventies Jingle",
-    artist: "Sunny ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Strictly%20seventies%20show.mp3",
-     year: 1977,
-  
-timeCategory: "seventies"
-
-  
-},
 
 
 {
@@ -1514,15 +1503,7 @@ volumeBoost: 0.20,
 
 },
 
-{
-    name: "Strictly Seventies Jingle",
-    artist: "Sunny ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Strictly%20seventies%20show.mp3",
-       timeCategory: "seventies"
 
-  
-},
 
 
 {
@@ -1584,14 +1565,7 @@ timeCategory: "seventies",
   volumeBoost: 0.16
 },
 
-{
-    name: "Strictly Seventies Jingle",
-    artist: "Sunny ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Strictly%20seventies%20show.mp3",
-       timeCategory: "seventies"
-  
-},
+
 
 {
     name: " Bounce Skate Roll (12inch) ",
@@ -5580,15 +5554,7 @@ playcount: 0
 
 
 
-{
-    name: "Strictly Nineties Jingle",
-    artist: "Sunny ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Strictly%20nineties%20show.mp3",
-       timeCategory: "nineties"
 
-  
-},
 
 
 {
@@ -5620,15 +5586,6 @@ timeCategory: "nineties",
 
 
 {
-    name: "Strictly Nineties Jingle",
-    artist: "Sunny ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Strictly%20nineties%20show.mp3",
-       timeCategory: "nineties"
-
-  
-},
-{
     
     name: " I Wanna Give You Devotion",
     artist: "Nomad ",
@@ -5651,15 +5608,7 @@ timeCategory: "nineties",
 
 },
 
-{
-    name: "Strictly Nineties Jingle",
-    artist: "Sunny ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Strictly%20nineties%20show.mp3",
-       timeCategory: "nineties"
 
-  
-},
 
 {
     name: "  We Got A Love Thang",
@@ -5738,15 +5687,7 @@ quickFade: true
 },
 
 
-{
-    name: "Strictly Nineties Jingle",
-    artist: "Sunny ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Strictly%20nineties%20show.mp3",
-       timeCategory: "nineties"
 
-  
-},
 
 
 {
@@ -5797,15 +5738,7 @@ quickFade: true
 },
 
 
-{
-    name: "Strictly Nineties Jingle",
-    artist: "Sunny ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Strictly%20nineties%20show.mp3",
-       timeCategory: "nineties"
 
-  
-},
 
 
 
@@ -5887,15 +5820,6 @@ volumeBoost: 0.20
 
 
 
-{
-    name: "Strictly Nineties Jingle",
-    artist: "Sunny ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Strictly%20nineties%20show.mp3",
-       timeCategory: "nineties"
-
-  
-},
 
 
 
@@ -19170,7 +19094,7 @@ playcount: 0
 
 },
 
-//hier gebleven
+
 {
      name: "  Windows ",
     artist: "SIL ",
