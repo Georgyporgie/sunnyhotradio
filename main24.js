@@ -29080,6 +29080,13 @@ isLoud: true,
 
 
 
+
+
+
+
+
+
+
 {
     name: "  Stay On Me ",
     artist: "Sophie Ellis Bextor ",
@@ -29187,10 +29194,26 @@ playcount: 0
 
 
 
+{
+    name: "  16 Summers (new)",
+    artist: "Jessie Ware ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Jessie Ware - 16 Summers.mp3",
+   timeCategory: "f evening",
+     quickFade: true
+ 
+},
 
 
-
-
+{
+    name: " Stop To Love (instrumental)",
+    artist: "Luther Vandross ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Luther Vandross - Stop To Love (instrumental).mp3",
+   timeCategory: "f evening",
+     quickFade: true
+ 
+},
 
 
 
