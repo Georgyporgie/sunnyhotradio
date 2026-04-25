@@ -3840,7 +3840,7 @@ timeCategory: "eighties"
     name: "  In The Name Of Love",
     artist: "Sharon Redd  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Sharon Redd -  In The Name Of Love.mp3",
+    path: "https://sunnydanceoldies05.netlify.app/sharon Redd In the name of love.mp3",
   playcount: 0,
 timeCategory: "eighties",
   volumeBoost: 0.20
