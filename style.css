@@ -120,7 +120,7 @@ text-align: center;
 
 
 #geeks {   width:90px; height: 90px; 
-   z-index: -400;  margin-left: 40px; transform:rotate(-10deg);
+   z-index: -400;  margin-left: -300px; transform:rotate(-10deg);
  filter:brightness(100%) saturation(100%) contrast(100%) opacity(45%); 
 }
 
