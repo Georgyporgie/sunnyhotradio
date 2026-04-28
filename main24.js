@@ -11559,6 +11559,15 @@ volumeBoost: 0.30
 
 
 
+{
+    name: " Gliiter and Guillotines",
+    artist: " Doechii ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Doechii - Gliiter and Guillotines.mp3",
+    timeCategory: "afternoon"
+
+},
+
 
 
 
@@ -27261,10 +27270,10 @@ timeCategory: "f-afternoon"
 
 
 {
-    name: "   Feel So Real (maxi)",
-    artist: " Steve Arrington",
+    name: " Gliiter and Guillotines",
+    artist: " Doechii ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Steve Arrington - Feel So Real (maxi).mp3",
+    path: "https://danceoldies10.netlify.app/Doechii - Gliiter and Guillotines.mp3",
     timeCategory: "f-afternoon"
 
 },
@@ -27281,7 +27290,14 @@ timeCategory: "f-afternoon"
     playcount: 0
 },
   
+{
+    name: "   Feel So Real (maxi)",
+    artist: " Steve Arrington",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Steve Arrington - Feel So Real (maxi).mp3",
+    timeCategory: "f-afternoon"
 
+},
 
 {
     name: " Get together",
