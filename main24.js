@@ -3567,16 +3567,7 @@ quickFade: true,
   volumeBoost: 0.40
 },
 
-{
-    name: "Sunny",
-    artist: "Eighties ",
-    image:"https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path:"https://danceoldies10.netlify.app/Strictly%20eighties%20show.mp3",
-   timeCategory: "eighties",
-    playcount: 0,
-volumeBoost: 0.30
 
-},
 
 
 {
@@ -3765,16 +3756,7 @@ volumeBoost: 0.30
 
 
 
-{
-    name: "Sunny",
-    artist: "Eighties ",
-    image:"https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path:"https://danceoldies10.netlify.app/Strictly%20eighties%20show.mp3",
-   timeCategory: "eighties",
-    playcount: 0,
-volumeBoost: 0.30
 
-},
 
 
 
@@ -3886,16 +3868,6 @@ timeCategory: "eighties",
 },
 
 
-{
-    name: "Sunny",
-    artist: "Eighties ",
-    image:"https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path:"https://danceoldies10.netlify.app/Strictly%20eighties%20show.mp3",
-   timeCategory: "eighties",
-    playcount: 0,
-volumeBoost: 0.30
-
-},
 
 
 
@@ -3936,16 +3908,7 @@ timeCategory: "eighties",
 
 
 
-{
-    name: "Sunny",
-    artist: "Eighties ",
-    image:"https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path:"https://danceoldies10.netlify.app/Strictly%20eighties%20show.mp3",
-   timeCategory: "eighties",
-    playcount: 0,
-volumeBoost: 0.30
 
-},
 
 
 {
@@ -3997,16 +3960,6 @@ timeCategory: "eighties",
 
 
 
-{
-    name: "Sunny",
-    artist: "Eighties ",
-    image:"https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path:"https://danceoldies10.netlify.app/Strictly%20eighties%20show.mp3",
-   timeCategory: "eighties",
-    playcount: 0,
-volumeBoost: 0.30
-
-},
 
 
 
@@ -4056,17 +4009,6 @@ timeCategory: "eighties",
 
 
 
-
-{
-    name: "Sunny",
-    artist: "Eighties ",
-    image:"https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path:"https://danceoldies10.netlify.app/Strictly%20eighties%20show.mp3",
-   timeCategory: "eighties",
-    playcount: 0,
-volumeBoost: 0.30
-
-},
 
 
 
