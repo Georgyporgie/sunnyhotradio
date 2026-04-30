@@ -11828,14 +11828,6 @@ volumeBoost: 0.30
 
 
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: " afternoon"
-
-},
 
 
 
@@ -11861,14 +11853,6 @@ volumeBoost: 0.30
 
 
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: " afternoon"
-
-},
 
 
 
@@ -12010,14 +11994,7 @@ volumeBoost: 0.30
 },
 
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: " afternoon"
 
-},
 
 
 
@@ -12125,14 +12102,6 @@ volumeBoost: 0.30
 
 
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: " afternoon"
-
-},
 
 
 
@@ -12204,14 +12173,6 @@ volumeBoost: 0.30
 },
 
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: " afternoon"
-
-},
 
 
 
@@ -12308,16 +12269,6 @@ playcount: 0
 
 
 
-
-
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: " afternoon"
-
-},
 
 
 
@@ -17377,20 +17328,6 @@ volumeBoost: 0.60
 
 
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "evening"
-
-},
-
-
-
-
-
-
 
 
 
@@ -17470,16 +17407,6 @@ volumeBoost: 0.25
 },
 
 
-
-
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "evening"
-
-},
 
 
 
@@ -17622,14 +17549,7 @@ volumeBoost: 0.25
 
 
 
- {
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "evening"
 
-},
 
 
 
@@ -17711,14 +17631,6 @@ volumeBoost: 0.25
 
 
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "evening"
-
-},
 
 
 {
@@ -17808,14 +17720,6 @@ volumeBoost: 0.25
 
 
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "evening"
-
-},
 
 
 
@@ -23220,14 +23124,7 @@ quickFade: true
 },
 
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "evening-late"
 
-},
 
 
 
@@ -23264,14 +23161,7 @@ quickFade: true
 },
 
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "evening-late"
 
-},
 
 
 {
@@ -23449,14 +23339,7 @@ volumeBoost: 0.40,
  
 
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "evening-late"
 
-},
 
 
 
@@ -23569,14 +23452,6 @@ volumeBoost:0.10
    timeCategory: "evening-late"
 },
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "evening-late"
-
-},
 
 
 {
@@ -23730,14 +23605,6 @@ volumeBoost: 0.15
    timeCategory: "evening-late"
 },
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "evening-late"
-
-},
 
  {
      name: "Giant In My Heart ",
@@ -27601,14 +27468,6 @@ playcount: 0
 
 
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "f afternoon"
-
-},
 
 
 {
@@ -27739,14 +27598,6 @@ playcount: 0
 },
 
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "f afternoon"
-
-},
 
 {
     name: " Won't Forget You",
@@ -27864,14 +27715,7 @@ timeCategory: "f afternoon"
 
 },
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "f afternoon"
 
-},
 
 {
     name: "Just For You ",
@@ -28023,14 +27867,7 @@ quickFade: true
 
 
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "f afternoon"
 
-},
 
 {
     name: "  I Can t Wait (new)",
@@ -28043,14 +27880,6 @@ quickFade: true
 },
 
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "f afternoon"
-
-},
 
 {
     name: " Won't Forget You",
@@ -28141,14 +27970,6 @@ timeCategory: "f afternoon"
 },
 
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "f afternoon"
-
-},
 
 
 
@@ -28215,14 +28036,7 @@ volumeBoost: 0.40
        timeCategory: "f evening"
 },
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "f evening"
 
-},
 
 {
     name: "Welcome!",
@@ -28287,14 +28101,6 @@ volumeBoost: 0.40
 
 
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "f evening"
-
-},
 
 
 
@@ -28400,14 +28206,7 @@ timeCategory: "f evening",
        timeCategory: "f evening"
 },
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "f evening"
 
-},
 
 {
      name: "  All This Time ",
@@ -28495,14 +28294,6 @@ timeCategory: "f evening"
 },
 
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "f evening"
-
-},
 
 
 {
@@ -28565,15 +28356,6 @@ timeCategory: "f evening"
 },
 
 
-
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "f evening"
-
-},
 
 
 
@@ -29689,14 +29471,7 @@ volumeBoost: 0.40
 },
 
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "f evening"
 
-},
 
 
 
@@ -30668,14 +30443,6 @@ timeCategory: "f evening-late"
 
 
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "f evening-late"
-
-},
 
 
 
@@ -30843,14 +30610,7 @@ timeCategory: "f evening-late"
 
 },
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "f evening-late"
 
-},
 
 
 
@@ -30943,14 +30703,6 @@ timeCategory: "f evening-late"
 
 
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "f evening-late"
-
-},
 
 
 
@@ -31128,14 +30880,6 @@ playcount: 0
 
 
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "f evening-late"
-
-},
 
 
 
@@ -31295,14 +31039,7 @@ playcount: 0
 
 
 
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "f evening-late"
 
-},
 
 
 {
@@ -31369,15 +31106,6 @@ playcount: 0
 },
 
 
-
-{
-     name: "All Over The World",
-    artist: "Sunny ☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/From all over the world.mp3",
-        timeCategory: "f evening-late"
-
-},
 
 
 
