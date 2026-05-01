@@ -13757,6 +13757,52 @@ timeCategory: "afternoon"
 
  
 
+{
+     name: " I Feel So Free (new)",
+    artist: " Madonna ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Madonna - I Feel So Free (new).mp3",
+    timeCategory: "afternoon"
+},
+
+
+{
+     name: "  If Its Not Love (new) ",
+    artist: "Zerb & Rita Ora",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Zerb & Rita Ora - If Its Not Love.mp3",
+    timeCategory: "afternoon"
+},
+
+
+
+{
+     name: "  The Funk Phenomena",
+    artist: "Armand Van Helden ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Armand Van Helden - The Funk Phenomena.mp3",
+    timeCategory: "afternoon"
+},
+
+
+{
+     name: " RunWay (new)",
+    artist: "Lady Gaga  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Lady Gaga - RunWay (new).mp3",
+    timeCategory: "afternoon"
+},
+
+{
+     name: "  Carousel (new) ",
+    artist: "Cannons ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Cannons - Carousel (new).mp3",
+   timeCategory: "afternoon"
+},
+
+
+
 
 
 
@@ -27556,10 +27602,6 @@ playcount: 0
 
 },
 
-
-
-
-
 {
      name: "   Cherry",
     artist: "Naomi Scott ",
@@ -27569,6 +27611,57 @@ playcount: 0
 },
 
 
+
+{
+     name: "  Carousel (new) ",
+    artist: "Cannons ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Cannons - Carousel (new).mp3",
+    timeCategory: "f afternoon"
+},
+
+{
+     name: " Encore Une Fois  ",
+    artist: "Sash! ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Sash! - Encore Une Fois.mp3",
+    timeCategory: "f afternoon"
+},
+
+{
+     name: "  If Its Not Love ",
+    artist: "Zerb & Rita Ora",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Zerb & Rita Ora - If Its Not Love.mp3",
+    timeCategory: "f afternoon"
+},
+
+
+
+{
+     name: "  The Funk Phenomena",
+    artist: "Armand Van Helden ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Armand Van Helden - The Funk Phenomena.mp3",
+    timeCategory: "f afternoon"
+},
+
+
+{
+     name: " RunWay (new)",
+    artist: "Lady Gaga  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Lady Gaga - RunWay (new).mp3",
+    timeCategory: "f afternoon"
+},
+
+{
+     name: " I Feel So Free (new)",
+    artist: " Madonna ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Madonna - I Feel So Free (new).mp3",
+    timeCategory: "f afternoon"
+},
 
 {
     name: "  Work With You Love ",
@@ -29823,7 +29916,49 @@ timeCategory: "f evening"
 },
 
 
+{
+     name: " I Feel So Free (new)",
+    artist: " Madonna ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Madonna - I Feel So Free (new).mp3",
+    timeCategory: "f evening-late"
+},
 
+
+{
+     name: "  If Its Not Love (new) ",
+    artist: "Zerb & Rita Ora",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Zerb & Rita Ora - If Its Not Love.mp3",
+    timeCategory: "f evening-late"
+},
+
+
+
+{
+     name: "  The Funk Phenomena",
+    artist: "Armand Van Helden ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Armand Van Helden - The Funk Phenomena.mp3",
+    timeCategory: "f evening-late"
+},
+
+
+{
+     name: " RunWay (new)",
+    artist: "Lady Gaga  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Lady Gaga - RunWay (new).mp3",
+    timeCategory: "f evening-late"
+},
+
+{
+     name: "  Carousel (new) ",
+    artist: "Cannons ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Cannons - Carousel (new).mp3",
+   timeCategory: "f evening-late"
+},
 
 
 
