@@ -17947,7 +17947,45 @@ volumeBoost: 0.30
 
 
 
+{
+     name: "  Purple Sun  ",
+    artist: "Cannons   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Cannons - Purple Sun.mp3",
+           timeCategory: "evening"
 
+},
+
+{
+     name: " Light As A Feather (new) ",
+    artist: "Cannons   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Cannons - Light As A Feather (new).mp3",
+           timeCategory: " evening"
+
+},
+
+
+
+{
+     name: " Umbrella ",
+    artist: "Rihanna  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Rihanna - Umbrella.mp3",
+           timeCategory: "evening"
+
+},
+
+
+
+{
+     name: " Carousel (new)  ",
+    artist: "Cannons  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Cannons - Carousel (new).mp3",
+           timeCategory: " evening"
+
+},
 
 
 
@@ -29435,12 +29473,47 @@ volumeBoost: 0.65,
 
 
 
+{
+     name: "  Purple Sun  ",
+    artist: "Cannons   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Cannons - Purple Sun.mp3",
+           timeCategory: "f evening"
+
+},
+
+{
+     name: " Umbrella ",
+    artist: "Rihanna  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Rihanna - Umbrella.mp3",
+           timeCategory: "f evening"
+
+},
+
+
+
+{
+     name: " Carousel (new)  ",
+    artist: "Cannons  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Cannons - Carousel (new).mp3",
+           timeCategory: "f evening"
+
+},
 
 
 
 
 
+{
+     name: " Light As A Feather (new) ",
+    artist: "Cannons   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Cannons - Light As A Feather (new).mp3",
+           timeCategory: "f evening"
 
+},
 
 
 {
@@ -29448,8 +29521,8 @@ volumeBoost: 0.65,
     artist: "Poppy Baskcomb   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Poppy Baskcomb - Think About Us.mp3",
-           timeCategory: "f evening",
-  playcount: 0
+           timeCategory: "f evening"
+
 },
 
 
@@ -29458,7 +29531,7 @@ volumeBoost: 0.65,
     artist: "Rita Ora & Yll Limani  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Rita Ora & Yll Limani - All Natural.mp3",
-           timeCategory: "evening",
+           timeCategory: "f evening",
   playcount: 0
 },
 
