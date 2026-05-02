@@ -1,0 +1,2363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HGPPL3SXDS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HGPPL3SXDS');
+</script>
+
+
+
+
+
+
+
+
+
+
+<title> Sunny Danceradio</title>
+   <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+ <meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!-- Load FontAwesome icons -->
+  <link rel="stylesheet"
+        href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+ 
+  <!-- Load the custom CSS style file -->
+  <link rel="stylesheet" type="text/css" href="style2.css">
+ <link rel="stylesheet" type="text/css" href="style9.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style type="text/css">
+  
+ 
+
+
+
+
+
+
+
+
+
+
+ <style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.header {
+  padding: 10px 16px;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0; z-index: 1;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav" id="myHeader" >
+  <h1 class="header" > <a href="#home" class="active"><img id= "logo"><img id= "dion">
+
+</a> </h1>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    
+  <a href="https://sunnyhotradio.com/Index.html">HOME<img id= "dwarf"></a>
+
+    <a href="https://sunnyrockradio.com/rock01.html">SUNNY <em>ROCK</em> RADIO<img id= "lin"></a>
+  <a href="https://sunnyjazzradio.com/jazz01.html">SUNNY <em>JAZZ</em> RADIO<img id= "linger"></a>
+
+
+
+</div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction1()">
+    <div class="btn">
+        <span class="fas fa-bars"></span>
+    </div>
+ 
+ </a>
+</div>
+
+</head>
+
+
+<body>
+
+
+<div id="snow-container" class="lane lane-front"></div>
+<div id="snow-container-mid" class="lane lane-mid"></div>
+<div id="snow-container-back" class="lane lane-back"></div>
+
+
+<div class = "arrow">
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<div id="now"></div>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+<div class="player">
+ 
+    <!-- Define the section for displaying details -->
+    <div class="details">
+    
+   <div class="now-playing">PLAYING x OF y</div>
+       <br> 
+<div class="track-name">Loading</div>
+      <div class="track-artist">Playlist</div>
+    </div>
+
+ 
+
+ <!-- Define the section for displaying track buttons -->
+    <div class="buttons">
+    
+      <div class="playpause-track" onclick="playpauseTrack()">
+        <br>
+<img id= "media">
+      </div>
+     
+    </div>
+<br>
+
+ <!-- Define the section for displaying the seek slider-->
+    <div class="slider_container">
+      <div class="current-time"><strong>00:00</strong></div>
+      <input type="range" min="1" max="100"
+        value="0" class="seek_slider" >
+      <div class="total-duration"><strong>00:00</strong></div>
+    </div>
+ 
+    <!-- Define the section for displaying the volume slider-->
+    <div class="slider_container">
+      <i class="fa fa-volume-down"></i>
+      <input type="range" min="1" max="100"
+        value="99" class="volume_slider" onchange="setVolume()">
+ 
+     <img id= "medio">
+</div>
+  
+<br>
+<br>
+
+
+
+
+<img id= "astro">
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<p id="message"></p>
+</div>
+
+
+<div id="clock-flash"></div>
+
+<script>
+function getClockEmoji(hour) {
+  const h = hour % 12 === 0 ? 12 : hour % 12;
+  const map = {
+    1: "🕐", 2: "🕑", 3: "🕒", 4: "🕓", 5: "🕔", 6: "🕕",
+    7: "🕖", 8: "🕗", 9: "🕘", 10: "🕙", 11: "🕚", 12: "🕛"
+  };
+  return map[h] || "🕰️";
+}
+
+function flashClock(hour) {
+  const flashEl = document.getElementById("clock-flash");
+  flashEl.textContent = getClockEmoji(hour);
+  flashEl.classList.add("show");
+
+  setTimeout(() => {
+    flashEl.classList.remove("show");
+  }, 10000); // visible for 10s
+}
+
+
+function scheduleHourlyFlash() {
+  const now = new Date();
+  const nextHour = new Date(now);
+  nextHour.setHours(now.getHours() + 1, 0, 0, 0);
+  const delay = nextHour - now;
+
+  setTimeout(() => {
+    triggerFlash();
+    setInterval(triggerFlash, 3600000); // every hour
+  }, delay);
+}
+
+function triggerFlash() {
+  const hour = new Date().getHours();
+  flashClock(hour);
+  console.log(`${getClockEmoji(hour)} DJ Brain: It's ${hour}:00 sharp!`);
+}
+
+// Kick it off
+document.addEventListener("DOMContentLoaded", scheduleHourlyFlash);
+</script>
+
+
+<br>
+<br>
+<br>
+
+
+
+<br>
+<br>
+
+<div>
+
+<br><img id="record">
+<h5 class= "inch"><em> Todays Hotlist</em></h5><br><img id="rec">
+<br>
+<br>
+
+
+<br>
+<br>
+<img id="playlist">
+
+<script>
+const images = [
+  "images/jazzy05.jpg",
+  "images/monikakruse.jpg",
+  "images/jazzy02.jpg",
+  "images/Monika-Kruse-Dj.jpg",
+  "images/jazzy04.jpg",
+  "images/jazzy03.jpg",
+   "images/Dance radio2.png",
+  "images/Ava Max.png",
+  "images/Rihanna.jpg"
+ 
+];
+
+// Days since Jan 1, 1970
+const daysSinceEpoch = Math.floor(Date.now() / (1000 * 60 * 60 * 24));
+
+// Pick image based on day number
+const index = daysSinceEpoch % images.length;
+const imageOfTheDay = images[index];
+
+console.log("Image of the day:", imageOfTheDay);
+
+document.getElementById("playlist").src = imageOfTheDay;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul id="track-list-container">
+
+
+
+
+
+</ul>
+
+
+
+  <button id="show-more-button">show playlist</button>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <br>
+<br>
+<br>
+<br>
+<br>
+
+  <br>
+<br>
+  <br>
+<br>
+<br>
+</div>
+<div>
+<IFRAME id="gas" SRC="https://gasts.netlify.app/gasts" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=345 HEIGHT=825></IFRAME>
+<br>
+</div>
+
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p class="inca">12 inch radio</p>
+ <img class= "dixo"  src="images\mediaplayer.png">
+<br>
+<br>
+<br>
+
+
+<br>
+<br>
+<br>
+
+<div>
+<h5 id="events">
+<script>
+  fetch('event.json')
+  .then(response => response.json())
+  .then(data => {
+    const now = new Date();
+    const todayName = now.toLocaleDateString('en-US', { weekday: 'long' });
+    const events = data.schedule[todayName];
+
+    if (events) {
+      let eventsHTML = '<em><br><u>Upcoming Events</u></em><br><br>' + todayName + ':<br><br>';
+
+      events.forEach(event => {
+        const [start, end] = event.time.split(' - ');
+        const startTime = new Date(now.toDateString() + ' ' + start);
+        const endTime = new Date(now.toDateString() + ' ' + end);
+
+        const isCurrent = now >= startTime && now <= endTime;
+        const glowClass = isCurrent ? 'glow' : '';
+
+        eventsHTML += `<div class="${glowClass}">${event.time}: <br><em>${event.event}</em><br><br></div>`;
+      });
+
+      document.getElementById('events').innerHTML = eventsHTML;
+    } else {
+      document.getElementById('events').innerHTML = '<em>Weekend events only! Come back Saturday.</em>';
+    }
+  })
+  .catch(error => console.error('Error loading events:', error));
+
+</script>
+
+</h5>
+
+<img id= "miss"> 
+</div>
+<br>
+<br>
+<br>
+<br>
+
+
+<br>
+<div>
+<br><img id="stopw">
+
+<h5 id="stop" class="inch">00:00   
+ </h5><br><img id="stopwa">
+</div>
+<br>
+<br>
+
+<br>
+<div>
+<img id= "hero-image">
+<IFRAME  class= "ship" SRC="https://shiphornn.netlify.app/treasuree" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0  WIDTH=356 HEIGHT=250></IFRAME>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<div>
+<h5 class="inch"><em>Sunny Dance<span class="dark"> Radio</span> Stars</em></h5>
+ <br>
+<br>
+<img id="ion">
+
+
+
+<IFRAME id="stars" SRC="https://dancestars.netlify.app/dancestars" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=350 HEIGHT=910></IFRAME>
+
+
+
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div>
+<br><img id="sunnyr">
+<h5 id="time"> </h5><br>
+<br>
+<IFRAME  class= "sandspinner" SRC="https://sandpinner.netlify.app/sandpinner" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0  WIDTH=356 HEIGHT=250></IFRAME>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+
+<div>
+<br>
+<img id="alex"><h5 class="inch"><em>Users Online<span id= "yello">:</span></em></h5>
+
+
+
+
+
+
+
+
+<br>
+
+<IFRAME id="chat" SRC="https://gasts1.netlify.app/sfeer" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=350 HEIGHT=656></IFRAME>
+
+<br>
+
+
+
+
+
+
+ </div>
+
+
+<div>
+<h5 class="inch"><em>Leave A Message!</em></h5>
+<br>
+<IFRAME class="weather" SRC="subm.html" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=300 HEIGHT=876></IFRAME>
+
+</div>
+
+
+
+
+
+<br>
+<br>
+<br>
+
+<br>
+
+
+
+
+
+
+
+<div>
+<h5 class="inch"><em><span id= "play">play </span> Find The Treasure</em></h5>
+<IFRAME id="cata" SRC="https://catac.netlify.app/catac" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=340 HEIGHT=706></IFRAME>
+</div>
+ <br>
+<br>
+<br>
+<br>
+ <br> 
+</div>
+
+
+
+
+<div>
+<h5 class="inch"><em>Countdown Season</em></h5>
+
+
+
+<IFRAME class="weather" SRC="https://countdownseason.netlify.app/countdown" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=345 HEIGHT=556></IFRAME>
+</div>
+
+<br>
+<br>
+<br>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+window.addEventListener("load", function () {
+  const clock = document.getElementById("stop");
+  let time = -1; // seconds elapsed
+
+  function incrementTime() {
+    time++;
+
+    const hours = Math.trunc(time / 3600);
+    const minutes = Math.trunc((time % 3600) / 60);
+    const seconds = time % 60;
+
+    if (hours > 0) {
+      // Show HH:MM:SS once an hour has passed
+      clock.textContent =
+        ("0" + hours).slice(-2) + ":" +
+        ("0" + minutes).slice(-2) + ":" +
+        ("0" + seconds).slice(-2);
+    } else {
+      // Before an hour, just show MM:SS
+      clock.textContent =
+        ("0" + minutes).slice(-2) + ":" +
+        ("0" + seconds).slice(-2);
+    }
+  }
+
+  incrementTime(); // Initialize display
+  setInterval(incrementTime, 1000); // Update every second
+});
+</script>
+
+
+
+
+
+
+
+
+
+<script>
+
+
+function startTime() {
+    const today = new Date();
+    let h = today.getHours();
+    let m = today.getMinutes();
+    let s = today.getSeconds();
+  
+    m = checkTime(m);
+    s = checkTime(s);
+
+    // Update time display
+    document.getElementById("time").innerHTML = "Sunny Time: " + h + ":" + m + ":" + s;
+}
+
+// Function to format numbers below 10
+function checkTime(i) {
+    return i < 10 ? "0" + i : i;
+}
+
+// Start the clock and update every second
+window.setInterval(startTime, 1000);
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("stopw");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/stopwatch.png';
+</script>
+
+
+ <script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("stopwa");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/stopwatch.png';
+</script>
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("medio");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/giphy (2).gif';
+</script>
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("alex");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/alexander.png';
+</script>
+
+
+
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("miss");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny DanceRadio444.png';
+</script>
+
+
+
+
+
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("sunnyr");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny4.png';
+</script>
+
+
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("logo");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny Winter Dance.png';
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<audio id="musicPlayer" autoplay>
+  <source id="musicSource" src="" type="audio/mpeg">
+</audio>
+
+<script>
+window.addEventListener('load', () => {
+  const musicPlayer = document.getElementById("musicPlayer");
+
+  const lowVolume = 0.7;
+  const normalVolume = 0.9;
+
+  const fadeUpDuration = 2000; // example: 2 seconds
+  const interval = 50;         // interval for fade steps
+
+  // Start at normal volume
+  musicPlayer.volume = normalVolume;
+
+  // After 4 seconds, instantly duck
+  setTimeout(() => {
+
+    // Instantly drop to low volume (no fade-out)
+    musicPlayer.volume = lowVolume;
+
+    // Hold low volume for 5 seconds
+    setTimeout(() => {
+
+      // Fade back up
+      let upStep = 0;
+      const upSteps = fadeUpDuration / interval;
+
+      const fadeUp = setInterval(() => {
+        upStep++;
+        let progress = upStep / upSteps;
+        musicPlayer.volume = lowVolume + (normalVolume - lowVolume) * progress;
+
+        if (upStep >= upSteps) {
+          clearInterval(fadeUp);
+          musicPlayer.volume = normalVolume;
+        }
+      }, interval);
+
+    }, 5000);
+
+  }, 4000);
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+<script>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Wait for the DOM to be ready
+document.addEventListener("DOMContentLoaded", () => {
+  const now   = new Date();
+  const day   = now.getDay();    // 0 = Sunday, 6 = Saturday
+  const hour  = now.getHours();  // 0–23
+
+  // Weekday as before
+  const weekdayAudioFiles = {
+    hourlySou:        "audio/its%20now.mp3",
+    quarterHourSou:   "muziek/effects/blast.mp3",
+    twentyFiveMinuteSou: "muziek/voiceover/AI voice - From The Heart Of Amsterdam3.mp3",
+    thirtySevenMinuteSou: "muziek/voiceover/Live%20from%20amsterdam2.mp3",
+    fortyEightMinuteSou: "muziek/effects/Best%20Music.mp3"
+  
+};
+
+  // Saturday splits
+  const saturdayMorningAudioFiles = {
+    hourlySou:        "audio/its%20now.mp3",
+    quarterHourSou:   "muziek/effects/blast.mp3",
+    thirtySevenMinuteSou: "muziek/voiceover/Live%20from%20amsterdam2.mp3",
+    fortyMinuteSou:   "muziek/jingles/more music at the weekend.mp3",
+    fortyFiveMinuteSou: "muziek/discjockeys/DJ%20Saphire%20finale.mp3"
+  
+};
+
+  const saturdayAfternoonAudioFiles = {
+    hourlySou:        "audio/its%20now.mp3",
+    quarterHourSou:   "muziek/effects/blast.mp3",
+    thirtysou:        "muziek/effects/Sunny public.mp3",
+    thirtySevenMinuteSou: "muziek/voiceover/Live%20from%20amsterdam2.mp3",
+    fortyMinuteSou:   "muziek/jingles/more music at the weekend.mp3",
+    fortyFiveMinuteSou: "muziek/discjockeys/DJ%20Saphire%20finale.mp3"
+  };
+
+
+
+// muziek/voiceover/From The Heart Of Amsterdam5.mp3
+  
+
+
+
+
+
+
+
+const saturdayEveningAudioFiles = {
+    hourlySou:        "audio/its%20now.mp3",
+    quarterHourSou:   "muziek/effects/blast.mp3",
+   thirtysou:         "muziek/effects/Sunny public.mp3",
+   thirtySevenMinuteSou: "muziek/voiceover/Live%20from%20amsterdam2.mp3",
+   fortyMinuteSou:   "muziek/jingles/more music at the weekend.mp3",
+   fortyFiveMinuteSou: "muziek/voiceover/From The Heart Of Amsterdam5.mp3"
+  };
+
+  // Sunday splits
+  const sundayMorningAudioFiles = {
+    hourlySou:        "audio/its%20now.mp3",
+    quarterHourSou:   "muziek/effects/blast.mp3",
+    thirtySevenMinuteSou: "muziek/voiceover/Live%20from%20amsterdam2.mp3",
+
+    fortyMinuteSou:   "muziek/jingles/more music at the weekend.mp3",
+    fortyFiveMinuteSou: "muziek/jingles/DJ%20S.mp3"
+  };
+
+  const sundayAfternoonAudioFiles = {
+    hourlySou:        "audio/its%20now.mp3",
+    quarterHourSou:   "muziek/effects/blast.mp3",
+    thirtysou:        "muziek/effects/Sunny public.mp3",
+    thirtySevenMinuteSou: "muziek/voiceover/Live%20from%20amsterdam2.mp3",
+    fortyMinuteSou:   "muziek/jingles/more music at the weekend.mp3",
+    fortyFiveMinuteSou: "muziek/discjockeys/DJ%20Saphire%20finale.mp3"
+  };
+
+  const sundayEveningAudioFiles = {
+    hourlySou:        "audio/its%20now.mp3",
+    quarterHourSou:   "muziek/effects/blast.mp3",
+    thirtysou: "muziek/effects/Sunny public.mp3",
+    thirtySevenMinuteSou: "muziek/voiceover/Live%20from%20amsterdam2.mp3",
+    fortyMinuteSou:   "muziek/jingles/more music at the weekend.mp3",
+    fortyFiveMinuteSou: "muziek/voiceover/From The Heart Of Amsterdam5.mp3"
+  };
+
+  // Select the right map
+  let audioFiles;
+  if (day === 6) {
+    if (hour < 12) {
+      audioFiles = saturdayMorningAudioFiles;
+      console.log("Using Saturday morning sounds.");
+    }
+    else if (hour < 17) {
+      audioFiles = saturdayAfternoonAudioFiles;
+      console.log("Using Saturday afternoon sounds.");
+    }
+    else {
+      audioFiles = saturdayEveningAudioFiles;
+      console.log("Using Saturday evening sounds.");
+    }
+  }
+  else if (day === 0) {
+    if (hour < 12) {
+      audioFiles = sundayMorningAudioFiles;
+      console.log("Using Sunday morning sounds.");
+    }
+    else if (hour < 17) {
+      audioFiles = sundayAfternoonAudioFiles;
+      console.log("Using Sunday afternoon sounds.");
+    }
+    else {
+      audioFiles = sundayEveningAudioFiles;
+      console.log("Using Sunday evening sounds.");
+    }
+  }
+  else {
+    audioFiles = weekdayAudioFiles;
+    console.log("Using weekday sounds.");
+  }
+
+
+
+  // Assign the chosen sources
+  Object.entries(audioFiles).forEach(([id, src]) => {
+    const audioEl = document.getElementById(id);
+    if (audioEl) {
+      audioEl.src = src;
+      console.log(`✅ Set ${id} → ${src}`);
+    } else {
+      console.error(`❌ No element with id="${id}" found.`);
+    }
+  });
+
+  // Attach your normalization logic
+  document.querySelectorAll("audio").forEach(audio => {
+    audio.addEventListener("canplay", () => adjustVolumeDynamically(audio));
+  });
+
+  // Optional: re-evaluate mappings at midnight (and at noon & 6pm for Sunday)
+  scheduleRangeSwap();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+window.addEventListener("load", () => {
+  loadTrack(0);        // Load your first track
+  playTrack();         // Start playing it
+if (curr_track) {
+  curr_track.muted = false;
+}
+
+});
+
+
+
+
+        
+</script>
+
+
+
+
+
+
+<script>
+
+function scheduleRangeSwap() {
+  const now = new Date();
+  const checkpoints = [];
+
+  // Midnight + 10 seconds (next day)
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 10));
+
+  // 3am + 10 seconds
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 3, 0, 10));
+
+  // 4am + 10 seconds
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 4, 0, 10));
+
+  // Noon + 10 seconds
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 0, 10));
+
+  // 2pm + 10 seconds (special show)
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 14, 0, 10));
+
+  // 4pm + 10 seconds (special show)
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 16, 0, 10));
+
+  // 6pm + 10 seconds
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 19, 0, 10));
+
+  // 9pm + 10 seconds
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 21, 0, 10));
+   
+
+// 11pm + 10 seconds
+  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 23, 0, 10));
+  
+
+
+
+checkpoints.forEach(time => {
+    const ms = time - now;
+    if (ms > 0) {
+      setTimeout(() => {
+        console.log(`Checkpoint reached (${time.toLocaleTimeString()}) — reloading audio sources.`);
+        location.reload();
+      }, ms);
+    }
+  });
+}
+
+
+
+
+
+
+
+
+
+ // 🎶 Define the tracks for each day
+    const tracks = {
+        0: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekend%20piratejinglepubliczon.mp3",
+        1: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny weekdaysfinalenopublicmon.mp3",
+        2: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny weekdaysfinalenopublictues.mp3",
+        3: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny weekdaysfinalenopublicwed.mp3",
+        4: "",
+        5: { 
+            early: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny weekdaysfinalenopublicfri.mp3", 
+            after17: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny weekdaysfinalenopublicfri.mp3" 
+        },
+        6: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny%20weekend%20piratejinglepublisat.mp3"
+    };
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 🕰 Get the current day and hour
+    const today = new Date().getDay();
+    const currentHour = new Date().getHours();
+
+    let selectedTrack;
+
+    // Special condition for Friday (5) to switch track after 17:00
+    if (today === 5) {
+        selectedTrack = currentHour >= 17 ? tracks[5].after17 : tracks[5].early;
+    } else {
+        selectedTrack = tracks[today];
+    }
+
+    // 🎧 Set the source and load the track
+    document.getElementById("musicSource").setAttribute('src', selectedTrack);
+    const player = document.getElementById("musicPlayer");
+    player.load(); 
+
+    // ✅ Apply volume normalization when the track is ready to play
+    player.addEventListener("canplay", () => {
+        adjustVolumeDynamically(player);
+    });
+
+   
+
+
+
+
+
+    // ── Render the shuffled list in the DOM ──
+    function renderTrackList() {
+      const ul = document.getElementById("track-list-container");
+      ul.innerHTML = "";
+      scheduledMp3Files.forEach((t, idx) => {
+        const li = document.createElement("li");
+        li.textContent = t.name;
+        li.addEventListener("click", () => loadTrack(idx));
+        ul.appendChild(li);
+      });
+    }
+
+
+
+
+
+
+
+
+
+
+
+        
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("ion");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/sunny stars.png';
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("dwarf");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/red star3.png';
+</script>
+  
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("lin");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny5.png';
+</script>
+ 
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("linger");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny7.png';
+</script>
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("hero-image");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Dua Lipa.png';
+</script>
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("astro");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/red star2.png';
+</script>
+
+
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("record");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/record5.png';
+</script>
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("rec");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/record2.png';
+</script>
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("dion");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/connection.gif';
+</script>
+
+
+
+
+
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("media");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/pause.gif';
+</script>
+
+
+
+<script> 
+document.getElementById("now").innerHTML="<em>CURRENT TRACK</em>"; 
+</script>
+
+
+
+
+
+
+
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", () => {
+    const player = document.getElementById("musicPlayer");
+
+    if (!player) {
+        console.error("Error: `musicPlayer` not found!");
+        return;
+    }
+
+    console.log("Audio element found—loading track...");
+    player.load();
+
+    player.addEventListener("canplaythrough", () => {
+        console.log("Track is fully loaded—applying volume adjustment.");
+        adjustVolumeDynamically(player);
+    });
+});
+
+
+
+</script>
+
+
+    
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+<audio id="hourlySou">
+  <source src="audio/its%20now.mp3" type="audio/mp3">
+</audio>
+
+<audio id="quarterHourSou">
+  <source src="muziek/effects/blast.mp3" type="audio/mp3">
+</audio>
+
+<audio id="twentyFiveMinuteSou">
+  
+</audio>
+
+
+
+
+
+
+<audio id="thirtyFiveMinuteSou">
+ 
+</audio>
+
+
+
+<audio id="thirtySevenMinuteSou">
+  
+</audio>
+
+
+
+<audio id="fortyEightMinuteSou">
+  
+
+</audio>
+<audio id="fortyFiveMinuteSou">
+   
+
+</audio>
+
+<audio id="fortyMinuteSou">
+   
+
+</audio>
+
+
+
+<audio id="thirtysou">
+   
+
+</audio>
+
+
+
+
+<script>
+  // ✅ Apply volume normalization when a track is ready to play
+  document.querySelectorAll("audio").forEach(audio => {
+    audio.addEventListener("canplay", () => adjustVolumeDynamically(audio));
+  });
+
+</script>
+<script>
+function playSound(soundIds) {
+  soundIds.forEach(id => {
+    const soundEl = document.getElementById(id);
+    if (soundEl) {
+      soundEl.currentTime = 0;
+      soundEl.volume = 0.55;
+      soundEl.play().catch(err => console.error("Playback failed:", err));
+    }
+  });
+}
+
+function scheduleSounds() {
+  console.log("Scheduling sounds...");
+  const now = new Date();
+  const ms = 60 * 1000;
+
+  // Hourly
+  const hourlyDelay =
+    ((60 - now.getMinutes()) % 60) * ms - now.getSeconds() * 1000;
+  setTimeout(() => {
+    playSound(["hourlySou"]);
+    setInterval(() => playSound(["hourlySou"]), 3600000);
+  }, Math.max(0, hourlyDelay));
+
+  // Every 15 minutes
+  const quarterDelay =
+    ((15 - (now.getMinutes() % 15)) % 15) * ms - now.getSeconds() * 1000;
+  setTimeout(() => {
+    playSound(["quarterHourSou"]);
+    setInterval(() => playSound(["quarterHourSou"]), 900000);
+  }, Math.max(0, quarterDelay));
+
+  // Every 28 minutes
+  const twentyEightDelay =
+    ((28 - (now.getMinutes() % 28)) % 28) * ms - now.getSeconds() * 1000;
+  setTimeout(() => {
+    playSound(["twentyFiveMinuteSou"]);
+    setInterval(() => playSound(["twentyFiveMinuteSou"]), 1680000);
+  }, Math.max(0, twentyEightDelay));
+
+  // Every 35 minutes
+  const thirtyFiveMinuteDelay =
+    ((35 - (now.getMinutes() % 35)) % 35) * ms - now.getSeconds() * 1000;
+  setTimeout(() => {
+    playSound(["thirtyFiveMinuteSou"]);
+    setInterval(() => playSound(["thirtyFiveMinuteSou"]), 2100000);
+  }, Math.max(0, thirtyFiveMinuteDelay));
+
+  // Every 37 minutes
+  const thirtySevenDelay =
+    ((37 - (now.getMinutes() % 37)) % 37) * ms - now.getSeconds() * 1000;
+  setTimeout(() => {
+    playSound(["thirtySevenMinuteSou"]);
+    setInterval(() => playSound(["thirtySevenMinuteSou"]), 2220000);
+  }, Math.max(0, thirtySevenDelay));
+
+  // Every 48 minutes
+  const fortyEightDelay =
+    ((48 - (now.getMinutes() % 48)) % 48) * ms - now.getSeconds() * 1000;
+  setTimeout(() => {
+    playSound(["fortyEightMinuteSou"]);
+    setInterval(() => playSound(["fortyEightMinuteSou"]), 2880000);
+  }, Math.max(0, fortyEightDelay));
+
+  // Every 55 minutes
+  const fiftyFiveDelay =
+    ((55 - (now.getMinutes() % 55)) % 55) * ms - now.getSeconds() * 1000;
+  setTimeout(() => {
+    playSound(["fortyFiveMinuteSou"]);
+    setInterval(() => playSound(["fortyFiveMinuteSou"]), 3300000);
+  }, Math.max(0, fiftyFiveDelay));
+
+  // Every 31 minutes
+  const thirtyDelay =
+    ((31 - (now.getMinutes() % 31)) % 31) * ms - now.getSeconds() * 1000;
+  setTimeout(() => {
+    playSound(["thirtysou"]);
+    setInterval(() => playSound(["thirtysou"]), 1860000);
+  }, Math.max(0, thirtyDelay));
+
+
+  // Every 40 minutes
+  const fortyDelay =
+    ((40 - (now.getMinutes() % 40)) % 40) * ms - now.getSeconds() * 1000;
+  setTimeout(() => {
+    playSound(["fortyMinuteSou"]);
+    setInterval(() => playSound(["fortyMinuteSou"]), 2400000);
+  }, Math.max(0, fortyDelay));
+
+
+} // ← NOW the function closes correctly
+
+
+
+
+
+
+
+
+
+window.onload = scheduleSounds;
+</script>
+
+
+
+
+
+
+
+
+<audio id="hourlyAnnouncement"></audio>
+
+<script>
+  // 🎧 Define the sources for hourly announcements
+  const sources = [
+    "audio/0.mp3", "audio/1.mp3", "audio/2.mp3", "audio/3.mp3",
+    "audio/4.mp3", "audio/5.mp3", "audio/6.mp3", "audio/7.mp3",
+    "audio/8.mp3", "audio/9.mp3", "audio/10.mp3", "audio/11.mp3",
+    "audio/12.mp3", "audio/13.mp3", "audio/14.mp3", "audio/15.mp3",
+    "audio/16.mp3", "audio/17.mp3", "audio/18.mp3", "audio/19.mp3",
+    "audio/20.mp3", "audio/21.mp3", "audio/22.mp3", "audio/23.mp3"
+  ];
+
+  let currentIndex = new Date().getHours(); // Set index based on current hour
+
+  function playHourlyAnnouncement() {
+    const audioElement = document.getElementById('hourlyAnnouncement');
+    if (!audioElement) {
+      console.error("Audio element not found!");
+      return;
+    }
+
+    // ⏳ Calculate time until next hour
+    const now = new Date();
+    const minutes = now.getMinutes();
+    const seconds = now.getSeconds();
+    const millisecondsToNextHour = ((59 - minutes) * 60 + (60 - seconds)) * 1000;
+
+setTimeout(() => {
+  // 1) Play the hourly beep first
+  playSound(["hourlySou"]);
+
+  // 2) Then wait 1 second and play the announcement
+  setTimeout(() => {
+    playAnnouncement(audioElement, currentIndex);
+  }, 1000);
+
+  // 3) Schedule future hours
+  setInterval(() => {
+    currentIndex = (currentIndex + 1) % sources.length;
+
+    playSound(["hourlySou"]);
+
+    setTimeout(() => {
+      playAnnouncement(audioElement, currentIndex);
+    }, 1000);
+
+  }, 3600000);
+
+}, millisecondsToNextHour);
+}
+
+  function playAnnouncement(audioElement, index) {
+    const source = sources[index];
+    audioElement.src = source;
+    audioElement.load();
+
+    // 🔊 Boost volume to max
+    audioElement.volume = 1.0;
+
+    // ✅ Optional: log for debugging
+    console.log(`📢 Playing hourly announcement for hour ${index}: ${source}`);
+
+    audioElement.play().catch(err => {
+      console.warn("Playback failed:", err);
+    });
+  }
+
+  // 🕒 Activate hourly announcements
+  playHourlyAnnouncement();
+</script>
+
+
+
+
+
+<script>
+window.addEventListener("load", () => {
+  // Play after 60 minutes of listening
+ setInterval(() => {
+  playSound(["sixtyMinuteSou"]);
+}, 60 * 60 * 1000);
+
+});
+</script>
+
+
+
+
+<audio id="sixtyMinuteSou">
+  <source src="muziek/jingles/another hour of music.mp3" type="audio/mp3">
+</audio>
+
+
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+</script>
+<script>
+function generateSchedule() {
+    const today = new Date();
+    const schedule = {};
+    const weekendDays = [5, 6, 0]; // Friday (5), Saturday (6), Sunday (0)
+    
+    const events = {
+        5: [ // Friday
+            { time: "03:00 - 12:00", event: "Morning Disco" },
+            { time: "12:00 - 17:00", event: "Afternoon Vibes" },
+            { time: "17:00 - 21:00", event: "Let It Happen!" },
+            { time: "21:00 - 23:00", event: "Sunny's Happening" }
+        ],
+        6: [ // Saturday
+            { time: "03:00 - 12:00", event: "Morning Disco" },
+            { time: "12:00 - 17:00", event: "DJ Sapphire Live Set" },
+            { time: "17:00 - 21:00", event: "Love Sapphire!" },
+            { time: "21:00 - 23:00", event: "Sapphire's Shot" }
+
+        ],
+        0: [ // Sunday
+            { time: "03:00 - 12:00", event: "Morning Disco" },
+            { time: "12:00 - 17:00", event: "DJ'S Disco Event" },
+            { time: "17:00 - 21:00", event: "It's 'S" },
+            { time: "21:00 - 23:00", event: "Let's Say 'S!" }
+
+        ]
+    };
+
+    for (let i = 1; i <= 7; i++) {
+        let date = new Date();
+        date.setDate(today.getDate() + i);
+        let dayOfWeek = date.getDay();
+
+        if (weekendDays.includes(dayOfWeek)) {
+            schedule[date.toISOString().split("T")[0]] = events[dayOfWeek];
+        }
+    }
+
+    return schedule;
+}
+
+// console.log("Generated Schedule:", JSON.stringify(generateSchedule(), null, 2));
+// console.log("Loading track:", scheduledMp3Files[track_index].name, "-", scheduledMp3Files[track_index].artist);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+<audio id="djIntro" preload="auto"></audio>
+<audio id="musicplayer" preload="auto" loop></audio>
+<audio id="djPlayer" preload="auto" loop></audio>
+
+
+
+
+
+
+
+
+
+<script>
+// ——— Shuffle helper ———
+function shuffle(array) {
+  if (array.length <= 1) return array;
+  let m = array.length, t, i;
+  while (m) {
+    i = Math.floor(Math.random() * m--);
+    t = array[m];
+    array[m] = array[i];
+    array[i] = t;
+  }
+  return array;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ————————————————————————————————
+//  TIME CATEGORY + RANGE HELPERS
+// ————————————————————————————————
+
+function isInRange(hour, start, end) {
+  // Handles normal and overnight ranges
+  return start < end
+    ? hour >= start && hour < end
+    : hour >= start || hour < end;
+}
+
+function getCurrentTimeCategory() {
+  const now = new Date();
+  const hour = now.getHours();
+  const day = now.getDay();
+
+  const timeRanges = [
+    { key: "morning",        start: 4,  end: 12 },
+    { key: "afternoon",      start: 12, end: 14 },
+    { key: "special-show",   start: 14, end: 16 },
+    { key: "evening",        start: 16, end: 19 },
+    { key: "evening-late",   start: 19, end: 21 },
+    { key: "late",           start: 21, end: 3  },
+    { key: "night",          start: 3,  end: 4  }
+  ];
+
+  const categoriesPerDay = {
+    0: { morning:["f afternoon"], afternoon:["f evening"], "special-show":["seventies"], evening:["f afternoon"], "evening-late":["nineties"], late:["f afternoon"], night:["jingle-time"] },
+    1: { morning:["morning"], afternoon:["afternoon"], "special-show":["nineties"], evening:["evening"], "evening-late":["afternoon"], late:["evening-late"], night:["jingle-time"] },
+    2: { morning:["evening-late"], afternoon:["evening"], "special-show":["evening-late"], evening:["afternoon"], "evening-late":["morning"], late:["nineties"], night:["jingle-time"] },
+    3: { morning:["evening-late"], afternoon:["evening"], "special-show":["afternoon"], evening:["evening-late"], "evening-late":["eighties"], late:["morning"], night:["jingle-time"] },
+    4: { morning:["morning"], afternoon:["evening-late"], "special-show":["eighties"], evening:["afternoon"], "evening-late":["soulshow"], late:["f afternoon"], night:["jingle-time"] },
+    5: { morning:["morning"], afternoon:["afternoon"], "special-show":["frankiebones"], evening:["evening-late"], "evening-late":["nineties"], late:["f afternoon"], night:["jingle-time"] },
+    6: { morning:["f evening"], afternoon:["afternoon"], "special-show":["ministry"], evening:["f evening-late"], "evening-late":["f afternoon"], late:["f evening"], night:["jingle-time"] }
+  };
+
+  let key = "night";
+  for (const range of timeRanges) {
+    if (isInRange(hour, range.start, range.end)) {
+      key = range.key;
+      break;
+    }
+  }
+
+  const options = categoriesPerDay[day][key] || ["unknown"];
+  return options[Math.floor(Math.random() * options.length)];
+}
+
+
+// ————————————————————————————————
+//  FADE-IN
+// ————————————————————————————————
+
+function fadeIn(audioEl, target = 0.8, step = 0.02, interval = 250) {
+  const fade = setInterval(() => {
+    if (audioEl.volume < target) {
+      audioEl.volume = Math.min(audioEl.volume + step, target);
+    } else {
+      clearInterval(fade);
+    }
+  }, interval);
+}
+
+
+const weeklySchedule = {
+  monday: [
+    { start: 3,  end: 12, file: "" },
+    { start: 12, end: 14, file: "" },
+    { start: 14, end: 16, file: "https://danceoldies10.netlify.app/Strictly%20nineties%20show.mp3" },
+    { start: 16, end: 19, file: "" },
+    { start: 19, end: 21, file: "" },
+    { start: 21, end: 3,  file: "" }
+  ],
+
+  tuesday: [
+    { start: 3,  end: 12, file: "" },
+    { start: 12, end: 14, file: "muziek/discjockeys/starten met Sunny.mp3" },
+    { start: 14, end: 16, file: "muziek/discjockeys/starten met Sunny.mp3" },
+    { start: 16, end: 19, file: "muziek/discjockeys/starten met Sunny.mp3" },
+    { start: 19, end: 21, file: "" },
+    { start: 21, end: 3,  file: "" }
+  ],
+
+  wednesday: [
+    { start: 3,  end: 12, file: "" },
+    { start: 12, end: 14, file: "muziek/discjockeys/starten met Sunny.mp3" },
+    { start: 14, end: 16, file: "https://danceoldies10.netlify.app/DJ%20Sapphire%20-%20Good%20Vibes.mp3" },
+    { start: 16, end: 19, file: "muziek/discjockeys/starten met Sunny.mp3" },
+    { start: 19, end: 21, file: "https://danceoldies10.netlify.app/Strictly%20eighties%20show.mp3" },
+    { start: 21, end: 3,  file: "muziek/discjockeys/starten met Sunny.mp3" }
+  ],
+
+  thursday: [
+    { start: 3,  end: 12, file: "muziek/voiceover/latest%20disco%20hits%20of%20the%20eighties.mp3" },
+    { start: 12, end: 14, file: "muziek/voiceover/Latest Hits Of Dance Area222222.mp3" },
+    { start: 14, end: 16, file: "https://danceoldies10.netlify.app/Strictly eighties sshow.mp3" },
+    { start: 16, end: 19, file: "muziek/voiceover/Latest Hits Of Dance Area222222.mp3" },
+    { start: 19, end: 21, file: "https://sunnydancemusic04.netlify.app/Soulshow intro2.mp3" },
+    { start: 21, end: 3,  file: "muziek/voiceover/Latest Hits Of Dance Area222222.mp3" }
+  ],
+
+  friday: [
+    { start: 3,  end: 12, file: "muziek/voiceover/latest%20disco%20hits%20of%20the%20eighties.mp3" },
+    { start: 12, end: 14, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 14, end: 16, file: "muziek/special show1.mp3" },
+    { start: 16, end: 19, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 19, end: 21, file: "https://danceoldies10.netlify.app/Strictly%20nineties%20show.mp3" },
+    { start: 21, end: 3,  file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" }
+  ],
+  saturday: [
+       { start: 3,  end: 12, file: "muziek/voiceover/latest%20disco%20hits%20of%20the%20eighties.mp3" },
+    { start: 12, end: 14, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 14, end: 16, file: "muziek/special show1.mp3" },
+    { start: 16, end: 19, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 19, end: 21, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 21, end: 3,  file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" }
+  ],
+
+  sunday: [
+     { start: 3,  end: 12, file: "muziek/voiceover/latest%20disco%20hits%20of%20the%20eighties.mp3" },
+    { start: 12, end: 14, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 14, end: 16, file: "muziek/special show1.mp3" },
+    { start: 16, end: 19, file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" },
+    { start: 19, end: 21, file: "https://danceoldies10.netlify.app/Strictly%20nineties%20show.mp3" },
+    { start: 21, end: 3,  file: "muziek/voiceover/Latest%20Hits%20Of%20Dance%20Area22222.mp3" }
+  ],
+};
+
+
+function isInRange(hour, start, end) {
+  if (start < end) {
+    return hour >= start && hour < end;
+  }
+  return hour >= start || hour < end;
+}
+
+window.addEventListener("load", () => {
+  const djIntro = document.getElementById("djIntro");
+  const djPlayer = document.getElementById("djPlayer");
+
+  const now = new Date();
+  const hour = now.getHours();
+  const dayIndex = now.getDay();
+
+  const dayNames = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+  const today = dayNames[dayIndex];
+
+  const schedule = weeklySchedule[today];
+  const currentSlot = schedule.find(slot => isInRange(hour, slot.start, slot.end));
+
+  if (currentSlot) {
+    djIntro.src = currentSlot.file;
+    djIntro.volume = 0.7;
+    djIntro.play().catch(err => console.log("Intro can't autoplay:", err));
+
+    djIntro.addEventListener("ended", () => {
+      djPlayer.volume = 0;
+      djPlayer.play().catch(err => console.log("Main player can't autoplay:", err));
+      fadeIn(djPlayer, 0.85, 0.02, 250);
+    });
+  } else {
+    djPlayer.volume = 0.85;
+    djPlayer.play().catch(err => console.log("Main player can't autoplay:", err));
+  }
+});
+
+
+
+
+// --- Fade helper ---
+function fadeIn(audio, targetVolume, step, interval) {
+  let vol = audio.volume;
+  const fade = setInterval(() => {
+    vol = Math.min(vol + step, targetVolume);
+    audio.volume = vol;
+    if (vol >= targetVolume) clearInterval(fade);
+  }, interval);
+}
+
+// --- Main intro + overlap logic ---
+function playIntroWithOverlap(file) {
+  const djIntro = document.getElementById('djIntro');
+  const djPlayer = document.getElementById('djPlayer');
+
+  djIntro.src = file;
+  djIntro.currentTime = 0;
+  djIntro.volume = 0.9;
+  djPlayer.volume = 0;
+
+  // Delay intro playback by 4 seconds
+  setTimeout(() => {
+    djIntro.play().then(() => {
+      djIntro.addEventListener('timeupdate', function overlapHandler() {
+        if (djIntro.duration && djIntro.currentTime >= djIntro.duration - 3) {
+          djIntro.removeEventListener('timeupdate', overlapHandler);
+
+          // Pick shuffle mode automatically
+          const mode = getShuffleMode();
+          const nextTrack = weightedPick(scheduledMp3Files, mode);
+          console.log("🎶 Mode:", mode, "→", nextTrack.name, "playcount:", nextTrack.playcount);
+
+          nextTrack.playcount++;
+
+          djPlayer.src = nextTrack.url;
+          djPlayer.play()
+            .then(() => fadeIn(djPlayer, 0.9, 0.05, 200))
+            .catch(err => console.warn("Music failed:", err));
+        }
+      });
+    }).catch(err => console.warn("Intro failed:", err));
+  }, 4000);
+}
+</script>
+
+
+
+<script>
+function filterMp3ByTimeCategory(mp3Files, timeCategory) {
+    return mp3Files.filter(mp3 => mp3.timeCategory === timeCategory);
+}
+
+
+
+// ── Midnight Ritual ──
+function scheduleMidnightReset() {
+  const now = new Date();
+  const msUntilMidnight =
+    new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 0) - now;
+
+  setTimeout(() => {
+    console.log("🌅 Dawn reset ceremony at", new Date().toLocaleTimeString());
+    trackList.forEach(t => (t.playCount = 0));
+    console.log("✨ Playlist reborn:", trackList.map(t => t.name));
+
+    // Reschedule for next midnight
+    scheduleMidnightReset();
+  }, msUntilMidnight);
+}
+
+// ── Startup ──
+
+scheduleMidnightReset();
+
+</script>
+
+
+
+
+
+
+<style>
+  .badge {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+    padding: 0.6rem 0.8rem;
+    border-radius: 12px;
+    color: #333333;
+    background-color:  #87CEEB;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.35);
+    font: 600 14px/1.2 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto;
+    width: 270px;
+    z-index: 9999;
+   border: solid 1px #FFD580;
+}
+  .badge-icon { margin-right: 0.4rem; }
+  .badge-label { white-space: nowrap; }
+  .progress {
+    width: 100%;
+    height: 6px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .progress-bar {
+    height: 100%;
+    width: 0%;
+    background: #6ea8ff;
+    transition: width 1s linear;
+  }
+</style>
+
+<!-- Time-block badge with progress bar -->
+<div id="timeBadge" class="badge" aria-live="polite" aria-atomic="true">
+  <span class="badge-icon">🕒</span>
+  <span class="badge-label">Loading…</span>
+  <div class="progress">
+    <div class="progress-bar"></div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+// --- Weekend toggle ---
+const isWeekend = [0, 6].includes(new Date().getDay());
+
+// --- Helpers ---
+function getTimeBounds(range, now) {
+  let start = new Date(now);
+  let end = new Date(now);
+
+  start.setHours(range.start, 0, 0, 0);
+  end.setHours(range.end, 0, 0, 0);
+
+  if (range.start > range.end) {
+    if (now.getHours() >= range.start) {
+      end.setDate(end.getDate() + 1);
+    } else {
+      start.setDate(start.getDate() - 1);
+    }
+  }
+
+  return { start, end };
+}
+
+// --- Metadata ---
+const badgeMeta = {
+  morning:       { icon: "🌅", label: "Sunrise Spin Session" },
+  afternoon:     { icon: "☀️", label: "Daylight Dancefloor" },
+  evening:       { icon: "🌇", label: "Sunset Rhythm Ride" },
+  "evening-late":{ icon: "🌃", label: "Golden Hour Grooves" },
+  night:         { icon: "🌙", label: "Owlhouse Dance Party" },
+  late:          { icon: "🦉", label: "Starlight Sessions" },
+  "special-show":{ icon: "🎛️", label: "Come Feel The Vibes!" },
+  "jingle-time": { icon: "🔔", label: "Owl Hours" },
+  unknown:       { icon: "🕒", label: "On Air" }
+};
+
+const weekendMeta = {
+  morning:       { icon: "🎉", label: "Weekend Morning Grooves" },
+  afternoon:     { icon: "🎶", label: "Weekend Dance Flow" },
+  evening:       { icon: "🌆", label: "Weekend Night Fever" },
+  "evening-late": { icon: "🌆", label: "Venus Flight" },
+  late:          { icon: "🦉", label: "Marss Sessions!" },
+  night:         { icon: "🌙", label: "Late Night Weekend Vibes" },
+  "special-show":{ icon: "🎛️", label: "Live Show!" },
+  unknown:       { icon: "🕒", label: "Airwave Auto‑Pilot" }
+};
+
+// --- Show rules ---
+const showRules = [
+  { match: /eighties/i, key: "special-show" },
+  { match: /nineties/i, key: "special-show" },
+  { match: /seventies/i, key: "special-show" },
+  { match: /special/i, key: "special-show" },
+  { match: /love generator/i, key: "evening" },
+  { match: /frankie bones/i, key: "evening" },
+  { match: /dance area/i, key: "afternoon" },
+  { match: /disco/i, key: "morning" },
+  { match: /mix/i, key: "evening-late" }
+];
+
+function getShowBadgeKey(text) {
+  for (const rule of showRules) {
+    if (rule.match.test(text)) return rule.key;
+  }
+  return "unknown";
+}
+
+// --- Apply badges to weekly program ---
+document.addEventListener("DOMContentLoaded", () => {
+  const weekendDays = ["saturday", "sunday"];
+
+  document.querySelectorAll(".day").forEach(dayBlock => {
+    const dayName = dayBlock.dataset.day;
+    const isWeekend = weekendDays.includes(dayName);
+
+    const meta = isWeekend ? weekendMeta : badgeMeta;
+
+    dayBlock.querySelectorAll("li").forEach(li => {
+      const text = li.textContent.trim();
+      const key = getShowBadgeKey(text);
+      const badge = meta[key] || meta.unknown;
+
+      const span = document.createElement("span");
+      span.className = "badge";
+      span.textContent = `${badge.icon} ${badge.label} — `;
+
+      li.prepend(span);
+    });
+  });
+});
+
+// --- Time badge logic continues here ---
+function getCurrentCategory(now) {
+  if (!Array.isArray(timeRanges)) return "unknown";
+
+  const hour = now.getHours();
+
+  return (
+    timeRanges.find(r =>
+      (r.start <= r.end && hour >= r.start && hour < r.end) ||
+      (r.start > r.end && (hour >= r.start || hour < r.end))
+    )?.key || "unknown"
+  );
+}
+
+function updateTimeBadge(categoryKey, now) {
+  const badge = document.getElementById("timeBadge");
+  if (!badge || !Array.isArray(timeRanges)) return;
+
+  const meta = isWeekend
+    ? (weekendMeta[categoryKey] || weekendMeta.unknown)
+    : (badgeMeta[categoryKey] || badgeMeta.unknown);
+
+  const range =
+    timeRanges.find(r => r.key === categoryKey) ||
+    timeRanges.find(r => r.key === "night");
+
+  const { start, end } = getTimeBounds(range, now);
+
+  const total = Math.max(1, end - start);
+  const elapsed = now - start;
+  const remaining = end - now;
+
+  const hours = Math.floor(remaining / 3600000);
+  const mins = Math.floor((remaining % 3600000) / 60000);
+
+  const iconEl = badge.querySelector(".badge-icon");
+  const labelEl = badge.querySelector(".badge-label");
+  const barEl = badge.querySelector(".progress-bar");
+
+  iconEl.textContent = meta.icon;
+  labelEl.textContent =
+    `${meta.label} · ${hours > 0 ? hours + "h " : ""}${mins}m left`;
+
+  const percent = Math.min(100, (elapsed / total) * 100);
+  barEl.style.width = percent + "%";
+}
+
+function startBadgeLoop() {
+  function tick() {
+    const now = new Date();
+    const category = getCurrentCategory(now);
+    updateTimeBadge(category, now);
+  }
+
+  tick();
+  setInterval(tick, 60000);
+}
+
+document.addEventListener("DOMContentLoaded", startBadgeLoop);
+
+
+
+
+
+
+
+
+
+  const timeRanges = [
+    { key: "morning",        start: 4,  end: 12 },
+    { key: "afternoon",      start: 12, end: 14 },
+    { key: "special-show",   start: 14, end: 16 },
+    { key: "evening",        start: 16, end: 19 },
+    { key: "evening-late",   start: 19, end: 21 },
+    { key: "late",           start: 21, end: 3  },
+    { key: "night",          start: 3,  end: 4  }
+  ];
+
+
+
+function getShuffleMode() {
+  const hour = new Date().getHours();
+
+  // Find the matching timeRange
+  const range = timeRanges.find(r => {
+    if (r.start < r.end) {
+      // Normal range (e.g. 8–12)
+      return hour >= r.start && hour < r.end;
+    } else {
+      // Overnight range (e.g. 23–3)
+      return hour >= r.start || hour < r.end;
+    }
+  });
+
+  const key = range ? range.key : "unknown";
+  const mode = range ? shuffleModes[key] : "balancedBias";
+
+  // 🌟 Debug ritual: log the mapping
+  console.log(
+    `🕒 Hour: ${hour} | ⏳ Range: ${key} | 🎶 Shuffle mode: ${mode}`
+  );
+
+  return mode;
+}
+
+
+</script>
+
+
+
+<script>
+const btn = document.querySelector('.btn');
+const menu = document.querySelector('.menu');
+
+if (btn && menu) {
+  btn.addEventListener('click', () => {
+    btn.classList.toggle('click');
+    menu.classList.toggle('open');
+  });
+}
+
+</script>
+
+<script>
+
+window.addEventListener("load", () => {
+  document.querySelector(".player").classList.add("loaded");
+});
+
+</script>
+
+
+
+
+<script src= "main24.js"> </script>
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
