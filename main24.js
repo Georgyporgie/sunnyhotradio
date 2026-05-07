@@ -11754,7 +11754,15 @@ volumeBoost: 0.30
 
 
 
+{
+    name: " Kiss It Better (2016)",
+    artist: "Rihanna ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Rihanna - Kiss It Better (2016).mp3",
+    year: 2016,
+timeCategory: "afternoon"
 
+},
 
 
 
@@ -13163,7 +13171,14 @@ timeCategory: "afternoon",
 },
 
 
+{
+    name: "  Slow Song",
+    artist: "The Knocks",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/The Knocks - Slow Song.mp3",
+    timeCategory: "afternoon"
 
+},
 
 
 
@@ -16141,7 +16156,15 @@ volumeBoost: 0.10
 
 
 
+{
+    name: " Bring Your Love (new) ",
+    artist: "Madonna",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Madonna - Bring Your Love (new) (2026).mp3",
+    year: 2021,
+timeCategory: "evening"
 
+},
 
 
 
@@ -16451,6 +16474,15 @@ volumeBoost: 0.10
 
 
 
+{
+    name: "   Alright",
+    artist: "Victoria Monet",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Victoria - Monet - Alright.mp3",
+    year: 2024,
+timeCategory: "evening"
+
+},
 
 
 
@@ -19395,6 +19427,17 @@ playcount: 0
 
 
 
+{
+    name: " Fantasy",
+    artist: "Mariah Carey ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mariah Carey - Fantasy.mp3",
+    year: 2021,
+timeCategory: "evening"
+
+},
+
+
 
 
 
@@ -21872,7 +21915,14 @@ timeCategory: "evening-late"
 
 
 
+{
+    name: "  Slow Song",
+    artist: "The Knocks",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/The Knocks - Slow Song.mp3",
+    timeCategory: "evening-late"
 
+},
 
 
 
@@ -22551,7 +22601,6 @@ volumeBoost: 0.25
      quickFade: true,
         playcount: 0
 },
-
 
 
 
@@ -23265,6 +23314,16 @@ quickFade: true
 
 
 
+
+{
+    name: "  Make Me ",
+    artist: "Janet Jackson ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Janet Jackson - Make Me.mp3",
+    year: 2009,
+timeCategory: "evening-late"
+
+},
 
 
 
@@ -26731,7 +26790,15 @@ playcount: 0
 
 
 
+{
+    name: "  Madwoman",
+    artist: "Laufey  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Laufey - Madwoman.mp3",
+    year: 2026,
+    timeCategory: "f afternoon"
 
+},
 
 
 {
@@ -26787,6 +26854,16 @@ volumeBoost: 0.45
 },
 
 
+{
+    name: "  Make Me ",
+    artist: "Janet Jackson ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Janet Jackson - Make Me.mp3",
+    year: 2009,
+timeCategory: "f afternoon"
+
+},
+
 
 
 {
@@ -26834,7 +26911,14 @@ volumeBoost: 0.65,
     playcount: 0
 },
 
-
+{
+    name: "  Slow Song",
+    artist: "The Knocks",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/The Knocks - Slow Song.mp3",
+    timeCategory: "f afternoon",
+year:2022
+},
 
 {
     name: "We Got Our Own Thang",
@@ -28511,7 +28595,15 @@ timeCategory: "f evening"
 
 },
 
+{
+    name: "   Alright",
+    artist: "Victoria Monet",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Victoria - Monet - Alright.mp3",
+    year: 2024,
+timeCategory: "f evening"
 
+},
 
 
 
@@ -28656,6 +28748,18 @@ timeCategory: "f evening"
 
 
 
+
+{
+    name: " Fantasy",
+    artist: "Mariah Carey ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mariah Carey - Fantasy.mp3",
+    year: 2021,
+timeCategory: "f evening"
+
+},
+
+
 {
     name: "Blinding Lights",
     artist: "The Weeknd  ",
@@ -28683,7 +28787,15 @@ timeCategory: "f evening"
 
 
 
+{
+    name: " Bring Your Love (new) ",
+    artist: "Madonna",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Madonna - Bring Your Love (new) (2026).mp3",
+    year: 2021,
+timeCategory: "f evening"
 
+},
 
 
 
@@ -30555,6 +30667,17 @@ timeCategory: "f evening-late"
 
 
 
+{
+    name: "  Slow Song",
+    artist: "The Knocks",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/The Knocks - Slow Song.mp3",
+    timeCategory: "f evening-late",
+year:2022
+},
+
+
+
 
 
 
@@ -31297,7 +31420,15 @@ playcount: 0
 
 
 
+{
+    name: " Kiss It Better (2016)",
+    artist: "Rihanna ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Rihanna - Kiss It Better (2016).mp3",
+    year: 2016,
+timeCategory: "f evening-late"
 
+},
 
 
 
