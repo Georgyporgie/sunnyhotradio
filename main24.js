@@ -27295,7 +27295,7 @@ timeCategory: "f-afternoon"
 },
 
 {
-    name: " Get together",
+    name: " Get Together",
     artist: "Bebe Rexha ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Bebe Rexha - Get together.mp3",
@@ -31990,7 +31990,7 @@ function loadTrack(index) {
   track_artist.textContent = track.artist;
 
   now_playing.innerHTML =
-    `PLAYING <span class="track-number">${index + 1}</span> OF ${scheduledMp3Files.length}`;
+    `PLAYING <span class="track-number">${index + 1}</span> SONG`;
 
   // -----------------------------
   // SEEK TIMER
