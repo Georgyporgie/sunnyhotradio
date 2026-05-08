@@ -12085,7 +12085,13 @@ timeCategory: "afternoon"
 
 
 
-
+{
+     name: " Alarmschijf",
+    artist: "Sunny ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Calvin Harris -  Ocean.mp3",
+ timeCategory: "afternoon"
+},
 
 
 
@@ -18247,7 +18253,13 @@ quickFade: true,
 },
 
 
-
+{
+     name: " Alarmschijf",
+    artist: "Sunny ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Calvin Harris -  Ocean.mp3",
+ timeCategory: "evening"
+},
 
 
 
@@ -18262,7 +18274,13 @@ quickFade: true,
 
 
 
-
+{
+     name: "Ocean",
+    artist: "Calvin Harris ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Calvin Harris -  Ocean1.mp3",
+ timeCategory: "evening"
+},
 
 
 
@@ -27006,8 +27024,8 @@ timeCategory: "f-afternoon"
 
 
 {
-     name: " Ocean (alarmschijf)",
-    artist: "Calvin Harris ",
+     name: " Alarmschijf",
+    artist: "Sunny ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Calvin Harris -  Ocean.mp3",
  timeCategory: "f afternoon"
@@ -29712,13 +29730,12 @@ volumeBoost: 0.40
 },
 
 {
-     name: " Ocean (alarmschijf)",
-    artist: "Calvin Harris ",
+     name: " Alarmschijf",
+    artist: "Sunny ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Calvin Harris -  Ocean.mp3",
  timeCategory: "f evening"
 },
-
 
 
 
@@ -30595,13 +30612,12 @@ timeCategory: "f evening-late"
 
 
 {
-     name: " Ocean (alarmschijf)",
-    artist: "Calvin Harris ",
+     name: " Alarmschijf",
+    artist: "Sunny ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Calvin Harris -  Ocean.mp3",
  timeCategory: "f evening-late"
 },
-
 
 
 {
