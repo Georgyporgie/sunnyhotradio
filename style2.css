@@ -1057,7 +1057,7 @@ width: 355px; height: 370px;
   margin: -30px auto 15px auto;
   display: block;
   border-radius: 5px;
-  border: solid 5px #FFD300;
+  border: solid 3px #FFD300;
   filter: brightness(105%) saturate(105%) contrast(105%) opacity(75%);
   position: relative;
   z-index: -200;
