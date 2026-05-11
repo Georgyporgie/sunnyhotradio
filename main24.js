@@ -6174,7 +6174,7 @@ volumeBoost: 0.20
     name: "Time Problem",
     artist: "Alice D In Wonderland ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies06.netlify.app/Alice D In Wonderland - Time Problem.mp3",
+    path: "https://danceoldies06.netlify.app/Alice D In Wonderland - Time Problem.mp3",
   timeCategory: "nineties",
      quickFade: true,
     volumeBoost: 0.55
@@ -19575,7 +19575,7 @@ playcount: 0
     name: "Time Problem",
     artist: "Alice D In Wonderland ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies06.netlify.app/Alice D In Wonderland - Time Problem.mp3",
+    path: "https://danceoldies06.netlify.app/Alice D In Wonderland - Time Problem.mp3",
   timeCategory: "evening",
      quickFade: true,
     volumeBoost: 0.55
@@ -32289,7 +32289,7 @@ function applyBlinkingEffect() {
   // Step 1: clear all states
   allTracks.forEach(track => {
     track.classList.remove('blinking');
-    const vinyl = track.querySelector('#vinyl-icon');
+    const vinyl = track.querySelector('#-icon');
     if (vinyl) vinyl.remove();
   });
 
