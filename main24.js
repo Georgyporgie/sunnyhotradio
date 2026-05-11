@@ -31990,7 +31990,7 @@ function loadTrack(index) {
   track_artist.textContent = track.artist;
 
   now_playing.innerHTML =
-    `PLAYING <span class="track-number">${index + 1}</span> SONG`;
+    `PLAYING <span class="track-number">${index + 1}th</span> SONG`;
 
   // -----------------------------
   // SEEK TIMER
