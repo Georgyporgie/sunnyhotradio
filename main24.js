@@ -1112,13 +1112,6 @@ volumeBoost: 0.50
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
-    timeCategory: "jingle-time"
-},
 
 
 {
@@ -1166,14 +1159,6 @@ volumeBoost: 0.50
 },
 
 
-{
-     name: " Sunny ",
-    artist: "Jingle Time",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
-    timeCategory: "jingle-time"
-  
-},
 
 
 
