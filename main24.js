@@ -3573,14 +3573,7 @@ quickFade: true,
 
 },
 
-{
-    name: "You re The One For Me (12inch)",
-    artist: "D Train",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/D Train - Youre The One For Me(strictly.mp3",
-        timeCategory: "eighties"
 
-},
 
 
 
@@ -13257,7 +13250,7 @@ timeCategory: "afternoon",
     name: "Girl Get Up ",
     artist: "Doechii",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Doechii - Girl Get Up .mp3",
+    path: "https://jazzmusic05.netlify.app/Doechii - Girl Get Up.mp3",
   timeCategory: "afternoon"
 
 },
