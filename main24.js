@@ -3203,7 +3203,7 @@ volumeBoost: 0.75,
     name: "Tell Me If You Still Care ",
     artist: "Sos Band  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Sos Band -Tell Me If You Still Care.mp3",
+    path: "https://sunnydanceoldies05.netlify.app/SSos Band -Tell Me If You Still Care.mp3",
   playcount: 0,
 timeCategory: "soulshow",
   volumeBoost: 0.20
@@ -21357,6 +21357,46 @@ volumeBoost: 0.25
 
 
 
+{
+    name: " Allright",
+    artist: " Jennifer Lopez",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Jennifer Lopez - Allright.mp3",
+       timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+{
+    name: "   My Oh My (new)",
+    artist: " Kylie Minogue",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Kylie Minogue - My Oh My (new).mp3",
+       timeCategory: "evening-late"
+},
+
+
+
+{
+    name: "   My Love Is Like",
+    artist: " Mya ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Mya - My Love Is Like.mp3",
+       timeCategory: "evening-late"
+},
+
+{
+    name: "   Gettin' Jiggy Wit It",
+    artist: "Will Smith  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Will Smith - Gettin'Jiggy Wit It.mp3",
+       timeCategory: "evening-late"
+},
+
 
 
 {
@@ -27558,6 +27598,70 @@ playcount: 0
 
 
 
+
+{
+    name: "Phases ",
+    artist: " Joel Corry & Abi Flynn",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Joel Corry & Abi Flynn- Phases.mp3",
+       timeCategory: "f afternoon"
+},
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj5.mp3",
+      timeCategory: "f afternoon"
+},
+
+
+
+
+
+
+
+
+{
+    name: " Allright",
+    artist: " Jennifer Lopez",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Jennifer Lopez - Allright.mp3",
+       timeCategory: "f afternoon"
+},
+
+
+
+
+
+
+
+{
+    name: "   My Oh My (new)",
+    artist: " Kylie Minogue",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Kylie Minogue - My Oh My (new).mp3",
+       timeCategory: "f afternoon"
+},
+
+
+
+{
+    name: "   My Love Is Like",
+    artist: " Mya ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Mya - My Love Is Like.mp3",
+       timeCategory: "f afternoon"
+},
+
+{
+    name: "   Gettin' Jiggy Wit It",
+    artist: "Will Smith  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Will Smith - Gettin'Jiggy Wit It.mp3",
+       timeCategory: "f afternoon"
+},
 
 
 
