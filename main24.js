@@ -31893,6 +31893,7 @@ function cleanURL(url) {
   return url.replace(/ /g, "%20");
 }
 
+let playedTracks = [];
 
 
 function loadTrack(index) {
@@ -31945,7 +31946,14 @@ function loadTrack(index) {
     }
   });
 
-  // -----------------------------
+  
+
+
+
+
+
+
+// -----------------------------
   // FADE FUNCTION
   // -----------------------------
   function fadeOut(audio, duration, targetVolume = 0) {
@@ -31973,8 +31981,18 @@ function loadTrack(index) {
   // -----------------------------
   track_name.textContent = track.name;
   track_artist.textContent = track.artist;
+playedTracks.push({
+  name: track.name,
+  artist: track.artist,
+  timestamp: new Date()
+});
 
-  now_playing.innerHTML =
+renderLiveLog(track);
+  
+
+
+
+now_playing.innerHTML =
     `PLAYING <span class="track-number">${index + 1}th</span> SONG`;
 
   // -----------------------------
@@ -32295,7 +32313,7 @@ function applyBlinkingEffect() {
 
 document.getElementById('show-more-button').addEventListener('click', () => {
   currentDisplayLimit += additionalTracksPerClick;
-  displayTrackList();
+
   applyBlinkingEffect();
   reattachCountdown(); // 🔹 new helper
 addDurationsToTrackList(scheduledMp3Files);
@@ -32549,9 +32567,54 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+function renderLiveLog(currentTrack) {
+  const container = document.getElementById("track-list-container");
 
+  const formatBadge = (track) => {
+    if (!track.type) return "";
+    return `<span class="badge badge-${track.type}">${track.type}</span>`;
+  };
 
+  const formatMood = (track) => {
+    if (!track.mood) return "";
+    return `<span class="mood mood-${track.mood}">${track.mood}</span>`;
+  };
 
+  // Build history (all except the last played track)
+  const history = playedTracks.slice(0, -1).reverse();
 
+  container.innerHTML = `
+    <div id="now-playing-log">
+      <strong style="color:red;">Now Playing</strong><br>
 
+      <span style="color:red;">${currentTrack.name}</span>
+      <span style="color:goldenrod;"> by </span>
+      <span style="color:goldenrod;">${currentTrack.artist}</span>
+
+      ${formatBadge(currentTrack)}
+      ${formatMood(currentTrack)}
+    </div>
+
+    <div id="played-before-log" class="${history.length > 0 ? 'expanded' : ''}">
+      ${
+        history.length > 0
+          ? `
+            <strong style="color:red;">Played Before</strong><br>
+            ${history
+              .map(t => `
+                <div class="history-item">
+                  <span style="color:red;">${t.name}</span>
+                  <span style="color:goldenrod;"> by </span>
+                  <span style="color:goldenrod;">${t.artist}</span>
+                  ${formatBadge(t)}
+                  ${formatMood(t)}
+                </div>
+              `)
+              .join("")}
+          `
+          : ""
+      }
+    </div>
+  `;
+}
 
