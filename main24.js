@@ -32081,8 +32081,10 @@ function loadTrack(index) {
 playedTracks.push({
   name: track.name,
   artist: track.artist,
+  path: track.path,          // ✅ add this
   timestamp: new Date()
 });
+
 
 renderLiveLog(track);
   
@@ -32633,11 +32635,6 @@ console.log("Real track list:", realTracks.map(getName));
 
 
 
-
-
-
-
-
 document.addEventListener("DOMContentLoaded", () => {
   const btn = document.getElementById("show-more-button");
   const trackListContainer = document.getElementById("track-list-container");
@@ -32647,21 +32644,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function updateVisibleTracks() {
     const tracks = trackListContainer.querySelectorAll("li");
-    if (!tracks || tracks.length === 0) return; // nothing yet
+    if (!tracks || tracks.length === 0) return;
     tracks.forEach((track, index) => {
       track.style.display = index < visibleCount ? "block" : "none";
     });
   }
 
-  // start hidden
-  trackListContainer.style.display = "none";
+  // ❌ REMOVE THIS:
+  // trackListContainer.style.display = "none";
+
+  // Playlist starts open
+  trackListContainer.style.display = "block";
 
   btn.addEventListener("click", () => {
     visibleCount += groupSize;
-    trackListContainer.style.display = "block";
     updateVisibleTracks();
   });
 });
+
 
 
 function renderLiveLog(currentTrack) {
@@ -32677,20 +32677,30 @@ function renderLiveLog(currentTrack) {
     return `<span class="mood mood-${track.mood}">${track.mood}</span>`;
   };
 
-  // Build history (all except the last played track)
-  const history = playedTracks.slice(0, -1).reverse();
+const history = playedTracks
+  .slice(0, -1)
+  .filter(t => {
+    const p = t.path?.toLowerCase() || "";
+    return !p.includes("jingle") && !p.includes("discjockeys");
+  })
+  .reverse();
+
+
 
   container.innerHTML = `
-    <div id="now-playing-log">
-      <strong style="color:red;">Now Playing</strong><br>
+<div id="now-playing-log">
+  
 
-      <span style="color:red;">${currentTrack.name}</span>
-      <span style="color:goldenrod;"> by </span>
-      <span style="color:goldenrod;">${currentTrack.artist}</span>
+  <strong style="color:red;">On Air</strong><br>
 
-      ${formatBadge(currentTrack)}
-      ${formatMood(currentTrack)}
-    </div>
+  <span style="color:red;">${currentTrack.name}</span>
+  <span style="color:goldenrod;"> by </span>
+  <span style="color:goldenrod;">${currentTrack.artist}</span>
+
+  ${formatBadge(currentTrack)}
+  ${formatMood(currentTrack)}
+</div>
+
 
     <div id="played-before-log" class="${history.length > 0 ? 'expanded' : ''}">
       ${
@@ -32714,4 +32724,5 @@ function renderLiveLog(currentTrack) {
     </div>
   `;
 }
+
 

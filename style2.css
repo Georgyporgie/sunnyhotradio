@@ -1023,7 +1023,7 @@ width: 355px; height: 370px;
 #playlist {
   width: 170px;
   height: 165px;
-  margin: -30px auto 15px auto;
+  margin: -30px auto 0px auto;
   display: block;
   border-radius: 5px;
   border: solid 1px #FF0000;
