@@ -1112,13 +1112,6 @@ volumeBoost: 0.50
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
-    timeCategory: "jingle-time"
-},
 
 
 {
@@ -1166,14 +1159,6 @@ volumeBoost: 0.50
 },
 
 
-{
-     name: " Sunny ",
-    artist: "Jingle Time",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
-    timeCategory: "jingle-time"
-  
-},
 
 
 
@@ -3218,7 +3203,7 @@ volumeBoost: 0.75,
     name: "Tell Me If You Still Care ",
     artist: "Sos Band  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Sos Band -Tell Me If You Still Care.mp3",
+    path: "https://sunnydanceoldies05.netlify.app/SSos Band -Tell Me If You Still Care.mp3",
   playcount: 0,
 timeCategory: "soulshow",
   volumeBoost: 0.20
@@ -3588,14 +3573,7 @@ quickFade: true,
 
 },
 
-{
-    name: "You re The One For Me (12inch)",
-    artist: "D Train",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/D Train - Youre The One For Me(strictly.mp3",
-        timeCategory: "eighties"
 
-},
 
 
 
@@ -6174,7 +6152,7 @@ volumeBoost: 0.20
     name: "Time Problem",
     artist: "Alice D In Wonderland ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies06.netlify.app/Alice D In Wonderland - Time Problem.mp3",
+    path: "https://danceoldies06.netlify.app/Alice D In Wonderland - Time Problem.mp3",
   timeCategory: "nineties",
      quickFade: true,
     volumeBoost: 0.55
@@ -6614,6 +6592,39 @@ playcount: 0
   volumeBoost: 0.05,
   playcount: 0
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+//sunday
+
+
+{
+    name: "Sunday Night",
+    artist: "Holy Molly x Lizot ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Holy Molly x Lizot - Sunday Night.mp3",
+       timeCategory: "sunday",
+quickFade: true
+},
+
+
+
+
+
+
+
+
+
 
 
 
@@ -11754,7 +11765,15 @@ volumeBoost: 0.30
 
 
 
+{
+    name: " Kiss It Better (2016)",
+    artist: "Rihanna ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Rihanna - Kiss It Better (2016).mp3",
+    year: 2016,
+timeCategory: "afternoon"
 
+},
 
 
 
@@ -12077,7 +12096,13 @@ volumeBoost: 0.30
 
 
 
-
+{
+     name: " Alarmschijf",
+    artist: "Sunny ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Calvin Harris -  Ocean.mp3",
+ timeCategory: "afternoon"
+},
 
 
 
@@ -13163,7 +13188,14 @@ timeCategory: "afternoon",
 },
 
 
+{
+    name: "  Slow Song",
+    artist: "The Knocks",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/The Knocks - Slow Song.mp3",
+    timeCategory: "afternoon"
 
+},
 
 
 
@@ -13251,7 +13283,7 @@ timeCategory: "afternoon",
     name: "Girl Get Up ",
     artist: "Doechii",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Doechii - Girl Get Up .mp3",
+    path: "https://jazzmusic05.netlify.app/Doechii - Girl Get Up.mp3",
   timeCategory: "afternoon"
 
 },
@@ -16141,7 +16173,15 @@ volumeBoost: 0.10
 
 
 
+{
+    name: " Bring Your Love (new) ",
+    artist: "Madonna",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Madonna - Bring Your Love (new) (2026).mp3",
+    year: 2021,
+timeCategory: "evening"
 
+},
 
 
 
@@ -16451,6 +16491,15 @@ volumeBoost: 0.10
 
 
 
+{
+    name: "   Alright",
+    artist: "Victoria Monet",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Victoria - Monet - Alright.mp3",
+    year: 2024,
+timeCategory: "evening"
+
+},
 
 
 
@@ -16609,15 +16658,6 @@ volumeBoost: 0.10
 
 
 
-
-{
-    name: "Sunday Night",
-    artist: "Holy Molly x Lizot ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Holy Molly x Lizot - Sunday Night.mp3",
-       timeCategory: "evening",
-quickFade: true
-},
 
 
 {
@@ -18215,7 +18255,13 @@ quickFade: true,
 },
 
 
-
+{
+     name: " Alarmschijf",
+    artist: "Sunny ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Calvin Harris -  Ocean.mp3",
+ timeCategory: "evening"
+},
 
 
 
@@ -18230,7 +18276,13 @@ quickFade: true,
 
 
 
-
+{
+     name: "Ocean",
+    artist: "Calvin Harris ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Calvin Harris -  Ocean1.mp3",
+ timeCategory: "evening"
+},
 
 
 
@@ -19395,6 +19447,17 @@ playcount: 0
 
 
 
+{
+    name: " Fantasy",
+    artist: "Mariah Carey ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mariah Carey - Fantasy.mp3",
+    year: 2021,
+timeCategory: "evening"
+
+},
+
+
 
 
 
@@ -19514,7 +19577,7 @@ playcount: 0
     name: "Time Problem",
     artist: "Alice D In Wonderland ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies06.netlify.app/Alice D In Wonderland - Time Problem.mp3",
+    path: "https://danceoldies06.netlify.app/Alice D In Wonderland - Time Problem.mp3",
   timeCategory: "evening",
      quickFade: true,
     volumeBoost: 0.55
@@ -21318,6 +21381,46 @@ volumeBoost: 0.25
 
 
 
+{
+    name: " Allright",
+    artist: " Jennifer Lopez",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Jennifer Lopez - Allright.mp3",
+       timeCategory: "evening-late"
+},
+
+
+
+
+
+
+
+{
+    name: "   My Oh My (new)",
+    artist: " Kylie Minogue",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Kylie Minogue - My Oh My (new).mp3",
+       timeCategory: "evening-late"
+},
+
+
+
+{
+    name: "   My Love Is Like",
+    artist: " Mya ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Mya - My Love Is Like.mp3",
+       timeCategory: "evening-late"
+},
+
+{
+    name: "   Gettin' Jiggy Wit It",
+    artist: "Will Smith  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Will Smith - Gettin'Jiggy Wit It.mp3",
+       timeCategory: "evening-late"
+},
+
 
 
 {
@@ -21872,7 +21975,14 @@ timeCategory: "evening-late"
 
 
 
+{
+    name: "  Slow Song",
+    artist: "The Knocks",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/The Knocks - Slow Song.mp3",
+    timeCategory: "evening-late"
 
+},
 
 
 
@@ -22551,7 +22661,6 @@ volumeBoost: 0.25
      quickFade: true,
         playcount: 0
 },
-
 
 
 
@@ -23265,6 +23374,16 @@ quickFade: true
 
 
 
+
+{
+    name: "  Make Me ",
+    artist: "Janet Jackson ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Janet Jackson - Make Me.mp3",
+    year: 2009,
+timeCategory: "evening-late"
+
+},
 
 
 
@@ -26731,7 +26850,15 @@ playcount: 0
 
 
 
+{
+    name: "  Madwoman",
+    artist: "Laufey  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Laufey - Madwoman.mp3",
+    year: 2026,
+    timeCategory: "f afternoon"
 
+},
 
 
 {
@@ -26787,6 +26914,16 @@ volumeBoost: 0.45
 },
 
 
+{
+    name: "  Make Me ",
+    artist: "Janet Jackson ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Janet Jackson - Make Me.mp3",
+    year: 2009,
+timeCategory: "f afternoon"
+
+},
+
 
 
 {
@@ -26834,7 +26971,14 @@ volumeBoost: 0.65,
     playcount: 0
 },
 
-
+{
+    name: "  Slow Song",
+    artist: "The Knocks",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/The Knocks - Slow Song.mp3",
+    timeCategory: "f afternoon",
+year:2022
+},
 
 {
     name: "We Got Our Own Thang",
@@ -26922,8 +27066,8 @@ timeCategory: "f-afternoon"
 
 
 {
-     name: " Ocean (alarmschijf)",
-    artist: "Calvin Harris ",
+     name: " Alarmschijf",
+    artist: "Sunny ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Calvin Harris -  Ocean.mp3",
  timeCategory: "f afternoon"
@@ -27193,7 +27337,7 @@ timeCategory: "f-afternoon"
 },
 
 {
-    name: " Get together",
+    name: " Get Together",
     artist: "Bebe Rexha ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Bebe Rexha - Get together.mp3",
@@ -27478,6 +27622,70 @@ playcount: 0
 
 
 
+
+{
+    name: "Phases ",
+    artist: " Joel Corry & Abi Flynn",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Joel Corry & Abi Flynn- Phases.mp3",
+       timeCategory: "f afternoon"
+},
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj5.mp3",
+      timeCategory: "f afternoon"
+},
+
+
+
+
+
+
+
+
+{
+    name: " Allright",
+    artist: " Jennifer Lopez",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Jennifer Lopez - Allright.mp3",
+       timeCategory: "f afternoon"
+},
+
+
+
+
+
+
+
+{
+    name: "   My Oh My (new)",
+    artist: " Kylie Minogue",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Kylie Minogue - My Oh My (new).mp3",
+       timeCategory: "f afternoon"
+},
+
+
+
+{
+    name: "   My Love Is Like",
+    artist: " Mya ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Mya - My Love Is Like.mp3",
+       timeCategory: "f afternoon"
+},
+
+{
+    name: "   Gettin' Jiggy Wit It",
+    artist: "Will Smith  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Will Smith - Gettin'Jiggy Wit It.mp3",
+       timeCategory: "f afternoon"
+},
 
 
 
@@ -27869,14 +28077,7 @@ timeCategory: "f afternoon"
 
 
 
-{
-    name: "Sunday Night",
-    artist: "Holy Molly x Lizot ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Holy Molly x Lizot - Sunday Night.mp3",
-       timeCategory: "f afternoon",
-quickFade: true
-},
+
 
 
 
@@ -28511,7 +28712,15 @@ timeCategory: "f evening"
 
 },
 
+{
+    name: "   Alright",
+    artist: "Victoria Monet",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Victoria - Monet - Alright.mp3",
+    year: 2024,
+timeCategory: "f evening"
 
+},
 
 
 
@@ -28656,6 +28865,18 @@ timeCategory: "f evening"
 
 
 
+
+{
+    name: " Fantasy",
+    artist: "Mariah Carey ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mariah Carey - Fantasy.mp3",
+    year: 2021,
+timeCategory: "f evening"
+
+},
+
+
 {
     name: "Blinding Lights",
     artist: "The Weeknd  ",
@@ -28683,7 +28904,15 @@ timeCategory: "f evening"
 
 
 
+{
+    name: " Bring Your Love (new) ",
+    artist: "Madonna",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Madonna - Bring Your Love (new) (2026).mp3",
+    year: 2021,
+timeCategory: "f evening"
 
+},
 
 
 
@@ -29600,13 +29829,12 @@ volumeBoost: 0.40
 },
 
 {
-     name: " Ocean (alarmschijf)",
-    artist: "Calvin Harris ",
+     name: " Alarmschijf",
+    artist: "Sunny ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Calvin Harris -  Ocean.mp3",
  timeCategory: "f evening"
 },
-
 
 
 
@@ -30483,13 +30711,12 @@ timeCategory: "f evening-late"
 
 
 {
-     name: " Ocean (alarmschijf)",
-    artist: "Calvin Harris ",
+     name: " Alarmschijf",
+    artist: "Sunny ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Calvin Harris -  Ocean.mp3",
  timeCategory: "f evening-late"
 },
-
 
 
 {
@@ -30552,6 +30779,17 @@ timeCategory: "f evening-late"
 
 
 
+
+
+
+{
+    name: "  Slow Song",
+    artist: "The Knocks",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/The Knocks - Slow Song.mp3",
+    timeCategory: "f evening-late",
+year:2022
+},
 
 
 
@@ -31297,7 +31535,15 @@ playcount: 0
 
 
 
+{
+    name: " Kiss It Better (2016)",
+    artist: "Rihanna ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Rihanna - Kiss It Better (2016).mp3",
+    year: 2016,
+timeCategory: "f evening-late"
 
+},
 
 
 
@@ -31761,6 +32007,7 @@ function cleanURL(url) {
   return url.replace(/ /g, "%20");
 }
 
+let playedTracks = [];
 
 
 function loadTrack(index) {
@@ -31813,7 +32060,14 @@ function loadTrack(index) {
     }
   });
 
-  // -----------------------------
+  
+
+
+
+
+
+
+// -----------------------------
   // FADE FUNCTION
   // -----------------------------
   function fadeOut(audio, duration, targetVolume = 0) {
@@ -31841,9 +32095,20 @@ function loadTrack(index) {
   // -----------------------------
   track_name.textContent = track.name;
   track_artist.textContent = track.artist;
+playedTracks.push({
+  name: track.name,
+  artist: track.artist,
+  path: track.path,          // ✅ add this
+  timestamp: new Date()
+});
 
-  now_playing.innerHTML =
-    `PLAYING <span class="track-number">${index + 1}</span> OF ${scheduledMp3Files.length}`;
+
+renderLiveLog(track);
+  
+
+
+
+
 
   // -----------------------------
   // SEEK TIMER
@@ -32142,7 +32407,7 @@ function applyBlinkingEffect() {
   // Step 1: clear all states
   allTracks.forEach(track => {
     track.classList.remove('blinking');
-    const vinyl = track.querySelector('#vinyl-icon');
+    const vinyl = track.querySelector('#-icon');
     if (vinyl) vinyl.remove();
   });
 
@@ -32163,7 +32428,7 @@ function applyBlinkingEffect() {
 
 document.getElementById('show-more-button').addEventListener('click', () => {
   currentDisplayLimit += additionalTracksPerClick;
-  displayTrackList();
+
   applyBlinkingEffect();
   reattachCountdown(); // 🔹 new helper
 addDurationsToTrackList(scheduledMp3Files);
@@ -32386,11 +32651,6 @@ console.log("Real track list:", realTracks.map(getName));
 
 
 
-
-
-
-
-
 document.addEventListener("DOMContentLoaded", () => {
   const btn = document.getElementById("show-more-button");
   const trackListContainer = document.getElementById("track-list-container");
@@ -32400,26 +32660,85 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function updateVisibleTracks() {
     const tracks = trackListContainer.querySelectorAll("li");
-    if (!tracks || tracks.length === 0) return; // nothing yet
+    if (!tracks || tracks.length === 0) return;
     tracks.forEach((track, index) => {
       track.style.display = index < visibleCount ? "block" : "none";
     });
   }
 
-  // start hidden
-  trackListContainer.style.display = "none";
+  // ❌ REMOVE THIS:
+  // trackListContainer.style.display = "none";
+
+  // Playlist starts open
+  trackListContainer.style.display = "block";
 
   btn.addEventListener("click", () => {
     visibleCount += groupSize;
-    trackListContainer.style.display = "block";
     updateVisibleTracks();
   });
 });
 
 
 
+function renderLiveLog(currentTrack) {
+  const container = document.getElementById("track-list-container");
+
+  const formatBadge = (track) => {
+    if (!track.type) return "";
+    return `<span class="badge badge-${track.type}">${track.type}</span>`;
+  };
+
+  const formatMood = (track) => {
+    if (!track.mood) return "";
+    return `<span class="mood mood-${track.mood}">${track.mood}</span>`;
+  };
+
+const history = playedTracks
+  .slice(0, -1)
+  .filter(t => {
+    const p = t.path?.toLowerCase() || "";
+    return !p.includes("jingle") && !p.includes("discjockeys")&& !p.includes("sunny ship");
+  })
+  .reverse();
 
 
 
+  container.innerHTML = `
+<div id="now-playing-log">
+  
+<div id="on-air-banner">ON AIR </div>
+
+
+  <span style="color:goldenrod;">${currentTrack.name}</span>
+  <span style="color:goldenrod;"> by </span>
+  <span style="color:goldenrod;">${currentTrack.artist}</span>
+
+  ${formatBadge(currentTrack)}
+  ${formatMood(currentTrack)}
+</div>
+
+
+    <div id="played-before-log" class="${history.length > 0 ? 'expanded' : ''}">
+      ${
+        history.length > 0
+          ? `
+            <strong style="color:red;">Played Before</strong><br>
+            ${history
+              .map(t => `
+                <div class="history-item">
+                  <span style="color:red;">${t.name}</span>
+                  <span style="color:goldenrod;"> by </span>
+                  <span style="color:goldenrod;">${t.artist}</span>
+                  ${formatBadge(t)}
+                  ${formatMood(t)}
+                </div>
+              `)
+              .join("")}
+          `
+          : ""
+      }
+    </div>
+  `;
+}
 
 
