@@ -598,9 +598,7 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
 
 
 #track-list-container,
-#track-list-container * {
-  color: goldenrod !important;
-}
+
 
 /* NOW PLAYING */
 #now-playing-log {
