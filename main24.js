@@ -6598,6 +6598,39 @@ playcount: 0
 
 
 
+
+
+
+
+
+
+
+//sunday
+
+
+{
+    name: "Sunday Night",
+    artist: "Holy Molly x Lizot ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Holy Molly x Lizot - Sunday Night.mp3",
+       timeCategory: "sunday",
+quickFade: true
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //morning
 
 
@@ -16625,15 +16658,6 @@ timeCategory: "evening"
 
 
 
-
-{
-    name: "Sunday Night",
-    artist: "Holy Molly x Lizot ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Holy Molly x Lizot - Sunday Night.mp3",
-       timeCategory: "evening",
-quickFade: true
-},
 
 
 {
@@ -28053,14 +28077,7 @@ timeCategory: "f afternoon"
 
 
 
-{
-    name: "Sunday Night",
-    artist: "Holy Molly x Lizot ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Holy Molly x Lizot - Sunday Night.mp3",
-       timeCategory: "f afternoon",
-quickFade: true
-},
+
 
 
 
@@ -32091,8 +32108,7 @@ renderLiveLog(track);
 
 
 
-now_playing.innerHTML =
-    `PLAYING <span class="track-number">${index + 1}th</span> SONG`;
+
 
   // -----------------------------
   // SEEK TIMER
@@ -32690,10 +32706,10 @@ const history = playedTracks
   container.innerHTML = `
 <div id="now-playing-log">
   
+<div id="on-air-banner">ON AIR </div>
 
-  <strong style="color:red;">On Air</strong><br>
 
-  <span style="color:red;">${currentTrack.name}</span>
+  <span style="color:goldenrod;">${currentTrack.name}</span>
   <span style="color:goldenrod;"> by </span>
   <span style="color:goldenrod;">${currentTrack.artist}</span>
 
