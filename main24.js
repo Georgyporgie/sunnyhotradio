@@ -50,7 +50,7 @@ let audioPlayer = document.createElement('audio');
 
 
 window.addEventListener("DOMContentLoaded", () => {
-  loadPlayCounts(trackList);   // sync saved playcounts
+ 
   renderProgram(trackList);    // build playlist UI
 });
 
@@ -31729,25 +31729,6 @@ console.log("✨ Shuffled playlist:", trackList.map(t => t.name));
 
 
 
-function sortAndShuffle(tracks) {
-  // Sort by playcount first
-  tracks.sort((a, b) => a.playcount - b.playcount);
-
-  // Shuffle tracks with equal playcount
-  let i = 0;
-  while (i < tracks.length) {
-    let j = i;
-    while (j < tracks.length && tracks[j].playcount === tracks[i].playcount) j++;
-    const group = tracks.slice(i, j);
-    const shuffledGroup = shuffle(group);
-    for (let k = 0; k < shuffledGroup.length; k++) {
-      tracks[i + k] = shuffledGroup[k];
-    }
-    i = j;
-  }
-  return tracks;
-}
-
 
 
 
@@ -31879,7 +31860,7 @@ function filterMp3ByTimeCategory(mp3Files, timeCategory) {
 // Filter tracks based on the current category
 const scheduledMp3Files = filterMp3ByTimeCategory(trackList, currentTimeCategory);
 
-initializePlayCounts(scheduledMp3Files);
+
 
 
 // Shuffle the selected tracks
@@ -31887,8 +31868,7 @@ const shuffledTracks = shuffle(scheduledMp3Files);
 
 // Load and play the first track from the shuffled list
 
-// Sort by playcount: least-played first
-scheduledMp3Files.sort((a, b) => a.playcount - b.playcount);
+
 
 
 
@@ -31920,8 +31900,6 @@ function formatTime(seconds) {
 
 
 
-console.table(scheduledMp3Files);
-// Check that every row shows a numeric playcount column.
 
 
 
@@ -31929,24 +31907,7 @@ console.table(scheduledMp3Files);
 
 
 
-   // ── Sum all playcounts ──
-    function computeTotalPlays() {
-      return scheduledMp3Files.reduce((sum, t) => sum + (typeof t.playcount === "number" ? t.playcount : 0), 0);
-    }
 
-function computeTotalPlays() {
-  return scheduledMp3Files.reduce((sum, t) => sum + (Number(t.playcount) || 0), 0);
-}
-
-
-
-
-// --- 1) Helpers ---
-function initializePlayCounts(tracks) {
-  tracks.forEach(t => {
-    if (typeof t.playcount !== "number") t.playcount = 0;
-  });
-}
 
 
 
@@ -32202,13 +32163,7 @@ function resetValues() {
 
 
 
-// 🔹 Load playcounts from LocalStorage on startup
-function loadPlayCounts(files) {
-  files.forEach(track => {
-    const savedCount = localStorage.getItem(track.name + "_playcount");
-    track.playcount = savedCount ? parseInt(savedCount, 10) : 0;
-  });
-}
+
 
 
 
@@ -32222,13 +32177,6 @@ function formatTrackLabel(track) {
   return "Unknown track";
 }
 
-function incrementPlayCount(trackObj) {
-  trackObj.playcount = getPlayCount(trackObj.path);
-  trackObj.playcount++;
-  localStorage.setItem(trackObj.path + "_playcount", trackObj.playcount);
-
-  console.log(`Playcount for ${trackObj.name || trackObj.path}: ${trackObj.playcount}`);
-}
 
 
 
@@ -32236,21 +32184,7 @@ function incrementPlayCount(trackObj) {
 
 
 
-// 🔹 Handle track start (UI update + tally)
-function onTrackStart(track) {
-  incrementPlayCount(track); // bump once here
 
-  const items = document.querySelectorAll("#track-list-container li");
-
-  items.forEach(li => {
-    if (li.textContent.includes(track.name)) {
-      const span = li.querySelector(".playcount");
-      if (span) {
-        span.textContent = `(Playcount: ${track.playcount})`;
-      }
-    }
-  });
-}
 
 // 🔹 Play a track
 function playTrack() {
@@ -32264,40 +32198,21 @@ function playTrack() {
 
   // … your existing UI logic …
 
- // 🔹 Playcount integration
+
   onTrackStart(curr_track);        // updates UI for the actual track
-  incrementPlayCount(curr_track); 
+
 reattachCountdown();
 }
 
 
 
-function getPlayCount(trackPath) {
-  const savedCount = localStorage.getItem(trackPath + "_playcount");
-  return savedCount ? parseInt(savedCount, 10) : 0;
-}
 
 
-// 2. Render playlist
-function renderProgram(trackList) {
-  const programList = document.getElementById("track-list-container");
-  programList.innerHTML = "";
-
-  trackList.forEach((track, index) => {
-    track.playcount = getPlayCount(track.name); // ✅ now defined
-
-    const li = document.createElement("li");
-    li.innerHTML = `
-      <strong>${track.name}</strong> by ${track.artist}
-      <span class="playcount">(Playcount: ${track.playcount})</span>
-    `;
-    programList.appendChild(li);
-  });
-}
 
 
-// 🔹 Startup
-loadPlayCounts(trackList);
+
+
+
 
 
 
@@ -32666,8 +32581,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // ❌ REMOVE THIS:
-  // trackListContainer.style.display = "none";
+
 
   // Playlist starts open
   trackListContainer.style.display = "block";
@@ -32697,7 +32611,7 @@ const history = playedTracks
   .slice(0, -1)
   .filter(t => {
     const p = t.path?.toLowerCase() || "";
-    return !p.includes("jingle") && !p.includes("discjockeys");
+    return !p.includes("jingle") && !p.includes("discjockeys")&& !p.includes("sunny ship");
   })
   .reverse();
 
