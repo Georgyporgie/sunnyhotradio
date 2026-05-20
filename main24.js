@@ -32485,6 +32485,8 @@ const history = playedTracks
 
   ${formatBadge(currentTrack)}
   ${formatMood(currentTrack)}
+  <br><br>
+<span id="vinyl-icon"></span>
 </div>
 
 
@@ -32511,4 +32513,14 @@ const history = playedTracks
   `;
 }
 
+function updateNowPlaying(track) {
+  const nowPlaying = document.getElementById("now-playing");
+
+  const isMusic = track.type === "music";
+
+  nowPlaying.innerHTML = `
+    <span class="np-title">${track.title}</span>
+    ${isMusic ? `<span id="vinyl-icon"></span>` : ""}
+  `;
+}
 

@@ -566,7 +566,7 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
 
 
 #gas  {  
- display: block; margin: auto; z-index: 200;  border: solid 5px #555555 ;
+ display: block; margin: auto; z-index: 300;  border: solid 5px #555555 ;
 }
 
 #uitzinnig  {  display: block; margin: auto;  height: 400px;
@@ -664,6 +664,7 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
 .vinyl-icon {
   color: #00FFFF;
   text-shadow: 0 0 8px #00FFFF, 0 0 12px #0033FF;
+z-index:100;
 }
 
 
@@ -1485,6 +1486,11 @@ li.new-track {
 
 @keyframes spin1 { from { rotate: 0deg; } to { rotate: 360deg; } }
 @keyframes spin2 { from { rotate: 0deg; } to { rotate: -360deg; } }
+
+
+
+
+
 
 
 .track-number {
