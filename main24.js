@@ -13750,17 +13750,7 @@ playcount: 0
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
-  playcount: 0,
-volumeBoost: 0.55,
-  eq: { bass: 1, mid: 1, treble: +1 } ,
-timeCategory: "afternoon"
 
-},
 
 
 
@@ -19973,17 +19963,7 @@ volumeBoost: 0.20
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
-  playcount: 0,
-volumeBoost: 0.55,
-  eq: { bass: 1, mid: 1, treble: +1 } ,
-timeCategory: "evening"
 
-},
 
 
 
@@ -20878,17 +20858,7 @@ volumeBoost: 0.15
 },
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
-  playcount: 0,
-volumeBoost: 0.55,
-  eq: { bass: 1, mid: 1, treble: +1 } ,
-timeCategory: "evening"
 
-},
 
 
   
@@ -26711,16 +26681,7 @@ timeCategory: "evening-late"
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
-  playcount: 0,
-volumeBoost: 0.55,
-timeCategory: "evening-late"
 
-},
 
 
 
@@ -27011,17 +26972,7 @@ year:2022
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
-  playcount: 0,
-volumeBoost: 0.55,
-  eq: { bass: 1, mid: 1, treble: +1 } ,
-timeCategory: "f-afternoon"
 
-},
 
 
 
@@ -27260,17 +27211,6 @@ quickFade: true
 },
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
-  playcount: 0,
-volumeBoost: 0.55,
-  eq: { bass: 1, mid: 1, treble: +1 } ,
-timeCategory: "f-afternoon"
-
-},
 
 
 
@@ -27293,17 +27233,6 @@ timeCategory: "f-afternoon"
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
-  playcount: 0,
-volumeBoost: 0.55,
-  eq: { bass: 1, mid: 1, treble: +1 } ,
-timeCategory: "f-afternoon"
-
-},
 
 
 {
@@ -28489,17 +28418,7 @@ volumeBoost: 0.40
 },
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
-  playcount: 0,
-volumeBoost: 0.55,
-  eq: { bass: 1, mid: 1, treble: +1 } ,
-timeCategory: "f evening"
 
-},
 
 
 {
@@ -28640,17 +28559,6 @@ timeCategory: "f evening"
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
-  playcount: 0,
-volumeBoost: 0.55,
-  eq: { bass: 1, mid: 1, treble: +1 } ,
-timeCategory: "f evening"
-
-},
 
 
 
@@ -28725,17 +28633,6 @@ timeCategory: "f evening"
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
-  playcount: 0,
-volumeBoost: 0.55,
-  eq: { bass: 1, mid: 1, treble: +1 } ,
-timeCategory: "f evening"
-
-},
 
 
 
@@ -30719,17 +30616,7 @@ timeCategory: "f evening-late"
 },
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
-  playcount: 0,
-volumeBoost: 0.55,
-  eq: { bass: 1, mid: 1, treble: +1 } ,
-timeCategory: "f evening-late"
 
-},
 {
      name: "Nirvana",
     artist: "Katy Perry ",
@@ -30998,17 +30885,7 @@ year:2022
   playcount: 0
 },
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
-  playcount: 0,
-volumeBoost: 0.55,
-  eq: { bass: 1, mid: 1, treble: +1 } ,
-timeCategory: "f evening-late"
 
-},
 
 
 
@@ -31044,17 +30921,6 @@ volumeBoost: 0.40
 },
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
-  playcount: 0,
-volumeBoost: 0.55,
-  eq: { bass: 1, mid: 1, treble: +1 } ,
-timeCategory: "f evening-late"
-
-},
 
 
 
@@ -31117,17 +30983,7 @@ timeCategory: "f evening-late"
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Shannon - (Jingle) Let The Music Play.mp3",
-  playcount: 0,
-volumeBoost: 0.55,
-  eq: { bass: 1, mid: 1, treble: +1 } ,
-timeCategory: "f evening-late"
 
-},
 
 
 
