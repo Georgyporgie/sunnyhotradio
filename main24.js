@@ -32484,10 +32484,10 @@ const history = playedTracks
 
   ${formatBadge(currentTrack)}
   ${formatMood(currentTrack)}
-  <br><br>
+  <br>
 <span id="vinyl-icon"></span>
 </div>
-
+<br> <br>
 
     <div id="played-before-log" class="${history.length > 0 ? 'expanded' : ''}">
       ${
