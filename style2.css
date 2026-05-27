@@ -590,14 +590,13 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
   position: relative;
   overflow: hidden;
   
-  padding: 20px;
+  
   box-sizing: border-box;
   text-align: center;
 }
 
 
 
-#track-list-container,
 
 
 /* NOW PLAYING */
