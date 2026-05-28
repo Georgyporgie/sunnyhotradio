@@ -31840,24 +31840,7 @@ function loadTrack(index) {
   // Create audio element
   const audio = new Audio(cleanURL(track.path));
   curr_track = audio;
-  
-
-// UNLOCK AUDIO ON FIRST USER INTERACTION
-if (!window._unlockAttached) {
-    window._unlockAttached = true;
-
-    function unlock() {
-        audio.play().catch(() => {});
-        window.removeEventListener("click", unlock);
-        window.removeEventListener("touchstart", unlock);
-    }
-
-    window.addEventListener("click", unlock, { once: true });
-    window.addEventListener("touchstart", unlock, { once: true });
-}
-
-
-currentTrackIndex = index;
+  currentTrackIndex = index;
 
   // -----------------------------
   // METADATA + FADE SCHEDULING
@@ -31999,31 +31982,6 @@ renderLiveLog(track);
 
 
 
-// GLOBAL AUDIO UNLOCKER
-(function setupAudioUnlock() {
-    function unlock() {
-        // 1. Resume AudioContext if you use one
-        const AC = window.AudioContext || window.webkitAudioContext;
-        if (AC) {
-            if (!window._ctx) window._ctx = new AC();
-            if (window._ctx.state === "suspended") {
-                window._ctx.resume();
-            }
-        }
-
-        // 2. Unlock the *current* audio instance
-        if (window.curr_track) {
-            window.curr_track.play().catch(() => {});
-        }
-
-        // Remove listeners after first unlock
-        window.removeEventListener("click", unlock);
-        window.removeEventListener("touchstart", unlock);
-    }
-
-    window.addEventListener("click", unlock, { once: true });
-    window.addEventListener("touchstart", unlock, { once: true });
-})();
 
 
 
@@ -32389,40 +32347,19 @@ function seekUpdate() {
 
 
 
+
+
+
+
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
 function myFunction1() {
-  const links = document.getElementById("myLinks");
-  const icon = document.querySelector(".icon span");
-
-  const isOpen = links.style.display === "block";
-
-  // Close
-  if (isOpen) {
-    links.style.display = "none";
-    icon.style.opacity = "0";
-
-    setTimeout(() => {
-      icon.classList.remove("fa-times");
-      icon.classList.add("fa-bars");
-      icon.style.opacity = "1";
-    }, 150); // micro-pause
-  }
-
-  // Open
-  else {
-    links.style.display = "block";
-    icon.style.opacity = "0";
-
-    setTimeout(() => {
-      icon.classList.remove("fa-bars");
-      icon.classList.add("fa-times");
-      icon.style.opacity = "1";
-    }, 150); // micro-pause
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
   }
 }
-
-
-
-
 
 
 
