@@ -1546,4 +1546,36 @@ margin-bottom:20px;
   50% { opacity: 1; }
 }
 
+/* --- ICON --- */
+.icon span {
+  font-size: 32px;
+  color: #ff0000;
+  transition:
+    transform .45s cubic-bezier(.25,1.5,.35,1),
+    opacity .25s ease,
+    color .3s ease;
+  display: inline-block;
+}
+
+/* Cross animation */
+.fa-times {
+  transform: rotate(200deg) scale(1.18);
+  color: #ff4444;
+  text-shadow: 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+/* --- MENU ANIMATION --- */
+#myLinks {
+  display: none;
+  opacity: 0;
+  transform: translateY(-12px);
+  animation: fadeSlide .45s ease forwards;
+}
+
+@keyframes fadeSlide {
+  0%   { opacity: 0; transform: translateY(-12px); }
+  40%  { opacity: 0.4; }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
 

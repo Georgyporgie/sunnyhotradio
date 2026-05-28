@@ -227,16 +227,32 @@ body {
 </div>
 
 
-
 <script>
+window.addEventListener("DOMContentLoaded", () => {
+    function unlock() {
+        // Resume AudioContext if needed
+        const AC = window.AudioContext || window.webkitAudioContext;
+        if (AC) {
+            if (!window._ctx) window._ctx = new AC();
+            if (window._ctx.state === "suspended") {
+                window._ctx.resume();
+            }
+        }
 
-document.addEventListener("touchstart", function once() {
-    const audio = document.getElementById("player");
-    audio.play();
-    document.removeEventListener("touchstart", once);
+        // Unlock the REAL audio instance
+        if (window.curr_track) {
+            window.curr_track.play().catch(() => {});
+        }
+
+        window.removeEventListener("touchstart", unlock);
+        window.removeEventListener("click", unlock);
+    }
+
+    window.addEventListener("touchstart", unlock, { once: true });
+    window.addEventListener("click", unlock, { once: true });
 });
-
 </script>
+
 
 
 
