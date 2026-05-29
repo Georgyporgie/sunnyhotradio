@@ -1,17 +1,35 @@
 
 
-
-
-/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
 function myFunction1() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
+  const links = document.getElementById("myLinks");
+  const icon = document.querySelector(".icon span");
+
+  const isOpen = links.style.display === "block";
+
+  // Close
+  if (isOpen) {
+    links.style.display = "none";
+    icon.style.opacity = "0";
+
+    setTimeout(() => {
+      icon.classList.remove("fa-times");
+      icon.classList.add("fa-bars");
+      icon.style.opacity = "1";
+    }, 150); // micro-pause
+  }
+
+  // Open
+  else {
+    links.style.display = "block";
+    icon.style.opacity = "0";
+
+    setTimeout(() => {
+      icon.classList.remove("fa-bars");
+      icon.classList.add("fa-times");
+      icon.style.opacity = "1";
+    }, 150); // micro-pause
   }
 }
-
  $('.btn').click(function () {
             $(this).toggleClass("click");
         });
