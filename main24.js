@@ -32464,8 +32464,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 function renderLiveLog(currentTrack) {
-  const container = document.getElementById("track-list-container");
-
   const formatBadge = (track) => {
     if (!track.type) return "";
     return `<span class="badge badge-${track.type}">${track.type}</span>`;
@@ -32476,54 +32474,44 @@ function renderLiveLog(currentTrack) {
     return `<span class="mood mood-${track.mood}">${track.mood}</span>`;
   };
 
-const history = playedTracks
-  .slice(0, -1)
-  .filter(t => {
-    const p = t.path?.toLowerCase() || "";
-    return !p.includes("jingle") && !p.includes("discjockeys")&& !p.includes("sunny ship");
-  })
-  .reverse();
+  const history = playedTracks
+    .slice(0, -1)
+    .filter(t => {
+      const p = t.path?.toLowerCase() || "";
+      return !p.includes("jingle") && !p.includes("discjockeys") && !p.includes("sunny ship");
+    })
+    .reverse();
 
-
-
-  container.innerHTML = `
-<div id="now-playing-log">
-  
-<div id="on-air-banner">ON AIR </div>
-
-
-  <span style="color:goldenrod;">${currentTrack.name}</span>
-  <span style="color:goldenrod;"> by </span>
-  <span style="color:goldenrod;">${currentTrack.artist}</span>
-
-  ${formatBadge(currentTrack)}
-  ${formatMood(currentTrack)}
-  <br>
-<span id="vinyl-icon"></span>
-</div>
-<br> <br>
-
-    <div id="played-before-log" class="${history.length > 0 ? 'expanded' : ''}">
-      ${
-        history.length > 0
-          ? `
-            <strong style="color:red;">Played Before</strong><br>
-            ${history
-              .map(t => `
-                <div class="history-item">
-                  <span style="color:red;">${t.name}</span>
-                  <span style="color:goldenrod;"> by </span>
-                  <span style="color:goldenrod;">${t.artist}</span>
-                  ${formatBadge(t)}
-                  ${formatMood(t)}
-                </div>
-              `)
-              .join("")}
-          `
-          : ""
-      }
-    </div>
+  // ⭐ Only update the NOW PLAYING section
+  document.getElementById("now-playing-log").innerHTML = `
+    <span style="color:goldenrod;">${currentTrack.name}</span>
+    <span style="color:goldenrod;"> by </span>
+    <span style="color:goldenrod;">${currentTrack.artist}</span>
+    ${formatBadge(currentTrack)}
+    ${formatMood(currentTrack)}
+    <br>
+    <span id="vinyl-icon"></span>
   `;
+
+  // ⭐ Update the PLAYED BEFORE section
+  document.getElementById("played-before-log").innerHTML =
+    history.length > 0
+      ? `
+        <strong style="color:red;">Played Before</strong><br>
+        ${history
+          .map(t => `
+            <div class="history-item">
+              <span style="color:red;">${t.name}</span>
+              <span style="color:goldenrod;"> by </span>
+              <span style="color:goldenrod;">${t.artist}</span>
+              ${formatBadge(t)}
+              ${formatMood(t)}
+            </div>
+          `)
+          .join("")}
+      `
+      : "";
 }
+
 
 

@@ -1530,21 +1530,35 @@ p  {  font-size: 25px; color: black; font-family: Arial ,Helvetica,sans-serif; t
   font-size: inherit;
   text-shadow: inherit;
 }
-#on-air-banner {
-  background: #d88;
-  color: white;
-  padding: 6px 12px;
+.on-air-banner {
+  display: inline-block;
+  padding: 4px 12px;
+   margin-top: 6px;
+background: #FF2A2A;
   font-weight: bold;
+  font-size: 13px;
+  border-radius: 4px;
   letter-spacing: 1px;
-  animation: pulse 2.4s ease-in-out infinite;
-z-index:-700;
-margin-bottom:20px;
+  animation: pulse 1.4s infinite ease-in-out;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+
+  /* Lightbulb glow */
+  color: #fff8cc; /* warm lightbulb white-yellow */
+  text-shadow:
+    0 0 3px #fff7cc,
+    0 0 6px #ffef99,
+    0 0 10px #ffe066,
+    0 0 14px #ffdb4d,
+    0 0 18px #ffd633;
 }
 
 @keyframes pulse {
-  0%, 100% { opacity: 0.6; }
-  50% { opacity: 1; }
+  0%   { opacity: 1;   box-shadow: 0 0 10px rgba(255, 0, 0, 0.7); }
+  50%  { opacity: 0.6; box-shadow: 0 0 4px rgba(255, 0, 0, 0.3); }
+  100% { opacity: 1;   box-shadow: 0 0 10px rgba(255, 0, 0, 0.7); }
 }
+
+
 
 /* --- ICON --- */
 .icon span {
