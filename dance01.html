@@ -154,15 +154,10 @@ body {
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 
-<div id="on-air-banner" class="Currenttrack">CURRENT TRACK</div>
 
+<div id="now"></div>
 
 
 
@@ -173,9 +168,7 @@ body {
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
+
 
 
 
@@ -235,7 +228,15 @@ body {
 
 
 
+<script>
 
+document.addEventListener("touchstart", function once() {
+    const audio = document.getElementById("player");
+    audio.play();
+    document.removeEventListener("touchstart", once);
+});
+
+</script>
 
 
 
