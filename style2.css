@@ -264,8 +264,8 @@ font-weight: italic; display: block; margin: auto auto auto auto;
 
 
 #media {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     filter: brightness(100%) saturate(100%) contrast(100%) opacity(100%);
     transform: rotate(0deg);
     z-index: -900;
@@ -754,6 +754,11 @@ color: #000080; z-index: 200; text-align: center; font-family: myEvent; padding:
   display: inline-block;
   padding: 4px 12px;
    margin-top: 6px;
+ animation:
+    neonPulse 1.6s infinite ease-in-out,
+    floaty 3.4s ease-in-out infinite;
+
+
 
 background: #FF2A2A;
   font-weight: bold;
@@ -897,7 +902,7 @@ margin-top: -112px;   margin-right:7px; height: 45px; width: 50px;
 
 
 
-#dion  {     width: 35px;  height: 30px;filter: brightness(110%) saturate(110%) contrast(110%) opacity(65%); transform: rotate(-5deg); z-index: -800; margin: -45px auto 20px  auto; display: block; 
+#dion  {     width: 35px;  height: 30px;filter: brightness(110%) saturate(110%) contrast(110%) opacity(65%); transform: rotate(-5deg); z-index: -1200; margin: -45px auto 20px  auto; display: block; 
 }
 
 
@@ -1620,7 +1625,7 @@ background: #FF2A2A;
   display: inline-block;
   padding: 4px 12px;
    margin-top: 6px;
-margin-left: 875px;
+
 background: #FF2A2A;
   font-weight: bold;
   font-size: 13px;
@@ -1644,5 +1649,11 @@ background: #FF2A2A;
   0%   { opacity: 1;   box-shadow: 0 0 10px rgba(255, 0, 0, 0.7); }
   50%  { opacity: 0.6; box-shadow: 0 0 4px rgba(255, 0, 0, 0.3); }
   100% { opacity: 1;   box-shadow: 0 0 10px rgba(255, 0, 0, 0.7); }
+}
+
+
+
+#now-wrapper {
+  text-align: center;
 }
 

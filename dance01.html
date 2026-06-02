@@ -157,12 +157,15 @@ body {
 
 
 
-<div id="now"></div>
+<div id="now-wrapper">
+  <div id="now">Current Track</div>
+</div>
 
 
 
-<br>
-<br>
+
+
+
 <br>
 <br>
 <br>
@@ -228,15 +231,7 @@ body {
 
 
 
-<script>
 
-document.addEventListener("touchstart", function once() {
-    const audio = document.getElementById("player");
-    audio.play();
-    document.removeEventListener("touchstart", once);
-});
-
-</script>
 
 
 
@@ -365,7 +360,8 @@ document.getElementById("playlist").src = imageOfTheDay;
 
 
 <div id="now-playing-log"></div>
-  <div id="played-before-log" class="expanded"></div>
+  <br>
+<div id="played-before-log" class="expanded"></div>
 </div>
 
 
