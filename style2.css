@@ -1043,8 +1043,8 @@ width: 355px; height: 370px;
 
 
 #playlist {
-  width: 170px;
-  height: 165px;
+  width: 130px;
+  height: 125px;
   margin: -30px auto 0px auto;
   display: block;
   border-radius: 5px;
@@ -1448,7 +1448,7 @@ li.new-track {
   border: 2px solid #000;
   position: relative;
   animation: spinVinyl 3s linear infinite;
-z-index:-600;
+z-index:-800;
 }
 
 /* Center label */
@@ -1564,12 +1564,12 @@ p  {  font-size: 25px; color: black; font-family: Arial ,Helvetica,sans-serif; t
    margin-top: 6px;
 background: #FF2A2A;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 20px;
   border-radius: 4px;
   letter-spacing: 1px;
   animation: pulse 1.4s infinite ease-in-out;
   box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
-
+z-index:200;
   /* Lightbulb glow */
   color: #fff8cc; /* warm lightbulb white-yellow */
   text-shadow:
