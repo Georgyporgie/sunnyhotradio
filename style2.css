@@ -1051,7 +1051,7 @@ width: 355px; height: 370px;
   border: solid 1px #FF0000;
   filter: brightness(105%) saturate(105%) contrast(105%) opacity(75%);
   position: relative;
-  z-index: -200;
+  z-index: -1200;
 
 
 }
@@ -1569,7 +1569,7 @@ background: #FF2A2A;
   letter-spacing: 1px;
   animation: pulse 1.4s infinite ease-in-out;
   box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
-z-index:200;
+z-index:-200;
   /* Lightbulb glow */
   color: #fff8cc; /* warm lightbulb white-yellow */
   text-shadow:
