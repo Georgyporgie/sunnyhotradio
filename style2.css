@@ -751,11 +751,34 @@ color: #000080; z-index: 200; text-align: center; font-family: myEvent; padding:
 }
 
 #now  {
-color: #414a4c;   z-index: -2550; text-align: center; font-family:'Orbitron';  font-size: 15px; font-weight:600;background:linear-gradient(90deg,#CCCCCC,transparent,#e0e0e0);padding: 5px 5px 5px 5px;
-transition: all 0.3s ease-in-out; 
-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
-text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5);
- }
+  display: inline-block;
+  padding: 4px 12px;
+   margin-top: 6px;
+
+background: #FF2A2A;
+  font-weight: bold;
+  font-size: 13px;
+  font-style:italic;
+
+  letter-spacing: 1px;
+  animation: pulse 1.4s infinite ease-in-out;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+
+  /* Lightbulb glow */
+  color: #fff8cc; /* warm lightbulb white-yellow */
+  text-shadow:
+    0 0 3px #fff7cc,
+    0 0 6px #ffef99,
+    0 0 10px #ffe066,
+    0 0 14px #ffdb4d,
+    0 0 18px #ffd633;
+}
+
+@keyframes pulse {
+  0%   { opacity: 1;   box-shadow: 0 0 10px rgba(255, 0, 0, 0.7); }
+  50%  { opacity: 0.6; box-shadow: 0 0 4px rgba(255, 0, 0, 0.3); }
+  100% { opacity: 1;   box-shadow: 0 0 10px rgba(255, 0, 0, 0.7); }
+}
 
 
 .container {
