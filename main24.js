@@ -32520,13 +32520,13 @@ function renderLiveLog(currentTrack) {
   document.getElementById("played-before-log").innerHTML =
     history.length > 0
       ? `
-        <strong style="color: #ffb300;">Played Before</strong><br>
+        <strong style="color: red;">Played Before</strong><br>
         ${history
           .map(t => `
             <div class="history-item">
-              <span style="color: #ffb300;">${t.name}</span>
-              <span style="color:#ffb300;"> by </span>
-              <span style="color:#ffb300;">${t.artist}</span>
+              <span style="color:#FF4500;">${t.name}</span>
+              <span style="color:#2B2B2E;"> by </span>
+              <span style="color:#FF4500;">${t.artist}</span>
               ${formatBadge(t)}
               ${formatMood(t)}
             </div>

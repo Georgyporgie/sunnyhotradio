@@ -575,7 +575,7 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
 /* Base styling */
 #track-list-container {
   font-size: 15px;
-  color: #E53935;
+  color: #FF2A2A;
   background: linear-gradient(45deg,#0033FF,#006666,#003399);
   text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
   box-shadow: 0 0 12px rgba(0,0,0,0.4);
@@ -1448,7 +1448,7 @@ li.new-track {
   border: 2px solid #000;
   position: relative;
   animation: spinVinyl 3s linear infinite;
-z-index:-800;
+z-index:-300;
 }
 
 /* Center label */
@@ -1553,7 +1553,7 @@ p  {  font-size: 25px; color: black; font-family: Arial ,Helvetica,sans-serif; t
 #played-before-log * {
   all: unset;
   display: block;
-  color: goldenrod;
+  color: #2B2B2E;
   font-family: inherit;
   font-size: inherit;
   text-shadow: inherit;
