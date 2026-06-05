@@ -32076,7 +32076,7 @@ function playTrack() {
 
   onTrackStart(curr_track);        // updates UI for the actual track
 
-reattachCountdown();
+
 }
 
 
@@ -32136,97 +32136,11 @@ function emphasizeKeywords(text) {
 
 
 
-// ===== Playlist rendering =====
-const tracksToDisplayInitially = 10; // Number of tracks initially visible
-const additionalTracksPerClick = 5;  // Number of tracks to load per click
-let currentDisplayLimit = tracksToDisplayInitially;
-
-function displayTrackList(limit = currentDisplayLimit) {
-  const trackListElement = document.getElementById('track-list-container');
-  trackListElement.innerHTML = ''; // Clear before repopulating
-
-  const limitedTracks = scheduledMp3Files.slice(0, limit);
-
-limitedTracks.forEach((track, index) => {
-const li = document.createElement('li');
-
-// ⭐ Style the whole row if the track is new
-if (track.isNew === true) {
-  li.classList.add("new-track");
-}
-
-
-  // Apply keyword emphasis
-  const emphasizedTrackName = emphasizeKeywords(track.name);
-  const emphasizedArtist = emphasizeKeywords(track.artist);
-
-  const coloredBy = ' <span style="color: goldenrod;">by</span> ';
-
-  li.innerHTML = `
-    <strong>${emphasizedTrackName}</strong>${coloredBy}${emphasizedArtist}
-    <span class="track-duration" style="margin-left:10px; color:darkslategray;">${track.duration || ""}</span>
-    <span class="countdown" id="countdown-${index}" style="margin-left:10px; color:gray;"></span>
-  `;
-
-  li.addEventListener('mouseenter', () => li.classList.add('hover-highlight'));
-  li.addEventListener('mouseleave', () => li.classList.remove('hover-highlight'));
-
-  trackListElement.appendChild(li);
-});
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-function applyBlinkingEffect() {
-  const allTracks = document.querySelectorAll('#track-list-container li');
-
-  // Step 1: clear all states
-  allTracks.forEach(track => {
-    track.classList.remove('blinking');
-    const vinyl = track.querySelector('#-icon');
-    if (vinyl) vinyl.remove();
-  });
-
-  // Step 2: add blinking + vinyl to the new active track
-  const activeTrack = allTracks[track_index];
-  if (activeTrack) {
-    activeTrack.classList.add('blinking');
-
-    const vinylIcon = document.createElement('span');
-    vinylIcon.id = 'vinyl-icon';
-    activeTrack.appendChild(vinylIcon);
-  } else {
-    console.error("Current track not found in the DOM!");
-  }
-}
-
-
-
-document.getElementById('show-more-button').addEventListener('click', () => {
-  currentDisplayLimit += additionalTracksPerClick;
-
-  applyBlinkingEffect();
-  reattachCountdown(); // 🔹 new helper
-addDurationsToTrackList(scheduledMp3Files);
-
-});
-
 
 function attachTrackEvents(curr_track, index) {
   curr_track.addEventListener("play", () => {
     track_index = index; // 🔹 update the global track_index
-    applyBlinkingEffect(); // 🔹 re-run highlight + vinyl logic
+     // 🔹 re-run highlight + vinyl logic
 
     const currentLi = document.querySelectorAll("#track-list-container li")[index];
     if (currentLi) {
@@ -32252,33 +32166,6 @@ function attachTrackEvents(curr_track, index) {
 
 
 
-
-function addDurationsToTrackList(trackList) {
-  trackList.forEach((track, index) => {
-    let audio = new Audio(track.path);
-
-    audio.addEventListener("loadedmetadata", () => {
-      track.duration = formatTime(Math.floor(audio.duration));
-
-      // Update the corresponding <li> duration span
-      const durationElement = document.querySelectorAll(".track-duration")[index];
-      if (durationElement) {
-        durationElement.textContent = track.duration;
-      }
-    });
-  });
-}
-
-
-function reattachCountdown() {
-  const countdownElement = document.getElementById(`countdown-${track_index}`);
-  if (countdownElement && curr_track) {
-    curr_track.addEventListener("timeupdate", () => {
-      const remaining = Math.max(0, curr_track.duration - curr_track.currentTime);
-      countdownElement.textContent = formatTime(remaining);
-    });
-  }
-}
 
 
 
@@ -32485,7 +32372,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-
 function renderLiveLog(currentTrack) {
   const formatBadge = (track) => {
     if (!track.type) return "";
@@ -32497,18 +32383,20 @@ function renderLiveLog(currentTrack) {
     return `<span class="mood mood-${track.mood}">${track.mood}</span>`;
   };
 
+  // ⭐ Filter + reverse + limit to last 10
   const history = playedTracks
     .slice(0, -1)
     .filter(t => {
       const p = t.path?.toLowerCase() || "";
       return !p.includes("jingle") && !p.includes("discjockeys") && !p.includes("sunny ship");
     })
-    .reverse();
+    .reverse()
+    .slice(0, 10); // ⭐ LIMIT TO 10 TRACKS
 
-  // ⭐ Only update the NOW PLAYING section
+  // ⭐ NOW PLAYING
   document.getElementById("now-playing-log").innerHTML = `
     <span style="color:#ffb300;">${currentTrack.name}</span>
-    <span style="color:#ffb300;"> by </span>
+    <span style="color:#FF2A2A;"> by </span>
     <span style="color:#ffb300;">${currentTrack.artist}</span>
     ${formatBadge(currentTrack)}
     ${formatMood(currentTrack)}
@@ -32516,14 +32404,14 @@ function renderLiveLog(currentTrack) {
     <span id="vinyl-icon"></span>
   `;
 
-  // ⭐ Update the PLAYED BEFORE section
+  // ⭐ PLAYED BEFORE
   document.getElementById("played-before-log").innerHTML =
     history.length > 0
       ? `
-        <strong style="color: red;">Played Before</strong><br>
+        <strong style="color: #FF2A2A;">Played Before</strong><br><br>
         ${history
           .map(t => `
-            <div class="history-item">
+            <div class="history-item" style="margin-bottom: 10px;">   <!-- ⭐ EXTRA SPACE -->
               <span style="color:#FF4500;">${t.name}</span>
               <span style="color:#2B2B2E;"> by </span>
               <span style="color:#FF4500;">${t.artist}</span>
@@ -32535,6 +32423,7 @@ function renderLiveLog(currentTrack) {
       `
       : "";
 }
+
 
 
 
