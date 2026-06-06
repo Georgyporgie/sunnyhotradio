@@ -31772,16 +31772,6 @@ function formatTime(seconds) {
 
 
 
-trackList.push({
-  type: "news",
-  sources: [
-    "https://sunnyhotradio.com/audio/Broadcast Amsterdam2.mp3"
-  ],
-  duration: 120,
-  playAtHours: [0, 4, 8, 12, 16, 20],
-  playAtMinutes: [0]
-});
-
 
 
 
@@ -32393,55 +32383,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-
-
-
-
-function schedulerTick() {
-  const now = new Date();
-
-  trackList.forEach(item => {
-
-    // 🟦 NEWS SCHEDULING
-    if (item.type === "news") {
-
-      const hourMatch = item.playAtHours.includes(now.getHours());
-      const minuteMatch = item.playAtMinutes.includes(now.getMinutes());
-
-      if (hourMatch && minuteMatch) {
-
-        // Prevent double‑triggering within the same hour
-        if (!item.lastPlayed || item.lastPlayed !== now.getHours()) {
-
-          item.lastPlayed = now.getHours();
-
-          // Pick a random bulletin
-          const randomSource = item.sources[
-            Math.floor(Math.random() * item.sources.length)
-          ];
-
-          // 🎙️ Create audio object for the news bulletin
-          curr_track = new Audio(randomSource);
-
-          // 🎧 Use your existing playback engine
-          playTrack();
-
-          // 📝 Optional: log it in your live log
-          addToLiveLog({
-            type: "news",
-            title: "Hourly News Bulletin",
-            source: randomSource,
-            time: now.toLocaleTimeString()
-          });
-        }
-      }
-    }
-
-    // 🟩 OTHER SCHEDULED ITEMS (IDs, jingles, shows, etc)
-  });
-}
-
-setInterval(schedulerTick, 1000);
 
 
 
