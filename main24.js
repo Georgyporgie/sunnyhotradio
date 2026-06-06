@@ -51,7 +51,7 @@ let audioPlayer = document.createElement('audio');
 
 window.addEventListener("DOMContentLoaded", () => {
  
-  renderProgram(trackList);    // build playlist UI
+   // build playlist UI
 });
 
 function initAudioChain() {
@@ -31772,6 +31772,15 @@ function formatTime(seconds) {
 
 
 
+trackList.push({
+  type: "news",
+  sources: [
+    "https://sunnyhotradio.com/audio/Broadcast Amsterdam2.mp3"
+  ],
+  duration: 120,
+  playAtHours: [0, 4, 8, 12, 16, 20],
+  playAtMinutes: [0]
+});
 
 
 
@@ -32372,6 +32381,87 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function schedulerTick() {
+  const now = new Date();
+
+  trackList.forEach(item => {
+
+    // 🟦 NEWS SCHEDULING
+    if (item.type === "news") {
+
+      const hourMatch = item.playAtHours.includes(now.getHours());
+      const minuteMatch = item.playAtMinutes.includes(now.getMinutes());
+
+      if (hourMatch && minuteMatch) {
+
+        // Prevent double‑triggering within the same hour
+        if (!item.lastPlayed || item.lastPlayed !== now.getHours()) {
+
+          item.lastPlayed = now.getHours();
+
+          // Pick a random bulletin
+          const randomSource = item.sources[
+            Math.floor(Math.random() * item.sources.length)
+          ];
+
+          // 🎙️ Create audio object for the news bulletin
+          curr_track = new Audio(randomSource);
+
+          // 🎧 Use your existing playback engine
+          playTrack();
+
+          // 📝 Optional: log it in your live log
+          addToLiveLog({
+            type: "news",
+            title: "Hourly News Bulletin",
+            source: randomSource,
+            time: now.toLocaleTimeString()
+          });
+        }
+      }
+    }
+
+    // 🟩 OTHER SCHEDULED ITEMS (IDs, jingles, shows, etc)
+  });
+}
+
+setInterval(schedulerTick, 1000);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function renderLiveLog(currentTrack) {
   const formatBadge = (track) => {
     if (!track.type) return "";
@@ -32388,7 +32478,7 @@ function renderLiveLog(currentTrack) {
     .slice(0, -1)
     .filter(t => {
       const p = t.path?.toLowerCase() || "";
-      return !p.includes("jingle") && !p.includes("discjockeys") && !p.includes("sunny ship");
+      return !p.includes("jingle") && !p.includes("discjockeys") && !p.includes("sunny ship") && !p.includes("audio");
     })
     .reverse()
     .slice(0, 10); // ⭐ LIMIT TO 10 TRACKS
@@ -32401,14 +32491,23 @@ function renderLiveLog(currentTrack) {
     ${formatBadge(currentTrack)}
     ${formatMood(currentTrack)}
     <br>
-    <span id="vinyl-icon"></span>
+ ${currentTrack.path &&
+ !currentTrack.path.toLowerCase().includes("jingle") &&
+ !currentTrack.path.toLowerCase().includes("discjockeys") &&
+  !currentTrack.path.toLowerCase().includes("audio") &&
+!currentTrack.path.toLowerCase().includes("sunny ship")
+  
+? `<span id="vinyl-icon"></span>`
+  : ""}
+
+
   `;
 
   // ⭐ PLAYED BEFORE
   document.getElementById("played-before-log").innerHTML =
     history.length > 0
       ? `
-        <strong style="color: #FF2A2A;">Played Before</strong><br><br>
+        <strong style="color: #FF2A2A;">Played Before:</strong><br><br>
         ${history
           .map(t => `
             <div class="history-item" style="margin-bottom: 10px;">   <!-- ⭐ EXTRA SPACE -->
