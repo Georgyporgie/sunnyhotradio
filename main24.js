@@ -31880,6 +31880,12 @@ timeCategory: "f evening-late"
 
 
 
+
+
+
+
+
+
 // --- Purify ritual --- trackList = trackList.map(purifyTrack);
 console.log("Purified trackList:", trackList);
 
@@ -32710,15 +32716,28 @@ function renderLiveLog(currentTrack) {
     return `<span class="mood mood-${track.mood}">${track.mood}</span>`;
   };
 
-  // ⭐ Filter + reverse + limit to last 10
-  const history = playedTracks
-    .slice(0, -1)
-    .filter(t => {
-      const p = t.path?.toLowerCase() || "";
-      return !p.includes("jingle") && !p.includes("discjockeys") && !p.includes("sunny ship") && !p.includes("audio");
-    })
-    .reverse()
-    .slice(0, 10); // ⭐ LIMIT TO 10 TRACKS
+const history = playedTracks
+  .slice(0, -1)
+  .filter(t => {
+    const p = t.path?.toLowerCase() || "";
+
+    return (
+      !p.includes("jingle") &&
+      !p.includes("discjockeys") &&
+      !p.includes("sunny ship") &&
+      !p.includes("audio") &&
+      t.type !== "classic"   // ⭐ NEW: exclude classic
+    );
+  })
+  .reverse()
+  .slice(0, 10);
+
+
+
+
+
+
+
 
   // ⭐ NOW PLAYING
 document.getElementById("now-playing-log").innerHTML = `
