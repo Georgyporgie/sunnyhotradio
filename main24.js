@@ -32716,6 +32716,8 @@ function renderLiveLog(currentTrack) {
     return `<span class="mood mood-${track.mood}">${track.mood}</span>`;
   };
 
+const excludedTypes = ["classic", "new", "12inch", "maxi"];
+
 const history = playedTracks
   .slice(0, -1)
   .filter(t => {
@@ -32726,11 +32728,13 @@ const history = playedTracks
       !p.includes("discjockeys") &&
       !p.includes("sunny ship") &&
       !p.includes("audio") &&
-      t.type !== "classic"   // ⭐ NEW: exclude classic
+      !excludedTypes.includes(t.type)
     );
   })
   .reverse()
   .slice(0, 10);
+
+
 
 
 
