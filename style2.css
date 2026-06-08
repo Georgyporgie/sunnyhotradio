@@ -566,7 +566,7 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
 
 
 #gas  {  
- display: block; margin: auto; z-index: 300;  border: solid 5px #555555 ;
+ display: block; margin: auto; z-index: 0;  border: solid 5px #555555 ;
 }
 
 #uitzinnig  {  display: block; margin: auto;  height: 400px;
@@ -1218,7 +1218,7 @@ color: crimson; z-index: 200;
 
 #stars {
 display:block;
-margin:auto auto auto auto; z-index:-200; 
+margin:auto auto auto auto; z-index:0; 
 filter: brightness(100%) saturate(105%) contrast(100%)opacity (70%);
 }
 
@@ -1342,9 +1342,12 @@ filter: brightness(100%) saturate(105%) contrast(100%)opacity (70%);
 
 
 .new-tag {
-  font-weight: bold;
-  color: gold;
+  color: #ff5000;
+  font-style: italic;
+  font-weight: 600;
+  text-shadow: 0 0 6px rgba(255, 80, 0, 0.6);
 }
+
 
 .blinking-star {
   animation: blink 1s step-start infinite;
@@ -1360,15 +1363,17 @@ filter: brightness(100%) saturate(105%) contrast(100%)opacity (70%);
   background-color: #fff8dc; /* soft white */
   color: #b8860b;            /* gold */
   font-weight: bold;
-  padding: 0 6px;
+  padding: 0 3px;
   border-radius: 4px;z-index:200;
 }
 
 /* Make only the NEW text smaller */
 .new-text {
-  font-size: 1em;   /* 75% of normal size */
-  /* optional: adds a bit of spacing */
+  font-size: 0.75em;   /* 75% of normal size */
+  
+  letter-spacing: 0.5px;
 }
+
 
 /* Stars keep blinking at full size */
 .blinking-star {
@@ -1667,5 +1672,13 @@ background: #FF2A2A;
   0% { box-shadow: 0 0 0px rgba(255, 80, 0, 0.4); }
   50% { box-shadow: 0 0 14px rgba(255, 80, 0, 0.8); }
   100% { box-shadow: 0 0 0px rgba(255, 80, 0, 0.4); }
+}
+
+
+.played-before-label {
+  color: #FF2A2A;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 

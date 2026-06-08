@@ -12005,6 +12005,87 @@ timeCategory: "afternoon"
 
 
 
+
+
+
+{
+     name: "  1 Thing",
+    artist: " Amerie ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Amerie - 1 Thing.mp3",
+           timeCategory: "afternoon"
+},
+
+
+
+
+
+{
+     name: "  More! More! More (new)",
+    artist: " Becky Hill",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Becky Hill - More! More! More (new)!.mp3",
+           timeCategory: "afternoon"
+},
+
+
+{
+     name: "   Walking Sunshine",
+    artist: " Central Line",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Central Line - Walking Sunshine.mp3",
+           timeCategory: "afternoon"
+},
+
+
+
+{
+     name: " Is It Over Now (new)",
+    artist: " Elderbrook ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Elderbrook - Is It Over Now (new).mp3",
+           timeCategory: "afternoon"
+},
+
+
+
+{
+     name: " Hot In Herre",
+    artist: " Nelly  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Nelly - Hot In Herre.mp3",
+           timeCategory: "afternoon"
+},
+
+
+
+
+{
+     name: "  Happy",
+    artist: " Pharell Williams",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Pharell Williams - Happy.mp3",
+           timeCategory: "afternoon"
+},
+
+
+
+
+{
+     name: "   Im Your Girl Right (new)",
+    artist: "Tove Lo",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Tove Lo - Im Your Girl Right (new).mp3",
+           timeCategory: "afternoon"
+},
+
+
+
+
+
+
+
+
 {
     name: "Just For You",
     artist: "Sunny Ship☀️",
@@ -25820,6 +25901,78 @@ isLoud: true,
 
 
 
+{
+     name: "  1 Thing",
+    artist: " Amerie ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Amerie - 1 Thing.mp3",
+           timeCategory: "evening-late"
+},
+
+
+
+
+
+{
+     name: "  More! More! More (new)",
+    artist: " Becky Hill",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Becky Hill - More! More! More (new)!.mp3",
+           timeCategory: "evening-late"
+},
+
+
+{
+     name: "   Walking Sunshine",
+    artist: " Central Line",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Central Line - Walking Sunshine.mp3",
+           timeCategory: "evening-late"
+},
+
+
+
+{
+     name: " Is It Over Now (new)",
+    artist: " Elderbrook ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Elderbrook - Is It Over Now (new).mp3",
+           timeCategory: "evening-late"
+},
+
+
+
+{
+     name: " Hot In Herre",
+    artist: " Nelly  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Nelly - Hot In Herre.mp3",
+           timeCategory: "evening-late"
+},
+
+
+
+
+{
+     name: "  Happy",
+    artist: " Pharell Williams",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Pharell Williams - Happy.mp3",
+           timeCategory: "evening-late"
+},
+
+
+
+
+{
+     name: "   Im Your Girl Right (new)",
+    artist: "Tove Lo",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Tove Lo - Im Your Girl Right (new).mp3",
+           timeCategory: "evening-late"
+},
+
+
 
 
 
@@ -27938,6 +28091,77 @@ playcount: 0
 
 
 
+
+{
+     name: "  1 Thing",
+    artist: " Amerie ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Amerie - 1 Thing.mp3",
+           timeCategory: "f afternoon"
+},
+
+
+
+
+
+{
+     name: "  More! More! More (new)",
+    artist: " Becky Hill",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Becky Hill - More! More! More (new)!.mp3",
+           timeCategory: "f afternoon"
+},
+
+
+{
+     name: "   Walking Sunshine",
+    artist: " Central Line",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Central Line - Walking Sunshine.mp3",
+           timeCategory: "f afternoon"
+},
+
+
+
+{
+     name: " Is It Over Now (new)",
+    artist: " Elderbrook ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Elderbrook - Is It Over Now (new).mp3",
+           timeCategory: "f afternoon"
+},
+
+
+
+{
+     name: " Hot In Herre",
+    artist: " Nelly  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Nelly - Hot In Herre.mp3",
+           timeCategory: "f afternoon"
+},
+
+
+
+
+{
+     name: "  Happy",
+    artist: " Pharell Williams",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Pharell Williams - Happy.mp3",
+           timeCategory: "f afternoon"
+},
+
+
+
+
+{
+     name: "   Im Your Girl Right (new)",
+    artist: "Tove Lo",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Tove Lo - Im Your Girl Right (new).mp3",
+           timeCategory: "f afternoon"
+},
 
 
 
@@ -30591,6 +30815,76 @@ timeCategory: "f evening-late"
 
 
 
+{
+     name: "  1 Thing",
+    artist: " Amerie ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Amerie - 1 Thing.mp3",
+           timeCategory: "f evening-late"
+},
+
+
+
+
+
+{
+     name: "  More! More! More (new)",
+    artist: " Becky Hill",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Becky Hill - More! More! More (new)!.mp3",
+           timeCategory: "f evening-late"
+},
+
+
+{
+     name: "   Walking Sunshine",
+    artist: " Central Line",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Central Line - Walking Sunshine.mp3",
+           timeCategory: "f evening-late"
+},
+
+
+
+{
+     name: " Is It Over Now (new)",
+    artist: " Elderbrook ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Elderbrook - Is It Over Now (new).mp3",
+           timeCategory: "f evening-late"
+},
+
+
+
+{
+     name: " Hot In Herre",
+    artist: " Nelly  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Nelly - Hot In Herre.mp3",
+           timeCategory: "f evening-late"
+},
+
+
+
+
+{
+     name: "  Happy",
+    artist: " Pharell Williams",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Pharell Williams - Happy.mp3",
+           timeCategory: "f evening-late"
+},
+
+
+
+
+{
+     name: "   Im Your Girl Right (new)",
+    artist: "Tove Lo",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Tove Lo - Im Your Girl Right (new).mp3",
+           timeCategory: "f evening-late"
+},
 
 
 
@@ -31928,8 +32222,10 @@ function loadTrack(index) {
   // -----------------------------
   // UI UPDATES
   // -----------------------------
-  track_name.textContent = track.name;
-  track_artist.textContent = track.artist;
+// UI UPDATES (with keyword emphasis)
+track_name.innerHTML = emphasizeKeywords(track.name);
+track_artist.innerHTML = emphasizeKeywords(track.artist);
+
 playedTracks.push({
   name: track.name,
   artist: track.artist,
@@ -32104,10 +32400,10 @@ function emphasizeKeywords(text) {
  if (lower === '(new)') {
   return `
     <span class="new-tag">
-      ( <span class="blinking-star">🌟</span> 
+ 
         <span class="new-text">NEW</span> 
-      <span class="blinking-star">🌟</span> )
-    </span>
+  
+   
   `;
 }
 
@@ -32425,41 +32721,42 @@ function renderLiveLog(currentTrack) {
     .slice(0, 10); // ⭐ LIMIT TO 10 TRACKS
 
   // ⭐ NOW PLAYING
-  document.getElementById("now-playing-log").innerHTML = `
-    <span style="color:#ffb300;">${currentTrack.name}</span>
-    <span style="color:#FF2A2A;"> by </span>
-    <span style="color:#ffb300;">${currentTrack.artist}</span>
-    ${formatBadge(currentTrack)}
-    ${formatMood(currentTrack)}
-    <br>
- ${currentTrack.path &&
- !currentTrack.path.toLowerCase().includes("jingle") &&
- !currentTrack.path.toLowerCase().includes("discjockeys") &&
-  !currentTrack.path.toLowerCase().includes("audio") &&
-!currentTrack.path.toLowerCase().includes("sunny ship")
-  
-? `<span id="vinyl-icon"></span>`
-  : ""}
+document.getElementById("now-playing-log").innerHTML = `
+  <span style="color:#ffb300;">${emphasizeKeywords(currentTrack.name)}</span>
+  <span style="color:#FF2A2A;"> by </span>
+  <span style="color:#ffb300;">${emphasizeKeywords(currentTrack.artist)}</span>
+  ${formatBadge(currentTrack)}
+  ${formatMood(currentTrack)}
+  <br>
+  ${
+    currentTrack.path &&
+    !currentTrack.path.toLowerCase().includes("jingle") &&
+    !currentTrack.path.toLowerCase().includes("discjockeys") &&
+    !currentTrack.path.toLowerCase().includes("sunny ship")
+      ? `<span id="vinyl-icon"></span>`
+      : ""
+  }
+`;
 
-
-  `;
 
   // ⭐ PLAYED BEFORE
   document.getElementById("played-before-log").innerHTML =
     history.length > 0
       ? `
-        <strong style="color: #FF2A2A;">Played Before:</strong><br><br>
-        ${history
-          .map(t => `
-            <div class="history-item" style="margin-bottom: 10px;">   <!-- ⭐ EXTRA SPACE -->
-              <span style="color:#FF4500;">${t.name}</span>
-              <span style="color:#2B2B2E;"> by </span>
-              <span style="color:#FF4500;">${t.artist}</span>
-              ${formatBadge(t)}
-              ${formatMood(t)}
-            </div>
-          `)
-          .join("")}
+       <strong style="color:#FF2A2A; font-style:italic;">Played Before:</strong><br><br>
+
+${history
+  .map(t => `
+    <div class="history-item" style="margin-bottom: 10px;">
+      <span style="color:#FF4500;">${emphasizeKeywords(t.name)}</span>
+      <span style="color:#2B2B2E;"> by </span>
+      <span style="color:#FF4500;">${emphasizeKeywords(t.artist)}</span>
+      ${formatBadge(t)}
+      ${formatMood(t)}
+    </div>
+  `)
+  .join("")}
+
       `
       : "";
 }
