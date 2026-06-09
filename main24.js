@@ -32707,31 +32707,7 @@ console.log("Real track list:", realTracks.map(getName));
 
 
 
-document.addEventListener("DOMContentLoaded", () => {
-  const btn = document.getElementById("show-more-button");
-  const trackListContainer = document.getElementById("track-list-container");
 
-  let visibleCount = 0;
-  const groupSize = 20;
-
-  function updateVisibleTracks() {
-    const tracks = trackListContainer.querySelectorAll("li");
-    if (!tracks || tracks.length === 0) return;
-    tracks.forEach((track, index) => {
-      track.style.display = index < visibleCount ? "block" : "none";
-    });
-  }
-
-
-
-  // Playlist starts open
-  trackListContainer.style.display = "block";
-
-  btn.addEventListener("click", () => {
-    visibleCount += groupSize;
-    updateVisibleTracks();
-  });
-});
 
 
 
