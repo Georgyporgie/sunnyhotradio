@@ -5676,7 +5676,7 @@ playcount: 0
 },
 
 {
-     name: " 100% Pure Love",
+     name: "  Pure Love",
     artist: "Crystal Waters  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Crystal Waters - 100% Pure Love.mp3",
@@ -31910,11 +31910,19 @@ console.log("✨ Shuffled playlist:", trackList.map(t => t.name));
 
 function loadPlaylistForCategory(category) {
   const filtered = trackList.filter(track => track.timeCategory === category);
- const playlist = sortAndShuffle(trackList.filter(track => track.timeCategory === category));
+ 
 
   console.log("▶ Now playing category:", category, "Playlist:", playlist.map(t => t.name));
+
+  updatePlaylistImage(category);   // <-- sync playlist image to current show
   // start playback here
 }
+
+
+
+
+
+
 
 
 // 4. Runtime
@@ -32057,8 +32065,61 @@ trackList.forEach((track, i) => {
 
 
 
+function updatePlaylistImage(category) {
+  const img = document.getElementById("playlist");
+  if (!img) return;
 
+  // Normalize category input
+  let key = String(category || "")
+    .toLowerCase()
+    .trim()
+    .replace(/_/g, "-")      // underscores → hyphens
+    .replace(/\s+/g, "-");   // spaces → hyphens
 
+  console.log("🎛 Normalized category:", key);
+
+  // All shows defined in one place
+  const shows = {
+    "morning":            { name: "Morning Show",        image: "images/morning.jpg" },
+    "afternoon":          { name: "Afternoon Show",      image: "images/afternoon.jpg" },
+    "special-show":       { name: "Special Show",        image: "images/special-show.jpg" },
+    "evening":            { name: "Evening Show",        image: "images/evening.jpg" },
+    "evening-late":       { name: "Evening Late",        image: "images/sunnystar1044.png" },
+    "late":               { name: "Late Night",          image: "images/late.jpg" },
+    "night":              { name: "Night Show",          image: "images/night.jpg" },
+
+    // ——— YOUR SPECIAL CATEGORIES ———
+    "f-afternoon":        { name: "F Afternoon",         image: "images/f-afternoon.jpg" },
+    "f-evening":          { name: "F Evening",           image: "images/f-evening.jpg" },
+    "f-evening-late":     { name: "F Evening Late",      image: "images/f-evening-late.jpg" },
+
+    "seventies":          { name: "Seventies Show",      image: "images/seventies.jpg" },
+    "eighties":           { name: "Eighties Show",       image: "images/eighties.jpg" },
+    "nineties":           { name: "Nineties Show",       image: "images/nineties.jpg" },
+
+    "soulshow":           { name: "Soulshow",            image: "images/soulshow.jpg" },
+    "ministry":           { name: "Ministry of Sound",   image: "images/ministry.jpg" },
+    "frankiebones":       { name: "Frankie Bones",       image: "images/frankiebones.jpg" },
+
+    "jingle-time":        { name: "Jingle Time",         image: "images/jingle-time.jpg" },
+
+    // fallback
+    "unknown":            { name: "Unknown Show",        image: "images/default.jpg" }
+  };
+
+  // Pick show or fallback
+  const show = shows[key] || shows["unknown"];
+
+  if (!shows[key]) {
+    console.warn("⚠ Unknown category:", category, "→ using fallback image");
+  }
+
+  // Apply image
+  img.src = show.image;
+  img.alt = show.name;
+
+  console.log("📻 Playlist image set to:", show.name, show.image);
+}
 
 
 function formatTime(seconds) {
@@ -32375,7 +32436,7 @@ function playTrack() {
   // … your existing UI logic …
 
 
-  onTrackStart(curr_track);        // updates UI for the actual track
+
 
 
 }
@@ -32701,10 +32762,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+// 🔧 Helper: remove ALL ( ... ) blocks
+function stripAllParentheses(text) {
+  if (!text) return "";
+  return text.replace(/\([^)]*\)/g, "").trim();
+}
 
-
-
-
+// 🎵 Live Log Renderer
 function renderLiveLog(currentTrack) {
   const formatBadge = (track) => {
     if (!track.type) return "";
@@ -32716,72 +32780,71 @@ function renderLiveLog(currentTrack) {
     return `<span class="mood mood-${track.mood}">${track.mood}</span>`;
   };
 
-const excludedTypes = ["classic", "new", "12inch", "maxi"];
+  const excludedTypes = ["classic", "new", "12inch", "maxi"];
 
-const history = playedTracks
-  .slice(0, -1)
-  .filter(t => {
-    const p = t.path?.toLowerCase() || "";
+  const history = playedTracks
+    .slice(0, -1)
+    .filter(t => {
+      const p = t.path?.toLowerCase() || "";
+      const type = (t.type || "").toLowerCase();
 
-    return (
-      !p.includes("jingle") &&
-      !p.includes("discjockeys") &&
-      !p.includes("sunny ship") &&
-      !p.includes("audio") &&
-      !excludedTypes.includes(t.type)
-    );
-  })
-  .reverse()
-  .slice(0, 10);
-
-
-
-
-
-
-
-
-
+      return (
+        !p.includes("jingle") &&
+        !p.includes("discjockeys") &&
+        !p.includes("sunny ship") &&
+        !p.includes("audio") &&
+        !excludedTypes.includes(type)
+      );
+    })
+    .reverse()
+    .slice(0, 10);
 
   // ⭐ NOW PLAYING
-document.getElementById("now-playing-log").innerHTML = `
-  <span style="color:#ffb300;">${emphasizeKeywords(currentTrack.name)}</span>
-  <span style="color:#FF2A2A;"> by </span>
-  <span style="color:#ffb300;">${emphasizeKeywords(currentTrack.artist)}</span>
-  ${formatBadge(currentTrack)}
-  ${formatMood(currentTrack)}
-  <br>
-  ${
-    currentTrack.path &&
-    !currentTrack.path.toLowerCase().includes("jingle") &&
-    !currentTrack.path.toLowerCase().includes("discjockeys") &&
-    !currentTrack.path.toLowerCase().includes("sunny ship")
-      ? `<span id="vinyl-icon"></span>`
-      : ""
-  }
-`;
+  document.getElementById("now-playing-log").innerHTML = `
+    <span style="color:#ffb300;">${emphasizeKeywords(stripAllParentheses(currentTrack.name))}</span>
+    <span style="color:#FF2A2A;"> by </span>
+    <span style="color:#ffb300;">${emphasizeKeywords(stripAllParentheses(currentTrack.artist))}</span>
+    ${formatBadge(currentTrack)}
+    ${formatMood(currentTrack)}
+    <br>
+    ${
+      currentTrack.path &&
+      !currentTrack.path.toLowerCase().includes("jingle") &&
+      !currentTrack.path.toLowerCase().includes("discjockeys") &&
+      !currentTrack.path.toLowerCase().includes("sunny ship")
+        ? `<span id="vinyl-icon"></span>`
+        : ""
+    }
+  `;
+
+ document.getElementById("played-before-log").innerHTML =
+  history.length > 0
+    ? `
+      <strong style="color:red;">Played Before:</strong><br>
+      ${history
+        .map(t => `
+          <div class="history-item">
+            <span style="color:#FF4500;">${t.name}</span>
+            <span style="color:#2B2B2E;"> by </span>
+            <span style="color:#FF4500;">${t.artist}</span>
+            ${formatBadge(t)}
+            ${formatMood(t)}
+          </div>
+        `)
+        .join("")}
+    `
+    : "";
+
+// ⭐ Add randomized stagger delays
+document.querySelectorAll(".history-item").forEach((item, i) => {
+  const randomOffset = Math.floor(Math.random() * 120);
+  const baseDelay = i * 80;
+  item.style.setProperty("--delay", `${baseDelay + randomOffset}ms`);
+});
 
 
-  // ⭐ PLAYED BEFORE
-  document.getElementById("played-before-log").innerHTML =
-    history.length > 0
-      ? `
-       <strong style="color:#FF2A2A; font-style:italic;">Played Before:</strong><br><br>
 
-${history
-  .map(t => `
-    <div class="history-item" style="margin-bottom: 10px;">
-      <span style="color:#FF4500;">${emphasizeKeywords(t.name)}</span>
-      <span style="color:#2B2B2E;"> by </span>
-      <span style="color:#FF4500;">${emphasizeKeywords(t.artist)}</span>
-      ${formatBadge(t)}
-      ${formatMood(t)}
-    </div>
-  `)
-  .join("")}
 
-      `
-      : "";
 }
 
 

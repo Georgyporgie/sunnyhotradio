@@ -1442,19 +1442,35 @@ li.new-track {
   display: inline-block;
   width: 34px;
   height: 34px;
- margin-bottom: -19px;
- margin-left: 8px;
+  margin-bottom: -19px;
+  margin-left: 8px;
   border-radius: 50%;
   background: radial-gradient(circle at center,
-    #111 65%,   /* vinyl body */
-    #222 80%,   /* subtle shine */
-    #000 100%   /* outer edge */
+    #111 65%,
+    #222 80%,
+    #000 100%
   );
   border: 2px solid #000;
   position: relative;
-  animation: spinVinyl 3s linear infinite;
-z-index:-300;
+  z-index: -300;
+
+  /* Groove rings */
+  box-shadow:
+    0 0 0 2px rgba(255,255,255,0.05) inset,
+    0 0 0 4px rgba(255,255,255,0.05) inset,
+    0 0 0 6px rgba(255,255,255,0.05) inset,
+    0 0 0 8px rgba(255,255,255,0.05) inset;
+
+  /* All animations combined */
+  animation:
+    spinVinyl 3s linear infinite,
+    cracklePulse 2.8s infinite ease-in-out,
+    needleJitter 0.18s infinite steps(2),
+    tubeGlow 6s infinite ease-in-out,
+    grooveMod 3.4s infinite ease-in-out;
 }
+
+
 
 /* Center label */
 #vinyl-icon::before {
@@ -1682,3 +1698,40 @@ background: #FF2A2A;
   letter-spacing: 0.5px;
 }
 
+
+
+
+/* Base animation */
+.history-item {
+  opacity: 0;
+  animation: historyFade 0.9s ease-out forwards;
+}
+
+/* Staggered delays */
+.history-item:nth-child(1) { animation-delay: 0ms; }
+.history-item:nth-child(2) { animation-delay: 80ms; }
+.history-item:nth-child(3) { animation-delay: 160ms; }
+.history-item:nth-child(4) { animation-delay: 240ms; }
+.history-item:nth-child(5) { animation-delay: 320ms; }
+.history-item:nth-child(6) { animation-delay: 400ms; }
+.history-item:nth-child(7) { animation-delay: 480ms; }
+.history-item:nth-child(8) { animation-delay: 560ms; }
+.history-item:nth-child(9) { animation-delay: 640ms; }
+.history-item:nth-child(10) { animation-delay: 720ms; }
+
+@keyframes historyFade {
+  0% {
+    opacity: 0;
+    transform: translateY(6px);
+    text-shadow: 0 0 14px rgba(255, 140, 0, 0.6);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(0);
+    text-shadow: 0 0 6px rgba(255, 140, 0, 0.4);
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 0 rgba(255, 140, 0, 0);
+  }
+}
