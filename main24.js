@@ -31907,16 +31907,14 @@ console.log("✨ Shuffled playlist:", trackList.map(t => t.name));
 
 
 
-
 function loadPlaylistForCategory(category) {
   const filtered = trackList.filter(track => track.timeCategory === category);
- 
 
-  console.log("▶ Now playing category:", category, "Playlist:", playlist.map(t => t.name));
+  console.log("▶ Now playing category:", category);
 
-  updatePlaylistImage(category);   // <-- sync playlist image to current show
-  // start playback here
+  updatePlaylistImage(category);
 }
+
 
 
 
@@ -32073,69 +32071,90 @@ function updatePlaylistImage(category) {
   let key = String(category || "")
     .toLowerCase()
     .trim()
-    .replace(/_/g, "-")      // underscores → hyphens
-    .replace(/\s+/g, "-");   // spaces → hyphens
+    .replace(/_/g, "-")
+    .replace(/\s+/g, "-");
 
   console.log("🎛 Normalized category:", key);
 
-  // All shows defined in one place
-  const shows = {
-    "morning":            { name: "Morning Show",        image: "images/morning.jpg" },
-    "afternoon":          { name: "Afternoon Show",      image: "images/afternoon.jpg" },
-    "special-show":       { name: "Special Show",        image: "images/special-show.jpg" },
-    "evening":            { name: "Evening Show",        image: "images/evening.jpg" },
-    "evening-late":       { name: "Evening Late",        image: "images/sunnystar1044.png" },
-    "late":               { name: "Late Night",          image: "images/late.jpg" },
-    "night":              { name: "Night Show",          image: "images/night.jpg" },
+  // Determine current weekday (0 = Sunday, 1 = Monday, ...)
+  const dayIndex = new Date().getDay();
+  const days = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
+  const today = days[dayIndex];
 
-    // ——— YOUR SPECIAL CATEGORIES ———
-    "f-afternoon":        { name: "F Afternoon",         image: "images/f-afternoon.jpg" },
-    "f-evening":          { name: "F Evening",           image: "images/f-evening.jpg" },
-    "f-evening-late":     { name: "F Evening Late",      image: "images/f-evening-late.jpg" },
+  console.log("📅 Today is:", today);
 
-    "seventies":          { name: "Seventies Show",      image: "images/seventies.jpg" },
-    "eighties":           { name: "Eighties Show",       image: "images/eighties.jpg" },
-    "nineties":           { name: "Nineties Show",       image: "images/nineties.jpg" },
+  // WEEKLY SHOW SCHEDULE
+  const weeklyShows = {
+    monday: {
+      "morning": "images/monday-morning.jpg",
+      "afternoon": "images/monday-afternoon.jpg",
+      "evening": "images/monday-evening.jpg",
+      "evening-late": "images/jazzy05.jpg",
+      "f-afternoon": "images/monday-f-afternoon.jpg"
+    },
 
-    "soulshow":           { name: "Soulshow",            image: "images/soulshow.jpg" },
-    "ministry":           { name: "Ministry of Sound",   image: "images/ministry.jpg" },
-    "frankiebones":       { name: "Frankie Bones",       image: "images/frankiebones.jpg" },
+    tuesday: {
+      "morning": "images/tuesday-morning.jpg",
+      "afternoon": "images/tuesday-afternoon.jpg",
+      "evening": "images/tuesday-evening.jpg",
+      "evening-late": "images/jazzy05.jpg"
+    },
 
-    "jingle-time":        { name: "Jingle Time",         image: "images/jingle-time.jpg" },
+wednesday: {
+  "morning": "images/wednesday-morning.jpg",
+  "afternoon": "images/latest Dance hits2.jpg",
+  "evening": "images/latest Dance hits2.jpg",
+  "evening-late": "images/80 s show.jpg",
+"morning": "images/latest Dance hits2.jpg"
+},
 
-    // fallback
-    "unknown":            { name: "Unknown Show",        image: "images/default.jpg" }
+
+    thursday: {
+      "morning": "images/thursday-morning.jpg",
+      "afternoon": "images/thursday-afternoon.jpg",
+      "evening": "images/thursday-evening.jpg",
+      "evening-late": "images/jazzy05.jpg"
+    },
+
+    friday: {
+      "morning": "images/friday-morning.jpg",
+      "afternoon": "images/friday-afternoon.jpg",
+      "evening": "images/friday-evening.jpg",
+      "evening-late": "images/jazzy05.jpg",
+      "f-evening": "images/friday-f-evening.jpg"
+    },
+
+    saturday: {
+      "morning": "images/saturday-morning.jpg",
+      "afternoon": "images/saturday-afternoon.jpg",
+      "f-evening": "images/saturday-evening.jpg",
+      "f-evening-late": "images/saturday-evening.jpg"
+    },
+
+    sunday: {
+      "morning": "images/saturday-morning.jpg",
+      "afternoon": "images/saturday-afternoon.jpg",
+      "f-evening": "images/saturday-evening.jpg",
+      "f-evening-late": "images/saturday-evening.jpg"
+    }
   };
 
-  // Pick show or fallback
-  const show = shows[key] || shows["unknown"];
+  // Try to find today's show image
+  const todayShows = weeklyShows[today] || {};
+  const showImage = todayShows[key];
 
-  if (!shows[key]) {
-    console.warn("⚠ Unknown category:", category, "→ using fallback image");
+  if (showImage) {
+    img.src = showImage;
+    img.alt = `${today} ${key}`;
+    console.log("📻 Weekly show image applied:", showImage);
+    return;
   }
 
-  // Apply image
-  img.src = show.image;
-  img.alt = show.name;
-
-  console.log("📻 Playlist image set to:", show.name, show.image);
+  // Fallback if no match
+  console.warn("⚠ No weekly image for:", today, key, "→ using default");
+  img.src = "images/sunnyradioca.png";
+  img.alt = "Default Show Image";
 }
-
-
-function formatTime(seconds) {
-  const m = Math.floor(seconds / 60);
-  const s = Math.floor(seconds % 60);
-  return `${m}:${s.toString().padStart(2, "0")}`;
-}
-
-
-
-
-
-
-
-
-
 
 
 
@@ -32796,7 +32815,7 @@ function renderLiveLog(currentTrack) {
  document.getElementById("played-before-log").innerHTML =
   history.length > 0
     ? `
-      <strong style="color:red;">Played Before:</strong><br>
+      <strong style="color:red;font-style:italic">played before:</strong><br>
       ${history
         .map(t => `
           <div class="history-item">

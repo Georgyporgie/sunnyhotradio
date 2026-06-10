@@ -1450,7 +1450,7 @@ li.new-track {
     #222 80%,
     #000 100%
   );
-  border: 2px solid #000;
+  border: 1px solid #000;
   position: relative;
   z-index: -300;
 
