@@ -32110,18 +32110,22 @@ wednesday: {
 
 
     thursday: {
-      "morning": "images/thursday-morning.jpg",
-      "afternoon": "images/thursday-afternoon.jpg",
-      "evening": "images/thursday-evening.jpg",
-      "evening-late": "images/jazzy05.jpg"
-    },
+      "morning": "images/sunnyradioca.png",
+      "afternoon": "images/latest Dance hits2.jpg",
+      "eighties": "images/80 s show.jpg",
+"soulshow":      "images/soulshow.jpg",
+"evening-late": "images/jazzy05.jpg",
+"f afternoon":   "images/latest Dance hits2.jpg"
+
+},
 
     friday: {
-      "morning": "images/friday-morning.jpg",
-      "afternoon": "images/friday-afternoon.jpg",
-      "evening": "images/friday-evening.jpg",
-      "evening-late": "images/jazzy05.jpg",
-      "f-evening": "images/friday-f-evening.jpg"
+      "morning": "images/80 s show.jpg",
+      "afternoon": "images/latest Dance hits2.jpg",
+      "frankiebones": "images/frankie-bones_1024.avif",
+"evening": "images/latest Dance hits2.jpg",
+      "evening-late": "images/nineties.jpg",
+      "f-evening": "images/latest Dance hits2.jpg"
     },
 
     saturday: {
