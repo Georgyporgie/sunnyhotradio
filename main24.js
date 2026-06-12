@@ -32095,17 +32095,19 @@ function updatePlaylistImage(category) {
 
     tuesday: {
       "morning": "images/tuesday-morning.jpg",
-      "afternoon": "images/tuesday-afternoon.jpg",
-      "evening": "images/tuesday-evening.jpg",
-      "evening-late": "images/jazzy05.jpg"
+      "afternoon": "images/images/latest Dance hits2.jpg",
+      "evening": "images/latest Dance hits2.jpg",
+      "evening-late": "images/latest Dance hits2.jpg"
     },
 
 wednesday: {
   "morning": "images/wednesday-morning.jpg",
   "afternoon": "images/latest Dance hits2.jpg",
   "evening": "images/latest Dance hits2.jpg",
-  "evening-late": "images/80 s show.jpg",
-"morning": "images/latest Dance hits2.jpg"
+  "evening-late": "monday-morning.jpg",
+"morning": "images/latest Dance hits2.jpg",
+"eighties": "images/80 s show.jpg"
+
 },
 
 
@@ -32123,23 +32125,28 @@ wednesday: {
       "morning": "images/80 s show.jpg",
       "afternoon": "images/latest Dance hits2.jpg",
       "frankiebones": "images/frankie-bones_1024.avif",
-"evening": "images/latest Dance hits2.jpg",
-      "evening-late": "images/nineties.jpg",
-      "f-evening": "images/latest Dance hits2.jpg"
-    },
+      "evening-late": "images/latest Dance hits2.jpg",
+      "f-afternoon": "images/latest Dance hits2.jpg",
+    "nineties":"images/nineties.jpg"
+
+
+},
 
     saturday: {
       "morning": "images/saturday-morning.jpg",
-      "afternoon": "images/saturday-afternoon.jpg",
-      "f-evening": "images/saturday-evening.jpg",
-      "f-evening-late": "images/saturday-evening.jpg"
-    },
+      "f-afternoon": "images/latest Dance hits2.jpg",
+      "f-evening": "images/jazzy05.jpg",
+      "f-evening-late": "images/saturday-evening.jpg",
+    "ministry": "images/Ministry-of-Sound-Logo.jpg"
+
+},
 
     sunday: {
-      "morning": "images/saturday-morning.jpg",
-      "afternoon": "images/saturday-afternoon.jpg",
-      "f-evening": "images/saturday-evening.jpg",
-      "f-evening-late": "images/saturday-evening.jpg"
+   "morning": "images/saturday-morning.jpg",
+      "f-afternoon": "images/latest Dance hits2.jpg",
+      "f-evening": "images/jazzy05.jpg",
+      "f-evening-late": "images/saturday-evening.jpg",
+    "seventies": "images/seventies.webp"
     }
   };
 

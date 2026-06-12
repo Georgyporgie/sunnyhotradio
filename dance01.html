@@ -103,8 +103,8 @@ body {
     
   <a href="https://sunnyhotradio.com/Index.html">HOME<img id= "dwarf"></a>
 
-    <a href="https://sunnyrockradio.com/rock01.html">SUNNY <em>ROCK</em> RADIO<img id= "lin"></a>
-  <a href="https://sunnyjazzradio.com/jazz01.html">SUNNY <em>JAZZ</em> RADIO<img id= "linger"></a>
+    <a href="https://sunnyrockradio.com/index.html">SUNNY <em>ROCK</em> RADIO<img id= "lin"></a>
+  <a href="https://sunnyjazzradio.com/index.html">SUNNY <em>JAZZ</em> RADIO<img id= "linger"></a>
 
 
 
@@ -323,25 +323,6 @@ document.addEventListener("DOMContentLoaded", scheduleHourlyFlash);
 <br>
 <img id="playlist">
 
-<script>
-const images = [
-
- "images/sunnyradioca.png",
- "images/sunnystar1044..png",
- "images/Sunny playlist2.png"
-];
-
-// Days since Jan 1, 1970
-const daysSinceEpoch = Math.floor(Date.now() / (1000 * 60 * 60 * 24));
-
-// Pick image based on day number
-const index = daysSinceEpoch % images.length;
-const imageOfTheDay = images[index];
-
-console.log("Image of the day:", imageOfTheDay);
-
-document.getElementById("playlist").src = imageOfTheDay;
-</script>
 
 
 
@@ -1836,8 +1817,8 @@ function getCurrentTimeCategory() {
   ];
 
   const categoriesPerDay = {
-    0: { morning:["f afternoon"], afternoon:["f evening"], "special-show":["seventies"], evening:["f afternoon"], "evening-late":["nineties"], late:["f afternoon"], night:["jingle-time"] },
-    1: { morning:["morning"], afternoon:["afternoon"], "special-show":["nineties"], evening:["evening"], "evening-late":["afternoon"], late:["evening-late"], night:["jingle-time"] },
+    0: { morning:["f afternoon"], afternoon:["f evening"], "special-show":["seventies"], evening:["f afternoon"], "evening-late":["nineties"], late:["f evening-late"], night:["jingle-time"] },
+    1: { morning:["morning"], afternoon:["afternoon"], "special-show":["morning"], evening:["evening"], "evening-late":["afternoon"], late:["evening-late"], night:["jingle-time"] },
     2: { morning:["evening-late"], afternoon:["evening"], "special-show":["evening-late"], evening:["afternoon"], "evening-late":["morning"], late:["evening-late"], night:["jingle-time"] },
     3: { morning:["evening-late"], afternoon:["evening"], "special-show":["afternoon"], evening:["evening-late"], "evening-late":["eighties"], late:["morning"], night:["jingle-time"] },
     4: { morning:["morning"], afternoon:["evening-late"], "special-show":["eighties"], evening:["afternoon"], "evening-late":["soulshow"], late:["f afternoon"], night:["jingle-time"] },
