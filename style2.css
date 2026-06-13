@@ -878,7 +878,7 @@ margin-top: 50px; margin-left: 5px;height: 50px; width: 48px;
 
 
 
-#record  { position: absolute; filter: brightness(100%) saturate(100%) contrast(105%) opacity(70%);  z-index: 0;
+#record  { position: absolute; filter: brightness(100%) saturate(100%) contrast(105%) opacity(60%);  z-index: 0;
 
 
 
@@ -887,7 +887,7 @@ margin-top: 50px; margin-left: 10px;height: 45px; width: 50px;
 }
 
 
-#rec  { filter: brightness(100%) saturate(100%) contrast(105%) opacity(70%);  z-index: -1200;
+#rec  { filter: brightness(100%) saturate(100%) contrast(105%) opacity(60%);  z-index: -1200;
 
 
 
@@ -1047,11 +1047,11 @@ width: 355px; height: 370px;
   height: 125px;
   margin: -30px auto 0px auto;
   display: block;
-  border-radius: 5px;
+  
   border: solid 1px #FF0000;
   filter: brightness(105%) saturate(105%) contrast(105%) opacity(75%);
   position: relative;
-  z-index: -1200;
+  z-index: 0;
 
 
 }
@@ -1442,7 +1442,8 @@ li.new-track {
   display: inline-block;
   width: 34px;
   height: 34px;
-  margin-bottom: -19px;
+ 
+ margin-bottom: -19px;
   margin-left: 8px;
   border-radius: 50%;
   background: radial-gradient(circle at center,
