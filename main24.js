@@ -70,9 +70,29 @@ function initAudioChain() {
   }
 }
 function applyEQ(eq) {
-  eqNodes = []; // do nothing
-}
+  eqNodes.forEach(n => n.disconnect());
+  eqNodes = [];
 
+  if (!eq) return;
+
+  const bass = audioCtx.createBiquadFilter();
+  bass.type = "lowshelf";
+  bass.frequency.value = 200;
+  bass.gain.value = eq.bass || 0;
+
+  const mid = audioCtx.createBiquadFilter();
+  mid.type = "peaking";
+  mid.frequency.value = 1000;
+  mid.Q.value = 1;
+  mid.gain.value = eq.mid || 0;
+
+  const treble = audioCtx.createBiquadFilter();
+  treble.type = "highshelf";
+  treble.frequency.value = 3000;
+  treble.gain.value = eq.treble || 0;
+
+  eqNodes = [bass, mid, treble];
+}
 
 
 // ── Shuffle Helper ──
@@ -32274,20 +32294,57 @@ function loadTrack(index) {
     }
   });
 
-  // -----------------------------
-  // UI UPDATES (with keyword emphasis)
-  // -----------------------------
-  track_name.innerHTML = emphasizeKeywords(track.name);
-  track_artist.innerHTML = emphasizeKeywords(track.artist);
+  
 
-  playedTracks.push({
-    name: track.name,
-    artist: track.artist,
-    path: track.path,
-    timestamp: new Date()
-  });
 
-  renderLiveLog(track);
+
+
+
+
+// -----------------------------
+  // FADE FUNCTION
+  // -----------------------------
+  function fadeOut(audio, duration, targetVolume = 0) {
+    const startVolume = audio.volume;
+    const steps = 30;
+    const stepTime = duration / steps;
+    let step = 0;
+
+    const fade = setInterval(() => {
+      step++;
+      const progress = step / steps;
+      const eased = 1 - Math.pow(1 - progress, 3);
+
+      audio.volume = startVolume - (startVolume - targetVolume) * eased;
+
+      if (step >= steps) {
+        clearInterval(fade);
+        audio.volume = targetVolume;
+      }
+    }, stepTime);
+  }
+
+  // -----------------------------
+  // UI UPDATES
+  // -----------------------------
+// UI UPDATES (with keyword emphasis)
+track_name.innerHTML = emphasizeKeywords(track.name);
+track_artist.innerHTML = emphasizeKeywords(track.artist);
+
+playedTracks.push({
+  name: track.name,
+  artist: track.artist,
+  path: track.path,          // ✅ add this
+  timestamp: new Date()
+});
+
+
+renderLiveLog(track);
+  
+
+
+
+
 
   // -----------------------------
   // SEEK TIMER
@@ -32335,6 +32392,14 @@ function loadTrack(index) {
   audio.load();
   return audio;
 }
+
+
+
+
+
+
+
+
 
 
 
