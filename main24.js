@@ -32086,25 +32086,25 @@ function updatePlaylistImage(category) {
   // WEEKLY SHOW SCHEDULE
   const weeklyShows = {
     monday: {
-      "morning": "images/monday-morning.jpg",
-      "afternoon": "images/monday-afternoon.jpg",
-      "evening": "images/monday-evening.jpg",
+      "morning": "images/sunnyradioca.png",
+      "afternoon": "images/sunnyradioca.png",
+      "evening": "images/sunnyradioca.png",
       "evening-late": "images/jazzy05.jpg",
-      "f-afternoon": "images/monday-f-afternoon.jpg"
+      "f-afternoon": "images/sunnyradioca.png"
     },
 
     tuesday: {
-      "morning": "images/tuesday-morning.jpg",
+      "morning": "images/sunnyradioca.png",
       "afternoon": "images/images/latest Dance hits2.jpg",
       "evening": "images/latest Dance hits2.jpg",
       "evening-late": "images/latest Dance hits2.jpg"
     },
 
 wednesday: {
-  "morning": "images/wednesday-morning.jpg",
+  "morning": "images/sunnyradioca.png",
   "afternoon": "images/latest Dance hits2.jpg",
   "evening": "images/latest Dance hits2.jpg",
-  "evening-late": "monday-morning.jpg",
+  "evening-late": "images/sunnyradioca.png",
 "morning": "images/latest Dance hits2.jpg",
 "eighties": "images/80 s show.jpg"
 
@@ -32133,19 +32133,19 @@ wednesday: {
 },
 
     saturday: {
-      "morning": "images/saturday-morning.jpg",
+      "morning": "images/sunnyradioca.png",
       "f-afternoon": "images/latest Dance hits2.jpg",
       "f-evening": "images/jazzy05.jpg",
-      "f-evening-late": "images/saturday-evening.jpg",
+      "f-evening-late": "images/latest Dance hits2.jpg",
     "ministry": "images/Ministry-of-Sound-Logo.jpg"
 
 },
 
     sunday: {
-   "morning": "images/saturday-morning.jpg",
+   "morning": "images/sunnyradioca.png",
       "f-afternoon": "images/latest Dance hits2.jpg",
       "f-evening": "images/jazzy05.jpg",
-      "f-evening-late": "images/saturday-evening.jpg",
+      "f-evening-late": "images/latest Dance hits2.jpg",
     "seventies": "images/seventies.webp"
     }
   };
