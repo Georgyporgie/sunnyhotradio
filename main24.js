@@ -27531,6 +27531,17 @@ quickFade: true
 
 
 
+{
+     name: "Broadcast Amsterdam☀️",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "f afternoon",
+playcount: 0
+   
+
+
+},
 
 
 
@@ -29276,6 +29287,17 @@ timeCategory: "f evening",
 
 
 
+{
+     name: "Broadcast Amsterdam☀️",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "f evening",
+playcount: 0
+   
+
+
+},
 
 
 {
@@ -30730,6 +30752,17 @@ timeCategory: "f evening-late"
 
 
 
+{
+     name: "Broadcast Amsterdam☀️",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "f evening-late",
+playcount: 0
+   
+
+
+},
 
 
 {
