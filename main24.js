@@ -32243,14 +32243,7 @@ function loadTrack(index) {
     return;
   }
 
-  
-  // ⭐ EQ logic for DanceRadio
-  const needsEQ = !!track.eq;
-  applyEQ(needsEQ ? track.eq : null);
-
-
-
-console.log("🎧 Loading track:", cleanURL(track.path));
+  console.log("🎧 Loading track:", cleanURL(track.path));
 
   // Create audio element
   const audio = new Audio(cleanURL(track.path));
@@ -32837,9 +32830,9 @@ function renderLiveLog(currentTrack) {
         .map(t => `
           <div class="history-item">
             <span style="color:#FF4500;">${t.name}</span>
-            <span style="color:silver;"> by </span>
-           <span style="color:#FF4500; font-style: italic;">${t.artist}</span>
+            <span style="color:#ffb300;">${emphasizeKeywords(stripAllParentheses(currentTrack.artist))}</span>
 
+            <span style="color:#FF4500;">${t.artist}</span>
             ${formatBadge(t)}
             ${formatMood(t)}
           </div>
