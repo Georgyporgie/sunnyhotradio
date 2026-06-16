@@ -31907,13 +31907,12 @@ console.log("✨ Shuffled playlist:", trackList.map(t => t.name));
 
 
 
-
 function loadPlaylistForCategory(category) {
   const filtered = trackList.filter(track => track.timeCategory === category);
- const playlist = sortAndShuffle(trackList.filter(track => track.timeCategory === category));
 
-  console.log("▶ Now playing category:", category, "Playlist:", playlist.map(t => t.name));
-  // start playback here
+  console.log("▶ Now playing category:", category);
+
+  updatePlaylistImage(category);
 }
 
 
