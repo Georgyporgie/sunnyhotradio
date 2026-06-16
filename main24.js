@@ -5675,7 +5675,15 @@ playcount: 0
 
 },
 
-
+{
+     name: " 100% Pure Love",
+    artist: "Crystal Waters  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Crystal Waters - 100% Pure Love.mp3",
+    timeCategory: "nineties",
+  volumeBoost: 0.25,
+  playcount: 0
+},
 
 {
     name: " The Age Of Love",
@@ -12171,8 +12179,8 @@ timeCategory: "afternoon"
 
 
 {
-     name: "   Ocean ",
-    artist: "Calvin Harris",
+     name: " Alarmschijf",
+    artist: "Sunny ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Calvin Harris -  Ocean.mp3",
  timeCategory: "afternoon"
@@ -12723,7 +12731,15 @@ volumeBoost: 0.25
 
 
 
-
+{
+     name: " 100% Pure Love",
+    artist: "Crystal Waters  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Crystal Waters - 100% Pure Love.mp3",
+    timeCategory: "afternoon",
+  volumeBoost: 0.25,
+  playcount: 0
+},
 
 
 
@@ -18318,11 +18334,9 @@ quickFade: true,
 },
 
 
-
-
 {
-     name: "   Ocean ",
-    artist: "Calvin Harris",
+     name: " Alarmschijf",
+    artist: "Sunny ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Calvin Harris -  Ocean.mp3",
  timeCategory: "evening"
@@ -27166,8 +27180,8 @@ year:2022
 
 
 {
-     name: "   Ocean ",
-    artist: "Calvin Harris",
+     name: " Alarmschijf",
+    artist: "Sunny ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Calvin Harris -  Ocean.mp3",
  timeCategory: "f afternoon"
@@ -27517,17 +27531,6 @@ quickFade: true
 
 
 
-{
-     name: "Broadcast Amsterdam☀️",
-    artist: "Sunny",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "audio/Broadcast Amsterdam2.mp3",
-    timeCategory: "f afternoon",
-playcount: 0
-   
-
-
-},
 
 
 
@@ -29273,17 +29276,6 @@ timeCategory: "f evening",
 
 
 
-{
-     name: "Broadcast Amsterdam☀️",
-    artist: "Sunny",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "audio/Broadcast Amsterdam2.mp3",
-    timeCategory: "f evening",
-playcount: 0
-   
-
-
-},
 
 
 {
@@ -29969,8 +29961,13 @@ volumeBoost: 0.40
   isNew: true
 },
 
-
-
+{
+     name: " Alarmschijf",
+    artist: "Sunny ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Calvin Harris -  Ocean.mp3",
+ timeCategory: "f evening"
+},
 
 
 
@@ -30649,6 +30646,15 @@ timeCategory: "f evening-late"
 
 
 
+{
+     name: " 100% Pure Love",
+    artist: "Crystal Waters  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Crystal Waters - 100% Pure Love.mp3",
+    timeCategory: "f evening-late",
+  volumeBoost: 0.25,
+  playcount: 0
+},
 
 
 {
@@ -30724,17 +30730,6 @@ timeCategory: "f evening-late"
 
 
 
-{
-     name: "Broadcast Amsterdam☀️",
-    artist: "Sunny",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "audio/Broadcast Amsterdam2.mp3",
-    timeCategory: "f evening-late",
-playcount: 0
-   
-
-
-},
 
 
 {
@@ -30924,7 +30919,13 @@ playcount: 0
 
 
 
-
+{
+     name: " Alarmschijf",
+    artist: "Sunny ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Calvin Harris -  Ocean.mp3",
+ timeCategory: "f evening-late"
+},
 
 
 
@@ -31906,20 +31907,14 @@ console.log("✨ Shuffled playlist:", trackList.map(t => t.name));
 
 
 
+
 function loadPlaylistForCategory(category) {
   const filtered = trackList.filter(track => track.timeCategory === category);
+ const playlist = sortAndShuffle(trackList.filter(track => track.timeCategory === category));
 
-  console.log("▶ Now playing category:", category);
-
-  updatePlaylistImage(category);
+  console.log("▶ Now playing category:", category, "Playlist:", playlist.map(t => t.name));
+  // start playback here
 }
-
-
-
-
-
-
-
 
 
 // 4. Runtime
@@ -32062,109 +32057,24 @@ trackList.forEach((track, i) => {
 
 
 
-function updatePlaylistImage(category) {
-  const img = document.getElementById("playlist");
-  if (!img) return;
-
-  // Normalize category input
-  let key = String(category || "")
-    .toLowerCase()
-    .trim()
-    .replace(/_/g, "-")
-    .replace(/\s+/g, "-");
-
-  console.log("🎛 Normalized category:", key);
-
-  // Determine current weekday (0 = Sunday, 1 = Monday, ...)
-  const dayIndex = new Date().getDay();
-  const days = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
-  const today = days[dayIndex];
-
-  console.log("📅 Today is:", today);
-
-  // WEEKLY SHOW SCHEDULE
-  const weeklyShows = {
-    monday: {
-      "morning": "images/sunnyradioca.png",
-      "afternoon": "images/sunnyradioca.png",
-      "evening": "images/sunnyradioca.png",
-      "evening-late": "images/jazzy05.jpg",
-      "f-afternoon": "images/sunnyradioca.png"
-    },
-
-    tuesday: {
-      "morning": "images/sunnyradioca.png",
-      "afternoon": "images/latest Dance hits2.jpg",
-      "evening": "images/latest Dance hits2.jpg",
-      "evening-late": "images/latest Dance hits2.jpg"
-    },
-
-wednesday: {
-  "morning": "images/sunnyradioca.png",
-  "afternoon": "images/latest Dance hits2.jpg",
-  "evening": "images/latest Dance hits2.jpg",
-  "evening-late": "images/sunnyradioca.png",
-"morning": "images/latest Dance hits2.jpg",
-"eighties": "images/80 s show.jpg"
-
-},
 
 
-    thursday: {
-      "morning": "images/sunnyradioca.png",
-      "afternoon": "images/latest Dance hits2.jpg",
-      "eighties": "images/80 s show.jpg",
-"soulshow":      "images/soulshow.jpg",
-"evening-late": "images/jazzy05.jpg",
-"f afternoon":   "images/latest Dance hits2.jpg"
-
-},
-
-    friday: {
-      "morning": "images/80 s show.jpg",
-      "afternoon": "images/latest Dance hits2.jpg",
-      "frankiebones": "images/frankie-bones_1024.avif",
-      "evening-late": "images/latest Dance hits2.jpg",
-      "f-afternoon": "images/latest Dance hits2.jpg",
-    "nineties":"images/nineties.jpg"
 
 
-},
-
-    saturday: {
-      "morning": "images/sunnyradioca.png",
-      "f-afternoon": "images/latest Dance hits2.jpg",
-      "f-evening": "images/jazzy05.jpg",
-      "f-evening-late": "images/latest Dance hits2.jpg",
-    "ministry": "images/Ministry-of-Sound-Logo.jpg"
-
-},
-
-    sunday: {
-   "morning": "images/sunnyradioca.png",
-      "f-afternoon": "images/latest Dance hits2.jpg",
-      "f-evening": "images/jazzy05.jpg",
-      "f-evening-late": "images/latest Dance hits2.jpg",
-    "seventies": "images/seventies.webp"
-    }
-  };
-
-  // Try to find today's show image
-  const todayShows = weeklyShows[today] || {};
-  const showImage = todayShows[key];
-
-  if (showImage) {
-    img.src = showImage;
-    img.alt = `${today} ${key}`;
-    console.log("📻 Weekly show image applied:", showImage);
-    return;
-  }
-
-  // Fallback if no match
-  console.warn("⚠ No weekly image for:", today, key, "→ using default");
-  img.src = "images/sunnyradioca.png";
-  img.alt = "Default Show Image";
+function formatTime(seconds) {
+  const m = Math.floor(seconds / 60);
+  const s = Math.floor(seconds % 60);
+  return `${m}:${s.toString().padStart(2, "0")}`;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -32465,7 +32375,7 @@ function playTrack() {
   // … your existing UI logic …
 
 
-
+  onTrackStart(curr_track);        // updates UI for the actual track
 
 
 }
@@ -32736,6 +32646,31 @@ console.log("Real track list:", realTracks.map(getName));
 
 
 
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.getElementById("show-more-button");
+  const trackListContainer = document.getElementById("track-list-container");
+
+  let visibleCount = 0;
+  const groupSize = 20;
+
+  function updateVisibleTracks() {
+    const tracks = trackListContainer.querySelectorAll("li");
+    if (!tracks || tracks.length === 0) return;
+    tracks.forEach((track, index) => {
+      track.style.display = index < visibleCount ? "block" : "none";
+    });
+  }
+
+
+
+  // Playlist starts open
+  trackListContainer.style.display = "block";
+
+  btn.addEventListener("click", () => {
+    visibleCount += groupSize;
+    updateVisibleTracks();
+  });
+});
 
 
 
@@ -32767,13 +32702,9 @@ console.log("Real track list:", realTracks.map(getName));
 
 
 
-// 🔧 Helper: remove ALL ( ... ) blocks
-function stripAllParentheses(text) {
-  if (!text) return "";
-  return text.replace(/\([^)]*\)/g, "").trim();
-}
 
-// 🎵 Live Log Renderer
+
+
 function renderLiveLog(currentTrack) {
   const formatBadge = (track) => {
     if (!track.type) return "";
@@ -32785,72 +32716,72 @@ function renderLiveLog(currentTrack) {
     return `<span class="mood mood-${track.mood}">${track.mood}</span>`;
   };
 
-  const excludedTypes = ["classic", "new", "12inch", "maxi"];
+const excludedTypes = ["classic", "new", "12inch", "maxi"];
 
-  const history = playedTracks
-    .slice(0, -1)
-    .filter(t => {
-      const p = t.path?.toLowerCase() || "";
-      const type = (t.type || "").toLowerCase();
+const history = playedTracks
+  .slice(0, -1)
+  .filter(t => {
+    const p = t.path?.toLowerCase() || "";
 
-      return (
-        !p.includes("jingle") &&
-        !p.includes("discjockeys") &&
-        !p.includes("sunny ship") &&
-        !p.includes("audio") &&
-        !excludedTypes.includes(type)
-      );
-    })
-    .reverse()
-    .slice(0, 10);
+    return (
+      !p.includes("jingle") &&
+      !p.includes("discjockeys") &&
+      !p.includes("sunny ship") &&
+      !p.includes("audio") &&
+      !excludedTypes.includes(t.type)
+    );
+  })
+  .reverse()
+  .slice(0, 10);
+
+
+
+
+
+
+
+
+
 
   // ⭐ NOW PLAYING
-  document.getElementById("now-playing-log").innerHTML = `
-    <span style="color:#ffb300;">${emphasizeKeywords(stripAllParentheses(currentTrack.name))}</span>
-    <span style="color:#FF2A2A;"> by </span>
-    <span style="color:#ffb300;">${emphasizeKeywords(stripAllParentheses(currentTrack.artist))}</span>
-    ${formatBadge(currentTrack)}
-    ${formatMood(currentTrack)}
-    <br>
-    ${
-      currentTrack.path &&
-      !currentTrack.path.toLowerCase().includes("jingle") &&
-      !currentTrack.path.toLowerCase().includes("discjockeys") &&
-      !currentTrack.path.toLowerCase().includes("sunny ship")
-        ? `<span id="vinyl-icon"></span>`
-        : ""
-    }
-  `;
-
- document.getElementById("played-before-log").innerHTML =
-  history.length > 0
-    ? `
-      <strong style="color:red;font-style:italic">played before:</strong><br>
-      ${history
-        .map(t => `
-          <div class="history-item">
-            <span style="color:#FF4500;">${t.name}</span>
-            <span style="color:#ffb300;">${emphasizeKeywords(stripAllParentheses(currentTrack.artist))}</span>
-
-            <span style="color:#FF4500;">${t.artist}</span>
-            ${formatBadge(t)}
-            ${formatMood(t)}
-          </div>
-        `)
-        .join("")}
-    `
-    : "";
-
-// ⭐ Add randomized stagger delays
-document.querySelectorAll(".history-item").forEach((item, i) => {
-  const randomOffset = Math.floor(Math.random() * 120);
-  const baseDelay = i * 80;
-  item.style.setProperty("--delay", `${baseDelay + randomOffset}ms`);
-});
+document.getElementById("now-playing-log").innerHTML = `
+  <span style="color:#ffb300;">${emphasizeKeywords(currentTrack.name)}</span>
+  <span style="color:#FF2A2A;"> by </span>
+  <span style="color:#ffb300;">${emphasizeKeywords(currentTrack.artist)}</span>
+  ${formatBadge(currentTrack)}
+  ${formatMood(currentTrack)}
+  <br>
+  ${
+    currentTrack.path &&
+    !currentTrack.path.toLowerCase().includes("jingle") &&
+    !currentTrack.path.toLowerCase().includes("discjockeys") &&
+    !currentTrack.path.toLowerCase().includes("sunny ship")
+      ? `<span id="vinyl-icon"></span>`
+      : ""
+  }
+`;
 
 
+  // ⭐ PLAYED BEFORE
+  document.getElementById("played-before-log").innerHTML =
+    history.length > 0
+      ? `
+       <strong style="color:#FF2A2A; font-style:italic;">Played Before:</strong><br><br>
 
+${history
+  .map(t => `
+    <div class="history-item" style="margin-bottom: 10px;">
+      <span style="color:#FF4500;">${emphasizeKeywords(t.name)}</span>
+      <span style="color:#2B2B2E;"> by </span>
+      <span style="color:#FF4500;">${emphasizeKeywords(t.artist)}</span>
+      ${formatBadge(t)}
+      ${formatMood(t)}
+    </div>
+  `)
+  .join("")}
 
+      `
+      : "";
 }
 
 
