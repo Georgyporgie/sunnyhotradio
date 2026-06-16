@@ -32875,7 +32875,7 @@ ${history
   .map(t => `
     <div class="history-item" style="margin-bottom: 10px;">
       <span style="color:#FF4500;">${emphasizeKeywords(t.name)}</span>
-      <span style="color:#2B2B2E;"> by </span>
+      <span style="color:silver;"> by </span>
       <span style="color:#FF4500;">${emphasizeKeywords(t.artist)}</span>
       ${formatBadge(t)}
       ${formatMood(t)}
