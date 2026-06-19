@@ -32855,19 +32855,20 @@ document.getElementById("now-playing-log").innerHTML = `
   document.getElementById("played-before-log").innerHTML =
     history.length > 0
       ? `
-       <strong style="color:#FF2A2A; font-style:italic;">Played Before:</strong><br><br>
+       <strong style="color:#FF2A2A; font-style:italic;">played before:</strong><br><br>
 
 ${history
   .map(t => `
     <div class="history-item" style="margin-bottom: 10px;">
-      <span style="color:#FF4500;">${emphasizeKeywords(t.name)}</span>
+      <span style="color:#FF4500;">${emphasizeKeywords(stripAllParentheses(t.name))}</span>
       <span style="color:#C0c0c0;"> by </span>
-      <span style="color:#FF4500;">${emphasizeKeywords(t.artist)}</span>
+      <span style="color:#FF4500;">${emphasizeKeywords(stripAllParentheses(t.artist))}</span>
       ${formatBadge(t)}
       ${formatMood(t)}
     </div>
   `)
   .join("")}
+
 
       `
       : "";
