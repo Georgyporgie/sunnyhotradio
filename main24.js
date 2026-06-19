@@ -70,9 +70,29 @@ function initAudioChain() {
   }
 }
 function applyEQ(eq) {
-  eqNodes = []; // do nothing
-}
+  eqNodes.forEach(n => n.disconnect());
+  eqNodes = [];
 
+  if (!eq) return;
+
+  const bass = audioCtx.createBiquadFilter();
+  bass.type = "lowshelf";
+  bass.frequency.value = 200;
+  bass.gain.value = eq.bass || 0;
+
+  const mid = audioCtx.createBiquadFilter();
+  mid.type = "peaking";
+  mid.frequency.value = 1000;
+  mid.Q.value = 1;
+  mid.gain.value = eq.mid || 0;
+
+  const treble = audioCtx.createBiquadFilter();
+  treble.type = "highshelf";
+  treble.frequency.value = 3000;
+  treble.gain.value = eq.treble || 0;
+
+  eqNodes = [bass, mid, treble];
+}
 
 
 // ── Shuffle Helper ──
@@ -5655,7 +5675,15 @@ playcount: 0
 
 },
 
-
+{
+     name: " 100% Pure Love",
+    artist: "Crystal Waters  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Crystal Waters - 100% Pure Love.mp3",
+    timeCategory: "nineties",
+  volumeBoost: 0.25,
+  playcount: 0
+},
 
 {
     name: " The Age Of Love",
@@ -11291,7 +11319,7 @@ quickFade: true,
     path: "https://dancemusic09.netlify.app/Dua Lipa - Toxic Love.mp3",
            timeCategory: "afternoon",
       quickFade: true,
-    volumeBoost: 0.35,
+    volumeBoost: 0.15,
     playcount: 0
 },
 
@@ -12703,7 +12731,15 @@ volumeBoost: 0.25
 
 
 
-
+{
+     name: " 100% Pure Love",
+    artist: "Crystal Waters  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Crystal Waters - 100% Pure Love.mp3",
+    timeCategory: "afternoon",
+  volumeBoost: 0.25,
+  playcount: 0
+},
 
 
 
@@ -18388,16 +18424,6 @@ quickFade: true,
 
 
 
-{
-     name: "   Toxic Love",
-    artist: "Dua Lipa",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Dua Lipa - Toxic Love.mp3",
-           timeCategory: "evening",
-      quickFade: true,
-    volumeBoost: 0.35,
-    playcount: 0
-},
 
 
 
@@ -27495,17 +27521,6 @@ quickFade: true
 
 
 
-{
-     name: "Broadcast Amsterdam☀️",
-    artist: "Sunny",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "audio/Broadcast Amsterdam2.mp3",
-    timeCategory: "f afternoon",
-playcount: 0
-   
-
-
-},
 
 
 
@@ -29251,17 +29266,6 @@ timeCategory: "f evening",
 
 
 
-{
-     name: "Broadcast Amsterdam☀️",
-    artist: "Sunny",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "audio/Broadcast Amsterdam2.mp3",
-    timeCategory: "f evening",
-playcount: 0
-   
-
-
-},
 
 
 {
@@ -29767,16 +29771,7 @@ volumeBoost: 0.65,
        timeCategory: "f evening"
 },
 
-{
-     name: "   Toxic Love ",
-    artist: "Dua Lipa",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Dua Lipa - Toxic Love.mp3",
-           timeCategory: "f evening",
-      quickFade: true,
-    volumeBoost: 0.35,
-    playcount: 0
-},
+
 
 
 
@@ -30632,6 +30627,15 @@ timeCategory: "f evening-late"
 
 
 
+{
+     name: " 100% Pure Love",
+    artist: "Crystal Waters  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Crystal Waters - 100% Pure Love.mp3",
+    timeCategory: "f evening-late",
+  volumeBoost: 0.25,
+  playcount: 0
+},
 
 
 {
@@ -30707,17 +30711,6 @@ timeCategory: "f evening-late"
 
 
 
-{
-     name: "Broadcast Amsterdam☀️",
-    artist: "Sunny",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "audio/Broadcast Amsterdam2.mp3",
-    timeCategory: "f evening-late",
-playcount: 0
-   
-
-
-},
 
 
 {
@@ -31904,13 +31897,6 @@ function loadPlaylistForCategory(category) {
 }
 
 
-
-
-
-
-
-
-
 // 4. Runtime
 let currentCategory = null;
 setInterval(() => {
@@ -32051,109 +32037,24 @@ trackList.forEach((track, i) => {
 
 
 
-function updatePlaylistImage(category) {
-  const img = document.getElementById("playlist");
-  if (!img) return;
-
-  // Normalize category input
-  let key = String(category || "")
-    .toLowerCase()
-    .trim()
-    .replace(/_/g, "-")
-    .replace(/\s+/g, "-");
-
-  console.log("🎛 Normalized category:", key);
-
-  // Determine current weekday (0 = Sunday, 1 = Monday, ...)
-  const dayIndex = new Date().getDay();
-  const days = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
-  const today = days[dayIndex];
-
-  console.log("📅 Today is:", today);
-
-  // WEEKLY SHOW SCHEDULE
-  const weeklyShows = {
-    monday: {
-      "morning": "images/sunnyradioca.png",
-      "afternoon": "images/sunnyradioca.png",
-      "evening": "images/sunnyradioca.png",
-      "evening-late": "images/jazzy05.jpg",
-      "f-afternoon": "images/sunnyradioca.png"
-    },
-
-    tuesday: {
-      "morning": "images/sunnyradioca.png",
-      "afternoon": "images/images/latest Dance hits2.jpg",
-      "evening": "images/latest Dance hits2.jpg",
-      "evening-late": "images/latest Dance hits2.jpg"
-    },
-
-wednesday: {
-  "morning": "images/sunnyradioca.png",
-  "afternoon": "images/latest Dance hits2.jpg",
-  "evening": "images/latest Dance hits2.jpg",
-  "evening-late": "images/sunnyradioca.png",
-"morning": "images/latest Dance hits2.jpg",
-"eighties": "images/80 s show.jpg"
-
-},
 
 
-    thursday: {
-      "morning": "images/sunnyradioca.png",
-      "afternoon": "images/latest Dance hits2.jpg",
-      "eighties": "images/80 s show.jpg",
-"soulshow":      "images/soulshow.jpg",
-"evening-late": "images/jazzy05.jpg",
-"f afternoon":   "images/latest Dance hits2.jpg"
-
-},
-
-    friday: {
-      "morning": "images/80 s show.jpg",
-      "afternoon": "images/latest Dance hits2.jpg",
-      "frankiebones": "images/frankie-bones_1024.avif",
-      "evening-late": "images/latest Dance hits2.jpg",
-      "f-afternoon": "images/latest Dance hits2.jpg",
-    "nineties":"images/nineties.jpg"
 
 
-},
-
-    saturday: {
-      "morning": "images/sunnyradioca.png",
-      "f-afternoon": "images/latest Dance hits2.jpg",
-      "f-evening": "images/jazzy05.jpg",
-      "f-evening-late": "images/latest Dance hits2.jpg",
-    "ministry": "images/Ministry-of-Sound-Logo.jpg"
-
-},
-
-    sunday: {
-   "morning": "images/sunnyradioca.png",
-      "f-afternoon": "images/latest Dance hits2.jpg",
-      "f-evening": "images/jazzy05.jpg",
-      "f-evening-late": "images/latest Dance hits2.jpg",
-    "seventies": "images/seventies.webp"
-    }
-  };
-
-  // Try to find today's show image
-  const todayShows = weeklyShows[today] || {};
-  const showImage = todayShows[key];
-
-  if (showImage) {
-    img.src = showImage;
-    img.alt = `${today} ${key}`;
-    console.log("📻 Weekly show image applied:", showImage);
-    return;
-  }
-
-  // Fallback if no match
-  console.warn("⚠ No weekly image for:", today, key, "→ using default");
-  img.src = "images/sunnyradioca.png";
-  img.alt = "Default Show Image";
+function formatTime(seconds) {
+  const m = Math.floor(seconds / 60);
+  const s = Math.floor(seconds % 60);
+  return `${m}:${s.toString().padStart(2, "0")}`;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -32274,20 +32175,57 @@ function loadTrack(index) {
     }
   });
 
-  // -----------------------------
-  // UI UPDATES (with keyword emphasis)
-  // -----------------------------
-  track_name.innerHTML = emphasizeKeywords(track.name);
-  track_artist.innerHTML = emphasizeKeywords(track.artist);
+  
 
-  playedTracks.push({
-    name: track.name,
-    artist: track.artist,
-    path: track.path,
-    timestamp: new Date()
-  });
 
-  renderLiveLog(track);
+
+
+
+
+// -----------------------------
+  // FADE FUNCTION
+  // -----------------------------
+  function fadeOut(audio, duration, targetVolume = 0) {
+    const startVolume = audio.volume;
+    const steps = 30;
+    const stepTime = duration / steps;
+    let step = 0;
+
+    const fade = setInterval(() => {
+      step++;
+      const progress = step / steps;
+      const eased = 1 - Math.pow(1 - progress, 3);
+
+      audio.volume = startVolume - (startVolume - targetVolume) * eased;
+
+      if (step >= steps) {
+        clearInterval(fade);
+        audio.volume = targetVolume;
+      }
+    }, stepTime);
+  }
+
+  // -----------------------------
+  // UI UPDATES
+  // -----------------------------
+// UI UPDATES (with keyword emphasis)
+track_name.innerHTML = emphasizeKeywords(track.name);
+track_artist.innerHTML = emphasizeKeywords(track.artist);
+
+playedTracks.push({
+  name: track.name,
+  artist: track.artist,
+  path: track.path,          // ✅ add this
+  timestamp: new Date()
+});
+
+
+renderLiveLog(track);
+  
+
+
+
+
 
   // -----------------------------
   // SEEK TIMER
@@ -32345,6 +32283,14 @@ function loadTrack(index) {
 
 
 
+
+
+
+
+
+
+
+
 function random_bg_color() {
   const palette = [
     "rgb(255, 140, 80)",
@@ -32375,6 +32321,109 @@ function resetValues() {
 
 
 
+function updatePlaylistImage(category) {
+  const img = document.getElementById("playlist");
+  if (!img) return;
+
+  // Normalize category input
+  let key = String(category || "")
+    .toLowerCase()
+    .trim()
+    .replace(/_/g, "-")
+    .replace(/\s+/g, "-");
+
+  console.log("🎛 Normalized category:", key);
+
+  // Determine current weekday (0 = Sunday, 1 = Monday, ...)
+  const dayIndex = new Date().getDay();
+  const days = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
+  const today = days[dayIndex];
+
+  console.log("📅 Today is:", today);
+
+  // WEEKLY SHOW SCHEDULE
+  const weeklyShows = {
+    monday: {
+      "morning": "images/sunnyradioca.png",
+      "afternoon": "images/sunnyradioca.png",
+      "evening": "images/sunnyradioca.png",
+      "evening-late": "images/jazzy05.jpg",
+      "f-afternoon": "images/sunnyradioca.png"
+    },
+
+    tuesday: {
+      "morning": "images/sunnyradioca.png",
+      "afternoon": "images/images/latest Dance hits2.jpg",
+      "evening": "images/latest Dance hits2.jpg",
+      "evening-late": "images/latest Dance hits2.jpg"
+    },
+
+wednesday: {
+  "morning": "images/sunnyradioca.png",
+  "afternoon": "images/latest Dance hits2.jpg",
+  "evening": "images/latest Dance hits2.jpg",
+  "evening-late": "images/sunnyradioca.png",
+"morning": "images/latest Dance hits2.jpg",
+"eighties": "images/80 s show.jpg"
+
+},
+
+
+    thursday: {
+      "morning": "images/sunnyradioca.png",
+      "afternoon": "images/latest Dance hits2.jpg",
+      "eighties": "images/80 s show.jpg",
+"soulshow":      "images/soulshow.jpg",
+"evening-late": "images/jazzy05.jpg",
+"f afternoon":   "images/latest Dance hits2.jpg"
+
+},
+
+    friday: {
+      "morning": "images/80 s show.jpg",
+      "afternoon": "images/latest Dance hits2.jpg",
+      "frankiebones": "images/frankie-bones_1024.avif",
+      "evening-late": "images/latest Dance hits2.jpg",
+      "f-afternoon": "images/latest Dance hits2.jpg",
+    "nineties":"images/nineties.jpg"
+
+
+},
+
+    saturday: {
+      "morning": "images/sunnyradioca.png",
+      "f-afternoon": "images/latest Dance hits2.jpg",
+      "f-evening": "images/jazzy05.jpg",
+      "f-evening-late": "images/latest Dance hits2.jpg",
+    "ministry": "images/Ministry-of-Sound-Logo.jpg"
+
+},
+
+    sunday: {
+   "morning": "images/sunnyradioca.png",
+      "f-afternoon": "images/latest Dance hits2.jpg",
+      "f-evening": "images/jazzy05.jpg",
+      "f-evening-late": "images/latest Dance hits2.jpg",
+    "seventies": "images/seventies.webp"
+    }
+  };
+
+  // Try to find today's show image
+  const todayShows = weeklyShows[today] || {};
+  const showImage = todayShows[key];
+
+  if (showImage) {
+    img.src = showImage;
+    img.alt = `${today} ${key}`;
+    console.log("📻 Weekly show image applied:", showImage);
+    return;
+  }
+
+  // Fallback if no match
+  console.warn("⚠ No weekly image for:", today, key, "→ using default");
+  img.src = "images/sunnyradioca.png";
+  img.alt = "Default Show Image";
+}
 
 
 
@@ -32409,7 +32458,7 @@ function playTrack() {
   // … your existing UI logic …
 
 
-
+  onTrackStart(curr_track);        // updates UI for the actual track
 
 
 }
@@ -32680,9 +32729,31 @@ console.log("Real track list:", realTracks.map(getName));
 
 
 
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.getElementById("show-more-button");
+  const trackListContainer = document.getElementById("track-list-container");
+
+  let visibleCount = 0;
+  const groupSize = 20;
+
+  function updateVisibleTracks() {
+    const tracks = trackListContainer.querySelectorAll("li");
+    if (!tracks || tracks.length === 0) return;
+    tracks.forEach((track, index) => {
+      track.style.display = index < visibleCount ? "block" : "none";
+    });
+  }
 
 
 
+  // Playlist starts open
+  trackListContainer.style.display = "block";
+
+  btn.addEventListener("click", () => {
+    visibleCount += groupSize;
+    updateVisibleTracks();
+  });
+});
 
 
 
@@ -32713,7 +32784,16 @@ function stripAllParentheses(text) {
   return text.replace(/\([^)]*\)/g, "").trim();
 }
 
-// 🎵 Live Log Renderer
+
+
+
+
+
+
+
+
+
+
 function renderLiveLog(currentTrack) {
   const formatBadge = (track) => {
     if (!track.type) return "";
@@ -32725,80 +32805,73 @@ function renderLiveLog(currentTrack) {
     return `<span class="mood mood-${track.mood}">${track.mood}</span>`;
   };
 
-  const excludedTypes = ["classic", "new", "12inch", "maxi"];
+const excludedTypes = ["classic", "new", "12inch", "maxi"];
 
-  const history = playedTracks
-    .slice(0, -1)
-    .filter(t => {
-      const p = t.path?.toLowerCase() || "";
-      const type = (t.type || "").toLowerCase();
+const history = playedTracks
+  .slice(0, -1)
+  .filter(t => {
+    const p = t.path?.toLowerCase() || "";
 
-      return (
-        !p.includes("jingle") &&
-        !p.includes("discjockeys") &&
-        !p.includes("sunny ship") &&
-        !p.includes("audio") &&
-        !excludedTypes.includes(type)
-      );
-    })
-    .reverse()
-    .slice(0, 10);
+    return (
+      !p.includes("jingle") &&
+      !p.includes("discjockeys") &&
+      !p.includes("sunny ship") &&
+      !p.includes("audio") &&
+      !excludedTypes.includes(t.type)
+    );
+  })
+  .reverse()
+  .slice(0, 10);
+
+
+
+
+
+
+
+
+
 
   // ⭐ NOW PLAYING
-  document.getElementById("now-playing-log").innerHTML = `
-    <span style="color:#ffb300;">
-      ${emphasizeKeywords(stripAllParentheses(currentTrack.name))}
-    </span>
-    <span style="color:#FF2A2A;"> by </span>
-    <span style="color:#ffb300;">
-      ${emphasizeKeywords(stripAllParentheses(currentTrack.artist))}
-    </span>
-    ${formatBadge(currentTrack)}
-    ${formatMood(currentTrack)}
-    <br>
-    ${
-      currentTrack.path &&
-      !currentTrack.path.toLowerCase().includes("jingle") &&
-      !currentTrack.path.toLowerCase().includes("discjockeys") &&
-      !currentTrack.path.toLowerCase().includes("sunny ship")
-        ? `<span id="vinyl-icon"></span>`
-        : ""
-    }
-  `;
+document.getElementById("now-playing-log").innerHTML = `
+  <span style="color:#ffb300;">${emphasizeKeywords(currentTrack.name)}</span>
+  <span style="color:#FF2A2A;"> by </span>
+  <span style="color:#ffb300;">${emphasizeKeywords(currentTrack.artist)}</span>
+  ${formatBadge(currentTrack)}
+  ${formatMood(currentTrack)}
+  <br>
+  ${
+    currentTrack.path &&
+    !currentTrack.path.toLowerCase().includes("jingle") &&
+    !currentTrack.path.toLowerCase().includes("discjockeys") &&
+    !currentTrack.path.toLowerCase().includes("sunny ship")
+      ? `<span id="vinyl-icon"></span>`
+      : ""
+  }
+`;
+
 
   // ⭐ PLAYED BEFORE
   document.getElementById("played-before-log").innerHTML =
     history.length > 0
       ? `
-        <strong style="color:red;font-style:italic">played before:</strong><br>
-        ${history
-          .map(t => `
-            <div class="history-item">
-              <span style="color:#FF4500;">
-                ${emphasizeKeywords(stripAllParentheses(t.name))}
-              </span>
-              <span style="color:#2B2B2E;"> by </span>
-              <span style="color:#FF4500;">
-                ${emphasizeKeywords(stripAllParentheses(t.artist))}
-              </span>
-              ${formatBadge(t)}
-              ${formatMood(t)}
-            </div>
-          `)
-          .join("")}
+       <strong style="color:#FF2A2A; font-style:italic;">Played Before:</strong><br><br>
+
+${history
+  .map(t => `
+    <div class="history-item" style="margin-bottom: 10px;">
+      <span style="color:#FF4500;">${emphasizeKeywords(t.name)}</span>
+      <span style="color:#C0c0c0;"> by </span>
+      <span style="color:#FF4500;">${emphasizeKeywords(t.artist)}</span>
+      ${formatBadge(t)}
+      ${formatMood(t)}
+    </div>
+  `)
+  .join("")}
+
       `
       : "";
-
-  // ⭐ Ensure stagger animation runs AFTER DOM update
-  setTimeout(() => {
-    document.querySelectorAll(".history-item").forEach((item, i) => {
-      const randomOffset = Math.floor(Math.random() * 120);
-      const baseDelay = i * 80;
-      item.style.setProperty("--delay", `${baseDelay + randomOffset}ms`);
-    });
-  }, 0);
 }
-
 
 
 
