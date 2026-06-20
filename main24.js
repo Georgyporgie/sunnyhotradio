@@ -5676,10 +5676,10 @@ playcount: 0
 },
 
 {
-     name: " 100% Pure Love",
+     name: " Pure Love",
     artist: "Crystal Waters  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Crystal Waters - 100% Pure Love.mp3",
+    path: "https://dancemusic09.netlify.app/Crystal Waters - Pure Love.mp3",
     timeCategory: "nineties",
   volumeBoost: 0.25,
   playcount: 0
@@ -30463,7 +30463,8 @@ timeCategory: "f evening"
     artist: "Clean Bandit",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Clean Bandit - Drive.mp3",
- timeCategory: "f evening-late"
+ timeCategory: "f evening-late",
+ volumeBoost: 0.65
 },
 
 
@@ -32844,8 +32845,10 @@ document.getElementById("now-playing-log").innerHTML = `
     currentTrack.path &&
     !currentTrack.path.toLowerCase().includes("jingle") &&
     !currentTrack.path.toLowerCase().includes("discjockeys") &&
-    !currentTrack.path.toLowerCase().includes("sunny ship")
-      ? `<span id="vinyl-icon"></span>`
+    !currentTrack.path.toLowerCase().includes("sunny ship")  &&
+ !currentTrack.path.toLowerCase().includes("sunny ") 
+     
+ ? `<span id="vinyl-icon"></span>`
       : ""
   }
 `;
