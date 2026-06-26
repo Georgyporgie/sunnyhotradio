@@ -12731,15 +12731,6 @@ volumeBoost: 0.25
 
 
 
-{
-     name: " 100% Pure Love",
-    artist: "Crystal Waters  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Crystal Waters - 100% Pure Love.mp3",
-    timeCategory: "afternoon",
-  volumeBoost: 0.25,
-  playcount: 0
-},
 
 
 
@@ -30628,15 +30619,6 @@ timeCategory: "f evening-late"
 
 
 
-{
-     name: " 100% Pure Love",
-    artist: "Crystal Waters  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Crystal Waters - 100% Pure Love.mp3",
-    timeCategory: "f evening-late",
-  volumeBoost: 0.25,
-  playcount: 0
-},
 
 
 {
