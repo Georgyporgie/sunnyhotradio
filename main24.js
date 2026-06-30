@@ -12327,7 +12327,7 @@ timeCategory: "afternoon"
 
 
 {
-     name: "Broadcast Amsterdam☀️",
+     name: "Todays News☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -19230,7 +19230,8 @@ quickFade: true
 
 
 {
-     name: "Broadcast Amsterdam☀️",
+     name: "Todays News☀️",
+
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -19359,7 +19360,8 @@ timeCategory: "evening"
 },
 
 {
-     name: "Broadcast Amsterdam☀️",
+    name: "Todays News☀️",
+
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -19413,7 +19415,7 @@ playcount: 0
 
 
 {
-     name: "Broadcast Amsterdam☀️",
+     name: "Todays News☀️",
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
@@ -19576,7 +19578,8 @@ volumeBoost: 0.10
 
 
 {
-     name: "Broadcast Amsterdam☀️",
+    name: "Todays News☀️",
+
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
