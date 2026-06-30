@@ -32441,7 +32441,7 @@ function playTrack() {
   // … your existing UI logic …
 
 
-  onTrackStart(curr_track);        // updates UI for the actual track
+
 
 
 }
@@ -32684,62 +32684,6 @@ const jingleFolders = [
   "games",
 "audio"
 ];
-
-const getName = t => (t?.name || t?.title || t?.filename || String(t)).trim();
-const getPath = t => (t?.path || "").trim().toLowerCase();
-
-const totalTracks = trackList.length;
-
-// Jingles: check if name or path contains any keyword
-const jingles = trackList.filter(t => {
-  const name = getName(t).toLowerCase();
-  const path = getPath(t);
-  return jingleFolders.some(keyword =>
-    name.includes(keyword) || path.includes(keyword)
-  );
-});
-
-// Real tracks are everything else
-const realTracks = trackList.filter(t => !jingles.includes(t));
-
-console.log("Total tracks:", totalTracks);
-console.log("Number of jingles/non-music:", jingles.length);
-console.log("Number of real tracks:", realTracks.length);
-console.log("Real track list:", realTracks.map(getName));
-
-
-
-
-
-
-document.addEventListener("DOMContentLoaded", () => {
-  const btn = document.getElementById("show-more-button");
-  const trackListContainer = document.getElementById("track-list-container");
-
-  let visibleCount = 0;
-  const groupSize = 20;
-
-  function updateVisibleTracks() {
-    const tracks = trackListContainer.querySelectorAll("li");
-    if (!tracks || tracks.length === 0) return;
-    tracks.forEach((track, index) => {
-      track.style.display = index < visibleCount ? "block" : "none";
-    });
-  }
-
-
-
-  // Playlist starts open
-  trackListContainer.style.display = "block";
-
-  btn.addEventListener("click", () => {
-    visibleCount += groupSize;
-    updateVisibleTracks();
-  });
-});
-
-
-
 
 
 
