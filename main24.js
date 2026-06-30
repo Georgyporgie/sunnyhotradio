@@ -32336,7 +32336,7 @@ function updatePlaylistImage(category) {
 
     tuesday: {
       "morning": "images/sunnyradioca.png",
-      "afternoon": "images/images/latest Dance hits2.jpg",
+      "afternoon": "images/latest Dance hits2.jpg",
       "evening": "images/latest Dance hits2.jpg",
       "evening-late": "images/latest Dance hits2.jpg"
     },
