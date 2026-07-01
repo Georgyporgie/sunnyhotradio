@@ -11023,7 +11023,7 @@ isLoud: true,
 
 
 {
-     name: "  Looking Lovely (new) ",
+     name: "  Looking Lovely  ",
     artist: "Shaggy ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Shaggy - Looking Lovely (new).mp3",
@@ -11907,7 +11907,7 @@ timeCategory: "afternoon"
 
 
 {
-    name: " Doing It Too (new) ",
+    name: " Doing It Too  ",
     artist: "Rochelle Jordan  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Rochelle Jordan - Doing It Too (new).mp3",
@@ -12381,7 +12381,7 @@ playcount: 0
 
 
 {
-    name: "   Angels Cry (new) ",
+    name: "   Angels Cry",
     artist: "Snoop Dogg  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Snoop Dogg - Angels Cry (new).mp3",
@@ -15701,7 +15701,7 @@ isLoud: true,
 
 
 {
-     name: " House Tour (new) ",
+     name: " House Tour  ",
     artist: "Sabrina Carpenter ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Sabrina Carpenter - House Tour (new).mp3",
@@ -19648,7 +19648,7 @@ playcount: 0
 
 
 {
-    name: "  Angels Cry (new)",
+    name: "  Angels Cry",
     artist: "Snoop Dogg   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Snoop Dogg - Angels Cry (new).mp3",
@@ -20471,7 +20471,7 @@ volumeBoost: 0.10
 
 
  {
-     name: "  Echo (new) ",
+     name: "  Echo",
     artist: "The Chainsmokers ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/The Chainsmokers - Echo (new).mp3",
@@ -22762,7 +22762,7 @@ volumeBoost: 0.25
 
 
 {
-     name: "  Carousel (new)",
+     name: "  Carousel ",
     artist: "Cannons",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Cannons - Carousel (new).mp3",
@@ -27613,7 +27613,7 @@ quickFade: true
 },
 
 {
-     name: " House Tour (new) ",
+     name: " House Tour",
     artist: "Sabrina Carpenter ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Sabrina Carpenter - House Tour (new).mp3",
@@ -27993,7 +27993,7 @@ playcount: 0
 
 
 {
-    name: " Doing It Too (new) ",
+    name: " Doing It Too ",
     artist: "Rochelle Jordan  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Rochelle Jordan - Doing It Too (new).mp3",
@@ -28022,7 +28022,7 @@ playcount: 0
 
 
 {
-    name: "  You Lost Me Forever (new)",
+    name: "  You Lost Me Forever ",
     artist: "Morgan Luna  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Morgan Luna - You Lost Me Forever (new).mp3",
@@ -28062,7 +28062,7 @@ playcount: 0
 
 
 {
-    name: "  Angels Cry (new)",
+    name: "  Angels Cry",
     artist: "Snoop Dogg   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Snoop Dogg - Angels Cry (new).mp3",
@@ -28725,7 +28725,7 @@ timeCategory: "f evening",
 
 
  {
-     name: "  When I'm Dancing (new)",
+     name: "  When I'm Dancing ",
     artist: "Kiesza ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Kiesza - When I'm Dancing (new).mp3",
@@ -29165,7 +29165,7 @@ timeCategory: "f evening",
 
 
 {
-     name: " Dont Make Me Love U (new)",
+     name: " Dont Make Me Love U ",
     artist: "Lizzo  ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Lizzo - Dont Make Me Love U (new).mp3",
@@ -29176,7 +29176,7 @@ timeCategory: "f evening",
 
 
 {
-     name: "  Looking Lovely (new) ",
+     name: "  Looking Lovely  ",
     artist: "Shaggy ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Shaggy - Looking Lovely (new).mp3",
@@ -29228,7 +29228,7 @@ timeCategory: "f evening",
 },
 
 {
-     name: " House Tour (new) ",
+     name: " House Tour",
     artist: "Sabrina Carpenter ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Sabrina Carpenter - House Tour (new).mp3",
@@ -29535,7 +29535,7 @@ isLoud: true,
 
 
 {
-    name: " Doing It Too (new) ",
+    name: " Doing It Too  ",
     artist: "Rochelle Jordan  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Rochelle Jordan - Doing It Too (new).mp3",
@@ -30166,7 +30166,7 @@ volumeBoost: 0.40
 
 
 {
-    name: "  Angels Cry (new)",
+    name: "  Angels Cry ",
     artist: "Snoop Dogg   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Snoop Dogg - Angels Cry (new).mp3",
@@ -30193,7 +30193,7 @@ volumeBoost: 0.40
 
 
 {
-     name: " Dont Make Me Love U (new)",
+     name: " Dont Make Me Love U ",
     artist: "Lizzo  ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Lizzo - Dont Make Me Love U (new).mp3",
@@ -30224,7 +30224,7 @@ volumeBoost: 0.40
 
 
 {
-     name: "  Looking Lovely (new) ",
+     name: "  Looking Lovely ",
     artist: "Shaggy ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Shaggy - Looking Lovely (new).mp3",
@@ -30923,7 +30923,7 @@ timeCategory: "f evening-late"
 
 
 {
-    name: "  You Lost Me Forever (new)",
+    name: "  You Lost Me Forever ",
     artist: "Morgan Luna  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Morgan Luna - You Lost Me Forever (new).mp3",
@@ -31560,7 +31560,7 @@ playcount: 0
 
 
 {
-    name: "  Mural (new) ",
+    name: "  Mural ",
     artist: "Swae Lee  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Swae Lee - Mural (new).mp3",
