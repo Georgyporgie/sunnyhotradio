@@ -32787,7 +32787,7 @@ document.getElementById("now-playing-log").innerHTML = `
   document.getElementById("played-before-log").innerHTML =
     history.length > 0
       ? `
-       <strong style="color:#FF2A2A; font-style:italic;">played before:</strong><br><br>
+     <br>  <strong style="color:#FF2A2A; font-style:italic;">played before:</strong><br>
 
 ${history
   .map(t => `
