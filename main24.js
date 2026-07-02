@@ -1345,16 +1345,7 @@ quickFade: true
 
 
 
-{
-    name: "Bill Withers",
-    artist: "Lovely Day",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Bill Withers - Lovey Day ((strictly).mp3",
-      year: 1977,
-  timeCategory: "seventies"
 
-  
-},
 
 
 
@@ -1861,7 +1852,8 @@ volumeBoost: 0.40
     artist: "Lowrell ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Lowrell - Mellow Mellow Right On.mp3",
-   timeCategory: "seventies"
+    timeCategory: "seventies",
+    quickfade:true
 },
 
 
@@ -2594,7 +2586,14 @@ volumeBoost: 0.20,
 
 
 
+{
+     name: " Which Ways Up",
+    artist: "Stargard",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://sunny-dancemusic03.netlify.app /Stargard Which Ways Up.mp3",
+  timeCategory: "seventies"
 
+},
 
 
 
@@ -2608,6 +2607,21 @@ volumeBoost: 0.20,
  timeCategory: "seventies"
 
 },
+
+
+
+
+{
+     name: "  And The Beat Goes On",
+    artist: "The Whispers",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://sunny-dancemusic03.netlify.app /The Whispers - And The Beat Goes On.mp3",
+  timeCategory: "seventies"
+
+},
+
+
+
 
 
 {
@@ -2652,6 +2666,26 @@ volumeBoost: 0.20,
 },
 
 
+{
+     name: " Which Ways Up",
+    artist: "Stargard",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://sunny-dancemusic03.netlify.app /Stargard Which Ways Up.mp3",
+  timeCategory: "soulshow"
+
+},
+
+
+
+
+{
+     name: "Boogie s In My Soul (new)",
+    artist: "Chaka Kahn",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://sunny-dancemusic03.netlify.app /Chaka Kahn - Boogie s In My Soul (new).mp3",
+  timeCategory: "soulshow"
+
+},
 
 {
     name: "    Dance (Do What You Wanna Do) ",
@@ -2978,7 +3012,8 @@ volumeBoost: 0.40
     artist: "Lowrell ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Lowrell - Mellow Mellow Right On.mp3",
-   timeCategory: "soulshow"
+   timeCategory: "soulshow",
+   quickfade:true
 },
 
 
@@ -11793,7 +11828,8 @@ timeCategory: "afternoon"
     artist: "Lowrell ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Lowrell - Mellow Mellow Right On.mp3",
-   timeCategory: "afternoon"
+   timeCategory: "afternoon",
+   quickfade:true
 },
 
 
@@ -16778,7 +16814,14 @@ timeCategory: "evening"
 
 
 
+{
+     name: "Boogie s In My Soul (new)",
+    artist: "Chaka Kahn",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://sunny-dancemusic03.netlify.app /Chaka Kahn - Boogie s In My Soul (new).mp3",
+  timeCategory: "evening"
 
+},
 
 
 
@@ -29827,11 +29870,18 @@ volumeBoost: 0.65,
            timeCategory: "f evening"
 
 },
+{
+     name: "Boogie s In My Soul (new)",
+    artist: "Chaka Kahn",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://sunny-dancemusic03.netlify.app /Chaka Kahn - Boogie s In My Soul (new).mp3",
+  timeCategory: "f evening"
 
+},
 
 
 {
-     name: " Carousel (new)  ",
+     name: " Carousel   ",
     artist: "Cannons  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Cannons - Carousel (new).mp3",
