@@ -423,6 +423,311 @@ let trackList = [
 
 
 
+{
+     name: " Dont Make Me Love U ",
+    artist: "Lizzo  ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Lizzo - Dont Make Me Love U (new).mp3",
+  isNew: true,
+ year: 2026,
+timeCategory: "newest"
+
+},
+
+
+
+{
+     name: "  Looking Lovely  ",
+    artist: "Shaggy ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/Shaggy - Looking Lovely (new).mp3",
+  isNew: true,
+year: 2026,
+ timeCategory: "newest"
+
+
+},
+
+
+{
+    name: "Midnight Drif",
+    artist: "Ariana Grande",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Ariana Grande - Midnight Drif (new).mp3",
+ timeCategory: "newest",
+
+  isNew: true,
+year: 2026
+},
+
+
+
+{
+     name: "  More! More! More (new)",
+    artist: " Becky Hill",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Becky Hill - More! More! More (new)!.mp3",
+     year: 2026,
+     timeCategory: "newest"
+
+
+},
+
+
+{
+     name: " Is It Over Now (new)",
+    artist: " Elderbrook ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Elderbrook - Is It Over Now (new).mp3",
+    year: 2026,
+       timeCategory: "newest"
+
+
+},
+
+
+{
+     name: "   Im Your Girl Right (new)",
+    artist: "Tove Lo",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Tove Lo - Im Your Girl Right (new).mp3",
+    year: 2026,
+       timeCategory: "newest"
+
+},
+
+
+
+
+{
+    name: "   Angels Cry",
+    artist: "Snoop Dogg  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Snoop Dogg - Angels Cry (new).mp3",
+   timeCategory: "newest",
+ year: 2026,
+isNew: true
+},
+
+
+{
+    name: "Girl Get Up ",
+    artist: "Doechii",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Doechii - Girl Get Up (new).mp3",
+  timeCategory: "newest",
+  year: 2026,
+isNew: true
+},
+
+
+{
+     name: " I Feel So Free (new)",
+    artist: " Madonna ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Madonna - I Feel So Free (new).mp3",
+    timeCategory: "newest",
+ year: 2026,
+isNew: true
+},
+
+
+{
+     name: "  If Its Not Love (new) ",
+    artist: "Zerb & Rita Ora",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Zerb & Rita Ora - If Its Not Love.mp3",
+    timeCategory: "newest",
+ year: 2026,
+isNew: true
+},
+
+
+{
+     name: " RunWay (new)",
+    artist: "Lady Gaga  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Lady Gaga - RunWay (new).mp3",
+    timeCategory: "newest",
+ year: 2026,
+isNew: true
+},
+
+
+{
+     name: "  Carousel ",
+    artist: "Cannons ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Cannons - Carousel (new).mp3",
+  timeCategory: "newest",
+ year: 2026,
+isNew: true
+},
+
+
+
+{
+     name: "  When I'm Dancing (new)",
+    artist: "Kiesza ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Kiesza - When I'm Dancing (new).mp3",
+      timeCategory: "newest",
+ year: 2026,
+isNew: true
+},
+
+
+{
+    name: " New Religion",
+    artist: "Bebe Rexha ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Bebe Rexha - New Religion (2026).mp3",
+      timeCategory: "newest"
+
+  
+},
+
+
+{
+    name: "  I Can t Wait (new)",
+    artist: "Bob Sinclar & Kiesza  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Bob Sinclar & Kiesza - I Can t Wait (new).mp3",
+       timeCategory: "newest",
+ year: 2026,
+isNew: true
+  
+},
+
+
+{
+     name: " House Tour  ",
+    artist: "Sabrina Carpenter ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Sabrina Carpenter - House Tour (new).mp3",
+ timeCategory: "newest",
+ year: 2026,
+isNew: true
+},
+
+
+{
+    name: " Bring Your Love (new) ",
+    artist: "Madonna",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Madonna - Bring Your Love (new) (2026).mp3",
+    year: 2026,
+timeCategory: "newest",
+ year: 2026,
+isNew: true
+},
+
+
+
+{
+    name: "  Mural (new) ",
+    artist: "Swae Lee  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Swae Lee - Mural (new).mp3",
+   timeCategory: "newest",
+
+ year: 2026,
+isNew: true
+},
+
+
+
+{
+     name: " We Connect (new) ",
+    artist: "Snoop Dogg ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Snoop Dogg - We Connect (new).mp3",
+    timeCategory: "newest",
+  volumeBoost: 0.05,
+  year: 2026,
+isNew: true
+},
+
+
+{
+     name: " Light As A Feather (new) ",
+    artist: "Cannons   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Cannons - Light As A Feather (new).mp3",
+           timeCategory: "newest",
+ year: 2026,
+isNew: true
+},
+
+
+ {
+     name: "  Echo",
+    artist: "The Chainsmokers ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/The Chainsmokers - Echo (new).mp3",
+  timeCategory: "newest",
+ year: 2026,
+isNew: true
+},
+
+
+
+{
+    name: "   My Oh My (new)",
+    artist: " Kylie Minogue",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Kylie Minogue - My Oh My (new).mp3",
+       timeCategory: "newest",
+ year: 2026,
+isNew: true
+},
+
+
+{
+    name: "Save Me Tonight (new) ",
+    artist: " Jennifer Lopez",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Jennifer Lopez - Save Me Tonight (new).mp3",
+       timeCategory: "newest",
+    quickFade: true,
+  year: 2026,
+isNew: true
+},
+
+
+{
+    name: "  Madwoman",
+    artist: "Laufey  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Laufey - Madwoman.mp3",
+    year: 2026,
+    timeCategory: "newest"
+
+
+},
+
+
+{
+    name: " Doing It Too ",
+    artist: "Rochelle Jordan  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Rochelle Jordan - Doing It Too (new).mp3",
+   timeCategory: "newest",
+  year: 2026,
+isNew: true
+},
+
+
+{
+    name: "  You Lost Me Forever ",
+    artist: "Morgan Luna  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Morgan Luna - You Lost Me Forever (new).mp3",
+   timeCategory: "newest",
+  year: 2026,
+isNew: true
+},
+
 
 
 
@@ -2682,8 +2987,9 @@ volumeBoost: 0.20,
      name: "Boogie s In My Soul (new)",
     artist: "Chaka Kahn",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://sunny-dancemusic03.netlify.app /Chaka Kahn - Boogie s In My Soul (new).mp3",
-  timeCategory: "soulshow"
+    path: "https://sunny-dancemusic03.netlify.app/Chaka Kahn - Boogie s In My Soul (new).mp3",
+ year: 2026,
+ timeCategory: "soulshow"
 
 },
 
@@ -11047,12 +11353,13 @@ isLoud: true,
 
 
 {
-     name: " Dont Make Me Love U (new)",
+     name: " Dont Make Me Love U ",
     artist: "Lizzo  ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Lizzo - Dont Make Me Love U (new).mp3",
   isNew: true,
- timeCategory: "afternoon"
+ year: 2026,
+timeCategory: "afternoon"
 
 },
 
@@ -11063,6 +11370,7 @@ isLoud: true,
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Shaggy - Looking Lovely (new).mp3",
   isNew: true,
+year: 2026,
  timeCategory: "afternoon"
 
 },
@@ -11163,12 +11471,13 @@ quickFade: true
 
 
 {
-    name: "Midnight Drif (new)",
+    name: "Midnight Drif",
     artist: "Ariana Grande",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Ariana Grande - Midnight Drif (new).mp3",
   timeCategory: "afternoon",
-  isNew: true
+  isNew: true,
+year: 2026
 },
 
 
@@ -12061,7 +12370,9 @@ timeCategory: "afternoon"
     artist: " Becky Hill",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Becky Hill - More! More! More (new)!.mp3",
-           timeCategory: "afternoon"
+     year: 2026,
+      timeCategory: "afternoon"
+
 },
 
 
@@ -12080,7 +12391,9 @@ timeCategory: "afternoon"
     artist: " Elderbrook ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Elderbrook - Is It Over Now (new).mp3",
-           timeCategory: "afternoon"
+    year: 2026,
+       timeCategory: "afternoon"
+
 },
 
 
@@ -12112,7 +12425,8 @@ timeCategory: "afternoon"
     artist: "Tove Lo",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Tove Lo - Im Your Girl Right (new).mp3",
-           timeCategory: "afternoon"
+    year: 2026,
+       timeCategory: "afternoon"
 },
 
 
@@ -12422,7 +12736,8 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Snoop Dogg - Angels Cry (new).mp3",
    timeCategory: "afternoon",
- isNew: true
+ year: 2026,
+isNew: true
 },
 
 
@@ -13395,7 +13710,8 @@ timeCategory: "afternoon",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Doechii - Girl Get Up (new).mp3",
   timeCategory: "afternoon",
-  isNew: true
+  year: 2026,
+isNew: true
 },
 
 
@@ -13834,7 +14150,8 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Rihanna - Take Over (new).mp3",
     timeCategory: "afternoon",
- isNew: true
+ year: 2026,
+isNew: true
    
 
 
@@ -13895,7 +14212,8 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Madonna - I Feel So Free (new).mp3",
     timeCategory: "afternoon",
- isNew: true
+ year: 2026,
+isNew: true
 },
 
 
@@ -13905,7 +14223,8 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Zerb & Rita Ora - If Its Not Love.mp3",
     timeCategory: "afternoon",
- isNew: true
+ year: 2026,
+isNew: true
 },
 
 
@@ -13925,16 +14244,18 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Lady Gaga - RunWay (new).mp3",
     timeCategory: "afternoon",
- isNew: true
+ year: 2026,
+isNew: true
 },
 
 {
-     name: "  Carousel (new) ",
+     name: "  Carousel ",
     artist: "Cannons ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Cannons - Carousel (new).mp3",
    timeCategory: "afternoon",
- isNew: true
+ year: 2026,
+isNew: true
 },
 
 
@@ -13998,7 +14319,8 @@ quickFade: true
     path: "https://dancemusic09.netlify.app/Rihanna - Take Over (new).mp3",
     timeCategory: "afternoon",
     quickFade: true,
- isNew: true,
+ year: 2026,
+isNew: true,
     volumeBoost: 0.40 
 
 
@@ -15119,7 +15441,8 @@ volumeBoost: 0.10
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Kiesza - When I'm Dancing (new).mp3",
       timeCategory: "afternoon",
- isNew: true
+ year: 2026,
+isNew: true
 },
 
 
@@ -15415,7 +15738,8 @@ volumeBoost: 0.10
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Bob Sinclar & Kiesza - I Can t Wait (new).mp3",
        timeCategory: "afternoon",
- isNew: true
+ year: 2026,
+isNew: true
   
 },
 
@@ -15741,9 +16065,9 @@ isLoud: true,
     artist: "Sabrina Carpenter ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Sabrina Carpenter - House Tour (new).mp3",
- 
- timeCategory: "afternoon",
- isNew: true
+  timeCategory: "afternoon",
+ year: 2026,
+isNew: true
 },
 
 
@@ -16284,7 +16608,8 @@ volumeBoost: 0.10
     path: "https://sunnylounge01.netlify.app/Madonna - Bring Your Love (new) (2026).mp3",
     year: 2026,
 timeCategory: "evening",
- isNew: true
+ year: 2026,
+isNew: true
 },
 
 
@@ -16574,7 +16899,8 @@ timeCategory: "evening",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Swae Lee - Mural (new).mp3",
    timeCategory: "evening",
- isNew: true
+ year: 2026,
+isNew: true
 },
 
 
@@ -16781,7 +17107,8 @@ timeCategory: "evening"
     path: "https://dancemusic09.netlify.app/Snoop Dogg - We Connect (new).mp3",
     timeCategory: "evening",
   volumeBoost: 0.05,
-  isNew: true
+  year: 2026,
+isNew: true
 },
 
 
@@ -16818,8 +17145,9 @@ timeCategory: "evening"
      name: "Boogie s In My Soul (new)",
     artist: "Chaka Kahn",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://sunny-dancemusic03.netlify.app /Chaka Kahn - Boogie s In My Soul (new).mp3",
-  timeCategory: "evening"
+    path: "https://sunny-dancemusic03.netlify.app/Chaka Kahn - Boogie s In My Soul (new).mp3",
+  year: 2026,
+timeCategory: "evening"
 
 },
 
@@ -17005,7 +17333,8 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Lady Gaga - The Dead Dance.mp3",
     timeCategory: "evening",
- isNew: true
+ year: 2026,
+isNew: true
 },
 
 
@@ -18115,7 +18444,8 @@ volumeBoost: 0.30
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Cannons - Light As A Feather (new).mp3",
            timeCategory: " evening",
- isNew: true
+ year: 2026,
+isNew: true
 },
 
 
@@ -18132,12 +18462,13 @@ volumeBoost: 0.30
 
 
 {
-     name: " Carousel (new)  ",
+     name: " Carousel ",
     artist: "Cannons  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Cannons - Carousel (new).mp3",
            timeCategory: " evening",
- isNew: true
+ year: 2026,
+isNew: true
 },
 
 
@@ -19696,7 +20027,8 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Snoop Dogg - Angels Cry (new).mp3",
    timeCategory: "evening",
- isNew: true
+ year: 2026,
+isNew: true
 },
 
 
@@ -19707,7 +20039,8 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Swae Lee - Mural (new).mp3",
    timeCategory: "evening",
- isNew: true
+ year: 2026,
+isNew: true
 },
 
 {
@@ -20520,7 +20853,8 @@ volumeBoost: 0.10
     path: "https://danceoldies10.netlify.app/The Chainsmokers - Echo (new).mp3",
  
   timeCategory: "evening",
- isNew: true
+ year: 2026,
+isNew: true
 },
 
 
@@ -21489,7 +21823,8 @@ volumeBoost: 0.25
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Kylie Minogue - My Oh My (new).mp3",
        timeCategory: "evening-late",
- isNew: true
+ year: 2026,
+isNew: true
 },
 
 
@@ -21666,7 +22001,8 @@ timeCategory: "evening-late"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Doechii - Girl Get Up (new).mp3",
   timeCategory: "evening-late",
-  isNew: true
+  year: 2026,
+isNew: true
 },
 
 
@@ -22809,7 +23145,7 @@ volumeBoost: 0.25
     artist: "Cannons",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Cannons - Carousel (new).mp3",
- 
+ year: 2026,
  timeCategory: "evening-late",
  isNew: true
 },
@@ -25946,6 +26282,7 @@ isLoud: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Becky Hill - More! More! More (new)!.mp3",
            timeCategory: "evening-late"
+
 },
 
 
@@ -25996,7 +26333,8 @@ isLoud: true,
     artist: "Tove Lo",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Tove Lo - Im Your Girl Right (new).mp3",
-           timeCategory: "evening-late"
+    year: 2026, 
+      timeCategory: "evening-late"
 },
 
 
@@ -26061,7 +26399,8 @@ isLoud: true,
     path: "https://jazzmusic05.netlify.app/Jennifer Lopez - Save Me Tonight (new).mp3",
         timeCategory: "evening-late",
     quickFade: true,
-  isNew: true
+  year: 2026,
+isNew: true
 },
 
 
@@ -26495,7 +26834,8 @@ isLoud: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Rihanna - Take Over (new).mp3",
     timeCategory: " evening-late",
-  isNew: true
+  year: 2026,
+isNew: true
    
 
 
@@ -26968,7 +27308,8 @@ timeCategory: "evening-late"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Rihanna - Take Over (new).mp3",
     timeCategory: "f afternoon",
-  isNew: true
+  year: 2026,
+isNew: true
    
 
 
@@ -27662,7 +28003,8 @@ quickFade: true
     path: "https://danceoldies10.netlify.app/Sabrina Carpenter - House Tour (new).mp3",
  
  timeCategory: "f afternoon",
-  isNew: true
+  year: 2026,
+isNew: true
 },
 
 
@@ -27780,7 +28122,8 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Kylie Minogue - My Oh My (new).mp3",
        timeCategory: "f afternoon",
-  isNew: true
+  year: 2026,
+isNew: true
 },
 
 
@@ -27978,7 +28321,8 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Cannons - Carousel (new).mp3",
     timeCategory: "f afternoon",
-  isNew: true
+  year: 2026,
+isNew: true
 },
 
 {
@@ -28014,7 +28358,8 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Lady Gaga - RunWay (new).mp3",
     timeCategory: "f afternoon",
-  isNew: true
+ year: 2026,
+ isNew: true
 },
 
 {
@@ -28041,7 +28386,8 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Rochelle Jordan - Doing It Too (new).mp3",
    timeCategory: "f afternoon",
-  isNew: true
+  year: 2026,
+isNew: true
 },
 
 {
@@ -28070,7 +28416,8 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Morgan Luna - You Lost Me Forever (new).mp3",
    timeCategory: "f afternoon",
-  isNew: true
+  year: 2026,
+isNew: true
 },
 
 
@@ -28110,7 +28457,8 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Snoop Dogg - Angels Cry (new).mp3",
    timeCategory: "f afternoon",
-  isNew: true
+  year: 2026,
+isNew: true
 },
 
 
@@ -28136,7 +28484,8 @@ playcount: 0
     artist: " Becky Hill",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Becky Hill - More! More! More (new)!.mp3",
-           timeCategory: "f afternoon"
+    year: 2026,
+       timeCategory: "f afternoon"
 },
 
 
@@ -28155,7 +28504,8 @@ playcount: 0
     artist: " Elderbrook ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Elderbrook - Is It Over Now (new).mp3",
-           timeCategory: "f afternoon"
+       year: 2026,
+    timeCategory: "f afternoon"
 },
 
 
@@ -28187,7 +28537,8 @@ playcount: 0
     artist: "Tove Lo",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Tove Lo - Im Your Girl Right (new).mp3",
-           timeCategory: "f afternoon"
+     year: 2026,
+      timeCategory: "f afternoon"
 },
 
 
@@ -28397,7 +28748,8 @@ timeCategory: "f afternoon"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Bob Sinclar & Kiesza - I Can t Wait (new).mp3",
        timeCategory: "f afternoon",
-  isNew: true
+  year: 2026,
+isNew: true
   
 },
 
@@ -28421,7 +28773,8 @@ timeCategory: "f afternoon"
     path: "https://danceoldies10.netlify.app/The Chainsmokers - Echo (new).mp3",
  
 timeCategory: "f afternoon",
-  isNew: true
+  year: 2026,
+isNew: true
 },
 
 
@@ -28774,7 +29127,8 @@ timeCategory: "f evening",
     path: "https://danceoldies10.netlify.app/Kiesza - When I'm Dancing (new).mp3",
  
 timeCategory: "f evening",
-  isNew: true
+ year: 2026, 
+isNew: true
 },
 
 
@@ -29014,7 +29368,8 @@ timeCategory: "f evening"
     path: "https://dancemusic09.netlify.app/Snoop Dogg - We Connect (new).mp3",
     timeCategory: "f evening",
   volumeBoost: 0.25,
-    isNew: true
+   year: 2026, 
+isNew: true
 },
 
 
@@ -29069,7 +29424,8 @@ timeCategory: "f evening"
     path: "https://sunnylounge01.netlify.app/Madonna - Bring Your Love (new) (2026).mp3",
     year: 2026,
 timeCategory: "f evening",
-  isNew: true
+  year: 2026,
+isNew: true
 },
 
 
@@ -29214,7 +29570,8 @@ timeCategory: "f evening",
     path: "https://dancemusic08.netlify.app/Lizzo - Dont Make Me Love U (new).mp3",
  
  timeCategory: "f evening",
-  isNew: true
+  year: 2026,
+isNew: true
 },
 
 
@@ -29267,7 +29624,8 @@ timeCategory: "f evening",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Doechii - Girl Get Up (new).mp3",
   timeCategory: "f evening",
-  isNew: true
+  year: 2026,
+isNew: true
 },
 
 {
@@ -29275,7 +29633,7 @@ timeCategory: "f evening",
     artist: "Sabrina Carpenter ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Sabrina Carpenter - House Tour (new).mp3",
- 
+ year: 2026,
  timeCategory: "f evening"
 
 },
@@ -29583,7 +29941,8 @@ isLoud: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Rochelle Jordan - Doing It Too (new).mp3",
    timeCategory: "f evening",
-  isNew: true
+  year: 2026,
+isNew: true
 
 },
 
@@ -29680,7 +30039,8 @@ playcount: 0
     path: "muziek/oldies07/Jessie Ware - 16 Summers.mp3",
    timeCategory: "f evening",
      quickFade: true,
-   isNew: true
+   year: 2026,
+isNew: true
 },
 
 
@@ -29874,8 +30234,9 @@ volumeBoost: 0.65,
      name: "Boogie s In My Soul (new)",
     artist: "Chaka Kahn",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://sunny-dancemusic03.netlify.app /Chaka Kahn - Boogie s In My Soul (new).mp3",
-  timeCategory: "f evening"
+    path: "https://sunny-dancemusic03.netlify.app/Chaka Kahn - Boogie s In My Soul (new).mp3",
+  year: 2026,
+timeCategory: "f evening"
 
 },
 
@@ -29886,7 +30247,8 @@ volumeBoost: 0.65,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Cannons - Carousel (new).mp3",
            timeCategory: "f evening",
-  isNew: true
+  year: 2026,
+isNew: true
 },
 
 
@@ -29899,7 +30261,8 @@ volumeBoost: 0.65,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Cannons - Light As A Feather (new).mp3",
            timeCategory: "f evening",
-  isNew: true
+  year: 2026,
+isNew: true
 },
 
 
@@ -29977,13 +30340,14 @@ volumeBoost: 0.40
 },
 
 {
-     name: "Carousel (new)",
+     name: "Carousel ",
     artist: "Cannons",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Cannons - Carousel (new).mp3",
  
  timeCategory: "f evening",
-  isNew: true
+  year: 2026,
+isNew: true
 },
 
 {
@@ -30221,7 +30585,8 @@ volumeBoost: 0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Snoop Dogg - Angels Cry (new).mp3",
    timeCategory: "f afternoon",
-  isNew: true
+  year: 2026,
+isNew: true
 },
 
 
@@ -30249,7 +30614,8 @@ volumeBoost: 0.40
     path: "https://dancemusic08.netlify.app/Lizzo - Dont Make Me Love U (new).mp3",
  
  timeCategory: "f evening-late",
-  isNew: true
+  year: 2026,
+isNew: true
 },
 
 
@@ -30280,7 +30646,8 @@ volumeBoost: 0.40
     path: "https://dancemusic08.netlify.app/Shaggy - Looking Lovely (new).mp3",
  
  timeCategory: "f evening-late",
-  isNew: true
+ year: 2026,
+ isNew: true
 },
 
 
@@ -30382,7 +30749,8 @@ timeCategory: "f evening"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Madonna - I Feel So Free (new).mp3",
     timeCategory: "f evening-late",
-  isNew: true
+  year: 2026,
+isNew: true
 },
 
 
@@ -30392,7 +30760,8 @@ timeCategory: "f evening"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Zerb & Rita Ora - If Its Not Love.mp3",
     timeCategory: "f evening-late",
-  isNew: true
+  year: 2026,
+isNew: true
 },
 
 
@@ -30412,17 +30781,19 @@ timeCategory: "f evening"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Lady Gaga - RunWay (new).mp3",
     timeCategory: "f evening-late",
-  isNew: true
+  year: 2026,
+isNew: true
 
 },
 
 {
-     name: "  Carousel (new) ",
+     name: "  Carousel ",
     artist: "Cannons ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Cannons - Carousel (new).mp3",
    timeCategory: "f evening-late",
-  isNew: true
+  year: 2026,
+isNew: true
 },
 
 
@@ -30656,7 +31027,8 @@ timeCategory: "f evening-late"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Doechii - Girl Get Up (new).mp3",
   timeCategory: "f evening-late",
-  isNew: true
+  year: 2026,
+isNew: true
 },
 
 
@@ -30680,7 +31052,8 @@ timeCategory: "f evening-late"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Ariana Grande - Midnight Drif (new).mp3",
   timeCategory: "f evening-late",
-  isNew: true
+  year: 2026,
+isNew: true
 },
 
 
@@ -30849,7 +31222,8 @@ timeCategory: "f evening-late"
     artist: " Becky Hill",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Becky Hill - More! More! More (new)!.mp3",
-           timeCategory: "f evening-late"
+       year: 2026,   
+ timeCategory: "f evening-late"
 },
 
 
@@ -30868,7 +31242,8 @@ timeCategory: "f evening-late"
     artist: " Elderbrook ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Elderbrook - Is It Over Now (new).mp3",
-           timeCategory: "f evening-late"
+       year: 2026,   
+ timeCategory: "f evening-late"
 },
 
 
@@ -30900,7 +31275,8 @@ timeCategory: "f evening-late"
     artist: "Tove Lo",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Tove Lo - Im Your Girl Right (new).mp3",
-           timeCategory: "f evening-late"
+        year: 2026,   
+timeCategory: "f evening-late"
 },
 
 
@@ -30978,7 +31354,8 @@ timeCategory: "f evening-late"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Morgan Luna - You Lost Me Forever (new).mp3",
    timeCategory: "f evening-late",
-  isNew: true
+  year: 2026,
+isNew: true
 },
 
 
@@ -31032,7 +31409,8 @@ year:2022
     path: "https://dancemusic09.netlify.app/Snoop Dogg - We Connect (new).mp3",
     timeCategory: "f evening-late",
   volumeBoost: 0.25,
-    isNew: true
+    year: 2026,
+isNew: true
 },
 
 
@@ -31056,7 +31434,8 @@ year:2022
     path: "https://danceoldies10.netlify.app/The Chainsmokers - Echo (new).mp3",
  
  timeCategory: "f evening-late",
-  isNew: true
+  year: 2026,
+isNew: true
 },
 
 
@@ -31375,15 +31754,6 @@ volumeBoost: 0.40
 
 
 
-{
-     name: "Carousel (new)",
-    artist: "Cannons",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://danceoldies10.netlify.app/Cannons - Carousel (new).mp3",
- 
- timeCategory: "f evening-late"
-
-},
 
 
 
@@ -31502,6 +31872,7 @@ volumeBoost: 0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Rihanna - Take Over (new).mp3",
     timeCategory: "f evening-late",
+year: 2026,
 playcount: 0
    
 
@@ -31614,7 +31985,8 @@ playcount: 0
     artist: "Swae Lee  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Swae Lee - Mural (new).mp3",
-   timeCategory: "f afternoon"
+   year: 2026,
+timeCategory: "f afternoon"
 },
 
 
