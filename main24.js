@@ -895,7 +895,7 @@ volumeBoost: 0.10
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio01.mp3",
     timeCategory: "special",
-volumeBoost:0.50,
+volumeBoost:0.90,
    playcount: 0
 },
 
@@ -906,7 +906,7 @@ volumeBoost:0.50,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio02.mp3",
     timeCategory: "special",
-volumeBoost:0.50,
+volumeBoost:0.90,
    playcount: 0
 },
 
@@ -921,7 +921,7 @@ volumeBoost:0.50,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio03.mp3",
     timeCategory: "special",
-volumeBoost:0.50,
+volumeBoost:0.90,
    playcount: 0
 },
 
@@ -933,7 +933,7 @@ volumeBoost:0.50,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio04.mp3",
     timeCategory: "special",
-volumeBoost:0.50,
+volumeBoost:0.90,
    playcount: 0
 },
 
@@ -945,7 +945,7 @@ volumeBoost:0.50,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio05.mp3",
     timeCategory: "special",
-volumeBoost:0.50,
+volumeBoost:0.90,
    playcount: 0
 },
 
@@ -956,7 +956,7 @@ volumeBoost:0.50,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio06.mp3",
     timeCategory: "special",
-volumeBoost:0.50,
+volumeBoost:0.90,
    playcount: 0
 },
 
@@ -967,7 +967,7 @@ volumeBoost:0.50,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio07.mp3",
     timeCategory: "special",
-volumeBoost:0.50,
+volumeBoost:0.90,
    playcount: 0
 },
 
@@ -1002,7 +1002,7 @@ volumeBoost:0.50,
     timeCategory: "love",
 
   eq: { bass: 2, mid: 3, treble: 3 } ,
-volumeBoost:0.60,
+volumeBoost:1.0,
    playcount: 0
 },
 
@@ -1014,8 +1014,8 @@ volumeBoost:0.60,
     path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 02.mp3",
     timeCategory: "love",
 
-  eq: { bass: 2, mid: 3, treble: 3 } ,
-volumeBoost:0.60,
+
+volumeBoost:1.0,
    playcount: 0
 },
 {
@@ -1025,8 +1025,7 @@ volumeBoost:0.60,
     path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 03.mp3",
     timeCategory: "love",
 
-  eq: { bass: 2, mid: 3, treble: 3 } ,
-volumeBoost:0.60,
+volumeBoost:1.0,
    playcount: 0
 },
 
@@ -1037,8 +1036,7 @@ volumeBoost:0.60,
     path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 04.mp3",
     timeCategory: "love",
 
-  eq: { bass: 2, mid: 3, treble: 3 } ,
-volumeBoost:0.60,
+volumeBoost:1.0,
    playcount: 0
 },
 
@@ -1050,7 +1048,7 @@ volumeBoost:0.60,
     timeCategory: "love",
 
   eq: { bass: 2, mid: 3, treble: 3 } ,
-volumeBoost:0.60,
+volumeBoost:1.0,
    playcount: 0
 },
 
@@ -1063,7 +1061,7 @@ volumeBoost:0.60,
     timeCategory: "love",
 
   eq: { bass: 2, mid: 3, treble: 3 } ,
-volumeBoost:0.60,
+volumeBoost:1.0,
    playcount: 0
 },
 
@@ -24046,7 +24044,7 @@ playcount: 0,
     timeCategory: "evening-late",
        year: 1990,
  quickFade: true,
-    volumeBoost: 0.45,
+    volumeBoost: 1.0,
     playcount: 0
 },
 
@@ -28863,6 +28861,14 @@ volumeBoost: 0.10
 
 
 
+{
+    name: "Paradise",
+    artist: "Medusa ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Medusa - Paradise.mp3",
+   timeCategory: "f afernoon"
+},
+
 
 
 
@@ -31701,6 +31707,13 @@ isNew: true
 
 
 
+{
+    name: "Paradise",
+    artist: "Medusa ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Medusa - Paradise.mp3",
+   timeCategory: "f evening-late"
+},
 
 
 
