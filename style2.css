@@ -566,7 +566,7 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
 
 
 #gas  {  
- display: block; margin: auto; z-index: 0;  border: solid 5px #555555 ;
+ display: block; margin: auto; z-index: 100;  border: solid 5px #555555 ;
 }
 
 #uitzinnig  {  display: block; margin: auto;  height: 400px;

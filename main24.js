@@ -3708,7 +3708,8 @@ timeCategory: "soulshow",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Kool & The Gang - Straight Ahead.mp3",
         timeCategory: "soulshow",
-    quickFade: true
+   year:1984,
+ quickFade: true
  
 },
 
@@ -3777,15 +3778,7 @@ volumeBoost: 0.25
  
 },
 
-{
-     name: " Straight Ahead",
-    artist: "Kool & Gang",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://danceoldies10.netlify.app/Ferry Kool en Nick.mp3",
- 
- timeCategory: "soulshow"
 
-},
 
 {
      name: " Megamix Kool",
@@ -3996,7 +3989,7 @@ volumeBoost: 0.25
     artist: "Kool & The Gang",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Kool en Nick (crossfade).mp3",
- 
+ year:1984,
  timeCategory: "eighties"
 
 },
@@ -4078,14 +4071,7 @@ quickFade: true,
 },
 
 
-{
-     name: "Straight Ahead",
-    artist: "Kool & The Gang",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Kool & The Gang - Straight Ahead (eigties).mp3",
-    timeCategory: "eighties",
-     year:1982
-},
+
 
 
 
@@ -5706,13 +5692,6 @@ volumeBoost: 0.20
 
 },
 
-{
-     name: " Straight Ahead ",
-    artist: " Nick Straker Band ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Nick Straker Band - Straight Ahead.mp3",
-    timeCategory: "eighties"
-},
 
 {
      name: "Celebration",
@@ -11878,7 +11857,7 @@ volumeBoost: 0.30
     path: "https://dancemusic09.netlify.app/Poppy Baskcomb - Think About Us.mp3",
            timeCategory: "afternoon",
   volumeBoost: 0.20,
-playcount: 0
+year: 2025
 
 
 },
@@ -22642,7 +22621,8 @@ timeCategory: "evening-late"
     artist: "For An Angel ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/For an Ange l- Paul van Dyk.mp3",
-     timeCategory: "evening-late"
+     year:2009,
+timeCategory: "evening-late"
 },
 
 
@@ -30489,7 +30469,8 @@ isNew: true
     artist: "Poppy Baskcomb   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Poppy Baskcomb - Think About Us.mp3",
-           timeCategory: "f evening"
+       year: 2025,    
+timeCategory: "f evening"
 
 },
 
@@ -31346,7 +31327,7 @@ isNew: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Kool & The Gang - Straight Ahead.mp3",
     timeCategory: "f afternoon",
-     year:1983
+     year:1984
 },
 
 
@@ -31555,8 +31536,9 @@ volumeBoost: 0.10
     path: "https://dancemusic09.netlify.app/Katy Perry - Nirvana.mp3",
     timeCategory: "f evening-late",
     eq: { bass: 2, mid: 3, treble: +1 } ,
-    volumeBoost: 1.3,
-    playcount: 0
+    year: 2024,
+volumeBoost: 1.3
+    
 },
 
 
@@ -31824,7 +31806,7 @@ isNew: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Poppy Baskcomb - Think About Us.mp3",
            timeCategory: "f evening-late",
-  playcount: 0
+ year:2025
 },
 
 
@@ -32402,7 +32384,7 @@ isLoud: true,
     artist: "Kool & Gang",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Kool en Nick (crossfade).mp3",
- 
+ year:1984,
  timeCategory: "f evening-late"
 
 },
