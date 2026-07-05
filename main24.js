@@ -415,7 +415,7 @@ let trackList = [
 
 
 
-
+//newest
 
 
 
@@ -485,6 +485,123 @@ year: 2026
 
 },
 
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance radio☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle1.mp3",
+timeCategory: "newest"
+},
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny dance jingle.mp3",
+  timeCategory: "newest"
+
+},
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny dance jingle.mp3",
+  timeCategory: "newest"
+
+},
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance Radio☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+      timeCategory: "newest"
+
+},
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance radio☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle1.mp3",
+timeCategory: "newest"
+},
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny dance jingle.mp3",
+  timeCategory: "newest"
+
+},
+
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny dance jingle.mp3",
+  timeCategory: "newest"
+
+},
+
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance Radio☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+      timeCategory: "newest"
+
+},
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance Radio☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+      timeCategory: "newest"
+
+},
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance Radio☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle4.mp3",
+      timeCategory: "newest"
+
+},
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance Radio☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle4.mp3",
+      timeCategory: "newest"
+
+},
 
 {
      name: "   Im Your Girl Right (new)",
@@ -730,11 +847,45 @@ isNew: true
 
 
 
+{
+    name: " Des Fleurs x Stromae",
+    artist: "Tove Lo ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Tove Lo - Des Fleurs x Stromae.mp3",
+            timeCategory: "newest",
+  year: 2026,
+volumeBoost: 0.10
+},
+
+
+
+
+{
+    name: " Satisfy (new)",
+    artist: "Calvin Harris ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Calvin Harris - Satisfy (new).mp3",
+            timeCategory: "newest",
+  year: 2026,
+volumeBoost: 0.10
+},
+
+
+{
+    name: " I Dont Wanna Hurt You (new)",
+    artist: "Clean Bandit ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Clean Bandit - I Dont Wanna Hurt You (new).mp3",
+            timeCategory: "newest",
+  year: 2026,
+volumeBoost: 0.10
+},
 
 
 
 
 
+//special
 
 
 
@@ -12902,7 +13053,8 @@ playcount: 0
     artist: "Disclosure  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Disclosure - She's Gone Dance On.mp3",
-     timeCategory: "afternoon"
+     year: 2024,
+timeCategory: "afternoon"
 },
 
 {
@@ -12910,8 +13062,8 @@ playcount: 0
     artist: "Yasmin",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Yasmin- Finish Line.mp3",
-
-     timeCategory: "afternoon"
+    year: 2011,
+    timeCategory: "afternoon"
 },
 
 
@@ -12921,7 +13073,10 @@ playcount: 0
     artist: "Channel Tres    ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Channel Tres - 6 AM.mp3",
-      timeCategory: "afternoon"
+     year: 2022,
+  timeCategory: "afternoon"
+
+
 },
 
 
@@ -12946,7 +13101,9 @@ playcount: 0
     artist: "Freemasons  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Freemasons - Watchin'.mp3",
-    timeCategory: "afternoon"
+   year: 2011,
+   timeCategory: "afternoon"
+
 },
 
 
@@ -13491,6 +13648,14 @@ timeCategory: "afternoon",
 
 
 
+{
+    name: " I Dont Wanna Hurt You (new)",
+    artist: "Clean Bandit ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Clean Bandit - I Dont Wanna Hurt You (new).mp3",
+            timeCategory: "afternoon",
+volumeBoost: 0.10
+},
 
 
 {
@@ -22520,7 +22685,14 @@ timeCategory: "evening-late"
 
 
 
-
+{
+    name: " Des Fleurs x Stromae",
+    artist: "Tove Lo ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Tove Lo - Des Fleurs x Stromae.mp3",
+            timeCategory: "evening-late",
+volumeBoost: 0.10
+},
 
 
 
@@ -27429,6 +27601,15 @@ timeCategory: "f afternoon"
   
 },
 
+{
+    name: " Satisfy (new)",
+    artist: "Calvin Harris ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Calvin Harris - Satisfy (new).mp3",
+            timeCategory: "f afternoon",
+volumeBoost: 0.10
+},
+
 
 
 {
@@ -28620,6 +28801,14 @@ timeCategory: "f afternoon"
 
 
 
+{
+    name: " Daddy Cool",
+    artist: "Boney M ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Boney M - Daddy Cool.mp3",
+            timeCategory: "f afternoon",
+volumeBoost: 0.10
+},
 
 
 
@@ -29036,6 +29225,15 @@ volumeBoost: 0.40
 
 
 {
+    name: " Des Fleurs x Stromae",
+    artist: "Tove Lo ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Tove Lo - Des Fleurs x Stromae.mp3",
+            timeCategory: "f evening",
+volumeBoost: 0.10
+},
+
+{
     name: "Scandalous   ",
     artist: " Griffin Tinashe ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
@@ -29249,7 +29447,14 @@ timeCategory: "f evening"
 
 
 
-
+{
+    name: " She's Gone Dance On",
+    artist: "Disclosure  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic07.netlify.app/Disclosure - She's Gone Dance On.mp3",
+     year: 2024,
+timeCategory: "f evening"
+},
 
 
 
@@ -29441,7 +29646,14 @@ isNew: true
 
 
 
-
+{
+    name: " I Dont Wanna Hurt You (new)",
+    artist: "Clean Bandit ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Clean Bandit - I Dont Wanna Hurt You (new).mp3",
+            timeCategory: "f evening",
+volumeBoost: 0.10
+},
 
 
 
@@ -31300,6 +31512,14 @@ timeCategory: "f evening-late"
 
 
 
+{
+    name: " Satisfy (new)",
+    artist: "Calvin Harris ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Calvin Harris - Satisfy (new).mp3",
+            timeCategory: "f evening-late",
+volumeBoost: 0.10
+},
 
 
 {
@@ -33169,7 +33389,8 @@ const history = playedTracks
       !p.includes("discjockeys") &&
       !p.includes("sunny ship") &&
       !p.includes("audio") &&
-      !excludedTypes.includes(t.type)
+          !p.includes("News") &&
+!excludedTypes.includes(t.type)
     );
   })
   .reverse()
