@@ -1218,7 +1218,7 @@ color: crimson; z-index: 200;
 
 #stars {
 display:block;
-margin:auto auto auto auto; z-index:0; 
+margin:auto auto auto auto; z-index:100; 
 filter: brightness(100%) saturate(105%) contrast(100%)opacity (70%);
 }
 
@@ -1425,7 +1425,7 @@ height: 900px; width: 350px; display: block; margin: auto auto auto auto; z-inde
 }
 
 
-#yello  {    color: #cc5500; z-index: -300;
+#yello  {    color: #cc5500; z-index: -700;
 }
 
 

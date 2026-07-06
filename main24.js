@@ -3558,7 +3558,8 @@ quickFade: true
     artist: "Man Go Funk ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Man Go Funk - Ghetto Feeling.mp3",
-    timeCategory: "soulshow"
+       year:2018,
+timeCategory: "soulshow"
 },
 
 
@@ -4032,7 +4033,7 @@ timeCategory: "eighties",
     path: "https://sunnydanceoldies08.netlify.app/Lipps Inc. - Funkytown (1980).mp3",
  timeCategory: "eighties",
 quickFade: true,
-  volumeBoost: 0.40
+  volumeBoost: 1.0
 },
 
 
@@ -5324,6 +5325,7 @@ volumeBoost: 0.10
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Shannon - Let The Music Play.mp3",
         timeCategory: "eighties",
+year:1983,
 volumeBoost: 0.15
 },
 
@@ -5369,7 +5371,7 @@ timeCategory: "eighties"
     timeCategory: "eighties",
     quickFade: true,
      volumeBoost: 0.25,
-    playcount: 0
+    year:1982
 },
 
 {
@@ -6029,7 +6031,8 @@ volumeBoost: 0.35
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Massive Attack - Unfinished Sympathy.mp3",
  timeCategory: "nineties",
-volumeBoost: 0.25
+year:1991,
+volumeBoost: 0.85
 },
 
 
@@ -6405,7 +6408,7 @@ volumeBoost: 0.40
       timeCategory: "nineties",
    quickFade: true,
  eq: { bass: 1, mid: 2, treble: +1 } ,
-volumeBoost: 0.30
+volumeBoost: 1.0
 },
 
 {
@@ -9573,7 +9576,7 @@ volumeBoost: 0.10
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Silver Convention - Fly Robin Fly.mp3",
      timeCategory: "morning",
-volumeBoost: 0.45
+volumeBoost: 0.95
 
 },
 
@@ -10093,7 +10096,7 @@ volumeBoost: 0.10
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Lakeside - It's All The Way Live.mp3",
           timeCategory: "morning",
-volumeBoost: 0.35
+volumeBoost: 0.95
 },
 
 
@@ -10110,7 +10113,7 @@ volumeBoost: 0.35
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/MFSB - Sexy (12inch).mp3",
     timeCategory: "morning",
-volumeBoost: 0.40
+volumeBoost: 0.90
 },
 
 
@@ -10163,7 +10166,7 @@ volumeBoost: 0.40
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/SWV - Right Here.mp3",
         timeCategory: "morning",
-volumeBoost: 0.25,
+volumeBoost: 0.45,
 playcount: 0
 },
 
@@ -10202,7 +10205,7 @@ volumeBoost: 0.25
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Baby O - In The Forest.mp3",
         timeCategory: "morning",
-volumeBoost: 0.35
+volumeBoost: 0.55
 
 
 
@@ -10292,7 +10295,7 @@ isLoud: true,
     artist: "Change ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Change - Glow Of Love.mp3",
-         
+     year: 1980,    
 timeCategory: "morning",
 volumeBoost: 0.40
 },
@@ -10418,7 +10421,8 @@ volumeBoost: 0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Massive Attack - Unfinished Sympathy.mp3",
  timeCategory: "morning",
-volumeBoost: 0.25
+year: 1991,
+volumeBoost: 0.85
 },
 
 
@@ -10676,7 +10680,8 @@ volumeBoost: 0.35
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Bruce Johnston- Pipeline.mp3",
  timeCategory: "morning",
-volumeBoost: 0.35
+year: 1977,
+volumeBoost: 0.5
 },
 
 
@@ -10926,7 +10931,8 @@ timeCategory: "morning"
     artist: "Atlantic Ocean  ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Atlantic Ocean - Waterfall.mp3",
-      timeCategory: "morning"
+     year: 1994,
+ timeCategory: "morning"
 },
 
 
@@ -11422,7 +11428,7 @@ playcount: 0
     artist: "KC ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/KC - Get Down Tonight2.mp3",
- 
+   volumeBoost: 0.65,
  timeCategory: "afternoon"
 
 },
@@ -11434,7 +11440,7 @@ playcount: 0
     artist: "KC ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/KC - Shake Your Booty2.mp3",
- 
+   volumeBoost: 0.65,
  timeCategory: "afternoon"
 
 },
@@ -11474,7 +11480,7 @@ timeCategory: " afternoon"
     path: "https://sunny-dancemusic02.netlify.app/Inna - Un Momento.mp3",
     timeCategory: "afternoon",
 isLoud: true,          
-  loudnessValue: 0.90
+  loudnessValue: 0.85
 },
 
 
@@ -11509,6 +11515,7 @@ year: 2026,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/The Weeknd - How Do I make You love me (12inch).mp3",
       timeCategory: "afternoon",
+year:2022,
 quickFade: true
 },
 
@@ -11519,7 +11526,8 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Saweetie - Best Friend.mp3",
     timeCategory: "afternoon",
-  quickFade: true
+ year:2021,
+ quickFade: true
 },
 {
     name: "Sacrifice",
@@ -11527,6 +11535,7 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/The weeknd - Sacrifice.mp3",
     timeCategory: "afternoon",
+year:2022,
 quickFade: true
 },
 
@@ -11755,7 +11764,7 @@ year: 2026
     path: "https://sunnydanceoldies08.netlify.app/Lipps Inc. - Funkytown (1980).mp3",
   timeCategory: "afternoon",
 quickFade: true,
-  volumeBoost: 0.40
+  volumeBoost: 1.0
 },
 {
      name: "  All This Time ",
@@ -19214,6 +19223,7 @@ volumeBoost: 0.30
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/The weeknd - Sacrifice.mp3",
      timeCategory: "evening",
+
 quickFade: true
 },
 
@@ -21339,7 +21349,8 @@ volumeBoost: 0.50,
     artist: "Man Go Funk ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Man Go Funk - Ghetto Feeling.mp3",
-    timeCategory: "evening"
+   year:2018,
+ timeCategory: "evening"
 },
  
 
@@ -21408,6 +21419,7 @@ volumeBoost: 0.50,
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Shannon - Let The Music Play.mp3",
         timeCategory: "evening",
+year:1983,
 volumeBoost: 0.15
 },
 
@@ -24024,7 +24036,7 @@ playcount: 0,
     timeCategory: "evening-late",
        year: 1990,
  quickFade: true,
-    volumeBoost: 1.0,
+    
     playcount: 0
 },
 
@@ -28606,6 +28618,67 @@ isNew: true
 
 
 
+{
+    name: "   Un-break My Heart",
+    artist: " Toni Braxton ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Toni Braxton - Un-break my heart.mp3",
+    timeCategory: "f-afternoon"
+
+},
+
+
+
+
+
+{
+    name: "Bang Bang",
+    artist: "The Knocks ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/The Knocks - Bang Bang.mp3",
+      timeCategory: "f-afternoon"
+
+
+},
+
+
+
+{
+    name: "Around The World ",
+    artist: "Daft Punk ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Daft Punk - Around The World.mp3",
+      timeCategory: "f-afternoon",
+     quickFade: true,
+     eq: { bass: 1, mid: 1, treble: +1 } ,
+ volumeBoost: 0.45,
+    playcount: 0
+},
+
+
+
+
+{
+    name: "No One Dies From Love",
+    artist: "Tove Lo",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Tove Lo - No one dies from love.mp3",
+  
+     timeCategory: "f-afternoon"
+
+
+},
+
+
+{
+    name: "  Sing It Back ",
+    artist: "Moloko ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Moloko - Sing It Back.mp3",
+     timeCategory: "f-afternoon",
+volumeBoost: 0.25
+
+},
 
 
 
