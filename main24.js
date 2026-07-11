@@ -895,7 +895,7 @@ volumeBoost: 0.10
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio01.mp3",
     timeCategory: "special",
-volumeBoost:0.90,
+volumeBoost:1.5,
    playcount: 0
 },
 
@@ -906,7 +906,7 @@ volumeBoost:0.90,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio02.mp3",
     timeCategory: "special",
-volumeBoost:0.90,
+volumeBoost:1.5,
    playcount: 0
 },
 
@@ -921,7 +921,7 @@ volumeBoost:0.90,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio03.mp3",
     timeCategory: "special",
-volumeBoost:0.90,
+volumeBoost:1.5,
    playcount: 0
 },
 
@@ -933,7 +933,7 @@ volumeBoost:0.90,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio04.mp3",
     timeCategory: "special",
-volumeBoost:0.90,
+volumeBoost:1.5,
    playcount: 0
 },
 
@@ -945,7 +945,7 @@ volumeBoost:0.90,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio05.mp3",
     timeCategory: "special",
-volumeBoost:0.90,
+volumeBoost:1.5,
    playcount: 0
 },
 
@@ -956,7 +956,7 @@ volumeBoost:0.90,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio06.mp3",
     timeCategory: "special",
-volumeBoost:0.90,
+volumeBoost:1.5,
    playcount: 0
 },
 
@@ -967,7 +967,7 @@ volumeBoost:0.90,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio07.mp3",
     timeCategory: "special",
-volumeBoost:0.90,
+volumeBoost:1.5,
    playcount: 0
 },
 
