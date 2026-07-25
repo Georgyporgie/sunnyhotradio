@@ -4381,7 +4381,7 @@ playcount: 0
     artist: "Gary Byrd   ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Gary Byrd - The Crown (eighties).mp3",
- 
+ volumeBoost: 1.3,
  timeCategory: "eighties"
 
 },
