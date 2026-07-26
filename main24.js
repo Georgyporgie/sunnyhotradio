@@ -6093,16 +6093,7 @@ quickFade: true
 
 
 
-{
-    name: " Shy Guy (1995)",
-    artist: "Diana King  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/Diana King - Shy guy.mp3",
-    timeCategory: "nineties",
-     quickFade: true,
-    volumeBoost: 0.65,
-    playcount: 0
-},
+
 
 
 
