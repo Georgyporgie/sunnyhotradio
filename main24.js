@@ -895,7 +895,7 @@ volumeBoost: 0.10
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio01.mp3",
     timeCategory: "special",
-volumeBoost:2.5,
+volumeBoost:1.5,
    playcount: 0
 },
 
@@ -906,7 +906,7 @@ volumeBoost:2.5,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio02.mp3",
     timeCategory: "special",
-volumeBoost:2.5,
+volumeBoost:1.5,
    playcount: 0
 },
 
@@ -921,7 +921,7 @@ volumeBoost:2.5,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio03.mp3",
     timeCategory: "special",
-volumeBoost:2.5,
+volumeBoost:1.5,
    playcount: 0
 },
 
@@ -933,7 +933,7 @@ volumeBoost:2.5,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio04.mp3",
     timeCategory: "special",
-volumeBoost:2.5,
+volumeBoost:1.5,
    playcount: 0
 },
 
@@ -945,7 +945,7 @@ volumeBoost:2.5,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio05.mp3",
     timeCategory: "special",
-volumeBoost:2.5,
+volumeBoost:1.5,
    playcount: 0
 },
 
@@ -956,7 +956,7 @@ volumeBoost:2.5,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio06.mp3",
     timeCategory: "special",
-volumeBoost:2.5,
+volumeBoost:1.5,
    playcount: 0
 },
 
@@ -967,7 +967,7 @@ volumeBoost:2.5,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio07.mp3",
     timeCategory: "special",
-volumeBoost:2.5,
+volumeBoost:1.5,
    playcount: 0
 },
 
@@ -1680,13 +1680,7 @@ volumeBoost: 0.50
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
-   timeCategory: "seventies"
-},
+
 
 
 {
@@ -3010,14 +3004,6 @@ volumeBoost: 0.20,
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
-   timeCategory: "seventies"
-},
-
 
 {
     name: "Just for You",
@@ -3910,13 +3896,7 @@ volumeBoost: 0.25
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
-  timeCategory: "eighties"
-},
+
 
 
 {
@@ -3964,14 +3944,7 @@ volumeBoost: 0.25
 },
 
 
-{
-     name: " Sunny ",
-    artist: "Jingle Time",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
-      timeCategory: "eighties"
-  
-},
+
 
 
 {
@@ -4067,8 +4040,8 @@ quickFade: true,
     artist: "Oliver Cheatham ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Oliver Cheatam - Saturday Night ((strictlyi).mp3",
-        timeCategory: "eighties"
-
+        timeCategory: "eighties",
+volumeBoost: 0.30
 },
 
 
@@ -4381,7 +4354,7 @@ playcount: 0
     artist: "Gary Byrd   ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Gary Byrd - The Crown (eighties).mp3",
- volumeBoost: 1.3,
+ 
  timeCategory: "eighties"
 
 },
@@ -5828,13 +5801,7 @@ volumeBoost: 0.20
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
-     timeCategory: "nineties"
-},
+
 
 
 {
@@ -6093,7 +6060,16 @@ quickFade: true
 
 
 
-
+{
+    name: " Shy Guy (1995)",
+    artist: "Diana King  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Diana King - Shy guy.mp3",
+    timeCategory: "nineties",
+     quickFade: true,
+    volumeBoost: 0.65,
+    playcount: 0
+},
 
 
 
@@ -7972,14 +7948,6 @@ timeCategory: "morning",
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet3.mp3",
-      timeCategory: "morning"
-},
-
 
 
 
@@ -8393,13 +8361,7 @@ timeCategory: "morning",
 },
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet.mp3",
-        timeCategory: "morning"
-},
+
 
 
 {
@@ -8505,13 +8467,6 @@ timeCategory: "morning",
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet.mp3",
-      timeCategory: "morning"
-},
 
 
 
@@ -8546,13 +8501,6 @@ timeCategory: "morning",
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet3.mp3",
-       timeCategory: "morning"
-},
 
 
 
@@ -8620,14 +8568,6 @@ timeCategory: "morning",
 
 
 
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet4.mp3",
-      timeCategory: "morning"
-},
 
 
 
@@ -8915,19 +8855,6 @@ timeCategory: "morning"
 
 
 
- 
-
-
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
-      timeCategory: "morning"
-
-
-},
 
 
 
@@ -9409,15 +9336,6 @@ volumeBoost: 0.10
 },
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet3.mp3",
-    timeCategory: "morning"
-
-
-},
 
 
 
@@ -9739,14 +9657,6 @@ volumeBoost: 0.40
 
 
 
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet3.mp3",
-          timeCategory: "morning"
-},
 
 
 {
@@ -10227,16 +10137,6 @@ volumeBoost: 0.55
 
 
 
-{
-    name: "Just For You ",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
-    timeCategory: "morning"
-
-
-},
-
 
 
 {
@@ -10592,27 +10492,9 @@ volumeBoost: 0.35
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet4.mp3",
- timeCategory: "morning"
-},
 
 
 
-
-
-
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet.mp3",
- timeCategory: "morning"
-},
 
 
 
@@ -10654,13 +10536,6 @@ volumeBoost: 0.35
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet4.mp3",
- timeCategory: "morning"
-},
 
 
 
@@ -10849,15 +10724,6 @@ timeCategory: "morning"
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
-      timeCategory: "morning"
-},
-
-
 
 
 
@@ -10891,13 +10757,6 @@ timeCategory: "morning"
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet4.mp3",
-        timeCategory: "morning"
-},
 
 
 
@@ -11460,7 +11319,9 @@ timeCategory: " afternoon"
     artist: "Disclosure ",
      image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Disclosure - You & Me.mp3",
-    timeCategory: "afternoon"
+   isLoud: true,          
+  loudnessValue: 0.70,
+ timeCategory: "afternoon"
 },
 
 
@@ -12669,15 +12530,6 @@ timeCategory: "afternoon"
 
   
 
- 
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
-          timeCategory: "afternoon"
-},
 
 
 
@@ -12825,13 +12677,7 @@ playcount: 0
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet.mp3",
-    timeCategory: "afternoon"
-},
+
 
 
 {
@@ -13031,6 +12877,8 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Disclosure - She's Gone Dance On.mp3",
      year: 2024,
+isLoud: true,          
+  loudnessValue: 0.70,
 timeCategory: "afternoon"
 },
 
@@ -13245,14 +13093,6 @@ quickFade: true
 
 
 
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
-  timeCategory: "afternoon"
-},
 
 
 
@@ -14142,28 +13982,11 @@ quickFade: true
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet4.mp3",
-    timeCategory: "afternoon"
- },
 
 
 
 
 
-
-
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet.mp3",
-     timeCategory: "afternoon"
- },
 
 
 
@@ -14587,14 +14410,6 @@ playcount: 0
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
-    timeCategory: "afternoon"
-},
-
 
 {
     name: "Just for You",
@@ -14944,14 +14759,6 @@ playcount: 0
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
-      timeCategory: "afternoon"
-},
-
 
 
 
@@ -15247,14 +15054,6 @@ playcount: 0
 
 
 
- 
-{
-    name: "Just For You ",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
-   timeCategory: "afternoon"
-},
 
 
 
@@ -15709,15 +15508,6 @@ isNew: true
  
 
 
-
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet4.mp3",
-      timeCategory: "afternoon"
-},
 
 
 {
@@ -16948,16 +16738,6 @@ isNew: true
 
 
 
-{
-    name: "  Danger ",
-    artist: "Olivia Dean ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet.mp3",
-   timeCategory: "evening"
-
-},
-
-
 
 
 
@@ -17082,7 +16862,9 @@ timeCategory: "evening"
     artist: "Zara Larsson",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Zara Larsson - Midnight Sun.mp3",
-    timeCategory: "evening"
+    timeCategory: "evening",
+isLoud: true,          
+  loudnessValue: 0.80
 },
 
 
@@ -18097,15 +17879,6 @@ volumeBoost: 0.25
 
 
 
-{
-    name: "Just For You ",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet.mp3",
-        timeCategory: "evening"
-},
-
-
 
 
 
@@ -18650,16 +18423,6 @@ isNew: true
 
 
 
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
-     timeCategory: "evening"
-},
-
-
 {
     name: "Just for You",
     artist: "Sunny Ship",
@@ -19085,15 +18848,6 @@ isLoud: true,
 
  
 
-
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
-          timeCategory: "evening"
-},
 
 
 
@@ -20040,13 +19794,6 @@ timeCategory: "evening"
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet.mp3",
-            timeCategory: "evening"
-},
 
 
 
@@ -21153,15 +20900,7 @@ volumeBoost: 0.25
 
 
 
-{
-    name: "Just For You ",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet4.mp3",
-    timeCategory: "evening"
 
-
-},
 
 
 {
@@ -21177,15 +20916,6 @@ volumeBoost: 0.25
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
-    timeCategory: "evening"
-
-
-},
 
 
 {
@@ -23902,14 +23632,6 @@ quickFade: true
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
-      timeCategory: "evening-late"
-},
-
 
 {
     name: "Just for You",
@@ -24735,13 +24457,6 @@ timeCategory: "evening-late"
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance radio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet.mp3",
-    timeCategory: "evening-late"
-},
 
 
 
@@ -24829,13 +24544,6 @@ timeCategory: "evening-late"
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
-     timeCategory: "evening-late"
-},
 
 
 
@@ -25142,13 +24850,6 @@ volumeBoost:0.65
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet5.mp3",
-     timeCategory: "evening-late"
-},
 
 
 
@@ -25293,14 +24994,6 @@ quickFade: true,
 
 
 
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet.mp3",
-       timeCategory: "evening-late"
-},
 
 
 
@@ -25741,13 +25434,7 @@ playcount: 0
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet4.mp3",
-      timeCategory: "evening-late"
-},
+
 
 {
     name: "Your Addiction",
@@ -26894,13 +26581,7 @@ isNew: true
 },
 
 
-{
-    name: "Just For You ",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet4.mp3",
-        timeCategory: "evening-late"
-},
+
 
 
 
@@ -28830,14 +28511,6 @@ timeCategory: "f afternoon"
 },
 
 
-{
-    name: "Just For You ",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet4.mp3",
-        timeCategory: "f afternoon"
-
-},
 
 
 
@@ -29503,6 +29176,8 @@ timeCategory: "f evening"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Disclosure - She's Gone Dance On.mp3",
      year: 2024,
+isLoud: true,          
+  loudnessValue: 0.70,
 timeCategory: "f evening"
 },
 
@@ -29791,7 +29466,9 @@ volumeBoost: 0.10
     artist: "Martin Garrix & Zedd",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Martin Garrix & Zedd - Follow.mp3",
-    timeCategory: "f evening"
+    timeCategory: "f evening",
+isLoud: true,          
+  loudnessValue: 0.62
 },
 
   
@@ -29858,7 +29535,8 @@ isNew: true
     artist: "Oliver Cheatham ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Oliver Cheatam - Saturday Night (maxi).mp3",
-        timeCategory: "f evening"
+        timeCategory: "f evening",
+volumeBoost: 0.30
 
 },
 
@@ -30281,14 +29959,7 @@ playcount: 0
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet4.mp3",
-      timeCategory: "f evening"
 
-},
 
 
 
@@ -31975,13 +31646,6 @@ volumeBoost: 0.40
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio snippet.mp3",
- timeCategory: "f evening-late"
-},
 
 
 
@@ -32308,7 +31972,9 @@ timeCategory: "f afternoon"
     artist: "Zara Larsson",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Zara Larsson - Midnight Sun.mp3",
-    timeCategory: "f evening-late"
+    isLoud: true,          
+  loudnessValue: 0.80,
+timeCategory: "f evening-late"
 },
 
 
