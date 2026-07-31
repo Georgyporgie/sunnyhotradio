@@ -3030,7 +3030,7 @@ volumeBoost: 0.20,
      name: " Which Ways Up",
     artist: "Stargard",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://sunny-dancemusic03.netlify.app /Stargard Which Ways Up.mp3",
+    path: "https://sunny-dancemusic03.netlify.app/Stargard Which Ways Up.mp3",
   timeCategory: "seventies"
 
 },
@@ -3055,7 +3055,7 @@ volumeBoost: 0.20,
      name: "  And The Beat Goes On",
     artist: "The Whispers",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://sunny-dancemusic03.netlify.app /The Whispers - And The Beat Goes On.mp3",
+    path: "https://sunny-dancemusic03.netlify.app/The Whispers - And The Beat Goes On.mp3",
   timeCategory: "seventies"
 
 },
@@ -3110,7 +3110,7 @@ volumeBoost: 0.20,
      name: " Which Ways Up",
     artist: "Stargard",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://sunny-dancemusic03.netlify.app /Stargard Which Ways Up.mp3",
+    path: "https://sunny-dancemusic03.netlify.app/Stargard Which Ways Up.mp3",
   timeCategory: "soulshow"
 
 },
