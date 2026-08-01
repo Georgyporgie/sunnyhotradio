@@ -546,7 +546,7 @@ volumeBoost:0.50,
     timeCategory: "love",
 
   eq: { bass: 2, mid: 3, treble: 3 } ,
-volumeBoost:0.60,
+volumeBoost:3.60,
    playcount: 0
 },
 
@@ -559,7 +559,7 @@ volumeBoost:0.60,
     timeCategory: "love",
 
   eq: { bass: 2, mid: 3, treble: 3 } ,
-volumeBoost:0.60,
+volumeBoost:3.60,
    playcount: 0
 },
 {
@@ -570,7 +570,7 @@ volumeBoost:0.60,
     timeCategory: "love",
 
   eq: { bass: 2, mid: 3, treble: 3 } ,
-volumeBoost:0.60,
+volumeBoost:3.60,
    playcount: 0
 },
 
@@ -582,7 +582,7 @@ volumeBoost:0.60,
     timeCategory: "love",
 
   eq: { bass: 2, mid: 3, treble: 3 } ,
-volumeBoost:0.60,
+volumeBoost:3.60,
    playcount: 0
 },
 
@@ -594,7 +594,7 @@ volumeBoost:0.60,
     timeCategory: "love",
 
   eq: { bass: 2, mid: 3, treble: 3 } ,
-volumeBoost:0.60,
+volumeBoost:3.60,
    playcount: 0
 },
 
@@ -607,7 +607,7 @@ volumeBoost:0.60,
     timeCategory: "love",
 
   eq: { bass: 2, mid: 3, treble: 3 } ,
-volumeBoost:0.60,
+volumeBoost:3.60,
    playcount: 0
 },
 
