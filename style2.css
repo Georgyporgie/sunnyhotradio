@@ -1049,7 +1049,7 @@ width: 355px; height: 370px;
   display: block;
   
   border: solid 1px #FF0000;
-  filter: brightness(105%) saturate(105%) contrast(105%) opacity(75%);
+  filter: brightness(105%) saturate(105%) contrast(105%) opacity(70%);
   position: relative;
   z-index: 0;
 
