@@ -266,7 +266,7 @@ font-weight: italic; display: block; margin: auto auto auto auto;
 #media {
     width: 100px;
     height: 100px;
-    filter: brightness(100%) saturate(100%) contrast(100%) opacity(100%);
+    filter: brightness(100%) saturate(100%) contrast(100%) opacity(75%);
     transform: rotate(0deg);
     z-index: -900;
     display: block;
