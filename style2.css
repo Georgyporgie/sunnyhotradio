@@ -878,7 +878,7 @@ margin-top: 50px; margin-left: 5px;height: 50px; width: 48px;
 
 
 
-#record  { position: absolute; filter: brightness(100%) saturate(100%) contrast(105%) opacity(60%);  z-index: -400;
+#record  { position: absolute; filter: brightness(100%) saturate(100%) contrast(105%) opacity(55%);  z-index: 0;
 
 
 
