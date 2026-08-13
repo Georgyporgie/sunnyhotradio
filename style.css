@@ -435,11 +435,11 @@ a { color: black;
 
 
 
-#pick { width: 20px; height:25px;filter: brightness(100%) saturate(105%) contrast(100%) opacity(70%); z-index: -1000; transform:rotate(0deg);
+#pick { width: 20px; height:25px;filter: brightness(100%) saturate(105%) contrast(100%) opacity(70%); z-index: -200; transform:rotate(0deg);
 }
 
 
-#third { width: 20px; height: 25px;filter: brightness(100%) saturate(105%) contrast(100%) opacity(70%); z-index: -1000; transform:rotate(0deg);
+#third { width: 20px; height: 25px;filter: brightness(100%) saturate(105%) contrast(100%) opacity(70%); z-index: -200; transform:rotate(0deg);
 }
 
 
