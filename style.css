@@ -114,7 +114,7 @@ text-align: center;
 
 
 #luister {   width:100px; height: 30px; border-radius: 5px;
-   z-index: -200; float: right; margin-left: 30px; transform:rotate(1deg);
+   z-index: -400; float: right; margin-left: 30px; transform:rotate(1deg);
  filter:brightness(100%)saturation(100%) contrast(100%) opacity(45%); 
 }
 
@@ -193,7 +193,7 @@ display: none;
 
 
 #mimo {   width:100px; height: 40px; border-radius: 5px; transform:rotate(-1deg);
-   z-index: -500; float: right; margin-top: 50px; 
+   z-index: -400; float: right; margin-top: 50px; 
  filter:brightness(100%) saturation(100%) contrast(100%) opacity(45%); margin-left: -80px;
 }
 
