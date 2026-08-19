@@ -896,7 +896,8 @@ volumeBoost: 0.10
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio01.mp3",
     timeCategory: "special",
 volumeBoost:2.5,
-   playcount: 0
+  part: 1,
+ playcount: 0
 },
 
 
@@ -907,7 +908,8 @@ volumeBoost:2.5,
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio02.mp3",
     timeCategory: "special",
 volumeBoost:2.5,
-   playcount: 0
+   part: 2, 
+playcount: 0
 },
 
 
@@ -922,7 +924,8 @@ volumeBoost:2.5,
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio03.mp3",
     timeCategory: "special",
 volumeBoost:2.5,
-   playcount: 0
+   part: 3, 
+playcount: 0
 },
 
 
@@ -934,7 +937,9 @@ volumeBoost:2.5,
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio04.mp3",
     timeCategory: "special",
 volumeBoost:2.5,
-   playcount: 0
+   part: 4,
+ playcount: 0
+
 },
 
 
@@ -946,7 +951,8 @@ volumeBoost:2.5,
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio05.mp3",
     timeCategory: "special",
 volumeBoost:2.5,
-   playcount: 0
+   part: 5,
+ playcount: 0
 },
 
 
@@ -957,7 +963,8 @@ volumeBoost:2.5,
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio06.mp3",
     timeCategory: "special",
 volumeBoost:2.5,
-   playcount: 0
+    part: 6,
+playcount: 0
 },
 
 
@@ -968,7 +975,8 @@ volumeBoost:2.5,
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio07.mp3",
     timeCategory: "special",
 volumeBoost:2.5,
-   playcount: 0
+   part: 7, 
+playcount: 0
 },
 
 
@@ -1003,7 +1011,8 @@ volumeBoost:2.5,
 
   eq: { bass: 2, mid: 3, treble: 3 } ,
 volumeBoost:1.0,
-   playcount: 0
+   playcount: 0,
+part: 1
 },
 
 
@@ -1013,7 +1022,7 @@ volumeBoost:1.0,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 02.mp3",
     timeCategory: "love",
-
+part: 2,
 
 volumeBoost:1.0,
    playcount: 0
@@ -1024,7 +1033,7 @@ volumeBoost:1.0,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 03.mp3",
     timeCategory: "love",
-
+part: 3,
 volumeBoost:1.0,
    playcount: 0
 },
@@ -1035,7 +1044,7 @@ volumeBoost:1.0,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 04.mp3",
     timeCategory: "love",
-
+part: 4,
 volumeBoost:1.0,
    playcount: 0
 },
@@ -1046,7 +1055,7 @@ volumeBoost:1.0,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 05.mp3",
     timeCategory: "love",
-
+part: 5,
   eq: { bass: 2, mid: 3, treble: 3 } ,
 volumeBoost:1.0,
    playcount: 0
@@ -1059,7 +1068,7 @@ volumeBoost:1.0,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 06.mp3",
     timeCategory: "love",
-
+part: 6,
   eq: { bass: 2, mid: 3, treble: 3 } ,
 volumeBoost:1.0,
    playcount: 0
@@ -1305,8 +1314,8 @@ volumeBoost:0.50
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023).mp3",
     timeCategory: "special-cast",
   eq: { bass: 0, mid: 0, treble: +1 } ,
-volumeBoost: 0.50
-
+volumeBoost: 0.50,
+part: 1
 },
 
 
@@ -1319,7 +1328,8 @@ volumeBoost: 0.50
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 02.mp3",
     timeCategory: "special-cast",
   eq: { bass: 0, mid: 0, treble: +1 } ,
-volumeBoost: 0.50
+volumeBoost: 0.50,
+part: 2
 },
 
 
@@ -1333,7 +1343,8 @@ volumeBoost: 0.50
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 03.mp3",
    timeCategory: "special-cast",
   eq: { bass: 0, mid: 0, treble: +1 } ,
-volumeBoost: 0.50
+volumeBoost: 0.50,
+part: 3
 },
 
 
@@ -1344,7 +1355,8 @@ volumeBoost: 0.50
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 04.mp3",
     timeCategory: "special-cast",
   eq: { bass: 0, mid: 0, treble: +1 } ,
-volumeBoost: 0.50
+volumeBoost: 0.50,
+part: 4
 },
 
 
@@ -1355,7 +1367,8 @@ volumeBoost: 0.50
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 05.mp3",
     timeCategory: "special-cast",
   eq: { bass: 0, mid: 0, treble: +1 } ,
-volumeBoost: 0.50
+volumeBoost: 0.50,
+part: 5
 },
 
 
@@ -1628,6 +1641,36 @@ volumeBoost: 0.50
         timeCategory: "seventies"
 },
 
+
+{
+     name: "I Can Let Go",
+    artist: "EWF ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/EWF I Can Let Go.mp3",
+      timeCategory: "seventies"
+},
+
+
+
+
+
+
+{
+     name: "In The Stone",
+    artist: "EWF ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/EWF In The Stone.mp3",
+      timeCategory: "seventies"
+},
+
+
+{
+     name: " Car Wash",
+    artist: "Rose Royce ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Rose Royce - Car Wash.mp3",
+      timeCategory: "seventies"
+},
 
 
 
@@ -2575,7 +2618,7 @@ timeCategory: "seventies",
 year: 1978,
 timeCategory: "seventies",
      quickFade: true,
-    volumeBoost: 0.25,
+    volumeBoost: 0.55,
    eq: { bass: 0, mid: 2, treble: +1 } 
 },
 
@@ -3066,23 +3109,27 @@ volumeBoost: 0.20,
 
 //soulshow
 
+
+
 {
      name: "Intro",
     artist: "Soulshow  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Soulshow intro2.mp3",
-    timeCategory: "soulshow"
+    timeCategory: "soulshow",
+part: 1
 },
 
 {
-     name: "Newyork City (maxi)",
-    artist: "Tramps",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://jazzmusic05.netlify.app/Tramps Newyork City.mp3",
- 
- timeCategory: "soulshow"
-
+     name: "Intro",
+    artist: "Soulshow  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Soulshow intro.mp3",
+    timeCategory: "soulshow",
+part: 2
 },
+
+
 
 
 {
@@ -3090,12 +3137,18 @@ volumeBoost: 0.20,
     artist: "Stargard",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://sunny-dancemusic03.netlify.app/Stargard Which Ways Up.mp3",
-  timeCategory: "soulshow"
-
+  timeCategory: "soulshow",
+part: 3
 },
 
 
-
+{
+     name: "Intro",
+    artist: "Soulshow  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/soulshow tune01.mp3",
+    timeCategory: "soulshow"
+},
 
 {
      name: "Boogie s In My Soul (new)",
@@ -3103,8 +3156,8 @@ volumeBoost: 0.20,
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://sunny-dancemusic03.netlify.app/Chaka Kahn - Boogie s In My Soul (new).mp3",
  year: 2026,
- timeCategory: "soulshow"
-
+ timeCategory: "soulshow",
+part: 4
 },
 
 {
@@ -3116,9 +3169,30 @@ volumeBoost: 0.20,
    isLoud: true,          
   loudnessValue: 0.52,    
      quickFade: true,
-        playcount: 0
+        playcount: 0,
+part: 5
 },
 
+
+
+{
+     name: "Night Fever",
+    artist: "Beegees",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Beegees Night fever.mp3",
+    timeCategory: "soulshow",
+part: 6
+
+},
+
+{
+     name: "Relight My Fire",
+    artist: "Dan Hartman",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Dan Hartman Relight My Fire.mp3",
+    timeCategory: "soulshow",
+part: 7
+},
 {
     name: "   Ugly Ego (classic)",
     artist: "Cameo  ",
@@ -3126,7 +3200,9 @@ volumeBoost: 0.20,
     path: "https://sunnyhotradio.com/muziek/oldies07/Cameo - Ugly Ego.mp3",
    timeCategory: "soulshow",
  quickFade: true,
-volumeBoost:0.10
+volumeBoost:0.10,
+part: 8
+
 },
 
 
@@ -3136,8 +3212,8 @@ volumeBoost:0.10
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Slave - Just A Touch (1979).mp3",
        timeCategory: "soulshow",
-quickFade: true
-  
+quickFade: true,
+  part: 9
 },
 
 
@@ -3148,7 +3224,10 @@ quickFade: true
     path: "https://jazzmusic04.netlify.app/EARTH WIND & FIRE - Fall In Love With Me (1982).mp3",
     timeCategory: "soulshow",
     volumeBoost: 0.55,
-    playcount: 0
+    playcount: 0,
+part: 10
+
+
 },
 
 {
@@ -3156,7 +3235,9 @@ quickFade: true
     artist: "Soulshow  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Soulshow intro2.mp3",
-    timeCategory: "soulshow"
+    timeCategory: "soulshow",
+part: 11
+
 },
 
 {
@@ -3164,8 +3245,8 @@ quickFade: true
     artist: "KC and The Sunshine Band",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/K C and The Sunshine Band - Thats The Way (1975).mp3",
-       timeCategory: "soulshow"
-
+       timeCategory: "soulshow",
+part: 12
   
 },
 
@@ -3174,8 +3255,8 @@ quickFade: true
     artist: "Chic ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Chic - I Want Your Love ((strictly).mp3",
-       timeCategory: "soulshow"
-
+       timeCategory: "soulshow",
+part: 13
   
 },
 
@@ -3187,36 +3268,33 @@ quickFade: true
     path: "https://sunnydanceoldies02.netlify.app/Vaughan  Mason & Crew - Bounce skate roll.mp3",
   playcount: 0,
 timeCategory: "soulshow",
-  volumeBoost: 0.35
+  volumeBoost: 0.35,
+part: 14
+
 },
-
-
-
-
 
 
 
 {
-     name: "Night Fever",
-    artist: "Beegees",
+     name: "Intro",
+    artist: "Soulshow  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Beegees Night fever.mp3",
-    timeCategory: "soulshow"
+    path: "https://sunnydancemusic04.netlify.app/Soulshow intro2.mp3",
+    timeCategory: "soulshow",
+part: 15
 },
 
-{
-     name: "Relight My Fire",
-    artist: "Dan Hartman",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Dan Hartman Relight My Fire.mp3",
-    timeCategory: "soulshow"
-},
+
+
+
 {
      name: "Fantasy (maxi)",
     artist: "EWF ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/EWF Fantasy.mp3",
-    timeCategory: "soulshow"
+    timeCategory: "soulshow",
+part: 16
+
 },
 
 
@@ -3226,7 +3304,8 @@ timeCategory: "soulshow",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Lakeside - It's All The Way Live.mp3",
          timeCategory: "soulshow",
-volumeBoost: 0.35
+volumeBoost: 0.35,
+part: 17
 },
 
 {
@@ -3234,7 +3313,9 @@ volumeBoost: 0.35
     artist: "Soulshow  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Soulshow intro2.mp3",
-    timeCategory: "soulshow"
+    timeCategory: "soulshow",
+part: 18
+
 },
 
 {
@@ -3245,8 +3326,21 @@ volumeBoost: 0.35
 timeCategory: "soulshow",
     eq: { bass: 2, mid: 2, treble: +1 } ,
 volumeBoost: 0.75,
- playcount: 0
+ playcount: 0,
+part: 19
 },
+
+{
+     name: "Intro",
+    artist: "Soulshow  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/soulshow tune01.mp3",
+    timeCategory: "soulshow",
+part: 20
+
+},
+
+
 
 {
     name: "Radiation Level (12inch)",
@@ -3256,7 +3350,9 @@ volumeBoost: 0.75,
          timeCategory: "soulshow",
  quickFade: true,
   volumeBoost: 0.45,
-    playcount: 0
+    playcount: 0,
+part: 21
+
 },
 
 
@@ -3266,8 +3362,8 @@ volumeBoost: 0.75,
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Brass Construction - Movin'.mp3",
  
- timeCategory: "soulshow"
-
+ timeCategory: "soulshow",
+part: 22
 },
 
 {
@@ -3277,8 +3373,8 @@ volumeBoost: 0.75,
     path: "https://sunnydanceoldies09.netlify.app/Hamilton Bohannon - Let's Start To Dance 12 inch.mp3",
   eq: { bass: 2, mid: 3, treble: +1 } ,
 volumeBoost: 0.55,
-timeCategory: "soulshow"
-
+timeCategory: "soulshow",
+part: 23
 },
 
 {
@@ -3286,16 +3382,11 @@ timeCategory: "soulshow"
     artist: "George mcGray ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/George mcGray - Rock Me Baby.mp3",
-    timeCategory: "soulshow"
+    timeCategory: "soulshow",
+part: 24
 },
 
-{
-     name: "Intro",
-    artist: "Soulshow  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Soulshow intro.mp3",
-    timeCategory: "soulshow"
-},
+
 
 
 
@@ -3310,7 +3401,9 @@ timeCategory: "soulshow"
     path: "https://sunnyhotradio.com/muziek/oldies07/Johnny Pate - Shaft In Africa.mp3",
   
  timeCategory: "soulshow",
-volumeBoost: 0.20
+volumeBoost: 0.20,
+part: 25
+
 },
 {
      name: "Intro",
@@ -3398,13 +3491,7 @@ timeCategory: "soulshow"
     timeCategory: "soulshow"
 },
 
-{
-     name: "Intro",
-    artist: "Soulshow  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/soulshow tune01.mp3",
-    timeCategory: "soulshow"
-},
+
 
 {
     name: "Best Of My Love",
@@ -3582,6 +3669,15 @@ quickFade: true
 
 
 
+{
+     name: "Newyork City (maxi)",
+    artist: "Tramps",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://jazzmusic05.netlify.app/Tramps Newyork City.mp3",
+ 
+ timeCategory: "soulshow"
+
+},
 
 
 
@@ -3642,7 +3738,14 @@ quickFade: true
 },
 
 
+{
+     name: "   Glide",
+    artist: "Pleasure ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Pleasure - Glide.mp3",
+        timeCategory: "soulshow"
 
+}, 
 
 {
     name: "I Feel Love (revisit mix)",
@@ -5714,6 +5817,103 @@ volumeBoost: 0.20
 },
 
 
+
+
+{
+     name: " Change Of Heart ",
+    artist: "Change",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Change Change Of Heart.mp3",
+      timeCategory: "eighties"
+},
+
+
+
+
+
+
+
+
+
+
+{
+     name: " Hurts To Be In Love",
+    artist: "Gino Vanelli ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Gino Vanelli - Hurts to be in Love.mp3",
+      timeCategory: "eighties"
+},
+
+
+
+
+
+{
+     name:  "Mind Up Tonight",
+    artist: "Melba Moore ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Melba Moore - Mind Up Tonight.mp3",
+      timeCategory: "eighties"
+},
+
+
+
+
+
+
+
+
+
+
+{
+     name: "Down on the street",
+    artist: "Shakatak ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Shakatak - Down on the street.mp3",
+      timeCategory: "eighties",
+volumeBoost:0.60
+},
+
+
+
+
+{
+     name: "Show Me Love",
+    artist: " Robin S",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Show me love - Robin S.mp3",
+      timeCategory: "eighties",
+volumeBoost:0.60
+},
+
+
+
+{
+     name: " Bon Bon Vie",
+    artist: "TS Monk  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/TS Monk - Bon Bon Vie.mp3",
+      timeCategory: "eighties",
+volumeBoost:0.20
+},
+
+
+
+
+{
+     name: " Thigs High",
+    artist: "Tom Browne ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Tom Browne - Thigs High.mp3",
+      timeCategory: "eighties",
+volumeBoost:0.50
+},
+
+
+
+
+
+
 //strictly nineties show
 
 
@@ -6774,7 +6974,9 @@ timeCategory: "nineties",
     artist: "Madison Avenue  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Madison Avenue - Don't Call  Me Baby.mp3",
-    timeCategory: "nineties"
+     year: 1999,
+timeCategory: "nineties"
+
 },
 
 {
@@ -7877,7 +8079,8 @@ timeCategory: "morning",
     artist: "Shouse",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Shouse - won't forget you.mp3",
-        timeCategory: "morning"
+        timeCategory: "morning",
+year:2025
 },
 
 
@@ -7892,14 +8095,6 @@ timeCategory: "morning",
 
 
 
-
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️ ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/let's go back.mp3",
-        timeCategory: "morning"
-},
 
 
 
@@ -12740,7 +12935,8 @@ quickFade: true
     artist: "Madison Avenue  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Madison Avenue - Don't Call  Me Baby.mp3",
-    timeCategory: "afternoon"
+     year: 1999,
+timeCategory: "afternoon"
 },
 
 {
@@ -12927,15 +13123,6 @@ timeCategory: "afternoon"
 
 
 
-{
-    name: "let's go back",
-    artist: "Nos Journaal☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/let's go back.mp3",
-   timeCategory: "afternoon"
-},
-
-
 
 
 
@@ -12973,7 +13160,14 @@ volumeBoost: 0.25
 },
 
 
+{
+     name: "   Glide",
+    artist: "Pleasure ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Pleasure - Glide.mp3",
+         timeCategory: "afternoon"
 
+}, 
 
 
 
@@ -12998,7 +13192,8 @@ volumeBoost: 0.25
     artist: "Saweetie",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Saweetie - Fast.mp3",
-   timeCategory: "afternoon"
+   year: 2021,
+ timeCategory: "afternoon"
 
  },
 
@@ -15776,8 +15971,10 @@ quickFade: true
     artist: "Kygo & Ava Max ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Kygo & Ava Max - Whatever.mp3",
-       timeCategory: "afternoon"
-
+       timeCategory: "afternoon",
+ isLoud: true,          
+  loudnessValue: 0.80,
+year: 2024
 
 
 },
@@ -15856,8 +16053,8 @@ isLoud: true,
     artist: "Timbaland",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Timbaland - Apologize.mp3",
-     timeCategory: "afternoon"
-
+     timeCategory: "afternoon",
+year:2007
 
 
 },
@@ -16246,7 +16443,8 @@ volumeBoost: 0.05
     artist: "The Knocks",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/The Knocks - Classic.mp3",
-    timeCategory: "evening"
+    timeCategory: "evening",
+year:2016
 },
 
 
@@ -18127,7 +18325,10 @@ volumeBoost: 0.25
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Cannons - Desire.mp3",
        timeCategory: "evening",
-  quickFade: true
+ year:2023,
+ isLoud: true,          
+  loudnessValue: 0.80, 
+quickFade: true
 },
 
 
@@ -18349,8 +18550,8 @@ isNew: true
     artist: "Rihanna  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Rihanna - Umbrella.mp3",
-           timeCategory: "evening"
-
+           timeCategory: "evening",
+year:2007
 },
 
 
@@ -19295,7 +19496,8 @@ quickFade: true
     artist: "Gorillaz ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Gorillaz - Baby Queen.mp3",
-    timeCategory: "evening"
+    year: 2023,
+ timeCategory: "evening"
 },
 
 
@@ -21147,15 +21349,6 @@ volumeBoost: 0.15
 
 
 {
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/let's go back.mp3",
-        timeCategory: "evening"
-},
-
-
-{
      name: "Told You So",
     artist: "Martin Garrix & Jex ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -21650,6 +21843,17 @@ volumeBoost: 0.25
       timeCategory: "evening-late"
 },
 
+
+
+
+
+{
+     name: " Change Of Heart ",
+    artist: "Change",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Change Change Of Heart.mp3",
+      timeCategory: "evening-late"
+},
 
 
 
@@ -23571,7 +23775,14 @@ quickFade: true
 
 
 
-
+{
+    name: "    Baby Queen",
+    artist: "Gorillaz ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/Gorillaz - Baby Queen.mp3",
+    year: 2023,
+ timeCategory: "evening-late"
+},
 
 
 
@@ -26330,7 +26541,8 @@ isNew: true
     artist: "Roxen ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Roxen - Favourite Type.mp3",
- timeCategory: " evening-late"
+  year: 2025,
+timeCategory: " evening-late"
 },
 
 
@@ -26977,8 +27189,8 @@ playcount: 0
 
 
 {
-    name: "Mouse T",
-    artist: " Horny",
+    name: " Horny",
+    artist: "Mouse T",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Mouse T - Horny.mp3",
     timeCategory: "evening-late"
@@ -28132,7 +28344,8 @@ isNew: true
     artist: "Naomi Scott ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Naomi Scott - Cherry.mp3",
-    timeCategory: "f afternoon"
+    timeCategory: "f afternoon",
+ year: 2026
 },
 
 
@@ -29015,7 +29228,8 @@ timeCategory: "f evening",
     artist: "  Izzy La Reina ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Izzy La Reina - Diabla.mp3",
-       timeCategory: "f evening"
+      year: 2021,
+  timeCategory: "f evening"
 },
 
 
@@ -29419,14 +29633,6 @@ volumeBoost: 0.10
 
 
 
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/let's go back.mp3",
-        timeCategory: "f evening"
-},
 
 
 {
@@ -30139,8 +30345,8 @@ volumeBoost: 0.65,
     artist: "Rihanna  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Rihanna - Umbrella.mp3",
-           timeCategory: "f evening"
-
+           timeCategory: "f evening",
+year:2007
 },
 {
      name: "Boogie s In My Soul (new)",
@@ -30931,7 +31137,8 @@ timeCategory: "f evening-late"
     artist: "Shouse",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Shouse - Love tonight.mp3",
- timeCategory: "f evening-late"
+ timeCategory: "f evening-late",
+year:2025
 },
 
 {
@@ -31996,7 +32203,8 @@ timeCategory: "f evening-late"
     artist: "  Izzy La Reina ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Izzy La Reina - Diabla.mp3",
-       timeCategory: "f evening-late"
+        year: 2021,
+timeCategory: "f evening-late"
 },
 
 
@@ -33154,5 +33362,39 @@ ${history
 }
 
 
+function countUniqueTracks(list) {
+  return new Set(list.map(t => t.path)).size;
+}
+
+const trackAmount = countUniqueTracks(trackList);
+
+console.log("Unique tracks:", trackAmount);
 
 
+
+
+
+
+
+
+function buildPlaylist(tracks) {
+  const orderedCategories = [
+    "special-mix",
+    "mixinglondon",
+    "frankiebones",
+    "ministry",
+    "love",
+    "soulshow",
+"special"
+];
+
+  const ordered = tracks
+    .filter(t => orderedCategories.includes(t.timeCategory))
+    .sort((a, b) => a.part - b.part);
+
+  const normal = tracks
+    .filter(t => !orderedCategories.includes(t.timeCategory))
+    .sort(() => Math.random() - 0.5);
+
+  return [...ordered, ...normal];
+}
