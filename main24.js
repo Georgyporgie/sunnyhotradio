@@ -107,6 +107,7 @@ function fisherYatesShuffle(array) {
 
 
 
+
 function adjustVolumeDynamically(audioElement, targetVolume = 0.8, maxThreshold = 1) {
   if (audioElement._volumeAdjusting) return; // prevent duplicates
   audioElement._volumeAdjusting = true;
@@ -136,6 +137,41 @@ const purifyTrack = (track) => ({
   artist: track.artist?.trim(),
   name: track.name?.trim()
 });
+
+
+function buildPlaylist(tracks) {
+  const orderedCategories = [
+
+   
+    "love",
+    "soulshow",
+    "special-cast",
+    "special-mix",
+    "special",
+     "mixinglondon",
+     "ministry",
+    "frankiebones",
+"fat"
+];
+
+  const ordered = tracks
+    .filter(t => orderedCategories.includes(t.timeCategory.trim()))
+    .filter(t => t.part !== undefined)
+    .sort((a, b) => Number(a.part) - Number(b.part));
+
+  const normal = tracks
+    .filter(t => !orderedCategories.includes(t.timeCategory.trim()))
+    .sort(() => Math.random() - 0.5);
+
+  return [...ordered, ...normal];
+
+
+
+}
+
+
+
+
 
 
 // Define your track list with time categories
@@ -1003,7 +1039,7 @@ playcount: 0
 
 
 {
-     name: "Tomorrowland (live) ",
+     name: "Tomorrowland (live)",
     artist: "Monika Kruse",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Monika Kruse - Tomorrowland 2015 01.mp3",
@@ -1120,8 +1156,26 @@ volumeBoost:1.0,
 
 
 
+{
+     name: "Live Mix   ",
+    artist: "Corne Klijn",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Corne Kleyns- Live Mix 01.mp3",
+    timeCategory: "special-mix",
+part: 1,
+volumeBoost:0.50
+},
 
 
+{
+     name: " Live Mix ",
+    artist: "Corne Klijn",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Corne Kleyns- Live Mix 022.mp3",
+    timeCategory: "special-mix",
+volumeBoost:0.50,
+part: 2
+},
 
 
 
@@ -1141,6 +1195,7 @@ volumeBoost:1.0,
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://sunnydanceoldies09.netlify.app/Bob Sinclar (live) - From Paris 01.mp3",
        timeCategory: "special-mix",
+part: 3,
 volumeBoost:0.60
 },
 
@@ -1152,6 +1207,7 @@ volumeBoost:0.60
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://sunnydanceoldies09.netlify.app/Bob Sinclair - Live from Paris3.mp3",
        timeCategory: "special-mix",
+part: 4,
 volumeBoost:0.60
 },
 
@@ -1161,7 +1217,8 @@ volumeBoost:0.60
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://sunnydanceoldies09.netlify.app/Bob Sinclair - Live from Paris4.mp3",
        timeCategory: "special-mix",
-volumeBoost:0.60
+volumeBoost:0.60,
+part: 5
 },
 
 
@@ -1192,23 +1249,7 @@ volumeBoost:0.60
 
 
 
-{
-     name: " Live Mix ",
-    artist: "Corne Klijn",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Corne Kleyns- Live Mix 022.mp3",
-    timeCategory: "special-mix",
-volumeBoost:0.50
-},
 
-{
-     name: "Live Mix   ",
-    artist: "Corne Klijn",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Corne Kleyns- Live Mix 01.mp3",
-    timeCategory: "special-mix",
-volumeBoost:0.50
-},
 
 
 
@@ -1238,7 +1279,8 @@ volumeBoost:0.50
     artist: "Steve Ferrera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Steve Ferrera- live from his garden01.mp3",
-    timeCategory: "special"
+    timeCategory: "special",
+part: 1
 },
 
 
@@ -1250,7 +1292,8 @@ volumeBoost:0.50
     artist: "Steve Ferrera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Steve Ferrera- live from his garden02.mp3",
-    timeCategory: "special"
+    timeCategory: "special",
+part: 2
 },
 
 
@@ -1260,7 +1303,8 @@ volumeBoost:0.50
     artist: "Steve Ferrera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Steve Ferrera- live from his garden03.mp3",
-    timeCategory: "special"
+    timeCategory: "special",
+part: 3
 },
 
 
@@ -1269,7 +1313,8 @@ volumeBoost:0.50
     artist: "Steve Ferrera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Steve Ferrera- live from his garden04.mp3",
-    timeCategory: "special"
+    timeCategory: "special",
+part: 4
 },
 
 
@@ -1281,7 +1326,8 @@ volumeBoost:0.50
     artist: "Steve Ferrera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Steve Ferrera- live from his garden05.mp3",
-    timeCategory: "special"
+    timeCategory: "special",
+part: 5
 },
 
 
@@ -1297,7 +1343,7 @@ volumeBoost:0.50
 
 
 
-
+//special-cast
 
 
 
@@ -1399,7 +1445,9 @@ part: 5
     artist: "Fat Tony",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Fat Tony - Live From London01.mp3",
-    timeCategory: "mixinglondon"
+    timeCategory: "mixinglondon",
+part: 1
+
 },
 
 
@@ -1408,7 +1456,8 @@ part: 5
     artist: "Fat Tony",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Fat Tony - Live From London02.mp3",
-    timeCategory: "mixinglondon"
+    timeCategory: "mixinglondon",
+part: 2
 },
 
 
@@ -1418,7 +1467,8 @@ part: 5
     artist: "Fat Tony",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Fat Tony - Live From London03.mp3",
-    timeCategory: "mixinglondon"
+    timeCategory: "mixinglondon",
+part: 3
 },
 
 
@@ -1428,8 +1478,44 @@ part: 5
     artist: "Fat Tony",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Fat Tony - Live From London04.mp3",
-    timeCategory: "mixinglondon"
+    timeCategory: "mixinglondon",
+part: 4
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//jingle time
+
+
+
+
 
 
 {
@@ -2637,7 +2723,8 @@ timeCategory: "seventies"
     artist: "Herbie Hancock   ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Herbie Hancock - I Thought It Was You stricti).mp3",
- 
+      isLoud: true,
+loudnessValue: 0.70,
 timeCategory: "seventies"
 
 },
@@ -4099,8 +4186,8 @@ quickFade: true,
     artist: "D Train   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/D Train - Music ((strictly.mp3",
-        timeCategory: "eighties"
-
+        timeCategory: "eighties",
+volumeBoost: 0.70
 },
 
 {
@@ -5401,7 +5488,7 @@ volumeBoost: 0.15
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Alexander O Neal - Fake.mp3",
    timeCategory: "eighties",
-volumeBoost: 0.70,
+volumeBoost: 1.0,
   playcount: 0
 },
 
@@ -5586,7 +5673,7 @@ volumeBoost: 0.25
     path: "https://sunnydanceoldies08.netlify.app/Fatback - Backstrokin'.mp3",
   timeCategory: "eighties",
   quickFade: true,
-volumeBoost:0.40 
+volumeBoost:1.0
 },
 
 {
@@ -6480,7 +6567,7 @@ volumeBoost: 0.35
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Stardust - Music Sounds Better With You.mp3",
     timeCategory: "nineties",
-  volumeBoost: 0.80,
+  volumeBoost: 1.0,
 quickFade: true,
  playcount: 0
 },
@@ -7034,7 +7121,9 @@ playcount: 0
     path: "https://danceoldies10.netlify.app/DJ Frankie Bones - Escape01.mp3",
          timeCategory: "frankiebones",
     quickFade: true,
-    volumeBoost: 0.35
+    volumeBoost: 0.35,
+part: 1
+
 },
 
 
@@ -7045,7 +7134,8 @@ playcount: 0
     path: "https://danceoldies10.netlify.app/DJ Frankie Bones - Escape02.mp3",
          timeCategory: "frankiebones",
     quickFade: true,
-    volumeBoost: 0.35
+    volumeBoost: 0.35,
+part: 2
 },
 
 
@@ -7057,7 +7147,9 @@ playcount: 0
     path: "https://danceoldies10.netlify.app/DJ Frankie Bones - Escape03.mp3",
          timeCategory: "frankiebones",
     quickFade: true,
-    volumeBoost: 0.35
+    volumeBoost: 0.35,
+part: 3
+
 },
 
 
@@ -7067,7 +7159,9 @@ playcount: 0
     artist: "Fat Tony",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Fat Tony - Live From London01.mp3",
-    timeCategory: "frankiebones"
+    timeCategory: "fat",
+part: 1
+
 },
 
 
@@ -7076,7 +7170,10 @@ playcount: 0
     artist: "Fat Tony",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Fat Tony - Live From London02.mp3",
-    timeCategory: "frankiebones"
+    timeCategory: "fat",
+   part: 2
+
+
 },
 
 
@@ -7086,7 +7183,9 @@ playcount: 0
     artist: "Fat Tony",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Fat Tony - Live From London03.mp3",
-    timeCategory: "frankiebones"
+    timeCategory: "fat",
+part: 3
+
 },
 
 
@@ -7096,7 +7195,9 @@ playcount: 0
     artist: "Fat Tony",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Fat Tony - Live From London04.mp3",
-    timeCategory: "frankiebones"
+    timeCategory: "fat",
+part: 4
+
 },
 
 
@@ -12577,7 +12678,8 @@ timeCategory: "afternoon"
     artist: " Pharell Williams",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Pharell Williams - Happy.mp3",
-           timeCategory: "afternoon"
+           timeCategory: "afternoon",
+volumeBoost: 0.80
 },
 
 
@@ -14008,7 +14110,7 @@ isNew: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Stardust - Music Sounds Better With You.mp3",
     timeCategory: "afternoon",
-  volumeBoost: 0.80,
+  volumeBoost: 1.0,
 quickFade: true,
  playcount: 0
 },
@@ -18716,7 +18818,7 @@ isNew: true
     path: "https://sunnydanceoldies02.netlify.app/A Pain That I'm Used To (Jacques Lu Cont Remix).mp3",
    timeCategory: "evening",
 quickFade: true,
-  volumeBoost: 0.10
+  volumeBoost: 0.70
 },
 
 
@@ -21449,7 +21551,7 @@ volumeBoost: 0.15
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Alexander O Neal - Fake.mp3",
    timeCategory: "evening",
-volumeBoost: 0.70,
+volumeBoost: 1.0,
   playcount: 0
 },
 
@@ -23302,7 +23404,7 @@ timeCategory: "evening-late",
     path: "https://sunnydanceoldies08.netlify.app/Fatback - Backstrokin'.mp3",
   timeCategory: "evening-late",
   quickFade: true,
-volumeBoost:0.40 
+volumeBoost:1.0
 },
 
 
@@ -23562,15 +23664,6 @@ timeCategory: "evening-late",
 
 
 
- {
-     name: " I Thought It Was You (maxi)",
-    artist: "Herbie Hancock   ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://danceoldies10.netlify.app/Herbie Hancock - I Thought It Was You (maxi).mp3",
- 
-timeCategory: "f afternoon"
-
-},
 
 
 
@@ -24243,7 +24336,7 @@ timeCategory: "evening-late"
    timeCategory: "evening-late",
    quickFade: true,
      year:1995,
-volumeBoost: 0.75,
+volumeBoost: 1.0,
     playcount: 0
 },
 
@@ -26352,7 +26445,9 @@ isLoud: true,
     artist: " Pharell Williams",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Pharell Williams - Happy.mp3",
-           timeCategory: "evening-late"
+           timeCategory: "evening-late",
+    
+volumeBoost: 0.80
 },
 
 
@@ -28622,7 +28717,9 @@ isNew: true
     artist: " Pharell Williams",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Pharell Williams - Happy.mp3",
-           timeCategory: "f afternoon"
+           timeCategory: "f afternoon",
+           
+volumeBoost: 0.80
 },
 
 
@@ -31379,13 +31476,6 @@ isNew: true
 
 
 
-{
-     name: "  Happy",
-    artist: " Pharell Williams",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Pharell Williams - Happy.mp3",
-           timeCategory: "f evening-late"
-},
 
 
 
@@ -32193,7 +32283,11 @@ timeCategory: "f evening-late"
     artist: "  Melanie C ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Melanie C - Sweat.mp3",
-       timeCategory: "f evening-late"
+       timeCategory: "f evening-late",
+     isLoud: true,
+
+loudnessValue: 0.80 
+
 },
 
 
@@ -32331,7 +32425,7 @@ isLoud: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Stardust - Music Sounds Better With You.mp3",
     timeCategory: "f evening-late",
-  volumeBoost: 0.80,
+  volumeBoost: 1.0,
 quickFade: true,
  playcount: 0
 },
@@ -32411,9 +32505,7 @@ timeCategory: "f evening-late"
 console.log("Purified trackList:", trackList);
 
 
-// ── Shuffle immediately at startup ──
-trackList = fisherYatesShuffle(trackList);
-console.log("✨ Shuffled playlist:", trackList.map(t => t.name));
+
 
 
 
@@ -32559,12 +32651,30 @@ const scheduledMp3Files = filterMp3ByTimeCategory(trackList, currentTimeCategory
 
 
 // Shuffle the selected tracks
-const shuffledTracks = shuffle(scheduledMp3Files);
+// Only shuffle if the category is NOT an ordered category
+let finalTracks = scheduledMp3Files;
+
+if (!isOrderedCategory(currentTimeCategory)) {
+    finalTracks = shuffle(scheduledMp3Files);
+}
+
 
 // Load and play the first track from the shuffled list
 
 
 
+function isOrderedCategory(cat) {
+    return [    
+    "love",
+    "soulshow",
+    "special-cast",
+    "special-mix",
+    "special",
+     "mixinglondon",
+     "ministry",
+     "frankiebones",
+"fat"].includes(cat);
+}
 
 
 
@@ -32961,7 +33071,7 @@ wednesday: {
 
   // Fallback if no match
   console.warn("⚠ No weekly image for:", today, key, "→ using default");
-  img.src = "images/sunnyradioca.png";
+  img.src = "images/Sunny playlist2.png";
   img.alt = "Default Show Image";
 }
 
@@ -33377,24 +33487,4 @@ console.log("Unique tracks:", trackAmount);
 
 
 
-function buildPlaylist(tracks) {
-  const orderedCategories = [
-    "special-mix",
-    "mixinglondon",
-    "frankiebones",
-    "ministry",
-    "love",
-    "soulshow",
-"special"
-];
 
-  const ordered = tracks
-    .filter(t => orderedCategories.includes(t.timeCategory))
-    .sort((a, b) => a.part - b.part);
-
-  const normal = tracks
-    .filter(t => !orderedCategories.includes(t.timeCategory))
-    .sort(() => Math.random() - 0.5);
-
-  return [...ordered, ...normal];
-}
