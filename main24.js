@@ -7341,6 +7341,15 @@ quickFade: true
 
 
 
+{
+     name: "   My Forbidden Lover",
+    artist: " Tapps ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Tapps - My Forbidden Lover.mp3",
+       playcount: 0,
+timeCategory: "sunday",
+  volumeBoost: 0.40
+},
 
 
 
