@@ -902,7 +902,7 @@ margin-top: -112px;   margin-right:7px; height: 45px; width: 50px;
 
 
 
-#dion  {     width: 35px;  height: 30px;filter: brightness(110%) saturate(110%) contrast(110%) opacity(65%); transform: rotate(-5deg); z-index: -1200; margin: -45px auto 20px  auto; display: block; 
+#dion  {     width: 35px;  height: 30px;filter: brightness(100%) saturate(100%) contrast(100%) opacity(65%); transform: rotate(-5deg); z-index: -1200; margin: -45px auto 20px  auto; display: block; 
 }
 
 
@@ -1739,3 +1739,144 @@ background: #FF2A2A;
     text-shadow: 0 0 0 rgba(255, 140, 0, 0);
   }
 }
+
+
+
+
+.live-tag {
+  animation: newPulse 2.5s infinite ease-in-out;
+}
+
+@keyframes newPulse {
+  0% { box-shadow: 0 0 0px rgba(255, 80, 0, 0.4); }
+  50% { box-shadow: 0 0 14px rgba(255, 80, 0, 0.8); }
+  100% { box-shadow: 0 0 0px rgba(255, 80, 0, 0.4); }
+}
+
+
+.played-before-label {
+  color: #FF2A2A;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+
+
+
+/* Base animation */
+.history-item {
+  opacity: 0;
+  animation: historyFade 0.9s ease-out forwards;
+}
+
+/* Staggered delays */
+.history-item:nth-child(1) { animation-delay: 0ms; }
+.history-item:nth-child(2) { animation-delay: 80ms; }
+.history-item:nth-child(3) { animation-delay: 160ms; }
+.history-item:nth-child(4) { animation-delay: 240ms; }
+.history-item:nth-child(5) { animation-delay: 320ms; }
+.history-item:nth-child(6) { animation-delay: 400ms; }
+.history-item:nth-child(7) { animation-delay: 480ms; }
+.history-item:nth-child(8) { animation-delay: 560ms; }
+.history-item:nth-child(9) { animation-delay: 640ms; }
+.history-item:nth-child(10) { animation-delay: 720ms; }
+
+@keyframes historyFade {
+  0% {
+    opacity: 0;
+    transform: translateY(6px);
+    text-shadow: 0 0 14px rgba(255, 140, 0, 0.6);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(0);
+    text-shadow: 0 0 6px rgba(255, 140, 0, 0.4);
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 0 rgba(255, 140, 0, 0);
+  }
+}
+
+
+/* ULTRA NEON LIVE TAG */
+.live-tag {
+  background-color: #fff3d1;
+  color: #ff3b00; /* hotter neon orange */
+  font-weight: 900;
+  padding: 0 4px 0 6px;
+  border-radius: 4px;
+  position: relative;
+  display: inline-block;
+  text-shadow: 
+      0 0 4px rgba(255, 80, 0, 0.9),
+      0 0 10px rgba(255, 120, 0, 0.8),
+      0 0 18px rgba(255, 160, 0, 0.7);
+
+  animation:
+      livePulse 1.8s ease-in-out infinite,
+      liveBlink 0.9s steps(2, start) infinite,
+      liveFlicker 4.5s infinite;
+  z-index: 200;
+}
+
+/* Neon breathing pulse */
+@keyframes livePulse {
+  0%   { transform: scale(1);   box-shadow: 0 0 6px rgba(255, 80, 0, 0.4); }
+  50%  { transform: scale(1.08); box-shadow: 0 0 22px rgba(255, 120, 0, 1); }
+  100% { transform: scale(1);   box-shadow: 0 0 6px rgba(255, 80, 0, 0.4); }
+}
+
+/* Soft blink */
+@keyframes liveBlink {
+  0%   { opacity: 1; }
+  50%  { opacity: 0.55; }
+  100% { opacity: 1; }
+}
+
+/* Electric neon flicker (randomized feel) */
+@keyframes liveFlicker {
+  0%   { opacity: 1; }
+  5%   { opacity: 0.7; }
+  8%   { opacity: 1; }
+  12%  { opacity: 0.4; }
+  16%  { opacity: 1; }
+  22%  { opacity: 0.85; }
+  28%  { opacity: 1; }
+  36%  { opacity: 0.6; }
+  42%  { opacity: 1; }
+  55%  { opacity: 0.9; }
+  62%  { opacity: 1; }
+  70%  { opacity: 0.5; }
+  78%  { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+/* Spark effect on the left side */
+.live-tag::before {
+  content: "";
+  position: absolute;
+  left: -4px;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  background: radial-gradient(circle, #ffae00 0%, rgba(255, 80, 0, 0) 70%);
+  border-radius: 50%;
+  transform: translateY(-50%);
+  animation: sparkPulse 1.2s infinite ease-in-out;
+}
+
+@keyframes sparkPulse {
+  0%   { transform: translateY(-50%) scale(0.6); opacity: 0.6; }
+  50%  { transform: translateY(-50%) scale(1.2); opacity: 1; }
+  100% { transform: translateY(-50%) scale(0.6); opacity: 0.6; }
+}
+
+/* NEW text smaller */
+.live-text {
+  font-size: 0.75em;
+  letter-spacing: 0.5px;
+}
+
+

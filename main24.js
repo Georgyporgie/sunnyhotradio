@@ -150,8 +150,8 @@ function buildPlaylist(tracks) {
     "special",
      "mixinglondon",
      "ministry",
-    "frankiebones",
-"fat"
+    "frankiebones"
+
 ];
 
   const ordered = tracks
@@ -168,6 +168,7 @@ function buildPlaylist(tracks) {
 
 
 }
+
 
 
 
@@ -526,6 +527,7 @@ year: 2026
     artist: "Listen Live Sunny Dance radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle1.mp3",
+volumeBoost: 0.2,
 timeCategory: "newest"
 },
 
@@ -537,7 +539,8 @@ timeCategory: "newest"
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny dance jingle.mp3",
-  timeCategory: "newest"
+  volumeBoost: 0.2,
+timeCategory: "newest"
 
 },
 
@@ -550,7 +553,8 @@ timeCategory: "newest"
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny dance jingle.mp3",
-  timeCategory: "newest"
+  volumeBoost: 0.2,
+timeCategory: "newest"
 
 },
 
@@ -562,7 +566,8 @@ timeCategory: "newest"
     artist: "Listen Live Sunny Dance Radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
-      timeCategory: "newest"
+      volumeBoost: 0.2,
+timeCategory: "newest"
 
 },
 
@@ -571,6 +576,7 @@ timeCategory: "newest"
     artist: "Listen Live Sunny Dance radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle1.mp3",
+volumeBoost: 0.2,
 timeCategory: "newest"
 },
 
@@ -582,7 +588,8 @@ timeCategory: "newest"
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny dance jingle.mp3",
-  timeCategory: "newest"
+ volumeBoost: 0.2,
+ timeCategory: "newest"
 
 },
 
@@ -595,7 +602,8 @@ timeCategory: "newest"
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny dance jingle.mp3",
-  timeCategory: "newest"
+  volumeBoost: 0.2,
+timeCategory: "newest"
 
 },
 
@@ -607,7 +615,8 @@ timeCategory: "newest"
     artist: "Listen Live Sunny Dance Radio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle.mp3",
-      timeCategory: "newest"
+      volumeBoost: 0.2,
+timeCategory: "newest"
 
 },
 {
@@ -926,7 +935,7 @@ volumeBoost: 0.10
 
 
 {
-     name: "Live From His Studio ",
+     name: " From His Studio (Live) ",
     artist: "Sonny Fodera ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio01.mp3",
@@ -938,8 +947,8 @@ volumeBoost:2.5,
 
 
 {
-     name: "Sonny Fodera ",
-    artist: "Sonny Fodera - Live From His Studio",
+     name: "From His Studio( Live)  ",
+    artist: "Sonny Fodera ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio02.mp3",
     timeCategory: "special",
@@ -954,8 +963,8 @@ playcount: 0
 
 
 {
-     name: "Sonny Fodera ",
-    artist: "Sonny Fodera - Live From His Studio",
+     name: "From His Studio (Live)  ",
+    artist: "Sonny Fodera ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio03.mp3",
     timeCategory: "special",
@@ -966,47 +975,52 @@ playcount: 0
 
 
 
+
+
 {
-     name: "Sonny Fodera ",
-    artist: "Sonny Fodera - Live From His Studio",
+     name: "From His Studio (Live)  ",
+    artist: "Sonny Fodera ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio04.mp3",
     timeCategory: "special",
 volumeBoost:2.5,
-   part: 4,
- playcount: 0
-
-},
-
-
-
-{
-     name: "Sonny Fodera ",
-    artist: "Sonny Fodera - Live From His Studio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio05.mp3",
-    timeCategory: "special",
-volumeBoost:2.5,
-   part: 5,
- playcount: 0
-},
-
-
-{
-     name: "Sonny Fodera ",
-    artist: "Sonny Fodera - Live From His Studio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio06.mp3",
-    timeCategory: "special",
-volumeBoost:2.5,
-    part: 6,
+   part: 4, 
 playcount: 0
 },
 
 
+
+
 {
-     name: "Sonny Fodera ",
-    artist: "Sonny Fodera - Live From His Studio",
+     name: "From His Studio (Live)  ",
+    artist: "Sonny Fodera ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio05.mp3",
+    timeCategory: "special",
+volumeBoost:2.5,
+   part: 5, 
+playcount: 0
+},
+
+
+
+{
+     name: "From His Studio (Live)  ",
+    artist: "Sonny Fodera ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio06.mp3",
+    timeCategory: "special",
+volumeBoost:2.5,
+   part: 6, 
+playcount: 0
+},
+
+
+
+
+{
+     name: "From His Studio (Live)  ",
+    artist: "Sonny Fodera ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sonny Fodera - Live From His Studio07.mp3",
     timeCategory: "special",
@@ -1029,8 +1043,7 @@ playcount: 0
 
 
 
-
-
+//Tomorrowland Monika Kruse
 
 
 
@@ -1157,7 +1170,7 @@ volumeBoost:1.0,
 
 
 {
-     name: "Live Mix   ",
+     name: "(Live) Mix   ",
     artist: "Corne Klijn",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Corne Kleyns- Live Mix 01.mp3",
@@ -1168,7 +1181,7 @@ volumeBoost:0.50
 
 
 {
-     name: " Live Mix ",
+     name: " (Live) Mix ",
     artist: "Corne Klijn",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Corne Kleyns- Live Mix 022.mp3",
@@ -1190,8 +1203,8 @@ part: 2
 
 
 {
-    name: "Bob Sinclair ",
-    artist: "Live From Paris ",
+    name: "Bob Sinclair (Live) ",
+    artist: " From Paris ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://sunnydanceoldies09.netlify.app/Bob Sinclar (live) - From Paris 01.mp3",
        timeCategory: "special-mix",
@@ -1202,8 +1215,8 @@ volumeBoost:0.60
 
 
 {
-    name: "Bob Sinclair ",
-    artist: "Live From Paris",
+    name: "Bob Sinclair (Live) ",
+    artist: "From Paris",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://sunnydanceoldies09.netlify.app/Bob Sinclair - Live from Paris3.mp3",
        timeCategory: "special-mix",
@@ -1212,8 +1225,8 @@ volumeBoost:0.60
 },
 
 {
-    name: "Bob Sinclair ",
-    artist: "Live From Paris",
+    name: "Bob Sinclair (Live) ",
+    artist: " From Paris",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://sunnydanceoldies09.netlify.app/Bob Sinclair - Live from Paris4.mp3",
        timeCategory: "special-mix",
@@ -1275,7 +1288,7 @@ part: 5
 
 
 {
-     name: " Live From His Garden ",
+     name: " From His Garden (Live) ",
     artist: "Steve Ferrera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Steve Ferrera- live from his garden01.mp3",
@@ -1288,7 +1301,7 @@ part: 1
 
 
 {
-     name: " Live From His Garden ",
+     name: "  From His Garden (Live)  ",
     artist: "Steve Ferrera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Steve Ferrera- live from his garden02.mp3",
@@ -1299,7 +1312,7 @@ part: 2
 
 
 {
-     name: " Live From His Garden ",
+     name: " From His Garden (Live) ",
     artist: "Steve Ferrera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Steve Ferrera- live from his garden03.mp3",
@@ -1309,7 +1322,7 @@ part: 3
 
 
 {
-     name: " Live From His Garden ",
+     name: "  From His Garden (Live) ",
     artist: "Steve Ferrera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Steve Ferrera- live from his garden04.mp3",
@@ -1322,7 +1335,7 @@ part: 4
 
 
 {
-     name: " Live From His Garden ",
+     name: "  From His Garden (Live) ",
     artist: "Steve Ferrera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Steve Ferrera- live from his garden05.mp3",
@@ -1354,7 +1367,7 @@ part: 5
 
 
 {
-     name: " Live Manchester  ",
+     name: "  Manchester (Live)  ",
     artist: "Sonny Fodera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023).mp3",
@@ -1368,7 +1381,7 @@ part: 1
 
 
 {
-     name: " Live Manchester  ",
+     name: "  Manchester (Live)  ",
     artist: "Sonny Fodera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 02.mp3",
@@ -1383,7 +1396,7 @@ part: 2
 
 
 {
-     name: " Live Manchester  ",
+     name: " Manchester (Live)  ",
     artist: "Sonny Fodera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 03.mp3",
@@ -1395,7 +1408,7 @@ part: 3
 
 
 {
-     name: " Live Manchester  ",
+     name: "  Manchester (Live)  ",
     artist: "Sonny Fodera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 04.mp3",
@@ -1407,7 +1420,7 @@ part: 4
 
 
 {
-     name: " Live Manchester  ",
+     name: " Manchester (Live)  ",
     artist: "Sonny Fodera",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 05.mp3",
@@ -1441,7 +1454,7 @@ part: 5
 
 
 {
-     name: " Live From London",
+     name: " (Live) From London",
     artist: "Fat Tony",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Fat Tony - Live From London01.mp3",
@@ -1452,7 +1465,7 @@ part: 1
 
 
 {
-     name: " Live From London",
+     name: " (Live) From London",
     artist: "Fat Tony",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Fat Tony - Live From London02.mp3",
@@ -1463,7 +1476,7 @@ part: 2
 
 
 {
-     name: " Live From London",
+     name: " (Live) From London",
     artist: "Fat Tony",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Fat Tony - Live From London03.mp3",
@@ -1474,7 +1487,7 @@ part: 3
 
 
 {
-     name: " Live From London",
+     name: " (Live) From London",
     artist: "Fat Tony",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Fat Tony - Live From London04.mp3",
@@ -1702,6 +1715,29 @@ part: 4
     timeCategory: "jingle-time"
   
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2517,7 +2553,8 @@ volumeBoost: 0.25
     artist: "Donna Summer ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Donna Summer The Deep.mp3",
-    timeCategory: "seventies"
+     volumeBoost: 0.60,
+timeCategory: "seventies"
 },
 
 
@@ -3649,7 +3686,7 @@ timeCategory: "soulshow",
 
 {
     name: "  Right on ",
-    artist: " The pasadenas  ",
+    artist: " The Pasadenas  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/The pasadenas - Right on.mp3",
     timeCategory: "soulshow",
@@ -4654,7 +4691,7 @@ timeCategory: "eighties",
 
 {
     name: "  Right on ",
-    artist: " The pasadenas  ",
+    artist: " The Pasadenas  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/The pasadenas - Right on.mp3",
     timeCategory: "eighties",
@@ -5523,7 +5560,7 @@ timeCategory: "eighties"
     path: "https://sunnydanceoldies04.netlify.app/Change - Miracles.mp3",
       timeCategory: "eighties",
      quickFade: true,
-    volumeBoost: 0.45,
+    volumeBoost: 0.75,
     playcount: 0
 },
 
@@ -6958,7 +6995,7 @@ volumeBoost: 0.50,
      image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Cassius - Cassius 1999.mp3",
     timeCategory: "nineties",
-    volumeBoost: 0.40,
+    volumeBoost: 0.70,
     playcount: 0
 },
 
@@ -7115,7 +7152,7 @@ playcount: 0
 
 
 {
-    name: "  DJ Frankie Bones",
+    name: "  DJ Frankie Bones (Live)",
     artist: "Escape ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/DJ Frankie Bones - Escape01.mp3",
@@ -7128,7 +7165,7 @@ part: 1
 
 
 {
-    name: "  DJ Frankie Bones",
+    name: "  DJ Frankie Bones (Live) ",
     artist: "Escape ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/DJ Frankie Bones - Escape02.mp3",
@@ -7141,7 +7178,7 @@ part: 2
 
 
 {
-    name: "  DJ Frankie Bones",
+    name: "  DJ Frankie Bones (Live)",
     artist: "Escape ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/DJ Frankie Bones - Escape03.mp3",
@@ -7155,7 +7192,7 @@ part: 3
 
 
 {
-     name: " Live From London",
+     name: " (Live) From London ",
     artist: "Fat Tony",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Fat Tony - Live From London01.mp3",
@@ -7166,7 +7203,7 @@ part: 1
 
 
 {
-     name: " Live From London",
+     name: " (Live) From London",
     artist: "Fat Tony",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Fat Tony - Live From London02.mp3",
@@ -7179,7 +7216,7 @@ part: 1
 
 
 {
-     name: " Live From London",
+     name: "(Live) From London",
     artist: "Fat Tony",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Fat Tony - Live From London03.mp3",
@@ -7191,7 +7228,7 @@ part: 3
 
 
 {
-     name: " Live From London",
+     name: " (Live) From London",
     artist: "Fat Tony",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://mixingg.netlify.app/Fat Tony - Live From London04.mp3",
@@ -8047,6 +8084,8 @@ timeCategory: "morning",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj2.mp3",
        timeCategory: "morning"
+ 
+
 },
 
 
@@ -8653,7 +8692,8 @@ timeCategory: "morning",
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj3.mp3",
-         timeCategory: "morning"
+       
+   timeCategory: "morning"
 },
 
 
@@ -9080,7 +9120,9 @@ timeCategory: "morning"
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj4.mp3",
-       timeCategory: "morning"
+       
+   timeCategory: "morning"
+
 
 
 },
@@ -9119,7 +9161,8 @@ timeCategory: "morning"
     artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj6.mp3",
-     timeCategory: "morning"
+    
+  timeCategory: "morning"
 
 
 },
@@ -9206,7 +9249,7 @@ timeCategory: "morning"
 
 {
     name: "  Right on ",
-    artist: " The pasadenas  ",
+    artist: " The Pasadenas  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/The pasadenas - Right on.mp3",
     timeCategory: "morning",
@@ -9437,7 +9480,8 @@ timeCategory: "morning"
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj5.mp3",
-    timeCategory: "morning"
+   
+timeCategory: "morning"
 
 
 },
@@ -9756,7 +9800,8 @@ volumeBoost: 0.10
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj4.mp3",
-      timeCategory: "morning"
+       
+ timeCategory: "morning"
 },
 
 
@@ -9982,7 +10027,8 @@ playcount: 0
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj6.mp3",
-      timeCategory: "morning"
+     
+ timeCategory: "morning"
 },
 
 
@@ -10027,7 +10073,8 @@ volumeBoost: 0.25
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female DJ1best.mp3",
-      timeCategory: "morning"
+          volumeBoost:0.30,
+ timeCategory: "morning"
 },
 
 
@@ -10337,7 +10384,8 @@ volumeBoost: 0.90
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj2.mp3",
-      timeCategory: "morning"
+         
+ timeCategory: "morning"
 },
 
 
@@ -10405,7 +10453,8 @@ volumeBoost: 0.55
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female Dj2.mp3",
-      timeCategory: "morning"
+        
+ timeCategory: "morning"
 },
 
 {
@@ -10502,7 +10551,8 @@ volumeBoost: 0.40
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj3.mp3",
-  timeCategory: "morning"
+     
+timeCategory: "morning"
 },
 
 
@@ -11730,7 +11780,8 @@ quickFade: true
     artist: "Jessie Ware  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Jessie Ware - Free Yourself.mp3",
-      timeCategory: "afternoon"
+      timeCategory: "afternoon",
+year:2023
 },
 
 
@@ -11862,7 +11913,9 @@ year: 2026
     path: "https://sunny-dancemusic02.netlify.app/Miley Cyrus & Bebe Rexha- Blue.mp3",
   timeCategory: "afternoon",
     volumeBoost: 0.45,
-    playcount: 0
+    playcount: 0,
+year:2024
+
 },
 
 
@@ -12373,7 +12426,8 @@ volumeBoost: 0.30
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female DJ1 dance.mp3",
-      timeCategory: "afternoon"
+          volumeBoost:0.60, 
+timeCategory: "afternoon"
 },
 
 
@@ -12676,7 +12730,8 @@ timeCategory: "afternoon"
     artist: " Nelly  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Nelly - Hot In Herre.mp3",
-           timeCategory: "afternoon"
+           timeCategory: "afternoon",
+    year:2002
 },
 
 
@@ -12754,7 +12809,8 @@ volumeBoost: 0.80
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj5.mp3",
-          timeCategory: "afternoon"
+           
+ timeCategory: "afternoon"
 },
 
 
@@ -12857,7 +12913,8 @@ volumeBoost: 0.80
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj5.mp3",
-    timeCategory: "afternoon"
+        
+timeCategory: "afternoon"
 },
 
 
@@ -12970,7 +13027,8 @@ playcount: 0
     artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj3.mp3",
-    timeCategory: "afternoon"
+      
+timeCategory: "afternoon"
 },
 
 
@@ -13343,7 +13401,8 @@ volumeBoost: 0.25
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female dj5.mp3",
-       timeCategory: "afternoon"
+         
+  timeCategory: "afternoon"
 },
 
 
@@ -14883,7 +14942,8 @@ playcount: 0
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj5.mp3",
-     timeCategory: "afternoon"
+         
+ timeCategory: "afternoon"
  },
 
 
@@ -14900,8 +14960,9 @@ playcount: 0
     artist: "Emma Hewitt ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Emma Hewitt - Crucify (Richi Remix).mp3",
-    timeCategory: "afternoon"
- },
+    timeCategory: "afternoon",
+year:2012
+},
 
 
 
@@ -14935,7 +14996,8 @@ playcount: 0
     artist: "Donna Summer ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Donna Summer The Deep.mp3",
-    timeCategory: "afternoon"
+    volumeBoost: 0.60,
+timeCategory: "afternoon"
 },
 
 
@@ -15653,7 +15715,18 @@ volumeBoost: 0.10
 
 
 
+{
+    name: "Chillhouse Del Mar",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/chillhouse del mar01.mp3",
+      timeCategory: "afternoon",
 
+
+   isLoud: true,          
+  loudnessValue: 0.70,    
+     quickFade: true
+},
 
 
 
@@ -16023,7 +16096,8 @@ isNew: true
     artist: "Bob Harsher ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Bob Harsher - Autonomy.mp3",
-       timeCategory: "afternoon"
+          volumeBoost:0.30,  
+timeCategory: "afternoon"
 
 
 },
@@ -16035,7 +16109,8 @@ isNew: true
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj5.mp3",
-       timeCategory: "afternoon"
+          
+timeCategory: "afternoon"
 
 
 },
@@ -16934,7 +17009,9 @@ isNew: true
     artist: "Becky Hill ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Becky Hill - Swim.mp3",
- timeCategory: "evening"
+ timeCategory: "evening",
+     isLoud: true,
+loudnessValue: 0.80 
 },
 
 {
@@ -17308,7 +17385,8 @@ isLoud: true,
     artist: "Jessie Ware  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Jessie Ware - Free Yourself.mp3",
-        timeCategory: "evening"
+        timeCategory: "evening",
+year:2023
 },
 
 
@@ -17415,7 +17493,8 @@ timeCategory: "evening"
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj5.mp3",
-    timeCategory: "evening"
+       
+ timeCategory: "evening"
 },
 
 
@@ -18054,7 +18133,8 @@ volumeBoost: 0.60
     artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj2.mp3",
-      timeCategory: "evening"
+       
+timeCategory: "evening"
 },
 
 
@@ -18343,7 +18423,10 @@ volumeBoost: 0.25
     artist: "Chillhouse",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/chillhouse del mar05.mp3",
-     timeCategory: "evening"
+     timeCategory: "evening",
+     isLoud: true,
+
+loudnessValue: 0.70 
 },
 
 
@@ -18355,7 +18438,10 @@ volumeBoost: 0.25
     artist: "Chillhouse",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/chillhouse del mar06.mp3",
-       timeCategory: "evening"
+       timeCategory: "evening",
+     isLoud: true,
+
+loudnessValue: 0.70 
 },
 
 
@@ -18806,7 +18892,8 @@ isNew: true
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female dj2.mp3",
-      timeCategory: "evening"
+          
+timeCategory: "evening"
 },
 
 
@@ -18816,7 +18903,8 @@ isNew: true
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female dj4.mp3",
-      timeCategory: "evening"
+          volumeBoost:0.30,
+ timeCategory: "evening"
 },
 
 
@@ -18857,7 +18945,10 @@ quickFade: true,
     artist: "Minelli x Inna ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Minelli x Inna - Discoteka.mp3",
-        timeCategory: "evening"
+    timeCategory: "evening",
+    isLoud: true,
+    loudnessValue: 0.80
+
 },
 
 
@@ -18877,7 +18968,8 @@ quickFade: true,
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj4.mp3",
-        timeCategory: "evening"
+           
+ timeCategory: "evening"
 },
 
 
@@ -18942,7 +19034,8 @@ quickFade: true,
     artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj6.mp3",
-        timeCategory: "evening"
+        
+ timeCategory: "evening"
 },
 
 
@@ -18993,7 +19086,8 @@ quickFade: true,
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female dj3.mp3",
-      timeCategory: "evening"
+        
+ timeCategory: "evening"
 },
 
 
@@ -19363,7 +19457,8 @@ quickFade: true
     artist: "Listen Live Sunny Dance Radio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj3.mp3",
-       timeCategory: "evening"
+           
+ timeCategory: "evening"
 },
 
 
@@ -19429,7 +19524,8 @@ quickFade: true
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female dj5.mp3",
-      timeCategory: "evening"
+           
+timeCategory: "evening"
 },
 
 
@@ -19715,7 +19811,8 @@ quickFade: true
     artist: "Listen Live Sunny Dance radio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj2.mp3",
-    timeCategory: "evening"
+        
+timeCategory: "evening"
 },
 
 
@@ -20126,7 +20223,9 @@ volumeBoost: 0.10
     artist: "Zara Larsson ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Zara Larsson - On My Love.mp3",
-     timeCategory: "evening"
+  isLoud: true,
+loudnessValue: 0.80, 
+ timeCategory: "evening"
  },
 
 
@@ -20309,7 +20408,8 @@ isNew: true
     artist: "Freemasons",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj5.mp3",
-    timeCategory: "evening"
+       
+ timeCategory: "evening"
 },
 
  
@@ -20671,7 +20771,8 @@ playcount: 0
     artist: "Freemasons",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj5.mp3",
-         timeCategory: "evening"
+          
+ timeCategory: "evening"
 },
 
 
@@ -21020,7 +21121,8 @@ volumeBoost: 0.10
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female dj4.mp3",
-      timeCategory: "evening"
+        
+   timeCategory: "evening"
 },
 
 
@@ -21349,7 +21451,8 @@ volumeBoost: 0.50,
     artist: "Yuna  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Yuna - Can't get over you.mp3",
-    timeCategory: "evening"
+    timeCategory: "evening",
+ year: 2022
 },
 
 
@@ -21573,7 +21676,8 @@ volumeBoost: 1.0,
     artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj6.mp3",
-  timeCategory: "evening"
+      
+timeCategory: "evening"
 },
 
 
@@ -21685,7 +21789,7 @@ volumeBoost: 0.25
     path: "https://sunnydanceoldies04.netlify.app/Change - Miracles.mp3",
       timeCategory: "evening",
      quickFade: true,
-    volumeBoost: 0.45,
+    volumeBoost: 0.75,
     playcount: 0
 },
 
@@ -21951,7 +22055,8 @@ volumeBoost: 0.25
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj5.mp3",
-      timeCategory: "evening-late"
+          
+ timeCategory: "evening-late"
 },
 
 
@@ -22301,7 +22406,7 @@ isNew: true
      image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Cassius - Cassius 1999.mp3",
     timeCategory: "evening-late",
-    volumeBoost: 0.40,
+    volumeBoost: 0.70,
     playcount: 0
 },
 
@@ -22327,7 +22432,8 @@ quickFade: true
     artist: "Listen Live Sunny Dance radio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj2.mp3",
-  timeCategory: "evening-late"
+     
+timeCategory: "evening-late"
 },
 
 
@@ -22445,7 +22551,8 @@ volumeBoost: 0.75,
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female dj2.mp3",
-      timeCategory: "evening-late"
+         
+ timeCategory: "evening-late"
 },
 
 
@@ -22950,7 +23057,8 @@ volumeBoost: 0.10
     artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj2.mp3",
-      timeCategory: "evening-late"
+          
+timeCategory: "evening-late"
 },
 
 
@@ -22991,7 +23099,8 @@ quickFade: true
     artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj3.mp3",
-    timeCategory: "evening-late"
+       
+ timeCategory: "evening-late"
 },
 
 
@@ -23086,6 +23195,7 @@ eq: { bass: 0, mid: 2, treble: +1 }
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj3.mp3",
+ 
 timeCategory: " evening-late"
 },
 
@@ -23344,7 +23454,8 @@ volumeBoost: 0.25
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj2.mp3",
-      timeCategory: "evening-late"
+         
+timeCategory: "evening-late"
 },
 
 
@@ -23596,7 +23707,8 @@ quickFade: true
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj2.mp3",
-       timeCategory: "evening-late"
+           
+ timeCategory: "evening-late"
 },
 
 
@@ -24161,7 +24273,8 @@ quickFade: true
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female DJ1 dance.mp3",
-      timeCategory: "evening-late"
+        
+ timeCategory: "evening-late"
 },
 
 
@@ -24174,7 +24287,7 @@ quickFade: true
    timeCategory: "evening-late",
       year: 1995,
 isLoud: true,          
-  loudnessValue: 0.42,    
+  loudnessValue: 0.35,    
      quickFade: true,
         playcount: 0
 },
@@ -24627,7 +24740,8 @@ timeCategory: "evening-late"
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female dj3.mp3",
-    timeCategory: "evening-late"
+       
+timeCategory: "evening-late"
 },
 
 
@@ -24703,7 +24817,8 @@ timeCategory: "evening-late"
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female dj2.mp3",
-      timeCategory: "evening-late"
+     
+ timeCategory: "evening-late"
 },
 
 
@@ -24789,7 +24904,8 @@ timeCategory: "evening-late"
     artist: "Listen Live Sunny Dance Radio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj5.mp3",
-    timeCategory: "evening-late"
+         volumeBoost:0.30,
+timeCategory: "evening-late"
 },
 
 
@@ -25338,7 +25454,8 @@ quickFade: true,
     artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj4.mp3",
-    timeCategory: "evening-late"
+       
+ timeCategory: "evening-late"
 },
 
 
@@ -25395,7 +25512,8 @@ quickFade: true,
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj4.mp3",
-    timeCategory: "evening-late"
+       
+ timeCategory: "evening-late"
 },
 
 
@@ -25580,7 +25698,8 @@ playcount: 0
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj5.mp3",
-  timeCategory: "evening-late"
+      
+timeCategory: "evening-late"
 },
 
 
@@ -26118,7 +26237,8 @@ isLoud: true,
     artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj5.mp3",
-  timeCategory: "evening-late"
+      
+timeCategory: "evening-late"
 },
 
 
@@ -26131,7 +26251,8 @@ isLoud: true,
     artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj3.mp3",
-  timeCategory: "evening-late"
+      
+timeCategory: "evening-late"
 },
 
 
@@ -26189,7 +26310,8 @@ isLoud: true,
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj2.mp3",
-    timeCategory: "evening-late"
+      
+timeCategory: "evening-late"
 },
 
 
@@ -26443,7 +26565,8 @@ isLoud: true,
     artist: " Nelly  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Nelly - Hot In Herre.mp3",
-           timeCategory: "evening-late"
+    timeCategory: "evening-late",
+    year:2002
 },
 
 
@@ -26903,18 +27026,12 @@ timeCategory: " evening-late"
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj2.mp3",
-       timeCategory: "evening-late"
+          
+ timeCategory: "evening-late"
 },
 
 
 
-{
-     name: " Free Yourself",
-    artist: "Jessie Ware  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Jessie Ware - Free Yourself.mp3",
-        timeCategory: "evening-late"
-},
 
 
 
@@ -27196,7 +27313,8 @@ playcount: 0
     artist: "Janelle Monae",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Janelle Monae - Water Slide.mp3",
-     timeCategory: "evening-late"
+     timeCategory: "evening-late",
+year:2023
 },
 
 
@@ -27227,7 +27345,8 @@ playcount: 0
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female dj5.mp3",
-      timeCategory: "evening-late"
+        
+ timeCategory: "evening-late"
 },
 
 {
@@ -27247,7 +27366,8 @@ playcount: 0
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female dj5.mp3",
-      timeCategory: "evening-late"
+        
+timeCategory: "evening-late"
 },
 
 
@@ -27821,8 +27941,8 @@ quickFade: true
     artist: "Bebe Rexha ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Bebe Rexha - Free love.mp3",
-         timeCategory: "f afternoon"
-
+         timeCategory: "f afternoon",
+ year: 2020
 
 },
 
@@ -28098,7 +28218,8 @@ quickFade: true
     artist: "Listen Live Sunny Dance Radio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj44.mp3",
-     timeCategory: "f afternoon"
+          
+timeCategory: "f afternoon"
 },
 
 
@@ -28115,7 +28236,8 @@ quickFade: true
     artist: "Listen Live Sunny Dance Radio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj22.mp3",
-    timeCategory: "f afternoon"
+   
+timeCategory: "f afternoon"
 },
 
 
@@ -28209,7 +28331,8 @@ playcount: 0
     artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj22.mp3",
-    timeCategory: "f afternoon"
+      
+timeCategory: "f afternoon"
 },
 
 
@@ -28230,7 +28353,8 @@ playcount: 0
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj5.mp3",
-      timeCategory: "f afternoon"
+        
+timeCategory: "f afternoon"
 },
 
 
@@ -28292,7 +28416,8 @@ isNew: true
     artist: "Emma Hewitt ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Emma Hewitt - Crucify (Richi Remix).mp3",
-    timeCategory: "f afternoon"
+    timeCategory: "f afternoon",
+    year:2012
 },
 
 
@@ -28715,7 +28840,8 @@ isNew: true
     artist: " Nelly  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Nelly - Hot In Herre.mp3",
-           timeCategory: "f afternoon"
+           timeCategory: "f afternoon",
+ year:2002
 },
 
 
@@ -28836,7 +28962,8 @@ volumeBoost: 0.10
     artist: "Listen Live Sunny Danceradio ☀️",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj33.mp3",
-       timeCategory: "f afternoon"
+        
+ timeCategory: "f afternoon"
 
 },
 
@@ -28845,8 +28972,8 @@ volumeBoost: 0.10
     artist: "Jessie Ware  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Jessie Ware - Free Yourself.mp3",
-        timeCategory: "f afternoon"
-
+        timeCategory: "f afternoon",
+year:2023
 },
 
 
@@ -29576,7 +29703,8 @@ timeCategory: "f evening"
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj55.mp3",
- timeCategory: "f evening"
+  
+timeCategory: "f evening"
 },
 
 
@@ -29585,7 +29713,8 @@ timeCategory: "f evening"
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj22.mp3",
-  timeCategory: "f evening"
+    
+timeCategory: "f evening"
 },
 
 
@@ -29919,7 +30048,8 @@ isLoud: true,
     artist: "Listen Live Sunny Danceradio☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/Female dj33.mp3",
-    timeCategory: "f evening"
+       
+timeCategory: "f evening"
 },
 
 
@@ -30086,6 +30216,18 @@ isLoud: true,
 
 
 
+
+
+{
+    name: "Discoteka",
+    artist: "Minelli x Inna ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Minelli x Inna - Discoteka.mp3",
+    timeCategory: "f evening",
+    isLoud: true,
+    loudnessValue: 0.80
+
+},
 
 
 
@@ -30389,7 +30531,8 @@ volumeBoost: 0.65,
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj55.mp3",
-       timeCategory: "f evening"
+         
+timeCategory: "f evening"
 },
 
 
@@ -31474,13 +31617,6 @@ isNew: true
 
 
 
-{
-     name: " Hot In Herre",
-    artist: " Nelly  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Nelly - Hot In Herre.mp3",
-           timeCategory: "f evening-late"
-},
 
 
 
@@ -32792,14 +32928,36 @@ function loadTrack(index) {
     return;
   }
 
+  // ⭐ AUTO‑BOOST JINGLES + FEMALE DJ ⭐
+  const lower = track.path?.toLowerCase() || "";
+
+  if (lower.includes("female dj")) {
+    track.volumeBoost = 0.3;
+  } else if (lower.includes("jingle")) {
+    track.volumeBoost = 0.2;
+  }
+
   console.log("🎧 Loading track:", cleanURL(track.path));
 
-  // Create audio element
   const audio = new Audio(cleanURL(track.path));
   curr_track = audio;
   currentTrackIndex = index;
 
-  // -----------------------------
+  const base = Number(getTimeBasedVolume());
+  const boost = Number(track.volumeBoost || 0);
+  audio.volume = Math.max(0, Math.min(1, base + boost));
+
+
+  
+
+
+
+
+
+
+
+
+// -----------------------------
   // METADATA + FADE SCHEDULING
   // -----------------------------
   audio.addEventListener("loadedmetadata", () => {
@@ -33099,11 +33257,6 @@ function formatTrackLabel(track) {
 
 
 
-
-
-
-
-
 // 🔹 Play a track
 function playTrack() {
   if (!curr_track) {
@@ -33140,24 +33293,30 @@ function playTrack() {
 
 
 
-
 function emphasizeKeywords(text) {
-  return text.replace(/(classic|maxi|12inch|\(new\)|\b\d{4}\b)/gi, function(match) {
+  return text.replace(/(classic|maxi|12inch|\(new\)|\(live\)|\b\d{4}\b)/gi, function(match) {
     const lower = match.toLowerCase();
 
- if (lower === '(new)') {
-  return `
-    <span class="new-tag">
- 
-        <span class="new-text">NEW</span> 
-  
-   
-  `;
-}
+    if (lower === '(new)') {
+      return `
+        <span class="new-tag">
+          <span class="new-text">NEW</span>
+        </span>
+      `;
+    }
+
+    if (lower === '(live)') {
+      return `
+        <span class="live-tag">
+          <span class="live-text">Live</span>
+        </span>
+      `;
+    }
 
     if (lower === '12inch') {
       return '<span class="vinyl-icon">💿 12"</span>';
     }
+
     if (lower === 'maxi') {
       return '<span class="maxi-icon">📀 Maxi</span>';
     }
@@ -33165,6 +33324,7 @@ function emphasizeKeywords(text) {
     return '<em>' + match + '</em>';
   });
 }
+
 
 
 
