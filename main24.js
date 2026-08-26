@@ -44,6 +44,10 @@ let masterGain = null;
 let track_index = 0;
 let currentTrack = null;  
 let updateTimer;
+let lowVolumeTimer = 0;
+let lowVolumeThreshold = 0.12;     // volume below this = suspicious
+let lowVolumeMaxTime = 3000;       // 3 seconds under threshold triggers quickfade
+let quickFadeTriggered = false;
 
 // Create the audio element for the player
 let audioPlayer = document.createElement('audio');
@@ -2670,6 +2674,56 @@ volumeBoost: 0.30
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/MFSB - K-Jee.mp3",
          timeCategory: "seventies"
+},
+
+{
+    name: "Hot Hot Give It All You Got",
+    artist: "Debby Jacobs",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Debby Jacobs - Hot Hot Give It All You Got.mp3",
+    timeCategory: "seventies"
+},
+
+
+{
+    name: "Take Your Time",
+    artist: "Sos Band ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Sos Band - Take Your Time.mp3",
+    timeCategory: "seventies"
+},
+
+
+{
+    name: "You Make Me Feel",
+    artist: "Sylvester ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Sylvester You Make Me Feel.mp3",
+    timeCategory: "seventies"
+},
+
+
+
+
+{
+    name: "Boogie Wonderland (maxi)",
+    artist: "EWF ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/EWF - Boogie Wonderland (maxi).mp3",
+    timeCategory: "seventies"
+},
+
+
+
+
+
+
+{
+    name: "Take That To The Bank",
+    artist: "Shalamar  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Shalamar - Take That To The Bank.mp3",
+    timeCategory: "seventies"
 },
 
 
@@ -7237,8 +7291,24 @@ part: 4
 
 },
 
+//monday
+
+{
+    name: "Mondays",
+    artist: "Nona ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Nona - Mondays.mp3",
+    timeCategory: "monday"
+},
 
 
+{
+    name: "Take That To The Bank",
+    artist: "Shalamar  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Shalamar - Take That To The Bank.mp3",
+    timeCategory: "monday"
+},
 //ministry of sound
 
 
@@ -16203,6 +16273,17 @@ isLoud: true,
 
 
 
+{
+     name: "Todays News☀️",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "afternoon",
+playcount: 0
+   
+
+
+},
 
 
 
@@ -16384,6 +16465,17 @@ volumeBoost: 0.30
 
 
 
+{
+     name: "Todays News☀️",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "afternoon",
+playcount: 0
+   
+
+
+},
 
 
 
@@ -22572,6 +22664,17 @@ volumeBoost: 0.75,
 
 
 
+{
+     name: "Todays News☀️",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "evening-late",
+playcount: 0
+   
+
+
+},
 
 
 
@@ -25317,7 +25420,17 @@ eq: { bass: 1, mid: 0, treble: +1 } ,
 
 
 
+{
+     name: "Todays News☀️",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "evening-late",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -27743,7 +27856,17 @@ year:2022
 
 
 
+{
+     name: "Todays News☀️",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "f afternoon",
+playcount: 0
+   
 
+
+},
 
 
 {
@@ -29810,7 +29933,17 @@ volumeBoost: 0.10
 
 
 
+{
+     name: "Todays News☀️",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "f evening",
+playcount: 0
+   
 
+
+},
 
 
 
@@ -30495,6 +30628,18 @@ isNew: true
 
 
 
+
+{
+     name: "Todays News☀️",
+    artist: "Sunny",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Broadcast Amsterdam2.mp3",
+    timeCategory: "f evening",
+playcount: 0
+   
+
+
+},
 
 
 {
@@ -32919,7 +33064,6 @@ function cleanURL(url) {
 
 let playedTracks = [];
 
-
 function loadTrack(index) {
   const track = scheduledMp3Files[index];
 
@@ -32927,6 +33071,10 @@ function loadTrack(index) {
     console.error("❌ No track found at index", index);
     return;
   }
+
+  // Reset watchdog state
+  quickFadeTriggered = false;
+  lowVolumeTimer = 0;
 
   // ⭐ AUTO‑BOOST JINGLES + FEMALE DJ ⭐
   const lower = track.path?.toLowerCase() || "";
@@ -32947,17 +33095,7 @@ function loadTrack(index) {
   const boost = Number(track.volumeBoost || 0);
   audio.volume = Math.max(0, Math.min(1, base + boost));
 
-
-  
-
-
-
-
-
-
-
-
-// -----------------------------
+  // -----------------------------
   // METADATA + FADE SCHEDULING
   // -----------------------------
   audio.addEventListener("loadedmetadata", () => {
@@ -32981,7 +33119,6 @@ function loadTrack(index) {
       console.log("⏱️ Standard fade for track >3min");
     } else {
       console.log("🚫 No fade scheduled");
-      return;
     }
 
     if (fadeStart > 0) {
@@ -32992,14 +33129,7 @@ function loadTrack(index) {
     }
   });
 
-  
-
-
-
-
-
-
-// -----------------------------
+  // -----------------------------
   // FADE FUNCTION
   // -----------------------------
   function fadeOut(audio, duration, targetVolume = 0) {
@@ -33023,26 +33153,77 @@ function loadTrack(index) {
   }
 
   // -----------------------------
+  // AUTO‑QUICKFADE WATCHDOG
+  // -----------------------------
+  const watchdog = setInterval(() => {
+    if (!audio.duration) return;
+
+    const remaining = audio.duration - audio.currentTime;
+
+    // Only check near the end of the track
+    if (remaining < 8) {
+
+      // If volume is low, increase timer
+      if (audio.volume < lowVolumeThreshold) {
+        lowVolumeTimer += 200; // interval step
+      } else {
+        lowVolumeTimer = 0; // reset if volume goes back up
+      }
+
+      // Trigger quickfade if too long under threshold
+      if (!quickFadeTriggered && lowVolumeTimer >= lowVolumeMaxTime) {
+        quickFadeTriggered = true;
+        console.log("⚡ Auto‑quickfade triggered due to long low-volume tail");
+
+        quickFade(audio, 1200); // 1.2s fast fade
+      }
+    }
+
+    // Stop watchdog when track ends
+    if (audio.ended || remaining <= 0) {
+      clearInterval(watchdog);
+    }
+
+  }, 200);
+
+  // -----------------------------
+  // QUICKFADE FUNCTION
+  // -----------------------------
+  function quickFade(audio, duration = 1200) {
+    const startVolume = audio.volume;
+    const steps = 20;
+    const stepTime = duration / steps;
+    let step = 0;
+
+    const fade = setInterval(() => {
+      step++;
+      const progress = step / steps;
+
+      audio.volume = startVolume * (1 - progress);
+
+      if (step >= steps) {
+        clearInterval(fade);
+        audio.volume = 0;
+        audio.pause();
+        nextTrack(); // your existing handoff
+      }
+    }, stepTime);
+  }
+
+  // -----------------------------
   // UI UPDATES
   // -----------------------------
-// UI UPDATES (with keyword emphasis)
-track_name.innerHTML = emphasizeKeywords(track.name);
-track_artist.innerHTML = emphasizeKeywords(track.artist);
+  track_name.innerHTML = emphasizeKeywords(track.name);
+  track_artist.innerHTML = emphasizeKeywords(track.artist);
 
-playedTracks.push({
-  name: track.name,
-  artist: track.artist,
-  path: track.path,          // ✅ add this
-  timestamp: new Date()
-});
+  playedTracks.push({
+    name: track.name,
+    artist: track.artist,
+    path: track.path,
+    timestamp: new Date()
+  });
 
-
-renderLiveLog(track);
-  
-
-
-
-
+  renderLiveLog(track);
 
   // -----------------------------
   // SEEK TIMER
@@ -33090,12 +33271,6 @@ renderLiveLog(track);
   audio.load();
   return audio;
 }
-
-
-
-
-
-
 
 
 
