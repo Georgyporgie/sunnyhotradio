@@ -1795,7 +1795,8 @@ part: 4
     artist: "Rose Royce ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Rose Royce - Car Wash.mp3",
-      timeCategory: "seventies"
+      timeCategory: "seventies",
+volumeBoost: 0.70
 },
 
 
@@ -33753,9 +33754,13 @@ const history = playedTracks
     return (
       !p.includes("jingle") &&
       !p.includes("discjockeys") &&
-      !p.includes("sunny ship") &&
+      !p.includes("Sunny Ship") &&
       !p.includes("audio") &&
           !p.includes("News") &&
+  !p.includes("intro") &&
+!p.includes("Sunny") &&
+
+
 !excludedTypes.includes(t.type)
     );
   })
@@ -33784,7 +33789,9 @@ document.getElementById("now-playing-log").innerHTML = `
     !currentTrack.path.toLowerCase().includes("jingle") &&
     !currentTrack.path.toLowerCase().includes("discjockeys") &&
     !currentTrack.path.toLowerCase().includes("sunny ship")  &&
- !currentTrack.path.toLowerCase().includes("sunny ") 
+  !currentTrack.path.toLowerCase().includes("intro")  &&
+
+!currentTrack.path.toLowerCase().includes("sunny ") 
      
  ? `<span id="vinyl-icon"></span>`
       : ""
