@@ -32747,7 +32747,7 @@ timeCategory: "f evening-late"
   timeCategory: "none",
   sources: ["audio/Broadcast Amsterdam2.mp3"],
   duration: 120,
-  playAtHours: [0, 4, 8, 12, 16,19,20,22,23],
+ playAtHours: [4,8,22,23],
   playAtMinutes: [0]
 }
 
@@ -33696,53 +33696,104 @@ function stripAllParentheses(text) {
   return text.replace(/\([^)]*\)/g, "").trim();
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function duckCurrentTrack(targetVolume = 0.15, duration = 1500) {
+    if (!currentAudio) return;
+
+    const startVolume = currentAudio.volume;
+    const diff = targetVolume - startVolume;
+    const steps = 30;
+    let stepCount = 0;
+
+    const fade = setInterval(() => {
+        stepCount++;
+        currentAudio.volume = startVolume + (diff * (stepCount / steps));
+
+        if (stepCount >= steps) {
+            clearInterval(fade);
+        }
+    }, duration / steps);
+}
+
+function unduckCurrentTrack(normalVolume = 1, duration = 1500) {
+    if (!currentAudio) return;
+
+    const startVolume = currentAudio.volume;
+    const diff = normalVolume - startVolume;
+    const steps = 30;
+    let stepCount = 0;
+
+    const fade = setInterval(() => {
+        stepCount++;
+        currentAudio.volume = startVolume + (diff * (stepCount / steps));
+
+        if (stepCount >= steps) {
+            clearInterval(fade);
+        }
+    }, duration / steps);
+}
+
+
+
+
+
+
+
 function schedulerTick() {
-  const now = new Date();
+    const now = new Date();
+    const currentTime = `${now.getHours().toString().padStart(2, "0")}:00`;
 
-  trackList.forEach(item => {
+    const item = schedule.find(s => s.time === currentTime);
+    if (!item) return;
 
-    // 🟦 NEWS ITEMS (no timeCategory needed)
+    // 🟦 NEWS
     if (item.type === "news") {
 
-      const hourMatch = item.playAtHours.includes(now.getHours());
-      const minuteMatch = item.playAtMinutes.includes(now.getMinutes());
+        // Duck the music instead of fading it out completely
+        duckCurrentTrack(0.15, 1500);
 
-      if (hourMatch && minuteMatch) {
+        // Play the news bulletin
+        playScheduledItem(item);
 
-        // 🔒 Prevent double-triggering
-        if (!item.lastPlayed || item.lastPlayed !== now.getHours()) {
+        // Restore music after news ends
+        setTimeout(() => {
+            unduckCurrentTrack(1, 1500);
+        }, item.duration * 1000);
 
-          item.lastPlayed = now.getHours(); // mark hour as played
-
-          const randomSource = item.sources[
-            Math.floor(Math.random() * item.sources.length)
-          ];
-
-          curr_track = new Audio(randomSource);
-          playTrack();
-
-          addToLiveLog({
-            type: "news",
-            title: "Hourly News Bulletin",
-            source: randomSource,
-            time: now.toLocaleTimeString()
-          });
-        }
-      }
-
-      return; // skip music logic
+        return;
     }
 
     // 🟧 MUSIC / SHOWS / JINGLES
-    // your normal logic here
-
-  });
+    if (item.type === "music" || item.type === "show" || item.type === "jingle") {
+        playScheduledItem(item);
+    }
 }
 
 setInterval(schedulerTick, 1000);
 
 
-
+function playScheduledItem(item) {
+    // Do NOT pause playlistPlayer — ducking needs it to keep playing
+    const newsAudio = new Audio(item.url);
+    newsAudio.volume = 1;
+    newsAudio.play();
+}
 
 
 
@@ -33769,11 +33820,11 @@ const history = playedTracks
     return (
       !p.includes("jingle") &&
       !p.includes("discjockeys") &&
-      !p.includes("Sunny Ship") &&
+      !p.includes("sunny ship") &&
       !p.includes("audio") &&
           !p.includes("News") &&
   !p.includes("intro") &&
-!p.includes("Just") &&
+
 
 
 !excludedTypes.includes(t.type)
