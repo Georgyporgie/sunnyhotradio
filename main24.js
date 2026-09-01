@@ -2962,8 +2962,8 @@ timeCategory: "seventies"
     path: "https://sunnydancemusic07.netlify.app/Donna Summer - I Feel Love (revisit mix).mp3",
     timeCategory: "seventies",
     quickFade: true,
-volumeBoost: 0.75,
-  eq: { bass: 1, mid: 1, treble: +1 } 
+volumeBoost: 1.0
+  
 },
 
 
@@ -3933,8 +3933,8 @@ quickFade: true
     path: "https://sunnydancemusic07.netlify.app/Donna Summer - I Feel Love (revisit mix).mp3",
     timeCategory: "soulshow",
     quickFade: true,
-volumeBoost: 0.75,
-  eq: { bass: 1, mid: 1, treble: +1 } 
+volumeBoost:1.0
+  
 },
 
 {
@@ -6970,7 +6970,7 @@ volumeBoost: 0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Quadrophonia - Quadrophonia (original).mp3",
     timeCategory: "nineties",
-volumeBoost: 0.50,
+volumeBoost: 1.0,
   playcount: 0
 },
 
@@ -7310,6 +7310,11 @@ part: 4
     path: "audio/Shalamar - Take That To The Bank.mp3",
     timeCategory: "monday"
 },
+
+
+
+
+
 //ministry of sound
 
 
@@ -21467,7 +21472,7 @@ volumeBoost: 0.25
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Quadrophonia - Quadrophonia (original).mp3",
     timeCategory: "evening",
-volumeBoost: 0.50,
+volumeBoost: 1.0,
   playcount: 0
 },
 
@@ -22603,8 +22608,8 @@ timeCategory: "evening-late"
     path: "https://sunnydancemusic07.netlify.app/Donna Summer - I Feel Love (revisit mix).mp3",
     timeCategory: "evening-late",
     quickFade: true,
-volumeBoost: 0.75,
-  eq: { bass: 1, mid: 1, treble: +1 } 
+volumeBoost: 1.0
+  
 },
 
 
@@ -25421,17 +25426,7 @@ eq: { bass: 1, mid: 0, treble: +1 } ,
 
 
 
-{
-     name: "Todays News☀️",
-    artist: "Sunny",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "audio/Broadcast Amsterdam2.mp3",
-    timeCategory: "evening-late",
-playcount: 0
-   
 
-
-},
 
 
 
@@ -27857,17 +27852,7 @@ year:2022
 
 
 
-{
-     name: "Todays News☀️",
-    artist: "Sunny",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "audio/Broadcast Amsterdam2.mp3",
-    timeCategory: "f afternoon",
-playcount: 0
-   
 
-
-},
 
 
 {
@@ -29934,17 +29919,7 @@ volumeBoost: 0.10
 
 
 
-{
-     name: "Todays News☀️",
-    artist: "Sunny",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "audio/Broadcast Amsterdam2.mp3",
-    timeCategory: "f evening",
-playcount: 0
-   
 
-
-},
 
 
 
@@ -30630,17 +30605,7 @@ isNew: true
 
 
 
-{
-     name: "Todays News☀️",
-    artist: "Sunny",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "audio/Broadcast Amsterdam2.mp3",
-    timeCategory: "f evening",
-playcount: 0
-   
 
-
-},
 
 
 {
@@ -32777,6 +32742,14 @@ timeCategory: "f evening-late"
 
 },
 
+{
+  type: "news",
+  timeCategory: "none",
+  sources: ["audio/Broadcast Amsterdam2.mp3"],
+  duration: 120,
+  playAtHours: [0, 4, 8, 12, 16,19,20,22,23],
+  playAtMinutes: [0]
+}
 
 
 
@@ -33723,8 +33696,50 @@ function stripAllParentheses(text) {
   return text.replace(/\([^)]*\)/g, "").trim();
 }
 
+function schedulerTick() {
+  const now = new Date();
 
+  trackList.forEach(item => {
 
+    // 🟦 NEWS ITEMS (no timeCategory needed)
+    if (item.type === "news") {
+
+      const hourMatch = item.playAtHours.includes(now.getHours());
+      const minuteMatch = item.playAtMinutes.includes(now.getMinutes());
+
+      if (hourMatch && minuteMatch) {
+
+        // 🔒 Prevent double-triggering
+        if (!item.lastPlayed || item.lastPlayed !== now.getHours()) {
+
+          item.lastPlayed = now.getHours(); // mark hour as played
+
+          const randomSource = item.sources[
+            Math.floor(Math.random() * item.sources.length)
+          ];
+
+          curr_track = new Audio(randomSource);
+          playTrack();
+
+          addToLiveLog({
+            type: "news",
+            title: "Hourly News Bulletin",
+            source: randomSource,
+            time: now.toLocaleTimeString()
+          });
+        }
+      }
+
+      return; // skip music logic
+    }
+
+    // 🟧 MUSIC / SHOWS / JINGLES
+    // your normal logic here
+
+  });
+}
+
+setInterval(schedulerTick, 1000);
 
 
 
@@ -33758,7 +33773,7 @@ const history = playedTracks
       !p.includes("audio") &&
           !p.includes("News") &&
   !p.includes("intro") &&
-!p.includes("Sunny") &&
+!p.includes("Just") &&
 
 
 !excludedTypes.includes(t.type)
@@ -33790,6 +33805,7 @@ document.getElementById("now-playing-log").innerHTML = `
     !currentTrack.path.toLowerCase().includes("discjockeys") &&
     !currentTrack.path.toLowerCase().includes("sunny ship")  &&
   !currentTrack.path.toLowerCase().includes("intro")  &&
+!currentTrack.path.toLowerCase().includes("Broadcast Amsterdam")  &&
 
 !currentTrack.path.toLowerCase().includes("sunny ") 
      
