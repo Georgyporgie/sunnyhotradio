@@ -3311,58 +3311,6 @@ part: 2
 
 
 
-{
-     name: " Which Ways Up",
-    artist: "Stargard",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://sunny-dancemusic03.netlify.app/Stargard Which Ways Up.mp3",
-  timeCategory: "soulshow",
-part: 3
-},
-
-
-{
-     name: "Intro",
-    artist: "Soulshow  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/soulshow tune01.mp3",
-    timeCategory: "soulshow"
-},
-
-{
-     name: "Boogie s In My Soul (new)",
-    artist: "Chaka Kahn",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://sunny-dancemusic03.netlify.app/Chaka Kahn - Boogie s In My Soul (new).mp3",
- year: 2026,
- timeCategory: "soulshow",
-part: 4
-},
-
-{
-    name: "    Dance (Do What You Wanna Do) ",
-    artist: " The Sun  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnyhotradio.com/muziek/oldies07/Sun - Dance (Do What You Wanna Do).mp3",
-    timeCategory: "soulshow",
-   isLoud: true,          
-  loudnessValue: 0.52,    
-     quickFade: true,
-        playcount: 0,
-part: 5
-},
-
-
-
-{
-     name: "Night Fever",
-    artist: "Beegees",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Beegees Night fever.mp3",
-    timeCategory: "soulshow",
-part: 6
-
-},
 
 {
      name: "Relight My Fire",
@@ -3370,7 +3318,7 @@ part: 6
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Dan Hartman Relight My Fire.mp3",
     timeCategory: "soulshow",
-part: 7
+part: 3
 },
 {
     name: "   Ugly Ego (classic)",
@@ -3380,33 +3328,78 @@ part: 7
    timeCategory: "soulshow",
  quickFade: true,
 volumeBoost:0.10,
-part: 8
+part: 4
 
 },
 
 
+
 {
-    name: "   Just A Touch (1979) ",
-    artist: "Slave ",
+    name: "Thats The Way",
+    artist: "KC and The Sunshine Band",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Slave - Just A Touch (1979).mp3",
+    path: "https://danceoldies10.netlify.app/K C and The Sunshine Band - Thats The Way (1975).mp3",
        timeCategory: "soulshow",
-quickFade: true,
-  part: 9
+part: 5
+  
+},
+
+{
+    name: "I Want Your Love",
+    artist: "Chic ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Chic - I Want Your Love ((strictly).mp3",
+       timeCategory: "soulshow",
+part: 6
+  
 },
 
 
 {
-    name: "  Fall In Love With Me (1982) ",
-    artist: " EARTH WIND & FIRE ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://jazzmusic04.netlify.app/EARTH WIND & FIRE - Fall In Love With Me (1982).mp3",
+    name: " Bounce Skate Roll (12inch) ",
+    artist: "Vaughan  Mason & Crew",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Vaughan  Mason & Crew - Bounce skate roll.mp3",
+  playcount: 0,
+timeCategory: "soulshow",
+  volumeBoost: 0.35,
+part: 7
+
+},
+
+
+
+{
+     name: "Intro",
+    artist: "Soulshow  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Soulshow intro2.mp3",
     timeCategory: "soulshow",
-    volumeBoost: 0.55,
-    playcount: 0,
+part: 8
+},
+
+
+
+
+{
+     name: "Fantasy (maxi)",
+    artist: "EWF ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/EWF Fantasy.mp3",
+    timeCategory: "soulshow",
+part: 9
+
+},
+
+
+{
+    name: " It's All The Way Live (1978)",
+    artist: "Lakeside ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Lakeside - It's All The Way Live.mp3",
+         timeCategory: "soulshow",
+volumeBoost: 0.35,
 part: 10
-
-
 },
 
 {
@@ -3420,84 +3413,6 @@ part: 11
 },
 
 {
-    name: "Thats The Way",
-    artist: "KC and The Sunshine Band",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/K C and The Sunshine Band - Thats The Way (1975).mp3",
-       timeCategory: "soulshow",
-part: 12
-  
-},
-
-{
-    name: "I Want Your Love",
-    artist: "Chic ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Chic - I Want Your Love ((strictly).mp3",
-       timeCategory: "soulshow",
-part: 13
-  
-},
-
-
-{
-    name: " Bounce Skate Roll (12inch) ",
-    artist: "Vaughan  Mason & Crew",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Vaughan  Mason & Crew - Bounce skate roll.mp3",
-  playcount: 0,
-timeCategory: "soulshow",
-  volumeBoost: 0.35,
-part: 14
-
-},
-
-
-
-{
-     name: "Intro",
-    artist: "Soulshow  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Soulshow intro2.mp3",
-    timeCategory: "soulshow",
-part: 15
-},
-
-
-
-
-{
-     name: "Fantasy (maxi)",
-    artist: "EWF ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/EWF Fantasy.mp3",
-    timeCategory: "soulshow",
-part: 16
-
-},
-
-
-{
-    name: " It's All The Way Live (1978)",
-    artist: "Lakeside ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies04.netlify.app/Lakeside - It's All The Way Live.mp3",
-         timeCategory: "soulshow",
-volumeBoost: 0.35,
-part: 17
-},
-
-{
-     name: "Intro",
-    artist: "Soulshow  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Soulshow intro2.mp3",
-    timeCategory: "soulshow",
-part: 18
-
-},
-
-{
     name: " What You Waiting For  ",
     artist: "Stargard",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -3506,7 +3421,7 @@ timeCategory: "soulshow",
     eq: { bass: 2, mid: 2, treble: +1 } ,
 volumeBoost: 0.75,
  playcount: 0,
-part: 19
+part: 12
 },
 
 {
@@ -3515,7 +3430,7 @@ part: 19
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/soulshow tune01.mp3",
     timeCategory: "soulshow",
-part: 20
+part: 13
 
 },
 
@@ -3530,7 +3445,7 @@ part: 20
  quickFade: true,
   volumeBoost: 0.45,
     playcount: 0,
-part: 21
+part: 14
 
 },
 
@@ -3542,18 +3457,7 @@ part: 21
     path: "https://danceoldies10.netlify.app/Brass Construction - Movin'.mp3",
  
  timeCategory: "soulshow",
-part: 22
-},
-
-{
-     name: "Let's Start To Dance (12inch)",
-    artist: "Hamilton Bohannon ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Hamilton Bohannon - Let's Start To Dance 12 inch.mp3",
-  eq: { bass: 2, mid: 3, treble: +1 } ,
-volumeBoost: 0.55,
-timeCategory: "soulshow",
-part: 23
+part: 15
 },
 
 {
@@ -3562,7 +3466,7 @@ part: 23
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/George mcGray - Rock Me Baby.mp3",
     timeCategory: "soulshow",
-part: 24
+part: 16
 },
 
 
@@ -3581,7 +3485,7 @@ part: 24
   
  timeCategory: "soulshow",
 volumeBoost: 0.20,
-part: 25
+part: 17
 
 },
 {
@@ -3589,68 +3493,12 @@ part: 25
     artist: "Soulshow  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Soulshow intro2.mp3",
-    timeCategory: "soulshow"
+    timeCategory: "soulshow",
+part: 18
 },
 
 
 
-
-{
-     name: "Jazz Carnaval",
-    artist: "Azymuth",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://sunnydanceoldies08.netlify.app/Azymuth - Jazz carnaval.mp3",
-   timeCategory: "soulshow",
-    quickFade: true,
-    volumeBoost: 0.40,
-playcount: 0
-},
-
-
-{
-    name: "Too Hot (12inch)",
-    artist: "Kool And The Gang",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/Kool and the gang - Too hot.mp3",
-    playcount: 0,
-timeCategory: "soulshow"
-
-
-},
-
-{
-     name: "Intro",
-    artist: "Soulshow  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Soulshow intro2.mp3",
-    timeCategory: "soulshow"
-},
-{
-    name: " All Night Long",
-    artist: "Splendor ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/Splendor - All night long.mp3",
-  volumeBoost:0.55,
-  timeCategory: "soulshow"
-},
-
-{
-    name: " She's Strange",
-    artist: "Cameo ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Cameo - She's Strange.mp3",
-        timeCategory: "soulshow"
-
-},
-
-
-{
-     name: "Intro",
-    artist: "Soulshow  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Soulshow intro2.mp3",
-    timeCategory: "soulshow"
-},
 
 
 {
@@ -3658,8 +3506,8 @@ timeCategory: "soulshow"
     artist: "Cameo ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Word up cameo.mp3",
-        timeCategory: "soulshow"
-
+        timeCategory: "soulshow",
+part: 19
 },
 
 {
@@ -3667,7 +3515,8 @@ timeCategory: "soulshow"
     artist: "Soulshow  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Soulshow intro.mp3",
-    timeCategory: "soulshow"
+    timeCategory: "soulshow",
+part: 20
 },
 
 
@@ -3679,7 +3528,8 @@ timeCategory: "soulshow"
     path: "https://sunnydanceoldies04.netlify.app/T-Connection - Best of my Love.mp3",
            timeCategory: "soulshow",
 quickFade: true,
-volumeBoost: 0.40
+volumeBoost: 0.40,
+part: 21
 },
 
 
@@ -3689,7 +3539,8 @@ volumeBoost: 0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Prince - I wanna be your lover.mp3",
   volumeBoost: 0.35,
-  timeCategory: "soulshow"
+  timeCategory: "soulshow",
+part: 22
 },
 
 
@@ -3699,7 +3550,8 @@ volumeBoost: 0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Lowrell - Mellow Mellow Right On.mp3",
    timeCategory: "soulshow",
-   quickfade:true
+   quickfade:true,
+part: 23
 },
 
 
@@ -7588,7 +7440,7 @@ timeCategory: "morning"
      timeCategory: "morning",
 year: 2025,
 isLoud: true,          
-  loudnessValue: 0.85
+  loudnessValue: 0.65
 },
 
 
@@ -26151,7 +26003,7 @@ timeCategory: "evening-late"
     path: "https://sunnydancemusic07.netlify.app/Dua Lipa - Houdin1 (maxi).mp3",
   timeCategory: "evening-late",
   isLoud: true,          
-  loudnessValue: 0.85,
+  loudnessValue: 0.65,
 },
 
 
@@ -32742,14 +32594,7 @@ timeCategory: "f evening-late"
 
 },
 
-{
-  type: "news",
-  timeCategory: "none",
-  sources: ["audio/Broadcast Amsterdam2.mp3"],
-  duration: 120,
- playAtHours: [4,8,22,23],
-  playAtMinutes: [0]
-}
+
 
 
 
@@ -33705,95 +33550,6 @@ function stripAllParentheses(text) {
 
 
 
-
-
-
-
-
-
-
-
-function duckCurrentTrack(targetVolume = 0.15, duration = 1500) {
-    if (!currentAudio) return;
-
-    const startVolume = currentAudio.volume;
-    const diff = targetVolume - startVolume;
-    const steps = 30;
-    let stepCount = 0;
-
-    const fade = setInterval(() => {
-        stepCount++;
-        currentAudio.volume = startVolume + (diff * (stepCount / steps));
-
-        if (stepCount >= steps) {
-            clearInterval(fade);
-        }
-    }, duration / steps);
-}
-
-function unduckCurrentTrack(normalVolume = 1, duration = 1500) {
-    if (!currentAudio) return;
-
-    const startVolume = currentAudio.volume;
-    const diff = normalVolume - startVolume;
-    const steps = 30;
-    let stepCount = 0;
-
-    const fade = setInterval(() => {
-        stepCount++;
-        currentAudio.volume = startVolume + (diff * (stepCount / steps));
-
-        if (stepCount >= steps) {
-            clearInterval(fade);
-        }
-    }, duration / steps);
-}
-
-
-
-
-
-
-
-function schedulerTick() {
-    const now = new Date();
-    const currentTime = `${now.getHours().toString().padStart(2, "0")}:00`;
-
-    const item = schedule.find(s => s.time === currentTime);
-    if (!item) return;
-
-    // 🟦 NEWS
-    if (item.type === "news") {
-
-        // Duck the music instead of fading it out completely
-        duckCurrentTrack(0.15, 1500);
-
-        // Play the news bulletin
-        playScheduledItem(item);
-
-        // Restore music after news ends
-        setTimeout(() => {
-            unduckCurrentTrack(1, 1500);
-        }, item.duration * 1000);
-
-        return;
-    }
-
-    // 🟧 MUSIC / SHOWS / JINGLES
-    if (item.type === "music" || item.type === "show" || item.type === "jingle") {
-        playScheduledItem(item);
-    }
-}
-
-setInterval(schedulerTick, 1000);
-
-
-function playScheduledItem(item) {
-    // Do NOT pause playlistPlayer — ducking needs it to keep playing
-    const newsAudio = new Audio(item.url);
-    newsAudio.volume = 1;
-    newsAudio.play();
-}
 
 
 
