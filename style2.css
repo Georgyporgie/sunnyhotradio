@@ -1141,7 +1141,7 @@ z-index: 200; font-style: bold;font-family:myEvent;
 
 
 
-#miss {  filter: brightness(110%) saturate(105%) contrast(110%) opacity(65%); width: 120px; height: 70px; transform: rotate(0deg); z-index: -200; display: block; margin: auto auto auto auto; border-radius: 50px; background-color: black;
+#miss {  filter: brightness(110%) saturate(105%) contrast(110%) opacity(65%); width: 120px; height: 90px; transform: rotate(0deg); z-index: -200; display: block; margin: auto auto auto auto; border-radius: 50px; background-color: black;
 }
 
 
