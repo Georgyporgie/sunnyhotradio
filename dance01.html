@@ -195,17 +195,17 @@ function getCurrentTimeCategory() {
     { key: "afternoon",      start: 12, end: 14 },
     { key: "special-show",   start: 14, end: 16 },
     { key: "evening",        start: 16, end: 19 },
-    { key: "evening-late",   start: 19, end: 23 },
-    { key: "late",           start: 23, end: 3  },
+    { key: "evening-late",   start: 19, end: 21 },
+    { key: "late",           start: 21, end: 3  },
     { key: "night",          start: 3,  end: 4  }
   ];
 
   const categoriesPerDay = {
-    0: { morning:["f afternoon"], afternoon:["f evening"], "special-show":["seventies"], evening:["f afternoon"], "evening-late":["nineties","sunday"], late:["morning"], night:["jingle-time"] },
-    1: { morning:["morning"], afternoon:["afternoon","monday"], "special-show":["evening-late"], evening:["evening","monday"], "evening-late":["afternoon"], late:["morning"], night:["jingle-time"] },
-    2: { morning:["evening-late"], afternoon:["evening"], "special-show":["morning"], evening:["afternoon"], "evening-late":["morning"], late:["evening-late"], night:["jingle-time"] },
+    0: { morning:["f afternoon"], afternoon:["f evening"], "special-show":["seventies"], evening:["f afternoon"], "evening-late":["nineties","sunday"], late:["morning","f evening"], night:["jingle-time"] },
+    1: { morning:["morning"], afternoon:["afternoon","monday"], "special-show":["evening-late"], evening:["evening","monday"], "evening-late":["afternoon"], late:["morning","evening"], night:["jingle-time"] },
+    2: { morning:["evening-late"], afternoon:["evening"], "special-show":["morning"], evening:["afternoon"], "evening-late":["morning"], late:["evening-late","afternoon"], night:["jingle-time"] },
     3: { morning:["evening-late"], afternoon:["evening"], "special-show":["morning"], evening:["evening-late"], "evening-late":["eighties"], late:["seventies"], night:["jingle-time"] },
-    4: { morning:["morning"], afternoon:["evening-late"], "special-show":["eighties"], evening:["afternoon"], "evening-late":["soulshow"], late:["f afternoon"], night:["jingle-time"] },
+    4: { morning:["morning"], afternoon:["evening-late"], "special-show":["eighties"], evening:["afternoon"], "evening-late":["soulshow"], late:["f afternoon","morning"], night:["jingle-time"] },
     5: { morning:["morning"], afternoon:["newest"], "special-show":["nineties"], evening:["evening-late"], "evening-late":["seventies"], late:["f afternoon"], night:["jingle-time"] },
     6: { morning:["f evening"], afternoon:["f afternoon"], "special-show":["special-cast"], evening:["f evening-late"], "evening-late":["love"], late:["f evening"], night:["jingle-time"] }
   };
@@ -1369,7 +1369,7 @@ function scheduleRangeSwap() {
   const checkpoints = [];
 
   // Midnight + 10 seconds (next day)
-  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 10));
+  //checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 10));
 
   // 3am + 10 seconds
   checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 3, 0, 10));
@@ -1394,7 +1394,7 @@ function scheduleRangeSwap() {
    
 
 // 11pm + 10 seconds
-  checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 23, 0, 10));
+  //checkpoints.push(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 23, 0, 10));
   
 
 
@@ -1426,7 +1426,7 @@ checkpoints.forEach(time => {
         3: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny weekdaysfinalenopublicwed.mp3",
         4: "",
         5: { 
-            early: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny weekdaysfinalenopublicfri.mp3", 
+            early: "", 
             after17: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny weekdaysfinalenopublicfri.mp3" 
         },
         6: "https://www.sunnyhotradio.com/muziek/pirate%20background/Sunny weekend piratejinglepublic2.mp3"
