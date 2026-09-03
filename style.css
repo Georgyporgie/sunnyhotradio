@@ -283,11 +283,6 @@ animation: blinker 1s step-start infinite;background-color: black;
 }
 
 
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
-}
 
 #rock   {    width: 145px;  height: 145px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(75%) grayscale(50%); transform: rotate(-1deg); z-index: -200; float : right; border-radius:5px; margin-right: 20px; 
  border: solid 5px #674833;
