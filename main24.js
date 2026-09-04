@@ -921,7 +921,7 @@ volumeBoost: 0.10
 
 
 {
-    name: " I Dont Wanna Hurt You (new)",
+    name: " I Dont Wanna Hurt You ",
     artist: "Clean Bandit ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Clean Bandit - I Dont Wanna Hurt You (new).mp3",
@@ -28472,8 +28472,9 @@ isNew: true
     artist: "ZHU ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/ZHU - Changes.mp3",
-    timeCategory: "f afternoon"
-
+    timeCategory: "f afternoon",
+     isLoud: true,
+loudnessValue: 0.70 
 },
 
 
