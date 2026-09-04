@@ -766,15 +766,6 @@ isNew: true
 },
 
 
-{
-     name: " House Tour  ",
-    artist: "Sabrina Carpenter ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://danceoldies10.netlify.app/Sabrina Carpenter - House Tour (new).mp3",
- timeCategory: "newest",
- year: 2026,
-isNew: true
-},
 
 
 {
@@ -1377,7 +1368,7 @@ part: 5
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023).mp3",
     timeCategory: "special-cast",
   eq: { bass: 0, mid: 0, treble: +1 } ,
-volumeBoost: 0.50,
+volumeBoost: 1.0,
 part: 1
 },
 
@@ -1391,7 +1382,7 @@ part: 1
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 02.mp3",
     timeCategory: "special-cast",
   eq: { bass: 0, mid: 0, treble: +1 } ,
-volumeBoost: 0.50,
+volumeBoost: 1.0,
 part: 2
 },
 
@@ -1406,7 +1397,7 @@ part: 2
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 03.mp3",
    timeCategory: "special-cast",
   eq: { bass: 0, mid: 0, treble: +1 } ,
-volumeBoost: 0.50,
+volumeBoost: 1.0,
 part: 3
 },
 
@@ -1418,7 +1409,7 @@ part: 3
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 04.mp3",
     timeCategory: "special-cast",
   eq: { bass: 0, mid: 0, treble: +1 } ,
-volumeBoost: 0.50,
+volumeBoost: 1.0,
 part: 4
 },
 
@@ -1430,7 +1421,7 @@ part: 4
     path: "https://mixingg.netlify.app/Sonny Fodera - Live Manchester (2023) 05.mp3",
     timeCategory: "special-cast",
   eq: { bass: 0, mid: 0, treble: +1 } ,
-volumeBoost: 0.50,
+volumeBoost: 1.0,
 part: 5
 },
 
@@ -2647,16 +2638,6 @@ volumeBoost: 0.30
 },
 
 
-
-
-{
-    name: " Rock It (12inch)",
-    artist: "Lipps Inc ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Lipps Inc - Rock It (12inch).mp3",
-    timeCategory: "seventies",
-  volumeBoost: 0.10
-},
 
 
 
@@ -4065,7 +4046,7 @@ volumeBoost: 0.25
     artist: "Rose Royce ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Rose Royce - RR Express (maxi).mp3",
- 
+   volumeBoost: 0.95,
  timeCategory: "eighties"
 
 },
@@ -4233,7 +4214,8 @@ quickFade: true
     artist: " Steve Arrington",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Steve Arrington - Feel So Real (strictlyi).mp3",
-    timeCategory: "eighties"
+    volumeBoost: 0.45,
+timeCategory: "eighties"
 
 },
 
@@ -5800,6 +5782,22 @@ volumeBoost: 0.20
     quickFade: true
  
 },
+
+
+
+{
+    name: " Rock It (12inch)",
+    artist: "Lipps Inc ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Lipps Inc - Rock It (12inch).mp3",
+    timeCategory: "eighties"
+ 
+},
+
+
+
+
+
 
 {
     name: "Diner With Gershwin ",
@@ -7653,7 +7651,15 @@ timeCategory: "morning"
 
 
 
+{
+     name: " House Tour",
+    artist: "Sabrina Carpenter ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Sabrina Carpenter - House Tour (new).mp3",
+ year: 2026,
+ timeCategory: "morning"
 
+},
 
 
 
@@ -15253,7 +15259,7 @@ volumeBoost: 0.30
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Charli XCX - Break the Rules.mp3",
    isLoud: true,          
-  loudnessValue: 0.70,  
+  loudnessValue: 0.60,  
 
 
    timeCategory: "afternoon"
@@ -16293,15 +16299,6 @@ year:2007
 },
 
 
-{
-     name: " House Tour  ",
-    artist: "Sabrina Carpenter ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://danceoldies10.netlify.app/Sabrina Carpenter - House Tour (new).mp3",
-  timeCategory: "afternoon",
- year: 2026,
-isNew: true
-},
 
 
 
@@ -16720,7 +16717,11 @@ year:2016
     artist: "Will Smith",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Will Smith - Pretty Girls.mp3",
-     timeCategory: "evening"
+    
+   volumeBoost: 0.45,
+
+ timeCategory: "evening"
+
 },
 
 
@@ -17418,8 +17419,8 @@ timeCategory: "evening"
     artist: "Lipps Inc ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Lipps Inc - Rock It (12inch).mp3",
-    timeCategory: "evening",
-  volumeBoost: 0.10
+    timeCategory: "evening"
+
 },
 
 
@@ -28005,7 +28006,8 @@ quickFade: true
     artist: " Steve Arrington",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Steve Arrington - Feel So Real (maxi).mp3",
-    timeCategory: "f-afternoon"
+    volumeBoost: 0.65,
+timeCategory: "f-afternoon"
 
 },
 
@@ -28217,16 +28219,7 @@ timeCategory: "f afternoon"
     timeCategory: "f afternoon"
 },
 
-{
-     name: " House Tour",
-    artist: "Sabrina Carpenter ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://danceoldies10.netlify.app/Sabrina Carpenter - House Tour (new).mp3",
- 
- timeCategory: "f afternoon",
-  year: 2026,
-isNew: true
-},
+
 
 
 
@@ -29950,15 +29943,7 @@ volumeBoost: 0.30
 isNew: true
 },
 
-{
-     name: " House Tour",
-    artist: "Sabrina Carpenter ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://danceoldies10.netlify.app/Sabrina Carpenter - House Tour (new).mp3",
- year: 2026,
- timeCategory: "f evening"
 
-},
 
 {
   
@@ -30886,6 +30871,8 @@ isNew: true
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Rose Royce - RR Express (maxi).mp3",
  
+   volumeBoost: 0.95,
+
  timeCategory: "f evening-late"
 
 },
@@ -32341,7 +32328,8 @@ timeCategory: "f afternoon"
     artist: "Will Smith",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Will Smith - Pretty Girls.mp3",
-     timeCategory: "f evening-late"
+    volumeBoost: 0.45,
+ timeCategory: "f evening-late"
 },
 
 
@@ -32867,6 +32855,8 @@ function getTimeBasedVolume() {
   }
 }
 
+const mb = document.getElementById('musicBadge');
+if (mb) mb.remove();
 
 
 
@@ -32896,21 +32886,44 @@ function loadTrack(index) {
   quickFadeTriggered = false;
   lowVolumeTimer = 0;
 
-  // ⭐ AUTO‑BOOST JINGLES + FEMALE DJ ⭐
-  const lower = track.path?.toLowerCase() || "";
+// ⭐ EXTENDED BOOST SYSTEM ⭐
+const lower = track.path?.toLowerCase() || "";
 
-  if (lower.includes("female dj")) {
-    track.volumeBoost = 0.3;
-  } else if (lower.includes("jingle")) {
+const isNonMusic = [
+  "dj", "voice", "jingle", "promo", "news", "intro",
+  "discjockeys", "sunny ship", "broadcast amsterdam", "audio"
+].some(k => lower.includes(k));
+
+if (isNonMusic) {
+    track.type = "voice";
+}
+
+// --- BOOST RULES ---
+if (lower.includes("female dj")) {
+    track.volumeBoost = 0.3;      // strongest
+} else if (lower.includes("male dj")) {
+    track.volumeBoost = 0.25;
+} else if (lower.includes("jingle")) {
     track.volumeBoost = 0.2;
-  }
+} else if (lower.includes("promo")) {
+    track.volumeBoost = 0.15;
+} else if (lower.includes("news")) {
+    track.volumeBoost = 0.1;
+} else if (lower.includes("intro")) {
+    track.volumeBoost = 0.05;
+
+} else {
+    track.volumeBoost = 0;        // normal music
+}
+
+
 
   console.log("🎧 Loading track:", cleanURL(track.path));
 
   const audio = new Audio(cleanURL(track.path));
   curr_track = audio;
   currentTrackIndex = index;
-
+updateUI(track);
   const base = Number(getTimeBasedVolume());
   const boost = Number(track.volumeBoost || 0);
   audio.volume = Math.max(0, Math.min(1, base + boost));
@@ -33098,6 +33111,16 @@ function loadTrack(index) {
 
 
 
+function updateUI(track) {
+  const slider = document.querySelector(".slider_container");
+  if (!slider) return;
+
+  if (track.type === "voice") {
+    slider.style.display = "none";   // hide slider for DJ
+  } else {
+    slider.style.display = "flex";   // show slider for music
+  }
+}
 
 
 
@@ -33557,95 +33580,73 @@ function stripAllParentheses(text) {
 
 
 function renderLiveLog(currentTrack) {
-  const formatBadge = (track) => {
-    if (!track.type) return "";
-    return `<span class="badge badge-${track.type}">${track.type}</span>`;
-  };
+  // --- BADGE REMOVED COMPLETELY ---
+  const formatBadge = () => "";
 
+  // --- MOOD TAGS STILL WORK ---
   const formatMood = (track) => {
     if (!track.mood) return "";
     return `<span class="mood mood-${track.mood}">${track.mood}</span>`;
   };
 
-const excludedTypes = ["classic", "new", "12inch", "maxi"];
+  // --- FILTERING RULES ---
+  const excludedTypes = ["classic", "new", "12inch", "maxi"];
+  const badPaths = ["jingle", "discjockeys", "sunny ship", "audio", "news", "intro"];
 
-const history = playedTracks
-  .slice(0, -1)
-  .filter(t => {
-    const p = t.path?.toLowerCase() || "";
+  const history = playedTracks
+    .slice(0, -1)
+    .filter(t => {
+      const p = t.path?.toLowerCase() || "";
+      return (
+        !badPaths.some(b => p.includes(b)) &&
+        !excludedTypes.includes(t.type)
+      );
+    })
+    .reverse()
+    .slice(0, 10);
 
-    return (
-      !p.includes("jingle") &&
-      !p.includes("discjockeys") &&
-      !p.includes("sunny ship") &&
-      !p.includes("audio") &&
-          !p.includes("News") &&
-  !p.includes("intro") &&
+  // --- NOW PLAYING ---
+  const nowPlayingHTML = `
+    <span style="color:#ffb300;">${emphasizeKeywords(currentTrack.name)}</span>
+    <span style="color:#FF2A2A;"> by </span>
+    <span style="color:#ffb300;">${emphasizeKeywords(currentTrack.artist)}</span>
+    ${formatBadge(currentTrack)}
+    ${formatMood(currentTrack)}
+    <br>
+    ${
+      currentTrack.path &&
+      !badPaths.some(b => currentTrack.path.toLowerCase().includes(b)) &&
+      !currentTrack.path.toLowerCase().includes("broadcast amsterdam") &&
+      !currentTrack.path.toLowerCase().includes("sunny ")
+        ? `<span id="vinyl-icon"></span>`
+        : ""
+    }
+  `;
 
+  document.getElementById("now-playing-log").innerHTML = nowPlayingHTML;
 
-
-!excludedTypes.includes(t.type)
-    );
-  })
-  .reverse()
-  .slice(0, 10);
-
-
-
-
-
-
-
-
-
-
-  // ⭐ NOW PLAYING
-document.getElementById("now-playing-log").innerHTML = `
-  <span style="color:#ffb300;">${emphasizeKeywords(currentTrack.name)}</span>
-  <span style="color:#FF2A2A;"> by </span>
-  <span style="color:#ffb300;">${emphasizeKeywords(currentTrack.artist)}</span>
-  ${formatBadge(currentTrack)}
-  ${formatMood(currentTrack)}
-  <br>
-  ${
-    currentTrack.path &&
-    !currentTrack.path.toLowerCase().includes("jingle") &&
-    !currentTrack.path.toLowerCase().includes("discjockeys") &&
-    !currentTrack.path.toLowerCase().includes("sunny ship")  &&
-  !currentTrack.path.toLowerCase().includes("intro")  &&
-!currentTrack.path.toLowerCase().includes("Broadcast Amsterdam")  &&
-
-!currentTrack.path.toLowerCase().includes("sunny ") 
-     
- ? `<span id="vinyl-icon"></span>`
-      : ""
-  }
-`;
-
-
-  // ⭐ PLAYED BEFORE
-  document.getElementById("played-before-log").innerHTML =
+  // --- PLAYED BEFORE ---
+  const historyHTML =
     history.length > 0
       ? `
-     <br>  <strong style="color:#FF2A2A; font-style:italic;">played before:</strong><br>
-
-${history
-  .map(t => `
-    <div class="history-item" style="margin-bottom: 10px;">
-      <span style="color:#FF4500;">${emphasizeKeywords(stripAllParentheses(t.name))}</span>
-      <span style="color:#C0c0c0;"> by </span>
-      <span style="color:#FF4500;">${emphasizeKeywords(stripAllParentheses(t.artist))}</span>
-      ${formatBadge(t)}
-      ${formatMood(t)}
-    </div>
-  `)
-  .join("")}
-
-
+        <br>
+        <strong style="color:#FF2A2A; font-style:italic;">played before:</strong><br>
+        ${history
+          .map(t => `
+            <div class="history-item" style="margin-bottom: 10px;">
+              <span style="color:#FF4500;">${emphasizeKeywords(stripAllParentheses(t.name))}</span>
+              <span style="color:#C0c0c0;"> by </span>
+              <span style="color:#FF4500;">${emphasizeKeywords(stripAllParentheses(t.artist))}</span>
+              ${formatBadge(t)}
+              ${formatMood(t)}
+            </div>
+          `)
+          .join("")}
       `
       : "";
-}
 
+  document.getElementById("played-before-log").innerHTML = historyHTML;
+}
 
 function countUniqueTracks(list) {
   return new Set(list.map(t => t.path)).size;
