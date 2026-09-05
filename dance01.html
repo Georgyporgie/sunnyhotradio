@@ -224,18 +224,7 @@ function getCurrentTimeCategory() {
 
 
 // ————————————————————————————————
-//  FADE-IN
-// ————————————————————————————————
 
-function fadeIn(audioEl, target = 0.8, step = 0.02, interval = 250) {
-  const fade = setInterval(() => {
-    if (audioEl.volume < target) {
-      audioEl.volume = Math.min(audioEl.volume + step, target);
-    } else {
-      clearInterval(fade);
-    }
-  }, interval);
-}
 
 
 const weeklySchedule = {
