@@ -754,17 +754,6 @@ isNew: true
 },
 
 
-{
-    name: "  I Can t Wait (new)",
-    artist: "Bob Sinclar & Kiesza  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Bob Sinclar & Kiesza - I Can t Wait (new).mp3",
-       timeCategory: "newest",
- year: 2026,
-isNew: true
-  
-},
-
 
 
 
@@ -3275,7 +3264,7 @@ volumeBoost: 0.20,
      name: "Intro",
     artist: "Soulshow  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Soulshow intro2.mp3",
+    path: "https://sunnydancemusic04.netlify.app/Soulshow intro.mp3",
     timeCategory: "soulshow",
 part: 1
 },
@@ -3284,7 +3273,7 @@ part: 1
      name: "Intro",
     artist: "Soulshow  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Soulshow intro.mp3",
+    path: "https://sunnydancemusic04.netlify.app/Soulshow intro2.mp3",
     timeCategory: "soulshow",
 part: 2
 },
@@ -12158,8 +12147,9 @@ volumeBoost: 0.30
     artist: "Fischer Bbyclose",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Fischer Bbyclose - Blackberries (maxi).mp3",
-
-       timeCategory: "afternoon"
+       timeCategory: "afternoon",
+     isLoud: true,
+loudnessValue: 0.80 
 },
 
 
@@ -26241,7 +26231,11 @@ timeCategory: "evening-late"
     artist: "Ellie Goulding  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Ellie Goulding - All By Myself.mp3",
-  timeCategory: "evening-late"
+  
+     isLoud: true,
+loudnessValue: 0.70, 
+timeCategory: "evening-late"
+
 },
 
 
@@ -27952,7 +27946,9 @@ quickFade: true
     artist: "Ellie Goulding  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Ellie Goulding - All By Myself.mp3",
-    timeCategory: "f afternoon"
+    timeCategory: "f afternoon",
+     isLoud: true,
+loudnessValue: 0.70 
 },
 
 
@@ -28403,7 +28399,8 @@ isNew: true
     artist: "Fischer Bbyclose",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Fischer Bbyclose - Blackberries (maxi).mp3",
-
+    isLoud: true,
+loudnessValue: 0.80, 
        timeCategory: "f afternoon"
 },
 
@@ -28456,7 +28453,9 @@ isNew: true
     artist: "Zara Larsson ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Zara Larsson - On My Love.mp3",
-    timeCategory: "f afternoon"
+     isLoud: true,
+loudnessValue: 0.80, 
+ timeCategory: "f afternoon"
 },
 
 
@@ -29034,16 +29033,7 @@ year:2023
 
 
 
-{
-    name: "  I Can t Wait (new)",
-    artist: "Bob Sinclar & Kiesza  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Bob Sinclar & Kiesza - I Can t Wait (new).mp3",
-       timeCategory: "f afternoon",
-  year: 2026,
-isNew: true
-  
-},
+
 
 
 
@@ -33591,7 +33581,7 @@ function renderLiveLog(currentTrack) {
 
   // --- FILTERING RULES ---
   const excludedTypes = ["classic", "new", "12inch", "maxi"];
-  const badPaths = ["jingle", "discjockeys", "sunny ship", "audio", "news", "intro"];
+  const badPaths = ["jingle", "discjockeys", "sunny ship", "audio", "news", "intro","Sunny"];
 
   const history = playedTracks
     .slice(0, -1)
