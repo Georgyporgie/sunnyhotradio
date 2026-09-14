@@ -17411,7 +17411,7 @@ isNew: true
 
 
 {
-    name: "   Alright",
+    name: "   Allright",
     artist: "Victoria Monet",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Victoria - Monet - Alright.mp3",
@@ -21164,8 +21164,8 @@ volumeBoost: 0.10
     artist: " Mongo Santamaria ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Mongo Santamaria - Watermelon Man.mp3",
-    timeCategory: "evening"
-
+    timeCategory: "evening",
+volumeBoost:  1.7
 },
 
 
@@ -27232,15 +27232,6 @@ timeCategory: " evening-late"
 
 
 
-{
-     name: "   Showing Out",
-    artist: "Mel & Kim - Showing Out  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Mel & Kim - Showing Out.mp3",
-    timeCategory: "evening-late"
-
-},
-
 
 
 
@@ -28806,7 +28797,7 @@ loudnessValue: 0.80,
     path: "https://dancemusic06.netlify.app/ZHU - Changes.mp3",
     timeCategory: "f afternoon",
      isLoud: true,
-loudnessValue: 0.70 
+loudnessValue: 0.60 
 },
 
 
@@ -29863,7 +29854,7 @@ year:2020
 },
 
 {
-    name: "   Alright",
+    name: "   Allright",
     artist: "Victoria Monet",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Victoria - Monet - Alright.mp3",
@@ -30131,8 +30122,8 @@ volumeBoost: 0.10
     artist: " Mongo Santamaria ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Mongo Santamaria - Watermelon Man.mp3",
-    timeCategory: "f evening"
-
+    timeCategory: "f evening",
+volumeBoost:  1.7
 },
 
 
@@ -32726,13 +32717,6 @@ timeCategory: "f evening-late"
 
 
 
-{
-    name: "All Natural ",
-    artist: " Rita Ora  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Rita Ora - All Natural.mp3",
-       timeCategory: "f evening-late"
-},
 
 
 
