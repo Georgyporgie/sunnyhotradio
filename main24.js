@@ -4270,7 +4270,7 @@ volumeBoost: 0.25
     artist: "Rose Royce ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Rose Royce - RR Express (maxi).mp3",
-   volumeBoost: 0.95,
+   volumeBoost: 2.0,
  timeCategory: "eighties"
 
 },
@@ -4795,7 +4795,7 @@ timeCategory: "eighties",
     path: "https://sunnydanceoldies05.netlify.app/Yarbrough & Peoples - Don't Stop The Music.mp3",
       playcount: 0,
 timeCategory: "eighties",
-  volumeBoost: 0.30
+  volumeBoost: 0.90
 
 },
 
@@ -5060,7 +5060,7 @@ volumeBoost: 0.40
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Herb  Alpert - Diamonds.mp3",
           timeCategory: "eighties",
-volumeBoost: 0.30
+volumeBoost: 1.30
 },
 
 
@@ -5461,8 +5461,8 @@ quickFade: true,
     path: "https://soulfullforever.netlify.app/Young & Company - I Like (single).mp3",
         timeCategory: "eighties",
    quickFade: true,
-    volumeBoost: 0.75,
-    playcount: 0
+    volumeBoost: 1.0
+
 },
 
 
@@ -6092,7 +6092,8 @@ volumeBoost: 0.20
     artist: "Melba Moore ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Melba Moore - Mind Up Tonight.mp3",
-      timeCategory: "eighties"
+      timeCategory: "eighties",
+volumeBoost: 1.5
 },
 
 
@@ -6133,7 +6134,7 @@ volumeBoost:0.60
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/TS Monk - Bon Bon Vie.mp3",
       timeCategory: "eighties",
-volumeBoost:0.20
+volumeBoost:1.0
 },
 
 
@@ -8583,7 +8584,7 @@ timeCategory: "morning",
     path: "https://sunnydanceoldies05.netlify.app/Yarbrough & Peoples - Don't Stop The Music.mp3",
       playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.30
+  volumeBoost: 0.90
 
 },
 
@@ -8667,16 +8668,7 @@ timeCategory: "morning",
 
 
 
-{
-    name: " Don't Stop (1980)",
-    artist: "Yarbrough & Peoples  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Yarbrough & Peoples - Don't Stop The Music.mp3",
-      playcount: 0,
-timeCategory: "morning",
-  volumeBoost: 0.30
 
-},
 
 
 
@@ -10164,7 +10156,7 @@ playcount: 0
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Herb  Alpert - Diamonds.mp3",
           timeCategory: "morning",
-volumeBoost: 0.30
+volumeBoost: 1.30
 },
 
 
@@ -12150,7 +12142,7 @@ volumeBoost: 0.30
 
 
 {
-     name: " I LIke Ur Look    ",
+     name: " I Like Ur Look    ",
     artist: "Kim Petras    ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Kim Petras  - I LIke Ur Look.mp3",
@@ -15687,6 +15679,14 @@ playcount: 0
 
 
 
+{
+     name: " In Your Head",
+    artist: "Nicky Doll ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Nicky Doll - In Your Head.mp3",
+        timeCategory: "afternoon"
+
+},
 
 
 {
@@ -23967,7 +23967,7 @@ quickFade: true
 
 {
     name: "Just Get Ready (12inch)",
-    artist: "Sos Band",
+    artist: "SOS Band",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Sos Band - Just get ready (Ben lIebrand remix).mp3",
       timeCategory: "evening-late"
@@ -26145,11 +26145,14 @@ timeCategory: "evening-late"
 
 
 {
-     name: " Do it to it",
+     name: " Do It To It",
     artist: "Acraze",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Acraze - Do it to it.mp3",
-      timeCategory: "evening-late"
+      timeCategory: "evening-late",
+   isLoud: true,
+loudnessValue: 0.70 
+
 },
 
 
@@ -31193,7 +31196,7 @@ isNew: true
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Rose Royce - RR Express (maxi).mp3",
  
-   volumeBoost: 0.95,
+  volumeBoost: 2.0,
 
  timeCategory: "f evening-late"
 
@@ -32210,7 +32213,7 @@ isNew: true
 
 
 {
-     name: " I LIke Ur Look    ",
+     name: " I Like Ur Look    ",
     artist: "Kim Petras    ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Kim Petras  - I LIke Ur Look.mp3",
@@ -32754,7 +32757,43 @@ timeCategory: "f evening-late"
 
 
 
+{
+     name: "  Do It Again",
+    artist: "Staple Singers ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Staple Singers - Do It Again.mp3",
+        timeCategory: "f evening-late"
 
+},
+
+
+
+
+
+
+
+
+
+{
+     name: " A Love Supreme",
+    artist: "Will Downing ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Will Downing  - A Love Supreme.mp3",
+        timeCategory: "f evening-late"
+
+},
+
+
+
+
+{
+     name: " Ma Quale Idea (1981)",
+    artist: "Pino D'Angiò ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Pino D'Angiò - Ma Quale Idea (1981).mp3",
+        timeCategory: "f evening-late",
+year: 1981
+},
 
 
 
@@ -32780,7 +32819,7 @@ timeCategory: "f evening-late"
 year:2024,
 quickFade: true,
 isLoud: true,          
-  loudnessValue: 0.90
+  loudnessValue: 0.60
 },
 
 
@@ -33191,7 +33230,7 @@ const lower = track.path?.toLowerCase() || "";
 
 const isNonMusic = [
   "dj", "voice", "jingle", "promo", "news", "intro",
-  "discjockeys", "sunny ship", "broadcast amsterdam", "audio","mix","Just","Female DJ1best"
+  "discjockeys", "sunny ship", "broadcast amsterdam", "audio","mix","Just For","Female DJ1best"
 
 ].some(k => lower.includes(k));
 
