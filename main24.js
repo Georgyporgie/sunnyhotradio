@@ -3521,8 +3521,10 @@ part: 2
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Dan Hartman Relight My Fire.mp3",
     timeCategory: "soulshow",
+volumeBoost: 1.0,
 part: 3
 },
+
 {
     name: "   Ugly Ego (classic)",
     artist: "Cameo  ",
@@ -4073,6 +4075,51 @@ volumeBoost: 0.25
 
 
 
+
+
+
+
+
+{
+    name: " I Want Your Love",
+    artist: "Chic",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Chic - I Want Your Love (soulshow).mp3",
+   timeCategory: "soulshow"
+
+},
+
+{
+    name: "Tighten Up ",
+    artist: "Archie Bell ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Archie Bell - Tighten Up.mp3",
+   timeCategory: "soulshow"
+
+},
+
+
+
+{
+    name: "Right Place Wrong Time ",
+    artist: "Dr John",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Dr John - Right Place Wrong Time.mp3",
+   timeCategory: "soulshow"
+
+},
+
+
+{
+    name: "Do It Again ",
+    artist: "Staple Singers ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Staple Singers - Do It Again.mp3",
+   timeCategory: "soulshow"
+
+},
+
+
 {
     name: " Get On Up (maxi) ",
     artist: " Jazzy Dee",
@@ -4438,7 +4485,7 @@ quickFade: true
     artist: " Steve Arrington",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Steve Arrington - Feel So Real (strictlyi).mp3",
-    volumeBoost: 0.45,
+    volumeBoost: 0.75,
 timeCategory: "eighties"
 
 },
@@ -14636,7 +14683,8 @@ isNew: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Madonna - I Feel So Free (new).mp3",
     timeCategory: "afternoon",
- year: 2026,
+ 
+year: 2026,
 isNew: true
 },
 
@@ -14782,8 +14830,8 @@ playcount: 0
     artist: " Steve Arrington",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Steve Arrington - Feel So Real (maxi).mp3",
-    timeCategory: "afternoon"
-
+    timeCategory: "afternoon",
+    volumeBoost: 0.75
 },
 
 
@@ -15811,7 +15859,8 @@ volumeBoost: 0.10
     artist: "Madonna ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Madonna - Hollywood.mp3",
-       timeCategory: "afternoon"
+       timeCategory: "afternoon",
+volumeBoost: 070
 },
 
 
@@ -16599,7 +16648,9 @@ playcount: 0
     artist: "Bebe Rexha",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Bebe Rexha - Calabria.mp3",
-   timeCategory: "afternoon"
+   timeCategory: "afternoon",
+   isLoud: true,
+  loudnessValue: 0.70 
 },
 
 
@@ -24384,8 +24435,7 @@ playcount: 0,
     timeCategory: "evening-late",
        year: 1990,
  quickFade: true,
-    
-    playcount: 0
+   volumeBoost: 0.80
 },
 
 
@@ -26383,7 +26433,7 @@ playcount: 0
     path: "https://danceoldies06.netlify.app/Humanoid - Stakker Humanoid.mp3",
    timeCategory: "evening-late",
 isLoud: true,          
-  loudnessValue: 0.90
+  loudnessValue: 0.70
 },
 
 
@@ -28259,7 +28309,7 @@ loudnessValue: 0.65
     artist: " Steve Arrington",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Steve Arrington - Feel So Real (maxi).mp3",
-    volumeBoost: 0.65,
+    volumeBoost: 0.75,
 timeCategory: "f-afternoon"
 
 },
@@ -28546,13 +28596,6 @@ timeCategory: "f afternoon"
 
 
 
-{
-    name: "Phases ",
-    artist: " Joel Corry & Abi Flynn",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Joel Corry & Abi Flynn- Phases.mp3",
-       timeCategory: "f afternoon"
-},
 
 
 {
@@ -33994,7 +34037,7 @@ function countUniqueTracks(list) {
 
 const trackAmount = countUniqueTracks(trackList);
 
-console.log("Unique tracks:", trackAmount);mix
+console.log("Unique tracks:", trackAmount);
 
 
 
