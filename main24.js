@@ -1978,6 +1978,20 @@ part: 4
 
 
 {
+     name: "Sweet Lucy",
+    artist: "Raoul de Souza ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Raoul de Souza - Sweet Lucy(strict).mp3",
+       quickFade: true,
+ timeCategory: "seventies"
+},
+
+
+
+
+
+
+{
     name: "Heart Of Glass",
     artist: "Blondie ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -4020,7 +4034,14 @@ timeCategory: "soulshow",
  
 },
 
-
+{
+     name: " A Love Supreme",
+    artist: "Will Downing ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Will Downing  - A Love Supreme.mp3",
+           timeCategory: "soulshow",
+year: 1988
+},
 
 
 {
@@ -4075,16 +4096,23 @@ volumeBoost: 0.25
 
 
 
-
-
-
-
-
 {
     name: " I Want Your Love",
     artist: "Chic",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Chic - I Want Your Love (soulshow).mp3",
+   timeCategory: "soulshow"
+
+},
+
+
+
+
+{
+    name: "Sweet Lucy",
+    artist: "Raoul de Souza ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Raoul de Souza - Sweet Lucy.mp3",
    timeCategory: "soulshow"
 
 },
@@ -4406,7 +4434,7 @@ volumeBoost: 0.70
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Oliver Cheatam - Saturday Night ((strictlyi).mp3",
         timeCategory: "eighties",
-volumeBoost: 0.90
+volumeBoost:1.3
 },
 
 
@@ -5622,8 +5650,8 @@ volumeBoost: 0.10
     path: "https://sunnydanceoldies01.netlify.app/Grandmaster Flash & The Furious Five - The Message.mp3",
      timeCategory: "eighties",
     quickFade: true,
-volumeBoost: 0.40,
-playcount: 0
+volumeBoost: 1.10
+
 },
 
 
@@ -6912,9 +6940,8 @@ volumeBoost: 1.0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Gat Decor - Passion.mp3",
     timeCategory: "nineties",
-    eq: { bass: 1, mid: 2, treble: +1 } ,
-    volumeBoost: 0.95,
-    playcount: 0
+     volumeBoost: 1.35,
+   year:1992
 },
 
 {
@@ -6931,7 +6958,7 @@ volumeBoost: 1.0
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Kym Sims - To Blind To See It.mp3",
      timeCategory: "nineties",
-volumeBoost: 0.30
+volumeBoost: 0.90
 },
 
 
@@ -12038,7 +12065,8 @@ year: 2026
     artist: "Lost Frequencies    ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Lost Frequencies - Back To You.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+  year:2023
 },
 {
     name: "Lifetimes ",
@@ -12976,7 +13004,9 @@ volumeBoost: 0.80
     artist: "Kiesza  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Kiesza - Hideaway.mp3",
-          timeCategory: "afternoon"
+       timeCategory: "afternoon",
+   year:2014,
+volumeBoost: 0.45
 },
 
 
@@ -13408,7 +13438,8 @@ timeCategory: "afternoon"
     artist:  "Nelly Furtado  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Nelly Furtado - Honesty.mp3",
-     timeCategory: "afternoon"
+     timeCategory: "afternoon",
+   year:2024
 },
 
 
@@ -15500,9 +15531,9 @@ volumeBoost: 0.30
     path: "https://sunnydancemusic04.netlify.app/Charli XCX - Break the Rules.mp3",
    isLoud: true,          
   loudnessValue: 0.60,  
-
-
+  year:2022,
    timeCategory: "afternoon"
+
 },
 
  
@@ -15732,8 +15763,8 @@ playcount: 0
     artist: "Nicky Doll ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Nicky Doll - In Your Head.mp3",
-        timeCategory: "afternoon"
-
+        timeCategory: "afternoon",
+year: 2026
 },
 
 
@@ -15811,8 +15842,8 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Dua Lipa - Call my name.mp3",
    timeCategory: "afternoon",
-volumeBoost: 0.10
-
+volumeBoost: 0.10,
+year:2020
 },
 
 
@@ -16420,8 +16451,10 @@ isLoud: true,
     artist: "Charli XCX",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Charli XCX - Baby.mp3",
-         timeCategory: "afternoon"
-
+   isLoud: true,          
+  loudnessValue: 0.60,  
+  year:2022,
+   timeCategory: "afternoon"
 
 
 },
@@ -16447,11 +16480,9 @@ isLoud: true,
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Broadcast Amsterdam2.mp3",
-    timeCategory: "afternoon",
-playcount: 0
+    timeCategory: "afternoon"
+
    
-
-
 },
 
 
@@ -16547,7 +16578,8 @@ year:2007
     artist: "Darius",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Darius - Cherie.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+   honestyear:2022
 },
 
 
@@ -19351,9 +19383,8 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Gat Decor - Passion.mp3",
     timeCategory: "evening",
-    eq: { bass: 1, mid: 2, treble: +1 } ,
-    volumeBoost: 0.95,
-        year:1992
+     volumeBoost: 1.35,
+   year:1992
  
 },
 
@@ -19562,7 +19593,7 @@ quickFade: true
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Kym Sims - To Blind To See It.mp3",
      timeCategory: "evening",
-volumeBoost: 0.30
+volumeBoost: 0.90
 },
 
 
@@ -20731,7 +20762,7 @@ timeCategory: "evening",
     path: "https://sunnydanceoldies01.netlify.app/Grandmaster Flash & The Furious Five - The Message.mp3",
      timeCategory: "evening",
     quickFade: true,
-volumeBoost: 0.40,
+volumeBoost: 1.10,
      year:1982
 },
 
@@ -21660,17 +21691,48 @@ volumeBoost: 1.0,
 
 
 
+{
+    name: " Move Like You Do ",
+    artist: "Jungle",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Jungle - Move Like You Do.mp3",
+   timeCategory: "evening"
+
+},
 
 
 
+{
+    name: " RunWay  ",
+    artist: "Lady Gaga ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Lady Gaga - RunWay (new).mp3",
+   timeCategory: "evening"
+
+},
 
  
 
 
 
+{
+    name: "  Juicy (new) ",
+    artist: "Victoria Monet",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Victoria Monet - Juicy (new).mp3",
+   timeCategory: "evening"
+
+},
 
 
+{
+    name: "So Good (new)",
+    artist: "Jhene Aiko ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Jhene Aiko - So Good (new).mp3",
+   timeCategory: "evening"
 
+},
 
 
 
@@ -26557,7 +26619,7 @@ timeCategory: "evening-late"
     path: "https://sunnydancemusic04.netlify.app/Ellie Goulding - All By Myself.mp3",
   
      isLoud: true,
-loudnessValue: 0.65, 
+loudnessValue: 0.55, 
 timeCategory: "evening-late"
 
 },
@@ -27988,8 +28050,8 @@ volumeBoost: 0.10
       timeCategory: "f afternoon",
      quickFade: true,
       eq: { bass: 2, mid: 2, treble: +1 } ,
-volumeBoost: 0.65,
-    playcount: 0
+volumeBoost: 1.65
+  
 },
 
 {
@@ -28264,7 +28326,7 @@ quickFade: true
     path: "https://sunnydancemusic04.netlify.app/Ellie Goulding - All By Myself.mp3",
     timeCategory: "f afternoon",
      isLoud: true,
-loudnessValue: 0.65 
+loudnessValue: 0.55 
 },
 
 
@@ -28725,7 +28787,14 @@ timeCategory: "f afternoon"
 
 
 
+{
+    name: "Sweet Lucy",
+    artist: "Raoul de Souza ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Raoul de Souza - Sweet Lucy.mp3",
+timeCategory: "f afternoon"
 
+},
 
 
 
@@ -28909,6 +28978,14 @@ volumeBoost: 0.80
  year: 2026
 },
 
+{
+     name: " In Your Head",
+    artist: "Nicky Doll ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Nicky Doll - In Your Head.mp3",
+        timeCategory: "f afternoon",
+year: 2026
+},
 
 
 {
@@ -30009,6 +30086,49 @@ loudnessValue: 0.80
 },
 
 
+{
+    name: " Move Like You Do ",
+    artist: "Jungle",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Jungle - Move Like You Do.mp3",
+   timeCategory: "f evening"
+
+},
+
+
+
+{
+    name: " RunWay  ",
+    artist: "Lady Gaga ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Lady Gaga - RunWay (new).mp3",
+   timeCategory: "f evening"
+
+},
+
+ 
+
+
+
+{
+    name: "  Juicy (new) ",
+    artist: "Victoria Monet",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Victoria Monet - Juicy (new).mp3",
+   timeCategory: "f evening"
+
+},
+
+
+{
+    name: "So Good (new)",
+    artist: "Jhene Aiko ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Jhene Aiko - So Good (new).mp3",
+   timeCategory: "f evening"
+
+},
+
 
 
 
@@ -30286,7 +30406,7 @@ isNew: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Oliver Cheatam - Saturday Night (maxi).mp3",
         timeCategory: "f evening",
-volumeBoost: 0.90
+volumeBoost:1.3
 
 },
 
@@ -31741,7 +31861,9 @@ isNew: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Beegees Night fever.mp3",
     timeCategory: "f evening-late",
+  quickFade: true,
 volumeBoost: 0.90
+
 },
 
 
@@ -32280,15 +32402,6 @@ isNew: true
 
 
 
-{
-     name: "  Tears    ",
-    artist: "Sabrina Carpenter",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Sabrina Carpenter - Tears.mp3",
-           timeCategory: "f evening-late",
-  playcount: 0,
-volumeBoost: 0.40
-},
 
 
 
@@ -32822,8 +32935,8 @@ timeCategory: "f evening-late"
     artist: "Will Downing ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Will Downing  - A Love Supreme.mp3",
-        timeCategory: "f evening-late"
-
+        timeCategory: "f evening-late",
+year: 1988
 },
 
 
