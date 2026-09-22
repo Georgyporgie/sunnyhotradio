@@ -2656,7 +2656,7 @@ volumeBoost: 0.40
     artist: "Prince",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Prince - I wanna be your lover.mp3",
-  volumeBoost: 0.35,
+  volumeBoost:1.35,
   timeCategory: "seventies"
 },
 
@@ -3757,7 +3757,7 @@ part: 21
     artist: "Prince",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Prince - I wanna be your lover.mp3",
-  volumeBoost: 0.35,
+  volumeBoost: 1.35,
   timeCategory: "soulshow",
 part: 22
 },
@@ -6614,8 +6614,8 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Crystal Waters - Pure Love.mp3",
     timeCategory: "nineties",
-  volumeBoost: 0.25,
-  playcount: 0
+  volumeBoost: 0.25
+
 },
 
 {
@@ -11479,7 +11479,7 @@ volumeBoost: 0.45
     artist: "Prince",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Prince - I wanna be your lover.mp3",
-  volumeBoost: 0.35,
+  volumeBoost: 1.35,
 
 
       timeCategory: "morning"
@@ -14354,7 +14354,15 @@ isNew: true
 },
 
 
+{
+     name: " Pure Love",
+    artist: "Crystal Waters  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Crystal Waters - Pure Love.mp3",
+    timeCategory: "afternoon",
+  volumeBoost: 0.25
 
+},
 
 {
      name: "  Music Sounds Better With You",
@@ -16288,7 +16296,8 @@ isNew: true
     artist: "Tove Lo",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Tove Lo - How Long.mp3",
-      timeCategory: "afternoon"
+      timeCategory: "afternoon",
+volumeBoost: 0.40
 },
 
 
