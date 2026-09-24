@@ -1972,7 +1972,8 @@ part: 4
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/EWF I Can Let Go.mp3",
        quickFade: true,
- timeCategory: "seventies"
+ timeCategory: "seventies",
+volumeBoost: 1.5
 },
 
 
@@ -2234,9 +2235,9 @@ timeCategory: "seventies"
     name: "Lady Bug",
     artist: "Bumblebee Unlimited",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Bumblebee Unlimited - Lady Bug.mp3",
-      timeCategory: "seventies",
-volumeBoost: 0.40, 
+    path: "https://sunnydancemuziek01.netlify.app/Bumblebee Unlimited - Lady Bug.mp3",
+      timeCategory: "seventies"
+
 },
 
 
@@ -5718,9 +5719,10 @@ volumeBoost: 1.0,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/Divine - Shoot Your Shot (1982).mp3",
       isLoud: true,          
-  loudnessValue: 0.92,    
+  loudnessValue: 0.82,    
      quickFade: true,
-timeCategory: "eighties"
+timeCategory: "eighties",
+year: 1982
 },
 
 
@@ -6168,7 +6170,8 @@ volumeBoost: 0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Melba Moore - Mind Up Tonight.mp3",
       timeCategory: "eighties",
-volumeBoost: 1.5
+volumeBoost: 1.5,
+quickFade:true
 },
 
 
@@ -6825,7 +6828,8 @@ quickFade: true,
     artist: "Moby ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Moby - Oh my.mp3",
-    timeCategory: "nineties"
+    timeCategory: "nineties",
+   year:1999
 },
 
 
@@ -7077,7 +7081,8 @@ volumeBoost: 0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/FS Of London - Papua New Guinea.mp3",
     timeCategory: "nineties",
-  volumeBoost: 0.10
+     isLoud: true,
+loudnessValue: 0.90 
 },
 
 {
@@ -11468,7 +11473,8 @@ volumeBoost: 0.45
     artist: "Tink ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Tink - Fake Love.mp3",
-      timeCategory: "morning"
+      timeCategory: "morning",
+ year: 2023
 },
 
 
@@ -12101,8 +12107,7 @@ year: 2026
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Miley Cyrus & Bebe Rexha- Blue.mp3",
   timeCategory: "afternoon",
-    volumeBoost: 0.45,
-    playcount: 0,
+    volumeBoost: 0.65,
 year:2024
 
 },
@@ -14856,7 +14861,7 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Tiesto - Bring Me To Life.mp3",
     timeCategory: "afternoon",
-playcount: 0
+   year: 2025
    
 
 
@@ -15378,7 +15383,8 @@ volumeBoost: 0.30
     artist: "Moby ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Moby - Oh my.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+   year:1999
 },
 
 
@@ -16346,8 +16352,8 @@ timeCategory: "afternoon"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Babel - Loose My Mind (new).mp3",
           volumeBoost:0.30,  
-timeCategory: "afternoon"
-
+timeCategory: "afternoon",
+year:2026
 
 },
 
@@ -20334,7 +20340,8 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/FS Of London - Papua New Guinea.mp3",
     timeCategory: "evening",
-  volumeBoost: 0.10
+       isLoud: true,
+loudnessValue: 0.90 
 },
 
 
@@ -22012,7 +22019,7 @@ timeCategory: "evening"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/Divine - Shoot Your Shot (1982).mp3",
       isLoud: true,          
-  loudnessValue: 0.92,    
+  loudnessValue: 0.82,    
      year:1982,
 quickFade: true,
 timeCategory: "evening"
@@ -22174,7 +22181,7 @@ timeCategory: "evening"
     artist: "Seal",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Seal - Human Beings (2005).mp3",
-     year: 2005,
+     year: 1998,
     timeCategory: "evening",
     quickFade: true
     
@@ -22449,7 +22456,8 @@ isNew: true
     artist: "Will Smith  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Will Smith - Gettin'Jiggy Wit It.mp3",
-       timeCategory: "evening-late"
+       timeCategory: "evening-late",
+ year: 1997
 },
 
 
@@ -26775,6 +26783,43 @@ timeCategory: "evening-late"
 
 
 
+{
+    
+    name: "Lady Bug",
+    artist: "Bumblebee Unlimited",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Bumblebee Unlimited - Lady Bug.mp3",
+      timeCategory: "evening-late"
+
+},
+
+
+
+
+
+{
+    
+    name: " Changes (new)",
+    artist: "Becky Hill",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Becky Hill - Changes (new).mp3",
+      timeCategory: "evening-late"
+
+},
+
+
+
+
+
+{
+    
+    name: "Never Get Enough (new)",
+    artist: "Elderbrook ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Elderbrook - Never Get Enough (new).mp3",
+      timeCategory: "evening-late"
+
+},
 
  
 
@@ -27438,7 +27483,7 @@ isNew: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Tiesto - Bring Me To Life.mp3",
     timeCategory: " evening-late",
-playcount: 0
+   year: 2025
    
 
 
@@ -27925,7 +27970,7 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Tiesto - Bring Me To Life.mp3",
     timeCategory: "f afternoon",
-playcount: 0
+   year: 2025
    
 
 
@@ -28058,7 +28103,7 @@ volumeBoost: 0.10
     path: "https://danceoldies08.netlify.app/Adventures Of Stevie V - Dirty Cash.mp3",
       timeCategory: "f afternoon",
      quickFade: true,
-      eq: { bass: 2, mid: 2, treble: +1 } ,
+  year:1989,
 volumeBoost: 1.65
   
 },
@@ -28350,7 +28395,8 @@ loudnessValue: 0.55
     artist: "Tink ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Tink - Fake Love.mp3",
-    timeCategory: "f afternoon"
+    timeCategory: "f afternoon",
+   year: 2023
 },
 
 
@@ -28725,7 +28771,8 @@ isNew: true
     artist: "Will Smith  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Will Smith - Gettin'Jiggy Wit It.mp3",
-       timeCategory: "f afternoon"
+       timeCategory: "f afternoon",
+ year: 1997
 },
 
 
@@ -28737,8 +28784,8 @@ isNew: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Babel - Loose My Mind (new).mp3",
           volumeBoost:0.30,  
-timeCategory: "f afternoon"
-
+timeCategory: "f afternoon",
+ year: 2026
 
 },
 
@@ -28756,7 +28803,15 @@ timeCategory: "f afternoon"
 
 },
 
+{
+    
+    name: "Lady Bug",
+    artist: "Bumblebee Unlimited",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Bumblebee Unlimited - Lady Bug.mp3",
+      timeCategory: "f afternoon",
 
+},
 
 
 
@@ -31357,7 +31412,43 @@ isNew: true
 
 
 
+{
+    
+    name: "Lady Bug",
+    artist: "Bumblebee Unlimited",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Bumblebee Unlimited - Lady Bug.mp3",
+      timeCategory: "f evening-late"
 
+},
+
+
+
+
+
+{
+    
+    name: " Changes (new)",
+    artist: "Becky Hill",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Becky Hill - Changes (new).mp3",
+      timeCategory: "f evening-late"
+
+},
+
+
+
+
+
+{
+    
+    name: "Never Get Enough (new)",
+    artist: "Elderbrook ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Elderbrook - Never Get Enough (new).mp3",
+      timeCategory: "f evening-late"
+
+},
 
 
 
@@ -31528,7 +31619,7 @@ isNew: true
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Kiesza - Sound Of A Woman.mp3",
  
-timeCategory: "f evening"
+timeCategory: "f evening-late"
 
 },
 
