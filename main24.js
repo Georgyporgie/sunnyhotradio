@@ -653,7 +653,7 @@ timeCategory: "newest"
 },
 
 {
-     name: "   Im Your Girl Right (new)",
+     name: "   Im Your Girl Right ",
     artist: "Tove Lo",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Tove Lo - Im Your Girl Right (new).mp3",
@@ -856,15 +856,7 @@ isNew: true
 
 
 
-{
-    name: "  You Lost Me Forever ",
-    artist: "Morgan Luna  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Morgan Luna - You Lost Me Forever (new).mp3",
-   timeCategory: "newest",
-  year: 2026,
-isNew: true
-},
+
 
 
 
@@ -3536,7 +3528,7 @@ part: 2
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Dan Hartman Relight My Fire.mp3",
     timeCategory: "soulshow",
-volumeBoost: 1.0,
+volumeBoost: 1.7,
 part: 3
 },
 
@@ -4526,12 +4518,13 @@ timeCategory: "eighties"
     path: "https://jazzmusic05.netlify.app/Ray Parker jr - A woman needs love.mp3",
         timeCategory: "eighties",
     quickFade: true,
-    volumeBoost: 0.75,
-      eq: { bass: 2, mid: 2, treble: +1 } ,
-volumeBoost: 0.75,
-playcount: 0
+    volumeBoost: 2.0
 
 },
+
+
+
+
 
 {
     name: " Oh Sheila",
@@ -8196,7 +8189,15 @@ timeCategory: "morning",
 
 
 
+{
+    name: "  You Lost Me Forever ",
+    artist: "Morgan Luna  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Morgan Luna - You Lost Me Forever (new).mp3",
+ timeCategory: "morning",
+  year: 2026
 
+},
 
 
 
@@ -12938,7 +12939,7 @@ volumeBoost: 0.80
 
 
 {
-     name: "   Im Your Girl Right (new)",
+     name: "   Im Your Girl Right ",
     artist: "Tove Lo",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Tove Lo - Im Your Girl Right (new).mp3",
@@ -13341,8 +13342,6 @@ timeCategory: "afternoon"
   
 
 
-
-
 {
     name: "A Woman Needs Love",
     artist: "Ray Parker Junior",
@@ -13350,10 +13349,7 @@ timeCategory: "afternoon"
     path: "https://jazzmusic05.netlify.app/Ray Parker jr - A woman needs love.mp3",
         timeCategory: "afternoon",
     quickFade: true,
-    volumeBoost: 0.75,
-      eq: { bass: 2, mid: 2, treble: +1 } ,
-volumeBoost: 0.75,
-playcount: 0
+    volumeBoost: 2.0
 
 },
 
@@ -16208,9 +16204,8 @@ volumeBoost: 0.10
     artist: "Tiesto",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Tiesto - Drifting.mp3",
-  
-
-
+    isLoud: true,
+   loudnessValue: 0.90 ,
    timeCategory: "afternoon"
 },
 
@@ -26982,7 +26977,7 @@ volumeBoost: 0.80
 
 
 {
-     name: "   Im Your Girl Right (new)",
+     name: "   Im Your Girl Right",
     artist: "Tove Lo",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Tove Lo - Im Your Girl Right (new).mp3",
@@ -29147,15 +29142,7 @@ isNew: true
 },
 
 
-{
-    name: "  You Lost Me Forever ",
-    artist: "Morgan Luna  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Morgan Luna - You Lost Me Forever (new).mp3",
-   timeCategory: "f afternoon",
-  year: 2026,
-isNew: true
-},
+
 
 
 
@@ -29334,7 +29321,7 @@ volumeBoost: 0.80
 
 
 {
-     name: "   Im Your Girl Right (new)",
+     name: "   Im Your Girl Right ",
     artist: "Tove Lo",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Tove Lo - Im Your Girl Right (new).mp3",
@@ -32157,16 +32144,6 @@ volumeBoost: 0.90
 
 
 
-{
-     name: "   Im Your Girl Right (new)",
-    artist: "Tove Lo",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Tove Lo - Im Your Girl Right (new).mp3",
-        year: 2026,   
-timeCategory: "f evening-late"
-},
-
-
 
 
 
@@ -32244,15 +32221,7 @@ volumeBoost: 1.3
 
 
 
-{
-    name: "  You Lost Me Forever ",
-    artist: "Morgan Luna  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Morgan Luna - You Lost Me Forever (new).mp3",
-   timeCategory: "f evening-late",
-  year: 2026,
-isNew: true
-},
+
 
 
 
