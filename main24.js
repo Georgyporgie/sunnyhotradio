@@ -3121,7 +3121,7 @@ timeCategory: "seventies",
     name: " Home Fires Burnin'",
     artist: "Millie Jackson ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://sunnyjazzradio/muziek/muziek04/Millie Jackson - Keep The Home Fires Burnin'.mp3",
+    path: "https://sunnyjazzradio.com/muziek/muziek04/Millie Jackson - Keep The Home Fires Burnin'.mp3",
     timeCategory: "seventies",
    volumeBoost: 0.25,
     playcount: 0
