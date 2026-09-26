@@ -7445,7 +7445,7 @@ part: 4
 
 
 
-
+// DJ Marcello
 
 
 
@@ -7456,8 +7456,8 @@ part: 4
     artist: " DJ Marcello ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Marcello Live IT 01.mp3",
-    timeCategory: "marcello"
-
+    timeCategory: "marcello",
+  part: 1
 },
 
 
@@ -7467,8 +7467,8 @@ part: 4
     artist: " DJ Marcello ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Marcello Live IT 02.mp3",
-    timeCategory: "marcello"
-
+    timeCategory: "marcello",
+  part: 2
 },
 
 
@@ -7477,8 +7477,8 @@ part: 4
     artist: " DJ Marcello ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Marcello Live IT 03.mp3",
-    timeCategory: "marcello"
-
+    timeCategory: "marcello",
+  part: 3
 },
 
 
@@ -7491,8 +7491,8 @@ part: 4
     artist: " DJ Marcello ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Marcello Live IT 04.mp3",
-    timeCategory: "marcello"
-
+    timeCategory: "marcello",
+  part: 4
 },
 
 
