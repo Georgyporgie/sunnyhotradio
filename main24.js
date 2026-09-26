@@ -7442,6 +7442,75 @@ part: 4
 
 
 
+
+
+
+
+
+
+
+
+
+{
+    name: "Marcello Live IT ",
+    artist: " DJ Marcello ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Marcello Live IT 01.mp3",
+    timeCategory: "marcello"
+
+},
+
+
+
+{
+    name: "Marcello Live IT ",
+    artist: " DJ Marcello ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Marcello Live IT 02.mp3",
+    timeCategory: "marcello"
+
+},
+
+
+{
+    name: "Marcello Live IT ",
+    artist: " DJ Marcello ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Marcello Live IT 03.mp3",
+    timeCategory: "marcello"
+
+},
+
+
+
+
+
+
+{
+    name: "Marcello Live IT ",
+    artist: " DJ Marcello ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Marcello Live IT 04.mp3",
+    timeCategory: "marcello"
+
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //ministry of sound
 
 
@@ -7632,7 +7701,7 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Sam Smith - Desire.mp3",
     timeCategory: "morning",
-  year: 2025,
+  year: 2023,
 quickFade: true
 },
 
@@ -7661,7 +7730,8 @@ timeCategory: "morning"
     artist: "Lucy Pearl ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Lucy Pearl - Don't Mess With My Man.mp3",
-    timeCategory: "morning"
+    timeCategory: "morning",
+   year:2000
 },
 {
     name: "Shy",
@@ -7785,7 +7855,7 @@ playcount: 0,
     artist: "Jill Scott  ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Jill Scott A Long Walk.mp3",
-    playcount: 0,
+year:2000,
 timeCategory: "morning"
 
 
@@ -8227,7 +8297,8 @@ timeCategory: "morning",
     artist: "Rezz",
      image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Rezz - Taste of you.mp3",
-      timeCategory: "morning"
+      timeCategory: "morning",
+year:2021
 },
 
 
@@ -8337,7 +8408,8 @@ timeCategory: "morning",
     artist: "Nona  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Nona - Q & A.mp3",
-      timeCategory: "morning"
+      timeCategory: "morning",
+year:2021
 },
 
 
@@ -9975,8 +10047,8 @@ volumeBoost: 0.10
     artist: "Acraze ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Acraze - Believe.mp3",
-     timeCategory: "morning"
-
+     timeCategory: "morning",
+year:2023
 
 },
 
@@ -10057,8 +10129,8 @@ volumeBoost: 0.95
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Jamiroquaii - Little L.mp3",
     quickFade: true,
-    timeCategory: "morning"
-
+    timeCategory: "morning",
+year:2001
 
 },
 
@@ -10204,13 +10276,6 @@ playcount: 0
 },
 
 
-{
-    name: "Little L",
-    artist: "Jamiroquaii",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/sunny ship/radio dj - just for you.mp3",
-            timeCategory: "morning"
-},
 
 
 
@@ -10419,7 +10484,7 @@ volumeBoost: 0.10
     path: "https://sunnydanceoldies04.netlify.app/Daft Punk - Lose Yourself To Dance.mp3",
         timeCategory: "morning",
      quickFade: true,
-     eq: { bass: 1, mid: 1, treble: +1 } ,
+year:2013,
  volumeBoost: 0.25,
     playcount: 0
 },
@@ -12387,7 +12452,8 @@ volumeBoost: 0.30
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
        timeCategory: "afternoon",
-    quickFade: true
+    quickFade: true,
+year: 2025
 },
 
 
@@ -23774,15 +23840,7 @@ volumeBoost: 0.25
 
 
 
-{
-     name: "  Carousel ",
-    artist: "Cannons",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://danceoldies10.netlify.app/Cannons - Carousel (new).mp3",
- year: 2026,
- timeCategory: "evening-late",
- isNew: true
-},
+
 
 
 
@@ -26237,7 +26295,8 @@ timeCategory: "evening-late"
     artist: "Pet Shop Boys  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Pet Shop Boys - The Lost Room.mp3",
-      timeCategory: "evening-late"
+      timeCategory: "evening-late",
+year:2023
 },
 
 
@@ -28245,7 +28304,8 @@ loudnessValue: 0.80 ,
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
        timeCategory: "f afternoon",
-quickFade: true
+quickFade: true,
+year:2025
 },
 
 
@@ -29048,7 +29108,7 @@ year: 2026
 
 
 {
-     name: "  Carousel (new) ",
+     name: "  Carousel ",
     artist: "Cannons ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Cannons - Carousel (new).mp3",
@@ -31105,13 +31165,12 @@ timeCategory: "f evening"
 
 
 {
-     name: " Carousel   ",
-    artist: "Cannons  ",
+    name: " Pillow Fight (new)",
+    artist: " Tinashe",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Cannons - Carousel (new).mp3",
-           timeCategory: "f evening",
-  year: 2026,
-isNew: true
+    path: "https://danceoldies10.netlify.app/Tinashe - Pillow Fight (new).mp3",
+    timeCategory: "f evening"
+
 },
 
 
@@ -31195,16 +31254,7 @@ volumeBoost: 0.40
 
 },
 
-{
-     name: "Carousel ",
-    artist: "Cannons",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://danceoldies10.netlify.app/Cannons - Carousel (new).mp3",
- 
- timeCategory: "f evening",
-  year: 2026,
-isNew: true
-},
+
 
 {
      name: " Alarmschijf",
@@ -31670,15 +31720,7 @@ isNew: true
 
 },
 
-{
-     name: "  Carousel ",
-    artist: "Cannons ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Cannons - Carousel (new).mp3",
-   timeCategory: "f evening-late",
-  year: 2026,
-isNew: true
-},
+
 
 
 
@@ -31857,7 +31899,8 @@ timeCategory: "f evening-late"
     artist: "Daft Punk ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Daft Punk - Lose Yourself To Dance.mp3",
-    timeCategory: "f evening-late"
+    timeCategory: "f evening-late",
+year:2013
 },
 
 
@@ -32751,7 +32794,8 @@ playcount: 0
     artist: "Dua Lipa ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Dua Lipa - Be the One.mp3",
- timeCategory: "f evening-late"
+ timeCategory: "f evening-late",
+year:2017
 },
 
 
