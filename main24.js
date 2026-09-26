@@ -30950,16 +30950,15 @@ playcount: 0
 
 
 
-
 {
-    name: "  16 Summers (new)",
+    name: "  16 Summers ",
     artist: "Jessie Ware ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.appmuziek/oldies07/Jessie Ware - 16 Summers.mp3",
+    path: "https://sunnyhotradio.com/muziek/oldies07/Jessie Ware - 16 Summers.mp3",
    timeCategory: "f evening",
      quickFade: true,
-   year: 2026,
-isNew: true
+   year: 2026
+
 },
 
 
