@@ -144,35 +144,39 @@ const purifyTrack = (track) => ({
 
 
 function buildPlaylist(tracks) {
+  // All categories that should be ordered by part
   const orderedCategories = [
-
-   
     "love",
     "soulshow",
     "special-cast",
     "special-mix",
     "special",
-     "mixinglondon",
-     "ministry",
+    "mixinglondon",
+    "ministry",
     "frankiebones",
     "marcello"
-];
+  ];
 
+  // Clean up category strings (removes ALL weird spaces)
+  const clean = str =>
+    String(str)
+      .toLowerCase()
+      .replace(/\s+/g, "")     // remove normal spaces, tabs, newlines
+      .replace(/\u00A0/g, ""); // remove non-breaking spaces
+
+  // ORDERED tracks (must match category + have part)
   const ordered = tracks
-    .filter(t => orderedCategories.includes(t.timeCategory.trim()))
-    .filter(t => t.part !== undefined)
+    .filter(t => orderedCategories.includes(clean(t.timeCategory)))
+    .filter(t => t.part !== undefined && t.part !== null)
     .sort((a, b) => Number(a.part) - Number(b.part));
 
+  // NORMAL tracks (everything else)
   const normal = tracks
-    .filter(t => !orderedCategories.includes(t.timeCategory.trim()))
+    .filter(t => !orderedCategories.includes(clean(t.timeCategory)))
     .sort(() => Math.random() - 0.5);
 
   return [...ordered, ...normal];
-
-
-
 }
-
 
 
 
@@ -7455,9 +7459,11 @@ part: 4
     name: "Marcello Live IT ",
     artist: " DJ Marcello ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Marcello Live IT 01.mp3",
-    timeCategory: "marcello",
-  part: 1
+    path: "https://danceoldies10.netlify.app/Marcello Live IT01.mp3",
+      timeCategory: "marcello",
+part: 1
+
+
 },
 
 
@@ -7466,9 +7472,10 @@ part: 4
     name: "Marcello Live IT ",
     artist: " DJ Marcello ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Marcello Live IT 02.mp3",
-    timeCategory: "marcello",
-  part: 2
+    path: "https://danceoldies10.netlify.app/Marcello Live IT02.mp3",
+     timeCategory: "marcello",
+part: 2
+
 },
 
 
@@ -7476,9 +7483,10 @@ part: 4
     name: "Marcello Live IT ",
     artist: " DJ Marcello ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Marcello Live IT 03.mp3",
-    timeCategory: "marcello",
-  part: 3
+    path: "https://danceoldies10.netlify.app/Marcello Live IT03.mp3",
+     timeCategory: "marcello",
+part: 3
+
 },
 
 
@@ -7490,9 +7498,9 @@ part: 4
     name: "Marcello Live IT ",
     artist: " DJ Marcello ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Marcello Live IT 04.mp3",
-    timeCategory: "marcello",
-  part: 4
+    path: "https://danceoldies10.netlify.app/Marcello Live IT04.mp3",
+   timeCategory: "marcello",
+part: 4
 },
 
 
