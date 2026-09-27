@@ -154,8 +154,8 @@ function buildPlaylist(tracks) {
     "special",
      "mixinglondon",
      "ministry",
-    "frankiebones"
-
+    "frankiebones",
+    "marcello"
 ];
 
   const ordered = tracks
@@ -4427,7 +4427,7 @@ volumeBoost: 0.70
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Oliver Cheatam - Saturday Night ((strictlyi).mp3",
         timeCategory: "eighties",
-volumeBoost:1.3
+volumeBoost:1.9
 },
 
 
@@ -4700,7 +4700,7 @@ timeCategory: "eighties"
 
 {
     name: "  Fall In Love With Me (1982) ",
-    artist: " EARTH WIND & FIRE ",
+    artist: " Earth Wind & Fire ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://jazzmusic04.netlify.app/EARTH WIND & FIRE - Fall In Love With Me (1982).mp3",
     timeCategory: "eighties",
@@ -18964,7 +18964,7 @@ volumeBoost: 0.30
 
 {
     name: "  Fall In Love With Me (1982) ",
-    artist: " EARTH WIND & FIRE ",
+    artist: " Earth Wind & Fire ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://jazzmusic04.netlify.app/EARTH WIND & FIRE - Fall In Love With Me (1982).mp3",
     timeCategory: "evening",
@@ -30157,7 +30157,7 @@ year:2022
 
 {
     name: "  Fall In Love With Me (1982) ",
-    artist: " EARTH WIND & FIRE ",
+      artist: " Earth Wind & Fire ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://jazzmusic04.netlify.app/EARTH WIND & FIRE - Fall In Love With Me (1982).mp3",
     timeCategory: "f evening",
@@ -30517,7 +30517,7 @@ isNew: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Oliver Cheatam - Saturday Night (maxi).mp3",
         timeCategory: "f evening",
-volumeBoost:1.3
+volumeBoost:1.9
 
 },
 
