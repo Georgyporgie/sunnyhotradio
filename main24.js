@@ -5593,7 +5593,8 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Bandolero - Paris Latino.mp3",
     timeCategory: "eighties",
-  volumeBoost: 0.20
+  volumeBoost: 0.20,
+year: 1983
 },
 
 
@@ -9446,8 +9447,9 @@ timeCategory: "morning"
     artist: "Snoop Dogg ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Snoop Dogg - Drop It Like It's Hot (Feat. Pharrell).mp3",
-     timeCategory: "morning"
-
+     timeCategory: "morning",
+     isLoud: true,
+loudnessValue: 0.70 
 
 },
 
@@ -11257,16 +11259,6 @@ volumeBoost: 0.25
 
 
 
-
-
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/starten met Sunny.mp3",
-   category: "monday-chill",   
-timeCategory: "morning"
-},
 
 
 
@@ -14492,7 +14484,7 @@ quickFade: true
     path: "https://sunnydancemusic04.netlify.app/Pabllo Vittar - Follow Me.mp3",
      timeCategory: "afternoon",
  isLoud: true,          
-  loudnessValue: 0.80
+  loudnessValue: 0.70
 },
 
 
@@ -17000,6 +16992,7 @@ volumeBoost: 0.05
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/The Knocks - Classic.mp3",
     timeCategory: "evening",
+volumeBoost: 0.50,
 year:2016
 },
 
@@ -17801,7 +17794,7 @@ year:2025
 
 
 {
-     name: "Boogie s In My Soul (new)",
+     name: "Boogie s In My Soul",
     artist: "Chaka Kahn",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://sunny-dancemusic03.netlify.app/Chaka Kahn - Boogie s In My Soul (new).mp3",
@@ -19414,7 +19407,9 @@ quickFade: true,
     artist: "Snoop Dogg ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Snoop Dogg - Drop It Like It's Hot (Feat. Pharrell).mp3",
-         timeCategory: "evening"
+         timeCategory: "evening",
+     isLoud: true,
+loudnessValue: 0.70 
 },
 
 
@@ -20334,7 +20329,8 @@ timeCategory: "evening"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Bandolero - Paris Latino.mp3",
     timeCategory: "evening",
-  volumeBoost: 0.20
+  volumeBoost: 0.20,
+year: 1983
 },
 
 
@@ -20712,7 +20708,15 @@ isNew: true
 
 
 
+{
+    name: " The Age Of Love",
+    artist: "Jam & Spoon  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Jam & Spoon - The Age of Love.mp3",
+   timeCategory: "evening",
+ volumeBoost: 0.45,
 
+},
 
 
 
@@ -24273,12 +24277,12 @@ timeCategory: "evening-late"
 
 
 {
-     name: " DJ Take Control ",
+     name: "Deejay Take Control ",
     artist: "SL2  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/SL2 - DJ Take Control.mp3",
    isLoud: true,          
-  loudnessValue: 0.70,  
+  loudnessValue: 0.60,  
     timeCategory: "evening-late"
 
 
@@ -31161,7 +31165,7 @@ timeCategory: "f evening"
 year:2007
 },
 {
-     name: "Boogie s In My Soul (new)",
+     name: "Boogie s In My Soul ",
     artist: "Chaka Kahn",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://sunny-dancemusic03.netlify.app/Chaka Kahn - Boogie s In My Soul (new).mp3",
