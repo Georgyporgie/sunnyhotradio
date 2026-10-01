@@ -2048,7 +2048,27 @@ volumeBoost: 0.70
 },
 
 
+{
+    name: " Grooveline",
+    artist: "Heatwave",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Heatwave - Grooveline.mp3",
+   timeCategory: "seventies",
+year: 1978
+},
 
+
+
+
+
+{
+    name: "   Don't Let Me Be Misunderstood",
+    artist: "Santa Esmaralda",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Santa Esmaralda - Don't Let Me Be Misunderstood.mp3",
+   timeCategory: "seventies",
+year: 1977
+},
 
 
 
@@ -2865,7 +2885,7 @@ quickFade: true,
    quickFade: true,
    playcount: 0,
  eq: { bass:1, mid: 1, treble: 0 } ,
-volumeBoost: 0.30
+volumeBoost: 1.30
 },
 
 
@@ -3196,7 +3216,8 @@ volumeBoost: 1.0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Con Funk Shun- Ffun.mp3",
    timeCategory: "seventies",
-volumeBoost: 0.25
+volumeBoost: 0.25,
+quickFade: true
 },
 
 
@@ -4047,7 +4068,8 @@ year: 1988
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Con Funk Shun- Ffun.mp3",
    timeCategory: "soulshow",
-volumeBoost: 0.25
+volumeBoost: 0.25,
+quickFade: true
 },
 
 
@@ -12167,6 +12189,28 @@ year: 2026
 },
 
 
+
+{ 
+
+    name: "  Blink Twice (new)",
+    artist: "Rose Gray ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Rose Gray - Blink Twice (new).mp3",
+      timeCategory: "afternoon"
+
+  
+},
+
+{ 
+
+    name: "  If I let You (new)",
+    artist: "The Womack Sisters - If I let You (new) ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/The Womack Sisters - If I let You (new).mp3",
+      timeCategory: "afternoon"
+
+  
+},
 {
     name: " Blue",
     artist: "Miley Cyrus & Bebe Rexha  ",
@@ -15000,7 +15044,28 @@ playcount: 0
 },
 
 
+{
+    name: "  Keep On Dancin' ",
+    artist: "Garys Gang ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Garys Gang - Keep on dancin'.mp3",
+      timeCategory: "afternoon"
 
+  
+},
+
+
+
+
+{
+    name: "  Talk It Over (new)",
+    artist: "Leon Bridges ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Leon Bridges - Talk It Over (new).mp3",
+      timeCategory: "afternoon"
+
+  
+},
 
 
 
@@ -16726,7 +16791,7 @@ year:2007
    quickFade: true,
    playcount: 0,
  eq: { bass:1, mid: 1, treble: 0 } ,
-volumeBoost: 0.30
+volumeBoost:1.30
 },
 
 
@@ -19725,6 +19790,16 @@ quickFade: true
 
 
 
+{
+    name: "A Lovers Holiday",
+    artist: "Change",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Change - A lovers Holiday.mp3",
+    year: 1979,
+   timeCategory: "evening"
+
+  
+},
 
 
 
@@ -21088,6 +21163,29 @@ volumeBoost: 0.20
 
 
 
+
+
+{ 
+
+    name: "  If I let You (new)",
+    artist: "The Womack Sisters - If I let You (new) ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/The Womack Sisters - If I let You (new).mp3",
+      timeCategory: "f evening"
+
+  
+},
+
+{ 
+
+    name: " Teardrops (maxi)",
+    artist: "Womack & Womack ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Womack & Womack - Teardrops (maxi).mp3",
+      timeCategory: "f evening"
+
+  
+},
 
 
 {
@@ -23539,7 +23637,8 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Con Funk Shun- Ffun.mp3",
    timeCategory: "evening-late",
-volumeBoost: 0.25
+volumeBoost: 0.25,
+quickFade: true
 },
 
 
@@ -27189,7 +27288,14 @@ isNew: true
 
 
 
-
+{
+    name: " Grooveline",
+    artist: "Heatwave",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Heatwave - Grooveline.mp3",
+    timeCategory: "evening-late",
+year: 1978
+},
 
 
 
@@ -28213,6 +28319,27 @@ year:2022
 
 
 
+{
+    name: "  Talk It Over (new)",
+    artist: "Leon Bridges ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Leon Bridges - Talk It Over (new).mp3",
+      timeCategory: "f afternoon"
+
+  
+},
+
+
+{ 
+
+    name: "  Blink Twice (new)",
+    artist: "Rose Gray ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Rose Gray - Blink Twice (new).mp3",
+      timeCategory: "f afternoon"
+
+  
+},
 
 
 
