@@ -426,17 +426,53 @@ let trackList = [
 
 
 
+{
+     name: "  Sunny Dance",
+    artist: "80's Mix  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/80 mix 01.mp3",
+   timeCategory: "disco",
+part: 1
+
+},
 
 
 
 
 
 
+{
+     name: "  Sunny Dance",
+    artist: "80's Mix  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/80 mix 02.mp3",
+   timeCategory: "disco",
+part: 2
+},
+
+
+{
+     name: "  Sunny Dance",
+    artist: "80's Mix  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/80 mix 03.mp3",
+   timeCategory: "disco",
+part: 3
+},
 
 
 
 
 
+{
+     name: "  Sunny Dance",
+    artist: "80's Mix  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/80 mix 04.mp3",
+   timeCategory: "disco",
+part: 4
+
+},
 
 
 
@@ -5257,7 +5293,8 @@ volumeBoost: 0.25
     artist: " Kool & The Gang",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Kool & The Gang -  Fresh.mp3",
-           timeCategory: "eighties"
+      timeCategory: "eighties",
+volumeBoost: 0.50
 },
 
 
@@ -12969,7 +13006,8 @@ year:2020
     artist: " Kool & The Gang",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Kool & The Gang -  Fresh.mp3",
-           timeCategory: "afternoon"
+           timeCategory: "afternoon",
+volumeBoost: 0.50
 },
 
 
@@ -15062,8 +15100,8 @@ playcount: 0
     artist: "Leon Bridges ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Leon Bridges - Talk It Over (new).mp3",
-      timeCategory: "afternoon"
-
+      timeCategory: "afternoon",
+year:2026
   
 },
 
@@ -28353,7 +28391,7 @@ year:2022
     artist: "Jazzy & Ankhoï ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Jazzy & Ankhoï - Closer To The Floor.mp3",
-  timeCategory: "F afternoon"
+  timeCategory: "f afternoon"
 },
 
 
@@ -28363,7 +28401,7 @@ year:2022
     artist: " Never Gonna Give",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Rick Astley - Never Gonna Give.mp3",
-        timeCategory: "F afternoon",
+        timeCategory: "f afternoon",
     quickFade: true
  
 },
@@ -28992,8 +29030,8 @@ timeCategory: "f afternoon",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Becky Hill - Say Something (new).mp3",
           volumeBoost:0.30,  
-timeCategory: "f afternoon"
-
+timeCategory: "f afternoon",
+year:2026
 
 },
 
@@ -29015,8 +29053,8 @@ timeCategory: "f afternoon"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Haute & Freddy - Touch Touch (new).mp3",
           volumeBoost:0.30,  
-timeCategory: "f afternoon"
-
+timeCategory: "f afternoon",
+year:2026
 
 },
 
@@ -29027,8 +29065,8 @@ timeCategory: "f afternoon"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Jungle - Come Back To Me.mp3",
           volumeBoost:0.30,  
-timeCategory: "f afternoon"
-
+timeCategory: "f afternoon",
+year:2026
 
 },
 
@@ -29038,8 +29076,8 @@ timeCategory: "f afternoon"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Miley Cirus - Bass Persuades (new).mp3",
           volumeBoost:0.30,  
-timeCategory: "f afternoon"
-
+timeCategory: "f afternoon",
+year:2026
 
 },
 
@@ -33516,7 +33554,9 @@ function isOrderedCategory(cat) {
     "special",
      "mixinglondon",
      "ministry",
-     "frankiebones"
+    "disco",
+ "marcello",
+"frankiebones"
 ].includes(cat);
 }
 
