@@ -728,7 +728,7 @@ isNew: true
 
 
 {
-     name: " I Feel So Free (new)",
+     name: " I Feel So Free ",
     artist: " Madonna ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Madonna - I Feel So Free (new).mp3",
@@ -739,7 +739,7 @@ isNew: true
 
 
 {
-     name: "  If Its Not Love (new) ",
+     name: "  If Its Not Love ",
     artist: "Zerb & Rita Ora",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Zerb & Rita Ora - If Its Not Love.mp3",
@@ -750,7 +750,7 @@ isNew: true
 
 
 {
-     name: " RunWay (new)",
+     name: " RunWay",
     artist: "Lady Gaga  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Lady Gaga - RunWay (new).mp3",
@@ -773,7 +773,7 @@ isNew: true
 
 
 {
-     name: "  When I'm Dancing (new)",
+     name: "  When I'm Dancing",
     artist: "Kiesza ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Kiesza - When I'm Dancing (new).mp3",
@@ -798,7 +798,7 @@ isNew: true
 
 
 {
-    name: " Bring Your Love (new) ",
+    name: " Bring Your Love ",
     artist: "Madonna",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Madonna - Bring Your Love (new) (2026).mp3",
@@ -811,7 +811,7 @@ isNew: true
 
 
 {
-    name: "  Mural (new) ",
+    name: "  Mural  ",
     artist: "Swae Lee  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Swae Lee - Mural (new).mp3",
@@ -824,7 +824,7 @@ isNew: true
 
 
 {
-     name: " We Connect (new) ",
+     name: " We Connect  ",
     artist: "Snoop Dogg ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Snoop Dogg - We Connect (new).mp3",
@@ -836,7 +836,7 @@ isNew: true
 
 
 {
-     name: " Light As A Feather (new) ",
+     name: " Light As A Feather  ",
     artist: "Cannons   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Cannons - Light As A Feather (new).mp3",
@@ -2288,8 +2288,8 @@ timeCategory: "seventies"
     artist: "Bumblebee Unlimited",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Bumblebee Unlimited - Lady Bug.mp3",
-      timeCategory: "seventies"
-
+      timeCategory: "seventies",
+volumeBoost: 0.70
 },
 
 
@@ -6415,7 +6415,8 @@ volumeBoost: 0.25
     artist: "King Bee",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://jazzmusic05.netlify.app/King Bee - Back By Dope Demand.mp3",
- 
+      isLoud: true,
+loudnessValue: 0.90,
  timeCategory: "nineties"
 
 },
@@ -14866,7 +14867,7 @@ isNew: true
  
 
 {
-     name: " I Feel So Free (new)",
+     name: " I Feel So Free",
     artist: " Madonna ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Madonna - I Feel So Free (new).mp3",
@@ -14878,7 +14879,7 @@ isNew: true
 
 
 {
-     name: "  If Its Not Love (new) ",
+     name: "  If Its Not Love ",
     artist: "Zerb & Rita Ora",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Zerb & Rita Ora - If Its Not Love.mp3",
@@ -14899,7 +14900,7 @@ isNew: true
 
 
 {
-     name: " RunWay (new)",
+     name: " RunWay",
     artist: "Lady Gaga  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Lady Gaga - RunWay (new).mp3",
@@ -16128,7 +16129,7 @@ volumeBoost: 070
 
 
 {
-     name: "  When I'm Dancing (new)",
+     name: "  When I'm Dancing ",
     artist: "Kiesza ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Kiesza - When I'm Dancing (new).mp3",
@@ -16415,10 +16416,10 @@ year:2024
 
 
 {
-    name: "  I Can t Wait (new)",
+    name: "  I Can t Wait ",
     artist: "Bob Sinclar & Kiesza  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Bob Sinclar & Kiesza - I Can t Wait (new).mp3",
+    path: "https://dancemusic09.netlify.app/Bob Sinclar & Kiesza - I Can t Wait (new).mp3",
        timeCategory: "afternoon",
  year: 2026,
 isNew: true
@@ -17367,7 +17368,7 @@ volumeBoost: 0.10
 
 
 {
-    name: " Bring Your Love (new) ",
+    name: " Bring Your Love",
     artist: "Madonna",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Madonna - Bring Your Love (new) (2026).mp3",
@@ -17483,7 +17484,9 @@ loudnessValue: 0.80
     artist: "Alok    ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Alok - Work With You Love.mp3",
-   timeCategory: "evening"
+   timeCategory: "evening",
+   isLoud: true,
+loudnessValue: 0.90
 },
 
 
@@ -17645,7 +17648,7 @@ loudnessValue: 0.80
 
 
 {
-    name: "  Mural (new) ",
+    name: "  Mural  ",
     artist: "Swae Lee  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Swae Lee - Mural (new).mp3",
@@ -17855,7 +17858,7 @@ year:2023
 
 
 {
-     name: " We Connect (new) ",
+     name: " We Connect  ",
     artist: "Snoop Dogg ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Snoop Dogg - We Connect (new).mp3",
@@ -19197,7 +19200,7 @@ volumeBoost: 0.30
 },
 
 {
-     name: " Light As A Feather (new) ",
+     name: " Light As A Feather ",
     artist: "Cannons   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Cannons - Light As A Feather (new).mp3",
@@ -23516,6 +23519,34 @@ volumeBoost: 0.10
 
 
 
+{
+     name: "   Showtime   ",
+    artist: "Gary s Gang  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Gary s Gang - Showtime.mp3",
+           timeCategory: " evening-late"
+  
+},
+
+
+{
+     name: "   Showtime  mix ",
+    artist: "Gary s Gang  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Gary s Gang - Showtimemix.mp3",
+           timeCategory: "evening-late"
+  
+},
+
+
+{
+     name: "  The Boss",
+    artist: "Diana Ross  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Diana Ross - The Boss.mp3",
+           timeCategory: "evening-late"
+  
+},
 
 
 
@@ -26992,8 +27023,8 @@ timeCategory: "evening-late"
     artist: "Bumblebee Unlimited",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Bumblebee Unlimited - Lady Bug.mp3",
-      timeCategory: "evening-late"
-
+      timeCategory: "evening-late",
+volumeBoost:  0.70
 },
 
 
@@ -27281,7 +27312,9 @@ isNew: true
     artist: "Purple Disco Machine ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Purple Disco Machine - Bad Company.mp3",
-  timeCategory: "evening-late"
+  timeCategory: "evening-late",
+   isLoud: true,
+loudnessValue: 0.90
 },
 
 
@@ -27498,7 +27531,9 @@ timeCategory: " evening-late"
     artist: "Alok    ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Alok - Work With You Love.mp3",
-    timeCategory: "evening-late"
+    timeCategory: "evening-late",
+   isLoud: true,
+loudnessValue: 0.90
 },
 
 
@@ -28301,7 +28336,8 @@ volumeBoost: 0.10
     artist: "King Bee",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://jazzmusic05.netlify.app/King Bee - Back By Dope Demand.mp3",
- 
+   isLoud: true,
+loudnessValue: 0.90,
  timeCategory: "f afternoon"
 
 },
@@ -29042,7 +29078,7 @@ year:2026
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Bumblebee Unlimited - Lady Bug.mp3",
       timeCategory: "f afternoon",
-
+volumeBoost:  0.70
 },
 
 
@@ -29332,7 +29368,7 @@ isNew: true
 },
 
 {
-     name: " I Feel So Free (new)",
+     name: " I Feel So Free",
     artist: " Madonna ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Madonna - I Feel So Free (new).mp3",
@@ -29344,8 +29380,9 @@ isNew: true
     artist: "Alok    ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Alok - Work With You Love.mp3",
-    timeCategory: "f afternoon"
-
+    timeCategory: "f afternoon",
+   isLoud: true,
+loudnessValue: 0.90
 },
 
 
@@ -29413,7 +29450,7 @@ isNew: true
     artist: " Toni Braxton ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Toni Braxton - Un-break my heart.mp3",
-    timeCategory: "f-afternoon"
+    timeCategory: "f afternoon"
 
 },
 
@@ -29426,7 +29463,7 @@ isNew: true
     artist: "The Knocks ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/The Knocks - Bang Bang.mp3",
-      timeCategory: "f-afternoon"
+      timeCategory: "f afternoon"
 
 
 },
@@ -29438,7 +29475,7 @@ isNew: true
     artist: "Daft Punk ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Daft Punk - Around The World.mp3",
-      timeCategory: "f-afternoon",
+      timeCategory: "f afternoon",
      quickFade: true,
      eq: { bass: 1, mid: 1, treble: +1 } ,
  volumeBoost: 0.45,
@@ -29454,7 +29491,7 @@ isNew: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Tove Lo - No one dies from love.mp3",
   
-     timeCategory: "f-afternoon"
+     timeCategory: "f afternoon"
 
 
 },
@@ -29465,7 +29502,7 @@ isNew: true
     artist: "Moloko ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Moloko - Sing It Back.mp3",
-     timeCategory: "f-afternoon",
+     timeCategory: "f afternoon",
 volumeBoost: 0.25
 
 },
@@ -29810,8 +29847,9 @@ isNew: true
     artist: "Purple Disco Machine ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Purple Disco Machine - Bad Company.mp3",
-   timeCategory: "f afternoon"
-
+   timeCategory: "f afternoon",
+   isLoud: true,
+loudnessValue: 0.90
 },
 
 
@@ -30457,7 +30495,7 @@ timeCategory: "f evening"
 
 
 {
-     name: " We Connect (new) ",
+     name: " We Connect ",
     artist: "Snoop Dogg ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Snoop Dogg - We Connect (new).mp3",
@@ -30514,7 +30552,7 @@ year:2023
 
 
 {
-    name: " Bring Your Love (new) ",
+    name: " Bring Your Love  ",
     artist: "Madonna",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Madonna - Bring Your Love (new) (2026).mp3",
@@ -31354,7 +31392,7 @@ timeCategory: "f evening"
 
 
 {
-     name: " Light As A Feather (new) ",
+     name: " Light As A Feather",
     artist: "Cannons   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Cannons - Light As A Feather (new).mp3",
@@ -31631,8 +31669,8 @@ volumeBoost: 0.40
     artist: "Bumblebee Unlimited",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Bumblebee Unlimited - Lady Bug.mp3",
-      timeCategory: "f evening-late"
-
+      timeCategory: "f evening-late",
+volumeBoost:  0.70
 },
 
 
@@ -31695,6 +31733,25 @@ volumeBoost: 0.40
 
 
 
+{
+    name: "Take Your Time",
+    artist: "Sos Band ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Sos Band - Take Your Time.mp3",
+ timeCategory: "f evening-late",
+volumeBoost: 1.7
+
+},
+
+
+{
+    name: "You Make Me Feel",
+    artist: "Sylvester ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Sylvester You Make Me Feel.mp3",
+ timeCategory: "f evening-late",
+volumeBoost: 1.7
+},
 
 
 
@@ -31854,7 +31911,7 @@ timeCategory: "f evening-late"
 
 
 {
-     name: " I Feel So Free (new)",
+     name: " I Feel So Free",
     artist: " Madonna ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Madonna - I Feel So Free (new).mp3",
@@ -31865,7 +31922,7 @@ isNew: true
 
 
 {
-     name: "  If Its Not Love (new) ",
+     name: "  If Its Not Love ",
     artist: "Zerb & Rita Ora",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Zerb & Rita Ora - If Its Not Love.mp3",
@@ -32487,7 +32544,7 @@ year:2022
 
 
 {
-     name: " We Connect (new) ",
+     name: " We Connect  ",
     artist: "Snoop Dogg ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Snoop Dogg - We Connect (new).mp3",
@@ -32659,8 +32716,34 @@ isNew: true
 },
 
 
+{
+     name: "   Showtime   ",
+    artist: "Gary s Gang  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Gary s Gang - Showtime.mp3",
+           timeCategory: "f evening-late"
+  
+},
 
 
+{
+     name: "   Showtime  mix ",
+    artist: "Gary s Gang  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Gary s Gang - Showtimemix.mp3",
+           timeCategory: "f evening-late"
+  
+},
+
+
+{
+     name: "  The Boss",
+    artist: "Diana Ross  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Diana Ross - The Boss.mp3",
+           timeCategory: "f evening-late"
+  
+},
 
 
 
