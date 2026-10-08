@@ -1,4 +1,4 @@
-
+	
 
  
 
@@ -492,6 +492,123 @@ part: 4
 
 
 
+// DJ Joris
+
+
+
+
+{
+     name: "  Sunny Dancemix",
+    artist: "Joris ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/specialmix01.mp3",
+   timeCategory: "acid",
+part: 1
+
+},
+
+
+
+
+{
+     name: "  Sunny Dancemix",
+    artist: "Joris ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/specialmix02.mp3",
+   timeCategory: "acid",
+part: 2
+
+},
+
+
+
+{
+     name: "  Sunny Dancemix",
+    artist: "Joris ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/specialmix03.mp3",
+   timeCategory: "acid",
+part: 3
+
+},
+
+
+
+
+
+
+
+{
+     name: "  Sunny Dancemix",
+    artist: "Joris ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/specialmix04.mp3",
+   timeCategory: "acid",
+part: 4
+
+},
+
+
+
+
+
+// DJ Marcello
+
+
+
+
+
+{
+    name: "Marcello Live IT ",
+    artist: " DJ Marcello ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Marcello Live IT01.mp3",
+      timeCategory: "acid",
+part: 5
+
+
+},
+
+
+
+{
+    name: "Marcello Live IT ",
+    artist: " DJ Marcello ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Marcello Live IT02.mp3",
+    timeCategory: "acid",
+part: 6
+
+},
+
+
+{
+    name: "Marcello Live IT ",
+    artist: " DJ Marcello ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Marcello Live IT03.mp3",
+    timeCategory: "acid",
+part: 7
+
+},
+
+
+
+
+
+
+{
+    name: "Marcello Live IT ",
+    artist: " DJ Marcello ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Marcello Live IT04.mp3",
+   timeCategory: "acid",
+part: 8
+},
+
+
+
+
 
 
 
@@ -951,6 +1068,81 @@ volumeBoost: 0.10
 },
 
 
+{
+    name: "   Angels Cry",
+    artist: "Snoop Dogg  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Snoop Dogg - Angels Cry (new).mp3",
+   timeCategory: "ballads",
+ year: 2026,
+isNew: true
+},
+
+
+
+
+
+{
+    name: "Bill Withers",
+    artist: "Lovely Day",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Bill Withers - Lovey Day ((strictly).mp3",
+      year: 1977,
+ quickFade: true,
+  timeCategory: "ballads"
+
+  
+},
+
+
+
+
+{
+    name: "Summer Madness (12inch)",
+    artist: "Kool And The Gang",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Kool and the gang - Summer Madness.mp3",
+        timeCategory: "ballads"
+},
+
+
+
+
+{
+    name: "A Woman Needs Love",
+    artist: "Ray Parker Junior",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Ray Parker jr - A woman needs love.mp3",
+          timeCategory: "ballads",
+    quickFade: true,
+    volumeBoost: 2.0
+
+},
+
+
+
+{
+    name: "  You Lost Me Forever ",
+    artist: "Morgan Luna  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Morgan Luna - You Lost Me Forever (new).mp3",
+     timeCategory: "ballads",
+  year: 2026
+
+},
+
+
+{
+    name: " Risin To The Top (1982)",
+    artist: "Kenny Burke  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Kenny Burke - Risin to the Top.mp3",
+           timeCategory: "ballads",
+     quickFade: true,
+    volumeBoost: 0.35,
+    playcount: 0
+},
+
 
 
 {
@@ -1035,8 +1227,8 @@ volumeBoost: 0.10
     artist: "SOS Band ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/SOS Band - No One's Gonna Love You (1984).mp3",
-   timeCategory: "ballads"
-
+   timeCategory: "ballads",
+year: 1984
 },
 
 
@@ -2198,7 +2390,8 @@ volumeBoost: 0.90
     artist: "Trammps",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Trammps - Disco Inferno (maxi) strictly.mp3",
-    timeCategory: "seventies"
+    timeCategory: "seventies",
+ volumeBoost: 0.90
 },
 
 
@@ -2289,7 +2482,7 @@ timeCategory: "seventies"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Bumblebee Unlimited - Lady Bug.mp3",
       timeCategory: "seventies",
-volumeBoost: 0.70
+volumeBoost: 1.50
 },
 
 
@@ -2467,7 +2660,8 @@ volumeBoost: 0.45,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Shalamar - Right In The Socket.mp3",
    timeCategory: "seventies",
-volumeBoost: 0.25
+volumeBoost: 0.25,
+year: 1979
 },
 
 
@@ -2598,7 +2792,7 @@ timeCategory: "seventies"
     artist: "Tramps",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://jazzmusic05.netlify.app/Tramps Newyork City.mp3",
- 
+ volumeBoost: 0.90,
  timeCategory: "seventies"
 
 },
@@ -2959,7 +3153,8 @@ volumeBoost: 1.30
     artist: "Sos Band ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Sos Band - Take Your Time.mp3",
-    timeCategory: "seventies"
+    timeCategory: "seventies",
+volumeBoost: 1.7
 },
 
 
@@ -3337,7 +3532,7 @@ volumeBoost: 0.20,
     artist: "Tramps",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://jazzmusic05.netlify.app/Tramps Newyork City.mp3",
- 
+  volumeBoost: 0.90,
  timeCategory: "seventies"
 
 },
@@ -3369,7 +3564,7 @@ volumeBoost: 0.20,
     artist: "KC & Sunshine Band ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/KC - Get Down Tonight strictly.mp3",
- 
+  year:1975,
  timeCategory: "seventies"
 
 },
@@ -3404,7 +3599,7 @@ volumeBoost: 0.20,
     artist: "The Trammps  ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/The Trammps - Disco Inferno.mp3",
- 
+  volumeBoost: 0.90,
  timeCategory: "seventies"
 
 },
@@ -3425,7 +3620,7 @@ volumeBoost: 0.20,
     artist: "Chic  ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Chic - Dance Dance Dance (strictly).mp3",
- 
+ volumeBoost: 0.80,
  timeCategory: "seventies"
 
 },
@@ -3613,6 +3808,7 @@ part: 4
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/K C and The Sunshine Band - Thats The Way (1975).mp3",
        timeCategory: "soulshow",
+  
 part: 5
   
 },
@@ -3978,7 +4174,7 @@ quickFade: true
     artist: "Tramps",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://jazzmusic05.netlify.app/Tramps Newyork City.mp3",
- 
+  volumeBoost: 0.60,
  timeCategory: "soulshow"
 
 },
@@ -4226,7 +4422,22 @@ quickFade: true
 
 
 
+
+
+
+
+
+
 //strictly eighties show
+
+
+
+
+
+
+
+
+
 
 {
      name: " Sunny ",
@@ -4740,7 +4951,7 @@ timeCategory: "eighties",
     artist: "Pet Shop Boys ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Pet Shop Boys - West End Girls (10'' Mix).mp3",
-   playcount: 0,
+ year: 1984,
 timeCategory: "eighties",
   volumeBoost: 0.35
 },
@@ -5369,7 +5580,7 @@ isLoud: true,
    quickFade: true,
    volumeBoost: 0.65,
    eq: { bass: 1, mid: 2, treble: 1 } ,
-   playcount: 0
+year: 1984
 },
 
 
@@ -5388,7 +5599,8 @@ isLoud: true,
     artist: "SOS Band ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/SOS Band - No One's Gonna Love You (1984).mp3",
-    timeCategory: "eighties"
+    timeCategory: "eighties",
+year: 1984
 },
 
 {
@@ -5495,7 +5707,8 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Mary Jane Girls - In My House.mp3",
      timeCategory: "eighties",
-volumeBoost:  0.20
+volumeBoost:  0.20,
+year: 1984
 },
 
 
@@ -5925,8 +6138,8 @@ volumeBoost: 0.35
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Stephanie Mills - The Medicine Song.mp3",
   timeCategory: "eighties",
-volumeBoost: 0.25
-
+volumeBoost: 0.25,
+year: 1984
 },
 
 
@@ -6530,9 +6743,9 @@ timeCategory: "nineties",
     path: "https://sunnydanceoldies05.netlify.app/CC Peniston - We Got A Love Thang.mp3",
       timeCategory: "nineties",
 quickFade: true,
-    eq: { bass: 1, mid: 2, treble: +1 } ,
-volumeBoost: 0.45,
-  playcount: 0
+
+volumeBoost: 1.00
+
 },
 
 
@@ -6554,7 +6767,7 @@ volumeBoost: 0.35
     path: "https://sunnydanceoldies03.netlify.app/Massive Attack - Unfinished Sympathy.mp3",
  timeCategory: "nineties",
 year:1991,
-volumeBoost: 0.85
+volumeBoost: 1.35
 },
 
 
@@ -6856,9 +7069,9 @@ volumeBoost: 0.35
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Stardust - Music Sounds Better With You.mp3",
     timeCategory: "nineties",
-  volumeBoost: 1.0,
-quickFade: true,
- playcount: 0
+  volumeBoost: 2.0,
+quickFade: true
+
 },
 
 
@@ -7042,7 +7255,8 @@ volumeBoost: 0.50,
     artist: "Leila K ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Leila K - Open Sesame.mp3",
-      timeCategory: "nineties"
+      timeCategory: "nineties",
+year: 1992
 },
 
 
@@ -7510,59 +7724,7 @@ part: 4
 
 
 
-// DJ Marcello
 
-
-
-
-
-{
-    name: "Marcello Live IT ",
-    artist: " DJ Marcello ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Marcello Live IT01.mp3",
-      timeCategory: "marcello",
-part: 1
-
-
-},
-
-
-
-{
-    name: "Marcello Live IT ",
-    artist: " DJ Marcello ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Marcello Live IT02.mp3",
-     timeCategory: "marcello",
-part: 2
-
-},
-
-
-{
-    name: "Marcello Live IT ",
-    artist: " DJ Marcello ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Marcello Live IT03.mp3",
-     timeCategory: "marcello",
-part: 3
-
-},
-
-
-
-
-
-
-{
-    name: "Marcello Live IT ",
-    artist: " DJ Marcello ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Marcello Live IT04.mp3",
-   timeCategory: "marcello",
-part: 4
-},
 
 
 
@@ -8261,7 +8423,7 @@ timeCategory: "morning",
     artist: "Pet Shop Boys ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Pet Shop Boys - West End Girls (10'' Mix).mp3",
-   playcount: 0,
+   year: 1984,
 timeCategory: "morning",
   volumeBoost: 0.35
 },
@@ -10976,7 +11138,7 @@ timeCategory: "morning"
     path: "https://sunnydanceoldies03.netlify.app/Massive Attack - Unfinished Sympathy.mp3",
  timeCategory: "morning",
 year: 1991,
-volumeBoost: 0.85
+volumeBoost: 1.00
 },
 
 
@@ -11116,8 +11278,8 @@ volumeBoost: 0.35
     artist: "Calvin Harris ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Calvin Harris - Obsessed.mp3",
-    timeCategory: "morning"
-
+    timeCategory: "morning",
+year: 2022
 
 },
 
@@ -11933,7 +12095,8 @@ playcount: 0
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/KC - Get Down Tonight2.mp3",
    volumeBoost: 0.65,
- timeCategory: "afternoon"
+ timeCategory: "afternoon",
+ year:1975,
 
 },
 
@@ -11986,7 +12149,8 @@ timeCategory: " afternoon"
     path: "https://sunny-dancemusic02.netlify.app/Inna - Un Momento.mp3",
     timeCategory: "afternoon",
 isLoud: true,          
-  loudnessValue: 0.85
+  loudnessValue: 0.85,
+  year: 2011
 },
 
 
@@ -12085,7 +12249,9 @@ quickFade: true
     artist: "Iggy Azalea ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Iggy Azalea - Switch.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+year: 2017
+
 },
 {
     name: " Hip Hop Lollipop",
@@ -12337,7 +12503,7 @@ year:2024
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Hayla & Nelly Furtado - Faded.mp3",
            timeCategory: "afternoon",
-  playcount: 0
+ year: 2025
 },
 
 
@@ -12435,7 +12601,8 @@ volumeBoost: 0.30
     artist: " Disco Lines & Tinashe ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Disco Lines & Tinashe - No Broke Boys.mp3",
-       timeCategory: "afternoon"
+       timeCategory: "afternoon",
+  year:2024
 },
 
 
@@ -12460,8 +12627,7 @@ volumeBoost: 0.30
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Griffin Tinashe - Scandalous.mp3",
        timeCategory: "afternoon",
-  volumeBoost: 0,
-  playcount: 0
+  year:2022
 },
 
 
@@ -12921,7 +13087,7 @@ timeCategory: "afternoon"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Rochelle Jordan - Doing It Too (new).mp3",
    timeCategory: "afternoon",
-year:2020
+year:2025
 },
 
 
@@ -14188,8 +14354,9 @@ volumeBoost: 0.10
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Everything But The Girl - Missing.mp3",
     timeCategory: "afternoon",
-  volumeBoost: 0.25,
-  playcount: 0
+    volumeBoost: 0.45,
+  year:1994
+
 },
 
 
@@ -14198,7 +14365,8 @@ volumeBoost: 0.10
     artist: "Siedah Garret ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Siedah Garret - Rain down Love.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+year:2006
 },
 
 
@@ -14520,9 +14688,9 @@ isNew: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Stardust - Music Sounds Better With You.mp3",
     timeCategory: "afternoon",
-  volumeBoost: 1.0,
-quickFade: true,
- playcount: 0
+  volumeBoost: 2.0,
+quickFade: true
+
 },
 
 
@@ -14567,7 +14735,8 @@ quickFade: true
     path: "https://sunnydancemusic04.netlify.app/Pabllo Vittar - Follow Me.mp3",
      timeCategory: "afternoon",
  isLoud: true,          
-  loudnessValue: 0.70
+  loudnessValue: 0.70,
+    year: 2022
 },
 
 
@@ -14705,9 +14874,7 @@ quickFade: true
     artist: "Muni Long",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Muni Long - Another.mp3",
-  
-
-
+  year:2022,
    timeCategory: "afternoon"
  },
 
@@ -15513,7 +15680,8 @@ timeCategory: "afternoon"
     artist: "Sophie And The Giants  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Sophie And The Giants - A little Bit Wild.mp3",
-  timeCategory: "afternoon"
+  timeCategory: "afternoon",
+  year:2025
 },
 
 
@@ -15618,7 +15786,8 @@ volumeBoost: 0.30
     artist: "Solardo ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Solardo - I Can't Wait.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+  year:2022
 },
 
 {
@@ -15663,7 +15832,8 @@ volumeBoost: 0.30
     artist: "Elton John & Dua Lipa",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Elton & Dua - Cold Heart.mp3",
-   timeCategory: "afternoon"
+   timeCategory: "afternoon",
+year: 2021
 },
 
 
@@ -16153,7 +16323,8 @@ isNew: true
     artist: "Mabel, Jack Jones , Galantis",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Mabel, Jack Jones , Galantis - Good Luck.mp3",
-       timeCategory: "afternoon"
+       timeCategory: "afternoon",
+year:2022
 },
 
 
@@ -16290,7 +16461,7 @@ isNew: true
     artist: "Chic  ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Chic - Dance Dance Dance (maxi).mp3",
- 
+  volumeBoost: 0.80,
  timeCategory: "afternoon"
 
 },
@@ -16432,8 +16603,8 @@ isNew: true
     artist: "Calvin Harris ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Calvin Harris - Obsessed.mp3",
-    timeCategory: "afternoon"
-
+    timeCategory: "afternoon",
+year: 2022
 
 },
 
@@ -16444,7 +16615,8 @@ isNew: true
     artist: "Kylie Minogue",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Kylie Minogue - Spinning Around.mp3",
-      timeCategory: "afternoon"
+    timeCategory: "afternoon",
+    year:2000
 },
 
 
@@ -16530,9 +16702,9 @@ year:2026
     artist: "Becky Hill ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Becky Hill - Say Something (new).mp3",
-          volumeBoost:0.30,  
-timeCategory: "afternoon"
-
+     volumeBoost:0.30,  
+   timeCategory: "afternoon",
+   year:2026
 
 },
 
@@ -16545,9 +16717,9 @@ timeCategory: "afternoon"
     artist: "Haute & Freddy ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Haute & Freddy - Touch Touch (new).mp3",
-          volumeBoost:0.30,  
-timeCategory: "afternoon"
-
+    volumeBoost:0.30,  
+   timeCategory: "afternoon",
+   year:2026
 
 },
 
@@ -16558,8 +16730,8 @@ timeCategory: "afternoon"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Jungle - Come Back To Me.mp3",
           volumeBoost:0.30,  
-timeCategory: "afternoon"
-
+timeCategory: "afternoon",
+year:2026
 
 },
 
@@ -16569,8 +16741,8 @@ timeCategory: "afternoon"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Miley Cirus - Bass Persuades (new).mp3",
           volumeBoost:0.30,  
-timeCategory: "afternoon"
-
+timeCategory: "afternoon",
+year:2026
 
 },
 
@@ -16759,7 +16931,7 @@ year:2007
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Darius - Cherie.mp3",
     timeCategory: "afternoon",
-   honestyear:2022
+   year:2022
 },
 
 
@@ -16801,7 +16973,8 @@ year:2007
     artist: "Lady Gaga ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Lady Gaga - The Dead Dance.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+  year:2025
 },
 
 
@@ -16810,9 +16983,8 @@ year:2007
     artist: "Calvin Harris ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Calvin Harris - Obsessed.mp3",
- 
- timeCategory: "afternoon"
-
+  timeCategory: "afternoon",
+year: 2022
 },
 
 
@@ -17476,7 +17648,8 @@ isNew: true
     path: "https://sunnydancemusic07.netlify.app/Becky Hill - Swim.mp3",
  timeCategory: "evening",
      isLoud: true,
-loudnessValue: 0.80 
+loudnessValue: 0.80 ,
+year: 2024
 },
 
 {
@@ -18056,7 +18229,7 @@ playcount: 0
     path: "https://dancemusic09.netlify.app/Dua Lipa - In Love Again.mp3",
     timeCategory: "evening",
     volumeBoost: 0.15,
-    playcount: 0
+year: 2020
 },
 
 
@@ -18087,13 +18260,13 @@ playcount: 0
 
 
 {
-     name: "The Dead Dance (new) ",
+     name: "The Dead Dance",
     artist: "Lady Gaga ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Lady Gaga - The Dead Dance.mp3",
     timeCategory: "evening",
- year: 2026,
-isNew: true
+  year:2025
+
 },
 
 
@@ -18810,7 +18983,8 @@ volumeBoost: 0.25
     artist: "Stallion & Dua Lipa ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Stallion & Dua Lipa - Sweetest Pie.mp3",
-       timeCategory: "evening"
+       timeCategory: "evening",
+   year: 2022
 },
 
 
@@ -18822,7 +18996,8 @@ volumeBoost: 0.25
     artist: "Dua Lipa  ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Dua Lipa - I need you.mp3",
-      timeCategory: "evening"
+      timeCategory: "evening",
+year: 2020
 },
 
 
@@ -19027,7 +19202,8 @@ quickFade: true
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic07.netlify.app/Jazzy feat. Kilimanjaro - No Bad Vibes.mp3",
      timeCategory: "evening",
-quickFade: true
+quickFade: true,
+year: 2025
 },
 
 
@@ -19080,15 +19256,6 @@ volumeBoost: 0.30
 },
 
 
-{
-     name: " High On Your Love",
-    artist: "Debbie Jacobs",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://danceoldies10.netlify.app/Debbie Jacobs - High On Your Love.mp3",
- 
- timeCategory: " evening"
-
-},
 
 
 {
@@ -19582,9 +19749,7 @@ loudnessValue: 0.70
     path: "https://sunnydanceoldies05.netlify.app/CC Peniston - We Got A Love Thang.mp3",
       timeCategory: "evening",
 quickFade: true,
-    eq: { bass: 1, mid: 2, treble: +1 } ,
-volumeBoost: 0.45,
-  playcount: 0
+volumeBoost: 1.00
 },
 
 
@@ -19966,7 +20131,8 @@ quickFade: true
     artist: "Leila K ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Leila K - Open Sesame.mp3",
-      timeCategory: "evening"
+      timeCategory: "evening",
+year: 1992
 },
 
 
@@ -20632,7 +20798,8 @@ playcount: 0
     artist: "Gabry Ponte ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Gabry Ponte - Dance Dance.mp3",
-             timeCategory: "evening"
+             timeCategory: "evening",
+year: 2023
 },
 
 
@@ -20657,8 +20824,8 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mariah Carey - Fantasy.mp3",
     year: 2021,
-timeCategory: "evening"
-
+timeCategory: "evening",
+volumeBoost: 1.0
 },
 
 
@@ -20755,7 +20922,8 @@ playcount: 0
     artist: "Ceranda ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Ceranda - Come and Get It.mp3",
-      timeCategory: "evening"
+      timeCategory: "evening",
+year: 2022
 },
 
 
@@ -21302,7 +21470,8 @@ volumeBoost: 0.30,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Shalamar - Right In The Socket.mp3",
     timeCategory: "evening",
-volumeBoost: 0.25
+volumeBoost: 0.25,
+year: 1979
 },
 
 
@@ -21475,7 +21644,7 @@ volumeBoost: 0.10
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Mongo Santamaria - Watermelon Man.mp3",
     timeCategory: "evening",
-volumeBoost:  1.7
+volumeBoost:  2.5
 },
 
 
@@ -21672,7 +21841,8 @@ isNew: true
     artist: "Kastuvas",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/kastuvas - Keep on moving.mp3",
-       timeCategory: "evening"
+       timeCategory: "evening",
+year: 2021
 },
 
 
@@ -22144,7 +22314,9 @@ volumeBoost: 0.15
     artist: "Alesso, Nate Smith",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Alesso, Nate Smith - I Like It.mp3",
-    timeCategory: "evening"
+    timeCategory: "evening",
+   isLoud: true,          
+  loudnessValue: 0.80
 },
 
 
@@ -22364,6 +22536,15 @@ timeCategory: "evening"
 
 
 
+{
+     name: "  The Boss",
+    artist: "Diana Ross  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Diana Ross - The Boss.mp3",
+           volumeBoost: 2,
+  timeCategory: " evening"
+  
+},
 
 
 
@@ -22525,7 +22706,7 @@ timeCategory: "evening"
     artist: "KC & Sunshine Band ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/KC - Get Down Tonight strictly.mp3",
- 
+ year:1975,
  timeCategory: "evening"
 
 },
@@ -22551,7 +22732,7 @@ timeCategory: "evening"
     artist: "The Trammps  ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/The Trammps - Disco Inferno.mp3",
- 
+  volumeBoost: 0.90,
  timeCategory: "evening"
 
 },
@@ -23544,8 +23725,8 @@ volumeBoost: 0.10
     artist: "Diana Ross  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Diana Ross - The Boss.mp3",
-           timeCategory: "evening-late"
-  
+           timeCategory: "evening-late",
+  volumeBoost: 2
 },
 
 
@@ -23891,8 +24072,8 @@ volumeBoost: 0.25
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Stephanie Mills - The Medicine Song.mp3",
   timeCategory: " evening-late",
-volumeBoost: 0.25
-
+volumeBoost: 0.25,
+year: 1984
 },
 
 
@@ -24747,7 +24928,7 @@ playcount: 0,
     timeCategory: "evening-late",
        year: 1990,
  quickFade: true,
-   volumeBoost: 0.80
+   volumeBoost: 1.0
 },
 
 
@@ -26437,7 +26618,8 @@ timeCategory: "evening-late"
     artist: "Nightclub ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Nightclub - Your Addiction.mp3",
-      timeCategory: "afternoon"
+      timeCategory: "afternoon",
+    year: 2018
 },
 
 {
@@ -26464,7 +26646,8 @@ timeCategory: "evening-late"
     artist: "Peggy Gou  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Peggy Gou - Nanana.mp3",
-       timeCategory: "evening-late"
+       timeCategory: "evening-late",
+  year:2023
 },
 
 
@@ -27024,7 +27207,7 @@ timeCategory: "evening-late"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Bumblebee Unlimited - Lady Bug.mp3",
       timeCategory: "evening-late",
-volumeBoost:  0.70
+volumeBoost: 1.50
 },
 
 
@@ -27955,9 +28138,7 @@ year:2023
     artist: "Brandy",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Brandy - Who is she 2 U.mp3",
-  
-
-
+    year: 2004,
   timeCategory: "evening-late"
 
 },
@@ -28028,8 +28209,8 @@ timeCategory: "evening-late"
     artist: "Sugar Rainbow",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Sugar rainbow - Game of life.mp3",
-    timeCategory: "evening-late"
-
+    timeCategory: "evening-late",
+    year: 2021
 },
 
 
@@ -29078,7 +29259,7 @@ year:2026
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Bumblebee Unlimited - Lady Bug.mp3",
       timeCategory: "f afternoon",
-volumeBoost:  0.70
+volumeBoost: 1.50
 },
 
 
@@ -29088,9 +29269,9 @@ volumeBoost:  0.70
     artist: "Haute & Freddy ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Haute & Freddy - Touch Touch (new).mp3",
-          volumeBoost:0.30,  
-timeCategory: "f afternoon",
-year:2026
+    volumeBoost:0.30,  
+   timeCategory: "f afternoon",
+   year:2026
 
 },
 
@@ -29297,8 +29478,8 @@ volumeBoost: 0.80
     artist: "Sisters Sledge",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Sisters Sledge - Lost In Music (1984).mp3",
-        timeCategory: "f afternoon"
-
+        timeCategory: "f afternoon",
+year: 1984
 },
 
 {
@@ -30004,7 +30185,8 @@ volumeBoost: 0.40
     artist: " Disco Lines & Tinashe ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Disco Lines & Tinashe - No Broke Boys.mp3",
-       timeCategory: "f evening"
+       timeCategory: "f evening",
+  year:2024
 },
 
 
@@ -30013,7 +30195,8 @@ volumeBoost: 0.40
     artist: "Darius",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Darius - Cherie.mp3",
-    timeCategory: "f evening"
+    timeCategory: "f evening",
+   year:2022
 },
 
 
@@ -30048,7 +30231,8 @@ volumeBoost: 0.40
     artist: "Lady Gaga ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Lady Gaga - The Dead Dance.mp3",
-    timeCategory: "f-evening"
+      year:2025,
+timeCategory: "f-evening"
 },
 
 
@@ -30106,8 +30290,7 @@ volumeBoost: 0.10
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Griffin Tinashe - Scandalous.mp3",
        timeCategory: "f evening",
-  volumeBoost: 0,
-  playcount: 0
+  year:2022
 },
 
 {
@@ -30518,8 +30701,8 @@ isNew: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mariah Carey - Fantasy.mp3",
     year: 2021,
-timeCategory: "f evening"
-
+timeCategory: "f evening",
+volumeBoost: 1.0
 },
 
 
@@ -30615,7 +30798,7 @@ volumeBoost: 0.10
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Mongo Santamaria - Watermelon Man.mp3",
     timeCategory: "f evening",
-volumeBoost:  1.7
+volumeBoost:  2.5
 },
 
 
@@ -30689,7 +30872,9 @@ isLoud: true,
     artist: "Alesso, Nate Smith ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Alesso, Nate Smith - I Like It.mp3",
-    timeCategory: "f evening"
+    timeCategory: "f evening",
+ isLoud: true,          
+  loudnessValue: 0.80
 },
 
 
@@ -30806,9 +30991,10 @@ isNew: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Inna - Un Momento.mp3",
     timeCategory: "f evening",
-isLoud: true,          
-  loudnessValue: 0.90
-},
+   isLoud: true,          
+  loudnessValue: 0.90,
+  year: 2011
+}, 
 
 
 {
@@ -31274,9 +31460,7 @@ year:2020
     path: "https://sunnydanceoldies05.netlify.app/CC Peniston - We Got A Love Thang.mp3",
       timeCategory: "f evening",
 quickFade: true,
-    eq: { bass: 1, mid: 2, treble: +1 } ,
-volumeBoost: 0.65,
-  playcount: 0
+volumeBoost: 1.00
 },
 
 
@@ -31331,7 +31515,7 @@ timeCategory: "f evening"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Hayla & Nelly Furtado - Faded.mp3",
            timeCategory: "f evening",
-  playcount: 0
+   year: 2025
 },
 
 
@@ -31670,7 +31854,7 @@ volumeBoost: 0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Bumblebee Unlimited - Lady Bug.mp3",
       timeCategory: "f evening-late",
-volumeBoost:  0.70
+volumeBoost: 1.50
 },
 
 
@@ -32024,8 +32208,8 @@ isNew: true
     artist: "KC and The Sunshine Band",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/K C and The Sunshine Band - Thats The Way (1975).mp3",
-       timeCategory: "f evening-late"
-
+       timeCategory: "f evening-late",
+ year: 1975
   
 },
 
@@ -32077,7 +32261,8 @@ timeCategory: "f evening-late"
     artist: "Siedah Garret ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://Sunnydanceoldies04.netlify.app/Siedah Garret - Rain down Love.mp3",
- timeCategory: "f evening-late"
+ timeCategory: "f evening-late",
+   year:2006
 },
 
 
@@ -32160,7 +32345,8 @@ year:2013
     artist: "Ariane Grande ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Ariane Grande - Save your Tears.mp3",
-  timeCategory: "f evening-late"
+  timeCategory: "f evening-late",
+year:2020
 },
 
 {
@@ -32246,7 +32432,8 @@ volumeBoost: 0.90
     artist: "Dua Lipa  ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Dua Lipa - I need you.mp3",
-  timeCategory: "f evening-late"
+  timeCategory: "f evening-late",
+year: 2020
 },
 
 
@@ -32476,9 +32663,8 @@ volumeBoost: 0.10
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Katy Perry - Nirvana.mp3",
     timeCategory: "f evening-late",
-    eq: { bass: 2, mid: 3, treble: +1 } ,
-    year: 2024,
-volumeBoost: 1.3
+      year: 2024,
+volumeBoost: 2.3
     
 },
 
@@ -32561,8 +32747,9 @@ isNew: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Everything But The Girl - Missing.mp3",
     timeCategory: "f evening-late",
-  volumeBoost: 0.25,
-  playcount: 0
+  volumeBoost: 0.45,
+  year:1994
+
 },
 
 
@@ -32698,7 +32885,7 @@ isNew: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Hayla & Nelly Furtado - Faded.mp3",
            timeCategory: "f evening-late",
-  playcount: 0
+ year: 2025
 },
 
 
@@ -32736,14 +32923,6 @@ isNew: true
 },
 
 
-{
-     name: "  The Boss",
-    artist: "Diana Ross  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Diana Ross - The Boss.mp3",
-           timeCategory: "f evening-late"
-  
-},
 
 
 
@@ -33389,9 +33568,9 @@ isLoud: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Stardust - Music Sounds Better With You.mp3",
     timeCategory: "f evening-late",
-  volumeBoost: 1.0,
-quickFade: true,
- playcount: 0
+  volumeBoost: 2.0,
+quickFade: true
+
 },
 
 
@@ -33466,17 +33645,83 @@ timeCategory: "f evening-late"
 
 
 
-// --- Purify ritual --- trackList = trackList.map(purifyTrack);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// --- Purify ritual ---
+trackList = trackList.map(purifyTrack);
+
 console.log("Purified trackList:", trackList);
 
 
+// ===== UNIQUE TRACKS =====
+const uniqueTracks = [
+    ...new Map(
+        trackList.map(track => [
+            `${track.artist?.trim().toLowerCase()}|${track.title?.trim().toLowerCase()}`,
+            track
+        ])
+    ).values()
+];
+
+console.log(`Library tracks: ${trackList.length}`);
+console.log(`Unique tracks: ${uniqueTracks.length}`);
 
 
+// ===== TRACKS PER YEAR (UNIQUE) =====
+const currentYear = new Date().getFullYear();
+const yearCounts = {};
+
+uniqueTracks.forEach(track => {
+    const year = Number(track.year);
+
+    if (year >= 1965 && year <= currentYear) {
+        yearCounts[year] = (yearCounts[year] || 0) + 1;
+    }
+});
+
+console.log("----- Unique Tracks Per Year -----");
+
+for (let year = 1965; year <= currentYear; year++) {
+    console.log(`${year}: ${yearCounts[year] || 0} tracks`);
+}
+
+console.log("----- End Year Report -----");
 
 
+// ===== TRACKS PER DECADE (UNIQUE) =====
+const decadeCounts = {};
 
+uniqueTracks.forEach(track => {
+    const year = Number(track.year);
 
+    if (year) {
+        const decade = Math.floor(year / 10) * 10;
+        decadeCounts[decade] = (decadeCounts[decade] || 0) + 1;
+    }
+});
 
+console.log("----- Unique Tracks Per Decade -----");
+
+Object.entries(decadeCounts)
+    .sort((a, b) => Number(a[0]) - Number(b[0]))
+    .forEach(([decade, count]) => {
+        console.log(`${decade}s: ${count} tracks`);
+    });
+
+console.log(`Total unique tracks: ${uniqueTracks.length}`);
 
 
 
@@ -33638,7 +33883,8 @@ function isOrderedCategory(cat) {
      "mixinglondon",
      "ministry",
     "disco",
- "marcello",
+
+"acid",
 "frankiebones"
 ].includes(cat);
 }
