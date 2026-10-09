@@ -1,4 +1,4 @@
-	
+
 
  
 
@@ -154,7 +154,7 @@ function buildPlaylist(tracks) {
     "mixinglondon",
     "ministry",
     "frankiebones",
-    "marcello"
+    "acid"
   ];
 
   // Clean up category strings (removes ALL weird spaces)
@@ -1300,8 +1300,8 @@ year: 1984
     artist: "Tink ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Tink - Save Your Soul.mp3",
-   timeCategory: "ballads"
-
+   timeCategory: "ballads",
+  year: 2023
 
 }, 
 {
@@ -3564,7 +3564,7 @@ volumeBoost: 0.20,
     artist: "KC & Sunshine Band ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/KC - Get Down Tonight strictly.mp3",
-  year:1975,
+  year: 1975,
  timeCategory: "seventies"
 
 },
@@ -3575,7 +3575,7 @@ volumeBoost: 0.20,
     artist: "Stargard ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Stargard - Wear It Out.mp3",
- 
+   year: 1979,
  timeCategory: "seventies"
 
 },
@@ -3808,7 +3808,7 @@ part: 4
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/K C and The Sunshine Band - Thats The Way (1975).mp3",
        timeCategory: "soulshow",
-  
+  year:1975,
 part: 5
   
 },
@@ -5015,7 +5015,7 @@ playcount: 0
     artist: "Gary Byrd   ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Gary Byrd - The Crown (eighties).mp3",
- 
+  volumeBoost: 1.5,
  timeCategory: "eighties"
 
 },
@@ -7285,7 +7285,9 @@ year: 1992
     artist: "DHS",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/DHS - The House Of God.mp3",
-    timeCategory: "nineties"
+    timeCategory: "nineties",
+     isLoud: true,
+loudnessValue: 0.90 
 },
 
 {
@@ -7578,8 +7580,8 @@ timeCategory: "nineties"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Crystal Waters - Gypsy Woman.mp3",
      year: 1991,
-   timeCategory: "nineties"
-
+   timeCategory: "nineties",
+   volumeBoost: 0.70
   
 },
 
@@ -7589,7 +7591,7 @@ timeCategory: "nineties"
     artist: "Snap ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Snap - Rhythm Is A Dancer.mp3",
-       year: 1977,
+       year: 1997,
    timeCategory: "nineties"
 
   
@@ -7604,7 +7606,7 @@ timeCategory: "nineties"
     timeCategory: "nineties",
     quickFade: true,
 volumeBoost: 0.20,
-playcount: 0
+year: 1990
 },
 
 
@@ -7941,7 +7943,7 @@ quickFade: true
     artist: "Dua Lipa ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Dua Lipa - Illusion.mp3",
-    year: 2025,
+    year: 2024,
 timeCategory: "morning"
 },
 
@@ -8021,9 +8023,8 @@ isLoud: true,
     artist: "Lizzo ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Lizzo2 - Juice.mp3",
-    year: 2025,
-timeCategory: "morning"
-
+   timeCategory: "morning",
+    year:  2019
 },
 
 {
@@ -9020,7 +9021,8 @@ timeCategory: "morning",
     artist: "Dua Lipa ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Dua Lipa - Break My Heart.mp3",
-      timeCategory: "morning"
+      timeCategory: "morning",
+    year: 2020
 },
 
 
@@ -9240,8 +9242,8 @@ timeCategory: "morning",
     artist: "Simply Red   ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Simply Red - Sunrise (Extended).mp3",
-    timeCategory: "morning"
-
+    timeCategory: "morning",
+  year: 2003
 
 },
 
@@ -10981,9 +10983,9 @@ volumeBoost: 0.25
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Freemasons - When You touch me.mp3",
     timeCategory: "morning",
-isLoud: true,          
-  loudnessValue: 0.70 
-
+   isLoud: true,          
+  loudnessValue: 0.70,
+   year:  2007
 
 },
 
@@ -11528,7 +11530,8 @@ volumeBoost: 0.25
     artist: "Nicki Minaj ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Nicki Minaj - Good Form.mp3",
-      timeCategory: "morning"
+      timeCategory: "morning",
+  year: 2018
 },
 
 
@@ -11637,7 +11640,8 @@ volumeBoost: 0.25
     artist: "Freemasons",
      image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Freemasons  - Mesmerized.mp3",
-           timeCategory: "morning"
+           timeCategory: "morning",
+  year: 2005
 },
 
 
@@ -12096,7 +12100,7 @@ playcount: 0
     path: "https://dancemusic08.netlify.app/KC - Get Down Tonight2.mp3",
    volumeBoost: 0.65,
  timeCategory: "afternoon",
- year:1975,
+ year: 1975
 
 },
 
@@ -12124,7 +12128,7 @@ playcount: 0
     artist: "Corona ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Corona - Rhythm Of The Night.mp3",
-       year: 2019,
+       year: 1994,
 timeCategory: " afternoon"
 
   
@@ -12318,7 +12322,8 @@ year: 2026
     artist: "Diplo ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Diplo & Damian Lazarus - Don't be afraid.mp3",
-   timeCategory: "afternoon"
+   timeCategory: "afternoon",
+   year: 2017
 },
 {
     name: "    Lay Low",
@@ -12372,7 +12377,8 @@ year: 2026
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic07.netlify.app/Katy Perry - Lifetimes.mp3",
     volumeBoost: 0.55,
-  timeCategory: "afternoon"
+  timeCategory: "afternoon",
+year: 2024
 },
 
 {
@@ -12388,8 +12394,8 @@ year: 2026
     artist: "Diplo & Damian Lazarus ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Diplo & Damian Lazarus - Don't be afraid.mp3",
-  timeCategory: "afternoon"
-
+  timeCategory: "afternoon",
+ year: 2017
 },
 
 
@@ -12434,7 +12440,9 @@ year:2024
     artist: "Charlotte Day Wilson ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Charlotte Day Wilson - Fever.mp3",
-   timeCategory: "afternoon"
+   timeCategory: "afternoon",
+year: 2023
+
 },
 
 
@@ -12517,7 +12525,7 @@ year:2024
            timeCategory: "afternoon",
    quickFade: true,
     volumeBoost: 0.35,
-    playcount: 0
+      year: 2025
 },
 
 
@@ -12649,7 +12657,8 @@ volumeBoost: 0.30
     artist: "Tinashe ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Tinashe - Nasty.mp3",
-       timeCategory: "afternoon"
+          year: 2024,
+ timeCategory: "afternoon"
 },
 
 
@@ -12728,7 +12737,8 @@ loudnessValue: 0.80 ,
     path: "https://dancemusic08.netlify.app/Fischer Bbyclose - Blackberries (maxi).mp3",
        timeCategory: "afternoon",
      isLoud: true,
-loudnessValue: 0.80 
+loudnessValue: 0.80 ,
+  year: 2025
 },
 
 
@@ -13189,7 +13199,8 @@ volumeBoost: 0.50
     artist: " Amerie ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Amerie - 1 Thing.mp3",
-           timeCategory: "afternoon"
+           timeCategory: "afternoon",
+   year:2005
 },
 
 
@@ -13478,7 +13489,8 @@ timeCategory: "afternoon"
     artist: "Lizzo ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Lizzo2 - Juice.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+    year: 2019
 },
 
 
@@ -15160,7 +15172,7 @@ isNew: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Tate McRae - Nobody's Girl.mp3",
     timeCategory: "afternoon",
-playcount: 0
+       year: 2025
    
 
 
@@ -15578,7 +15590,8 @@ timeCategory: "afternoon"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/The weeknd - Take my breath.mp3",
    timeCategory: "afternoon",
- quickFade: true
+ quickFade: true,
+  year: 2022
 },
 
 
@@ -16663,8 +16676,8 @@ year:2020
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Bob Harsher - Autonomy.mp3",
           volumeBoost:0.30,  
-timeCategory: "afternoon"
-
+timeCategory: "afternoon",
+  year: 2022
 
 },
 
@@ -16717,7 +16730,7 @@ year:2026
     artist: "Haute & Freddy ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Haute & Freddy - Touch Touch (new).mp3",
-    volumeBoost:0.30,  
+    volumeBoost:1.00,  
    timeCategory: "afternoon",
    year:2026
 
@@ -16758,8 +16771,8 @@ year:2026
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Rita Ora - Doing It.mp3",
        timeCategory: "afternoon",
-quickFade: true
-
+quickFade: true,
+  year: 2014
 },
 
 
@@ -17165,7 +17178,8 @@ playcount: 0
     artist: "MK, Burns  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/MK, Burns - Better.mp3",
-    timeCategory: "evening"
+    timeCategory: "evening",
+    year: 2022
 },
 
 
@@ -17375,7 +17389,8 @@ year:2016
     artist: "Nicki Minaj ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Nicki Minaj - Good Form.mp3",
-     timeCategory: "evening"
+     timeCategory: "evening",
+  year: 2018
 },
 
 
@@ -17690,7 +17705,8 @@ loudnessValue: 0.90
     artist: "Kylie Minogue  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Kylie Minogue - Tension.mp3",
-  timeCategory: "evening"
+  timeCategory: "evening",
+year: 2023
 },
 
 
@@ -17844,7 +17860,8 @@ isNew: true
     artist: "Sonny Fodera & Jazzy  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Sonny Fodera & Jazzy - Somedays.mp3",
-   timeCategory: "evening"
+   timeCategory: "evening",
+    year: 2024
 },
 
 
@@ -17869,7 +17886,8 @@ timeCategory: "evening"
     path: "https://sunnydancemusic07.netlify.app/Zara Larsson - Midnight Sun.mp3",
     timeCategory: "evening",
 isLoud: true,          
-  loudnessValue: 0.80
+  loudnessValue: 0.80,
+year: 2025
 },
 
 
@@ -17906,7 +17924,7 @@ isLoud: true,
     artist: "Rita Ora ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Rita Ora - Praising You.mp3",
-  
+  year: 2023,
 
 
   timeCategory: "evening"
@@ -18067,7 +18085,8 @@ year:2025
     artist: " Rita Ora  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Rita Ora - All Natural.mp3",
-       timeCategory: "evening"
+       timeCategory: "evening",
+  year: 2025
 },
 
 
@@ -19619,7 +19638,8 @@ quickFade: true,
     artist: "Tink  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Tink - Gangsta's Paradise.mp3",
-         timeCategory: "evening"
+         timeCategory: "evening",
+  year: 2023
 },
 
 
@@ -19785,7 +19805,8 @@ quickFade: true
     artist: "Freemasons",
      image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/more music at the weekend.mp3",
-          timeCategory: "evening"
+          timeCategory: "evening",
+  year: 2005
 },
 
 
@@ -20330,7 +20351,8 @@ timeCategory: "evening"
     artist: "Kylie Minogue  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Kylie Minogue - Tension.mp3",
-     timeCategory: "evening"
+     timeCategory: "evening",
+ year: 2023
 },
 
 
@@ -20562,7 +20584,9 @@ playcount: 0
     artist: "DHS",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/DHS - The House Of God.mp3",
-    timeCategory: "evening"
+    timeCategory: "evening",
+     isLoud: true,
+loudnessValue: 0.90
 },
 
 {
@@ -20902,7 +20926,8 @@ playcount: 0
     artist: "Freemasons ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Freemasons - Keep the fire burnin'.mp3",
-    timeCategory: "evening"
+    timeCategory: "evening",
+  year: 2008
 },
 
 
@@ -20970,7 +20995,8 @@ isNew: true
     artist: "Dua Lipa ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Dua Lipa - Illusion.mp3",
-       timeCategory: "evening"
+       timeCategory: "evening",
+year: 2024
 },
 
 
@@ -21041,6 +21067,7 @@ isNew: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/Sunny radio jingle3.mp3",
     timeCategory: "evening"
+
 },
 
 
@@ -21318,7 +21345,7 @@ isLoud: true,
     artist: "Johnny Pate ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/Johnny Pate - Shaft In Africa.mp3",
-  year:1973,
+  year: 1973,
  timeCategory: "evening",
 volumeBoost: 0.20
 },
@@ -21437,7 +21464,7 @@ volumeBoost: 1.0
     timeCategory: "evening",
     quickFade: true,
 volumeBoost: 0.20,
-playcount: 0
+year: 1990
 },
 
 
@@ -21928,8 +21955,8 @@ volumeBoost: 0.25
     artist: "Charlotte Day Wilson ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Charlotte D. Wilson - Fever (12inch).mp3",
-    timeCategory: "evening"
-
+    timeCategory: "evening",
+   year: 2023
 
 },
 
@@ -22706,7 +22733,7 @@ timeCategory: "evening"
     artist: "KC & Sunshine Band ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/KC - Get Down Tonight strictly.mp3",
- year:1975,
+ year: 1975,
  timeCategory: "evening"
 
 },
@@ -24210,7 +24237,8 @@ year: 1984
     artist: "James Brown",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/James Brown - Its A Man World.mp3",
-    timeCategory: "evening-late"
+    timeCategory: "evening-late",
+   year: 1966
 },
 
 
@@ -24646,7 +24674,7 @@ timeCategory: "evening-late"
     artist: "Gary Byrd   ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Gary Byrd - The Crown.mp3",
- 
+ volumeBoost: 1.5,
  timeCategory: "evening-late"
 
 },
@@ -25151,7 +25179,8 @@ timeCategory: "evening-late"
     artist: "Black Legend ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/You see the trouble with me - Black Legend.mp3",
-    timeCategory: "evening-late"
+    timeCategory: "evening-late",
+  year: 2000
 },
 
 
@@ -26422,8 +26451,7 @@ playcount: 0
   timeCategory: "evening-late",
      quickFade: true,
   volumeBoost: 0.50,
-    playcount: 0
-
+  year: 2007
 },
 
 
@@ -27181,7 +27209,8 @@ timeCategory: "evening-late"
     artist: "Dua lipa ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Dua lipa - One Kiss.mp3",
-   timeCategory: "evening-late"
+   timeCategory: "evening-late",
+   year: 2018
 },
 
 
@@ -27336,7 +27365,9 @@ volumeBoost: 1.50
     artist: " Amerie ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Amerie - 1 Thing.mp3",
-           timeCategory: "evening-late"
+           timeCategory: "evening-late",
+   year:2005
+
 },
 
 
@@ -27678,7 +27709,8 @@ timeCategory: " evening-late"
     artist: "Tink  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Tink - Gangsta's Paradise.mp3",
-      timeCategory: "evening-late"
+      timeCategory: "evening-late",
+  year: 2023
 },
 
 
@@ -28148,7 +28180,7 @@ year:2023
     artist: "Kelela ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Kelela - Happy Ending.mp3",
- 
+    year: 2022,
       timeCategory: "evening-late"
  },
 
@@ -28383,7 +28415,7 @@ isNew: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Tate McRae - Nobody's Girl.mp3",
     timeCategory: "f afternoon",
-playcount: 0
+   year: 2025
    
 
 
@@ -28485,7 +28517,7 @@ timeCategory: "f afternoon"
     artist: "Corona ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Corona - Rhythm Of The Night.mp3",
-       year: 2019,
+       year: 1994,
 timeCategory: "f afternoon"
 
   
@@ -28507,7 +28539,7 @@ volumeBoost: 0.10
     artist: "Snap ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Snap - Rhythm Is A Dancer.mp3",
-       year: 1977,
+       year: 1997,
    timeCategory: "f afternoon"
 
   
@@ -28565,7 +28597,8 @@ year:2022
     artist: " Rita Ora  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Rita Ora - All Natural.mp3",
-       timeCategory: "f afternoon"
+       timeCategory: "f afternoon",
+  year: 2025
 },
 
 
@@ -28767,8 +28800,8 @@ year:2025
     artist: "Bebe Rexha",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Bebe Rexha - Sacrifice.mp3",
-         timeCategory: "f afternoon"
-
+         timeCategory: "f afternoon",
+    year: 2021
 
 },
 
@@ -28797,8 +28830,8 @@ year:2025
     artist: "Simply Red   ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Simply Red - Sunrise (Extended).mp3",
-    timeCategory: "f afternoon"
-
+    timeCategory: "f afternoon",
+ year: 2003
 
 },
 
@@ -28927,7 +28960,7 @@ timeCategory: "f-afternoon"
     path: "https://sunnydancemusic07.netlify.app/Dua Lipa - Illusion.mp3",
     timeCategory: "f afternoon",
      quickFade: true,
-      playcount: 0
+      year: 2024
 },
 
 
@@ -28967,7 +29000,8 @@ timeCategory: "f-afternoon"
     artist: "Kelela ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Kelela - Happy Ending.mp3",
-    timeCategory: "f afternoon"
+    timeCategory: "f afternoon",
+   year: 2022
 },
 
 {
@@ -29269,7 +29303,7 @@ volumeBoost: 1.50
     artist: "Haute & Freddy ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Haute & Freddy - Touch Touch (new).mp3",
-    volumeBoost:0.30,  
+        volumeBoost:1.00,  
    timeCategory: "f afternoon",
    year:2026
 
@@ -29337,7 +29371,8 @@ timeCategory: "f afternoon"
     artist: " Dior ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/MK - Dior (12inch).mp3",
-       timeCategory: "f afternoon"
+       timeCategory: "f afternoon",
+  year: 2025
 },
 
 
@@ -29360,7 +29395,8 @@ timeCategory: "f afternoon"
     path: "https://dancemusic08.netlify.app/Fischer Bbyclose - Blackberries (maxi).mp3",
     isLoud: true,
 loudnessValue: 0.80, 
-       timeCategory: "f afternoon"
+       timeCategory: "f afternoon",
+  year: 2025
 },
 
 
@@ -29446,7 +29482,8 @@ loudnessValue: 0.60
     artist: "The Weeknd",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/The weeknd - Take my breath.mp3",
-    timeCategory: "f afternoon"
+    timeCategory: "f afternoon",
+  year: 2022
 },
 
 
@@ -29524,7 +29561,8 @@ isNew: true
     artist: "Zerb & Rita Ora",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Zerb & Rita Ora - If Its Not Love.mp3",
-    timeCategory: "f afternoon"
+    timeCategory: "f afternoon",
+    year: 2026
 },
 
 
@@ -29539,7 +29577,7 @@ isNew: true
 
 
 {
-     name: " RunWay (new)",
+     name: " RunWay",
     artist: "Lady Gaga  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Lady Gaga - RunWay (new).mp3",
@@ -29712,7 +29750,9 @@ isNew: true
     artist: " Amerie ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Amerie - 1 Thing.mp3",
-           timeCategory: "f afternoon"
+           timeCategory: "f afternoon",
+   year:2005
+
 },
 
 
@@ -29800,7 +29840,7 @@ volumeBoost: 0.80
     artist: "Gary Byrd   ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Gary Byrd - The Crown.mp3",
- 
+  volumeBoost: 1.5,
 timeCategory: "f afternoon"
 
 },
@@ -29980,8 +30020,7 @@ year:2023
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic07.netlify.app/Katy Perry - Lifetimes.mp3",
   volumeBoost: 0.55,
-
-
+year: 2024,
   timeCategory: "f afternoon"
 
 },
@@ -30130,8 +30169,8 @@ loudnessValue: 0.90
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Crystal Waters - Gypsy Woman.mp3",
      year: 1991,
-   timeCategory: "f evening"
-
+   timeCategory: "f evening",
+   volumeBoost: 0.70
   
 },
 {
@@ -30398,7 +30437,8 @@ timeCategory: "f evening"
     artist: " Rita Ora  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Rita Ora - All Natural.mp3",
-       timeCategory: "f evening"
+       timeCategory: "f evening",
+  year: 2025
 },
 
 {
@@ -30412,13 +30452,7 @@ timeCategory: "f evening"
 
 
 
-{
-    name: " Nasty",
-    artist: "Tinashe ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/Tinashe - Nasty.mp3",
-       timeCategory: "f evening"
-},
+
 
 
 
@@ -30519,7 +30553,8 @@ timeCategory: "f evening"
     artist: "No Stoppin' Us    ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Charlie Wilson - No stoppin' us.mp3",
-    timeCategory: "f evening"  
+    timeCategory: "f evening",
+    year: 2022
 },
 
 
@@ -30538,7 +30573,8 @@ timeCategory: "f evening"
     artist: "Shakira & Rauw Alejandro     ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Shakira & Rauw Alejandro - Te Felicito.mp3",
-    timeCategory: "f evening"
+    timeCategory: "f evening",
+    year: 2022
 },
 
 
@@ -30957,8 +30993,8 @@ isNew: true
     artist: "Nicki Minaj ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Nicki Minaj - Good Form.mp3",
-     timeCategory: "f evening"
-
+     timeCategory: "f evening",
+  year: 2018
 },
 
 
@@ -30969,7 +31005,8 @@ isNew: true
     artist: "Sonny Fodera & Jazzy  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Sonny Fodera & Jazzy - Somedays.mp3",
-   timeCategory: "f evening"
+   timeCategory: "f evening",
+    year: 2024
 },
 
 
@@ -30981,7 +31018,8 @@ isNew: true
     artist: "MK, Burns  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/MK, Burns - Better.mp3",
-    timeCategory: "f evening"
+    timeCategory: "f evening",
+    year: 2022
 },
 
 
@@ -31131,8 +31169,8 @@ timeCategory: "f evening"
     artist: "Dua Lipa ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Dua Lipa - Break My Heart.mp3",
-       timeCategory: "f evening"
-
+      timeCategory: "f evening",
+    year: 2020
 },
 
 
@@ -31235,7 +31273,7 @@ timeCategory: "f evening"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Man Parish Hip Hop Be Bop.mp3",
      isLoud: true,          
-  loudnessValue: 0.80, 
+  loudnessValue: 0.90, 
    timeCategory: "f evening"
 
 },
@@ -31318,11 +31356,8 @@ timeCategory: "f evening"
     path: "https://sunnydanceoldies09.netlify.app/Players Association - Turn The Music Up!.mp3",
     timeCategory: "f evening",
     quickFade: true,
-    volumeBoost: 0.55,
-    
-  eq: { bass: 2, mid: 2, treble: +1 } ,
-playcount: 0
-},
+    volumeBoost: 1.55
+    },
 
 
 {
@@ -31529,7 +31564,7 @@ timeCategory: "f evening"
            timeCategory: "f evening",
    quickFade: true,
     volumeBoost: 0.35,
-    playcount: 0
+     year: 2025
 },
 
 
@@ -31637,7 +31672,8 @@ volumeBoost: 0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Rita Ora - Doing It.mp3",
    timeCategory: "f evening",
-   quickFade: true
+   quickFade: true,
+  year: 2014
 },
 
 
@@ -31909,7 +31945,7 @@ volumeBoost: 1.50
     artist: "Stargard ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Stargard - Wear It Out.mp3",
- 
+    year: 1979,
  timeCategory: "f evening-late"
 
 },
@@ -32127,7 +32163,7 @@ isNew: true
 
 
 {
-     name: " RunWay (new)",
+     name: " RunWay ",
     artist: "Lady Gaga  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Lady Gaga - RunWay (new).mp3",
@@ -32242,14 +32278,6 @@ timeCategory: "f evening-late"
 
 
 
-{
-    name: "  Paul Van Dyk",
-    artist: "For An Angel ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://Sunnydanceoldies04.netlify.app/For an Ange l- Paul van Dyk.mp3",
- timeCategory: "f evening-late"
-},
-
 
 
 
@@ -32280,7 +32308,8 @@ timeCategory: "f evening-late"
     artist: "Freemasons",
      image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://Sunnydanceoldies04.netlify.app/Freemasons  - Mesmerized.mp3",
-   timeCategory: "f evening-late"
+   timeCategory: "f evening-late",
+  year: 2005
 },
 
 {
@@ -32304,9 +32333,7 @@ timeCategory: "f evening-late"
     artist: "Heidi Klum ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Heidi Klum - Sunglasses At Night.mp3",
-  
-
-
+  year: 2024,
  timeCategory: "f evening-late"
 },
 
@@ -32503,8 +32530,8 @@ year: 2020
     artist: "Bob Harsher ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Bob Harsher - Autonomy.mp3",
-      timeCategory: "f evening-late"
-
+      timeCategory: "f evening-late",
+  year: 2022
 
 },
 
@@ -32526,8 +32553,8 @@ year: 2020
     artist: "Dua Lipa ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Dua Lipa - Break My Heart.mp3",
-     timeCategory: "f evening-late"
-
+     timeCategory: "f evening-late",
+year: 2020
 },
 
 
@@ -32546,7 +32573,8 @@ year: 2020
     artist: "Jamiroquai",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Jamiroquai - Cloud 9.mp3",
-     timeCategory: "f evening-late"
+     timeCategory: "f evening-late",
+   year: 2017
 },
 
 
@@ -32554,15 +32582,6 @@ year: 2020
 
 
 
-
-
-{
-     name: "  1 Thing",
-    artist: " Amerie ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Amerie - 1 Thing.mp3",
-           timeCategory: "f evening-late"
-},
 
 
 
@@ -32899,7 +32918,7 @@ isNew: true
            timeCategory: "f evening-late",
    quickFade: true,
     volumeBoost: 0.35,
-    playcount: 0
+   year: 2025
 },
 
 
@@ -32979,13 +32998,6 @@ isNew: true
 
 
 
-{
-    name: "  Somedays ",
-    artist: "Sonny Fodera & Jazzy  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic08.netlify.app/Sonny Fodera & Jazzy - Somedays.mp3",
-   timeCategory: "f evening-late"
-},
 
 
 
@@ -33121,7 +33133,7 @@ isNew: true
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Tinashe - Nasty.mp3",
        timeCategory: "f evening-late",
- playcount: 0
+    year: 2024
 },
 
 
@@ -33242,7 +33254,8 @@ year:2017
     artist: "J Brown",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/J Brown - Vibe.mp3",
-   timeCategory: "f evening-late"
+   timeCategory: "f evening-late",
+  year: 2022
 },
 
 
@@ -33370,7 +33383,8 @@ timeCategory: "f afternoon"
     path: "https://sunnydancemusic07.netlify.app/Zara Larsson - Midnight Sun.mp3",
     isLoud: true,          
   loudnessValue: 0.80,
-timeCategory: "f evening-late"
+timeCategory: "f evening-late",
+year: 2025
 },
 
 
@@ -33883,7 +33897,6 @@ function isOrderedCategory(cat) {
      "mixinglondon",
      "ministry",
     "disco",
-
 "acid",
 "frankiebones"
 ].includes(cat);

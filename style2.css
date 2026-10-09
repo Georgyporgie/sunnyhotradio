@@ -483,7 +483,12 @@ color: black;background-color: #FFCC99;border-radius:5px;
 
 
 
-.dark {  color: #3366FF;
+.dark  { color: #FFDA44;
+text-shadow:
+    0 0 8px rgba(255,213,74,0.6),
+    0 0 18px rgba(255,213,74,0.4),
+    0 0 30px rgba(255,213,74,0.2);
+
 }
 
 .air  {    width: 90px;  height: 30px;filter: brightness(110%) saturate(105%) contrast(110%) opacity(60%); transform: rotate(0deg); z-index: -300; float: right; 
