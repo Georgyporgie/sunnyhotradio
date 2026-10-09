@@ -142,6 +142,8 @@ const purifyTrack = (track) => ({
   name: track.name?.trim()
 });
 
+// letop staat ook nog onderin!
+
 
 function buildPlaylist(tracks) {
   // All categories that should be ordered by part
@@ -12231,6 +12233,23 @@ quickFade: true
 },
 
 
+{
+    name: "Aphrodite (new)",
+    artist: "Tanner Adell ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Aphrodite (new).mp3",
+        timeCategory: "afternoon"
+},
+
+
+
+{
+    name: " Club To Your Arms (new)",
+    artist: "Rose Gray",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Rose Gray - Club To Your Arms (new).mp3",
+        timeCategory: "afternoon"
+},
 
 {
     name: " Poker Face",
@@ -28980,7 +28999,23 @@ timeCategory: "f-afternoon"
 },
 
 
+{
+    name: "Aphrodite (new)",
+    artist: "Tanner Adell ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Aphrodite (new).mp3",
+        timeCategory: "f afternoon"
+},
 
+
+
+{
+    name: " Club To Your Arms (new)",
+    artist: "Rose Gray",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Rose Gray - Club To Your Arms (new).mp3",
+        timeCategory: "f afternoon"
+},
  
 
 
@@ -30384,6 +30419,25 @@ timeCategory: "f evening"
     artist: "Sunny",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/DJ Sapphire - Good Vibes2.mp3",
+        timeCategory: "f evening"
+},
+
+
+{
+    name: "Aphrodite (new)",
+    artist: "Tanner Adell ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Aphrodite (new).mp3",
+        timeCategory: "f evening"
+},
+
+
+
+{
+    name: " Club To Your Arms (new)",
+    artist: "Rose Gray",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Rose Gray - Club To Your Arms (new).mp3",
         timeCategory: "f evening"
 },
 
