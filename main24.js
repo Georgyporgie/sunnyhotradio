@@ -662,20 +662,11 @@ year: 2026
 
 
 
-{
-     name: "  More! More! More",
-    artist: " Becky Hill",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Becky Hill - More! More! More!.mp3",
-     year: 2026,
-     timeCategory: "newest"
 
-
-},
 
 
 {
-     name: " Is It Over Now",
+     name: " Is It Over Now (new)",
     artist: " Elderbrook ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Elderbrook - Is It Over Now (new).mp3",
@@ -835,15 +826,6 @@ isNew: true
 },
 
 
-{
-    name: "Girl Get Up ",
-    artist: "Doechii",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Doechii - Girl Get Up (new).mp3",
-  timeCategory: "newest",
-  year: 2026,
-isNew: true
-},
 
 
 {
@@ -2210,7 +2192,8 @@ volumeBoost: 1.5
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Raoul de Souza - Sweet Lucy(strict).mp3",
        quickFade: true,
- timeCategory: "seventies"
+ timeCategory: "seventies",
+volumeBoost: 0.30
 },
 
 
@@ -4366,8 +4349,8 @@ quickFade: true
     artist: "Raoul de Souza ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Raoul de Souza - Sweet Lucy.mp3",
-   timeCategory: "soulshow"
-
+   timeCategory: "soulshow",
+volumeBoost: 0.30
 },
 
 {
@@ -8940,7 +8923,8 @@ timeCategory: "morning",
     path: "https://sunny-dancemusic03.netlify.app/Full Flava - Love holds no limit.mp3",
        playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.10
+  volumeBoost: 0.10,
+year: 2006
 },
 
 
@@ -12281,7 +12265,8 @@ year: 2017
     artist: "Bootsy Collins",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Bootsy Collins, Fantaazma - Hip Hop Lollipop.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+year: 2022
 },
 
 {
@@ -12367,8 +12352,8 @@ year: 2026
     artist: "Clean Bandit  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Clean Bandit - Cry Baby.mp3",
-  timeCategory: "afternoon"
-
+   timeCategory: "afternoon",
+  year: 2024
 
 
 },
@@ -12425,8 +12410,8 @@ year: 2024
     artist: "Rose Gray ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Rose Gray - Blink Twice (new).mp3",
-      timeCategory: "afternoon"
-
+      timeCategory: "afternoon",
+    year: 2026
   
 },
 
@@ -13248,7 +13233,7 @@ volumeBoost: 0.50
 
 
 {
-     name: " Is It Over Now ",
+     name: " Is It Over Now  (new)",
     artist: " Elderbrook ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Elderbrook - Is It Over Now (new).mp3",
@@ -14333,7 +14318,8 @@ quickFade: true
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Carleen Anderson - Was that all that was.mp3",
 timeCategory: "afternoon",
-  quickFade: true
+  quickFade: true,
+year: 2007
 },
 
 
@@ -14504,7 +14490,8 @@ year:2006
     artist: "Inna ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Inna - Love Me.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+    year: 2024
 },
 
 
@@ -15164,7 +15151,7 @@ isNew: true
     timeCategory: "afternoon",
      quickFade: true,
     volumeBoost: 0.55,
-    playcount: 0
+  year: 2017
 },
 
 
@@ -15228,7 +15215,7 @@ isNew: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/The Weeknd - In Your Eyes.mp3",
     timeCategory: "afternoon",
-playcount: 0
+   year:2020
    
 
 
@@ -16098,7 +16085,8 @@ playcount: 0
     artist: "Pacal Letoublon ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Pacal Letoublon - Time After Time.mp3",
-   timeCategory: "afternoon"
+   timeCategory: "afternoon",
+   year: 2023
 },
 
 
@@ -16823,11 +16811,11 @@ year: 2024
     artist: "Mary J. Blige  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Mary J. Blige - You Ain't The Only One.mp3",
-      timeCategory: "afternoon",
-quickFade: true,
-year:2024,
-isLoud: true,          
-  loudnessValue: 0.90
+    timeCategory: "afternoon",
+   quickFade: true,
+   year:2024,
+   isLoud: true,          
+   loudnessValue: 0.40
 },
 
 {
@@ -17290,7 +17278,8 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Bebe Rexha - Family.mp3",
      timeCategory: "evening",
-volumeBoost: 0.05
+volumeBoost: 0.50,
+year: 2021
 },
 
 
@@ -17603,7 +17592,8 @@ isNew: true
     artist: "Pacal Letoublon ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Pacal Letoublon - Time After Time.mp3",
-   timeCategory: "evening"
+   timeCategory: "evening",
+    year: 2023
 },
 
 
@@ -17961,8 +17951,8 @@ year: 2025
     artist: "Minelli ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Minelli - Confused.mp3",
-  timeCategory: "evening"
-
+  timeCategory: "evening",
+ year: 2022
 },
 
 
@@ -19836,7 +19826,8 @@ quickFade: true
     artist: "Tove Lo ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Tove Lo - Grapefruit.mp3",
-          timeCategory: "evening"
+          timeCategory: "evening",
+ year: 2022
 },
 
 
@@ -23945,7 +23936,8 @@ quickFade: true
     artist: "Mo",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Mo - New Moon.mp3",
-    timeCategory: "evening-late"
+    timeCategory: "evening-late",
+year: 2022
 },
 
 
@@ -26744,8 +26736,8 @@ year:2023
     path: "https://sunnydancemuziek01.netlify.app/Acraze - Do it to it.mp3",
       timeCategory: "evening-late",
    isLoud: true,
-loudnessValue: 0.70 
-
+loudnessValue: 0.70,
+year: 2021
 },
 
 
@@ -27393,14 +27385,7 @@ volumeBoost: 1.50
 
 
 
-{
-     name: "  More! More! More ",
-    artist: " Becky Hill",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Becky Hill - More! More! More (new)!.mp3",
-           timeCategory: "evening-late"
 
-},
 
 
 {
@@ -27413,13 +27398,6 @@ volumeBoost: 1.50
 
 
 
-{
-     name: " Is It Over Now ",
-    artist: " Elderbrook ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Elderbrook - Is It Over Now (new).mp3",
-           timeCategory: "evening-late"
-},
 
 
 
@@ -27932,8 +27910,7 @@ loudnessValue: 0.90
     timeCategory: " evening-late",
      quickFade: true,
     volumeBoost: 0.40,
-    playcount: 0,
- eq: { bass: 0, mid: 1, treble: +1 } 
+ year: 2017
 },
 
 
@@ -28407,7 +28384,7 @@ timeCategory: "evening-late"
     timeCategory: "f afternoon",
      quickFade: true,
     volumeBoost: 0.55,
-    playcount: 0
+ year: 2017
 },
 
 
@@ -28582,7 +28559,7 @@ loudnessValue: 0.90,
       timeCategory: "f afternoon",
      quickFade: true,
   year:1989,
-volumeBoost:2.0
+volumeBoost:2.8
   
 },
 
@@ -28643,8 +28620,8 @@ year:2022
     artist: "Rose Gray ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Rose Gray - Blink Twice (new).mp3",
-      timeCategory: "f afternoon"
-
+    timeCategory: "f afternoon",
+   year: 2026
   
 },
 
@@ -29194,8 +29171,7 @@ timeCategory: "f afternoon"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/The Weeknd - In Your Eyes.mp3",
     timeCategory: "f afternoon",
-playcount: 0
-   
+   year: 2020
 
 
 },
@@ -29374,8 +29350,8 @@ year:2026
     artist: "Raoul de Souza ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Raoul de Souza - Sweet Lucy.mp3",
-timeCategory: "f afternoon"
-
+timeCategory: "f afternoon",
+volumeBoost: 0.30
 },
 
 
@@ -29793,14 +29769,14 @@ isNew: true
 
 
 
-
 {
-     name: "  More! More! More ",
+     name: "  More! More! More",
     artist: " Becky Hill",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Becky Hill - More! More! More (new)!.mp3",
-    year: 2026,
-       timeCategory: "f afternoon"
+    path: "https://sunny-dancemusic03.netlify.app/Becky Hill - More! More! More!.mp3",
+     year: 2026,
+      timeCategory: "f afternoon"
+
 },
 
 
@@ -29815,7 +29791,7 @@ isNew: true
 
 
 {
-     name: " Is It Over Now",
+     name: " Is It Over Now (new)",
     artist: " Elderbrook ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Elderbrook - Is It Over Now (new).mp3",
@@ -31937,15 +31913,6 @@ volumeBoost: 0.40
 
 
 
-{
-    
-    name: "Lady Bug",
-    artist: "Bumblebee Unlimited",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Bumblebee Unlimited - Lady Bug.mp3",
-      timeCategory: "f evening-late",
-volumeBoost: 1.50
-},
 
 
 
@@ -32662,7 +32629,7 @@ year: 2020
 
 
 {
-     name: " Is It Over Now ",
+     name: " Is It Over Now (new) ",
     artist: " Elderbrook ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Elderbrook - Is It Over Now (new).mp3",
@@ -33594,7 +33561,7 @@ year: 1981
 year:2024,
 quickFade: true,
 isLoud: true,          
-  loudnessValue: 0.60
+  loudnessValue: 0.40
 },
 
 
