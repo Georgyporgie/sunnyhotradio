@@ -5830,7 +5830,9 @@ quickFade: true,
     artist: "Depeche Mode",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Depeche Mode - Personal Jesus.mp3",
-      timeCategory: "eighties"
+      timeCategory: "eighties",
+year: 1990
+
 },
 
 {
@@ -9393,10 +9395,9 @@ timeCategory: "morning",
     artist: "Beyonce",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Beyonce - Crazy In Love.mp3",
-  playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.10
-
+  volumeBoost: 0.10,
+year: 2003
 
 },
 
@@ -9730,6 +9731,7 @@ loudnessValue: 0.70
     timeCategory: "morning",
   eq: { bass: 1, mid: 1, treble: +1 } ,
     volumeBoost: 0.35
+
 },
 
 
@@ -12421,8 +12423,8 @@ year: 2024
     artist: "The Womack Sisters - If I let You (new) ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/The Womack Sisters - If I let You (new).mp3",
-      timeCategory: "afternoon"
-
+      timeCategory: "afternoon",
+year: 2026
   
 },
 {
@@ -13894,7 +13896,7 @@ volumeBoost: 0.25
     path: "https://sunnydanceoldies02.netlify.app/Full Flava - You are the universe.mp3",
     timeCategory: "afternoon",
     volumeBoost: 0.50,
-    playcount: 0
+   year : 2006
 },
 
 
@@ -13963,7 +13965,7 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/Superfunk - Lucky Star.mp3",
  timeCategory: "afternoon",
-  playcount: 0
+ year: 2000
 },
 
 
@@ -13987,7 +13989,8 @@ quickFade: true
     artist: "Sugababes",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Sugababes - Round Round.mp3",
-     timeCategory: "afternoon"
+     timeCategory: "afternoon",
+    year: 2002
 },
 
 
@@ -14603,8 +14606,8 @@ isNew: true
     artist: "Marlena Shaw ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Marlena Shaw - Woman Of The Ghetto.mp3",
-       timeCategory: "afternoon"
-
+       timeCategory: "afternoon",
+year: 1969
 },
 
 
@@ -15868,8 +15871,8 @@ year: 2021
     path: "https://danceoldies08.netlify.app/Fatback - Is This the Future.mp3",
     timeCategory: "afternoon",
      quickFade: true,
-    volumeBoost: 1.4
- 
+    volumeBoost: 1.4,
+ year: 1985
 },
 
 
@@ -15927,7 +15930,8 @@ year: 2021
     artist: "Kylie Minogue",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Kylie Minogue &Years & Years  -A second to midnight.mp3",
-     timeCategory: "afternoon"
+     timeCategory: "afternoon",
+  year: 2021
 },
 
 
@@ -16610,7 +16614,7 @@ year:2024
     name: "  I Can t Wait ",
     artist: "Bob Sinclar & Kiesza  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Bob Sinclar & Kiesza - I Can t Wait (new).mp3",
+    path: "https://dancemusic09.netlify.app/Bob Sinclar & Kiesza - I Can t Wait.mp3",
        timeCategory: "afternoon",
  year: 2026,
 isNew: true
@@ -16922,7 +16926,8 @@ year:2007
     artist: "Full Flava  ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Full Flava - Gonna get over you.mp3",
-   timeCategory: "afternoon"
+   timeCategory: "afternoon",
+year: 2011
 },
 
 
@@ -17307,7 +17312,8 @@ year:2016
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Charli XCX - Good Ones.mp3",
      timeCategory: "evening",
-  quickFade: true
+  quickFade: true,
+year: 2021
 },
 
 
@@ -19579,7 +19585,8 @@ timeCategory: "evening"
     path: "https://sunnydanceoldies02.netlify.app/A Pain That I'm Used To (Jacques Lu Cont Remix).mp3",
    timeCategory: "evening",
 quickFade: true,
-  volumeBoost: 1.3
+  volumeBoost: 1.3,
+year: 2005
 },
 
 
@@ -19717,9 +19724,6 @@ loudnessValue: 0.70
 
 
 
-
-
-// hier gebleven
 
 
 
@@ -20003,7 +20007,8 @@ volumeBoost: 0.90
     artist: "Depeche Mode",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Depeche Mode - Personal Jesus.mp3",
-      timeCategory: "evening"
+      timeCategory: "evening",
+year: 1990
 },
 
 
@@ -20217,7 +20222,9 @@ timeCategory: "evening"
     artist: "Route 94 ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Route 94 - My Love.mp3",
-    timeCategory: "evening"
+    timeCategory: "evening",
+   year:  2014
+
 },
 
 
@@ -20479,7 +20486,8 @@ timeCategory: "evening"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Modjo - Lady.mp3",
      timeCategory: "evening",
-  volumeBoost: 0.30
+  volumeBoost: 0.30,
+year: 2000
 },
 
 
@@ -21393,7 +21401,8 @@ volumeBoost: 0.20
     artist: "Calvin Harris  ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Calvin Harris - Summer.mp3",
-        timeCategory: "evening"
+     timeCategory: "evening",
+year: 2014
 },
 
 
@@ -21417,7 +21426,8 @@ volumeBoost: 0.20
     artist: "The Womack Sisters - If I let You (new) ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/The Womack Sisters - If I let You (new).mp3",
-      timeCategory: "f evening"
+      timeCategory: "f evening",
+year: 2026
 
   
 },
@@ -23193,7 +23203,8 @@ isNew: true
     path: "muziek/oldies07/Modjo - Lady.mp3",
  timeCategory: "evening-late",
 volumeBoost: 0.25,
-quickFade: true
+quickFade: true,
+year: 2000
 },
 
 
@@ -23427,8 +23438,8 @@ volumeBoost: 0.25
     path: "https://Sunnydanceoldies04.netlify.app/Michael Gray - The weekend.mp3",
   eq: { bass: 1, mid: 2, treble: +1 } ,
 volumeBoost: 0.35,
-timeCategory: "evening-late"
-
+timeCategory: "evening-late",
+year: 2004
 },
 
 
@@ -30656,8 +30667,8 @@ year:2022
     path: "https://sunnydanceoldies03.netlify.app/Booty luv - Boogie2nite.mp3",
   timeCategory: "f evening",
     isLoud: true,
-loudnessValue: 0.80 
-
+loudnessValue: 0.90,
+year: 2002
 },
 
 
@@ -31448,7 +31459,7 @@ timeCategory: "f evening"
    timeCategory: "f evening",
      quickFade: true,
     volumeBoost: 0.15,
-    playcount: 0
+  year: 2003
 },
 
 
@@ -31957,7 +31968,16 @@ volumeBoost: 0.40
 
 },
 
-
+{
+     name: "A Pain That I'm Used To",
+    artist: "Depeche Mode",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/A Pain That I'm Used To (Jacques Lu Cont Remix).mp3",
+ timeCategory: "f evening-late",
+quickFade: true,
+  volumeBoost: 1.3,
+year: 2005
+},
 
 
 
@@ -32292,8 +32312,8 @@ isNew: true
     path: "https://Sunnydanceoldies04.netlify.app/Michael Gray - The weekend.mp3",
   eq: { bass: 1, mid: 2, treble: +1 } ,
 volumeBoost: 0.35,
-timeCategory: "f evening-late"
-
+timeCategory: "f evening-late",
+year: 2004
 },
 
 
