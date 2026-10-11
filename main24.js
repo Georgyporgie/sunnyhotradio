@@ -414,6 +414,689 @@ let trackList = [
 
 
 
+{
+    name: "  Don't Mess With My Man",
+    artist: "Lucy Pearl ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Lucy Pearl - Don't Mess With My Man.mp3",
+    timeCategory: "millintens",
+   year:2000
+},
+
+
+
+{
+    name: "A Long Walk ",
+    artist: "Jill Scott  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Jill Scott A Long Walk.mp3",
+year:2000,
+ timeCategory: "millintens"
+
+
+},
+
+
+
+
+
+{
+    name: " Love holds No limit",
+    artist: "Full Flava  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Full Flava - Love holds no limit.mp3",
+       playcount: 0,
+    timeCategory: "millintens",
+  volumeBoost: 0.10,
+year: 2006
+},
+
+
+
+
+
+{
+    name: " Sunrise (12inch)",
+    artist: "Simply Red   ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Simply Red - Sunrise (Extended).mp3",
+    timeCategory: "millintens",
+  year: 2003
+
+},
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: " Crazy In Love (2003)",
+    artist: "Beyonce",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Beyonce - Crazy In Love.mp3",
+    timeCategory: "millintens",
+  volumeBoost: 0.10,
+year: 2003
+
+},
+
+
+
+{
+    name: "Little L",
+    artist: "Jamiroquaii",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Jamiroquaii - Little L.mp3",
+    quickFade: true,
+  timeCategory: "millintens",
+year:2001
+
+},
+
+{
+    name: " Lose Yourself To Dance  ",
+    artist: "Daft Punk ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Daft Punk - Lose Yourself To Dance.mp3",
+    timeCategory: "millintens",
+     quickFade: true,
+year:2013,
+ volumeBoost: 0.25,
+    playcount: 0
+},
+
+
+{
+    name: "  When You touch me",
+    artist: "Freemasons ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Freemasons - When You touch me.mp3",
+    timeCategory: "millintens",
+   isLoud: true,          
+  loudnessValue: 0.70,
+   year:  2007
+
+},
+
+
+
+
+{
+  
+    name: "Good Form",
+    artist: "Nicki Minaj ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Nicki Minaj - Good Form.mp3",
+    timeCategory: "millintens",
+  year: 2018
+},
+
+
+
+
+{
+    name: "Mesmerized (12inch)",
+    artist: "Freemasons",
+     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Freemasons  - Mesmerized.mp3",
+      timeCategory: "millintens",
+  year: 2005
+},
+
+
+{
+    name: "Un Momento",
+    artist: "Inna  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Inna - Un Momento.mp3",
+      timeCategory: "millintens",
+isLoud: true,          
+  loudnessValue: 0.85,
+  year: 2011
+},
+
+
+{
+    name: "Switch",
+    artist: "Iggy Azalea ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Iggy Azalea - Switch.mp3",
+    timeCategory: "millintens",
+year: 2017
+
+},
+
+{
+     name: " Don't Be Afraid",
+    artist: "Diplo ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Diplo & Damian Lazarus - Don't be afraid.mp3",
+    timeCategory: "millintens",
+   year: 2017
+},
+
+
+{
+    name: " Kiss It Better (2016)",
+    artist: "Rihanna ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Rihanna - Kiss It Better (2016).mp3",
+    year: 2016,
+    timeCategory: "millintens"
+},
+
+
+
+{
+     name: "  1 Thing",
+    artist: " Amerie ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Amerie - 1 Thing.mp3",
+           timeCategory: "millintens",
+   year:2005
+},
+
+
+{
+     name: " Hot In Herre",
+    artist: " Nelly  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Nelly - Hot In Herre.mp3",
+          timeCategory: "millintens",
+    year:2002
+},
+
+{
+    name: "Hideaway",
+    artist: "Kiesza  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Kiesza - Hideaway.mp3",
+               timeCategory: "millintens",
+   year:2014,
+volumeBoost: 0.45
+},
+
+
+{
+    name: "Juice",
+    artist: "Lizzo ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Lizzo2 - Juice.mp3",
+         timeCategory: "millintens",
+    year: 2019
+},
+
+{
+    name: "  Finish Line",
+    artist: "Yasmin",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/Yasmin- Finish Line.mp3",
+    year: 2011,
+          timeCategory: "millintens"
+},
+
+{
+    name: "  Watchin'(2011)",
+    artist: "Freemasons  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Freemasons - Watchin'.mp3",
+   year: 2011,
+         timeCategory: "millintens"
+
+},
+
+
+
+{
+    name: "  Lucky Star (2000)  ",
+    artist: "Superfunk ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnyhotradio.com/muziek/oldies07/Superfunk - Lucky Star.mp3",
+         timeCategory: "millintens",
+ year: 2000
+},
+
+
+
+{
+    name: "Round Round (2002)",
+    artist: "Sugababes",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Sugababes - Round Round.mp3",
+     timeCategory: "afternoon",
+         timeCategory: "millintens"
+},
+
+
+{
+    name: "Was That All That Was",
+    artist: "Carleen Anderson",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Carleen Anderson - Was that all that was.mp3",
+         timeCategory: "millintens",
+  quickFade: true,
+year: 2007
+},
+
+
+{
+    name: "  Rain Down Love",
+    artist: "Siedah Garret ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Siedah Garret - Rain down Love.mp3",
+          timeCategory: "millintens",
+year:2006
+},
+{
+     name: " Chained To The Rhythm  ",
+    artist: "Katy Perry ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Katy Perry - Chained To The Rhythm.mp3",
+           timeCategory: "millintens",
+     quickFade: true,
+    volumeBoost: 0.55,
+  year: 2017
+},
+
+
+
+{
+    name: "  Crucify",
+    artist: "Emma Hewitt ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/Emma Hewitt - Crucify (Richi Remix).mp3",
+         timeCategory: "millintens",
+year:2012
+},
+
+
+{
+    name: "Spinning Around",
+    artist: "Kylie Minogue",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Kylie Minogue - Spinning Around.mp3",
+           timeCategory: "millintens",
+    year:2000
+},
+
+{
+    name: "Doing It",
+    artist: "Rita Ora",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Rita Ora - Doing It.mp3",
+          timeCategory: "millintens",
+quickFade: true,
+  year: 2014
+},
+
+{
+  
+    name: "Apologize",
+    artist: "Timbaland",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Timbaland - Apologize.mp3",
+         timeCategory: "millintens",
+year:2007
+
+
+},
+
+
+
+{
+    name: " Gonna Get Over You",
+    artist: "Full Flava  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Full Flava - Gonna get over you.mp3",
+         timeCategory: "millintens",
+year: 2011
+},
+
+
+
+{
+    name: "Classic",
+    artist: "The Knocks",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/The Knocks - Classic.mp3",
+         timeCategory: "millintens",
+volumeBoost: 0.50,
+year:2016
+},
+
+
+{
+    name: "Touch Me ",
+    artist: "Rui Da Silva (2007)",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Rui da Silva - Touch Me.mp3",
+    year:2007,
+         timeCategory: "millintens",
+  quickFade: true
+},
+
+
+
+
+{
+  
+    name: "Good Form",
+    artist: "Nicki Minaj ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Nicki Minaj - Good Form.mp3",
+         timeCategory: "millintens",
+  year: 2018
+},
+
+
+
+{
+    name: "Touch Me ",
+    artist: "Rui Da Silva (2007)",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle4.mp3",
+          timeCategory: "millintens",
+  year:2007,
+ volumeBoost: 0.10
+},
+
+
+{
+    name: "Love On My Mind (2005) ",
+    artist: "Freemasons",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Freemasons - Love on my mind.mp3",
+           timeCategory: "millintens",
+   year:2005,
+volumeBoost: 0.10
+},
+
+
+{
+     name: " Umbrella ",
+    artist: "Rihanna  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Rihanna - Umbrella.mp3",
+                   timeCategory: "millintens",
+year:2007
+},
+
+{
+     name: "A Pain That I'm Used To",
+    artist: "Depeche Mode",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/A Pain That I'm Used To (Jacques Lu Cont Remix).mp3",
+         timeCategory: "millintens",
+quickFade: true,
+  volumeBoost: 1.3,
+year: 2005
+},
+
+
+{
+    name: "Mesmerized (12inch)",
+    artist: "Freemasons",
+     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/more music at the weekend.mp3",
+            timeCategory: "millintens",
+  year: 2005
+},
+
+
+
+{
+    name: "My Love",
+    artist: "Route 94 ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Route 94 - My Love.mp3",
+             timeCategory: "millintens",
+   year:  2014
+
+},
+
+
+
+
+{
+     name: " Lady",
+    artist: "Modjo ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/oldies07/Modjo - Lady.mp3",
+         timeCategory: "millintens",
+  volumeBoost: 0.30,
+year: 2000
+},
+
+
+
+
+{
+    name: "  Keep The Fire Burnin'",
+    artist: "Freemasons ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Freemasons - Keep the fire burnin'.mp3",
+         timeCategory: "millintens",
+  year: 2008
+},
+
+
+{
+    name: " Summer",
+    artist: "Calvin Harris  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Calvin Harris - Summer.mp3",
+          timeCategory: "millintens",
+year: 2014
+},
+
+
+{
+    name: " Ghetto Feeling  ",
+    artist: "Man Go Funk ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/Man Go Funk - Ghetto Feeling.mp3",
+   year:2018,
+         timeCategory: "millintens"
+},
+
+
+
+
+{
+    name: " Allright",
+    artist: " Jennifer Lopez",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Jennifer Lopez - Allright.mp3",
+           timeCategory: "millintens",
+year:2004
+},
+ 
+{
+    name: "   One More Time (2001)",
+    artist: "Daft Punk  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Daft Punk - One More Time.mp3",
+    year:2001,
+         timeCategory: "millintens",
+  quickFade: true,
+  volumeBoost: 0.40
+},
+
+{
+    name: "The Weekend",
+    artist: "Michael Gray  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://Sunnydanceoldies04.netlify.app/Michael Gray - The weekend.mp3",
+  eq: { bass: 1, mid: 2, treble: +1 } ,
+volumeBoost: 0.35,
+         timeCategory: "millintens",
+year: 2004
+},
+
+
+{
+    name: "  Paul Van Dyk",
+    artist: "For An Angel ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/For an Ange l- Paul van Dyk.mp3",
+     year:2009,
+         timeCategory: "millintens"
+},
+
+{
+    name: "  Make Me ",
+    artist: "Janet Jackson ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Janet Jackson - Make Me.mp3",
+    year: 2009,
+         timeCategory: "millintens"
+
+},
+
+
+
+{
+    name: " You See The Trouble  ",
+    artist: "Black Legend ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/You see the trouble with me - Black Legend.mp3",
+         timeCategory: "millintens",
+  year: 2000
+},
+
+
+
+{
+    name: " Music Is My Way Of Life",
+    artist: "Full Flava ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Music is my way of life - Full flava.mp3",
+         timeCategory: "millintens",
+     quickFade: true,
+  volumeBoost: 0.50,
+  year: 2007
+},
+
+
+
+
+
+
+
+
+
+{
+    name: "Your Addiction",
+    artist: "Nightclub ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Nightclub - Your Addiction.mp3",
+         timeCategory: "millintens",
+    year: 2018
+},
+
+
+{
+    name: "One Kiss",
+    artist: "Dua lipa ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Dua lipa - One Kiss.mp3",
+         timeCategory: "millintens",
+   year: 2018
+},
+
+
+{
+     name: "  1 Thing",
+    artist: " Amerie ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Amerie - 1 Thing.mp3",
+         timeCategory: "millintens",
+   year:2005
+
+},
+
+{
+    name: " Who Is She 2 U",
+    artist: "Brandy",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Brandy - Who is she 2 U.mp3",
+    year: 2004,
+         timeCategory: "millintens"
+
+},
+
+
+{
+    name: " Allright",
+    artist: " Jennifer Lopez",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Jennifer Lopez - Allright.mp3",
+             timeCategory: "millintens",
+year:2004
+},
+
+{
+    name: "Boogie2nite",
+    artist: "Booty Luv",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Booty luv - Boogie2nite.mp3",
+         timeCategory: "millintens",
+    isLoud: true,
+loudnessValue: 0.90,
+year: 2002
+},
+
+
+{
+    name: "Un Momento",
+    artist: "Inna  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Inna - Un Momento.mp3",
+         timeCategory: "millintens",
+   isLoud: true,          
+  loudnessValue: 0.90,
+  year: 2011
+}, 
+
+{
+     name: " Umbrella ",
+    artist: "Rihanna  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Rihanna - Umbrella.mp3",
+                timeCategory: "millintens",
+year:2007
+},
+
+{
+    name: "Doing It",
+    artist: "Rita Ora",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Rita Ora - Doing It.mp3",
+         timeCategory: "millintens",
+   quickFade: true,
+  year: 2014
+},
+
+
+{
+     name: "Be The One ",
+    artist: "Dua Lipa ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Dua Lipa - Be the One.mp3",
+         timeCategory: "millintens",
+year:2017
+},
+
+
+
+
+
 
 
 
@@ -3139,7 +3822,10 @@ volumeBoost: 1.30
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Sos Band - Take Your Time.mp3",
     timeCategory: "seventies",
-volumeBoost: 1.7
+   volumeBoost: 1.7,
+   quickFade: true
+
+
 },
 
 
@@ -30071,7 +30757,7 @@ year: 2024,
 
 
  {
-     name: "  Echo (new) ",
+     name: "  Echo  ",
     artist: "The Chainsmokers ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/The Chainsmokers - Echo (new).mp3",
@@ -32000,8 +32686,8 @@ year: 2005
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "audio/Sos Band - Take Your Time.mp3",
  timeCategory: "f evening-late",
-volumeBoost: 1.7
-
+volumeBoost: 1.7,
+quickfade: true
 },
 
 
@@ -32816,7 +33502,7 @@ isNew: true
 
 
  {
-     name: "  Echo (new) ",
+     name: "  Echo ",
     artist: "The Chainsmokers ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/The Chainsmokers - Echo (new).mp3",
