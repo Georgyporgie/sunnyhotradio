@@ -409,6 +409,78 @@ let trackList = [
 
 
 
+//millitens
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/sunny dance jingle.mp3",
+        timeCategory: "millintens"
+},
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance radio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle.mp3",
+    timeCategory: "millintens"
+},
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/discjockeys/40 in jingle.mp3",
+     timeCategory: "millintens"
+},
+
+
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance Radio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle3.mp3",
+       timeCategory: "millintens"
+},
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance Radio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio jingle4.mp3",
+        timeCategory: "millintens"
+},
+
+
+
+
+
+
+{
+    name: "Just for You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you.mp3",
+         timeCategory: "millintens"
+},
+
+
+
+ 
+{
+    name: "Just for You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/sunny ship/radio dj - just for you22.mp3",
+      timeCategory: "millintens"
+},
+
+
+
 
 
 
@@ -423,6 +495,71 @@ let trackList = [
    year:2000
 },
 
+
+
+{
+    name: "   The Launch (2000) ",
+    artist: "DJ Jean",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/DJ Jean - The Launch (2000).mp3",
+    timeCategory: "millintens",
+   year:2000
+},
+
+
+
+
+{
+    name: "   God Is A DJ (2000) ",
+    artist: "Faithless",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Faithless - God Is A DJ (2000).mp3",
+    timeCategory: "millintens",
+   year:2000
+},
+
+
+
+
+
+
+
+{
+    name: "    Something (2001)",
+    artist: "Lasgo",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Lasgo - Something (2001).mp3",
+    timeCategory: "millintens",
+   year:1995
+},
+
+{
+    name: "  Turn Around (2000)",
+    artist: "Phats & Small",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Phats & Small - Turn Around (2000).mp3",
+    timeCategory: "millintens",
+   year:2000
+},
+
+
+{
+    name: " The Bongo Song (2000)",
+    artist: "Safri Duo ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Safri Duo - The Bongo Song (2000).mp3",
+    timeCategory: "millintens",
+   year:2000
+},
+
+{
+    name: " U Sure Do (2000)",
+    artist: "Strike  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Strike - U Sure Do (2000).mp3",
+    timeCategory: "millintens",
+   year:2000
+},
 
 
 {
@@ -1782,7 +1919,7 @@ isNew: true
     path: "https://jazzmusic05.netlify.app/Ray Parker jr - A woman needs love.mp3",
           timeCategory: "ballads",
     quickFade: true,
-    volumeBoost: 2.0
+    volumeBoost: 2.5
 
 },
 
@@ -3608,9 +3745,8 @@ volumeBoost: 0.40
     artist: "Slave  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Slave - Stellar Funk (1978).mp3",
-      volumeBoost: 0.50,
-      eq: { bass: 1, mid: 1, treble: +1 } ,
-playcount: 0,
+      volumeBoost: 1.50,
+year: 1978,
    timeCategory: "seventies",
 quickFade: true
 },
@@ -3763,10 +3899,9 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Gino Soccio - Try It Out (maxi).mp3",
     timeCategory: "seventies",
-       eq: { bass: 1, mid: 3, treble: +1 } ,
 quickFade: true,
-    volumeBoost: 0.95,
-    playcount: 0
+    volumeBoost: 1.95
+
 },
 
 
@@ -4256,7 +4391,7 @@ volumeBoost: 0.20,
     artist: "KC & Sunshine Band ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/KC - Shake Your Booty strictly.mp3",
- 
+  year: 1976,
  timeCategory: "seventies"
 
 },
@@ -4418,7 +4553,8 @@ volumeBoost: 0.20,
     artist: "Michael Jackson",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Michael Jackson - One day in your life.mp3",
-     timeCategory: "seventies"
+     timeCategory: "seventies",
+volumeBoost: 0.8
 },
 
 
@@ -4828,9 +4964,8 @@ timeCategory: "soulshow"
     artist: "Slave  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Slave - Stellar Funk (1978).mp3",
-      volumeBoost: 0.50,
-      eq: { bass: 1, mid: 1, treble: +1 } ,
-playcount: 0,
+      volumeBoost: 1.50,
+year: 1978,
    timeCategory: "soulshow",
 quickFade: true
 },
@@ -5462,7 +5597,7 @@ timeCategory: "eighties"
     path: "https://jazzmusic05.netlify.app/Ray Parker jr - A woman needs love.mp3",
         timeCategory: "eighties",
     quickFade: true,
-    volumeBoost: 2.0
+      volumeBoost: 2.5
 
 },
 
@@ -7189,6 +7324,15 @@ volumeBoost:0.50
 
 
 
+{
+    name: "   Insomnia (1995)",
+    artist: "Faithless",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Faithless - Insomnia (1995).mp3",
+    timeCategory: "nineties",
+   year:1995
+},
+
 
 
 
@@ -8100,8 +8244,8 @@ volumeBoost: 1.0,
     artist: "Usura ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Usura - Open your mind.mp3",
-    timeCategory: "nineties"
-
+    timeCategory: "nineties",
+year: 1993
 
 },
 
@@ -8715,7 +8859,8 @@ timeCategory: "morning"
     artist: "Kylie Minogue   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Kylie Minogue - Miss a thing.mp3",
-    timeCategory: "morning"
+    timeCategory: "morning",
+   year: 2020
 },
 
 
@@ -8726,8 +8871,8 @@ timeCategory: "morning"
     artist: "Paul Van Dyk",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/discjockeys/40 in jingle.mp3",
-  timeCategory: "morning"
-
+  timeCategory: "morning",
+year: 2003
 },
 
 {
@@ -8747,8 +8892,7 @@ timeCategory: "morning"
     artist: "Kylie Minogue",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Kylie Minogue -Real Groove.mp3",
-  
-playcount: 0,
+  year: 2020,
 
     timeCategory: "morning"
 },
@@ -9223,9 +9367,8 @@ year:2021
     artist: "Rod Stewart  ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Rod Stewarrt - Da Ya Think I'm Sexy.mp3",
-  playcount: 0,
+year: 1978,
 timeCategory: "morning",
-  eq: { bass: 1, mid: 0, treble: +1 } ,
  volumeBoost: 0.40
 },
 
@@ -12786,7 +12929,8 @@ playcount: 0
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/KC - Shake Your Booty2.mp3",
    volumeBoost: 0.65,
- timeCategory: "afternoon"
+  year: 1976,
+timeCategory: "afternoon"
 
 },
 
@@ -13078,7 +13222,8 @@ year: 2024
     artist: "Clementine Douglas ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Clementine Douglas - Come Find Me.mp3",
-       timeCategory: "afternoon"
+       timeCategory: "afternoon",
+year: 2025
 },
 
 {
@@ -14286,9 +14431,8 @@ timeCategory: "afternoon"
     artist: "Slave  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Slave - Stellar Funk (1978).mp3",
-      volumeBoost: 0.50,
-      eq: { bass: 1, mid: 1, treble: +1 } ,
-playcount: 0,
+      volumeBoost:1.50,
+year: 1978,
    timeCategory: "afternoon",
 quickFade: true
 },
@@ -14368,7 +14512,7 @@ timeCategory: "afternoon"
     path: "https://jazzmusic05.netlify.app/Ray Parker jr - A woman needs love.mp3",
         timeCategory: "afternoon",
     quickFade: true,
-    volumeBoost: 2.0
+  volumeBoost: 2.5
 
 },
 
@@ -19618,7 +19762,8 @@ volumeBoost: 0.25
     artist: "MO",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/MO - Goosebumps.mp3",
-       timeCategory: "evening"
+       timeCategory: "evening",
+year:2021
 },
 
 
@@ -23207,7 +23352,8 @@ volumeBoost: 0.25
     artist: "Usura ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Usura - Open your mind.mp3",
-    timeCategory: "evening"
+    timeCategory: "evening",
+year: 1993
 
 
 },
@@ -23451,7 +23597,7 @@ timeCategory: "evening"
     artist: "KC & Sunshine Band ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/KC - Shake Your Booty strictly.mp3",
- 
+ year: 1976,
  timeCategory: "evening"
 
 },
@@ -23502,7 +23648,8 @@ timeCategory: "evening"
     artist: " Joel Corry & Abi Flynn",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Joel Corry & Abi Flynn- Phases.mp3",
-       timeCategory: "evening-late"
+    timeCategory: "evening-late",
+   year: 2025
 },
 
 
@@ -28258,9 +28405,7 @@ loudnessValue: 0.90
     artist: "Kylie Minogue",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Kylie Minogue -Real Groove.mp3",
-  
-
-
+    year: 2020,
     timeCategory: "evening-late"
 },
 
@@ -29383,7 +29528,8 @@ year:2022
     artist: " Joel Corry & Abi Flynn",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Joel Corry & Abi Flynn- Phases.mp3",
-       timeCategory: "f afternoon"
+       timeCategory: "f afternoon",
+   year: 2025
 },
 
 {
@@ -29933,7 +30079,14 @@ year:2004
 
 
 
-
+{
+     name: "  Diferente",
+    artist: "Steve Aoki  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/Steve Aoki - Diferente.mp3",
+    timeCategory: "f afternoon",
+ year:2023
+},
 
 
 
@@ -30964,7 +31117,8 @@ volumeBoost: 0.40
     artist: " Joel Corry & Abi Flynn",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Joel Corry & Abi Flynn- Phases.mp3",
-       timeCategory: "f evening"
+       timeCategory: "f evening",
+   year: 2025
 },
 
 
@@ -32677,7 +32831,15 @@ year: 2005
 
 },
 
+{
+    name: "Nothing But You",
+    artist: "Paul Van Dyk",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Paul van Dyk - Nothing but you.mp3",
+   timeCategory: "f evening-late",
+year: 2003
 
+},
 
 
 {
@@ -33138,7 +33300,9 @@ isNew: true
     artist: "Paul Van Dyk",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Paul van Dyk - Nothing but you.mp3",
-   timeCategory: "f evening-late"
+   timeCategory: "f evening-late",
+year: 2003
+
 },
 
 
@@ -34727,6 +34891,36 @@ function cleanURL(url) {
   return url.replace(/ /g, "%20");
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let playedTracks = [];
 
 function loadTrack(index) {
@@ -34912,7 +35106,18 @@ updateUI(track);
     timestamp: new Date()
   });
 
-  renderLiveLog(track);
+ 
+
+const withYear = scheduledMp3Files.filter(t => t.year).length;
+
+console.log(
+  `📅 ${withYear}/${scheduledMp3Files.length} tracks in playlist have year metadata`
+);
+
+
+
+
+ renderLiveLog(track);
 
   // -----------------------------
   // SEEK TIMER
