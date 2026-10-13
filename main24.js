@@ -29071,6 +29071,70 @@ timeCategory: "evening-late"
 
 },
 
+{
+    name: "   The Launch (2000) ",
+    artist: "DJ Jean",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/DJ Jean - The Launch (2000).mp3",
+ timeCategory: "evening-late",
+   year:2000
+},
+
+
+
+
+{
+    name: "   God Is A DJ (2000) ",
+    artist: "Faithless",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Faithless - God Is A DJ (2000).mp3",
+ timeCategory: "evening-late",
+   year:2000
+},
+
+
+
+
+
+
+
+{
+    name: "    Something (2001)",
+    artist: "Lasgo",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Lasgo - Something (2001).mp3",
+    timeCategory: "evening-late",
+   year:1995
+},
+
+{
+    name: "  Turn Around (2000)",
+    artist: "Phats & Small",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Phats & Small - Turn Around (2000).mp3",
+ timeCategory: "evening-late",
+   year:2000
+},
+
+
+{
+    name: " The Bongo Song (2000)",
+    artist: "Safri Duo ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Safri Duo - The Bongo Song (2000).mp3",
+ timeCategory: "evening-late",
+   year:2000
+},
+
+{
+    name: " U Sure Do (2000)",
+    artist: "Strike  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Strike - U Sure Do (2000).mp3",
+ timeCategory: "evening-late",
+   year:2000
+},
+
 
 
 
