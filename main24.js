@@ -1210,15 +1210,7 @@ year: 2002
 year:2007
 },
 
-{
-    name: "Doing It",
-    artist: "Rita Ora",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Rita Ora - Doing It.mp3",
-         timeCategory: "millintens",
-   quickFade: true,
-  year: 2014
-},
+
 
 
 {
@@ -4254,7 +4246,8 @@ volumeBoost: 1.0
     path: "https://sunnydanceoldies02.netlify.app/Con Funk Shun- Ffun.mp3",
    timeCategory: "seventies",
 volumeBoost: 0.25,
-quickFade: true
+quickFade: true,
+year: 1977
 },
 
 
@@ -5107,7 +5100,8 @@ year: 1988
     path: "https://sunnydanceoldies02.netlify.app/Con Funk Shun- Ffun.mp3",
    timeCategory: "soulshow",
 volumeBoost: 0.25,
-quickFade: true
+quickFade: true,
+year: 1977
 },
 
 
@@ -5633,7 +5627,7 @@ volumeBoost: 0.40
     path: "https://danceoldies08.netlify.app/The Flirts - Passion.mp3",
   playcount: 0,
 timeCategory: "eighties",
-  volumeBoost: 0.30
+  volumeBoost: 0.90
 },
 
 
@@ -5916,10 +5910,10 @@ timeCategory: "eighties",
     artist: "Gary Low ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Gary Low - You are a danger.mp3",
-  
-  playcount: 0,
+
 timeCategory: "eighties",
-  volumeBoost: 0.35
+    volumeBoost:1.00
+
 },
 
 
@@ -5967,9 +5961,8 @@ timeCategory: "eighties",
     artist: "BB & Q Band ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/BB Q Band - On the Beat.mp3",
-  playcount: 0,
 timeCategory: "eighties",
-  volumeBoost: 0.30
+  volumeBoost: 1.30
 },
 
 
@@ -7075,7 +7068,7 @@ timeCategory: "eighties"
     artist: "Peter Jacques Band ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Peter Jacques Band - Dancin' Down The Street.mp3",
-    
+    quickFade: true,
     year:1985,
     timeCategory: "eighties",
 volumeBoost: 0.20
@@ -7248,7 +7241,7 @@ volumeBoost: 0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Melba Moore - Mind Up Tonight.mp3",
       timeCategory: "eighties",
-volumeBoost: 1.5,
+volumeBoost: 2.0,
 quickFade:true
 },
 
@@ -8353,8 +8346,7 @@ year: 1993
     artist: "Mark Morrison",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Mark Morrison - Return of the mack.mp3",
-        
-playcount: 0,
+        year: 1996,
 timeCategory: "nineties",
   volumeBoost: 0.10
 
@@ -9087,9 +9079,8 @@ timeCategory: "morning",
     artist: "The Flirts ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/The Flirts - Passion.mp3",
-  playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.30
+  volumeBoost: 0.90
 },
 
 
@@ -9523,12 +9514,9 @@ year:2021
     artist: "Gary Low ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Gary Low - You are a danger.mp3",
-  
-  playcount: 0,
-timeCategory: "morning",
-  volumeBoost: 0.35
+  timeCategory: "morning",
+   volumeBoost:1.00
 },
-
 
 
 
@@ -10035,9 +10023,8 @@ timeCategory: "morning",
     artist: "BB & Q Band ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/BB Q Band - On the Beat.mp3",
-  playcount: 0,
-timeCategory: "morning",
-  volumeBoost: 0.30
+  timeCategory: "morning",
+  volumeBoost: 1.30
 },
 
 
@@ -10254,8 +10241,7 @@ timeCategory: "morning",
     artist: "Mark Morrison",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Mark Morrison - Return of the mack.mp3",
-        
-playcount: 0,
+               year: 1996,
 timeCategory: "morning",
   volumeBoost: 0.10
 
@@ -14566,8 +14552,8 @@ timeCategory: "afternoon"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Disclosure - She's Gone Dance On.mp3",
      year: 2024,
-isLoud: true,         
-  loudnessValue: 0.70,
+isLoud: true,          
+  loudnessValue: 0.50,
 timeCategory: "afternoon"
 },
 
@@ -14737,7 +14723,9 @@ volumeBoost: 0.25
     artist: "Lucas Nord   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Lucas Nord - Run On Love.mp3",
-   timeCategory: "afternoon"
+   timeCategory: "afternoon",
+     isLoud: true,
+loudnessValue: 0.60 
 },
 
 
@@ -23313,7 +23301,7 @@ volumeBoost: 0.25
 },
 
 {
-    name: "Popcorn Makers",
+    name: "Popcorn Makers (1969)",
     artist: "Popcorn ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Popcorn - Popcorn Makers.mp3",
@@ -24769,7 +24757,8 @@ quickFade: true
     path: "https://sunnydanceoldies02.netlify.app/Con Funk Shun- Ffun.mp3",
    timeCategory: "evening-late",
 volumeBoost: 0.25,
-quickFade: true
+quickFade: true,
+year: 1977
 },
 
 
@@ -25974,7 +25963,9 @@ timeCategory: "evening-late"
     artist: "Amir",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Amir - Freak of Nature.mp3",
-  timeCategory: "evening-late"
+  timeCategory: "evening-late",
+   quickFade: true,
+volumeBoost: 0.30
 },
 
 
@@ -26318,8 +26309,8 @@ timeCategory: "evening-late"
     path: "https://sunnydanceoldies09.netlify.app/Peter Jacques Band - Dancin' Down The Street.mp3",
     timeCategory: "evening-late",
     year:1985,
-    volumeBoost: 0.20
-
+    volumeBoost: 0.20,
+quickFade: true
 },
 
 
@@ -27578,10 +27569,10 @@ year:2023
     artist: "Acraze",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Acraze - Do it to it.mp3",
-      timeCategory: "evening-late",
+    timeCategory: "evening-late",
    isLoud: true,
-loudnessValue: 0.70,
-year: 2021
+  loudnessValue: 0.70,
+  year: 2021
 },
 
 
@@ -31485,7 +31476,7 @@ timeCategory: "f evening"
     path: "https://sunnydancemusic07.netlify.app/Disclosure - She's Gone Dance On.mp3",
      year: 2024,
 isLoud: true,          
-  loudnessValue: 0.70,
+  loudnessValue: 0.50,
 timeCategory: "f evening"
 },
 
