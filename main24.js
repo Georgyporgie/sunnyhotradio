@@ -409,7 +409,7 @@ let trackList = [
 
 
 
-//millitens
+//millintens
 
 {
      name: "Welcome!",
@@ -483,6 +483,39 @@ let trackList = [
 
 
 
+{
+    name: " Titanium feat. Sia (2001) ",
+    artist: " David Guetta ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/David Guetta - Titanium feat. Sia (2001).mp3",
+       timeCategory: "millintens",
+  year: 2001
+},
+
+
+
+
+
+{
+    name: "This Is What It Feels Like ",
+    artist: " Armin Van Buuren ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Armin Van Buuren - This Is What It Feels Like (2013).mp3",
+       timeCategory: "millintens",
+  year: 2013
+},
+
+
+
+
+{
+    name: "  Ducksauce",
+    artist: "Barbara Streisand",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Barbara Streisand - Ducksauce.mp3",
+       timeCategory: "millintens",
+  year: 2010
+},
 
 
 
@@ -4584,7 +4617,7 @@ part: 2
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Dan Hartman Relight My Fire.mp3",
     timeCategory: "soulshow",
-volumeBoost: 1.7,
+volumeBoost: 2.5,
 part: 3
 },
 
@@ -4656,6 +4689,7 @@ part: 8
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/EWF Fantasy.mp3",
     timeCategory: "soulshow",
+volumeBoost: 1.5,
 part: 9
 
 },
@@ -5928,6 +5962,15 @@ timeCategory: "eighties",
   volumeBoost: 0.30
 },
 
+
+{
+    name: " Happiness just (1983) ",
+    artist: " Cuba Cooding ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Cuba Cooding - Happiness just (1983).mp3",
+       timeCategory: "eighties",
+  year: 1983
+},
 
 
 {
@@ -8417,6 +8460,23 @@ timeCategory: "nineties"
 volumeBoost: 0.20,
 year: 1990
 },
+
+
+
+
+{
+    name: " Stella (1992) ",
+    artist: "Jam & Spoon",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Jam & Spoon - Stella (1992).mp3",
+       timeCategory: "nineties",
+  year: 1992
+},
+
+
+
+
+
 
 
 //frankiebones
@@ -21686,7 +21746,7 @@ year: 2023
     path: "https://sunnylounge01.netlify.app/Mariah Carey - Fantasy.mp3",
     year: 2021,
 timeCategory: "evening",
-volumeBoost: 1.0
+volumeBoost: 1.5
 },
 
 
@@ -30019,6 +30079,42 @@ timeCategory: "f afternoon"
 
 
 
+{
+    name: "This Is What It Feels Like ",
+    artist: " Armin Van Buuren ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Armin Van Buuren - This Is What It Feels Like (2013).mp3",
+       timeCategory: "f afternoon",
+  year: 2013
+},
+
+
+
+
+
+
+
+{
+    name: " Happiness just (1983) ",
+    artist: " Cuba Cooding ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Cuba Cooding - Happiness just (1983).mp3",
+       timeCategory: "f afternoon",
+  year: 1983
+},
+
+
+
+
+
+{
+    name: "Music Is The Answer ",
+    artist: " Celeda ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Celeda - Music Is The Answer (1998).mp3",
+       timeCategory: "f afternoon",
+  year: 1998
+},
 
 
 
@@ -31071,6 +31167,27 @@ loudnessValue: 0.90
 
 
 
+{
+    name: " Titanium feat. Sia (2001) ",
+    artist: " David Guetta ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/David Guetta - Titanium feat. Sia (2001).mp3",
+       timeCategory: "f evening",
+  year: 2001
+},
+
+
+
+
+{
+    name: " Stella (1992) ",
+    artist: "Jam & Spoon",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Jam & Spoon - Stella (1992).mp3",
+       timeCategory: "f evening",
+  year: 1992
+},
+
 
 
 
@@ -31674,7 +31791,7 @@ isNew: true
     path: "https://sunnylounge01.netlify.app/Mariah Carey - Fantasy.mp3",
     year: 2021,
 timeCategory: "f evening",
-volumeBoost: 1.0
+volumeBoost: 1.5
 },
 
 
