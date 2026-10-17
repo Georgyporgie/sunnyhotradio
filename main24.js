@@ -156,7 +156,8 @@ function buildPlaylist(tracks) {
     "mixinglondon",
     "ministry",
     "frankiebones",
-    "acid"
+    "divine",
+"acid"
   ];
 
   // Clean up category strings (removes ALL weird spaces)
@@ -399,7 +400,8 @@ let trackList = [
     artist: "Sam Divine",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Sam Divine 01 - Live.mp3",
-        timeCategory: "divine"
+       part: 1,
+ timeCategory: "divine"
 
 },
 
@@ -409,7 +411,8 @@ let trackList = [
     artist: "Sam Divine",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Sam Divine 02 - Live.mp3",
-        timeCategory: "divine"
+         part: 2,
+timeCategory: "divine"
 
 },
 
@@ -419,8 +422,8 @@ let trackList = [
     artist: "Sam Divine",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Sam Divine 03 - Live.mp3",
-        timeCategory: "divine"
-
+        timeCategory: "divine",
+ part:3
 },
 
 
@@ -429,8 +432,8 @@ let trackList = [
     artist: "Sam Divine",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Sam Divine 04 - Live.mp3",
-        timeCategory: "divine"
-
+        timeCategory: "divine",
+part:4
 },
 
 {
@@ -438,8 +441,8 @@ let trackList = [
     artist: "Sam Divine",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Sam Divine 05 - Live.mp3",
-        timeCategory: "divine"
-
+        timeCategory: "divine",
+part: 5
 },
 
 
@@ -34603,6 +34606,7 @@ function isOrderedCategory(cat) {
      "ministry",
     "disco",
 "acid",
+    "divine",
 "frankiebones"
 ].includes(cat);
 }
