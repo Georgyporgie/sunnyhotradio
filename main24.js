@@ -3103,12 +3103,9 @@ volumeBoost: 0.20
     artist: "The Far Out Orchestra ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/The far out monster orchestra - Black sun.mp3",
-  
-
-
-timeCategory: "seventies",
-
-  volumeBoost: 0.15
+    year: 1978,
+  timeCategory: "seventies",
+ volumeBoost: 0.15
 },
 
 
@@ -4912,8 +4909,8 @@ volumeBoost: 0.30
     artist: "Staple Singers ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Staple Singers - Do It Again.mp3",
-   timeCategory: "soulshow"
-
+   timeCategory: "soulshow",
+year: 1975
 },
 
 
@@ -5592,7 +5589,7 @@ timeCategory: "eighties",
     artist: "Ryan Paris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Ryan Paris - Dolce Vita.mp3",
-   playcount: 0,
+   year: 1983,
 timeCategory: "eighties",
   volumeBoost: 0.10
 },
@@ -5603,7 +5600,7 @@ timeCategory: "eighties",
     artist: "2 Live Crew  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/2 Live Crew - Me So H.mp3",
-   playcount: 0,
+   year: 1989,
 timeCategory: "eighties",
   volumeBoost: 0.50
 
@@ -5641,7 +5638,7 @@ timeCategory: "eighties",
     artist: "Luther Vandross ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Luther Vandross - Stop To Love.mp3",
-       playcount: 0,
+      year: 1986,
 timeCategory: "eighties",
   volumeBoost: 0.30
 },
@@ -5662,7 +5659,7 @@ timeCategory: "eighties",
     artist: "Yarbrough & Peoples  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Yarbrough & Peoples - Don't Stop The Music.mp3",
-      playcount: 0,
+  year: 1980,
 timeCategory: "eighties",
   volumeBoost: 0.90
 
@@ -5699,9 +5696,9 @@ timeCategory: "eighties",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Technotronic - Pump Up The Jam.mp3",
      timeCategory: "eighties",
-volumeBoost: 0.15,
-quickFade: true
-
+volumeBoost: 0.55,
+quickFade: true,
+year: 1989
 },
 
 
@@ -5985,7 +5982,7 @@ volumeBoost: 0.35
     artist: "Change ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Change - Glow Of Love.mp3",
-         
+         year: 1980,
 timeCategory: "eighties",
 volumeBoost: 0.40
 },
@@ -6912,7 +6909,8 @@ volumeBoost: 0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/808 state - Pacific State.mp3",
       timeCategory: "eighties",
-   volumeBoost: 0.25
+   volumeBoost: 0.25,
+   year: 1989
 },
 
 
@@ -7026,7 +7024,15 @@ volumeBoost:0.50
 },
 
 
-
+{
+     name: "   Walking Sunshine",
+    artist: " Central Line",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Central Line - Walking Sunshine.mp3",
+           timeCategory: "eighties",
+volumeBoost: 1.0,
+year: 1981
+},
 
 
 
@@ -7143,8 +7149,9 @@ volumeBoost:0.50
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Moby - Go 1991.mp3",
     timeCategory: "nineties",
-  eq: { bass: 1, mid: 2, treble: +1 }, 
+  year: 1991,
 volumeBoost: 0.25
+
 },
 
 
@@ -7267,8 +7274,8 @@ timeCategory: "nineties",
     path: "muziek/oldies07/RUN DMC - It's Like That.mp3",
    playcount: 0,
 timeCategory: "nineties",
-  volumeBoost: 0.40
-
+  volumeBoost: 0.40,
+year: 1997
 },
 
 
@@ -7293,7 +7300,8 @@ volumeBoost: 1.00
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Cher - Believe.mp3",
         timeCategory: "nineties",
-volumeBoost: 0.35
+volumeBoost: 0.35,
+year: 1998
 },
 
 
@@ -8903,7 +8911,6 @@ timeCategory: "morning",
     artist: "Five Star ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Five Star - All Fall Down.mp3",
-  playcount: 0,
 timeCategory: "morning",
   volumeBoost: 0.20
 },
@@ -8911,6 +8918,16 @@ timeCategory: "morning",
 
 
 
+{
+    name: " Straight Ahead ",
+    artist: "Kool & Gang ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Kool & The Gang - Straight Ahead.mp3",
+      timeCategory: "morning",
+   year:1984,
+ quickFade: true
+ 
+},
 
 {
     name: "  I Want Her",
@@ -8948,7 +8965,7 @@ timeCategory: "morning",
     artist: "808 State  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/808 state - Pacific State.mp3",
-        playcount: 0,
+     year: 1989,
 timeCategory: "morning",
   volumeBoost: 0.30
  
@@ -9070,8 +9087,9 @@ timeCategory: "morning",
     artist: "Princess  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Princess - Say I'm Your Number One.mp3",
-     timeCategory: "morning"
- },
+     timeCategory: "morning",
+ year: 1985
+},
 
 
 
@@ -9152,7 +9170,7 @@ timeCategory: "morning",
     artist: "Ryan Paris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Ryan Paris - Dolce Vita.mp3",
-   playcount: 0,
+  year: 1983,
 timeCategory: "morning",
   volumeBoost: 0.10
 },
@@ -9270,9 +9288,7 @@ year:2021
     artist: "The Far Out Orchestra ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/The far out monster orchestra - Black sun.mp3",
-  
-
-        playcount: 0,
+      year: 1978,
 timeCategory: "morning",
   volumeBoost: 0.15
 },
@@ -9395,7 +9411,7 @@ year:2025
     artist: "2 Live Crew  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/2 Live Crew - Me So H.mp3",
-   playcount: 0,
+year: 1989,
 timeCategory: "morning",
   volumeBoost: 0.50
 
@@ -9452,7 +9468,7 @@ timeCategory: "morning",
     artist: "Luther Vandross ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Luther Vandross - Stop To Love.mp3",
-       playcount: 0,
+year: 1986,
 timeCategory: "morning",
   volumeBoost: 0.30
 },
@@ -9515,7 +9531,7 @@ year: 2006
     artist: "Yarbrough & Peoples  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Yarbrough & Peoples - Don't Stop The Music.mp3",
-      playcount: 0,
+year: 1980,
 timeCategory: "morning",
   volumeBoost: 0.90
 
@@ -9933,8 +9949,8 @@ timeCategory: "morning",
     path: "muziek/oldies07/RUN DMC - It's Like That.mp3",
    playcount: 0,
 timeCategory: "morning",
-  volumeBoost: 0.40
-
+  volumeBoost: 0.40,
+year: 1997
 },
 
 
@@ -10987,7 +11003,8 @@ year:2001
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Cher - Believe.mp3",
         timeCategory: "morning",
-volumeBoost: 0.35
+volumeBoost: 0.35,
+year: 1998
 },
 
 
@@ -11561,7 +11578,8 @@ volumeBoost: 0.25
     path: "https://sunnydanceoldies05.netlify.app/Change - Glow Of Love.mp3",
      year: 1980,    
 timeCategory: "morning",
-volumeBoost: 0.40
+volumeBoost: 0.40,
+year: 1980
 },
 
 
@@ -12783,7 +12801,7 @@ quickFade: true
     name: "Aphrodite (new)",
     artist: "Tanner Adell ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Aphrodite (new).mp3",
+    path: "https://danceoldies10.netlify.app/Tanner Adell - Aphrodite (new).mp3",
         timeCategory: "afternoon"
 },
 
@@ -13790,7 +13808,9 @@ volumeBoost: 0.50
     artist: " Central Line",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Central Line - Walking Sunshine.mp3",
-           timeCategory: "afternoon"
+           timeCategory: "afternoon",
+volumeBoost: 1.0,
+year: 1981
 },
 
 
@@ -13882,7 +13902,8 @@ volumeBoost:1.30
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_07.mp3",
     timeCategory: "afternoon",
-    volumeBoost: 0.25
+    volumeBoost: 0.25,
+    year: 2023
 },
 
 
@@ -17036,9 +17057,8 @@ year:2022
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/La Bouche - Be My Lover (12inch).mp3",
            timeCategory: "afternoon",
-      quickFade: true,
-    volumeBoost: 0.35,
-    playcount: 0
+      quickFade: true
+     
 },
 
 
@@ -18134,11 +18154,10 @@ volumeBoost: 0.10
     name: " Bring Your Love",
     artist: "Madonna",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/Madonna - Bring Your Love (new) (2026).mp3",
+    path: "https://sunnylounge01.netlify.app/Madonna - Bring Your Love (new).mp3",
     year: 2026,
-timeCategory: "evening",
- year: 2026,
-isNew: true
+timeCategory: "evening"
+
 },
 
 
@@ -18755,8 +18774,6 @@ timeCategory: "evening"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Rose Royce - Best Love (single).mp3",
          timeCategory: "evening",
-  eq: { bass: +2, mid: 2, treble: +2 } ,
-playcount: 0,
   year:1982,
 volumeBoost: 0.60
 },
@@ -19255,7 +19272,7 @@ volumeBoost: 0.10
 
 
 {
-    name: " Dance 1978",
+    name: " Dance (1978)",
     artist: "Sylvester",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Sylvester- Dance 1978.mp3",
@@ -19537,10 +19554,7 @@ year:2021
     artist: "Blackstreet ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Blackstreet - No Diggity ft. Dr. Dre, Queen Pen.mp3",
-  
-
-
-      timeCategory: "evening",
+    timeCategory: "evening",
   volumeBoost: 0.45
 },
 
@@ -19696,7 +19710,8 @@ loudnessValue: 0.70
     artist:  "Purple Disco Machine  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://purplediscomachine2023.netlify.app/Purple Disco Machine - Megamix 2023_08.mp3",
-     timeCategory: "evening"
+     timeCategory: "evening",
+     year: 2023
 },
 
 
@@ -19848,8 +19863,8 @@ volumeBoost: 0.30
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://jazzmusic04.netlify.app/EARTH WIND & FIRE - Fall In Love With Me (1982).mp3",
     timeCategory: "evening",
-    volumeBoost: 1.25
-
+    volumeBoost: 1.25,
+ year: 1982
 },
 
 
@@ -20813,7 +20828,6 @@ timeCategory: "evening"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Unlimited Touch - I hear music.mp3",
      timeCategory: "evening",
-  eq: { bass: 2, mid: 2, treble: +1 },
      year:1980
 
 },
@@ -22124,10 +22138,8 @@ year: 1979
     artist: "Rick James ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Rick James - Give it to me baby.mp3",
-
-
-         timeCategory: "evening",
-volumeBoost: 0.10
+     timeCategory: "evening",
+    volumeBoost: 0.10
 },
 
 
@@ -22377,8 +22389,8 @@ volumeBoost:  2.5
     path: "https://sunnydanceoldies08.netlify.app/Chemise - She Can't Love You.mp3",
     timeCategory: "evening",
     quickFade: true,
-    volumeBoost: 0.15,
-    playcount: 0
+    volumeBoost: 0.15
+
 },
 
 
@@ -22466,7 +22478,6 @@ year: 2021
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Kelis - Feed Them.mp3",
         timeCategory: "evening",
-  playcount: 0,
 volumeBoost: 0.20
 },
 
@@ -22478,7 +22489,6 @@ volumeBoost: 0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Kelis - Feed Them Forever.mp3",
         timeCategory: "evening",
-  playcount: 0,
 volumeBoost: 0.20
 },
 
@@ -22491,11 +22501,8 @@ volumeBoost: 0.20
     artist: "Imagination ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Imagination - Just an Illusion 1982.mp3",
-  
-
-
-        timeCategory: "evening",
-volumeBoost: 0.25
+   timeCategory: "evening",
+  volumeBoost: 0.25
 },
 
 
@@ -23026,8 +23033,8 @@ timeCategory: "evening"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Moby - Go 1991.mp3",
     timeCategory: "evening",
-  eq: { bass: 1, mid: 2, treble: +1 }, 
-volumeBoost: 0.25
+volumeBoost: 0.25,
+year: 1991
 },
 
 
@@ -23041,7 +23048,7 @@ volumeBoost: 0.25
     timeCategory: "evening",
     quickFade: true,
      volumeBoost: 0.25,
-    playcount: 0
+  year: 1982
 },
 
 {
@@ -23049,8 +23056,8 @@ volumeBoost: 0.25
     artist: "Popcorn ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Popcorn - Popcorn Makers.mp3",
-    timeCategory: "evening"
-
+    timeCategory: "evening",
+year: 1969
 
 },
 
@@ -23428,9 +23435,9 @@ year:2004
     artist: "Candi Station ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Candi Station - You Got The Love (1997).mp3",
-       timeCategory: "evening-late",
- year: 2026,
-isNew: true
+    timeCategory: "evening-late",
+    year: 1997
+
 },
 
 
@@ -23442,8 +23449,8 @@ isNew: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Kylie Minogue - My Oh My (new).mp3",
        timeCategory: "evening-late",
- year: 2026,
-isNew: true
+ year: 2026
+
 },
 
 
@@ -25108,7 +25115,8 @@ quickFade: true
     artist: "Ryan Paris",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Ryan Paris - Dolce Vita.mp3",
-  timeCategory: "evening-late"
+  timeCategory: "evening-late",
+ year: 1983
 },
 
 
@@ -27967,14 +27975,6 @@ volumeBoost: 1.50
 
 
 
-{
-     name: "   Walking Sunshine",
-    artist: " Central Line",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Central Line - Walking Sunshine.mp3",
-           timeCategory: "evening-late"
-},
-
 
 
 
@@ -29352,6 +29352,16 @@ loudnessValue: 0.80 ,
 
 
 
+{
+    name: "Pump Up The Jam (1989)",
+    artist: "Technotronic ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Technotronic - Pump Up The Jam.mp3",
+     timeCategory: "f afternoon",
+volumeBoost: 0.55,
+quickFade: true,
+year: 1989
+},
 
 {
     name: "Mau P",
@@ -29612,7 +29622,7 @@ timeCategory: "f-afternoon"
     name: "Aphrodite (new)",
     artist: "Tanner Adell ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Aphrodite (new).mp3",
+    path: "https://danceoldies10.netlify.app/Tanner Adell - Aphrodite (new).mp3",
         timeCategory: "f afternoon"
 },
 
@@ -30455,13 +30465,7 @@ isNew: true
 },
 
 
-{
-     name: "   Walking Sunshine",
-    artist: " Central Line",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Central Line - Walking Sunshine.mp3",
-           timeCategory: "f afternoon"
-},
+
 
 
 
@@ -31100,7 +31104,7 @@ timeCategory: "f evening"
     name: "Aphrodite (new)",
     artist: "Tanner Adell ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Aphrodite (new).mp3",
+    path: "https://danceoldies10.netlify.app/Tanner Adell - Aphrodite (new).mp3",
         timeCategory: "f evening"
 },
 
@@ -31322,8 +31326,8 @@ year:2022
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://jazzmusic04.netlify.app/EARTH WIND & FIRE - Fall In Love With Me (1982).mp3",
     timeCategory: "f evening",
-    volumeBoost: 1.25
-
+    volumeBoost: 1.25,
+year: 1982
 },
 
 {
@@ -31496,18 +31500,15 @@ year:2023
 
 
 
-
 {
-    name: " Bring Your Love  ",
+    name: " Bring Your Love",
     artist: "Madonna",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/Madonna - Bring Your Love (new) (2026).mp3",
+    path: "https://sunnylounge01.netlify.app/Madonna - Bring Your Love (new).mp3",
     year: 2026,
-timeCategory: "f evening",
-  year: 2026,
-isNew: true
-},
+timeCategory: "f evening"
 
+},
 
 
 
@@ -32131,8 +32132,8 @@ timeCategory: "f evening"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Luther Vandross - Stop To Love (instrumental).mp3",
    timeCategory: "f evening",
-     quickFade: true
- 
+     quickFade: true,
+ year: 1986
 },
 
 
@@ -32263,9 +32264,8 @@ timeCategory: "f evening"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/La Bouche - Be My Lover (12inch).mp3",
            timeCategory: "f evening",
-      quickFade: true,
-    volumeBoost: 0.35,
-    playcount: 0
+      quickFade: true
+
 },
 
 
@@ -33237,14 +33237,7 @@ year: 2020
 
 
 
-{
-     name: "Straight Ahead",
-    artist: "Kool & The Gang",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Kool & The Gang - Straight Ahead.mp3",
-    timeCategory: "f afternoon",
-     year:1984
-},
+
 
 
 
@@ -33334,13 +33327,6 @@ year: 2020
 },
 
 
-{
-     name: "   Walking Sunshine",
-    artist: " Central Line",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Central Line - Walking Sunshine.mp3",
-           timeCategory: "f evening-late"
-},
 
 
 
@@ -33544,8 +33530,8 @@ isNew: true
     artist: " Level 42",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Level 42 - Something About You.mp3",
-    timeCategory: "f evening-late"
-
+    timeCategory: "f evening-late",
+volumeBoost: 1.5
 },
 
 
@@ -34138,16 +34124,6 @@ year: 2025
 
 
 
-{
-    name: " Gorgeous ",
-    artist: "  Doja Cat ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Doja Cat - Gorgeous.mp3",
-       timeCategory: "f evening-late",
-year:2025
-},
-
-
 
 
 {
@@ -34220,8 +34196,8 @@ timeCategory: "f evening-late"
     artist: "Staple Singers ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Staple Singers - Do It Again.mp3",
-        timeCategory: "f evening-late"
-
+        timeCategory: "f evening-late",
+year: 1975
 },
 
 
@@ -34284,15 +34260,7 @@ isLoud: true,
 
 
 
-{
-     name: " Straight Ahead",
-    artist: "Kool & Gang",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://danceoldies10.netlify.app/Kool en Nick (crossfade).mp3",
- year:1984,
- timeCategory: "f evening-late"
 
-},
 
 
 
