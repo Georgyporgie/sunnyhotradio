@@ -475,13 +475,7 @@ part: 5
     timeCategory: "millintens"
 },
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/Millintensss show.mp3",
-     timeCategory: "millintens"
-},
+
 
 {
     name: "Just For You",
@@ -584,13 +578,7 @@ year: 2001
    year:2000
 },
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/Millintensss show.mp3",
-     timeCategory: "millintens"
-},
+
 
 {
     name: "   The Launch (2000) ",
@@ -668,13 +656,6 @@ year:2000,
 
 },
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/voiceover/Millintensss show.mp3",
-     timeCategory: "millintens"
-},
 
 
 
