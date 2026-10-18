@@ -538,7 +538,9 @@ part: 5
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/David Guetta - Titanium feat. Sia (2001).mp3",
        timeCategory: "millintens",
-  year: 2001
+  isLoud: true,          
+  loudnessValue: 0.80,
+year: 2001
 },
 
 
@@ -13177,8 +13179,8 @@ volumeBoost: 0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Selena Gomez - In The Dark.mp3",
            timeCategory: "afternoon",
-  playcount: 0,
-volumeBoost: 0.30
+year: 2025,
+volumeBoost: 0.60
 },
 
 
@@ -20257,6 +20259,7 @@ year: 2005
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Purple disco machine - in the Dark.mp3",
          timeCategory: "evening"
+
 },
 
 
@@ -30854,7 +30857,9 @@ loudnessValue: 0.90
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/David Guetta - Titanium feat. Sia (2001).mp3",
        timeCategory: "f evening",
-  year: 2001
+    isLoud: true,          
+  loudnessValue: 0.80,
+year: 2001
 },
 
 
@@ -32383,7 +32388,7 @@ volumeBoost: 0.40
     path: "https://dancemusic09.netlify.app/Selena Gomez - In The Dark.mp3",
            timeCategory: "f evening",
   volumeBoost: 0.50,
-  playcount: 0
+year: 2025
 },
 
  
