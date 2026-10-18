@@ -535,7 +535,7 @@ part: 5
     name: " Titanium feat. Sia (2001) ",
     artist: " David Guetta ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/David Guetta - Titanium feat. Sia (2001).mp3",
+    path: "https://dancemusic09.netlify.app/David Guetta - Titanium feat. Sia (milli).mp3",
        timeCategory: "millintens",
   isLoud: true,          
   loudnessValue: 0.80,
@@ -620,7 +620,7 @@ year: 2001
     name: "  Turn Around (2000)",
     artist: "Phats & Small",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/Phats & Small - Turn Around (2000).mp3",
+    path: "https://dancemusic06.netlify.app/Phats & Small - Turn Around (2000)milli.mp3",
     timeCategory: "millintens",
    year:2000
 },
@@ -630,7 +630,7 @@ year: 2001
     name: " The Bongo Song (2000)",
     artist: "Safri Duo ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/Safri Duo - The Bongo Song (2000).mp3",
+    path: "https://dancemusic06.netlify.app/Safri Duo - The Bongo Song (2000)milli.mp3",
     timeCategory: "millintens",
    year:2000
 },
