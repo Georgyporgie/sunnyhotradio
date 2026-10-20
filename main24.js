@@ -698,7 +698,7 @@ year: 2006
     name: " Crazy In Love (2003)",
     artist: "Beyonce",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Beyonce - Crazy In Love.mp3",
+    path: "https://sunnyhotradio.com/muziek/oldies07/Beyonce - Crazy In Love.mp3",
     timeCategory: "millintens",
   volumeBoost: 0.10,
 year: 2003
@@ -4801,16 +4801,7 @@ year: 1988
 },
 
 
-{
-    name: " Ffun",
-    artist: "Con Funk Shun",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Con Funk Shun- Ffun.mp3",
-   timeCategory: "soulshow",
-volumeBoost: 0.25,
-quickFade: true,
-year: 1977
-},
+
 
 
 
@@ -6667,9 +6658,8 @@ year: 1984
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
    path: "https://sunnydanceoldies08.netlify.app/Fatback - Girls On My Mind.mp3",
    timeCategory: "eighties",
-    volumeBoost: 0.65,
-    eq: { bass: 1, mid: 2, treble: +1 } ,
-   playcount: 0
+    volumeBoost: 0.70,
+     year:1985
  
 },
 
@@ -7771,7 +7761,7 @@ volumeBoost: 1.0
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Kym Sims - To Blind To See It.mp3",
      timeCategory: "nineties",
-volumeBoost: 0.90
+volumeBoost: 1.50
 },
 
 
@@ -9115,7 +9105,7 @@ year:2021
     path: "https://sunnydanceoldies08.netlify.app/Rod Stewarrt - Da Ya Think I'm Sexy.mp3",
 year: 1978,
 timeCategory: "morning",
- volumeBoost: 0.40
+ volumeBoost: 0.50
 },
 
 
@@ -9963,7 +9953,8 @@ year: 1997
     name: " Crazy In Love (2003)",
     artist: "Beyonce",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Beyonce - Crazy In Love.mp3",
+  path: "https://sunnyhotradio.com/muziek/oldies07/Beyonce - Crazy In Love.mp3",
+
 timeCategory: "morning",
   volumeBoost: 0.10,
 year: 2003
@@ -12486,7 +12477,9 @@ quickFade: true
     artist: "Beyonce ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Beyoncé - Break My Soul.mp3",
-      timeCategory: "morning"
+      timeCategory: "morning",
+     year: 2022
+
  },
 
 
@@ -12542,8 +12535,9 @@ quickFade: true
     artist: "Adele & Beyonce   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Adele & Beyonce -  Ease On Me.mp3",
-      timeCategory: "morning"
- },
+      timeCategory: "morning",
+ year: 2021
+},
 
 
 
@@ -12632,15 +12626,15 @@ quickFade: true
 
 
 {
-    name: "Jimmy Bo Horne",
-    artist: "Spank 69",
+    name: "Spank 69",
+    artist: "Jimmy Bo Horne",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Spank 69.mp3",
         timeCategory: " afternoon",
     quickFade: true,
       isLoud: true,          
-  loudnessValue: 0.60, 
-playcount: 0
+  loudnessValue: 0.60,
+year: 1981
 
 
 },
@@ -12786,7 +12780,8 @@ quickFade: true
     artist: "Beyonce ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Beyoncé - Break My Soul.mp3",
-     timeCategory: "afternoon"
+     timeCategory: "afternoon",
+    year: 2022
 },
 
 
@@ -12992,7 +12987,7 @@ year: 2025
 { 
 
     name: "  If I let You (new)",
-    artist: "The Womack Sisters - If I let You (new) ",
+    artist: "The Womack Sisters  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/The Womack Sisters - If I let You (new).mp3",
       timeCategory: "afternoon",
@@ -15499,7 +15494,7 @@ quickFade: true
      timeCategory: "afternoon",
      quickFade: true,
     volumeBoost: 0.25,
-    playcount: 0
+    year:1977
 },
 
 
@@ -15852,9 +15847,9 @@ isNew: true,
     artist: "Garys Gang ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Garys Gang - Keep on dancin'.mp3",
-      timeCategory: "afternoon"
-
-  
+      timeCategory: "afternoon",
+volumeBoost: 1.0,
+  year: 1979
 },
 
 
@@ -16158,15 +16153,6 @@ timeCategory: "afternoon"
  },
 
 
-
-{
-     name: "  Diferente",
-    artist: "Steve Aoki  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Steve Aoki - Diferente.mp3",
-   timeCategory: "afternoon",
- year:2023
-},
 
 
 {
@@ -17985,13 +17971,6 @@ year: 2021
 
 
 
-{
-    name: "    Nothing Left To Loose ",
-    artist: "Everything But The Girl  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Everything But The Girl - Nothing Left To Loose.mp3",
-    timeCategory: "evening"
-},
 
 
 
@@ -18571,7 +18550,8 @@ year: 2025
     artist: "Everything But The Girl  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Everything But The Girl - Caution To The Wind.mp3",
-  timeCategory: "evening"
+  timeCategory: "evening",
+year: 2023
 },
  
 {
@@ -20550,7 +20530,7 @@ quickFade: true
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Kym Sims - To Blind To See It.mp3",
      timeCategory: "evening",
-volumeBoost: 0.90
+volumeBoost: 1.50
 },
 
 
@@ -21994,7 +21974,7 @@ year: 2014
 { 
 
     name: "  If I let You (new)",
-    artist: "The Womack Sisters - If I let You (new) ",
+    artist: "The Womack Sisters ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/The Womack Sisters - If I let You (new).mp3",
       timeCategory: "f evening",
@@ -24890,8 +24870,8 @@ timeCategory: "evening-late",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
    path: "https://sunnydanceoldies08.netlify.app/Fatback - Girls On My Mind.mp3",
    timeCategory: "evening-late",
-    volumeBoost: 0.75
-
+    volumeBoost: 0.75,
+   year:1985
  
 },
 
@@ -25521,16 +25501,6 @@ playcount: 0,
 
 
 
-
-
-{
-    name: "Enjoy The Silence (1989)",
-    artist: "Depeche Mode ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Depeche Mode - Enjoy The Silence.mp3",
-    timeCategory: "evening-late"
-},
-  
 
 
 
@@ -26691,15 +26661,7 @@ volumeBoost:0.65
 
 
  
-{
-    name: " Da Ya Think I'm Sexy (1978) ",
-    artist: "Rod Stewart  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Rod Stewarrt - Da Ya Think I'm Sexy.mp3",
-        timeCategory: "evening-late",
-eq: { bass: 1, mid: 0, treble: +1 } ,
- volumeBoost: 0.40
-},
+
 
 
 
@@ -27267,7 +27229,9 @@ timeCategory: "evening-late"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Peggy Gou - Nanana.mp3",
        timeCategory: "evening-late",
-  year:2023
+  year:2023,
+   isLoud: true,
+  loudnessValue: 0.80
 },
 
 
@@ -30946,6 +30910,14 @@ volumeBoost: 0.40
 },
 
 
+{
+    name: "    Nothing Left To Loose ",
+    artist: "Everything But The Girl  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/Everything But The Girl - Caution To The Wind.mp3",
+  timeCategory: "f evening",
+year: 2023
+},
 
 
 {
@@ -34325,7 +34297,14 @@ quickFade: true
 
 
 
-
+{
+    name: " Da Ya Think I'm Sexy (1978) ",
+    artist: "Rod Stewart  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Rod Stewarrt - Da Ya Think I'm Sexy.mp3",
+   timeCategory: "f evening-late",
+ volumeBoost: 0.50
+},
 
 
 
@@ -34824,7 +34803,34 @@ updateUI(track);
   });
 
   // -----------------------------
-  // FADE FUNCTION
+  
+
+
+
+
+
+audio.addEventListener("play", () => {
+  console.log("Audio play started");
+});
+
+audio.addEventListener("error", (e) => {
+  console.log("Audio error:", audio.error);
+});
+
+audio.addEventListener("canplay", () => {
+  console.log("Audio can play");
+});
+
+
+
+
+
+
+
+
+
+
+// FADE FUNCTION
   // -----------------------------
   function fadeOut(audio, duration, targetVolume = 0) {
     const startVolume = audio.volume;
