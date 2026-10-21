@@ -762,12 +762,9 @@ color: #000080; z-index: 200; text-align: center; font-family: myEvent; padding:
  animation:
     neonPulse 1.6s infinite ease-in-out,
     floaty 3.4s ease-in-out infinite;
-
-
-
 background: #FF2A2A;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 11px;
   font-style:italic;
 
   letter-spacing: 1px;
