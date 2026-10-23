@@ -157,8 +157,10 @@ function buildPlaylist(tracks) {
     "ministry",
     "frankiebones",
     "divine",
+"nouveau",
 "acid"
-  ];
+  
+];
 
   // Clean up category strings (removes ALL weird spaces)
   const clean = str =>
@@ -906,8 +908,8 @@ volumeBoost: 0.45
     artist: "Sugababes",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Sugababes - Round Round.mp3",
-     timeCategory: "afternoon",
-         timeCategory: "millintens"
+             timeCategory: "millintens",
+year: 2002
 },
 
 
@@ -1675,8 +1677,8 @@ timeCategory: "ballads",
     path: "https://jazzmusic05.netlify.app/Janet Jackson - Let's wait a while.mp3",
       timeCategory: "ballads",
     quickFade: true,
-    volumeBoost: 0.45,
-    playcount: 0
+    volumeBoost: 0.45
+  
 },
 
 
@@ -1998,6 +2000,99 @@ playcount: 0
 
 
 
+{
+  
+    name: " Nouveau Disco 01 ",
+    artist: "Mix Central  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 01.mp3",
+  timeCategory: " nouveau",
+volumeBoost: 1.0,
+eq: { bass: 0, mid: 2, treble: +1 },
+part: 1
+},
+
+
+
+
+
+
+{
+  
+    name: " Nouveau Disco 02 ",
+    artist: "Mix Central  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 02.mp3",
+  timeCategory: " nouveau",
+volumeBoost: 1.0,
+eq: { bass: 0, mid: 2, treble: +1 },
+part: 2
+},
+
+
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj3.mp3",
+   timeCategory: " nouveau",
+volumeBoost: 1.0,
+part: 3
+},
+
+
+
+
+
+
+
+
+
+
+
+{
+  
+    name: " Nouveau Disco 03 ",
+    artist: "Mix Central  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 03.mp3",
+   timeCategory: " nouveau",
+     quickFade: true,
+ volumeBoost: 1.0,
+   eq: { bass: 0, mid: 2, treble: +1 },
+part: 4
+},
+
+
+
+
+{
+  
+    name: " Nouveau Disco 04 ",
+    artist: "Mix Central  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 04.mp3",
+  timeCategory: " nouveau",
+     quickFade: true,
+    volumeBoost: 1.0,
+   eq: { bass: 0, mid: 2, treble: +1 },
+part: 5
+},
+
+
+{
+  
+    name: " Nouveau Disco 05 ",
+    artist: "Mix Central  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 05.mp3",
+  timeCategory: " nouveau",
+     quickFade: true,
+    volumeBoost: 1.0,
+   eq: { bass: 0, mid: 2, treble: +1 },
+part: 6
+},
 
 
 
@@ -3450,8 +3545,9 @@ volumeBoost: 0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/James Brown - Funky president.mp3",
         timeCategory: "seventies",
-  volumeBoost: 0.45,
-year: 1974
+ year: 1974,
+ volumeBoost: 0.45
+
 },
 
 {
@@ -4325,7 +4421,7 @@ part: 2
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Dan Hartman Relight My Fire.mp3",
     timeCategory: "soulshow",
-volumeBoost: 2.5,
+volumeBoost: 3.0,
 part: 3
 },
 
@@ -5337,7 +5433,7 @@ quickFade: true
     artist: " Steve Arrington",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Steve Arrington - Feel So Real (strictlyi).mp3",
-    volumeBoost: 0.75,
+    volumeBoost:1.00,
 timeCategory: "eighties"
 
 },
@@ -5414,7 +5510,7 @@ volumeBoost: 0.30
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Gwen Guthrie- Ain't Nothing Goin' On But The Rent.mp3",
   timeCategory: "eighties",
-  playcount: 0
+  year:1986
 },
 
 {
@@ -5445,7 +5541,7 @@ timeCategory: "eighties",
     artist: "Bomb The Base  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Bomb The Base - Beat Dis.mp3",
-      playcount: 0,
+    year: 1987,
 timeCategory: "eighties"
  
 
@@ -5472,7 +5568,7 @@ timeCategory: "eighties"
     path: "https://sunnydanceoldies05.netlify.app/sharon Redd In the name of love.mp3",
   playcount: 0,
 timeCategory: "eighties",
-  volumeBoost: 0.20
+  volumeBoost: 2.20
 },
 
 
@@ -5573,7 +5669,7 @@ playcount: 0
     artist: "Gary Byrd   ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Gary Byrd - The Crown (eighties).mp3",
-  volumeBoost: 1.5,
+  volumeBoost: 2.0,
  timeCategory: "eighties"
 
 },
@@ -6072,7 +6168,7 @@ year: 1989
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Kool & The Gang -  Fresh.mp3",
       timeCategory: "eighties",
-volumeBoost: 0.50
+volumeBoost: 1.00
 },
 
 
@@ -6695,7 +6791,7 @@ volumeBoost: 0.25
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Paul Simpson connection - Use me Loose.mp3",
   timeCategory: " eighties",
-volumeBoost: 0.35
+volumeBoost: 1.05
 
 },
 
@@ -7028,7 +7124,7 @@ quickFade:true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Shakatak - Down on the street.mp3",
       timeCategory: "eighties",
-volumeBoost:0.60
+volumeBoost:2.00
 },
 
 
@@ -8909,18 +9005,6 @@ volumeBoost: 0.30
 
 
 {
-    name: "Ain't Nothing Goin'  (1986)",
-    artist: "Gwen Guthrie  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Gwen Guthrie- Ain't Nothing Goin' On But The Rent.mp3",
-  timeCategory: "morning",
-  playcount: 0
-},
-
-
-
-
-{
     name: " Rockit",
     artist: "Herbie Hancock  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -10070,7 +10154,7 @@ timeCategory: "morning",
     artist: "Bomb The Base  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/oldies07/Bomb The Base - Beat Dis.mp3",
-      playcount: 0,
+  year: 1987,
 timeCategory: "morning"
  
 
@@ -12768,7 +12852,6 @@ isLoud: true,
     artist: "Lizzo  ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Lizzo - Dont Make Me Love U (new).mp3",
-  isNew: true,
  year: 2026,
 timeCategory: "afternoon"
 
@@ -13809,7 +13892,7 @@ year:2025
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Kool & The Gang -  Fresh.mp3",
            timeCategory: "afternoon",
-volumeBoost: 0.50
+volumeBoost: 1.00
 },
 
 
@@ -14113,14 +14196,6 @@ timeCategory: "afternoon"
 
 
 
-{
-    name: "Juice",
-    artist: "Lizzo ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Lizzo2 - Juice.mp3",
-    timeCategory: "afternoon",
-    year: 2019
-},
 
 
 
@@ -15182,8 +15257,8 @@ year:2006
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Doechii - Girl Get Up (new).mp3",
   timeCategory: "afternoon",
-  year: 2026,
-isNew: true
+  year: 2026
+
 },
 
 
@@ -15831,7 +15906,7 @@ isNew: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Steve Arrington - Feel So Real (maxi).mp3",
     timeCategory: "afternoon",
-    volumeBoost: 0.75
+       volumeBoost:1.00
 },
 
 
@@ -16682,7 +16757,8 @@ playcount: 0
     artist: "Rita Ora  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Rita Ora - Don't Think Twice.mp3",
-   timeCategory: "afternoon"
+   timeCategory: "afternoon",
+year: 2023
 },
 
 
@@ -16738,9 +16814,7 @@ playcount: 0
     artist: "Beverlei Brown",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Love you yes- Beverlei Brown.mp3",
-  
-
-
+  year: 2001,
    timeCategory: "afternoon"
 },
 
@@ -23652,15 +23726,6 @@ volumeBoost:0.30
 
 
 
-{
-    name: "Girl Get Up ",
-    artist: "Doechii",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Doechii - Girl Get Up (new).mp3",
-  timeCategory: "evening-late",
-  year: 2026,
-isNew: true
-},
 
 
 
@@ -24626,17 +24691,7 @@ eq: { bass: 0, mid: 2, treble: +1 }
 timeCategory: " evening-late"
 },
 
-{
-  
-    name: " Nouveau Disco 05 ",
-    artist: "Mix Central  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 05.mp3",
-timeCategory: "evening-late",
-     quickFade: true,
-    volumeBoost: 0.25,
-   eq: { bass: 0, mid: 2, treble: +1 } 
-},
+
 
 
 
@@ -24674,7 +24729,18 @@ timeCategory: " evening-late",
 },
 
 
+{
+  
+    name: " Nouveau Disco 05 ",
+    artist: "Mix Central  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 05.mp3",
+timeCategory: "evening-late",
+     quickFade: true,
+    volumeBoost: 0.25,
+   eq: { bass: 0, mid: 2, treble: +1 } 
 
+},
 
 
 
@@ -24686,8 +24752,7 @@ timeCategory: " evening-late",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies01.netlify.app/Paul Simpson connection - Use me Loose.mp3",
   timeCategory: " evening-late",
-volumeBoost: 0.35
-
+volumeBoost: 1.05
 },
 
 
@@ -24963,7 +25028,8 @@ volumeBoost:1.3
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Gwen Guthrie- Ain't Nothing Goin' On But The Rent.mp3",
   timeCategory: "evening-late",
-  quickFade: true
+  quickFade: true,
+ year: 1986
 },
 
 
@@ -25301,7 +25367,7 @@ timeCategory: "evening-late"
     artist: "Gary Byrd   ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Gary Byrd - The Crown.mp3",
- volumeBoost: 1.5,
+ volumeBoost: 2.0,
  timeCategory: "evening-late"
 
 },
@@ -29546,7 +29612,7 @@ year: 2022
     artist: " Steve Arrington",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Steve Arrington - Feel So Real (maxi).mp3",
-    volumeBoost: 0.75,
+        volumeBoost:1.00,
 timeCategory: "f-afternoon"
 
 },
@@ -30549,7 +30615,7 @@ volumeBoost:1.30
     artist: "Gary Byrd   ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Gary Byrd - The Crown.mp3",
-  volumeBoost: 1.5,
+  volumeBoost: 2.0,
 timeCategory: "f afternoon"
 
 },
@@ -30876,6 +30942,15 @@ year: 2001
 
 
 
+
+{
+     name: "Down on the street",
+    artist: "Shakatak ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Shakatak - Down on the street.mp3",
+         timeCategory: "f evening",
+volumeBoost:2.00
+},
 
 
 
@@ -31652,10 +31727,9 @@ isLoud: true,
     artist: "Lizzo  ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/Lizzo - Dont Make Me Love U (new).mp3",
- 
- timeCategory: "f evening",
-  year: 2026,
-isNew: true
+  timeCategory: "f evening",
+  year: 2026
+
 },
 
 
@@ -31703,15 +31777,7 @@ year: 2022
 
 
 
-{
-    name: "Girl Get Up ",
-    artist: "Doechii",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Doechii - Girl Get Up (new).mp3",
-  timeCategory: "f evening",
-  year: 2026,
-isNew: true
-},
+
 
 
 
@@ -32736,16 +32802,7 @@ volumeBoost: 1.7
 
 
 
-{
-     name: " Dont Make Me Love U ",
-    artist: "Lizzo  ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/Lizzo - Dont Make Me Love U (new).mp3",
- 
- timeCategory: "f evening-late",
-  year: 2026,
-isNew: true
-},
+
 
 
 
@@ -33129,15 +33186,7 @@ year:2020
 year:2025
 },
 
-{
-    name: "Girl Get Up",
-    artist: "Doechii",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Doechii - Girl Get Up (new).mp3",
-  timeCategory: "f evening-late",
-  year: 2026,
-isNew: true
-},
+
 
 
 {
@@ -34603,7 +34652,8 @@ function isOrderedCategory(cat) {
     "disco",
 "acid",
     "divine",
-"frankiebones"
+"frankiebones",
+"nouveau"
 ].includes(cat);
 }
 
