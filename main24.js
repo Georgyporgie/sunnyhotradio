@@ -600,7 +600,8 @@ year: 2001
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Faithless - God Is A DJ (2000).mp3",
     timeCategory: "millintens",
-   year:2000
+   year:2000,
+volumeBoost: 1.0
 },
 
 
@@ -796,7 +797,7 @@ year:2013,
     path: "https://sunny-dancemusic02.netlify.app/Inna - Un Momento.mp3",
       timeCategory: "millintens",
 isLoud: true,          
-  loudnessValue: 0.85,
+  loudnessValue: 0.75,
   year: 2011
 },
 
@@ -994,7 +995,8 @@ year:2007
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Full Flava - Gonna get over you.mp3",
          timeCategory: "millintens",
-year: 2011
+year: 2011,
+quickFade: true
 },
 
 
@@ -1402,7 +1404,7 @@ part: 4
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/specialmix01.mp3",
    timeCategory: "acid",
-volumeBoost: 0.8,
+volumeBoost: 2.0,
 
 part: 1
 
@@ -1417,7 +1419,7 @@ part: 1
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/specialmix02.mp3",
    timeCategory: "acid",
-volumeBoost: 0.8,
+volumeBoost: 2.0,
 part: 2
 
 },
@@ -1430,7 +1432,7 @@ part: 2
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/specialmix03.mp3",
    timeCategory: "acid",
-volumeBoost: 0.8,
+volumeBoost: 2.0,
 part: 3
 
 },
@@ -1447,7 +1449,7 @@ part: 3
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/specialmix04.mp3",
    timeCategory: "acid",
-volumeBoost: 0.8,
+volumeBoost: 2.0,
 part: 4
 
 },
@@ -6739,11 +6741,11 @@ volumeBoost: 0.25
 
 {
      name: "   Showing Out",
-    artist: "Mel & Kim - Showing Out  ",
+    artist: "Mel & Kim",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Mel & Kim - Showing Out.mp3",
-    timeCategory: "eighties"
-
+    timeCategory: "eighties",
+    year: 1986
 },
 
 {
@@ -13715,7 +13717,16 @@ timeCategory: "afternoon"
 
 
 
-
+{
+    name: "    Changes ",
+    artist: "ZHU ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/ZHU - Changes.mp3",
+    timeCategory: "afternoon",
+     isLoud: true,
+loudnessValue: 0.60,
+year: 2023
+},
 
 
 
@@ -15117,9 +15128,8 @@ year:2006
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Vibey02.mp3",
     timeCategory: "afternoon",
-  volumeBoost: 0.40,
-     eq: { bass: 1, mid: 0, treble: +1 } ,
- playcount: 0
+  volumeBoost: 1.0
+
 
 },
 
@@ -15130,9 +15140,8 @@ year:2006
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Vibey01.mp3",
      timeCategory: "afternoon",
-  volumeBoost: 0.40,
-     eq: { bass: 1, mid: 0, treble: +1 } ,
- playcount: 0
+ volumeBoost: 1.0
+ 
 
 },
 
@@ -15696,8 +15705,8 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Rihanna - Take Over (new).mp3",
     timeCategory: "afternoon",
- year: 2026,
-isNew: true
+ year: 2026
+
    
 
 
@@ -15859,19 +15868,6 @@ isNew: true
 
 
 
-{
-     name: "  Take Over ",
-    artist: "Rihanna ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Rihanna - Take Over (new).mp3",
-    timeCategory: "afternoon",
-    quickFade: true,
- year: 2026,
-isNew: true,
-    volumeBoost: 0.40 
-
-
-},
 
 {
      name: "  Nobody's Girl ",
@@ -17332,7 +17328,15 @@ year: 2022
 
 
 
-
+{
+    name: "  Hot Water",
+    artist: " Level 42",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Level 42 - Hot Water.mp3",
+timeCategory: "afternoon",
+year: 1984,
+quickfade: true
+},
 
 
 
@@ -17614,7 +17618,8 @@ year:2007
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Full Flava - Gonna get over you.mp3",
    timeCategory: "afternoon",
-year: 2011
+year: 2011,
+quickFade: true
 },
 
 
@@ -25207,14 +25212,6 @@ quickFade: true
 },
 
 
-{
-    name: "Dolce Vita (12inch)",
-    artist: "Ryan Paris",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Ryan Paris - Dolce Vita.mp3",
-  timeCategory: "evening-late",
- year: 1983
-},
 
 
 
@@ -28577,18 +28574,6 @@ loudnessValue: 0.90
 
 
 
-{
-     name: "  Take Over ",
-    artist: "Rihanna ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Rihanna - Take Over (new).mp3",
-    timeCategory: " evening-late",
-  year: 2026,
-isNew: true
-   
-
-
-},
 
 
 
@@ -28907,7 +28892,8 @@ timeCategory: "evening-late"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Faithless - God Is A DJ (2000).mp3",
  timeCategory: "evening-late",
-   year:2000
+   year:2000,
+volumeBoost: 1.0
 },
 
 
@@ -29116,18 +29102,7 @@ timeCategory: "evening-late"
 
 
 
-{
-     name: "  Take Over ",
-    artist: "Rihanna ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Rihanna - Take Over (new).mp3",
-    timeCategory: "f afternoon",
-  year: 2026,
-isNew: true
-   
 
-
-},
 
 {
      name: "  Nobody's Girl ",
@@ -29210,15 +29185,7 @@ volumeBoost: 0.65
 
 
 
-{
-    name: "  Make Me ",
-    artist: "Janet Jackson ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/Janet Jackson - Make Me.mp3",
-    year: 2009,
-timeCategory: "f afternoon"
 
-},
 
 
 
@@ -29293,14 +29260,7 @@ year:2022
 
 
 
-{
-    name: "All Natural ",
-    artist: " Rita Ora  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Rita Ora - All Natural.mp3",
-       timeCategory: "f afternoon",
-  year: 2025
-},
+
 
 
 
@@ -29451,14 +29411,7 @@ year:2025
 
 
 
-{
-    name: "  Hot Water",
-    artist: " Level 42",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Level 42 - Hot Water.mp3",
-    timeCategory: "f evening"
 
-},
 
 
 
@@ -29467,8 +29420,8 @@ year:2025
     artist: " Level 42",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Level 42 - Love Games (maxi).mp3",
-    timeCategory: "f evening"
-
+    timeCategory: "f evening",
+year: 1981
 },
 
 
@@ -29750,11 +29703,11 @@ year: 2021
 
 {
      name: "   Showing Out",
-    artist: "Mel & Kim - Showing Out  ",
+    artist: "Mel & Kim   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Mel & Kim - Showing Out.mp3",
-    timeCategory: "f afternoon"
-
+    timeCategory: "f afternoon",
+year: 1986
 },
 
 
@@ -30060,15 +30013,7 @@ year:2026
 
 },
 
-{
-    
-    name: "Lady Bug",
-    artist: "Bumblebee Unlimited",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Bumblebee Unlimited - Lady Bug.mp3",
-      timeCategory: "f afternoon",
-volumeBoost: 1.50
-},
+
 
 
 
@@ -30228,16 +30173,7 @@ loudnessValue: 0.70,
 },
 
 
-{
-    name: "    Changes ",
-    artist: "ZHU ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/ZHU - Changes.mp3",
-    timeCategory: "f afternoon",
-     isLoud: true,
-loudnessValue: 0.60,
-year: 2023
-},
+
 
 
 
@@ -32356,16 +32292,7 @@ timeCategory: "f evening"
 
 
 
-{
-     name: "   HAPPY",
-    artist: "Jessie J ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Jessie J -  HAPPY.mp3",
-           timeCategory: "f evening",
-   quickFade: true,
-    volumeBoost: 0.35,
-     year: 2025
-},
+
 
 
 
@@ -32564,17 +32491,6 @@ year: 2025
 
 
 
-
-
-
-{
-    name: "  Hot Water",
-    artist: " Level 42",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Level 42 - Hot Water.mp3",
-    timeCategory: "f evening"
-
-},
 
 
 
@@ -33674,17 +33590,6 @@ year: 2020
 
 
 
-{
-     name: "   HAPPY",
-    artist: "Jessie J ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Jessie J -  HAPPY.mp3",
-           timeCategory: "f evening-late",
-   quickFade: true,
-    volumeBoost: 0.35,
-   year: 2025
-},
-
 
 {
      name: "   Showtime   ",
@@ -33979,19 +33884,6 @@ year: 2020
 
 
 
-{
-     name: "  Take Over",
-    artist: "Rihanna ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Rihanna - Take Over (new).mp3",
-    timeCategory: "f evening-late",
-year: 2026,
-playcount: 0
-   
-
-
-},
-
 
 
 
@@ -34267,7 +34159,8 @@ year: 1988
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Pino D'Angiò - Ma Quale Idea (1981).mp3",
         timeCategory: "f evening-late",
-year: 1981
+year: 1981,
+volumeBoost: 1.0
 },
 
 
@@ -35135,15 +35028,18 @@ function updatePlaylistImage(category) {
       "afternoon": "images/sunnyradioca.png",
       "evening": "images/sunnyradioca.png",
       "evening-late": "images/jazzy05.jpg",
-      "f-afternoon": "images/sunnyradioca.png"
-    },
+      "f-afternoon": "images/sunnyradioca.png",
+  "millintens" :  "images/millintens2.jpg"
+
+ },
 
     tuesday: {
       "morning": "images/sunnyradioca.png",
       "afternoon": "images/latest Dance hits2.jpg",
       "evening": "images/latest Dance hits2.jpg",
-      "evening-late": "images/latest Dance hits2.jpg"
-    },
+      "evening-late": "images/latest Dance hits2.jpg",
+      "millintens" :  "images/millintens2.jpg"
+},
 
 wednesday: {
   "morning": "images/sunnyradioca.png",
@@ -35151,8 +35047,8 @@ wednesday: {
   "evening": "images/latest Dance hits2.jpg",
   "evening-late": "images/sunnyradioca.png",
 "morning": "images/latest Dance hits2.jpg",
-"eighties": "images/80 s show.jpg"
-
+"eighties": "images/80 s show.jpg",
+  "millintens" :  "images/millintens2.jpg"
 },
 
 
@@ -35172,8 +35068,8 @@ wednesday: {
       "frankiebones": "images/frankie-bones_1024.avif",
       "evening-late": "images/latest Dance hits2.jpg",
       "f-afternoon": "images/latest Dance hits2.jpg",
-    "nineties":"images/nineties.jpg"
-
+    "nineties":"images/nineties.jpg",
+  "millintens" :  "images/millintens2.jpg"
 
 },
 
