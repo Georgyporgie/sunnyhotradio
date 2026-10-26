@@ -158,8 +158,8 @@ function buildPlaylist(tracks) {
     "frankiebones",
     "divine",
 "nouveau",
-"acid"
-  
+"acid",
+  "annual"
 ];
 
   // Clean up category strings (removes ALL weird spaces)
@@ -2498,6 +2498,88 @@ part: 5
 
 
 
+{
+       name: "  Annual 01",
+    artist: "Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Ministry - Annual01.mp3",
+     timeCategory: "annual",
+volumeBoost:   2.5
+},
+
+
+
+
+
+
+
+{
+      name: "  Annual 02 ",
+    artist: "Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Ministry - Annual02.mp3",
+     timeCategory: "annual",
+volumeBoost:   2.5
+},
+
+
+
+
+
+
+
+{
+    name: "  Annual 03",
+    artist: "Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Ministry - Annual03.mp3",
+     timeCategory: "annual",
+volumeBoost:   2.5
+},
+
+
+
+
+
+
+{
+    name: "  Annual 04",
+    artist: "Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Ministry - Annual04.mp3",
+     timeCategory: "annual",
+volumeBoost:   2.5
+},
+
+
+
+
+
+//annual
+
+
+{
+   name: "  Annual 05",
+    artist: "Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Ministry - Annual05.mp3",
+     timeCategory: "annual",
+volumeBoost:   2.5
+},
+
+
+
+
+
+
+{
+      name: "  Annual 06",
+    artist: "Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Ministry - Annual06.mp3",
+     timeCategory: "annual",
+volumeBoost:   2.5
+},
 
 
 
@@ -2511,7 +2593,7 @@ part: 5
 
 
 
-
+//Fat Tony
 
 
 
@@ -22223,6 +22305,14 @@ year: 1979
 
 
 
+{
+    name: "  Give It To Me Baby",
+    artist: "Rick James ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Rick James - Give it to me baby.mp3",
+     timeCategory: "evening",
+    volumeBoost: 0.10
+},
 
 
 
@@ -22234,12 +22324,12 @@ year: 1979
 
 
 {
-    name: "  Give It To Me Baby",
-    artist: "Rick James ",
+    name: " Me & You ",
+    artist: "Tems",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Rick James - Give it to me baby.mp3",
-     timeCategory: "evening",
-    volumeBoost: 0.10
+    path: "https://dancemusic06.netlify.app/Tems - Me & You.mp3",
+     timeCategory: "evening"
+
 },
 
 
@@ -25304,7 +25394,7 @@ timeCategory: "evening-late",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies05.netlify.app/Roger Sanchez - Another Chance.mp3",
       timeCategory: "evening-late",
-  eq: { bass: 0, mid: 1, treble: 0 } ,
+year: 2001,
  volumeBoost: 0.35,
 },
 
@@ -30771,14 +30861,7 @@ loudnessValue: 0.90
 
 
 
-{
-     name: " Don't Forget",
-    artist: "Diplo & Miguel ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Diplo & Miguel - Don't forget my love.mp3",
-     timeCategory: "f afternoon",
-year: 2022
-},
+
 
 
 
@@ -34546,7 +34629,8 @@ function isOrderedCategory(cat) {
 "acid",
     "divine",
 "frankiebones",
-"nouveau"
+"nouveau",
+"annual"
 ].includes(cat);
 }
 
