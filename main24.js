@@ -2494,7 +2494,7 @@ part: 5
 
 
 
-
+//annual
 
 
 
@@ -2504,7 +2504,8 @@ part: 5
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Ministry - Annual01.mp3",
      timeCategory: "annual",
-volumeBoost:   2.5
+volumeBoost: 2.5,
+part: 1
 },
 
 
@@ -2519,7 +2520,8 @@ volumeBoost:   2.5
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Ministry - Annual02.mp3",
      timeCategory: "annual",
-volumeBoost:   2.5
+volumeBoost:   2.5,
+part: 2
 },
 
 
@@ -2534,7 +2536,8 @@ volumeBoost:   2.5
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Ministry - Annual03.mp3",
      timeCategory: "annual",
-volumeBoost:   2.5
+volumeBoost:   2.5,
+part: 3
 },
 
 
@@ -2548,14 +2551,15 @@ volumeBoost:   2.5
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Ministry - Annual04.mp3",
      timeCategory: "annual",
-volumeBoost:   2.5
+volumeBoost:   2.5,
+part: 4
 },
 
 
 
 
 
-//annual
+
 
 
 {
@@ -2564,7 +2568,8 @@ volumeBoost:   2.5
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Ministry - Annual05.mp3",
      timeCategory: "annual",
-volumeBoost:   2.5
+volumeBoost:   2.5,
+part: 5
 },
 
 
