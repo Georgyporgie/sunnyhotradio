@@ -25929,6 +25929,14 @@ volumeBoost: 0.40,
 
  
 
+{
+     name: " Jingo (single)",
+    artist: "Candido ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Candido - Jingo (single).mp3",
+ timeCategory: "evening-late",
+volumeBoost: 2.5
+},
 
 
 
@@ -35215,7 +35223,9 @@ function updatePlaylistImage(category) {
       "afternoon": "images/latest Dance hits2.jpg",
       "evening": "images/latest Dance hits2.jpg",
       "evening-late": "images/latest Dance hits2.jpg",
-      "millintens" :  "images/millintens2.jpg"
+      "millintens" :  "images/millintens2.jpg",
+"clubbers":  "images/Clubbers(2006).jpg"
+
 },
 
 wednesday: {
