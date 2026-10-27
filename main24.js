@@ -159,7 +159,8 @@ function buildPlaylist(tracks) {
     "divine",
 "nouveau",
 "acid",
-  "annual"
+  "annual",
+"clubbers"
 ];
 
   // Clean up category strings (removes ALL weird spaces)
@@ -357,6 +358,101 @@ let trackList = [
 
 
 
+//Ministry Of Sound Clubbers (2006)
+
+
+
+
+
+{
+     name: "   Clubbers (2006)",
+    artist: "Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Ministry Of Sound - Clubbers (2006).mp3",
+       part: 1,
+ timeCategory: "clubbers",
+volumeBoost: 2.5
+},
+
+
+{
+     name: "   Clubbers (2006)",
+    artist: "Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Ministry of Sound - Clubbers guide Summer 20062.mp3",
+       part: 2,
+ timeCategory: "clubbers",
+volumeBoost: 2.5
+},
+
+
+{
+     name: "   Clubbers (2006)",
+    artist: "Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Ministry of Sound - Clubbers guide Summer 20063.mp3",
+       part: 3,
+ timeCategory: "clubbers",
+volumeBoost: 2.5
+},
+
+
+
+{
+     name: "   Clubbers (2006)",
+    artist: "Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Ministry of Sound - Clubbers guide Summer 20064.mp3",
+       part: 4,
+ timeCategory: "clubbers",
+volumeBoost: 2.5
+},
+
+
+
+{
+     name: "   Clubbers (2006)",
+    artist: "Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Ministry of Sound - Clubbers guide Summer 20065.mp3",
+       part: 5,
+ timeCategory: "clubbers",
+volumeBoost: 2.5
+},
+
+
+{
+     name: "   Clubbers (2006)",
+    artist: "Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Ministry of Sound - Clubbers guide Summer 20066.mp3",
+       part: 6,
+ timeCategory: "clubbers",
+volumeBoost: 2.5
+},
+
+
+{
+     name: "   Clubbers (2006)",
+    artist: "Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Ministry of Sound - Clubbers guide Summer 20067.mp3",
+       part: 7,
+ timeCategory: "clubbers",
+volumeBoost: 2.5
+},
+
+
+
+{
+     name: "   Clubbers (2006)",
+    artist: "Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Ministry of Sound - Clubbers guide Summer 20068.mp3",
+       part: 8,
+ timeCategory: "clubbers",
+volumeBoost: 2.5
+},
 
 
 
@@ -373,6 +469,41 @@ let trackList = [
 
 
 
+//Selena Faider 
+
+
+
+{
+     name: "  Live from Paris",
+    artist: "Selena Faider",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Selena Faider - Live from Paris01.mp3",
+       part: 1,
+ timeCategory: "Faider"
+
+},
+
+
+{
+     name: "  Live from Paris",
+    artist: "Selena Faider",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Selena Faider - Live from Paris02.mp3",
+       part: 2,
+ timeCategory: "Faider"
+
+},
+
+
+{
+     name: "  Live from Paris",
+    artist: "Selena Faider",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Selena Faider - Live from Paris03.mp3",
+       part: 3,
+ timeCategory: "Faider"
+
+},
 
 
 
@@ -384,13 +515,6 @@ let trackList = [
 
 
 
-
-
-
-
-
-
-//divine
 
 
 
@@ -402,8 +526,8 @@ let trackList = [
     artist: "Sam Divine",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Sam Divine 01 - Live.mp3",
-       part: 1,
- timeCategory: "divine"
+       part: 4,
+ timeCategory: "Faider"
 
 },
 
@@ -413,8 +537,8 @@ let trackList = [
     artist: "Sam Divine",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Sam Divine 02 - Live.mp3",
-         part: 2,
-timeCategory: "divine"
+         part: 5,
+timeCategory: "Faider"
 
 },
 
@@ -424,8 +548,8 @@ timeCategory: "divine"
     artist: "Sam Divine",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Sam Divine 03 - Live.mp3",
-        timeCategory: "divine",
- part:3
+        timeCategory: "Faider",
+ part:6
 },
 
 
@@ -434,8 +558,8 @@ timeCategory: "divine"
     artist: "Sam Divine",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Sam Divine 04 - Live.mp3",
-        timeCategory: "divine",
-part:4
+    timeCategory: "Faider",  
+part:7
 },
 
 {
@@ -443,8 +567,8 @@ part:4
     artist: "Sam Divine",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Sam Divine 05 - Live.mp3",
-        timeCategory: "divine",
-part: 5
+        timeCategory: "Faider",
+part:8
 },
 
 
@@ -6532,9 +6656,7 @@ volumeBoost: 1.0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Rose Royce - Best Love (single).mp3",
          timeCategory: "eighties",
-  eq: { bass: +2, mid: 2, treble: +2 } ,
-playcount: 0,
-volumeBoost: 0.60
+ volumeBoost:2.00
 },
 
 
@@ -6687,7 +6809,8 @@ volumeBoost: 1.10
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Rick James - Give it to me baby.mp3",
    timeCategory: "eighties",
-volumeBoost: 0.10
+volumeBoost: 0.10,
+    quickFade: true
 },
 
 
@@ -10431,7 +10554,7 @@ timeCategory: "morning"
     path: "https://sunnydancemuziek01.netlify.app/Snoop Dogg - Drop It Like It's Hot (Feat. Pharrell).mp3",
      timeCategory: "morning",
      isLoud: true,
-loudnessValue: 0.70 
+loudnessValue: 0.60 
 
 },
 
@@ -11407,7 +11530,7 @@ volumeBoost: 0.30
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Kelis - Feed Them.mp3",
  timeCategory: "morning",
-  playcount: 0,
+year: 2022,
 volumeBoost: 0.10
 },
 
@@ -12380,7 +12503,8 @@ year: 1989
     artist: "Gwen Stefani ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Gwen Stefani - What you waiting for.mp3",
-           timeCategory: "morning"
+           timeCategory: "morning",
+year: 2004
 },
 
 
@@ -14431,7 +14555,7 @@ timeCategory: "afternoon"
     path: "https://jazzmusic05.netlify.app/Ray Parker Junior - Still in the groove.mp3",
         timeCategory: "afternoon",
     quickFade: true,
-    volumeBoost: 1.45
+    volumeBoost: 2.45
  
 
 },
@@ -14493,7 +14617,7 @@ timeCategory: "afternoon"
     path: "https://jazzmusic05.netlify.app/Ray Parker jr -Honey I'm rich.mp3",
         timeCategory: "afternoon",
     quickFade: true,
-    volumeBoost: 0.75,
+    volumeBoost: 1.75,
     playcount: 0
 },
 
@@ -14505,7 +14629,7 @@ timeCategory: "afternoon"
     path: "https://jazzmusic05.netlify.app/Ray Parker jr - Jack & Jill.mp3",
         timeCategory: "afternoon",
     quickFade: true,
-    volumeBoost: 0.75,
+    volumeBoost:1.75,
     playcount: 0
 },
 
@@ -14520,7 +14644,7 @@ timeCategory: "afternoon"
     path: "https://jazzmusic05.netlify.app/Ray Parker jr -You can t change that.mp3",
         timeCategory: "afternoon",
     quickFade: true,
-    volumeBoost: 0.75,
+    volumeBoost: 1.75,
     playcount: 0
 },
 
@@ -14743,7 +14867,8 @@ loudnessValue: 0.60
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/Salt N Pepa - Whatta Man.mp3",
   timeCategory: "afternoon",
-quickFade: true
+quickFade: true,
+year: 1993
 },
 
 
@@ -14772,7 +14897,8 @@ quickFade: true
     artist: "TLC ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path:"https://sunnyhotradio.com/muziek/oldies07/TLC - No Scrubs.mp3",
-  timeCategory: "afternoon"
+  timeCategory: "afternoon",
+year: 1999
 },
 
 
@@ -15081,7 +15207,7 @@ quickFade: true
     timeCategory: "afternoon",
      quickFade: true,
     volumeBoost: 0.65,
-    playcount: 0
+year: 1995
 },
 
 {
@@ -15101,8 +15227,8 @@ quickFade: true
     artist: "Dennis Coffey  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnyhotradio.com/muziek/oldies07/Dennis Coffey - Gimme That Funk (1978).mp3",
-    timeCategory: "afternoon"
-
+    timeCategory: "afternoon",
+year: 1978
 
 },
 
@@ -18766,7 +18892,7 @@ year: 2025
 
 
 {
-    name: "    Nothing Left To Loose ",
+    name: " Caution To The Wind",
     artist: "Everything But The Girl  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Everything But The Girl - Caution To The Wind.mp3",
@@ -18968,7 +19094,7 @@ timeCategory: "evening"
     path: "https://danceoldies08.netlify.app/Rose Royce - Best Love (single).mp3",
          timeCategory: "evening",
   year:1982,
-volumeBoost: 0.60
+ volumeBoost:2.00
 },
 
 
@@ -20079,10 +20205,8 @@ volumeBoost: 0.30
     path: "https://sunnydanceoldies09.netlify.app/Lakeside - Fantastic Voyage.mp3",
     timeCategory: " evening",
     quickFade: true,
-   eq: { bass: 2, mid: 1, treble: +2 } ,
+  volumeBoost:2.00
 
- volumeBoost: 0.45,
-    playcount: 0
 },
 
 
@@ -20484,15 +20608,7 @@ year: 2005
 },
 
 
-{
-    name: "Drop It Like It's Hot",
-    artist: "Snoop Dogg ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Snoop Dogg - Drop It Like It's Hot (Feat. Pharrell).mp3",
-         timeCategory: "evening",
-     isLoud: true,
-loudnessValue: 0.70 
-},
+
 
 
 
@@ -22310,18 +22426,6 @@ year: 1979
 
 
 
-{
-    name: "  Give It To Me Baby",
-    artist: "Rick James ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Rick James - Give it to me baby.mp3",
-     timeCategory: "evening",
-    volumeBoost: 0.10
-},
-
-
-
-
 
 
 
@@ -22584,7 +22688,7 @@ volumeBoost:  2.5
     path: "https://sunnydanceoldies08.netlify.app/Chemise - She Can't Love You.mp3",
     timeCategory: "evening",
     quickFade: true,
-    volumeBoost: 0.15
+    volumeBoost:1.15
 
 },
 
@@ -22673,7 +22777,8 @@ year: 2021
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Kelis - Feed Them.mp3",
         timeCategory: "evening",
-volumeBoost: 0.20
+volumeBoost: 0.20,
+year: 2022
 },
 
 
@@ -22684,7 +22789,8 @@ volumeBoost: 0.20
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Kelis - Feed Them Forever.mp3",
         timeCategory: "evening",
-volumeBoost: 0.20
+volumeBoost: 0.20,
+year: 2022
 },
 
 
@@ -22726,7 +22832,8 @@ volumeBoost: 0.20
     artist: "Gwen Stefani ",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://Sunnydanceoldies04.netlify.app/Gwen Stefani - What you waiting for.mp3",
-           timeCategory: "evening"
+           timeCategory: "evening",
+year: 2004
 },
 
 
@@ -29469,15 +29576,6 @@ timeCategory: "f afternoon"
   volumeBoost: 0.35
 },
 
-{
-    name: "James Hype ",
-    artist: " Waterfalls",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/James Hype - Waterfalls.mp3",
-     isLoud: true,
-loudnessValue: 0.80 ,
-       timeCategory: "f afternoon"
-},
 
 
 
@@ -29492,15 +29590,7 @@ quickFade: true,
 year: 1989
 },
 
-{
-    name: "Mau P",
-    artist: " Tesla",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/Mau P - Tesla.mp3",
-       timeCategory: "f afternoon",
-quickFade: true,
-year:2025
-},
+
 
 
 
@@ -31057,7 +31147,7 @@ year: 2026
 
 
 {
-    name: "    Nothing Left To Loose ",
+    name: "   Caution To The Wind ",
     artist: "Everything But The Girl  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Everything But The Girl - Caution To The Wind.mp3",
@@ -32185,10 +32275,7 @@ timeCategory: "f evening"
     path: "https://sunnydanceoldies09.netlify.app/Lakeside - Fantastic Voyage.mp3",
     timeCategory: " evening",
     quickFade: true,
-   eq: { bass: 2, mid: 1, treble: +2 } ,
-
- volumeBoost: 0.45,
-    playcount: 0
+ volumeBoost:2.00
 },
 
 
@@ -34635,7 +34722,8 @@ function isOrderedCategory(cat) {
     "divine",
 "frankiebones",
 "nouveau",
-"annual"
+"annual",
+"clubbers"
 ].includes(cat);
 }
 
