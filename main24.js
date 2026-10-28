@@ -664,7 +664,7 @@ part:8
     path: "https://dancemusic09.netlify.app/David Guetta - Titanium feat. Sia (milli).mp3",
        timeCategory: "millintens",
   isLoud: true,          
-  loudnessValue: 0.80,
+  loudnessValue: 0.60,
 year: 2001
 },
 
@@ -2623,7 +2623,7 @@ part: 5
 
 
 {
-       name: "  Annual 01",
+       name: "  Annual ",
     artist: "Ministry Of Sound",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Ministry - Annual01.mp3",
@@ -2639,7 +2639,7 @@ part: 1
 
 
 {
-      name: "  Annual 02 ",
+      name: "  Annual  ",
     artist: "Ministry Of Sound",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Ministry - Annual02.mp3",
@@ -2655,7 +2655,7 @@ part: 2
 
 
 {
-    name: "  Annual 03",
+    name: "  Annual",
     artist: "Ministry Of Sound",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Ministry - Annual03.mp3",
@@ -2670,7 +2670,7 @@ part: 3
 
 
 {
-    name: "  Annual 04",
+    name: "  Annual ",
     artist: "Ministry Of Sound",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Ministry - Annual04.mp3",
@@ -2687,7 +2687,7 @@ part: 4
 
 
 {
-   name: "  Annual 05",
+   name: "  Annual",
     artist: "Ministry Of Sound",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Ministry - Annual05.mp3",
@@ -2702,7 +2702,7 @@ part: 5
 
 
 {
-      name: "  Annual 06",
+      name: "  Annual",
     artist: "Ministry Of Sound",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Ministry - Annual06.mp3",
@@ -5521,7 +5521,8 @@ quickFade: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/David Bowie - Let's Dance(maxi).mp3",
     timeCategory: "eighties",
-   year:1983
+   year:1983,
+volumeBoost: 1.70
 },
 
 
@@ -20205,7 +20206,7 @@ volumeBoost: 0.30
     path: "https://sunnydanceoldies09.netlify.app/Lakeside - Fantastic Voyage.mp3",
     timeCategory: " evening",
     quickFade: true,
-  volumeBoost:2.00
+ volumeBoost:2.50
 
 },
 
@@ -21756,7 +21757,7 @@ year: 2023
     path: "https://sunnylounge01.netlify.app/Mariah Carey - Fantasy.mp3",
     year: 2021,
 timeCategory: "evening",
-volumeBoost: 1.5
+volumeBoost: 2.5
 },
 
 
@@ -25605,6 +25606,15 @@ quickFade: true
 
 
 
+ {
+     name: "  Patient Zero (new) ",
+    artist: "Taylor Swift ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://danceoldies10.netlify.app/Taylor Swift - Patient Zero (new).mp3",
+ 
+timeCategory: "evening-late"
+
+},
 
 
 
@@ -31045,7 +31055,7 @@ loudnessValue: 0.90
     path: "https://dancemusic09.netlify.app/David Guetta - Titanium feat. Sia (2001).mp3",
        timeCategory: "f evening",
     isLoud: true,          
-  loudnessValue: 0.80,
+  loudnessValue: 0.60,
 year: 2001
 },
 
@@ -31671,7 +31681,7 @@ isNew: true
     path: "https://sunnylounge01.netlify.app/Mariah Carey - Fantasy.mp3",
     year: 2021,
 timeCategory: "f evening",
-volumeBoost: 1.5
+volumeBoost: 2.5
 },
 
 
@@ -32276,15 +32286,6 @@ timeCategory: "f evening"
     },
 
 
-{
-    name: " Fantastic Voyage",
-    artist: "Lakeside  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Lakeside - Fantastic Voyage.mp3",
-    timeCategory: " evening",
-    quickFade: true,
- volumeBoost:2.00
-},
 
 
 
@@ -32991,7 +32992,15 @@ volumeBoost: 1.7
 
 
 
-
+{
+     name: "   Clubbers (2006)",
+    artist: "Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Ministry of Sound - Clubbers guide Summer 20066.mp3",
+       part: 6,
+ timeCategory: "clubbers",
+volumeBoost: 2.5
+},
 
 
 
@@ -33002,10 +33011,10 @@ volumeBoost: 1.7
 
 
  {
-     name: " Sound Of A Woman ",
-    artist: "Kiesza ",
+     name: "  Patient Zero (new) ",
+    artist: "Taylor Swift ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://danceoldies10.netlify.app/Kiesza - Sound Of A Woman.mp3",
+    path: "https://danceoldies10.netlify.app/Taylor Swift - Patient Zero (new).mp3",
  
 timeCategory: "f evening-late"
 
@@ -35256,8 +35265,8 @@ wednesday: {
       "evening-late": "images/latest Dance hits2.jpg",
       "f-afternoon": "images/latest Dance hits2.jpg",
     "nineties":"images/nineties.jpg",
-  "millintens" :  "images/millintens2.jpg"
-
+  "millintens" :  "images/millintens2.jpg",
+"clubbers":  "images/Clubbers(2006).jpg"
 },
 
     saturday: {
@@ -35265,8 +35274,8 @@ wednesday: {
       "f-afternoon": "images/latest Dance hits2.jpg",
       "f-evening": "images/jazzy05.jpg",
       "f-evening-late": "images/latest Dance hits2.jpg",
-    "ministry": "images/Ministry-of-Sound-Logo.jpg"
-
+    "ministry": "images/Ministry-of-Sound-Logo.jpg",
+"clubbers":  "images/Clubbers(2006).jpg"
 },
 
     sunday: {
@@ -35274,8 +35283,9 @@ wednesday: {
       "f-afternoon": "images/latest Dance hits2.jpg",
       "f-evening": "images/jazzy05.jpg",
       "f-evening-late": "images/latest Dance hits2.jpg",
-    "seventies": "images/seventies.webp"
-    }
+    "seventies": "images/seventies.webp",
+    "clubbers":  "images/Clubbers(2006).jpg"
+}
   };
 
   // Try to find today's show image
