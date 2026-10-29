@@ -4639,53 +4639,50 @@ part: 3
 },
 
 {
-    name: "   Ugly Ego (classic)",
-    artist: "Cameo  ",
+     name: "Starlette (instrumental)",
+    artist: "BB & Q Band ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnyhotradio.com/muziek/oldies07/Cameo - Ugly Ego.mp3",
-   timeCategory: "soulshow",
- quickFade: true,
-volumeBoost:0.10,
+    path: "https://sunnydanceoldies08.netlify.app/BB & Q Band - Starlette (instrumental).mp3",
+         timeCategory: "soulshow",
+  eq: { bass: 0, mid: 0, treble: +1 } ,
+    volumeBoost: 0.45,
 part: 4
-
 },
 
 
-
 {
-    name: "Thats The Way",
-    artist: "KC and The Sunshine Band",
+    name: "  Thinkin' About Your Love",
+    artist: "Skipworth & Turner ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/K C and The Sunshine Band - Thats The Way (1975).mp3",
-       timeCategory: "soulshow",
-  year:1975,
-part: 5
-  
+    path: "https://sunnylounge01.netlify.app/Skipworth & Turner - Thinkin' about your love.mp3",
+  timeCategory: "soulshow",
+volumeBoost: 0.50,
+playcount: 0,
+quickFade: true,
+    part: 5
+
+
 },
 
 {
-    name: "I Want Your Love",
-    artist: "Chic ",
+     name: "Intro",
+    artist: "Soulshow  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Chic - I Want Your Love ((strictly).mp3",
-       timeCategory: "soulshow",
+    path: "https://sunnydancemusic04.netlify.app/Soulshow tussen2.mp3",
+    timeCategory: "soulshow",
 part: 6
-  
 },
 
 
 {
-    name: " Bounce Skate Roll (12inch) ",
-    artist: "Vaughan  Mason & Crew",
+    name: " Ghetto Feeling  ",
+    artist: "Man Go Funk ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Vaughan  Mason & Crew - Bounce skate roll.mp3",
-  playcount: 0,
+    path: "https://sunnydancemusic05.netlify.app/Man Go Funk - Ghetto Feeling.mp3",
+       year:2018,
 timeCategory: "soulshow",
-  volumeBoost: 0.35,
 part: 7
-
 },
-
 
 
 {
@@ -4754,7 +4751,14 @@ part: 13
 
 },
 
-
+{
+     name: "Rock Me Baby",
+    artist: "George mcGray ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/George mcGray - Rock Me Baby.mp3",
+    timeCategory: "soulshow",
+part: 14
+},
 
 {
     name: "Radiation Level (12inch)",
@@ -4765,7 +4769,7 @@ part: 13
  quickFade: true,
   volumeBoost: 0.45,
     playcount: 0,
-part: 14
+part: 15
 
 },
 
@@ -4777,17 +4781,10 @@ part: 14
     path: "https://danceoldies10.netlify.app/Brass Construction - Movin'.mp3",
  
  timeCategory: "soulshow",
-part: 15
-},
-
-{
-     name: "Rock Me Baby",
-    artist: "George mcGray ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/George mcGray - Rock Me Baby.mp3",
-    timeCategory: "soulshow",
 part: 16
 },
+
+
 
 
 
@@ -4922,48 +4919,6 @@ timeCategory: "soulshow",
 },
 
 
-{
-     name: "Starlette (instrumental)",
-    artist: "BB & Q Band ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/BB & Q Band - Starlette (instrumental).mp3",
-         timeCategory: "soulshow",
-  eq: { bass: 0, mid: 0, treble: +1 } ,
-    volumeBoost: 0.45
-},
-
-
-{
-    name: "  Thinkin' About Your Love",
-    artist: "Skipworth & Turner ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/Skipworth & Turner - Thinkin' about your love.mp3",
-  timeCategory: "soulshow",
-volumeBoost: 0.50,
-playcount: 0,
-quickFade: true
-    
-
-
-},
-
-{
-     name: "Intro",
-    artist: "Soulshow  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Soulshow tussen2.mp3",
-    timeCategory: "soulshow"
-},
-
-
-{
-    name: " Ghetto Feeling  ",
-    artist: "Man Go Funk ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Man Go Funk - Ghetto Feeling.mp3",
-       year:2018,
-timeCategory: "soulshow"
-},
 
 
 {
@@ -5012,6 +4967,54 @@ timeCategory: "soulshow"
 year: 1978,
    timeCategory: "soulshow",
 quickFade: true
+},
+
+{
+    name: "   Ugly Ego (classic)",
+    artist: "Cameo  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnyhotradio.com/muziek/oldies07/Cameo - Ugly Ego.mp3",
+   timeCategory: "soulshow",
+ quickFade: true,
+volumeBoost:0.10,
+part: 4
+
+},
+
+
+
+{
+    name: "Thats The Way",
+    artist: "KC and The Sunshine Band",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/K C and The Sunshine Band - Thats The Way (1975).mp3",
+       timeCategory: "soulshow",
+  year:1975,
+part: 5
+  
+},
+
+{
+    name: "I Want Your Love",
+    artist: "Chic ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Chic - I Want Your Love ((strictly).mp3",
+       timeCategory: "soulshow",
+part: 6
+  
+},
+
+
+{
+    name: " Bounce Skate Roll (12inch) ",
+    artist: "Vaughan  Mason & Crew",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Vaughan  Mason & Crew - Bounce skate roll.mp3",
+  playcount: 0,
+timeCategory: "soulshow",
+  volumeBoost: 0.35,
+part: 7
+
 },
 
 
@@ -6486,8 +6489,8 @@ year: 1984
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Advance - Take me to the top.mp3",
    timeCategory: "eighties",
-volumeBoost: 0.30
-
+volumeBoost: 2.30,
+year: 1982
 },
 
 
@@ -16629,8 +16632,8 @@ year:1984
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Advance - Take me to the top.mp3",
    timeCategory: "afternoon",
-volumeBoost: 0.30
-
+volumeBoost: 2.30,
+year: 1982
 },
 
 {
@@ -28279,14 +28282,6 @@ volumeBoost: 1.50
 
 
 
-{
-     name: " Hot In Herre",
-    artist: " Nelly  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Nelly - Hot In Herre.mp3",
-    timeCategory: "evening-late",
-    year:2002
-},
 
 
 
@@ -30704,14 +30699,7 @@ year: 1999
 
 
 
-{
-     name: " Hot In Herre",
-    artist: " Nelly  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Nelly - Hot In Herre.mp3",
-           timeCategory: "f afternoon",
- year:2002
-},
+
 
 
 
