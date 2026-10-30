@@ -143,7 +143,7 @@ body {
 
 
 
-
+//the right map
 
 
 
@@ -206,7 +206,7 @@ function getCurrentTimeCategory() {
     2: { morning:["evening-late"], afternoon:["evening"], "special-show":["seventies"], evening:["evening-late"], "evening-late":["morning"], late:["evening-late","afternoon"], night:["jingle-time"] },
     3: { morning:["evening-late"], afternoon:["evening"], "special-show":["morning"], evening:["evening-late"], "evening-late":["millintens"], late:["afternoon"], night:["jingle-time"] },
     4: { morning:["morning"], afternoon:["evening-late"], "special-show":["eighties"], evening:["afternoon"], "evening-late":["soulshow"], late:["f afternoon","morning"], night:["jingle-time"] },
-    5: { morning:["morning"], afternoon:["f evening"], "special-show":["nouveau"], evening:["evening-late"], "evening-late":["f evening-late"], late:["f afternoon"], night:["jingle-time"] },
+    5: { morning:["morning"], afternoon:["f evening"], "special-show":["nouveau"], evening:["evening-late"], "evening-late":["millintens"], late:["f afternoon"], night:["jingle-time"] },
     6: { morning:["f evening"], afternoon:["f afternoon"], "special-show":["annual"], evening:["f evening-late"], "evening-late":["f afternoon"], late:["f evening"], night:["jingle-time"] }
   };
 
@@ -1262,7 +1262,89 @@ const saturdayEveningAudioFiles = {
     fortyFiveMinuteSou: "muziek/voiceover/From The Heart Of Amsterdam5.mp3"
   };
 
-  // Select the right map
+ 
+
+// =====================================================
+// SHOW-SPECIFIC AUDIO FILES
+// =====================================================
+
+const showAudioFiles = {
+
+  soulshow: {
+    hourlySou: "audio/its%20now.mp3",
+    quarterHourSou: "muziek/effects/blast.mp3",
+    thirtySevenMinuteSou: "muziek/voiceover/Live%20from%20amsterdam2.mp3",
+    fortyMinuteSou: "https://sunnydancemusic04.netlify.app/Soulshow intro2.mp3",
+    fortyFiveMinuteSou: "https://sunnydancemusic04.netlify.app/Soulshow intro2.mp3"
+  },
+
+  millintens: {
+    hourlySou: "audio/its%20now.mp3",
+    quarterHourSou: "muziek/effects/blast.mp3",
+    thirtySevenMinuteSou: "muziek/voiceover/Live%20from%20amsterdam2.mp3",
+    fortyMinuteSou: "muziek/voiceover/Live%20from%20amsterdam2.mp3",
+    fortyFiveMinuteSou: "muziek/voiceover/Millitensss show.mp3"
+  },
+
+ 
+
+annual: {
+    hourlySou: "audio/its%20now.mp3",
+    quarterHourSou: "muziek/effects/blast.mp3",
+    thirtySevenMinuteSou: "muziek/voiceover/Live%20from%20amsterdam2.mp3",
+    fortyMinuteSou: "muziek/voiceover/Live%20from%20amsterdam2.mp3",
+    fortyFiveMinuteSou: "muziek/voiceover/Millitensss show.mp3"
+  },
+
+clubbers: {
+    hourlySou: "audio/its%20now.mp3",
+    quarterHourSou: "muziek/effects/blast.mp3",
+    thirtySevenMinuteSou: "muziek/voiceover/Live%20from%20amsterdam2.mp3",
+    fortyMinuteSou: "muziek/voiceover/Live%20from%20amsterdam2.mp3",
+    fortyFiveMinuteSou: "muziek/voiceover/Millitensss show.mp3"
+  },
+
+
+
+
+
+
+
+ eighties: {
+    hourlySou: "audio/its%20now.mp3",
+    quarterHourSou: "muziek/effects/blast.mp3",
+    thirtySevenMinuteSou: "muziek/voiceover/Live%20from%20amsterdam2.mp3",
+    fortyMinuteSou: "muziek/voiceover/Live%20from%20amsterdam2.mp3",
+    fortyFiveMinuteSou: "muziek/voiceover/latest%20disco%20hits%20of%20the%20eighties.mp3"
+  }
+
+
+
+
+
+
+
+
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ // Select the right map
   let audioFiles;
   if (day === 6) {
     if (hour < 12) {
@@ -1299,7 +1381,38 @@ const saturdayEveningAudioFiles = {
 
 
 
-  // Assign the chosen sources
+  
+
+// Existing day-based selection
+
+
+// =====================================================
+// OVERRIDE WITH SHOW-SPECIFIC SOUNDS
+// =====================================================
+
+const currentShow = getCurrentTimeCategory();
+
+if (showAudioFiles[currentShow]) {
+
+  audioFiles = {
+    ...audioFiles,
+    ...showAudioFiles[currentShow]
+  };
+
+  console.log("✅ Show-specific audio loaded:", currentShow);
+
+} else {
+
+  console.log("ℹ️ No show-specific audio for:", currentShow);
+
+}
+
+
+
+
+
+
+// Assign the chosen sources
   Object.entries(audioFiles).forEach(([id, src]) => {
     const audioEl = document.getElementById(id);
     if (audioEl) {

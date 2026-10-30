@@ -2126,9 +2126,15 @@ playcount: 0
 
 
 
+
+//Nouveau Disco
+
+
+
+
 {
   
-    name: " Nouveau Disco 01 ",
+    name: " Nouveau Disco",
     artist: "Mix Central  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 01.mp3",
@@ -2145,7 +2151,7 @@ part: 1
 
 {
   
-    name: " Nouveau Disco 02 ",
+    name: " Nouveau Disco  ",
     artist: "Mix Central  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 02.mp3",
@@ -2179,7 +2185,7 @@ part: 3
 
 {
   
-    name: " Nouveau Disco 03 ",
+    name: " Nouveau Disco  ",
     artist: "Mix Central  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 03.mp3",
@@ -2195,7 +2201,7 @@ part: 4
 
 {
   
-    name: " Nouveau Disco 04 ",
+    name: " Nouveau Disco ",
     artist: "Mix Central  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 04.mp3",
@@ -2209,7 +2215,7 @@ part: 5
 
 {
   
-    name: " Nouveau Disco 05 ",
+    name: " Nouveau Disco ",
     artist: "Mix Central  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 05.mp3",
@@ -4634,7 +4640,7 @@ part: 2
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Dan Hartman Relight My Fire.mp3",
     timeCategory: "soulshow",
-volumeBoost: 3.0,
+volumeBoost: 4.0,
 part: 3
 },
 
@@ -32161,14 +32167,7 @@ timeCategory: "f evening"
 
 
 
-{
-     name: "Only You",
-    artist: "Alesso & Sentinel ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Alesso & Sentinel - Only You.mp3",
-        timeCategory: "f evening"
 
-},
 
 {
      name: "Alf Naafish",
@@ -34289,14 +34288,6 @@ timeCategory: "f evening-late"
 
 
 
-{
-     name: "Only You",
-    artist: "Alesso & Sentinel ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Alesso & Sentinel - Only You.mp3",
-        timeCategory: "f evening-late"
-
-},
 
 
 
