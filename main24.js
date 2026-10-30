@@ -17541,14 +17541,7 @@ year: 2022
 
 
 
-{
-    name: "Spinning Around",
-    artist: "Kylie Minogue",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Kylie Minogue - Spinning Around.mp3",
-    timeCategory: "afternoon",
-    year:2000
-},
+
 
 
 
@@ -21259,17 +21252,6 @@ timeCategory: "evening"
 
 
 
-
-
-
-{
-     name: "  Tension ",
-    artist: "Kylie Minogue  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/Kylie Minogue - Tension.mp3",
-     timeCategory: "evening",
- year: 2023
-},
 
 
 
@@ -28437,15 +28419,6 @@ year: 2022
 
 
 
-{
-    name: "Real Groove",
-    artist: "Kylie Minogue",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Kylie Minogue -Real Groove.mp3",
-    year: 2020,
-    timeCategory: "evening-late"
-},
-
 
 
 
@@ -30160,16 +30133,6 @@ year:2004
 
 
 
-
-{
-    name: "   My Oh My ",
-    artist: " Kylie Minogue",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Kylie Minogue - My Oh My (new).mp3",
-       timeCategory: "f afternoon",
-  year: 2026,
-isNew: true
-},
 
 
 
