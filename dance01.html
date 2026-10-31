@@ -945,7 +945,20 @@ window.setInterval(startTime, 1000);
 
 
 
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const today = new Date();
+    const month = today.getMonth() + 1;
 
+    const img = document.getElementById("logo");
+
+    if (month >= 6 && month <= 10) {
+        img.src = 'images/Dance radio2.png';
+    } else {
+        img.src = 'images/Sunny Winter Dance.png';
+    }
+});
+</script>
 
 
 
@@ -1079,7 +1092,7 @@ img.src = 'images/Sunny4.png';
 var img = document.getElementById("logo");
 
 //Set the src property of our element to the new image URL
-img.src = 'images/Dance radio2.png';
+img.src = 'images/Sunny Winter Dance.png';
 </script>
 
 
