@@ -1381,14 +1381,6 @@ year: 2004
 },
 
 
-{
-    name: " Allright",
-    artist: " Jennifer Lopez",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Jennifer Lopez - Allright.mp3",
-             timeCategory: "millintens",
-year:2004
-},
 
 {
     name: "Boogie2nite",
@@ -23236,7 +23228,7 @@ volumeBoost: 0.15
     path: "https://sunnydancemusic07.netlify.app/Alesso, Nate Smith - I Like It.mp3",
     timeCategory: "evening",
    isLoud: true,          
-  loudnessValue: 0.80
+  loudnessValue: 0.60
 },
 
 
@@ -28590,16 +28582,6 @@ timeCategory: " evening-late"
 
 
 
-{
-    name: "  Work With You Love ",
-    artist: "Alok    ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Alok - Work With You Love.mp3",
-    timeCategory: "evening-late",
-   isLoud: true,
-loudnessValue: 0.90
-},
-
 
 
 
@@ -29401,7 +29383,8 @@ timeCategory: "f afternoon"
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Calvin Harris - Satisfy (new).mp3",
             timeCategory: "f afternoon",
-volumeBoost: 0.10
+volumeBoost: 0.10,
+year: 2026
 },
 
 
@@ -30478,16 +30461,7 @@ isNew: true
 
 },
 
-{
-    name: "  Work With You Love ",
-    artist: "Alok    ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Alok - Work With You Love.mp3",
-    timeCategory: "f afternoon",
-   isLoud: true,
-loudnessValue: 0.90
 
-},
 
 
 {
@@ -31803,7 +31777,7 @@ isLoud: true,
     path: "https://sunnydancemusic07.netlify.app/Alesso, Nate Smith - I Like It.mp3",
     timeCategory: "f evening",
  isLoud: true,          
-  loudnessValue: 0.80
+  loudnessValue: 0.60
 },
 
 
@@ -33482,7 +33456,8 @@ year: 2020
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Calvin Harris - Satisfy (new).mp3",
             timeCategory: "f evening-late",
-volumeBoost: 0.10
+volumeBoost: 0.10,
+year: 2026
 },
 
 
@@ -35217,7 +35192,7 @@ wednesday: {
       "f-afternoon": "images/latest Dance hits2.jpg",
       "f-evening": "images/jazzy05.jpg",
       "f-evening-late": "images/latest Dance hits2.jpg",
-    "ministry": "images/Ministry-of-Sound-Logo.jpg",
+    "annual": "images/Ministry-of-Sound-Logo.jpg",
 "clubbers":  "images/Clubbers(2006).jpg"
 },
 
