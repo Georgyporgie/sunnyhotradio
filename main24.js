@@ -421,12 +421,23 @@ volumeBoost: 2.5
 },
 
 
+
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj3.mp3",
+   timeCategory: " nouveau",
+volumeBoost: 1.0,
+part: 6
+},
+
 {
      name: "   Clubbers (2006)",
     artist: "Ministry Of Sound",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Ministry of Sound - Clubbers guide Summer 20066.mp3",
-       part: 6,
+       part:7,
  timeCategory: "clubbers",
 volumeBoost: 2.5
 },
@@ -437,19 +448,27 @@ volumeBoost: 2.5
     artist: "Ministry Of Sound",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Ministry of Sound - Clubbers guide Summer 20067.mp3",
-       part: 7,
+       part: 8,
  timeCategory: "clubbers",
 volumeBoost: 2.5
 },
 
-
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj4.mp3",
+   timeCategory: " nouveau",
+volumeBoost: 1.0,
+part: 9
+},
 
 {
      name: "   Clubbers (2006)",
     artist: "Ministry Of Sound",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Ministry of Sound - Clubbers guide Summer 20068.mp3",
-       part: 8,
+       part: 10,
  timeCategory: "clubbers",
 volumeBoost: 2.5
 },
@@ -3991,17 +4010,6 @@ volumeBoost: 1.30
 },
 
 
-{
-    name: "Take Your Time",
-    artist: "Sos Band ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "audio/Sos Band - Take Your Time.mp3",
-    timeCategory: "seventies",
-   volumeBoost: 1.7,
-   quickFade: true
-
-
-},
 
 
 {
@@ -5454,7 +5462,7 @@ year: 1975
     artist: "Rose Royce ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Rose Royce - RR Express (maxi).mp3",
-   volumeBoost: 2.0,
+   volumeBoost: 3.0,
  timeCategory: "eighties"
 
 },
@@ -7229,6 +7237,17 @@ volumeBoost: 0.20
  
 },
 
+{
+    name: "Take Your Time",
+    artist: "Sos Band ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Sos Band - Take Your Time.mp3",
+    timeCategory: "eighties",
+   volumeBoost: 1.7,
+   quickFade: true,
+year: 1980
+
+},
 
 
 
@@ -8955,14 +8974,7 @@ timeCategory: "morning"
 
 
 
-{
-    name: "Nothing But You",
-    artist: "Paul Van Dyk",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/40 in jingle.mp3",
-  timeCategory: "morning",
-year: 2003
-},
+
 
 {
     name: "   Good Good",
@@ -14566,6 +14578,16 @@ timeCategory: "afternoon"
 
 
 
+
+{
+    name: "Sacrifice",
+    artist: "Bebe Rexha",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic02.netlify.app/Bebe Rexha - Sacrifice.mp3",
+         timeCategory: "afternoon",
+    year: 2021
+
+},
 
 
 
@@ -25398,7 +25420,15 @@ quickFade: true
  timeCategory: "evening-late"
 },
 
+{
+    name: "Nothing But You",
+    artist: "Paul Van Dyk",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Paul van Dyk - Nothing but you.mp3",
+   timeCategory: "evening-late",
+year: 2003
 
+},
 
 
 
@@ -25875,7 +25905,13 @@ year: 2014
 
 
 
-
+{
+    name: "The Motto",
+    artist: "Tiesto & Ava Max",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Tiesto & Ava Max - the Motto.mp3",
+  timeCategory: "evening-late"
+},
 
 
 
@@ -29525,15 +29561,6 @@ year:2022
 
 
 {
-    name: "Phases ",
-    artist: " Joel Corry & Abi Flynn",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Joel Corry & Abi Flynn- Phases.mp3",
-       timeCategory: "f afternoon",
-   year: 2025
-},
-
-{
      name: "This Time Baby",
     artist: "Jackie Moore",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -29621,16 +29648,6 @@ year: 2025
 
 
 
-{
-    name: "Sacrifice",
-    artist: "Bebe Rexha",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Bebe Rexha - Sacrifice.mp3",
-         timeCategory: "f afternoon",
-    year: 2021
-
-},
-
 
 {
     name: "Free love",
@@ -29672,16 +29689,7 @@ year: 2025
 },
 
 
-{
-     name: "  All By Myself",
-    artist: "Ellie Goulding  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Ellie Goulding - All By Myself.mp3",
-    timeCategory: "f afternoon",
-     isLoud: true,
-loudnessValue: 0.55,
-year: 2022
-},
+
 
 
 
@@ -30734,14 +30742,7 @@ timeCategory: "f afternoon"
 
 
 
-{
-    name: " Daddy Cool",
-    artist: "Boney M ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Boney M - Daddy Cool.mp3",
-            timeCategory: "f afternoon",
-volumeBoost: 0.10
-},
+
 
 
 
@@ -30894,15 +30895,7 @@ isNew: true
 
 
 
-{
-    name: "Bad Company",
-    artist: "Purple Disco Machine ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/Purple Disco Machine - Bad Company.mp3",
-   timeCategory: "f afternoon",
-   isLoud: true,
-loudnessValue: 0.90
-},
+
 
 
 
@@ -30943,14 +30936,6 @@ loudnessValue: 0.90
 
 
 
-{
-    name: "Club Tropicana",
-    artist: "Wham ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Wham - Club Tropicana.mp3",
-        timeCategory: "f afternoon"
-
-},
 
 
 
@@ -31115,15 +31100,6 @@ year: 2023
 },
 
 
-
-{
-    name: "Phases  ",
-    artist: " Joel Corry & Abi Flynn",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Joel Corry & Abi Flynn- Phases.mp3",
-       timeCategory: "f evening",
-   year: 2025
-},
 
 
 
@@ -31474,14 +31450,7 @@ year:2022
 year: 1982
 },
 
-{
-    
-    name: "Deephouse",
-    artist: "Vibey",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Vibey05.mp3",
-  timeCategory: "f evening"
-},
+
 
 
 
@@ -31749,14 +31718,6 @@ isLoud: true,
   
 
 
-{
-    name: "  Expectations (new) ",
-    artist: "Olivia Rodrigo ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/Olivia Rodrigo - Expectations (new) rework.mp3",
-    timeCategory: "f evening-late",
-   year:2026
-},
 
 
 
@@ -31770,15 +31731,7 @@ isLoud: true,
     timeCategory: "f evening"
 },
 
-{
-    name: "   I Like It",
-    artist: "Alesso, Nate Smith ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic07.netlify.app/Alesso, Nate Smith - I Like It.mp3",
-    timeCategory: "f evening",
- isLoud: true,          
-  loudnessValue: 0.60
-},
+
 
 
 
@@ -32711,6 +32664,14 @@ year: 2025
 
 
 
+{
+    name: "  Expectations (new) ",
+    artist: "Olivia Rodrigo ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Olivia Rodrigo - Expectations (new) rework.mp3",
+    timeCategory: "f evening-late",
+   year:2026
+},
 
 
 {
@@ -32746,22 +32707,13 @@ year: 2025
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Rose Royce - RR Express (maxi).mp3",
  
-  volumeBoost: 2.0,
+  volumeBoost: 3.0,
 
  timeCategory: "f evening-late"
 
 },
 
-{
-     name: "A Pain That I'm Used To",
-    artist: "Depeche Mode",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/A Pain That I'm Used To (Jacques Lu Cont Remix).mp3",
- timeCategory: "f evening-late",
-quickFade: true,
-  volumeBoost: 1.3,
-year: 2005
-},
+
 
 
 
@@ -32775,26 +32727,9 @@ year: 2005
 
 },
 
-{
-    name: "Nothing But You",
-    artist: "Paul Van Dyk",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Paul van Dyk - Nothing but you.mp3",
-   timeCategory: "f evening-late",
-year: 2003
-
-},
 
 
-{
-    name: "Take Your Time",
-    artist: "Sos Band ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "audio/Sos Band - Take Your Time.mp3",
- timeCategory: "f evening-late",
-volumeBoost: 1.7,
-quickfade: true
-},
+
 
 
 {
@@ -32836,15 +32771,6 @@ volumeBoost: 1.7
 
 
 
-{
-     name: "Just Be Good To Me (maxi)",
-    artist: "S.O.S. Band ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://jazzmusic05.netlify.app/S.O.S. Band - Just Be Good To Me.mp3",
- 
- timeCategory: "f evening-late"
-
-},
 
 
 
@@ -32917,15 +32843,6 @@ volumeBoost: 1.7
 
 
 
-{
-     name: "   Clubbers (2006)",
-    artist: "Ministry Of Sound",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Ministry of Sound - Clubbers guide Summer 20066.mp3",
-       part: 6,
- timeCategory: "clubbers",
-volumeBoost: 2.5
-},
 
 
 
@@ -32950,16 +32867,6 @@ timeCategory: "f evening-late"
 
 
 
-
-{
-     name: "Just Be Good To Me (maxi)",
-    artist: "S.O.S. Band ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://jazzmusic05.netlify.app/S.O.S. Band - Just Be Good To Me.mp3",
- 
- timeCategory: "f evening-late"
-
-},
 
 
 {
@@ -33116,14 +33023,6 @@ year: 2004
 
 
 
-{
-    name: "  Rain Down Love",
-    artist: "Siedah Garret ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://Sunnydanceoldies04.netlify.app/Siedah Garret - Rain down Love.mp3",
- timeCategory: "f evening-late",
-   year:2006
-},
 
 
 
@@ -33163,23 +33062,9 @@ year: 2004
 
 
 
-{
-    name: " Lose Yourself To Dance",
-    artist: "Daft Punk ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Daft Punk - Lose Yourself To Dance.mp3",
-    timeCategory: "f evening-late",
-year:2013
-},
 
 
-{
-    name: "The Motto",
-    artist: "Tiesto & Ava Max",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Tiesto & Ava Max - the Motto.mp3",
-  timeCategory: "f evening-late"
-},
+
 
  {
      name: " Set Me Free (maxi)",
@@ -33222,15 +33107,7 @@ year:2025
 
 
 
-{
-    name: "Nothing But You",
-    artist: "Paul Van Dyk",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Paul van Dyk - Nothing but you.mp3",
-   timeCategory: "f evening-late",
-year: 2003
 
-},
 
 
 
@@ -33272,14 +33149,6 @@ volumeBoost: 0.90
 },
 
 
-{
-    name: "I Need You",
-    artist: "Dua Lipa  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Dua Lipa - I need you.mp3",
-  timeCategory: "f evening-late",
-year: 2020
-},
 
 
 
@@ -35194,15 +35063,19 @@ wednesday: {
       "f-evening-late": "images/latest Dance hits2.jpg",
     "annual": "images/Ministry-of-Sound-Logo.jpg",
 "clubbers":  "images/Clubbers(2006).jpg"
+
+
 },
 
     sunday: {
    "morning": "images/sunnyradioca.png",
       "f-afternoon": "images/latest Dance hits2.jpg",
-      "f-evening": "images/jazzy05.jpg",
+      "f-evening": "images/Lola Young.avif",
       "f-evening-late": "images/latest Dance hits2.jpg",
     "seventies": "images/seventies.webp",
-    "clubbers":  "images/Clubbers(2006).jpg"
+    "clubbers":  "images/Clubbers(2006).jpg",
+  "millintens" :  "images/millintens2.jpg"
+
 }
   };
 
