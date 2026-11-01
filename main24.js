@@ -1923,15 +1923,7 @@ year: 1984
 },
 
 
-{
-    name: "Bill Withers",
-    artist: "Lovely Day",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Bill Withers - Lovely Day.mp3",
-   timeCategory: "ballads"
 
-  
-},
 
 
 
@@ -31795,7 +31787,6 @@ volumeBoost:1.9
   timeCategory: "f evening",
 year: 2022
 },
-
 
 
 
