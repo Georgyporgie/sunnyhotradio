@@ -1311,7 +1311,7 @@ year:2004
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://Sunnydanceoldies04.netlify.app/Michael Gray - The weekend.mp3",
   eq: { bass: 1, mid: 2, treble: +1 } ,
-volumeBoost: 0.35,
+volumeBoost: 1.35,
          timeCategory: "millintens",
 year: 2004
 },
@@ -2001,16 +2001,7 @@ volumeBoost: 0.60
 },
 
 
-{
-    name: " I Gotta Keep Dancin'",
-    artist: "Carrie Lucas",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Carrie Lucas -I Gotta Keep Dancin''.mp3",
-       year: 1977,
-   timeCategory: "ballads"
 
-  
-},
 
 
 
@@ -16794,7 +16785,7 @@ year: 2021
     path: "https://danceoldies08.netlify.app/Fatback - Is This the Future.mp3",
     timeCategory: "afternoon",
      quickFade: true,
-    volumeBoost: 1.4,
+    volumeBoost: 2.5,
  year: 1985
 },
 
@@ -17741,7 +17732,7 @@ year: 2024
    quickFade: true,
    year:2024,
    isLoud: true,          
-   loudnessValue: 0.40
+    loudnessValue: 0.35
 },
 
 {
@@ -24159,6 +24150,18 @@ timeCategory: "evening-late"
 
 
 
+{
+    name: "   Disconnect",
+    artist: "Becky Hill ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Becky Hill - Disconnect.mp3",
+   isLoud: true,          
+  loudnessValue: 0.80, 
+timeCategory: "evening-late"
+
+
+},
+
 
 
 
@@ -24318,7 +24321,7 @@ volumeBoost: 0.25
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://Sunnydanceoldies04.netlify.app/Michael Gray - The weekend.mp3",
   eq: { bass: 1, mid: 2, treble: +1 } ,
-volumeBoost: 0.35,
+volumeBoost: 1.35,
 timeCategory: "evening-late",
 year: 2004
 },
@@ -25220,8 +25223,7 @@ timeCategory: "evening-late",
     path: "https://danceoldies08.netlify.app/Fatback - Is This the Future.mp3",
     timeCategory: "evening-late",
      quickFade: true,
-    volumeBoost: 1.4
- 
+    volumeBoost: 2.5 
 },
 
 
@@ -27719,6 +27721,15 @@ year:2023
 
 
 
+
+{
+     name: "Be The One ",
+    artist: "Dua Lipa ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Dua Lipa - Be the One.mp3",
+ timeCategory: "evening-late",
+year:2017
+},
 
 
 
@@ -31193,13 +31204,7 @@ timeCategory: "f evening",
         timeCategory: "f evening"
 },
 
-{
-    name: "I Can See The Future  ",
-    artist: " Tinashe  ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/Tinashe - I Can See The Future.mp3",
-       timeCategory: "f evening"
-},
+
 
 
 
@@ -31975,14 +31980,6 @@ timeCategory: "f evening"
 
 
 
-{
-    name: "Break My Heart",
-    artist: "Dua Lipa ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Dua Lipa - Break My Heart.mp3",
-      timeCategory: "f evening",
-    year: 2020
-},
 
 
 {
@@ -32754,8 +32751,8 @@ volumeBoost: 1.7
     artist: "Karen Young ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Karen Young - Hot Shot (maxi).mp3",
-       timeCategory: "f evening-late"
-
+       timeCategory: "f evening-late",
+volumeBoost: 1.5
   
 },
 
@@ -33009,7 +33006,7 @@ year: 2026
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://Sunnydanceoldies04.netlify.app/Michael Gray - The weekend.mp3",
   eq: { bass: 1, mid: 2, treble: +1 } ,
-volumeBoost: 0.35,
+volumeBoost: 1.35,
 timeCategory: "f evening-late",
 year: 2004
 },
@@ -33215,27 +33212,11 @@ volumeBoost: 0.90
 
 },
 
-{
-    name: "  All Nighter",
-    artist: "Tiesto  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/Tiesto - All Nighter.mp3",
-    timeCategory: "f evening-late"
 
 
 
-},
 
 
-
-{
-    name: "Break My Heart",
-    artist: "Dua Lipa ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Dua Lipa - Break My Heart.mp3",
-     timeCategory: "f evening-late",
-year: 2020
-},
 
 
 
@@ -33753,7 +33734,7 @@ year: 2020
     path: "https://danceoldies08.netlify.app/Fatback - Is This the Future.mp3",
     timeCategory: "f evening-late",
      quickFade: true,
-    volumeBoost: 1.4
+     volumeBoost: 2.5
  
 },
 
@@ -33767,15 +33748,6 @@ year: 2020
 
 
 
-
-
-{
-    name: "I Can See The Future ",
-    artist: " Tinashe  ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/Tinashe - I Can See The Future.mp3",
-       timeCategory: "f evening-late"
-},
 
 
 
@@ -33803,17 +33775,6 @@ year: 2020
 
 
 
-
-
-{
-
-
-     name: " Pearls",
-    artist: "Jesse Ware ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/Jesse Ware - Pearls.mp3",
- timeCategory: "f evening-late"
-},
 
 
 
@@ -33881,15 +33842,6 @@ year: 2020
 
 
 
-
-{
-     name: "Be The One ",
-    artist: "Dua Lipa ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Dua Lipa - Be the One.mp3",
- timeCategory: "f evening-late",
-year:2017
-},
 
 
 {
@@ -34166,7 +34118,7 @@ volumeBoost: 1.0
 year:2024,
 quickFade: true,
 isLoud: true,          
-  loudnessValue: 0.40
+ loudnessValue: 0.35
 },
 
 
@@ -34255,18 +34207,6 @@ quickFade: true
 
 
 
-
-{
-    name: "   Disconnect",
-    artist: "Becky Hill ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/Becky Hill - Disconnect.mp3",
-   isLoud: true,          
-  loudnessValue: 0.80, 
-timeCategory: "f evening-late"
-
-
-},
 
 
 
@@ -35074,7 +35014,8 @@ wednesday: {
       "f-evening-late": "images/latest Dance hits2.jpg",
     "seventies": "images/seventies.webp",
     "clubbers":  "images/Clubbers(2006).jpg",
-  "millintens" :  "images/millintens2.jpg"
+  "millintens" :  "images/millintens2.jpg",
+"ballads": "images/ballads.png"
 
 }
   };
