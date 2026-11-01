@@ -8876,14 +8876,7 @@ playcount: 0
 quickFade: true
 },
 
-{
-    name: "  Illusion",
-    artist: "Dua Lipa ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic07.netlify.app/Dua Lipa - Illusion.mp3",
-    year: 2024,
-timeCategory: "morning"
-},
+
 
 
 {
@@ -27480,6 +27473,13 @@ timeCategory: "evening-late"
 
 
 
+{
+    name: "If You Don't Wanna Leave Me",
+    artist: "Dua Lipa",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic04.netlify.app/Dua Lipa - If you don't wanna leave me.mp3",
+   timeCategory: "evening-late"
+},
 
 
 
@@ -29812,15 +29812,7 @@ year: 2021
 
 
 
-{
-    name: "  Illusion",
-    artist: "Dua Lipa ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic07.netlify.app/Dua Lipa - Illusion.mp3",
-    timeCategory: "f afternoon",
-     quickFade: true,
-      year: 2024
-},
+
 
 
 {
@@ -30473,13 +30465,6 @@ isNew: true
 
 
 
-{
-     name: "  The Funk Phenomena",
-    artist: "Armand Van Helden ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Armand Van Helden - The Funk Phenomena.mp3",
-    timeCategory: "f afternoon"
-},
 
 
 {
@@ -32024,14 +32009,7 @@ timeCategory: "f evening"
 
 
 
-{
-    name: "Try",
-    artist: "Dua Lipa ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Dua Lipa - Try.mp3",
-      timeCategory: "f evening"
 
-},
 
 
 
@@ -32910,13 +32888,6 @@ isNew: true
 
 
 
-{
-     name: "  The Funk Phenomena",
-    artist: "Armand Van Helden ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Armand Van Helden - The Funk Phenomena.mp3",
-    timeCategory: "f evening-late"
-},
 
 
 {
@@ -32986,13 +32957,6 @@ year: 2026
 
 
 
-{
-    name: "If You Don't Wanna Leave Me",
-    artist: "Dua Lipa",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Dua Lipa - If you don't wanna leave me.mp3",
-   timeCategory: "f evening-late"
-},
 
 
 
