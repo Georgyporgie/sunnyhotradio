@@ -1715,14 +1715,7 @@ isNew: true
 
 
 
-{
-    name: "  Candy (1986)",
-    artist: "Cameo  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/Cameo - Candy (1986).mp3",
-    timeCategory: "eighties",
-   year:1986
-},
+
 
 {
     name: "Return Of The Mack (12inch) ",
@@ -4589,7 +4582,30 @@ volumeBoost: 0.20,
 volumeBoost: 0.8
 },
 
+{
+    name: "Love Theme",
+    artist: "Love Unlimited",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Love Unlimited - Love Theme.mp3",
+    timeCategory: "seventies",
+    year: 1973
+},
 
+{
+    name: "I'm So Glad Woman",
+    artist: "Love Unlimited",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Love Unlimited - I m So Glad Woman.mp3",
+       timeCategory: "seventies"
+},
+
+{
+    name: "Love X Love",
+    artist: "George Benson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/George Benson - Love X Love.mp3",
+        timeCategory: "seventies"
+},
 
 //soulshow
 
@@ -5268,7 +5284,14 @@ year: 1975
 
 
 
-
+{
+    name: "  Candy (1986)",
+    artist: "Cameo  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Cameo - Candy (1986).mp3",
+    timeCategory: "eighties",
+   year:1986
+},
 
 
 
@@ -5283,7 +5306,14 @@ year: 1975
 },
 
 
-
+{
+    name: "Never Knew Love",
+    artist: "Stephanie Mills",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Stephanie Mills - Never Knew Love.mp3",
+    timeCategory: "eighties",
+    year: 1980
+},
 
 
 {
