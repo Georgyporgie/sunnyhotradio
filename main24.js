@@ -34929,15 +34929,7 @@ function updatePlaylistImage(category) {
 
   // WEEKLY SHOW SCHEDULE
   const weeklyShows = {
-    monday: {
-      "morning": "images/sunnyradioca.png",
-      "afternoon": "images/sunnyradioca.png",
-      "evening": "images/sunnyradioca.png",
-      "evening-late": "images/jazzy05.jpg",
-      "f-afternoon": "images/sunnyradioca.png",
-  "millintens" :  "images/millintens2.jpg"
 
- },
 
     tuesday: {
       "morning": "images/sunnyradioca.png",
