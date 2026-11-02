@@ -427,7 +427,7 @@ volumeBoost: 2.5
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj3.mp3",
-   timeCategory: " nouveau",
+   timeCategory: " clubbers",
 volumeBoost: 1.0,
 part: 6
 },
@@ -458,7 +458,7 @@ volumeBoost: 2.5
     artist: "Listen Live Sunny Danceradio☀️ ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "muziek/discjockeys/Female dj4.mp3",
-   timeCategory: " nouveau",
+   timeCategory: "clubbers",
 volumeBoost: 1.0,
 part: 9
 },
@@ -630,7 +630,14 @@ part:8
      timeCategory: "millintens"
 },
 
-
+{
+    name: "  Sandstorm",
+    artist: "Darude",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/Darude - Sandstorm.mp3",
+     timeCategory: "millintens",
+year: 2000
+},
 
 {
      name: "Welcome!",
@@ -649,7 +656,28 @@ part:8
 },
 
 
+{
+    name: " Hey Hey Original",
+    artist: "Dennis Ferrer",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunny-dancemusic03.netlify.app/Dennis Ferrer- Hey Hey original.mp3",
+    timeCategory: "millintens",
+    volumeBoost: 0.15,
+quickFade: true,
+year: 2010
+},
 
+
+{
+    name: "  Cry for You ",
+    artist: " September  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/September - Cry for You.mp3",
+    timeCategory: "millintens",
+    volumeBoost: 0.45,
+year: 2006
+
+},
 
 
 
@@ -759,7 +787,7 @@ volumeBoost: 1.0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Lasgo - Something (2001).mp3",
     timeCategory: "millintens",
-   year:1995
+  year:2001
 },
 
 {
@@ -908,17 +936,6 @@ year:2013,
 },
 
 
-
-
-{
-  
-    name: "Good Form",
-    artist: "Nicki Minaj ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Nicki Minaj - Good Form.mp3",
-    timeCategory: "millintens",
-  year: 2018
-},
 
 
 
@@ -1180,15 +1197,7 @@ year:2016
 
 
 
-{
-    name: "Touch Me ",
-    artist: "Rui Da Silva (2007)",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle4.mp3",
-          timeCategory: "millintens",
-  year:2007,
- volumeBoost: 0.10
-},
+
 
 
 {
@@ -1202,14 +1211,6 @@ volumeBoost: 0.10
 },
 
 
-{
-     name: " Umbrella ",
-    artist: "Rihanna  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Rihanna - Umbrella.mp3",
-                   timeCategory: "millintens",
-year:2007
-},
 
 {
      name: "A Pain That I'm Used To",
@@ -1702,8 +1703,8 @@ isNew: true
 
 
 {
-    name: "Bill Withers",
-    artist: "Lovely Day",
+    name: "Lovely Day",
+    artist: "Bill Withers",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Bill Withers - Lovey Day ((strictly).mp3",
       year: 1977,
@@ -1777,16 +1778,6 @@ timeCategory: "ballads",
 },
 
 
-{
-    name: " Risin To The Top (1982)",
-    artist: "Kenny Burke  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/Kenny Burke - Risin to the Top.mp3",
-           timeCategory: "ballads",
-     quickFade: true,
-    volumeBoost: 0.35,
-    playcount: 0
-},
 
 
 
@@ -3625,15 +3616,7 @@ timeCategory: "seventies"
 },
 
 
-{
-     name: "Newyork City (maxi)",
-    artist: "Tramps",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://jazzmusic05.netlify.app/Tramps Newyork City.mp3",
- volumeBoost: 0.90,
- timeCategory: "seventies"
 
-},
 
 
 {
@@ -5284,16 +5267,6 @@ year: 1975
 
 
 
-{
-    name: "  Candy (1986)",
-    artist: "Cameo  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/Cameo - Candy (1986).mp3",
-    timeCategory: "eighties",
-   year:1986
-},
-
-
 
 
 {
@@ -5570,14 +5543,6 @@ volumeBoost: 1.70
 volumeBoost: 0.70
 },
 
-{
-    name: "Word Up ",
-    artist: "Cameo ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Word up cameo.mp3",
-        timeCategory: "eighties"
-
-},
 
 
 
@@ -7436,15 +7401,6 @@ year: 1981
 
 
 
-{
-    name: "   Insomnia (1995)",
-    artist: "Faithless",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic06.netlify.app/Faithless - Insomnia (1995).mp3",
-    timeCategory: "nineties",
-   year:1995
-},
-
 
 
 
@@ -7587,18 +7543,7 @@ year: 1992
    timeCategory: "nineties"
 },
 
-{
-  
-    name: " Killer (1990)  ",
-    artist: "Adamski, Seal",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Adamski, Seal- Killer (1990).mp3",
-year: 1990,
-timeCategory: "nineties",
-     quickFade: true,
-    volumeBoost: 0.25,
-   eq: { bass: 0, mid: 2, treble: +1 } 
-},
+
 
 {
     name: "  Born Slippy ",
@@ -7761,16 +7706,6 @@ quickFade: true
 
 
 
-{
-    name: " Shy Guy (1995)",
-    artist: "Diana King  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/Diana King - Shy guy.mp3",
-    timeCategory: "nineties",
-     quickFade: true,
-    volumeBoost: 0.65,
-    playcount: 0
-},
 
 
 
@@ -7867,16 +7802,6 @@ volumeBoost: 0.20
 },
 
 
-{
-    name: "The Power",
-    artist: "Snap ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Snap - The Power.mp3",
-      timeCategory: "nineties",
-     quickFade: true,
-    volumeBoost: 0.35,
-    playcount: 0
-},
 
 
 
@@ -8598,7 +8523,7 @@ part: 3
 
 },
 
-
+//fat
 
 {
      name: " (Live) From London ",
@@ -14615,6 +14540,15 @@ timeCategory: "afternoon"
 
 
 
+
+{
+    name: "MK  (12inch) ",
+    artist: " Dior ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://dancemusic08.netlify.app/MK - Dior (12inch).mp3",
+       timeCategory: "afternoon",
+  year: 2025
+},
 
 
 
@@ -22321,28 +22255,6 @@ year: 2014
 
 
 
-{ 
-
-    name: "  If I let You (new)",
-    artist: "The Womack Sisters ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/The Womack Sisters - If I let You (new).mp3",
-      timeCategory: "f evening",
-year: 2026
-
-  
-},
-
-{ 
-
-    name: " Teardrops (maxi)",
-    artist: "Womack & Womack ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Womack & Womack - Teardrops (maxi).mp3",
-      timeCategory: "f evening"
-
-  
-},
 
 
 {
@@ -23951,15 +23863,6 @@ volumeBoost:0.30
 
 
 
-{
-    name: "  Cry for You ",
-    artist: " September  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies04.netlify.app/September - Cry for You.mp3",
-    timeCategory: "evening-late",
-  eq: { bass: 1, mid: 0, treble: 1 } ,
-    volumeBoost: 0.15
-},
 
 
 
@@ -24809,8 +24712,8 @@ volumeBoost: 0.25
     path: "https://sunny-dancemusic03.netlify.app/Dennis Ferrer- Hey Hey original.mp3",
     timeCategory: "evening-late",
     volumeBoost: 0.15,
-quickFade: true
-
+quickFade: true,
+year: 2010
 },
 
 
@@ -24887,7 +24790,7 @@ year: 2022
 
 {
   
-    name: " Nouveau Disco 01 ",
+    name: " Nouveau Disco",
     artist: "Mix Central  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 01.mp3",
@@ -24903,7 +24806,7 @@ eq: { bass: 0, mid: 2, treble: +1 }
 
 {
   
-    name: " Nouveau Disco 02 ",
+    name: " Nouveau Disco  ",
     artist: "Mix Central  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 02.mp3",
@@ -24935,7 +24838,7 @@ timeCategory: " evening-late"
 
 {
   
-    name: " Nouveau Disco 03 ",
+    name: " Nouveau Disco  ",
     artist: "Mix Central  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 03.mp3",
@@ -24950,7 +24853,7 @@ timeCategory: " evening-late"
 
 {
   
-    name: " Nouveau Disco 04 ",
+    name: " Nouveau Disco",
     artist: "Mix Central  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 04.mp3",
@@ -24963,7 +24866,7 @@ timeCategory: " evening-late",
 
 {
   
-    name: " Nouveau Disco 05 ",
+    name: " Nouveau Disco  ",
     artist: "Mix Central  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mix Central - Nouveau Disco 05.mp3",
@@ -28310,15 +28213,7 @@ volumeBoost: 1.50
 
 
 
-{
-     name: "  1 Thing",
-    artist: " Amerie ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Amerie - 1 Thing.mp3",
-           timeCategory: "evening-late",
-   year:2005
 
-},
 
 
 
@@ -29086,8 +28981,8 @@ year:2023
     artist: "Darude",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Darude - Sandstorm.mp3",
-  timeCategory: "evening-late"
-
+  timeCategory: "evening-late",
+year: 2000
 },
 
 
@@ -29154,7 +29049,7 @@ volumeBoost: 1.0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Lasgo - Something (2001).mp3",
     timeCategory: "evening-late",
-   year:1995
+   year:2001
 },
 
 {
@@ -29636,19 +29531,6 @@ year: 1989
 
 
 
-{
-    name: " Love Games (maxi)",
-    artist: " Level 42",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Level 42 - Love Games (maxi).mp3",
-    timeCategory: "f evening",
-year: 1981
-},
-
-
-
-
-
 
 
 
@@ -29659,7 +29541,7 @@ year: 1981
     artist: "Jessie J",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Jessie J - Believe In Magic.mp3",
-    timeCategory: "f-afternoon",
+    timeCategory: "f afternoon",
 year: 2025
 },
 
@@ -29673,7 +29555,7 @@ year: 2025
     artist: "Minellli & Inna",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Minellli & Inna - In Love.mp3",
-    timeCategory: "f-afternoon"
+    timeCategory: "f afternoon"
 
 },
 
@@ -29755,7 +29637,7 @@ year: 2025
     artist: " Doechii ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Doechii - Gliiter and Guillotines.mp3",
-    timeCategory: "f-afternoon"
+    timeCategory: "f afternoon"
 
 },
 
@@ -29768,7 +29650,7 @@ year: 2025
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Steve Arrington - Feel So Real (maxi).mp3",
         volumeBoost:1.00,
-timeCategory: "f-afternoon"
+timeCategory: "f afternoon"
 
 },
 
@@ -30257,26 +30139,7 @@ volumeBoost: 0.30
 
 
 
-{
-    name: "  Crucify",
-    artist: "Emma Hewitt ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Emma Hewitt - Crucify (Richi Remix).mp3",
-    timeCategory: "f afternoon",
-    year:2012
-},
 
-
-
-
-{
-    name: "MK  (12inch) ",
-    artist: " Dior ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/MK - Dior (12inch).mp3",
-       timeCategory: "f afternoon",
-  year: 2025
-},
 
 
 
@@ -30630,15 +30493,7 @@ year: 1999
 
 
 
-{
-     name: "  1 Thing",
-    artist: " Amerie ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Amerie - 1 Thing.mp3",
-           timeCategory: "f afternoon",
-   year:2005
 
-},
 
 
 
@@ -30981,6 +30836,41 @@ isNew: true
 
 
 
+{ 
+
+    name: "  If I let You (new)",
+    artist: "The Womack Sisters ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/The Womack Sisters - If I let You (new).mp3",
+      timeCategory: "f evening",
+year: 2026
+
+  
+},
+
+{ 
+
+    name: " Teardrops (maxi)",
+    artist: "Womack & Womack ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Womack & Womack - Teardrops (maxi).mp3",
+      timeCategory: "f evening"
+
+  
+},
+
+
+
+
+
+{
+    name: " Love Games (maxi)",
+    artist: " Level 42",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Level 42 - Love Games (maxi).mp3",
+    timeCategory: "f evening",
+year: 1981
+},
 
 
 {
@@ -32796,6 +32686,17 @@ volumeBoost: 1.5
 
 
 
+{
+    name: "  Cry for You ",
+    artist: " September  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies04.netlify.app/September - Cry for You.mp3",
+    timeCategory: " f evening-late",
+  eq: { bass: 1, mid: 0, treble: 1 } ,
+    volumeBoost: 0.45,
+year: 2006
+
+},
 
 
 
@@ -33531,14 +33432,6 @@ year: 2020
 
 
 
-{
-     name: "   Faded",
-    artist: "Hayla & Nelly Furtado",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Hayla & Nelly Furtado - Faded.mp3",
-           timeCategory: "f evening-late",
- year: 2025
-},
 
 
 
@@ -33577,16 +33470,6 @@ year: 2020
   playcount: 0
 },
 
-
-
-{
-     name: " Think About Us   ",
-    artist: "Poppy Baskcomb   ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Poppy Baskcomb - Think About Us.mp3",
-           timeCategory: "f evening-late",
- year:2025
-},
 
 
 
@@ -34932,67 +34815,116 @@ function updatePlaylistImage(category) {
 
 
     tuesday: {
-      "morning": "images/sunnyradioca.png",
-      "afternoon": "images/latest Dance hits2.jpg",
-      "evening": "images/latest Dance hits2.jpg",
-      "evening-late": "images/latest Dance hits2.jpg",
-      "millintens" :  "images/millintens2.jpg",
-"clubbers":  "images/Clubbers(2006).jpg"
+   "morning": "images/sunnyradioca.png",
+  "afternoon": "images/sunnyradioca.png",
+  "evening": "images/latest Dance hits2.jpg",
+  "evening-late": "images/latest Dance hits2.jpg",
+       "nineties":"images/nineties.jpg",
+ "seventies": "images/seventies.webp",
+       "annual": "images/Ministry-of-Sound-Logo.jpg",
+ "clubbers":  "images/Clubbers(2006).jpg",
+ "soulshow":      "images/soulshow.jpg",
+      "frankiebones": "images/frankie-bones_1024.avif",
+   "millintens" :  "images/millintens2.jpg",
+"ballads": "images/ballads.png",
+  "eighties": "images/80 s show.jpg"
 
 },
 
 wednesday: {
-  "morning": "images/sunnyradioca.png",
+   "morning": "images/sunnyradioca.png",
   "afternoon": "images/latest Dance hits2.jpg",
   "evening": "images/latest Dance hits2.jpg",
   "evening-late": "images/sunnyradioca.png",
-"morning": "images/latest Dance hits2.jpg",
-"eighties": "images/80 s show.jpg",
-  "millintens" :  "images/millintens2.jpg"
+       "nineties":"images/nineties.jpg",
+ "seventies": "images/seventies.webp",
+       "annual": "images/Ministry-of-Sound-Logo.jpg",
+ "clubbers":  "images/Clubbers(2006).jpg",
+ "soulshow":      "images/soulshow.jpg",
+      "frankiebones": "images/frankie-bones_1024.avif",
+   "millintens" :  "images/millintens2.jpg",
+"ballads": "images/ballads.png",
+  "eighties": "images/80 s show.jpg"
 },
 
 
     thursday: {
-      "morning": "images/sunnyradioca.png",
-      "afternoon": "images/latest Dance hits2.jpg",
-      "eighties": "images/80 s show.jpg",
-"soulshow":      "images/soulshow.jpg",
-"evening-late": "images/jazzy05.jpg",
-"f afternoon":   "images/latest Dance hits2.jpg"
+  "morning": "images/sunnyradioca.png",
+  "afternoon": "images/latest Dance hits2.jpg",
+  "evening": "images/latest Dance hits2.jpg",
+  "evening-late": "images/sunnyradioca.png",
+      "f afternoon": "images/latest Dance hits2.jpg",
+      "f-evening": "images/Lola Young.avif",
+      "f-evening-late": "images/latest Dance hits2.jpg",
+       "nineties":"images/nineties.jpg",
+ "seventies": "images/seventies.webp",
+       "annual": "images/Ministry-of-Sound-Logo.jpg",
+ "clubbers":  "images/Clubbers(2006).jpg",
+ "soulshow":      "images/soulshow.jpg",
+      "frankiebones": "images/frankie-bones_1024.avif",
+   "millintens" :  "images/millintens2.jpg",
+"ballads": "images/ballads.png",
+  "eighties": "images/80 s show.jpg"
 
 },
 
     friday: {
-      "morning": "images/80 s show.jpg",
-      "afternoon": "images/latest Dance hits2.jpg",
+  "morning": "images/sunnyradioca.png",
+  "afternoon": "images/latest Dance hits2.jpg",
+  "evening": "images/latest Dance hits2.jpg",
+  "evening-late": "images/sunnyradioca.png",
+      "f afternoon": "images/latest Dance hits2.jpg",
+      "f-evening": "images/Lola Young.avif",
+      "f-evening-late": "images/latest Dance hits2.jpg",
+       "nineties":"images/nineties.jpg",
+ "seventies": "images/seventies.webp",
+       "annual": "images/Ministry-of-Sound-Logo.jpg",
+ "clubbers":  "images/Clubbers(2006).jpg",
+ "soulshow":      "images/soulshow.jpg",
       "frankiebones": "images/frankie-bones_1024.avif",
-      "evening-late": "images/latest Dance hits2.jpg",
-      "f-afternoon": "images/latest Dance hits2.jpg",
-    "nineties":"images/nineties.jpg",
-  "millintens" :  "images/millintens2.jpg",
-"clubbers":  "images/Clubbers(2006).jpg"
+   "millintens" :  "images/millintens2.jpg",
+"ballads": "images/ballads.png",
+  "eighties": "images/80 s show.jpg"
 },
 
     saturday: {
-      "morning": "images/sunnyradioca.png",
-      "f-afternoon": "images/latest Dance hits2.jpg",
-      "f-evening": "images/jazzy05.jpg",
+  "morning": "images/sunnyradioca.png",
+  "afternoon": "images/latest Dance hits2.jpg",
+  "evening": "images/latest Dance hits2.jpg",
+  "evening-late": "images/sunnyradioca.png",
+      "f afternoon": "images/latest Dance hits2.jpg",
+      "f-evening": "images/Lola Young.avif",
       "f-evening-late": "images/latest Dance hits2.jpg",
-    "annual": "images/Ministry-of-Sound-Logo.jpg",
-"clubbers":  "images/Clubbers(2006).jpg"
+       "nineties":"images/nineties.jpg",
+ "seventies": "images/seventies.webp",
+       "annual": "images/Ministry-of-Sound-Logo.jpg",
+ "clubbers":  "images/Clubbers(2006).jpg",
+ "soulshow":      "images/soulshow.jpg",
+      "frankiebones": "images/frankie-bones_1024.avif",
+   "millintens" :  "images/millintens2.jpg",
+"ballads": "images/ballads.png",
+  "eighties": "images/80 s show.jpg"
 
 
 },
 
     sunday: {
-   "morning": "images/sunnyradioca.png",
-      "f-afternoon": "images/latest Dance hits2.jpg",
+  "morning": "images/sunnyradioca.png",
+  "afternoon": "images/latest Dance hits2.jpg",
+  "evening": "images/latest Dance hits2.jpg",
+  "evening-late": "images/sunnyradioca.png",
+      "f afternoon": "images/latest Dance hits2.jpg",
       "f-evening": "images/Lola Young.avif",
       "f-evening-late": "images/latest Dance hits2.jpg",
-    "seventies": "images/seventies.webp",
-    "clubbers":  "images/Clubbers(2006).jpg",
-  "millintens" :  "images/millintens2.jpg",
-"ballads": "images/ballads.png"
+       "nineties":"images/nineties.jpg",
+ "seventies": "images/seventies.webp",
+       "annual": "images/Ministry-of-Sound-Logo.jpg",
+ "clubbers":  "images/Clubbers(2006).jpg",
+ "soulshow":      "images/soulshow.jpg",
+      "frankiebones": "images/frankie-bones_1024.avif",
+   "millintens" :  "images/millintens2.jpg",
+"ballads": "images/ballads.png",
+  "eighties": "images/80 s show.jpg"
 
 }
   };
