@@ -159,7 +159,8 @@ function buildPlaylist(tracks) {
     "divine",
 "nouveau",
 "acid",
-  "annual",
+  "preston",
+"annual",
 "clubbers"
 ];
 
@@ -319,34 +320,50 @@ let trackList = [
 
 
 
+{
+    name: "Jenny Preston",
+    artist: "Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Jeny%20Preston01.mp3",
+    part: 1,
+    timeCategory: "preston"
+},
 
+{
+    name: "Jenny Preston",
+    artist: "Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Jeny%20Preston02.mp3",
+    part: 2,
+    timeCategory: "preston"
+},
 
+{
+    name: "Jenny Preston",
+    artist: "Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Jeny%20Preston03.mp3",
+    part: 3,
+    timeCategory: "preston"
+},
 
+{
+    name: "Jenny Preston",
+    artist: "Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Jeny%20Preston04.mp3",
+    part: 4,
+    timeCategory: "preston"
+},
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{
+    name: "Jenny Preston",
+    artist: "Ministry Of Sound",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic08.netlify.app/Jeny%20Preston05.mp3",
+    part: 5,
+    timeCategory: "preston"
+},
 
 
 
@@ -3535,7 +3552,8 @@ volumeBoost: 0.35
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/MFSB - Sexy (12inch).mp3",
 timeCategory: "seventies",
-volumeBoost: 0.40
+volumeBoost: 2.00,
+year: 1975
 },
 
 
@@ -3610,7 +3628,7 @@ timeCategory: "seventies",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Hamilton Bohannon - Let's Start To Dance 12 inch.mp3",
   eq: { bass: 2, mid: 3, treble: +1 } ,
-volumeBoost: 0.55,
+volumeBoost:2.00,
 timeCategory: "seventies"
 
 },
@@ -4551,8 +4569,8 @@ volumeBoost: 0.20,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Crown Heights Affair - Dancin' (maxi).mp3",
      year: 1976,
-   timeCategory: "seventies"
-
+   timeCategory: "seventies",
+volumeBoost: 2.0
   
 },
 
@@ -6135,7 +6153,7 @@ volumeBoost: 0.15
     artist: "Mary Jane Girls ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mary Jane Girls - All Night Long.mp3",
-  volumeBoost: 0.40,
+  volumeBoost: 2.40,
   eq: { bass: 1, mid: 1, treble: +1 } ,
     timeCategory: "eighties"
 
@@ -10878,7 +10896,7 @@ volumeBoost: 0.15
     artist: "Mary Jane Girls ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mary Jane Girls - All Night Long.mp3",
-  volumeBoost: 0.40,
+   volumeBoost: 2.40,
   eq: { bass: 1, mid: 1, treble: +1 } ,
     timeCategory: "morning"
 
@@ -11667,7 +11685,8 @@ volumeBoost: 0.95
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/MFSB - Sexy (12inch).mp3",
     timeCategory: "morning",
-volumeBoost: 0.90
+volumeBoost: 2.00,
+year: 1975
 },
 
 
@@ -14410,9 +14429,33 @@ playcount: 0
 
 
 
+{
+     name: "  Lost In The View (new)",
+       artist: "Elderbrook",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Elderbrook - Lost In The View (new).mp3",
+    timeCategory: "afternoon",
+playcount: 0
+   
+
+
+},
 
 
 
+
+
+{
+     name: "  Tarantino (new)",
+       artist: "Lisa ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Lisa - Tarantino (new).mp3",
+    timeCategory: "afternoon",
+playcount: 0
+   
+
+
+},
 
 
 
@@ -15968,7 +16011,8 @@ isNew: true
     artist: "Armand Van Helden ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Armand Van Helden - The Funk Phenomena.mp3",
-    timeCategory: "afternoon"
+    timeCategory: "afternoon",
+volumeBoost: 1.5
 },
 
 
@@ -21595,7 +21639,7 @@ loudnessValue: 0.90
     path: "https://sunnydanceoldies08.netlify.app/Azymuth - Jazz carnaval.mp3",
     timeCategory: "evening",
     quickFade: true,
-    volumeBoost: 0.40,
+    volumeBoost: 1.40,
 playcount: 0
 },
 
@@ -22182,8 +22226,8 @@ isLoud: true,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Crown Heights Affair - Dancin' (maxi).mp3",
      year: 1976,
-   timeCategory: "evening"
-
+   timeCategory: "evening",
+volumeBoost: 2.0
   
 },
 
@@ -22490,7 +22534,7 @@ year: 1979
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Mongo Santamaria - Watermelon Man.mp3",
     timeCategory: "evening",
-volumeBoost:  2.5
+volumeBoost:  3.0
 },
 
 
@@ -25455,7 +25499,7 @@ year: 2001,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Hamilton Bohannon - Let's Start To Dance 12 inch.mp3",
   eq: { bass: 2, mid: 3, treble: +1 } ,
-volumeBoost: 0.15,
+volumeBoost: 2.00,
 timeCategory: "evening-late"
 
 },
@@ -25864,15 +25908,6 @@ volumeBoost: 0.15
 },
 
 
-{
-    name: " All Night Long ",
-    artist: "Mary Jane Girls ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/Mary Jane Girls - All Night Long.mp3",
-    timeCategory: "evening-late",
-volumeBoost: 0.40,
-  eq: { bass: 1, mid: 1, treble: +1 }
-},
 
 
 
@@ -29401,6 +29436,34 @@ year:2022
 
 
 
+{
+     name: "  Lost In The View (new)",
+       artist: "Elderbrook",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Elderbrook - Lost In The View (new).mp3",
+    timeCategory: "f afternoon",
+playcount: 0
+   
+
+
+},
+
+
+
+
+
+{
+     name: "  Tarantino (new)",
+       artist: "Lisa ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "audio/Lisa - Tarantino (new).mp3",
+    timeCategory: "f afternoon",
+playcount: 0
+   
+
+
+},
+
 
 
 
@@ -29613,14 +29676,6 @@ year: 2025
 
 
 
-{
-    name: "   Fake Love",
-    artist: "Tink ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Tink - Fake Love.mp3",
-    timeCategory: "f afternoon",
-   year: 2023
-},
 
 
 
@@ -32162,14 +32217,7 @@ year:2020
 
 
 
-{
-    name: " Right Here",
-    artist: "Jesse Glyne ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies08.netlify.app/Jesse Glyne - right here.mp3",
-  timeCategory: "f evening",
-year: 2014
-},
+
 
 
 
@@ -34335,6 +34383,7 @@ function isOrderedCategory(cat) {
 "frankiebones",
 "nouveau",
 "annual",
+  "preston",
 "clubbers"
 ].includes(cat);
 }
