@@ -1,14 +1,124 @@
 // --- Config ---
-const IMG_BASE = ''; 
-const SNOW_IMG = IMG_BASE + 'snowflake.png';
+const IMG_BASE = ''; // e.g., 'images/' if your assets live in /images/
 
-// --- Layered containers ---
-const front = document.getElementById('snow-container');
-const mid   = document.getElementById('snow-container-mid');
-const back  = document.getElementById('snow-container-back');
+const SNOW_IMG   = IMG_BASE + 'snowflake.png';
+const BLACK_IMG  = IMG_BASE + 'blackleaf.png';
+const GOLDEN_IMG = IMG_BASE + 'goldenleaf.png';
 
-// ❄️ Spawn more flakes (3× more often)
-setInterval(spawnFlake, 150);
+// --- Cached DOM refs ---
+const container = document.getElementById('leaf-container');
+const soloLeaf  = document.getElementById('solo-leaf');
+
+
+function isAutumn() {
+  const month = new Date().getMonth();
+
+  // September, October, November
+  return month >= 8 && month <= 10;
+}
+
+
+
+// --- Guards for special triggers ---
+let lastHourBlackTriggered = null;
+let lastHourGoldenTriggered = null;
+const appStart = Date.now();
+const STARTUP_COOLDOWN_MS = 3000; // 3s
+
+/* --- Background drift leaves --- */
+function spawnLeaf() {
+  if (!isAutumn()) return;
+  if (!container) return;
+
+  const leaf = document.createElement('div');
+  leaf.classList.add('leaf');
+  leaf.style.left = Math.random() * 100 + 'vw';
+
+  const duration = 5 + Math.random() * 5; // 5–10s
+  leaf.style.animationName = 'fall';
+  leaf.style.animationDuration = duration + 's';
+
+  const size = 20 + Math.random() * 40; // 20–60px
+  leaf.style.width = size + 'px';
+  leaf.style.height = size + 'px';
+
+  container.appendChild(leaf);
+  setTimeout(() => leaf.remove(), duration * 1000);
+}
+if (isAutumn()) {
+  setInterval(spawnLeaf, 2500);
+}
+
+/* --- Special black leaf omen (hourly) --- */
+function maybeSpawnBlackHourly() {
+  const now = new Date();
+  const inWindow = now.getMinutes() === 0 && now.getSeconds() < 3;
+  const cooledDown = Date.now() - appStart > STARTUP_COOLDOWN_MS;
+
+  if (inWindow && cooledDown) {
+    if (lastHourBlackTriggered !== now.getHours()) {
+      spawnSpecialLeaf(BLACK_IMG, 'blackFall', 60);
+      lastHourBlackTriggered = now.getHours();
+    }
+  }
+}
+
+/* --- Golden blessing (hourly at half past) --- */
+function maybeSpawnGoldenHourly() {
+  const now = new Date();
+  const inWindow = now.getMinutes() === 30 && now.getSeconds() < 3;
+  const cooledDown = Date.now() - appStart > STARTUP_COOLDOWN_MS;
+
+  if (inWindow && cooledDown) {
+    if (lastHourGoldenTriggered !== now.getHours()) {
+      spawnSpecialLeaf(GOLDEN_IMG, 'goldenFall', 56);
+      lastHourGoldenTriggered = now.getHours();
+    }
+  }
+}
+setInterval(maybeSpawnBlackHourly, 1000);
+setInterval(maybeSpawnGoldenHourly, 1000);
+
+/* --- Ritual solo leaf --- */
+function dropSingleLeaf() {
+  if (!isAutumn()) return;
+  if (!soloLeaf) return;
+  soloLeaf.style.left = Math.random() * 100 + 'vw';
+  soloLeaf.style.animation = 'none';
+  void soloLeaf.offsetWidth; // force reflow
+  soloLeaf.style.animation = 'soloFall 7s linear forwards';
+}
+if (isAutumn()) {
+  setInterval(dropSingleLeaf, 8000);
+}
+
+/* --- Helper for special leaves --- */
+function spawnSpecialLeaf(imgUrl, animationName, pxSize) {
+  if (!container) return;
+  const leaf = document.createElement('div');
+  leaf.classList.add('leaf');
+  leaf.style.backgroundImage = `url(${imgUrl})`;
+  leaf.style.animationName = animationName;
+  leaf.style.left = Math.random() * 100 + 'vw';
+
+  const duration = 7 + Math.random() * 3; // 7–10s
+  leaf.style.animationDuration = duration + 's';
+  leaf.style.width = pxSize + 'px';
+  leaf.style.height = pxSize + 'px';
+
+  container.appendChild(leaf);
+  setTimeout(() => leaf.remove(), duration * 1000);
+}
+
+/* --- Random golden blessing --- */
+function maybeSpawnGoldenRandom() {
+  const cooledDown = Date.now() - appStart > STARTUP_COOLDOWN_MS;
+  if (!cooledDown) return;
+  if (Math.random() < 0.01) {
+    spawnSpecialLeaf(GOLDEN_IMG, 'goldenFall', 56);
+  }
+}
+setInterval(maybeSpawnGoldenRandom, 10000);
 
 // Helper: pick one random 4-hour window per day
 let cachedDay = null;
@@ -35,32 +145,25 @@ function spawnFlake() {
   const hour  = now.getHours();
   const min   = now.getMinutes();
 
-  // ❄️ Stop completely after Feb 1
-  if (month > 1 || (month === 1 && day >= 1)) return;
+  if (month !== 11 && month !== 0) return;
 
-  // ❄️ Daily window
   const { start, end } = dailySnowWindow();
   if (hour < start || hour >= end) return;
 
-  // ❄️ Only snow during these hours
-  const SNOW_HOURS = [6, 7, 8, 15, 16, 17, 20,22, 23];
+  const SNOW_HOURS = [6, 7, 8, 15, 16, 17, 22, 23];
   if (!SNOW_HOURS.includes(hour)) return;
 
-  // ❄️ Only snow during the first 15 minutes
   if (min > 15) return;
 
-  // ❄️ Weather randomness (more snow now)
   const weatherSeed = (day * 17 + hour * 3) % 10;
-  if (weatherSeed > 7) return; // 80% chance instead of 50%
+  if (weatherSeed > 4) return;
 
-  // ❄️ January taper
   let spawnChance = 1;
   if (month === 0) {
     spawnChance = Math.max(0, 1 - (day / 31));
   }
   if (Math.random() > spawnChance) return;
 
-  // ❄️ Create a flake
   const flake = document.createElement("div");
   flake.className = "flake";
 
@@ -86,13 +189,41 @@ function spawnFlake() {
 
   flake.style.backgroundImage = `url('${SNOW_IMG}')`;
 
-  // ❄️ Layer assignment
-  let target;
-  if (depth < 0.33) target = back;
-  else if (depth < 0.66) target = mid;
-  else target = front;
-
-  target.appendChild(flake);
-
+  container.appendChild(flake);
   setTimeout(() => flake.remove(), duration * 1000);
 }
+
+/* --- Seasonal mix --- */
+function spawnSeasonal() {
+  const el = document.createElement("div");
+  el.className = "leaf";
+  el.style.left = Math.random() * window.innerWidth + "px";
+
+  const choice = Math.random();
+  if (choice < 0.6) {
+    el.style.backgroundImage = `url('${BLACK_IMG}')`;
+  } else if (choice < 0.85) {
+    el.style.backgroundImage = `url('${GOLDEN_IMG}')`;
+  } else {
+    el.style.backgroundImage = `url('${SNOW_IMG}')`;
+  }
+
+  const duration = 6 + Math.random() * 6;
+  el.style.animationDuration = duration + "s";
+
+  container.appendChild(el);
+  setTimeout(() => el.remove(), duration * 1000);
+}
+
+/* --- Leaf control API --- */
+let leafInterval;
+function startLeaves(rate = 800) {
+  if (!isAutumn()) return;
+
+  clearInterval(leafInterval);
+  leafInterval = setInterval(spawnLeaf, rate);
+}
+function stopLeaves() {
+  clearInterval(leafInterval);
+}
+setInterval(spawnFlake, 1000);
