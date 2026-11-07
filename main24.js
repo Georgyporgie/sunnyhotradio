@@ -35057,8 +35057,8 @@ wednesday: {
    "millintens" :  "images/millintens2.jpg",
 "ballads": "images/ballads.png",
   "eighties": "images/80 s show.jpg",
-"preston": "images/Jenny Preston.jpg"
-
+"preston": "images/Jenny Preston.jpg",
+"nouveau":images/nouveau disco.jpg"
 
 },
 
@@ -35499,7 +35499,12 @@ console.log("Unique tracks:", trackAmount);
 
 
 
+function showNextTracks() {
 
+    console.log("scheduledMp3Files", scheduledMp3Files);
+    console.log("track_index", track_index);
+
+}
 
 
 

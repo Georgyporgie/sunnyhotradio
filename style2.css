@@ -266,7 +266,7 @@ font-weight: italic; display: block; margin: auto auto auto auto;
 #media {
     width: 100px;
     height: 100px;
-    filter: brightness(100%) saturate(100%) contrast(100%) opacity(75%);
+    filter: brightness(100%) saturate(110%) contrast(100%) opacity(75%);
     transform: rotate(0deg);
     z-index: -900;
     display: block;
@@ -1899,4 +1899,33 @@ background: #FF2A2A;
   letter-spacing: 0.5px;
 }
 
+.upcoming-btn {
+    background: #ff4500;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px 0;
+    transition: 0.3s;
+}
 
+.upcoming-btn:hover {
+    background: #ffb300;
+    transform: scale(1.05);
+}
+
+#upcomingTracks {
+    background: rgba(0,0,0,0.75);
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 10px;
+    max-width: 500px;
+}
+
+.upcoming-track {
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+}
