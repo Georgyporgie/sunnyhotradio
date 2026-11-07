@@ -321,8 +321,8 @@ let trackList = [
 
 
 {
-    name: "Jenny Preston",
-    artist: "Ministry Of Sound",
+     name: "Live!",
+    artist: "Jenny Preston",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Jeny%20Preston01.mp3",
     part: 1,
@@ -330,8 +330,8 @@ let trackList = [
 },
 
 {
-    name: "Jenny Preston",
-    artist: "Ministry Of Sound",
+    name: "Live!",
+    artist: "Jenny Preston",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Jeny%20Preston02.mp3",
     part: 2,
@@ -339,8 +339,8 @@ let trackList = [
 },
 
 {
-    name: "Jenny Preston",
-    artist: "Ministry Of Sound",
+     name: "Live!",
+    artist: "Jenny Preston",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Jeny%20Preston03.mp3",
     part: 3,
@@ -348,8 +348,8 @@ let trackList = [
 },
 
 {
-    name: "Jenny Preston",
-    artist: "Ministry Of Sound",
+    name: "Live!",
+    artist: "Jenny Preston",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Jeny%20Preston04.mp3",
     part: 4,
@@ -357,8 +357,8 @@ let trackList = [
 },
 
 {
-    name: "Jenny Preston",
-    artist: "Ministry Of Sound",
+    name: "Live!",
+    artist: "Jenny Preston",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic08.netlify.app/Jeny%20Preston05.mp3",
     part: 5,
@@ -671,7 +671,15 @@ year: 2000
     path: "muziek/jingles/Sunny radio jingle4.mp3",
         timeCategory: "millintens"
 },
-
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Danceradio☀️ ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj3.mp3",
+   timeCategory: " millintens",
+volumeBoost: 1.0,
+part: 6
+},
 
 {
     name: " Hey Hey Original",
@@ -1236,7 +1244,7 @@ volumeBoost: 0.10
     path: "https://sunnydanceoldies02.netlify.app/A Pain That I'm Used To (Jacques Lu Cont Remix).mp3",
          timeCategory: "millintens",
 quickFade: true,
-  volumeBoost: 1.3,
+  volumeBoost:2.0,
 year: 2005
 },
 
@@ -1297,10 +1305,17 @@ year: 2014
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic05.netlify.app/Man Go Funk - Ghetto Feeling.mp3",
    year:2018,
-         timeCategory: "millintens"
+        timeCategory: "millintens"
 },
 
 
+{
+    name: "Just For You",
+    artist: "Sunny Ship☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/reklame/reklame1.mp3",
+          timeCategory: "afternoon"
+},
 
 
 {
@@ -1354,7 +1369,13 @@ year: 2004
 
 },
 
-
+{
+    name: "Just For You",
+    artist: "Sunny Ship☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/reklame/reklame.mp3",
+          timeCategory: "millintens"
+},
 
 {
     name: " You See The Trouble  ",
@@ -1843,7 +1864,13 @@ timeCategory: "ballads",
 
 
 
-
+{
+    name: "Just For You",
+    artist: "Sunny Ship☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/reklame/reklame1.mp3",
+         timeCategory: "ballads"
+},
 
 
 
@@ -8789,7 +8816,14 @@ timeCategory: "sunday",
 
 
 
-
+{
+    name: "  Born Slippy ",
+    artist: "Underworld ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Underworld - born slippy2.mp3",
+    timeCategory: "morning",
+playcount: 0
+},
 
 
 
@@ -8798,10 +8832,21 @@ timeCategory: "sunday",
 
 
 {
-    name: "  Born Slippy ",
-    artist: "Underworld ",
+    name: " You're Makin' Me High  ",
+    artist: "Toni Braxton ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Underworld - born slippy2.mp3",
+    path: "https://danceoldies06.netlify.app/Toni Braxton - You're makin' me high2.mp3",
+    timeCategory: "morning",
+playcount: 0
+},
+
+
+
+{
+    name: "  Un Break My Heart",
+    artist: "Toni Braxton  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Toni Braxton - Un-break my heartlos.mp3",
     timeCategory: "morning",
 playcount: 0
 },
@@ -14126,6 +14171,13 @@ year: 1981
 
 
 {
+    name: "Just For You",
+    artist: "Sunny Ship☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/reklame/reklame.mp3",
+          timeCategory: "afternoon"
+},
+{
      name: " Is It Over Now  (new)",
     artist: " Elderbrook ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -14574,7 +14626,7 @@ timeCategory: "afternoon"
     path: "https://jazzmusic05.netlify.app/Ray Parker jr - It's your night.mp3",
        timeCategory: "afternoon",
     quickFade: true,
-    volumeBoost: 3.5
+    volumeBoost: 4.5
     
 },
 
@@ -16193,7 +16245,7 @@ isNew: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Garys Gang - Keep on dancin'.mp3",
       timeCategory: "afternoon",
-volumeBoost: 1.0,
+volumeBoost: 2.0,
   year: 1979
 },
 
@@ -19215,7 +19267,8 @@ year: 2020
     artist: "Inji ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Inji - Untz Untz.mp3",
-    timeCategory: "evening"
+    timeCategory: "evening",
+year: 2023
 },
 
 
@@ -19330,13 +19383,7 @@ year: 2020
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/sunny ship/radio dj - just for you333.mp3",
-     timeCategory: "evening"
-},
+
 
 
 
@@ -19851,14 +19898,6 @@ year:2021
 
 
 
-
-{
-    name: "Just For You ",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/sunny ship/radio dj - just for you.mp3",
-       timeCategory: "evening"
-},
 
 
 
@@ -20483,7 +20522,7 @@ timeCategory: "evening"
     path: "https://sunnydanceoldies02.netlify.app/A Pain That I'm Used To (Jacques Lu Cont Remix).mp3",
    timeCategory: "evening",
 quickFade: true,
-  volumeBoost: 1.3,
+  volumeBoost:2.0,
 year: 2005
 },
 
@@ -22721,6 +22760,7 @@ isNew: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Romy - She 's On My Mind.mp3",
       timeCategory: "evening"
+
 },
 
 
@@ -22897,7 +22937,23 @@ year: 2004
 
 },
 
+{
+    name: "Just For You",
+    artist: "Sunny Ship☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/reklame/reklame1.mp3",
+       timeCategory: "evening"
+},
 
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/reklame/reklame.mp3",
+         timeCategory: "evening"
+},
 
 
 
@@ -23422,8 +23478,8 @@ year: 2008
 
 
 {
-     name: "Welcome!",
-    artist: "Listen Live Sunny Danceradio☀️",
+     name: "Polarised",
+    artist: "Cosmos Midnight",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Cosmos Midnight - Polarised.mp3",
     timeCategory: "evening"
@@ -25349,6 +25405,23 @@ quickFade: true
 
 
 
+{
+    name: "Just For You",
+    artist: "Sunny Ship☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/reklame/reklame1.mp3",
+       timeCategory:  "evening-late"
+},
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/reklame/reklame.mp3",
+         timeCategory:  "evening-late"
+},
 
 
 
@@ -28754,17 +28827,6 @@ timeCategory: " evening-late"
 
 
 
-{
-     name: "  Bring Me To Life ",
-    artist: "Tiesto  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Tiesto - Bring Me To Life.mp3",
-    timeCategory: " evening-late",
-   year: 2025
-   
-
-
-},
 
 
 
@@ -29293,17 +29355,7 @@ timeCategory: "evening-late"
 },
 
 
-{
-     name: "  Bring Me To Life ",
-    artist: "Tiesto  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Tiesto - Bring Me To Life.mp3",
-    timeCategory: "f afternoon",
-   year: 2025
-   
 
-
-},
 
 
 
@@ -30186,6 +30238,26 @@ volumeBoost: 0.30
 
 
 
+{
+    name: "Just For You",
+    artist: "Sunny Ship☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/reklame/reklame1.mp3",
+   timeCategory: "f afternoon"
+},
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship☀️",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/reklame/reklame.mp3",
+        timeCategory: "f afternoon"
+
+
+
+},
 
 
 
@@ -30951,6 +31023,15 @@ year: 2001
   year: 1992
 },
 
+{
+    name: "   You Got The Love (1997)",
+    artist: "Candi Station ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic09.netlify.app/Candi Station - You Got The Love (1997).mp3",
+    timeCategory: "f evening",
+    year: 1997
+
+},
 
 
 
@@ -31076,7 +31157,7 @@ year: 2023
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Lady Gaga - The Dead Dance.mp3",
       year:2025,
-timeCategory: "f-evening"
+timeCategory: "f evening"
 },
 
 
@@ -31086,7 +31167,7 @@ timeCategory: "f-evening"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Jessie J - Believe In Magic.mp3",
    year: 2025,
- timeCategory: "f-evening"
+ timeCategory: "f evening"
     
 },
 
@@ -31100,7 +31181,7 @@ timeCategory: "f-evening"
     artist: "Minellli & Inna",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Minellli & Inna - In Love.mp3",
-    timeCategory: "f-evening"
+    timeCategory: "f evening"
 
 },
 
@@ -31780,14 +31861,6 @@ year: 2022
 
 
 
-{
-    name: " Better",
-    artist: "MK, Burns  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/MK, Burns - Better.mp3",
-    timeCategory: "f evening",
-    year: 2022
-},
 
 
 {
@@ -32389,15 +32462,6 @@ year: 2025
 
 
 
-{
-    name: "Doing It",
-    artist: "Rita Ora",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Rita Ora - Doing It.mp3",
-   timeCategory: "f evening",
-   quickFade: true,
-  year: 2014
-},
 
 
 {
@@ -34057,7 +34121,7 @@ isLoud: true,
     artist: "Minellli & Inna",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Minellli & Inna - In Love.mp3",
-    timeCategory: "f-evening-late"
+    timeCategory: "f evening-late"
 
 },
 
@@ -34137,15 +34201,46 @@ quickFade: true
 
 
 
+const counts = {};
 
+trackList.forEach(track => {
+    const cat = (track.timeCategory || "").trim();
+    counts[cat] = (counts[cat] || 0) + 1;
+});
 
+const priority = [
+    "morning",
+    "afternoon",
+    "evening",
+    "evening-late",
+    "f afternoon",
+    "f evening",
+    "f evening-late",
+    "eighties",
+    "nineties",
+    "seventies",
+    "millintens",
+"ballads",
+"soulshow"
+];
 
+const ordered = {};
 
+// Add preferred categories first
+priority.forEach(cat => {
+    if (counts[cat]) {
+        ordered[cat] = counts[cat];
+    }
+});
 
+// Add all remaining categories afterwards
+Object.keys(counts).forEach(cat => {
+    if (!priority.includes(cat)) {
+        ordered[cat] = counts[cat];
+    }
+});
 
-
-
-
+console.table(ordered);
 
 
 
@@ -34217,6 +34312,15 @@ Object.entries(decadeCounts)
     });
 
 console.log(`Total unique tracks: ${uniqueTracks.length}`);
+
+
+
+
+
+
+
+
+
 
 
 
@@ -34903,8 +35007,8 @@ wednesday: {
   "evening": "images/latest Dance hits2.jpg",
   "evening-late": "images/sunnyradioca.png",
       "f afternoon": "images/latest Dance hits2.jpg",
-      "f-evening": "images/Lola Young.avif",
-      "f-evening-late": "images/latest Dance hits2.jpg",
+      "f evening": "images/Lola Young.avif",
+      "fevening-late": "images/latest Dance hits2.jpg",
        "nineties":"images/nineties.jpg",
  "seventies": "images/seventies.webp",
        "annual": "images/Ministry-of-Sound-Logo.jpg",
@@ -34923,8 +35027,8 @@ wednesday: {
   "evening": "images/latest Dance hits2.jpg",
   "evening-late": "images/sunnyradioca.png",
       "f afternoon": "images/latest Dance hits2.jpg",
-      "f-evening": "images/Lola Young.avif",
-      "f-evening-late": "images/latest Dance hits2.jpg",
+      "f evening": "images/Lola Young.avif",
+      "f evening-late": "images/latest Dance hits2.jpg",
        "nineties":"images/nineties.jpg",
  "seventies": "images/seventies.webp",
        "annual": "images/Ministry-of-Sound-Logo.jpg",
@@ -34942,8 +35046,8 @@ wednesday: {
   "evening": "images/latest Dance hits2.jpg",
   "evening-late": "images/sunnyradioca.png",
       "f afternoon": "images/latest Dance hits2.jpg",
-      "f-evening": "images/Lola Young.avif",
-      "f-evening-late": "images/latest Dance hits2.jpg",
+      "f evening": "images/Lola Young.avif",
+      "f evening-late": "images/latest Dance hits2.jpg",
        "nineties":"images/nineties.jpg",
  "seventies": "images/seventies.webp",
        "annual": "images/Ministry-of-Sound-Logo.jpg",
@@ -34963,8 +35067,8 @@ wednesday: {
   "evening": "images/latest Dance hits2.jpg",
   "evening-late": "images/sunnyradioca.png",
       "f afternoon": "images/latest Dance hits2.jpg",
-      "f-evening": "images/Lola Young.avif",
-      "f-evening-late": "images/latest Dance hits2.jpg",
+      "f evening": "images/Lola Young.avif",
+      "f evening-late": "images/latest Dance hits2.jpg",
        "nineties":"images/nineties.jpg",
  "seventies": "images/seventies.webp",
        "annual": "images/Ministry-of-Sound-Logo.jpg",
@@ -35352,7 +35456,7 @@ function renderLiveLog(currentTrack) {
       currentTrack.path &&
       !badPaths.some(b => currentTrack.path.toLowerCase().includes(b)) &&
       !currentTrack.path.toLowerCase().includes("broadcast amsterdam") &&
-      !currentTrack.path.toLowerCase().includes("sunny ")
+      !currentTrack.path.toLowerCase().includes("sunny")
         ? `<span id="vinyl-icon"></span>`
         : ""
     }
