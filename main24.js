@@ -35037,7 +35037,8 @@ wednesday: {
       "frankiebones": "images/frankie-bones_1024.avif",
    "millintens" :  "images/millintens2.jpg",
 "ballads": "images/ballads.png",
-  "eighties": "images/80 s show.jpg"
+ "nouveau":"images/nouveau disco.jpg",
+ "eighties": "images/80 s show.jpg"
 },
 
     saturday: {
@@ -35058,7 +35059,7 @@ wednesday: {
 "ballads": "images/ballads.png",
   "eighties": "images/80 s show.jpg",
 "preston": "images/Jenny Preston.jpg",
-"nouveau":images/nouveau disco.jpg"
+"nouveau":"images/nouveau disco.jpg"
 
 },
 
@@ -35078,7 +35079,8 @@ wednesday: {
       "frankiebones": "images/frankie-bones_1024.avif",
    "millintens" :  "images/millintens2.jpg",
 "ballads": "images/ballads.png",
-  "eighties": "images/80 s show.jpg"
+  "eighties": "images/80 s show.jpg",
+"nouveau":"images/nouveau disco.jpg"
 }
   };
 
