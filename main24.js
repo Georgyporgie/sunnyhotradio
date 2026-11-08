@@ -5877,8 +5877,8 @@ timeCategory: "eighties"
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://jazzmusic04.netlify.app/EARTH WIND & FIRE - Fall In Love With Me (1982).mp3",
     timeCategory: "eighties",
-    volumeBoost: 1.25
-
+    volumeBoost: 2.50,
+quickFade:true
 },
 
 
@@ -18297,7 +18297,8 @@ year: 2021
     artist: "Sophie Ellis Bextor ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sophie Ellis Bextor -  Stay On Me.mp3",
-   timeCategory: "evening"
+   timeCategory: "evening",
+   year:2025
 },
 
 
@@ -20232,8 +20233,9 @@ volumeBoost: 0.30
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://jazzmusic04.netlify.app/EARTH WIND & FIRE - Fall In Love With Me (1982).mp3",
     timeCategory: "evening",
-    volumeBoost: 1.25,
- year: 1982
+    volumeBoost: 2.50,
+ quickFade:true,
+year: 1982
 },
 
 
@@ -21486,14 +21488,6 @@ timeCategory: "evening"
 
 
 
-
-{
-    name: "  Stay On Me  ",
-    artist: "Sophie Ellis Bextor ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Sophie Ellis Bextor -  Stay On Me.mp3",
-   timeCategory: "evening"
-},
 
 
 {
@@ -31484,8 +31478,9 @@ year:2022
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://jazzmusic04.netlify.app/EARTH WIND & FIRE - Fall In Love With Me (1982).mp3",
     timeCategory: "f evening",
-    volumeBoost: 1.25,
-year: 1982
+    volumeBoost: 2.50,
+year: 1982,
+quickFade:true
 },
 
 
@@ -32110,7 +32105,8 @@ timeCategory: "f evening"
     artist: "Sophie Ellis Bextor ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Sophie Ellis Bextor -  Stay On Me.mp3",
-   timeCategory: "f evening"
+   timeCategory: "f evening",
+  year:2025
 },
 
 
@@ -33963,13 +33959,6 @@ year: 2025
 },
 
 
-{
-    name: "I fell In Love",
-    artist: "Alok & Kylie Minogue",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic07.netlify.app/Alok & Kylie Minogue- I fell In Love.mp3",
-    timeCategory: "f evening-late"
-},
 
 
 
@@ -35006,9 +34995,9 @@ wednesday: {
   "afternoon": "images/latest Dance hits2.jpg",
   "evening": "images/latest Dance hits2.jpg",
   "evening-late": "images/sunnyradioca.png",
-      "f afternoon": "images/latest Dance hits2.jpg",
-      "f evening": "images/Lola Young.avif",
-      "fevening-late": "images/latest Dance hits2.jpg",
+   "f-afternoon": "images/latest Dance hits2.jpg",
+      "f-evening": "images/Lola Young.avif",
+      "f-evening-late": "images/latest Dance hits2.jpg",
        "nineties":"images/nineties.jpg",
  "seventies": "images/seventies.webp",
        "annual": "images/Ministry-of-Sound-Logo.jpg",
@@ -35026,9 +35015,9 @@ wednesday: {
   "afternoon": "images/latest Dance hits2.jpg",
   "evening": "images/latest Dance hits2.jpg",
   "evening-late": "images/sunnyradioca.png",
-      "f afternoon": "images/latest Dance hits2.jpg",
-      "f evening": "images/Lola Young.avif",
-      "f evening-late": "images/latest Dance hits2.jpg",
+   "f-afternoon": "images/latest Dance hits2.jpg",
+      "f-evening": "images/Lola Young.avif",
+      "f-evening-late": "images/latest Dance hits2.jpg",
        "nineties":"images/nineties.jpg",
  "seventies": "images/seventies.webp",
        "annual": "images/Ministry-of-Sound-Logo.jpg",
@@ -35046,9 +35035,9 @@ wednesday: {
   "afternoon": "images/latest Dance hits2.jpg",
   "evening": "images/latest Dance hits2.jpg",
   "evening-late": "images/sunnyradioca.png",
-      "f afternoon": "images/latest Dance hits2.jpg",
-      "f evening": "images/Lola Young.avif",
-      "f evening-late": "images/latest Dance hits2.jpg",
+   "f-afternoon": "images/latest Dance hits2.jpg",
+      "f-evening": "images/Lola Young.avif",
+      "f-evening-late": "images/latest Dance hits2.jpg",
        "nineties":"images/nineties.jpg",
  "seventies": "images/seventies.webp",
        "annual": "images/Ministry-of-Sound-Logo.jpg",
@@ -35068,9 +35057,9 @@ wednesday: {
   "afternoon": "images/latest Dance hits2.jpg",
   "evening": "images/latest Dance hits2.jpg",
   "evening-late": "images/sunnyradioca.png",
-      "f afternoon": "images/latest Dance hits2.jpg",
-      "f evening": "images/Lola Young.avif",
-      "f evening-late": "images/latest Dance hits2.jpg",
+      "f-afternoon": "images/latest Dance hits2.jpg",
+      "f-evening": "images/Lola Young.avif",
+      "f-evening-late": "images/latest Dance hits2.jpg",
        "nineties":"images/nineties.jpg",
  "seventies": "images/seventies.webp",
        "annual": "images/Ministry-of-Sound-Logo.jpg",
