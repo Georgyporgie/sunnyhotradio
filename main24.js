@@ -1836,7 +1836,7 @@ timeCategory: "ballads",
     path: "https://jazzmusic05.netlify.app/Janet Jackson - Let's wait a while.mp3",
       timeCategory: "ballads",
     quickFade: true,
-    volumeBoost: 0.45
+    volumeBoost: 2.00
   
 },
 
@@ -1859,7 +1859,8 @@ timeCategory: "ballads",
     artist: "Herb Alpert ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Herb Alpert - Rise.mp3",
-   timeCategory: "ballads"
+   timeCategory: "ballads",
+volumeBoost: 2.5
 },
 
 
@@ -3473,7 +3474,7 @@ volumeBoost: 0.20
 
 
 {
-    name: "Sunny (Ruud Remix)",
+    name: "Sunny (ruud remix)",
     artist: "Boney M  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Boney M - Sunny.mp3",
@@ -3723,7 +3724,7 @@ timeCategory: "seventies"
 
 
 {
-    name: " Let Me Show You (Ruud Remix)",
+    name: " Let Me Show You (ruud remix)",
     artist: "Jacksons",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Jacksons - Let me show you (Ruud Remix).mp3",
@@ -6223,7 +6224,7 @@ volumeBoost: 0.15
 quickFade: true,
   playcount: 0,
 timeCategory: "eighties",
-  volumeBoost: 0.30
+  volumeBoost: 2.00
 },
 
 
@@ -9276,7 +9277,7 @@ timeCategory: "morning",
    timeCategory: "morning",
 quickFade: true,
   playcount: 0,
-  volumeBoost: 0.30
+  volumeBoost: 2.00
 },
 
 
@@ -10026,7 +10027,7 @@ timeCategory: "morning",
 
 
 {
-    name: "Sunny (Ruud Remix)",
+    name: "Sunny (ruud remix)",
     artist: "Boney M  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies03.netlify.app/Boney M - Sunny.mp3",
@@ -12132,7 +12133,7 @@ timeCategory: "morning"
 
 
 {
-    name: " Let Me Show You (Ruud Remix)",
+    name: " Let Me Show You (ruud remix)",
     artist: "Jacksons",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies02.netlify.app/Jacksons - Let me show you (Ruud Remix).mp3",
@@ -28025,7 +28026,8 @@ timeCategory: "evening-late"
     artist: "Purple disco machine ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Purple disco machine - Rise.mp3",
-  timeCategory: "evening-late"
+  timeCategory: "evening-late",
+volumeBoost: 2.5
 },
 
 
@@ -29709,7 +29711,8 @@ year: 2025
     artist: "Purple disco machine ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Purple disco machine - Rise.mp3",
-     timeCategory: "f afternoon"
+     timeCategory: "f afternoon",
+volumeBoost: 2.5
 },
 
 
@@ -32308,7 +32311,7 @@ volumeBoost: 1.00
     path: "https://jazzmusic05.netlify.app/Janet Jackson - Let's wait a while.mp3",
         timeCategory: "f evening",
     quickFade: true,
-    volumeBoost: 0.45,
+    volumeBoost: 2.00,
     playcount: 0
 },
 
