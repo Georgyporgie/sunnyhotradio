@@ -1907,7 +1907,7 @@ background: #FF2A2A;
     border-radius: 8px;
     cursor: pointer;
     font-weight: bold;
-    margin: 10px 0;
+margin: 0 auto; display: block;
     transition: 0.3s;
 }
 
@@ -1917,6 +1917,7 @@ background: #FF2A2A;
 }
 
 #upcomingTracks {
+
     background: rgba(0,0,0,0.75);
     color: white;
     padding: 12px;
@@ -1927,5 +1928,6 @@ background: #FF2A2A;
 
 .upcoming-track {
     padding: 5px 0;
-    border-bottom: 1px solid rgba(255,255,255,0.15);
+    border-bottom: 1px solid rgba(255,255,255,0.15); 
+
 }

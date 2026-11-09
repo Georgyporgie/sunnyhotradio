@@ -35485,17 +35485,27 @@ const trackAmount = countUniqueTracks(trackList);
 console.log("Unique tracks:", trackAmount);
 
 
-
 function showNextTracks() {
 
-    console.log("scheduledMp3Files", scheduledMp3Files);
-    console.log("track_index", track_index);
+    let html = "";
 
     scheduledMp3Files
-        .slice(track_index + 1, track_index + 6)
-        .forEach((track, i) => {
-            console.log(`${i + 1}.`, track);
-        });
-}
+        .slice(track_index + 1)
+        .filter(track => {
+            const path = track.path.toLowerCase();
 
+            return !(
+                path.includes("jingles") ||
+                path.includes("discjockeys") ||
+                path.includes("sunny ship") ||
+                path.includes("reklame")
+            );
+        })
+        .slice(0, 5)
+        .forEach((track, i) => {
+            html += `<div>${i + 1}. ${track.artist} - ${track.name}</div>`;
+        });
+
+    document.getElementById("upcomingTracks").innerHTML = html;
+}
 
