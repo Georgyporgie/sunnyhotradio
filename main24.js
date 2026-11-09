@@ -1701,6 +1701,14 @@ part: 8
 //ballads
 
 
+{
+    name: "  Right My Wrongs",
+    artist: "Jastin Martin ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/Jastin Martin - Right My Wrongs.mp3",
+  timeCategory: "ballads"
+},
+
 
 
 {
@@ -13668,7 +13676,7 @@ loudnessValue: 0.80 ,
     path: "https://dancemusic08.netlify.app/Fischer Bbyclose - Blackberries (maxi).mp3",
        timeCategory: "afternoon",
      isLoud: true,
-loudnessValue: 0.80 ,
+loudnessValue: 0.75 ,
   year: 2025
 },
 
@@ -16862,7 +16870,7 @@ year: 2021
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Charli XCX - Break the Rules.mp3",
    isLoud: true,          
-  loudnessValue: 0.60,  
+  loudnessValue: 0.55,  
   year:2022,
    timeCategory: "afternoon"
 
@@ -30278,17 +30286,6 @@ volumeBoost: 0.30
 
 
 
-{
-    name: " Blackberries ",
-    artist: "Fischer Bbyclose",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://dancemusic08.netlify.app/Fischer Bbyclose - Blackberries (maxi).mp3",
-    isLoud: true,
-loudnessValue: 0.80, 
-       timeCategory: "f afternoon",
-  year: 2025
-},
-
 
 
 
@@ -35107,7 +35104,6 @@ function formatTrackLabel(track) {
 
 
 
-
 // 🔹 Play a track
 function playTrack() {
   if (!curr_track) {
@@ -35119,10 +35115,7 @@ function playTrack() {
   isPlaying = true;
 
   // … your existing UI logic …
-
-
-
-
+  showNextTracks();   // <-- add here
 
 }
 
@@ -35232,6 +35225,8 @@ function nextTrack() {
   track_index = (track_index + 1) % scheduledMp3Files.length;
   loadTrack(track_index);
   playTrack();
+
+
 }
 
 
@@ -35492,13 +35487,16 @@ console.log("Unique tracks:", trackAmount);
 
 
 
-
 function showNextTracks() {
 
-    console.log("scheduledMp3Files", scheduledMp3Files);
-    console.log("track_index", track_index);
+    console.log("=== NEXT 5 TRACKS ===");
+
+    scheduledMp3Files
+        .slice(track_index + 1, track_index + 6)
+        .forEach((track, i) => {
+            console.log(`${i + 1}.`, track);
+        });
 
 }
-
 
 
