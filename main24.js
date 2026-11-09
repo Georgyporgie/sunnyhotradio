@@ -35486,17 +35486,16 @@ console.log("Unique tracks:", trackAmount);
 
 
 
-
 function showNextTracks() {
 
-    console.log("=== NEXT 5 TRACKS ===");
+    console.log("scheduledMp3Files", scheduledMp3Files);
+    console.log("track_index", track_index);
 
     scheduledMp3Files
         .slice(track_index + 1, track_index + 6)
         .forEach((track, i) => {
             console.log(`${i + 1}.`, track);
         });
-
 }
 
 
