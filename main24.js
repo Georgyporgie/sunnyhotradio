@@ -4353,8 +4353,8 @@ volumeBoost: 0.65,
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Change - A lovers Holiday.mp3",
     year: 1979,
-   timeCategory: "seventies"
-
+   timeCategory: "seventies",
+volumeBoost: 2.0
   
 },
 
@@ -18771,8 +18771,8 @@ year: 2023
     artist: "Joel Corry",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic02.netlify.app/Joel Corry - I wish.mp3",
-  timeCategory: "evening"
-
+  timeCategory: "evening",
+year: 2021
 },
 
 
@@ -20257,7 +20257,7 @@ year: 1982
     path: "https://sunnydanceoldies09.netlify.app/Lakeside - Fantastic Voyage.mp3",
     timeCategory: " evening",
     quickFade: true,
- volumeBoost:2.50
+ volumeBoost:3.00
 
 },
 
@@ -20979,8 +20979,8 @@ quickFade: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/Change - A lovers Holiday.mp3",
     year: 1979,
-   timeCategory: "evening"
-
+   timeCategory: "evening",
+volumeBoost: 2.0
   
 },
 
@@ -35506,6 +35506,26 @@ function showNextTracks() {
             html += `<div>${i + 1}. ${track.artist} - ${track.name}</div>`;
         });
 
-    document.getElementById("upcomingTracks").innerHTML = html;
+    const container = document.getElementById("upcomingTracks");
+    container.innerHTML = html;
+
+    // detective test
+    container.style.display = "none";
 }
 
+
+
+
+
+
+let upcomingVisible = false;
+
+function toggleUpcomingTracks() {
+    const container = document.getElementById("upcomingTracks");
+
+    upcomingVisible = !upcomingVisible;
+
+    container.style.display = upcomingVisible
+        ? "block"
+        : "none";
+}

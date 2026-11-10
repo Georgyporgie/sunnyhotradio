@@ -612,6 +612,8 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
   padding: 10px;
   border-bottom: 2px solid rgba(255,255,255,0.25);
   animation: nowPlayingPulse 1.8s ease-in-out infinite;
+z-index: 200;
+
 }
 
 /* BLINK ANIMATION (must be outside the block!) */
