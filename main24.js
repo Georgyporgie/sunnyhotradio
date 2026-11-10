@@ -4668,15 +4668,14 @@ part: 2
 
 
 
-
-
 {
-     name: "Relight My Fire",
+     name: " Instant Replay",
     artist: "Dan Hartman",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Dan Hartman Relight My Fire.mp3",
-    timeCategory: "soulshow",
-volumeBoost: 4.0,
+    path: "https://soulfullforever.netlify.app/Dan Hartman - Instant replay.mp3",
+        timeCategory: "soulshow",
+     quickFade: true,
+    volumeBoost:2.00,
 part: 3
 },
 
@@ -16104,6 +16103,129 @@ isNew: true
 
 
 
+{
+     name: "  Side Effect",
+    artist: "Alok ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Alok - Side Effect.mp3",
+ timeCategory: "afternoon"
+
+},
+
+
+
+
+
+{
+     name: "  What s Happening",
+    artist: "Ava Max ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Ava Max - What s Happening.mp3",
+ timeCategory: "afternoon"
+
+},
+
+
+{
+     name: "  She s Strange",
+    artist: "Cameo ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Cameo - She s Strange.mp3",
+ timeCategory: "afternoon"
+
+},
+
+
+
+
+{
+     name: "  Savoir Fair",
+    artist: "Chic",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Chic - Savoir Faire.mp3",
+ timeCategory: "afternoon"
+
+},
+
+
+
+
+
+{
+     name: "  Give Me The Night",
+    artist: "George Benson ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/George Benson - Give Me The Night.mp3",
+ timeCategory: "afternoon"
+
+},
+
+
+
+{
+     name: "Hasta Los Dientes ",
+    artist: "Hamila Cabello, Maria Becerra",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Hamila Cabello, Maria Becerra - Hasta Los Dientes.mp3",
+ timeCategory: "afternoon"
+
+},
+
+{
+     name: "High  Steppin Hip ",
+    artist: "Love Unlimited ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Love Unlimited - High  Steppin Hip.mp3",
+ timeCategory: "afternoon"
+
+},
+
+
+{
+     name: " Make Luv feat. Oliver Cheatham ",
+    artist: "Room 5 ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Room 5 - Make Luv feat. Oliver Cheatham.mp3",
+ timeCategory: "afternoon"
+
+},
+
+
+
+
+{
+     name: "  Back To  The Streets",
+    artist: "Saweetie ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Saweetie - Back To  The Streets.mp3",
+ timeCategory: "afternoon"
+
+},
+
+
+{
+     name: " Exterminate (maxi)",
+    artist: "Snap",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Snap- Exterminate (maxi).mp3",
+ timeCategory: "afternoon"
+
+},
+
+
+{
+     name: "Could It Be I Am Falling In Love",
+    artist: "The Spinners ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/The Spinners - Could It Be I Am Falling In Love.mp3",
+ timeCategory: "afternoon"
+
+},
+
+
+
+
+
 
 {
      name: " Better Of Alone (1998) ",
@@ -26751,7 +26873,6 @@ timeCategory: "evening-late"
 
 
 
-
 {
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️",
@@ -30039,6 +30160,81 @@ timeCategory: "f afternoon"
 
 
 
+{
+     name: "  Side Effect",
+    artist: "Alok ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Alok - Side Effect.mp3",
+ timeCategory: "f afternoon"
+
+},
+
+
+
+
+
+{
+     name: "  What s Happening",
+    artist: "Ava Max ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Ava Max - What s Happening.mp3",
+ timeCategory: "f afternoon"
+
+},
+
+
+{
+     name: "  She s Strange",
+    artist: "Cameo ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Cameo - She s Strange.mp3",
+ timeCategory: "f afternoon"
+
+},
+
+
+
+{
+     name: "  Give Me The Night",
+    artist: "George Benson ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/George Benson - Give Me The Night.mp3",
+ timeCategory: "f afternoon"
+
+},
+
+
+
+{
+     name: "Hasta Los Dientes ",
+    artist: "Hamila Cabello, Maria Becerra",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Hamila Cabello, Maria Becerra - Hasta Los Dientes.mp3",
+ timeCategory: "f afternoon"
+
+},
+
+{
+     name: "High  Steppin Hip ",
+    artist: "Love Unlimited ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Love Unlimited - High  Steppin Hip.mp3",
+ timeCategory: "f afternoon"
+
+},
+
+
+{
+     name: " Make Luv feat. Oliver Cheatham ",
+    artist: "Room 5 ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies06.netlify.app/Room 5 - Make Luv feat. Oliver Cheatham.mp3",
+ timeCategory: "f afternoon"
+
+},
+
+
+
 
 {
      name: "Welcome!",
@@ -31098,6 +31294,16 @@ year: 2026
 
 
 
+{
+     name: " Instant Replay",
+    artist: "Dan Hartman",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://soulfullforever.netlify.app/Dan Hartman - Instant replay.mp3",
+        timeCategory: "f evening",
+     quickFade: true,
+    volumeBoost:2.00
+
+},
 
 {
     name: " No Broke Boys",
