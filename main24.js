@@ -35196,7 +35196,9 @@ wednesday: {
   "evening": "images/latest Dance hits2.jpg",
   "evening-late": "images/sunnyradioca.png",
        "nineties":"images/nineties.jpg",
- "seventies": "images/seventies.webp",
+ "f-evening-late": "images/latest Dance hits2.jpg",
+
+"seventies": "images/seventies.webp",
        "annual": "images/Ministry-of-Sound-Logo.jpg",
  "clubbers":  "images/Clubbers(2006).jpg",
  "soulshow":      "images/soulshow.jpg",
@@ -35292,8 +35294,12 @@ wednesday: {
 
   // Try to find today's show image
   const todayShows = weeklyShows[today] || {};
-  const showImage = todayShows[key];
-
+ todayShows[key]
+console.log("today =", today);
+console.log("key =", key);
+console.log("todayShows[key] =", todayShows[key]);
+ const showImage = todayShows[key];
+console.log("showImage =", showImage);
   if (showImage) {
     img.src = showImage;
     img.alt = `${today} ${key}`;
