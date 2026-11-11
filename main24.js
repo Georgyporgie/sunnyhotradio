@@ -4157,18 +4157,6 @@ timeCategory: "seventies"
 
 
 
-{
-  
-    name: "Rubberband Man  ",
-    artist: "Detroit Spinners ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Detroit Spinners- Rubberband Man.mp3",
-year: 1976,
-timeCategory: "seventies",
-     quickFade: true,
-    volumeBoost: 0.25,
-   eq: { bass: 0, mid: 2, treble: +1 } 
-},
 
 {
      name: " High On Your Love",
@@ -6907,7 +6895,7 @@ volumeBoost: 0.15
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Alexander O Neal - Fake.mp3",
    timeCategory: "eighties",
-volumeBoost: 1.0,
+volumeBoost: 3.0,
   playcount: 0
 },
 
@@ -16149,15 +16137,6 @@ isNew: true
 
 
 
-{
-     name: "  Savoir Fair",
-    artist: "Chic",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Chic - Savoir Faire.mp3",
- timeCategory: "afternoon"
-
-},
-
 
 
 
@@ -16192,14 +16171,7 @@ isNew: true
 },
 
 
-{
-     name: " Make Luv feat. Oliver Cheatham ",
-    artist: "Room 5 ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Room 5 - Make Luv feat. Oliver Cheatham.mp3",
- timeCategory: "afternoon"
 
-},
 
 
 
@@ -16214,24 +16186,9 @@ isNew: true
 },
 
 
-{
-     name: " Exterminate (maxi)",
-    artist: "Snap",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Snap- Exterminate (maxi).mp3",
- timeCategory: "afternoon"
-
-},
 
 
-{
-     name: "Could It Be I Am Falling In Love",
-    artist: "The Spinners ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/The Spinners - Could It Be I Am Falling In Love.mp3",
- timeCategory: "afternoon"
 
-},
 
 
 
@@ -20756,8 +20713,8 @@ year: 2005
     artist: "Purple Disco Machine ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Purple disco machine - in the Dark.mp3",
-         timeCategory: "evening"
-
+         timeCategory: "evening",
+volumeBoost: 1.50
 },
 
 
@@ -23464,7 +23421,7 @@ volumeBoost: 0.15
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies08.netlify.app/Alexander O Neal - Fake.mp3",
    timeCategory: "evening",
-volumeBoost: 1.0,
+volumeBoost: 3.0,
   playcount: 0
 },
 
@@ -30225,14 +30182,7 @@ timeCategory: "f afternoon"
 
 },
 
-{
-     name: "High  Steppin Hip ",
-    artist: "Love Unlimited ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Love Unlimited - High  Steppin Hip.mp3",
- timeCategory: "f afternoon"
 
-},
 
 
 {
