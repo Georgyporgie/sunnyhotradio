@@ -1721,7 +1721,14 @@ part: 8
  },
 
 
-
+{
+    name: "   Un-break my heart",
+    artist: "Toni Braxton",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Toni Braxton - Un-break my heartlos.mp3",
+year: 1980,
+    timeCategory: "ballads"
+}, 
 
 {
      name: "Tell Me What We're Gonna Do",
@@ -4618,7 +4625,14 @@ volumeBoost: 0.8
     timeCategory: "seventies",
     year: 1973
 },
+{
+    name: " Could It Be I Am Falling In Love",
+    artist: "The Spinners ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/The Spinners - Could It Be I Am Falling In Love.mp3",
 
+     timeCategory: "seventies"
+}, 
 {
     name: "I'm So Glad Woman",
     artist: "Love Unlimited",
@@ -5336,6 +5350,15 @@ year: 1975
 
 
 
+
+{
+    name: "   High  Steppin Hip",
+    artist: "Love Unlimited",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Love Unlimited - High  Steppin Hip.mp3",
+
+   timeCategory: "eighties"
+}, 
 
 
 
@@ -6290,7 +6313,13 @@ volumeBoost: 0.40
 },
 
 
-
+{
+    name: "   Give Me The Night",
+    artist: "George Benson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/George Benson - Give Me The Night.mp3",
+     timeCategory: "eighties"
+}, 
 
 
 
@@ -7247,8 +7276,8 @@ volumeBoost: 0.20
     artist: "Lipps Inc ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Lipps Inc - Rock It (12inch).mp3",
-    timeCategory: "eighties"
- 
+    timeCategory: "eighties",
+ volumeBoost: 2.00
 },
 
 {
@@ -19152,8 +19181,8 @@ timeCategory: "evening"
     artist: "Lipps Inc ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Lipps Inc - Rock It (12inch).mp3",
-    timeCategory: "evening"
-
+    timeCategory: "evening",
+ volumeBoost: 2.00
 },
 
 
@@ -19233,6 +19262,14 @@ timeCategory: "evening"
 },
 
 
+
+{
+    name: "   Vibe Like This",
+    artist: "SG Lewis",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/SG Lewis - Vibe Like Thiss.mp3",
+  timeCategory: "evening"
+}, 
 
 
 
@@ -25257,7 +25294,25 @@ timeCategory: "evening-late",
    eq: { bass: 0, mid: 2, treble: +1 } 
 },
 
+{
+    name: "   Give Me The Night",
+    artist: "George Benson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/George Benson - Give Me The Night.mp3",
 
+  timeCategory: "evening-late"
+}, 
+
+
+
+{
+    name: "   High  Steppin Hip",
+    artist: "Love Unlimited",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Love Unlimited - High  Steppin Hip.mp3",
+
+  timeCategory: "evening-late"
+}, 
 
 {
     name: "Ain't We Funkin' Now",
@@ -25703,6 +25758,15 @@ quickFade: true
 
 
 
+{
+    name: "   Un-break my heart",
+    artist: "Toni Braxton",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Toni Braxton - Un-break my heartlos.mp3",
+year: 1980,
+  timeCategory: "f evening-late"
+}, 
+
 
 
  {
@@ -25717,6 +25781,14 @@ timeCategory: "evening-late"
 
 
 
+
+{
+    name: "   You're makin' me high",
+    artist: "Toni Braxton",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Toni Braxton - You're makin' me high2.mp3",
+  timeCategory: "evening-late"
+}, 
 
 
  
@@ -33143,6 +33215,71 @@ year: 2004
 
 
 
+{
+    name: "  Loveher",
+    artist: "Romy ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Armin Van Buuren - On An On.mp3",
+
+  timeCategory: "f evening-late"
+}, 
+
+{
+    name: "   Give Me The Night",
+    artist: "George Benson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/George Benson - Give Me The Night.mp3",
+
+  timeCategory: "f evening-late"
+}, 
+
+{
+    name: " Beg for You",
+    artist: "Charli XCX  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Charli XCX - Beg for You.mp3",
+
+  timeCategory: "f evening-late"
+}, 
+
+{
+    name: " What have you done for me lately",
+    artist: "Janet Jackson ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Janet Jackson - What have you done for me lately.mp3",
+
+  timeCategory: "f evening-late"
+}, 
+
+{
+    name:   "Back To  The Streets",
+    artist: "Saweetie",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Saweetie - Back To  The Streets.mp3",
+
+  timeCategory: "f evening-late"
+}, 
+
+
+
+{
+    name: "   High  Steppin Hip",
+    artist: "Love Unlimited",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Love Unlimited - High  Steppin Hip.mp3",
+
+  timeCategory: "f evening-late"
+}, 
+
+
+{
+    name: "   Flowers",
+    artist: "Miley Cyrus ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Miley Cyrus - Flowers.mp3",
+
+  timeCategory: "f evening-late"
+}, 
 
 
 
@@ -34009,14 +34146,47 @@ year: 2020
 
 
 
+{
+    name: "  Don't Leave Me Lonely",
+    artist: "Clean Bandit  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Clean Bandit - Don't Leave Me Lonely.mp3",
+
+  timeCategory: "f evening-late"
+}, 
+
+
+
+{
+    name: "  On An On",
+    artist: "Armin Van Buuren ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Armin Van Buuren - On An On.mp3",
+year: 1980,
+  timeCategory: "f evening-late"
+}, 
+
+
+{
+    name: "   Vibe Like This",
+    artist: "SG Lewis",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/SG Lewis - Vibe Like Thiss.mp3",
+year: 1980,
+  timeCategory: "f evening-late"
+}, 
 
 
 
 
-
-
-
-
+{
+    name: "  Maniac",
+    artist: "Sound of Legend ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Sound of Legend - Maniac.mp3",
+year: 1980,
+  timeCategory: "f evening-late"
+}, 
 
 
 
