@@ -4705,12 +4705,11 @@ part: 6
 
 
 {
-    name: " Ghetto Feeling  ",
-    artist: "Man Go Funk ",
+     name: "Rock Me Baby",
+    artist: "George mcGray ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic05.netlify.app/Man Go Funk - Ghetto Feeling.mp3",
-       year:2018,
-timeCategory: "soulshow",
+    path: "https://sunnydancemusic04.netlify.app/George mcGray - Rock Me Baby.mp3",
+    timeCategory: "soulshow",
 part: 7
 },
 
@@ -4781,12 +4780,14 @@ part: 13
 
 },
 
+
+
 {
-     name: "Rock Me Baby",
-    artist: "George mcGray ",
+    name: "Word Up ",
+    artist: "Cameo ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/George mcGray - Rock Me Baby.mp3",
-    timeCategory: "soulshow",
+    path: "https://danceoldies10.netlify.app/Word up cameo.mp3",
+        timeCategory: "soulshow",
 part: 14
 },
 
@@ -4848,12 +4849,14 @@ part: 18
 
 
 
+
 {
-    name: "Word Up ",
-    artist: "Cameo ",
+    name: "    Mellow Mellow Right On  ",
+    artist: "Lowrell ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies10.netlify.app/Word up cameo.mp3",
-        timeCategory: "soulshow",
+    path: "https://sunnydanceoldies05.netlify.app/Lowrell - Mellow Mellow Right On.mp3",
+   timeCategory: "soulshow",
+   quickfade:true,
 part: 19
 },
 
@@ -4891,15 +4894,6 @@ part: 22
 },
 
 
-{
-    name: "    Mellow Mellow Right On  ",
-    artist: "Lowrell ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Lowrell - Mellow Mellow Right On.mp3",
-   timeCategory: "soulshow",
-   quickfade:true,
-part: 23
-},
 
 
 {
@@ -31067,6 +31061,21 @@ year: 2026
 
 
 
+
+{
+    name: "    Baby Queen",
+    artist: "Gorillaz ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemusic05.netlify.app/Gorillaz - Baby Queen.mp3",
+    year: 2023,
+ timeCategory: "f evening",
+     isLoud: true,
+loudnessValue: 0.80
+
+},
+
+
+
 {
     name: " Love Games (maxi)",
     artist: " Level 42",
@@ -33073,6 +33082,16 @@ year: 2026
 },
 
 
+
+
+{
+    name: " Me & You ",
+    artist: "Tems",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://dancemusic06.netlify.app/Tems - Me & You.mp3",
+    timeCategory: "f evening-late"
+
+},
 
 
 
