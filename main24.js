@@ -4682,19 +4682,17 @@ part: 4
 },
 
 
+
 {
-    name: "  Thinkin' About Your Love",
-    artist: "Skipworth & Turner ",
+    name: " Make Luv",
+    artist: "Room 5  feat. Oliver Cheatham ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnylounge01.netlify.app/Skipworth & Turner - Thinkin' about your love.mp3",
-  timeCategory: "soulshow",
-volumeBoost: 0.50,
-playcount: 0,
-quickFade: true,
-    part: 5
+    path: "https://sunnydance25.netlify.app/Room 5 - Make Luv feat. Oliver Cheatham.mp3",
 
+         timeCategory: "soulshow",
+part:5
+}, 
 
-},
 
 {
      name: "Intro",
@@ -8512,6 +8510,14 @@ year: 1990
 },
 
 
+
+{
+    name: "Exterminate (maxi)",
+    artist: "Snap",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Snap- Exterminate (maxi).mp3",
+       timeCategory: "nineties"
+}, 
 
 
 
@@ -18972,9 +18978,25 @@ year: 2025
 
 
 
+{
+    name: "  You Only Love Me",
+    artist: "Rita Ora ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Rita Ora - You Only Love Me.mp3",
+
+  timeCategory: "evening"
+}, 
 
 
 
+{
+    name: "  Loveher",
+    artist: "Romy ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Romy - Loveher.mp3",
+
+  timeCategory: "evening"
+}, 
 
 
 
@@ -27362,6 +27384,14 @@ quickFade: true,
 
 
 
+{
+    name: " Make Luv",
+    artist: "Room 5  feat. Oliver Cheatham ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Room 5 - Make Luv feat. Oliver Cheatham.mp3",
+
+  timeCategory: "evening"
+}, 
 
 
 
@@ -30180,8 +30210,23 @@ year:2004
 
 
 
+{
+    name: " Make Luv",
+    artist: "Room 5  feat. Oliver Cheatham ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Room 5 - Make Luv feat. Oliver Cheatham.mp3",
+         timeCategory: "f afternoon"
+}, 
 
 
+
+{
+    name: "Exterminate (maxi)",
+    artist: "Snap",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Snap- Exterminate (maxi).mp3",
+         timeCategory: "f afternoon"
+}, 
 
 
 {
@@ -31330,6 +31375,14 @@ timeCategory: "f evening"
 },
 
 
+{
+    name: "  Loveher",
+    artist: "Romy ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Romy - Loveher.mp3",
+
+  timeCategory: "f evening"
+}, 
 
 
 
@@ -32226,7 +32279,14 @@ timeCategory: "f evening"
 
 
 
+{
+    name: "  You Only Love Me",
+    artist: "Rita Ora ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Rita Ora - You Only Love Me.mp3",
 
+  timeCategory: "f evening"
+}, 
 
 
 
