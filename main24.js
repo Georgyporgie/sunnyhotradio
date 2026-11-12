@@ -4608,15 +4608,7 @@ volumeBoost: 0.8
 },
 
 
-{
-    name: "  Could It Be I Am Falling In Love ",
-    artist: "The Spinners ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/The Spinners - Could It Be I Am Falling In Love.mp3",
-     timeCategory: "seventies",
-volumeBoost:1.50,
-year:1972
-},
+
 
 {
     name: "Love Theme",
@@ -8838,25 +8830,9 @@ playcount: 0
 
 
 
-{
-    name: " You're Makin' Me High  ",
-    artist: "Toni Braxton ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Toni Braxton - You're makin' me high2.mp3",
-    timeCategory: "morning",
-playcount: 0
-},
 
 
 
-{
-    name: "  Un Break My Heart",
-    artist: "Toni Braxton  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Toni Braxton - Un-break my heartlos.mp3",
-    timeCategory: "morning",
-playcount: 0
-},
 
 
 
@@ -18946,6 +18922,52 @@ year: 2025
 
 
 
+
+
+{
+    name: "Savoir Faire",
+    artist: "Chic ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Chic - Savoir Faire.mp3",
+
+  timeCategory: "evening"
+}, 
+
+
+
+
+
+{
+    name: "Rubberband Man",
+    artist: "Detroit Spinners ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Detroit Spinners- Rubberband Man.mp3",
+
+  timeCategory: "evening"
+}, 
+
+
+
+
+{
+    name: " Hasta Los Dientes",
+    artist: "Hamila Cabello, Maria Becerra ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Hamila Cabello, Maria Becerra - Hasta Los Dientes.mp3",
+
+  timeCategory: "evening"
+}, 
+
+
+
+{
+    name: " Could It Be I Am Falling In Love",
+    artist: "The Spinners ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/The Spinners - Could It Be I Am Falling In Love.mp3",
+
+  timeCategory: "evening"
+}, 
 
 
 
@@ -30044,69 +30066,11 @@ timeCategory: "f afternoon"
 
 
 
-
-{
-     name: "  Side Effect",
-    artist: "Alok ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Alok - Side Effect.mp3",
- timeCategory: "f afternoon"
-
-},
-
-
-
-
-
 {
      name: "  What s Happening",
     artist: "Ava Max ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Ava Max - What s Happening.mp3",
- timeCategory: "f afternoon"
-
-},
-
-
-{
-     name: "  She s Strange",
-    artist: "Cameo ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Cameo - She s Strange.mp3",
- timeCategory: "f afternoon"
-
-},
-
-
-
-{
-     name: "  Give Me The Night",
-    artist: "George Benson ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/George Benson - Give Me The Night.mp3",
- timeCategory: "f afternoon"
-
-},
-
-
-
-{
-     name: "Hasta Los Dientes ",
-    artist: "Hamila Cabello, Maria Becerra",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Hamila Cabello, Maria Becerra - Hasta Los Dientes.mp3",
- timeCategory: "f afternoon"
-
-},
-
-
-
-
-{
-     name: " Make Luv feat. Oliver Cheatham ",
-    artist: "Room 5 ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Room 5 - Make Luv feat. Oliver Cheatham.mp3",
  timeCategory: "f afternoon"
 
 },
