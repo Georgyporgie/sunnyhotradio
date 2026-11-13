@@ -850,8 +850,8 @@ volumeBoost: 1.0
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Jill Scott A Long Walk.mp3",
 year:2000,
- timeCategory: "millintens"
-
+ timeCategory: "millintens",
+volumeBoost: 2.00
 
 },
 
@@ -1783,13 +1783,7 @@ timeCategory: "ballads",
 
 },
 
-{
-    name: "Summer Madness (12inch)",
-    artist: "Kool And The Gang",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Kool and the gang - Summer Madness.mp3",
-        timeCategory: "ballads"
-},
+
 
 
 
@@ -4082,7 +4076,8 @@ year:1979
     artist: "Kool And The Gang",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Kool and the gang - Summer Madness.mp3",
-        timeCategory: "seventies"
+        timeCategory: "seventies",
+volumeBoost: 1.50
 },
 
 
@@ -4690,7 +4685,7 @@ part: 3
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/BB & Q Band - Starlette (instrumental).mp3",
          timeCategory: "soulshow",
-  eq: { bass: 0, mid: 0, treble: +1 } ,
+ quickFade: true,
     volumeBoost: 0.45,
 part: 4
 },
@@ -8099,7 +8094,7 @@ volumeBoost: 1.0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/Christian Jay Bolland - Horsepower (1991).mp3",
     timeCategory: "nineties",
-    volumeBoost: 0.65,
+    volumeBoost: 2.65,
     playcount: 0
 
 },
@@ -9012,8 +9007,8 @@ timeCategory: "morning"
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Jill Scott A Long Walk.mp3",
 year:2000,
-timeCategory: "morning"
-
+timeCategory: "morning",
+volumeBoost: 2.00
 
 },
 
@@ -10711,17 +10706,6 @@ timeCategory: "morning"
 
 
 
-
-
-{
-    name: "Summer Madness (12inch)",
-    artist: "Kool And The Gang",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Kool and the gang - Summer Madness.mp3",
-      timeCategory: "morning"
-
-
-},
 
 
 
@@ -20305,7 +20289,16 @@ volumeBoost: 0.30
 },
 
 
+{
+    name: "  Don't Look Any Further",
+    artist: "Dennis Edwards        ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies07.netlify.app/Dennis Edwards - Don't Look Any Further.mp3",
+timeCategory: "evening",
+isLoud: true,          
+  loudnessValue: 0.50
 
+},
 
 {
     name: " I Am The Drama  ",
@@ -20316,6 +20309,14 @@ volumeBoost: 0.30
 },
 
 
+{
+     name: " Everybody Dance (1978)",
+    artist: "Chic  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Chic - Everybody Dance (1978).mp3",
+       timeCategory: "evening"
+
+}, 
 
 
 {
@@ -20946,13 +20947,6 @@ isLoud: true,
 
 
 
-{
-    name: "Summer Madness (12inch)",
-    artist: "Kool And The Gang",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Kool and the gang - Summer Madness.mp3",
-        timeCategory: "evening"
-},
 
 
 
@@ -32039,19 +32033,6 @@ year: 2022
 
 
 
-
-{
-    name: "Un Momento",
-    artist: "Inna  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Inna - Un Momento.mp3",
-    timeCategory: "f evening",
-   isLoud: true,          
-  loudnessValue: 0.90,
-  year: 2011
-}, 
-
-
 {
      name: "Welcome!",
     artist: "Listen Live Sunny Danceradio☀️",
@@ -35794,16 +35775,21 @@ function showNextTracks() {
 
     scheduledMp3Files
         .slice(track_index + 1)
-        .filter(track => {
-            const path = track.path.toLowerCase();
+.filter(track => {
+    if (!track.path) {
+        console.error("Missing path:", track);
+        return false;
+    }
 
-            return !(
-                path.includes("jingles") ||
-                path.includes("discjockeys") ||
-                path.includes("sunny ship") ||
-                path.includes("reklame")
-            );
-        })
+    const path = track.path.toLowerCase();
+
+    return !(
+        path.includes("jingles") ||
+        path.includes("discjockeys") ||
+        path.includes("sunny ship") ||
+        path.includes("reklame")
+    );
+})
         .slice(0, 5)
         .forEach((track, i) => {
             html += `<div>${i + 1}. ${track.artist} - ${track.name}</div>`;
