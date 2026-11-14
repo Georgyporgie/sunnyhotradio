@@ -736,7 +736,7 @@ year: 2006
     path: "https://dancemusic09.netlify.app/David Guetta - Titanium feat. Sia (milli).mp3",
        timeCategory: "millintens",
   isLoud: true,          
-  loudnessValue: 0.60,
+  loudnessValue: 0.80,
 year: 2001
 },
 
@@ -955,7 +955,7 @@ year:2013,
     path: "https://sunnydanceoldies04.netlify.app/Freemasons - When You touch me.mp3",
     timeCategory: "millintens",
    isLoud: true,          
-  loudnessValue: 0.70,
+  loudnessValue: 0.80,
    year:  2007
 
 },
@@ -982,7 +982,7 @@ year:2013,
     path: "https://sunny-dancemusic02.netlify.app/Inna - Un Momento.mp3",
       timeCategory: "millintens",
 isLoud: true,          
-  loudnessValue: 0.75,
+  loudnessValue: 0.80,
   year: 2011
 },
 
@@ -3213,7 +3213,7 @@ year: 1977
     timeCategory: "seventies",
    year: 1978,
    isLoud: true,          
-     loudnessValue: 0.52,    
+     loudnessValue: 0.82,    
      quickFade: true,
         playcount: 0
 },
@@ -4150,7 +4150,7 @@ timeCategory: "seventies"
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Herbie Hancock - I Thought It Was You stricti).mp3",
       isLoud: true,
-loudnessValue: 0.70,
+loudnessValue: 0.90,
 timeCategory: "seventies"
 
 },
@@ -6950,7 +6950,7 @@ year: 1982
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Cherelle - I didn't mean to turn you on.mp3",
     isLoud: true,          
-  loudnessValue: 0.60, 
+  loudnessValue: 0.80, 
 timeCategory: "eighties"
 
 },
@@ -7575,7 +7575,7 @@ volumeBoost: 0.25
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://jazzmusic05.netlify.app/King Bee - Back By Dope Demand.mp3",
       isLoud: true,
-loudnessValue: 0.90,
+loudnessValue: 0.80,
  timeCategory: "nineties",
 year: 1990
 },
@@ -8928,7 +8928,7 @@ timeCategory: "morning"
      timeCategory: "morning",
 year: 2025,
 isLoud: true,          
-  loudnessValue: 0.60
+  loudnessValue: 0.80
 },
 
 
@@ -10570,7 +10570,7 @@ timeCategory: "morning"
     path: "https://sunnydancemuziek01.netlify.app/Snoop Dogg - Drop It Like It's Hot (Feat. Pharrell).mp3",
      timeCategory: "morning",
      isLoud: true,
-loudnessValue: 0.60 
+loudnessValue: 0.80 
 
 },
 
@@ -11081,7 +11081,7 @@ year: 2022
 
 
    isLoud: true,          
-  loudnessValue: 0.70,    
+  loudnessValue: 0.80,    
      quickFade: true
 },
 
@@ -11873,7 +11873,7 @@ year: 1999
     path: "https://sunnydanceoldies04.netlify.app/Freemasons - When You touch me.mp3",
     timeCategory: "morning",
    isLoud: true,          
-  loudnessValue: 0.70,
+  loudnessValue: 0.80,
    year:  2007
 
 },
@@ -12986,7 +12986,7 @@ year: 1974
         timeCategory: " afternoon",
     quickFade: true,
       isLoud: true,          
-  loudnessValue: 0.60,
+  loudnessValue: 0.80,
 year: 1981
 
 
@@ -13047,7 +13047,7 @@ timeCategory: " afternoon"
      image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Disclosure - You & Me.mp3",
    isLoud: true,          
-  loudnessValue: 0.70,
+  loudnessValue: 0.90,
  timeCategory: "afternoon"
 },
 
@@ -13663,7 +13663,7 @@ loudnessValue: 0.80 ,
     path: "https://dancemusic08.netlify.app/Fischer Bbyclose - Blackberries (maxi).mp3",
        timeCategory: "afternoon",
      isLoud: true,
-loudnessValue: 0.75 ,
+loudnessValue: 0.85 ,
   year: 2025
 },
 
@@ -13941,7 +13941,7 @@ timeCategory: "afternoon"
     path: "https://dancemusic06.netlify.app/ZHU - Changes.mp3",
     timeCategory: "afternoon",
      isLoud: true,
-loudnessValue: 0.60,
+loudnessValue: 0.80,
 year: 2023
 },
 
@@ -14711,7 +14711,7 @@ timeCategory: "afternoon"
     path: "https://sunnydancemusic07.netlify.app/Disclosure - She's Gone Dance On.mp3",
      year: 2024,
 isLoud: true,          
-  loudnessValue: 0.50,
+  loudnessValue: 0.90,
 timeCategory: "afternoon"
 },
 
@@ -14883,7 +14883,7 @@ volumeBoost: 0.25
     path: "https://sunnydancemusic05.netlify.app/Lucas Nord - Run On Love.mp3",
    timeCategory: "afternoon",
      isLoud: true,
-loudnessValue: 0.60 
+loudnessValue: 0.80 
 },
 
 
@@ -15760,7 +15760,7 @@ quickFade: true
     path: "https://sunnydancemusic04.netlify.app/Pabllo Vittar - Follow Me.mp3",
      timeCategory: "afternoon",
  isLoud: true,          
-  loudnessValue: 0.70,
+  loudnessValue: 0.80,
     year: 2022
 },
 
@@ -16894,7 +16894,7 @@ year: 2021
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Charli XCX - Break the Rules.mp3",
    isLoud: true,          
-  loudnessValue: 0.55,  
+  loudnessValue: 0.75,  
   year:2022,
    timeCategory: "afternoon"
 
@@ -17277,7 +17277,7 @@ volumeBoost: 070
     path: "https://sunnydancemuziek01.netlify.app/chillhouse del mar02.mp3",
       timeCategory: "afternoon",
    isLoud: true,          
-  loudnessValue: 0.70,    
+  loudnessValue: 0.80,    
      quickFade: true
 },
 
@@ -17288,7 +17288,7 @@ volumeBoost: 070
     path: "https://sunnydancemuziek01.netlify.app/chillhouse del mar03.mp3",
       timeCategory: "afternoon",
    isLoud: true,          
-  loudnessValue: 0.70,    
+  loudnessValue: 0.80,    
      quickFade: true
 },
 
@@ -17303,7 +17303,7 @@ volumeBoost: 070
 
 
    isLoud: true,          
-  loudnessValue: 0.70,    
+  loudnessValue: 0.80,    
      quickFade: true
 },
 
@@ -17752,7 +17752,7 @@ year:2026
 
 {
     name: "  Bass Persuades (new)",
-    artist: "Miley Cirus",
+    artist: "Miley Cyrus",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Miley Cirus - Bass Persuades (new).mp3",
           volumeBoost:0.30,  
@@ -17810,7 +17810,7 @@ year: 2024
    quickFade: true,
    year:2024,
    isLoud: true,          
-    loudnessValue: 0.35
+    loudnessValue: 0.75
 },
 
 {
@@ -17819,7 +17819,7 @@ year: 2024
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Charli XCX - Baby.mp3",
    isLoud: true,          
-  loudnessValue: 0.60,  
+  loudnessValue: 0.80,  
   year:2022,
    timeCategory: "afternoon"
 
@@ -18051,7 +18051,7 @@ volumeBoost:1.30
     path: "https://sunnydancemuziek01.netlify.app/Bebe Rexha - Calabria.mp3",
    timeCategory: "afternoon",
    isLoud: true,
-  loudnessValue: 0.70 
+  loudnessValue: 0.80 
 },
 
 
@@ -20145,7 +20145,7 @@ volumeBoost: 0.70
      timeCategory: "evening",
      isLoud: true,
 
-loudnessValue: 0.70 
+loudnessValue: 0.80 
 },
 
 
@@ -20160,7 +20160,7 @@ loudnessValue: 0.70
        timeCategory: "evening",
      isLoud: true,
 
-loudnessValue: 0.70 
+loudnessValue: 0.80 
 },
 
 
@@ -20324,7 +20324,7 @@ volumeBoost: 0.30
     path: "https://danceoldies07.netlify.app/Dennis Edwards - Don't Look Any Further.mp3",
 timeCategory: "evening",
 isLoud: true,          
-  loudnessValue: 0.50
+  loudnessValue: 0.80
 
 },
 
@@ -21941,7 +21941,7 @@ volumeBoost: 0.10
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Zara Larsson - On My Love.mp3",
   isLoud: true,
-loudnessValue: 0.70, 
+loudnessValue: 0.80, 
  timeCategory: "evening"
  },
 
@@ -22244,7 +22244,7 @@ volumeBoost: 0.10
     path: "https://sunnydancemusic04.netlify.app/Gaulin & Julian Perreta - Seven nation army.mp3",
       timeCategory: "evening",
 isLoud: true,          
-  loudnessValue: 0.70 
+  loudnessValue: 0.80 
 
 
 },
@@ -23404,7 +23404,7 @@ volumeBoost: 0.15
     path: "https://sunnydancemusic07.netlify.app/Alesso, Nate Smith - I Like It.mp3",
     timeCategory: "evening",
    isLoud: true,          
-  loudnessValue: 0.60
+  loudnessValue: 0.80
 },
 
 
@@ -23421,7 +23421,7 @@ volumeBoost: 0.15
     timeCategory: "evening",
      
    isLoud: true,          
-  loudnessValue: 0.70,    
+  loudnessValue: 0.80,    
      quickFade: true
 },
 
@@ -23436,7 +23436,7 @@ volumeBoost: 0.15
     path: "https://sunnydancemuziek01.netlify.app/chillhouse del mar04.mp3",
     timeCategory: "evening",
          isLoud: true,          
-  loudnessValue: 0.70,    
+  loudnessValue: 0.80,    
      quickFade: true
 },
 
@@ -23964,7 +23964,7 @@ year:2004
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies04.netlify.app/Cherelle - I didn't mean to turn you on.mp3",
     isLoud: true,          
-  loudnessValue: 0.60, 
+  loudnessValue: 0.80, 
 timeCategory: "evening-late"
 
 },
@@ -25231,7 +25231,7 @@ year: 1984
     path: "muziek/oldies07/Sun - Dance (Do What You Wanna Do).mp3",
  timeCategory: "evening-late",
    isLoud: true,          
-  loudnessValue: 0.32,    
+  loudnessValue: 0.72,    
      quickFade: true,
         playcount: 0
 },
@@ -25757,7 +25757,7 @@ timeCategory: "evening-late"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies06.netlify.app/SL2 - DJ Take Control.mp3",
    isLoud: true,          
-  loudnessValue: 0.60,  
+  loudnessValue: 0.70,  
     timeCategory: "evening-late"
 
 
@@ -26209,7 +26209,7 @@ quickFade: true
    timeCategory: "evening-late",
       year: 1995,
 isLoud: true,          
-  loudnessValue: 0.35,    
+  loudnessValue: 0.75,    
      quickFade: true,
         playcount: 0
 },
@@ -26323,7 +26323,13 @@ timeCategory: "evening-late"
 
 
 
-
+{
+    name: "Marss (12inch, 1987)",
+    artist: "Pump Up The Volume",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Marss Pump up the volume.mp3",
+   timeCategory: "evening-late"
+},
 
 
 
@@ -27855,7 +27861,7 @@ year:2023
     path: "https://sunnydancemuziek01.netlify.app/Acraze - Do it to it.mp3",
     timeCategory: "evening-late",
    isLoud: true,
-  loudnessValue: 0.70,
+  loudnessValue: 0.80,
   year: 2021
 },
 
@@ -27981,7 +27987,7 @@ year:2017
     path: "https://sunnydancemusic07.netlify.app/Dua Lipa - Houdin1 (maxi).mp3",
   timeCategory: "evening-late",
   isLoud: true,          
-  loudnessValue: 0.60
+  loudnessValue: 0.80
 },
 
 
@@ -28096,7 +28102,7 @@ volumeBoost: 0.80
     path: "https://danceoldies06.netlify.app/Humanoid - Stakker Humanoid.mp3",
    timeCategory: "evening-late",
 isLoud: true,          
-  loudnessValue: 0.70
+  loudnessValue: 0.80
 },
 
 
@@ -28221,7 +28227,7 @@ volumeBoost: 2.5
     path: "https://sunnydancemusic04.netlify.app/Ellie Goulding - All By Myself.mp3",
   year: 2022,
      isLoud: true,
-loudnessValue: 0.55, 
+loudnessValue: 0.75, 
 timeCategory: "evening-late"
 
 },
@@ -30443,7 +30449,7 @@ year:2026
 
 {
     name: "  Bass Persuades (new)",
-    artist: "Miley Cirus",
+    artist: "Miley Cyrus",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Miley Cirus - Bass Persuades (new).mp3",
           volumeBoost:0.30,  
@@ -30559,7 +30565,7 @@ volumeBoost: 0.30
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Zara Larsson - On My Love.mp3",
      isLoud: true,
-loudnessValue: 0.70, 
+loudnessValue: 0.80, 
  timeCategory: "f afternoon"
 },
 
@@ -31239,7 +31245,7 @@ year: 1981
     path: "https://dancemusic09.netlify.app/David Guetta - Titanium feat. Sia (2001).mp3",
        timeCategory: "f evening",
     isLoud: true,          
-  loudnessValue: 0.60,
+  loudnessValue: 0.80,
 year: 2001
 },
 
@@ -31679,7 +31685,7 @@ timeCategory: "f evening"
     path: "https://sunnydancemusic07.netlify.app/Disclosure - She's Gone Dance On.mp3",
      year: 2024,
 isLoud: true,          
-  loudnessValue: 0.50,
+  loudnessValue: 0.80,
 timeCategory: "f evening"
 },
 
@@ -32001,7 +32007,7 @@ volumeBoost: 0.10
     path: "https://dancemusic08.netlify.app/Martin Garrix & Zedd - Follow.mp3",
     timeCategory: "f evening",
 isLoud: true,          
-  loudnessValue: 0.62
+  loudnessValue: 0.82
 },
 
   
@@ -32317,7 +32323,7 @@ timeCategory: "f evening"
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Slf Naafish Hashim.mp3",
      isLoud: true,          
-  loudnessValue: 0.70, 
+  loudnessValue: 0.80, 
    timeCategory: "f evening"
 
 },
@@ -33401,16 +33407,7 @@ year: 2004
 year:2020
 },
 
-{
-    name: "Marss (12inch, 1987)",
-    artist: "Pump Up The Volume",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies01.netlify.app/Marss Pump up the volume.mp3",
-  
 
-
- timeCategory: "f evening-late"
-},
 {
     name: "Love Tonight",
     artist: "Shouse",
@@ -34445,7 +34442,7 @@ volumeBoost: 1.0
 year:2024,
 quickFade: true,
 isLoud: true,          
- loudnessValue: 0.35
+ loudnessValue: 0.70
 },
 
 
@@ -35020,10 +35017,29 @@ if (lower.includes("female dj")) {
   curr_track = audio;
   currentTrackIndex = index;
 updateUI(track);
-  const base = Number(getTimeBasedVolume());
-  const boost = Number(track.volumeBoost || 0);
-  audio.volume = Math.max(0, Math.min(1, base + boost));
+const base = Number(getTimeBasedVolume());
+const boost = Number(track.volumeBoost || 0);
+const loudness = Number(track.loudnessValue || 1);
 
+const finalVolume = Math.max(
+  0,
+  Math.min(1, (base + boost) * loudness)
+);
+
+console.log(
+  "🔊 SETTING VOLUME",
+  track.name,
+  finalVolume
+);
+
+audio.volume = finalVolume;
+setInterval(() => {
+  console.log(
+    "🎧 CURRENT:",
+    track.name,
+    audio.volume
+  );
+}, 3000);
   // -----------------------------
   // METADATA + FADE SCHEDULING
   // -----------------------------
