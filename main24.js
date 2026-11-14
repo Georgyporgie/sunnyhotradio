@@ -15741,10 +15741,7 @@ quickFade: true
     artist: "Sunny Disco Machine☀️",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "muziek/jingles/start the party.mp3",
-  
-
-
-     timeCategory: "afternoon"
+    timeCategory: "afternoon"
 
 
 },
@@ -30209,7 +30206,7 @@ timeCategory: "f afternoon"
      name: "  What s Happening",
     artist: "Ava Max ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://danceoldies06.netlify.app/Ava Max - What s Happening.mp3",
+    path: "https://sunnydance25.netlify.app/Ava Max - What s Happening.mp3",
  timeCategory: "f afternoon"
 
 },
