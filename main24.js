@@ -15693,6 +15693,15 @@ quickFade: true
 
 
 {
+    name: "  AM-FM",
+    artist: "Natasha King",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Natasha King - AM-FM.mp3",
+         timeCategory: "afternoon"
+}, 
+
+
+{
     name: "    Starboy ",
     artist: "The Weeknd ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
@@ -15702,7 +15711,29 @@ quickFade: true
 },
 
 
+{
+    name: " Ti Sento (maxi single)",
+    artist: "Matia Bazar ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Matia Bazar - Ti Sento (maxi single).mp3",
+         timeCategory: "afternoon"
+}, 
 
+{
+    name: "Deep In Your Love",
+    artist: "Bebe Rexha",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Bebe Rexha & Alok - Deep In Your Love.mp3",
+         timeCategory: "afternoon"
+}, 
+
+{
+    name: " One In A Million",
+    artist: "Bebe Rexha",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Bebe Rexha - One In A Million.mp3",
+         timeCategory: "afternoon"
+}, 
 
 
 {
@@ -22641,6 +22672,35 @@ year: 1979
 
 
 
+
+
+
+
+
+
+
+
+
+
+{
+
+    name: " Are You With Me",
+    artist: "Lost Frequencies",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Lost Frequencies - Are You With Me.mp3",
+                timeCategory: "evening"
+}, 
+
+
+
+
+{
+    name: "Playing With Knives",
+    artist: "Bizarre Inc ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Bizarre Inc - Playing With Knives.mp3",
+         timeCategory: "evening"
+}, 
 
 
 
@@ -30007,17 +30067,6 @@ year: 2021
 
 
 
-{
-     name: "   Showing Out",
-    artist: "Mel & Kim   ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://dancemusic09.netlify.app/Mel & Kim - Showing Out.mp3",
-    timeCategory: "f afternoon",
-year: 1986
-},
-
-
-
 
 
 
@@ -30278,7 +30327,41 @@ year:2004
          timeCategory: "f afternoon"
 }, 
 
+{
+    name: " One In A Million",
+    artist: "Bebe Rexha",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Bebe Rexha - One In A Million.mp3",
+         timeCategory: "f afternoon"
+}, 
 
+
+
+{
+    name: "Deep In Your Love",
+    artist: "Bebe Rexha",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Bebe Rexha & Alok - Deep In Your Love.mp3",
+         timeCategory: "f afternoon"
+}, 
+
+
+{
+    name: " Are You With Me",
+    artist: "Lost Frequencies",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Lost Frequencies - Are You With Me.mp3",
+         timeCategory: "f afternoon"
+}, 
+
+
+{
+    name: "  AM-FM",
+    artist: "Natasha King",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Natasha King - AM-FM.mp3",
+         timeCategory: "f afternoon"
+}, 
 
 {
     name: "Exterminate (maxi)",
