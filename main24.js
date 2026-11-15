@@ -4675,7 +4675,7 @@ part: 2
     path: "https://soulfullforever.netlify.app/Dan Hartman - Instant replay.mp3",
         timeCategory: "soulshow",
      quickFade: true,
-    volumeBoost:2.00,
+    volumeBoost:2.50,
 part: 3
 },
 
@@ -6683,7 +6683,7 @@ quickFade: true
     artist: "Jaki Graham    ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Jaki Graham - Set Me Free (strict).mp3",
- 
+  volumeBoost:2.00,
     timeCategory: "eighties"
 
 },
@@ -7396,7 +7396,7 @@ quickFade:true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Shakatak - Down on the street.mp3",
       timeCategory: "eighties",
-volumeBoost:2.00
+volumeBoost:2.50
 },
 
 
@@ -14711,7 +14711,7 @@ timeCategory: "afternoon"
     path: "https://sunnydancemusic07.netlify.app/Disclosure - She's Gone Dance On.mp3",
      year: 2024,
 isLoud: true,          
-  loudnessValue: 0.90,
+  loudnessValue: 0.70,
 timeCategory: "afternoon"
 },
 
@@ -15352,7 +15352,7 @@ volumeBoost: 0.10
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Everything But The Girl - Missing.mp3",
     timeCategory: "afternoon",
-    volumeBoost: 0.45,
+    volumeBoost: 1.45,
   year:1994
 
 },
@@ -23393,8 +23393,9 @@ volumeBoost: 0.15
     artist: "Snoop Dogg, Dr Dre",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Snoop Dogg, Dr Dre - Gorgeous.mp3",
-    timeCategory: "evening"
-
+    timeCategory: "evening",
+  isLoud: true,          
+  loudnessValue: 0.90
 },
 
 {
@@ -31280,7 +31281,7 @@ year: 2001
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Shakatak - Down on the street.mp3",
          timeCategory: "f evening",
-volumeBoost:2.00
+volumeBoost:3.50
 },
 
 
@@ -31349,7 +31350,7 @@ year: 2026
     path: "https://soulfullforever.netlify.app/Dan Hartman - Instant replay.mp3",
         timeCategory: "f evening",
      quickFade: true,
-    volumeBoost:2.00
+    volumeBoost:2.50
 
 },
 
@@ -31506,6 +31507,7 @@ timeCategory: "f evening",
     path: "https://jazzmusic05.netlify.app/Doja Cat - Gorgeous.mp3",
        year:2025,
 timeCategory: "f evening"
+
 },
 
 {
@@ -31685,7 +31687,7 @@ timeCategory: "f evening"
     path: "https://sunnydancemusic07.netlify.app/Disclosure - She's Gone Dance On.mp3",
      year: 2024,
 isLoud: true,          
-  loudnessValue: 0.80,
+  loudnessValue: 0.70,
 timeCategory: "f evening"
 },
 
@@ -32023,7 +32025,9 @@ isLoud: true,
     artist: "Snoop Dogg, Dr Dre",
    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Snoop Dogg, Dr Dre - Gorgeous.mp3",
-    timeCategory: "f evening"
+    timeCategory: "f evening",
+  isLoud: true,          
+  loudnessValue: 0.90
 },
 
 
@@ -33379,7 +33383,10 @@ year: 2004
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Heidi Klum - Sunglasses At Night.mp3",
   year: 2024,
- timeCategory: "f evening-late"
+ timeCategory: "f evening-late",
+    isLoud: true,          
+  loudnessValue: 0.80
+
 },
 
 
@@ -33393,7 +33400,7 @@ year: 2004
     artist: "Jaki Graham   ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Jaki Graham - Set Me Free (maxi).mp3",
- 
+   volumeBoost:2.00,
   timeCategory: "f evening-late"
 
 },
@@ -33408,14 +33415,7 @@ year:2020
 },
 
 
-{
-    name: "Love Tonight",
-    artist: "Shouse",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic03.netlify.app/Shouse - Love tonight.mp3",
- timeCategory: "f evening-late",
-year:2025
-},
+
 
 
 
@@ -33632,7 +33632,8 @@ year: 2026
     artist: "Eric Prydz",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Eric Prydz - Call On Me.mp3",
- timeCategory: "f evening-late"
+ timeCategory: "f evening-late",
+year:2004
 },
 
 
@@ -33737,7 +33738,7 @@ isNew: true
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Everything But The Girl - Missing.mp3",
     timeCategory: "f evening-late",
-  volumeBoost: 0.45,
+  volumeBoost: 1.45,
   year:1994
 
 },
@@ -35026,20 +35027,7 @@ const finalVolume = Math.max(
   Math.min(1, (base + boost) * loudness)
 );
 
-console.log(
-  "🔊 SETTING VOLUME",
-  track.name,
-  finalVolume
-);
 
-audio.volume = finalVolume;
-setInterval(() => {
-  console.log(
-    "🎧 CURRENT:",
-    track.name,
-    audio.volume
-  );
-}, 3000);
   // -----------------------------
   // METADATA + FADE SCHEDULING
   // -----------------------------
