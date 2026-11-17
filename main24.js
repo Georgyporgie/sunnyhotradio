@@ -982,7 +982,7 @@ year:2013,
     path: "https://sunny-dancemusic02.netlify.app/Inna - Un Momento.mp3",
       timeCategory: "millintens",
 isLoud: true,          
-  loudnessValue: 0.80,
+  loudnessValue: 0.75,
   year: 2011
 },
 
@@ -3831,7 +3831,14 @@ quickFade: true
 
 
 
-
+{
+    name: "    Do your dance",
+    artist: "Rose Royce",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Rose Royce - Do your dance.mp3",
+year: 1977,
+    timeCategory: "seventies"
+}, 
 
 
 
@@ -3907,7 +3914,7 @@ volumeBoost: 0.25
     artist: "Donna Summer ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Donna Summer The Deep.mp3",
-     volumeBoost: 0.60,
+       volumeBoost: 2.00,
 timeCategory: "seventies"
 },
 
@@ -4271,7 +4278,7 @@ timeCategory: "seventies"
     path: "https://sunnydanceoldies09.netlify.app/Lovedeluxe - Here Comes That Sound.mp3",
     timeCategory: "seventies",
     quickFade: true,
-    volumeBoost: 0.75,
+    volumeBoost:2.0,
     playcount: 0
 },
 
@@ -4381,7 +4388,7 @@ volumeBoost: 0.40
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://jazzmusic05.netlify.app/G.Q - Disco Nights.mp3",
       timeCategory: "seventies",
-volumeBoost: 0.20,
+volumeBoost: 2.50,
   eq: { bass: 1, mid: 2, treble: +1 } 
 },
 
@@ -6364,6 +6371,14 @@ volumeBoost: 0.25
 
 },
 
+{
+    name: "  Straight Ahead  (maxi)",
+    artist: "Nick Straker band",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Nick Straker bamd - Straight Ahead  (maxi).mp3",
+year: 1982,
+    timeCategory: "eighties"
+}, 
 
 {
     name: " In The Forest (1980)",
@@ -8167,7 +8182,14 @@ volumeBoost: 0.50,
   eq: { bass: 1, mid: 1, treble: +1 } 
 },
 
-
+{
+    name: " Horny",
+    artist: "Mouse T",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Mouse T - Horny.mp3",
+    timeCategory: "evening-late",
+year: 1998
+},
 
 {
     name: "  Open Sesame",
@@ -8852,6 +8874,16 @@ playcount: 0
 
 
 
+
+
+{
+    name: "    Do your dance",
+    artist: "Rose Royce",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Rose Royce - Do your dance.mp3",
+year: 1977,
+    timeCategory: "morning"
+}, 
 
 
 
@@ -13059,7 +13091,7 @@ timeCategory: " afternoon"
     path: "https://sunny-dancemusic02.netlify.app/Inna - Un Momento.mp3",
     timeCategory: "afternoon",
 isLoud: true,          
-  loudnessValue: 0.85,
+  loudnessValue: 0.75,
   year: 2011
 },
 
@@ -13119,6 +13151,25 @@ quickFade: true
 },
 
 
+{
+    name: "Dancin' (single) ",
+    artist: " Crown Heights Affair ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "https://jazzmusic04.netlify.app/Crown Heights Affair - Dancin' (single).mp3",
+    timeCategory: "afternoon",
+    quickFade: true,
+    volumeBoost: 0.55,
+    playcount: 0
+},
+
+{
+    name: "  Straight Ahead  (maxi)",
+    artist: "Nick Straker band",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Nick Straker bamd - Straight Ahead  (maxi).mp3",
+year: 1982,
+    timeCategory: "afternoon"
+}, 
 {
   
     name: "1999",
@@ -16470,6 +16521,14 @@ year:2026
 },
 
 
+{
+    name: " Carwash",
+    artist: "Rose Royce ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Rose Royce - Carwash Crossfade.mp3",
+year: 2023,
+    timeCategory: " afternoon"
+}, 
 
 {
     name: "Welcome!",
@@ -16558,7 +16617,7 @@ year:2012
     artist: "Donna Summer ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies09.netlify.app/Donna Summer The Deep.mp3",
-    volumeBoost: 0.60,
+    volumeBoost: 2.00,
 timeCategory: "afternoon"
 },
 
@@ -16669,7 +16728,9 @@ timeCategory: "afternoon"
     artist: "Bandit & Belfort   ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic07.netlify.app/Bandit & Belfort - Jenny.mp3",
-       timeCategory: "afternoon"
+       timeCategory: "afternoon",
+   isLoud: true,          
+  loudnessValue: 0.75 
 },
 
 
@@ -17911,6 +17972,17 @@ year:2007
 
 
 
+{
+  name: " One In A Million",
+    artist: "Bebe Rexha ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Bebe Rexha - One In A Million insomnia.mp3",
+year: 2023,
+    timeCategory: "afternoon"
+}, 
+
+
+
 
 {
     name: " Gonna Get Over You",
@@ -18007,6 +18079,14 @@ year: 2022
 
 
 
+{
+  name: " One In A Million",
+    artist: "Bebe Rexha ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Bebe Rexha - One In  a cross religio.mp3",
+year: 2023,
+    timeCategory: "afternoon"
+}, 
 
 
 
@@ -18057,6 +18137,16 @@ volumeBoost:1.30
 
 
 
+
+
+{
+  name: " One In A Million",
+    artist: "Bebe Rexha ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Bebe Rexha - One In  a cross religio.mp3",
+year: 2023,
+    timeCategory: "afternoon"
+}, 
 
 
 
@@ -21460,7 +21550,14 @@ loudnessValue: 0.80
 
 
 
-
+{
+    name: "   My oh My",
+    artist: "Ava Max",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Ava Max - My oh My.mp3",
+year: 1977,
+    timeCategory: "evening"
+}, 
 
 
 
@@ -21941,7 +22038,7 @@ volumeBoost: 0.10
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Zara Larsson - On My Love.mp3",
   isLoud: true,
-loudnessValue: 0.80, 
+loudnessValue: 0.70, 
  timeCategory: "evening"
  },
 
@@ -24793,8 +24890,8 @@ year: 2026
     artist: "Gary s Gang  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Gary s Gang - Showtime.mp3",
-           timeCategory: " evening-late"
-  
+           timeCategory: " evening-late",
+      volumeBoost: 2.0
 },
 
 
@@ -24803,8 +24900,8 @@ year: 2026
     artist: "Gary s Gang  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Gary s Gang - Showtimemix.mp3",
-           timeCategory: "evening-late"
-  
+           timeCategory: "evening-late",
+    volumeBoost: 2.0
 },
 
 
@@ -24814,7 +24911,7 @@ year: 2026
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Diana Ross - The Boss.mp3",
            timeCategory: "evening-late",
-  volumeBoost: 2
+  volumeBoost: 2.0
 },
 
 
@@ -25357,6 +25454,16 @@ timeCategory: "evening-late",
 
 
 
+
+{
+    name: "  Endless Summer",
+    artist: "Sam Feldt",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Sam Feldt - Endless Summer.mp3",
+year: 2023,
+    timeCategory: "evening-late"
+}, 
+
 {
     name: "   High  Steppin Hip",
     artist: "Love Unlimited",
@@ -25742,7 +25849,7 @@ timeCategory: "evening-late"
     path: "https://sunnydanceoldies09.netlify.app/Lovedeluxe - Here Comes That Sound.mp3",
     timeCategory: "evening-late",
     quickFade: true,
-    volumeBoost: 0.75,
+      volumeBoost:2.0,
     playcount: 0
 },
 
@@ -25885,7 +25992,14 @@ quickFade: true
    volumeBoost: 0.25
 },
 
-
+{
+    name: " Favorite Sin",
+    artist: "Post Malone ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Post Malone - Favorite Sin.mp3",
+year: 2025,
+    timeCategory: "evening-late"
+}, 
  
 
 
@@ -29392,8 +29506,8 @@ volumeBoost: 1.0
     artist: "Mouse T",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Mouse T - Horny.mp3",
-    timeCategory: "evening-late"
-
+    timeCategory: "evening-late",
+year: 1998
 },
 
 
@@ -30307,6 +30421,15 @@ timeCategory: "f afternoon"
 
 
 
+{
+    name: " Carwash",
+    artist: "Rose Royce ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Rose Royce - Carwash Crossfade.mp3",
+year: 2023,
+    timeCategory: "f afternoon"
+}, 
+
 
 
 
@@ -30424,6 +30547,16 @@ year:2026
 
 
 
+
+
+{
+    name: " One In A Million",
+    artist: "Bebe Rexha ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Bebe Rexha - One In  a cross religio.mp3",
+year: 2023,
+    timeCategory: "f afternoon"
+}, 
 
 {
     name: "  Touch Touch (new)",
@@ -30566,7 +30699,7 @@ volumeBoost: 0.30
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic06.netlify.app/Zara Larsson - On My Love.mp3",
      isLoud: true,
-loudnessValue: 0.80, 
+loudnessValue: 0.70, 
  timeCategory: "f afternoon"
 },
 
@@ -31212,6 +31345,19 @@ year: 2026
 
 
 
+
+
+
+
+
+{
+    name: "   My oh My",
+    artist: "Ava Max",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Ava Max - My oh My.mp3",
+year: 1977,
+    timeCategory: "f evening"
+}, 
 
 
 
@@ -33021,12 +33167,27 @@ volumeBoost: 1.5
 
 
 
+{
+    name: " Favorite Sin",
+    artist: "Post Malone ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Post Malone - Favorite Sin.mp3",
+year: 2025,
+    timeCategory: "f evening-late"
+}, 
 
 
 
 
 
-
+{
+    name: "  Endless Summer",
+    artist: "Sam Feldt",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Sam Feldt - Endless Summer.mp3",
+year: 2023,
+    timeCategory: "f evening-late"
+}, 
 
 
 
@@ -33873,8 +34034,8 @@ year: 2020
     artist: "Gary s Gang  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Gary s Gang - Showtime.mp3",
-           timeCategory: "f evening-late"
-  
+           timeCategory: "f evening-late",
+      volumeBoost: 2.0
 },
 
 
@@ -33883,8 +34044,8 @@ year: 2020
     artist: "Gary s Gang  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Gary s Gang - Showtimemix.mp3",
-           timeCategory: "f evening-late"
-  
+           timeCategory: "f evening-late",
+      volumeBoost: 2.0
 },
 
 
@@ -34983,9 +35144,18 @@ function loadTrack(index) {
 const lower = track.path?.toLowerCase() || "";
 
 const isNonMusic = [
-  "dj", "voice", "jingle", "promo", "news", "intro",
-  "discjockeys", "sunny ship", "broadcast amsterdam", "audio","mix","Just For","Female DJ1best"
-
+    "dj",
+    "voice",
+    "jingle",
+    "promo",
+    "news",
+    "intro",
+    "discjockeys",
+    "sunny ship",
+    "broadcast amsterdam",
+    "audio",
+    "just for",
+    "female dj1best"
 ].some(k => lower.includes(k));
 
 if (isNonMusic) {
@@ -34993,23 +35163,21 @@ if (isNonMusic) {
 }
 
 // --- BOOST RULES ---
-if (lower.includes("female dj")) {
-    track.volumeBoost = 0.2;      // strongest
+if (lower.includes("female dj1best")) {
+    track.volumeBoost = 0.15;
+} else if (lower.includes("female dj")) {
+    track.volumeBoost = 0.2;
 } else if (lower.includes("male dj")) {
     track.volumeBoost = 0.25;
 } else if (lower.includes("jingle")) {
     track.volumeBoost = 0.2;
-} else if (lower.includes("Female DJ1best")) {
-    track.volumeBoost = 0.15;
 } else if (lower.includes("news")) {
     track.volumeBoost = 0.1;
 } else if (lower.includes("intro")) {
     track.volumeBoost = 0.05;
-
 } else {
-    track.volumeBoost = 0;        // normal music
+    track.volumeBoost = 0;
 }
-
 
 
   console.log("🎧 Loading track:", cleanURL(track.path));
@@ -35871,8 +36039,10 @@ function showNextTracks() {
         path.includes("jingles") ||
         path.includes("discjockeys") ||
         path.includes("sunny ship") ||
-        path.includes("reklame")
-    );
+           path.includes("broadcast amsterdam") ||
+path.includes("reklame")
+  
+  );
 })
         .slice(0, 5)
         .forEach((track, i) => {
