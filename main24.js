@@ -4430,8 +4430,8 @@ volumeBoost: 2.50,
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/KC - Get Down Tonight strictly.mp3",
   year: 1975,
- timeCategory: "seventies"
-
+ timeCategory: "seventies",
+volumeBoost:2.5
 },
 
 
@@ -4451,8 +4451,8 @@ volumeBoost: 2.50,
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/KC - Shake Your Booty strictly.mp3",
   year: 1976,
- timeCategory: "seventies"
-
+ timeCategory: "seventies",
+volumeBoost:2.5
 },
 
 
@@ -4668,7 +4668,7 @@ part: 1
      name: "Intro",
     artist: "Soulshow  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Soulshow intro2.mp3",
+    path: "https://sunnydancemusic04.netlify.app/Soulshow tussen.mp3",
     timeCategory: "soulshow",
 part: 2
 },
@@ -5030,6 +5030,7 @@ part: 4
     path: "https://danceoldies10.netlify.app/K C and The Sunshine Band - Thats The Way (1975).mp3",
        timeCategory: "soulshow",
   year:1975,
+volumeBoost:2.5,
 part: 5
   
 },
@@ -5931,7 +5932,7 @@ playcount: 0
     artist: "Gary Byrd   ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Gary Byrd - The Crown (eighties).mp3",
-  volumeBoost: 2.0,
+  volumeBoost: 3.0,
  timeCategory: "eighties"
 
 },
@@ -6181,10 +6182,7 @@ timeCategory: "eighties",
     artist: " Aurra ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Aurra - Like I like It.mp3",
-  
-
-
-    timeCategory: "eighties",
+      timeCategory: "eighties",
 volumeBoost: 0.15
 
 },
@@ -6196,8 +6194,7 @@ volumeBoost: 0.15
     artist: "Mary Jane Girls ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mary Jane Girls - All Night Long.mp3",
-  volumeBoost: 2.40,
-  eq: { bass: 1, mid: 1, treble: +1 } ,
+   volumeBoost: 3.0,
     timeCategory: "eighties"
 
 
@@ -7078,7 +7075,7 @@ volumeBoost: 1.05
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Stephanie Mills - The Medicine Song.mp3",
   timeCategory: "eighties",
-volumeBoost: 0.25,
+volumeBoost: 2.25,
 year: 1984
 },
 
@@ -10969,13 +10966,11 @@ volumeBoost: 0.15
     artist: "Mary Jane Girls ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/Mary Jane Girls - All Night Long.mp3",
-   volumeBoost: 2.40,
-  eq: { bass: 1, mid: 1, treble: +1 } ,
-    timeCategory: "morning"
+   volumeBoost: 3.0,
+      timeCategory: "morning"
 
 
 },
-
 
 
 
@@ -12189,7 +12184,7 @@ year: 1979
     path: "https://sunnydanceoldies02.netlify.app/E W F - Win or lose.mp3",
   timeCategory: "morning",
      playcount: 0,
-  volumeBoost: 0.70
+  volumeBoost: 2.00
 },
 
 
@@ -13035,7 +13030,7 @@ year: 1981
     artist: "KC ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/KC - Get Down Tonight2.mp3",
-   volumeBoost: 0.65,
+   volumeBoost: 2.65,
  timeCategory: "afternoon",
  year: 1975
 
@@ -13048,7 +13043,7 @@ year: 1981
     artist: "KC ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://dancemusic08.netlify.app/KC - Shake Your Booty2.mp3",
-   volumeBoost: 0.65,
+   volumeBoost: 2.65,
   year: 1976,
 timeCategory: "afternoon"
 
@@ -17179,7 +17174,8 @@ year: 2023
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Love you yes- Beverlei Brown.mp3",
   year: 2001,
-   timeCategory: "afternoon"
+   timeCategory: "afternoon",
+quickFade: true
 },
 
 
@@ -20437,17 +20433,6 @@ isLoud: true,
 }, 
 
 
-{
-    name: "  Fall In Love With Me (1982) ",
-    artist: " Earth Wind & Fire ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "https://jazzmusic04.netlify.app/EARTH WIND & FIRE - Fall In Love With Me (1982).mp3",
-    timeCategory: "evening",
-    volumeBoost: 2.50,
- quickFade:true,
-year: 1982
-},
-
 
 
 
@@ -20825,7 +20810,7 @@ year: 2005
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemuziek01.netlify.app/Purple disco machine - in the Dark.mp3",
          timeCategory: "evening",
-volumeBoost: 1.50
+volumeBoost: 2.0
 },
 
 
@@ -25259,7 +25244,7 @@ volumeBoost: 0.25
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Stephanie Mills - The Medicine Song.mp3",
   timeCategory: " evening-late",
-volumeBoost: 0.25,
+volumeBoost: 2.25,
 year: 1984
 },
 
@@ -25880,7 +25865,7 @@ timeCategory: "evening-late"
     artist: "Gary Byrd   ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Gary Byrd - The Crown.mp3",
- volumeBoost: 2.0,
+ volumeBoost: 3.0,
  timeCategory: "evening-late"
 
 },
@@ -31051,7 +31036,7 @@ volumeBoost:1.30
     artist: "Gary Byrd   ",
     image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
     path: "https://danceoldies10.netlify.app/Gary Byrd - The Crown.mp3",
-  volumeBoost: 2.0,
+  volumeBoost: 3.0,
 timeCategory: "f afternoon"
 
 },
