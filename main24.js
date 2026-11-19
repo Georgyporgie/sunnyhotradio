@@ -3861,7 +3861,7 @@ year: 1977,
     path: "https://jazzmusic05.netlify.app/Ray Parker jr - Jack & Jill.mp3",
         timeCategory: "seventies",
     quickFade: true,
-    volumeBoost: 0.75,
+    volumeBoost: 3.00,
     playcount: 0
 },
 
@@ -5097,7 +5097,7 @@ part: 7
     path: "https://jazzmusic05.netlify.app/Ray Parker jr - Jack & Jill.mp3",
         timeCategory: "soulshow",
     quickFade: true,
-    volumeBoost: 0.75,
+    volumeBoost: 3.00,
     playcount: 0
 },
 
@@ -14731,7 +14731,7 @@ timeCategory: "afternoon"
     path: "https://jazzmusic05.netlify.app/Ray Parker jr - Jack & Jill.mp3",
         timeCategory: "afternoon",
     quickFade: true,
-    volumeBoost:1.75,
+        volumeBoost: 3.00,
     playcount: 0
 },
 
@@ -16046,7 +16046,7 @@ quickFade: true
      name: "  Take Over ",
     artist: "Rihanna ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Rihanna - Take Over (new).mp3",
+    path: "https://jazzmusic05.netlify.app/Rihanna - Take Over.mp3",
     timeCategory: "afternoon",
  year: 2026
 
@@ -35633,7 +35633,8 @@ function playTrack() {
   }
 
   curr_track.play();
-  isPlaying = true;
+ updateSpectrumVolume();
+ isPlaying = true;
 
   // … your existing UI logic …
   showNextTracks();   // <-- add here
@@ -35770,7 +35771,19 @@ function seekTo() {
 
 function setVolume() {
   curr_track.volume = volume_slider.value / 100;
+updateSpectrumVolume();
+
 }
+
+
+function updateSpectrumVolume() {
+    const spectrum = document.querySelector('.spectrum');
+
+    if (spectrum && curr_track) {
+        spectrum.style.opacity = curr_track.volume;
+    }
+}
+
 
 function seekUpdate() {
   let seekPosition = 0;
@@ -36024,8 +36037,11 @@ function showNextTracks() {
         path.includes("jingles") ||
         path.includes("discjockeys") ||
         path.includes("sunny ship") ||
-           path.includes("broadcast amsterdam") ||
-path.includes("reklame")
+        path.includes("Soulshow tussen") ||
+        path.includes("Soulshow intro") ||
+        path.includes("Soulshow intro2") ||
+        path.includes("soulshow tune01") ||
+       path.includes("reklame")
   
   );
 })
