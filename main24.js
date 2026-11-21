@@ -17789,7 +17789,7 @@ year:2026
     artist: "Haute & Freddy ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunny-dancemusic03.netlify.app/Haute & Freddy - Touch Touch (new).mp3",
-    volumeBoost:1.00,  
+    volumeBoost:1.50,  
    timeCategory: "afternoon",
    year:2026
 
@@ -28751,13 +28751,6 @@ year: 2022
 },
 
 
-{
-    name: "Running Up That Hill (12inch)",
-    artist: "Kate Bush ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunny-dancemusic02.netlify.app/Kate Bush - Running up that hill (12inch).mp3",
-  timeCategory: "evening-late"
-},
 
 
 
@@ -30663,15 +30656,6 @@ volumeBoost: 0.30
 
 
 
-{
-    name: "Dance (Disco Heat)",
-    artist: "Sylvester",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Sylvester - Dance (Disco Heat) live.mp3",
-        timeCategory: "f afternoon",
-    quickFade: true,
-      playcount: 0
-},
 
 
 
@@ -35140,7 +35124,8 @@ const isNonMusic = [
     "broadcast amsterdam",
     "audio",
     "just for",
-    "female dj1best"
+    "female dj1best",
+"DJ Sapphire"
 ].some(k => lower.includes(k));
 
 if (isNonMusic) {
@@ -35179,7 +35164,7 @@ const finalVolume = Math.max(
   0,
   Math.min(1, (base + boost) * loudness)
 );
-
+audio.volume = finalVolume;
 
   // -----------------------------
   // METADATA + FADE SCHEDULING
@@ -35251,18 +35236,24 @@ audio.addEventListener("canplay", () => {
     const stepTime = duration / steps;
     let step = 0;
 
-    const fade = setInterval(() => {
-      step++;
-      const progress = step / steps;
-      const eased = 1 - Math.pow(1 - progress, 3);
+const fade = setInterval(() => {
+  step++;
+  const progress = step / steps;
 
-      audio.volume = startVolume - (startVolume - targetVolume) * eased;
+  audio.volume = startVolume * (1 - progress);
 
-      if (step >= steps) {
-        clearInterval(fade);
-        audio.volume = targetVolume;
-      }
-    }, stepTime);
+  updateSpectrumVolume(); // 👈 add this
+
+  if (step >= steps) {
+    clearInterval(fade);
+    audio.volume = 0;
+   
+ updateSpectrumVolume(); // 👈 add this
+
+    audio.pause();
+    nextTrack();
+  }
+}, stepTime);
   }
 
   // -----------------------------
@@ -35283,13 +35274,7 @@ audio.addEventListener("canplay", () => {
         lowVolumeTimer = 0; // reset if volume goes back up
       }
 
-      // Trigger quickfade if too long under threshold
-      if (!quickFadeTriggered && lowVolumeTimer >= lowVolumeMaxTime) {
-        quickFadeTriggered = true;
-        console.log("⚡ Auto‑quickfade triggered due to long low-volume tail");
 
-        quickFade(audio, 1200); // 1.2s fast fade
-      }
     }
 
     // Stop watchdog when track ends
@@ -35633,7 +35618,6 @@ function playTrack() {
   }
 
   curr_track.play();
- updateSpectrumVolume();
  isPlaying = true;
 
   // … your existing UI logic …
@@ -35744,13 +35728,18 @@ function attachTrackEvents(curr_track, index) {
 
 
 function nextTrack() {
+
+  console.log(
+    "🎵 NEXT TRACK",
+    track_index,
+    Date.now()
+  );
+
   track_index = (track_index + 1) % scheduledMp3Files.length;
   loadTrack(track_index);
   playTrack();
-
-
+updateSpectrumVolume();
 }
-
 
 
 
@@ -35777,11 +35766,12 @@ updateSpectrumVolume();
 
 
 function updateSpectrumVolume() {
-    const spectrum = document.querySelector('.spectrum');
+    const bars = document.querySelectorAll('.spectrum span');
 
-    if (spectrum && curr_track) {
-        spectrum.style.opacity = curr_track.volume;
-    }
+    bars.forEach(bar => {
+        bar.style.transform =
+            `scaleY(${Math.max(curr_track.volume, 0.1)})`;
+    });
 }
 
 
