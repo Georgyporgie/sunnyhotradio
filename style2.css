@@ -363,8 +363,19 @@ border-radius: 5px;
 z-index: -100;
 }
 
-.inch  {
-color: #FF0000; z-index: 0; text-align: center; font-family: Arial ,Helvetica,sans-serif; background:linear-gradient(45deg,#0033FF,#006666,#003399); padding: 15px 15px 15px 15px;font-size: 25px; font-weight: 900; border: solid 1px #FF0000; border-radius: 5px;
+.inch {
+  color: #C62828;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(45deg,#001F8B,#0033FF,#001970);
+  padding: 15px;
+  font-size: 25px;
+  font-weight: 900;
+  border: 1px solid #C62828;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 0 0 6px rgba(198,40,40,.35);
 }
 
 
@@ -450,7 +461,7 @@ color: black;background-color: #FFCC99;border-radius:5px;
 
 /* Style navigation menu links */
 .topnav a {
-  color: #FF0000;
+  color:  #E53935;
    padding: 25px 14px 15px   10px;
   text-decoration: none;
   font-size: 17px;
@@ -580,26 +591,35 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
 /* Base styling */
 #track-list-container {
   font-size: 15px;
-  color: #FF2A2A;
-  background: linear-gradient(45deg,#0033FF,#006666,#003399);
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+  color: #C62828;
+
+  background: linear-gradient(45deg,#001F8B,#0033FF,#001970);
+
+  text-shadow: 0 0 6px rgba(198,40,40,.35);
   box-shadow: 0 0 12px rgba(0,0,0,0.4);
+
   font-family: Arial, Helvetica, sans-serif;
+
   border-radius: 12px;
-  border: solid 3px #FF2A2A;
+  border: 3px solid #C62828;
+
   font-weight: 800;
   padding: 15px;
   line-height: 1.5;
   letter-spacing: 0.5px;
+
   transition: all 0.3s ease;
+
   position: relative;
   overflow: hidden;
-  
-  
+
   box-sizing: border-box;
   text-align: center;
-}
 
+
+
+
+}
 
 
 
@@ -754,7 +774,7 @@ animation: blinker 1s step-start infinite;
 
 
 #events {
-color: #000080; z-index: 200; text-align: center; font-family: myEvent; padding: 25px 15px 25px 15px; font-size: 30px;  border: solid 3px #FF0000; border-radius: 5px;
+color: #000080; z-index: 200; text-align: center; font-family: myEvent; padding: 25px 15px 25px 15px; font-size: 30px;  border: solid 3px #C62828; border-radius: 5px;
 }
 
 #now  {
@@ -834,10 +854,19 @@ animation: blinker 0.5s step-start infinite;
 
 }
 
-
-
-#time  {
-color: #FF0000; z-index: 0; text-align: center;   background:linear-gradient(45deg,#0033FF,#006666,#003399); padding: 15px 15px 15px 15px;font-size: 25px;  border: solid 1px #FF0000;  border-radius: 5px;
+#time {
+  color: #C62828;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(45deg,#001F8B,#0033FF,#001970);
+  padding: 15px;
+  font-size: 25px;
+  font-weight: 900;
+  border: 1px solid #C62828;
+  border-radius: 5px; font-style: italic;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 0 0 6px rgba(198,40,40,.35);
 }
 
 #Victor
@@ -1215,7 +1244,8 @@ p  {  font-size: 25px; color: black; font-family: Arial ,Helvetica,sans-serif; t
 }
 
 .inca  {
-color: crimson; z-index: 200;
+ color: #C62828;
+ z-index: 200;
 }
 
 
@@ -1638,7 +1668,7 @@ z-index:-200;
 /* --- ICON --- */
 .icon span {
   font-size: 32px;
-  color: #ff0000;
+  color: #E53935;
   transition:
     transform .45s cubic-bezier(.25,1.5,.35,1),
     opacity .25s ease,
@@ -1902,20 +1932,33 @@ background: #FF2A2A;
 }
 
 .upcoming-btn {
-    background: #ff4500;
-    color: white;
-    border: none;
-    padding: 10px 18px;
+    background: linear-gradient(45deg,#001F8B,#0033FF,#001970);
+    color: #C62828;
+
+    border: 2px solid #C62828;
     border-radius: 8px;
+
+    padding: 10px 18px;
     cursor: pointer;
-    font-weight: bold;
-margin: 0 auto; display: block;
-    transition: 0.3s;
+
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    margin: 0 auto;
+    display: block;
+
+    text-shadow: 0 0 6px rgba(198,40,40,.35);
+box-shadow:
+    0 0 10px rgba(0,0,0,.4),
+    inset 0 1px 0 rgba(255,255,255,.15);
+    transition: all 0.3s ease;
 }
 
 .upcoming-btn:hover {
-    background: #ffb300;
+    background: linear-gradient(45deg,#0027B3,#004CFF,#002299);
     transform: scale(1.05);
+    box-shadow: 0 0 12px rgba(198,40,40,.4);
 }
 
 #upcomingTracks {

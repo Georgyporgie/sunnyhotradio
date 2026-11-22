@@ -8530,7 +8530,7 @@ timeCategory: "nineties"
     path: "https://sunnydanceoldies09.netlify.app/M.C. Hammer - U Can't Touch This (1990).mp3",
     timeCategory: "nineties",
     quickFade: true,
-volumeBoost: 0.20,
+volumeBoost:1.0,
 year: 1990
 },
 
@@ -8543,7 +8543,8 @@ year: 1990
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Jam & Spoon - Stella (1992).mp3",
        timeCategory: "nineties",
-  year: 1992
+  year: 1992,
+volumeBoost: 2.0
 },
 
 
@@ -30082,14 +30083,6 @@ year: 2021
 
 
 
-
-{
-    name: "Just For You ",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/40 in jingle.mp3",
-      timeCategory: "f afternoon"
-},
 {
     name: "Life For The Weekend",
     artist: "Sunny Ship☀️",
@@ -30272,15 +30265,6 @@ timeCategory: "f afternoon"
 
 
 
-
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/40 in jingle22.mp3",
-    timeCategory: "f afternoon"
-},
 
 
 
@@ -31031,15 +31015,6 @@ timeCategory: "f afternoon"
 
 
 
-{
-    name: "Just For You ",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/40 in jingle.mp3",
-        timeCategory: "f afternoon"
-
-},
-
 
 
 {
@@ -31374,7 +31349,8 @@ year: 2001
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Jam & Spoon - Stella (1992).mp3",
        timeCategory: "f evening",
-  year: 1992
+ volumeBoost: 2.0,
+ year: 1992
 },
 
 {
@@ -32124,7 +32100,7 @@ volumeBoost: 0.10
     path: "https://dancemusic08.netlify.app/Martin Garrix & Zedd - Follow.mp3",
     timeCategory: "f evening",
 isLoud: true,          
-  loudnessValue: 0.82
+  loudnessValue: 0.62
 },
 
   
@@ -32355,15 +32331,6 @@ timeCategory: "f evening"
 
 
 
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/40 in jingle.mp3",
-      timeCategory: "f evening"
-
-},
 
 
 
@@ -32835,16 +32802,6 @@ year: 2025
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/40 in jingle11.mp3",
-      timeCategory: "f evening"
-
-
-
-},
 
 
 
@@ -32861,16 +32818,6 @@ year: 2025
 
 
  
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/40 in jingle22.mp3",
-        timeCategory: "f evening"
-
-
-
-},
 
 
 
@@ -33601,14 +33548,6 @@ volumeBoost: 0.90
 
 
 
- 
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/40 in jingle11.mp3",
- timeCategory: "f evening-late"
-},
 
 
 
@@ -33616,14 +33555,6 @@ volumeBoost: 0.90
 
 
 
-
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/40 in jingle22.mp3",
- timeCategory: "f evening-late"
-},
 
 
 
@@ -34300,13 +34231,6 @@ year: 2020
 
 
 
-{
-    name: "Just For You",
-    artist: "Sunny Ship☀️",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/discjockeys/40 in jingle22.mp3",
-  timeCategory: "f evening-late"
-},
 
  
 
@@ -34649,14 +34573,6 @@ quickFade: true
 
 
 
-{
-    name: " Da Ya Think I'm Sexy (1978) ",
-    artist: "Rod Stewart  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies08.netlify.app/Rod Stewarrt - Da Ya Think I'm Sexy.mp3",
-   timeCategory: "f evening-late",
- volumeBoost: 0.50
-},
 
 
 
