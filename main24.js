@@ -9776,6 +9776,14 @@ year:2025
 
 
 
+{
+    name: "One Thing",
+    artist: "Lola Young  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Lola Young - One Thing.mp3",
+year: 2023,
+  timeCategory: "morning"
+}, 
 
 
 
@@ -16518,10 +16526,10 @@ year:2026
 
 
 {
-    name: " Carwash",
-    artist: "Rose Royce ",
+    name: " All In Mix",
+    artist: "KC Sunshine Band ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydance25.netlify.app/Rose Royce - Carwash Crossfade.mp3",
+    path: "https://sunnydance25.netlify.app/KC - All In Mix.mp3",
 year: 2023,
     timeCategory: " afternoon"
 }, 
@@ -16535,7 +16543,14 @@ year: 2023,
 },
 
 
-
+{
+    name: " Carwash",
+    artist: "Rose Royce ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Rose Royce - Carwash Crossfade.mp3",
+year: 2023,
+    timeCategory: " afternoon"
+}, 
 
 
 
@@ -17636,15 +17651,6 @@ year:2024
 
 
 
-{
-    name: " New Religion",
-    artist: "Bebe Rexha ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Bebe Rexha - New Religion (2026).mp3",
-       timeCategory: "afternoon",
-year: 2026
-  
-},
 
 
 {
@@ -17969,15 +17975,6 @@ year:2007
 
 
 
-{
-  name: " One In A Million",
-    artist: "Bebe Rexha ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydance25.netlify.app/Bebe Rexha - One In A Million insomnia.mp3",
-year: 2023,
-    timeCategory: "afternoon"
-}, 
-
 
 
 
@@ -18076,14 +18073,6 @@ year: 2022
 
 
 
-{
-  name: " One In A Million",
-    artist: "Bebe Rexha ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydance25.netlify.app/Bebe Rexha - One In  a cross religio.mp3",
-year: 2023,
-    timeCategory: "afternoon"
-}, 
 
 
 
@@ -22984,6 +22973,15 @@ isNew: true
 
 
 
+{
+  name: " One In A Million",
+    artist: "Bebe Rexha ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Bebe Rexha - One In A Million insomnia.mp3",
+year: 2023,
+        timeCategory: "evening"
+}, 
+
 
 {
     name: "Keep On Moving",
@@ -25372,7 +25370,14 @@ year: 1984
    timeCategory: "evening-late"
 },
 
-
+{
+    name: "  Sweet",
+    artist: "Sound of Legend",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Sound of Legend - Sweet.mp3",
+year: 2023,
+  timeCategory: "morning"
+}, 
 
 
 
@@ -25812,6 +25817,14 @@ year: 2001,
 
 
 
+{
+  name: " One In A Million",
+    artist: "Bebe Rexha ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Bebe Rexha - One In  a cross religio.mp3",
+year: 2023,
+    timeCategory: "afternoon"
+}, 
 
 
 {
@@ -25821,7 +25834,7 @@ year: 2001,
     path: "https://sunnydanceoldies09.netlify.app/Hamilton Bohannon - Let's Start To Dance 12 inch.mp3",
   eq: { bass: 2, mid: 3, treble: +1 } ,
 volumeBoost: 2.00,
-timeCategory: "evening-late"
+  timeCategory: "evening-late"
 
 },
 
@@ -26030,6 +26043,15 @@ loudnessValue: 0.80
 
 
 
+{
+    name: " New Religion",
+    artist: "Bebe Rexha ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Bebe Rexha - New Religion (2026).mp3",
+       timeCategory: "evening-late",
+year: 2026
+  
+},
 
 
 
@@ -29969,14 +29991,36 @@ year: 2025
 },
 
 
+{
+    name: "Nobody is There (new)",
+    artist: "Bebe Rexha ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Bebe Rexha - Nobody is There (new).mp3",
+year: 2023,
+    timeCategory: " f afternoon"
+}, 
 
 
 
+{
+    name: "One Thing",
+    artist: "Lola Young  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Lola Young - One Thing.mp3",
+year: 2023,
+    timeCategory: " f afternoon"
+}, 
 
 
 
-
-
+{
+    name: " Riptide ",
+    artist: "Vance Joy",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Vance Joy - Riptide vlboost.mp3",
+year: 2023,
+    timeCategory: " f afternoon"
+}, 
 
 
 
@@ -30511,14 +30555,7 @@ year:2026
 
 
 
-{
-    name: " One In A Million",
-    artist: "Bebe Rexha ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydance25.netlify.app/Bebe Rexha - One In  a cross religio.mp3",
-year: 2023,
-    timeCategory: "f afternoon"
-}, 
+
 
 {
     name: "  Touch Touch (new)",
@@ -31514,6 +31551,14 @@ timeCategory: "f evening"
 
 
 
+{
+  name: " One In A Million",
+    artist: "Bebe Rexha ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Bebe Rexha - One In A Million insomnia.mp3",
+year: 2023,
+    timeCategory: "f evening"
+}, 
 
 
 {
@@ -32167,7 +32212,14 @@ volumeBoost:1.9
 },
 
 
-
+{
+    name: " One In A Million",
+    artist: "Bebe Rexha ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Bebe Rexha - One In  a cross religio.mp3",
+year: 2023,
+    timeCategory: "f evening"
+}, 
 
 
 
@@ -33263,15 +33315,7 @@ isNew: true
     timeCategory: "f evening-late"
 },
 
-{
-    name: " New Religion",
-    artist: "Bebe Rexha ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Bebe Rexha - New Religion (2026).mp3",
-       timeCategory: "f evening-late",
-year: 2026
-  
-},
+
 
 
 {
