@@ -200,8 +200,7 @@ display: none;
 
 .topnav {
   overflow: hidden;
-  background-color: #333; border: solid 1px #FF0000;
-
+  background-color: #333; border: solid 1px  #D61F26;
   position: relative;  margin: -9px -9px -9px -9px;
 }
 
@@ -316,7 +315,7 @@ display: block; margin: auto auto auto auto; z-index: 200;font-size: 26px;color:
 float: right; margin-right: 20px;z-index: -200;font-size: 20px;color:crimson; border-radius: 3px;background-color: black;padding: 5px 5px 0px 5px;
 }
 
-#studio  {  display: block; margin: auto auto auto auto;     filter:brightness(110%) saturation(110%) contrast(110%) opacity(75%);width: 265px; height: 175px; margin-right: -5px;  border: solid #FF0000 1px; z-index: 200; border-radius: 5px;   display:block; margin:auto auto auto auto;
+#studio  {  display: block; margin: auto auto auto auto;     filter:brightness(110%) saturation(110%) contrast(110%) opacity(75%);width: 265px; height: 175px; margin-right: -5px;  border: solid    #D61F26 1px; z-index: 200; border-radius: 5px;   display:block; margin:auto auto auto auto;
 }
 
 
