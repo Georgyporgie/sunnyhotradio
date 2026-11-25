@@ -4655,14 +4655,7 @@ volumeBoost: 0.8
 
 
 
-{
-     name: "Intro",
-    artist: "Soulshow  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemusic04.netlify.app/Soulshow intro.mp3",
-    timeCategory: "soulshow",
-part: 1
-},
+
 
 {
      name: "Intro",
@@ -4670,9 +4663,181 @@ part: 1
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Soulshow tussen.mp3",
     timeCategory: "soulshow",
+part: 1
+},
+
+
+
+
+
+
+
+
+{
+    name: "    Mellow Mellow Right On  ",
+    artist: "Lowrell ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Lowrell - Mellow Mellow Right On.mp3",
+   timeCategory: "soulshow",
+   quickfade:true,
 part: 2
 },
 
+
+
+
+
+{
+    name: " Straight Ahead ",
+    artist: "Kool & Gang ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Kool & The Gang - Straight Ahead.mp3",
+        timeCategory: "soulshow",
+   year:1984,
+ quickFade: true,
+ part: 3
+},
+
+{
+     name: " A Love Supreme",
+    artist: "Will Downing ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Will Downing  - A Love Supreme.mp3",
+           timeCategory: "soulshow",
+year: 1988,
+part: 4
+},
+
+
+
+
+
+
+{
+    name: "Ain't We Funkin' Now",
+    artist: "Brothers Johnson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Brothers Johnson - Ain't We Funkin' Now!!2.mp3",
+         timeCategory: "soulshow",
+part: 5
+
+},
+
+
+{
+     name: " One nation Under A Groove  ",
+    artist: " Funkadelic ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/One nation under a groove -  Funkadelic.mp3",
+    timeCategory: "soulshow",
+part: 6
+
+
+},
+
+{
+    name: "Celebration  ",
+    artist: "Kool & Gang ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Kool & Gang - Celebration.mp3",
+        timeCategory: "soulshow",
+    quickFade: true,
+ part: 7
+},
+
+
+
+
+
+{
+    name: " I Want Your Love",
+    artist: "Chic",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Chic - I Want Your Love (soulshow).mp3",
+   timeCategory: "soulshow",
+ part: 8
+},
+
+
+
+
+{
+    name: "Sweet Lucy",
+    artist: "Raoul de Souza ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Raoul de Souza - Sweet Lucy.mp3",
+   timeCategory: "soulshow",
+volumeBoost: 0.30,
+ part: 9
+
+
+},
+
+{
+    name: "Tighten Up ",
+    artist: "Archie Bell ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Archie Bell - Tighten Up.mp3",
+   timeCategory: "soulshow",
+ part: 10
+},
+
+
+
+{
+    name: "Right Place Wrong Time ",
+    artist: "Dr John",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Dr John - Right Place Wrong Time.mp3",
+   timeCategory: "soulshow",
+ part: 11
+},
+
+
+{
+    name: "Do It Again ",
+    artist: "Staple Singers ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydancemuziek01.netlify.app/Staple Singers - Do It Again.mp3",
+   timeCategory: "soulshow",
+ part: 12,
+
+year: 1975
+},
+
+
+
+
+{
+    name: " Get On Up (maxi) ",
+    artist: " Jazzy Dee",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/Jazzy Dee - Get On Up (maxi).mp3",
+        timeCategory: "soulshow",
+    quickFade: true,
+  part: 13
+},
+
+{
+    name: " Make Luv",
+    artist: "Room 5  feat. Oliver Cheatham ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Room 5 - Make Luv feat. Oliver Cheatham.mp3",
+
+         timeCategory: "soulshow",
+part:14
+}, 
+
+
+{
+     name: " Megamix Kool",
+    artist: "Kool & The Gang  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies09.netlify.app/Kool & The Gang - Megamix soulshow!.mp3",
+    timeCategory: "soulshow",
+ part: 15
+
+},
 
 
 {
@@ -4683,7 +4848,7 @@ part: 2
         timeCategory: "soulshow",
      quickFade: true,
     volumeBoost:2.50,
-part: 3
+part: 16
 },
 
 {
@@ -4694,20 +4859,11 @@ part: 3
          timeCategory: "soulshow",
  quickFade: true,
     volumeBoost: 0.45,
-part: 4
+part:17
 },
 
 
 
-{
-    name: " Make Luv",
-    artist: "Room 5  feat. Oliver Cheatham ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydance25.netlify.app/Room 5 - Make Luv feat. Oliver Cheatham.mp3",
-
-         timeCategory: "soulshow",
-part:5
-}, 
 
 
 {
@@ -4716,7 +4872,7 @@ part:5
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Soulshow tussen2.mp3",
     timeCategory: "soulshow",
-part: 6
+part:18
 },
 
 
@@ -4726,7 +4882,7 @@ part: 6
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/George mcGray - Rock Me Baby.mp3",
     timeCategory: "soulshow",
-part: 7
+part: 19
 },
 
 
@@ -4736,7 +4892,7 @@ part: 7
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Soulshow intro2.mp3",
     timeCategory: "soulshow",
-part: 8
+part: 20
 },
 
 
@@ -4749,7 +4905,7 @@ part: 8
     path: "https://sunnydancemusic04.netlify.app/EWF Fantasy.mp3",
     timeCategory: "soulshow",
 volumeBoost: 1.5,
-part: 9
+part:21
 
 },
 
@@ -4761,7 +4917,7 @@ part: 9
     path: "https://sunnydanceoldies04.netlify.app/Lakeside - It's All The Way Live.mp3",
          timeCategory: "soulshow",
 volumeBoost: 0.35,
-part: 10
+part: 22
 },
 
 {
@@ -4770,7 +4926,7 @@ part: 10
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Soulshow intro2.mp3",
     timeCategory: "soulshow",
-part: 11
+part: 23
 
 },
 
@@ -4783,7 +4939,7 @@ timeCategory: "soulshow",
     eq: { bass: 2, mid: 2, treble: +1 } ,
 volumeBoost: 0.75,
  playcount: 0,
-part: 12
+part: 24
 },
 
 {
@@ -4792,7 +4948,7 @@ part: 12
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/soulshow tune01.mp3",
     timeCategory: "soulshow",
-part: 13
+part: 25
 
 },
 
@@ -4804,7 +4960,7 @@ part: 13
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://danceoldies10.netlify.app/Word up cameo.mp3",
         timeCategory: "soulshow",
-part: 14
+part: 26
 },
 
 {
@@ -4816,7 +4972,7 @@ part: 14
  quickFade: true,
   volumeBoost: 0.45,
     playcount: 0,
-part: 15
+part: 27
 
 },
 
@@ -4828,7 +4984,7 @@ part: 15
     path: "https://danceoldies10.netlify.app/Brass Construction - Movin'.mp3",
  
  timeCategory: "soulshow",
-part: 16
+part: 28
 },
 
 
@@ -4849,7 +5005,7 @@ part: 16
   
  timeCategory: "soulshow",
 volumeBoost: 0.20,
-part: 17
+part: 29
 
 },
 {
@@ -4862,27 +5018,13 @@ part: 18
 },
 
 
-
-
-
-
-{
-    name: "    Mellow Mellow Right On  ",
-    artist: "Lowrell ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Lowrell - Mellow Mellow Right On.mp3",
-   timeCategory: "soulshow",
-   quickfade:true,
-part: 19
-},
-
 {
      name: "Intro",
     artist: "Soulshow  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Soulshow intro.mp3",
     timeCategory: "soulshow",
-part: 20
+part: 30
 },
 
 
@@ -5034,6 +5176,16 @@ volumeBoost:2.5,
 part: 5
   
 },
+{
+    name: "Let No Man Put Asunder  ",
+    artist: "First Choice   ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://jazzmusic05.netlify.app/First Choice  -Let No Man Put Asunder.mp3",
+        timeCategory: "soulshow",
+    quickFade: true
+ 
+},
+
 
 {
     name: "I Want Your Love",
@@ -5163,150 +5315,6 @@ volumeBoost:1.0
 timeCategory: "soulshow",
   volumeBoost: 0.20
 },
-
-
-
-
-{
-    name: " Straight Ahead ",
-    artist: "Kool & Gang ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Kool & The Gang - Straight Ahead.mp3",
-        timeCategory: "soulshow",
-   year:1984,
- quickFade: true
- 
-},
-
-{
-     name: " A Love Supreme",
-    artist: "Will Downing ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Will Downing  - A Love Supreme.mp3",
-           timeCategory: "soulshow",
-year: 1988
-},
-
-
-
-
-
-
-{
-    name: "Ain't We Funkin' Now",
-    artist: "Brothers Johnson",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Brothers Johnson - Ain't We Funkin' Now!!2.mp3",
-         timeCategory: "soulshow"
-},
-
-
-{
-     name: " One nation Under A Groove  ",
-    artist: " Funkadelic ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/One nation under a groove -  Funkadelic.mp3",
-    timeCategory: "soulshow"
-},
-
-{
-    name: "Celebration  ",
-    artist: "Kool & Gang ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Kool & Gang - Celebration.mp3",
-        timeCategory: "soulshow",
-    quickFade: true
- 
-},
-
-
-
-{
-    name: "Let No Man Put Asunder  ",
-    artist: "First Choice   ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/First Choice  -Let No Man Put Asunder.mp3",
-        timeCategory: "soulshow",
-    quickFade: true
- 
-},
-
-
-
-{
-    name: " I Want Your Love",
-    artist: "Chic",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Chic - I Want Your Love (soulshow).mp3",
-   timeCategory: "soulshow"
-
-},
-
-
-
-
-{
-    name: "Sweet Lucy",
-    artist: "Raoul de Souza ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Raoul de Souza - Sweet Lucy.mp3",
-   timeCategory: "soulshow",
-volumeBoost: 0.30
-},
-
-{
-    name: "Tighten Up ",
-    artist: "Archie Bell ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Archie Bell - Tighten Up.mp3",
-   timeCategory: "soulshow"
-
-},
-
-
-
-{
-    name: "Right Place Wrong Time ",
-    artist: "Dr John",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Dr John - Right Place Wrong Time.mp3",
-   timeCategory: "soulshow"
-
-},
-
-
-{
-    name: "Do It Again ",
-    artist: "Staple Singers ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydancemuziek01.netlify.app/Staple Singers - Do It Again.mp3",
-   timeCategory: "soulshow",
-year: 1975
-},
-
-
-{
-    name: " Get On Up (maxi) ",
-    artist: " Jazzy Dee",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Jazzy Dee - Get On Up (maxi).mp3",
-        timeCategory: "soulshow",
-    quickFade: true
- 
-},
-
-
-
-{
-     name: " Megamix Kool",
-    artist: "Kool & The Gang  ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies09.netlify.app/Kool & The Gang - Megamix soulshow!.mp3",
-    timeCategory: "soulshow"
-},
-
-
-
 
 
 
@@ -6545,7 +6553,7 @@ year: 1984
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Advance - Take me to the top.mp3",
    timeCategory: "eighties",
-volumeBoost: 2.30,
+volumeBoost: 2.70,
 year: 1982
 },
 
@@ -16794,7 +16802,7 @@ year:1984
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydanceoldies08.netlify.app/Advance - Take me to the top.mp3",
    timeCategory: "afternoon",
-volumeBoost: 2.30,
+volumeBoost: 2.70,
 year: 1982
 },
 
@@ -16966,7 +16974,7 @@ year: 2021
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnydancemusic04.netlify.app/Charli XCX - Break the Rules.mp3",
    isLoud: true,          
-  loudnessValue: 0.75,  
+  loudnessValue: 0.55,  
   year:2022,
    timeCategory: "afternoon"
 
@@ -19394,7 +19402,7 @@ playcount: 0
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://dancemusic09.netlify.app/Dua Lipa - In Love Again.mp3",
     timeCategory: "evening",
-    volumeBoost: 0.15,
+    volumeBoost: 1.15,
 year: 2020
 },
 
@@ -35890,7 +35898,6 @@ function stripAllParentheses(text) {
 
 
 
-
 function renderLiveLog(currentTrack) {
   // --- BADGE REMOVED COMPLETELY ---
   const formatBadge = () => "";
@@ -35903,7 +35910,15 @@ function renderLiveLog(currentTrack) {
 
   // --- FILTERING RULES ---
   const excludedTypes = ["classic", "new", "12inch", "maxi"];
-  const badPaths = ["jingle", "discjockeys", "sunny ship", "audio", "news", "intro","Sunny"];
+  const badPaths = [
+    "jingle",
+    "discjockeys",
+    "sunny ship",
+    "audio",
+    "news",
+    "intro",
+    "sunny"
+  ];
 
   const history = playedTracks
     .slice(0, -1)
@@ -35919,12 +35934,28 @@ function renderLiveLog(currentTrack) {
 
   // --- NOW PLAYING ---
   const nowPlayingHTML = `
-    <span style="color:#ffb300;">${emphasizeKeywords(currentTrack.name)}</span>
-    <span style="color:#FF2A2A;"> by </span>
-    <span style="color:#ffb300;">${emphasizeKeywords(currentTrack.artist)}</span>
+    <span style="color:#FFC857;
+  text-shadow:
+    0 0 6px rgba(255,200,87,.35),
+    0 0 12px rgba(255,200,87,.15);
+">
+
+      ${emphasizeKeywords(currentTrack.name)}
+    </span>
+
+    <span style="color:#D61F26;">
+      by
+    </span>
+
+    <span style="color:#FFD56A;">
+      ${emphasizeKeywords(currentTrack.artist)}
+    </span>
+
     ${formatBadge(currentTrack)}
     ${formatMood(currentTrack)}
+
     <br>
+
     ${
       currentTrack.path &&
       !badPaths.some(b => currentTrack.path.toLowerCase().includes(b)) &&
@@ -35942,15 +35973,32 @@ function renderLiveLog(currentTrack) {
     history.length > 0
       ? `
         <br>
-        <strong style="color:#FF2A2A; font-style:italic;">played before:</strong><br>
+
+<strong style="color:#B71C1C; font-style:italic;">
+  played before:
+</strong>
+
+        <br>
+
         ${history
           .map(t => `
-            <div class="history-item" style="margin-bottom: 10px;">
-              <span style="color:#FF4500;">${emphasizeKeywords(stripAllParentheses(t.name))}</span>
-              <span style="color:#C0c0c0;"> by </span>
-              <span style="color:#FF4500;">${emphasizeKeywords(stripAllParentheses(t.artist))}</span>
+            <div class="history-item" style="margin-bottom:10px;">
+
+              <span style="color:#FFC857;">
+                ${emphasizeKeywords(stripAllParentheses(t.name))}
+              </span>
+
+              <span style="color:#AFAFAF;">
+                by
+              </span>
+
+              <span style="color:#FFD56A;">
+                ${emphasizeKeywords(stripAllParentheses(t.artist))}
+              </span>
+
               ${formatBadge(t)}
               ${formatMood(t)}
+
             </div>
           `)
           .join("")}
@@ -35959,6 +36007,8 @@ function renderLiveLog(currentTrack) {
 
   document.getElementById("played-before-log").innerHTML = historyHTML;
 }
+
+
 
 function countUniqueTracks(list) {
   return new Set(list.map(t => t.path)).size;
