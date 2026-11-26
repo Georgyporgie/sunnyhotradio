@@ -61,6 +61,17 @@ src:url(arialbi.ttf);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /* Changing the font sizes to suitable ones */
 .now-playing {
   font-size: 1rem; font-style: italic;
@@ -75,7 +86,7 @@ src:url(arialbi.ttf);
     position: relative;
     overflow: hidden;
 
-    z-index: 0;
+    z-index: -200;
 
     padding: 12px 15px;
 
@@ -244,7 +255,7 @@ text-shadow:
 .total-duration {
     position: relative;
     overflow: hidden;
-
+z-index: -600;
     font-family: 'Orbitron', sans-serif;
     font-variant-numeric: tabular-nums;
 color: #ff4040;
@@ -419,7 +430,7 @@ animation: trackPulse 8s ease-in-out infinite;
     display: flex;
     align-items: center;
     justify-content: center;
-
+z-index: -600;
     margin: auto;
 
     background: linear-gradient(
@@ -997,7 +1008,7 @@ color: #0033FF; /* Navy Blue: #000080 */  z-index: 200; text-align: center; font
     neonPulse 1.6s infinite ease-in-out,
     floaty 3.4s ease-in-out infinite;
 background: #8E1212;
-
+z-index: -900;
   font-weight: bold;
   font-size: 11px;
   font-style:italic;
@@ -2259,4 +2270,7 @@ background: #FF2A2A;
         height:100px;
     }
 }
-.
+
+.slider_container    {  color: black;
+
+}
