@@ -4684,15 +4684,16 @@ part: 1
 
 
 
+
 {
-    name: "    Mellow Mellow Right On  ",
-    artist: "Lowrell ",
+    name: " All In Mix",
+    artist: "KC Sunshine Band ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies05.netlify.app/Lowrell - Mellow Mellow Right On.mp3",
-   timeCategory: "soulshow",
-   quickfade:true,
-part: 2
-},
+    path: "https://sunnydance25.netlify.app/KC - All In Mix.mp3",
+year: 1975,
+    timeCategory: " soulshow",
+part:2
+}, 
 
 
 
