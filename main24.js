@@ -4685,30 +4685,6 @@ part: 1
 
 
 
-{
-    name: " All In Mix",
-    artist: "KC Sunshine Band ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydance25.netlify.app/KC - All In Mix.mp3",
-year: 1975,
-    timeCategory: " soulshow",
-part:2
-}, 
-
-
-
-
-
-{
-    name: " Straight Ahead ",
-    artist: "Kool & Gang ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://jazzmusic05.netlify.app/Kool & The Gang - Straight Ahead.mp3",
-        timeCategory: "soulshow",
-   year:1984,
- quickFade: true,
- part: 3
-},
 
 {
      name: " A Love Supreme",
@@ -4851,6 +4827,18 @@ part:14
 
 },
 
+
+
+
+{
+    name: " All In Mix",
+    artist: "KC Sunshine Band ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/KC - All In Mix.mp3",
+year: 1975,
+    timeCategory: " soulshow",
+part:16
+}, 
 
 {
      name: " Instant Replay",
