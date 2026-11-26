@@ -3300,6 +3300,17 @@ volumeBoost: 0.90
 
 
 
+{
+    name: " Nutbush City",
+    artist: "Ike & Tina Turner",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://danceoldies10.netlify.app/Ike & Tina Turner - Nutbush City.mp3",
+      year: 1977,
+ quickFade: true,
+  timeCategory: "seventies"
+
+  
+},
 
 
 
@@ -5372,9 +5383,24 @@ timeCategory: "soulshow",
 }, 
 
 
+{
+    name: "Nasty Girl (maxi)",
+    artist: "Vanity Six ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Vanity Six - Nasty Girl (maxi).mp3",
+
+   timeCategory: "eighties"
+}, 
 
 
+{
+    name: "    Saturday Love",
+    artist: "Cherelle",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Cherelle - Saturday Love.mp3",
 
+   timeCategory: "eighties"
+}, 
 
 
 
@@ -5587,7 +5613,7 @@ quickFade: true,
     path: "https://dancemusic06.netlify.app/David Bowie - Let's Dance(maxi).mp3",
     timeCategory: "eighties",
    year:1983,
-volumeBoost: 1.70
+volumeBoost: 2.70
 },
 
 
@@ -6584,7 +6610,7 @@ year: 1982
     path: "https://sunnydanceoldies08.netlify.app/Rockers Revenge - Walking On Sunshine (12inch).mp3",
    timeCategory: "eighties",
      quickFade: true,
-    volumeBoost: 0.55,
+    volumeBoost:2.55,
     playcount: 0,
   eq: { bass: 2, mid: 1, treble: +1 }
 },
@@ -7884,6 +7910,14 @@ volumeBoost: 0.20
 
 
 
+{
+    name: "  The Chime",
+    artist: "Orbital",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Orbital- The Chime.mp3",
+
+   timeCategory: "nineties"
+}, 
 
 
 
@@ -16891,7 +16925,7 @@ year: 1982
     path: "https://sunnydanceoldies08.netlify.app/Rockers Revenge - Walking On Sunshine (12inch).mp3",
    timeCategory: "afternoon",
      quickFade: true,
-    volumeBoost: 0.55,
+    volumeBoost: 2.55,
     playcount: 0,
   eq: { bass: 2, mid: 1, treble: +1 }
 },
@@ -27961,6 +27995,13 @@ year:2023
 
 
 
+{
+    name: " Michael Jackson (maxi)",
+    artist: "Bad",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Bad Michael Jackson.mp3",
+       timeCategory: "eigties"
+}, 
 
 
 
@@ -30457,7 +30498,13 @@ year: 2023,
 year:2004
 },
 
-
+{
+    name: " Saturday Love ",
+    artist: "Cherellecrossfade nasty girl ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Cherelle - Saturday Love crossfade nasty girl.mp3",
+         timeCategory: "f afternoon"
+},
 
 
 {
@@ -30530,7 +30577,13 @@ year:2004
  year: 1997
 },
 
-
+{
+    name: "Sunglasses At Night",
+    artist: "Heidi Klum ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Heidi Klum - Sunglasses At Nightcrossfade.mp3",
+         timeCategory: "f afternoon"
+}, 
 
 
 {
@@ -32827,6 +32880,13 @@ timeCategory: "f evening"
 
 
 
+{
+    name: " Michael Jackson (maxi)",
+    artist: "Bad",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Bad Michael Jackson.mp3",
+       timeCategory: "f evening"
+}, 
 
 
 
@@ -33408,9 +33468,24 @@ year: 2004
 
 
 
+{
+    name: " Nasty Girl (maxi)",
+    artist: "Vanity Six",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Vanity Six - Nasty Girl (maxi).mp3",
+     timeCategory: "f evening-late"
+}, 
 
 
 
+
+{
+    name: " Nasty Girl (maxi)",
+    artist: "Vanity Six",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydance25.netlify.app/Vanity Six - Nasty Girl (maxi).mp3",
+     timeCategory: "f evening-late"
+}, 
 
 
 
